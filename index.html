@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>心动档案站 - 首页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <div class="bg-aura bg-aura-one"></div>
+  <div class="bg-aura bg-aura-two"></div>
+  <div class="bg-stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true">★</span>
+      <span>心动档案站</span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <details class="menu-dropdown">
+        <summary class="menu-toggle">
+          <span class="menu-icon" aria-hidden="true">≡</span>
+          <span>导航</span>
+          <span class="menu-caret" aria-hidden="true">▾</span>
+        </summary>
+        <div class="menu-panel">
+          <a class="active" href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>每日一句</span></a>
+          <a href="videos.html"><span aria-hidden="true">▶</span><span>视频记录</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>二次元相册</span></a>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="home-carousel" aria-label="首页照片轮播">
+      <div class="carousel-track" id="homeCarouselTrack">
+        <article class="carousel-slide active">
+          <img src="https://picsum.photos/id/1039/1400/720" alt="城市黄昏天空" loading="lazy">
+          <div class="carousel-caption">
+            <p class="carousel-tag">心动瞬间 01</p>
+            <h2>把平凡日常，拍成电影感的记忆</h2>
+          </div>
+        </article>
+        <article class="carousel-slide">
+          <img src="https://picsum.photos/id/1011/1400/720" alt="湖边晚霞与倒影" loading="lazy">
+          <div class="carousel-caption">
+            <p class="carousel-tag">心动瞬间 02</p>
+            <h2>每一帧都像番剧里的温柔分镜</h2>
+          </div>
+        </article>
+        <article class="carousel-slide">
+          <img src="https://picsum.photos/id/1040/1400/720" alt="海边日落" loading="lazy">
+          <div class="carousel-caption">
+            <p class="carousel-tag">心动瞬间 03</p>
+            <h2>把一起看过的风景，留在这里</h2>
+          </div>
+        </article>
+        <article class="carousel-slide">
+          <img src="https://picsum.photos/id/1035/1400/720" alt="星空与山脉" loading="lazy">
+          <div class="carousel-caption">
+            <p class="carousel-tag">心动瞬间 04</p>
+            <h2>下一次旅行，也想和你并肩出发</h2>
+          </div>
+        </article>
+      </div>
+      <button class="carousel-btn prev" type="button" id="carouselPrev" aria-label="上一张">‹</button>
+      <button class="carousel-btn next" type="button" id="carouselNext" aria-label="下一张">›</button>
+      <div class="carousel-dots" id="carouselDots" aria-label="轮播指示"></div>
+    </section>
+
+    <section class="hero-block">
+      <p class="hero-kicker">SANWAN 风格基调 × 轻二次元点缀</p>
+      <h1>把你们的日常，存成可回看的小宇宙</h1>
+      <p class="hero-sub">首页只做总览，具体内容分到独立页面管理。数据仍保存在当前浏览器本地。</p>
+      <div class="hero-tags">
+        <span>每日留言</span>
+        <span>回忆视频</span>
+        <span>ACG 相册</span>
+      </div>
+    </section>
+
+    <section class="entry-grid" aria-label="页面入口">
+      <a class="entry-card" href="messages.html">
+        <p class="entry-icon" aria-hidden="true">✉</p>
+        <h2>每日一句</h2>
+        <p>记录今天想对她说的话和你的心情。</p>
+      </a>
+      <a class="entry-card" href="videos.html">
+        <p class="entry-icon" aria-hidden="true">▶</p>
+        <h2>视频记录</h2>
+        <p>保存一起看过的视频与重要片段链接。</p>
+      </a>
+      <a class="entry-card" href="albums.html">
+        <p class="entry-icon" aria-hidden="true">▦</p>
+        <h2>二次元相册</h2>
+        <p>按分类管理她喜欢的角色、壁纸与收藏图。</p>
+      </a>
+    </section>
+
+    <section class="stat-grid" aria-label="数据统计">
+      <article class="stat-card"><p>留言记录</p><strong id="statMessages">0</strong></article>
+      <article class="stat-card"><p>视频回忆</p><strong id="statVideos">0</strong></article>
+      <article class="stat-card"><p>相册图片</p><strong id="statAlbums">0</strong></article>
+      <article class="stat-card"><p>最近更新</p><strong id="statUpdated">-</strong></article>
+    </section>
+  </main>
+
+  <footer class="site-foot">下一步可加：导出/导入、纪念日倒计时、访问密码。</footer>
+  <script src="backend-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+

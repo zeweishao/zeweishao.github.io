@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>心动档案站 - 二次元相册</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-aura bg-aura-one"></div>
+  <div class="bg-aura bg-aura-two"></div>
+  <div class="bg-stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true">★</span>
+      <span>心动档案站</span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <details class="menu-dropdown">
+        <summary class="menu-toggle">
+          <span class="menu-icon" aria-hidden="true">≡</span>
+          <span>导航</span>
+          <span class="menu-caret" aria-hidden="true">▾</span>
+        </summary>
+        <div class="menu-panel">
+          <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>每日一句</span></a>
+          <a href="videos.html"><span aria-hidden="true">▶</span><span>视频记录</span></a>
+          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>二次元相册</span></a>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero-block hero-compact">
+      <p class="hero-kicker">Anime Gallery Collection</p>
+      <h1>二次元分类相册</h1>
+      <p class="hero-sub">可使用已有分类，也可以创建新分类，整理角色图与壁纸收藏。</p>
+    </section>
+
+    <section class="panel">
+      <form id="albumForm" class="form-grid">
+        <label class="full">选择照片文件<input id="photoFile" type="file" accept="image/*,.jpg,.jpeg,.png,.webp,.gif" required></label>
+        <p class="full card-meta">上传后文件会保存到当前目录下的 `photos/` 文件夹，页面展示也从该文件夹读取。</p>
+        <div class="actions full">
+          <button class="btn-main" type="submit">上传照片</button>
+          <button class="btn-sub" type="button" id="albumReset">清空</button>
+        </div>
+      </form>
+      <div id="albumList" class="album-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-foot">照片文件保存到当前目录 `photos/` 文件夹。</footer>
+  <script src="backend-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-text-key="msg.page_title">心动档案站 - 每日一句</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-aura bg-aura-one"></div>
+  <div class="bg-aura bg-aura-two"></div>
+  <div class="bg-stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-badge" aria-hidden="true">★</span>
+      <span data-text-key="msg.brand">心动档案站</span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <details class="menu-dropdown">
+        <summary class="menu-toggle">
+          <span class="menu-icon" aria-hidden="true">≡</span>
+          <span data-text-key="msg.nav_menu">导航</span>
+          <span class="menu-caret" aria-hidden="true">▾</span>
+        </summary>
+        <div class="menu-panel">
+          <a href="index.html"><span aria-hidden="true">⌂</span><span data-text-key="msg.nav_home">首页</span></a>
+          <a class="active" href="messages.html"><span aria-hidden="true">✉</span><span data-text-key="msg.nav_messages">每日一句</span></a>
+          <a href="videos.html"><span aria-hidden="true">▶</span><span data-text-key="msg.nav_videos">视频记录</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span data-text-key="msg.nav_albums">二次元相册</span></a>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero-block hero-compact">
+      <p class="hero-kicker" data-text-key="msg.hero_kicker">Daily Message Wall</p>
+      <h1 data-text-key="msg.hero_title">每日留言墙</h1>
+      <p class="hero-sub" data-text-key="msg.hero_sub">只看留言卡片，不被表单打扰。点击心形按钮即可悬浮录入。</p>
+    </section>
+
+    <section class="message-toolbar" aria-label="留言操作">
+      <button id="openMessageModal" class="heart-entry" type="button" aria-label="录入留言" data-aria-label-key="msg.open_entry_aria">
+        <span data-text-key="msg.open_entry_btn">录入</span>
+      </button>
+      <p data-text-key="msg.toolbar_tip">点击爱心写下今天的留言，保存时间会自动记录。</p>
+    </section>
+
+    <section class="panel">
+      <div id="messageList" class="list-grid message-board"></div>
+    </section>
+  </main>
+
+  <div id="messageModal" class="message-modal" hidden>
+    <div class="message-modal-card" role="dialog" aria-modal="true" aria-labelledby="messageModalTitle">
+      <button id="closeMessageModal" class="message-modal-close" type="button" aria-label="关闭录入窗口" data-aria-label-key="msg.close_entry_aria">×</button>
+      <h2 id="messageModalTitle" data-text-key="msg.entry_title">写下今天想说的话</h2>
+      <form id="messageForm" class="message-modal-form">
+        <label for="messageContent" data-text-key="msg.entry_content_label">留言内容</label>
+        <textarea id="messageContent" maxlength="1000" placeholder="把今天想说的都写下来..." data-placeholder-key="msg.entry_content_placeholder" required></textarea>
+        <label for="messagePasscode" data-text-key="msg.entry_code_label">验证信息</label>
+        <input id="messagePasscode" type="password" inputmode="numeric" maxlength="4" required>
+        <p id="messageFormError" class="form-error" aria-live="polite"></p>
+        <div class="actions">
+          <button class="btn-main" type="submit" data-text-key="msg.entry_submit_btn">确认留言</button>
+          <button class="btn-sub" type="button" id="cancelMessageModal" data-text-key="msg.entry_cancel_btn">取消</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="commentModal" class="message-modal" hidden>
+    <div class="message-modal-card" role="dialog" aria-modal="true" aria-labelledby="commentModalTitle">
+      <button id="closeCommentModal" class="message-modal-close" type="button" aria-label="关闭评论窗口" data-aria-label-key="msg.close_comment_aria">×</button>
+      <h2 id="commentModalTitle" data-text-key="msg.comment_title">写下评论</h2>
+      <form id="commentForm" class="message-modal-form">
+        <label for="commentContent" data-text-key="msg.comment_content_label">评论内容</label>
+        <textarea id="commentContent" maxlength="500" placeholder="给这条留言补一句..." data-placeholder-key="msg.comment_content_placeholder" required></textarea>
+        <label for="commentPasscode" data-text-key="msg.comment_code_label">评论验证</label>
+        <input id="commentPasscode" type="password" inputmode="numeric" maxlength="4" required>
+        <p id="commentFormError" class="form-error" aria-live="polite"></p>
+        <div class="actions">
+          <button class="btn-main" type="submit" data-text-key="msg.comment_submit_btn">确认评论</button>
+          <button class="btn-sub" type="button" id="cancelCommentModal" data-text-key="msg.comment_cancel_btn">取消</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-foot" data-text-key="msg.footer_note">留言和评论由后端持久化存储，可跨设备同步。</footer>
+  <script src="backend-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
