@@ -5,11 +5,12 @@ const fsp = require("fs/promises");
 const { URL } = require("url");
 
 const ROOT = __dirname;
+const DATA_ROOT = path.resolve(process.env.DATA_DIR || ROOT);
 const PORT = Number(process.env.PORT || 8080);
-const VIDEOS_DIR = path.join(ROOT, "videos");
-const PHOTOS_DIR = path.join(ROOT, "photos");
-const MESSAGES_FILE = path.join(ROOT, "messages.txt");
-const COMMENTS_FILE = path.join(ROOT, "comments.txt");
+const VIDEOS_DIR = path.join(DATA_ROOT, "videos");
+const PHOTOS_DIR = path.join(DATA_ROOT, "photos");
+const MESSAGES_FILE = path.join(DATA_ROOT, "messages.txt");
+const COMMENTS_FILE = path.join(DATA_ROOT, "comments.txt");
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -160,23 +161,25 @@ const saveBase64File = async (dir, fileName, base64Data, fallbackName) => {
   return name;
 };
 
-const serveFile = async (res, absPath) => {
-  if (!absPath.startsWith(ROOT)) {
+const serveFile = async (res, absPath, allowedRoot = ROOT) => {
+  const safeRoot = path.resolve(allowedRoot);
+  const safePath = path.resolve(absPath);
+  if (!(safePath === safeRoot || safePath.startsWith(`${safeRoot}${path.sep}`))) {
     sendJson(res, 403, { error: "Forbidden" });
     return;
   }
 
   try {
-    const stat = await fsp.stat(absPath);
+    const stat = await fsp.stat(safePath);
     if (!stat.isFile()) {
       sendJson(res, 404, { error: "Not found" });
       return;
     }
 
-    const ext = path.extname(absPath).toLowerCase();
+    const ext = path.extname(safePath).toLowerCase();
     const mime = MIME[ext] || "application/octet-stream";
     res.writeHead(200, { "Content-Type": mime });
-    fs.createReadStream(absPath).pipe(res);
+    fs.createReadStream(safePath).pipe(res);
   } catch {
     sendJson(res, 404, { error: "Not found" });
   }
@@ -330,18 +333,18 @@ const server = http.createServer(async (req, res) => {
 
     if (pathname.startsWith("/videos/")) {
       const rel = pathname.slice("/videos/".length);
-      await serveFile(res, path.join(VIDEOS_DIR, rel));
+      await serveFile(res, path.join(VIDEOS_DIR, rel), DATA_ROOT);
       return;
     }
 
     if (pathname.startsWith("/photos/")) {
       const rel = pathname.slice("/photos/".length);
-      await serveFile(res, path.join(PHOTOS_DIR, rel));
+      await serveFile(res, path.join(PHOTOS_DIR, rel), DATA_ROOT);
       return;
     }
 
     const reqPath = pathname === "/" ? "/index.html" : pathname;
-    await serveFile(res, path.join(ROOT, reqPath));
+    await serveFile(res, path.join(ROOT, reqPath), ROOT);
   } catch (error) {
     sendJson(res, 500, { error: error?.message || "Internal Server Error" });
   }
@@ -350,8 +353,10 @@ const server = http.createServer(async (req, res) => {
 ensureStorage().then(() => {
   server.listen(PORT, () => {
     console.log(`Local server running at http://localhost:${PORT}`);
+    console.log(`Data dir: ${DATA_ROOT}`);
     console.log(`Videos dir: ${VIDEOS_DIR}`);
     console.log(`Photos dir: ${PHOTOS_DIR}`);
+    console.log(`Messages file: ${MESSAGES_FILE}`);
     console.log(`Comments file: ${COMMENTS_FILE}`);
   });
 });
