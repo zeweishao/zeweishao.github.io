@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>心动档案站 - 首页</title>
+  <title>和雪一起的日常 - 首页</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="home-page">
@@ -14,7 +14,7 @@
   <header class="topbar">
     <a class="brand" href="index.html">
       <span class="brand-badge" aria-hidden="true">★</span>
-      <span>心动档案站</span>
+      <span>和雪一起的日常</span>
     </a>
     <nav class="top-nav" aria-label="主导航">
       <details class="menu-dropdown">
@@ -25,7 +25,7 @@
         </summary>
         <div class="menu-panel">
           <a class="active" href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>每日一句</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>想对雪说的话</span></a>
         </div>
       </details>
     </nav>
@@ -35,31 +35,39 @@
     <section class="home-carousel" aria-label="首页照片轮播">
       <div class="carousel-track" id="homeCarouselTrack">
         <article class="carousel-slide active">
-          <img src="https://picsum.photos/id/1039/1400/720" alt="城市黄昏天空" loading="lazy">
+          <img src="photos/1.jpg" alt="相册照片 1" loading="lazy">
           <div class="carousel-caption">
-            <p class="carousel-tag">心动瞬间 01</p>
-            <h2>把平凡日常，拍成电影感的记忆</h2>
+            <h2>你一笑，今天就变成了限定版好天气。</h2>
           </div>
         </article>
         <article class="carousel-slide">
-          <img src="https://picsum.photos/id/1011/1400/720" alt="湖边晚霞与倒影" loading="lazy">
+          <img src="photos/2.jpg" alt="相册照片 2" loading="lazy">
           <div class="carousel-caption">
-            <p class="carousel-tag">心动瞬间 02</p>
-            <h2>每一帧都像番剧里的温柔分镜</h2>
+            <h2>和你并肩走的路，连风都变得温柔。</h2>
           </div>
         </article>
         <article class="carousel-slide">
-          <img src="https://picsum.photos/id/1040/1400/720" alt="海边日落" loading="lazy">
+          <img src="photos/3.jpg" alt="相册照片 3" loading="lazy">
           <div class="carousel-caption">
-            <p class="carousel-tag">心动瞬间 03</p>
-            <h2>把一起看过的风景，留在这里</h2>
+            <h2>想你的时候，连平常的一天都会发光。</h2>
           </div>
         </article>
         <article class="carousel-slide">
-          <img src="https://picsum.photos/id/1035/1400/720" alt="星空与山脉" loading="lazy">
+          <img src="photos/4.jpg" alt="相册照片 4" loading="lazy">
           <div class="carousel-caption">
-            <p class="carousel-tag">心动瞬间 04</p>
-            <h2>下一次旅行，也想和你并肩出发</h2>
+            <h2>你在身边，日常就有了心动的注脚。</h2>
+          </div>
+        </article>
+        <article class="carousel-slide">
+          <img src="photos/5.jpg" alt="相册照片 5" loading="lazy">
+          <div class="carousel-caption">
+            <h2>我把喜欢藏进每个细节，你都会看到。</h2>
+          </div>
+        </article>
+        <article class="carousel-slide">
+          <img src="photos/6.jpg" alt="相册照片 6" loading="lazy">
+          <div class="carousel-caption">
+            <h2>往后的每一帧，都想和你一起慢慢拍完。</h2>
           </div>
         </article>
       </div>
@@ -69,24 +77,23 @@
     </section>
 
     <section class="hero-block">
-      <p class="hero-kicker">SANWAN 风格基调 × 轻日常氛围</p>
-      <h1>把你们的日常，存成可回看的小宇宙</h1>
-      <p class="hero-sub">首页只做总览，具体内容分到独立页面管理。数据仍保存在当前浏览器本地。</p>
+      <p class="hero-kicker">和雪一起的日常</p>
+      <h1>把和雪的日常，存成可回看的小宇宙</h1>
       <div class="hero-tags">
-        <span>每日留言</span>
+        <span>写给雪的话</span>
       </div>
     </section>
 
     <section class="entry-grid" aria-label="页面入口">
       <a class="entry-card" href="messages.html">
         <p class="entry-icon" aria-hidden="true">✉</p>
-        <h2>每日一句</h2>
-        <p>记录今天想对她说的话和你的心情。</p>
+        <h2>想对雪说的话</h2>
+        <p id="homeLatestMessageText">记录今天想对雪说的话和你的心情。</p>
       </a>
     </section>
 
     <section class="stat-grid" aria-label="数据统计">
-      <article class="stat-card"><p>留言记录</p><strong id="statMessages">0</strong></article>
+      <article class="stat-card"><p>写给雪的话</p><strong id="statMessages">0</strong></article>
       <article class="stat-card"><p>最近更新</p><strong id="statUpdated">-</strong></article>
     </section>
 
@@ -94,8 +101,7 @@
       <article class="home-video-card">
         <div class="home-video-head">
           <p class="home-video-kicker">SPECIAL CLIP</p>
-          <h2>生日快乐</h2>
-          <p>放在首页下半部分，进入可视区域附近才开始加载，减少首屏压力。</p>
+          <h2>生日记录</h2>
         </div>
         <div class="home-video-shell">
           <video
@@ -122,13 +128,12 @@
       decoding="async"
       fetchpriority="low"
     >
-    <span class="figure-float-tip" id="figureFloatTip">点我听语音</span>
+    <span class="figure-float-tip" id="figureFloatTip">今天有奶茶吗？</span>
   </a>
   <audio id="figureFloatAudio" preload="auto">
     <source src="videos/woele.mp3" type="audio/mpeg">
   </audio>
 
-  <footer class="site-foot">下一步可加：导出/导入、纪念日倒计时、访问密码。</footer>
   <script src="app.js"></script>
 </body>
 </html>

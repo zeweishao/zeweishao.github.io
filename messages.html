@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title data-text-key="msg.page_title">心动档案站 - 每日一句</title>
+  <title data-text-key="msg.page_title">和雪一起的日常 - 想对雪说的话</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
   <header class="topbar">
     <a class="brand" href="index.html">
       <span class="brand-badge" aria-hidden="true">★</span>
-      <span data-text-key="msg.brand">心动档案站</span>
+      <span data-text-key="msg.brand">和雪一起的日常</span>
     </a>
     <nav class="top-nav" aria-label="主导航">
       <details class="menu-dropdown">
@@ -25,7 +25,7 @@
         </summary>
         <div class="menu-panel">
           <a href="index.html"><span aria-hidden="true">⌂</span><span data-text-key="msg.nav_home">首页</span></a>
-          <a class="active" href="messages.html"><span aria-hidden="true">✉</span><span data-text-key="msg.nav_messages">每日一句</span></a>
+          <a class="active" href="messages.html"><span aria-hidden="true">✉</span><span data-text-key="msg.nav_messages">想对雪说的话</span></a>
         </div>
       </details>
     </nav>
@@ -33,24 +33,17 @@
 
   <main class="page-shell">
     <section class="hero-block hero-compact">
-      <p class="hero-kicker" data-text-key="msg.hero_kicker">Daily Message Wall</p>
-      <h1 data-text-key="msg.hero_title">每日留言墙</h1>
-      <p class="hero-sub" data-text-key="msg.hero_sub">本页从本地配置文件读取句子，编辑 daily-messages.config 即可更新。</p>
+      <p class="hero-kicker" data-text-key="msg.hero_kicker">To Xue Daily Notes</p>
+      <h1 data-text-key="msg.hero_title">想对雪说的话</h1>
     </section>
 
     <section class="panel">
-      <h2 data-text-key="msg.today_title">今日一句</h2>
-      <article id="todayQuoteCard" class="message-card message-tone-0"></article>
-    </section>
-
-    <section class="panel">
-      <h2 data-text-key="msg.archive_title">句子清单</h2>
-      <p class="note" data-text-key="msg.config_hint">编辑 daily-messages.config，每行一条，刷新页面生效。</p>
+      <h2 data-text-key="msg.archive_title">写给雪的话</h2>
       <div id="messageList" class="list-grid message-board"></div>
     </section>
   </main>
 
-  <footer class="site-foot" data-text-key="msg.footer_note">本页使用静态配置文件展示，不依赖后端服务。</footer>
+  <footer class="site-foot" data-text-key="msg.footer_note">本页使用静态配置文件展示，记录每天想对雪说的话。</footer>
   <script src="app.js"></script>
 </body>
 </html>

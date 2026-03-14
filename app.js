@@ -46,9 +46,6 @@
   };
 
   const API = {
-    messages: "/api/messages",
-    messagesDelete: "/api/messages/delete",
-    comments: "/api/comments",
     videos: "/api/media/videos",
     photos: "/api/media/photos"
   };
@@ -179,19 +176,6 @@
     });
   };
 
-  const fmtDateTime = (dateValue) => {
-    if (!dateValue) return "-";
-    const date = new Date(dateValue);
-    if (Number.isNaN(date.getTime())) return "-";
-    return date.toLocaleString("zh-CN", {
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit"
-    });
-  };
-
   const messages = readList(STORAGE_KEYS.messages);
   const videos = readList(STORAGE_KEYS.videos);
   const albums = readList(STORAGE_KEYS.albums);
@@ -228,26 +212,6 @@
     statUpdated.textContent = latest
       ? latest.toLocaleDateString("zh-CN", { month: "2-digit", day: "2-digit" })
       : "-";
-  };
-
-  const syncHomeFolderStats = async () => {
-    const statVideos = document.getElementById("statVideos");
-    const statAlbums = document.getElementById("statAlbums");
-    if (!statVideos || !statAlbums || !isHttpRuntime()) return;
-
-    try {
-      const [videoPayload, photoPayload] = await Promise.all([
-        apiRequest(API.videos, { method: "GET" }),
-        apiRequest(API.photos, { method: "GET" })
-      ]);
-      const videoItems = Array.isArray(videoPayload) ? videoPayload : [];
-      const photoItems = Array.isArray(photoPayload) ? photoPayload : [];
-      videos.splice(0, videos.length, ...videoItems);
-      albums.splice(0, albums.length, ...photoItems);
-      updateHomeStats();
-    } catch {
-      // ignore
-    }
   };
 
   const initMenuDropdown = () => {
@@ -488,11 +452,11 @@
     if (!button || !image || !audio) return;
 
     const setVoiceIdle = () => {
-      if (tip) tip.textContent = "点我听语音";
+      if (tip) tip.textContent = "今天有奶茶吗？";
     };
 
     const setVoicePlaying = () => {
-      if (tip) tip.textContent = "点我听语音";
+      if (tip) tip.textContent = "今天有奶茶吗？";
     };
 
     const playTapFeedback = () => {
@@ -842,92 +806,179 @@
 
   };
 
+  const normalizeDateKey = (value) => {
+    const source = String(value || "").trim();
+    const match = source.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (!match) return "";
+    const year = Number(match[1]);
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+    const normalized = `${String(year).padStart(4, "0")}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    const dt = new Date(`${normalized}T00:00:00`);
+    if (Number.isNaN(dt.getTime())) return "";
+    if (
+      dt.getFullYear() !== year ||
+      dt.getMonth() + 1 !== month ||
+      dt.getDate() !== day
+    ) {
+      return "";
+    }
+    return normalized;
+  };
+
+  const parseDailyMessagesConfig = (raw) => {
+    const items = [];
+    const lines = String(raw || "").split(/\r?\n/);
+
+    for (const sourceLine of lines) {
+      const line = sourceLine.trim();
+      if (!line || line.startsWith("#")) continue;
+
+      if (!line.includes("|")) {
+        if (!items.length) {
+          items.push({
+            id: "cfg_1",
+            order: 0,
+            date: "",
+            role: "",
+            content: line
+          });
+        } else {
+          const tail = items[items.length - 1];
+          tail.content = `${tail.content}\n${line}`;
+        }
+        continue;
+      }
+
+      const parts = line.split("|").map((part) => part.trim());
+      let date = "";
+      let role = "";
+      let content = "";
+
+      if (parts.length >= 3) {
+        date = normalizeDateKey(parts[0]);
+        role = parts[1] || "";
+        content = parts.slice(2).join("|").trim();
+      } else if (parts.length === 2) {
+        const maybeDate = normalizeDateKey(parts[0]);
+        if (maybeDate) {
+          date = maybeDate;
+          content = parts[1] || "";
+        } else {
+          role = parts[0] || "";
+          content = parts[1] || "";
+        }
+      } else {
+        content = parts[0] || "";
+      }
+
+      if (!content) continue;
+      items.push({
+        id: "",
+        order: items.length,
+        date,
+        role,
+        content
+      });
+    }
+
+    return items.map((item, index) => ({
+      ...item,
+      id: `cfg_${index + 1}`,
+      order: index
+    }));
+  };
+
+  const messageStamp = (item) => {
+    if (!item?.date) return -1;
+    const value = new Date(`${item.date}T00:00:00`).getTime();
+    return Number.isNaN(value) ? -1 : value;
+  };
+
+  const sortByLatestMessage = (a, b) => {
+    const stampDelta = messageStamp(b) - messageStamp(a);
+    if (stampDelta !== 0) return stampDelta;
+    return (b?.order ?? 0) - (a?.order ?? 0);
+  };
+
+  const pickLatestMessage = (items) => {
+    if (!Array.isArray(items) || !items.length) return null;
+    return [...items].sort(sortByLatestMessage)[0] || null;
+  };
+
+  const loadDailyMessagesConfig = async () => {
+    if (!isHttpRuntime()) return [];
+    const response = await fetch("daily-messages.config", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const raw = await response.text();
+    return parseDailyMessagesConfig(raw);
+  };
+
+  const initHomeLatestMessage = () => {
+    const homeLatestMessage = document.getElementById("homeLatestMessageText");
+    if (!homeLatestMessage) return;
+
+    const setLatestMessageText = (items) => {
+      const latest = pickLatestMessage(items);
+      const text = String(latest?.content || "").trim();
+      if (!text) return;
+      homeLatestMessage.textContent = text;
+    };
+
+    const localItems = messages.map((item, index) => ({
+      id: item?.id || `local_${index + 1}`,
+      order: Number.isFinite(item?.order) ? item.order : index,
+      date: normalizeDateKey(item?.date),
+      role: String(item?.role || ""),
+      content: String(item?.content || "")
+    }));
+    setLatestMessageText(localItems);
+
+    loadDailyMessagesConfig()
+      .then((items) => {
+        setLatestMessageText(items);
+      })
+      .catch(() => {
+        // keep fallback text
+      });
+  };
+
   const initMessagesPage = () => {
     const list = document.getElementById("messageList");
-    const todayCard = document.getElementById("todayQuoteCard");
-    if (!list || !todayCard) return;
+    if (!list) return;
 
     const messageText = {
-      "msg.empty": "还没有可展示的句子，请先编辑 daily-messages.config。",
-      "msg.today_badge": "今日推荐",
+      "msg.empty": "还没有写给雪的话。",
+      "msg.today_badge": "最新留言",
       "msg.list_item_prefix": "第",
       "msg.meta_prefix": "记录日期 ·",
       "msg.meta_no_date": "未设置日期",
-      "msg.error_config_load_failed": "读取 daily-messages.config 失败，请检查文件是否存在。",
+      "msg.error_config_load_failed": "读取留言内容失败。",
       "msg.error_http_open": "请通过 HTTP/HTTPS 打开页面。"
     };
     const text = (key, fallback = "") => messageText[key] ?? fallback;
     let configuredMessages = [];
     let loadError = "";
 
-    const normalizeDateKey = (value) => {
-      const source = String(value || "").trim();
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(source)) return "";
-      const dt = new Date(`${source}T00:00:00`);
-      if (Number.isNaN(dt.getTime())) return "";
-      const normalized = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(
-        dt.getDate()
-      ).padStart(2, "0")}`;
-      if (normalized !== source) return "";
-      return source;
+    const shouldCollapseMessage = (content) => {
+      const textContent = String(content || "");
+      const lineCount = textContent.split(/\r?\n/).length;
+      return textContent.length > 120 || lineCount > 4;
     };
 
-    const parseDailyMessagesConfig = (raw) => {
-      return String(raw || "")
-        .split(/\r?\n/)
-        .map((line) => line.trim())
-        .filter((line) => line && !line.startsWith("#"))
-        .map((line, index) => {
-          const parts = line.split("|").map((part) => part.trim());
-          let date = "";
-          let role = "";
-          let content = "";
+    list.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-message-toggle]");
+      if (!button) return;
+      const card = button.closest(".message-card");
+      const textNode = card?.querySelector(".message-text");
+      if (!textNode) return;
 
-          if (parts.length >= 3) {
-            date = normalizeDateKey(parts[0]);
-            role = parts[1] || "";
-            content = parts.slice(2).join("|").trim();
-          } else if (parts.length === 2) {
-            const maybeDate = normalizeDateKey(parts[0]);
-            if (maybeDate) {
-              date = maybeDate;
-              content = parts[1] || "";
-            } else {
-              role = parts[0] || "";
-              content = parts[1] || "";
-            }
-          } else {
-            content = parts[0] || "";
-          }
-
-          if (!content) return null;
-          return {
-            id: `cfg_${index + 1}`,
-            order: index,
-            date,
-            role,
-            content
-          };
-        })
-        .filter(Boolean);
-    };
-
-    const messageStamp = (item) => {
-      if (!item?.date) return -1;
-      const value = new Date(`${item.date}T00:00:00`).getTime();
-      return Number.isNaN(value) ? -1 : value;
-    };
-
-    const pickTodayMessage = (items) => {
-      if (!items.length) return null;
-      const todayKey = today();
-      const direct = items.find((item) => item.date === todayKey);
-      if (direct) return direct;
-
-      const dayIndex = Math.floor(new Date(`${todayKey}T00:00:00`).getTime() / 86400000);
-      const pickedIndex = ((dayIndex % items.length) + items.length) % items.length;
-      return items[pickedIndex];
-    };
+      const expanded = button.getAttribute("aria-expanded") === "true";
+      const nextExpanded = !expanded;
+      button.setAttribute("aria-expanded", String(nextExpanded));
+      button.textContent = nextExpanded ? "收起" : "展开";
+      textNode.classList.toggle("collapsed", !nextExpanded);
+    });
 
     const loadConfiguredMessages = async () => {
       if (!isHttpRuntime()) {
@@ -938,10 +989,7 @@
       }
 
       try {
-        const response = await fetch("daily-messages.config", { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const raw = await response.text();
-        configuredMessages = parseDailyMessagesConfig(raw);
+        configuredMessages = await loadDailyMessagesConfig();
         loadError = "";
       } catch {
         configuredMessages = [];
@@ -966,48 +1014,35 @@
     const render = () => {
       if (!configuredMessages.length) {
         const fallback = loadError || text("msg.empty");
-        todayCard.className = "message-card message-tone-0";
-        todayCard.innerHTML = `<p class="empty">${esc(fallback)}</p>`;
         list.innerHTML = `<div class="empty">${esc(fallback)}</div>`;
         return;
       }
 
-      const todayItem = pickTodayMessage(configuredMessages);
-      const todayToneSeed = Math.floor(new Date(`${today()}T00:00:00`).getTime() / 86400000);
-      const todayTone = ((todayToneSeed % 8) + 8) % 8;
-      const todayRoleHtml = todayItem?.role
-        ? `<p class="message-role">${esc(todayItem.role)}：</p>`
-        : "";
-
-      todayCard.className = `message-card message-tone-${todayTone}`;
-      todayCard.innerHTML = `
-        ${todayRoleHtml}
-        <p class="quote">${esc(todayItem?.content || "")}</p>
-        <p class="message-meta">${esc(text("msg.meta_prefix"))} ${esc(todayItem?.date || text("msg.meta_no_date"))}</p>
-      `;
-
-      const ordered = [...configuredMessages].sort((a, b) => {
-        const stampDelta = messageStamp(b) - messageStamp(a);
-        if (stampDelta !== 0) return stampDelta;
-        return a.order - b.order;
-      });
+      const latestItem = pickLatestMessage(configuredMessages);
+      const ordered = [...configuredMessages].sort(sortByLatestMessage);
 
       list.innerHTML = ordered
         .map((item, index) => {
           const tone = index % 8;
-          const isToday = todayItem && item.id === todayItem.id;
-          const title = isToday
+          const isLatest = latestItem && item.id === latestItem.id;
+          const title = isLatest
             ? text("msg.today_badge")
             : `${text("msg.list_item_prefix")}${index + 1}条`;
           const roleHtml = item.role ? `<p class="message-role">${esc(item.role)}：</p>` : "";
+          const dateText = String(item.date || "").trim();
+          const dateHtml = dateText ? `<span class="card-meta">${esc(dateText)}</span>` : "";
+          const collapsible = shouldCollapseMessage(item.content);
           return `
             <article class="message-card message-tone-${tone}">
               <div class="card-head">
                 <h3 class="card-title">${esc(title)}</h3>
-                <span class="card-meta">${esc(item.date || text("msg.meta_no_date"))}</span>
+                ${dateHtml}
               </div>
               ${roleHtml}
-              <p class="message-text">${esc(item.content)}</p>
+              <p class="message-text${collapsible ? " collapsed" : ""}">${esc(item.content)}</p>
+              ${collapsible
+                ? '<div class="row-actions"><button class="message-expand" type="button" data-message-toggle aria-expanded="false">展开</button></div>'
+                : ""}
             </article>
           `;
         })
@@ -1036,6 +1071,38 @@
     }
 
     return `<a class="mini-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">打开链接</a>`;
+  };
+
+  const STATIC_GALLERY_NAMES = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
+
+  const isGalleryFilename = (name) => {
+    return /^\d+\.(jpe?g|png|webp|gif)$/i.test(String(name || ""));
+  };
+
+  const gallerySortByNumericName = (a, b) => {
+    const aName = String(a?.name || "");
+    const bName = String(b?.name || "");
+    const aMatch = aName.match(/^(\d+)/);
+    const bMatch = bName.match(/^(\d+)/);
+    const aNum = aMatch ? Number(aMatch[1]) : Number.POSITIVE_INFINITY;
+    const bNum = bMatch ? Number(bMatch[1]) : Number.POSITIVE_INFINITY;
+    if (aNum !== bNum) return aNum - bNum;
+    return aName.localeCompare(bName, "zh-CN");
+  };
+
+  const detectStaticGalleryPhotos = async () => {
+    const checks = STATIC_GALLERY_NAMES.map((name) => {
+      const url = `photos/${encodeURIComponent(name)}`;
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.onload = () => resolve({ name, url, updatedAt: "" });
+        img.onerror = () => resolve(null);
+        img.src = url;
+      });
+    });
+
+    const found = await Promise.all(checks);
+    return found.filter(Boolean).sort(gallerySortByNumericName);
   };
 
   const initVideosPage = () => {
@@ -1142,12 +1209,12 @@
     const resetEl = document.getElementById("albumReset");
 
     const render = (items) => {
-      if (!isHttpRuntime()) {
-        list.innerHTML = '<div class="empty">请使用 `node server.js` 启动本地服务后访问页面，照片才能写入与读取文件夹。</div>';
-        return;
-      }
+      const galleryItems = (Array.isArray(items) ? items : [])
+        .filter((item) => isGalleryFilename(item?.name))
+        .sort(gallerySortByNumericName);
 
-      if (!items.length) {
+      const cards = galleryItems.length ? galleryItems : items;
+      if (!cards.length) {
         list.innerHTML = '<div class="empty">`photos/` 文件夹暂时没有图片，先上传一张吧。</div>';
         return;
       }
@@ -1155,11 +1222,11 @@
       list.innerHTML = `
         <section class="album-group">
           <div class="album-group-head">
-            <h3>图片文件夹</h3>
-            <span class="card-meta">${items.length} 张</span>
+            <h3>主页相册展示</h3>
+            <span class="card-meta">${cards.length} 张</span>
           </div>
           <div class="album-grid">
-            ${items
+            ${cards
               .map(
                 (item) => `
                   <article class="album-card">
@@ -1180,23 +1247,38 @@
     };
 
     const loadPhotos = async () => {
+      const staticItems = await detectStaticGalleryPhotos();
+
       if (!isHttpRuntime()) {
-        albums.splice(0, albums.length);
-        render([]);
+        albums.splice(0, albums.length, ...staticItems);
+        render(staticItems);
         updateHomeStats();
         return;
       }
 
       try {
         const payload = await apiRequest(API.photos, { method: "GET" });
-        const items = (Array.isArray(payload) ? payload : []).map((item) => ({
+        const apiItems = (Array.isArray(payload) ? payload : []).map((item) => ({
           ...item,
           url: toAssetUrl(item?.url || "")
         }));
-        albums.splice(0, albums.length, ...items);
-        render(items);
+        const mergedByName = new Map();
+        [...apiItems, ...staticItems].forEach((item) => {
+          const key = String(item?.name || "").toLowerCase();
+          if (!key || mergedByName.has(key)) return;
+          mergedByName.set(key, item);
+        });
+        const merged = Array.from(mergedByName.values()).sort(gallerySortByNumericName);
+        albums.splice(0, albums.length, ...merged);
+        render(merged);
         updateHomeStats();
       } catch {
+        if (staticItems.length) {
+          albums.splice(0, albums.length, ...staticItems);
+          render(staticItems);
+          updateHomeStats();
+          return;
+        }
         list.innerHTML = '<div class="empty">读取 `photos/` 文件夹失败，请确认本地服务已启动。</div>';
       }
     };
@@ -1241,10 +1323,10 @@
   initHomeCarousel();
   initHomeBirthdayVideo();
   initFloatingFigureButton();
+  initHomeLatestMessage();
   initMessagesPage();
   initVideosPage();
   initAlbumsPage();
   updateHomeStats();
-  syncHomeFolderStats();
 })();
 

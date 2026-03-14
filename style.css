@@ -32,8 +32,26 @@ body {
   position: relative;
   color: var(--ink);
   font-family: var(--font-body);
+  background: transparent;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -6;
+  pointer-events: none;
+  background: center / cover no-repeat fixed url("photos/background.jpg");
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -5;
+  pointer-events: none;
   background:
-    linear-gradient(160deg, #fffdf8 0%, #f4f3ef 48%, #eff1f2 100%);
+    linear-gradient(160deg, rgba(255, 253, 248, 0.82) 0%, rgba(244, 243, 239, 0.78) 48%, rgba(239, 241, 242, 0.8) 100%);
 }
 
 .bg-aura {
@@ -230,7 +248,7 @@ body {
 }
 
 .home-carousel {
-  width: clamp(320px, 34vw, 520px);
+  width: 100%;
   margin: 0 auto 16px;
   position: relative;
   border-radius: 28px;
@@ -1252,13 +1270,13 @@ button {
   }
 
   .carousel-track {
-    min-height: 240px;
+    min-height: clamp(25svh, 29svh, 33svh);
     gap: 10px;
     padding: 10px 8%;
   }
 
   .carousel-slide img {
-    min-height: 240px;
+    min-height: clamp(25svh, 29svh, 33svh);
   }
 
   .carousel-slide {
@@ -1316,6 +1334,11 @@ button {
   .video-grid,
   .album-grid {
     grid-template-columns: 1fr;
+  }
+
+  .album-card {
+    width: 100%;
+    justify-self: stretch;
   }
 
   .figure-float-btn {
