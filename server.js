@@ -11,6 +11,7 @@ const VIDEOS_DIR = path.join(DATA_ROOT, "videos");
 const PHOTOS_DIR = path.join(DATA_ROOT, "photos");
 const MESSAGES_FILE = path.join(DATA_ROOT, "messages.txt");
 const COMMENTS_FILE = path.join(DATA_ROOT, "comments.txt");
+const LOG_G_FILE = path.join(DATA_ROOT, "logG.txt");
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -52,6 +53,9 @@ const ensureStorage = async () => {
   if (!fs.existsSync(COMMENTS_FILE)) {
     await fsp.writeFile(COMMENTS_FILE, "", "utf8");
   }
+  if (!fs.existsSync(LOG_G_FILE)) {
+    await fsp.writeFile(LOG_G_FILE, "", "utf8");
+  }
 };
 
 const readBody = async (req) => {
@@ -70,6 +74,22 @@ const readBody = async (req) => {
 const parseJsonBody = async (req) => {
   const raw = await readBody(req);
   return raw ? JSON.parse(raw) : {};
+};
+
+const getClientIp = (req) => {
+  const forwardedFor = req.headers["x-forwarded-for"];
+  if (typeof forwardedFor === "string" && forwardedFor.trim()) {
+    return forwardedFor.split(",")[0].trim().replace(/\r?\n/g, "");
+  }
+
+  const realIp = req.headers["x-real-ip"];
+  if (typeof realIp === "string" && realIp.trim()) {
+    return realIp.trim().replace(/\r?\n/g, "");
+  }
+
+  const remoteAddress = String(req.socket?.remoteAddress || "").trim();
+  if (!remoteAddress) return "unknown";
+  return remoteAddress.startsWith("::ffff:") ? remoteAddress.slice(7) : remoteAddress;
 };
 
 const safeFileName = (name, fallback) => {
@@ -305,6 +325,14 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    if (req.method === "POST" && pathname === "/api/figure-click") {
+      const ip = getClientIp(req);
+      const line = `${new Date().toISOString()} | ${ip}\n`;
+      await fsp.appendFile(LOG_G_FILE, line, "utf8");
+      sendJson(res, 201, { ok: true });
+      return;
+    }
+
     if (req.method === "GET" && pathname === "/api/media/videos") {
       const items = await listMedia(VIDEOS_DIR, "/videos", VIDEO_EXT);
       sendJson(res, 200, items);
@@ -358,5 +386,6 @@ ensureStorage().then(() => {
     console.log(`Photos dir: ${PHOTOS_DIR}`);
     console.log(`Messages file: ${MESSAGES_FILE}`);
     console.log(`Comments file: ${COMMENTS_FILE}`);
+    console.log(`Figure click log file: ${LOG_G_FILE}`);
   });
 });

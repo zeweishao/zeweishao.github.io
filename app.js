@@ -488,8 +488,18 @@
       }
     };
 
+    const reportFigureClick = () => {
+      try {
+        void fetch("/api/figure-click", {
+          method: "POST",
+          keepalive: true
+        }).catch(() => {});
+      } catch {}
+    };
+
     button.addEventListener("click", (event) => {
       event.preventDefault();
+      reportFigureClick();
       playTapFeedback();
       toggleVoice();
       button.blur();
