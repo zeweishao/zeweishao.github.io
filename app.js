@@ -198,7 +198,7 @@
 
   const allTimestamps = () => {
     const stamp = [];
-    for (const item of [...messages, ...videos, ...albums]) {
+    for (const item of messages) {
       if (item && item.updatedAt) stamp.push(item.updatedAt);
       else if (item && item.createdAt) stamp.push(item.createdAt);
       else if (item && item.date) stamp.push(item.date);
@@ -208,17 +208,13 @@
 
   const updateHomeStats = () => {
     const statMessages = document.getElementById("statMessages");
-    const statVideos = document.getElementById("statVideos");
-    const statAlbums = document.getElementById("statAlbums");
     const statUpdated = document.getElementById("statUpdated");
 
-    if (!statMessages || !statVideos || !statAlbums || !statUpdated) return;
-
-    statMessages.textContent = String(messages.length);
-    statVideos.textContent = String(videos.length);
-    statAlbums.textContent = String(albums.length);
+    if (!statMessages && !statUpdated) return;
+    if (statMessages) statMessages.textContent = String(messages.length);
 
     const stamps = allTimestamps();
+    if (!statUpdated) return;
     if (!stamps.length) {
       statUpdated.textContent = "-";
       return;
@@ -325,6 +321,9 @@
     };
 
     let timer = null;
+    const SWIPE_MIN_DISTANCE = 48;
+    const SWIPE_DIRECTION_RATIO = 1.12;
+
     const stopAuto = () => {
       if (timer) {
         clearInterval(timer);
@@ -360,6 +359,63 @@
       startAuto();
     });
 
+    let touchActive = false;
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
+
+    viewport.addEventListener(
+      "touchstart",
+      (event) => {
+        if (event.touches.length !== 1) return;
+        const point = event.touches[0];
+        touchActive = true;
+        touchStartX = point.clientX;
+        touchStartY = point.clientY;
+        touchEndX = point.clientX;
+        touchEndY = point.clientY;
+        stopAuto();
+      },
+      { passive: true }
+    );
+
+    viewport.addEventListener(
+      "touchmove",
+      (event) => {
+        if (!touchActive || event.touches.length !== 1) return;
+        const point = event.touches[0];
+        touchEndX = point.clientX;
+        touchEndY = point.clientY;
+      },
+      { passive: true }
+    );
+
+    const handleSwipeEnd = () => {
+      if (!touchActive) return;
+      touchActive = false;
+
+      const dx = touchEndX - touchStartX;
+      const dy = touchEndY - touchStartY;
+      const absX = Math.abs(dx);
+      const absY = Math.abs(dy);
+
+      if (absX >= SWIPE_MIN_DISTANCE && absX > absY * SWIPE_DIRECTION_RATIO) {
+        setActive(dx < 0 ? current + 1 : current - 1);
+      }
+      startAuto();
+    };
+
+    viewport.addEventListener("touchend", handleSwipeEnd, { passive: true });
+    viewport.addEventListener(
+      "touchcancel",
+      () => {
+        touchActive = false;
+        startAuto();
+      },
+      { passive: true }
+    );
+
     viewport.addEventListener("mouseenter", stopAuto);
     viewport.addEventListener("mouseleave", startAuto);
     viewport.addEventListener("focusin", stopAuto);
@@ -376,359 +432,587 @@
     startAuto();
   };
 
+  const initHomeBirthdayVideo = () => {
+    const video = document.getElementById("homeBirthdayVideo");
+    const source = video?.querySelector("source[data-src]");
+    if (!video || !source) return;
+
+    let loaded = false;
+    const resolvePreloadMode = () => {
+      const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      if (!connection) return "metadata";
+      if (connection.saveData) return "metadata";
+      const type = String(connection.effectiveType || "").toLowerCase();
+      if (type.includes("2g") || type.includes("3g")) return "metadata";
+      return "auto";
+    };
+
+    const loadVideo = () => {
+      if (loaded) return;
+      const src = source.getAttribute("data-src");
+      if (!src) return;
+      video.preload = resolvePreloadMode();
+      source.src = src;
+      video.load();
+      loaded = true;
+    };
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              loadVideo();
+              observer.disconnect();
+              break;
+            }
+          }
+        },
+        { rootMargin: "260px 0px" }
+      );
+      observer.observe(video);
+    } else {
+      loadVideo();
+    }
+
+    video.addEventListener("pointerdown", loadVideo, { once: true });
+    video.addEventListener("touchstart", loadVideo, { once: true, passive: true });
+    video.addEventListener("focus", loadVideo, { once: true });
+  };
+
+  const initFloatingFigureButton = () => {
+    const button = document.getElementById("figureFloatBtn");
+    const image = document.getElementById("figureFloatImage");
+    const tip = document.getElementById("figureFloatTip");
+    const audio = document.getElementById("figureFloatAudio");
+    if (!button || !image || !audio) return;
+
+    const setVoiceIdle = () => {
+      if (tip) tip.textContent = "点我听语音";
+    };
+
+    const setVoicePlaying = () => {
+      if (tip) tip.textContent = "点我听语音";
+    };
+
+    const playTapFeedback = () => {
+      button.classList.remove("is-tap");
+      void button.offsetWidth;
+      button.classList.add("is-tap");
+    };
+
+    button.addEventListener("animationend", (event) => {
+      if (event.animationName === "figureTapShake" || event.animationName === "figureTapTip") {
+        button.classList.remove("is-tap");
+      }
+    });
+
+    const toggleVoice = async () => {
+      if (!audio.paused && !audio.ended) {
+        audio.pause();
+        audio.currentTime = 0;
+        setVoiceIdle();
+        return;
+      }
+
+      audio.currentTime = 0;
+      try {
+        await audio.play();
+        setVoicePlaying();
+      } catch {
+        setVoiceIdle();
+      }
+    };
+
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      playTapFeedback();
+      toggleVoice();
+      button.blur();
+    });
+
+    audio.addEventListener("ended", setVoiceIdle);
+    audio.addEventListener("pause", () => {
+      if (audio.currentTime === 0 || audio.ended) setVoiceIdle();
+    });
+
+    let moveTimer = null;
+    let destroyed = false;
+    let pauseUntil = 0;
+    const reduceMotion =
+      typeof window.matchMedia === "function" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const randomBetween = (min, max) => min + Math.random() * Math.max(0, max - min);
+
+    const getSafeBounds = () => {
+      const rect = button.getBoundingClientRect();
+      const viewportW = window.innerWidth || document.documentElement.clientWidth || 360;
+      const viewportH = window.innerHeight || document.documentElement.clientHeight || 640;
+      const topbar = document.querySelector(".topbar");
+      const topbarBottom = topbar ? Math.ceil(topbar.getBoundingClientRect().bottom) : 64;
+      const minX = 6;
+      const maxX = Math.max(minX, Math.floor(viewportW - rect.width - 6));
+      const minY = Math.max(8, topbarBottom + 8);
+      const maxY = Math.max(minY, Math.floor(viewportH - rect.height - 8));
+      return { minX, maxX, minY, maxY, rect };
+    };
+
+    const clearMoveTimer = () => {
+      if (moveTimer) {
+        clearTimeout(moveTimer);
+        moveTimer = null;
+      }
+    };
+
+    const scheduleMove = (delay) => {
+      if (destroyed || reduceMotion) return;
+      clearMoveTimer();
+      moveTimer = setTimeout(() => {
+        moveFloatingButton();
+      }, Math.max(120, delay));
+    };
+
+    const freezeMotion = (ms = 1100) => {
+      if (destroyed || reduceMotion) return;
+      const rect = button.getBoundingClientRect();
+      button.style.transition = "none";
+      button.style.left = `${Math.round(rect.left)}px`;
+      button.style.top = `${Math.round(rect.top)}px`;
+      pauseUntil = Date.now() + ms;
+      scheduleMove(ms + 120);
+    };
+
+    const placeInitial = () => {
+      const { minX, maxX, minY, maxY, rect } = getSafeBounds();
+      button.style.right = "auto";
+      button.style.bottom = "auto";
+      const startX = Math.min(maxX, Math.max(minX, Math.round(rect.left)));
+      const startY = Math.min(maxY, Math.max(minY, Math.round(rect.top)));
+      button.style.left = `${startX}px`;
+      button.style.top = `${startY}px`;
+    };
+
+    const moveFloatingButton = () => {
+      if (destroyed || reduceMotion) return;
+
+      const now = Date.now();
+      if (now < pauseUntil) {
+        scheduleMove(pauseUntil - now + 80);
+        return;
+      }
+
+      const { minX, maxX, minY, maxY, rect } = getSafeBounds();
+      const currentX = Math.min(maxX, Math.max(minX, Math.round(rect.left)));
+      const currentY = Math.min(maxY, Math.max(minY, Math.round(rect.top)));
+      const axisSpan = Math.min(maxX - minX, maxY - minY);
+      const minDistance = Math.max(64, Math.round(axisSpan * 0.28));
+
+      let targetX = currentX;
+      let targetY = currentY;
+      for (let i = 0; i < 10; i += 1) {
+        const nextX = Math.round(randomBetween(minX, maxX));
+        const nextY = Math.round(randomBetween(minY, maxY));
+        const distance = Math.hypot(nextX - currentX, nextY - currentY);
+        targetX = nextX;
+        targetY = nextY;
+        if (distance >= minDistance) break;
+      }
+
+      const duration = Math.round(randomBetween(2400, 4300));
+      button.style.transition = `left ${duration}ms cubic-bezier(0.22, 0.61, 0.36, 1), top ${duration}ms cubic-bezier(0.22, 0.61, 0.36, 1)`;
+      button.style.left = `${targetX}px`;
+      button.style.top = `${targetY}px`;
+      scheduleMove(duration + randomBetween(240, 680));
+    };
+
+    placeInitial();
+    if (!reduceMotion) scheduleMove(360);
+    button.addEventListener("pointerdown", () => freezeMotion(1300), { passive: true });
+    window.addEventListener("resize", () => freezeMotion(260), { passive: true });
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", () => freezeMotion(260), { passive: true });
+    }
+
+    const imageSrc = String(image.getAttribute("src") || "").toLowerCase();
+    const canCutout =
+      typeof HTMLCanvasElement !== "undefined" && !/\.(png|webp)(?:[?#]|$)/.test(imageSrc);
+
+    let objectUrl = "";
+    let processed = false;
+    window.addEventListener(
+      "pagehide",
+      () => {
+        destroyed = true;
+        clearMoveTimer();
+        audio.pause();
+        audio.currentTime = 0;
+        setVoiceIdle();
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+      },
+      { once: true }
+    );
+
+    if (!canCutout) return;
+
+    const getBorderColorStats = (data, width, height) => {
+      const step = Math.max(1, Math.floor(Math.min(width, height) / 70));
+      const samples = [];
+
+      for (let x = 0; x < width; x += step) {
+        samples.push((x * 4), ((height - 1) * width + x) * 4);
+      }
+      for (let y = step; y < height; y += step) {
+        samples.push((y * width) * 4, (y * width + (width - 1)) * 4);
+      }
+
+      if (!samples.length) return { r: 235, g: 235, b: 235, std: 28 };
+
+      let sumR = 0;
+      let sumG = 0;
+      let sumB = 0;
+      for (const idx of samples) {
+        sumR += data[idx];
+        sumG += data[idx + 1];
+        sumB += data[idx + 2];
+      }
+      const count = samples.length;
+      const meanR = sumR / count;
+      const meanG = sumG / count;
+      const meanB = sumB / count;
+
+      let variance = 0;
+      for (const idx of samples) {
+        const dr = data[idx] - meanR;
+        const dg = data[idx + 1] - meanG;
+        const db = data[idx + 2] - meanB;
+        variance += Math.sqrt(dr * dr + dg * dg + db * db);
+      }
+
+      return {
+        r: meanR,
+        g: meanG,
+        b: meanB,
+        std: variance / count
+      };
+    };
+
+    const processCutout = async () => {
+      if (processed) return;
+      processed = true;
+
+      const naturalW = image.naturalWidth || 0;
+      const naturalH = image.naturalHeight || 0;
+      if (!naturalW || !naturalH) return;
+
+      const maxSide = 900;
+      const scale = Math.min(1, maxSide / Math.max(naturalW, naturalH));
+      const width = Math.max(1, Math.round(naturalW * scale));
+      const height = Math.max(1, Math.round(naturalH * scale));
+
+      const workCanvas = document.createElement("canvas");
+      workCanvas.width = width;
+      workCanvas.height = height;
+      const ctx = workCanvas.getContext("2d", { willReadFrequently: true });
+      if (!ctx) return;
+
+      ctx.drawImage(image, 0, 0, width, height);
+      const imageData = ctx.getImageData(0, 0, width, height);
+      const data = imageData.data;
+      const total = width * height;
+
+      const bg = getBorderColorStats(data, width, height);
+      const hard = Math.max(22, Math.min(72, 18 + bg.std * 0.9));
+      const soft = hard + 34;
+      const candidate = new Uint8Array(total);
+      const bgMask = new Uint8Array(total);
+      const queue = new Int32Array(total);
+      let queueStart = 0;
+      let queueEnd = 0;
+
+      const distAt = (idx4) => {
+        const dr = data[idx4] - bg.r;
+        const dg = data[idx4 + 1] - bg.g;
+        const db = data[idx4 + 2] - bg.b;
+        return Math.sqrt(dr * dr + dg * dg + db * db);
+      };
+
+      const pushIfBg = (pixelIndex) => {
+        if (!candidate[pixelIndex] || bgMask[pixelIndex]) return;
+        bgMask[pixelIndex] = 1;
+        queue[queueEnd++] = pixelIndex;
+      };
+
+      for (let i = 0; i < total; i += 1) {
+        const idx4 = i * 4;
+        if (distAt(idx4) <= soft) candidate[i] = 1;
+      }
+
+      for (let x = 0; x < width; x += 1) {
+        pushIfBg(x);
+        pushIfBg((height - 1) * width + x);
+      }
+      for (let y = 1; y < height - 1; y += 1) {
+        pushIfBg(y * width);
+        pushIfBg(y * width + (width - 1));
+      }
+
+      while (queueStart < queueEnd) {
+        const current = queue[queueStart++];
+        const x = current % width;
+        const y = (current / width) | 0;
+
+        if (x > 0) pushIfBg(current - 1);
+        if (x < width - 1) pushIfBg(current + 1);
+        if (y > 0) pushIfBg(current - width);
+        if (y < height - 1) pushIfBg(current + width);
+      }
+
+      for (let i = 0; i < total; i += 1) {
+        const idx4 = i * 4;
+        const alpha = data[idx4 + 3];
+        if (alpha === 0) continue;
+
+        if (bgMask[i]) {
+          data[idx4 + 3] = 0;
+          continue;
+        }
+
+        if (!candidate[i]) continue;
+        const dist = distAt(idx4);
+        const ratio = Math.max(0.12, Math.min(1, (dist - hard) / (soft - hard)));
+        data[idx4 + 3] = Math.round(alpha * ratio);
+      }
+
+      let minX = width;
+      let minY = height;
+      let maxX = -1;
+      let maxY = -1;
+      for (let y = 0; y < height; y += 1) {
+        for (let x = 0; x < width; x += 1) {
+          const idx4 = (y * width + x) * 4;
+          if (data[idx4 + 3] > 12) {
+            if (x < minX) minX = x;
+            if (y < minY) minY = y;
+            if (x > maxX) maxX = x;
+            if (y > maxY) maxY = y;
+          }
+        }
+      }
+      if (maxX < minX || maxY < minY) return;
+
+      const pad = Math.max(6, Math.round(Math.min(width, height) * 0.02));
+      minX = Math.max(0, minX - pad);
+      minY = Math.max(0, minY - pad);
+      maxX = Math.min(width - 1, maxX + pad);
+      maxY = Math.min(height - 1, maxY + pad);
+
+      ctx.putImageData(imageData, 0, 0);
+      const outWidth = maxX - minX + 1;
+      const outHeight = maxY - minY + 1;
+      const outCanvas = document.createElement("canvas");
+      outCanvas.width = outWidth;
+      outCanvas.height = outHeight;
+      const outCtx = outCanvas.getContext("2d");
+      if (!outCtx) return;
+
+      outCtx.drawImage(workCanvas, minX, minY, outWidth, outHeight, 0, 0, outWidth, outHeight);
+      const blob = await new Promise((resolve) => outCanvas.toBlob(resolve, "image/png"));
+      if (!blob) return;
+
+      objectUrl = URL.createObjectURL(blob);
+      image.src = objectUrl;
+    };
+
+    const scheduleCutout = () => {
+      const runner = () => {
+        processCutout().catch(() => {
+          // fallback to original image
+        });
+      };
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(runner, { timeout: 1200 });
+      } else {
+        setTimeout(runner, 280);
+      }
+    };
+
+    if (image.complete) scheduleCutout();
+    else image.addEventListener("load", scheduleCutout, { once: true });
+
+  };
+
   const initMessagesPage = () => {
-    const form = document.getElementById("messageForm");
     const list = document.getElementById("messageList");
-    if (!form || !list) return;
+    const todayCard = document.getElementById("todayQuoteCard");
+    if (!list || !todayCard) return;
 
     const messageText = {
-      "msg.empty": "还没有留言记录，先写下今天的第一句吧。",
-      "msg.delete_btn": "删除",
-      "msg.comment_btn": "评论",
-      "msg.expand_btn": "展开",
-      "msg.collapse_btn": "收起",
-      "msg.error_content_required": "请输入留言内容。",
-      "msg.error_verify_failed": "验证失败。",
-      "msg.error_comment_not_found": "未找到对应留言，请重试。",
-      "msg.error_backend_unavailable": "写入失败，请确认后端可用。",
-      "msg.prompt_delete_verify": "请输入验证信息：",
-      "msg.alert_delete_failed": "验证失败，无法删除该留言。",
-      "msg.alert_delete_backend_failed": "删除失败，请确认后端可用。",
-      "msg.error_backend_connect": "后端连接失败，请确认后端地址与服务状态。",
+      "msg.empty": "还没有可展示的句子，请先编辑 daily-messages.config。",
+      "msg.today_badge": "今日推荐",
+      "msg.list_item_prefix": "第",
+      "msg.meta_prefix": "记录日期 ·",
+      "msg.meta_no_date": "未设置日期",
+      "msg.error_config_load_failed": "读取 daily-messages.config 失败，请检查文件是否存在。",
       "msg.error_http_open": "请通过 HTTP/HTTPS 打开页面。"
     };
     const text = (key, fallback = "") => messageText[key] ?? fallback;
+    let configuredMessages = [];
+    let loadError = "";
 
-    const MESSAGE_ROLE_BY_PASSCODE = {
-      "520": "梅梅",
-      "1314": "柔柔"
-    };
-    const COMMENT_ROLE_BY_PASSCODE = {
-      "0123": "柔柔",
-      "0501": "梅梅"
-    };
-    const DELETE_PASSCODE = "0";
-
-    const contentEl = document.getElementById("messageContent");
-    const messagePasscodeEl = document.getElementById("messagePasscode");
-    const messageFormErrorEl = document.getElementById("messageFormError");
-    const openModalEl = document.getElementById("openMessageModal");
-    const modalEl = document.getElementById("messageModal");
-    const closeModalEl = document.getElementById("closeMessageModal");
-    const cancelModalEl = document.getElementById("cancelMessageModal");
-    const commentModalEl = document.getElementById("commentModal");
-    const commentFormEl = document.getElementById("commentForm");
-    const commentContentEl = document.getElementById("commentContent");
-    const commentPasscodeEl = document.getElementById("commentPasscode");
-    const commentFormErrorEl = document.getElementById("commentFormError");
-    const closeCommentModalEl = document.getElementById("closeCommentModal");
-    const cancelCommentModalEl = document.getElementById("cancelCommentModal");
-    let activeCommentMessageId = "";
-    let backendError = "";
-
-    const normalizeDigits = (value) => {
-      return String(value || "")
-        .trim()
-        .replace(/[０-９]/g, (char) => String(char.charCodeAt(0) - 65248))
-        .replace(/\D/g, "");
+    const normalizeDateKey = (value) => {
+      const source = String(value || "").trim();
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(source)) return "";
+      const dt = new Date(`${source}T00:00:00`);
+      if (Number.isNaN(dt.getTime())) return "";
+      const normalized = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}-${String(
+        dt.getDate()
+      ).padStart(2, "0")}`;
+      if (normalized !== source) return "";
+      return source;
     };
 
-    const setError = (el, message) => {
-      if (el) el.textContent = message;
-    };
+    const parseDailyMessagesConfig = (raw) => {
+      return String(raw || "")
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter((line) => line && !line.startsWith("#"))
+        .map((line, index) => {
+          const parts = line.split("|").map((part) => part.trim());
+          let date = "";
+          let role = "";
+          let content = "";
 
-    const normalizeMessage = (item) => {
-      const content = String(item?.content || "").trim();
-      const at = item?.createdAt || item?.updatedAt || item?.date || "";
-      const role = String(item?.role || "").trim();
-      const comments = Array.isArray(item?.comments)
-        ? item.comments
-            .map((comment) => {
-              const commentContent = String(comment?.content || "").trim();
-              const commentAt = comment?.createdAt || comment?.updatedAt || comment?.date || "";
-              const commentRole = String(comment?.role || "").trim();
-              if (!commentContent) return null;
-              return {
-                id: String(comment?.id || `c_${Date.now()}`),
-                content: commentContent,
-                at: commentAt,
-                role: commentRole
-              };
-            })
-            .filter(Boolean)
-        : [];
-      return { ...item, content, at, role, comments };
+          if (parts.length >= 3) {
+            date = normalizeDateKey(parts[0]);
+            role = parts[1] || "";
+            content = parts.slice(2).join("|").trim();
+          } else if (parts.length === 2) {
+            const maybeDate = normalizeDateKey(parts[0]);
+            if (maybeDate) {
+              date = maybeDate;
+              content = parts[1] || "";
+            } else {
+              role = parts[0] || "";
+              content = parts[1] || "";
+            }
+          } else {
+            content = parts[0] || "";
+          }
+
+          if (!content) return null;
+          return {
+            id: `cfg_${index + 1}`,
+            order: index,
+            date,
+            role,
+            content
+          };
+        })
+        .filter(Boolean);
     };
 
     const messageStamp = (item) => {
-      const value = new Date(item.at).getTime();
-      return Number.isNaN(value) ? 0 : value;
+      if (!item?.date) return -1;
+      const value = new Date(`${item.date}T00:00:00`).getTime();
+      return Number.isNaN(value) ? -1 : value;
     };
 
-    const commentStamp = (item) => {
-      const value = new Date(item.at).getTime();
-      return Number.isNaN(value) ? 0 : value;
+    const pickTodayMessage = (items) => {
+      if (!items.length) return null;
+      const todayKey = today();
+      const direct = items.find((item) => item.date === todayKey);
+      if (direct) return direct;
+
+      const dayIndex = Math.floor(new Date(`${todayKey}T00:00:00`).getTime() / 86400000);
+      const pickedIndex = ((dayIndex % items.length) + items.length) % items.length;
+      return items[pickedIndex];
     };
 
-    const openModal = () => {
-      if (!modalEl) return;
-      setError(messageFormErrorEl, "");
-      modalEl.hidden = false;
-      document.body.style.overflow = "hidden";
-      setTimeout(() => {
-        contentEl?.focus();
-      }, 40);
-    };
-
-    const closeModal = () => {
-      if (!modalEl) return;
-      modalEl.hidden = true;
-      document.body.style.overflow = "";
-      form.reset();
-      setError(messageFormErrorEl, "");
-    };
-
-    const openCommentModal = (messageId) => {
-      if (!commentModalEl || !commentFormEl) return;
-      activeCommentMessageId = messageId;
-      setError(commentFormErrorEl, "");
-      commentModalEl.hidden = false;
-      document.body.style.overflow = "hidden";
-      setTimeout(() => {
-        commentContentEl?.focus();
-      }, 40);
-    };
-
-    const closeCommentModal = () => {
-      if (!commentModalEl || !commentFormEl) return;
-      commentModalEl.hidden = true;
-      document.body.style.overflow = "";
-      commentFormEl.reset();
-      activeCommentMessageId = "";
-      setError(commentFormErrorEl, "");
-    };
-
-    const render = (tips = "") => {
-      const ordered = messages
-        .map(normalizeMessage)
-        .filter((item) => item.content)
-        .sort((a, b) => messageStamp(b) - messageStamp(a));
-
-      if (!ordered.length) {
-        const fallback = tips || backendError;
-        list.innerHTML = `<div class="empty">${fallback || text("msg.empty")}</div>`;
+    const loadConfiguredMessages = async () => {
+      if (!isHttpRuntime()) {
+        configuredMessages = [];
+        loadError = text("msg.error_http_open");
+        render();
         return;
       }
+
+      try {
+        const response = await fetch("daily-messages.config", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const raw = await response.text();
+        configuredMessages = parseDailyMessagesConfig(raw);
+        loadError = "";
+      } catch {
+        configuredMessages = [];
+        loadError = text("msg.error_config_load_failed");
+      }
+
+      messages.splice(
+        0,
+        messages.length,
+        ...configuredMessages.map((item) => ({
+          id: item.id,
+          role: item.role,
+          content: item.content,
+          date: item.date
+        }))
+      );
+      writeList(STORAGE_KEYS.messages, messages);
+      updateHomeStats();
+      render();
+    };
+
+    const render = () => {
+      if (!configuredMessages.length) {
+        const fallback = loadError || text("msg.empty");
+        todayCard.className = "message-card message-tone-0";
+        todayCard.innerHTML = `<p class="empty">${esc(fallback)}</p>`;
+        list.innerHTML = `<div class="empty">${esc(fallback)}</div>`;
+        return;
+      }
+
+      const todayItem = pickTodayMessage(configuredMessages);
+      const todayToneSeed = Math.floor(new Date(`${today()}T00:00:00`).getTime() / 86400000);
+      const todayTone = ((todayToneSeed % 8) + 8) % 8;
+      const todayRoleHtml = todayItem?.role
+        ? `<p class="message-role">${esc(todayItem.role)}：</p>`
+        : "";
+
+      todayCard.className = `message-card message-tone-${todayTone}`;
+      todayCard.innerHTML = `
+        ${todayRoleHtml}
+        <p class="quote">${esc(todayItem?.content || "")}</p>
+        <p class="message-meta">${esc(text("msg.meta_prefix"))} ${esc(todayItem?.date || text("msg.meta_no_date"))}</p>
+      `;
+
+      const ordered = [...configuredMessages].sort((a, b) => {
+        const stampDelta = messageStamp(b) - messageStamp(a);
+        if (stampDelta !== 0) return stampDelta;
+        return a.order - b.order;
+      });
 
       list.innerHTML = ordered
         .map((item, index) => {
           const tone = index % 8;
-          const needsExpand = item.content.length > 120 || item.content.split("\n").length > 4;
-          const comments = [...item.comments].sort((a, b) => commentStamp(a) - commentStamp(b));
-          const commentsHtml = comments.length
-            ? `
-              <div class="message-comment-list">
-                ${comments
-                  .map(
-                    (comment) => `
-                      <article class="message-comment-item ${comment.role === "柔柔" ? "comment-role-rou" : comment.role === "梅梅" ? "comment-role-mei" : ""}">
-                        <p class="message-comment-role">${comment.role ? `${esc(comment.role)}：` : ""}</p>
-                        <p>${esc(comment.content)}</p>
-                        <p class="message-comment-time">${fmtDateTime(comment.at)}</p>
-                      </article>
-                    `
-                  )
-                  .join("")}
-              </div>
-            `
-            : "";
+          const isToday = todayItem && item.id === todayItem.id;
+          const title = isToday
+            ? text("msg.today_badge")
+            : `${text("msg.list_item_prefix")}${index + 1}条`;
+          const roleHtml = item.role ? `<p class="message-role">${esc(item.role)}：</p>` : "";
           return `
             <article class="message-card message-tone-${tone}">
-              <button class="message-delete-btn" type="button" data-remove-message="${esc(item.id)}" aria-label="${esc(text("msg.delete_btn"))}">${esc(text("msg.delete_btn"))}</button>
-              <p class="message-role">${item.role ? `${esc(item.role)}：` : ""}</p>
-              <p class="message-text${needsExpand ? " collapsed" : ""}">${esc(item.content)}</p>
-              <p class="message-meta">留言时间 · ${fmtDateTime(item.at)}</p>
-              <div class="message-actions">
-                <div>${needsExpand ? `<button class="message-expand" type="button" data-toggle-expand>${esc(text("msg.expand_btn"))}</button>` : ""}</div>
-                <button class="message-comment-btn" type="button" data-open-comment="${esc(item.id)}">${esc(text("msg.comment_btn"))}${comments.length ? ` (${comments.length})` : ""}</button>
+              <div class="card-head">
+                <h3 class="card-title">${esc(title)}</h3>
+                <span class="card-meta">${esc(item.date || text("msg.meta_no_date"))}</span>
               </div>
-              ${commentsHtml}
+              ${roleHtml}
+              <p class="message-text">${esc(item.content)}</p>
             </article>
           `;
         })
         .join("");
     };
-
-    const loadMessages = async () => {
-      if (!isHttpRuntime()) {
-        backendError = text("msg.error_http_open");
-        render(backendError);
-        return false;
-      }
-
-      try {
-        const payload = await apiRequest(API.messages, { method: "GET" });
-        const items = Array.isArray(payload) ? payload.map(normalizeMessage) : [];
-        messages.splice(0, messages.length, ...items);
-        writeList(STORAGE_KEYS.messages, messages);
-        backendError = "";
-        render();
-        updateHomeStats();
-        return true;
-      } catch (error) {
-        backendError = text("msg.error_backend_connect");
-        const cached = readList(STORAGE_KEYS.messages).map(normalizeMessage);
-        messages.splice(0, messages.length, ...cached);
-        render(backendError);
-        return false;
-      }
-    };
-
-    form.addEventListener("submit", async (event) => {
-      event.preventDefault();
-
-      const content = contentEl?.value.trim() || "";
-      if (!content) {
-        setError(messageFormErrorEl, text("msg.error_content_required"));
-        return;
-      }
-
-      const passcode = messagePasscodeEl?.value.trim() || "";
-      const role = MESSAGE_ROLE_BY_PASSCODE[passcode];
-      if (!role) {
-        setError(messageFormErrorEl, text("msg.error_verify_failed"));
-        return;
-      }
-
-      try {
-        await apiRequest(API.messages, {
-          method: "POST",
-          body: JSON.stringify({
-            role,
-            content
-          })
-        });
-      } catch {
-        setError(messageFormErrorEl, text("msg.error_backend_unavailable"));
-        return;
-      }
-
-      closeModal();
-      await loadMessages();
-    });
-
-    commentFormEl?.addEventListener("submit", async (event) => {
-      event.preventDefault();
-
-      const content = commentContentEl?.value.trim() || "";
-      if (!content) {
-        setError(commentFormErrorEl, text("msg.error_content_required"));
-        return;
-      }
-
-      const passcode = normalizeDigits(commentPasscodeEl?.value || "").padStart(4, "0");
-      const role = COMMENT_ROLE_BY_PASSCODE[passcode];
-      if (!role) {
-        setError(commentFormErrorEl, text("msg.error_verify_failed"));
-        return;
-      }
-
-      const target = messages.find((item) => item.id === activeCommentMessageId);
-      if (!target) {
-        setError(commentFormErrorEl, text("msg.error_comment_not_found"));
-        return;
-      }
-
-      try {
-        await apiRequest(API.comments, {
-          method: "POST",
-          body: JSON.stringify({
-            messageId: activeCommentMessageId,
-            content,
-            role
-          })
-        });
-      } catch {
-        setError(commentFormErrorEl, text("msg.error_backend_unavailable"));
-        return;
-      }
-
-      closeCommentModal();
-      await loadMessages();
-    });
-
-    openModalEl?.addEventListener("click", openModal);
-    closeModalEl?.addEventListener("click", closeModal);
-    cancelModalEl?.addEventListener("click", closeModal);
-    closeCommentModalEl?.addEventListener("click", closeCommentModal);
-    cancelCommentModalEl?.addEventListener("click", closeCommentModal);
-
-    modalEl?.addEventListener("click", (event) => {
-      if (event.target === modalEl) closeModal();
-    });
-
-    commentModalEl?.addEventListener("click", (event) => {
-      if (event.target === commentModalEl) closeCommentModal();
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && modalEl && !modalEl.hidden) {
-        closeModal();
-      }
-      if (event.key === "Escape" && commentModalEl && !commentModalEl.hidden) {
-        closeCommentModal();
-      }
-    });
-
-    list.addEventListener("click", async (event) => {
-      const deleteBtn = event.target.closest("[data-remove-message]");
-      if (deleteBtn) {
-        const messageId = deleteBtn.getAttribute("data-remove-message");
-        if (!messageId) return;
-
-        const passcode = window.prompt(text("msg.prompt_delete_verify"), "");
-        if (passcode === null) return;
-        if (passcode.trim() !== DELETE_PASSCODE) {
-          window.alert(text("msg.alert_delete_failed"));
-          return;
-        }
-
-        const idx = messages.findIndex((item) => item.id === messageId);
-        if (idx < 0) return;
-
-        try {
-          await apiRequest(API.messagesDelete, {
-            method: "POST",
-            body: JSON.stringify({ messageId })
-          });
-        } catch {
-          window.alert(text("msg.alert_delete_backend_failed"));
-          return;
-        }
-
-        await loadMessages();
-        return;
-      }
-
-      const toggleBtn = event.target.closest("[data-toggle-expand]");
-      if (toggleBtn) {
-        const card = toggleBtn.closest(".message-card");
-        const textEl = card?.querySelector(".message-text");
-        if (textEl) {
-          textEl.classList.toggle("collapsed");
-          toggleBtn.textContent = textEl.classList.contains("collapsed")
-            ? text("msg.expand_btn")
-            : text("msg.collapse_btn");
-        }
-        return;
-      }
-
-      const commentBtn = event.target.closest("[data-open-comment]");
-      if (commentBtn) {
-        const messageId = commentBtn.getAttribute("data-open-comment");
-        if (messageId) openCommentModal(messageId);
-      }
-    });
 
     render();
     loadCommendTextMap().then((map) => {
@@ -736,7 +1020,7 @@
       applyTextMapToDom(map);
       render();
     });
-    loadMessages();
+    loadConfiguredMessages();
   };
 
   const getVideoEmbed = (url) => {
@@ -955,6 +1239,8 @@
 
   initMenuDropdown();
   initHomeCarousel();
+  initHomeBirthdayVideo();
+  initFloatingFigureButton();
   initMessagesPage();
   initVideosPage();
   initAlbumsPage();
