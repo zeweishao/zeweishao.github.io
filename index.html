@@ -1,141 +1,90 @@
 ﻿<!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="home-doc">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>和雪一起的日常 - 首页</title>
+  <title>属于我们的小世界</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="archive-theme.css?v=20260725">
 </head>
-<body class="home-page">
+<body class="figure-site home-page">
   <div class="bg-aura bg-aura-one"></div>
   <div class="bg-aura bg-aura-two"></div>
   <div class="bg-stars" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <a class="brand" href="index.html">
-      <span class="brand-badge" aria-hidden="true">★</span>
-      <span>和雪一起的日常</span>
+  <header class="site-topbar topbar">
+    <a class="site-brand brand figure-brand" href="index.html">
+      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span>
+        <strong>属于我们的小世界</strong>
+        <small>PRIVATE ORBIT ARCHIVE</small>
+      </span>
     </a>
-    <nav class="top-nav" aria-label="主导航">
-      <details class="menu-dropdown">
-        <summary class="menu-toggle">
+    <nav class="site-nav top-nav" aria-label="主导航">
+      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+        <a class="is-active" href="index.html" aria-current="page">小家</a>
+        <a href="figures.html">小手办</a>
+        <a href="milk-tea.html">奶茶小屋</a>
+        <a href="messages.html">悄悄话</a>
+        <a href="albums.html">照片墙</a>
+        <a href="comic.html">漫画站</a>
+      </div>
+      <details class="site-menu menu-dropdown">
+        <summary class="site-menu-toggle menu-toggle">
           <span class="menu-icon" aria-hidden="true">≡</span>
           <span>导航</span>
           <span class="menu-caret" aria-hidden="true">▾</span>
         </summary>
-        <div class="menu-panel">
+        <div class="site-menu-panel menu-panel">
           <a class="active" href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>想对雪说的话</span></a>
+          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
     </nav>
   </header>
 
-  <main class="page-shell">
-    <section class="home-carousel" aria-label="首页照片轮播">
-      <div class="carousel-track" id="homeCarouselTrack">
-        <article class="carousel-slide active">
-          <img src="photos/1.jpg" alt="相册照片 1" loading="lazy">
-          <div class="carousel-caption">
-            <h2>你一笑，今天就变成了限定版好天气。</h2>
-          </div>
-        </article>
-        <article class="carousel-slide">
-          <img src="photos/2.jpg" alt="相册照片 2" loading="lazy">
-          <div class="carousel-caption">
-            <h2>和你并肩走的路，连风都变得温柔。</h2>
-          </div>
-        </article>
-        <article class="carousel-slide">
-          <img src="photos/3.jpg" alt="相册照片 3" loading="lazy">
-          <div class="carousel-caption">
-            <h2>想你的时候，连平常的一天都会发光。</h2>
-          </div>
-        </article>
-        <article class="carousel-slide">
-          <img src="photos/4.jpg" alt="相册照片 4" loading="lazy">
-          <div class="carousel-caption">
-            <h2>你在身边，日常就有了心动的注脚。</h2>
-          </div>
-        </article>
-        <article class="carousel-slide">
-          <img src="photos/5.jpg" alt="相册照片 5" loading="lazy">
-          <div class="carousel-caption">
-            <h2>我把喜欢藏进每个细节，你都会看到。</h2>
-          </div>
-        </article>
-        <article class="carousel-slide">
-          <img src="photos/6.jpg" alt="相册照片 6" loading="lazy">
-          <div class="carousel-caption">
-            <h2>往后的每一帧，都想和你一起慢慢拍完。</h2>
-          </div>
-        </article>
-      </div>
-      <button class="carousel-btn prev" type="button" id="carouselPrev" aria-label="上一张">‹</button>
-      <button class="carousel-btn next" type="button" id="carouselNext" aria-label="下一张">›</button>
-      <div class="carousel-dots" id="carouselDots" aria-label="轮播指示"></div>
-    </section>
-
-    <section class="hero-block">
-      <p class="hero-kicker">和雪一起的日常</p>
-      <h1>把和雪的日常，存成可回看的小宇宙</h1>
-      <div class="hero-tags">
-        <span>写给雪的话</span>
-      </div>
-    </section>
-
-    <section class="entry-grid" aria-label="页面入口">
-      <a class="entry-card" href="messages.html">
-        <p class="entry-icon" aria-hidden="true">✉</p>
-        <h2>想对雪说的话</h2>
-        <p id="homeLatestMessageText">记录今天想对雪说的话和你的心情。</p>
-      </a>
-    </section>
-
-    <section class="stat-grid" aria-label="数据统计">
-      <article class="stat-card"><p>写给雪的话</p><strong id="statMessages">0</strong></article>
-      <article class="stat-card"><p>最近更新</p><strong id="statUpdated">-</strong></article>
-    </section>
-
-    <section class="home-video-section" aria-label="生日快乐视频">
-      <article class="home-video-card">
-        <div class="home-video-head">
-          <p class="home-video-kicker">SPECIAL CLIP</p>
-          <h2>生日记录</h2>
+  <main class="site-main page-shell home-single-plane">
+    <section class="site-section station-map-hero" aria-labelledby="figureHeroTitle">
+      <div class="station-hero-copy">
+        <p class="figure-kicker">PRIVATE ORBIT · 05 STATIONS</p>
+        <h1 id="figureHeroTitle">属于我们的小世界</h1>
+        <p class="figure-hero-copy">把日常、喜欢与想说的话，收进一座只为雪亮着灯的小岛。沿着光走，每一站都有一份认真留下的心意。</p>
+        <a class="home-comic-entry" href="comic.html">
+          <span aria-hidden="true">✦</span>
+          <span><strong>漫画站 · 十二小时之外的星轨</strong><small>STARTRACE ARCHIVE · NOW OPEN</small></span>
+          <i aria-hidden="true"></i>
+        </a>
+        <div class="station-hero-meta" aria-label="小世界摘要">
+          <span><b>05</b> 个私人站点</span>
+          <span><b>01</b> 条正在延伸的星轨</span>
         </div>
-        <div class="home-video-shell">
-          <video
-            id="homeBirthdayVideo"
-            class="home-video-player"
-            controls
-            preload="none"
-            playsinline
-          >
-            <source data-src="videos/shengrikuaile.mp4" type="video/mp4">
-            你的浏览器暂不支持视频播放。
-          </video>
-        </div>
-      </article>
+      </div>
+      <div class="station-map-stage station-layered-map" aria-label="小世界站点地图">
+        <img class="station-map-bg" src="assets/love-world/home-bg-layer-v1.png" alt="" aria-hidden="true">
+        <a class="station-node station-home" href="index.html" data-selectable-link aria-label="进入小家">
+          <img class="station-node-art" src="assets/love-world/station-home-v2.png" alt="">
+        </a>
+        <a class="station-node station-tea" href="milk-tea.html" data-selectable-link aria-label="进入奶茶小屋">
+          <img class="station-node-art" src="assets/love-world/station-tea-v2.png" alt="">
+        </a>
+        <a class="station-node station-note" href="messages.html" data-selectable-link aria-label="进入悄悄话">
+          <img class="station-node-art" src="assets/love-world/station-note-v2.png" alt="">
+        </a>
+        <a class="station-node station-album" href="albums.html" data-selectable-link aria-label="进入照片墙">
+          <img class="station-node-art" src="assets/love-world/station-album-v2.png" alt="">
+        </a>
+        <a class="station-node station-comic" href="comic.html" data-selectable-link aria-label="进入漫画站">
+          <img class="station-node-art" src="assets/love-world/station-comic-v3.png?v=202607251130" alt="漫画站，小火车与候车女孩">
+        </a>
+      </div>
     </section>
   </main>
 
-  <a class="figure-float-btn" id="figureFloatBtn" href="albums.html" aria-label="播放我饿了语音">
-    <img
-      id="figureFloatImage"
-      class="figure-float-image"
-      src="photos/fuluoluo.png?v=202603142055"
-      alt="福洛落点"
-      decoding="async"
-      fetchpriority="low"
-    >
-    <span class="figure-float-tip" id="figureFloatTip">今天有奶茶吗？</span>
-  </a>
-  <audio id="figureFloatAudio" preload="auto">
-    <source src="videos/woele.mp3" type="audio/mpeg">
-  </audio>
-
   <script src="app.js"></script>
+  <script src="figure-story.js"></script>
 </body>
 </html>
-
-

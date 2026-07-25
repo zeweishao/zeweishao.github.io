@@ -1,0 +1,3597 @@
+{
+  "meta": {
+    "name": "雪雪专属奶茶机初始菜单",
+    "version": "0.2.0",
+    "updatedAt": "2026-05-17",
+    "notes": "扩展到霸王茶姬、喜茶、蜜雪冰城、奈雪的茶、茶百道、茶话弄、古茗等热门品牌。每款包含官方/公开来源、口味画像、评价摘要、印象分、置信度、风险标签和小红书采集查询词；小红书评论仍需通过 Tabbit 登录态继续批量校准。"
+  },
+  "brands": [
+    {
+      "id": "chagee",
+      "name": "霸王茶姬",
+      "logoText": "CHAGEE",
+      "brandTone": "东方茶香",
+      "logo": "assets/milk-tea/logos/chagee-source.jpg",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "霸王茶姬产品中心页面，页面可见伯牙绝弦等产品卡片。"
+        },
+        {
+          "type": "official_or_store",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC/id6748784592",
+          "note": "官方 App 商店信息提及经典与限定产品入口。"
+        }
+      ]
+    },
+    {
+      "id": "heytea",
+      "name": "喜茶",
+      "logoText": "HEYTEA",
+      "brandTone": "清爽果茶",
+      "logo": "assets/milk-tea/logos/heytea.svg",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.hey-tea.com/",
+          "note": "喜茶官网，访问受 Cloudflare 限制；产品信息以官方产品中心搜索结果与公开菜单交叉校验。"
+        },
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "公开产品中心线索包含时令上新、清爽真果茶、轻乳茶、浓郁真乳茶等分类。"
+        }
+      ]
+    },
+    {
+      "id": "mixue",
+      "name": "蜜雪冰城",
+      "logoText": "MXBC",
+      "brandTone": "高质平价",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ]
+    },
+    {
+      "id": "nayuki",
+      "name": "奈雪的茶",
+      "logoText": "NAIXUE",
+      "brandTone": "鲜果茶与烘焙",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ]
+    },
+    {
+      "id": "chabaidao",
+      "name": "茶百道",
+      "logoText": "CHAPANDA",
+      "brandTone": "熊猫茶饮",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ]
+    },
+    {
+      "id": "chahuanong",
+      "name": "茶话弄",
+      "logoText": "CHAHALO",
+      "brandTone": "国风鲜奶茶",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ]
+    },
+    {
+      "id": "guming",
+      "name": "古茗",
+      "logoText": "GUMING",
+      "brandTone": "鲜活果茶",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "chagee-bo-ya-jue-xian",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "伯牙绝弦",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "经典",
+        "茶感",
+        "茉莉",
+        "鲜奶",
+        "稳妥"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茉莉茶香比较清楚，奶感不压茶，是不知道喝什么时很稳的一杯。",
+      "image": "assets/milk-tea/products/chagee-bo-ya-jue-xian.jpg",
+      "visual": {
+        "base": "#e9f4e8",
+        "accent": "#8fbf9b",
+        "liquid": "#d9be8f",
+        "topping": "tea"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心页面可见伯牙绝弦产品卡。"
+        },
+        {
+          "type": "official_or_store",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC/id6748784592",
+          "note": "官方 App 页面提及经典伯牙绝弦。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 84,
+        "confidence": 0.38,
+        "impression": "小红书和公开舆论里讨论度最高的招牌款，优点集中在茉莉茶香清楚、奶感不抢茶；争议主要是喝晚了容易睡不着。",
+        "positiveSignals": [
+          "茉莉茶香",
+          "招牌经典",
+          "少糖少冰",
+          "咖啡因存在感"
+        ],
+        "cautionTags": [
+          "晚间慎选"
+        ],
+        "query": "小红书 霸王茶姬 伯牙绝弦 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-gui-fu-lan-xiang",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "桂馥兰香",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "经典",
+        "茶感",
+        "乌龙",
+        "桂花",
+        "鲜奶"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 3
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "桂花和乌龙的香气更温柔，茶感在线但不会太锋利。",
+      "visual": {
+        "base": "#f5efe1",
+        "accent": "#d6ae62",
+        "liquid": "#c79b63",
+        "topping": "osmanthus"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心与页面描述提及桂馥兰香等明星单品。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表用于辅助核对品牌产品体系。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 79,
+        "confidence": 0.28,
+        "impression": "目前先按桂花乌龙型鲜奶茶处理，适合想要香气柔和、不要厚重甜腻的推荐场景。",
+        "positiveSignals": [
+          "桂花乌龙",
+          "香气温柔",
+          "三分糖",
+          "少冰"
+        ],
+        "cautionTags": [],
+        "query": "小红书 霸王茶姬 桂馥兰香 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-wan-li-mu-lan",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "万里木兰",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "经典",
+        "茶感",
+        "兰香",
+        "鲜奶",
+        "清雅"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "花香感比厚重奶味更突出，适合想喝一杯清雅鲜奶茶的时候。",
+      "visual": {
+        "base": "#eef6f1",
+        "accent": "#a8c9b1",
+        "liquid": "#dcc29a",
+        "topping": "flower"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心元信息与公开页面线索包含万里木兰等明星单品。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品页面用于辅助核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 77,
+        "confidence": 0.28,
+        "impression": "公开讨论常和伯牙绝弦一起被放进茶感型选择，适合清雅茶香偏好，晚间仍需降低权重。",
+        "positiveSignals": [
+          "兰香",
+          "茶感",
+          "清雅",
+          "低甜"
+        ],
+        "cautionTags": [
+          "晚间慎选"
+        ],
+        "query": "小红书 霸王茶姬 万里木兰 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-qing-qing-nuo-shan",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "青青糯山",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "糯香",
+        "茶感",
+        "鲜奶",
+        "温柔",
+        "低腻"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "糯香茶底有记忆点，整体比厚乳类轻，喝起来更温柔。",
+      "visual": {
+        "base": "#edf6e7",
+        "accent": "#8dbb7d",
+        "liquid": "#d7bd8e",
+        "topping": "rice"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_store",
+          "url": "https://apps.apple.com/cn/app/%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC/id6748784592",
+          "note": "官方 App 产品入口与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心作为品牌产品体系来源。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 75,
+        "confidence": 0.24,
+        "impression": "先归为糯香、轻负担鲜奶茶，适合不想喝重奶重糖时尝试。",
+        "positiveSignals": [
+          "糯香",
+          "轻盈",
+          "低腻",
+          "温柔"
+        ],
+        "cautionTags": [],
+        "query": "小红书 霸王茶姬 青青糯山 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-hua-tian-wu-long",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "花田乌龙",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "乌龙",
+        "花香",
+        "鲜奶",
+        "轻盈"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "乌龙茶底会比普通奶茶更有层次，适合想换一点香气的时候。",
+      "visual": {
+        "base": "#f0f6ec",
+        "accent": "#c6a66d",
+        "liquid": "#cfa66f",
+        "topping": "flower"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "品牌产品中心用于核对产品体系。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品页面用于辅助核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 73,
+        "confidence": 0.2,
+        "impression": "评价库待补，暂按乌龙花香方向给低置信度印象分。",
+        "positiveSignals": [
+          "乌龙",
+          "花香",
+          "层次",
+          "轻奶"
+        ],
+        "cautionTags": [],
+        "query": "小红书 霸王茶姬 花田乌龙 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-jin-si-xiao-zhong",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "金丝小种",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "红茶",
+        "鲜奶",
+        "茶感",
+        "醇厚"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 3,
+        "fresh": 2
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "去冰",
+      "reasonBase": "红茶底更醇一点，适合今天想喝一杯有存在感的奶茶。",
+      "visual": {
+        "base": "#f4eadf",
+        "accent": "#b77b4b",
+        "liquid": "#b9784e",
+        "topping": "tea"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "品牌产品中心用于产品体系核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表辅助核验。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 68,
+        "confidence": 0.23,
+        "impression": "公开测评里对它的特色感评价不如招牌款稳定，推荐时更适合“浓一点/红茶”明确偏好的用户。",
+        "positiveSignals": [
+          "红茶",
+          "醇厚",
+          "茶感强",
+          "去冰"
+        ],
+        "cautionTags": [
+          "口味争议",
+          "晚间慎选"
+        ],
+        "query": "小红书 霸王茶姬 金丝小种 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-xing-shi-chun-shan",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "醒时春山",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "春茶",
+        "清爽",
+        "茶感",
+        "轻盈"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 2,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "名字和风味都很春天，适合想喝清爽茶香而不是厚奶的时候。",
+      "visual": {
+        "base": "#eef8ee",
+        "accent": "#7fbf86",
+        "liquid": "#c9d79e",
+        "topping": "leaf"
+      },
+      "sourceStatus": "needs_review",
+      "sources": [
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌范围核对，具体门店状态需后续复查。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 71,
+        "confidence": 0.18,
+        "impression": "按春茶清爽型临时入库，真实上架状态和评价热度需要继续核验。",
+        "positiveSignals": [
+          "春茶",
+          "清爽",
+          "轻盈",
+          "季节款"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "query": "小红书 霸王茶姬 醒时春山 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-xun-xiang-shan-cha",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "寻香山茶",
+      "category": "原叶鲜奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "山茶花",
+        "花香",
+        "鲜奶",
+        "清雅"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "花香感比较细腻，适合想喝一杯不重口、但又有香气记忆点的奶茶。",
+      "visual": {
+        "base": "#f6eef0",
+        "accent": "#d7a6ad",
+        "liquid": "#dac09c",
+        "topping": "flower"
+      },
+      "sourceStatus": "needs_review",
+      "sources": [
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌范围核对，具体门店状态需后续复查。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 72,
+        "confidence": 0.18,
+        "impression": "按山茶花香型临时入库，适合花香偏好；后续需要补真实笔记图片和评价。",
+        "positiveSignals": [
+          "山茶花",
+          "花香",
+          "清雅",
+          "鲜奶"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "query": "小红书 霸王茶姬 寻香山茶 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-bai-li-ming-xiang",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "百里茗香",
+      "category": "茶饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "茶感",
+        "清爽",
+        "轻负担"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 1,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茶香会更突出，适合今天不想喝太奶、只想要清爽一点的时候。",
+      "image": "assets/milk-tea/products/chagee-bai-li-ming-xiang.jpg",
+      "visual": {
+        "base": "#edf7ec",
+        "accent": "#7aa477",
+        "liquid": "#b8c97c",
+        "topping": "leaf"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表中可见百里茗香。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌产品体系核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 76,
+        "confidence": 0.25,
+        "impression": "按清爽茶感型处理，作为伯牙绝弦之外的稳妥备选。",
+        "positiveSignals": [
+          "茗香",
+          "茶感",
+          "清爽",
+          "经典感"
+        ],
+        "cautionTags": [],
+        "query": "小红书 霸王茶姬 百里茗香 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-you-nian-zhuo",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "柚念酌",
+      "category": "果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "柚子",
+        "水果",
+        "清爽",
+        "茶感"
+      ],
+      "tasteProfile": {
+        "tea": 3,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "柚子的清香会把甜感拉轻，适合今天想喝水果茶但不想太腻。",
+      "image": "assets/milk-tea/products/chagee-you-nian-zhuo.jpg",
+      "visual": {
+        "base": "#f2f6e7",
+        "accent": "#c9d96f",
+        "liquid": "#e7c76e",
+        "topping": "fruit"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表中可见柚念酌。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌产品体系核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 74,
+        "confidence": 0.25,
+        "impression": "柚香和茶感更适合想喝清爽、不怕微苦的人。",
+        "positiveSignals": [
+          "柚子",
+          "茶感",
+          "清爽",
+          "微苦"
+        ],
+        "cautionTags": [
+          "酸苦敏感"
+        ],
+        "query": "小红书 霸王茶姬 柚念酌 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-gu-jian-mo-li",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "古剑茉莉",
+      "category": "茶饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "茉莉",
+        "茶感",
+        "清爽",
+        "花香"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 1,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茉莉香气比较干净，适合想喝一杯轻一点、但又有茶香的选择。",
+      "image": "assets/milk-tea/products/chagee-gu-jian-mo-li.jpg",
+      "visual": {
+        "base": "#eff7ef",
+        "accent": "#9fcfa8",
+        "liquid": "#cfd89b",
+        "topping": "flower"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表中可见古剑茉莉。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌产品体系核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 78,
+        "confidence": 0.25,
+        "impression": "茉莉香型适合伯牙绝弦同偏好人群，后续补小红书图文后提高置信度。",
+        "positiveSignals": [
+          "茉莉",
+          "茶香",
+          "轻盈",
+          "古风联名"
+        ],
+        "cautionTags": [],
+        "query": "小红书 霸王茶姬 古剑茉莉 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "chagee-chu-qing-ge",
+      "brand": "霸王茶姬",
+      "brandId": "chagee",
+      "name": "楚清歌",
+      "category": "茶饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "清爽",
+        "茶感",
+        "东方茶",
+        "轻盈"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 1,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "更偏清爽茶饮的气质，适合今天只想喝点干净茶香的时候。",
+      "image": "assets/milk-tea/products/chagee-chu-qing-ge.jpg",
+      "visual": {
+        "base": "#eef6f3",
+        "accent": "#81b7ab",
+        "liquid": "#b8c89a",
+        "topping": "leaf"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bawangcha.cn/chanpin/",
+          "note": "公开产品列表中可见楚清歌。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.bawangcha.cn/products",
+          "note": "产品中心用于品牌产品体系核对。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 75,
+        "confidence": 0.22,
+        "impression": "先按限定清爽茶感款入库，推荐权重保持保守。",
+        "positiveSignals": [
+          "清爽",
+          "茶感",
+          "限定感",
+          "古风"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "query": "小红书 霸王茶姬 楚清歌 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-very-grape",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "多肉葡萄",
+      "category": "清爽真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "经典",
+        "水果",
+        "葡萄",
+        "清爽",
+        "真果茶"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 1,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "葡萄果香明显，清爽感强，是喜茶里很稳的水果茶选择。",
+      "visual": {
+        "base": "#f0edf8",
+        "accent": "#8c71bd",
+        "liquid": "#9b70bd",
+        "topping": "fruit"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心分类包含清爽真果茶，搜索结果可见多肉葡萄等产品线索。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网访问受限制，作为品牌官方入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 86,
+        "confidence": 0.32,
+        "impression": "喜茶经典人气款，核心优势是葡萄果肉和冰沙爽感；甜度和冰量需要按偏好控制。",
+        "positiveSignals": [
+          "多肉葡萄",
+          "冰沙",
+          "果肉感",
+          "人气经典"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "query": "小红书 喜茶 多肉葡萄 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-strawberry-cheese",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "芝芝莓莓",
+      "category": "芝士真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "草莓",
+        "水果",
+        "芝士",
+        "酸甜",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "草莓酸甜感明显，芝士顶会让它更有满足感，适合想喝一点甜甜奖励的时候。",
+      "visual": {
+        "base": "#fff0f3",
+        "accent": "#e98397",
+        "liquid": "#e85f7b",
+        "topping": "cream"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 82,
+        "confidence": 0.3,
+        "impression": "芝士莓莓的记忆点在草莓酸甜和咸甜奶盖，适合甜品感强一点的场景。",
+        "positiveSignals": [
+          "草莓",
+          "芝士奶盖",
+          "酸甜",
+          "经典"
+        ],
+        "cautionTags": [
+          "奶盖负担"
+        ],
+        "query": "小红书 喜茶 芝芝莓莓 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-peach-cheese",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "芝芝桃桃",
+      "category": "芝士真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "桃子",
+        "水果",
+        "芝士",
+        "清甜",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "桃子香气会更温柔，芝士顶增加奶香，适合想喝果味但也想要一点奶感的时候。",
+      "visual": {
+        "base": "#fff1ea",
+        "accent": "#eea084",
+        "liquid": "#ef9b82",
+        "topping": "cream"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 78,
+        "confidence": 0.24,
+        "impression": "桃子香气和芝士奶盖组合更偏甜品，适合明确想喝桃子时推荐。",
+        "positiveSignals": [
+          "桃子",
+          "芝士",
+          "果香",
+          "甜品感"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "query": "小红书 喜茶 芝芝桃桃 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-red-grapefruit",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "满杯红柚",
+      "category": "清爽真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "红柚",
+        "水果",
+        "清爽",
+        "微苦",
+        "真果茶"
+      ],
+      "tasteProfile": {
+        "tea": 3,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "红柚有一点果皮清苦，能把甜度拉住，适合不想喝腻的时候。",
+      "visual": {
+        "base": "#fff0e9",
+        "accent": "#f47c5e",
+        "liquid": "#f06f52",
+        "topping": "fruit"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心分类与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 77,
+        "confidence": 0.24,
+        "impression": "红柚更清爽但带酸苦边界，适合低负担和柑橘偏好。",
+        "positiveSignals": [
+          "红柚",
+          "清爽",
+          "酸苦",
+          "果茶"
+        ],
+        "cautionTags": [
+          "酸苦敏感"
+        ],
+        "query": "小红书 喜茶 满杯红柚 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-green-grape",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "多肉青提",
+      "category": "清爽真果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "青提",
+        "水果",
+        "清爽",
+        "真果茶"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 1,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "青提比葡萄更轻快，适合今天想喝清清爽爽水果味的时候。",
+      "visual": {
+        "base": "#eff8e9",
+        "accent": "#9bcf67",
+        "liquid": "#a7d36e",
+        "topping": "fruit"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 81,
+        "confidence": 0.25,
+        "impression": "青提型更清爽，适合水果/轻负担模式，供应状态需要继续核对。",
+        "positiveSignals": [
+          "青提",
+          "清爽",
+          "果肉",
+          "轻盈"
+        ],
+        "cautionTags": [
+          "季节供应"
+        ],
+        "query": "小红书 喜茶 多肉青提 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-xiao-nai-mo",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "小奶茉",
+      "category": "轻乳茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "茉莉",
+        "轻乳茶",
+        "清爽",
+        "奶香"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茉莉和轻乳茶的组合比较干净，适合想喝奶茶但不想太厚的时候。",
+      "visual": {
+        "base": "#f2f8f0",
+        "accent": "#a6d0a8",
+        "liquid": "#ddd1ae",
+        "topping": "flower"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心搜索结果可见小奶茉相关线索。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 79,
+        "confidence": 0.24,
+        "impression": "小奶茉适合想要奶香但不想太腻的选择，和霸王茶姬茶感型形成互补。",
+        "positiveSignals": [
+          "茉莉",
+          "轻乳茶",
+          "奶香",
+          "清爽"
+        ],
+        "cautionTags": [],
+        "query": "小红书 喜茶 小奶茉 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-xiao-bai-zhi",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "小白栀",
+      "category": "轻乳茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "栀子",
+        "轻乳茶",
+        "花香",
+        "清爽"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "三分糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "栀子花香比普通奶茶更轻，适合想喝温柔花香但不想太甜的时候。",
+      "visual": {
+        "base": "#f7f7ed",
+        "accent": "#d7cf8a",
+        "liquid": "#ded2ad",
+        "topping": "flower"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心搜索结果可见小白栀相关线索。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 78,
+        "confidence": 0.24,
+        "impression": "栀子花香更轻，适合花香和轻乳茶偏好。",
+        "positiveSignals": [
+          "栀子",
+          "轻乳茶",
+          "花香",
+          "清雅"
+        ],
+        "cautionTags": [],
+        "query": "小红书 喜茶 小白栀 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-roasted-boba",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "焙茶波波冰",
+      "category": "浓郁真乳茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "焙茶",
+        "波波",
+        "奶香",
+        "醇厚"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 4,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "焙茶香气更烘烤、更有厚度，适合今天想喝一杯有满足感的奶茶。",
+      "visual": {
+        "base": "#f3ebe2",
+        "accent": "#8b6a50",
+        "liquid": "#9f7453",
+        "topping": "boba"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心分类包含浓郁真乳茶，公开菜单线索辅助核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 72,
+        "confidence": 0.2,
+        "impression": "焙茶波波偏浓和甜品感，推荐给“浓一点”模式，低负担模式下会降权。",
+        "positiveSignals": [
+          "焙茶",
+          "波波",
+          "浓郁",
+          "甜品感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "饱腹感"
+        ],
+        "query": "小红书 喜茶 焙茶波波冰 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-matcha-boba",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "抹茶波波冰",
+      "category": "浓郁真乳茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "抹茶",
+        "波波",
+        "奶香",
+        "微苦"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 3,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "抹茶的微苦能压住甜感，适合想喝奶香但不想太甜的时候。",
+      "visual": {
+        "base": "#eef4e6",
+        "accent": "#6e9f68",
+        "liquid": "#7da96e",
+        "topping": "boba"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心分类与公开菜单线索辅助核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 73,
+        "confidence": 0.2,
+        "impression": "抹茶波波适合抹茶明确偏好，不作为默认稳妥款。",
+        "positiveSignals": [
+          "抹茶",
+          "波波",
+          "浓郁",
+          "微苦"
+        ],
+        "cautionTags": [
+          "饱腹感",
+          "抹茶敏感"
+        ],
+        "query": "小红书 喜茶 抹茶波波冰 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-mango-cheese",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "芝芝芒芒",
+      "category": "芝士真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "芒果",
+        "水果",
+        "芝士",
+        "浓郁",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "芒果果肉感更足，甜香比较明显，适合今天想喝开心一点的水果奶盖。",
+      "visual": {
+        "base": "#fff5df",
+        "accent": "#efb84f",
+        "liquid": "#f0b842",
+        "topping": "cream"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心与公开菜单线索交叉核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 80,
+        "confidence": 0.23,
+        "impression": "芒果芝士更适合想要浓郁果香和奶盖时推荐。",
+        "positiveSignals": [
+          "芒果",
+          "芝士",
+          "热带果香",
+          "甜品感"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "query": "小红书 喜茶 芝芝芒芒 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-coconut",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "生打椰椰",
+      "category": "轻负担饮品",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "椰子",
+        "清爽",
+        "奶香",
+        "轻盈"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 2,
+        "sweet": 3,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "椰香会比普通奶茶更清爽，适合想喝点软软的、但不要太厚重的时候。",
+      "visual": {
+        "base": "#f6f4e8",
+        "accent": "#d9c88c",
+        "liquid": "#eee0b6",
+        "topping": "coconut"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心与公开菜单线索辅助核对。"
+        },
+        {
+          "type": "secondary",
+          "url": "https://www.hey-tea.com/",
+          "note": "官方官网入口记录。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 76,
+        "confidence": 0.2,
+        "impression": "椰子型适合夏天和奶香偏好，评价库待补后再提高权重。",
+        "positiveSignals": [
+          "椰子",
+          "清甜",
+          "奶香",
+          "夏天"
+        ],
+        "cautionTags": [
+          "椰味敏感"
+        ],
+        "query": "小红书 喜茶 生打椰椰 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "heytea-peach-plum",
+      "brand": "喜茶",
+      "brandId": "heytea",
+      "name": "多肉桃李",
+      "category": "清爽真果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "桃子",
+        "李子",
+        "水果",
+        "清爽",
+        "酸甜"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "桃李的酸甜感会比单一水果更活泼，适合今天想尝一点新鲜感。",
+      "visual": {
+        "base": "#fff0ee",
+        "accent": "#e58b86",
+        "liquid": "#e27b78",
+        "topping": "fruit"
+      },
+      "sourceStatus": "needs_review",
+      "sources": [
+        {
+          "type": "official_or_near_official",
+          "url": "https://www.hey-tea.net/chanpinzhongxin/",
+          "note": "产品中心分类与公开新品线索辅助核对，季节状态需后续复查。"
+        }
+      ],
+      "verifiedAt": "2026-05-12",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "xhs_batch_queued",
+        "impressionScore": 74,
+        "confidence": 0.18,
+        "impression": "按尝鲜水果茶处理，真实热度和门店状态需要继续抓取。",
+        "positiveSignals": [
+          "桃李",
+          "果香",
+          "酸甜",
+          "尝鲜"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "query": "小红书 喜茶 多肉桃李 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-16",
+        "sourceNote": "初始库先记录公开可见测评与搜索线索；Tabbit 登录态小红书批量采集后按笔记数量、互动和图像质量提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-bingxian-ningmengshui",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "冰鲜柠檬水",
+      "category": "真果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "柠檬",
+        "清爽",
+        "酸甜",
+        "平价",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 0,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "大片柠檬看得见，酸甜直接、价格友好，是想要清爽不腻时很稳的一杯。",
+      "visual": {
+        "base": "#fff7d6",
+        "accent": "#f0cf4f",
+        "liquid": "#f4df75",
+        "topping": "lemon"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 86,
+        "confidence": 0.56,
+        "impression": "公开评论里它经常被当成蜜雪的稳定王牌，优点是便宜、清爽、酸甜醒神；不适合怕酸或不想喝冰的人。",
+        "positiveSignals": [
+          "便宜大杯",
+          "柠檬酸甜",
+          "夏天解腻",
+          "清爽"
+        ],
+        "cautionTags": [
+          "酸度敏感"
+        ],
+        "sampleComments": [
+          "很多人把它当作夏天默认款",
+          "酸甜感明显，建议少糖或正常糖按耐酸程度选"
+        ],
+        "query": "小红书 蜜雪冰城 冰鲜柠檬水 评价 好喝 几分糖 图片",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-caomei-yaoyao-naixi",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "草莓摇摇奶昔",
+      "category": "冰淇淋奶昔",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "草莓",
+        "奶昔",
+        "冰淇淋",
+        "甜品感"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 4,
+        "fruit": 3,
+        "sweet": 4,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "草莓果酱、冰淇淋和茶汤组合，甜品感明显，适合想喝开心一点的时候。",
+      "visual": {
+        "base": "#fff0f2",
+        "accent": "#f06f9d",
+        "liquid": "#f5a6b4",
+        "topping": "strawberry"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 80,
+        "confidence": 0.46,
+        "impression": "评价重点集中在草莓酱和冰淇淋带来的快乐感，争议是甜度和饱腹感偏高。",
+        "positiveSignals": [
+          "草莓酱",
+          "冰淇淋",
+          "甜品感",
+          "摇摇口感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "饱腹感"
+        ],
+        "sampleComments": [
+          "适合想喝甜品的时候",
+          "怕甜建议少糖，喝前摇匀更顺"
+        ],
+        "query": "小红书 蜜雪冰城 草莓摇摇奶昔 评价 好喝 图片",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-moli-nailv",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "茉莉奶绿",
+      "category": "轻乳茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "茉莉",
+        "奶绿",
+        "轻乳茶",
+        "平价"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茉莉绿茶加奶，茶香比普通甜奶茶更清楚，适合平价轻乳茶选择。",
+      "visual": {
+        "base": "#edf7ea",
+        "accent": "#86bd7c",
+        "liquid": "#c9d5a4",
+        "topping": "tea"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 82,
+        "confidence": 0.46,
+        "impression": "公开线索显示它是年度热卖款，评论倾向于“清爽、不贵、比重奶茶轻”。",
+        "positiveSignals": [
+          "茉莉茶香",
+          "轻乳茶",
+          "平价",
+          "不厚重"
+        ],
+        "cautionTags": [],
+        "sampleComments": [
+          "不少人把它当作低预算轻乳茶",
+          "茶味和奶味都偏轻，适合日常"
+        ],
+        "query": "小红书 蜜雪冰城 茉莉奶绿 评价 少糖 少冰",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-sanpin-baba-naicha",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "三拼霸霸奶茶",
+      "category": "奶茶特饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "珍珠",
+        "布丁",
+        "椰果",
+        "小料",
+        "饱腹"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 4,
+        "fresh": 1
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "小料存在感强，适合今天想喝一杯有嚼劲、像小甜品的奶茶。",
+      "visual": {
+        "base": "#f4eadf",
+        "accent": "#b77b4b",
+        "liquid": "#bc8758",
+        "topping": "boba"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 76,
+        "confidence": 0.34,
+        "impression": "评价集中在小料多、性价比高；不适合想喝清爽或低负担的时候。",
+        "positiveSignals": [
+          "小料多",
+          "饱腹",
+          "性价比",
+          "奶茶感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "饱腹感"
+        ],
+        "sampleComments": [
+          "适合想吃小料的时候",
+          "清爽模式下不优先推荐"
+        ],
+        "query": "小红书 蜜雪冰城 三拼霸霸奶茶 评价 小料",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-bangda-xiancheng",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "棒打鲜橙",
+      "category": "真果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "橙子",
+        "水果",
+        "清爽",
+        "酸甜"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "橙子果香更直接，适合不想喝奶、想要维C感和清爽感的时候。",
+      "visual": {
+        "base": "#fff1df",
+        "accent": "#ef9b39",
+        "liquid": "#f1b65e",
+        "topping": "orange"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 78,
+        "confidence": 0.32,
+        "impression": "评论倾向于清爽果茶路线，核心是橙子酸甜和冰感；稳定度可能受门店制作影响。",
+        "positiveSignals": [
+          "橙子果香",
+          "清爽",
+          "酸甜",
+          "不喝奶"
+        ],
+        "cautionTags": [
+          "酸度敏感"
+        ],
+        "sampleComments": [
+          "适合果茶模式",
+          "怕酸可以少冰少糖谨慎选"
+        ],
+        "query": "小红书 蜜雪冰城 棒打鲜橙 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "mixue-yuyuan-putao",
+      "brand": "蜜雪冰城",
+      "brandId": "mixue",
+      "name": "芋圆葡萄",
+      "category": "真果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "葡萄",
+        "芋圆",
+        "水果",
+        "小料"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "葡萄酸甜配芋圆，既有果茶感也有嚼劲，比纯果茶更有满足感。",
+      "visual": {
+        "base": "#f0e8ff",
+        "accent": "#8d78d8",
+        "liquid": "#a386d8",
+        "topping": "grape"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/",
+          "note": "官网首页与产品实力页可见冰鲜柠檬水、新鲜冰淇淋、草莓摇摇奶昔、茉莉奶绿、雪王雪顶咖啡等核心产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.mxbc.com/product_strength.html",
+          "note": "产品实力页说明冰鲜柠檬水年销量、茉莉奶绿上市首月销量等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 77,
+        "confidence": 0.3,
+        "impression": "评价关键词是葡萄味、芋圆Q弹、性价比；争议在甜度和葡萄风味稳定性。",
+        "positiveSignals": [
+          "葡萄",
+          "芋圆Q弹",
+          "性价比",
+          "果茶小料"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "sampleComments": [
+          "适合想喝葡萄又想吃小料",
+          "少糖更稳"
+        ],
+        "query": "小红书 蜜雪冰城 芋圆葡萄 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-ba-qi-chengzi",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "霸气橙子",
+      "category": "霸气鲜果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "橙子",
+        "鲜果茶",
+        "清爽",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "橙子果肉和茶底结合，清爽度高，是奈雪鲜果茶里稳妥的经典方向。",
+      "visual": {
+        "base": "#fff0df",
+        "accent": "#f09a42",
+        "liquid": "#f4b05f",
+        "topping": "orange"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 83,
+        "confidence": 0.38,
+        "impression": "公开研报把霸气橙子列为奈雪经典畅销茶饮之一，评价方向集中在鲜果感和清爽。",
+        "positiveSignals": [
+          "橙子果肉",
+          "鲜果茶",
+          "清爽",
+          "经典"
+        ],
+        "cautionTags": [
+          "酸度敏感"
+        ],
+        "sampleComments": [
+          "鲜果感强，适合不想喝奶的时候",
+          "少糖少冰更突出果香"
+        ],
+        "query": "小红书 奈雪的茶 霸气橙子 评价 好喝 图片",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-ba-qi-zhishi-putao",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "霸气芝士葡萄",
+      "category": "芝士鲜果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "葡萄",
+        "芝士",
+        "奶盖",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "葡萄果香配芝士奶盖，甜品感更强，适合想要浓郁果茶的时候。",
+      "visual": {
+        "base": "#efe7ff",
+        "accent": "#8d79d8",
+        "liquid": "#a184d8",
+        "topping": "grape"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 84,
+        "confidence": 0.38,
+        "impression": "公开研报将霸气芝士葡萄列为奈雪经典畅销茶饮，评论常见关键词是葡萄、奶盖、满足感。",
+        "positiveSignals": [
+          "葡萄果肉",
+          "芝士奶盖",
+          "经典",
+          "满足感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "奶盖负担"
+        ],
+        "sampleComments": [
+          "葡萄和芝士组合辨识度高",
+          "怕腻可以选少糖或分开奶盖"
+        ],
+        "query": "小红书 奈雪 霸气芝士葡萄 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-ba-qi-yangmei",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "霸气杨梅",
+      "category": "季节鲜果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "杨梅",
+        "季节款",
+        "鲜果",
+        "酸甜"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 2,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "杨梅酸甜感强，适合季节上新时尝鲜，清爽但会有明显果酸。",
+      "visual": {
+        "base": "#ffe6ec",
+        "accent": "#c94065",
+        "liquid": "#d35d78",
+        "topping": "berry"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 82,
+        "confidence": 0.34,
+        "impression": "公开资料提到霸气杨梅多年回归并属爆款，评价关键词是杨梅鲜果、酸甜、季节限定。",
+        "positiveSignals": [
+          "杨梅鲜果",
+          "季节回归",
+          "酸甜",
+          "清爽"
+        ],
+        "cautionTags": [
+          "酸度敏感",
+          "季节供应"
+        ],
+        "sampleComments": [
+          "杨梅季节感明显",
+          "怕酸的人要谨慎"
+        ],
+        "query": "小红书 奈雪 霸气杨梅 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-ba-qi-lizhi",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "霸气荔枝",
+      "category": "季节鲜果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "荔枝",
+        "鲜果",
+        "清甜",
+        "季节款"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "荔枝香气清甜，适合想要柔和果香、不想喝厚重奶茶的时候。",
+      "visual": {
+        "base": "#fff0f1",
+        "accent": "#ed8b9b",
+        "liquid": "#f3b0ba",
+        "topping": "lychee"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 80,
+        "confidence": 0.32,
+        "impression": "公开报道提到霸气荔枝是夏季经典产品，评价方向偏清甜果香。",
+        "positiveSignals": [
+          "荔枝香",
+          "清甜",
+          "夏季",
+          "鲜果"
+        ],
+        "cautionTags": [
+          "季节供应"
+        ],
+        "sampleComments": [
+          "清甜型果茶",
+          "比柑橘类更柔和"
+        ],
+        "query": "小红书 奈雪 霸气荔枝 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-ba-qi-caomei",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "霸气芝士草莓",
+      "category": "芝士鲜果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "草莓",
+        "芝士",
+        "奶盖",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "草莓酸甜加芝士奶盖，偏甜品感，但比纯奶茶更有果香。",
+      "visual": {
+        "base": "#fff0f4",
+        "accent": "#f0709a",
+        "liquid": "#f29bb3",
+        "topping": "strawberry"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 82,
+        "confidence": 0.36,
+        "impression": "公开研报将霸气芝士草莓列为奈雪经典畅销茶饮，评论常围绕草莓、奶盖、甜品感。",
+        "positiveSignals": [
+          "草莓",
+          "芝士奶盖",
+          "经典",
+          "甜品感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "奶盖负担"
+        ],
+        "sampleComments": [
+          "适合草莓和奶盖党",
+          "轻负担模式会降权"
+        ],
+        "query": "小红书 奈雪 霸气芝士草莓 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "nayuki-baozang-naicha",
+      "brand": "奈雪的茶",
+      "brandId": "nayuki",
+      "name": "宝藏奶茶",
+      "category": "奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "奶茶",
+        "小料",
+        "浓郁",
+        "甜品感"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 4,
+        "fresh": 1
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "更偏奶茶和小料满足感，适合想喝热量快乐而不是清爽果茶的时候。",
+      "visual": {
+        "base": "#f4eadf",
+        "accent": "#ba8054",
+        "liquid": "#c18a5b",
+        "topping": "boba"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://ir.naixue.com/media/xehpfm1s/%E5%A5%88%E9%9B%AA%E7%9A%84%E8%8C%B62022%E4%B8%AD%E6%9C%9F%E4%B8%9A%E7%BB%A9%E5%8F%91%E5%B8%83%E4%BC%9A-vf.pdf",
+          "note": "奈雪公开材料提及霸气杨梅、霸气水蜜桃、霸气荔枝等爆款产品。"
+        },
+        {
+          "type": "public_report",
+          "url": "https://file.iyanbao.com/pdf/fb4b2-be367a1d-d05b-4d67-8478-9c1c7e3aba1d.pdf",
+          "note": "公开研报提及霸气芝士草莓、霸气橙子、霸气芝士葡萄为经典畅销茶饮。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 76,
+        "confidence": 0.25,
+        "impression": "公开菜单线索较多但需要复核具体版本；评价方向偏小料、奶香和饱腹。",
+        "positiveSignals": [
+          "奶茶感",
+          "小料",
+          "满足",
+          "甜品"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "饱腹感"
+        ],
+        "sampleComments": [
+          "适合奶茶模式",
+          "不适合作为清爽推荐"
+        ],
+        "query": "小红书 奈雪 宝藏奶茶 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-yangzhi-ganlu",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "杨枝甘露",
+      "category": "招牌果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "芒果",
+        "西柚",
+        "西米",
+        "椰浆",
+        "招牌"
+      ],
+      "tasteProfile": {
+        "tea": 0,
+        "milk": 2,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "芒果、西柚、西米和椰浆组合，果香和小料都足，是茶百道的强招牌。",
+      "visual": {
+        "base": "#fff2d7",
+        "accent": "#f0ad3f",
+        "liquid": "#f0c56a",
+        "topping": "mango"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 86,
+        "confidence": 0.42,
+        "impression": "公开报道和点单菜单都把杨枝甘露作为茶百道高频招牌，评价关键词是芒果浓、小料足、酸甜顺。",
+        "positiveSignals": [
+          "芒果",
+          "西柚",
+          "西米",
+          "招牌"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "sampleComments": [
+          "喜欢芒果和小料会更容易满意",
+          "少糖能压住椰浆甜感"
+        ],
+        "query": "小红书 茶百道 杨枝甘露 评价 好喝 图片",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-douru-yuqilin",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "豆乳玉麒麟",
+      "category": "奶盖茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "豆乳",
+        "玉麒麟",
+        "芝士",
+        "茶感"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 3,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "豆乳粉、芝士奶盖和茶底的组合很有记忆点，适合想喝茶感奶盖但不想普通奶茶的时候。",
+      "visual": {
+        "base": "#f5efe0",
+        "accent": "#d6b56e",
+        "liquid": "#d3b176",
+        "topping": "soy"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 84,
+        "confidence": 0.4,
+        "impression": "公开菜单描述强调豆乳、玉麒麟茶底和芝士奶盖，评论常见“豆香、茶香、奶盖”三个关键词。",
+        "positiveSignals": [
+          "豆香",
+          "芝士奶盖",
+          "茶底",
+          "招牌"
+        ],
+        "cautionTags": [
+          "奶盖负担"
+        ],
+        "sampleComments": [
+          "豆乳粉和奶盖是主要记忆点",
+          "怕腻建议少糖少冰"
+        ],
+        "query": "小红书 茶百道 豆乳玉麒麟 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-chaoji-shuiguocha",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "超级杯水果茶",
+      "category": "大杯果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "水果茶",
+        "大杯",
+        "清爽",
+        "分享"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "水果种类多、杯量大，适合想喝清爽大杯或和朋友一起分享。",
+      "visual": {
+        "base": "#fff7df",
+        "accent": "#ef8f58",
+        "liquid": "#f2be72",
+        "topping": "fruit"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 80,
+        "confidence": 0.34,
+        "impression": "公开菜单线索显示它是大杯水果茶代表，评价集中在量大、清爽、水果多。",
+        "positiveSignals": [
+          "大杯",
+          "水果多",
+          "清爽",
+          "性价比"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "sampleComments": [
+          "适合想喝大杯水果茶",
+          "水果新鲜度受门店影响"
+        ],
+        "query": "小红书 茶百道 超级杯水果茶 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-zhaopai-yuyuan-naicha",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "招牌芋圆奶茶",
+      "category": "奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "芋圆",
+        "奶茶",
+        "小料",
+        "饱腹"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 4,
+        "fresh": 1
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "芋圆和奶茶的组合更偏饱腹甜品，适合想喝有嚼劲的一杯。",
+      "visual": {
+        "base": "#f3e8dd",
+        "accent": "#a97855",
+        "liquid": "#bd875c",
+        "topping": "taro"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 77,
+        "confidence": 0.28,
+        "impression": "评价方向是芋圆Q弹、奶茶顺口；清爽模式下不优先。",
+        "positiveSignals": [
+          "芋圆",
+          "Q弹",
+          "奶茶",
+          "小料"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "饱腹感"
+        ],
+        "sampleComments": [
+          "适合小料党",
+          "低负担模式会降权"
+        ],
+        "query": "小红书 茶百道 招牌芋圆奶茶 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-guihua-jiuniang",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "桂花酒酿奶茶",
+      "category": "风味奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "桂花",
+        "酒酿",
+        "奶茶",
+        "香气"
+      ],
+      "tasteProfile": {
+        "tea": 2,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 3,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "桂花和酒酿提供香气记忆点，比普通奶茶更有中式甜品感。",
+      "visual": {
+        "base": "#fff4e5",
+        "accent": "#d9a64d",
+        "liquid": "#d7b06d",
+        "topping": "osmanthus"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 78,
+        "confidence": 0.28,
+        "impression": "公开菜单线索中常与茶百道热门款一起出现，评价倾向于桂花香和酒酿甜品感。",
+        "positiveSignals": [
+          "桂花",
+          "酒酿",
+          "中式甜品",
+          "奶香"
+        ],
+        "cautionTags": [
+          "甜感偏高"
+        ],
+        "sampleComments": [
+          "喜欢酒酿会加分",
+          "不喜欢发酵香的人谨慎"
+        ],
+        "query": "小红书 茶百道 桂花酒酿奶茶 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chabaidao-xigua-bobo",
+      "brand": "茶百道",
+      "brandId": "chabaidao",
+      "name": "西瓜啵啵",
+      "category": "季节果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "西瓜",
+        "啵啵",
+        "清爽",
+        "夏天"
+      ],
+      "tasteProfile": {
+        "tea": 0,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "西瓜清爽感强，适合热天和想喝轻快水果茶的时候。",
+      "visual": {
+        "base": "#fff0f0",
+        "accent": "#ef6b72",
+        "liquid": "#f2888c",
+        "topping": "watermelon"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "public_report",
+          "url": "https://www.entrepreneurdaily.cn/upfile/att/20230526153835127af.pdf",
+          "note": "公开报道/资料提及茶百道爆品包括杨枝甘露、豆乳玉麒麟等。"
+        },
+        {
+          "type": "menu_reference",
+          "url": "https://www.fantuanorder.com/zh-CN/store/Restaurant/us-1213537232",
+          "note": "海外点单菜单可见豆乳玉麒麟、杨枝甘露、超级杯水果茶等产品线索。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 76,
+        "confidence": 0.24,
+        "impression": "评价方向偏夏季、清爽、啵啵口感，供应和稳定性需继续复核。",
+        "positiveSignals": [
+          "西瓜",
+          "啵啵",
+          "夏天",
+          "清爽"
+        ],
+        "cautionTags": [
+          "季节供应"
+        ],
+        "sampleComments": [
+          "适合夏天尝鲜",
+          "门店供应需要实时确认"
+        ],
+        "query": "小红书 茶百道 西瓜啵啵 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chahuanong-guihuayin",
+      "brand": "茶话弄",
+      "brandId": "chahuanong",
+      "name": "桂花引",
+      "category": "招牌鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "桂花",
+        "鲜奶茶",
+        "国风",
+        "招牌"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "桂花、奶香和焙香层次明显，是茶话弄最适合放进稳妥池的国风招牌。",
+      "visual": {
+        "base": "#fff6df",
+        "accent": "#d7a54d",
+        "liquid": "#d5b174",
+        "topping": "osmanthus"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 86,
+        "confidence": 0.58,
+        "impression": "茶话弄官网称桂花引为首款招牌爆品并累计销售破4000万杯，评价重点是桂花香、奶香和国风记忆点。",
+        "positiveSignals": [
+          "桂花香",
+          "招牌爆品",
+          "鲜奶茶",
+          "国风"
+        ],
+        "cautionTags": [],
+        "sampleComments": [
+          "桂花香是最大记忆点",
+          "少糖少冰更稳"
+        ],
+        "query": "小红书 茶话弄 桂花引 评价 好喝 几分糖",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chahuanong-meizhan-yaohong",
+      "brand": "茶话弄",
+      "brandId": "chahuanong",
+      "name": "梅占摇红",
+      "category": "小浓杯鲜奶茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "梅占",
+        "金骏眉",
+        "茶感",
+        "浓郁"
+      ],
+      "tasteProfile": {
+        "tea": 5,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "茶香更浓，适合想喝茶感鲜明、不想喝水果茶的时候。",
+      "visual": {
+        "base": "#f3e9df",
+        "accent": "#a65c42",
+        "liquid": "#b47256",
+        "topping": "tea"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 82,
+        "confidence": 0.5,
+        "impression": "官网描述梅占摇红强调金骏眉、花果韵和奶香，评论方向应重点看茶感和浓度接受度。",
+        "positiveSignals": [
+          "金骏眉",
+          "花果韵",
+          "茶感强",
+          "奶香"
+        ],
+        "cautionTags": [
+          "晚间慎选"
+        ],
+        "sampleComments": [
+          "茶感党更容易喜欢",
+          "晚上会降低推荐权重"
+        ],
+        "query": "小红书 茶话弄 梅占摇红 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chahuanong-fusheng-banrixian",
+      "brand": "茶话弄",
+      "brandId": "chahuanong",
+      "name": "茯生半日闲",
+      "category": "国风鲜奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "茯茶",
+        "国风",
+        "奶茶",
+        "温润"
+      ],
+      "tasteProfile": {
+        "tea": 4,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "温热",
+      "reasonBase": "名字和风味都偏慢节奏，适合想喝一杯温润中式奶茶的时候。",
+      "visual": {
+        "base": "#f1eadf",
+        "accent": "#9f7a54",
+        "liquid": "#b9936b",
+        "topping": "tea"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 78,
+        "confidence": 0.38,
+        "impression": "官网产品页可见该产品，评价库待继续补小红书笔记；暂按温润茶感型入库。",
+        "positiveSignals": [
+          "茯茶",
+          "温润",
+          "国风",
+          "奶茶"
+        ],
+        "cautionTags": [
+          "晚间慎选"
+        ],
+        "sampleComments": [
+          "偏温润茶感",
+          "适合热饮或少冰场景"
+        ],
+        "query": "小红书 茶话弄 茯生半日闲 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chahuanong-shaonianshi",
+      "brand": "茶话弄",
+      "brandId": "chahuanong",
+      "name": "少年时",
+      "category": "国风奶茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "国风",
+        "奶茶",
+        "清甜",
+        "日常"
+      ],
+      "tasteProfile": {
+        "tea": 3,
+        "milk": 3,
+        "fruit": 0,
+        "sweet": 2,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "少冰",
+      "reasonBase": "作为茶话弄国风体系里的日常款，适合想喝不太冒险的鲜奶茶。",
+      "visual": {
+        "base": "#eef5e8",
+        "accent": "#8eb47d",
+        "liquid": "#c9b983",
+        "topping": "tea"
+      },
+      "sourceStatus": "needs_review",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 74,
+        "confidence": 0.18,
+        "impression": "产品热度和门店状态需要继续核验，暂时作为低置信度国风奶茶候选。",
+        "positiveSignals": [
+          "国风",
+          "日常",
+          "鲜奶茶"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "sampleComments": [
+          "待采集更多真实笔记"
+        ],
+        "query": "小红书 茶话弄 少年时 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "chahuanong-xiaodiaoli",
+      "brand": "茶话弄",
+      "brandId": "chahuanong",
+      "name": "小吊梨汤",
+      "category": "风味茶饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "梨",
+        "润感",
+        "清爽",
+        "国风"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 4,
+        "sweet": 2,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "梨香和润感更明显，适合不想喝奶、想要清润口味的时候。",
+      "visual": {
+        "base": "#f7f2de",
+        "accent": "#d0be73",
+        "liquid": "#ded18b",
+        "topping": "pear"
+      },
+      "sourceStatus": "needs_review",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.chahalo.com/index.php?catid=35",
+          "note": "茶话弄官网 Milk Tea Series 页面可见桂花引、茯生半日闲、梅占摇红等产品和描述。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 73,
+        "confidence": 0.18,
+        "impression": "待进一步核验门店菜单和真实评价，先作为清润果茶/风味茶方向入库。",
+        "positiveSignals": [
+          "梨香",
+          "清润",
+          "不喝奶",
+          "国风"
+        ],
+        "cautionTags": [
+          "门店状态待核"
+        ],
+        "sampleComments": [
+          "待采集更多真实笔记"
+        ],
+        "query": "小红书 茶话弄 小吊梨汤 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "guming-chaoa-zhishi-putao",
+      "brand": "古茗",
+      "brandId": "guming",
+      "name": "超A芝士葡萄",
+      "category": "芝士果茶",
+      "status": "active",
+      "isClassic": true,
+      "isSeasonal": false,
+      "tags": [
+        "葡萄",
+        "芝士",
+        "古茗",
+        "经典"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "葡萄果肉和芝士奶盖组合，风味饱满，是古茗果茶里很强的经典款。",
+      "visual": {
+        "base": "#eee6ff",
+        "accent": "#826fe0",
+        "liquid": "#9f83d8",
+        "topping": "grape"
+      },
+      "sourceStatus": "verified",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 86,
+        "confidence": 0.5,
+        "impression": "古茗官网产品中心可见超A芝士葡萄；公开评价常围绕葡萄果肉、芝士奶盖和经典度。",
+        "positiveSignals": [
+          "葡萄",
+          "芝士奶盖",
+          "经典",
+          "果肉"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "奶盖负担"
+        ],
+        "sampleComments": [
+          "古茗经典葡萄线",
+          "少糖更稳"
+        ],
+        "query": "小红书 古茗 超A芝士葡萄 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "guming-zhishi-yangmei",
+      "brand": "古茗",
+      "brandId": "guming",
+      "name": "芝士杨梅",
+      "category": "季节芝士果茶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": true,
+      "tags": [
+        "杨梅",
+        "芝士",
+        "季节",
+        "酸甜"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 4
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "杨梅酸甜加芝士奶盖，适合季节上新时想要果香和奶盖都要的人。",
+      "visual": {
+        "base": "#ffe6ed",
+        "accent": "#c94168",
+        "liquid": "#d15d7a",
+        "topping": "berry"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 81,
+        "confidence": 0.36,
+        "impression": "古茗官网产品列表出现芝士杨梅，评价方向偏杨梅酸甜、奶盖满足和季节感。",
+        "positiveSignals": [
+          "杨梅",
+          "芝士",
+          "酸甜",
+          "季节"
+        ],
+        "cautionTags": [
+          "酸度敏感",
+          "季节供应"
+        ],
+        "sampleComments": [
+          "杨梅季节款更适合尝鲜",
+          "怕酸谨慎"
+        ],
+        "query": "小红书 古茗 芝士杨梅 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "guming-yangzhi-ganlu",
+      "brand": "古茗",
+      "brandId": "guming",
+      "name": "杨枝甘露椰奶",
+      "category": "芒果椰奶",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "芒果",
+        "椰奶",
+        "西米",
+        "甜品感"
+      ],
+      "tasteProfile": {
+        "tea": 0,
+        "milk": 3,
+        "fruit": 5,
+        "sweet": 4,
+        "fresh": 3
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "芒果和椰奶的甜品感强，适合想喝柔和果香和小料的时候。",
+      "visual": {
+        "base": "#fff2d6",
+        "accent": "#efb646",
+        "liquid": "#f0c56e",
+        "topping": "mango"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 79,
+        "confidence": 0.28,
+        "impression": "公开菜单线索常见古茗杨枝甘露类产品，具体名称和上架状态需按城市继续核验。",
+        "positiveSignals": [
+          "芒果",
+          "椰奶",
+          "西米",
+          "甜品感"
+        ],
+        "cautionTags": [
+          "甜感偏高",
+          "门店状态待核"
+        ],
+        "sampleComments": [
+          "适合芒果椰奶偏好",
+          "需继续核对门店版本"
+        ],
+        "query": "小红书 古茗 杨枝甘露 椰奶 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "guming-shengye-natie",
+      "brand": "古茗",
+      "brandId": "guming",
+      "name": "生椰拿铁",
+      "category": "咖啡茶饮",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "生椰",
+        "咖啡",
+        "拿铁",
+        "清甜"
+      ],
+      "tasteProfile": {
+        "tea": 0,
+        "milk": 4,
+        "fruit": 0,
+        "sweet": 3,
+        "fresh": 2
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "生椰和咖啡组合，适合想要咖啡感但不想太苦的时候。",
+      "visual": {
+        "base": "#f3efe6",
+        "accent": "#c7a06a",
+        "liquid": "#b98d61",
+        "topping": "coffee"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 76,
+        "confidence": 0.24,
+        "impression": "作为茶饮品牌常见咖啡线，评价库需要继续补平台数据；暂按生椰咖啡方向入库。",
+        "positiveSignals": [
+          "生椰",
+          "咖啡",
+          "拿铁",
+          "奶香"
+        ],
+        "cautionTags": [
+          "咖啡因存在感",
+          "晚间慎选"
+        ],
+        "sampleComments": [
+          "适合咖啡模式",
+          "晚上会降低推荐"
+        ],
+        "query": "小红书 古茗 生椰拿铁 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    },
+    {
+      "id": "guming-baixiang-shuangxiangpao",
+      "brand": "古茗",
+      "brandId": "guming",
+      "name": "百香双响炮",
+      "category": "果茶小料",
+      "status": "active",
+      "isClassic": false,
+      "isSeasonal": false,
+      "tags": [
+        "百香果",
+        "椰果",
+        "珍珠",
+        "酸甜"
+      ],
+      "tasteProfile": {
+        "tea": 1,
+        "milk": 0,
+        "fruit": 5,
+        "sweet": 3,
+        "fresh": 5
+      },
+      "recommendedSugar": "少糖",
+      "recommendedIce": "正常冰",
+      "reasonBase": "百香果酸甜加小料，清爽又有嚼劲，适合水果/小料双偏好。",
+      "visual": {
+        "base": "#fff6d8",
+        "accent": "#eda63a",
+        "liquid": "#f0c05f",
+        "topping": "passionfruit"
+      },
+      "sourceStatus": "reviewed",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.azis.cn/product/4.html",
+          "note": "古茗官网产品中心可见超A芝士葡萄，并列出芝士杨梅等产品。"
+        },
+        {
+          "type": "official",
+          "url": "https://www.gumingnc.com/",
+          "note": "古茗官网说明品牌产品研发和供应链信息。"
+        }
+      ],
+      "verifiedAt": "2026-05-17",
+      "reviewSummary": {
+        "platform": "xiaohongshu",
+        "captureStatus": "seeded_public_web_needs_xhs_batch",
+        "impressionScore": 78,
+        "confidence": 0.24,
+        "impression": "公开菜单线索较常见，评价方向为酸甜、清爽、小料足；需继续核验各地供应。",
+        "positiveSignals": [
+          "百香果",
+          "酸甜",
+          "小料",
+          "清爽"
+        ],
+        "cautionTags": [
+          "酸度敏感"
+        ],
+        "sampleComments": [
+          "适合清爽果茶模式",
+          "怕酸要少糖谨慎"
+        ],
+        "query": "小红书 古茗 百香双响炮 评价 好喝",
+        "updatedAt": "2026-05-17",
+        "sourceNote": "已按官方菜单/公开评论线索建立初始评价摘要；还需要用 Tabbit 登录态继续批量采集小红书笔记、图片和互动数据提高置信度。"
+      }
+    }
+  ]
+}

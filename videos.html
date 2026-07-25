@@ -3,44 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>和雪一起的日常 - 视频记录</title>
+  <title>给雪的小世界 - 回忆角</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="archive-theme.css?v=20260725">
 </head>
-<body>
+<body class="figure-site sub-page videos-page">
   <div class="bg-aura bg-aura-one"></div>
   <div class="bg-aura bg-aura-two"></div>
   <div class="bg-stars" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <a class="brand" href="index.html">
-      <span class="brand-badge" aria-hidden="true">★</span>
-      <span>和雪一起的日常</span>
+  <header class="site-topbar topbar">
+    <a class="site-brand brand figure-brand" href="index.html">
+      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span>
+        <strong>属于我们的小世界</strong>
+        <small>PRIVATE ORBIT ARCHIVE</small>
+      </span>
     </a>
-    <nav class="top-nav" aria-label="主导航">
-      <details class="menu-dropdown">
-        <summary class="menu-toggle">
+    <nav class="site-nav top-nav" aria-label="主导航">
+      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+        <a href="index.html">小家</a>
+        <a href="figures.html">小手办</a>
+        <a href="milk-tea.html">奶茶小屋</a>
+        <a href="messages.html">悄悄话</a>
+        <a href="albums.html">照片墙</a>
+        <a href="comic.html">漫画站</a>
+      </div>
+      <details class="site-menu menu-dropdown">
+        <summary class="site-menu-toggle menu-toggle">
           <span class="menu-icon" aria-hidden="true">≡</span>
           <span>导航</span>
           <span class="menu-caret" aria-hidden="true">▾</span>
         </summary>
-        <div class="menu-panel">
+        <div class="site-menu-panel menu-panel">
           <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>想对雪说的话</span></a>
-          <a class="active" href="videos.html"><span aria-hidden="true">▶</span><span>视频记录</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>二次元相册</span></a>
+          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
     </nav>
   </header>
 
-  <main class="page-shell">
-    <section class="hero-block hero-compact">
-      <p class="hero-kicker">Xue Memory Video Clip</p>
-      <h1>和雪的视频与回忆片段</h1>
-      <p class="hero-sub">支持 YouTube 链接和 mp4 直链，不支持的链接会保留跳转入口。</p>
+  <main class="site-main page-shell">
+    <section class="site-section hero-block hero-compact">
+      <div class="hero-archive-index" aria-hidden="true">06</div>
+      <p class="hero-kicker">MEMORY REEL · 记忆胶片</p>
+      <h1>让流动的时间，<em>重新发光。</em></h1>
+      <p class="hero-sub">这里保存和你有关的片段。它们不是冷冰冰的文件，而是一卷可以随时回到那一刻的私人胶片。</p>
+      <div class="hero-data-line"><span>MOTION ARCHIVE</span><span>SCENE / SOUND / TIME</span></div>
     </section>
 
-    <section class="panel">
+    <section class="site-section panel archive-panel">
+      <div class="archive-panel-heading">
+        <div><p>REEL CONTROL</p><h2>影像归档台</h2></div>
+        <span>06 · MEMORY</span>
+      </div>
       <form id="videoForm" class="form-grid">
         <label class="full">选择视频文件<input id="videoFile" type="file" accept="video/*,.mp4,.webm,.ogg,.mov,.m4v" required></label>
         <p class="full card-meta">上传后文件会保存到当前目录下的 `videos/` 文件夹，页面展示也从该文件夹读取。</p>
@@ -53,7 +73,7 @@
     </section>
   </main>
 
-  <footer class="site-foot">视频文件保存到当前目录 `videos/` 文件夹。</footer>
+  <footer class="site-foot">PRIVATE ORBIT ARCHIVE · MEMORY REEL</footer>
   <script src="backend-config.js"></script>
   <script src="app.js"></script>
 </body>

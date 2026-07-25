@@ -527,7 +527,10 @@
       const topbarBottom = topbar ? Math.ceil(topbar.getBoundingClientRect().bottom) : 64;
       const minX = 6;
       const maxX = Math.max(minX, Math.floor(viewportW - rect.width - 6));
-      const minY = Math.max(8, topbarBottom + 8);
+      const homeHeroReserve = document.body.classList.contains("home-page")
+        ? Math.floor(viewportH * 0.58)
+        : 0;
+      const minY = Math.max(8, topbarBottom + 8, homeHeroReserve);
       const maxY = Math.max(minY, Math.floor(viewportH - rect.height - 8));
       return { minX, maxX, minY, maxY, rect };
     };
@@ -1329,6 +1332,53 @@
     loadPhotos();
   };
 
+  const initSelectableNavigation = () => {
+    const selector = [
+      "[data-selectable-link]",
+      ".figure-nav-tabs a",
+      ".menu-panel a",
+      ".houzai-entry",
+      ".memory-card",
+      ".figure-primary-link",
+      ".figure-secondary-link"
+    ].join(",");
+
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest(selector);
+      if (!link) return;
+      if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      if (link.target && link.target !== "_self") return;
+
+      const href = link.getAttribute("href");
+      if (!href || href === "#") return;
+
+      event.preventDefault();
+
+      document.querySelectorAll(".is-selecting").forEach((node) => {
+        if (node !== link) node.classList.remove("is-selecting");
+      });
+      link.classList.add("is-selecting");
+
+      const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches;
+      const delay = reducedMotion ? 0 : 420;
+
+      window.setTimeout(() => {
+        if (href.startsWith("#")) {
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+            history.pushState(null, "", href);
+          }
+          link.classList.remove("is-selecting");
+          return;
+        }
+
+        window.location.href = href;
+      }, delay);
+    });
+  };
+
+  initSelectableNavigation();
   initMenuDropdown();
   initHomeCarousel();
   initHomeBirthdayVideo();

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>雪的奶茶小屋</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="milk-tea.css?v=202605170240">
+  <link rel="stylesheet" href="archive-theme.css?v=20260725">
+</head>
+<body class="figure-site sub-page milk-tea-page">
+  <div class="tea-bg-layer tea-bg-layer-one" aria-hidden="true"></div>
+  <div class="tea-bg-layer tea-bg-layer-two" aria-hidden="true"></div>
+  <div class="tea-bg-dots" aria-hidden="true"></div>
+
+  <header class="site-topbar milk-topbar">
+    <a class="site-brand milk-brand" href="index.html" aria-label="返回首页">
+      <span class="site-brand-mark milk-brand-mark" aria-hidden="true">FS</span>
+      <span>
+        <strong>属于我们的小世界</strong>
+        <small>PRIVATE ORBIT ARCHIVE</small>
+      </span>
+    </a>
+    <nav class="site-nav milk-nav" aria-label="奶茶机导航">
+      <div class="site-nav-tabs figure-nav-tabs">
+      <a class="milk-nav-link" href="index.html">小家</a>
+      <a class="milk-nav-link" href="figures.html">小手办</a>
+      <a class="milk-nav-link is-active" href="milk-tea.html" aria-current="page">奶茶小屋</a>
+      <a class="milk-nav-link" href="messages.html">悄悄话</a>
+      <a class="milk-nav-link" href="albums.html">照片墙</a>
+      <a class="milk-nav-link" href="comic.html">漫画站</a>
+      </div>
+      <details class="site-menu menu-dropdown">
+        <summary class="site-menu-toggle menu-toggle">
+          <span class="menu-icon" aria-hidden="true">≡</span>
+          <span>导航</span>
+          <span class="menu-caret" aria-hidden="true">▾</span>
+        </summary>
+        <div class="site-menu-panel menu-panel">
+          <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
+          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
+          <a class="active" href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
+          <button class="archive-menu-button" type="button" id="openLetterBtn">给雪的话</button>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main class="site-main milk-shell">
+    <section class="site-section milk-hero" aria-labelledby="milkTitle">
+      <div class="milk-hero-copy">
+        <p class="milk-kicker">TEA OBSERVATORY · 02</p>
+        <h1 id="milkTitle">雪的<em>奶茶小屋</em></h1>
+        <p class="milk-subtitle">今天不知道喝什么也没关系。把口味交给这台安静运转的选择仪，它会记住雪的每一次喜欢。</p>
+        <div class="milk-actions">
+          <button class="primary-tea-btn" type="button" id="drawBtn">
+            <span>抽今天的奶茶</span>
+          </button>
+          <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">历史记录</button>
+          <label class="infinite-toggle">
+            <input type="checkbox" id="infiniteMode">
+            <span class="toggle-track" aria-hidden="true"></span>
+            <span>无限换模式</span>
+          </label>
+        </div>
+        <div class="mode-chips" id="modeChips" aria-label="今天想喝什么，可多选">
+          <button class="is-active" type="button" data-mode="any" aria-pressed="true">随便抽</button>
+          <button type="button" data-mode="fresh" aria-pressed="false">清爽</button>
+          <button type="button" data-mode="fruit" aria-pressed="false">水果</button>
+          <button type="button" data-mode="milk" aria-pressed="false">奶香</button>
+          <button type="button" data-mode="tea" aria-pressed="false">茶感</button>
+          <button type="button" data-mode="new" aria-pressed="false">尝鲜</button>
+          <button type="button" data-mode="classic" aria-pressed="false">经典稳妥</button>
+          <button type="button" data-mode="light" aria-pressed="false">低负担</button>
+          <button type="button" data-mode="flower" aria-pressed="false">花香</button>
+          <button type="button" data-mode="cheese" aria-pressed="false">芝士</button>
+          <button type="button" data-mode="peach" aria-pressed="false">桃子</button>
+          <button type="button" data-mode="citrus" aria-pressed="false">柚子</button>
+          <button type="button" data-mode="bold" aria-pressed="false">浓一点</button>
+        </div>
+        <div class="atlas-actions" aria-label="奶茶小本入口">
+          <button class="atlas-entry-btn" type="button" id="openTeaAtlasBtn">奶茶清单</button>
+          <button class="atlas-entry-btn" type="button" id="openPreferenceAtlasBtn">偏好小本</button>
+          <button class="atlas-entry-btn" type="button" id="openLetterBtnDesktop">给雪的话</button>
+        </div>
+      </div>
+
+      <div class="tea-machine" id="teaMachine" aria-live="polite">
+        <img class="ritual-bg" src="assets/figure-story/ui/zone-tea.png" alt="" aria-hidden="true">
+        <div class="machine-glow" aria-hidden="true"></div>
+        <div class="tea-machine-heading" aria-hidden="true">
+          <span>SELECTION ENGINE</span>
+          <strong>今日冲泡观测</strong>
+          <small>FLAVOR MEMORY ONLINE</small>
+        </div>
+        <div class="tea-room-ui tea-room-ui-left" aria-hidden="true">
+          <span>偏好样本</span>
+          <strong>01</strong>
+        </div>
+        <div class="tea-room-ui tea-room-ui-right" aria-hidden="true">
+          <span>库存</span>
+          <strong>52 款</strong>
+        </div>
+        <div class="brew-stage" aria-hidden="true">
+          <span class="tea-leaf leaf-a"></span>
+          <span class="tea-leaf leaf-b"></span>
+          <span class="tea-pearl pearl-a"></span>
+          <span class="tea-pearl pearl-b"></span>
+          <span class="tea-mist mist-a"></span>
+          <span class="tea-mist mist-b"></span>
+          <div class="brew-ring ring-a"></div>
+          <div class="brew-ring ring-b"></div>
+          <div class="brew-sprite" aria-hidden="true"></div>
+          <div class="brew-sheen" aria-hidden="true"></div>
+          <div class="tea-cup">
+            <div class="cup-rim"></div>
+            <div class="tea-liquid"></div>
+            <div class="tea-surface"></div>
+            <div class="cup-shine"></div>
+          </div>
+        </div>
+        <div class="floating-card" id="floatingCard" aria-hidden="true">
+          <span>今日推荐</span>
+        </div>
+        <p class="brew-caption" id="brewCaption">轻轻按下，开始冲泡今天的灵感。</p>
+        <div class="tea-room-inventory" aria-hidden="true">
+          <span>01 真实菜单</span>
+          <span>02 评价印象</span>
+          <span>03 偏好记忆</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section result-section" id="resultSection" aria-label="奶茶推荐结果" hidden>
+      <button class="history-open-btn" type="button" id="openHistoryBtn">查看历史记录</button>
+    </section>
+
+    <section class="site-section taste-profile" aria-label="口味画像">
+      <div>
+        <p class="section-kicker">TASTE MEMORY</p>
+        <h2>它正在学习雪喜欢什么</h2>
+      </div>
+      <div class="profile-grid" id="profileGrid">
+        <span>清爽</span>
+        <span>茶感</span>
+        <span>水果</span>
+        <span>奶香</span>
+      </div>
+    </section>
+  </main>
+
+  <section class="result-modal" id="resultModal" aria-labelledby="productName" aria-modal="true" role="dialog" hidden>
+    <div class="modal-backdrop" data-close-result></div>
+      <article class="recommend-card" id="recommendCard">
+        <button class="modal-close" type="button" aria-label="关闭推荐卡片" data-close-result>×</button>
+        <div class="card-ambient" aria-hidden="true"></div>
+        <div class="card-head">
+          <div class="brand-lockup">
+            <div class="brand-logo" id="brandLogo">TEA</div>
+            <div>
+              <p id="brandName">品牌</p>
+              <strong id="productName">等待抽取</strong>
+            </div>
+          </div>
+          <span class="match-pill" id="matchPill">今日适合</span>
+        </div>
+
+        <div class="product-visual" id="productVisual" aria-label="奶茶产品视觉">
+          <div class="product-halo"></div>
+          <img class="real-product-img" id="realProductImg" alt="">
+          <div class="product-cup">
+            <div class="product-lid"></div>
+            <div class="product-drink"></div>
+            <div class="product-foam"></div>
+            <div class="product-toppings" id="productToppings"></div>
+            <div class="product-shine"></div>
+            <div class="product-label" id="cupBrandLabel">TEA</div>
+          </div>
+          <div class="product-shadow"></div>
+        </div>
+
+        <div class="product-meta">
+          <p class="category-line" id="productCategory">分类</p>
+          <div class="tag-row" id="tagRow"></div>
+          <div class="suggestion-grid">
+            <div>
+              <span>建议糖度</span>
+              <strong id="sugarText">少糖</strong>
+            </div>
+            <div>
+              <span>建议冰量</span>
+              <strong id="iceText">少冰</strong>
+            </div>
+          </div>
+          <p class="reason-text" id="reasonText">轻轻摇一摇，等它替雪挑一杯。</p>
+        </div>
+
+        <div class="feedback-panel" aria-label="反馈">
+          <p>先确认今天喝不喝它；喝完以后可以在历史记录里继续打分。</p>
+          <div class="feedback-buttons">
+            <button type="button" data-feedback="love">今天就喝这个</button>
+            <button type="button" data-feedback="like">先收藏这杯</button>
+            <button type="button" data-feedback="meh">有点犹豫</button>
+            <button type="button" data-feedback="nope">不想喝它</button>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button class="secondary-tea-btn" type="button" id="redrawBtn">再抽一杯</button>
+          <button class="ghost-tea-btn" type="button" id="openHistoryBtnCard">历史记录</button>
+        </div>
+      </article>
+  </section>
+
+  <section class="history-modal" id="historyModal" aria-labelledby="historyTitle" aria-modal="true" role="dialog" hidden>
+    <div class="modal-backdrop" data-close-history></div>
+    <article class="history-panel">
+      <button class="modal-close" type="button" aria-label="关闭历史记录" data-close-history>×</button>
+      <p class="section-kicker">DRINK HISTORY</p>
+      <h2 id="historyTitle">雪的奶茶历史</h2>
+      <div class="history-list" id="historyList"></div>
+    </article>
+  </section>
+
+  <section class="atlas-modal" id="preferenceAtlasModal" aria-labelledby="preferenceAtlasTitle" aria-modal="true" role="dialog" hidden>
+    <div class="modal-backdrop" data-close-preference-atlas></div>
+    <article class="atlas-panel preference-atlas-panel">
+      <button class="modal-close" type="button" aria-label="关闭偏好小本" data-close-preference-atlas>×</button>
+      <p class="section-kicker">TASTE ATLAS</p>
+      <h2 id="preferenceAtlasTitle">雪的偏好小本</h2>
+      <div class="radar-layout">
+        <div class="radar-card">
+          <canvas id="preferenceRadar" width="360" height="360" aria-label="奶茶偏好能力图"></canvas>
+        </div>
+        <div class="radar-summary">
+          <div class="atlas-stat-grid" id="preferenceStats"></div>
+          <div class="preference-highlights" id="preferenceHighlights"></div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="atlas-modal" id="teaAtlasModal" aria-labelledby="teaAtlasTitle" aria-modal="true" role="dialog" hidden>
+    <div class="modal-backdrop" data-close-tea-atlas></div>
+    <article class="atlas-panel tea-atlas-panel">
+      <button class="modal-close" type="button" aria-label="关闭奶茶清单" data-close-tea-atlas>×</button>
+      <div class="atlas-title-row">
+        <div>
+          <p class="section-kicker">MILK TEA ATLAS</p>
+          <h2 id="teaAtlasTitle">奶茶清单</h2>
+        </div>
+        <span id="teaAtlasCount">0 款</span>
+      </div>
+      <div class="tea-atlas-list" id="teaAtlasList"></div>
+    </article>
+  </section>
+
+  <section class="letter-modal" id="letterModal" aria-labelledby="letterTitle" aria-modal="true" role="dialog" hidden>
+    <div class="letter-backdrop" data-close-letter></div>
+    <article class="letter-paper">
+      <button class="letter-close" type="button" aria-label="关闭留言" data-close-letter>×</button>
+      <p class="letter-kicker">FOR XUE</p>
+      <h2 id="letterTitle">雪，520 快乐。</h2>
+      <div class="letter-body">
+        <p>我一直觉得，你每次纠结喝什么奶茶的时候，其实特别可爱。</p>
+        <p>不是因为你真的选不出来，而是因为那一刻我会感觉，我好像又多了一个可以照顾你的机会。</p>
+        <p>所以我做了这个小小的奶茶机。</p>
+        <p>它现在可能还不够聪明，也不一定每次都猜得准，但它会慢慢记住你喜欢什么、不喜欢什么，记住你偏爱的茶香、甜度、奶味，也记住那些你说“下次别点了”的踩雷款。</p>
+        <p>就像我也在慢慢学着更懂你一样。</p>
+        <p>今天先让它替我认真推荐一杯奶茶。希望你喝到第一口的时候，会觉得：嗯，今天也有人在好好想着我。</p>
+      </div>
+      <label class="skip-letter">
+        <input type="checkbox" id="skipLetterToday">
+        <span>今天先跳过这段话</span>
+      </label>
+      <button class="primary-tea-btn letter-enter" type="button" id="enterMachineBtn">去抽今天的奶茶</button>
+    </article>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="milk-tea.js?v=202605122352"></script>
+</body>
+</html>

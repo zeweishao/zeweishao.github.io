@@ -3,44 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>和雪一起的日常 - 相册</title>
+  <title>给雪的小世界 - 照片墙</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="archive-theme.css?v=20260725">
 </head>
-<body>
+<body class="figure-site sub-page albums-page">
   <div class="bg-aura bg-aura-one"></div>
   <div class="bg-aura bg-aura-two"></div>
   <div class="bg-stars" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <a class="brand" href="index.html">
-      <span class="brand-badge" aria-hidden="true">★</span>
-      <span>和雪一起的日常</span>
+  <header class="site-topbar topbar">
+    <a class="site-brand brand figure-brand" href="index.html">
+      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span>
+        <strong>属于我们的小世界</strong>
+        <small>PRIVATE ORBIT ARCHIVE</small>
+      </span>
     </a>
-    <nav class="top-nav" aria-label="主导航">
-      <details class="menu-dropdown">
-        <summary class="menu-toggle">
+    <nav class="site-nav top-nav" aria-label="主导航">
+      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+        <a href="index.html">小家</a>
+        <a href="figures.html">小手办</a>
+        <a href="milk-tea.html">奶茶小屋</a>
+        <a href="messages.html">悄悄话</a>
+        <a class="is-active" href="albums.html" aria-current="page">照片墙</a>
+        <a href="comic.html">漫画站</a>
+      </div>
+      <details class="site-menu menu-dropdown">
+        <summary class="site-menu-toggle menu-toggle">
           <span class="menu-icon" aria-hidden="true">≡</span>
           <span>导航</span>
           <span class="menu-caret" aria-hidden="true">▾</span>
         </summary>
-        <div class="menu-panel">
+        <div class="site-menu-panel menu-panel">
           <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>想对雪说的话</span></a>
-          <a href="videos.html"><span aria-hidden="true">▶</span><span>视频记录</span></a>
-          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>二次元相册</span></a>
+          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
+          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
     </nav>
   </header>
 
-  <main class="page-shell">
-    <section class="hero-block hero-compact">
-      <p class="hero-kicker">Xue Gallery Collection</p>
-      <h1>和雪的相册</h1>
-      <p class="hero-sub">会优先展示 `photos/` 下数字命名图片（如 `1.jpg`、`2.jpg`），可继续上传新图。</p>
+  <main class="site-main page-shell">
+    <section class="site-section hero-block hero-compact">
+      <div class="hero-archive-index" aria-hidden="true">04</div>
+      <p class="hero-kicker">PHOTO CONSTELLATION · 照片星图</p>
+      <h1>把每一帧，<em>留在光里。</em></h1>
+      <p class="hero-sub">你喜欢的图、我们的回忆，都在这里成为一颗不会熄灭的小星。往后每一次按下快门，都会让这张星图更完整。</p>
+      <div class="hero-data-line"><span>LOCAL ARCHIVE</span><span>IMAGE / MEMORY / LIGHT</span></div>
     </section>
 
-    <section class="panel">
+    <section class="site-section panel archive-panel">
+      <div class="archive-panel-heading">
+        <div><p>COLLECTION CONTROL</p><h2>照片归档台</h2></div>
+        <span>04 · PHOTO</span>
+      </div>
       <form id="albumForm" class="form-grid">
         <label class="full">选择照片文件<input id="photoFile" type="file" accept="image/*,.jpg,.jpeg,.png,.webp,.gif" required></label>
         <p class="full card-meta">上传后文件会保存到当前目录下的 `photos/` 文件夹，页面展示也从该文件夹读取。</p>
@@ -53,7 +73,7 @@
     </section>
   </main>
 
-  <footer class="site-foot">照片文件保存到当前目录 `photos/` 文件夹。</footer>
+  <footer class="site-foot">PRIVATE ORBIT ARCHIVE · PHOTO CONSTELLATION</footer>
   <script src="backend-config.js"></script>
   <script src="app.js"></script>
 </body>

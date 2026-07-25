@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "name": "高能手办团馆藏素材库",
+    "version": "0.1.0",
+    "updatedAt": "2026-05-17",
+    "notes": "后宅展藏馆方向：参考高能手办团后宅玩法，墙面置物架、手办摆放、墙饰和底部家具库存条构成主展区。素材来自官方视频抽帧、BWIKI 手办图鉴和本地抠图。"
+  },
+  "hero": {
+    "title": "高能手办团馆藏展",
+    "subtitle": "把视频、图文、人物故事和手办设定整理成一个可进入的小型展馆。",
+    "video": "",
+    "poster": "assets/figure-story/ui/hero-gallery.png"
+  },
+  "sources": [
+    {
+      "name": "官方 B 站视频",
+      "count": 40,
+      "status": "已采集首批元数据",
+      "note": "通过 Tabbit 社媒助手导出 40 条官方视频数据，含 BV、标题、描述、播放/互动数据。"
+    },
+    {
+      "name": "官方 B 站图文",
+      "count": 1669,
+      "status": "纳入采集队列",
+      "note": "图文区包含维护公告、角色出荷情报、活动图、设定图和抽奖周边图。"
+    },
+    {
+      "name": "GameKee 角色图鉴",
+      "count": 31,
+      "status": "已建立初始人物池",
+      "note": "用于交叉校验角色职业、故事描述和手办形态文本。"
+    },
+    {
+      "name": "BWIKI 手办全图鉴",
+      "count": 45,
+      "status": "已下载透明人物素材",
+      "note": "从 Bilibili BWIKI 手办全图鉴抓取 45 个角色透明图标，作为统一展柜底座。"
+    },
+    {
+      "name": "视频海报人物抠图",
+      "count": 10,
+      "status": "已完成首批抠图",
+      "note": "使用本地背景移除模型从官方视频海报中抠出 10 张候选人物/联动素材，后续继续逐帧筛选更干净的立绘。"
+    }
+  ],
+  "zones": [
+    {
+      "id": "collection-hall",
+      "title": "馆藏展馆",
+      "label": "人物故事与手办设定",
+      "href": "#figureStoryMuseum",
+      "asset": "assets/figure-story/ui/zone-collection.png",
+      "tone": "showcase"
+    },
+    {
+      "id": "milk-tea",
+      "title": "雪雪奶茶机",
+      "label": "评价库与推荐实验",
+      "href": "milk-tea.html",
+      "asset": "assets/figure-story/ui/zone-tea.png",
+      "tone": "tea"
+    },
+    {
+      "id": "video-lab",
+      "title": "影像研究室",
+      "label": "逐帧抽取与角色索引",
+      "href": "#figureVideoLab",
+      "asset": "assets/figure-story/ui/zone-video.png",
+      "tone": "motion"
+    },
+    {
+      "id": "messages",
+      "title": "留言档案",
+      "label": "写给雪的话",
+      "href": "messages.html",
+      "asset": "assets/figure-story/ui/zone-message.png",
+      "tone": "archive"
+    },
+    {
+      "id": "source-room",
+      "title": "素材档案室",
+      "label": "视频、图文与来源记录",
+      "href": "#figureSources",
+      "asset": "assets/figure-story/ui/zone-source.png",
+      "tone": "data"
+    }
+  ],
+  "characters": [
+    {
+      "id": "yuki",
+      "name": "优纪",
+      "role": "看板与活动核心形象",
+      "origin": "官方 B 站活动图文与春节/周年内容",
+      "impression": "明亮、亲近、适合承担首页引导和欢迎语。",
+      "tags": [
+        "看板",
+        "活动",
+        "温暖"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1vB421k7EL-2024.jpg"
+    },
+    {
+      "id": "kuroko-and-mikoto",
+      "name": "美琴 / 黑子",
+      "role": "联动特别展品",
+      "origin": "《某科学的超电磁炮T》联动视频",
+      "impression": "适合放在联动展柜，表现高能手办团的跨 IP 展览感。",
+      "tags": [
+        "联动",
+        "动态",
+        "特别款"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1Nk4y1u7jN-Angel_Beats.jpg"
+    },
+    {
+      "id": "alice",
+      "name": "爱丽丝",
+      "role": "童话限定术师手办",
+      "origin": "官方 2024 童话版本视频与图文区",
+      "impression": "仙境、梦游、茶话会，适合构成展馆地图的梦境入口。",
+      "tags": [
+        "童话",
+        "限定",
+        "术师"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV13z421o7VP-_.jpg"
+    },
+    {
+      "id": "cinderella",
+      "name": "辛德瑞拉",
+      "role": "童话限定火力手办",
+      "origin": "官方 2024 童话版本视频与图文区",
+      "impression": "玻璃鞋、午夜、黑羽特别款，可作为暗场展柜视觉重点。",
+      "tags": [
+        "童话",
+        "火力",
+        "限定"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV13z421o7VP-_.jpg"
+    },
+    {
+      "id": "huayan",
+      "name": "华焱",
+      "role": "开封打铁花联动角色",
+      "origin": "官方 2024 开封打铁花联动视频与图文",
+      "impression": "火花、非遗、夜色，适合做动态火光和粒子动效来源。",
+      "tags": [
+        "传统文化",
+        "火花",
+        "联动"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1J1421t74x-_.jpg"
+    },
+    {
+      "id": "nagisa-kyo",
+      "name": "古河渚 / 藤林杏",
+      "role": "CLANNAD 联动手办",
+      "origin": "官方 CLANNAD 联动视频",
+      "impression": "学园、戏剧、花海晨曦，适合温柔展区和情感故事入口。",
+      "tags": [
+        "联动",
+        "学园",
+        "故事"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV15u411A7ow-x_CLANNAD.jpg"
+    },
+    {
+      "id": "kanade-yuri",
+      "name": "立华奏 / 仲村百合",
+      "role": "Angel Beats! 联动手办",
+      "origin": "官方图文与联动视频",
+      "impression": "天使、战线、白色光感，适合做高亮陈列柜。",
+      "tags": [
+        "联动",
+        "天使",
+        "战线"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1Nk4y1u7jN-Angel_Beats.jpg"
+    },
+    {
+      "id": "black-rock-shooter",
+      "name": "黑岩射手 / 死亡主宰",
+      "role": "黑岩射手联动手办",
+      "origin": "官方 B 站联动 PV",
+      "impression": "蓝焰、末日、机械感，适合影像研究室主视觉。",
+      "tags": [
+        "联动",
+        "蓝焰",
+        "战斗"
+      ],
+      "asset": "assets/figure-story/videos/BV1yT411E7AR-《高能手办团》×《黑岩射手 黎明降临》联动版本PV公开.jpg"
+    },
+    {
+      "id": "sakura",
+      "name": "樱",
+      "role": "珍品手办",
+      "origin": "GameKee 角色图鉴",
+      "impression": "粉色公主裙、洋伞、王冠，适合作为可爱系展柜代表。",
+      "tags": [
+        "珍品",
+        "洋伞",
+        "粉色"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1HM4y187YU-PV_~.jpg"
+    },
+    {
+      "id": "riko",
+      "name": "莉可",
+      "role": "珍品手办",
+      "origin": "GameKee 角色图鉴",
+      "impression": "拳套、王冠、蘑菇炸弹，适合偏活泼战斗展区。",
+      "tags": [
+        "珍品",
+        "拳套",
+        "女王"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV1HM4y187YU-PV_~.jpg"
+    },
+    {
+      "id": "xita",
+      "name": "希塔",
+      "role": "拂晓之光 Ver.",
+      "origin": "官方 B 站专栏出荷情报",
+      "impression": "战术分析师、浮游炮、光子力场，适合科技陈列柜。",
+      "tags": [
+        "术师",
+        "浮游炮",
+        "战术"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV16cWGzCEeF-5_9_26.jpg"
+    },
+    {
+      "id": "kelusha",
+      "name": "可露莎",
+      "role": "涂鸦系统前瞻角色",
+      "origin": "官方 2026 图文区前瞻动态",
+      "impression": "创意、涂鸦、墙绘，适合素材档案室和创作工坊。",
+      "tags": [
+        "涂鸦",
+        "创作",
+        "系统"
+      ],
+      "asset": "assets/figure-story/videos/raw/BV16cWGzCEeF-5_9_26.jpg"
+    }
+  ]
+}

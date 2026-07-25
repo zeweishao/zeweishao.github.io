@@ -1,0 +1,3025 @@
+:root {
+  --tea-bg: #f7fbf7;
+  --tea-paper: rgba(255, 253, 247, 0.86);
+  --tea-line: rgba(115, 151, 137, 0.24);
+  --tea-ink: #24302d;
+  --tea-muted: #63756f;
+  --tea-mint: #a9d8ca;
+  --tea-mint-deep: #5d9f8f;
+  --tea-pink: #f1c2c8;
+  --tea-gold: #ddc27d;
+  --tea-shadow: 0 24px 70px rgba(46, 72, 63, 0.16);
+  --tea-radius: 24px;
+}
+
+body.milk-tea-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    linear-gradient(145deg, rgba(247, 251, 247, 0.96) 0%, rgba(238, 247, 242, 0.92) 45%, rgba(255, 249, 244, 0.95) 100%);
+}
+
+.milk-tea-page::before,
+.milk-tea-page::after {
+  display: none;
+}
+
+.tea-bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -4;
+  pointer-events: none;
+}
+
+.tea-bg-layer-one {
+  background:
+    linear-gradient(112deg, rgba(190, 226, 214, 0.42) 0%, transparent 46%),
+    linear-gradient(290deg, rgba(255, 239, 220, 0.72) 0%, transparent 52%);
+}
+
+.tea-bg-layer-two {
+  opacity: 0.38;
+  background-image:
+    repeating-linear-gradient(112deg, transparent 0 22px, rgba(108, 160, 144, 0.08) 23px, transparent 24px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(224, 242, 234, 0.26));
+}
+
+.tea-bg-dots {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  pointer-events: none;
+  opacity: 0.32;
+  background-image:
+    radial-gradient(circle at 18% 20%, rgba(93, 159, 143, 0.22) 1px, transparent 1.2px),
+    radial-gradient(circle at 73% 25%, rgba(221, 194, 125, 0.22) 1px, transparent 1.2px),
+    radial-gradient(circle at 48% 74%, rgba(241, 194, 200, 0.2) 1px, transparent 1.2px);
+  background-size: 120px 120px, 150px 150px, 180px 180px;
+}
+
+.milk-topbar {
+  position: sticky;
+  top: 12px;
+  z-index: 30;
+  width: min(1060px, calc(100% - 24px));
+  margin: 12px auto 0;
+  padding: 9px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  border-radius: 999px;
+  background: rgba(255, 255, 252, 0.74);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 12px 34px rgba(58, 88, 79, 0.12);
+}
+
+.milk-brand,
+.milk-nav-link {
+  color: var(--tea-ink);
+  text-decoration: none;
+}
+
+.milk-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.milk-brand-mark {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #31554b;
+  background: linear-gradient(135deg, #d9f0e6, #fff8e7);
+  border: 1px solid rgba(93, 159, 143, 0.22);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.milk-nav {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.milk-nav-link {
+  appearance: none;
+  border: 1px solid rgba(112, 147, 135, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  padding: 8px 11px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.milk-nav-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(93, 159, 143, 0.54);
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.milk-shell {
+  width: min(1060px, calc(100% - 24px));
+  margin: 20px auto 36px;
+}
+
+.milk-hero {
+  min-height: calc(100vh - 120px);
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(300px, 1.1fr);
+  align-items: center;
+  gap: 28px;
+  padding: 28px 0 14px;
+}
+
+.milk-kicker,
+.section-kicker,
+.letter-kicker {
+  margin: 0 0 10px;
+  color: var(--tea-mint-deep);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.milk-hero h1 {
+  margin: 0;
+  color: var(--tea-ink);
+  font-family: var(--font-display);
+  font-size: clamp(36px, 5.3vw, 58px);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.milk-subtitle {
+  max-width: 380px;
+  margin: 18px 0 0;
+  color: var(--tea-muted);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.milk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.mode-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 520px;
+  margin-top: 18px;
+}
+
+.mode-chips button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  border-radius: 999px;
+  color: #46665d;
+  background: rgba(255, 255, 255, 0.58);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.58);
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.mode-chips button:hover {
+  transform: translateY(-1px);
+}
+
+.mode-chips button.is-active {
+  color: #17352d;
+  border-color: rgba(93, 159, 143, 0.52);
+  background:
+    radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.92), transparent 22%),
+    linear-gradient(135deg, rgba(201, 235, 224, 0.96), rgba(255, 249, 231, 0.94));
+  box-shadow: 0 8px 18px rgba(82, 143, 126, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.mode-chips button.is-active::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #5d9f8f;
+  box-shadow: 0 0 0 4px rgba(93, 159, 143, 0.12);
+}
+
+.atlas-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 520px;
+  margin-top: 14px;
+}
+
+.atlas-entry-btn {
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(112, 147, 135, 0.2);
+  border-radius: 999px;
+  color: #365a51;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 8px 18px rgba(82, 143, 126, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.atlas-entry-btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(93, 159, 143, 0.42);
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.primary-tea-btn,
+.secondary-tea-btn,
+.ghost-tea-btn {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms ease;
+}
+
+.primary-tea-btn {
+  min-height: 48px;
+  padding: 0 24px;
+  color: #17352d;
+  background:
+    linear-gradient(135deg, rgba(201, 235, 224, 0.96), rgba(255, 249, 231, 0.98));
+  box-shadow: 0 16px 34px rgba(73, 135, 118, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.secondary-tea-btn,
+.ghost-tea-btn {
+  min-height: 44px;
+  padding: 0 18px;
+}
+
+.secondary-tea-btn {
+  color: #17352d;
+  background: #d9f0e6;
+  box-shadow: 0 10px 24px rgba(73, 135, 118, 0.16);
+}
+
+.ghost-tea-btn {
+  color: var(--tea-muted);
+  border: 1px solid rgba(112, 147, 135, 0.22);
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.hero-history-btn {
+  min-height: 48px;
+}
+
+.primary-tea-btn:hover,
+.secondary-tea-btn:hover,
+.ghost-tea-btn:hover {
+  transform: translateY(-2px);
+}
+
+.infinite-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 7px 12px 7px 8px;
+  color: var(--tea-muted);
+  border: 1px solid rgba(112, 147, 135, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.54);
+  cursor: pointer;
+  user-select: none;
+}
+
+.infinite-toggle input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.toggle-track {
+  width: 42px;
+  height: 24px;
+  position: relative;
+  border-radius: 999px;
+  background: rgba(134, 159, 150, 0.26);
+  transition: background 180ms ease;
+}
+
+.toggle-track::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(36, 48, 45, 0.18);
+  transition: transform 180ms ease;
+}
+
+.infinite-toggle input:checked + .toggle-track {
+  background: rgba(93, 159, 143, 0.72);
+}
+
+.infinite-toggle input:checked + .toggle-track::after {
+  transform: translateX(18px);
+}
+
+.tea-machine {
+  position: relative;
+  min-height: 560px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 34px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 252, 0.62), rgba(232, 246, 239, 0.58)),
+    radial-gradient(circle at 50% 22%, rgba(255, 255, 255, 0.88), transparent 28%);
+  box-shadow: var(--tea-shadow);
+  overflow: hidden;
+}
+
+.ritual-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.34;
+  mix-blend-mode: multiply;
+  filter: saturate(0.86) brightness(1.05);
+  transform: scale(1.03);
+}
+
+.tea-machine::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border-radius: 26px;
+  border: 1px solid rgba(117, 164, 149, 0.16);
+  pointer-events: none;
+}
+
+.machine-glow {
+  position: absolute;
+  inset: 18% 12% 10%;
+  background:
+    radial-gradient(ellipse at 50% 70%, rgba(169, 216, 202, 0.48), transparent 58%),
+    radial-gradient(ellipse at 50% 35%, rgba(255, 248, 229, 0.72), transparent 42%);
+  filter: blur(2px);
+}
+
+.brew-stage {
+  position: relative;
+  width: min(360px, 82vw);
+  height: 420px;
+  display: grid;
+  place-items: end center;
+}
+
+.brew-sprite {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: 18px;
+  width: min(292px, 76vw);
+  aspect-ratio: 543 / 724;
+  border-radius: 32px;
+  background: center / 400% 100% no-repeat url("assets/milk-tea/ui/brewing-sprite.jpg");
+  background-position: 100% 50%;
+  box-shadow: 0 34px 62px rgba(47, 75, 67, 0.18);
+  filter: saturate(0.94) brightness(1.03);
+  transform: translateX(-50%) translateY(2px);
+  overflow: hidden;
+}
+
+.brew-sprite::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(112deg, rgba(255, 255, 255, 0.48), transparent 28%, transparent 72%, rgba(255, 255, 255, 0.34)),
+    radial-gradient(circle at 50% 18%, rgba(255, 255, 255, 0.4), transparent 26%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.brew-ring {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: 86px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  transform: translateX(-50%) rotate(0deg);
+  opacity: 0.5;
+}
+
+.ring-a {
+  background: radial-gradient(circle, rgba(169, 216, 202, 0.18), transparent 62%);
+}
+
+.ring-b {
+  width: 316px;
+  height: 316px;
+  bottom: 54px;
+  border-color: rgba(221, 194, 125, 0.25);
+  opacity: 0.32;
+}
+
+.brew-sheen {
+  position: absolute;
+  z-index: 6;
+  left: 50%;
+  bottom: 42px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: conic-gradient(from 20deg, transparent, rgba(255, 255, 255, 0.42), transparent 34%, rgba(169, 216, 202, 0.28), transparent 68%);
+  filter: blur(14px);
+  transform: translateX(-50%) scale(0.82);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.brew-stage > .tea-cup {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tea-cup {
+  position: relative;
+  width: 210px;
+  height: 288px;
+  border-radius: 34px 34px 58px 58px;
+  border: 2px solid rgba(255, 255, 255, 0.82);
+  background:
+    linear-gradient(96deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.26) 36%, rgba(255, 255, 255, 0.66)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.42), rgba(210, 234, 225, 0.24));
+  box-shadow: 0 28px 50px rgba(66, 95, 86, 0.2);
+  overflow: hidden;
+}
+
+.cup-rim {
+  position: absolute;
+  z-index: 5;
+  top: 16px;
+  left: 28px;
+  right: 28px;
+  height: 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: inset 0 -2px 7px rgba(70, 110, 98, 0.08);
+}
+
+.tea-liquid {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 10px;
+  height: 64%;
+  border-radius: 24px 24px 48px 48px;
+  background:
+    radial-gradient(circle at 72% 34%, rgba(255, 255, 255, 0.28), transparent 20%),
+    linear-gradient(180deg, #d6c18e 0%, #b8875a 100%);
+  transform-origin: 50% 80%;
+}
+
+.tea-surface {
+  position: absolute;
+  left: 23px;
+  right: 23px;
+  top: 92px;
+  height: 44px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 42% 45%, rgba(255, 255, 255, 0.72), transparent 9%),
+    conic-gradient(from 20deg, rgba(255, 255, 255, 0.6), rgba(169, 216, 202, 0.5), rgba(221, 194, 125, 0.55), rgba(255, 255, 255, 0.6));
+  opacity: 0.86;
+}
+
+.cup-shine {
+  position: absolute;
+  top: 58px;
+  right: 38px;
+  width: 28px;
+  height: 148px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.36);
+  transform: rotate(6deg);
+}
+
+.tea-leaf,
+.tea-pearl,
+.tea-mist {
+  position: absolute;
+  z-index: 7;
+  opacity: 0.92;
+}
+
+.tea-leaf {
+  width: 30px;
+  height: 15px;
+  border-radius: 90% 10% 90% 10%;
+  background: #7fb48d;
+  transform: rotate(-28deg);
+}
+
+.leaf-a {
+  left: 82px;
+  top: 72px;
+}
+
+.leaf-b {
+  right: 88px;
+  top: 42px;
+  background: #9ecb9f;
+  transform: rotate(35deg);
+}
+
+.tea-pearl {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #715743;
+  box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.16);
+}
+
+.pearl-a {
+  left: 114px;
+  top: 104px;
+}
+
+.pearl-b {
+  right: 116px;
+  top: 112px;
+}
+
+.tea-mist {
+  width: 72px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.54);
+  filter: blur(5px);
+}
+
+.mist-a {
+  left: 72px;
+  top: 138px;
+}
+
+.mist-b {
+  right: 70px;
+  top: 124px;
+}
+
+.floating-card {
+  position: absolute;
+  top: 78px;
+  left: 50%;
+  width: 138px;
+  height: 184px;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  color: #33574e;
+  font-family: var(--font-display);
+  font-weight: 900;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 252, 0.92), rgba(222, 242, 234, 0.92));
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 18px 38px rgba(70, 104, 94, 0.16);
+  transform: translate(-50%, 32px) rotateY(80deg);
+  opacity: 0;
+}
+
+.brew-caption {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  margin: 0;
+  color: rgba(62, 89, 81, 0.76);
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0;
+  opacity: 0.86;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.tea-machine.is-brewing .brew-caption {
+  animation: captionPulse 1100ms ease-in-out infinite alternate;
+}
+
+.tea-machine.is-brewing .tea-leaf,
+.tea-machine.is-brewing .tea-pearl {
+  animation: ingredientDrop 1050ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.tea-machine.is-brewing .leaf-b,
+.tea-machine.is-brewing .pearl-b {
+  animation-delay: 160ms;
+}
+
+.tea-machine.is-brewing .tea-mist {
+  animation: mistRise 1600ms ease-in-out both;
+}
+
+.tea-machine.is-brewing .brew-sprite {
+  animation:
+    spriteBrew 1800ms steps(3, end) 2 both,
+    spriteFloat 3600ms ease-in-out both;
+}
+
+.tea-machine.is-brewing .brew-ring {
+  animation: ringPulse 1300ms ease-in-out infinite;
+}
+
+.tea-machine.is-brewing .ring-b {
+  animation-delay: 180ms;
+}
+
+.tea-machine.is-brewing .brew-sheen {
+  animation: sheenSweep 1850ms ease-in-out 2 both;
+}
+
+.tea-machine.is-revealing .brew-sprite {
+  animation: spriteReveal 760ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.tea-machine.is-brewing .tea-liquid {
+  animation: liquidBreathe 1600ms ease-in-out both;
+}
+
+.tea-machine.is-brewing .tea-surface {
+  animation: swirl 1800ms ease-in-out both;
+}
+
+.tea-machine.is-brewing .floating-card {
+  animation: cardReveal 1500ms 1220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.result-section {
+  margin: -8px auto 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.history-open-btn {
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid rgba(112, 147, 135, 0.22);
+  border-radius: 999px;
+  color: var(--tea-muted);
+  background: rgba(255, 255, 255, 0.62);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.result-modal[hidden],
+.history-modal[hidden],
+.atlas-modal[hidden] {
+  display: none;
+}
+
+.result-modal,
+.history-modal,
+.atlas-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  overflow-x: hidden;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(223, 247, 238, 0.36), transparent 38%),
+    rgba(33, 48, 44, 0.42);
+  backdrop-filter: blur(14px);
+}
+
+.recommend-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.1fr);
+  gap: 22px;
+  overflow: hidden;
+  padding: 22px;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 252, 0.8), rgba(232, 246, 239, 0.72)),
+    center / cover no-repeat url("assets/milk-tea/ui/card-texture.jpg"),
+    linear-gradient(145deg, rgba(255, 255, 252, 0.82), rgba(232, 246, 239, 0.72));
+  box-shadow: var(--tea-shadow);
+  width: min(940px, calc(100vw - 28px));
+  max-height: calc(100vh - 36px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.recommend-card.card-enter {
+  animation: resultEnter 520ms ease both;
+}
+
+.card-ambient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(120deg, rgba(169, 216, 202, 0.22), transparent 44%),
+    linear-gradient(320deg, rgba(255, 236, 210, 0.42), transparent 46%);
+}
+
+.modal-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  color: var(--tea-muted);
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 23px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.card-head,
+.product-visual,
+.product-meta,
+.feedback-panel,
+.card-actions {
+  position: relative;
+  z-index: 1;
+}
+
+.card-head {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.brand-logo {
+  min-width: 72px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(36, 48, 45, 0.12);
+  background: rgba(255, 255, 255, 0.68);
+  color: #22342f;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  overflow: hidden;
+}
+
+.brand-logo img {
+  max-width: 62px;
+  max-height: 25px;
+  display: block;
+  object-fit: contain;
+}
+
+.brand-lockup p {
+  margin: 0 0 2px;
+  color: var(--tea-muted);
+  font-size: 12px;
+}
+
+.brand-lockup strong {
+  display: block;
+  color: var(--tea-ink);
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.match-pill {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #48665f;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.product-visual {
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  border-radius: 26px;
+  background:
+    linear-gradient(160deg, var(--visual-base, #eef7f0), rgba(255, 255, 255, 0.62)),
+    repeating-linear-gradient(112deg, transparent 0 18px, rgba(255, 255, 255, 0.22) 19px, transparent 20px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+}
+
+.product-halo {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border-radius: 44% 56% 46% 54%;
+  background: rgba(255, 255, 255, 0.45);
+  transform: rotate(-12deg);
+}
+
+.real-product-img {
+  position: absolute;
+  z-index: 4;
+  max-width: 66%;
+  max-height: 78%;
+  object-fit: contain;
+  border-radius: 24px;
+  filter: drop-shadow(0 24px 24px rgba(53, 77, 70, 0.2));
+  opacity: 0;
+  transform: translateY(10px) scale(0.96);
+  transition: opacity 260ms ease, transform 260ms ease;
+}
+
+.product-visual.has-real-image .real-product-img {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.product-visual.has-real-image .product-cup {
+  opacity: 0;
+}
+
+.product-cup {
+  position: relative;
+  z-index: 3;
+  width: 150px;
+  height: 235px;
+  border-radius: 22px 22px 42px 42px;
+  border: 2px solid rgba(255, 255, 255, 0.88);
+  background:
+    linear-gradient(95deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.28) 40%, rgba(255, 255, 255, 0.78)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.1));
+  box-shadow: 0 26px 44px rgba(53, 77, 70, 0.2);
+  overflow: hidden;
+}
+
+.product-lid {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  height: 14px;
+  z-index: 4;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.product-drink {
+  position: absolute;
+  left: 9px;
+  right: 9px;
+  bottom: 8px;
+  height: 70%;
+  border-radius: 18px 18px 34px 34px;
+  background:
+    radial-gradient(circle at 70% 24%, rgba(255, 255, 255, 0.34), transparent 16%),
+    linear-gradient(180deg, color-mix(in srgb, var(--visual-liquid, #d4b983), #ffffff 18%), var(--visual-liquid, #d4b983));
+}
+
+.product-foam {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 66px;
+  height: 34px;
+  z-index: 3;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  opacity: 0.86;
+}
+
+.product-shine {
+  position: absolute;
+  top: 52px;
+  right: 26px;
+  width: 18px;
+  height: 118px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.36);
+  transform: rotate(7deg);
+}
+
+.product-label {
+  position: absolute;
+  left: 50%;
+  bottom: 54px;
+  transform: translateX(-50%);
+  min-width: 76px;
+  padding: 6px 8px;
+  border-radius: 999px;
+  text-align: center;
+  color: rgba(36, 48, 45, 0.7);
+  background: rgba(255, 255, 255, 0.54);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.product-toppings span {
+  position: absolute;
+  z-index: 5;
+  border-radius: 50%;
+  background: var(--visual-accent, #8abcae);
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.24);
+}
+
+.product-shadow {
+  position: absolute;
+  bottom: 52px;
+  width: 190px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(58, 88, 79, 0.15);
+  filter: blur(2px);
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 0;
+}
+
+.category-line {
+  margin: 2px 0 0;
+  color: var(--tea-mint-deep);
+  font-weight: 900;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-row span {
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: #46665d;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.suggestion-grid div {
+  padding: 13px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(112, 147, 135, 0.16);
+}
+
+.suggestion-grid span {
+  display: block;
+  color: var(--tea-muted);
+  font-size: 12px;
+}
+
+.suggestion-grid strong {
+  display: block;
+  margin-top: 4px;
+  color: var(--tea-ink);
+  font-size: 18px;
+}
+
+.reason-text {
+  margin: 0;
+  color: #3d4b47;
+  font-size: 16px;
+  line-height: 1.86;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: pre-line;
+}
+
+.feedback-panel {
+  grid-column: 2;
+  min-width: 0;
+  padding: 14px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.48);
+  border: 1px solid rgba(112, 147, 135, 0.16);
+}
+
+.feedback-panel p {
+  margin: 0 0 12px;
+  color: var(--tea-muted);
+  font-size: 13px;
+}
+
+.feedback-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  max-width: 100%;
+}
+
+.feedback-buttons button {
+  min-width: 0;
+  min-height: 42px;
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--tea-ink);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: normal;
+}
+
+.feedback-buttons button.is-selected {
+  background: #d9f0e6;
+  border-color: rgba(93, 159, 143, 0.45);
+}
+
+.card-actions {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-width: 0;
+}
+
+.card-actions button {
+  flex: 1 1 132px;
+}
+
+.milk-shell-after {
+  margin-top: 0;
+}
+
+.history-panel {
+  position: relative;
+  z-index: 1;
+  width: min(680px, calc(100vw - 28px));
+  max-height: calc(100vh - 36px);
+  overflow: auto;
+  padding: 24px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  background: linear-gradient(160deg, rgba(255, 253, 247, 0.96), rgba(239, 249, 244, 0.94));
+  box-shadow: 0 28px 80px rgba(28, 46, 40, 0.28);
+}
+
+.atlas-panel {
+  position: relative;
+  z-index: 1;
+  width: min(980px, calc(100vw - 28px));
+  max-height: calc(100vh - 36px);
+  overflow: auto;
+  padding: 24px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  background:
+    linear-gradient(150deg, rgba(255, 253, 247, 0.96), rgba(239, 249, 244, 0.94)),
+    center / cover no-repeat url("assets/milk-tea/ui/card-texture.jpg");
+  box-shadow: 0 28px 80px rgba(28, 46, 40, 0.28);
+}
+
+.atlas-panel h2 {
+  margin: 0 0 18px;
+  color: var(--tea-ink);
+  font-size: 28px;
+}
+
+.radar-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.95fr) minmax(260px, 1fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.radar-card {
+  display: grid;
+  place-items: center;
+  min-height: 360px;
+  border: 1px solid rgba(112, 147, 135, 0.16);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(255, 255, 255, 0.86), rgba(224, 243, 235, 0.44) 68%),
+    linear-gradient(150deg, rgba(255, 255, 255, 0.58), rgba(232, 246, 239, 0.5));
+}
+
+.radar-card canvas {
+  width: min(360px, 100%);
+  max-width: 100%;
+  aspect-ratio: 1;
+  display: block;
+}
+
+.radar-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
+.atlas-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.atlas-stat-grid div,
+.preference-highlights {
+  border: 1px solid rgba(112, 147, 135, 0.16);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.atlas-stat-grid div {
+  padding: 14px;
+}
+
+.atlas-stat-grid span {
+  display: block;
+  color: var(--tea-muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.atlas-stat-grid strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--tea-ink);
+  font-size: 22px;
+}
+
+.preference-highlights {
+  flex: 1;
+  padding: 16px;
+}
+
+.preference-highlights p {
+  margin: 0 0 12px;
+  color: #3d4b47;
+  line-height: 1.7;
+}
+
+.atlas-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.atlas-pill-row span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  color: #31554b;
+  background: rgba(217, 240, 230, 0.72);
+  border: 1px solid rgba(93, 159, 143, 0.2);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.atlas-pill-row.subtle span {
+  color: var(--tea-muted);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.atlas-title-row,
+.tea-brand-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.atlas-title-row {
+  padding-right: 46px;
+}
+
+.atlas-title-row > span,
+.tea-brand-head > span {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #48665f;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.tea-atlas-list {
+  display: grid;
+  gap: 18px;
+}
+
+.tea-brand-section {
+  padding: 16px;
+  border: 1px solid rgba(112, 147, 135, 0.16);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.tea-brand-head {
+  margin-bottom: 14px;
+}
+
+.tea-atlas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.tea-atlas-card {
+  position: relative;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid rgba(112, 147, 135, 0.16);
+  border-radius: 20px;
+  text-align: left;
+  color: var(--tea-ink);
+  background: rgba(255, 255, 255, 0.62);
+  font: inherit;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.tea-atlas-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(93, 159, 143, 0.36);
+  box-shadow: 0 16px 30px rgba(58, 88, 79, 0.12);
+}
+
+.tea-atlas-card.is-tried {
+  background:
+    linear-gradient(150deg, rgba(217, 240, 230, 0.62), rgba(255, 249, 231, 0.68)),
+    rgba(255, 255, 255, 0.62);
+}
+
+.atlas-product-visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 150px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255, 255, 255, 0.7), transparent 38%),
+    linear-gradient(155deg, var(--visual-base, #eef7f0), rgba(255, 255, 255, 0.56));
+}
+
+.atlas-product-visual img {
+  max-width: 76%;
+  max-height: 138px;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 18px rgba(53, 77, 70, 0.18));
+}
+
+.atlas-mini-cup {
+  position: relative;
+  width: 74px;
+  height: 112px;
+  border: 2px solid rgba(255, 255, 255, 0.88);
+  border-radius: 16px 16px 28px 28px;
+  overflow: hidden;
+  background: linear-gradient(95deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.26));
+  box-shadow: 0 18px 28px rgba(53, 77, 70, 0.16);
+}
+
+.atlas-mini-cup span {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  height: 70%;
+  border-radius: 12px 12px 22px 22px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--visual-liquid, #d4b983), #fff 18%), var(--visual-liquid, #d4b983));
+}
+
+.atlas-mini-cup strong {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  z-index: 1;
+  min-width: 54px;
+  padding: 4px 5px;
+  border-radius: 999px;
+  text-align: center;
+  color: rgba(36, 48, 45, 0.72);
+  background: rgba(255, 255, 255, 0.56);
+  font-size: 9px;
+  letter-spacing: 0;
+}
+
+.atlas-card-status {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  color: #48665f;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(112, 147, 135, 0.14);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.tea-atlas-card strong,
+.tea-atlas-card small,
+.tea-atlas-card p {
+  display: block;
+}
+
+.tea-atlas-card strong {
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.tea-atlas-card small {
+  margin-top: 4px;
+  color: var(--tea-muted);
+  font-weight: 800;
+}
+
+.atlas-review-meter {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.atlas-review-meter span {
+  min-width: 0;
+  padding: 6px 7px;
+  border-radius: 10px;
+  color: #405e56;
+  background: rgba(238, 247, 243, 0.78);
+  border: 1px solid rgba(112, 147, 135, 0.14);
+  font-size: 11px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.atlas-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.atlas-card-tags span {
+  padding: 5px 7px;
+  border-radius: 999px;
+  color: #46665d;
+  background: rgba(255, 255, 255, 0.64);
+  border: 1px solid rgba(112, 147, 135, 0.14);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.tea-atlas-card p {
+  margin: 10px 0 0;
+  color: #48665f;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.history-panel h2 {
+  margin: 0 0 18px;
+  color: var(--tea-ink);
+  font-size: 28px;
+}
+
+.history-list {
+  display: grid;
+  gap: 12px;
+}
+
+.history-empty,
+.history-item {
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.history-empty {
+  padding: 18px;
+  color: var(--tea-muted);
+}
+
+.history-item {
+  padding: 14px;
+}
+
+.history-item-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--tea-muted);
+  font-size: 12px;
+}
+
+.history-item h3 {
+  margin: 6px 0 8px;
+  color: var(--tea-ink);
+  font-size: 20px;
+}
+
+.history-mode {
+  margin: -2px 0 10px;
+  color: var(--tea-muted);
+  font-size: 12px;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.history-rate {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.history-rate button {
+  min-height: 38px;
+  border: 1px solid rgba(112, 147, 135, 0.18);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--tea-ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.history-rate button.is-selected {
+  background: #d9f0e6;
+  border-color: rgba(93, 159, 143, 0.48);
+}
+
+.taste-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  background: rgba(255, 255, 252, 0.58);
+  box-shadow: 0 16px 40px rgba(52, 78, 70, 0.1);
+}
+
+.taste-profile h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.profile-grid span {
+  padding: 9px 12px;
+  border-radius: 999px;
+  color: #35594f;
+  background: rgba(217, 240, 230, 0.74);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.letter-modal[hidden] {
+  display: none;
+}
+
+.letter-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.letter-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(35, 48, 45, 0.38);
+  backdrop-filter: blur(10px);
+}
+
+.letter-paper {
+  position: relative;
+  width: calc(100vw - 36px);
+  max-width: 560px;
+  max-height: min(760px, calc(100vh - 36px));
+  overflow: auto;
+  padding: 28px;
+  border-radius: 30px;
+  color: var(--tea-ink);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  background:
+    linear-gradient(160deg, rgba(255, 253, 247, 0.96), rgba(239, 249, 244, 0.94));
+  box-shadow: 0 28px 80px rgba(28, 46, 40, 0.28);
+}
+
+.letter-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--tea-muted);
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.letter-paper h2 {
+  margin: 0 0 18px;
+  font-family: var(--font-display);
+  font-size: 34px;
+}
+
+.letter-body p {
+  margin: 0 0 14px;
+  color: #3f4c48;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+
+.skip-letter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0;
+  color: var(--tea-muted);
+  cursor: pointer;
+}
+
+.letter-enter {
+  width: 100%;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  z-index: 80;
+  max-width: calc(100% - 28px);
+  padding: 11px 14px;
+  border-radius: 999px;
+  color: #20362f;
+  background: rgba(255, 255, 252, 0.92);
+  border: 1px solid rgba(112, 147, 135, 0.22);
+  box-shadow: 0 16px 36px rgba(36, 48, 45, 0.16);
+  transform: translate(-50%, 16px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@keyframes ingredientDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px) rotate(-36deg) scale(0.76);
+  }
+  58% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(150px) rotate(22deg) scale(0.92);
+  }
+}
+
+@keyframes mistRise {
+  0% {
+    opacity: 0;
+    transform: translateY(34px) scale(0.82);
+  }
+  38% {
+    opacity: 0.82;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-42px) scale(1.2);
+  }
+}
+
+@keyframes spriteBrew {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes spriteFloat {
+  0% {
+    transform: translateX(-50%) translateY(10px) scale(0.975);
+    filter: saturate(0.88) brightness(1);
+  }
+  42% {
+    transform: translateX(-50%) translateY(-4px) scale(1.01);
+    filter: saturate(1.02) brightness(1.05);
+  }
+  100% {
+    transform: translateX(-50%) translateY(2px) scale(1);
+    filter: saturate(0.98) brightness(1.04);
+  }
+}
+
+@keyframes ringPulse {
+  0% {
+    opacity: 0.08;
+    transform: translateX(-50%) scale(0.72) rotate(0deg);
+  }
+  48% {
+    opacity: 0.58;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) scale(1.18) rotate(18deg);
+  }
+}
+
+@keyframes sheenSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.72) rotate(0deg);
+  }
+  38% {
+    opacity: 0.58;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) scale(1.16) rotate(95deg);
+  }
+}
+
+@keyframes spriteReveal {
+  0% {
+    transform: translateX(-50%) translateY(2px) scale(1);
+    box-shadow: 0 34px 62px rgba(47, 75, 67, 0.18);
+  }
+  45% {
+    transform: translateX(-50%) translateY(-10px) scale(1.035);
+    box-shadow: 0 42px 78px rgba(47, 75, 67, 0.22);
+  }
+  100% {
+    transform: translateX(-50%) translateY(2px) scale(1);
+    box-shadow: 0 34px 62px rgba(47, 75, 67, 0.18);
+  }
+}
+
+@keyframes liquidBreathe {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  45% {
+    transform: scaleY(1.045);
+  }
+}
+
+@keyframes swirl {
+  0% {
+    transform: rotate(0deg) scale(0.96);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes cardReveal {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 82px) rotateY(80deg) scale(0.8);
+  }
+  58% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -18px) rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes resultEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes captionPulse {
+  from {
+    opacity: 0.55;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 0.96;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 860px) {
+  .milk-hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    padding-top: 24px;
+  }
+
+.milk-hero-copy {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .milk-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .milk-actions {
+    justify-content: center;
+  }
+
+  .mode-chips {
+    width: min(520px, calc(100vw - 56px));
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .atlas-actions {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tea-machine {
+    min-height: 470px;
+  }
+
+  .recommend-card {
+    grid-template-columns: 1fr;
+  }
+
+  .radar-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tea-atlas-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .feedback-panel,
+  .card-actions {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 560px) {
+  .milk-topbar {
+    top: 8px;
+    width: calc(100% - 16px);
+    padding: 8px;
+  }
+
+  .milk-brand {
+    gap: 7px;
+    font-size: 13px;
+  }
+
+  .milk-nav {
+    display: none;
+  }
+
+  .milk-brand-mark {
+    width: 26px;
+    height: 26px;
+  }
+
+  .milk-nav-link {
+    padding: 7px 8px;
+    font-size: 11px;
+  }
+
+  .milk-nav-link[href] {
+    display: none;
+  }
+
+  .milk-shell {
+    width: calc(100% - 16px);
+    margin-top: 12px;
+  }
+
+  .milk-hero h1 {
+    max-width: 100%;
+    font-size: 34px;
+    overflow-wrap: anywhere;
+  }
+
+  .milk-subtitle {
+    max-width: 286px;
+    font-size: 15px;
+    line-height: 1.75;
+    overflow-wrap: anywhere;
+  }
+
+  .milk-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infinite-toggle {
+    width: min(238px, 100%);
+    justify-content: center;
+  }
+
+  .tea-machine {
+    min-height: 430px;
+    border-radius: 28px;
+  }
+
+  .brew-stage {
+    height: 370px;
+  }
+
+  .brew-sprite {
+    width: min(252px, 72vw);
+    bottom: 24px;
+    border-radius: 28px;
+  }
+
+  .brew-ring {
+    width: 218px;
+    height: 218px;
+    bottom: 86px;
+  }
+
+  .ring-b {
+    width: 274px;
+    height: 274px;
+    bottom: 58px;
+  }
+
+  .tea-cup {
+    width: 178px;
+    height: 250px;
+  }
+
+  .recommend-card {
+    padding: 14px;
+    border-radius: 26px;
+  }
+
+  .result-modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 10px 16px;
+  }
+
+  .history-modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 10px 16px;
+  }
+
+  .atlas-modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 10px 16px;
+  }
+
+  .history-panel {
+    width: min(320px, calc(100vw - 56px));
+  }
+
+  .recommend-card {
+    width: min(320px, calc(100vw - 56px));
+  }
+
+  .atlas-panel {
+    width: min(320px, calc(100vw - 56px));
+    padding: 14px;
+    border-radius: 26px;
+  }
+
+  .atlas-panel h2 {
+    font-size: 25px;
+  }
+
+  .atlas-title-row,
+  .tea-brand-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .atlas-title-row {
+    padding-right: 42px;
+  }
+
+  .tea-brand-head .brand-lockup strong {
+    font-size: 22px;
+    line-height: 1.15;
+  }
+
+  .radar-card {
+    min-height: 286px;
+  }
+
+  .atlas-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tea-atlas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .atlas-product-visual {
+    min-height: 132px;
+  }
+
+  .feedback-buttons,
+  .card-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .card-head {
+    align-items: flex-start;
+  }
+
+  .brand-lockup strong {
+    font-size: 21px;
+  }
+
+  .match-pill {
+    display: none;
+  }
+
+  .product-visual {
+    min-height: 238px;
+  }
+
+  .real-product-img {
+    max-height: 70%;
+  }
+
+  .product-cup {
+    width: 124px;
+    height: 194px;
+  }
+
+  .reason-text {
+    font-size: 14px;
+    line-height: 1.68;
+  }
+
+  .feedback-panel {
+    padding: 11px;
+  }
+
+  .feedback-buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .history-rate {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .taste-profile {
+    display: block;
+  }
+
+  .profile-grid {
+    justify-content: flex-start;
+    margin-top: 14px;
+  }
+
+  .letter-paper {
+    width: min(330px, calc(100vw - 36px));
+    margin-left: 0;
+    padding: 22px;
+    border-radius: 26px;
+  }
+
+  .letter-modal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .letter-paper h2 {
+    font-size: 29px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+/* Little world tea room integration layer */
+body.milk-tea-page {
+  --tea-bg: #141521;
+  --tea-paper: rgba(245, 242, 232, 0.92);
+  --tea-line: rgba(255, 255, 255, 0.16);
+  --tea-ink: #1c2130;
+  --tea-muted: #657084;
+  --tea-mint: #74e4f3;
+  --tea-mint-deep: #47bdd2;
+  --tea-pink: #ff8eba;
+  --tea-gold: #ffe6a4;
+  --tea-shadow: 0 24px 64px rgba(20, 21, 33, 0.26);
+  color: #202437;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(116, 228, 243, 0.18), transparent 26%),
+    radial-gradient(circle at 86% 18%, rgba(255, 142, 186, 0.18), transparent 24%),
+    linear-gradient(180deg, #171927 0%, #252b3f 48%, #efe5d4 49%, #d8c5aa 100%);
+}
+
+.milk-tea-page::before,
+.milk-tea-page::after {
+  display: block;
+}
+
+.milk-tea-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -6;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 96px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 82px),
+    linear-gradient(180deg, #151722 0%, #23293d 52%, #d4c0a8 53%, #ead6ba 100%);
+}
+
+.milk-tea-page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -5;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(20, 21, 33, 0.18), rgba(20, 21, 33, 0.04) 58%),
+    radial-gradient(circle at 50% 15%, rgba(255, 230, 164, 0.08), transparent 32%);
+}
+
+.tea-bg-layer-one {
+  opacity: 0.64;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(116, 228, 243, 0.18), transparent 22%),
+    radial-gradient(circle at 82% 28%, rgba(255, 142, 186, 0.16), transparent 20%);
+}
+
+.tea-bg-layer-two {
+  opacity: 0.26;
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0 82px, rgba(255, 255, 255, 0.12) 83px, transparent 84px),
+    repeating-linear-gradient(180deg, transparent 0 70px, rgba(255, 255, 255, 0.08) 71px, transparent 72px);
+}
+
+.tea-bg-dots {
+  opacity: 0.22;
+  background-image:
+    radial-gradient(circle at 18% 20%, rgba(255, 230, 164, 0.42) 1px, transparent 1.4px),
+    radial-gradient(circle at 73% 25%, rgba(116, 228, 243, 0.34) 1px, transparent 1.4px),
+    radial-gradient(circle at 48% 74%, rgba(255, 142, 186, 0.3) 1px, transparent 1.4px);
+}
+
+.milk-topbar {
+  min-height: 66px;
+  top: 14px;
+  width: min(1100px, calc(100% - 20px));
+  padding: 8px 10px;
+  border-radius: 22px;
+  border-color: rgba(46, 54, 73, 0.22);
+  background:
+    linear-gradient(135deg, rgba(20, 21, 33, 0.91), rgba(34, 41, 62, 0.86)),
+    rgba(20, 21, 33, 0.9);
+  box-shadow: 0 18px 38px rgba(20, 21, 33, 0.24);
+}
+
+.milk-brand {
+  color: #fff;
+  gap: 10px;
+  letter-spacing: 0.4px;
+}
+
+.milk-brand > span:last-child {
+  display: grid;
+  gap: 2px;
+}
+
+.milk-brand strong {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.milk-brand small {
+  color: rgba(255, 255, 255, 0.62);
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.milk-brand-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  color: #151722;
+  background: linear-gradient(135deg, #fff9db, #ff8eba 50%, #74e4f3);
+  border: 0;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 1000;
+}
+
+.milk-nav {
+  gap: 6px;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.milk-nav-link,
+.milk-nav-link[href] {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 13px;
+  padding: 0 13px;
+  color: rgba(255, 255, 255, 0.82);
+  background: transparent;
+  box-shadow: none;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.milk-nav-link:hover,
+.milk-nav-link.is-active {
+  color: #141521;
+  background: linear-gradient(135deg, #fff9db, #9ee9f2);
+  transform: translateY(-1px);
+}
+
+.milk-shell {
+  width: min(1100px, calc(100% - 20px));
+  margin-top: 22px;
+}
+
+.milk-hero {
+  min-height: calc(100vh - 112px);
+  grid-template-columns: minmax(310px, 0.82fr) minmax(520px, 1.18fr);
+  gap: 28px;
+  padding: 20px 0 18px;
+}
+
+.milk-kicker,
+.section-kicker,
+.letter-kicker {
+  color: #74e4f3;
+  letter-spacing: 0.12em;
+}
+
+.milk-hero h1 {
+  color: #fff;
+  text-shadow: 0 12px 24px rgba(20, 21, 33, 0.28);
+}
+
+.milk-subtitle {
+  color: rgba(255, 255, 255, 0.76);
+  max-width: 430px;
+}
+
+.primary-tea-btn {
+  color: #141521;
+  background: linear-gradient(135deg, #fff9db, #ff9ac2 52%, #74e4f3);
+  box-shadow: 0 18px 36px rgba(116, 228, 243, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.82);
+}
+
+.secondary-tea-btn {
+  color: #161a28;
+  background: linear-gradient(135deg, #fff0ba, #ff9ac2);
+  box-shadow: 0 14px 28px rgba(255, 142, 186, 0.18);
+}
+
+.ghost-tea-btn,
+.infinite-toggle,
+.atlas-entry-btn,
+.history-open-btn {
+  color: rgba(255, 255, 255, 0.82);
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+}
+
+.ghost-tea-btn:hover,
+.atlas-entry-btn:hover,
+.history-open-btn:hover {
+  border-color: rgba(116, 228, 243, 0.38);
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.toggle-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.infinite-toggle input:checked + .toggle-track {
+  background: rgba(116, 228, 243, 0.64);
+}
+
+.mode-chips button {
+  color: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.mode-chips button.is-active {
+  color: #151722;
+  border-color: rgba(255, 255, 255, 0.3);
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 255, 255, 0.9), transparent 20%),
+    linear-gradient(135deg, #fff9db, #9ee9f2);
+  box-shadow: 0 12px 24px rgba(116, 228, 243, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.88);
+}
+
+.mode-chips button.is-active::before {
+  background: #ff6d9f;
+  box-shadow: 0 0 0 4px rgba(255, 109, 159, 0.16);
+}
+
+.tea-machine {
+  min-height: 650px;
+  place-items: center;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.72)),
+    linear-gradient(90deg, rgba(42, 48, 63, 0.05) 0 1px, transparent 1px 96px),
+    linear-gradient(180deg, #dfe3e5 0%, #e7e5df 67%, #c9b9a4 68%, #e7d5ba 100%);
+  box-shadow: 0 24px 60px rgba(20, 21, 33, 0.24);
+}
+
+.tea-machine::before {
+  inset: 18px;
+  border-radius: 22px;
+  border-color: rgba(255, 255, 255, 0.56);
+}
+
+.tea-machine::after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 94px;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(43, 49, 65, 0.18);
+  box-shadow: 0 14px 34px rgba(63, 52, 42, 0.1);
+}
+
+.ritual-bg {
+  inset: auto auto 78px 50%;
+  width: min(360px, 56%);
+  height: auto;
+  aspect-ratio: 16 / 10;
+  border: 8px solid rgba(250, 247, 238, 0.82);
+  border-radius: 22px;
+  object-fit: cover;
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+  filter: saturate(0.78) brightness(1.08);
+  transform: translateX(-50%) rotate(-2deg);
+  box-shadow: 0 20px 32px rgba(39, 45, 60, 0.13);
+}
+
+.machine-glow {
+  inset: 20% 12% 16%;
+  background:
+    radial-gradient(ellipse at 50% 50%, rgba(116, 228, 243, 0.38), transparent 56%),
+    radial-gradient(ellipse at 50% 42%, rgba(255, 230, 164, 0.4), transparent 38%);
+  filter: blur(5px);
+}
+
+.tea-room-ui {
+  position: absolute;
+  z-index: 9;
+  top: 24px;
+  width: 122px;
+  padding: 12px 13px;
+  border-radius: 18px;
+  color: #fff;
+  background: rgba(31, 37, 53, 0.78);
+  box-shadow: 0 18px 34px rgba(32, 36, 55, 0.2);
+}
+
+.tea-room-ui-left {
+  left: 24px;
+}
+
+.tea-room-ui-right {
+  right: 24px;
+}
+
+.tea-room-ui span {
+  display: block;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.tea-room-ui strong {
+  display: block;
+  margin-top: 5px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 29px;
+  line-height: 1;
+}
+
+.tea-device-shelf {
+  position: absolute;
+  z-index: 4;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 0 18px 14px;
+  min-height: 76px;
+  border-bottom: 12px solid #343947;
+  filter: drop-shadow(0 16px 16px rgba(35, 42, 54, 0.2));
+}
+
+.tea-device-shelf::before,
+.tea-device-shelf::after {
+  content: "";
+  position: absolute;
+  bottom: -58px;
+  width: 15px;
+  height: 58px;
+  background: #343947;
+}
+
+.tea-device-shelf::before {
+  left: 20px;
+}
+
+.tea-device-shelf::after {
+  right: 20px;
+}
+
+.tea-device-shelf img {
+  position: relative;
+  z-index: 2;
+  width: clamp(50px, 6vw, 76px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 13px 10px rgba(0, 0, 0, 0.24));
+  animation: figureStandeeFloat 5.4s ease-in-out infinite;
+}
+
+.tea-device-shelf img.figure-standee {
+  width: clamp(72px, 8.2vw, 116px);
+  max-height: 128px;
+}
+
+.tea-device-shelf img:nth-child(2n) {
+  animation-delay: -1.7s;
+}
+
+.tea-device-shelf.shelf-a {
+  left: 9%;
+  top: 16%;
+  width: 38%;
+}
+
+.tea-device-shelf.shelf-b {
+  right: 8%;
+  top: 24%;
+  width: 27%;
+}
+
+.tea-device-shelf.shelf-c {
+  left: 10%;
+  bottom: 23%;
+  width: 28%;
+}
+
+.brew-stage {
+  z-index: 6;
+  width: min(360px, 58%);
+  height: 460px;
+  place-items: center;
+  padding: 32px 26px 38px;
+  border-radius: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background:
+    linear-gradient(180deg, rgba(49, 57, 81, 0.96), rgba(21, 24, 37, 0.96)),
+    radial-gradient(circle at 50% 22%, rgba(116, 228, 243, 0.22), transparent 38%);
+  box-shadow: 0 30px 58px rgba(24, 28, 42, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+.brew-stage::before {
+  content: "TEA COTTAGE";
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 11px;
+  font-weight: 1000;
+  letter-spacing: 0.12em;
+}
+
+.brew-stage::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 20px;
+  height: 18px;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 16% 50%, #ff8eba 0 5px, transparent 6px),
+    radial-gradient(circle at 50% 50%, #fff0aa 0 5px, transparent 6px),
+    radial-gradient(circle at 84% 50%, #74e4f3 0 5px, transparent 6px),
+    rgba(255, 255, 255, 0.08);
+}
+
+.brew-sprite {
+  bottom: 58px;
+  width: min(252px, 68vw);
+  border-radius: 26px;
+  box-shadow: 0 30px 50px rgba(4, 6, 12, 0.36);
+  filter: saturate(0.98) brightness(1.04);
+}
+
+.brew-sprite::after {
+  background:
+    linear-gradient(112deg, rgba(255, 255, 255, 0.3), transparent 30%, transparent 70%, rgba(116, 228, 243, 0.18)),
+    radial-gradient(circle at 50% 16%, rgba(255, 255, 255, 0.22), transparent 26%);
+}
+
+.brew-ring {
+  bottom: 108px;
+  border-color: rgba(116, 228, 243, 0.36);
+}
+
+.ring-b {
+  bottom: 76px;
+  border-color: rgba(255, 230, 164, 0.28);
+}
+
+.tea-leaf {
+  background: #87d187;
+}
+
+.tea-pearl {
+  background: #4b342d;
+}
+
+.floating-card {
+  z-index: 8;
+  top: 106px;
+  left: auto;
+  right: 13%;
+  width: 118px;
+  height: 154px;
+  color: #fff;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background:
+    linear-gradient(145deg, rgba(255, 142, 186, 0.92), rgba(116, 228, 243, 0.82)),
+    rgba(31, 37, 53, 0.72);
+  box-shadow: 0 18px 38px rgba(31, 37, 53, 0.22);
+}
+
+.brew-caption {
+  z-index: 9;
+  left: 26px;
+  right: 26px;
+  bottom: 38px;
+  min-height: 42px;
+  display: grid;
+  place-items: center;
+  padding: 0 14px;
+  border-radius: 16px;
+  color: #30384d;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 24px rgba(40, 48, 66, 0.12);
+}
+
+.tea-room-inventory {
+  position: absolute;
+  z-index: 10;
+  left: 24px;
+  right: 24px;
+  bottom: 22px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.tea-room-inventory span {
+  min-height: 54px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(34, 40, 55, 0.12);
+  border-radius: 16px;
+  color: #485368;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 24px rgba(40, 48, 66, 0.12);
+  font-weight: 1000;
+}
+
+.modal-backdrop {
+  background:
+    radial-gradient(circle at 50% 34%, rgba(116, 228, 243, 0.16), transparent 38%),
+    rgba(10, 12, 20, 0.7);
+}
+
+.recommend-card,
+.history-panel,
+.atlas-panel,
+.letter-paper {
+  border-radius: 28px;
+  border-color: rgba(255, 255, 255, 0.18);
+  background:
+    linear-gradient(145deg, rgba(31, 37, 53, 0.96), rgba(20, 21, 33, 0.96)),
+    rgba(20, 21, 33, 0.96);
+  box-shadow: 0 28px 80px rgba(4, 6, 12, 0.42);
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.recommend-card {
+  border-radius: 30px;
+}
+
+.card-ambient {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(116, 228, 243, 0.18), transparent 28%),
+    radial-gradient(circle at 88% 20%, rgba(255, 142, 186, 0.16), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent);
+}
+
+.modal-close,
+.letter-close {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.brand-logo,
+.match-pill,
+.tag-row span,
+.suggestion-grid div,
+.feedback-panel,
+.feedback-buttons button,
+.atlas-stat-grid div,
+.preference-highlights,
+.atlas-title-row > span,
+.tea-brand-head > span,
+.tea-brand-section,
+.tea-atlas-card,
+.history-card,
+.letter-paper {
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.brand-logo,
+.match-pill,
+.tag-row span,
+.suggestion-grid div,
+.feedback-panel,
+.feedback-buttons button,
+.atlas-stat-grid div,
+.preference-highlights,
+.atlas-title-row > span,
+.tea-brand-head > span,
+.tea-brand-section,
+.tea-atlas-card,
+.history-card {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.brand-lockup p,
+.suggestion-grid span,
+.feedback-panel p,
+.preference-highlights p,
+.history-card p,
+.atlas-pill-row.subtle span {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.brand-lockup strong,
+.suggestion-grid strong,
+.atlas-stat-grid strong,
+.atlas-panel h2,
+.history-panel h2,
+.letter-paper h2,
+.tea-atlas-card,
+.feedback-buttons button,
+.reason-text {
+  color: #fff;
+}
+
+.category-line {
+  color: #74e4f3;
+}
+
+.product-visual {
+  border-color: rgba(255, 255, 255, 0.14);
+  background:
+    linear-gradient(180deg, rgba(223, 227, 229, 0.94), rgba(231, 229, 223, 0.92) 62%, rgba(201, 185, 164, 0.9) 63%),
+    linear-gradient(90deg, rgba(42, 48, 63, 0.05) 0 1px, transparent 1px 72px);
+}
+
+.product-halo {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.real-product-img {
+  filter: drop-shadow(0 24px 26px rgba(0, 0, 0, 0.28));
+}
+
+.atlas-pill-row span,
+.feedback-buttons button.is-selected,
+.tea-atlas-card.is-tried {
+  color: #161a28;
+  background: linear-gradient(135deg, rgba(255, 249, 219, 0.95), rgba(158, 233, 242, 0.88));
+}
+
+.taste-profile {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(20, 21, 33, 0.76);
+  box-shadow: 0 24px 54px rgba(20, 21, 33, 0.24);
+}
+
+.taste-profile h2 {
+  color: #fff;
+}
+
+.profile-grid span {
+  color: rgba(255, 255, 255, 0.82);
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 980px) {
+  .milk-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .milk-hero-copy {
+    text-align: left;
+  }
+
+  .milk-subtitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .milk-actions {
+    justify-content: flex-start;
+  }
+
+  .mode-chips,
+  .atlas-actions {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: flex-start;
+  }
+
+  .tea-machine {
+    min-height: 620px;
+  }
+
+  .brew-stage {
+    width: min(350px, 56vw);
+  }
+}
+
+@media (max-width: 760px) {
+  .milk-topbar {
+    align-items: flex-start;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+
+  .milk-nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: visible;
+    scrollbar-width: none;
+  }
+
+  .milk-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .milk-nav-link,
+  .milk-nav-link[href] {
+    flex: 1 1 auto;
+  }
+
+  .milk-hero {
+    padding-top: 10px;
+  }
+
+  .milk-hero-copy {
+    text-align: center;
+  }
+
+  .milk-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .milk-actions,
+  .mode-chips,
+  .atlas-actions {
+    justify-content: center;
+  }
+
+  .tea-machine {
+    min-height: 560px;
+  }
+
+  .tea-room-ui {
+    width: 104px;
+    padding: 10px;
+  }
+
+  .tea-room-ui strong {
+    font-size: 24px;
+  }
+
+  .tea-device-shelf.shelf-a {
+    left: 5%;
+    top: 19%;
+    width: 42%;
+  }
+
+  .tea-device-shelf.shelf-b {
+    right: 4%;
+    top: 28%;
+    width: 32%;
+  }
+
+  .tea-device-shelf.shelf-c {
+    display: none;
+  }
+
+  .brew-stage {
+    width: min(330px, 70vw);
+    height: 420px;
+  }
+
+  .floating-card {
+    display: none;
+  }
+
+  .tea-room-inventory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .milk-shell {
+    width: calc(100% - 16px);
+  }
+
+  .milk-brand {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .milk-brand small {
+    font-size: 9px;
+  }
+
+  .milk-nav {
+    gap: 4px;
+    padding: 4px;
+  }
+
+  .milk-nav-link,
+  .milk-nav-link[href] {
+    min-height: 34px;
+    padding: 0 8px;
+    font-size: 12px;
+  }
+
+  .milk-hero h1 {
+    color: #fff;
+    font-size: 36px;
+  }
+
+  .milk-subtitle {
+    color: rgba(255, 255, 255, 0.76);
+  }
+
+  .tea-machine {
+    min-height: 520px;
+    border-radius: 24px;
+  }
+
+  .tea-room-ui-right {
+    display: none;
+  }
+
+  .tea-device-shelf {
+    gap: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .tea-device-shelf img {
+    width: clamp(44px, 13vw, 58px);
+  }
+
+  .brew-stage {
+    width: min(300px, 78vw);
+    height: 390px;
+    padding: 28px 20px 34px;
+  }
+
+  .brew-sprite {
+    width: min(230px, 64vw);
+    bottom: 58px;
+  }
+
+  .brew-caption {
+    bottom: 100px;
+    left: 18px;
+    right: 18px;
+    min-height: 38px;
+    font-size: 12px;
+  }
+
+  .tea-room-inventory {
+    left: 18px;
+    right: 18px;
+    bottom: 18px;
+    gap: 8px;
+  }
+
+  .tea-room-inventory span {
+    min-height: 42px;
+    font-size: 12px;
+  }
+
+  .result-modal,
+  .history-modal,
+  .atlas-modal {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .recommend-card,
+  .history-panel,
+  .atlas-panel {
+    width: min(340px, calc(100vw - 20px));
+  }
+}
+
+/* Shared site frame final alignment */
+.milk-tea-page {
+  --site-shell: min(1100px, calc(100% - 20px));
+  --site-topbar-height: 68px;
+}
+
+.milk-tea-page .site-topbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.milk-tea-page .site-main.milk-shell {
+  width: var(--site-shell);
+  margin: calc(var(--site-top-offset) + var(--site-topbar-height) + 20px) auto 36px;
+}
+
+.milk-tea-page .site-section + .site-section {
+  margin-top: 18px;
+}
+
+.milk-tea-page .milk-shell-after {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .milk-tea-page {
+    --site-topbar-height: 122px;
+  }
+
+  .milk-tea-page .site-main.milk-shell {
+    margin-top: calc(var(--site-top-offset) + var(--site-topbar-height) + 18px);
+  }
+}
+
+@media (max-width: 560px) {
+  .milk-tea-page {
+    --site-shell: calc(100% - 16px);
+    --site-topbar-height: 116px;
+    --site-top-offset: 8px;
+  }
+}
