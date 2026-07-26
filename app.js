@@ -1031,26 +1031,15 @@
         return;
       }
 
-      const latestItem = pickLatestMessage(configuredMessages);
       const ordered = [...configuredMessages].sort(sortByLatestMessage);
 
       list.innerHTML = ordered
         .map((item, index) => {
           const tone = index % 8;
-          const isLatest = latestItem && item.id === latestItem.id;
-          const title = isLatest
-            ? text("msg.today_badge")
-            : `${text("msg.list_item_prefix")}${index + 1}条`;
           const roleHtml = item.role ? `<p class="message-role">${esc(item.role)}：</p>` : "";
-          const dateText = String(item.date || "").trim();
-          const dateHtml = dateText ? `<span class="card-meta">${esc(dateText)}</span>` : "";
           const collapsible = shouldCollapseMessage(item.content);
           return `
             <article class="message-card message-tone-${tone}">
-              <div class="card-head">
-                <h3 class="card-title">${esc(title)}</h3>
-                ${dateHtml}
-              </div>
               ${roleHtml}
               <p class="message-text${collapsible ? " collapsed" : ""}">${esc(item.content)}</p>
               ${collapsible

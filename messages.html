@@ -6,18 +6,19 @@
   <title>给雪的小世界 - 悄悄话</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="archive-theme.css?v=20260725">
+  <link rel="stylesheet" href="orbit-refresh.css?v=20260725">
+  <link rel="stylesheet" href="motion-system.css?v=20260726">
 </head>
 <body class="figure-site sub-page message-page">
   <div class="bg-aura bg-aura-one"></div>
   <div class="bg-aura bg-aura-two"></div>
   <div class="bg-stars" aria-hidden="true"></div>
 
-  <header class="site-topbar topbar">
+  <header class="site-topbar topbar orbit-topbar">
     <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
       <span>
         <strong>属于我们的小世界</strong>
-        <small>PRIVATE ORBIT ARCHIVE</small>
       </span>
     </a>
     <nav class="site-nav top-nav" aria-label="主导航">
@@ -26,7 +27,7 @@
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a class="is-active" href="messages.html" aria-current="page">悄悄话</a>
-        <a href="albums.html">照片墙</a>
+        <a href="albums.html">照片站</a>
         <a href="comic.html">漫画站</a>
       </div>
       <details class="site-menu menu-dropdown">
@@ -40,7 +41,7 @@
           <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
           <a class="active" href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
           <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
           <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
@@ -49,24 +50,19 @@
 
   <main class="site-main page-shell">
     <section class="site-section hero-block hero-compact">
-      <div class="hero-archive-index" aria-hidden="true">03</div>
-      <p class="hero-kicker">WHISPER FREQUENCY · 私语频段</p>
       <h1>有些话，只在这里<em>轻声抵达。</em></h1>
-      <p class="hero-sub">不是公开的广播，也不是匆忙的消息。每一句想对雪说的话，都被安静收进这条只属于我们的频段。</p>
-      <div class="hero-data-line"><span>PRIVATE CHANNEL</span><span>WORDS / TIME / HEARTBEAT</span></div>
     </section>
 
     <section class="site-section panel archive-panel">
       <div class="archive-panel-heading">
-        <div><p>TRANSMISSION LOG</p><h2>写给雪的话</h2></div>
-        <span>03 · WHISPER</span>
+        <div><h2>写给雪的话</h2></div>
       </div>
       <div id="messageList" class="list-grid message-board"></div>
     </section>
   </main>
 
-  <footer class="site-foot">PRIVATE ORBIT ARCHIVE · WHISPER FREQUENCY</footer>
   <script src="app.js"></script>
+  <script src="motion-system.js?v=20260726"></script>
 </body>
 </html>
 

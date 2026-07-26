@@ -1,4 +1,6 @@
 .vercel
 node_modules/
 tmp/
+comic-chapters/
 .DS_Store
+.env*

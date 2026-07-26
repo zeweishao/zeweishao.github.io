@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="milk-tea.css?v=202605170240">
   <link rel="stylesheet" href="archive-theme.css?v=20260725">
+  <link rel="stylesheet" href="orbit-refresh.css?v=20260725">
+  <link rel="stylesheet" href="motion-system.css?v=20260726">
 </head>
 <body class="figure-site sub-page milk-tea-page">
   <div class="tea-bg-layer tea-bg-layer-one" aria-hidden="true"></div>
   <div class="tea-bg-layer tea-bg-layer-two" aria-hidden="true"></div>
   <div class="tea-bg-dots" aria-hidden="true"></div>
 
-  <header class="site-topbar milk-topbar">
+  <header class="site-topbar milk-topbar orbit-topbar">
     <a class="site-brand milk-brand" href="index.html" aria-label="返回首页">
-      <span class="site-brand-mark milk-brand-mark" aria-hidden="true">FS</span>
+      <span class="site-brand-mark milk-brand-mark orbit-brand-sigil" aria-hidden="true"><i></i></span>
       <span>
         <strong>属于我们的小世界</strong>
-        <small>PRIVATE ORBIT ARCHIVE</small>
       </span>
     </a>
     <nav class="site-nav milk-nav" aria-label="奶茶机导航">
@@ -27,7 +28,7 @@
       <a class="milk-nav-link" href="figures.html">小手办</a>
       <a class="milk-nav-link is-active" href="milk-tea.html" aria-current="page">奶茶小屋</a>
       <a class="milk-nav-link" href="messages.html">悄悄话</a>
-      <a class="milk-nav-link" href="albums.html">照片墙</a>
+      <a class="milk-nav-link" href="albums.html">照片站</a>
       <a class="milk-nav-link" href="comic.html">漫画站</a>
       </div>
       <details class="site-menu menu-dropdown">
@@ -41,7 +42,7 @@
           <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
           <a class="active" href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
           <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
           <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
           <button class="archive-menu-button" type="button" id="openLetterBtn">给雪的话</button>
         </div>
@@ -52,20 +53,7 @@
   <main class="site-main milk-shell">
     <section class="site-section milk-hero" aria-labelledby="milkTitle">
       <div class="milk-hero-copy">
-        <p class="milk-kicker">TEA OBSERVATORY · 02</p>
         <h1 id="milkTitle">雪的<em>奶茶小屋</em></h1>
-        <p class="milk-subtitle">今天不知道喝什么也没关系。把口味交给这台安静运转的选择仪，它会记住雪的每一次喜欢。</p>
-        <div class="milk-actions">
-          <button class="primary-tea-btn" type="button" id="drawBtn">
-            <span>抽今天的奶茶</span>
-          </button>
-          <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">历史记录</button>
-          <label class="infinite-toggle">
-            <input type="checkbox" id="infiniteMode">
-            <span class="toggle-track" aria-hidden="true"></span>
-            <span>无限换模式</span>
-          </label>
-        </div>
         <div class="mode-chips" id="modeChips" aria-label="今天想喝什么，可多选">
           <button class="is-active" type="button" data-mode="any" aria-pressed="true">随便抽</button>
           <button type="button" data-mode="fresh" aria-pressed="false">清爽</button>
@@ -88,21 +76,12 @@
         </div>
       </div>
 
+      <div class="tea-machine-column">
       <div class="tea-machine" id="teaMachine" aria-live="polite">
         <img class="ritual-bg" src="assets/figure-story/ui/zone-tea.png" alt="" aria-hidden="true">
         <div class="machine-glow" aria-hidden="true"></div>
         <div class="tea-machine-heading" aria-hidden="true">
-          <span>SELECTION ENGINE</span>
           <strong>今日冲泡观测</strong>
-          <small>FLAVOR MEMORY ONLINE</small>
-        </div>
-        <div class="tea-room-ui tea-room-ui-left" aria-hidden="true">
-          <span>偏好样本</span>
-          <strong>01</strong>
-        </div>
-        <div class="tea-room-ui tea-room-ui-right" aria-hidden="true">
-          <span>库存</span>
-          <strong>52 款</strong>
         </div>
         <div class="brew-stage" aria-hidden="true">
           <span class="tea-leaf leaf-a"></span>
@@ -113,24 +92,28 @@
           <span class="tea-mist mist-b"></span>
           <div class="brew-ring ring-a"></div>
           <div class="brew-ring ring-b"></div>
-          <div class="brew-sprite" aria-hidden="true"></div>
           <div class="brew-sheen" aria-hidden="true"></div>
-          <div class="tea-cup">
-            <div class="cup-rim"></div>
-            <div class="tea-liquid"></div>
-            <div class="tea-surface"></div>
-            <div class="cup-shine"></div>
-          </div>
+          <img class="tea-machine-product" id="teaMachineProduct" src="assets/milk-tea/generated/tea-orbit-milk-v1.jpg" alt="">
         </div>
         <div class="floating-card" id="floatingCard" aria-hidden="true">
           <span>今日推荐</span>
         </div>
-        <p class="brew-caption" id="brewCaption">轻轻按下，开始冲泡今天的灵感。</p>
-        <div class="tea-room-inventory" aria-hidden="true">
-          <span>01 真实菜单</span>
-          <span>02 评价印象</span>
-          <span>03 偏好记忆</span>
+        <p class="brew-caption" id="brewCaption" hidden>轻轻按下，开始冲泡今天的灵感。</p>
+      </div>
+      <div class="tea-machine-controls">
+        <button class="primary-tea-btn tea-draw-trigger" type="button" id="drawBtn">
+          <span>抽今天的奶茶</span>
+          <i aria-hidden="true"></i>
+        </button>
+        <div class="tea-machine-secondary">
+          <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">历史记录</button>
+          <label class="infinite-toggle">
+            <input type="checkbox" id="infiniteMode">
+            <span class="toggle-track" aria-hidden="true"></span>
+            <span>无限换模式</span>
+          </label>
         </div>
+      </div>
       </div>
     </section>
 
@@ -140,8 +123,7 @@
 
     <section class="site-section taste-profile" aria-label="口味画像">
       <div>
-        <p class="section-kicker">TASTE MEMORY</p>
-        <h2>它正在学习雪喜欢什么</h2>
+        <h2>口味偏好</h2>
       </div>
       <div class="profile-grid" id="profileGrid">
         <span>清爽</span>
@@ -151,6 +133,35 @@
       </div>
     </section>
   </main>
+
+  <section class="tea-draw-sequence" id="drawSequence" aria-live="polite" hidden>
+    <div class="tea-draw-backdrop" aria-hidden="true"></div>
+    <div class="tea-draw-orbit tea-draw-orbit-a" aria-hidden="true"></div>
+    <div class="tea-draw-orbit tea-draw-orbit-b" aria-hidden="true"></div>
+    <div class="tea-draw-card-deck" id="drawCardDeck" aria-hidden="true"></div>
+    <div class="tea-draw-spark-field" id="drawSparkField" aria-hidden="true"></div>
+    <div class="tea-draw-reveal-burst" id="drawRevealBurst" aria-hidden="true"></div>
+    <div class="tea-draw-core" aria-hidden="true">
+      <div class="tea-draw-final-card">
+        <div class="tea-draw-final-face tea-draw-final-back">
+          <span aria-hidden="true"></span>
+          <b aria-hidden="true">✦</b>
+          <i aria-hidden="true"></i>
+        </div>
+        <figure class="tea-draw-final-face tea-draw-final-front">
+          <img id="drawSequenceImage" src="assets/milk-tea/generated/tea-orbit-milk-v1.jpg" alt="">
+          <figcaption>
+            <span id="drawFinalBrand"></span>
+            <strong id="drawFinalName"></strong>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="tea-draw-copy">
+      <p id="drawSequenceCaption">正在唤醒今天的茶香。</p>
+      <span class="tea-draw-progress"><i></i></span>
+    </div>
+  </section>
 
   <section class="result-modal" id="resultModal" aria-labelledby="productName" aria-modal="true" role="dialog" hidden>
     <div class="modal-backdrop" data-close-result></div>
@@ -199,7 +210,6 @@
         </div>
 
         <div class="feedback-panel" aria-label="反馈">
-          <p>先确认今天喝不喝它；喝完以后可以在历史记录里继续打分。</p>
           <div class="feedback-buttons">
             <button type="button" data-feedback="love">今天就喝这个</button>
             <button type="button" data-feedback="like">先收藏这杯</button>
@@ -219,7 +229,6 @@
     <div class="modal-backdrop" data-close-history></div>
     <article class="history-panel">
       <button class="modal-close" type="button" aria-label="关闭历史记录" data-close-history>×</button>
-      <p class="section-kicker">DRINK HISTORY</p>
       <h2 id="historyTitle">雪的奶茶历史</h2>
       <div class="history-list" id="historyList"></div>
     </article>
@@ -229,7 +238,6 @@
     <div class="modal-backdrop" data-close-preference-atlas></div>
     <article class="atlas-panel preference-atlas-panel">
       <button class="modal-close" type="button" aria-label="关闭偏好小本" data-close-preference-atlas>×</button>
-      <p class="section-kicker">TASTE ATLAS</p>
       <h2 id="preferenceAtlasTitle">雪的偏好小本</h2>
       <div class="radar-layout">
         <div class="radar-card">
@@ -249,7 +257,6 @@
       <button class="modal-close" type="button" aria-label="关闭奶茶清单" data-close-tea-atlas>×</button>
       <div class="atlas-title-row">
         <div>
-          <p class="section-kicker">MILK TEA ATLAS</p>
           <h2 id="teaAtlasTitle">奶茶清单</h2>
         </div>
         <span id="teaAtlasCount">0 款</span>
@@ -262,7 +269,6 @@
     <div class="letter-backdrop" data-close-letter></div>
     <article class="letter-paper">
       <button class="letter-close" type="button" aria-label="关闭留言" data-close-letter>×</button>
-      <p class="letter-kicker">FOR XUE</p>
       <h2 id="letterTitle">雪，520 快乐。</h2>
       <div class="letter-body">
         <p>我一直觉得，你每次纠结喝什么奶茶的时候，其实特别可爱。</p>
@@ -283,5 +289,6 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="milk-tea.js?v=202605122352"></script>
+  <script src="motion-system.js?v=20260726"></script>
 </body>
 </html>

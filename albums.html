@@ -1,23 +1,24 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>给雪的小世界 - 照片墙</title>
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="属于我们的小世界 · 照片与回忆影像。">
+  <title>回忆星图｜属于我们的小世界</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="archive-theme.css?v=20260725">
+  <link rel="stylesheet" href="orbit-refresh.css?v=20260725">
+  <link rel="stylesheet" href="motion-system.css?v=20260726">
 </head>
 <body class="figure-site sub-page albums-page">
-  <div class="bg-aura bg-aura-one"></div>
-  <div class="bg-aura bg-aura-two"></div>
-  <div class="bg-stars" aria-hidden="true"></div>
+  <div class="orbit-grain" aria-hidden="true"></div>
 
-  <header class="site-topbar topbar">
+  <header class="site-topbar topbar orbit-topbar">
     <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
       <span>
         <strong>属于我们的小世界</strong>
-        <small>PRIVATE ORBIT ARCHIVE</small>
       </span>
     </a>
     <nav class="site-nav top-nav" aria-label="主导航">
@@ -26,7 +27,7 @@
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a href="messages.html">悄悄话</a>
-        <a class="is-active" href="albums.html" aria-current="page">照片墙</a>
+        <a class="is-active" href="albums.html" aria-current="page">照片站</a>
         <a href="comic.html">漫画站</a>
       </div>
       <details class="site-menu menu-dropdown">
@@ -38,45 +39,76 @@
         <div class="site-menu-panel menu-panel">
           <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
           <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
           <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
           <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
     </nav>
   </header>
 
-  <main class="site-main page-shell">
-    <section class="site-section hero-block hero-compact">
-      <div class="hero-archive-index" aria-hidden="true">04</div>
-      <p class="hero-kicker">PHOTO CONSTELLATION · 照片星图</p>
-      <h1>把每一帧，<em>留在光里。</em></h1>
-      <p class="hero-sub">你喜欢的图、我们的回忆，都在这里成为一颗不会熄灭的小星。往后每一次按下快门，都会让这张星图更完整。</p>
-      <div class="hero-data-line"><span>LOCAL ARCHIVE</span><span>IMAGE / MEMORY / LIGHT</span></div>
+  <main class="memory-shell">
+    <section class="memory-hero">
+      <h1>时间没有停下，<br><em>但那些光还在。</em></h1>
+      <div class="memory-hero-line" aria-hidden="true"><span></span><i></i></div>
     </section>
 
-    <section class="site-section panel archive-panel">
-      <div class="archive-panel-heading">
-        <div><p>COLLECTION CONTROL</p><h2>照片归档台</h2></div>
-        <span>04 · PHOTO</span>
+    <section class="memory-film-section" aria-labelledby="memoryFilmTitle">
+      <div class="orbit-section-heading">
+        <div><h2 id="memoryFilmTitle">影像</h2></div>
       </div>
-      <form id="albumForm" class="form-grid">
-        <label class="full">选择照片文件<input id="photoFile" type="file" accept="image/*,.jpg,.jpeg,.png,.webp,.gif" required></label>
-        <p class="full card-meta">上传后文件会保存到当前目录下的 `photos/` 文件夹，页面展示也从该文件夹读取。</p>
-        <div class="actions full">
-          <button class="btn-main" type="submit">上传照片</button>
-          <button class="btn-sub" type="button" id="albumReset">清空</button>
-        </div>
-      </form>
-      <div id="albumList" class="album-list"></div>
+      <div class="memory-film-grid">
+        <article class="memory-film-card memory-film-primary">
+          <div class="memory-film-frame">
+            <video controls preload="metadata" playsinline poster="photos/1.jpg">
+              <source src="videos/shengrikuaile.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div><h3>生日快乐</h3></div>
+        </article>
+      </div>
     </section>
+
+    <section class="memory-photo-section" aria-labelledby="memoryPhotoTitle">
+      <div class="orbit-section-heading">
+        <div><h2 id="memoryPhotoTitle">照片</h2></div>
+      </div>
+      <div class="memory-photo-grid">
+        <figure class="memory-photo memory-photo-tall"><img src="photos/1.jpg" alt="回忆照片一" loading="lazy"></figure>
+        <figure class="memory-photo"><img src="photos/2.jpg" alt="回忆照片二" loading="lazy"></figure>
+        <figure class="memory-photo memory-photo-wide"><img src="photos/3.jpg" alt="回忆照片三" loading="lazy"></figure>
+        <figure class="memory-photo memory-photo-wide"><img src="photos/4.jpg" alt="回忆照片四" loading="lazy"></figure>
+        <figure class="memory-photo"><img src="photos/5.jpg" alt="回忆照片五" loading="lazy"></figure>
+        <figure class="memory-photo memory-photo-tall"><img src="photos/6.jpg" alt="回忆照片六" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <dialog class="memory-lightbox" id="memoryLightbox" aria-label="照片预览">
+      <button type="button" aria-label="关闭照片预览">×</button>
+      <img alt="">
+    </dialog>
   </main>
 
-  <footer class="site-foot">PRIVATE ORBIT ARCHIVE · PHOTO CONSTELLATION</footer>
-  <script src="backend-config.js"></script>
   <script src="app.js"></script>
+  <script>
+    (() => {
+      const dialog = document.getElementById("memoryLightbox");
+      const image = dialog?.querySelector("img");
+      document.querySelectorAll(".memory-photo img").forEach((photo) => {
+        photo.addEventListener("click", () => {
+          if (!dialog || !image) return;
+          image.src = photo.src;
+          image.alt = photo.alt;
+          dialog.showModal();
+        });
+      });
+      dialog?.querySelector("button")?.addEventListener("click", () => dialog.close());
+      dialog?.addEventListener("click", (event) => {
+        if (event.target === dialog) dialog.close();
+      });
+    })();
+  </script>
+  <script src="motion-system.js?v=20260726"></script>
 </body>
 </html>
-
-

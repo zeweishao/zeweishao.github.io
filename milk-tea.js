@@ -29,6 +29,21 @@
     bold: { label: "浓一点", tags: ["醇厚", "浓郁", "波波", "红茶", "焙茶"], taste: { milk: 0.7, tea: 0.45, sweet: 0.35 }, weight: 7 }
   };
 
+  const TEA_VISUAL_ASSETS = {
+    milk: "assets/milk-tea/generated/tea-orbit-milk-v1.jpg",
+    fruit: "assets/milk-tea/generated/tea-orbit-fruit-v1.jpg",
+    grape: "assets/milk-tea/generated/tea-orbit-grape-v1.jpg",
+    botanical: "assets/milk-tea/generated/tea-orbit-botanical-v1.jpg"
+  };
+
+  const TEA_DRAW_VISUAL_ASSETS = [
+    ...Object.values(TEA_VISUAL_ASSETS),
+    "assets/milk-tea/generated/tea-orbit-peach-v1.jpg",
+    "assets/milk-tea/generated/tea-orbit-mango-v1.jpg",
+    "assets/milk-tea/generated/tea-orbit-brown-sugar-v1.jpg",
+    "assets/milk-tea/generated/tea-orbit-strawberry-v1.jpg"
+  ];
+
   const state = {
     products: [],
     brands: [],
@@ -43,11 +58,21 @@
 
   const nodes = {
     drawBtn: $("#drawBtn"),
+    drawBtnLabel: $("#drawBtn span"),
     redrawBtn: $("#redrawBtn"),
     infiniteMode: $("#infiniteMode"),
     modeChips: $("#modeChips"),
     teaMachine: $("#teaMachine"),
+    teaMachineProduct: $("#teaMachineProduct"),
     brewCaption: $("#brewCaption"),
+    drawSequence: $("#drawSequence"),
+    drawSequenceImage: $("#drawSequenceImage"),
+    drawSequenceCaption: $("#drawSequenceCaption"),
+    drawCardDeck: $("#drawCardDeck"),
+    drawSparkField: $("#drawSparkField"),
+    drawRevealBurst: $("#drawRevealBurst"),
+    drawFinalBrand: $("#drawFinalBrand"),
+    drawFinalName: $("#drawFinalName"),
     resultSection: $("#resultSection"),
     resultModal: $("#resultModal"),
     recommendCard: $("#recommendCard"),
@@ -95,6 +120,27 @@
     const m = String(date.getMonth() + 1).padStart(2, "0");
     const d = String(date.getDate()).padStart(2, "0");
     return `${y}-${m}-${d}`;
+  };
+
+  const productVisualAsset = (product) => {
+    const topping = String(product?.visual?.topping || "");
+    const flavorText = [product?.name, product?.category, ...(product?.tags || [])].join(" ");
+    if (topping === "grape" || topping === "cream" || /葡萄|青提|芝士/.test(flavorText)) {
+      return TEA_VISUAL_ASSETS.grape;
+    }
+    if (
+      ["fruit", "orange", "mango", "lemon", "lychee", "watermelon", "pear", "passionfruit", "strawberry", "berry"].includes(topping) ||
+      /水果|果茶|桃|橙|柚|芒果|荔枝|西瓜|草莓|莓|梨/.test(flavorText)
+    ) {
+      return TEA_VISUAL_ASSETS.fruit;
+    }
+    if (
+      ["flower", "osmanthus", "leaf", "tea"].includes(topping) ||
+      /花香|茉莉|桂花|兰香|山茶花|栀子|抹茶|绿茶|轻乳茶/.test(flavorText)
+    ) {
+      return TEA_VISUAL_ASSETS.botanical;
+    }
+    return TEA_VISUAL_ASSETS.milk;
   };
 
   const readJson = (key, fallback) => {
@@ -369,15 +415,9 @@
     nodes.productVisual.style.setProperty("--visual-base", visual.base || "#eef7f0");
     nodes.productVisual.style.setProperty("--visual-accent", visual.accent || "#8abcae");
     nodes.productVisual.style.setProperty("--visual-liquid", visual.liquid || "#d4b983");
-    if (product.image) {
-      nodes.realProductImg.src = product.image;
-      nodes.realProductImg.alt = `${product.brand} ${product.name}`;
-      nodes.productVisual.classList.add("has-real-image");
-    } else {
-      nodes.realProductImg.removeAttribute("src");
-      nodes.realProductImg.alt = "";
-      nodes.productVisual.classList.remove("has-real-image");
-    }
+    nodes.realProductImg.src = productVisualAsset(product);
+    nodes.realProductImg.alt = `${product.name}的风味氛围图`;
+    nodes.productVisual.classList.add("has-real-image");
     nodes.productToppings.innerHTML = buildToppings(visual.topping, visual.accent || "#8abcae");
     nodes.tagRow.innerHTML = (product.tags || [])
       .slice(0, 6)
@@ -422,6 +462,111 @@
     saveTodaySkips(skips);
   };
 
+  const drawPhaseTimers = new Set();
+
+  const clearDrawPhaseTimers = () => {
+    drawPhaseTimers.forEach((timer) => window.clearTimeout(timer));
+    drawPhaseTimers.clear();
+  };
+
+  const scheduleDrawPhase = (callback, delay) => {
+    const timer = window.setTimeout(() => {
+      drawPhaseTimers.delete(timer);
+      callback();
+    }, delay);
+    drawPhaseTimers.add(timer);
+  };
+
+  const randomBetween = (min, max) => min + Math.random() * (max - min);
+
+  const shuffle = (items) => {
+    const shuffled = [...items];
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const target = Math.floor(Math.random() * (index + 1));
+      [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+    }
+    return shuffled;
+  };
+
+  const drawVisualAssetsFor = (product) => {
+    const selectedAsset = productVisualAsset(product);
+    return shuffle([...new Set([selectedAsset, ...TEA_DRAW_VISUAL_ASSETS])]);
+  };
+
+  const preloadDrawVisualAssets = () => {
+    TEA_DRAW_VISUAL_ASSETS.forEach((src) => {
+      const image = new Image();
+      image.src = src;
+    });
+  };
+
+  const resetDrawSequenceVisuals = () => {
+    clearDrawPhaseTimers();
+    nodes.drawSequence?.classList.remove("is-active", "is-shuffling", "is-converging", "is-revealing");
+    nodes.drawCardDeck?.replaceChildren();
+    nodes.drawSparkField?.replaceChildren();
+    nodes.drawRevealBurst?.replaceChildren();
+  };
+
+  const prepareDrawSequence = (product) => {
+    if (!nodes.drawSequence) return;
+    const compact = window.matchMedia("(max-width: 760px)").matches;
+    const drawVisualAssets = drawVisualAssetsFor(product);
+    const cardCount = Math.min(8, drawVisualAssets.length);
+    const sparkCount = compact ? 24 : 38;
+
+    if (nodes.drawFinalBrand) nodes.drawFinalBrand.textContent = product.brand || "今日推荐";
+    if (nodes.drawFinalName) nodes.drawFinalName.textContent = product.name || "今天的奶茶";
+
+    nodes.drawCardDeck?.replaceChildren(
+      ...Array.from({ length: cardCount }, (_, index) => {
+        const card = document.createElement("span");
+        const image = document.createElement("img");
+        const side = index % 2 === 0 ? -1 : 1;
+        card.className = "tea-draw-flight-card";
+        card.style.setProperty("--card-start-x", `${side * randomBetween(52, 82)}vw`);
+        card.style.setProperty("--card-start-y", `${randomBetween(-58, 58)}vh`);
+        card.style.setProperty("--card-mid-x", `${-side * randomBetween(10, 42)}vw`);
+        card.style.setProperty("--card-mid-y", `${randomBetween(-38, 34)}vh`);
+        card.style.setProperty("--card-end-x", `${side * randomBetween(16, 46)}vw`);
+        card.style.setProperty("--card-end-y", `${randomBetween(-30, 30)}vh`);
+        card.style.setProperty("--card-rot-a", `${side * randomBetween(18, 58)}deg`);
+        card.style.setProperty("--card-rot-b", `${-side * randomBetween(8, 34)}deg`);
+        card.style.setProperty("--card-scale", randomBetween(0.78, 1.08).toFixed(2));
+        card.style.setProperty("--card-duration", `${randomBetween(2.1, 3.25).toFixed(2)}s`);
+        card.style.setProperty("--card-delay", `${(-randomBetween(0, 2.4)).toFixed(2)}s`);
+        card.style.setProperty("--gather-delay", `${index * 18}ms`);
+        card.style.zIndex = String(2 + (index % 5));
+        image.src = drawVisualAssets[index];
+        image.alt = "";
+        image.decoding = "async";
+        card.append(image);
+        return card;
+      })
+    );
+
+    nodes.drawSparkField?.replaceChildren(
+      ...Array.from({ length: sparkCount }, () => {
+        const spark = document.createElement("i");
+        spark.style.setProperty("--spark-x", `${randomBetween(5, 95).toFixed(2)}%`);
+        spark.style.setProperty("--spark-y", `${randomBetween(5, 92).toFixed(2)}%`);
+        spark.style.setProperty("--spark-size", `${randomBetween(2, 6).toFixed(1)}px`);
+        spark.style.setProperty("--spark-delay", `${randomBetween(0, 1.8).toFixed(2)}s`);
+        spark.style.setProperty("--spark-duration", `${randomBetween(1.1, 2.6).toFixed(2)}s`);
+        return spark;
+      })
+    );
+
+    nodes.drawRevealBurst?.replaceChildren(
+      ...Array.from({ length: compact ? 12 : 18 }, (_, index) => {
+        const ray = document.createElement("i");
+        ray.style.setProperty("--ray-angle", `${(360 / (compact ? 12 : 18)) * index}deg`);
+        ray.style.setProperty("--ray-delay", `${(index % 4) * 30}ms`);
+        return ray;
+      })
+    );
+  };
+
   const drawProduct = async ({ skipCurrent = false } = {}) => {
     if (state.drawing) return;
     if (skipCurrent && state.current) {
@@ -429,13 +574,6 @@
     }
 
     state.drawing = true;
-    nodes.teaMachine.classList.remove("is-brewing");
-    nodes.teaMachine.classList.remove("is-revealing");
-    void nodes.teaMachine.offsetWidth;
-    nodes.teaMachine.classList.add("is-brewing");
-    nodes.drawBtn.disabled = true;
-    if (nodes.redrawBtn) nodes.redrawBtn.disabled = true;
-
     const product = chooseProduct();
     if (!product) {
       state.drawing = false;
@@ -443,21 +581,60 @@
       showToast("菜单还没准备好，稍等一下");
       return;
     }
+
+    const selectedVisualAsset = productVisualAsset(product);
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const duration = reduceMotion ? 700 : state.current ? (state.infinite ? 3000 : 3400) : 4400;
+    const revealDuration = reduceMotion ? 360 : 1350;
+
+    nodes.teaMachine.classList.remove("is-brewing");
+    nodes.teaMachine.classList.remove("is-revealing");
+    void nodes.teaMachine.offsetWidth;
+    nodes.teaMachine.classList.add("is-brewing");
+    nodes.drawBtn.disabled = true;
+    if (nodes.redrawBtn) nodes.redrawBtn.disabled = true;
+    if (nodes.drawSequence) {
+      resetDrawSequenceVisuals();
+      prepareDrawSequence(product);
+      if (nodes.drawSequenceImage) nodes.drawSequenceImage.src = selectedVisualAsset;
+      nodes.drawSequence.style.setProperty("--draw-duration", `${duration}ms`);
+      nodes.drawSequence.hidden = false;
+      document.body.style.overflow = "hidden";
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => nodes.drawSequence.classList.add("is-active", "is-shuffling"));
+      });
+      scheduleDrawPhase(() => {
+        if (!state.drawing || !nodes.drawSequence) return;
+        nodes.drawSequence.classList.remove("is-shuffling");
+        nodes.drawSequence.classList.add("is-converging");
+        if (nodes.drawSequenceCaption) nodes.drawSequenceCaption.textContent = "候选卡正在收束。";
+      }, Math.max(900, duration - 900));
+    }
+
+    if (nodes.teaMachineProduct) nodes.teaMachineProduct.src = selectedVisualAsset;
     const selectedLabel = modeLabel();
-    const duration = state.current ? (state.infinite ? 2300 : 2900) : 4300;
     const captions = state.current
-      ? ["重新摇匀茶香。", `按「${selectedLabel}」再筛一遍。`, "准备揭晓新的灵感。"]
-      : ["醒一醒茶香。", `把「${selectedLabel}」放进配方里。`, "让奶云慢慢落下。", "把今天的心情翻成一张卡。"];
+      ? ["重新洗牌。", `按「${selectedLabel}」再抽一次。`, "只留下一张。"]
+      : ["卡池正在洗牌。", `「${selectedLabel}」进入随机轨道。`, "候选卡正在飞过。", "只留下一张。"];
     runBrewCaptions(captions, duration);
     await new Promise((resolve) => window.setTimeout(resolve, duration));
 
     state.current = product;
     nodes.teaMachine.classList.remove("is-brewing");
     nodes.teaMachine.classList.add("is-revealing");
+    if (nodes.drawSequence) {
+      nodes.drawSequence.classList.add("is-revealing");
+      if (nodes.drawSequenceCaption) nodes.drawSequenceCaption.textContent = "就是这一杯。";
+      await new Promise((resolve) => window.setTimeout(resolve, revealDuration));
+      nodes.drawSequence.hidden = true;
+      resetDrawSequenceVisuals();
+    }
     renderProduct(product);
     window.setTimeout(() => nodes.teaMachine.classList.remove("is-revealing"), 900);
 
-    nodes.drawBtn.textContent = state.infinite ? "继续换一杯" : "再抽一杯";
+    if (nodes.drawBtnLabel) {
+      nodes.drawBtnLabel.textContent = state.infinite ? "继续换一杯" : "再抽一杯";
+    }
     nodes.drawBtn.disabled = false;
     if (nodes.redrawBtn) nodes.redrawBtn.disabled = false;
     state.drawing = false;
@@ -467,11 +644,16 @@
     const step = Math.max(520, Math.floor(duration / captions.length));
     captions.forEach((caption, index) => {
       window.setTimeout(() => {
-        if (state.drawing) nodes.brewCaption.textContent = caption;
+        if (!state.drawing) return;
+        nodes.brewCaption.textContent = caption;
+        if (nodes.drawSequenceCaption) nodes.drawSequenceCaption.textContent = caption;
       }, index * step);
     });
     window.setTimeout(() => {
       nodes.brewCaption.textContent = "轻轻按下，开始冲泡今天的灵感。";
+      if (nodes.drawSequenceCaption && !nodes.drawSequence?.classList.contains("is-revealing")) {
+        nodes.drawSequenceCaption.textContent = "正在唤醒今天的茶香。";
+      }
     }, duration + 260);
   };
 
@@ -707,17 +889,7 @@
   const atlasProductVisual = (product, brand) => {
     const visual = product.visual || {};
     const style = `--visual-base:${escapeHtml(visual.base || "#eef7f0")};--visual-accent:${escapeHtml(visual.accent || "#8abcae")};--visual-liquid:${escapeHtml(visual.liquid || "#d4b983")};`;
-    if (product.image) {
-      return `<div class="atlas-product-visual has-image" style="${style}"><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.brand)} ${escapeHtml(product.name)}"></div>`;
-    }
-    return `
-      <div class="atlas-product-visual" style="${style}" aria-label="${escapeHtml(product.brand)} ${escapeHtml(product.name)}">
-        <div class="atlas-mini-cup">
-          <span></span>
-          <strong>${escapeHtml(brand?.logoText || "TEA")}</strong>
-        </div>
-      </div>
-    `;
+    return `<div class="atlas-product-visual has-image" style="${style}"><img src="${escapeHtml(productVisualAsset(product))}" alt="${escapeHtml(product.name)}的风味氛围图"></div>`;
   };
 
   const renderTeaAtlas = () => {
@@ -973,6 +1145,7 @@
     }
 
     bindEvents();
+    preloadDrawVisualAssets();
     updateModeChips();
     renderProfile();
     maybeShowLetter();
