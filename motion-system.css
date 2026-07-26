@@ -1,0 +1,330 @@
+:root {
+  --motion-accent: 208 161 139;
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-soft-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+body.home-page {
+  --motion-accent: 216 177 115;
+}
+
+body.figures-page {
+  --motion-accent: 118 169 211;
+}
+
+body.milk-tea-page {
+  --motion-accent: 219 170 125;
+}
+
+body.message-page {
+  --motion-accent: 224 127 125;
+}
+
+body.albums-page {
+  --motion-accent: 126 190 181;
+}
+
+body.comic-page {
+  --motion-accent: 205 145 137;
+}
+
+body {
+  --motion-scroll-progress: 0;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: motionViewOut 220ms ease both;
+}
+
+::view-transition-new(root) {
+  animation: motionViewIn 520ms var(--motion-ease) both;
+}
+
+.motion-page-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483600;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(circle at 50% 42%, rgb(var(--motion-accent) / 0.12), transparent 42%),
+    rgb(3 8 17 / 0.68);
+  backdrop-filter: blur(0);
+  transition:
+    opacity 240ms ease,
+    backdrop-filter 280ms ease;
+}
+
+body.motion-page-exit .motion-page-veil {
+  opacity: 1;
+  backdrop-filter: blur(9px);
+}
+
+body.motion-page-exit > :not(.motion-page-veil, .motion-spark-canvas) {
+  opacity: 0.44;
+  filter: blur(4px);
+  transform: scale(0.995);
+  transition:
+    opacity 240ms ease,
+    filter 240ms ease,
+    transform 280ms var(--motion-ease);
+}
+
+.motion-scroll-line {
+  position: fixed;
+  z-index: 2147483500;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  pointer-events: none;
+  transform: scaleX(var(--motion-scroll-progress));
+  transform-origin: 0 50%;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      rgb(var(--motion-accent) / 0.72) 12%,
+      rgb(244 229 204 / 0.92) 62%,
+      transparent 100%
+    );
+  box-shadow: 0 0 18px rgb(var(--motion-accent) / 0.36);
+}
+
+.motion-pointer-light {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 36rem;
+  height: 36rem;
+  margin: -18rem 0 0 -18rem;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate3d(-100vw, -100vh, 0);
+  background:
+    radial-gradient(
+      circle,
+      rgb(var(--motion-accent) / 0.075) 0,
+      rgb(var(--motion-accent) / 0.032) 32%,
+      transparent 69%
+    );
+  mix-blend-mode: screen;
+  transition: opacity 420ms ease;
+  will-change: transform;
+}
+
+body.motion-pointer-active .motion-pointer-light {
+  opacity: 1;
+}
+
+.motion-surface {
+  --motion-x: 50%;
+  --motion-y: 50%;
+  position: relative;
+  isolation: isolate;
+}
+
+.motion-spotlight-layer {
+  position: absolute;
+  z-index: 8;
+  inset: -1px;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(
+      34rem circle at var(--motion-x) var(--motion-y),
+      rgb(255 246 226 / 0.17),
+      rgb(var(--motion-accent) / 0.09) 23%,
+      transparent 64%
+    );
+  box-shadow:
+    inset 0 0 0 1px rgb(var(--motion-accent) / 0),
+    0 22px 70px rgb(var(--motion-accent) / 0);
+  mix-blend-mode: screen;
+  transition:
+    opacity 420ms ease,
+    border-color 420ms ease,
+    box-shadow 520ms ease;
+}
+
+.motion-surface:hover > .motion-spotlight-layer,
+.motion-surface.is-motion-pointing > .motion-spotlight-layer,
+.motion-surface:focus-within > .motion-spotlight-layer {
+  opacity: 1;
+  border-color: rgb(var(--motion-accent) / 0.34);
+  box-shadow:
+    inset 0 0 0 1px rgb(255 248 231 / 0.055),
+    0 22px 70px rgb(var(--motion-accent) / 0.09);
+}
+
+.motion-tilt {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.motion-tilt.is-motion-tilting {
+  will-change: transform;
+}
+
+.motion-depth-target {
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+.motion-magnet {
+  transition:
+    translate 340ms var(--motion-ease),
+    transform 220ms ease,
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 220ms ease !important;
+  will-change: translate;
+}
+
+.motion-ready .motion-reveal:not(.motion-in-view) {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translate3d(0, 28px, 0) scale(0.988);
+}
+
+.motion-reveal.motion-in-view {
+  animation: motionReveal 880ms var(--motion-ease) backwards;
+  animation-delay: var(--motion-reveal-delay, 0ms);
+}
+
+.motion-spark-canvas {
+  position: fixed;
+  z-index: 2147483550;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.orbit-station-card.motion-surface > .motion-spotlight-layer {
+  background:
+    radial-gradient(
+      40rem circle at var(--motion-x) var(--motion-y),
+      rgb(255 248 231 / 0.22),
+      rgb(var(--motion-accent) / 0.12) 22%,
+      transparent 64%
+    );
+}
+
+.memory-photo.motion-surface > .motion-spotlight-layer,
+.moment-card.motion-surface > .motion-spotlight-layer {
+  background:
+    radial-gradient(
+      28rem circle at var(--motion-x) var(--motion-y),
+      rgb(255 255 255 / 0.16),
+      transparent 58%
+    );
+}
+
+.message-card.motion-surface > .motion-spotlight-layer,
+.history-item.motion-surface > .motion-spotlight-layer,
+.tea-atlas-card.motion-surface > .motion-spotlight-layer {
+  background:
+    radial-gradient(
+      24rem circle at var(--motion-x) var(--motion-y),
+      rgb(var(--motion-accent) / 0.14),
+      transparent 64%
+    );
+}
+
+@keyframes motionReveal {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translate3d(0, 28px, 0) scale(0.988);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes motionViewOut {
+  to {
+    opacity: 0;
+    filter: blur(5px);
+    transform: scale(0.995);
+  }
+}
+
+@keyframes motionViewIn {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(1.008);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 760px), (hover: none), (pointer: coarse) {
+  .motion-pointer-light {
+    display: none;
+  }
+
+  .motion-tilt,
+  .motion-tilt.is-motion-tilting {
+    transform: none !important;
+  }
+
+  .motion-magnet {
+    translate: none !important;
+  }
+
+  .motion-spotlight-layer {
+    opacity: 0 !important;
+  }
+
+  .motion-ready .motion-reveal:not(.motion-in-view) {
+    filter: blur(5px);
+    transform: translate3d(0, 18px, 0);
+  }
+
+  .motion-reveal.motion-in-view {
+    animation-duration: 640ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+
+  .motion-page-veil,
+  .motion-scroll-line,
+  .motion-pointer-light,
+  .motion-spark-canvas,
+  .motion-spotlight-layer {
+    display: none !important;
+  }
+
+  body.motion-page-exit > :not(.motion-page-veil, .motion-spark-canvas),
+  .motion-ready .motion-reveal:not(.motion-in-view),
+  .motion-reveal.motion-in-view {
+    animation: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

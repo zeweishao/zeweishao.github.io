@@ -1,23 +1,24 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN" class="home-doc">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b16">
+  <meta name="description" content="属于我们的私人星轨，一座收藏日常、喜欢与故事的小世界。">
   <title>属于我们的小世界</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="archive-theme.css?v=20260725">
+  <link rel="stylesheet" href="orbit-refresh.css?v=20260725">
+  <link rel="stylesheet" href="motion-system.css?v=20260726">
 </head>
 <body class="figure-site home-page">
-  <div class="bg-aura bg-aura-one"></div>
-  <div class="bg-aura bg-aura-two"></div>
-  <div class="bg-stars" aria-hidden="true"></div>
+  <div class="orbit-grain" aria-hidden="true"></div>
 
-  <header class="site-topbar topbar">
+  <header class="site-topbar topbar orbit-topbar">
     <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge" aria-hidden="true">FS</span>
+      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
       <span>
         <strong>属于我们的小世界</strong>
-        <small>PRIVATE ORBIT ARCHIVE</small>
       </span>
     </a>
     <nav class="site-nav top-nav" aria-label="主导航">
@@ -26,7 +27,7 @@
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a href="messages.html">悄悄话</a>
-        <a href="albums.html">照片墙</a>
+        <a href="albums.html">照片站</a>
         <a href="comic.html">漫画站</a>
       </div>
       <details class="site-menu menu-dropdown">
@@ -38,53 +39,57 @@
         <div class="site-menu-panel menu-panel">
           <a class="active" href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
           <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
           <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片墙</span></a>
+          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
+          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
           <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
         </div>
       </details>
     </nav>
   </header>
 
-  <main class="site-main page-shell home-single-plane">
-    <section class="site-section station-map-hero" aria-labelledby="figureHeroTitle">
-      <div class="station-hero-copy">
-        <p class="figure-kicker">PRIVATE ORBIT · 05 STATIONS</p>
-        <h1 id="figureHeroTitle">属于我们的小世界</h1>
-        <p class="figure-hero-copy">把日常、喜欢与想说的话，收进一座只为雪亮着灯的小岛。沿着光走，每一站都有一份认真留下的心意。</p>
-        <a class="home-comic-entry" href="comic.html">
-          <span aria-hidden="true">✦</span>
-          <span><strong>漫画站 · 十二小时之外的星轨</strong><small>STARTRACE ARCHIVE · NOW OPEN</small></span>
+  <main class="orbit-home-main">
+    <section class="orbit-home-hero" aria-labelledby="orbitHomeTitle">
+      <img class="orbit-home-art" src="assets/love-world/home-orbit-hero-v4.jpg" alt="" aria-hidden="true">
+      <div class="orbit-home-shade" aria-hidden="true"></div>
+      <div class="orbit-home-copy">
+        <h1 id="orbitHomeTitle">在很大的世界里，<br><em>回到我们的轨道。</em></h1>
+      </div>
+      <a class="orbit-scroll-mark" href="#orbitStations" aria-label="查看全部站点"><span></span></a>
+    </section>
+
+    <section class="orbit-stations" id="orbitStations" aria-label="小世界入口">
+      <div class="orbit-station-grid">
+        <a class="orbit-station-card orbit-station-figure" href="figures.html" data-selectable-link>
+          <img class="orbit-station-art" src="assets/love-world/stations/station-figures-v1.jpg" alt="" loading="lazy" decoding="async">
+          <div><h3>小手办</h3></div>
           <i aria-hidden="true"></i>
         </a>
-        <div class="station-hero-meta" aria-label="小世界摘要">
-          <span><b>05</b> 个私人站点</span>
-          <span><b>01</b> 条正在延伸的星轨</span>
-        </div>
-      </div>
-      <div class="station-map-stage station-layered-map" aria-label="小世界站点地图">
-        <img class="station-map-bg" src="assets/love-world/home-bg-layer-v1.png" alt="" aria-hidden="true">
-        <a class="station-node station-home" href="index.html" data-selectable-link aria-label="进入小家">
-          <img class="station-node-art" src="assets/love-world/station-home-v2.png" alt="">
+        <a class="orbit-station-card orbit-station-tea" href="milk-tea.html" data-selectable-link>
+          <img class="orbit-station-art" src="assets/love-world/stations/station-tea-v1.jpg" alt="" loading="lazy" decoding="async">
+          <div><h3>奶茶小屋</h3></div>
+          <i aria-hidden="true"></i>
         </a>
-        <a class="station-node station-tea" href="milk-tea.html" data-selectable-link aria-label="进入奶茶小屋">
-          <img class="station-node-art" src="assets/love-world/station-tea-v2.png" alt="">
+        <a class="orbit-station-card orbit-station-message" href="messages.html" data-selectable-link>
+          <img class="orbit-station-art" src="assets/love-world/stations/station-whisper-v1.jpg" alt="" loading="lazy" decoding="async">
+          <div><h3>悄悄话</h3></div>
+          <i aria-hidden="true"></i>
         </a>
-        <a class="station-node station-note" href="messages.html" data-selectable-link aria-label="进入悄悄话">
-          <img class="station-node-art" src="assets/love-world/station-note-v2.png" alt="">
+        <a class="orbit-station-card orbit-station-album" href="albums.html" data-selectable-link>
+          <img class="orbit-station-art" src="assets/love-world/stations/station-photos-v1.jpg" alt="" loading="lazy" decoding="async">
+          <div><h3>照片站</h3></div>
+          <i aria-hidden="true"></i>
         </a>
-        <a class="station-node station-album" href="albums.html" data-selectable-link aria-label="进入照片墙">
-          <img class="station-node-art" src="assets/love-world/station-album-v2.png" alt="">
-        </a>
-        <a class="station-node station-comic" href="comic.html" data-selectable-link aria-label="进入漫画站">
-          <img class="station-node-art" src="assets/love-world/station-comic-v3.png?v=202607251130" alt="漫画站，小火车与候车女孩">
+        <a class="orbit-station-card orbit-station-comic" href="comic.html" data-selectable-link>
+          <img class="orbit-station-art" src="assets/love-world/stations/station-comic-v1.jpg" alt="" loading="lazy" decoding="async">
+          <div><h3>星轨漫画</h3></div>
+          <i aria-hidden="true"></i>
         </a>
       </div>
     </section>
   </main>
 
   <script src="app.js"></script>
-  <script src="figure-story.js"></script>
+  <script src="motion-system.js?v=20260726"></script>
 </body>
 </html>

@@ -9,6 +9,8 @@ const DATA_ROOT = path.resolve(process.env.DATA_DIR || ROOT);
 const PORT = Number(process.env.PORT || 8080);
 const VIDEOS_DIR = path.join(DATA_ROOT, "videos");
 const PHOTOS_DIR = path.join(DATA_ROOT, "photos");
+const COMIC_CHAPTERS_DIR = path.join(DATA_ROOT, "comic-chapters");
+const COMIC_MANIFESTS_DIR = path.join(COMIC_CHAPTERS_DIR, "manifests");
 const MESSAGES_FILE = path.join(DATA_ROOT, "messages.txt");
 const COMMENTS_FILE = path.join(DATA_ROOT, "comments.txt");
 const LOG_G_FILE = path.join(DATA_ROOT, "logG.txt");
@@ -47,6 +49,7 @@ const sendJson = (res, status, payload) => {
 const ensureStorage = async () => {
   await fsp.mkdir(VIDEOS_DIR, { recursive: true });
   await fsp.mkdir(PHOTOS_DIR, { recursive: true });
+  await fsp.mkdir(COMIC_MANIFESTS_DIR, { recursive: true });
   if (!fs.existsSync(MESSAGES_FILE)) {
     await fsp.writeFile(MESSAGES_FILE, "", "utf8");
   }
@@ -333,6 +336,119 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    if (req.method === "GET" && pathname === "/api/comic-chapters") {
+      const files = await fsp.readdir(COMIC_MANIFESTS_DIR, { withFileTypes: true });
+      const chapters = (
+        await Promise.all(
+          files
+            .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+            .map(async (entry) => {
+              try {
+                return JSON.parse(await fsp.readFile(path.join(COMIC_MANIFESTS_DIR, entry.name), "utf8"));
+              } catch {
+                return null;
+              }
+            })
+        )
+      )
+        .filter(Boolean)
+        .sort((a, b) => {
+          const numberDifference = Number(a.chapterNumber || 999) - Number(b.chapterNumber || 999);
+          if (numberDifference) return numberDifference;
+          return new Date(a.updatedAt || a.createdAt || 0).getTime() -
+            new Date(b.updatedAt || b.createdAt || 0).getTime();
+        });
+      sendJson(res, 200, { chapters });
+      return;
+    }
+
+    if (req.method === "POST" && pathname === "/api/comic-upload") {
+      const body = await parseJsonBody(req);
+      const expectedPassword = String(process.env.COMIC_UPLOAD_PASSWORD || "szw980501");
+      if (String(body.password || "") !== expectedPassword) {
+        sendJson(res, 401, { error: "密码不正确。" });
+        return;
+      }
+
+      const chapterId = String(body.chapterId || "").trim();
+      if (!/^[a-z0-9-]{12,90}$/i.test(chapterId)) {
+        sendJson(res, 400, { error: "无效的篇章编号。" });
+        return;
+      }
+
+      if (body.action === "page" || body.action === "cover") {
+        const isCover = body.action === "cover";
+        const pageIndex = isCover ? 0 : Number(body.pageIndex);
+        const data = String(body.data || "");
+        if (
+          (!isCover && (!Number.isInteger(pageIndex) || pageIndex < 1 || pageIndex > 80)) ||
+          !data
+        ) {
+          sendJson(res, 400, { error: "漫画页数据无效。" });
+          return;
+        }
+        const chapterDir = path.join(COMIC_CHAPTERS_DIR, chapterId);
+        await fsp.mkdir(chapterDir, { recursive: true });
+        const fileName = isCover
+          ? "cover.webp"
+          : `page-${String(pageIndex).padStart(3, "0")}.webp`;
+        await fsp.writeFile(path.join(chapterDir, fileName), Buffer.from(data, "base64"));
+        sendJson(res, 201, {
+          ok: true,
+          url: `/comic-chapters/${encodeURIComponent(chapterId)}/${fileName}`
+        });
+        return;
+      }
+
+      if (body.action === "manifest") {
+        const chapterNumber = Number(body.chapterNumber);
+        const title = String(body.title || "").trim().slice(0, 48);
+        const summary = String(body.summary || "").trim().slice(0, 110);
+        const cover = String(body.cover || "").trim();
+        const story = String(body.story || "").trim();
+        const eyebrow = String(body.eyebrow || "").trim().slice(0, 72);
+        const pages = Array.isArray(body.pages)
+          ? body.pages.map((item) => String(item || "")).filter(Boolean).slice(0, 80)
+          : [];
+        if (
+          !Number.isInteger(chapterNumber) ||
+          chapterNumber < 1 ||
+          chapterNumber > 99 ||
+          !title ||
+          !summary ||
+          !cover ||
+          !story ||
+          story.length > 200000 ||
+          !pages.length
+        ) {
+          sendJson(res, 400, { error: "篇章信息不完整。" });
+          return;
+        }
+        const manifest = {
+          id: chapterId,
+          chapterNumber,
+          title,
+          summary,
+          cover,
+          story,
+          pages,
+          pageCount: pages.length,
+          eyebrow: eyebrow || `第一季《雪落纽约》／第${String(chapterNumber).padStart(2, "0")}篇`,
+          updatedAt: new Date().toISOString()
+        };
+        await fsp.writeFile(
+          path.join(COMIC_MANIFESTS_DIR, `${chapterId}.json`),
+          JSON.stringify(manifest, null, 2),
+          "utf8"
+        );
+        sendJson(res, 201, { ok: true, manifest });
+        return;
+      }
+
+      sendJson(res, 400, { error: "未知的上传操作。" });
+      return;
+    }
+
     if (req.method === "GET" && pathname === "/api/media/videos") {
       const items = await listMedia(VIDEOS_DIR, "/videos", VIDEO_EXT);
       sendJson(res, 200, items);
@@ -368,6 +484,12 @@ const server = http.createServer(async (req, res) => {
     if (pathname.startsWith("/photos/")) {
       const rel = pathname.slice("/photos/".length);
       await serveFile(res, path.join(PHOTOS_DIR, rel), DATA_ROOT);
+      return;
+    }
+
+    if (pathname.startsWith("/comic-chapters/")) {
+      const rel = pathname.slice("/comic-chapters/".length);
+      await serveFile(res, path.join(COMIC_CHAPTERS_DIR, rel), DATA_ROOT);
       return;
     }
 
