@@ -3128,6 +3128,7 @@ main,
 /* Private chapter upload */
 .comic-upload-key {
   position: relative;
+  justify-self: end;
   min-width: 92px;
   height: 32px;
   padding: 0 12px;
@@ -3527,6 +3528,7 @@ body.comic-upload-is-open {
   }
 
   .comic-upload-key {
+    justify-self: center;
     min-width: 98px;
     height: 34px;
   }
