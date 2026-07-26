@@ -853,6 +853,7 @@
   const closeUploadButton = document.getElementById("closeComicUpload");
   const uploadForm = document.getElementById("comicUploadForm");
   const uploadPassword = document.getElementById("comicUploadPassword");
+  const toggleUploadPassword = document.getElementById("toggleComicUploadPassword");
   const uploadFiles = document.getElementById("comicUploadFiles");
   const uploadFileHint = document.getElementById("comicUploadFileHint");
   const packagePreview = document.getElementById("comicPackagePreview");
@@ -878,6 +879,14 @@
     if (uploadStatusText) uploadStatusText.textContent = message;
     if (uploadProgress) uploadProgress.style.transform = `scaleX(${clamp(progress, 0, 1)})`;
     uploadDialog?.setAttribute("data-upload-state", state);
+  };
+
+  const setUploadPasswordVisibility = (visible) => {
+    if (!uploadPassword || !toggleUploadPassword) return;
+    uploadPassword.type = visible ? "text" : "password";
+    toggleUploadPassword.textContent = visible ? "隐藏" : "显示";
+    toggleUploadPassword.setAttribute("aria-pressed", String(visible));
+    toggleUploadPassword.setAttribute("aria-label", `${visible ? "隐藏" : "显示"}档案钥匙`);
   };
 
   const postComicUpload = async (payload) => {
@@ -1332,6 +1341,10 @@
 
   openUploadButton?.addEventListener("click", openUploadDialog);
   closeUploadButton?.addEventListener("click", closeUploadDialog);
+  toggleUploadPassword?.addEventListener("click", () => {
+    setUploadPasswordVisibility(uploadPassword?.type === "password");
+    uploadPassword?.focus();
+  });
   uploadDialog?.addEventListener("close", () => document.body.classList.remove("comic-upload-is-open"));
   uploadDialog?.addEventListener("click", (event) => {
     if (event.target === uploadDialog) closeUploadDialog();
