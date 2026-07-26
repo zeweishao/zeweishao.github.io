@@ -8,7 +8,7 @@
   <title>十二小时之外的星轨｜漫画馆</title>
   <link rel="icon" href="data:,">
   <link rel="preload" href="assets/star-rail-comic/covers/chapter-03.jpg" as="image" type="image/jpeg">
-  <link rel="stylesheet" href="star-rail-comic.css">
+  <link rel="stylesheet" href="star-rail-comic.css?v=20260727-2">
   <link rel="stylesheet" href="motion-system.css?v=20260727">
 </head>
 <body class="comic-page">
@@ -280,7 +280,9 @@
   <footer class="comic-footer">
     <a href="index.html">返回属于我们的小世界</a>
     <span>《十二小时之外的星轨》</span>
-    <button class="comic-upload-key" id="openComicUpload" type="button" aria-label="漫画馆维护入口" title="Archive access"><i></i></button>
+    <button class="comic-upload-key" id="openComicUpload" type="button" aria-label="打开档案钥匙" title="档案钥匙">
+      <i aria-hidden="true"></i><span>档案钥匙</span>
+    </button>
   </footer>
 
   <nav class="mobile-dock" aria-label="手机快捷导航">
@@ -347,10 +349,13 @@
         <span>系统会自动识别章节首页、连续漫画图和文字故事；同一篇再次上传会直接更新。</span>
       </div>
       <form class="comic-upload-form" id="comicUploadForm">
-        <label>
-          <span>访问密码</span>
-          <input id="comicUploadPassword" type="password" autocomplete="current-password" required placeholder="输入档案密码">
-        </label>
+        <div class="comic-upload-password">
+          <label for="comicUploadPassword">档案钥匙</label>
+          <div class="comic-upload-password-control">
+            <input id="comicUploadPassword" type="password" autocomplete="current-password" required placeholder="输入档案钥匙">
+            <button id="toggleComicUploadPassword" type="button" aria-label="显示档案钥匙" aria-pressed="false">显示</button>
+          </div>
+        </div>
         <label class="comic-upload-files">
           <span>章节成品包</span>
           <input id="comicUploadFiles" type="file" accept=".zip,application/zip,application/x-zip-compressed" required>
@@ -374,7 +379,7 @@
   </noscript>
 
   <script src="vendor/fflate.min.js"></script>
-  <script src="star-rail-comic.js"></script>
+  <script src="star-rail-comic.js?v=20260727-2"></script>
   <script src="motion-system.js?v=20260727"></script>
 </body>
 </html>
