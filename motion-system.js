@@ -441,12 +441,233 @@
     );
   };
 
+  const initOrbitCompanion = () => {
+    if (document.querySelector("[data-orbit-companion]")) return;
+
+    const shell = document.createElement("div");
+    shell.className = "orbit-companion-shell";
+    shell.dataset.orbitCompanion = "";
+    shell.innerHTML = `
+      <button class="orbit-companion" type="button" aria-label="点一下福洛落，播放语音" aria-pressed="false">
+        <span class="orbit-companion-glow" aria-hidden="true"></span>
+        <span class="orbit-companion-rings" aria-hidden="true"><i></i><i></i></span>
+        <span class="orbit-companion-figure" aria-hidden="true">
+          <img src="photos/fuluoluo.png?v=20260726" alt="" decoding="async">
+        </span>
+        <span class="orbit-companion-tip">
+          <i aria-hidden="true"></i>
+          <span data-companion-copy>点我一下</span>
+        </span>
+        <span class="orbit-companion-particles" aria-hidden="true"></span>
+      </button>
+      <audio class="orbit-companion-audio" preload="metadata">
+        <source src="videos/woele.mp3?v=20260726" type="audio/mpeg">
+      </audio>
+    `;
+    body.append(shell);
+
+    const button = shell.querySelector(".orbit-companion");
+    const image = shell.querySelector("img");
+    const audio = shell.querySelector("audio");
+    const copy = shell.querySelector("[data-companion-copy]");
+    const particleLayer = shell.querySelector(".orbit-companion-particles");
+    if (!button || !image || !audio || !copy || !particleLayer) {
+      shell.remove();
+      return;
+    }
+
+    let moveTimer = 0;
+    let resetTimer = 0;
+    let lastX = 0;
+    let lastY = 0;
+    let placed = false;
+    let pausedUntil = 0;
+    let destroyed = false;
+    const canRoam = finePointer && !reducedMotion && window.innerWidth >= 860;
+    const idleCopy = "点我一下";
+
+    const randomBetween = (min, max) => min + Math.random() * Math.max(0, max - min);
+    const clearMoveTimer = () => {
+      window.clearTimeout(moveTimer);
+      moveTimer = 0;
+    };
+
+    const safeBounds = () => {
+      const rect = shell.getBoundingClientRect();
+      const viewportWidth = window.visualViewport?.width || window.innerWidth || 360;
+      const viewportHeight = window.visualViewport?.height || window.innerHeight || 640;
+      const topbar = document.querySelector(".topbar, .comic-topbar");
+      const topbarBottom = topbar ? Math.max(16, topbar.getBoundingClientRect().bottom + 14) : 18;
+      const edge = window.innerWidth < 760 ? 10 : 18;
+      const bottomReserve =
+        window.innerWidth < 760 && document.querySelector(".mobile-dock") ? 104 : 0;
+      return {
+        minX: edge,
+        maxX: Math.max(edge, viewportWidth - rect.width - edge),
+        minY: Math.min(viewportHeight - rect.height - edge, topbarBottom),
+        maxY: Math.max(topbarBottom, viewportHeight - rect.height - edge - bottomReserve),
+        viewportHeight
+      };
+    };
+
+    const setPosition = (x, y, duration = 0) => {
+      const bounds = safeBounds();
+      lastX = Math.min(bounds.maxX, Math.max(bounds.minX, Math.round(x)));
+      lastY = Math.min(bounds.maxY, Math.max(bounds.minY, Math.round(y)));
+      shell.style.setProperty("--companion-travel", `${Math.max(0, Math.round(duration))}ms`);
+      shell.style.left = `${lastX}px`;
+      shell.style.top = `${lastY}px`;
+      shell.style.right = "auto";
+      shell.style.bottom = "auto";
+      placed = true;
+    };
+
+    const placeAtRest = () => {
+      const bounds = safeBounds();
+      setPosition(bounds.maxX, bounds.maxY, placed ? 420 : 0);
+    };
+
+    const scheduleRoam = (delay = randomBetween(5200, 8200)) => {
+      if (!canRoam || destroyed || document.hidden) return;
+      clearMoveTimer();
+      moveTimer = window.setTimeout(roam, Math.max(800, delay));
+    };
+
+    const roam = () => {
+      if (!canRoam || destroyed) return;
+      if (Date.now() < pausedUntil || button.matches(":hover, :focus-visible")) {
+        scheduleRoam(1400);
+        return;
+      }
+
+      const bounds = safeBounds();
+      const lowerEdge = Math.min(
+        bounds.maxY,
+        Math.max(bounds.minY, bounds.viewportHeight * 0.5)
+      );
+      const horizontalDrift = Math.min(76, Math.max(18, (bounds.maxX - bounds.minX) * 0.08));
+      const anchors = [
+        { x: bounds.maxX, y: randomBetween(lowerEdge, bounds.maxY) },
+        { x: bounds.maxX - horizontalDrift, y: bounds.maxY },
+        { x: bounds.maxX, y: bounds.maxY }
+      ];
+      const distant = anchors
+        .map((point) => ({ ...point, distance: Math.hypot(point.x - lastX, point.y - lastY) }))
+        .sort((a, b) => b.distance - a.distance);
+      const target = distant[Math.random() > 0.72 ? 1 : 0] || distant[0];
+      const duration = Math.min(9200, Math.max(4200, target.distance * 12));
+      setPosition(target.x, target.y, duration);
+      scheduleRoam(duration + randomBetween(3600, 6200));
+    };
+
+    const pauseRoam = (duration = 2400) => {
+      pausedUntil = Date.now() + duration;
+      clearMoveTimer();
+      scheduleRoam(duration + 700);
+    };
+
+    const burst = () => {
+      if (reducedMotion) return;
+      particleLayer.replaceChildren();
+      const count = window.innerWidth < 760 ? 9 : 13;
+      Array.from({ length: count }, (_, index) => {
+        const particle = document.createElement("i");
+        const angle = (Math.PI * 2 * index) / count + randomBetween(-0.16, 0.16);
+        const distance = randomBetween(42, 76);
+        particle.style.setProperty("--particle-x", `${Math.cos(angle) * distance}px`);
+        particle.style.setProperty("--particle-y", `${Math.sin(angle) * distance}px`);
+        particle.style.setProperty("--particle-delay", `${Math.round(randomBetween(0, 80))}ms`);
+        particle.style.setProperty("--particle-rotate", `${Math.round(randomBetween(-150, 150))}deg`);
+        particleLayer.append(particle);
+        return particle;
+      });
+      window.setTimeout(() => particleLayer.replaceChildren(), 980);
+    };
+
+    const setIdle = () => {
+      button.classList.remove("is-speaking");
+      button.setAttribute("aria-pressed", "false");
+      copy.textContent = idleCopy;
+    };
+
+    const activate = async () => {
+      pauseRoam(3600);
+      button.classList.remove("is-tapped");
+      void button.offsetWidth;
+      button.classList.add("is-tapped");
+      burst();
+      window.clearTimeout(resetTimer);
+
+      if (!audio.paused && !audio.ended) {
+        audio.pause();
+        audio.currentTime = 0;
+        setIdle();
+        return;
+      }
+
+      audio.currentTime = 0;
+      audio.volume = 0.82;
+      try {
+        await audio.play();
+        button.classList.add("is-speaking");
+        button.setAttribute("aria-pressed", "true");
+        copy.textContent = "我饿了…";
+      } catch {
+        copy.textContent = "再点一次";
+        resetTimer = window.setTimeout(setIdle, 1600);
+      }
+    };
+
+    button.addEventListener("click", activate);
+    button.addEventListener("pointerdown", () => pauseRoam(2200), { passive: true });
+    button.addEventListener("pointerenter", () => pauseRoam(1800), { passive: true });
+    audio.addEventListener("ended", setIdle);
+    audio.addEventListener("pause", () => {
+      if (audio.currentTime === 0 || audio.ended) setIdle();
+    });
+    image.addEventListener("error", () => shell.remove(), { once: true });
+
+    const settleAfterResize = () => {
+      clearMoveTimer();
+      placeAtRest();
+      scheduleRoam(2200);
+    };
+    window.addEventListener("resize", settleAfterResize, { passive: true });
+    window.visualViewport?.addEventListener("resize", settleAfterResize, { passive: true });
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        clearMoveTimer();
+        return;
+      }
+      placeAtRest();
+      scheduleRoam(1800);
+    });
+    window.addEventListener(
+      "pagehide",
+      () => {
+        destroyed = true;
+        clearMoveTimer();
+        window.clearTimeout(resetTimer);
+        audio.pause();
+        audio.currentTime = 0;
+      },
+      { once: true }
+    );
+
+    window.requestAnimationFrame(() => {
+      placeAtRest();
+      shell.classList.add("is-ready");
+      scheduleRoam();
+    });
+  };
+
   decorate(document);
   body.classList.add("motion-ready");
   initScrollProgress();
   initPointerLight();
   initClickSparks();
   initPageTransitions();
+  initOrbitCompanion();
 
   if ("MutationObserver" in window) {
     const mutationObserver = new MutationObserver((records) => {
