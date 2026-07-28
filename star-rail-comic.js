@@ -191,7 +191,7 @@
           observer.unobserve(entry.target);
         });
       },
-      { threshold: 0.14, rootMargin: "0px 0px -6% 0px" }
+      { threshold: 0.01, rootMargin: "0px 0px -6% 0px" }
     );
     revealNodes.forEach((node) => revealObserver.observe(node));
   } else {
