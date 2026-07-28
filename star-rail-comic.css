@@ -2687,6 +2687,21 @@ main,
 
   .stories-section {
     width: var(--site-width);
+    scroll-margin-top: 76px;
+  }
+
+  .stories-section .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .story-reader {
+    gap: 18px;
+  }
+
+  .story-reader[data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 
   .story-chapter-tabs {
@@ -2710,18 +2725,32 @@ main,
     border-radius: 3px 36px 3px 3px;
   }
 
+  .story-paper-header {
+    padding: 24px 20px 20px;
+  }
+
+  .story-paper-header h3 {
+    font-size: 31px;
+    line-height: 1.35;
+  }
+
   .story-paper::after {
     right: 18px;
   }
 
   .story-content {
     max-height: none;
+    padding: 26px 20px 40px;
     overflow: visible;
   }
 
   .story-content p {
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.95;
+  }
+
+  .story-paper-footer {
+    padding: 18px 20px 24px;
   }
 
   .chapter-meta {
