@@ -267,6 +267,12 @@ body.motion-pointer-active .motion-pointer-light {
   transform: translate3d(0, 0, 0) scale(1);
 }
 
+body:has([role="dialog"]:not([hidden]), dialog[open]) .orbit-companion-shell {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(0, 10px, 0) scale(0.94);
+}
+
 .orbit-companion {
   position: relative;
   width: 100%;

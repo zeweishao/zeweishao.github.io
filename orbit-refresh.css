@@ -559,7 +559,7 @@ body.figure-site::before {
   letter-spacing: 0.22em;
 }
 
-.orbit-station-card h3 {
+.orbit-station-card h2 {
   margin: 12px 0 9px;
   font: 400 35px/1.1 var(--orbit-serif);
 }
@@ -757,6 +757,8 @@ body.figure-site::before {
 .figure-curation-card {
   min-width: 0;
   min-height: 570px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 570px;
   overflow: hidden;
   display: grid;
   grid-template-rows: 330px minmax(0, 1fr);
@@ -1013,6 +1015,8 @@ body.figure-site::before {
   position: relative;
   grid-column: span 4;
   grid-row: span 2;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 480px;
   margin: 0;
   overflow: hidden;
   border: 1px solid var(--orbit-line);
@@ -1345,7 +1349,7 @@ body.figure-site::before {
     max-width: 78%;
   }
 
-  .orbit-station-card h3 {
+  .orbit-station-card h2 {
     font-size: 31px;
   }
 
@@ -2672,7 +2676,7 @@ body.milk-tea-page .brew-stage::before {
   max-width: none;
 }
 
-.home-page .orbit-station-card h3 {
+.home-page .orbit-station-card h2 {
   margin: 0;
 }
 
