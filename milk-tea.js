@@ -493,11 +493,33 @@
     return shuffle([...new Set([selectedAsset, ...TEA_DRAW_VISUAL_ASSETS])]);
   };
 
+  let drawVisualAssetsWarmed = false;
+
   const preloadDrawVisualAssets = () => {
+    if (drawVisualAssetsWarmed) return;
+    drawVisualAssetsWarmed = true;
     TEA_DRAW_VISUAL_ASSETS.forEach((src) => {
       const image = new Image();
+      image.decoding = "async";
       image.src = src;
     });
+  };
+
+  const scheduleDrawVisualAssetPreload = () => {
+    const warmOnIntent = () => preloadDrawVisualAssets();
+    [nodes.drawBtn, nodes.redrawBtn].forEach((button) => {
+      button?.addEventListener("pointerenter", warmOnIntent, { once: true, passive: true });
+      button?.addEventListener("touchstart", warmOnIntent, { once: true, passive: true });
+      button?.addEventListener("focus", warmOnIntent, { once: true });
+    });
+
+    window.addEventListener("load", () => {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(preloadDrawVisualAssets, { timeout: 5000 });
+      } else {
+        window.setTimeout(preloadDrawVisualAssets, 2500);
+      }
+    }, { once: true });
   };
 
   const resetDrawSequenceVisuals = () => {
@@ -568,6 +590,7 @@
   };
 
   const drawProduct = async ({ skipCurrent = false } = {}) => {
+    preloadDrawVisualAssets();
     if (state.drawing) return;
     if (skipCurrent && state.current) {
       markSkipped(state.current);
@@ -1135,7 +1158,7 @@
 
   const init = async () => {
     try {
-      const response = await fetch("data/milk-tea-products.json", { cache: "no-store" });
+      const response = await fetch("data/milk-tea-products.json", { cache: "default" });
       const data = await response.json();
       state.products = Array.isArray(data.products) ? data.products : [];
       state.brands = Array.isArray(data.brands) ? data.brands : [];
@@ -1145,7 +1168,7 @@
     }
 
     bindEvents();
-    preloadDrawVisualAssets();
+    scheduleDrawVisualAssetPreload();
     updateModeChips();
     renderProfile();
     maybeShowLetter();

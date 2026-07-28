@@ -10,7 +10,7 @@
       pageCount: 25,
       directory: "assets/star-rail-comic/chapter-01",
       extension: "webp",
-      cover: "assets/star-rail-comic/covers/chapter-01.jpg",
+      cover: "assets/star-rail-comic/covers/chapter-01.webp",
       storyUrl: "assets/star-rail-comic/stories/chapter-01.md",
       builtIn: true
     },
@@ -22,7 +22,7 @@
       pageCount: 24,
       directory: "assets/star-rail-comic/chapter-02",
       extension: "webp",
-      cover: "assets/star-rail-comic/covers/chapter-02.jpg",
+      cover: "assets/star-rail-comic/covers/chapter-02.webp",
       storyUrl: "assets/star-rail-comic/stories/chapter-02.md",
       builtIn: true
     },
@@ -34,7 +34,7 @@
       pageCount: 24,
       directory: "assets/star-rail-comic/chapter-03",
       extension: "jpg",
-      cover: "assets/star-rail-comic/covers/chapter-03.jpg",
+      cover: "assets/star-rail-comic/covers/chapter-03.webp",
       storyUrl: "assets/star-rail-comic/stories/chapter-03.md",
       builtIn: true
     }

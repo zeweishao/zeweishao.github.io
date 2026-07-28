@@ -448,11 +448,11 @@
     shell.className = "orbit-companion-shell";
     shell.dataset.orbitCompanion = "";
     shell.innerHTML = `
-      <button class="orbit-companion" type="button" aria-label="点一下福洛落，播放语音" aria-pressed="false">
+      <button class="orbit-companion" type="button" aria-label="点我一下，福洛落会播放语音" aria-pressed="false">
         <span class="orbit-companion-glow" aria-hidden="true"></span>
         <span class="orbit-companion-rings" aria-hidden="true"><i></i><i></i></span>
         <span class="orbit-companion-figure" aria-hidden="true">
-          <img src="photos/fuluoluo.png?v=20260726" alt="" decoding="async">
+          <img src="photos/fuluoluo-mobile.webp?v=20260728" alt="" width="432" height="470" decoding="async">
         </span>
         <span class="orbit-companion-tip">
           <i aria-hidden="true"></i>
@@ -587,6 +587,7 @@
     const setIdle = () => {
       button.classList.remove("is-speaking");
       button.setAttribute("aria-pressed", "false");
+      button.setAttribute("aria-label", "点我一下，福洛落会播放语音");
       copy.textContent = idleCopy;
     };
 
@@ -611,8 +612,10 @@
         await audio.play();
         button.classList.add("is-speaking");
         button.setAttribute("aria-pressed", "true");
+        button.setAttribute("aria-label", "我饿了，点击停止语音");
         copy.textContent = "我饿了…";
       } catch {
+        button.setAttribute("aria-label", "再点一次，播放福洛落语音");
         copy.textContent = "再点一次";
         resetTimer = window.setTimeout(setIdle, 1600);
       }
