@@ -1,23 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050a14">
-  <meta name="description" content="《十二小时之外的星轨》漫画展示与沉浸阅读页。">
-  <title>十二小时之外的星轨｜漫画馆</title>
+  <meta name="theme-color" content="#f5eee3">
+  <title>星轨漫画馆｜属于我们的小世界</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
   <link rel="preload" href="assets/star-rail-comic/covers/chapter-03.webp" as="image" type="image/webp">
-  <link rel="stylesheet" href="star-rail-comic.css?v=20260728-2">
-  <link rel="stylesheet" href="comic-journal.css?v=20261002">
+  <link rel="stylesheet" href="journal.css?v=20261002">
 </head>
-<body class="comic-page">
-  <a class="skip-link" href="#comicMain">跳到正文</a>
-  <canvas id="cosmosCanvas" class="cosmos-canvas" aria-hidden="true"></canvas>
-  <div class="cosmic-grain" aria-hidden="true"></div>
-  <div class="cursor-aura" id="cursorAura" aria-hidden="true"></div>
-  <div class="page-progress" aria-hidden="true"><span id="pageProgressBar"></span></div>
-
+<body class="journal comic-page">
   <header class="topbar">
     <a class="j-brand" href="index.html">
       <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
@@ -29,7 +21,7 @@
       <a href="milk-tea.html">奶茶小屋</a>
       <a href="messages.html">悄悄话</a>
       <a href="albums.html">照片站</a>
-      <a class="is-active is-night" href="comic.html" aria-current="page">星轨漫画</a>
+      <a class="is-active" href="comic.html" aria-current="page">星轨漫画</a>
     </nav>
     <details class="j-menu">
       <summary>目录</summary>
@@ -44,238 +36,145 @@
     </details>
   </header>
 
-  <main id="comicMain">
-    <section class="comic-hero" aria-labelledby="comicTitle">
-      <div class="hero-ambient" aria-hidden="true">
-        <div class="hero-ambient-image" data-parallax-layer="0.06"></div>
-        <div class="hero-ambient-shade"></div>
-      </div>
-
-      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
-      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
-      <div class="hero-orbit hero-orbit-three" aria-hidden="true"></div>
-
-      <div class="hero-layout">
-        <div class="hero-copy" data-reveal>
-          <h1 id="comicTitle">
-            <span>十二小时之外的</span>
-            <em>星轨</em>
-          </h1>
-
-          <div class="hero-actions">
-            <button class="cosmic-button cosmic-button-primary" type="button" data-open-reader="1">
-              <span>从第一篇开始</span>
-              <i aria-hidden="true"></i>
-            </button>
-            <a class="cosmic-button cosmic-button-ghost" href="#chapters">查看篇章</a>
+  <main class="j-wrap" id="comicMain">
+    <section class="comic-head" aria-labelledby="comicTitle">
+      <div class="comic-head-copy">
+        <p class="eyebrow">Season One · 雪落纽约</p>
+        <h1 id="comicTitle"><span>十二小时之外的</span><em>星轨</em></h1>
+        <div class="home-actions">
+          <button class="j-btn" type="button" data-open-reader="1">从第一篇开始</button>
+          <a class="j-btn-line" href="#chapters">查看篇章</a>
+        </div>
+        <div class="comic-clocks" aria-label="杭州与纽约的实时时差">
+          <div class="time-card day">
+            <small>杭州 · HANGZHOU</small>
+            <time id="hangzhouClock" datetime="">--:--:--</time>
+            <span id="hangzhouDate">中国标准时间</span>
           </div>
-
-        </div>
-
-        <div class="hero-art" data-reveal data-reveal-delay="160" data-parallax-layer="0.12">
-          <div class="hero-art-halo" aria-hidden="true"></div>
-          <figure class="hero-art-frame">
-            <img id="comicHeroCover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="第三篇《名字抵达之前》章节首页" width="1086" height="1448">
-          </figure>
-        </div>
-      </div>
-
-      <div class="phase-hud" data-reveal data-reveal-delay="260">
-        <div class="phase-clock phase-clock-warm">
-          <span>杭州时间 · HANGZHOU</span>
-          <time id="hangzhouClock" datetime="">--:--:--</time>
-          <small id="hangzhouDate">正在校准中国标准时间</small>
-        </div>
-        <div class="phase-core" aria-label="杭州与纽约的实时世界时差信息">
-          <i></i>
-          <b id="cityTimeOffset">--H</b>
-          <span id="cityDateRelation">双城时差</span>
-        </div>
-        <div class="phase-clock phase-clock-cold">
-          <span>纽约时间 · NEW YORK</span>
-          <time id="newYorkClock" datetime="">--:--:--</time>
-          <small id="newYorkDate">正在校准美国东部时间</small>
+          <div class="time-gap">
+            <b id="cityTimeOffset">12H</b>
+            <span id="cityDateRelation">双城时差</span>
+          </div>
+          <div class="time-card night">
+            <small>纽约 · NEW YORK</small>
+            <time id="newYorkClock" datetime="">--:--:--</time>
+            <span id="newYorkDate">美国东部时间</span>
+          </div>
         </div>
       </div>
-
+      <figure class="comic-cover">
+        <span class="tape" style="top: -14px; left: 50%; width: 110px; margin-left: -55px; transform: rotate(-3deg)"></span>
+        <img id="comicHeroCover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="第三篇《名字抵达之前》章节首页" width="1086" height="1448">
+        <img class="sticker" src="assets/journal/sticker-ticket.webp" alt="" style="right: -50px; bottom: -36px; width: 120px; transform: rotate(10deg)">
+      </figure>
     </section>
 
-    <section class="world-section comic-section" id="world" aria-labelledby="worldTitle">
-      <div class="section-heading" data-reveal>
-        <h2 id="worldTitle">同一秒，两座城。</h2>
-      </div>
-
-      <div class="phase-scenes" data-reveal>
-        <article class="phase-scene phase-scene-hangzhou">
+    <section class="comic-block" id="world" aria-labelledby="worldTitle">
+      <div class="j-section-head"><h2 id="worldTitle">同一秒，两座城。</h2></div>
+      <div class="world-spread">
+        <article class="world-page">
           <img src="assets/star-rail-comic/world/qixing-hall.webp" alt="杭州栖星馆修复室，暖金日光落在旧星图与黄铜仪器上" loading="lazy" width="1086" height="1448">
-          <div class="phase-scene-overlay"></div>
-          <div class="phase-scene-copy">
-            <span>HANGZHOU · 11:47</span>
-            <h3>栖星馆</h3>
-            <p>纸张纤维、旧黄铜与临水天光。维泽在这里修复一条本不该存在的线。</p>
-          </div>
+          <span class="num">HANGZHOU · 11:47</span>
+          <h3>栖星馆</h3>
+          <p>纸张纤维、旧黄铜与临水天光。维泽在这里修复一条本不该存在的线。</p>
         </article>
-
-        <div class="phase-bridge" aria-hidden="true">
-          <span></span>
-          <i></i>
-          <b>12H</b>
-          <i></i>
-          <span></span>
-        </div>
-
-        <article class="phase-scene phase-scene-newyork">
+        <span class="world-badge num" aria-hidden="true">12H</span>
+        <article class="world-page">
           <img src="assets/star-rail-comic/chapter-01/page-10.webp" alt="纽约午夜的旧潮汐观测站入口" loading="lazy" width="1086" height="1448">
-          <div class="phase-scene-overlay"></div>
-          <div class="phase-scene-copy">
-            <span>NEW YORK · 23:47</span>
-            <h3>旧观测站</h3>
-            <p>东河之下，冷夜与潮声重叠。雪柔把即将消失的真实，保存成一枚星晶。</p>
-          </div>
+          <span class="num">NEW YORK · 23:47</span>
+          <h3>旧观测站</h3>
+          <p>东河之下，冷夜与潮声重叠。雪柔把即将消失的真实，保存成一枚星晶。</p>
         </article>
       </div>
-
-      <div class="world-principles">
-        <article data-reveal>
-          <span>本命星</span>
-          <strong>每个人出生时，<br>都会连接一颗星。</strong>
-          <p>它不预告未来，只记录生命独有的频率。</p>
-        </article>
-        <article data-reveal data-reveal-delay="100">
-          <span>双生频率</span>
-          <strong>在全世界的声音里，<br>他们可能听见彼此。</strong>
-          <p>听见不是答案，主动回应才是道路的开始。</p>
-        </article>
-        <article data-reveal data-reveal-delay="200">
-          <span>第零新轨</span>
-          <strong>命运给出条件，<br>选择创造新的路。</strong>
-          <p>一条不属于既有序列、只能由两人共同完成的轨道。</p>
-        </article>
+      <div class="world-notes">
+        <article class="lined"><span class="num">I · 本命星</span><strong>每个人出生时，都会连接一颗星。</strong><p>它不预告未来，只记录生命独有的频率。</p></article>
+        <article class="lined"><span class="num">II · 双生频率</span><strong>在全世界的声音里，他们可能听见彼此。</strong><p>听见不是答案，主动回应才是道路的开始。</p></article>
+        <article class="lined"><span class="num">III · 第零新轨</span><strong>命运给出条件，选择创造新的路。</strong><p>一条不属于既有序列、只能由两人共同完成的轨道。</p></article>
       </div>
     </section>
 
-    <section class="chapters-section comic-section" id="chapters" aria-labelledby="chaptersTitle">
-      <div class="section-heading" data-reveal>
-        <h2 id="chaptersTitle">沿着回答，继续向前。</h2>
-      </div>
-
+    <section class="comic-block" id="chapters" aria-labelledby="chaptersTitle">
+      <div class="j-section-head"><h2 id="chaptersTitle">沿着回答，继续向前。</h2></div>
       <div class="chapter-track" id="chapterTrack"></div>
     </section>
 
-    <section class="stories-section comic-section" id="stories" aria-labelledby="storiesTitle">
-      <div class="section-heading" data-reveal>
-        <h2 id="storiesTitle">文字故事。</h2>
-      </div>
-
-      <div class="story-reader" data-reveal>
+    <section class="comic-block" id="stories" aria-labelledby="storiesTitle">
+      <div class="j-section-head"><h2 id="storiesTitle">文字故事。</h2></div>
+      <div class="story-reader">
+        <img class="sticker" src="assets/journal/sticker-pen.webp" alt="" style="right: -24px; top: -60px; width: 120px; transform: rotate(8deg)">
         <nav class="story-chapter-tabs" id="storyChapterTabs" aria-label="切换文字故事"></nav>
         <article class="story-paper">
           <header class="story-paper-header">
-            <span id="storyChapterNumber">第01篇</span>
+            <span id="storyChapterNumber" class="num">第01篇</span>
             <h3 id="storyTitle">十二小时之外的新轨</h3>
           </header>
           <div class="story-content" id="storyContent" aria-live="polite">
             <p>正在载入故事。</p>
           </div>
           <footer class="story-paper-footer">
-            <button id="storyOpenReader" type="button" data-open-reader="1">阅读本篇漫画</button>
+            <button class="j-btn-line" id="storyOpenReader" type="button" data-open-reader="1">阅读本篇漫画</button>
           </footer>
         </article>
       </div>
     </section>
 
-    <section class="moments-section comic-section" aria-labelledby="momentsTitle">
-      <div class="section-heading section-heading-compact" data-reveal>
-        <h2 id="momentsTitle">真实发生过的，都会留下痕迹。</h2>
-      </div>
-
+    <section class="comic-block" aria-labelledby="momentsTitle">
+      <div class="j-section-head"><h2 id="momentsTitle">真实发生过的，都会留下痕迹。</h2></div>
       <div class="moment-grid">
-        <figure class="moment-card moment-card-tall" data-reveal data-moment-image>
-          <img src="assets/star-rail-comic/chapter-01/page-11.webp" alt="雪柔站在纽约旧观测站的冷夜中" loading="lazy" width="1086" height="1448">
-          <figcaption><span>记录者抵达</span></figcaption>
-        </figure>
-        <figure class="moment-card moment-card-wide" data-reveal data-reveal-delay="70" data-moment-image>
-          <img src="assets/star-rail-comic/chapter-01/page-20.webp" alt="杭州正午与纽约午夜在第零秒交叠" loading="lazy" width="1086" height="1448">
-          <figcaption><span>时间归零的一秒</span></figcaption>
-        </figure>
-        <figure class="moment-card" data-reveal data-reveal-delay="140" data-moment-image>
-          <img src="assets/star-rail-comic/chapter-01/page-23.webp" alt="维泽以黄铜星尺重构星轨" loading="lazy" width="1086" height="1448">
-          <figcaption><span>原本存在的路</span></figcaption>
-        </figure>
-        <figure class="moment-card" data-reveal data-moment-image>
-          <img src="assets/star-rail-comic/chapter-02/page-13.webp" alt="雪柔将警告锚点送入新轨" loading="lazy" width="1086" height="1448">
-          <figcaption><span>切断这条路</span></figcaption>
-        </figure>
-        <figure class="moment-card moment-card-wide" data-reveal data-reveal-delay="70" data-moment-image>
-          <img src="assets/star-rail-comic/chapter-02/page-20.webp" alt="雪柔展开记录环固定空白潮的真实路径" loading="lazy" width="1086" height="1448">
-          <figcaption><span>星辰记录</span></figcaption>
-        </figure>
-        <figure class="moment-card moment-card-tall" data-reveal data-reveal-delay="140" data-moment-image>
-          <img src="assets/star-rail-comic/chapter-02/page-21.webp" alt="维泽延伸深蓝续轨线重构出口" loading="lazy" width="1086" height="1448">
-          <figcaption><span>把出口还给它</span></figcaption>
-        </figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-01/page-11.webp" alt="雪柔站在纽约旧观测站的冷夜中" loading="lazy" width="1086" height="1448"><figcaption>记录者抵达</figcaption></figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-01/page-20.webp" alt="杭州正午与纽约午夜在第零秒交叠" loading="lazy" width="1086" height="1448"><figcaption>时间归零的一秒</figcaption></figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-01/page-23.webp" alt="维泽以黄铜星尺重构星轨" loading="lazy" width="1086" height="1448"><figcaption>原本存在的路</figcaption></figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-02/page-13.webp" alt="雪柔将警告锚点送入新轨" loading="lazy" width="1086" height="1448"><figcaption>切断这条路</figcaption></figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-02/page-20.webp" alt="雪柔展开记录环固定空白潮的真实路径" loading="lazy" width="1086" height="1448"><figcaption>星辰记录</figcaption></figure>
+        <figure class="moment-card" data-moment-image><img src="assets/star-rail-comic/chapter-02/page-21.webp" alt="维泽延伸深蓝续轨线重构出口" loading="lazy" width="1086" height="1448"><figcaption>把出口还给它</figcaption></figure>
       </div>
     </section>
 
-    <section class="characters-section comic-section" id="characters" aria-labelledby="charactersTitle">
-      <div class="section-heading" data-reveal>
-        <h2 id="charactersTitle">他们仍不知道彼此的名字。</h2>
-      </div>
-
+    <section class="comic-block" id="characters" aria-labelledby="charactersTitle">
+      <div class="j-section-head"><h2 id="charactersTitle">他们仍不知道彼此的名字。</h2></div>
       <div class="character-stage">
-        <article class="character-panel character-xuerou" data-reveal data-character-panel>
-          <img src="assets/star-rail-comic/chapter-02/page-20.webp" alt="雪柔施展星辰记录" loading="lazy" width="1086" height="1448">
-          <div class="character-panel-overlay"></div>
-          <div class="character-index" aria-hidden="true">01</div>
+        <img class="sticker" src="assets/journal/sticker-ruler.webp" alt="" style="left: 50%; top: -70px; width: 120px; margin-left: -60px; transform: rotate(-6deg)">
+        <article class="character-card">
+          <div class="photo"><img src="assets/star-rail-comic/chapter-02/page-20.webp" alt="雪柔施展星辰记录" loading="lazy" width="1086" height="1448"></div>
           <div class="character-copy">
+            <span class="num">No. 01</span>
             <h3>雪柔</h3>
             <dl>
               <div><dt>能力</dt><dd>星辰记录</dd></div>
               <div><dt>锚点</dt><dd>玉质记录环</dd></div>
               <div><dt>相位</dt><dd>纽约 · 冷夜</dd></div>
             </dl>
-            <blockquote>“它不是被遗失了。是世界正在忘记，它曾经属于谁。”</blockquote>
+            <blockquote class="hand">“它不是被遗失了。是世界正在忘记，它曾经属于谁。”</blockquote>
           </div>
         </article>
-
-        <div class="character-resonance" aria-hidden="true">
-          <i></i><span>共鸣</span><i></i>
-        </div>
-
-        <article class="character-panel character-weize" data-reveal data-reveal-delay="120" data-character-panel>
-          <img src="assets/star-rail-comic/chapter-02/page-21.webp" alt="维泽以黄铜星尺重构出口" loading="lazy" width="1086" height="1448">
-          <div class="character-panel-overlay"></div>
-          <div class="character-index" aria-hidden="true">02</div>
+        <article class="character-card">
+          <div class="photo"><img src="assets/star-rail-comic/chapter-02/page-21.webp" alt="维泽以黄铜星尺重构出口" loading="lazy" width="1086" height="1448"></div>
           <div class="character-copy">
+            <span class="num">No. 02</span>
             <h3>维泽</h3>
             <dl>
               <div><dt>能力</dt><dd>重构</dd></div>
               <div><dt>锚点</dt><dd>旧黄铜星尺</dd></div>
               <div><dt>相位</dt><dd>杭州 · 暖昼</dd></div>
             </dl>
-            <blockquote>“修复不是替过去编一个答案。我只是把那条路还给它。”</blockquote>
+            <blockquote class="hand">“修复不是替过去编一个答案。我只是把那条路还给它。”</blockquote>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="final-transmission comic-section" data-reveal>
-      <div class="final-transmission-line" aria-hidden="true"></div>
+    <section class="comic-final">
       <h2>一百二十七次敲击之后，<br>另一端终于有了回答。</h2>
-      <button class="cosmic-button cosmic-button-primary" type="button" data-open-reader="1">
-        <span>进入完整漫画</span>
-        <i aria-hidden="true"></i>
-      </button>
+      <button class="j-btn" type="button" data-open-reader="1">进入完整漫画</button>
     </section>
-  </main>
 
-  <footer class="comic-footer">
-    <a href="index.html">返回属于我们的小世界</a>
-    <span>《十二小时之外的星轨》</span>
-    <button class="comic-upload-key" id="openComicUpload" type="button" aria-label="打开档案钥匙" title="档案钥匙">
-      <i aria-hidden="true"></i><span>档案钥匙</span>
-    </button>
-  </footer>
+    <footer class="j-footer">
+      <span class="hand">《十二小时之外的星轨》</span>
+      <button class="comic-upload-key" id="openComicUpload" type="button" aria-label="打开档案钥匙" title="档案钥匙">
+        <img src="assets/journal/sticker-key.webp" alt="" width="56" height="56"><span>档案钥匙</span>
+      </button>
+    </footer>
+  </main>
 
   <dialog class="comic-reader" id="comicReader" aria-labelledby="readerTitle">
     <div class="reader-shell">
@@ -342,12 +241,8 @@
     </div>
   </dialog>
 
-  <noscript>
-    <div class="noscript-note">请开启 JavaScript，以使用星空动效与沉浸式漫画阅读器。</div>
-  </noscript>
-
   <script src="vendor/fflate.min.js"></script>
-  <script src="star-rail-comic.js?v=20260728-2"></script>
+  <script src="star-rail-comic.js?v=20261002"></script>
   <script src="journal.js?v=20261002"></script>
 </body>
 </html>

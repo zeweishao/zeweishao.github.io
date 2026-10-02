@@ -64,6 +64,7 @@
     } catch {}
     const last = [...history].reverse().find((item) => item && item.action === "love") || history[history.length - 1];
     if (!last) return;
+    document.querySelectorAll("[data-tea-row]").forEach((row) => { row.hidden = false; });
     setText("[data-tea='name']", last.name || "—");
     setText("[data-tea='brand']", last.brand || "—");
     setText("[data-tea='date']", String(last.date || "").slice(5).replace("-", ".") || "—");

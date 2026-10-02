@@ -22,7 +22,7 @@
       <a href="milk-tea.html">奶茶小屋</a>
       <a href="messages.html">悄悄话</a>
       <a href="albums.html">照片站</a>
-      <a class="is-night" href="comic.html">星轨漫画</a>
+      <a href="comic.html">星轨漫画</a>
     </nav>
     <details class="j-menu">
       <summary>目录</summary>
@@ -99,22 +99,21 @@
           <div class="title">奶茶小屋</div>
           <div class="num" style="text-align: center; color: var(--brass); font-style: italic">receipt · <span data-date="md"></span></div>
           <div class="row rule"><span>上一杯</span><span data-tea="name">还没摇过</span></div>
-          <div class="row"><span>品牌</span><span data-tea="brand">—</span></div>
-          <div class="row"><span>那天</span><span class="num" data-tea="date">—</span></div>
+          <div class="row" data-tea-row hidden><span>品牌</span><span data-tea="brand">—</span></div>
+          <div class="row" data-tea-row hidden><span>那天</span><span class="num" data-tea="date">—</span></div>
         </a>
 
         <a class="c-card c-comic lift" href="comic.html" data-comic-card>
+          <span class="tape navy" style="top: -12px; left: 46%; width: 92px; transform: rotate(-3deg)"></span>
           <div class="cover">
             <img data-comic="cover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="星轨漫画最新一篇封面" loading="lazy" decoding="async">
           </div>
           <div class="body">
             <span class="no" data-comic="no">TICKET · NO. 03</span>
-            <span style="font-size: 13px; color: #c9cedb">十二小时之外的星轨</span>
             <h3 data-comic="title">名字抵达之前</h3>
             <p data-comic="summary">空白离开以后，馆长做的第一件事，不是追问维泽在十二小时之外看见了什么。</p>
-            <div class="go"><span>继续阅读</span><span aria-hidden="true">→</span></div>
+            <div class="go"><span>十二小时之外的星轨</span><span aria-hidden="true">→</span></div>
           </div>
-          <img class="sticker" src="assets/journal/sticker-ticket.webp" alt="" style="right: -28px; top: -40px; width: 108px; transform: rotate(8deg)">
         </a>
 
         <a class="c-card c-figure lift" href="figures.html">
