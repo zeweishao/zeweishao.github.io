@@ -54,7 +54,7 @@
 
     <section class="tea-layout" aria-label="奶茶机">
       <div class="tea-moods">
-        <h2>今天的心情贴纸 <span style="font-size: 13px; font-weight: 400; color: var(--ink-soft)">可多选</span></h2>
+        <h2>今天的心情贴纸</h2>
         <div class="mode-chips" id="modeChips" aria-label="今天想喝什么，可多选">
           <button class="is-active" type="button" data-mode="any" aria-pressed="true">随便摇</button>
           <button type="button" data-mode="fresh" aria-pressed="false">清爽</button>
@@ -70,11 +70,10 @@
           <button type="button" data-mode="citrus" aria-pressed="false">柚子</button>
           <button type="button" data-mode="bold" aria-pressed="false">浓一点</button>
         </div>
-        <p class="hint">不知道喝什么的时候，就随便摇。</p>
         <label class="infinite-toggle">
           <input type="checkbox" id="infiniteMode">
           <span class="toggle-track" aria-hidden="true"></span>
-          <span>无限换模式 <small style="color: var(--ink-soft)">（不喜欢就一直摇）</small></span>
+          <span>无限换模式</span>
         </label>
       </div>
 
@@ -96,12 +95,11 @@
           </div>
           <div class="machine-status" aria-hidden="true"><i></i><span>XUE · TEA</span></div>
           <button class="primary-tea-btn tea-draw-trigger" type="button" id="drawBtn" aria-label="摇一杯今天的奶茶">
-            <span>← 按这里
-摇一杯</span>
+            <span></span>
           </button>
           <img id="teaMachineProduct" alt="" hidden>
         </div>
-        <p class="brew-caption" id="brewCaption">按下红色按钮，摇一杯今天的奶茶。</p>
+        <p class="brew-caption" id="brewCaption"></p>
         <div class="tea-machine-secondary">
           <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">喝过的每一杯</button>
         </div>
@@ -116,8 +114,7 @@
           <span>水果</span>
           <span>奶香</span>
         </div>
-        <p class="hand">它会慢慢记住你喜欢什么。</p>
-        <button class="j-wavy" type="button" id="openLetterBtn">读一读做这台机器的原因</button>
+        <button class="j-wavy" type="button" id="openLetterBtn">给雪的话</button>
       </aside>
     </section>
 

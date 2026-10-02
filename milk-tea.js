@@ -657,7 +657,7 @@
     window.setTimeout(() => nodes.teaMachine.classList.remove("is-revealing"), 900);
 
     if (nodes.drawBtnLabel) {
-      nodes.drawBtnLabel.textContent = state.infinite ? "← 继续\n换一杯" : "← 再摇\n一杯";
+      nodes.drawBtnLabel.textContent = "";
     }
     nodes.drawBtn.disabled = false;
     if (nodes.redrawBtn) nodes.redrawBtn.disabled = false;
@@ -674,7 +674,7 @@
       }, index * step);
     });
     window.setTimeout(() => {
-      nodes.brewCaption.textContent = "按下红色按钮，摇一杯今天的奶茶。";
+      nodes.brewCaption.textContent = "";
       if (nodes.drawSequenceCaption && !nodes.drawSequence?.classList.contains("is-revealing")) {
         nodes.drawSequenceCaption.textContent = "正在唤醒今天的茶香。";
       }

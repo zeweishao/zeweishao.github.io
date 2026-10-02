@@ -96,7 +96,7 @@
     button.className = "j-companion";
     button.setAttribute("aria-label", "点我一下，弗洛洛会说话");
     button.innerHTML = `
-      <span class="j-companion-tip">点我一下</span>
+      <span class="j-companion-tip"></span>
       <img src="assets/journal/fluoluo.webp" alt="" width="96" height="96" decoding="async">
       <audio preload="none"><source src="videos/woele.mp3?v=20260726" type="audio/mpeg"></audio>
     `;
@@ -105,7 +105,7 @@
     const audio = $("audio", button);
     const idle = () => {
       button.classList.remove("is-speaking");
-      tip.textContent = "今天也要开心呀";
+      tip.textContent = "";
     };
     idle();
     button.addEventListener("click", async () => {
@@ -124,7 +124,7 @@
         button.classList.add("is-speaking");
         tip.textContent = "我饿了…";
       } catch {
-        tip.textContent = "再点一次";
+        tip.textContent = "";
       }
     });
     audio.addEventListener("ended", idle);

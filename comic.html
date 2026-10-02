@@ -18,34 +18,30 @@
   <div class="cursor-aura" id="cursorAura" aria-hidden="true"></div>
   <div class="page-progress" aria-hidden="true"><span id="pageProgressBar"></span></div>
 
-  <header class="comic-topbar" id="comicTopbar" aria-label="漫画馆主导航栏">
-    <a class="comic-brand" href="index.html" aria-label="返回属于我们的小世界">
-      <span class="comic-brand-sigil" aria-hidden="true"><i></i></span>
-      <span class="comic-brand-copy">
-        <strong>星轨漫画馆</strong>
-      </span>
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>属于我们的小世界</span>
     </a>
-
-    <nav class="comic-nav" aria-label="漫画馆导航">
-      <div class="comic-nav-links">
-        <a href="#world">世界</a>
-        <a href="#chapters">篇章</a>
-        <a href="#stories">故事</a>
-        <a href="#characters">人物</a>
-        <button type="button" data-open-reader="resume">继续阅读</button>
-      </div>
-      <details class="comic-menu">
-        <summary aria-label="打开导航"><span></span><span></span></summary>
-        <div class="comic-menu-panel">
-          <a href="index.html">返回小世界</a>
-          <a href="#world">世界档案</a>
-          <a href="#chapters">篇章轨道</a>
-          <a href="#stories">文字故事</a>
-          <a href="#characters">人物共鸣</a>
-          <button type="button" data-open-reader="resume">继续阅读</button>
-        </div>
-      </details>
+    <nav class="j-tabs" aria-label="主导航">
+      <a href="index.html">小家</a>
+      <a href="figures.html">小手办</a>
+      <a href="milk-tea.html">奶茶小屋</a>
+      <a href="messages.html">悄悄话</a>
+      <a href="albums.html">照片站</a>
+      <a class="is-active is-night" href="comic.html" aria-current="page">星轨漫画</a>
     </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
+        <a href="index.html">小家</a>
+        <a href="figures.html">小手办</a>
+        <a href="milk-tea.html">奶茶小屋</a>
+        <a href="messages.html">悄悄话</a>
+        <a href="albums.html">照片站</a>
+        <a class="is-active" aria-current="page" href="comic.html">星轨漫画</a>
+      </nav>
+    </details>
   </header>
 
   <main id="comicMain">
@@ -102,10 +98,6 @@
         </div>
       </div>
 
-      <a class="scroll-cue" href="#world">
-        <span>进入星轨层</span>
-        <i aria-hidden="true"></i>
-      </a>
     </section>
 
     <section class="world-section comic-section" id="world" aria-labelledby="worldTitle">
@@ -285,29 +277,6 @@
     </button>
   </footer>
 
-  <nav class="mobile-dock" aria-label="手机快捷导航">
-    <a href="#world" data-mobile-nav="world">
-      <i class="dock-icon dock-icon-world" aria-hidden="true"></i>
-      <span>世界</span>
-    </a>
-    <a href="#chapters" data-mobile-nav="chapters">
-      <i class="dock-icon dock-icon-chapters" aria-hidden="true"></i>
-      <span>篇章</span>
-    </a>
-    <button class="mobile-dock-read" type="button" data-open-reader="resume" aria-label="继续上次漫画阅读">
-      <i class="dock-icon dock-icon-read" aria-hidden="true"></i>
-      <span id="mobileReadLabel">阅读</span>
-    </button>
-    <a href="#stories" data-mobile-nav="stories">
-      <i class="dock-icon dock-icon-story" aria-hidden="true"></i>
-      <span>故事</span>
-    </a>
-    <a href="index.html">
-      <i class="dock-icon dock-icon-home" aria-hidden="true"></i>
-      <span>小世界</span>
-    </a>
-  </nav>
-
   <dialog class="comic-reader" id="comicReader" aria-labelledby="readerTitle">
     <div class="reader-shell">
       <header class="reader-topbar" aria-label="漫画阅读器工具栏">
@@ -329,7 +298,6 @@
         <div class="reader-intro">
           <p id="readerEyebrow">第一季《雪落纽约》／第一篇</p>
           <h2 id="readerIntroTitle">十二小时之外的新轨</h2>
-          <span>向下滑动开始阅读</span>
         </div>
         <div class="reader-pages" id="readerPages"></div>
         <div class="reader-finish">

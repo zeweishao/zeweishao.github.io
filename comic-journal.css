@@ -44,6 +44,149 @@ body.comic-page {
   opacity: 0.45;
 }
 
+/* ---------- site-wide index-tab navigation, night edition ---------- */
+
+.comic-page .topbar {
+  font-size: 16px;
+  position: relative;
+  z-index: 30;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 26px clamp(16px, 4vw, 40px) 0;
+  font-family: var(--font-body);
+}
+
+.comic-page .topbar::after {
+  content: "";
+  position: absolute;
+  left: clamp(16px, 4vw, 40px);
+  right: clamp(16px, 4vw, 40px);
+  bottom: 0;
+  border-bottom: 1px solid rgba(217, 185, 124, 0.6);
+}
+
+.comic-page .j-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 14px;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.comic-page .j-brand img {
+  width: 44px;
+  height: 44px;
+  transform: rotate(-8deg);
+}
+
+.comic-page .j-tabs {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.comic-page .j-tabs a {
+  padding: 10px 18px 9px;
+  border: 1px solid rgba(245, 238, 227, 0.18);
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  background: rgba(245, 238, 227, 0.08);
+  color: #c9cedb;
+  font-size: 15px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.comic-page .j-tabs a:hover {
+  transform: translateY(-3px);
+  color: var(--white);
+}
+
+.comic-page .j-tabs a.is-active {
+  background: var(--white);
+  color: #2c3a5e;
+  box-shadow: inset 0 -3px 0 var(--coral);
+}
+
+.comic-page .j-menu {
+  display: none;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.comic-page .j-menu summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1.5px solid var(--white);
+  border-radius: 4px;
+  color: var(--white);
+  cursor: pointer;
+  list-style: none;
+  font-size: 15px;
+}
+
+.comic-page .j-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.comic-page .j-menu-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% - 4px);
+  display: grid;
+  min-width: 190px;
+  padding: 10px;
+  background: #fbf6ec;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  transform: rotate(-1deg);
+}
+
+.comic-page .j-menu-panel a {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-bottom: 1px dashed #e3d8c6;
+  color: #2a2733;
+  text-decoration: none;
+}
+
+.comic-page .j-menu-panel a.is-active {
+  color: #b8473f;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .comic-page .j-tabs {
+    display: none;
+  }
+
+  .comic-page .j-menu {
+    display: block;
+  }
+
+  .comic-page .j-brand {
+    font-size: 16px;
+  }
+}
+
+/* the bar is no longer fixed, so the hero needs less top room */
+.comic-page .comic-hero {
+  padding-top: 48px;
+  min-height: auto;
+}
+
 /* wax-seal logo in the comic top bar */
 .comic-page .comic-brand-sigil {
   border: none;
@@ -245,9 +388,7 @@ body.comic-page {
   pointer-events: none;
 }
 
-.j-companion:hover .j-companion-tip,
-.j-companion.is-speaking .j-companion-tip,
-.j-companion:focus-visible .j-companion-tip {
+.j-companion.is-speaking .j-companion-tip {
   opacity: 1;
   transform: none;
 }

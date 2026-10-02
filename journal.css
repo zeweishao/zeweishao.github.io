@@ -489,9 +489,7 @@ body.journal {
   pointer-events: none;
 }
 
-.j-companion:hover .j-companion-tip,
-.j-companion.is-speaking .j-companion-tip,
-.j-companion:focus-visible .j-companion-tip {
+.j-companion.is-speaking .j-companion-tip {
   opacity: 1;
   transform: none;
 }
