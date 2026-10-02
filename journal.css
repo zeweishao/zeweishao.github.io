@@ -1941,3 +1941,423 @@ body.journal {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---------- 悄悄话 · letter stack ---------- */
+
+.journal .message-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px 34px;
+  align-items: start;
+}
+
+.journal .message-card {
+  --line-h: 36px;
+  position: relative;
+  padding: 30px 28px 24px;
+  background-color: var(--paper-3);
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 35px, rgba(44, 58, 94, 0.13) 35px, rgba(44, 58, 94, 0.13) 36px);
+  box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.journal .message-card:hover {
+  transform: rotate(0) translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+
+.journal .message-card::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 34px;
+  width: 84px;
+  height: 24px;
+  background: url("assets/journal/tape-blush.webp") center / 100% 100% no-repeat;
+  transform: rotate(-4deg);
+}
+
+.journal .message-card:nth-child(4n + 1) { transform: rotate(-1.4deg); }
+.journal .message-card:nth-child(4n + 2) { transform: rotate(1.2deg); margin-top: 28px; background-color: #f7e4de; }
+.journal .message-card:nth-child(4n + 3) { transform: rotate(0.8deg); background-color: #ffffff; }
+.journal .message-card:nth-child(4n) { transform: rotate(-0.8deg); margin-top: 28px; background-color: #eef0f5; }
+.journal .message-card:nth-child(3n + 2)::before { background-image: url("assets/journal/tape-navy.webp"); left: auto; right: 40px; transform: rotate(5deg); }
+.journal .message-card:nth-child(3n)::before { background-image: url("assets/journal/tape-gold.webp"); left: 45%; }
+
+.journal .message-card:first-child::after {
+  content: "最新";
+  position: absolute;
+  right: 18px;
+  top: 14px;
+  padding: 10px 8px;
+  border: 2px solid var(--rose);
+  border-radius: 50%;
+  color: var(--rose);
+  font-size: 13px;
+  transform: rotate(-12deg);
+}
+
+.journal .message-role {
+  margin: 0;
+  line-height: 36px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.journal .message-text {
+  margin: 0;
+  font-family: var(--hand);
+  font-size: 22px;
+  line-height: 36px;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.journal .message-text.collapsed {
+  max-height: 144px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
+  mask-image: linear-gradient(to bottom, #000 70%, transparent);
+}
+
+.journal .message-expand {
+  min-height: 40px;
+  padding: 6px 0;
+  border: none;
+  background: none;
+  color: var(--rose);
+  font-size: 14px;
+  text-decoration: underline wavy;
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+
+.journal .empty {
+  color: var(--ink-soft);
+  font-family: var(--hand);
+  font-size: 21px;
+}
+
+@media (max-width: 760px) {
+  .journal .message-board {
+    grid-template-columns: 1fr;
+  }
+
+  .journal .message-card:nth-child(n) {
+    margin-top: 0;
+  }
+}
+
+/* ---------- 照片站 · film + polaroid wall ---------- */
+
+.film-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+
+.film-strip {
+  position: relative;
+  padding: 26px 22px;
+  background: var(--ink);
+  box-shadow: 0 8px 26px rgba(42, 39, 51, 0.22);
+  transform: rotate(-1deg);
+}
+
+.film-strip::before,
+.film-strip::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-image: repeating-linear-gradient(to right, transparent 0, transparent 10px, var(--paper) 10px, var(--paper) 22px, transparent 22px, transparent 30px);
+}
+
+.film-strip::before { top: 8px; }
+.film-strip::after { bottom: 8px; }
+
+.film-strip video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  object-fit: cover;
+}
+
+.film-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.film-copy h3 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.tag-stamp {
+  align-self: flex-start;
+  padding: 3px 12px;
+  border: 1.5px solid var(--rose);
+  border-radius: 3px;
+  color: var(--rose);
+  font-size: 13px;
+  letter-spacing: 3px;
+  transform: rotate(-3deg);
+}
+
+.polaroid-wall {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 46px 34px;
+  align-items: start;
+}
+
+.journal .memory-photo {
+  position: relative;
+  margin: 0;
+  padding: 12px 12px 46px;
+  background: #fff;
+  box-shadow: 0 5px 16px rgba(42, 39, 51, 0.14);
+  cursor: zoom-in;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.journal .memory-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.journal .memory-photo figcaption {
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  font-family: var(--num);
+  font-style: italic;
+  color: var(--brass);
+}
+
+.journal .memory-photo::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: -11px;
+  left: 50%;
+  width: 76px;
+  height: 22px;
+  margin-left: -38px;
+  background: url("assets/journal/tape-blush.webp") center / 100% 100% no-repeat;
+}
+
+.journal .memory-photo:nth-child(6n + 1) { transform: rotate(-3deg); }
+.journal .memory-photo:nth-child(6n + 2) { transform: rotate(2deg); margin-top: 30px; }
+.journal .memory-photo:nth-child(6n + 3) { transform: rotate(-1.5deg); }
+.journal .memory-photo:nth-child(6n + 4) { transform: rotate(3deg); }
+.journal .memory-photo:nth-child(6n + 5) { transform: rotate(-2deg); margin-top: 30px; }
+.journal .memory-photo:nth-child(6n) { transform: rotate(1.5deg); }
+.journal .memory-photo:nth-child(3n + 2)::before { background-image: url("assets/journal/tape-navy.webp"); }
+.journal .memory-photo:nth-child(3n)::before { background-image: url("assets/journal/tape-gold.webp"); }
+
+.journal .memory-photo:hover {
+  z-index: 2;
+  transform: rotate(0) scale(1.03);
+  box-shadow: var(--shadow-lift);
+}
+
+.journal .memory-lightbox {
+  max-width: min(640px, 92vw);
+  padding: 18px 18px 26px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  overflow: visible;
+}
+
+.journal .memory-lightbox::backdrop {
+  background: rgba(42, 39, 51, 0.72);
+}
+
+.journal .memory-lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 76vh;
+  margin: 0 auto;
+}
+
+.journal .memory-lightbox button {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .film-row {
+    grid-template-columns: 1fr;
+  }
+
+  .polaroid-wall {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 34px 20px;
+  }
+
+  .journal .memory-photo:nth-child(n) {
+    margin-top: 0;
+  }
+}
+
+/* ---------- 小手办 · collection album ---------- */
+
+.figure-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 56px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.figure-polaroid {
+  position: relative;
+  justify-self: center;
+  width: min(340px, 100%);
+  padding: 16px 16px 64px;
+  background: #fff;
+  box-shadow: 0 8px 26px rgba(42, 39, 51, 0.16);
+  transform: rotate(-2.5deg);
+}
+
+.figure-polaroid .stage {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 340px;
+  background: radial-gradient(circle at 50% 70%, #fbf1e2 0, var(--paper-2) 70%);
+}
+
+.figure-polaroid .stage img {
+  height: 92%;
+  width: auto;
+  max-width: none;
+  image-rendering: auto;
+  filter: drop-shadow(0 8px 10px rgba(42, 39, 51, 0.2));
+}
+
+.figure-polaroid .name {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+  font-family: var(--hand);
+  font-size: 26px;
+}
+
+.figure-polaroid .no {
+  position: absolute;
+  right: 20px;
+  bottom: 22px;
+  font-family: var(--num);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--brass);
+}
+
+.figure-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.figure-copy h2 {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 60px);
+  line-height: 1.1;
+}
+
+.figure-quote {
+  --line-h: 40px;
+  margin: 0;
+  padding: 22px 26px;
+  box-shadow: var(--shadow);
+  font-family: var(--hand);
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.journal .figure-curation-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 26px 20px;
+}
+
+.journal .figure-curation-card {
+  position: relative;
+  padding: 10px 10px 12px;
+  background: #fff;
+  border: 2px dotted #c9b79a;
+  box-shadow: 0 3px 10px rgba(42, 39, 51, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.journal .figure-curation-card:nth-child(6n + 1) { transform: rotate(-2deg); }
+.journal .figure-curation-card:nth-child(6n + 2) { transform: rotate(1.5deg); }
+.journal .figure-curation-card:nth-child(6n + 3) { transform: rotate(-1deg); }
+.journal .figure-curation-card:nth-child(6n + 4) { transform: rotate(2.5deg); }
+.journal .figure-curation-card:nth-child(6n + 5) { transform: rotate(-1.5deg); }
+.journal .figure-curation-card:nth-child(6n) { transform: rotate(1deg); }
+
+.journal .figure-curation-card:hover,
+.journal .figure-curation-card.is-picked {
+  transform: rotate(0) translateY(-4px);
+  border-color: var(--rose);
+  box-shadow: 0 0 0 3px var(--blush), var(--shadow-lift);
+}
+
+.journal .figure-curation-art {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 130px;
+  background: var(--paper-3);
+}
+
+.journal .figure-curation-art img {
+  height: 92%;
+  width: auto;
+}
+
+.journal .figure-curation-orbit,
+.journal .figure-curation-plinth {
+  display: none;
+}
+
+.journal .figure-curation-card-copy h3 {
+  margin: 8px 0 0;
+  font-size: 15px;
+}
+
+.journal .figure-curation-card-copy p {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .figure-feature {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .journal .figure-curation-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

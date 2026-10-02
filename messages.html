@@ -1,70 +1,63 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>给雪的小世界 - 悄悄话</title>
-  <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=20260728">
-  <link rel="stylesheet" href="archive-theme.css?v=20260728">
-  <link rel="stylesheet" href="orbit-refresh.css?v=20260728">
-  <link rel="stylesheet" href="motion-system.css?v=20260728">
+  <meta name="theme-color" content="#f5eee3">
+  <title>悄悄话｜属于我们的小世界</title>
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="stylesheet" href="journal.css?v=20261002">
 </head>
-<body class="figure-site sub-page message-page">
-  <div class="bg-aura bg-aura-one"></div>
-  <div class="bg-aura bg-aura-two"></div>
-  <div class="bg-stars" aria-hidden="true"></div>
-
-  <header class="site-topbar topbar orbit-topbar">
-    <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
-      <span>
-        <strong>属于我们的小世界</strong>
-      </span>
+<body class="journal sub-page">
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>属于我们的小世界</span>
     </a>
-    <nav class="site-nav top-nav" aria-label="主导航">
-      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+    <nav class="j-tabs" aria-label="主导航">
+      <a href="index.html">小家</a>
+      <a href="figures.html">小手办</a>
+      <a href="milk-tea.html">奶茶小屋</a>
+      <a class="is-active" href="messages.html" aria-current="page">悄悄话</a>
+      <a href="albums.html">照片站</a>
+      <a class="is-night" href="comic.html">星轨漫画</a>
+    </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
         <a href="index.html">小家</a>
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
-        <a class="is-active" href="messages.html" aria-current="page">悄悄话</a>
+        <a class="is-active" aria-current="page" href="messages.html">悄悄话</a>
         <a href="albums.html">照片站</a>
-        <a href="comic.html">漫画站</a>
-      </div>
-      <details class="site-menu menu-dropdown">
-        <summary class="site-menu-toggle menu-toggle">
-          <span class="menu-icon" aria-hidden="true">≡</span>
-          <span>导航</span>
-          <span class="menu-caret" aria-hidden="true">▾</span>
-        </summary>
-        <div class="site-menu-panel menu-panel">
-          <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a class="active" href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
-          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
-          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
-        </div>
-      </details>
-    </nav>
+        <a href="comic.html">星轨漫画</a>
+      </nav>
+    </details>
   </header>
 
-  <main class="site-main page-shell">
-    <section class="site-section hero-block hero-compact">
-      <h1>有些话，只在这里<em>轻声抵达。</em></h1>
+  <main class="j-wrap">
+    <section class="j-page-head" aria-labelledby="msgTitle">
+      <img class="sticker" src="assets/journal/sticker-letter.webp" alt="" style="left: min(220px, 55%); top: 26px; transform: rotate(-8deg)">
+      <p class="eyebrow">whispers</p>
+      <h1 id="msgTitle">悄悄话</h1>
+      <p class="sub">有些话，只在这里轻声抵达。</p>
     </section>
 
-    <section class="site-section panel archive-panel">
-      <div class="archive-panel-heading">
-        <div><h2>写给雪的话</h2></div>
+    <section aria-labelledby="boardTitle" style="margin-top: 36px">
+      <div class="j-section-head">
+        <h2 id="boardTitle">写给雪的话</h2>
+        <span class="hand">一张一张贴在信箱里</span>
       </div>
-      <div id="messageList" class="list-grid message-board"></div>
+      <div id="messageList" class="message-board"></div>
     </section>
+
+    <footer class="j-footer">
+      <span class="hand">我一直在这里。</span>
+      <span class="num">whispers · isnow.life</span>
+    </footer>
   </main>
 
   <script src="app.js"></script>
-  <script src="motion-system.js?v=20260728"></script>
+  <script src="journal.js?v=20261002"></script>
 </body>
 </html>
-
-

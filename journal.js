@@ -130,7 +130,31 @@
     audio.addEventListener("ended", idle);
   };
 
+
+  // 小手办: tapping a stamp in the album brings that figure out to the feature card.
+  const initFigurePicker = () => {
+    const rail = $("#figureCharacterRail");
+    const feature = $("#figureFeature");
+    if (!rail || !feature) return;
+    rail.addEventListener("click", (event) => {
+      const card = event.target.closest(".figure-curation-card");
+      if (!card) return;
+      const img = $("img", card);
+      const name = $("h3", card)?.textContent || "";
+      const quote = $("p", card)?.textContent || "";
+      feature.querySelectorAll("[data-fig='name']").forEach((node) => { node.textContent = name; });
+      const fq = $("[data-fig='quote']", feature);
+      if (fq) fq.textContent = quote;
+      const fi = $("[data-fig='img']", feature);
+      if (fi && img) { fi.src = img.src; fi.alt = img.alt; }
+      rail.querySelectorAll(".is-picked").forEach((node) => node.classList.remove("is-picked"));
+      card.classList.add("is-picked");
+      feature.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  };
+
   initClocks();
+  initFigurePicker();
   initMenus();
   initTeaCard();
   initComicCard();

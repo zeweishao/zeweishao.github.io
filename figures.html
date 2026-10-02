@@ -3,75 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050a14">
-  <meta name="description" content="属于我们的小世界 · 小手办陈列馆。">
+  <meta name="theme-color" content="#f5eee3">
   <title>小手办陈列馆｜属于我们的小世界</title>
-  <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=20260728">
-  <link rel="stylesheet" href="archive-theme.css?v=20260728">
-  <link rel="stylesheet" href="orbit-refresh.css?v=20260728">
-  <link rel="stylesheet" href="motion-system.css?v=20260728">
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="stylesheet" href="journal.css?v=20261002">
 </head>
-<body class="figure-site sub-page figures-page">
-  <div class="orbit-grain" aria-hidden="true"></div>
-
-  <header class="site-topbar topbar orbit-topbar">
-    <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
-      <span>
-        <strong>属于我们的小世界</strong>
-      </span>
+<body class="journal sub-page">
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>属于我们的小世界</span>
     </a>
-    <nav class="site-nav top-nav" aria-label="主导航">
-      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+    <nav class="j-tabs" aria-label="主导航">
+      <a href="index.html">小家</a>
+      <a class="is-active" href="figures.html" aria-current="page">小手办</a>
+      <a href="milk-tea.html">奶茶小屋</a>
+      <a href="messages.html">悄悄话</a>
+      <a href="albums.html">照片站</a>
+      <a class="is-night" href="comic.html">星轨漫画</a>
+    </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
         <a href="index.html">小家</a>
-        <a class="is-active" href="figures.html" aria-current="page">小手办</a>
+        <a class="is-active" aria-current="page" href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a href="messages.html">悄悄话</a>
         <a href="albums.html">照片站</a>
-        <a href="comic.html">漫画站</a>
-      </div>
-      <details class="site-menu menu-dropdown">
-        <summary class="site-menu-toggle menu-toggle">
-          <span class="menu-icon" aria-hidden="true">≡</span>
-          <span>导航</span>
-          <span class="menu-caret" aria-hidden="true">▾</span>
-        </summary>
-        <div class="site-menu-panel menu-panel">
-          <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a class="active" href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
-          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
-        </div>
-      </details>
-    </nav>
+        <a href="comic.html">星轨漫画</a>
+      </nav>
+    </details>
   </header>
 
-  <main class="site-main figure-curation-shell">
-    <section class="figure-curation-hero" aria-labelledby="figureGalleryTitle">
-      <div class="figure-curation-copy">
-        <h1 id="figureGalleryTitle">把喜欢的人物，<br><em>放在不会熄灭的光里。</em></h1>
-      </div>
+  <main class="j-wrap">
+    <section class="j-page-head" aria-labelledby="figureGalleryTitle">
+      <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="left: min(330px, 62%); top: 14px; transform: rotate(8deg)">
+      <p class="eyebrow">figure collection</p>
+      <h1 id="figureGalleryTitle">小手办陈列馆</h1>
+      <p class="sub">把喜欢的人物，放在不会熄灭的光里。</p>
+    </section>
 
-      <div class="figure-curation-feature" aria-label="本馆主陈列">
-        <div class="figure-feature-aura" aria-hidden="true"></div>
-        <img src="assets/figure-story/characters/wiki/31-优纪.png" alt="优纪手办">
-        <div>
-          <strong>优纪</strong>
-          <p>如果你偶尔忘了自己有多值得被珍惜，就看着我；我会一遍一遍说给你听。</p>
-        </div>
+    <section class="figure-feature" aria-label="今日陪伴" id="figureFeature">
+      <div class="figure-polaroid">
+        <span class="tape" style="top: -14px; left: 34px; transform: rotate(-6deg)"></span>
+        <span class="tape gold" style="top: -12px; right: 30px; width: 80px; transform: rotate(8deg)"></span>
+        <div class="stage"><img data-fig="img" src="assets/figure-story/characters/wiki/31-优纪.png" alt="优纪手办"></div>
+        <span class="name" data-fig="name">优纪</span>
+        <span class="no">today</span>
+      </div>
+      <div class="figure-copy">
+        <span class="tag-stamp">今日陪伴</span>
+        <h2 data-fig="name">优纪</h2>
+        <p class="figure-quote lined" data-fig="quote">如果你偶尔忘了自己有多值得被珍惜，就看着我；我会一遍一遍说给你听。</p>
+        <p class="hand" style="margin: 0; font-size: 20px; color: var(--ink-soft)">在下面的收藏册里点一位，请她出来陪你。</p>
       </div>
     </section>
 
-    <section class="figure-curation-section" aria-label="小手办陈列">
+    <section aria-labelledby="albumHead" style="margin-top: 80px">
+      <div class="j-section-head" style="border-bottom: 1px dashed var(--brass); padding-bottom: 14px">
+        <h2 id="albumHead">收藏册</h2>
+        <span class="hand">一张邮票一位朋友</span>
+      </div>
       <div class="figure-curation-grid" id="figureCharacterRail"></div>
     </section>
+
+    <footer class="j-footer">
+      <span class="hand">她们都在光里等你。</span>
+      <span class="num">figure collection · isnow.life</span>
+    </footer>
   </main>
 
   <script src="app.js"></script>
   <script src="figure-story.js"></script>
-  <script src="motion-system.js?v=20260728"></script>
+  <script src="journal.js?v=20261002"></script>
 </body>
 </html>

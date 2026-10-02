@@ -3,85 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050b16">
-  <meta name="description" content="属于我们的小世界 · 照片与回忆影像。">
-  <title>回忆星图｜属于我们的小世界</title>
-  <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=20260728">
-  <link rel="stylesheet" href="archive-theme.css?v=20260728">
-  <link rel="stylesheet" href="orbit-refresh.css?v=20260728">
-  <link rel="stylesheet" href="motion-system.css?v=20260728">
+  <meta name="theme-color" content="#f5eee3">
+  <title>照片站｜属于我们的小世界</title>
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="stylesheet" href="journal.css?v=20261002">
 </head>
-<body class="figure-site sub-page albums-page">
-  <div class="orbit-grain" aria-hidden="true"></div>
-
-  <header class="site-topbar topbar orbit-topbar">
-    <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
-      <span>
-        <strong>属于我们的小世界</strong>
-      </span>
+<body class="journal sub-page">
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>属于我们的小世界</span>
     </a>
-    <nav class="site-nav top-nav" aria-label="主导航">
-      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+    <nav class="j-tabs" aria-label="主导航">
+      <a href="index.html">小家</a>
+      <a href="figures.html">小手办</a>
+      <a href="milk-tea.html">奶茶小屋</a>
+      <a href="messages.html">悄悄话</a>
+      <a class="is-active" href="albums.html" aria-current="page">照片站</a>
+      <a class="is-night" href="comic.html">星轨漫画</a>
+    </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
         <a href="index.html">小家</a>
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a href="messages.html">悄悄话</a>
-        <a class="is-active" href="albums.html" aria-current="page">照片站</a>
-        <a href="comic.html">漫画站</a>
-      </div>
-      <details class="site-menu menu-dropdown">
-        <summary class="site-menu-toggle menu-toggle">
-          <span class="menu-icon" aria-hidden="true">≡</span>
-          <span>导航</span>
-          <span class="menu-caret" aria-hidden="true">▾</span>
-        </summary>
-        <div class="site-menu-panel menu-panel">
-          <a href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
-          <a class="active" href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
-          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
-        </div>
-      </details>
-    </nav>
+        <a class="is-active" aria-current="page" href="albums.html">照片站</a>
+        <a href="comic.html">星轨漫画</a>
+      </nav>
+    </details>
   </header>
 
-  <main class="memory-shell">
-    <section class="memory-hero">
-      <h1>时间没有停下，<br><em>但那些光还在。</em></h1>
-      <div class="memory-hero-line" aria-hidden="true"><span></span><i></i></div>
+  <main class="j-wrap">
+    <section class="j-page-head" aria-labelledby="albumTitle">
+      <img class="sticker" src="assets/journal/sticker-photo.webp" alt="" style="left: min(440px, 62%); top: 18px; transform: rotate(8deg)">
+      <p class="eyebrow">memory album</p>
+      <h1 id="albumTitle">时间没有停下，<br>但那些光还在。</h1>
     </section>
 
-    <section class="memory-film-section" aria-labelledby="memoryFilmTitle">
-      <div class="orbit-section-heading">
-        <div><h2 id="memoryFilmTitle">影像</h2></div>
+    <section aria-labelledby="filmTitle" style="margin-top: 50px">
+      <div class="j-section-head">
+        <h2 id="filmTitle">影像</h2>
+        <span class="hand">一卷会动的回忆</span>
       </div>
-      <div class="memory-film-grid">
-        <article class="memory-film-card memory-film-primary">
-          <div class="memory-film-frame">
-            <video controls preload="metadata" playsinline poster="photos/birthday-video-poster.webp">
-              <source src="videos/shengrikuaile.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div><h3>生日快乐</h3></div>
-        </article>
+      <div class="film-row">
+        <div class="film-strip">
+          <video controls preload="metadata" playsinline poster="photos/birthday-video-poster.webp">
+            <source src="videos/shengrikuaile.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="film-copy">
+          <span class="tag-stamp">影像</span>
+          <h3>生日快乐</h3>
+          <p class="hand" style="margin: 0; font-size: 24px; color: var(--rose)">按下播放，再过一次那天。</p>
+        </div>
       </div>
     </section>
 
-    <section class="memory-photo-section" aria-labelledby="memoryPhotoTitle">
-      <div class="orbit-section-heading">
-        <div><h2 id="memoryPhotoTitle">照片</h2></div>
+    <section aria-labelledby="photoTitle" style="margin-top: 80px">
+      <div class="j-section-head">
+        <h2 id="photoTitle">照片墙</h2>
+        <span class="hand">点一张，把它拿近一点看</span>
       </div>
-      <div class="memory-photo-grid">
-        <figure class="memory-photo memory-photo-tall"><img src="photos/1.jpg" alt="回忆照片一" loading="lazy" decoding="async"></figure>
-        <figure class="memory-photo"><img src="photos/2.jpg" alt="回忆照片二" loading="lazy" decoding="async"></figure>
-        <figure class="memory-photo memory-photo-wide"><img src="photos/3.jpg" alt="回忆照片三" loading="lazy" decoding="async"></figure>
-        <figure class="memory-photo memory-photo-wide"><img src="photos/4.jpg" alt="回忆照片四" loading="lazy" decoding="async"></figure>
-        <figure class="memory-photo"><img src="photos/5.jpg" alt="回忆照片五" loading="lazy" decoding="async"></figure>
-        <figure class="memory-photo memory-photo-tall"><img src="photos/6.jpg" alt="回忆照片六" loading="lazy" decoding="async"></figure>
+      <div class="polaroid-wall">
+        <figure class="memory-photo"><img src="photos/1.jpg" alt="回忆照片一" loading="lazy" decoding="async"><figcaption>No. 01</figcaption></figure>
+        <figure class="memory-photo"><img src="photos/2.jpg" alt="回忆照片二" loading="lazy" decoding="async"><figcaption>No. 02</figcaption></figure>
+        <figure class="memory-photo"><img src="photos/3.jpg" alt="回忆照片三" loading="lazy" decoding="async"><figcaption>No. 03</figcaption></figure>
+        <figure class="memory-photo"><img src="photos/4.jpg" alt="回忆照片四" loading="lazy" decoding="async"><figcaption>No. 04</figcaption></figure>
+        <figure class="memory-photo"><img src="photos/5.jpg" alt="回忆照片五" loading="lazy" decoding="async"><figcaption>No. 05</figcaption></figure>
+        <figure class="memory-photo"><img src="photos/6.jpg" alt="回忆照片六" loading="lazy" decoding="async"><figcaption>No. 06</figcaption></figure>
       </div>
     </section>
 
@@ -89,6 +80,11 @@
       <button type="button" aria-label="关闭照片预览">×</button>
       <img alt="">
     </dialog>
+
+    <footer class="j-footer">
+      <span class="hand">那些光还在。</span>
+      <span class="num">memory album · isnow.life</span>
+    </footer>
   </main>
 
   <script src="app.js"></script>
@@ -110,6 +106,6 @@
       });
     })();
   </script>
-  <script src="motion-system.js?v=20260728"></script>
+  <script src="journal.js?v=20261002"></script>
 </body>
 </html>
