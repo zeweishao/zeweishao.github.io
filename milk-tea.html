@@ -130,64 +130,57 @@
 
   <section class="result-modal" id="resultModal" aria-labelledby="productName" aria-modal="true" role="dialog" hidden>
     <div class="modal-backdrop" data-close-result></div>
-      <article class="recommend-card" id="recommendCard">
-        <button class="modal-close" type="button" aria-label="关闭推荐卡片" data-close-result>×</button>
-        <div class="card-ambient" aria-hidden="true"></div>
+    <article class="recommend-card" id="recommendCard">
+      <button class="modal-close" type="button" aria-label="关闭推荐卡片" data-close-result>×</button>
+
+      <div class="receipt-visual">
+        <span class="tape" style="top: -12px; left: 50%; width: 100px; margin-left: -50px; transform: rotate(-3deg)"></span>
+        <span class="match-pill" id="matchPill">今日适合</span>
+        <div class="product-visual" id="productVisual" aria-label="奶茶产品视觉">
+          <img class="real-product-img" id="realProductImg" alt="">
+          <div class="product-cup" hidden>
+            <div class="product-toppings" id="productToppings"></div>
+            <div class="product-label" id="cupBrandLabel">TEA</div>
+          </div>
+        </div>
+        <p class="receipt-date num">today's cup</p>
+      </div>
+
+      <div class="receipt-body">
         <div class="card-head">
           <div class="brand-lockup">
             <div class="brand-logo" id="brandLogo">TEA</div>
-            <div>
-              <p id="brandName">品牌</p>
-              <strong id="productName">等待抽取</strong>
-            </div>
+            <p id="brandName">品牌</p>
           </div>
-          <span class="match-pill" id="matchPill">今日适合</span>
-        </div>
-
-        <div class="product-visual" id="productVisual" aria-label="奶茶产品视觉">
-          <div class="product-halo"></div>
-          <img class="real-product-img" id="realProductImg" alt="">
-          <div class="product-cup">
-            <div class="product-lid"></div>
-            <div class="product-drink"></div>
-            <div class="product-foam"></div>
-            <div class="product-toppings" id="productToppings"></div>
-            <div class="product-shine"></div>
-            <div class="product-label" id="cupBrandLabel">TEA</div>
-          </div>
-          <div class="product-shadow"></div>
+          <strong id="productName">等待抽取</strong>
+          <p class="category-line" id="productCategory">分类</p>
         </div>
 
         <div class="product-meta">
-          <p class="category-line" id="productCategory">分类</p>
           <div class="tag-row" id="tagRow"></div>
           <div class="suggestion-grid">
-            <div>
-              <span>建议糖度</span>
-              <strong id="sugarText">少糖</strong>
-            </div>
-            <div>
-              <span>建议冰量</span>
-              <strong id="iceText">少冰</strong>
-            </div>
+            <div><span>建议糖度</span><strong id="sugarText">少糖</strong></div>
+            <div><span>建议冰量</span><strong id="iceText">少冰</strong></div>
           </div>
-          <p class="reason-text" id="reasonText">轻轻摇一摇，等它替雪挑一杯。</p>
+          <p class="reason-text" id="reasonText"></p>
         </div>
 
-        <div class="feedback-panel" aria-label="反馈">
-          <div class="feedback-buttons">
-            <button type="button" data-feedback="love">今天就喝这个</button>
-            <button type="button" data-feedback="like">先收藏这杯</button>
-            <button type="button" data-feedback="meh">有点犹豫</button>
-            <button type="button" data-feedback="nope">不想喝它</button>
+        <div class="receipt-actions">
+          <div class="feedback-panel" aria-label="反馈">
+            <div class="feedback-buttons">
+              <button type="button" data-feedback="love">今天就喝这个</button>
+              <button type="button" data-feedback="like">先收藏这杯</button>
+              <button type="button" data-feedback="meh">有点犹豫</button>
+              <button type="button" data-feedback="nope">不想喝它</button>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="secondary-tea-btn" type="button" id="redrawBtn">再摇一杯</button>
+            <button class="ghost-tea-btn" type="button" id="openHistoryBtnCard">历史记录</button>
           </div>
         </div>
-
-        <div class="card-actions">
-          <button class="secondary-tea-btn" type="button" id="redrawBtn">再摇一杯</button>
-          <button class="ghost-tea-btn" type="button" id="openHistoryBtnCard">历史记录</button>
-        </div>
-      </article>
+      </div>
+    </article>
   </section>
 
   <section class="history-modal" id="historyModal" aria-labelledby="historyTitle" aria-modal="true" role="dialog" hidden>

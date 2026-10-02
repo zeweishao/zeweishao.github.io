@@ -30,19 +30,17 @@
   };
 
   const TEA_VISUAL_ASSETS = {
-    milk: "assets/milk-tea/generated/tea-orbit-milk-v1.jpg",
-    fruit: "assets/milk-tea/generated/tea-orbit-fruit-v1.jpg",
-    grape: "assets/milk-tea/generated/tea-orbit-grape-v1.jpg",
-    botanical: "assets/milk-tea/generated/tea-orbit-botanical-v1.jpg"
+    milk: "assets/milk-tea/journal/milk.webp",
+    fruit: "assets/milk-tea/journal/fruit.webp",
+    grape: "assets/milk-tea/journal/grape.webp",
+    botanical: "assets/milk-tea/journal/botanical.webp",
+    peach: "assets/milk-tea/journal/peach.webp",
+    mango: "assets/milk-tea/journal/mango.webp",
+    brownSugar: "assets/milk-tea/journal/brown-sugar.webp",
+    strawberry: "assets/milk-tea/journal/strawberry.webp"
   };
 
-  const TEA_DRAW_VISUAL_ASSETS = [
-    ...Object.values(TEA_VISUAL_ASSETS),
-    "assets/milk-tea/generated/tea-orbit-peach-v1.jpg",
-    "assets/milk-tea/generated/tea-orbit-mango-v1.jpg",
-    "assets/milk-tea/generated/tea-orbit-brown-sugar-v1.jpg",
-    "assets/milk-tea/generated/tea-orbit-strawberry-v1.jpg"
-  ];
+  const TEA_DRAW_VISUAL_ASSETS = Object.values(TEA_VISUAL_ASSETS);
 
   const state = {
     products: [],
@@ -128,9 +126,18 @@
     if (topping === "grape" || topping === "cream" || /葡萄|青提|芝士/.test(flavorText)) {
       return TEA_VISUAL_ASSETS.grape;
     }
+    if (topping === "strawberry" || topping === "berry" || /草莓|莓/.test(flavorText)) {
+      return TEA_VISUAL_ASSETS.strawberry;
+    }
+    if (topping === "mango" || /芒果/.test(flavorText)) {
+      return TEA_VISUAL_ASSETS.mango;
+    }
+    if (/桃/.test(flavorText)) {
+      return TEA_VISUAL_ASSETS.peach;
+    }
     if (
-      ["fruit", "orange", "mango", "lemon", "lychee", "watermelon", "pear", "passionfruit", "strawberry", "berry"].includes(topping) ||
-      /水果|果茶|桃|橙|柚|芒果|荔枝|西瓜|草莓|莓|梨/.test(flavorText)
+      ["fruit", "orange", "lemon", "lychee", "watermelon", "pear", "passionfruit"].includes(topping) ||
+      /水果|果茶|橙|柚|荔枝|西瓜|梨|柠檬|百香果/.test(flavorText)
     ) {
       return TEA_VISUAL_ASSETS.fruit;
     }
@@ -139,6 +146,9 @@
       /花香|茉莉|桂花|兰香|山茶花|栀子|抹茶|绿茶|轻乳茶/.test(flavorText)
     ) {
       return TEA_VISUAL_ASSETS.botanical;
+    }
+    if (topping === "brown-sugar" || /黑糖|红糖|脏脏|焦糖|波波/.test(flavorText)) {
+      return TEA_VISUAL_ASSETS.brownSugar;
     }
     return TEA_VISUAL_ASSETS.milk;
   };
@@ -416,7 +426,7 @@
     nodes.productVisual.style.setProperty("--visual-accent", visual.accent || "#8abcae");
     nodes.productVisual.style.setProperty("--visual-liquid", visual.liquid || "#d4b983");
     nodes.realProductImg.src = productVisualAsset(product);
-    nodes.realProductImg.alt = `${product.name}的风味氛围图`;
+    nodes.realProductImg.alt = `${product.name}`;
     nodes.productVisual.classList.add("has-real-image");
     nodes.productToppings.innerHTML = buildToppings(visual.topping, visual.accent || "#8abcae");
     nodes.tagRow.innerHTML = (product.tags || [])
