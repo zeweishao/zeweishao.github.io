@@ -1,97 +1,146 @@
 <!doctype html>
-<html lang="zh-CN" class="home-doc">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050b16">
-  <meta name="description" content="属于我们的私人星轨，一座收藏日常、喜欢与故事的小世界。">
+  <meta name="theme-color" content="#f5eee3">
+  <meta name="description" content="属于我们的小世界：一本两个人轮流写的星轨手账。">
   <title>属于我们的小世界</title>
-  <link rel="icon" href="data:,">
-  <link rel="preload" as="image" href="assets/love-world/home-orbit-hero-v4.webp" type="image/webp">
-  <link rel="stylesheet" href="style.css?v=20260728">
-  <link rel="stylesheet" href="archive-theme.css?v=20260728">
-  <link rel="stylesheet" href="orbit-refresh.css?v=20260728">
-  <link rel="stylesheet" href="motion-system.css?v=20260728">
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/journal/home-spread.webp" type="image/webp">
+  <link rel="stylesheet" href="journal.css?v=20261002">
 </head>
-<body class="figure-site home-page">
-  <div class="orbit-grain" aria-hidden="true"></div>
-
-  <header class="site-topbar topbar orbit-topbar">
-    <a class="site-brand brand figure-brand" href="index.html">
-      <span class="site-brand-mark brand-badge figure-brand-badge orbit-brand-sigil" aria-hidden="true"><i></i></span>
-      <span>
-        <strong>属于我们的小世界</strong>
-      </span>
+<body class="journal home-page">
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>属于我们的小世界</span>
     </a>
-    <nav class="site-nav top-nav" aria-label="主导航">
-      <div class="site-nav-tabs figure-nav-tabs" aria-label="小世界入口">
+    <nav class="j-tabs" aria-label="主导航">
+      <a class="is-active" href="index.html" aria-current="page">小家</a>
+      <a href="figures.html">小手办</a>
+      <a href="milk-tea.html">奶茶小屋</a>
+      <a href="messages.html">悄悄话</a>
+      <a href="albums.html">照片站</a>
+      <a class="is-night" href="comic.html">星轨漫画</a>
+    </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
         <a class="is-active" href="index.html" aria-current="page">小家</a>
         <a href="figures.html">小手办</a>
         <a href="milk-tea.html">奶茶小屋</a>
         <a href="messages.html">悄悄话</a>
         <a href="albums.html">照片站</a>
-        <a href="comic.html">漫画站</a>
-      </div>
-      <details class="site-menu menu-dropdown">
-        <summary class="site-menu-toggle menu-toggle">
-          <span class="menu-icon" aria-hidden="true">≡</span>
-          <span>导航</span>
-          <span class="menu-caret" aria-hidden="true">▾</span>
-        </summary>
-        <div class="site-menu-panel menu-panel">
-          <a class="active" href="index.html"><span aria-hidden="true">⌂</span><span>首页</span></a>
-          <a href="figures.html"><span aria-hidden="true">◇</span><span>小手办</span></a>
-          <a href="milk-tea.html"><span aria-hidden="true">☕</span><span>奶茶小屋</span></a>
-          <a href="messages.html"><span aria-hidden="true">✉</span><span>悄悄话</span></a>
-          <a href="albums.html"><span aria-hidden="true">▦</span><span>照片站</span></a>
-          <a href="comic.html"><span aria-hidden="true">✦</span><span>漫画站</span></a>
-        </div>
-      </details>
-    </nav>
+        <a href="comic.html">星轨漫画</a>
+      </nav>
+    </details>
   </header>
 
-  <main class="orbit-home-main">
-    <section class="orbit-home-hero" aria-labelledby="orbitHomeTitle">
-      <img class="orbit-home-art" src="assets/love-world/home-orbit-hero-v4.webp" alt="" aria-hidden="true" width="1672" height="941" decoding="async" fetchpriority="high">
-      <div class="orbit-home-shade" aria-hidden="true"></div>
-      <div class="orbit-home-copy">
-        <h1 id="orbitHomeTitle">在很大的世界里，<br><em>回到我们的轨道。</em></h1>
+  <main class="j-wrap">
+    <section class="home-hero" aria-labelledby="homeTitle">
+      <div class="home-hero-copy">
+        <div class="date-stamp-row">
+          <div class="date-stamp" aria-label="今天的日期">
+            <span class="y" data-date="year"></span>
+            <span class="md" data-date="md"></span>
+            <span class="w" data-date="weekday"></span>
+          </div>
+          <p class="eyebrow">today's page</p>
+        </div>
+        <h1 id="homeTitle">在很大的世界里，<br>回到我们的轨道。</h1>
+        <p class="hand-line">今天也想把小事写给你。</p>
+        <div class="home-actions">
+          <a class="j-btn" href="#today">翻开今天这一页</a>
+          <a class="j-btn-line" href="comic.html">去看星轨漫画</a>
+        </div>
       </div>
-      <a class="orbit-scroll-mark" href="#orbitStations" aria-label="查看全部站点"><span></span></a>
+
+      <figure class="spread-card" style="margin: 0">
+        <span class="tape" style="left: 40px; transform: rotate(-4deg)"></span>
+        <span class="tape navy" style="right: 36px; width: 84px; transform: rotate(5deg)"></span>
+        <div class="spread-art">
+          <img src="assets/journal/home-spread.webp" alt="手账跨页：左边杭州正午的西湖，右边纽约午夜的布鲁克林大桥" width="1400" height="933">
+          <div class="time-chip day">
+            <small>杭州 · <span data-daypart="hz"></span></small>
+            <strong data-clock="hz">--:--</strong>
+          </div>
+          <div class="time-chip night">
+            <small>纽约 · <span data-daypart="ny"></span></small>
+            <strong data-clock="ny">--:--</strong>
+          </div>
+        </div>
+        <figcaption class="spread-caption">相隔十二小时，同一条轨道</figcaption>
+      </figure>
     </section>
 
-    <section class="orbit-stations" id="orbitStations" aria-label="小世界入口">
-      <div class="orbit-station-grid">
-        <a class="orbit-station-card orbit-station-figure" href="figures.html" data-selectable-link>
-          <img class="orbit-station-art" src="assets/love-world/stations/station-figures-v1.webp" alt="" width="1000" height="666" loading="lazy" decoding="async">
-          <div><h2>小手办</h2></div>
-          <i aria-hidden="true"></i>
+    <section id="today" aria-labelledby="todayTitle" style="padding-top: 56px">
+      <div class="j-section-head">
+        <h2 id="todayTitle">今天的一页</h2>
+        <span class="hand">贴着这几样小东西</span>
+      </div>
+
+      <div class="collage">
+        <a class="c-card c-letter lined lift" href="messages.html">
+          <img class="sticker" src="assets/journal/sticker-letter.webp" alt="" style="right: -26px; top: -42px; width: 104px; transform: rotate(10deg)">
+          <div class="label">悄悄话 · 最近一封</div>
+          <p class="text" id="homeLatestMessageText">信箱里有新的悄悄话，去读一读吧。</p>
+          <span class="seal" aria-hidden="true"></span>
         </a>
-        <a class="orbit-station-card orbit-station-tea" href="milk-tea.html" data-selectable-link>
-          <img class="orbit-station-art" src="assets/love-world/stations/station-tea-v1.webp" alt="" width="1000" height="666" loading="lazy" decoding="async">
-          <div><h2>奶茶小屋</h2></div>
-          <i aria-hidden="true"></i>
+
+        <a class="c-card c-photo lift" href="albums.html">
+          <span class="tape" style="top: -12px; left: 50%; width: 80px; margin-left: -40px; transform: rotate(-3deg)"></span>
+          <img class="sticker" src="assets/journal/sticker-photo.webp" alt="" style="right: -30px; top: -36px; width: 78px; transform: rotate(10deg)">
+          <img src="photos/1.jpg" alt="照片站里的一张照片" loading="lazy" decoding="async">
+          <span class="hand">去照片站翻一翻</span>
         </a>
-        <a class="orbit-station-card orbit-station-message" href="messages.html" data-selectable-link>
-          <img class="orbit-station-art" src="assets/love-world/stations/station-whisper-v1.webp" alt="" width="1000" height="666" loading="lazy" decoding="async">
-          <div><h2>悄悄话</h2></div>
-          <i aria-hidden="true"></i>
+
+        <a class="c-card c-tea lift" href="milk-tea.html" data-tea-card>
+          <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="right: -28px; top: -46px; width: 92px; transform: rotate(12deg)">
+          <div class="title">奶茶小屋</div>
+          <div class="num" style="text-align: center; color: var(--brass); font-style: italic">receipt · <span data-date="md"></span></div>
+          <div class="row rule"><span>上一杯</span><span data-tea="name">还没摇过</span></div>
+          <div class="row"><span>品牌</span><span data-tea="brand">—</span></div>
+          <div class="row"><span>那天</span><span class="num" data-tea="date">—</span></div>
+          <div class="row rule" style="align-items: center">
+            <span class="hand" style="font-size: 22px; color: var(--rose)">再摇一杯</span>
+            <span aria-hidden="true">→</span>
+          </div>
         </a>
-        <a class="orbit-station-card orbit-station-album" href="albums.html" data-selectable-link>
-          <img class="orbit-station-art" src="assets/love-world/stations/station-photos-v1.webp" alt="" width="1000" height="666" loading="lazy" decoding="async">
-          <div><h2>照片站</h2></div>
-          <i aria-hidden="true"></i>
+
+        <a class="c-card c-comic lift" href="comic.html" data-comic-card>
+          <div class="cover">
+            <img data-comic="cover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="星轨漫画最新一篇封面" loading="lazy" decoding="async">
+          </div>
+          <div class="body">
+            <span class="no" data-comic="no">TICKET · NO. 03</span>
+            <span style="font-size: 13px; color: #c9cedb">十二小时之外的星轨</span>
+            <h3 data-comic="title">名字抵达之前</h3>
+            <p data-comic="summary">空白离开以后，馆长做的第一件事，不是追问维泽在十二小时之外看见了什么。</p>
+            <div class="go"><span>继续阅读</span><span aria-hidden="true">→</span></div>
+          </div>
+          <img class="sticker" src="assets/journal/sticker-ticket.webp" alt="" style="right: -28px; top: -40px; width: 108px; transform: rotate(8deg)">
         </a>
-        <a class="orbit-station-card orbit-station-comic" href="comic.html" data-selectable-link>
-          <img class="orbit-station-art" src="assets/love-world/stations/station-comic-v1.webp" alt="" width="1000" height="666" loading="lazy" decoding="async">
-          <div><h2>星轨漫画</h2></div>
-          <i aria-hidden="true"></i>
+
+        <a class="c-card c-figure lift" href="figures.html">
+          <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="right: -18px; top: -56px; width: 100px; transform: rotate(6deg)">
+          <div class="portrait"><img src="assets/figure-story/characters/wiki/31-优纪.png" alt="优纪手办" loading="lazy"></div>
+          <div>
+            <div class="label">小手办 · 今日陪伴</div>
+            <h3>优纪</h3>
+            <div class="hand">如果你偶尔忘了自己有多值得被珍惜，就看着我。</div>
+          </div>
         </a>
       </div>
     </section>
+
+    <footer class="j-footer">
+      <span class="hand">未完待续，明天见。</span>
+      <span class="num">our little world · isnow.life</span>
+    </footer>
   </main>
 
   <script src="app.js"></script>
-  <script src="motion-system.js?v=20260728"></script>
+  <script src="journal.js?v=20261002"></script>
 </body>
 </html>

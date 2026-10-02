@@ -14,7 +14,7 @@
   };
 
   const MODE_DEFS = {
-    any: { label: "随便抽", tags: [], taste: {}, weight: 0 },
+    any: { label: "随便摇", tags: [], taste: {}, weight: 0 },
     fresh: { label: "清爽", tags: ["清爽", "轻盈", "轻负担", "低腻"], taste: { fresh: 1 }, weight: 9 },
     fruit: { label: "水果", tags: ["水果", "真果茶", "桃子", "草莓", "葡萄", "青提", "芒果", "椰子", "李子", "柚子", "红柚"], taste: { fruit: 1 }, weight: 9 },
     milk: { label: "奶香", tags: ["奶香", "鲜奶", "轻乳茶"], taste: { milk: 1 }, weight: 8 },
@@ -319,7 +319,7 @@
     if (!mode || mode === "any") {
       state.modes = new Set(["any"]);
       updateModeChips();
-      showToast("今天偏向：随便抽");
+      showToast("今天偏向：随便摇");
       return;
     }
 
@@ -614,6 +614,7 @@
     nodes.teaMachine.classList.remove("is-revealing");
     void nodes.teaMachine.offsetWidth;
     nodes.teaMachine.classList.add("is-brewing");
+    nodes.teaMachine.style.setProperty("--brew-ms", `${duration}ms`);
     nodes.drawBtn.disabled = true;
     if (nodes.redrawBtn) nodes.redrawBtn.disabled = true;
     if (nodes.drawSequence) {
@@ -637,8 +638,8 @@
     if (nodes.teaMachineProduct) nodes.teaMachineProduct.src = selectedVisualAsset;
     const selectedLabel = modeLabel();
     const captions = state.current
-      ? ["重新洗牌。", `按「${selectedLabel}」再抽一次。`, "只留下一张。"]
-      : ["卡池正在洗牌。", `「${selectedLabel}」进入随机轨道。`, "候选卡正在飞过。", "只留下一张。"];
+      ? ["冰块重新落进雪克杯。", `按「${selectedLabel}」再摇一杯。`, "倒进杯子里，慢一点。", "封口，咔哒。"]
+      : ["冰块落进雪克杯，叮当。", `按「${selectedLabel}」摇一摇。`, "倒进杯子里，慢一点。", "封口，咔哒。"];
     runBrewCaptions(captions, duration);
     await new Promise((resolve) => window.setTimeout(resolve, duration));
 
@@ -656,7 +657,7 @@
     window.setTimeout(() => nodes.teaMachine.classList.remove("is-revealing"), 900);
 
     if (nodes.drawBtnLabel) {
-      nodes.drawBtnLabel.textContent = state.infinite ? "继续换一杯" : "再抽一杯";
+      nodes.drawBtnLabel.textContent = state.infinite ? "← 继续\n换一杯" : "← 再摇\n一杯";
     }
     nodes.drawBtn.disabled = false;
     if (nodes.redrawBtn) nodes.redrawBtn.disabled = false;
@@ -673,7 +674,7 @@
       }, index * step);
     });
     window.setTimeout(() => {
-      nodes.brewCaption.textContent = "轻轻按下，开始冲泡今天的灵感。";
+      nodes.brewCaption.textContent = "按下红色按钮，摇一杯今天的奶茶。";
       if (nodes.drawSequenceCaption && !nodes.drawSequence?.classList.contains("is-revealing")) {
         nodes.drawSequenceCaption.textContent = "正在唤醒今天的茶香。";
       }
@@ -1062,7 +1063,7 @@
               <span>${item.action === "chosen" ? "已确认" : "已收藏"}</span>
             </div>
             <h3>${escapeHtml(item.brand)} · ${escapeHtml(item.name)}</h3>
-            <p class="history-mode">${escapeHtml(item.mode || "normal · 随便抽")}</p>
+            <p class="history-mode">${escapeHtml(item.mode || "normal · 随便摇")}</p>
             <div class="history-rate" aria-label="历史评分">
               ${historyRateButton("love", "超喜欢", rating)}
               ${historyRateButton("like", "还不错", rating)}
