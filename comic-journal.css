@@ -1,0 +1,279 @@
+/* 星轨漫画 · the night half of the Orbit Journal.
+   Loaded after star-rail-comic.css: remaps its palette to the journal tokens
+   and swaps glow effects for paper details (tape, tickets, polaroid frames). */
+
+:root {
+  --night-0: #1a2340;
+  --night-1: #1f2944;
+  --night-2: #2c3a5e;
+  --night-3: #34446b;
+  --white: #f5eee3;
+  --white-soft: rgba(245, 238, 227, 0.78);
+  --white-faint: rgba(245, 238, 227, 0.5);
+  --line: rgba(217, 185, 124, 0.24);
+  --line-strong: rgba(217, 185, 124, 0.5);
+  --blue: #a9bcdc;
+  --blue-deep: #3d5488;
+  --coral: #e07a6f;
+  --coral-soft: #f2d6cf;
+  --gold: #d9b97c;
+  --gold-pale: #f2e2bf;
+  --font-body: "Noto Serif SC", "Songti SC", "STSong", serif;
+}
+
+body.comic-page {
+  background-color: var(--night-0);
+  background-image: radial-gradient(rgba(245, 238, 227, 0.09) 1px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+
+/* no waiting on blurred fade-ins: content is there the moment the page opens */
+.comic-page [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.comic-page .cursor-aura,
+.comic-page .cosmic-grain,
+.comic-page .hero-art-halo {
+  display: none !important;
+}
+
+.comic-page .cosmos-canvas {
+  opacity: 0.45;
+}
+
+/* wax-seal logo in the comic top bar */
+.comic-page .comic-brand-sigil {
+  border: none;
+  background: url("assets/journal/logo-seal.webp") center / contain no-repeat;
+  transform: rotate(-8deg);
+}
+
+.comic-page .comic-brand-sigil::before,
+.comic-page .comic-brand-sigil::after,
+.comic-page .comic-brand-sigil i {
+  display: none;
+}
+
+/* stamped buttons */
+.comic-page .cosmic-button {
+  border-radius: 4px;
+}
+
+.comic-page .cosmic-button-primary {
+  border: none;
+  background: var(--coral);
+  box-shadow: 3px 3px 0 var(--white);
+  color: #2a2733;
+  font-weight: 600;
+}
+
+.comic-page .cosmic-button-primary:hover {
+  background: #ea8d83;
+}
+
+.comic-page .cosmic-button-ghost {
+  border: 1.5px solid var(--white);
+  background: transparent;
+}
+
+/* hero cover as a taped polaroid */
+.comic-page .hero-art-frame {
+  padding: 14px 14px 46px;
+  border: none;
+  border-radius: 2px;
+  background: #fbf6ec;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  transform: rotate(2deg);
+  overflow: visible;
+}
+
+.comic-page .hero-art-frame::before {
+  content: "";
+  position: absolute;
+  inset: auto;
+  top: -14px;
+  left: 50%;
+  z-index: 3;
+  width: 112px;
+  height: 28px;
+  margin-left: -56px;
+  border: none;
+  border-radius: 0;
+  background: url("assets/journal/tape-blush.webp") center / 100% 100% no-repeat;
+  box-shadow: none;
+  transform: rotate(-3deg);
+}
+
+.comic-page .hero-art-frame::after {
+  content: "";
+  position: absolute;
+  inset: auto;
+  right: -46px;
+  bottom: -34px;
+  z-index: 3;
+  width: 120px;
+  height: 120px;
+  background: url("assets/journal/sticker-ticket.webp") center / contain no-repeat;
+  transform: rotate(10deg);
+}
+
+.comic-page .hero-art-frame img {
+  border-radius: 0;
+}
+
+/* clocks read like two halves of one journal spread */
+.comic-page .phase-clock-warm {
+  background: rgba(251, 241, 226, 0.95);
+  color: #2a2733;
+}
+
+.comic-page .phase-clock-warm span,
+.comic-page .phase-clock-warm small {
+  color: #8a5a2b;
+}
+
+.comic-page .phase-clock-warm time {
+  color: #2a2733;
+}
+
+/* chapter cards become train tickets */
+.comic-page .chapter-card,
+.comic-page .chapter-card-one,
+.comic-page .chapter-card-two {
+  border: none;
+  border-radius: 4px;
+  background: var(--night-2);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+.comic-page .chapter-card-one {
+  transform: rotate(-0.8deg);
+}
+
+.comic-page .chapter-card-two {
+  transform: rotate(0.9deg);
+}
+
+.comic-page .chapter-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 4;
+  width: 104px;
+  height: 26px;
+  margin-left: -52px;
+  background: url("assets/journal/tape-navy.webp") center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+
+.comic-page .chapter-card-copy {
+  border-top: 2px dashed rgba(245, 238, 227, 0.4);
+}
+
+.comic-page .chapter-number {
+  color: var(--gold);
+}
+
+.comic-page .chapter-card-actions button {
+  border-radius: 4px;
+}
+
+.comic-page .chapter-card-actions button:first-child {
+  border-color: transparent;
+  background: var(--coral);
+  color: #2a2733;
+}
+
+/* moments & character panels: paper notes on the night page */
+.comic-page .moment-card {
+  border-radius: 4px;
+}
+
+.comic-page .section-heading h2 em,
+.comic-page .hero-copy h1 em {
+  color: var(--coral-soft);
+}
+
+/* ---------- 弗洛洛 companion (motion-free sticker) ---------- */
+
+.j-companion {
+  position: fixed;
+  right: 18px;
+  bottom: 14px;
+  z-index: 60;
+  width: 96px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.j-companion img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  transition: transform 0.25s ease;
+}
+
+.j-companion:hover img {
+  transform: rotate(-6deg) scale(1.06);
+}
+
+.j-companion.is-speaking img {
+  animation: companionBop 0.5s ease-in-out infinite alternate;
+}
+
+.j-companion-tip {
+  position: absolute;
+  right: 74px;
+  top: -8px;
+  padding: 6px 12px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(42, 39, 51, 0.15);
+  color: #b8473f;
+  font-family: "Ma Shan Zheng", "Kaiti SC", "STKaiti", "KaiTi", cursive;
+  font-size: 17px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+
+.j-companion:hover .j-companion-tip,
+.j-companion.is-speaking .j-companion-tip,
+.j-companion:focus-visible .j-companion-tip {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes companionBop {
+  from { transform: rotate(-4deg) translateY(0); }
+  to { transform: rotate(4deg) translateY(-6px); }
+}
+
+@media (max-width: 760px) {
+  .j-companion {
+    width: 76px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .j-companion img {
+    width: 76px;
+    height: 76px;
+  }
+}
+
+
+/* 弗洛洛 sits above the mobile dock */
+@media (max-width: 760px) {
+  .comic-page .j-companion {
+    bottom: 96px;
+  }
+}

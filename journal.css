@@ -2361,3 +2361,19 @@ body.journal {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* keep stickers that hang off cards from causing sideways scroll on phones */
+html:has(body.journal),
+body.journal {
+  overflow-x: clip;
+}
+
+@media (max-width: 600px) {
+  .journal .tea-draw-trigger span {
+    display: none;
+  }
+
+  .journal .tea-machine {
+    width: 300px;
+  }
+}
