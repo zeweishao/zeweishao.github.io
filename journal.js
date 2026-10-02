@@ -154,6 +154,31 @@
     });
   };
 
+
+  // Phones: a bottom tab bar built from the same index tabs.
+  const initDock = () => {
+    const tabs = document.querySelectorAll(".j-tabs a");
+    if (!tabs.length || document.querySelector(".j-dock")) return;
+    const short = { "奶茶小屋": "奶茶", "星轨漫画": "漫画", "小手办": "手办", "照片站": "照片" };
+    const dock = document.createElement("nav");
+    dock.className = "j-dock";
+    dock.setAttribute("aria-label", "快捷导航");
+    tabs.forEach((tab) => {
+      const link = document.createElement("a");
+      link.href = tab.getAttribute("href");
+      const label = tab.textContent.trim();
+      link.textContent = short[label] || label;
+      link.setAttribute("aria-label", label);
+      if (tab.classList.contains("is-active")) {
+        link.classList.add("is-active");
+        link.setAttribute("aria-current", "page");
+      }
+      dock.append(link);
+    });
+    document.body.append(dock);
+  };
+
+  initDock();
   initClocks();
   initFigurePicker();
   initMenus();

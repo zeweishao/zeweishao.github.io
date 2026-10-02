@@ -161,10 +161,6 @@ body.journal {
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-.j-tabs a:hover {
-  transform: translateY(-3px);
-  color: var(--ink);
-}
 
 .j-tabs a.is-active {
   z-index: 1;
@@ -308,12 +304,6 @@ body.journal {
   transition: transform 0.15s ease;
 }
 
-.j-btn-line:hover,
-.journal .ghost-tea-btn:hover,
-.journal .secondary-tea-btn:hover,
-.journal .atlas-entry-btn:hover {
-  transform: translateY(-2px);
-}
 
 .j-btn:disabled,
 .journal .primary-tea-btn:disabled,
@@ -372,10 +362,6 @@ body.journal {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.lift:hover {
-  transform: rotate(0deg) translateY(-4px) !important;
-  box-shadow: var(--shadow-lift) !important;
-}
 
 .j-section-head {
   display: flex;
@@ -462,9 +448,6 @@ body.journal {
   transition: transform 0.25s ease;
 }
 
-.j-companion:hover img {
-  transform: rotate(-6deg) scale(1.06);
-}
 
 .j-companion.is-speaking img {
   animation: companionBop 0.5s ease-in-out infinite alternate;
@@ -994,9 +977,6 @@ body.journal {
 .journal .mode-chips button:nth-child(4n + 3) { transform: rotate(-1deg); }
 .journal .mode-chips button:nth-child(4n) { transform: rotate(2.5deg); }
 
-.journal .mode-chips button:hover {
-  transform: rotate(0) scale(1.05);
-}
 
 .journal .mode-chips button.is-active {
   border-color: var(--rose);
@@ -2105,10 +2085,6 @@ body:has(.letter-modal:not([hidden])) .j-companion {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.journal .message-card:hover {
-  transform: rotate(0) translateY(-3px);
-  box-shadow: var(--shadow-lift);
-}
 
 .journal .message-card::before {
   content: "";
@@ -2307,11 +2283,6 @@ body:has(.letter-modal:not([hidden])) .j-companion {
 .journal .memory-photo:nth-child(3n + 2)::before { background-image: url("assets/journal/tape-navy.webp"); }
 .journal .memory-photo:nth-child(3n)::before { background-image: url("assets/journal/tape-gold.webp"); }
 
-.journal .memory-photo:hover {
-  z-index: 2;
-  transform: rotate(0) scale(1.03);
-  box-shadow: var(--shadow-lift);
-}
 
 .journal .memory-lightbox {
   max-width: min(640px, 92vw);
@@ -2461,7 +2432,6 @@ body:has(.letter-modal:not([hidden])) .j-companion {
 .journal .figure-curation-card:nth-child(6n + 5) { transform: rotate(-1.5deg); }
 .journal .figure-curation-card:nth-child(6n) { transform: rotate(1deg); }
 
-.journal .figure-curation-card:hover,
 .journal .figure-curation-card.is-picked {
   transform: rotate(0) translateY(-4px);
   border-color: var(--rose);
@@ -2775,9 +2745,6 @@ body.journal {
 .comic-page .chapter-card:nth-child(odd) { transform: rotate(-0.8deg); }
 .comic-page .chapter-card:nth-child(even) { transform: rotate(0.8deg); }
 
-.comic-page .chapter-card:hover {
-  box-shadow: var(--shadow-lift);
-}
 
 .comic-page .chapter-card::before {
   content: "";
@@ -3541,5 +3508,780 @@ body.comic-upload-is-open {
 
   .time-card time {
     font-size: 26px;
+  }
+}
+
+/* hover lifts only where a real pointer hovers, so taps on phones don't get stuck */
+@media (hover: hover) and (pointer: fine) {
+  .j-tabs a:hover {
+    transform: translateY(-3px);
+    color: var(--ink);
+  }
+  .j-btn-line:hover,
+  .journal .ghost-tea-btn:hover,
+  .journal .secondary-tea-btn:hover,
+  .journal .atlas-entry-btn:hover {
+    transform: translateY(-2px);
+  }
+  .lift:hover {
+    transform: rotate(0deg) translateY(-4px) !important;
+    box-shadow: var(--shadow-lift) !important;
+  }
+  .journal .mode-chips button:hover {
+    transform: rotate(0) scale(1.05);
+  }
+  .journal .message-card:hover {
+    transform: rotate(0) translateY(-3px);
+    box-shadow: var(--shadow-lift);
+  }
+  .journal .memory-photo:hover {
+    z-index: 2;
+    transform: rotate(0) scale(1.03);
+    box-shadow: var(--shadow-lift);
+  }
+  .journal .figure-curation-card:hover {
+    transform: rotate(0) translateY(-4px);
+    border-color: var(--rose);
+    box-shadow: 0 0 0 3px var(--blush), var(--shadow-lift);
+  }
+  .comic-page .chapter-card:hover {
+    box-shadow: var(--shadow-lift);
+  }
+  .j-companion:hover img {
+    transform: rotate(-6deg) scale(1.06);
+  }
+}
+
+/* ---------- phones ---------- */
+
+.journal a,
+.journal button,
+.journal summary,
+.journal label {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.j-dock {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  body.journal {
+    font-size: 15px;
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
+  /* bottom tab bar replaces the 目录 dropdown */
+  .j-menu {
+    display: none !important;
+  }
+
+  .journal .topbar {
+    padding-top: 16px;
+  }
+
+  .j-brand {
+    padding-bottom: 10px;
+  }
+
+  .j-dock {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    z-index: 70;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    padding: 4px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 6px 22px rgba(42, 39, 51, 0.18);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .j-dock a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-height: 50px;
+    border-radius: 8px;
+    color: var(--ink-soft) !important;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .j-dock a::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: transparent;
+  }
+
+  .j-dock a.is-active {
+    background: var(--paper);
+    color: var(--rose) !important;
+    font-weight: 600;
+  }
+
+  .j-dock a.is-active::before {
+    background: var(--rose);
+  }
+
+  body:has(.result-modal:not([hidden])) .j-dock,
+  body:has(.history-modal:not([hidden])) .j-dock,
+  body:has(.atlas-modal:not([hidden])) .j-dock,
+  body:has(.letter-modal:not([hidden])) .j-dock,
+  body.reader-is-open .j-dock,
+  body.comic-upload-is-open .j-dock {
+    display: none;
+  }
+
+  /* 弗洛洛 shrinks and rests above the tab bar */
+  .j-companion,
+  .comic-page .j-companion {
+    right: 8px;
+    bottom: calc(80px + env(safe-area-inset-bottom));
+    width: 60px;
+  }
+
+  .j-companion img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .j-companion-tip {
+    right: 52px;
+    font-size: 15px;
+  }
+
+  /* stickers stay inside the screen and a little smaller */
+  .journal .sticker {
+    max-width: 84px;
+  }
+
+  .c-card .sticker {
+    right: -4px !important;
+    left: auto !important;
+    top: -30px !important;
+    width: 70px !important;
+  }
+
+  .j-page-head .sticker {
+    left: auto !important;
+    right: 0;
+    top: 30px !important;
+    width: 78px !important;
+  }
+
+  .j-page-head {
+    padding-top: 34px;
+  }
+
+  .j-section-head {
+    margin-bottom: 22px;
+  }
+
+  .j-footer {
+    margin-top: 56px;
+    padding-bottom: 40px;
+  }
+
+  /* home */
+  .home-hero {
+    gap: 30px;
+    padding: 26px 0 10px;
+  }
+
+  .home-hero-copy {
+    gap: 18px;
+  }
+
+  .date-stamp {
+    width: 86px;
+    height: 86px;
+  }
+
+  .date-stamp .md {
+    font-size: 22px;
+  }
+
+  .home-actions {
+    gap: 10px;
+  }
+
+  .home-actions > * {
+    flex: 1 1 auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    white-space: nowrap;
+  }
+
+  .spread-card {
+    transform: none;
+    padding: 10px 10px 6px;
+  }
+
+  .time-chip {
+    padding: 6px 10px 4px;
+  }
+
+  .time-chip strong {
+    font-size: 24px;
+  }
+
+  .time-chip small {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  #today {
+    padding-top: 40px !important;
+  }
+
+  .collage {
+    gap: 40px;
+  }
+
+  .c-letter,
+  .c-tea,
+  .c-comic,
+  .c-figure {
+    transform: none;
+  }
+
+  .c-letter {
+    padding: 26px 22px 30px;
+  }
+
+  .c-letter .text {
+    font-size: 21px;
+  }
+
+  .c-photo {
+    width: 78%;
+    max-width: 300px;
+  }
+
+  .c-figure {
+    gap: 14px;
+    padding: 18px;
+  }
+
+  .c-figure .portrait {
+    width: 82px;
+    height: 82px;
+  }
+
+  .c-figure .label {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .c-figure h3 {
+    font-size: 19px;
+  }
+
+  .c-figure .hand {
+    font-size: 17px;
+  }
+
+  /* milk tea */
+  .tea-head-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    gap: 8px;
+  }
+
+  .tea-head-actions .atlas-entry-btn {
+    padding: 8px 4px;
+    font-size: 14px;
+  }
+
+  .tea-layout {
+    gap: 30px;
+    margin-top: 26px;
+  }
+
+  .journal .mode-chips {
+    gap: 8px;
+  }
+
+  .journal .mode-chips button {
+    min-height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .tea-notebook {
+    transform: none;
+  }
+
+  /* modals become sheets */
+  .journal .history-modal,
+  .journal .atlas-modal,
+  .journal .letter-modal {
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .journal .history-panel,
+  .journal .atlas-panel,
+  .journal .letter-paper {
+    width: 100%;
+    max-height: 88vh;
+    max-height: 88dvh;
+    overflow-y: auto;
+    padding: 30px 20px calc(24px + env(safe-area-inset-bottom));
+    border-radius: 16px 16px 0 0;
+    transform: none;
+  }
+
+  .journal .letter-paper::before {
+    display: none;
+  }
+
+  .journal .letter-body p {
+    font-size: 19px;
+  }
+
+  .journal .history-modal .modal-close,
+  .journal .atlas-modal .modal-close,
+  .journal .letter-close {
+    top: 8px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .journal .history-panel h2,
+  .journal .atlas-panel h2 {
+    font-size: 22px;
+    padding-right: 44px;
+  }
+
+  /* messages / albums / figures */
+  .journal .message-board {
+    gap: 30px;
+  }
+
+  .journal .message-card {
+    padding: 26px 20px 18px;
+  }
+
+  .journal .message-text {
+    font-size: 20px;
+  }
+
+  .film-strip {
+    padding: 20px 12px;
+    transform: none;
+  }
+
+  .film-copy h3 {
+    font-size: 28px;
+  }
+
+  .polaroid-wall {
+    gap: 26px 16px;
+  }
+
+  .journal .memory-photo {
+    padding: 8px 8px 34px;
+  }
+
+  .journal .memory-photo figcaption {
+    left: 10px;
+    bottom: 8px;
+    font-size: 13px;
+  }
+
+  .journal .memory-lightbox {
+    max-width: 94vw;
+    padding: 10px 10px 16px;
+  }
+
+  .journal .memory-lightbox button {
+    top: 6px;
+    right: 6px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .figure-feature {
+    margin-top: 16px;
+    gap: 24px;
+  }
+
+  .figure-polaroid {
+    width: min(280px, 86%);
+    padding: 12px 12px 52px;
+  }
+
+  .figure-polaroid .stage {
+    height: 250px;
+  }
+
+  .figure-copy {
+    gap: 14px;
+  }
+
+  .figure-quote {
+    font-size: 20px;
+    padding: 16px 18px;
+  }
+
+  .journal .figure-curation-grid {
+    gap: 18px 12px;
+  }
+
+  .journal .figure-curation-card {
+    padding: 6px 6px 8px;
+  }
+
+  .journal .figure-curation-art {
+    height: 96px;
+  }
+
+  .journal .figure-curation-card-copy h3 {
+    font-size: 13px;
+  }
+
+  /* comic */
+  .comic-head {
+    gap: 30px;
+    padding-top: 26px;
+  }
+
+  .comic-head h1 em {
+    font-size: 72px;
+  }
+
+  .comic-clocks {
+    grid-template-columns: minmax(0, 1fr) 44px minmax(0, 1fr);
+    gap: 8px;
+    max-width: none;
+  }
+
+  .time-card {
+    padding: 10px 10px 8px;
+  }
+
+  .time-card small {
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+
+  .time-card small span,
+  .time-card .en {
+    display: none;
+  }
+
+  .time-card time {
+    font-size: 24px;
+  }
+
+  .time-card > span {
+    font-size: 11px;
+  }
+
+  .time-gap b {
+    width: 44px;
+    height: 44px;
+    font-size: 15px;
+  }
+
+  .time-gap span {
+    display: none;
+  }
+
+  .comic-cover {
+    width: 82%;
+  }
+
+  .comic-cover .sticker {
+    right: -10px !important;
+    width: 80px !important;
+  }
+
+  .comic-block {
+    padding-top: 60px;
+  }
+
+  .world-page {
+    padding: 14px;
+  }
+
+  .world-page img {
+    height: 220px;
+  }
+
+  .world-notes {
+    gap: 18px;
+    margin-top: 28px;
+  }
+
+  .world-notes article {
+    transform: none !important;
+  }
+
+  .comic-page .chapter-track {
+    gap: 30px;
+  }
+
+  .comic-page .chapter-card,
+  .comic-page .chapter-card:nth-child(n) {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    transform: none;
+  }
+
+  .comic-page .chapter-card > img {
+    height: 170px;
+    object-position: 50% 62%;
+    transform: none;
+    clip-path: none;
+  }
+
+  .comic-page .chapter-card-copy {
+    grid-row: 2;
+    grid-column: 1;
+    border-left: none;
+    border-top: 2px dashed var(--night);
+    padding: 18px 18px 16px;
+  }
+
+  .comic-page .chapter-number {
+    top: 132px;
+    right: 10px;
+    padding: 2px 8px;
+    background: rgba(251, 246, 236, 0.94);
+    font-size: 12px;
+  }
+
+  .comic-page .chapter-card-actions button {
+    flex: 1;
+    min-height: 44px;
+  }
+
+  .comic-page .story-chapter-tabs {
+    margin: 0 calc(-1 * var(--gutter));
+    padding: 0 var(--gutter);
+    scrollbar-width: none;
+  }
+
+  .comic-page .story-chapter-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .comic-page .story-content {
+    max-height: 62vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .comic-page .story-content p {
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  .comic-page .story-paper {
+    background-image: none;
+  }
+
+  .comic-page .story-reader .sticker {
+    right: 0 !important;
+    top: -46px !important;
+    width: 70px !important;
+  }
+
+  .comic-page .moment-grid {
+    gap: 26px 16px;
+  }
+
+  .comic-page .moment-card {
+    padding: 8px 8px 34px;
+  }
+
+  .comic-page .moment-card figcaption {
+    left: 10px;
+    bottom: 8px;
+    font-size: 15px;
+  }
+
+  .comic-page .character-stage {
+    gap: 30px;
+  }
+
+  .comic-page .character-stage > .sticker {
+    display: none;
+  }
+
+  .comic-page .character-card:nth-child(n) {
+    transform: none;
+  }
+
+  .comic-final {
+    padding-top: 70px;
+  }
+
+  .comic-page .reader-topbar {
+    gap: 10px;
+    padding: 8px 12px;
+  }
+
+  .comic-page .reader-stage {
+    padding: 20px 8px 60px;
+  }
+
+  .comic-page .reader-pages {
+    gap: 14px;
+  }
+
+  .comic-page .reader-page {
+    padding: 4px;
+  }
+
+  .comic-page .comic-upload-dialog {
+    width: 94vw;
+  }
+
+  .comic-page .comic-upload-close {
+    top: 6px;
+    right: 6px;
+  }
+}
+
+/* 奶茶清单 (rendered by milk-tea.js): a sticker catalogue per brand */
+.journal .tea-brand-section + .tea-brand-section {
+  margin-top: 26px;
+}
+
+.journal .tea-brand-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  border-bottom: 1px dashed var(--brass);
+}
+
+.journal .tea-brand-head .brand-lockup p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.journal .tea-brand-head .brand-lockup strong {
+  font-size: 17px;
+}
+
+.journal .tea-brand-head > span {
+  flex-shrink: 0;
+  color: var(--brass);
+  font-family: var(--num);
+  font-size: 14px;
+}
+
+.journal .tea-atlas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.journal .tea-atlas-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 10px 12px;
+  border: 1.5px solid var(--line);
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(42, 39, 51, 0.06);
+  color: var(--ink);
+  font-family: var(--serif);
+  text-align: center;
+  cursor: pointer;
+}
+
+.journal .tea-atlas-card.is-tried {
+  border-color: var(--rose);
+}
+
+.journal .atlas-product-visual img {
+  width: 84px;
+  height: 84px;
+  max-height: none;
+  object-fit: contain;
+}
+
+.journal .atlas-card-status {
+  font-size: 11px;
+  color: var(--ink-soft);
+}
+
+.journal .tea-atlas-card.is-tried .atlas-card-status {
+  color: var(--rose);
+  font-weight: 600;
+}
+
+.journal .tea-atlas-card strong {
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.journal .tea-atlas-card small {
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.journal .atlas-review-meter {
+  display: flex;
+  gap: 6px;
+  font-family: var(--num);
+  font-size: 12px;
+  color: var(--brass);
+}
+
+.journal .atlas-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.journal .atlas-card-tags span {
+  padding: 0 6px;
+  background: var(--blush);
+  font-size: 11px;
+}
+
+.journal .tea-atlas-card p {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .journal .tea-atlas-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .journal .atlas-product-visual img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .journal .atlas-review-meter {
+    display: none;
   }
 }
