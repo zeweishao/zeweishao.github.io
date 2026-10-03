@@ -62,8 +62,9 @@ export class FigureViewer {
     this.renderer.setClearColor(0x000000, 0);
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
-    this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    this.renderer.toneMappingExposure = 0.9;
+    // Neutral keeps the painted anime colours; ACES pushed skin towards grey.
+    this.renderer.toneMapping = THREE.NeutralToneMapping;
+    this.renderer.toneMappingExposure = 1.0;
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFShadowMap;
     this.renderer.domElement.className = 'figure-viewer-canvas';
@@ -143,6 +144,34 @@ export class FigureViewer {
   }
 
   /** Load a GLB or a GLTF URL. Linked GLTF resources resolve beside that URL. */
+  /**
+   * The game draws these figures with Unity toon shaders: shading is painted into the
+   * base colour and the "_m" masks are not physical metal/roughness maps. Read as PBR,
+   * skin turns metallic and grey. For skin, face, hair and body materials we drop the
+   * metal reading and let a share of the painted colour show unlit; other parts
+   * (weapons, mechs, accessories) keep their original material.
+   */
+  _applyAnimeLook(mesh) {
+    const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+    for (const material of materials) {
+      if (!material?.isMeshStandardMaterial || material.userData.animeLook) continue;
+      const name = (material.name || '') + ' ' + (mesh.name || '');
+      if (!/face|skin|hair|hiar|body|head|eye|brow|cloth/i.test(name)) continue;
+      material.metalness = 0;
+      material.metalnessMap = null;
+      material.roughness = 0.9;
+      material.roughnessMap = null;
+      if (material.map) {
+        material.emissiveMap = material.map;
+        material.emissive.setRGB(1, 1, 1);
+        material.emissiveIntensity = 0.45;
+        material.color.multiplyScalar(0.7);
+      }
+      material.userData.animeLook = true;
+      material.needsUpdate = true;
+    }
+  }
+
   async load(url) {
     this._assertActive();
     if (typeof url !== 'string' || !url.trim()) {
@@ -189,6 +218,7 @@ export class FigureViewer {
           object.receiveShadow = true;
           // Prepared-pose bounds must not clip limbs during a later action.
           if (object.isSkinnedMesh) object.frustumCulled = false;
+          this._applyAnimeLook(object);
           // Some Unity exports omit the culling flag on hair and cloth cards.
           // This is an explicit import adaptation; the default honors GLTF.
           if (this.options.doubleSided === true) {
