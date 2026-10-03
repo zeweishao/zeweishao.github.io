@@ -548,8 +548,13 @@ body.journal {
 
 .home-hero h1 {
   margin: 0;
-  font-size: clamp(36px, 5vw, 58px);
+  font-size: clamp(30px, 4.3vw, 54px);
   line-height: 1.32;
+}
+
+.home-hero h1 .line {
+  display: block;
+  white-space: nowrap;
 }
 
 .home-hero .hand-line {
@@ -5244,5 +5249,11 @@ body.comic-upload-is-open {
 
   .figure-modal .close-modal {
     margin: -14px -4px 0 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .home-hero h1 {
+    font-size: min(34px, 8.6vw);
   }
 }
