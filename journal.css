@@ -5882,6 +5882,11 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   white-space: nowrap;
 }
 
+.tea-spread .tea-head .hand {
+  font-size: clamp(17px, 2vw, 26px);
+  white-space: nowrap;
+}
+
 .tea-order {
   position: relative;
   padding: 22px 26px 18px;
@@ -6030,5 +6035,113 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   /* inside the notebook the 3D stage bleeds only a little past the text column */
   .figures-page .figure-stage {
     margin: 0 -10px;
+  }
+}
+
+/* ==========================================================================
+   Polish: centred title pages, steady index tabs, tea spread down to tablets
+   ========================================================================== */
+
+/* 悄悄话 / 照片站 open like the title page of a chapter: sticker, then title, centred */
+.j-page-head.j-title-page {
+  align-items: center;
+  gap: 6px;
+  padding-top: 34px;
+  text-align: center;
+}
+
+.j-title-page .title-sticker {
+  display: block;
+  width: clamp(92px, 10vw, 128px);
+  height: auto;
+  margin-bottom: 4px;
+  filter: drop-shadow(0 3px 5px rgba(42, 39, 51, 0.12));
+}
+
+.j-title-page h1 {
+  font-size: clamp(34px, 4.2vw, 48px);
+}
+
+.j-title-page::after {
+  content: "";
+  width: 120px;
+  margin-top: 14px;
+  border-top: 1.5px dashed rgba(169, 129, 63, 0.6);
+}
+
+/* tabs keep one baseline; hover only warms the colour */
+body.journal:not(.comic-page) .j-tabs {
+  align-items: flex-end;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.journal:not(.comic-page) .j-tabs a:hover {
+    transform: none;
+    filter: brightness(1.04);
+  }
+}
+
+/* an empty caption shouldn't push the history button away from the machine */
+.journal .brew-caption:empty {
+  min-height: 0;
+  margin: 0;
+}
+
+.tea-spread .tea-machine {
+  max-width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .tea-spread {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0 44px;
+  }
+
+  .tea-spread::before {
+    display: block;
+  }
+
+  .tea-left,
+  .tea-right {
+    display: flex;
+  }
+
+  .tea-spread .tea-notebook {
+    align-self: flex-end;
+    width: min(100%, 440px);
+  }
+
+  .tea-spread .tea-head h1 {
+    font-size: clamp(32px, 4vw, 44px);
+  }
+}
+
+@media (max-width: 860px) {
+  .tea-spread {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 28px;
+  }
+
+  .tea-spread::before {
+    display: none;
+  }
+
+  .tea-left,
+  .tea-right {
+    display: contents;
+  }
+
+  .journal .tea-spread .tea-head {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tea-spread .tea-order,
+  .tea-spread .tea-notebook {
+    width: 100%;
+    max-width: 560px;
+    align-self: auto;
   }
 }
