@@ -1,0 +1,16 @@
+{
+  "name": "isnow-figure-handbook",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "小手办陈列馆：完整手办图鉴的前端源码，构建到 ../figures/",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

@@ -6,9 +6,11 @@
   <meta name="theme-color" content="#f5eee3">
   <title>小手办陈列馆｜属于我们的小世界</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
-  <link rel="stylesheet" href="journal.css?v=20261002">
+  <link rel="preconnect" href="figures-assets/">
+  <link rel="stylesheet" href="journal.css?v=20261003">
+  <script>window.FIGURE_ASSET_BASE = window.FIGURE_ASSET_BASE || "figures-assets/";</script>
 </head>
-<body class="journal sub-page">
+<body class="journal sub-page figures-page">
   <header class="topbar">
     <a class="j-brand" href="index.html">
       <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
@@ -20,7 +22,7 @@
       <a href="milk-tea.html">奶茶小屋</a>
       <a href="messages.html">悄悄话</a>
       <a href="albums.html">照片站</a>
-      <a href="comic.html">星轨漫画</a>
+      <a class="is-night" href="comic.html">星轨漫画</a>
     </nav>
     <details class="j-menu">
       <summary>目录</summary>
@@ -35,44 +37,98 @@
     </details>
   </header>
 
-  <main class="j-wrap">
-    <section class="j-page-head" aria-labelledby="figureGalleryTitle">
-      <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="left: min(330px, 62%); top: 14px; transform: rotate(8deg)">
-      <p class="eyebrow">figure collection</p>
-      <h1 id="figureGalleryTitle">小手办陈列馆</h1>
-      <p class="sub">把喜欢的人物，放在不会熄灭的光里。</p>
+  <main class="j-wrap figures-app collection-mode" id="game">
+    <section class="collection" aria-labelledby="collection-heading">
+      <div class="j-page-head">
+        <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="left: min(330px, 62%); top: 14px; transform: rotate(8deg)">
+        <p class="eyebrow">figure collection</p>
+        <h1 id="collection-heading">小手办陈列馆</h1>
+        <p class="sub"><span id="results-count" role="status" aria-live="polite">正在载入…</span><span class="sep"> · </span><span id="catalog-total"></span></p>
+      </div>
+
+      <div class="figure-toolbar">
+        <label class="figure-search">
+          <span class="visually-hidden">搜索手办名称</span>
+          <input id="hero-search" type="search" placeholder="搜索名字" autocomplete="off" spellcheck="false">
+        </label>
+        <label class="figure-select"><span class="visually-hidden">职业</span><select id="profession-filter" aria-label="按职业筛选"><option value="">全部职业</option></select></label>
+        <label class="figure-select"><span class="visually-hidden">品牌</span><select id="brand-filter" aria-label="按品牌筛选"><option value="">全部品牌</option></select></label>
+      </div>
+
+      <div id="cards" class="figure-album" aria-label="手办条目"></div>
+      <div class="catalog-empty" id="catalog-empty" hidden><p class="hand">没有找到这位手办。</p><button class="j-btn-line" id="reset-filters" type="button">重置筛选</button></div>
     </section>
 
-    <section class="figure-feature" aria-label="今日陪伴" id="figureFeature">
-      <div class="figure-polaroid">
-        <span class="tape" style="top: -14px; left: 34px; transform: rotate(-6deg)"></span>
-        <span class="tape gold" style="top: -12px; right: 30px; width: 80px; transform: rotate(8deg)"></span>
-        <div class="stage"><img data-fig="img" src="assets/figure-story/characters/wiki/31-优纪.png" alt="优纪手办"></div>
-        <span class="name" data-fig="name">优纪</span>
-        <span class="no">today</span>
+    <section class="figure-detail" id="figure-detail" aria-label="手办详情" hidden>
+      <div class="detail-bar">
+        <button class="j-btn-line" id="back" type="button">← 收藏册</button>
+        <nav class="visually-hidden" aria-label="展示页面"><button id="collection-tab" type="button">手办列表</button><button id="detail-tab" type="button">图鉴详情</button></nav>
+        <div class="detail-bar-tools">
+          <button class="icon-btn" id="about" type="button" aria-label="图鉴说明">i</button>
+          <button class="icon-btn" id="fullscreen" type="button" aria-label="全屏展示">⤢</button>
+        </div>
       </div>
-      <div class="figure-copy">
-        <span class="tag-stamp">今日陪伴</span>
-        <h2 data-fig="name">优纪</h2>
-        <p class="figure-quote lined" data-fig="quote">如果你偶尔忘了自己有多值得被珍惜，就看着我；我会一遍一遍说给你听。</p>
+
+      <div class="detail-grid">
+        <section class="figure-stage" id="figure-stage" aria-label="角色展示">
+          <span class="tape" style="top: -12px; left: 46px; transform: rotate(-5deg)"></span>
+          <span class="tape gold" style="top: -10px; right: 46px; width: 84px; transform: rotate(6deg)"></span>
+          <div class="model-eyebrow"><span id="stage-brand">FIGURE</span><span class="separator">·</span><span id="stage-skin-name"></span></div>
+          <div class="viewer" id="viewer"></div>
+          <div class="portrait-layer" id="portrait-layer" hidden><img id="portrait" alt="手办立绘" draggable="false"></div>
+          <div class="model-loading" id="model-loading" role="status"><span class="loading-cup"></span><span id="model-status">正在载入…</span><button class="j-btn-line" id="retry-media" type="button" hidden>重新载入</button></div>
+          <div class="figure-caption"><strong id="stage-hero-name"></strong><i id="figure-quote" class="hand"></i></div>
+          <nav class="side-actions" aria-label="手办功能">
+            <button id="voice-button" type="button" disabled><span aria-hidden="true">♪</span><span>语音播放</span></button>
+            <button id="image-mode" type="button" aria-pressed="false" disabled><span aria-hidden="true">◇</span><span id="image-mode-label">图像</span></button>
+            <button id="skins-button" type="button" disabled><span aria-hidden="true">✦</span><span>特别款式</span></button>
+          </nav>
+          <div class="viewer-controls" aria-label="模型控制">
+            <button id="auto-rotate" type="button" disabled aria-pressed="false">自动旋转</button>
+            <button id="reset-view" type="button" disabled>复位视角</button>
+            <button id="restore-pose" type="button" disabled>展示造型</button>
+          </div>
+          <div class="gesture-hint visually-hidden" id="gesture-hint"></div>
+        </section>
+
+        <aside class="details lined" aria-labelledby="hero-name">
+          <div class="detail-stamps"><span class="tag-stamp" id="default-display-badge">默认展示</span><span class="num" id="hero-subtitle" hidden></span></div>
+          <div class="character-title">
+            <h1 id="hero-name" tabindex="-1"></h1>
+            <span class="brand-mark" id="brand-name"></span>
+          </div>
+          <div class="skin-title-row"><span class="skin-name" id="skin-name"></span><button class="j-wavy" id="set-default-skin" type="button" disabled>设为默认展示</button></div>
+          <div class="tags"><span id="profession-name"></span><span id="hero-brand-name"></span></div>
+          <p class="story" id="hero-story"></p>
+          <section class="skin-story-section" id="skin-story-section">
+            <div class="detail-heading"><h2>皮肤故事</h2><button class="j-wavy" id="expand-story" type="button" aria-expanded="false" aria-controls="skin-story">展开故事 ＋</button></div>
+            <p id="skin-story" class="skin-story collapsed"></p>
+            <div class="skin-tags" id="skin-tags"></div>
+          </section>
+          <section class="skill-section" aria-label="技能">
+            <div class="detail-heading"><h2>技能</h2><span id="skills-level-label"></span></div>
+            <div class="skills" id="skills"></div>
+          </section>
+          <section class="action-section" aria-label="展示动作">
+            <div class="detail-heading"><h2>动作</h2></div>
+            <div class="animation-section">
+              <label for="animation" class="visually-hidden">选择展示动作</label>
+              <select id="animation" disabled><option value="default">展示动作</option></select>
+              <button class="j-btn" id="pause" type="button" disabled aria-pressed="false">播放动作</button>
+            </div>
+            <p class="action-note" id="action-note"></p>
+          </section>
+          <div class="voice-credit" id="voice-credit"></div>
+          <p class="visually-hidden" id="resource-state" role="status"></p>
+        </aside>
       </div>
     </section>
-
-    <section aria-labelledby="albumHead" style="margin-top: 80px">
-      <div class="j-section-head" style="border-bottom: 1px dashed var(--brass); padding-bottom: 14px">
-        <h2 id="albumHead">收藏册</h2>
-      </div>
-      <div class="figure-curation-grid" id="figureCharacterRail"></div>
-    </section>
-
-    <footer class="j-footer">
-      <span class="hand">她们都在光里等你。</span>
-      <span class="num">figure collection · isnow.life</span>
-    </footer>
   </main>
 
-  <script src="app.js"></script>
-  <script src="figure-story.js"></script>
-  <script src="journal.js?v=20261002"></script>
+  <dialog class="figure-modal" id="modal" aria-labelledby="modal-title"><button class="close-modal" type="button" aria-label="关闭">×</button><div id="modal-content"></div></dialog>
+  <div class="figure-toast" id="toast" role="status" hidden></div>
+
+  <script type="module" src="figures/app.js?v=20261003"></script>
+  <script src="journal.js?v=20261003"></script>
 </body>
 </html>
