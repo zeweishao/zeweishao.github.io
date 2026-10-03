@@ -1036,7 +1036,11 @@
       list.innerHTML = ordered
         .map((item, index) => {
           const tone = index % 8;
-          const roleHtml = item.role ? `<p class="message-role">${esc(item.role)}：</p>` : "";
+          const dateKey = String(item.date || "");
+          const dateHtml = dateKey ? `<span class="message-date">${esc(dateKey.slice(5).replace("-", "."))}</span>` : "";
+          const roleHtml = item.role || dateHtml
+            ? `<p class="message-role">${item.role ? `${esc(item.role)}：` : ""}${dateHtml}</p>`
+            : "";
           const collapsible = shouldCollapseMessage(item.content);
           return `
             <article class="message-card message-tone-${tone}">

@@ -8,7 +8,7 @@
   <title>属于我们的小世界</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
   <link rel="preload" as="image" href="assets/journal/home-spread.webp" type="image/webp">
-  <link rel="stylesheet" href="journal.css?v=20261002">
+  <link rel="stylesheet" href="journal.css?v=20261003c">
 </head>
 <body class="journal home-page">
   <header class="topbar">
@@ -38,94 +38,82 @@
   </header>
 
   <main class="j-wrap">
-    <section class="home-hero" aria-labelledby="homeTitle">
-      <div class="home-hero-copy">
-        <div class="date-stamp-row">
+    <section class="diary" aria-labelledby="homeTitle">
+      <div class="diary-page diary-left">
+        <header class="diary-head">
           <div class="date-stamp" aria-label="今天的日期">
             <span class="y" data-date="year"></span>
             <span class="md" data-date="md"></span>
             <span class="w" data-date="weekday"></span>
           </div>
-          <p class="eyebrow">写给宝宝的一页</p>
-        </div>
-        <h1 id="homeTitle"><span class="line">在很大的世界里，</span><span class="line">我们有自己的轨道。</span></h1>
-        <p class="hand-line">今天有什么小事情，写给你。</p>
-        <div class="home-actions">
-          <a class="j-btn" href="#today">翻开今天这一页</a>
-          <a class="j-btn-line" href="comic.html">看我们的漫画</a>
-        </div>
-      </div>
-
-      <figure class="spread-card" style="margin: 0">
-        <span class="tape" style="left: 40px; transform: rotate(-4deg)"></span>
-        <span class="tape navy" style="right: 36px; width: 84px; transform: rotate(5deg)"></span>
-        <div class="spread-art">
-          <img src="assets/journal/home-spread.webp" alt="手账跨页：左边杭州正午的西湖，右边纽约午夜的布鲁克林大桥" width="1400" height="933">
-          <div class="time-chip day">
-            <small>杭州 · <span data-daypart="hz"></span></small>
-            <strong data-clock="hz">--:--</strong>
+          <div class="diary-head-text">
+            <p class="eyebrow">写给宝宝的一页</p>
+            <h1 id="homeTitle" class="hand">今天，写给你。</h1>
           </div>
-          <div class="time-chip night">
-            <small>纽约 · <span data-daypart="ny"></span></small>
-            <strong data-clock="ny">--:--</strong>
-          </div>
-        </div>
-        <figcaption class="spread-caption">隔着十二小时，我们在同一条轨道上</figcaption>
-      </figure>
-    </section>
+        </header>
 
-    <section id="today" aria-labelledby="todayTitle" style="padding-top: 56px">
-      <div class="j-section-head">
-        <h2 id="todayTitle">今天写给你的</h2>
-      </div>
-
-      <div class="collage">
-        <a class="c-card c-letter lined lift" href="messages.html">
-          <img class="sticker" src="assets/journal/sticker-letter.webp" alt="" style="right: -26px; top: -42px; width: 104px; transform: rotate(10deg)">
-          <div class="label">最近悄悄跟你说的</div>
+        <a class="diary-letter lined" href="messages.html">
+          <img class="sticker" src="assets/journal/sticker-letter.webp" alt="" style="right: -18px; top: -34px; width: 92px; transform: rotate(10deg)">
+          <span class="label">最近悄悄跟你说的</span>
           <p class="text" id="homeLatestMessageText">……</p>
-          <span class="seal" aria-hidden="true"></span>
+          <span class="more">翻到悄悄话 →</span>
         </a>
 
-        <a class="c-card c-photo lift" href="albums.html">
-          <span class="tape" style="top: -12px; left: 50%; width: 80px; margin-left: -40px; transform: rotate(-3deg)"></span>
-          <img class="sticker" src="assets/journal/sticker-photo.webp" alt="" style="right: -30px; top: -36px; width: 78px; transform: rotate(10deg)">
+        <a class="diary-tea" href="milk-tea.html" data-tea-card>
+          <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="right: -14px; top: -30px; width: 66px; transform: rotate(12deg)">
+          <span class="title">奶茶小票</span>
+          <span class="row rule"><span>你的上一杯</span><span data-tea="name">还没摇呢</span></span>
+          <span class="row" data-tea-row hidden><span>品牌</span><span data-tea="brand">—</span></span>
+          <span class="row" data-tea-row hidden><span>那天</span><span class="num" data-tea="date">—</span></span>
+        </a>
+      </div>
+
+      <div class="diary-page diary-right">
+        <figure class="spread-card">
+          <span class="tape" style="left: 34px; transform: rotate(-4deg)"></span>
+          <span class="tape navy" style="right: 30px; width: 84px; transform: rotate(5deg)"></span>
+          <div class="spread-art">
+            <img src="assets/journal/home-spread.webp" alt="手账跨页：左边杭州的西湖，右边纽约的布鲁克林大桥" width="1400" height="933">
+            <div class="time-chip day">
+              <small>杭州 · <span data-daypart="hz"></span></small>
+              <strong data-clock="hz">--:--</strong>
+            </div>
+            <div class="time-chip night">
+              <small>纽约 · <span data-daypart="ny"></span></small>
+              <strong data-clock="ny">--:--</strong>
+            </div>
+          </div>
+          <figcaption class="hand">隔着十二小时，我们在同一条轨道上</figcaption>
+        </figure>
+
+        <a class="diary-photo" href="albums.html">
+          <span class="tape gold" style="top: -12px; left: 50%; width: 70px; margin-left: -35px; transform: rotate(-3deg)"></span>
           <img src="photos/1.jpg" alt="照片站里的一张照片" loading="lazy" decoding="async">
           <span class="hand">我们的照片</span>
         </a>
 
-        <a class="c-card c-tea lift" href="milk-tea.html" data-tea-card>
-          <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="right: -28px; top: -46px; width: 92px; transform: rotate(12deg)">
-          <div class="title">奶茶小屋</div>
-          <div class="num" style="text-align: center; color: var(--brass); font-style: italic">receipt · <span data-date="md"></span></div>
-          <div class="row rule"><span>你的上一杯</span><span data-tea="name">还没摇呢</span></div>
-          <div class="row" data-tea-row hidden><span>品牌</span><span data-tea="brand">—</span></div>
-          <div class="row" data-tea-row hidden><span>那天</span><span class="num" data-tea="date">—</span></div>
-        </a>
-
-        <a class="c-card c-comic lift" href="comic.html" data-comic-card>
-          <span class="tape navy" style="top: -12px; left: 46%; width: 92px; transform: rotate(-3deg)"></span>
-          <div class="cover">
-            <img data-comic="cover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="星轨漫画最新一篇封面" loading="lazy" decoding="async">
-          </div>
-          <div class="body">
-            <span class="no" data-comic="no">TICKET · NO. 03</span>
-            <h3 data-comic="title">名字抵达之前</h3>
-            <p data-comic="summary">空白离开以后，馆长做的第一件事，不是追问维泽在十二小时之外看见了什么。</p>
-            <div class="go"><span>十二小时之外的星轨</span><span aria-hidden="true">→</span></div>
-          </div>
-        </a>
-
-        <a class="c-card c-figure lift" href="figures.html">
-          <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="right: -18px; top: -56px; width: 100px; transform: rotate(6deg)">
+        <a class="diary-figure" href="figures.html">
           <div class="portrait"><img src="assets/figure-story/characters/wiki/31-优纪.png" alt="优纪手办" loading="lazy"></div>
-          <div>
-            <div class="label">今天陪着你的</div>
-            <h3>优纪</h3>
-            <div class="hand">如果你偶尔忘了自己有多值得被珍惜，就看着我。</div>
-          </div>
+          <span class="label">今天陪着你的</span>
+          <strong>优纪</strong>
+          <span class="hand">如果你偶尔忘了自己有多值得被珍惜，就看着我。</span>
         </a>
       </div>
+    </section>
+
+    <section class="diary-more" aria-label="接着往下翻">
+      <a class="c-card c-comic" href="comic.html" data-comic-card>
+        <span class="tape navy" style="top: -12px; left: 46%; width: 92px; transform: rotate(-3deg)"></span>
+        <div class="cover">
+          <img data-comic="cover" src="assets/star-rail-comic/covers/chapter-03.webp" alt="星轨漫画最新一篇封面" loading="lazy" decoding="async">
+        </div>
+        <div class="body">
+          <span class="no" data-comic="no">TICKET · NO. 03</span>
+          <h3 data-comic="title">名字抵达之前</h3>
+          <p data-comic="summary">空白离开以后，馆长做的第一件事，不是追问维泽在十二小时之外看见了什么。</p>
+          <div class="go"><span>十二小时之外的星轨</span><span aria-hidden="true">→</span></div>
+        </div>
+      </a>
     </section>
 
     <footer class="j-footer">
@@ -134,7 +122,7 @@
     </footer>
   </main>
 
-  <script src="app.js"></script>
-  <script src="journal.js?v=20261002"></script>
+  <script src="app.js?v=20261003b"></script>
+  <script src="journal.js?v=20261003c"></script>
 </body>
 </html>

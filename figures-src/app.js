@@ -170,6 +170,13 @@ function makeHeroCard(selectedHero) {
   const art = el('span', 'card-art');
   const image = makeImage(savedSkin?.thumb || savedSkin?.portrait, 'card-image', '', true);
   image.width = 256; image.height = 340;
+  // Thumbnails are trimmed to the figure, so wide ones (mechs, sofas) would look tiny when fitted
+  // into a portrait frame. Scale by aspect so every figure fills a similar visual area.
+  const fit = () => {
+    const ratio = image.naturalWidth / image.naturalHeight || 0.75;
+    image.style.height = Math.min(88, Math.max(78 / ratio, 56)) + '%';
+  };
+  if (image.complete && image.naturalWidth) fit(); else image.addEventListener('load', fit, { once: true });
   art.append(image, el('span', 'card-brand', selectedHero.brand.name));
   const caption = el('span', 'card-name');
   caption.append(el('strong', '', selectedHero.name), el('span', 'card-profession', selectedHero.profession.name), el('small', 'card-skin-name', savedSkin?.name || ''));

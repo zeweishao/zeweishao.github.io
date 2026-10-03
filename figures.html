@@ -7,7 +7,7 @@
   <title>小手办陈列馆｜属于我们的小世界</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
   <link rel="preconnect" href="figures-assets/">
-  <link rel="stylesheet" href="journal.css?v=20261003">
+  <link rel="stylesheet" href="journal.css?v=20261003c">
   <script>window.FIGURE_ASSET_BASE = window.FIGURE_ASSET_BASE || "figures-assets/";</script>
 </head>
 <body class="journal sub-page figures-page">
@@ -39,12 +39,28 @@
 
   <main class="j-wrap figures-app collection-mode" id="game">
     <section class="collection" aria-labelledby="collection-heading">
-      <div class="j-page-head">
-        <img class="sticker" src="assets/journal/sticker-figures.webp" alt="" style="left: min(330px, 62%); top: 14px; transform: rotate(8deg)">
-        <p class="eyebrow">陪着你的小家伙们</p>
-        <h1 id="collection-heading">小手办陈列馆</h1>
-        <p class="sub hand-sub">把你喜欢的她们，都好好收在这里。</p>
-        <p class="sub"><span id="results-count" role="status" aria-live="polite">正在载入…</span><span class="sep"> · </span><span id="catalog-total"></span></p>
+      <div class="j-page-head figures-head">
+        <div class="figures-head-copy">
+          <p class="eyebrow">陪着你的小家伙们</p>
+          <h1 id="collection-heading">小手办陈列馆</h1>
+          <p class="sub hand-sub">把你喜欢的她们，都好好收在这里。</p>
+          <p class="sub"><span id="results-count" role="status" aria-live="polite">正在载入…</span><span class="sep"> · </span><span id="catalog-total"></span></p>
+        </div>
+        <section class="dome-cabinet" aria-labelledby="favTitle">
+          <h2 id="favTitle" class="hand">你最喜欢的她们</h2>
+          <ul class="dome-shelf">
+            <li><a class="dome" href="#figure-212206"><img src="assets/journal/domes/beige.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">贝歌</span></a></li>
+            <li><a class="dome" href="#figure-213103"><img src="assets/journal/domes/chuyin.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">初音未来</span></a></li>
+            <li><a class="dome" href="#figure-211103"><img src="assets/journal/domes/suixiang.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">穗香</span></a></li>
+            <li><a class="dome" href="#figure-212106"><img src="assets/journal/domes/heizi.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">白井黑子</span></a></li>
+            <li><a class="dome" href="#figure-213110"><img src="assets/journal/domes/xing.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">藤林杏</span></a></li>
+            <li><a class="dome" href="#figure-211104"><img src="assets/journal/domes/zou.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">立华奏</span></a></li>
+            <li><a class="dome" href="#figure-213105"><img src="assets/journal/domes/meiqin.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">御坂美琴</span></a></li>
+            <li><a class="dome" href="#figure-213017"><img src="assets/journal/domes/wenji.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">蔡文姬</span></a></li>
+            <li><a class="dome" href="#figure-213108"><img src="assets/journal/domes/mali.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">玛莉萝丝</span></a></li>
+            <li><a class="dome" href="#figure-215103"><img src="assets/journal/domes/zhu.webp" alt="" width="388" height="520" loading="lazy" decoding="async"><span class="dome-tag">古河渚</span></a></li>
+          </ul>
+        </section>
       </div>
 
       <div class="figure-toolbar">
@@ -129,7 +145,7 @@
   <dialog class="figure-modal" id="modal" aria-labelledby="modal-title"><button class="close-modal" type="button" aria-label="关闭">×</button><div id="modal-content"></div></dialog>
   <div class="figure-toast" id="toast" role="status" hidden></div>
 
-  <script type="module" src="figures/app.js?v=20261003"></script>
-  <script src="journal.js?v=20261003"></script>
+  <script type="module" src="figures/app.js?v=20261003b"></script>
+  <script src="journal.js?v=20261003c"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f5eee3">
   <title>雪的奶茶小屋</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
-  <link rel="stylesheet" href="journal.css?v=20261002">
+  <link rel="stylesheet" href="journal.css?v=20261003c">
 </head>
 <body class="journal sub-page milk-tea-page">
   <header class="topbar">
@@ -36,86 +36,87 @@
   </header>
 
   <main class="j-wrap">
-    <section class="j-page-head" aria-labelledby="milkTitle">
-      <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="left: min(330px, 62%); top: 18px; transform: rotate(12deg)">
-      <p class="eyebrow">给宝宝的奶茶角落</p>
-      <div class="tea-head">
-        <div style="display: flex; flex-direction: column; gap: 10px">
+    <section class="tea-spread" aria-labelledby="milkTitle">
+      <div class="tea-page tea-left">
+        <header class="j-page-head tea-head">
+          <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="right: 4%; top: 22px; transform: rotate(12deg)">
+          <p class="eyebrow">给宝宝的奶茶角落</p>
           <h1 id="milkTitle">雪的奶茶小屋</h1>
           <p class="hand">今天想喝点什么呀？我陪你摇一杯。</p>
+        </header>
+
+        <div class="tea-moods tea-order">
+          <h2>你今天想要的味道</h2>
+          <div class="mode-chips" id="modeChips" aria-label="今天想喝什么，可多选">
+            <button class="is-active" type="button" data-mode="any" aria-pressed="true">随便摇</button>
+            <button type="button" data-mode="fresh" aria-pressed="false">清爽</button>
+            <button type="button" data-mode="fruit" aria-pressed="false">水果</button>
+            <button type="button" data-mode="milk" aria-pressed="false">奶香</button>
+            <button type="button" data-mode="tea" aria-pressed="false">茶感</button>
+            <button type="button" data-mode="new" aria-pressed="false">尝鲜</button>
+            <button type="button" data-mode="classic" aria-pressed="false">经典稳妥</button>
+            <button type="button" data-mode="light" aria-pressed="false">低负担</button>
+            <button type="button" data-mode="flower" aria-pressed="false">花香</button>
+            <button type="button" data-mode="cheese" aria-pressed="false">芝士</button>
+            <button type="button" data-mode="peach" aria-pressed="false">桃子</button>
+            <button type="button" data-mode="citrus" aria-pressed="false">柚子</button>
+            <button type="button" data-mode="bold" aria-pressed="false">浓一点</button>
+          </div>
+          <label class="infinite-toggle">
+            <input type="checkbox" id="infiniteMode">
+            <span class="toggle-track" aria-hidden="true"></span>
+            <span>无限换模式</span>
+          </label>
         </div>
-        <div class="tea-head-actions">
+
+        <aside class="tea-notebook lined" aria-label="口味偏好">
+          <span class="tape navy"></span>
+          <h2>我记下的你的口味</h2>
+          <div class="profile-grid" id="profileGrid">
+            <span>清爽</span>
+            <span>茶感</span>
+            <span>水果</span>
+            <span>奶香</span>
+          </div>
+          <button class="j-wavy" type="button" id="openLetterBtn">写给你的信</button>
+        </aside>
+      </div>
+
+      <div class="tea-page tea-right">
+        <nav class="tea-head-actions" aria-label="奶茶小本子">
           <button class="atlas-entry-btn" type="button" id="openTeaAtlasBtn">奶茶清单</button>
           <button class="atlas-entry-btn" type="button" id="openPreferenceAtlasBtn">偏好小本</button>
           <button class="atlas-entry-btn letter-btn" type="button" id="openLetterBtnDesktop">写给你的信</button>
-        </div>
-      </div>
-    </section>
+        </nav>
 
-    <section class="tea-layout" aria-label="奶茶机">
-      <div class="tea-moods">
-        <h2>你今天想要的味道</h2>
-        <div class="mode-chips" id="modeChips" aria-label="今天想喝什么，可多选">
-          <button class="is-active" type="button" data-mode="any" aria-pressed="true">随便摇</button>
-          <button type="button" data-mode="fresh" aria-pressed="false">清爽</button>
-          <button type="button" data-mode="fruit" aria-pressed="false">水果</button>
-          <button type="button" data-mode="milk" aria-pressed="false">奶香</button>
-          <button type="button" data-mode="tea" aria-pressed="false">茶感</button>
-          <button type="button" data-mode="new" aria-pressed="false">尝鲜</button>
-          <button type="button" data-mode="classic" aria-pressed="false">经典稳妥</button>
-          <button type="button" data-mode="light" aria-pressed="false">低负担</button>
-          <button type="button" data-mode="flower" aria-pressed="false">花香</button>
-          <button type="button" data-mode="cheese" aria-pressed="false">芝士</button>
-          <button type="button" data-mode="peach" aria-pressed="false">桃子</button>
-          <button type="button" data-mode="citrus" aria-pressed="false">柚子</button>
-          <button type="button" data-mode="bold" aria-pressed="false">浓一点</button>
-        </div>
-        <label class="infinite-toggle">
-          <input type="checkbox" id="infiniteMode">
-          <span class="toggle-track" aria-hidden="true"></span>
-          <span>无限换模式</span>
-        </label>
-      </div>
-
-      <div class="tea-machine-column">
-        <div class="tea-machine" id="teaMachine" aria-live="polite">
-          <img class="machine-body" src="assets/journal/tea-machine.webp" alt="雪的奶茶机" width="675" height="900">
-          <div class="machine-plate" aria-hidden="true">雪的奶茶机</div>
-          <div class="machine-window" aria-hidden="true">
-            <span class="stream"></span>
-            <img class="shaker" src="assets/journal/shaker.webp" alt="">
-            <img class="ice" src="assets/journal/ice.webp" alt="">
-            <span class="sfx a">叮当</span>
-            <span class="sfx b">沙沙</span>
-            <div class="cup">
-              <div class="cup-liquid"><i></i><b></b></div>
-              <span class="cup-lid"></span>
-              <img src="assets/journal/cup.webp" alt="">
+        <div class="tea-machine-column">
+          <div class="tea-machine" id="teaMachine" aria-live="polite">
+            <img class="machine-body" src="assets/journal/tea-machine.webp" alt="雪的奶茶机" width="675" height="900">
+            <div class="machine-plate" aria-hidden="true">雪的奶茶机</div>
+            <div class="machine-window" aria-hidden="true">
+              <span class="stream"></span>
+              <img class="shaker" src="assets/journal/shaker.webp" alt="">
+              <img class="ice" src="assets/journal/ice.webp" alt="">
+              <span class="sfx a">叮当</span>
+              <span class="sfx b">沙沙</span>
+              <div class="cup">
+                <div class="cup-liquid"><i></i><b></b></div>
+                <span class="cup-lid"></span>
+                <img src="assets/journal/cup.webp" alt="">
+              </div>
             </div>
+            <div class="machine-status" aria-hidden="true"><i></i><span>XUE · TEA</span></div>
+            <button class="primary-tea-btn tea-draw-trigger" type="button" id="drawBtn" aria-label="摇一杯今天的奶茶">
+              <span></span>
+            </button>
+            <img id="teaMachineProduct" alt="" hidden>
           </div>
-          <div class="machine-status" aria-hidden="true"><i></i><span>XUE · TEA</span></div>
-          <button class="primary-tea-btn tea-draw-trigger" type="button" id="drawBtn" aria-label="摇一杯今天的奶茶">
-            <span></span>
-          </button>
-          <img id="teaMachineProduct" alt="" hidden>
-        </div>
-        <p class="brew-caption" id="brewCaption"></p>
-        <div class="tea-machine-secondary">
-          <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">你喝过的每一杯</button>
+          <p class="brew-caption" id="brewCaption"></p>
+          <div class="tea-machine-secondary">
+            <button class="ghost-tea-btn hero-history-btn" type="button" id="openHistoryBtnHero">你喝过的每一杯</button>
+          </div>
         </div>
       </div>
-
-      <aside class="tea-notebook lined" aria-label="口味偏好">
-        <span class="tape navy"></span>
-        <h2>我记下的你的口味</h2>
-        <div class="profile-grid" id="profileGrid">
-          <span>清爽</span>
-          <span>茶感</span>
-          <span>水果</span>
-          <span>奶香</span>
-        </div>
-        <button class="j-wavy" type="button" id="openLetterBtn">写给你的信</button>
-      </aside>
     </section>
 
     <section class="result-section" id="resultSection" aria-label="奶茶推荐结果" hidden>
@@ -246,7 +247,7 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="milk-tea.js?v=20261002"></script>
-  <script src="journal.js?v=20261002"></script>
+  <script src="milk-tea.js?v=20261003c"></script>
+  <script src="journal.js?v=20261003c"></script>
 </body>
 </html>
