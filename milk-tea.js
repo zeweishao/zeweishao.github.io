@@ -359,9 +359,9 @@
   const productReason = (product) => {
     const review = product.reviewSummary || {};
     const openings = [
-      "这杯我会认真给雪放进候选里。",
+      "这杯我会认真放进给你的候选里。",
       "今天这杯很适合被抽出来。",
-      "如果现在让我替雪选，我会偏向它。"
+      "如果现在让我替你选，我会偏向它。"
     ];
     const endings = [
       "不算冒险，但会有一点刚刚好的惊喜。",
@@ -648,8 +648,8 @@
     if (nodes.teaMachineProduct) nodes.teaMachineProduct.src = selectedVisualAsset;
     const selectedLabel = modeLabel();
     const captions = state.current
-      ? ["冰块重新落进雪克杯。", `按「${selectedLabel}」再摇一杯。`, "倒进杯子里，慢一点。", "封口，咔哒。"]
-      : ["冰块落进雪克杯，叮当。", `按「${selectedLabel}」摇一摇。`, "倒进杯子里，慢一点。", "封口，咔哒。"];
+      ? ["再给你摇一杯。", `按「${selectedLabel}」的口味。`, "倒进杯子里，慢一点。", "封好啦。"]
+      : ["正在给你摇一杯。", `按「${selectedLabel}」的口味。`, "倒进杯子里，慢一点。", "封好啦。"];
     runBrewCaptions(captions, duration);
     await new Promise((resolve) => window.setTimeout(resolve, duration));
 
@@ -705,7 +705,7 @@
         rating: type === "love" ? "like" : null
       });
       closeResult();
-      showToast(type === "love" ? "记住啦：今天就喝这杯" : "先帮雪收藏这杯");
+      showToast(type === "love" ? "记住啦，今天就喝这杯" : "先帮你收藏这杯");
     } else {
       markSkipped(product);
       showToast(type === "meh" ? "这杯先放一边" : "今天避开它");
@@ -1059,7 +1059,7 @@
       .reverse();
 
     if (!history.length) {
-      nodes.historyList.innerHTML = `<div class="history-empty">还没有确认过奶茶。等雪点了“今天就喝这个”，这里就会开始记录。</div>`;
+      nodes.historyList.innerHTML = `<div class="history-empty">还没有记下喝过的奶茶哦。等你点了“今天就喝这个”，我就开始一杯一杯记下来。</div>`;
       return;
     }
 
