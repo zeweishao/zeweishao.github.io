@@ -89,6 +89,63 @@
     } catch {}
   };
 
+  // Home: a random chibi figure + love line, reshuffled by the 随机 button.
+  const FIGURES = [
+    ["beige", "贝歌", "212206"], ["chuyin", "初音未来", "213103"], ["zou", "立华奏", "211104"],
+    ["heizi", "白井黑子", "212106"], ["xing", "藤林杏", "213110"], ["suixiang", "穗香", "211103"],
+    ["meiqin", "御坂美琴", "213105"], ["wenji", "蔡文姬", "213017"], ["mali", "玛莉萝丝", "213108"],
+    ["zhu", "古河渚", "215103"],
+  ];
+  const LOVE_LINES = [
+    "如果你偶尔忘了自己有多值得被珍惜，就看着我。",
+    "今天也想把最好听的歌，唱给雪雪一个人听。",
+    "隔着十二个小时，我也想第一个跟你说早安。",
+    "你笑一下，我这一整天就都亮了。",
+    "世界很大，可我只想住进你的每一天。",
+    "累了就靠过来，我一直在这儿。",
+    "喜欢你这件事，我每天都在偷偷加码。",
+    "你是我翻遍整本手账，最想反复读的那一页。",
+    "今天也辛苦啦，奖励你一个很长很长的抱抱。",
+    "不管多晚，你回头的时候我都在。",
+    "想把星星都摘下来，排成你的名字。",
+    "雪雪今天也是全宇宙最可爱的。",
+    "你在的地方，就是我想去的地方。",
+    "我不贪心，只想要很多很多个有你的明天。",
+    "别怕走得慢，我陪你一步一步来。",
+    "见到你之后，我才知道心动是有声音的。",
+    "今天的份额：想你一次，再想你一次。",
+    "把烦恼交给我保管，你只负责开心。",
+  ];
+  const initFigureToday = () => {
+    const box = $("[data-figure-today]");
+    if (!box) return;
+    const pick = (list, prev) => {
+      let next;
+      do next = list[Math.floor(Math.random() * list.length)]; while (list.length > 1 && next === prev);
+      return next;
+    };
+    let figure;
+    let line;
+    const show = () => {
+      figure = pick(FIGURES, figure);
+      line = pick(LOVE_LINES, line);
+      const [file, name, id] = figure;
+      const img = $('[data-figure="img"]', box);
+      img.src = `assets/journal/domes/${file}.webp`;
+      img.alt = `${name}手办`;
+      $('[data-figure="name"]', box).textContent = name;
+      $('[data-figure="line"]', box).textContent = line;
+      $('[data-figure="link"]', box).href = `figures.html#figure-${id}`;
+    };
+    $('[data-figure="shuffle"]', box).addEventListener("click", () => {
+      show();
+      box.classList.remove("is-shuffled");
+      void box.offsetWidth;
+      box.classList.add("is-shuffled");
+    });
+    show();
+  };
+
   // 弗洛洛: a sticker that says hello and plays her voice line when tapped.
   const initCompanion = () => {
     if (document.body.dataset.noCompanion !== undefined) return;
@@ -159,7 +216,7 @@
   const initDock = () => {
     const tabs = document.querySelectorAll(".j-tabs a");
     if (!tabs.length || document.querySelector(".j-dock")) return;
-    const short = { "奶茶小屋": "奶茶", "星轨漫画": "漫画", "小手办": "手办", "照片站": "照片" };
+    const short = { "团子之家": "团子", "能量补给站": "补给" };
     const dock = document.createElement("nav");
     dock.className = "j-dock";
     dock.setAttribute("aria-label", "快捷导航");
@@ -181,6 +238,7 @@
   initDock();
   initClocks();
   initFigurePicker();
+  initFigureToday();
   initMenus();
   initTeaCard();
   initComicCard();

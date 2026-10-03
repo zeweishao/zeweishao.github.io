@@ -1,6 +1,6 @@
 /* 星轨手账 · Orbit Journal — shared design system for the redesigned pages. */
 
-@import url("https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&family=Ma+Shan+Zheng&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap");
+/* Web fonts load from each page <head> without blocking first paint; system Songti/Kaiti show first. */
 
 :root {
   --paper: #f5eee3;
@@ -5319,12 +5319,21 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   color: var(--ink) !important;
   text-align: center;
   text-decoration: none;
+}
+
+.diary-figure-wrap {
+  position: relative;
+  display: flex;
   transform: rotate(1.4deg);
+}
+
+.diary-figure-wrap > .diary-figure {
+  flex: 1;
 }
 
 .diary-figure .portrait {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   width: 108px;
   height: 108px;
@@ -5333,10 +5342,55 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   background: var(--paper-2);
 }
 
+/* Dome stickers: zoom past the glass lid and base so the chibi fills the circle. */
 .diary-figure .portrait img {
-  height: 112%;
+  height: 190%;
   width: auto;
   max-width: none;
+  margin-top: -40%;
+}
+
+.figure-shuffle {
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  padding: 5px 12px;
+  border: 0;
+  border-radius: 3px;
+  background: var(--rose);
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  box-shadow: 0 2px 6px rgba(80, 40, 20, 0.25);
+  transform: rotate(8deg);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.figure-shuffle::before {
+  content: "↻ ";
+}
+
+.figure-shuffle:hover,
+.figure-shuffle:focus-visible {
+  background: var(--rose-deep);
+  transform: rotate(8deg) scale(1.06);
+}
+
+.diary-figure-wrap.is-shuffled .diary-figure {
+  animation: figure-shuffle-in 0.35s ease-out;
+}
+
+@keyframes figure-shuffle-in {
+  from { opacity: 0.3; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .diary-figure-wrap.is-shuffled .diary-figure { animation: none; }
 }
 
 .diary-figure .label {
@@ -5402,7 +5456,7 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   .diary-letter { order: 3; }
   .diary-tea { order: 4; }
   .diary-photo { order: 5; }
-  .diary-figure { order: 6; }
+  .diary-figure-wrap { order: 6; }
 
   .diary {
     display: grid;
