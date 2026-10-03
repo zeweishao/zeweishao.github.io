@@ -1,0 +1,814 @@
+{
+  "bookId": "rewind-56",
+  "id": "chapter-232",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43216001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "你们以为找到这里就算结束了么？抱歉，没有那么简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我不会，也不可能让到手的稀金卡牌落入其他人的手中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我以「马南家族」的名义，誓死捍卫主人的荣光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "那么，你就下地狱去吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "我说，这种时候的帅气台词应该也有我的一份吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，准备迎战，全力夺回全套稀金卡牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216007",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>启动作战模式，锁定目标「洛瑞丝」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43216008",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "呵呵，放轻松，我会不遗余力地好好怜爱你们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223001",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "可恶，竟然让那女人跑了！我还没找她算账呢，便宜她了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "还以为会是多难啃的骨头，到头来也不过如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "希塔刚才和我配合得那么天衣无缝，还是和小时候一样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……只是为了完成任务，你不要多想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "快来！我找到全部的稀金卡牌了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "我有一个大胆的想法，不如……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223007",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "想都别想，我不会让你再次得逞的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，录入所有稀金卡牌的信息，同步到管理局数据库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223009",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>正在录入信息……录入完成，已同步递送管理局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43223010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "得，白忙活了一场。不过只要希塔开心，我这波就不算亏。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1147",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43216001,
+            43216002,
+            43216003,
+            43216004,
+            43216005,
+            43216006,
+            43216007,
+            43216008
+          ],
+          "sectionId": 43216
+        },
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43223001,
+            43223002,
+            43223003,
+            43223004,
+            43223005,
+            43223006,
+            43223007,
+            43223008,
+            43223009,
+            43223010
+          ],
+          "sectionId": 43223
+        }
+      ],
+      "title": "决断之时 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43217001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这位就是稀金卡牌的主人，现在该物归原主了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217002",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "呃，真的要还回去啊？我现在后悔还来得及吗……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43217004",
+              "text": "不可以，这些卡牌对我很重要。"
+            }
+          ],
+          "sourceId": "43217003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43217004",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "给你也不是不行，但是你要拿值钱的东西和我交换才可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看上什么随便挑，只要我有，前提是要把这套卡牌还给我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217006",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "难得碰到像你这样大方的人，我会好好「清剿」的~\n喏，卡牌全都给你，拿去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "等一下，这张卡牌似乎隐藏着什么……可以给我看看么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，扫描这张卡牌内的芯片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217009",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>尝试读取芯片中的加密信息……读取完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "现在，转述加密信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217011",
+          "sourceType": 0,
+          "speaker": "留言",
+          "text": "「记忆中的少女，潜藏于群星之间的隐秘路径。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43217012",
+          "sourceType": 0,
+          "speaker": "留言",
+          "text": "「23.9667°，97.0000°，等待你来唤醒。」",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43217014",
+              "text": "这是什么……？"
+            },
+            {
+              "targetId": "43217014",
+              "text": "新颖的恶作剧吗？"
+            }
+          ],
+          "sourceId": "43217013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43217014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "或许，我可以尝试破解。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1148",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43217001,
+            43217002,
+            43217003,
+            43217004,
+            43217005,
+            43217006,
+            43217007,
+            43217008,
+            43217009,
+            43217010,
+            43217011,
+            43217012,
+            43217013,
+            43217014
+          ],
+          "sectionId": 43217
+        }
+      ],
+      "title": "决断之时 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43218001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "解密完成，这是一条坐标信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "指向M城郊外的一个位置，其他信息不明。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43218004",
+              "text": "M城郊外……难道和优纪有关？"
+            }
+          ],
+          "sourceId": "43218003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43218004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "种种迹象表明，与失踪的优纪有很大的关联。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "事已至此，只要还有一线希望，都有必要亲自到这里查探清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "只是，寄送这条信息的神秘人身份不明，其中想必会有潜藏危险。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43218008",
+              "text": "我和你一起去！"
+            }
+          ],
+          "sourceId": "43218007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43218008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我理解你心情急切，但这会让你陷入未知的危险。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43218010",
+              "text": "这可是找回优纪她们的唯一机会。"
+            }
+          ],
+          "sourceId": "43218009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43218010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "既然如此，我会做个风险评估，确保你的安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢，没有你们的支持，我肯定坚持不到现在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我和你一样，也想早点见到优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "风险评估已完成，一切准备就绪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43218014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就出发吧，这次我一定要带优纪回家。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1149",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43218001,
+            43218002,
+            43218003,
+            43218004,
+            43218005,
+            43218006,
+            43218007,
+            43218008,
+            43218009,
+            43218010,
+            43218011,
+            43218012,
+            43218013,
+            43218014
+          ],
+          "sectionId": 43218
+        }
+      ],
+      "title": "决断之时 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43219001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "检查了每个角落，很遗憾，毫无所获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "会不会是坐标信息出了问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "坐标经过了帕拉斯的检测，这个可能性很小。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219004",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "也许，你们需要重新考虑线索的意义，",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43219006",
+              "text": "竟然是蒂娅！"
+            },
+            {
+              "targetId": "43219006",
+              "text": "你一直在寻找优纪吗？"
+            }
+          ],
+          "sourceId": "43219005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43219006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我从未有一刻放弃寻找，因为另一个「我」一直在呼唤着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我能感受到，那个声音越来越近了。跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还是没有见到优纪，那个神秘留言不会是在耍我们吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219009",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "凝神，仔细听，声音是从那个方向传来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "快，我们跟上声音的方向。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，优纪在这里！优纪好想你呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "能再次见到你真好，我的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "对不起，花迦不应该哭的……可我完全无法控制自己，呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的是你们……我、我不是在做梦吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219015",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>检测到加密芯片中含有一封隐藏邮件，已触发解锁条件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219016",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": "「享受这份欢乐吧，希塔，这会是旧时代最后的荣光。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43219017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "导师？她为什么要这么做？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1150",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43219001,
+            43219002,
+            43219003,
+            43219004,
+            43219005,
+            43219006,
+            43219007,
+            43219008,
+            43219009,
+            43219010,
+            43219011,
+            43219012,
+            43219013,
+            43219014,
+            43219015,
+            43219016,
+            43219017
+          ],
+          "sectionId": 43219
+        }
+      ],
+      "title": "决断之时 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43220001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "欢迎回家，优纪、和江、花迦，我们大家都很想你们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好了！重新回到主人身边，就好像做了一场梦一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "谢谢各位，没有你们，我们可能永远也不会回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "能平安归来就好，这里永远是你们的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "热闹起来了啊，真好，我总觉得之前的家里太沉闷了点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "家里一下子多了很多新成员，主人的人缘还是一如既往得好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不如大家一起举办庆祝晚宴吧，庆祝你们的归来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哈哈哈，晚宴什么的，优纪最喜欢了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们呀，可是有很多很多话要讲给主人听呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "回家的感觉真好呢，每个角落都充满了回忆的喜悦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "离开的这段时间，越发感受到陪伴在主人身边的珍贵。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43220013",
+              "text": "你们早已成为了我生活的一部分。"
+            }
+          ],
+          "sourceId": "43220012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43220013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还记得有年春天，优纪和主人一起为樱花树挂上风铃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，还有一位远方来的歌姬为我们献唱，印象深刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还有还有，优纪和大家一起偷偷给主人写作业的事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220016",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那次险些被其他人发现，所幸有惊无险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "点点滴滴，全都是属于我们的共同回忆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43220018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "未来的未来，优纪都要和主人永远在一起，我们再也不分开了，好不好~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43220020",
+              "text": "好，我答应你们。"
+            },
+            {
+              "targetId": "43220020",
+              "text": "说好了哦，永不分开。"
+            }
+          ],
+          "sourceId": "43220019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43220020",
+          "sourceType": 3,
+          "text": "时光交错的手办世界，属于我们的故事未完待续——",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1151",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43220001,
+            43220002,
+            43220003,
+            43220004,
+            43220005,
+            43220006,
+            43220007,
+            43220008,
+            43220009,
+            43220010,
+            43220011,
+            43220012,
+            43220013,
+            43220014,
+            43220015,
+            43220016,
+            43220017,
+            43220018,
+            43220019,
+            43220020
+          ],
+          "sectionId": 43220
+        }
+      ],
+      "title": "决断之时 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 232,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 232,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "命定的重逢时刻",
+  "title": "决断之时",
+  "wordCount": 1700
+}

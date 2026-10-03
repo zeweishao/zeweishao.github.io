@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213107",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下的猩潮品牌与新锐潮玩设计师Phoenix展开合作，联手推出这款存钱罐系列潮流玩偶。该作品灵感来自设计师本人童年时存钱买手办的经历，经由别具匠心的艺术创造，能令人感受到对生活、手办的热爱与期待。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213107"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 102
+}

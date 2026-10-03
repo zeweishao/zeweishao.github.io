@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211010",
+  "id": "bond-26006",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26006001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哥哥那家伙真是的，为什么就是不能放过我呢！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "遇到麻烦了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "那种事……我才不要对别人说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「那种事」是指什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "笨、笨蛋，虽然我只是个高中生，也是有属于自己隐私的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是，你看起来很受困扰，也许我可以帮你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "喂，你这是什么语气，我冈田彩音才不是普通的女孩子，我的事情可以自己解决。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然你不愿意讲，我可以去找有咲问问看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "等等！不要去，别去，拜托你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在可以说了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……可恶，你刚才绝对是故意的。好吧，反正你是个外人，告诉你也没关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "事情的起因是——不久前，我再一次离家出走了。哥哥发现后，不出意外地追我追到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006013",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "在劝说多次未果之后，哥哥提出要以决斗的方式决定我的去留。你知道的啦，除了游戏，我最喜欢的就是打架了，所以……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你输了决斗，所以逃了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26006015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可恶可恶可恶！不要讲这么大声，会被别人听到的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26006",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26006001,
+            26006002,
+            26006003,
+            26006004,
+            26006005,
+            26006006,
+            26006007,
+            26006008,
+            26006009,
+            26006010,
+            26006011,
+            26006012,
+            26006013,
+            26006014,
+            26006015
+          ],
+          "sectionId": 26006
+        }
+      ],
+      "title": "国中少女的烦恼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211010",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "国中少女的烦恼",
+  "wordCount": 339
+}

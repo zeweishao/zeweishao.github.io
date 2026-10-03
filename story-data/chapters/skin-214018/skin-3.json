@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214018",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "奥莱特城，天鹰学院。\n\n「当排除了所有的不可能，剩下的就只有真相。」侦探打扮的少女穿过围观的人群，在体育馆地板的拖拽痕迹前止步，「这起密室案件的凶手……就是死者本人。」\n\n「唔哈，真是憋死我了。」死者——推理社社长在地板上坐了起来，「恭喜你破解了这次的谜题。有兴趣加入社团吗？」\n\n谢绝邀请的名侦探少女再也没有现身，成为了天鹰学院诸多谜团中的一个。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·放学后真探Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214018",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "希塔·闪亮·放学后真探Ver.",
+  "title": "闪亮·放学后真探Ver.",
+  "wordCount": 168
+}

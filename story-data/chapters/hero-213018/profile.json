@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213018",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气枪战游戏《少女X机关枪》中的知名角色「米菲亚」化身1/7模型登场！毛茸茸的猫耳毛线帽和粉蓝系服饰的撞色搭配完美还原了猫咪少女的灵动可爱。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213018"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 70
+}

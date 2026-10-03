@@ -1,0 +1,121 @@
+{
+  "bookId": "archive-p3_luning",
+  "id": "section-28519",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28519001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "御坂，我的手机只剩一格电了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你这家伙，是把我当成了移动充电宝了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对不起，因为实在太方便了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "真是……充好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519005",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "等一下——！你的手机壁纸为什么是我的照片啊？！而且还是趁我睡着的时候拍的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，那个是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看见那么可爱的睡脸，我想没有人能忍住不拍下来的吧？\n你看，还有一张流口水的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "住、住住口！居然能一本正经地说出如此下流的话，以后不准再偷拍我了!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那光明正大地拍就可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "什么……变、变变态！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28519011",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "我不知道！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28519",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28519001,
+            28519002,
+            28519003,
+            28519004,
+            28519005,
+            28519006,
+            28519007,
+            28519008,
+            28519009,
+            28519010,
+            28519011
+          ],
+          "sectionId": 28519
+        }
+      ],
+      "title": "原文片段 28519"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "p3_luning",
+        "sectionId": 28519
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 28519",
+  "wordCount": 198
+}

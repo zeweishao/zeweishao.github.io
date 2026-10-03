@@ -1,0 +1,1965 @@
+{
+  "bookId": "rewind-12",
+  "id": "chapter-52",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17116001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "身为怪盗，追逐的永远是新鲜、有趣、刺激，所以——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "第二场赌局，我想玩点不一样的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在开始介绍之前，不如你们先猜猜看我想玩些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵呵，尽情猜想，魔术师的想象力一定会让你们大吃一惊的哟。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "谁知道你要干嘛，毕竟是一个连人类|101|都会偷走的疯子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我会把这个当做对我的夸奖，统统接受的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这个地方，看起来像是……跑道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "Bingo~答对了，我们的第二个赌局就发生在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我和你分成两组，每组只能有两名成员，在规定的跑道上进行接力赛跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "原来是要比赛跑步啊，小case，这个我超擅长的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这可不是普通的接力赛，沿途会事先藏好3张扑克牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只有凑齐3张扑克牌跑到终点的那一方才算胜出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116014",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "如果双方都拿到3张扑克牌，应该算谁赢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "很简单，集齐3张扑克牌并且在最短的时间内到达终点的那一方，就是最终的胜出者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116016",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "公平起见，我来藏牌，樱在终点计算双方的到达时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116017",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "嗯嗯，樱一定会努力做好这份工作的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那么，让我们一起开始这场华丽浪漫的魔法时刻吧~♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "第一场赌局居然会输给那个蓝毛，真是有够丢脸的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116020",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你们几个给我学聪明点，这次绝对不能再出错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116021",
+          "sourceType": 0,
+          "speaker": "绯野家仆",
+          "text": "遵命，尊贵的绯野大小姐，第二场赌局我们会竭尽全力赢取胜利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116022",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "最好是这样，否则我生起气来做出的事，我自己可不清楚哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116023",
+          "sourceType": 0,
+          "speaker": "绯野家仆",
+          "text": "是，这次绝不出错，绝对不会再出错……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116024",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嘻，3张牌这么容易就被我们找齐了呢，这个游戏会不会太简单了点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116025",
+          "sourceType": 0,
+          "speaker": "绯野家仆",
+          "text": "绯野大小姐天资聪颖，这点小把戏对您来说根本不在话下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116026",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没错，我天资卓绝、风趣幽默、浪漫活泼，长得还这么美，没道理会输给那个平民丫头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17116027",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我，绝对不会输给任何女人。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-327",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17116001,
+            17116002,
+            17116003,
+            17116004,
+            17116005,
+            17116006,
+            17116007,
+            17116008,
+            17116009,
+            17116010,
+            17116011,
+            17116012,
+            17116013,
+            17116014,
+            17116015,
+            17116016,
+            17116017,
+            17116018,
+            17116019,
+            17116020,
+            17116021,
+            17116022,
+            17116023,
+            17116024,
+            17116025,
+            17116026,
+            17116027
+          ],
+          "sectionId": 17116
+        }
+      ],
+      "title": "~皆大欢喜~ · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17117001",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "终于等到你们了，音姐姐，冈田哥哥，辛苦你们啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "呼，好久没有跑得这么畅快淋漓了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117003",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "音姐姐拿到三张扑克牌了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "当然~！你音姐姐怎么可能拿不到区区三张扑克牌呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117005",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "好高兴~音姐姐果然最棒了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117006",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我仔细观察了你们全程的表现，得出了一个结论。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "是什么啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117008",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "你和你的哥哥有一种天然的默契，真是令人羡慕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117009",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "这还是第一次被说我和小妹之间有默契这种东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "切，谁、谁跟他有默契啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "说起来，既然拿到了三张扑克牌，是不是说明我们赢得了这场赌局？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117012",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "很遗憾，绯野也拿到三张牌，所以仅凭这点尚且无法论输赢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117013",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "…………这样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，好气，好气啊，难道就要这么输给那个怪盗了么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117015",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "说这个还早啦，樱还没有公布你们抵达终点的时间呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "结局已经这么明显了，还要讲出来不是多此一举么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你少得意了，我们两个谁赢还不一定呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哦？你这么笃定地相信自己会赢了我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117019",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我……那是当然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117020",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "两位姐姐不要吵了啦，樱现在就公布你们抵达终点的时间哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117021",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "绯野姐姐，用时29分57秒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117022",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好厉害……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117023",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵，现在认输还来得及哦，免得等一下知道自己和我的差距遭受更大的打击。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117024",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……我说，你这家伙，不要太过分了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117025",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "音姐姐，用时……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117026",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "阿嚏！——用时……阿嚏~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117027",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "为什么偏偏在这种时候打喷嚏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117028",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "对、对不起嘛，樱……阿嚏——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117029",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我来代替她念~\n这……这个结果怎么可能……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117030",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "结果究竟是什么啦，害我好在意的说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117031",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "冈田兄妹，用时……29分56秒，成为本局的优胜者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117032",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊哈哈哈哈哈哈！！！听到了吗~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117033",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我赢了，赢了呢，好开心~！！阿音好开心啊~！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117034",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这不可能不可能不可能，我怎么会……又输给了这个蓝毛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117035",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我不接受，无论如何都无法接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17117036",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "所以我拒绝这个结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你输了，绯野原爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "愿赌服输，我们明明说好了的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "按照约定，你要放弃参加在|101|家里举办的团圆宴会，并且保证绝不能从中阻挠。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "要我在这样的节日看着|101||103|和你们甜甜蜜蜜地在一起么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只是想一想，我就无法接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "绝对，不能接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我和|101||103|早已完成了誓约仪式，那份誓约书我每天都带在身边，因为上面留有|101||103|的指纹……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你对那个叫作|101|的人类，原来有着这么深刻的情感……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在面对着与|101||103|有关的事情，我总会不知不觉地变得不像自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我承认我输了，但我不能接受这个结果，无论如何都不能，我做不到把|101||103|拱手让给其他的女人，所以——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我要新增一场赌局，决定最终的胜出者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "如果我拒绝呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵呵，那就算你们弃权了哦，我绯野原爱胜出，可以为所欲为了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17118016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……好，我答应你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-328",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17117001,
+            17117002,
+            17117003,
+            17117004,
+            17117005,
+            17117006,
+            17117007,
+            17117008,
+            17117009,
+            17117010,
+            17117011,
+            17117012,
+            17117013,
+            17117014,
+            17117015,
+            17117016,
+            17117017,
+            17117018,
+            17117019,
+            17117020,
+            17117021,
+            17117022,
+            17117023,
+            17117024,
+            17117025,
+            17117026,
+            17117027,
+            17117028,
+            17117029,
+            17117030,
+            17117031,
+            17117032,
+            17117033,
+            17117034,
+            17117035,
+            17117036
+          ],
+          "sectionId": 17117
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17118001,
+            17118002,
+            17118003,
+            17118004,
+            17118005,
+            17118006,
+            17118007,
+            17118008,
+            17118009,
+            17118010,
+            17118011,
+            17118012,
+            17118013,
+            17118014,
+            17118015,
+            17118016
+          ],
+          "sectionId": 17118
+        }
+      ],
+      "title": "~皆大欢喜~ · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17119001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "说吧，这一次，你又想打什么鬼主意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "迄今为止，相信你们已经了解到绯野魔术是何等瑰丽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "是是是，早就见识到绯野大小姐的华丽演出了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵，那些还不是全部哦，你们看到的不过是冰山一角。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "真正的魔术，并不是用眼睛看见的，而要用心才能感知。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "又在说我听不懂的话了，麻烦你简单直白点好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "简单点来说，我要和你玩一场心理游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我从会认字开始接受心理训练，我的父亲为我请来顶级的心理学哲学教授为我量身定制了多项专业课程。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "后来我在练习魔术的时候，偶然间想到把心理学的知识融合进自己钟爱的剧作家戏剧中，创立了这套心理魔术——“剧作家的试炼”。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我可以很自信地告诉你，截止目前，还没有谁可以在这场游戏中赢得过我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好家伙，我看出来了，她这是把自己的看家本领都拿出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哲学心理学剧作家戏剧……她刚刚讲的这些，完全都在我的知识盲区之内嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119013",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "总觉得绯野姐姐是在故意针对音姐姐，樱好担心呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "看来这次想要赢你，只能靠运气了啊，问题是我这次还能有这种运气么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119015",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "是谁在那里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119018",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "是我，请放心，我没有恶意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "找我何事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119020",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "我想请凛前辈帮我一个忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119021",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我看起来像是很闲的样子么？我拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "麻烦让开，我正在执行秘密任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119023",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119024",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "我知道你的秘密任务是什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119025",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "我可以给你提供全部的线索，必要的话甚至能亲自协助你调查，只需要凛前辈帮我一个小忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119026",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17119027",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你想让我做什么，说来听听。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-329",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17119001,
+            17119002,
+            17119003,
+            17119004,
+            17119005,
+            17119006,
+            17119007,
+            17119008,
+            17119009,
+            17119010,
+            17119011,
+            17119012,
+            17119013,
+            17119014,
+            17119015,
+            17119016,
+            17119017,
+            17119018,
+            17119019,
+            17119020,
+            17119021,
+            17119022,
+            17119023,
+            17119024,
+            17119025,
+            17119026,
+            17119027
+          ],
+          "sectionId": 17119
+        }
+      ],
+      "title": "~皆大欢喜~ · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17120001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这次一点获胜的把握都没有，我感觉很不妙诶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120002",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "音姐姐不要给自己那么大的压力，太紧张的话反而会发挥不好的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "樱说的对，可是想到那个什么剧作家的试炼我就感到一种无形的压迫感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "就像是……对了，就像是在学校里毫无准备却被老师通知明天要考试一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你们能想象那种感觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120006",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120007",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120008",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "只有你这种学渣才会有这种烦恼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好吧，事到如今也只能听天由命了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "反正无论是输是赢，我都不会让绯野那家伙乱来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我可以帮你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶？你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我是谁不重要，重要的是我可以帮你赢了黑桃怪盗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "突然这么说，我们凭什么相信你呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120015",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "她是黑桃怪盗的宿敌，绰号机能锋刃的特工。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "原来如此，你抓捕黑桃怪盗的故事我早有耳闻，你打算用什么办法帮我获胜？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17120017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "只需要你按我说的做，配合我完成这场表演。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "绯野那家伙不知道又在搞什么鬼，竟然想到让我们来这种地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121002",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "好黑喔，樱、樱好害怕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121003",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "跟在我的身边，樱，我会保护你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "还有我还有我，樱的身后就交给我吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121005",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "你们来得很快嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121006",
+          "sourceType": 7,
+          "text": "绯野原爱 · 蓝调魅兔\n商品名称：绯野原爱·蓝调魅兔Ver.\n作品名称：《蘑菇少女的日常》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "17121007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……你这是什么打扮？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121008",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "呵呵，这是绯野特别的魔术开场礼仪哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121009",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "怎么样，还不错吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121010",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "咦，绯野姐姐的样子变得好奇怪哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121011",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "小孩子不要乱看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121012",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "……哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121013",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "欢迎来到绯野家的私密剧场，接下来你们将观赏到别出心裁的极致演出，我保证。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121014",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "准备好了吗，我们开始了哦，我来讲述一下游戏规则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121015",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "这个游戏需要5名成员参加，每一名成员根据所抽取的魔术牌上的数字来扮演不同的身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121016",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "如你们所见，摆在你们面前的有5张魔术牌。\n拿到数字I的人扮演普通的剧场观众，拿到数字II的人扮演剧作家，拿到数字III的人扮演侦探，拿到剩下的那张牌的人将要扮演暗杀者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121017",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "会有两名成员拿到数字I，在黑暗的剧场里扮演观众的角色，也就意味着非常容易成为暗杀者的目标哟。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121018",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "游戏的规则很简单，你们要在隐藏自己身份的同时找到暗杀者，否则暗杀者就会把剧院里的所有人都杀死，那么暗杀者就赢得了全场的胜利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121019",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "现在你们可以开始抽自己的魔术牌了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121020",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我以前从来没玩过这种游戏呢，我先来我先来~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121021",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "樱也要抽~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "该我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121023",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我得到了我的那张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121024",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "很好，现在每个参赛者都有自己的魔术牌了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17121025",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "一出好戏即将上演，真是令人期待呢。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122001",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "在一个电闪雷鸣的夜晚，一家老牌剧场即将上演莎士比亚的经典戏剧《麦克白》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122002",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "演出这场《麦克白》的剧团来自有着三百年历史的皇家剧团，该消息一经登出便得到了广泛关注。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122003",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "然而由于当天晚上的天气异常恶劣，仅有三名观众到场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122004",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "近乎空旷的剧场内，莎翁经典戏剧《麦克白》如期上演，人们不知道的是，幕后的另一出谋杀戏剧也在暗中悄然拉开帷幕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122005",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "哎呀，樱、樱死掉了啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "怎么会这样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122007",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "呵呵，今晚第一个遭到暗杀者的毒手的受害者出现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122008",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "死掉的参与者自动出局，请亮出自己的魔术牌上的数字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "樱拿到的那张牌上的数字是I，说明樱是剧场观众。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122010",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "剩下的4名参赛者中，有1名剧场观众，1名剧作家，1名侦探，1名暗杀者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122011",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "请每一个存活的参赛者讲述你们在刚才案发时做了什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我、我去了一趟卫生间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我接了一个电话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122014",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "我嘛，当然在认真地观看着舞台上的表演。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122015",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我在盥洗室补妆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122016",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "哎呀呀，看来你们都已经入戏了呢，完全没有暴露出任何隐私信息，很不错哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122017",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "那么，游戏继续，现在进行到《麦克白》的第二幕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17122018",
+          "sourceType": 9,
+          "text": "凛用目光示意冈田彩音，彩音会意，开始按照事先讲述的计划逆转当前的局面。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-330",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17120001,
+            17120002,
+            17120003,
+            17120004,
+            17120005,
+            17120006,
+            17120007,
+            17120008,
+            17120009,
+            17120010,
+            17120011,
+            17120012,
+            17120013,
+            17120014,
+            17120015,
+            17120016,
+            17120017
+          ],
+          "sectionId": 17120
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17121001,
+            17121002,
+            17121003,
+            17121004,
+            17121005,
+            17121006,
+            17121007,
+            17121008,
+            17121009,
+            17121010,
+            17121011,
+            17121012,
+            17121013,
+            17121014,
+            17121015,
+            17121016,
+            17121017,
+            17121018,
+            17121019,
+            17121020,
+            17121021,
+            17121022,
+            17121023,
+            17121024,
+            17121025
+          ],
+          "sectionId": 17121
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17122001,
+            17122002,
+            17122003,
+            17122004,
+            17122005,
+            17122006,
+            17122007,
+            17122008,
+            17122009,
+            17122010,
+            17122011,
+            17122012,
+            17122013,
+            17122014,
+            17122015,
+            17122016,
+            17122017,
+            17122018
+          ],
+          "sectionId": 17122
+        }
+      ],
+      "title": "~皆大欢喜~ · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17123001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "是时候亮出真实身份了，我是侦探，怪盗绯野是暗杀者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123002",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123003",
+          "sourceType": 0,
+          "speaker": "绯野原爱·蓝调",
+          "text": "虽然不想承认，但你选的的确是正确答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶诶，这么说是我赢了对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123005",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "没错，彩音赢得了这场赌局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123006",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "祝贺音姐姐，音姐姐好厉害呀~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123007",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "祝贺你，彩音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17123008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "祝贺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哎呀呀，我又赢了，真是不好意思呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "绯野，如果不是你，我不会知道原来玩游戏的水平已经这么强了，哈哈~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……你少得意了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "如果不是凛的暗中相助，你以为自己有可能赢我么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不算，你作弊，我们重来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你怎么又反悔，再这样我可生气了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶，天上有什么要掉下来了，绯野快让开~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17124009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "怎么不偏不倚正好砸中了你的脸呢，我明明提醒过你的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哇啊~！！这个是这个是……这个就是我弄丢的那封邀请函嘛！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这是你弄丢的那封邀请函，也就是……是|101||103|写给我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "没错，就是特别写给你的那封。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "找了半天都没有找到，还以为找不到了呢，没想到自己飞回来了，哈哈哈哈~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17125006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我就知道|101||103|是记得我的，像我这样难得的美人，怎么可能被遗忘嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "一开始我就告诉过你，|101|有给你写过邀请函，可你偏偏不信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "看不到的东西我是不会相信的，谁知道你当时有没有骗我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126003",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "既然绯野已经拿到了自己的那封邀请函，是不是说明这场闹剧可以收场了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没错，我要拿着这封邀请函，堂堂正正地到|101||103|家里去参加团圆晚宴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我也要去我也要去，上次在|101|家里看到好多游戏卡带，我一直都很想亲自玩玩看呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126006",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "听起来好好玩的样子，樱也想和音姐姐一起去参加这个宴会，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "当然可以呀，|101|是个很有趣的人呢，|102|一定会很欢迎樱的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126008",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "梅根姐姐，你也和我们一起去参加团圆晚宴吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126009",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我也……可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "当然，我向你们保证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17126011",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "好，我和你们去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你、你也要和我们一起去人类|101|的家里参加团圆晚宴吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127002",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "如果是对我的邀请，我可以考虑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "才、才不是邀请呢，只是顺便告诉你一下而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127004",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "呵，即使是对我的邀请，我也不一定能抽出时间去参加。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127005",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "并不是谁都像你这样有那个闲工夫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你这个自大的家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "时间到了，冈田。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127008",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "嗯，我们走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "走？现在吗？……你们这是要去哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "原来她还不知道，这件事没告诉你妹妹么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127011",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "没有这个必要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "知道什么，你们对我隐瞒了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你哥哥为了让你能够赢得了怪盗绯野，和我做了一个约定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……什么约定？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我协助你赢了黑桃怪盗，相应的，你哥哥要协助我破解一桩疑案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "因为案情紧急，情节影响严重，我们必须尽快出发。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "原来你一直在暗中帮我……这么说来，不只是第三场赌局，就连第一场和第二场，你也在暗中帮助我吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127018",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "没什么特别的，你不用记挂在心上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127019",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哥哥……谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127020",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "……你总算愿意叫我哥哥了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哥哥，我们还可以再见吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127022",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "嗯，等我处理完这件事就会去找你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127023",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "到时候，我会带你去见父亲和母亲，请求他们答应教会你控制「寒霜」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127024",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶诶？！真的吗，我不是在做梦吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127025",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "通过这段时间的了解，你的一举一动我都看在眼里，你通过了我们家族的试炼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127026",
+          "sourceType": 0,
+          "speaker": "冈田桜介·机车手",
+          "text": "恭喜你，阿音，你的能力和品性都得到了考验，有足够的资格掌控「寒霜」。\n等事情告一段落我会来找你，接你回家，好好等着我，知道了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17127027",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嗯嗯，我等着你哦，哥哥~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-331",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17123001,
+            17123002,
+            17123003,
+            17123004,
+            17123005,
+            17123006,
+            17123007,
+            17123008
+          ],
+          "sectionId": 17123
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17124001,
+            17124002,
+            17124003,
+            17124004,
+            17124005,
+            17124006,
+            17124007,
+            17124008,
+            17124009
+          ],
+          "sectionId": 17124
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17125001,
+            17125002,
+            17125003,
+            17125004,
+            17125005,
+            17125006
+          ],
+          "sectionId": 17125
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17126001,
+            17126002,
+            17126003,
+            17126004,
+            17126005,
+            17126006,
+            17126007,
+            17126008,
+            17126009,
+            17126010,
+            17126011
+          ],
+          "sectionId": 17126
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17127001,
+            17127002,
+            17127003,
+            17127004,
+            17127005,
+            17127006,
+            17127007,
+            17127008,
+            17127009,
+            17127010,
+            17127011,
+            17127012,
+            17127013,
+            17127014,
+            17127015,
+            17127016,
+            17127017,
+            17127018,
+            17127019,
+            17127020,
+            17127021,
+            17127022,
+            17127023,
+            17127024,
+            17127025,
+            17127026,
+            17127027
+          ],
+          "sectionId": 17127
+        }
+      ],
+      "title": "~皆大欢喜~ · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 52,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 52,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "49",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "来自手办们的新春礼物",
+  "title": "皆大欢喜",
+  "wordCount": 4827
+}

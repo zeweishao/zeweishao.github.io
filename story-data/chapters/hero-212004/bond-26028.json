@@ -1,0 +1,157 @@
+{
+  "bookId": "hero-212004",
+  "id": "bond-26028",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26028001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "站住。你要出门？去哪？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26028003",
+              "text": "去买东西。"
+            },
+            {
+              "targetId": "26028003",
+              "text": "去见朋友。"
+            }
+          ],
+          "sourceId": "26028002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26028003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我还以为，你强行在一条裤子外套上另一条，甚至把裤腿扎进袜子里——会有什么更特别的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这就是秋裤的正确穿法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我被亵渎的审美不接受你的解释。\n拉开你的衣柜，让我看看还能怎么挽救一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "......这是什么？简直惨不忍睹。你平时就穿这些吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26028008",
+              "text": "有那么糟吗？"
+            },
+            {
+              "targetId": "26028008",
+              "text": "大家都穿这样。"
+            }
+          ],
+          "sourceId": "26028007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26028008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不要把自己和庸人放在同一维度比较。\n气质超凡的人，生来肩负引领时尚的使命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "气质超凡是说......我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "现在立刻把你身上的东西脱掉，换上左数第三条长裤和那件牛血色外套。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是我......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "没有可是，现在立刻，换上它们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26028013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "等等，你怎么没穿内衫！\n咳，我先转过去，换好再叫我！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26028",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26028001,
+            26028002,
+            26028003,
+            26028004,
+            26028005,
+            26028006,
+            26028007,
+            26028008,
+            26028009,
+            26028010,
+            26028011,
+            26028012,
+            26028013
+          ],
+          "sectionId": 26028
+        }
+      ],
+      "title": "时尚使命"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212004",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "时尚使命",
+  "wordCount": 281
+}

@@ -1,0 +1,119 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25740",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25740001",
+          "sourceType": 10,
+          "text": "美人的心意",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25740002",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "这里就是制作花灯的房间吗？有些装饰让我想起了「七星客栈」，你的品味很不错呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25740004",
+              "text": "你喜欢就好。"
+            }
+          ],
+          "sourceId": "25740003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25740004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "虽然我的年龄不大，可是却早已阅人无数。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25740005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你这种人呢，在我的眼里单纯得就像是一张没有经过任何涂写的白纸一样。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25740007",
+              "text": "这是什么意思？"
+            }
+          ],
+          "sourceId": "25740006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25740007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "别想那么多，就当作这是一种对你的赞扬吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25740008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "毕竟我只有在你这样单纯的人面前，才能卸下所有的防备，尽情地享受当下本身带来的快乐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25740009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "所以，你为我准备的这些，我会好好使用的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25740",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25740001,
+            25740002,
+            25740003,
+            25740004,
+            25740005,
+            25740006,
+            25740007,
+            25740008,
+            25740009
+          ],
+          "sectionId": 25740
+        }
+      ],
+      "title": "美人的心意"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25740,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "45",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "美人貂蝉兼具多种身份，除了是舞姬、老板娘、细作，似乎在手作花灯上也很擅长呢。",
+  "title": "美人的心意",
+  "wordCount": 189
+}

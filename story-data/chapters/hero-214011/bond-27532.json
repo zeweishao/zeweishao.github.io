@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214011",
+  "id": "bond-27532",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27532001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "亲爱的，你们人类表达爱意的方式还真是简单直接。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "只要是你送的，即使是一枚野草编织的指环，我也会非常珍惜的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "当然，送一座精美华丽的房子给我，更是再好不过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这个礼物我很喜欢哦，非常喜欢，这是我收到的最棒的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "有了这座房子，我以后就可以天天都和你在一起了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "哎呀，那样的话，每天不但可以看到你可爱的睡颜，还可以看到你吃饭的样子、工作的样子，甚至是沐浴时的样子，我也不会错过呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "让我保留一些属于自己的隐私，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "那可不行哦，从今天起，你已经完全属于我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我不允许你从我的视线中消失，即使是一分钟也不可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "要做好时时刻刻都被我的爱环绕着的觉悟哦，亲·爱·的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然有些炙热，但被这么强烈感情包围，我也是……第一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我很好奇，我在你眼里有那么好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "当然，你拥有世界上最美好的灵魂，那是我见过的最美丽的颜色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "那么纯净那么闪耀，令我一见倾心，为之心动到颤抖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27532015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我发誓再也不会错过你，我的灵魂之光，我的挚爱，我的唯一。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27532",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27532001,
+            27532002,
+            27532003,
+            27532004,
+            27532005,
+            27532006,
+            27532007,
+            27532008,
+            27532009,
+            27532010,
+            27532011,
+            27532012,
+            27532013,
+            27532014,
+            27532015
+          ],
+          "sectionId": 27532
+        }
+      ],
+      "title": "给我的挚爱"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "给我的挚爱",
+  "wordCount": 399
+}

@@ -1,0 +1,160 @@
+{
+  "bookId": "hero-215002",
+  "id": "bond-27542",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27542001",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呼呼……呼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔？谁啊……别戳我……讨厌……让开啊……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27542004",
+              "text": "醒醒啊，葵。"
+            }
+          ],
+          "sourceId": "27542003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27542004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "臭猫……快走开……别打扰我睡觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔？是主人啊……哈欠……有什么事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我要出门采购，但不知道葵想要什么口味的涂装？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542007",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "涂装啊……那就要阳光味的吧，哈欠……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "阳光味……是什么样的味道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542009",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "怎么形容呢，就像，晒过的被子、午后的小花……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔……这么说的话，能理解吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不太能理解……不过，葵要不要和我一起去采购？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "外面天气很好，你可以在我的上衣口袋里晒到太阳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "发现喜欢的涂装口味时，就戳戳我的胸口，提醒我一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542014",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔……被你说服了……不过，如果我在店里睡着的话怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27542015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就换我来提醒葵好了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27542",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27542001,
+            27542002,
+            27542003,
+            27542004,
+            27542005,
+            27542006,
+            27542007,
+            27542008,
+            27542009,
+            27542010,
+            27542011,
+            27542012,
+            27542013,
+            27542014,
+            27542015
+          ],
+          "sectionId": 27542
+        }
+      ],
+      "title": "光合作用万岁"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "光合作用万岁",
+  "wordCount": 266
+}

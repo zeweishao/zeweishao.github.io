@@ -1,0 +1,1254 @@
+{
+  "bookId": "rewind-43",
+  "id": "chapter-174",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36708001",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "事先提醒，凶手似乎是个喜欢玩弄人心的危险人物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708002",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "根据心理侧写，连环爆炸案的凶手有非常强的表现欲，他享受制造爆炸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708003",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "他不可能错过游园会这个场所，甚至可能已经布置了炸弹。\n调查时候务必低调，防止被凶手注意到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "难得的休息日，你说要来游乐园还以为你转性了。结果……嗤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这次的行动很危险，你不该跟来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这才哪到哪啊，我们可不是第一次联手处理危险的事情了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "可是……穿成这样，行动确实有些不便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708008",
+          "sourceType": 7,
+          "text": "希塔 · 放学后真探\n商品名称：希塔·放学后真探 Ver.\n作品出处：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "36708009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这可是我特地去给你借的便衣，你不谢谢我还这么说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好吧，没有华生，就由我来当希塔大侦探的助手吧。接下来我们干嘛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我进去调查嫌疑人。你去排查可能存放炸弹的地点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "没问题，我的大侦探。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "如果找到了的话……不要动，等我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36708015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "知道了知道了，拜拜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731001",
+          "sourceType": 5,
+          "text": "啊！啊！啊！！啊啊啊——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36731002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这个声音……我们真的要进去吗，克拉拉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731003",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "咯咯咯，真乃害怕了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "如果克拉拉要去的话，我会陪着你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731005",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "鬼屋而已，都是假的啦。\n这是最后一个项目了，我可是特地等到天黑才过来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "嗯，那我们进去吧！正义的英雄，是不会退缩的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731007",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "「正义的英雄」吗？说这句话的时候真乃——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731008",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "更加可爱了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731009",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "嗯！你喜欢就好，感觉克拉拉从刚才就变得特别兴奋呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731010",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "听这个尖叫声，我有预感，里面一定超·级·刺·激！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36731011",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "哈哈哈哈！Let'sgo！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-872",
+      "sourceRefs": [
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36708001,
+            36708002,
+            36708003,
+            36708004,
+            36708005,
+            36708006,
+            36708007,
+            36708008,
+            36708009,
+            36708010,
+            36708011,
+            36708012,
+            36708013,
+            36708014,
+            36708015
+          ],
+          "sectionId": 36708
+        },
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36731001,
+            36731002,
+            36731003,
+            36731004,
+            36731005,
+            36731006,
+            36731007,
+            36731008,
+            36731009,
+            36731010,
+            36731011
+          ],
+          "sectionId": 36731
+        }
+      ],
+      "title": "无声的计时·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36709001",
+          "sourceType": 3,
+          "text": "「漂浮着的头颅里，燃起了蓝色的火焰……那是不甘死去的灵魂在悲鸣！」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36709002",
+          "sourceType": 3,
+          "text": "「找到那个真正的头颅，你们才能离开这里！否则……就永远成为他们的伙伴！」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36709003",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "好黑……听上去我们要找到一个东西才能走出这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36709004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "克拉拉？你在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36709005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我——在——这——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36709006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "什么东西！攻守兼备，人水合一！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710001",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "喂喂喂，是我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "克拉拉？！不好意思，我一回头就看到一个南瓜头站在背后，下意识出手了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710003",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "不用道歉，本来就是我先吓你的。\n真乃被吓到的表情真是和我想的一样卡哇伊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "但是刚才那个声音听起来完全不是克拉拉啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710005",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "「攻守兼备，人水合一！」哈哈哈哈哈，学得像吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊，真的好像我的声音！怎么做到的？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710007",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "嗤，一些再也用不上的能力而已……走吧，去下一关看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710008",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "诶，不是说要找什么东西才能离开吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710009",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "找到了，就在那个南瓜头里。\n没劲，希望后面有点意思，不然真是无聊到爆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710010",
+          "sourceType": 3,
+          "text": "「城市的下水道隐藏着无数的罪恶。听！那滋滋作响的电锯声是在切割什么？」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36710011",
+          "sourceType": 5,
+          "text": "「快逃！！！滋滋滋——」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36710012",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "是追逐关，别被那个拿电锯的追上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710013",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "放心吧，跑不动的时候，克拉拉可以拉上我的手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710014",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "噗嗤，真乃跑不动的时候就把我丢下好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710015",
+          "sourceType": 0,
+          "speaker": "奇怪的女人",
+          "text": "呵呵……一起锯掉，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710016",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我不会松开手的！速度，再快一点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710017",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "呼——跑到这差不多了，下一关就是这扇门后面吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710018",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "呼哧呼哧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710019",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "说了跑不动可以把我丢下的，又不是真的电锯。\n慢悠悠走也不会有什么的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710020",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "不可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710021",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "真是好奇，你是怎么成长到现在还能保持这样的善良的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710022",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "这一关勉强算是有点意思吧。嗯？是按这个按钮开门吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36710023",
+          "sourceType": 5,
+          "text": "咔嚓——咔嚓——咔嚓——哐！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36710024",
+          "sourceType": 5,
+          "speaker": "仓田真乃",
+          "text": "克拉拉！！！小心！！！抓住我的手——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-873",
+      "sourceRefs": [
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36709001,
+            36709002,
+            36709003,
+            36709004,
+            36709005,
+            36709006
+          ],
+          "sectionId": 36709
+        },
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36710001,
+            36710002,
+            36710003,
+            36710004,
+            36710005,
+            36710006,
+            36710007,
+            36710008,
+            36710009,
+            36710010,
+            36710011,
+            36710012,
+            36710013,
+            36710014,
+            36710015,
+            36710016,
+            36710017,
+            36710018,
+            36710019,
+            36710020,
+            36710021,
+            36710022,
+            36710023,
+            36710024
+          ],
+          "sectionId": 36710
+        }
+      ],
+      "title": "无声的计时·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36711001",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "没猜错的话这是个双人分开的合作密室任务，结果你也跳进来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "抱歉！当时没拉住你情急之下就——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711003",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "咯咯咯，真乃这么担心我吗~\n不过怎么到现在一直都没听到广播提示？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "难道是因为本来是单人密室，但是现在进来了两个人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711005",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "先找找看看灯的开关在哪里。\n出不去的话……大不了待在这等人来救。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "嗯！克拉拉好厉害，一点都不害怕这些……唔……这里没有开关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711007",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "假的有什么好害怕的。这种吓人的程度，真是无聊，好想——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711008",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我虽然有点害怕但也觉得很过瘾，克拉拉觉得无聊的话……为什么要来玩鬼屋呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711009",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "因为刚才咖啡厅对面有个占卜的女巫，跟我说来这里会有意外的惊喜哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711010",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "诶……原来当时你是去占卜了啊。\n奇怪，为什么还没有工作人员出来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711011",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "她还说我今天的幸运色是红色……咦，我好像摸到开关了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我准备好了，不管是什么，这次一定会抓住你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711013",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "噗嗤，那你可要抓紧点。我按了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711014",
+          "sourceType": 3,
+          "text": "噗——呲——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36711015",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "不对！这些烟……雾……真乃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711016",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "不小心放进来了两个小老鼠呢……醒了就别装睡了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711017",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "诶，居然被绑住了……这一关是要考验什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711018",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "哈哈哈哈，你们不会以为这里还是鬼屋吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711019",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "真乃，这里不是鬼屋了……所以之前的房间里一直没有广播提示也没有机关开关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711020",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "哦呀，你看起来比这个女孩聪明很多，把你的大脑取下来安在这上面怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711021",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "什么？！！你到底是谁？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711022",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "我是LHINE生命工作室的研究负责人，你可以叫我——博士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711023",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "博士？嗤，那你研究的是什么奇怪的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711024",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "永生！而我已经成功了，在我醒来后我的意识就出现在了这具树脂的躯体里，摆脱了死亡的阴影！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711025",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "被困在这样一个永远不会变化的小小躯壳里，你居然还很开心？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711026",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "我拥有了无尽的时间来继续我的研究——手办的记忆和人格，究竟保存在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711027",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "你们看——这是我的最新实验。\n如果我把人格化手办的部件替换给普通手办，它会活化吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711028",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "所以，请二位为伟大的科学献身一下吧！\n不过我要的不多，一个头颅部件怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711029",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "下面给你们……嗯，五分钟商量一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711030",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "开什么玩笑？！可恶，绳子怎么解不开……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36711031",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "对了，在我的实验品输完液之后，如果你们还没有决定，那我默认二位都准备为科学献身了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-874",
+      "sourceRefs": [
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36711001,
+            36711002,
+            36711003,
+            36711004,
+            36711005,
+            36711006,
+            36711007,
+            36711008,
+            36711009,
+            36711010,
+            36711011,
+            36711012,
+            36711013,
+            36711014,
+            36711015,
+            36711016,
+            36711017,
+            36711018,
+            36711019,
+            36711020,
+            36711021,
+            36711022,
+            36711023,
+            36711024,
+            36711025,
+            36711026,
+            36711027,
+            36711028,
+            36711029,
+            36711030,
+            36711031
+          ],
+          "sectionId": 36711
+        }
+      ],
+      "title": "无声的计时·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36712001",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "克拉拉……这个一定也是鬼屋的环节对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712002",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "…………我留下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712003",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "不，我们只要等五分钟过去就会有工作人员来打开机关的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712004",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "如果不是呢？这个地方和之前的鬼屋明显不一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712005",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "如果不是，那也是我留下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712006",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "嗤，这种时候就不要逞强了。\n我们不一样，你还有很多朋友，还有|101|，至于我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712007",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "你有我！说好的，这次我抓住了克拉拉的手，不会放开的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712008",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "咯咯咯……非要我直说吗？\n我已经受够了，这个手办的身体让我厌恶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712009",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "克拉拉……你是想起来了什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712010",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "模模糊糊想起了一些，断断续续的片段，但是已经足够了。\n你也感觉到我的变化了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712011",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "虽然是和失忆时候的你明显不一样了，但是你都是克拉拉啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712012",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "嗤，真是幼稚天真。就像那个「博士」说的，如果另一个克拉拉的手办活化，她也是我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712013",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "没有失忆的她会是另一个「仓田真乃」的朋友吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712014",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "如果是的话，那我们这些重复的「人」……究竟算是什么啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712015",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "尽管我无法回答你的问题，但我不同意……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712016",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "铛铛铛，快乐的时光总是短暂的，二位决定谁留下谁离开了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712017",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "放心，在我的麻醉喷雾下，手术一定全程无痛。\n就算失败的话，我也会好好保存标本的哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712018",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我留下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712019",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "让她走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712020",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "哎呀呀，真是令人感动，那不如你们两个都留下怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36712021",
+          "sourceType": 3,
+          "text": ">>>IFF状态更新，已发现敌对目标。解除开火限制」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36712022",
+          "sourceType": 5,
+          "text": "嘭！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36712023",
+          "sourceType": 0,
+          "speaker": "怪医",
+          "text": "咳咳咳——怎么又是你？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36713001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "目标已被成功控制。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36713002",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "别打了别打了！你们没看门口的通知吗，不能殴打工作人员的！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36713003",
+          "sourceType": 7,
+          "text": "徕卡 · 怪奇医者\n商品名称：徕卡·怪奇医者 Ver.\n作品名称：《终焉地平线》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约249mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "36713004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "等一下，徕卡先生？！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-875",
+      "sourceRefs": [
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36712001,
+            36712002,
+            36712003,
+            36712004,
+            36712005,
+            36712006,
+            36712007,
+            36712008,
+            36712009,
+            36712010,
+            36712011,
+            36712012,
+            36712013,
+            36712014,
+            36712015,
+            36712016,
+            36712017,
+            36712018,
+            36712019,
+            36712020,
+            36712021,
+            36712022,
+            36712023
+          ],
+          "sectionId": 36712
+        },
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36713001,
+            36713002,
+            36713003,
+            36713004
+          ],
+          "sectionId": 36713
+        }
+      ],
+      "title": "无声的计时·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36714001",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "……这么说希塔小姐是以为徕卡先生是坏人，所以才追踪到这里的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "恰好徕卡先生又接到了扮演鬼屋真人NPC的任务……于是误会又加深了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714003",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "这种新型表演方式果然还是太超前了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "等一下，难道这就是徕卡先生之前说的「特别演出」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714005",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "你、们、是、不、是、忘、了、什、么——\n快帮伟大的布鲁特解开这些绷带！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714006",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "虽然你的演技很不错，但是这个手偶早就出卖了你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714007",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "什，什么？是我的表演哪里有瑕疵吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714008",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "一个「追求永生」的疯狂科学家，怎么会用非人型的手办做实验呢？那未免也太无聊了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "嘿，克拉拉，我早就不想带这个笨蛋一起了，我们一起成立个新的二人组合怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714010",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "喂喂喂！但是真乃还是有被吓到的，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714011",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "原来克拉拉早就发现了啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714012",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "气氛在这，还有他这么卖力的表演，我不配合即兴发挥一下也太说不过去了吧，咯咯咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714013",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "而且还能看到真乃紧张的表情，哈哈哈哈，太太太可爱了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714014",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "真是的，原来是和徕卡先生一起在骗我吗？\n差点就被克拉拉说的话骗过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714015",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你们，让一下。后面的箱子还没有排查。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714016",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "哦哦，好的，不过希塔小姐为什么总是以为我是嫌疑犯啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714017",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "每次现场都有你，还打扮得这么可疑，活该。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "既然误会解除了，你们还是快点离开这里比较好。地下不太安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714019",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "嗯哼，是该走了，时间快到了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714020",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "嗯嗯，不然要错过今晚的烟花秀了。\n徕卡先生，希塔小姐要一起走吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714021",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "哦！你们居然不征询一下伟大的布鲁特的意见！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714022",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "我可以带你们走职工通道哦，快来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714023",
+          "sourceType": 5,
+          "speaker": "希塔",
+          "text": "别过来！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714024",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "希塔小姐？！怎么了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714025",
+          "sourceType": 3,
+          "text": "滴……答……滴……答……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36714026",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这个声音是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36714027",
+          "sourceType": 5,
+          "speaker": "克拉拉",
+          "text": "是定时炸弹！真乃闪开！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-876",
+      "sourceRefs": [
+        {
+          "bundle": "clara",
+          "rowIds": [
+            36714001,
+            36714002,
+            36714003,
+            36714004,
+            36714005,
+            36714006,
+            36714007,
+            36714008,
+            36714009,
+            36714010,
+            36714011,
+            36714012,
+            36714013,
+            36714014,
+            36714015,
+            36714016,
+            36714017,
+            36714018,
+            36714019,
+            36714020,
+            36714021,
+            36714022,
+            36714023,
+            36714024,
+            36714025,
+            36714026,
+            36714027
+          ],
+          "sectionId": 36714
+        }
+      ],
+      "title": "无声的计时·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 174,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 174,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1235,
+          "rowNpcId": 1219
+        }
+      },
+      {
+        "id": "111",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "110",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "不祥的倒计时",
+  "title": "无声的计时",
+  "wordCount": 3323
+}

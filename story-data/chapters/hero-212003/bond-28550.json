@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212003",
+  "id": "bond-28550",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28550001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "山崎，久等了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是给你准备的礼物，进来看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550003",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "这个是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是模仿道场准备的屋子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然山崎你不介意，但总让你做各种莫名其妙的杂事还是让人过意不去，所以就专门找人定制了这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在这里面，山崎就可以尽情的修炼你自己的剑道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果有需要，也可以叫上其他人在这里切磋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "话说回来，我还挺期待山崎有一天可以在这里开宗立派的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550009",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "在下……绝对不会辜负主人的希望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不不不，我就是随口一提，开个玩笑而已，不是真的让你去做这件事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "总而言之，还请山崎好好享受这个道场吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28550012",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "……在下，明白了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28550",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28550001,
+            28550002,
+            28550003,
+            28550004,
+            28550005,
+            28550006,
+            28550007,
+            28550008,
+            28550009,
+            28550010,
+            28550011,
+            28550012
+          ],
+          "sectionId": 28550
+        }
+      ],
+      "title": "道场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "道场",
+  "wordCount": 229
+}

@@ -1,0 +1,210 @@
+{
+  "bookId": "hero-215203",
+  "id": "bond-28585",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28585001",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28585003",
+              "text": "……"
+            },
+            {
+              "targetId": "28585003",
+              "text": "为什么又直勾勾地盯着我？"
+            }
+          ],
+          "sourceId": "28585002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28585003",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "失礼了，我本以为自己已经对人类研究得够透彻了，但我似乎还是不够了解你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这话说得就好像你不是人类一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585005",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我的确从未以人类自居。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "在那个世界，我曾陪伴人类族群走过懵懂的黎明。看着他们发展出自己的语言和文字，看着他们延续着文明的灯火。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585007",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "没有个体比我更了解人类，也没有个体比我更爱人类。所以我对自己无法看透你这一点……感到好奇。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28585009",
+              "text": "这是什么新设定？"
+            },
+            {
+              "targetId": "28585009",
+              "text": "信息量有点大……"
+            }
+          ],
+          "sourceId": "28585008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28585009",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "或许，我现在所接触的你，其实并不是真正的「你」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "停，先让我消化一下。请恕冒昧——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28585012",
+              "text": "阿斯特莱雅女士，你到底多少岁了？"
+            }
+          ],
+          "sourceId": "28585011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28585012",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "希塔也问过我这个问题，但对你，我想不用隐瞒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "四千三百二十一。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28585015",
+              "text": "真的？！"
+            }
+          ],
+          "sourceId": "28585014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28585015",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "假的。已经不记得了，我并不是那么擅长铭记的个体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585016",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "但最近的几百年我应该不会忘记希塔，也不会忘记你，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28585017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我先检查下今天的日期是不是愚人节……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28585",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28585001,
+            28585002,
+            28585003,
+            28585004,
+            28585005,
+            28585006,
+            28585007,
+            28585008,
+            28585009,
+            28585010,
+            28585011,
+            28585012,
+            28585013,
+            28585014,
+            28585015,
+            28585016,
+            28585017
+          ],
+          "sectionId": 28585
+        }
+      ],
+      "title": "年龄议题"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215203",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "年龄议题",
+  "wordCount": 351
+}

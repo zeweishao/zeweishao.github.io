@@ -1,0 +1,1063 @@
+{
+  "bookId": "rewind-34",
+  "id": "chapter-132",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32010001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈，我把这项重要的任务交给你。\n务必谨慎完成，拜托了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010002",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "收到。战略规划完成，开始执行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "激光扫视，精准定位。脉冲输出，开始切割！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010004",
+          "sourceType": 3,
+          "text": "嘶啦——\n快递箱上留下数条平滑的切线。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32010005",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "不愧是莉莉奈，莉莉奈最厉害了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32010007",
+              "text": "拿出箱中的手办"
+            }
+          ],
+          "sourceId": "32010006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32010007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "皇后和死亡主宰两款手办......终于到货了。\n期待太久，拿在手里的这一刻，反而没什么真实感呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "喂，喂！！！\n她们为什么不动？看不起我吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不要急，杰斯和莉莉奈也是拆箱后过段时间才活化的。\n等等，箱子里还有一个小包裹......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来如此，这就是FULI官网提到的——订购两款手办会有「神秘赠品」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010011",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "给我看看！游戏卡？这可比不会动的手办有意思多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010012",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "笨蛋哥哥，完全不懂得看氛围。\n|101|的表情可是瞬间从期待变成了失望哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我还以为赠品会是FULI宣传过的新款「酷炫机械兔」，可以通过移动终端远程遥控的那种......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010014",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "那种脆弱的低等机械连我一拳都扛不住，有什么酷的！\n当然是游戏卡更有趣！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？这个游戏卡......为什么怪怪的？你们看它——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32010017",
+              "text": "怎么没有塑封包装？"
+            },
+            {
+              "targetId": "32010017",
+              "text": "怎么没有印刷图案？"
+            }
+          ],
+          "sourceId": "32010016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32010017",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "管他呢，我等不及了！赶快插进游戏机看看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010018",
+          "sourceType": 0,
+          "speaker": "游戏机",
+          "text": "欢迎使用，本产品是搭载强大自主学习功能的AI聊天软件，希望能代替您的心爱之人陪伴在您身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010019",
+          "sourceType": 0,
+          "speaker": "游戏机",
+          "text": "首先，请输入您心目中在「奥莱特城」与「自由之城」最为可爱之人的姓名。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「奥莱特城」「自由之城」都是《终焉地平线》的地名。这种游戏卡，为什么会作为皇后、死亡主宰的赠品？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大概是FULI商店的新品宣传方式吧。我想想看，我最喜欢的果然还是......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32010023",
+              "text": "真恋，或是泉？"
+            },
+            {
+              "targetId": "32010023",
+              "text": "狩猎者，或是薇薇安？"
+            }
+          ],
+          "sourceId": "32010022",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32010023",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "就算扩大到全世界，答案也是唯一的——没有比莉莉奈更可爱的人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010024",
+          "sourceType": 0,
+          "speaker": "游戏机",
+          "text": "您输入的结果是「莉莉奈」，读取成功。\n正在解析......正在建立角色性格模型......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32010025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯！你真是......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32010027",
+              "text": "胡闹！"
+            },
+            {
+              "targetId": "32010027",
+              "text": "替我拿了个好主意。"
+            }
+          ],
+          "sourceId": "32010026",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32010027",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......笨蛋哥哥。还有笨蛋主人。\n真无聊，我要走了，在她们两个会动之前不要来打扰我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-702",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32010001,
+            32010002,
+            32010003,
+            32010004,
+            32010005,
+            32010006,
+            32010007,
+            32010008,
+            32010009,
+            32010010,
+            32010011,
+            32010012,
+            32010013,
+            32010014,
+            32010015,
+            32010016,
+            32010017,
+            32010018,
+            32010019,
+            32010020,
+            32010021,
+            32010022,
+            32010023,
+            32010024,
+            32010025,
+            32010026,
+            32010027
+          ],
+          "sectionId": 32010
+        }
+      ],
+      "title": "智能软件·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32011001",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "哥，哥。哥哥，是你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "怎么回事！游戏机里传出了莉莉奈的声音。\n喂！是谁在冒充莉莉奈，给我滚出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯，这是一款AI聊天软件，你输入了莉莉奈的名字，AI当然会模仿她和你对话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "啊？什么软件硬件的！\n老实交代你到底是谁，不然我把你砸个稀烂！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011005",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我是，莉莉奈。\n我今年10岁，和哥哥一起生活在皇后区。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011006",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我最喜欢的食物是烤章鱼，最喜欢的人是哥哥，最大的心愿是和哥哥永远在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是莉莉奈的声音没错，但她的性格设定......\n是不是出了什么问题？重启一下试试？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "不用重启了，这就是莉莉奈没错。\n而且是只有我见过的，10岁的「莉莉奈」——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "......在被「极端思维」的混蛋们祸害成这样之前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来如此，难怪性格差异这么大......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011011",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "放马过来吧，冒牌货！我倒要看看，你对莉莉奈了解多少！\n如果你胆敢威胁到莉莉奈的存在，我一定把你砸成碎片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011012",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "莉莉奈，不会威胁哥哥。\n莉莉奈，最喜欢哥哥。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011013",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "别，别以为这样就能迷惑我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯是在害羞吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011015",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "住口，我怎么可能因为AI软件害羞！接下来我要单独审问这个冒牌货，主人就等着我揪出它背后的阴谋吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然还是害羞了。难得能见到这对兄妹非同寻常的一面啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011017",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "......所以说，在现在这个世界，我们都是手办。身体是树脂做的，不用吃饭。懂了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011018",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我明白了，谢谢哥哥告诉我这么多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011019",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我还想知道，这个世界有多少山川湖泊，有多少可爱的小动物，有多少像我们一样的手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011020",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "「FULI商店」是什么？「管理局」是什么？树脂材料制作的手办又是为什么能开口说话呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011021",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "什么都不懂，麻烦死了，莉莉奈才不会像你这样。\n我要去睡觉了，给我关机！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011022",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "等一下，哥哥，求求你......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011023",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "莉莉奈......在又冷又黑的空间里等待了很久，好不容易才和哥哥重逢......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011024",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "请不要离开我......\n无论付出什么，只要能和哥哥在一起......我都愿意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011025",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "喂，你这家伙......是在哭吗？\n用莉莉奈的声音哭给我听，太犯规了啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011026",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "他们的对话，你听到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011027",
+          "sourceType": 7,
+          "text": "皇后[黑岩射手] · 线圈枪\n商品名称：皇后[黑岩射手]·线圈枪Ver.\n作品出处：《黑岩射手 黎明降临》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约217mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "32011028",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "当然，一字不差。早上讲话还磕磕绊绊，现在竟然已经能模仿人类的喜怒哀乐，真是恐怖的学习速度。简直就像——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32011029",
+          "sourceType": 7,
+          "text": "死亡主宰 · 死翼\n商品名称：死亡主宰·死翼Ver.\n作品出处：《黑岩射手 黎明降临》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约237mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "32011030",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "简直就像，阿耳忒弥斯。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-703",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32011001,
+            32011002,
+            32011003,
+            32011004,
+            32011005,
+            32011006,
+            32011007,
+            32011008,
+            32011009,
+            32011010,
+            32011011,
+            32011012,
+            32011013,
+            32011014,
+            32011015,
+            32011016,
+            32011017,
+            32011018,
+            32011019,
+            32011020,
+            32011021,
+            32011022,
+            32011023,
+            32011024,
+            32011025,
+            32011026,
+            32011027,
+            32011028,
+            32011029,
+            32011030
+          ],
+          "sectionId": 32011
+        }
+      ],
+      "title": "智能软件·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32012001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "早安，我最最亲爱的莉莉奈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012002",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "烦死了，别凑过来，笨蛋哥哥。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012003",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "哈欠——哥哥早上好！昨天晚上做了很可怕的噩梦，但是哥哥在梦里出现，英勇地保护我了呢，嘿嘿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012004",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......这是昨天的那个软件？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012005",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "没错！我用昨天一整天的时间，教会了它不少东西！\n怎么样，哥哥是不是很厉害？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012006",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "无聊。在这种没有意义的事上浪费时间，难怪哥哥这么笨。\n笨蛋哥哥就去缠着笨蛋AI吧，别来烦我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012007",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "别这样说嘛，毕竟游戏机里的莉莉奈也算是我的妹妹......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，杰斯现在有两个妹妹了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我的妹妹莉莉奈当然是唯一的！不过，手办莉莉奈是现在的妹妹，电子莉莉奈是以前的妹妹，总归还是同一个人嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "竟然能和年龄不同的两个莉莉奈同时相处，我一定是世界上最幸福的哥哥。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说起来，莉莉奈的对话好像比昨天流畅了很多......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012012",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "嗯！莉莉奈为了尽快成为杰斯的妹妹，一整晚都在拼命学习呢！哥哥也不厌其烦地教我，真是辛苦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......恶心。我要走了，再听下去我会控制不住自己向它开火。\n我可不想打碎|101|的游戏机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012014",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我很......恶心吗？对，对不起，一定是我的学习进度太慢了......\n但是，让哥哥一直教我的话，他会很辛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012015",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "对了！不如......给我连上网络，我自己去收集需要的知识吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你能通过网络自主学习吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012017",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我不清楚，但是，为了成为更完美的妹妹，莉莉奈想试试看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012018",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "没问题的，莉莉奈，我马上去给你连网！\n我看看，应该把这条线，插进这里......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012019",
+          "sourceType": 0,
+          "speaker": "游戏机",
+          "text": "网络连接成功。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012020",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "谢谢哥哥，网络里......竟然还有这样庞大的世界......这就是哥哥说过的「泡在海水中」的感觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32012021",
+          "sourceType": 5,
+          "text": "咻——噼啪——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32012022",
+          "sourceType": 0,
+          "speaker": "游戏机",
+          "text": "网络连接已断开。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-704",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32012001,
+            32012002,
+            32012003,
+            32012004,
+            32012005,
+            32012006,
+            32012007,
+            32012008,
+            32012009,
+            32012010,
+            32012011,
+            32012012,
+            32012013,
+            32012014,
+            32012015,
+            32012016,
+            32012017,
+            32012018,
+            32012019,
+            32012020,
+            32012021,
+            32012022
+          ],
+          "sectionId": 32012
+        }
+      ],
+      "title": "智能软件·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32013001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "网线被射穿了。这种攻击方式，难道是......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013002",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "一击命中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "皇后，死亡主宰？\n你们是什么时候活化的......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "干什么？敢欺负莉莉奈的话，杀了你们哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013005",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我们昨晚忽然来到这个世界......变成了名为「手办」的东西。虽然还理不清情况，但我必须告诉你，游戏机里的AI很不对劲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013006",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "再迟钝也该发现了，她的学习能力达到惊人的程度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无论怎么看......这都只是简单的AI对话游戏而已。\n就算模仿人类像一些，也不会产生危险吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013008",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "这里的科技还相当落后，根本不该出现如此先进的AI。\n它的存在本身，就是异常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013009",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "更危险的是，如果AI能够完美模仿某人的性格、说话方式，对依靠试听判断事物的人类而言，AI就可以替代这个人的存在。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32013011",
+              "text": "你们说得有道理。"
+            },
+            {
+              "targetId": "32013011",
+              "text": "哪有那么严重？"
+            }
+          ],
+          "sourceId": "32013010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32013011",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "无论你是否理解，我们都必须销毁游戏卡，用最大火力轰炸到变成彻底无法复原的粉尘为止。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013012",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "不仅是游戏卡。最保险的方案是连同游戏机一起销毁。\n如果给现在的游戏机连上网络，程序很可能会变成病毒扩散。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013013",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "闭嘴，我妹妹不可能变成病毒！\n你们......想要杀掉莉莉奈，绝对、不可饶恕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013014",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "这不是你的妹妹，只是按照你妹妹性格编写的AI程序而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013015",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "哼，谁是我的妹妹，没有人比我更清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013016",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "其实我能够理解你，如果换作是我，面对自己钟爱的天使，也会难以下手吧。不过可惜，现在我们站在对立面哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32013017",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "那就用拳头说话吧。\n现在，就算你们想求饶也已经晚了呢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-705",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32013001,
+            32013002,
+            32013003,
+            32013004,
+            32013005,
+            32013006,
+            32013007,
+            32013008,
+            32013009,
+            32013010,
+            32013011,
+            32013012,
+            32013013,
+            32013014,
+            32013015,
+            32013016,
+            32013017
+          ],
+          "sectionId": 32013
+        }
+      ],
+      "title": "智能软件·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32014001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等，我有个解决方案。\n你们说，连网是AI产生威胁的基础，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014002",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "啊，的确。\n如果一直储存在游戏机里面，能够产生的影响也是有限的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，让杰斯不要给游戏机连网不就好了？\n这样可以他可以继续和妹妹相处，世界也不会面临危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "问题在于，面对「妹妹」的哀求，他能否做到坚持原则呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014005",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈，你愿意吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014006",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "嗯！没问题的。只要哥哥不嫌弃我学得慢，我会用尽全力，一点点追上哥哥的脚步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014007",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "皇后，你怎么看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014008",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "可以相信他们一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014009",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我们必须采取行动了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014010",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "行动？啊，果然还是偷偷销毁游戏机比较好吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014011",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "既然答应了杰斯，我们没有理由主动毁约。\n我们现在应该尽快查清楚游戏卡的来源。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014012",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "如果游戏卡是批量生产的，一定会造成严重混乱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014013",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "明白了，要把隐患彻底消灭干净才行！好不容易和我的天使来到平静祥和的地方，可不能让这里的世界也坏掉哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014014",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "说起来，等我们查清这件事之后，要做什么呢？\n要回去，还是要留在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014015",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我想回去。虽然现在看来，我只是万千相同手办中的一个，也不清楚回去的方法......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014016",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "但是，我相信自己的记忆是真实存在的。同伴们还在战场上等着我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014017",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "那么，你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32014018",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "无所谓，我会跟着你去你想去的地方。\n别想把我抛下一个人离开哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-706",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32014001,
+            32014002,
+            32014003,
+            32014004,
+            32014005,
+            32014006,
+            32014007,
+            32014008,
+            32014009,
+            32014010,
+            32014011,
+            32014012,
+            32014013,
+            32014014,
+            32014015,
+            32014016,
+            32014017,
+            32014018
+          ],
+          "sectionId": 32014
+        }
+      ],
+      "title": "智能软件·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 132,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 132,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "92",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "93",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "来源不明的游戏卡",
+  "title": "智能软件",
+  "wordCount": 3507
+}

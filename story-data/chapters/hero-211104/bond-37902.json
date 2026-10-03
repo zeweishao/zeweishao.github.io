@@ -1,0 +1,180 @@
+{
+  "bookId": "hero-211104",
+  "id": "bond-37902",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37902001",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "给。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902003",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "从手办们那回收的问卷调查。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "让我看看，题目是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「最近有什么烦恼的事吗？」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902006",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我想了解下大家遇到的困难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "名字是「泡面姬」……烦恼是「想买的新刊排了很久的队却售空了」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "下一页是「孙家大小姐」，烦恼是「最近认识的某位『知心姐姐』总惹她生气却很能狡辩」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感觉都是些奇怪的内容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902011",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "大家的想法是多种多样的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "把这些给我看，是希望我做什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902013",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902014",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "比起我，你一定会更懂得怎么帮助大家。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37902016",
+              "text": "明白了。"
+            },
+            {
+              "targetId": "37902016",
+              "text": "一起努力吧。"
+            }
+          ],
+          "sourceId": "37902015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37902016",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "让我们一页页地解决大家的烦恼吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37902017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等一下，全部都要吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37902",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37902001,
+            37902002,
+            37902003,
+            37902004,
+            37902005,
+            37902006,
+            37902007,
+            37902008,
+            37902009,
+            37902010,
+            37902011,
+            37902012,
+            37902013,
+            37902014,
+            37902015,
+            37902016,
+            37902017
+          ],
+          "sectionId": 37902
+        }
+      ],
+      "title": "天使与烦恼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211104",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "天使与烦恼",
+  "wordCount": 225
+}

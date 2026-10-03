@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213004",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「唔哇，那个漂亮大姐姐站在那里多久了？」\n\n「快有半个小时了，敢搭讪的都被她的眼神吓跑了。」\n\n「她……到底在等谁？」\n\n弗吉尼娅……你曾对我发誓背弃太阳，为何现在暴露在日芒之下？「恶堕之弓」在丽人的耳边窃窃私语。\n\n没有回应阴暗的呓语，弗吉尼娅只是冷冷地抬起眼眸——因为约定的对手已经来到她的面前。\n\n ——本特别款仅可通过沙滩乐园活动获取 ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "沙排丽人Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213004",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "弗吉尼娅·沙排丽人Ver.",
+  "title": "沙排丽人Ver.",
+  "wordCount": 160
+}

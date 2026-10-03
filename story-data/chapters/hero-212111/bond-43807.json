@@ -1,0 +1,255 @@
+{
+  "bookId": "hero-212111",
+  "id": "bond-43807",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43807001",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "《高等数学》、《线性代数》、《微积分》……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807003",
+              "text": "怎么了？"
+            },
+            {
+              "targetId": "43807003",
+              "text": "为什么突然念起教科书来了？"
+            }
+          ],
+          "sourceId": "43807002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807003",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "这些典籍……就是这个世界的「算经」吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807005",
+              "text": "算是吧，你对它们感兴趣？"
+            }
+          ],
+          "sourceId": "43807004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807005",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "并不，只是过去为了帮华焱管账，学过些皮毛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43807006",
+          "sourceType": 3,
+          "text": "数日之后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43807007",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "还有吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807009",
+              "text": "还有什么？"
+            }
+          ],
+          "sourceId": "43807008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807009",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "之前书架上的那些典籍已经通读过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43807010",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "还有更精深的吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807012",
+              "text": "数学分析？"
+            },
+            {
+              "targetId": "43807012",
+              "text": "……量子力学?"
+            }
+          ],
+          "sourceId": "43807011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807012",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "明白了，我会去借阅的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43807013",
+          "sourceType": 3,
+          "text": "一周之后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43807014",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "这两份卷子已经答完了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807016",
+              "text": "（替龙缨批改。）"
+            }
+          ],
+          "sourceId": "43807015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807016",
+          "sourceType": 3,
+          "text": "阅卷的结果出来了，虽然字迹显得复古，但答案毫无疑问是满分。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43807017",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "为何你的手在颤抖？需要我用火给你暖暖身子吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807019",
+              "text": "很好，我已经没什么可以教的了。"
+            },
+            {
+              "targetId": "43807019",
+              "text": "今天起，你就是我的数学老师。"
+            }
+          ],
+          "sourceId": "43807018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807019",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "谬赞了，只是些粗浅的化用。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43807021",
+              "text": "原来龙缨这么喜欢数学？"
+            }
+          ],
+          "sourceId": "43807020",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43807021",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "不知为何，与这些数字打交道，心境便会变得安宁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43807022",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "况且，还有你一直陪在我身边。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43807",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43807001,
+            43807002,
+            43807003,
+            43807004,
+            43807005,
+            43807006,
+            43807007,
+            43807008,
+            43807009,
+            43807010,
+            43807011,
+            43807012,
+            43807013,
+            43807014,
+            43807015,
+            43807016,
+            43807017,
+            43807018,
+            43807019,
+            43807020,
+            43807021,
+            43807022
+          ],
+          "sectionId": 43807
+        }
+      ],
+      "title": "先天数学圣体"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212111",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "先天数学圣体",
+  "wordCount": 319
+}

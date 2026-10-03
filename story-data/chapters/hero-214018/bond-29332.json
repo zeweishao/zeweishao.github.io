@@ -1,0 +1,223 @@
+{
+  "bookId": "hero-214018",
+  "id": "bond-29332",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29332001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "|101|……咦，我刚才睡着了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不好意思，送你礼物后就有事离开了，现在才回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么样，还喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "「帕拉斯」和我都很喜欢这个基地，有很多能联网的终端设备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "但是……为什么准备了这么孩子气的娱乐室？还有很多毛茸茸的玩偶……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "需要去掉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "既然已经建了就留着吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……看来泉的建议还是有点用处的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就正式感谢你帮我夺得了《终焉地平线》的社区联赛冠军。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "只是个规模很小的赛事，你没有我的建议也能够获胜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我其实并不值得这样贵重的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "停，这是你应得的哦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29332014",
+              "text": "你的努力值得尊重"
+            },
+            {
+              "targetId": "29332014",
+              "text": "没有你的鼓励，我也不会参赛"
+            }
+          ],
+          "sourceId": "29332013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29332014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "好吧，接下来我会表现得更称职的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这可不是工作啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，可以回答我之前的问题了吧，你在这里过得还愉快吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "当然了……我已经不像刚活化的时候那样迷茫了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你和你的手办们教会了我，这具树脂的身体也有很多能够追求的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你说话也变得拐弯抹角了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……那你就把耳朵凑过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29332021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，像这样？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29332",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29332001,
+            29332002,
+            29332003,
+            29332004,
+            29332005,
+            29332006,
+            29332007,
+            29332008,
+            29332009,
+            29332010,
+            29332011,
+            29332012,
+            29332013,
+            29332014,
+            29332015,
+            29332016,
+            29332017,
+            29332018,
+            29332019,
+            29332020,
+            29332021
+          ],
+          "sectionId": 29332
+        }
+      ],
+      "title": "夺冠之后"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "夺冠之后",
+  "wordCount": 372
+}

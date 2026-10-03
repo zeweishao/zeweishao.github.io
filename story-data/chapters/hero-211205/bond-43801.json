@@ -1,0 +1,248 @@
+{
+  "bookId": "hero-211205",
+  "id": "bond-43801",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43801001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "|101|……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43801002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "怎么还没醒，戳一下试试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43801003",
+          "sourceType": 3,
+          "text": "脸颊上传来了清晰的触感。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801005",
+              "text": "……？"
+            },
+            {
+              "targetId": "43801005",
+              "text": "发生什么事了？"
+            }
+          ],
+          "sourceId": "43801004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801005",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "那个……昨天你不是答应和我一起修行的吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801007",
+              "text": "有吗？"
+            },
+            {
+              "targetId": "43801007",
+              "text": "好像是有这么一回事。"
+            }
+          ],
+          "sourceId": "43801006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801007",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "请快点起床，洗漱用品都备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43801008",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43801009",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "首先请照着我做，双脚开立，微微屈膝，平举双手。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801011",
+              "text": "好的。"
+            },
+            {
+              "targetId": "43801011",
+              "text": "看起来不难。"
+            }
+          ],
+          "sourceId": "43801010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801011",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "而后左脚朝左侧迈出一步，上身顺势左转，同时……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43801012",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "再是……然后……最后……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43801013",
+          "sourceType": 3,
+          "text": "汐音自然流畅地完成了一套动作，回到了起手式。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43801014",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "这一式名为「野马分鬃」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801016",
+              "text": "我跟上了。"
+            }
+          ],
+          "sourceId": "43801015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801016",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "你学得很快，接下来我们还有很多时间可以慢慢练习。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801018",
+              "text": "这就是「太极」？"
+            }
+          ],
+          "sourceId": "43801017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801018",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "嗯，爷爷说过，太极并不是一门让人称霸的武术，而是教人如何求得内外统一，因循自然的修身之法。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43801020",
+              "text": "我懂了。"
+            },
+            {
+              "targetId": "43801020",
+              "text": "原来学了不能打十个吗？"
+            }
+          ],
+          "sourceId": "43801019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43801020",
+          "sourceType": 3,
+          "text": "就这样，和汐音一起的太极拳修行成为了早晨的例行活动。",
+          "type": "narration"
+        }
+      ],
+      "id": "43801",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43801001,
+            43801002,
+            43801003,
+            43801004,
+            43801005,
+            43801006,
+            43801007,
+            43801008,
+            43801009,
+            43801010,
+            43801011,
+            43801012,
+            43801013,
+            43801014,
+            43801015,
+            43801016,
+            43801017,
+            43801018,
+            43801019,
+            43801020
+          ],
+          "sectionId": 43801
+        }
+      ],
+      "title": "修行早课"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "修行早课",
+  "wordCount": 320
+}

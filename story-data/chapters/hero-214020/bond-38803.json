@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214020",
+  "id": "bond-38803",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "38803001",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "唔，回来还得整理今天的材料……哎？！这是……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是奥莉安娜一直念叨的专属工作室哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "按照奥莉安娜的习惯做了细微调整，当然也有一些小小的私心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803004",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "剪报板、打印机……甚至有专用的镜头放置架！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803005",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "居然还收集了我的第一篇报道……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803006",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "明明前不久还是个实习助手，真是小看你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "毕竟在一起这么久了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803008",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "唔，这里「刚好」还留有一面白墙呢，是助手的私心？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是为了你的新习惯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803010",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "我们俩人共同采访的剪报，你都带着吧？快来一起贴上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803011",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "呼，搞定，接下来……还有一些空余呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803012",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "那，剩余的空白就由未来的我们一起填满，有意见吗，我的助手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38803013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "以后的日子继续多多指教了，奥莉安娜。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38803",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38803001,
+            38803002,
+            38803003,
+            38803004,
+            38803005,
+            38803006,
+            38803007,
+            38803008,
+            38803009,
+            38803010,
+            38803011,
+            38803012,
+            38803013
+          ],
+          "sectionId": 38803
+        }
+      ],
+      "title": "永久合伙人"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214020",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "永久合伙人",
+  "wordCount": 257
+}

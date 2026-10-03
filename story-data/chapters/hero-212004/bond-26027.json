@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-212004",
+  "id": "bond-26027",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26027001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么感觉，你今天有哪里不太一样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "仅仅是「不太一样」？\n你的时尚嗅觉还真是迟钝到令人悲哀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你穿了新的腰带！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "给你十秒钟，认真措辞再开口评价。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26027006",
+              "text": "造型很别致。"
+            },
+            {
+              "targetId": "26027006",
+              "text": "和你的衬衫很搭。"
+            }
+          ],
+          "sourceId": "26027005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26027006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "极简主义金属风格——这是我对下一季度流行的预判。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看上去挺不错，不过，你是从哪里买的？\n前一阵不还在抱怨「变成手办无法购物」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "愚蠢的问题。\n身为贵族，财产就像贴身衣物那样随处可取。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "总觉得很眼熟......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等，那条腰带不会是......易拉罐环拼的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "关注这些无聊的细枝末节，就是审美堕落的开始！\n我饶恕你的失礼，这个秘密，你只能装在肚子里，明白吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我当然不会和别人——或是别的手办讲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26027013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "很好，聪明的选择。\n下次买直径280毫米金属瓶盖的饮料，这是命令。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26027",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26027001,
+            26027002,
+            26027003,
+            26027004,
+            26027005,
+            26027006,
+            26027007,
+            26027008,
+            26027009,
+            26027010,
+            26027011,
+            26027012,
+            26027013
+          ],
+          "sectionId": 26027
+        }
+      ],
+      "title": "新装"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "新装",
+  "wordCount": 303
+}

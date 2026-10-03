@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-213002",
+  "id": "bond-27539",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27539001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奥菲利亚？你有什么事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人明天有考试的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哎？你怎么知道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "我在主人床底下里发现了这个——《考试时间表》。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27539006",
+              "text": "呃……只是不想让你太担心而已啦……"
+            },
+            {
+              "targetId": "27539006",
+              "text": "不过，你是怎么找到的啊？"
+            }
+          ],
+          "sourceId": "27539005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27539006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人是觉得，把考试表藏起来我就不知道了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539007",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "因为，除了主人，我还有五个不想考试的哥哥姐姐啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是你想的那样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你误会我了，我对考试很有信心的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "这么说，主人已经复习完了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539011",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "那么，我来帮主人提问一下知识点吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539012",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "我一定会帮助主人拿到全校第一的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好强的压迫感……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27539014",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人，放心交给我吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27539",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27539001,
+            27539002,
+            27539003,
+            27539004,
+            27539005,
+            27539006,
+            27539007,
+            27539008,
+            27539009,
+            27539010,
+            27539011,
+            27539012,
+            27539013,
+            27539014
+          ],
+          "sectionId": 27539
+        }
+      ],
+      "title": "考前准备"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "考前准备",
+  "wordCount": 219
+}

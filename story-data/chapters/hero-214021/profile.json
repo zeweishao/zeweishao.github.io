@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214021",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "游戏《格斗学园》中的人气角色「御景熏」化身为1/7比例模型登场！「圣阳贵族学院」现任校长，背负家族命运的天照巫女，以全新姿态呈现给每一位收藏家。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214021"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 72
+}

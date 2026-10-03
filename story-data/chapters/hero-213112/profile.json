@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213112",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「辛德瑞拉」化身为1/7比例模型登场！踩碎过往的荆棘，于魔法中重获新生，灰姑娘以全新的形象为我们诠释了不一样的自我。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213112"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 58
+}

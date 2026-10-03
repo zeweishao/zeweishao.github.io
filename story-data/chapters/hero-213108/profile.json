@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213108",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「玛莉萝丝」化身为1/7比例模型登场！如玫瑰般惹人喜爱的女孩，此刻的脸上正浮现着小恶魔般的微笑。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213108"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 48
+}

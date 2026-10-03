@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212011",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "面对不良少年头领挑衅的目光，伊达政宗接过麦克风，开始了说唱对决的挑战。\n\n「My flow就像利刃出鞘，punchline肉眼捕捉不到；不想听你们的唱词，除去学舌只剩枯燥。\n\nOne eye更能看得清，斩断的何止烛台；Rhythm让你仔细听，胜负将由我独裁。」\n\n一夜之间，街头暴走族被尽数收入伊达军麾下。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "说唱对决Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212011",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "伊达政宗·说唱对决Ver.",
+  "title": "说唱对决Ver.",
+  "wordCount": 145
+}

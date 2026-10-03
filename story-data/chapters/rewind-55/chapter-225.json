@@ -1,0 +1,728 @@
+{
+  "bookId": "rewind-55",
+  "id": "chapter-225",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43000001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快十二点了，主人屋里的灯怎么还亮着……唔，果然失眠了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43000003",
+              "text": "完全睡不着。"
+            },
+            {
+              "targetId": "43000003",
+              "text": "精神很亢奋。"
+            }
+          ],
+          "sourceId": "43000002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43000003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然如此，主人再给优纪讲一个睡前故事怎么样？说不定讲着讲着主人就会有睡意了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "问题是书柜上的书我全都看过了……只好现编一个故事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "很久很久以前，在一个遥远的童话森林里，爱丽丝和辛德瑞拉命运般地邂逅了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "爱丽丝放出了她的兔子布偶，吸引了辛德瑞拉的注意，就在这时——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "爱丽丝潜入到辛德瑞拉的身后，偷偷地盗走了她的水晶鞋……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "后来呢？后来发生了什么事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "后来……呼……Zzzzz……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，主人这就睡着了吗？听睡前故事果然很助眠呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000011",
+          "sourceType": 3,
+          "text": "次日早晨——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43000012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，主人已经出门了吗？\n昨天睡那么晚，今天早上居然可以不赖床，不愧是主人呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000013",
+          "sourceType": 0,
+          "speaker": "电视广播",
+          "text": "各位观众朋友，现在插播一条特别消息，本事著名的「奇典书馆」将展出一批珍贵的绝版童话集，时间是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，这不就是主人一直想要的那个童话集吗？我得去看看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "如果能给主人带一本回来，|102|肯定会超级开心的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43000016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，带上背包，地图，还有美味的涂料。好，准备出发了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1112",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43000001,
+            43000002,
+            43000003,
+            43000004,
+            43000005,
+            43000006,
+            43000007,
+            43000008,
+            43000009,
+            43000010,
+            43000011,
+            43000012,
+            43000013,
+            43000014,
+            43000015,
+            43000016
+          ],
+          "sectionId": 43000
+        }
+      ],
+      "title": "书馆奇遇 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43001001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，就是这里了。\n原来这家「奇典书馆」这么大呀……该从哪里进去比较好呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜，这里太可怕了……我该怎么办才好……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是谁在哭？哭得这么伤心……似乎是从那边的花坛里传来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找到了，原来你在这里。\n还好吗？为什么躲在这里哭泣呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜……我的朋友……我好不容易才交上的新朋友……呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别哭别哭，告诉我发生了什么事，优纪会帮助你的，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我的朋友……被坏蛋抓走了……呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么！竟然有这种事？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好些了吗？\n告诉我你的朋友被抓的细节，我们一起去把她救出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，真的可以吗……你、你不会骗我吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪从不骗人的，你可以放心相信我哦~\n呐呐，现在可以告诉我了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我和爱丽丝是在书馆认识的……那些书馆的坏蛋不由分说地把她抓走，她当时一定很害怕……呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有我在别担心。我会帮你找到爱丽丝的，我们这就一起进书馆看看吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001014",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，你、你真的愿意帮助我找到我的朋友？可是……我该怎么感谢你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我还什么都没做哦，不用这么客气。\n走吧，我们必须早点找到你的朋友~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43001016",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯嗯……我这就带你去我和爱丽丝最后分开的地方。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1113",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43001001,
+            43001002,
+            43001003,
+            43001004,
+            43001005,
+            43001006,
+            43001007,
+            43001008,
+            43001009,
+            43001010,
+            43001011,
+            43001012,
+            43001013,
+            43001014,
+            43001015,
+            43001016
+          ],
+          "sectionId": 43001
+        }
+      ],
+      "title": "书馆奇遇 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43002001",
+          "sourceType": 3,
+          "text": "昏暗的书馆内——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43002002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，就是这里……当时我们在童话读物区，她在看书的时候突然不见了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们在这附近仔细找找看，说不定会有什么有用的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎呀差点忘了，我们得保持安静哦，说不定会有危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我、我会跟紧你的……只要能找到爱丽丝，这点事不算什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "看，那里有一些翻乱的书……唔，还有凌乱的脚印……会是爱丽丝留下的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，我们沿着这些痕迹走，或许会有什么新发现也说不定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，那边有一位图书管理员，我们找他问问看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可、可是，我不敢跟陌生人搭话……还、还是你来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个，请问，书馆里有没有见到过一个女孩子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002011",
+          "sourceType": 0,
+          "speaker": "书籍管理员",
+          "text": "店里来来去去的客人有很多，你们要找的这位有什么特征？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "唔，她、她穿着可爱的蓝色小裙子，手拿一个兔子布偶……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002013",
+          "sourceType": 0,
+          "speaker": "书籍管理员",
+          "text": "怎么好像在仓库见到过这个女孩？不，我什么都没说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43002014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶诶，原来是仓库里吗？非常感谢，我们会保密的~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1114",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43002001,
+            43002002,
+            43002003,
+            43002004,
+            43002005,
+            43002006,
+            43002007,
+            43002008,
+            43002009,
+            43002010,
+            43002011,
+            43002012,
+            43002013,
+            43002014
+          ],
+          "sectionId": 43002
+        }
+      ],
+      "title": "书馆奇遇 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43003001",
+          "sourceType": 3,
+          "text": "奇典书馆，地下仓库。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43003002",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "呀呀！放开我，为什么要抓我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "救命！谁来救救我，我不要待在这个地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，是爱丽丝……我、我要救她，我、我可以的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别急，看守爱丽丝的人太多了，我们得小心点才可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "虽、虽然我很弱小，可如果是为了朋友，我、我就不害怕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003007",
+          "sourceType": 0,
+          "speaker": "马仔手办",
+          "text": "谁在哪里嘀嘀咕咕的？快站住来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43003008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不好，我们被发现了！\n那就鼓起精神，来大闹一场吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，跟我来，我知道一条小路，可以快速离开这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004002",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "刚才真的好险，幸好你们两个在，不然我真不知道该怎么办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004003",
+          "sourceType": 7,
+          "text": "爱丽丝 · 奇境访客\n商品名称：爱丽丝·奇境访客 Ver.\n作品名称：《爱丽丝梦游奇境》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约223mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43004004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "看到你没事，我就放心了……我们真的可以走这条路吗？会不会被那些坏蛋追上来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "安心安心，这条路我很熟，绝对不会有问题的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嘿嘿，不愧是我的朋友呀，有你这句话我就放心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004007",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "奇怪，她不是被抓进来的吗，怎么会对这条小路这么熟悉？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43004008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "啊哈哈哈！终于要脱离仓库那个鬼地方了，好耶！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1115",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43003001,
+            43003002,
+            43003003,
+            43003004,
+            43003005,
+            43003006,
+            43003007,
+            43003008
+          ],
+          "sectionId": 43003
+        },
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43004001,
+            43004002,
+            43004003,
+            43004004,
+            43004005,
+            43004006,
+            43004007,
+            43004008
+          ],
+          "sectionId": 43004
+        }
+      ],
+      "title": "书馆奇遇 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43005001",
+          "sourceType": 3,
+          "text": "奇典书馆大门口——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43005002",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哎呀哎呀，终于安全了。\n正式介绍下，我是爱丽丝，很开心能认识你们哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "今天见面太匆忙，下次我一定会邀请你们参加我的茶会，一定要来玩哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好呀好呀，优纪最喜欢茶会了~\n不过，那些坏蛋为什么好端端地要把你抓起来呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯嗯……我也很在意这件事。你当时突然被抓走，真是把我吓了一大跳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这书馆也真是的，干嘛不由分说就抓人，真是太坏蛋了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005007",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哎，我原本不想说的，你们知道得越多，就会越危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "既然你们执意想知道，那我就把事情的经过全都告诉你们吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005009",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "「奇典书馆」里有一个黑天鹅女王，她在这一带称王称霸，专门欺压像我这样的善良手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005010",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "她让手下的人把我抓进仓库，每天让我看管书籍，根本不让人休息！我受不了要逃跑，她就让人把我关起来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜呜……太欺负人了……怎么可以这样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005012",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "唉，我每天都过得暗无天日，整天整夜地担惊受怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005013",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "没有遇到你们的话，我不敢想象自己现在是什么样子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43005014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜呜，真是难以想象……这个黑天鹅女王真的太坏了……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1116",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43005001,
+            43005002,
+            43005003,
+            43005004,
+            43005005,
+            43005006,
+            43005007,
+            43005008,
+            43005009,
+            43005010,
+            43005011,
+            43005012,
+            43005013,
+            43005014
+          ],
+          "sectionId": 43005
+        }
+      ],
+      "title": "书馆奇遇 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 225,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 225,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "127",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "糖果云朵，甜蜜飘浮。",
+  "title": "书馆奇遇",
+  "wordCount": 2022
+}

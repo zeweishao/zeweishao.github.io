@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212012",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "隶属于“SNAKE”国际情报机构的特工雇员「凛」化身为1/7比例模型登场！手持能够发射等离子体的高科技武器「机能匕首」，正在执行任务的少女特工眼神冷冽、身姿迅捷。作为SNAKE最杰出的特工之一的凛，此次的任务究竟是什么呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212012"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 111
+}

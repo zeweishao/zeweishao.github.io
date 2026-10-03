@@ -1,0 +1,160 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35014",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35014001",
+          "sourceType": 10,
+          "text": "气象万千",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35014002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "大功告成，我最完美的杰作就此诞生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "堪称魔术的作品，可不是经常能见到的哦，快让我听到你们的欢呼吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没想到绯野还有这样灵巧的一面，优纪可算是长见识了啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "不愧是魔术师，期待和你的合作演出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哦，优纪想起来了，早就听说你们要准备一场演出，可以提前透露一些吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪不会偷偷告诉主人的哦，我发誓~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "优纪就是|101||103|的另一双眼，告诉你的话就不会有惊喜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不会的不会，这次肯定不会提前告诉主人，放心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "唔，其实不过是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不行，不可以，绝对不能在没有准备好的前提下告诉优纪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的一点都不能提前告诉我吗，有、有点难过呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014013",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "没关系啦，米菲亚可以带你去和猫猫一起玩喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35014014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好吧，看在米菲亚的面子上~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35014",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35014001,
+            35014002,
+            35014003,
+            35014004,
+            35014005,
+            35014006,
+            35014007,
+            35014008,
+            35014009,
+            35014010,
+            35014011,
+            35014012,
+            35014013,
+            35014014
+          ],
+          "sectionId": 35014
+        }
+      ],
+      "title": "气象万千"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35014,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "77",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱完成了迄今为止最为满意的作品，做了足够的功课，细节之上尽显本色。",
+  "title": "气象万千",
+  "wordCount": 293
+}

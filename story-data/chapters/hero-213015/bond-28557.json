@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-213015",
+  "id": "bond-28557",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28557001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "是您，「奥古斯都」的荣誉骑士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557002",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "被从后面察觉了？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "早上好，本想突然出声看看你的反应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "真有兴致，可惜让您失望了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无论什么时候，都毫无破绽呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "作为代理人，需要时刻注意自己的言行举止。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "同样地，也不能疏忽周边环境的微小变化，否则很难保证人身安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来真危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "曾经的「奥古斯都」正是如此悬于和平与危机的一线之间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "稍有不慎，时局便会倾覆，破绽将引向破灭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以，代理人伊迪丝会时刻保持「完美」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "但若是现在流浪手办们生活着的「奥古斯都」……或许……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "或许？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "让您见笑了，突然想起了过去的那个不成熟的自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28557015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不过，缺陷恰恰是达成完美的前奏，不是吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28557",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28557001,
+            28557002,
+            28557003,
+            28557004,
+            28557005,
+            28557006,
+            28557007,
+            28557008,
+            28557009,
+            28557010,
+            28557011,
+            28557012,
+            28557013,
+            28557014,
+            28557015
+          ],
+          "sectionId": 28557
+        }
+      ],
+      "title": "完美的前奏"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "完美的前奏",
+  "wordCount": 261
+}

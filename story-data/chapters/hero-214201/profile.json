@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214201",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师细雪不庭亲自操刀制作了这款手办，将其高贵典雅的贵族形象近乎完美地呈现给我们。头戴着火红色的兜帽，手持嵌有红宝石的法杖，从高高的台阶上缓缓走下的珀尔，眼神中透露出一丝凛冽的威严，仿佛不容亵渎的高贵之花。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214201"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 105
+}

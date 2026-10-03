@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214005",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，神秘而又充满魅力的「明智光秀」化身为比例模型登场！身着和式华服的他手持折扇，脸上露出的迷人笑容在让人沉醉的同时又不免感到一丝凉意。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214005"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 80
+}

@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-212004",
+  "id": "bond-26029",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26029001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "一栋房子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "给你设计了衣帽间。\n虽然手办不能换衣服，但是可以用来收集配饰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不、不错？我还以为你会......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "缺点自然是不胜枚举，但我不想苛求。\n做到这种程度，我承认你的天分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你的品味进步卓越，该适当给你些奖励了。\n说吧，你此时此刻最想要的，是什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26029008",
+              "text": "我也想要一栋房子！"
+            },
+            {
+              "targetId": "26029008",
+              "text": "收集全部绝版手办！"
+            }
+          ],
+          "sourceId": "26029007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26029008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "低级、无趣。\n这种言论简直拉低了你的身价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有什么问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "记住！以你我的实力，排在第一位的渴望必须是征服世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我们联手，徘徊于光明和黑暗之间，游离于巅峰和深渊之外。\n给你一个机会，从我的仆役，晋升为我的同伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「交朋友」真的需要这么复杂的表述吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26029013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "那么，我们就此开始征服世界的第一步——\n购置一款搭配我新腰带的迷你黑超。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26029",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26029001,
+            26029002,
+            26029003,
+            26029004,
+            26029005,
+            26029006,
+            26029007,
+            26029008,
+            26029009,
+            26029010,
+            26029011,
+            26029012,
+            26029013
+          ],
+          "sectionId": 26029
+        }
+      ],
+      "title": "渴望"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "渴望",
+  "wordCount": 300
+}

@@ -1,0 +1,173 @@
+{
+  "bookId": "hero-212001",
+  "id": "bond-29313",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29313001",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "居然一刻不停地陪尤娜玩了一整天，稍微有点累……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313002",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "主人主人，我们去试试那个全自动搏击桩吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "事先说明，我可绝对不会输给主人哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "话别说得太满，我也会全力以赴的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过，尤娜一直充满活力的秘诀是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313006",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "唔，因为博士的那瓶药水？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313007",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "喝下去以后，确实感觉身体里有用不完的活力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313008",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "但是今天的话可不是这个答案。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29313010",
+              "text": "那……是什么？"
+            },
+            {
+              "targetId": "29313010",
+              "text": "哦?"
+            }
+          ],
+          "sourceId": "29313009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29313010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "因为你啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313011",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "能和喜欢的主人一起闹腾，我可永远都停不下来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么直接吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313013",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "没错，主人，我可是——非常喜欢你哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳，我们走吧，尤娜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但事先说明，我也不会输。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29313016",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "哦耶，一起加油吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29313",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29313001,
+            29313002,
+            29313003,
+            29313004,
+            29313005,
+            29313006,
+            29313007,
+            29313008,
+            29313009,
+            29313010,
+            29313011,
+            29313012,
+            29313013,
+            29313014,
+            29313015,
+            29313016
+          ],
+          "sectionId": 29313
+        }
+      ],
+      "title": "充满活力的秘诀"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212001",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "充满活力的秘诀",
+  "wordCount": 233
+}

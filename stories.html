@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5eee3">
+  <meta name="description" content="团子的故事书：翻一翻手办们的主线、活动、人物与皮肤故事，把一起经历过的回忆留在这里。">
+  <title>团子的故事书｜团子之家</title>
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.loli.net">
+  <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="journal.css?v=20261003k">
+  <link rel="stylesheet" href="stories.css?v=20261003-stories-v2">
+  <script src="asset-config.js?v=20261003-r2"></script>
+</head>
+<body class="journal sub-page stories-page" data-no-companion>
+  <a class="story-skip" href="#story-main">跳到故事内容</a>
+  <header class="topbar">
+    <a class="j-brand" href="index.html">
+      <img src="assets/journal/logo-seal.webp" alt="" width="44" height="44">
+      <span>记录爱雪雪的每一天</span>
+    </a>
+    <nav class="j-tabs" aria-label="主导航">
+      <a href="index.html">一页情书</a>
+      <a class="is-active" href="figures.html">团子之家</a>
+      <a href="milk-tea.html">宝宝的能量补给站</a>
+      <a href="messages.html">悄悄话</a>
+      <a href="albums.html">照片</a>
+      <a class="is-night" href="comic.html">漫画</a>
+    </nav>
+    <details class="j-menu">
+      <summary>目录</summary>
+      <nav class="j-menu-panel" aria-label="主导航">
+        <a href="index.html">一页情书</a>
+        <a class="is-active" href="figures.html">团子之家</a>
+        <a href="milk-tea.html">宝宝的能量补给站</a>
+        <a href="messages.html">悄悄话</a>
+        <a href="albums.html">照片</a>
+        <a href="comic.html">漫画</a>
+      </nav>
+    </details>
+  </header>
+
+  <main class="j-wrap story-main" id="story-main" tabindex="-1">
+    <div class="story-breadcrumb"><a id="story-home-link" href="figures.html">← 回到团子之家</a><span aria-hidden="true">/</span><a href="stories.html" data-route>故事书</a></div>
+    <div id="story-loading" class="story-feedback" role="status"><p class="hand">正在翻开故事书…</p><p>那些熟悉的名字，就藏在下一页。</p></div>
+    <section id="story-error" class="story-feedback" aria-labelledby="story-error-title" hidden>
+      <h1 id="story-error-title">这一页暂时没能打开</h1>
+      <p id="story-error-message">请稍后再试一次。</p>
+      <button id="story-retry" class="j-btn-line" type="button">重新载入</button>
+      <a class="story-text-link" href="stories.html" data-route>回到书目</a>
+    </section>
+
+    <section id="story-library" aria-labelledby="story-title" hidden>
+      <div class="story-library-head">
+        <div class="story-library-copy"><p class="story-eyebrow">团子之家 · 回忆收藏</p><h1 id="story-title" tabindex="-1">团子的故事书</h1><p class="story-intro">把熟悉的名字，和一起走过的故事，再读一遍。</p><p class="story-library-tally" id="story-library-tally"></p></div>
+        <div class="story-feature" id="story-feature" aria-label="故事扉页"></div>
+      </div>
+      <a id="story-resume" class="story-bookmark" href="stories.html" data-route hidden><span class="story-bookmark-label">上次读到</span><span id="story-resume-title"></span><span class="story-bookmark-action">接着读 <span aria-hidden="true">→</span></span></a>
+      <div id="story-hero-context" class="story-hero-context" hidden><p id="story-hero-context-text"></p><a id="story-hero-return" href="figures.html">看看她</a></div>
+      <div class="story-catalog-tools">
+        <nav id="story-categories" class="story-categories" aria-label="故事分类"></nav>
+        <div class="story-search-row">
+          <label class="story-search"><span class="visually-hidden">搜索故事标题或人物</span><input id="story-search" type="search" placeholder="找一个故事，或一个熟悉的名字" autocomplete="off" spellcheck="false"></label>
+          <label class="story-hero-select"><span class="visually-hidden">按人物筛选</span><select id="story-hero-filter"><option value="">所有人物</option></select></label>
+        </div>
+      </div>
+      <div class="story-results-head"><h2 id="story-results-title">全部故事</h2><p id="story-result-count" role="status" aria-live="polite"></p></div>
+      <div id="story-books" class="story-books"></div>
+      <div id="story-empty" class="story-feedback" hidden><p class="hand">这一页还没有找到故事。</p><p>换个名字，或翻翻其他分类。</p><button id="story-reset" class="j-btn-line" type="button">查看全部故事</button></div>
+      <div class="story-more-wrap"><button id="story-more" class="j-btn-line" type="button" hidden>再翻一页</button></div>
+      <p class="story-catalog-note">故事按原文整理。影像章节与暂缺正文的条目，会在目录中说明。</p>
+    </section>
+
+    <section id="story-book" class="story-book-view" aria-labelledby="story-book-title" hidden>
+      <a class="story-back-link" id="story-back-library" href="stories.html" data-route>← 回到书目</a>
+      <header class="story-book-head"><div id="story-book-artwork" class="story-book-cover"></div><div class="story-book-heading"><p class="story-eyebrow" id="story-book-category"></p><h1 id="story-book-title" tabindex="-1"></h1><p class="story-book-subtitle" id="story-book-subtitle"></p><p class="story-book-description" id="story-book-description"></p><div class="story-related" id="story-book-heroes" aria-label="故事中的人物"></div><p class="story-book-total" id="story-book-total"></p></div></header>
+      <div class="story-section-label"><h2>翻开这一章</h2><span>按原故事顺序</span></div>
+      <ol id="story-chapters" class="story-chapter-list"></ol>
+    </section>
+
+    <section id="story-reader" aria-labelledby="story-chapter-title" hidden>
+      <div class="story-reader-top"><a id="story-reader-back" class="story-back-link" href="stories.html" data-route>← 本书目录</a><p id="story-reading-saved" aria-live="off">阅读位置会留在这台设备上</p></div>
+      <div class="story-reading-layout">
+        <aside class="story-toc"><details id="story-toc-details"><summary>本书目录<span id="story-toc-count"></span></summary><nav id="story-toc-links" aria-label="本书章节"></nav></details></aside>
+        <article class="story-paper" id="story-paper">
+          <header class="story-reading-head"><a class="story-eyebrow" id="story-reading-book" href="stories.html" data-route></a><h1 id="story-chapter-title" tabindex="-1"></h1><p id="story-chapter-subtitle"></p><p class="story-reading-meta" id="story-chapter-meta"></p></header>
+          <div class="story-prose" id="story-prose"></div>
+          <footer class="story-reading-footer"><p class="hand">这一页，先替我们好好收着。</p><div id="story-reading-heroes" class="story-related" aria-label="回到人物"></div></footer>
+          <nav class="story-page-turn" aria-label="章节翻页"><a id="story-previous" href="stories.html" data-route><span>上一章</span><strong></strong></a><a id="story-next" href="stories.html" data-route><span>下一章</span><strong></strong></a></nav>
+          <a class="story-end-directory" id="story-end-directory" href="stories.html" data-route>回到本书目录 ↑</a>
+        </article>
+      </div>
+    </section>
+    <noscript><p class="story-feedback">打开故事目录需要启用 JavaScript。你也可以先<a href="figures.html">回到团子之家</a>。</p></noscript>
+  </main>
+  <script src="journal.js?v=20261003g"></script>
+  <script type="module" src="stories.js?v=20261003-stories-v2"></script>
+</body>
+</html>

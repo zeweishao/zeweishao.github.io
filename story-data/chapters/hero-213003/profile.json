@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213003",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这款作品模型师自信「狩猎者」即将成为受欢迎的热门作品，因为没有人能抵挡得过性感熟女的魅力。在狩猎者的面前，乖乖地俯首称臣是最好的选择。\n此次FULI公司推出的「终焉地平线」系列盲盒，狩猎者即将闪亮登场。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213003"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 100
+}

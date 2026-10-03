@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212110",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "繁星闪烁的夜晚，铁轨自天边延伸而来，老式列车在一阵鸣响后唐突地停在你的面前。\n\n拿着导游旗的少年四处望了望，才略显失望地说道：「什么嘛……今天的旅客只有你一个吗？」\n\n「不过可以去一些特别的景点了，事不宜迟，我们赶紧出发吧！」但他很快打起精神，不容多想，便拉着你登上了列车。\n\n闪烁着金色微光的星系，有着紫水晶般质感的行星，纷纷被落在车窗之后。\n\n「恭，恭介先生，我们这是要去哪里？」\n\n「当然是黑洞的近距离观光，这可是个好机会！来吧，Mission start！」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "深空漫旅Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212110",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "枣恭介·深空漫旅Ver.",
+  "title": "深空漫旅Ver.",
+  "wordCount": 238
+}

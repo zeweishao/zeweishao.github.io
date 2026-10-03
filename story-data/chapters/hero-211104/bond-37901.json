@@ -1,0 +1,231 @@
+{
+  "bookId": "hero-211104",
+  "id": "bond-37901",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37901001",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小奏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "她手上怎么捧着一沓纸？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901004",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "后宅……布置得就像教室？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么《格斗学园》的手办也都聚在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901007",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "那么，考试开始。请大家认真答题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901009",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37901010",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "|101|，你来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你刚才在监考？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901012",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "嗯，为了帮助大家精进武道。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37901014",
+              "text": "我不太明白……"
+            },
+            {
+              "targetId": "37901014",
+              "text": "这有什么联系吗？"
+            }
+          ],
+          "sourceId": "37901013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37901014",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "真乃说，完成试炼可以提升武道的境界。所以，我来举行——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901015",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "「天使的试炼」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「试炼」和「考试」不是一回事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但看起来大家挺配合的，你收到了不少卷子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901018",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "在考试结束前想离开的都被我阻止了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37901020",
+              "text": "细想有点可怕……"
+            },
+            {
+              "targetId": "37901020",
+              "text": "原来这才是「试炼」。"
+            }
+          ],
+          "sourceId": "37901019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37901020",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "大家都很热情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37901021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我去检查下后宅的家具损毁情况……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37901",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37901001,
+            37901002,
+            37901003,
+            37901004,
+            37901005,
+            37901006,
+            37901007,
+            37901008,
+            37901009,
+            37901010,
+            37901011,
+            37901012,
+            37901013,
+            37901014,
+            37901015,
+            37901016,
+            37901017,
+            37901018,
+            37901019,
+            37901020,
+            37901021
+          ],
+          "sectionId": 37901
+        }
+      ],
+      "title": "天使与试炼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "天使与试炼",
+  "wordCount": 248
+}

@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-214015",
+  "id": "bond-33404",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33404001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么晚了，厨房里怎么还有声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "星洛？！你怎么在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘘！主人，小声一点，不要吓跑星洛的猎物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "猎物……？什么猎物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哼哼~星洛在这片丛林里调查很久了，今天终于发现了猎物的踪迹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404006",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "快看那个一动不动的大家伙，它就是星洛的目标！\n主人，就是现在，和我一起包围它！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404007",
+          "sourceType": 3,
+          "text": "星洛向着桌上的「猎物」投出长枪，顿时奶油飞溅。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33404008",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿呀！\n嗯……？它怎么碎了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来这个兔子蛋糕就是你说的猎物啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "「蛋高」？那是什么？它不是一只偷喝了牛奶的兔子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蛋糕是用牛奶做成的点心，就像是柔软平整的奶酪。星洛在那边的世界没有吃过吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "原野上，只有烤肉才是最好的食物！不过「蛋高」好像也很好吃的样子~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33404013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "诶，等等，这么说，难道星洛把主人的晚餐给——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33404015",
+              "text": "没关系的。"
+            },
+            {
+              "targetId": "33404015",
+              "text": "我可以吃别的。"
+            }
+          ],
+          "sourceId": "33404014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33404015",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "吃饭可是很重要的！\n哼哼~既然这样，那就让星洛为主人准备一顿大餐吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33404",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33404001,
+            33404002,
+            33404003,
+            33404004,
+            33404005,
+            33404006,
+            33404007,
+            33404008,
+            33404009,
+            33404010,
+            33404011,
+            33404012,
+            33404013,
+            33404014,
+            33404015
+          ],
+          "sectionId": 33404
+        }
+      ],
+      "title": "猎人的蛋糕狩猎"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "猎人的蛋糕狩猎",
+  "wordCount": 338
+}

@@ -1,0 +1,47 @@
+{
+  "bookId": "archive-angelbeats",
+  "id": "section-37530",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37530001",
+          "sourceType": 3,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37530002",
+          "sourceType": 3,
+          "text": "2。",
+          "type": "narration"
+        }
+      ],
+      "id": "37530",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37530001,
+            37530002
+          ],
+          "sectionId": 37530
+        }
+      ],
+      "title": "原文片段 37530"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "angelbeats",
+        "sectionId": 37530
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 37530",
+  "wordCount": 4
+}

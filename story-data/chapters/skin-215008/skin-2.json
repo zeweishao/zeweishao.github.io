@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215008",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "就在今晚，昔日的紫罗兰学园少女偶像穿上了心爱的衣装，向着自己未竟的梦想再次出发。\n\n这一次，她将以别出心裁的Live形式，在闪耀的舞台上重新出道。\n\n准备好了吗？今晚的直播中，会听到光彩夺目的艾里克希娅首次亲自作词作曲的新单哦。\n\n「想要将我的歌，我的舞蹈，我内心绽放的生命，统统传达给屏幕前素未谋面的你。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪耀直播Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215008",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾里克希娅·闪耀直播Ver.",
+  "title": "闪耀直播Ver.",
+  "wordCount": 148
+}

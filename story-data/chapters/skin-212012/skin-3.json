@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212012",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "特工在执行机密任务时，一般不会选择张扬的服饰，更别说眼前的这一套。奢华的材质，大胆的剪裁，以及闪亮耀眼的金色……这一切都与任务所需的隐蔽性背道而驰。\n\n——本该是这样的。\n\n纸醉金迷的酒宴上，喧哗的场面因为正门走来的一位女子而陷入了可怕的静默。她的装束是如此显眼，以至于所有人都无法移开目光。\n\n那一天晚上，没有留下目击者。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "女王裁决Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212012",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "凛·女王裁决Ver.",
+  "title": "女王裁决Ver.",
+  "wordCount": 156
+}

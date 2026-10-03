@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213012",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "经过近乎死缠烂打的恳求，神宫有咲终于获得帮忙照看一下午农场的机会。\n\n老农场主一步三回头地离开，看着有咲摸着小羊的头一副岁月静好模样，终于放心地乘车远去。\n\n马车扬尘渐消，有咲早已换上藏在草垛下面的狼人装扮，一脚踢开羊圈围栏，猛兽般向小羊们扑去。\n\n「狼捉羊，当然要和真的小羊一起玩才有趣！小家伙们，你们会爱上这场游戏的！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·牧狼农场Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213012",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "神宫有咲·闪亮·牧狼农场Ver.",
+  "title": "闪亮·牧狼农场Ver.",
+  "wordCount": 156
+}

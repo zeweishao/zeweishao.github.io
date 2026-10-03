@@ -1,0 +1,165 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22400",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22400001",
+          "sourceType": 10,
+          "text": "「潮玩全明星」启动！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22400002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "又是「万人空巷」「人山人海」的场合阿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔，真叫人怀念，跟当时的「伽拉再版人气投票」有得一拼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "充满了节日的气氛呢，是在举办什么活动吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「FULI」x「日光乐园」特别联动——\n《潮玩全明星》，那边有规则说明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "「集齐全套潮玩兑换小太阳，赢取丰厚大礼，更有机会获得珍贵手办S-VIII……」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「S-VIII」？是传说里那个黑白通吃亦正亦邪投机倒把无乐不作……的「S-VIII」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "虽然有点难懂……不过听起来像个坏家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "但似乎是主人最近非常喜欢的角色呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然这样的话……\n——欸，我有一个好主意！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们看~规则上写着「全套共计五件潮玩徽章，隐藏在游乐园的各个角落……」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人一定很想拿到奖品吧？我们来帮主人收集徽章吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "虽然那家伙不像是好人，不过既然主人喜欢，就这么办好了！\n这么多徽章的话……需要一个收纳盒吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，我和绿子回家取收纳盒，\n其他人在游乐场搜集徽章。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好耶，到时候一定给主人一个超大的惊喜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22400016",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "又是「抓小鸡大赛」吗，\n收到收到，保证完成——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22400",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22400001,
+            22400002,
+            22400003,
+            22400004,
+            22400005,
+            22400006,
+            22400007,
+            22400008,
+            22400009,
+            22400010,
+            22400011,
+            22400012,
+            22400013,
+            22400014,
+            22400015,
+            22400016
+          ],
+          "sectionId": 22400
+        }
+      ],
+      "title": "「潮玩全明星」启动"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22400,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "34",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「潮玩全明星」启动",
+  "wordCount": 423
+}

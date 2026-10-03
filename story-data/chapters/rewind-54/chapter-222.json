@@ -1,0 +1,761 @@
+{
+  "bookId": "rewind-54",
+  "id": "chapter-222",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42726001",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "船桨无法使用，看来我们一时半刻要困在此地了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这片水域如此广阔渺远，竟看不到一丝主岸的影子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726003",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "所幸船只航行得稳定了些，且陪我在船上四处走走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726004",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "宓妹似乎对这艘船很感兴趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "自小在洛川边长大，却从未见过这样的船只，我倒要看看里面有什么玄机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726006",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "呵呵，果然被我发现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "此话怎讲，这里有何不同寻常之处吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726008",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "你瞧船舱里的这件装置，可否觉得有几分眼熟？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我在一本讲述机关的古籍上看到过类似的装置，想是某种控制类的机关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726010",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "不错。这并非是普通的控制机关，若是操作得当，还能让这艘船自动巡航。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42726011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "竟有这般妙处，还请宓妹为我展示一番。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1097",
+      "sourceRefs": [
+        {
+          "bundle": "zhenji",
+          "rowIds": [
+            42726001,
+            42726002,
+            42726003,
+            42726004,
+            42726005,
+            42726006,
+            42726007,
+            42726008,
+            42726009,
+            42726010,
+            42726011
+          ],
+          "sectionId": 42726
+        }
+      ],
+      "title": "登鬼船 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42727001",
+          "sourceType": 3,
+          "text": "小船果真自动巡航起来——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42727002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "总算如愿控制住了小船，我们何不即刻返程回岸？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727003",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "不急一时。水道的秘密，最好在这水道上解开，且让这艘船载着我们到这水道的尽头探上一探。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727004",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "怎么，宓妹可是发现了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "听，前方水域隐约似有歌声传来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "水上漂泊的灵魂啊，可曾找到心灵的慰藉。♪",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "如此动人又哀婉的乐音，听得人忍不住想要落泪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727008",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "你是何人，为何会出现在此处？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "贝歌，一个抚慰受伤心灵的歌者，也是一尾永失家园的可怜人鱼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这里原本是我的临时居所，不知什么时候被改成了商用的运输水道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我无法忍受越来越嘈杂的环境，因此搬到这里来。没想到……这里反而比原来那个处所更加喧闹呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727012",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "可此地除了水流和鱼儿游动的声音，并未听到其他的杂音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727013",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "呵，你在暗示什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "水的低语，藏着秘密的路径。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727015",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我能告诉你们的，就这么多了。再会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727016",
+          "sourceType": 3,
+          "text": "船舱之下传来窸窸窣窣的声响——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42727017",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "宓妹，你可听到什么奇怪的响动？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727018",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "这船舱之下定然藏着什么古怪。\n出来，否则就不客气了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727019",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "哈，有史以来最伟大的演员徕卡，准备好享受表演了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727020",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "笨蛋徕卡，你抢了我的台词！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727021",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "总算出来了，可把我憋坏了~唔唔唔，肚子好饿呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727022",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "我这里有一些速食涂料，喏，给你垫垫肚子吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727023",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "好呀好呀，等星洛吃饱饱了就有力气给大家烤肉啦，嘿嘿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727024",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "我劝你最好小心，最好不要吃来历不明的食物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42727025",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "显而易见，这出戏变得越来越有趣了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1098",
+      "sourceRefs": [
+        {
+          "bundle": "zhenji",
+          "rowIds": [
+            42727001,
+            42727002,
+            42727003,
+            42727004,
+            42727005,
+            42727006,
+            42727007,
+            42727008,
+            42727009,
+            42727010,
+            42727011,
+            42727012,
+            42727013,
+            42727014,
+            42727015,
+            42727016,
+            42727017,
+            42727018,
+            42727019,
+            42727020,
+            42727021,
+            42727022,
+            42727023,
+            42727024,
+            42727025
+          ],
+          "sectionId": 42727
+        }
+      ],
+      "title": "登鬼船 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42728001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "一位记者，一位猎人，还有一位手偶师……这艘船变得越发热闹了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728002",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "这么说你到这里来，定是为了追踪什么新闻线索了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728003",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "频繁发生的水道堵塞事件，让我察觉到背后肯定另有古怪，因此顺着水道来到这里调查。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728004",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "没想到线索还没彻查清楚，人却困在了这里……不过，这一趟倒也并不是完全没有收获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "你姑且与我们的目标一致，谈谈你适才所谓的「收获」如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728006",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "从我目前掌握的证据来看，造成水道堵塞的凶手十有八九是此次春季庆典的演出人员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "诶诶，星洛好像听徕卡提起过这个，他不是正要去参加今年春季庆典的演出吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728008",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "不得不说，你虽然傻乎乎的，记性却很好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "笨蛋徕卡，比起星洛你也好不到哪去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728010",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "实不相瞒，我到水道上来不过是为了偷偷排练演出细节。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728011",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "既然这里不是我的舞台，那我也没有继续待在这的理由了～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728012",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "等等，你要到哪里去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728013",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "我知道你一直怀疑我，在拿出证据之前，恕我不能奉陪你的无聊游戏了～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728014",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "让我们在春季庆典那天再见吧，到时候欢迎各位来观看我的演出哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42728015",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "堪称完美的谢幕，还不快献上掌声！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1099",
+      "sourceRefs": [
+        {
+          "bundle": "zhenji",
+          "rowIds": [
+            42728001,
+            42728002,
+            42728003,
+            42728004,
+            42728005,
+            42728006,
+            42728007,
+            42728008,
+            42728009,
+            42728010,
+            42728011,
+            42728012,
+            42728013,
+            42728014,
+            42728015
+          ],
+          "sectionId": 42728
+        }
+      ],
+      "title": "登鬼船 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42729001",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "你怀疑水道阻塞和这个徕卡有关，可有什么证据？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729002",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "徕卡并不是主谋，背后肯定还有人在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729003",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "即使目前还拿不到确切的证据，但我相信只要跟紧徕卡，就一定会有突破口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哇呀呀，可是他已经坐着浮木逃走了，我们怎么办呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "无碍，我们乘着这艘船追上便可。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729006",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哎嘿，水上狩猎什么的太好玩啦，一定会有超级美味的食物在前方等着我们的，对不对~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729007",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "且慢。此事非同小可，待我安排妥当即刻出发。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729008",
+          "sourceType": 3,
+          "text": "片刻过后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42729009",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "我们什么时候出发呀，快要看不到徕卡那家伙的影子了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729010",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "适才我所安排的分工，你都记下了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "唔唔，是什么来着……星洛完全想不起来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729012",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "利用你的猎人专长，不要放过任何可疑的蛛丝马迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "喔喔，这个超简单的，星洛绝对没问题的，大家放心~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "如此我们便按照宓妹的安排，即刻乘船前往水道终点吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42729015",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "好耶！奇妙的水道大冒险开始喽！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1100",
+      "sourceRefs": [
+        {
+          "bundle": "zhenji",
+          "rowIds": [
+            42729001,
+            42729002,
+            42729003,
+            42729004,
+            42729005,
+            42729006,
+            42729007,
+            42729008,
+            42729009,
+            42729010,
+            42729011,
+            42729012,
+            42729013,
+            42729014,
+            42729015
+          ],
+          "sectionId": 42729
+        }
+      ],
+      "title": "登鬼船 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42730001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "航行得很顺利，我们就快追上徕卡，抵达水道尽头了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "到处找不见你，没想到躲到这里来了，在做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730003",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "闲来无事四处走走，没想到还真有意外发现，你们看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730004",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "这是……世界航海地图？这船上怎么会有这种东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "这有什么啦，星洛在隔壁的船舱里还发现了一张宝藏地图呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730006",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "航海图和宝藏图……这艘船看起来并非是普通的船只模型。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "难道这艘船是有人放在岸边，故意引我们登上去的么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730008",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "此事牵涉众多，我们需彻查到底。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "是了，宓妹你看，隐约已经能看到两岸的影子了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730010",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "我们就快抵达水道深处了，大家小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730011",
+          "sourceType": 3,
+          "text": "小船继续往前，水道深处的延岸风光一览无余。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42730012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哇哦，这里有好多宝物，看起来好好玩喔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730013",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "没想到水道的尽头，竟然到处都是倾倒的货物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730014",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "看来水道阻塞只是障眼法，幕后黑手借此把运输途中中断的货物转移到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730015",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "想必其中定然藏有宓妹的珍珠，我们需得快些找到才好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730016",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "从这堆积如山的货物中寻到我的珍珠，与大海捞针无异。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730017",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "不如揪出幕后的黑手，直接让他们交出珍珠来得方便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42730018",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "宓妹所言极是，我们这便继续往前探查吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1101",
+      "sourceRefs": [
+        {
+          "bundle": "zhenji",
+          "rowIds": [
+            42730001,
+            42730002,
+            42730003,
+            42730004,
+            42730005,
+            42730006,
+            42730007,
+            42730008,
+            42730009,
+            42730010,
+            42730011,
+            42730012,
+            42730013,
+            42730014,
+            42730015,
+            42730016,
+            42730017,
+            42730018
+          ],
+          "sectionId": 42730
+        }
+      ],
+      "title": "登鬼船 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 222,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 222,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "于洛川之畔，伴你缓步而行。",
+  "title": "登鬼船",
+  "wordCount": 1926
+}

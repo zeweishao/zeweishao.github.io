@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212014",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "秘密结社「黑蔷薇」的地下设施响起了刺耳的警报声。在重重守卫前现身的，是拥有晨星之名的少女和她忠实的伙伴褪色熊。\n\n「你们的罪恶已经显露无疑，清算的时候到了。」真乃说。\n\n「失去了变身腿环的你，要如何与我们为敌？」头目说。\n\n「『英雄』不是因为装备才成为英雄的——」她坚定地抬起手，「而是因为那颗守护的心！……变，身！」\n\n大结局，《闪耀的未来》——敬请期待！",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·潜入的星辰Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212014",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仓田真乃·闪亮·潜入的星辰Ver.",
+  "title": "闪亮·潜入的星辰Ver.",
+  "wordCount": 171
+}

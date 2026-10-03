@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211203",
+  "id": "bond-28510",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28510001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "怎么又来了，是之前的表演没看够？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "还是说，你已经完全被我所吸引了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不用害羞，这只能证明……你很有眼光！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "上次你在书架上完成断桥飞跃的最后，不小心磕到了墙上吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我是来帮你处理伤口的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……那是意外！人生总是会有意外出现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "再擅长奔跑的骏马也会有失蹄的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我不是机器人，出现一点点小失误很正常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不过那点小伤，根本无需在意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "而且就结果来看，那是一次成功的飞跃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些我当然知道，不过该处理的伤口还是得处理才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "泉小姐这么抗拒，难道……是在害怕伤口的处理？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "谁会怕这种无聊的事情啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "算了，拿你没办法，要来你就来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28510015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我要是叫出声一句，阿尔贝尔以后就跟你姓！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28510",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28510001,
+            28510002,
+            28510003,
+            28510004,
+            28510005,
+            28510006,
+            28510007,
+            28510008,
+            28510009,
+            28510010,
+            28510011,
+            28510012,
+            28510013,
+            28510014,
+            28510015
+          ],
+          "sectionId": 28510
+        }
+      ],
+      "title": "吸引！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211203",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "吸引！",
+  "wordCount": 268
+}

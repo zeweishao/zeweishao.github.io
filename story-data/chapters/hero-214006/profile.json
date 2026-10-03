@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214006",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这款手办还原了原作世界观中的紫罗兰高中校服，将风纪委员「冈田桜介」的帅气形象以精致的造型呈现。面部的表情让人感受到他的高傲、不屑、拥有超强自信的个性。右手掌上冰蓝色的火焰，是「冈田桜介」即将开始战斗的经典动作。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214006"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 105
+}

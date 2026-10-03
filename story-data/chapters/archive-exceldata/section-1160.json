@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1160",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1160001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人！你听说了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1160002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "手办巨头FULI旗下的三大品牌直营店又拓展新的直营店了啦~~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1160003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，快跟优纪一起去“手办御三家”逛逛嘛~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1160004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "女孩子如果能够逛街，可是比什么都要开心呢，嘿嘿~~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1160",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1160001,
+            1160002,
+            1160003,
+            1160004
+          ],
+          "sectionId": 1160
+        }
+      ],
+      "title": "原文片段 1160"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1160
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1160",
+  "wordCount": 91
+}

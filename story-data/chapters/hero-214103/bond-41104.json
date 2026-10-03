@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-214103",
+  "id": "bond-41104",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41104001",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "Welcome to搬家感谢派对的说！来，请坐在这里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢库特邀请我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104003",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "嘿嘿，因为准确来说这是为你专门举办的派对哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104005",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "「非常感谢你愿意让我住在这么wonderful的家里」——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104006",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "是包含这样的感谢而举办的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104007",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "但其实就是菜品分享会啦，都是我自己做的……要是能合你口味就好了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41104009",
+              "text": "所有菜品看上去都好美味！"
+            },
+            {
+              "targetId": "41104009",
+              "text": "光是看着就要流口水了……"
+            }
+          ],
+          "sourceId": "41104008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41104009",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104010",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "没想到能受到这样的盛赞，反而感觉very shy了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这可是真心的称赞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "库特只需要自豪地收下称赞就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104013",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "那这个时候就应该说thank you very much的说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104014",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "手办的大家还告诉我了很多菜谱，我想都试试！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104015",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "到时候，要是你愿意来帮我试试味道就好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然！我很期待库特的新菜品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104017",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41104018",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "那现在就朝着厨房go的说！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41104",
+      "sourceRefs": [
+        {
+          "bundle": "lbgaobai",
+          "rowIds": [
+            41104001,
+            41104002,
+            41104003,
+            41104004,
+            41104005,
+            41104006,
+            41104007,
+            41104008,
+            41104009,
+            41104010,
+            41104011,
+            41104012,
+            41104013,
+            41104014,
+            41104015,
+            41104016,
+            41104017,
+            41104018
+          ],
+          "sectionId": 41104
+        }
+      ],
+      "title": "搬家感谢派对"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "搬家感谢派对",
+  "wordCount": 309
+}

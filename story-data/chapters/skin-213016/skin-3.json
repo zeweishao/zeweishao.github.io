@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213016",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名贝斯手克莱儿无故失踪一年，再次站在了属于她的舞台。\n\n观众们望着熟悉又陌生的她，发出阵阵质疑的私语。\n\n她却并不理会，随性波动着手中的古老乐器，婉约而又有力的弦声宛如天籁。\n\n「各位，在失踪的这一年里，我找到了梦寐已久的新声音！」\n\n「跟随我的节拍，在古老与现代的碰撞里，感受音乐的魅力吧！」\n\n——该特别款仅限灿世华章赛季获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "琵琶引Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213016",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "克莱儿·琵琶引Ver.",
+  "title": "琵琶引Ver.",
+  "wordCount": 156
+}

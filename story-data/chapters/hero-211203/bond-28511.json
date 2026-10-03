@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211203",
+  "id": "bond-28511",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28511001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "喂，我说……这是怎么回事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "惊喜吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "比起惊喜，更多应该是惊吓吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你要我去帮你解决什么仇人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么会这么想？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这么夸张的房子，肯定要花不少钱吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不用想也是一份大单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是送你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "又是这种让人难以相信的说辞吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果硬要说委托的话，其实也不是完全没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哈，我就知道，说说你的要求，我心情不错，可以帮你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "委托内容的话，就是请好好使用它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里面准备了很多有趣的赛道，我想你应该会喜欢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……你这家伙，果然是喜欢我吧？？想用这房子钓我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28511015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "小心我让你血本无归！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28511",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28511001,
+            28511002,
+            28511003,
+            28511004,
+            28511005,
+            28511006,
+            28511007,
+            28511008,
+            28511009,
+            28511010,
+            28511011,
+            28511012,
+            28511013,
+            28511014,
+            28511015
+          ],
+          "sectionId": 28511
+        }
+      ],
+      "title": "委托？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "委托？",
+  "wordCount": 219
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211005",
+  "id": "bond-27510",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27510001",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "哼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么又受伤了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510003",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "哈哈，这是一场史无前例的成功战役！我们成功把那群野兽驱逐到了别的街区！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510004",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "我们成功把那群野兽驱逐到了别的街区！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你是指外面的流浪猫吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510006",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "以后居住在外面的流浪手办就不需要再担心安全问题了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没想到你还会关心部族以外的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510008",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "现在的我，已经不只是血狼部族的族长了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510009",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "有了新的身份，自然要承担这个身份所带来的重量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是可靠呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？你好像不怎么排斥我帮你涂料了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510012",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "我看出来了，你是一个值得信任的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27510013",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "小鬼，以后我的后背就交给你了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27510",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27510001,
+            27510002,
+            27510003,
+            27510004,
+            27510005,
+            27510006,
+            27510007,
+            27510008,
+            27510009,
+            27510010,
+            27510011,
+            27510012,
+            27510013
+          ],
+          "sectionId": 27510
+        }
+      ],
+      "title": "后背"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211005",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "后背",
+  "wordCount": 215
+}

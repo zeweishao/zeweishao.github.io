@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213110",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "温暖的南风拂过，盛开的紫藤在风中轻轻摇曳。少女端坐于花树下，丝缎般的长发与花色融为一体。\n\n「吁——」某个观众在台下大声起哄：「戏剧演出又不是拍照片，你懂不懂！」\n\n紫发少女收起甜美的笑，一手叉腰，另一只手举起了不知从哪拿来的词典——\n\n「很有胆量呢……想要被我弄哭吗？」\n\n重建后的戏剧部，最终如愿完成了首场演出，藤林杏功不可没。\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "暖风赞颂Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213110",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "藤林杏·暖风赞颂Ver.",
+  "title": "暖风赞颂Ver.",
+  "wordCount": 174
+}

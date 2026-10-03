@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213016",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "看着在抓娃娃机获得的猫咪玩偶服，克莱儿忽然有了奇特的灵感。\n\n「踩踏地板作为鼓点，弹球碰撞作为音符，再加入猫铃铛的音色点缀！」\n\n各种音色很快在克莱儿的脑海中融合成型。\n\n「努力发掘更多有趣的声音，加入到我们的下一首单曲中吧！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "猫爪鼓点Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213016",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "克莱儿·猫爪鼓点Ver.",
+  "title": "猫爪鼓点Ver.",
+  "wordCount": 108
+}

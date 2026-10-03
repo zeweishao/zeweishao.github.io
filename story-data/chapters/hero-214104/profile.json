@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214104",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「爱丽丝」化身为1/7比例模型登场！扔掉繁复礼服，漫游奇妙的地下世界，那个传说中的少女再次归来！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214104"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 48
+}

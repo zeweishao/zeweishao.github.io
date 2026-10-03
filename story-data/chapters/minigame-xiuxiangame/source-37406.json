@@ -1,0 +1,118 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37406",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37406001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "二、四、六、八......不可能，你耍赖！你的工资根本没这么多！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我很相信水野梅的实力，所以每天都在额外加班。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "别担心，你的朋友们，我也会一并买下来带走，并且修好他们。\n这还要多亏了加班的奖金，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "怎、怎么会......难道说，你偷听我们讲话？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是偷听，这叫收集情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "什么啊......做这种事，太狡猾了。\n这不就完全......没法拒绝了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406007",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "好吧，从今天起——我可以叫你主人，但你要叫我老大！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "知道了，小梅酱。一起回家吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37406009",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "好......不对，都说了要叫我老大啊，笨蛋！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37406",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37406001,
+            37406002,
+            37406003,
+            37406004,
+            37406005,
+            37406006,
+            37406007,
+            37406008,
+            37406009
+          ],
+          "sectionId": 37406
+        }
+      ],
+      "title": "消除关卡 30 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "30",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "30",
+          "result_avg_id"
+        ],
+        "sectionId": 37406,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 30 · 结算",
+  "wordCount": 233
+}

@@ -1,0 +1,93 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17321",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17321001",
+          "sourceType": 10,
+          "text": "吃完三鲜福包，新的的一年会幸福健康美满。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17321002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "三鲜福包来咯，里面可是有各种馅料，猪肉，火腿，香菇、胡萝卜~超多！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17321003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "就像是我们对主人的崇拜和爱意一样，满满的塞满了哟~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17321004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哼哼，蒸到这种程度的话，里面的汁水咬到嘴里，肯定会“啪”的炸出来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17321005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人吃的时候，要小心烫喔~如果主人有需要的话，可以找优纪帮忙吹凉~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17321006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，完全感觉到了哦，你们想要表达的那些，嘶……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17321007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过太好吃了，好像还是被烫到了，哈哈。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17321",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17321001,
+            17321002,
+            17321003,
+            17321004,
+            17321005,
+            17321006,
+            17321007
+          ],
+          "sectionId": 17321
+        }
+      ],
+      "title": "三鲜福包"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17321,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "8",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "吃完三鲜福包，主人新的的一年会幸福健康美满。",
+  "title": "三鲜福包",
+  "wordCount": 189
+}

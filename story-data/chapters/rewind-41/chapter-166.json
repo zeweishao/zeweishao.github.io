@@ -1,0 +1,902 @@
+{
+  "bookId": "rewind-41",
+  "id": "chapter-166",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36011001",
+          "sourceType": 9,
+          "text": ">>>接入管理局急讯：\n第二处奖品仓库遭到袭击，已确认犯人身份——【波雷亚斯】。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36011002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……长话短说吧，星洛，我们需要你合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011003",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嗯？你们不是来逮捕她的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "事分轻重。面对更棘手的敌人。她可以暂缓处置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "目标是恶龙波雷亚斯。他袭击了奖品仓库，偷走了新款涂料。\n我们要尽快将他逮捕，解决事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011006",
+          "sourceType": 2,
+          "speaker": "神宫有咲",
+          "text": "糟糕，新款涂料居然被人偷走了吗？那我的恶作剧计划岂不是……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "管理局呢？他们为什么不动手？那个自恋的大叔不是很强的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "如果真由管理局出手，战况就无法控制了。手办会暴露在人类世界中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "只有猎人出手，我们才能以最小的代价解决事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "管理局愿意以涂料为报酬，并且帮助你取得受害者的原谅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯……既然你们不是坏人，那我们就出发吧。为了好吃的涂料！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011012",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "喂，立场转变也太快了吧！\n等等，我也要去。我也要……为了M城贡献我的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011013",
+          "sourceType": 2,
+          "speaker": "神宫有咲",
+          "text": "如果在这里停下就前功尽弃了。我才不会让精彩的恶作剧计划搁浅呢！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯……好吧。虽然你很弱，但没关系，星洛会让你变强的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011015",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "又来？我可不会再参加你的厨师训练。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011016",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "当然不是啦。手册上记载了变强的方法，比猎人训练效果更好呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36011017",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "哼，不过是高级厨师训练罢了，你以为我会相信你吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-857",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36011001,
+            36011002,
+            36011003,
+            36011004,
+            36011005,
+            36011006,
+            36011007,
+            36011008,
+            36011009,
+            36011010,
+            36011011,
+            36011012,
+            36011013,
+            36011014,
+            36011015,
+            36011016,
+            36011017
+          ],
+          "sectionId": 36011
+        }
+      ],
+      "title": "寻踪觅迹·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36012001",
+          "sourceType": 3,
+          "text": "一段时间后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36012002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "这个气味……|101|，你回来啦！有带什么好吃的吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36012004",
+              "text": "凛和希塔也在？"
+            },
+            {
+              "targetId": "36012004",
+              "text": "你们在看什么？"
+            }
+          ],
+          "sourceId": "36012003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36012004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~大家都在学习怎么当猎人呢！\n嗯~好香！星洛闻到了烤肉涂料的味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……希塔，你有什么想法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……之前只觉得是涂鸦，但现在来看，这些内容暗示了精妙的战术格斗技巧，对我很有帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "格斗技巧？是恶作剧陷阱的构造吧。\n这些前所未有的伟大构想，我都忍不住想要试试了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "看来我们每个人从中领悟的内容是不同的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你们看到了格斗技巧和恶作剧陷阱，而我看到的则是新颖有效的特工训练手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012010",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "这么神奇？！|101|，你拿个放大镜过来，看看图上画了什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012011",
+          "sourceType": 3,
+          "text": "又一段时间后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36012012",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "|101|，怎么样，你看到了什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36012014",
+              "text": "手办与人类的相处之道"
+            },
+            {
+              "targetId": "36012014",
+              "text": "超棒棒烤肉指南"
+            }
+          ],
+          "sourceId": "36012013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36012014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~星洛没有骗你们吧！手册是很厉害的！\n星洛从里面学会了很多烤肉的技巧呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012015",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "这么神奇的东西，你居然只从里面看出了做饭的事，你究竟有多喜欢吃啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012016",
+          "sourceType": 0,
+          "speaker": "粮丸",
+          "text": "喵~呜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012017",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "大猫回来了！嗯……大猫的身上怎么掉了一撮毛？还有股坏东西的味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012018",
+          "sourceType": 9,
+          "text": ">>>数据处理中……比对仓库中的遗留物，确定气味来源为——【波雷亚斯】。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36012019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "看来在不经意间，敌人已经和我们打过招呼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012020",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "大猫乖~别难过了，我们会打倒坏东西的！\n嗯……你愿意带我们去找他吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012021",
+          "sourceType": 0,
+          "speaker": "粮丸",
+          "text": "喵喵呜~喵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012022",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿，谢谢你~大家！骑上大猫，我们一起出发吧！为了更多的烤肉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36012023",
+          "sourceType": 2,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻~为了烤肉？才不呢！看了手册，我有了新的点子！\n对了，就用偷梁换柱的方法……",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-858",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36012001,
+            36012002,
+            36012003,
+            36012004,
+            36012005,
+            36012006,
+            36012007,
+            36012008,
+            36012009,
+            36012010,
+            36012011,
+            36012012,
+            36012013,
+            36012014,
+            36012015,
+            36012016,
+            36012017,
+            36012018,
+            36012019,
+            36012020,
+            36012021,
+            36012022,
+            36012023
+          ],
+          "sectionId": 36012
+        }
+      ],
+      "title": "寻踪觅迹·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36013001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "就是这里！谢谢大猫~\n哎呀，这里坏东西的味道好重！恶龙肯定来过这个地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿，交给星洛吧！\n星洛可是能在黑暗森林中找到藏食物的树洞！找恶龙就更简单啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "首先是这个石头……嗯……上面有四道浅浅的痕迹，恶龙的爪子受过伤！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "这里还有一段折断的树干……恶龙的尾巴很强韧，破坏起来非常困难",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯……恶龙的肉质很差，只有打颈部和后脚才有效。和他战斗，打击武器会比斩击更好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013006",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "哼，对厨师来说，了解食材确实是重要的一环。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~这可是猎人的看家本领！\n虽然来到了这个世界，但很多东西都是一样的呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013008",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "你们看，这里有很多紫色的野花，动物非常喜欢它们的味道，总是会把这里当栖息地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013009",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "但是……怎么有涂料和陌生人的味道？有人藏在这里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……你这是在做什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘘！星洛要把躲起来的人找出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……可这和烧烤架有什么关系。帕拉斯已经定位到「她」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我们先看看情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "啦啦啦~蜜~汁烤肉，星洛喜欢吃~烤肉好好好，味道妙妙妙~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013015",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "……她为什么一边唱着歌，一边还跳起舞来了……这真的有用吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013016",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咕咕~咩~哞~星洛现在变成青蛙了哦。咕呱咕呱~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013017",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "……现在又变成动物模仿秀了吗？我说，要不然还是你们上吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013018",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "啊喔喔喔~嘿嘿，星洛找到你了！嘿呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013019",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "怎么可能？！我躲得这么好也能找到我？\n咦？又是你们。我不管，你们肯定是作弊了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013020",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哎呀~谢谢夸奖~不过这也不是星洛想出来的，而是手册上记载的方法啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36013021",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我才没有在夸你啦！这是什么莫名其妙的手册和方法！\n再来！给我认真找啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-859",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36013001,
+            36013002,
+            36013003,
+            36013004,
+            36013005,
+            36013006,
+            36013007,
+            36013008,
+            36013009,
+            36013010,
+            36013011,
+            36013012,
+            36013013,
+            36013014,
+            36013015,
+            36013016,
+            36013017,
+            36013018,
+            36013019,
+            36013020,
+            36013021
+          ],
+          "sectionId": 36013
+        }
+      ],
+      "title": "寻踪觅迹·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36014001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "管理局应该给你放假了。我需要一个解释。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "这个……额，我只是偶然到这里的！是意外啦！意外！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "别躲了，你身后藏着的那堆涂料已经暴露了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "咿！竟、竟然这样！\n我不管我不管，这些涂料就是人家的啦！你们要是拿走，人家会哭的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我们可以当作没看见，前提是说出你知道的一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "诶，真的吗？！不能反悔哦~\n咳，作为负责的仓库管理员，我当然想要弥补自己的失误。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014007",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我一直在寻找新款涂料的下落……虽然没结果，但我却找到了很多无人认领的涂料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014008",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻，无人认领？恐怕是借着寻找涂料的名义到处搜刮来的吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014009",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不！才不是呢！\n反正，我把收集来的涂料藏在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "刚才，我带来了一批新的涂料，正打算埋起来，却发现有一条好大好大的龙出现了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014011",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "接着那只大猫也到了这里，他们俩突然就打起来了……\n我就只能躲在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "但那条可恶的龙！飞走的时候还抢走了人家好几瓶涂料！真是太过分了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014013",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "飞走了？这怎么找啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~没关系！星洛已经知道恶龙飞到哪里去了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014015",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "根据风向，恶龙的气味、速度、脚印，还有别的信息来判断，他的巢穴，就是在这里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014016",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36014017",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "……我们真的要根据矮冬瓜的计划行动？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "真正有效的战术，向来不是复杂繁琐的东西。\n就像星洛所说——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014019",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咚、啪、噗~战斗结束~嘿嘿，星洛都不好意思了~\n总之星洛就先在这里布置超~大的陷阱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014021",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "然后把恶龙赶到这里来，让他掉进陷阱里就好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014022",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我也要帮忙！不过，抢回来的涂料可都是我一个人的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014023",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻~我就帮忙布置陷阱吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014024",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "好。各自按计划行动，然后集合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36014025",
+          "sourceType": 2,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻~陷阱是个好东西。只要我做一点小小的改动，猎人，也会变成猎物呢~",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-860",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36014001,
+            36014002,
+            36014003,
+            36014004,
+            36014005,
+            36014006,
+            36014007,
+            36014008,
+            36014009,
+            36014010,
+            36014011,
+            36014012,
+            36014013,
+            36014014,
+            36014015,
+            36014016,
+            36014017,
+            36014018,
+            36014019,
+            36014020,
+            36014021,
+            36014022,
+            36014023,
+            36014024,
+            36014025
+          ],
+          "sectionId": 36014
+        }
+      ],
+      "title": "寻踪觅迹·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36015001",
+          "sourceType": 9,
+          "text": "钢翼的红岚、不灭的炽炎、奈落的凶星，数百年间，这些都曾是我的名字。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36015002",
+          "sourceType": 9,
+          "text": "人类以吾为敌，却不堪一击。哪怕降临在异世，依然无人能真正造出囚禁吾的牢笼。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36015003",
+          "sourceType": 9,
+          "text": "因为自由的双翼，永远只属于天空。\n胆敢冒犯吾之权威者，只有一个下场——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36015004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿呀~坏东西！快给星洛出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015005",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼？什么动静？吾的台词还没说完呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015006",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "坏东西，就是你抢走了涂料吗？\n星洛要把你抓起来，在你面前吃烤肉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015007",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼……烤肉？什么烤肉？有烤肉可以吃吗？！吾最喜欢吃烤肉了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015008",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "诶？真的吗！星洛也最喜欢吃烤肉了！\n尤其是看着烤肉慢慢变成焦焦的颜色！太幸福了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015009",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼！没错！哪怕是听着烤肉滋滋冒油的声音，也是至高的享受！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015010",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻，架还没打起来，你们就在这聊天？矮冬瓜你不是想叛变吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "对哦，星洛差点忘了！\n咳咳，坏东西，虽然你也爱吃烤肉，但星洛要帮朋友打倒你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36015012",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼……你们是谁啊？吾爱好和平，有话慢慢——\n别打了！吾的涂料！可恶，是你先动手的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-861",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36015001,
+            36015002,
+            36015003,
+            36015004,
+            36015005,
+            36015006,
+            36015007,
+            36015008,
+            36015009,
+            36015010,
+            36015011,
+            36015012
+          ],
+          "sectionId": 36015
+        }
+      ],
+      "title": "寻踪觅迹·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 166,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 166,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "精彩的冒险",
+  "title": "寻踪觅迹",
+  "wordCount": 2613
+}

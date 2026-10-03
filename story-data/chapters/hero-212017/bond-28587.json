@@ -1,0 +1,162 @@
+{
+  "bookId": "hero-212017",
+  "id": "bond-28587",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28587001",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "找我何事？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28587003",
+              "text": "我受人所托，想请你设计一件珠宝。"
+            }
+          ],
+          "sourceId": "28587002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28587003",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "很遗憾，我的时间已经排满了，恕我无能为力。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28587005",
+              "text": "果然不行吗……"
+            }
+          ],
+          "sourceId": "28587004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28587005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "哦？看来委托之人对你很重要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28587006",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "也罢，待我审查一番自己的计划表，或许能够调整一些事项。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28587007",
+          "sourceType": 3,
+          "text": "片刻之后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28587008",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "我向来重视检视珍珠品质一事，但它却相当繁琐且乏味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28587009",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "若是有人能够替我承担此项工作，你的这个委托便能匀出空来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28587011",
+              "text": "放心，交给我吧！"
+            },
+            {
+              "targetId": "28587011",
+              "text": "当然，我来搞定！"
+            }
+          ],
+          "sourceId": "28587010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28587011",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "那么给我一刻钟的时间，我将提供初步的设计构想给你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28587013",
+              "text": "真的吗？太感谢了！"
+            }
+          ],
+          "sourceId": "28587012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28587013",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "无需言谢。\n为你调整计划，也是我计划中的一部分。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28587",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28587001,
+            28587002,
+            28587003,
+            28587004,
+            28587005,
+            28587006,
+            28587007,
+            28587008,
+            28587009,
+            28587010,
+            28587011,
+            28587012,
+            28587013
+          ],
+          "sectionId": 28587
+        }
+      ],
+      "title": "计划之外"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "计划之外",
+  "wordCount": 222
+}

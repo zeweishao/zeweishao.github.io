@@ -1,0 +1,108 @@
+{
+  "bookId": "activity-extra-shilaimuyure",
+  "id": "source-23352",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "23352001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "今天是没有主人的情报发布会！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪自己找到的情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "利姆鲁·特恩佩斯特、米莉姆·纳瓦两位魔王将于今日加入手办团的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "已经不需要主人额外的情报的提示了，我们可以自己去探索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家快去迎接他们的到来吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪，可以让我说一句话吗？我只说一句。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23352007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不行。虽然主人你前几天都说得挺好的，但还是别说了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "23352",
+      "sourceRefs": [
+        {
+          "bundle": "shilaimuyure",
+          "rowIds": [
+            23352001,
+            23352002,
+            23352003,
+            23352004,
+            23352005,
+            23352006,
+            23352007
+          ],
+          "sectionId": 23352
+        }
+      ],
+      "title": "活动片段 23352"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "180",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "180",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 23352,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 23352",
+  "wordCount": 141
+}

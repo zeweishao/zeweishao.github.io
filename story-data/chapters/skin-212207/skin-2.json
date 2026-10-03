@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212207",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "客厅的中央放着一个华丽的礼盒，而「礼物」本人正殷切地看向你。\n\n「喜欢么？是特意为你量身定制的。」\n\n「是更喜欢这身衣服……还是，更喜欢穿这身衣服的我？」\n\n「啧，台词总算念完了，快帮我把手上的带子解开。」\n\n如此近的距离，呼吸和心跳彼此交缠。\n\n「呵，抓到你了。」驯鹿女士露出狡黠的笑容，手上的带子自动脱落——\n\n「今夜，你是只属于我的『猎物』。」\n\n——该特别款仅可通过「圣诞派对」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "圣夜驯鹿女士Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212207",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "塞西尔·圣夜驯鹿女士Ver.",
+  "title": "圣夜驯鹿女士Ver.",
+  "wordCount": 183
+}

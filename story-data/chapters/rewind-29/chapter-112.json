@@ -1,0 +1,994 @@
+{
+  "bookId": "rewind-29",
+  "id": "chapter-112",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "24460001",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "报告大王，这是本次捕获手办的花名册。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460002",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "不错，非常的不错！小牙膏，你为这次行动做出了卓越的贡献，本大王要封你为……先进恶人干部！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460003",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "谢大王！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "大王，我们已经非常清楚你的厉害了，现在是不是可以放我们走了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "什么嘛，没想到你这家伙还挺识相的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "不过还不行，本大王好不容易抓到的手办，怎么能说放就放！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460007",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "那大王打算怎么处置我们呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "呃，这个……先关起来听候发落，不要搞小动作哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "那个谁，你笑什么！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "啊？我笑了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460011",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "只是觉得大王发号施令的样子有点可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460012",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你觉得我，可爱？我难道不可怕吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460013",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "姐姐大人，她就是个小孩子，不要拆穿她，顺着哄哄她就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460014",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "大胆庶民！你们竟敢小看我？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "本大王最讨厌的事就是吃青椒啊不是，就是有人说本大王可爱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24460016",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "来啊，把这两个无礼的家伙关监禁室！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470001",
+          "sourceType": 3,
+          "text": "半天后。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24470002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "没想到这小丫头脾气还挺火爆的，出去之后得好好给她上一课。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470003",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "黑子，你能力恢复得怎么样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "恐怕还需要很长一段时间才能使用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470005",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "其实黑子觉得，像这样能和姐姐大人共处同一个牢房，总有一种别样的风味呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈喽，又见面了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470007",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "咦？你们怎么也……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470008",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "怎么又是你们这些家伙？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没想到莉可居然发明出了催眠瓦斯，一时大意中招了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "莉可……就是那个调皮的小丫头吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错，就是她！她的手下小牙膏曾经看到咱们在一起，所以误以为咱们是一派的了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以在他的建议之下，我们也被转移到这个监狱了，哈哈。\n我们真的很有缘分呢！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "怎、怎么办，如果晚上不能回去的话，主人一定会担心的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470014",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "抱歉啊，原来都是因为我，才害你们三个进来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470015",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "看样子，大家要共处一段时间了。正式认识一下，我叫御坂美琴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24470016",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "姐姐大人，我突然觉得能力恢复得差不多了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-607",
+      "sourceRefs": [
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24460001,
+            24460002,
+            24460003,
+            24460004,
+            24460005,
+            24460006,
+            24460007,
+            24460008,
+            24460009,
+            24460010,
+            24460011,
+            24460012,
+            24460013,
+            24460014,
+            24460015,
+            24460016
+          ],
+          "sectionId": 24460
+        },
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24470001,
+            24470002,
+            24470003,
+            24470004,
+            24470005,
+            24470006,
+            24470007,
+            24470008,
+            24470009,
+            24470010,
+            24470011,
+            24470012,
+            24470013,
+            24470014,
+            24470015,
+            24470016
+          ],
+          "sectionId": 24470
+        }
+      ],
+      "title": "魔王计划·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24480001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，刚才是瞬间移动吗？好厉害！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480002",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "没错，那正是我的能力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "虽然人家的能力确实非常方便，但是和姐姐大人比还是有很长的一段距离呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你们知道其他关押手办的监狱在什么地方吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你打算做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480006",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "既然已经被牵扯进来了，那么我就绝对不会坐视不管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480007",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "黑子也是这么觉得的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们也正有这个打算呢，大家一起行动吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480009",
+          "sourceType": 5,
+          "speaker": "牙牙",
+          "text": "大、大大大大事不好！有俘虏逃出来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24480010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "看来要优先解决一下这边的麻烦呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24490001",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "这里就是关押大家的地方吗……好大的动静，里面是什么情况？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24490002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "黑子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24490003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "交给我吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500001",
+          "sourceType": 0,
+          "speaker": "朋克小子",
+          "text": "不要再挣扎了！乖乖躺下会比较轻松哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500002",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "又想吃盖火锅了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500003",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "风魔手里剑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "怎么回事？为什么手办们在自相残杀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "大、大家不要再打了啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500006",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "已经杀红眼了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500007",
+          "sourceType": 0,
+          "speaker": "猪猪储蓄罐",
+          "text": "救……救命！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24500008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "看来需要我们强势介入了啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-608",
+      "sourceRefs": [
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24480001,
+            24480002,
+            24480003,
+            24480004,
+            24480005,
+            24480006,
+            24480007,
+            24480008,
+            24480009,
+            24480010
+          ],
+          "sectionId": 24480
+        },
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24490001,
+            24490002,
+            24490003
+          ],
+          "sectionId": 24490
+        },
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24500001,
+            24500002,
+            24500003,
+            24500004,
+            24500005,
+            24500006,
+            24500007,
+            24500008
+          ],
+          "sectionId": 24500
+        }
+      ],
+      "title": "魔王计划·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24510001",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "都已经冷静下来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "居然两三下就把所有手办打趴下了，小琴琴，你太厉害啦！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510003",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "还好吧，不要用这么羞耻的外号叫我啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "好了，谁来和我交代一下到底发生了什么事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510005",
+          "sourceType": 0,
+          "speaker": "猪猪储蓄罐",
+          "text": "是大魔王莉可的命令哼唧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510006",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "什么？你说莉可？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510007",
+          "sourceType": 0,
+          "speaker": "猪猪储蓄罐",
+          "text": "嗯！她说幸存的人可以加入魔王军，倒下的人，和反抗的人都会被清理掉哼唧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510008",
+          "sourceType": 0,
+          "speaker": "猪猪储蓄罐",
+          "text": "一开始大家也试图反抗，但是因为身体没有完全恢复，我们根本不是守卫的对手哼唧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510009",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "放心，外面的守卫已经在我们刚才过来的时候顺手解决掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "优纪，你们和莉可打的交道比较久，这件事你们怎么看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯……不太像是莉可能够想出来的方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510012",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "我也这么认为，虽然只是短暂的接触，但是她看起来只是一个喜欢恶作剧的小鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510013",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你们和那个叫莉可的小姑娘好像挺熟的，她现在人在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你打算做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510015",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "当然是把背后捣鬼的人揪出来狠狠揍一顿了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们和你一起去吧，莉可的炸弹还是有些棘手呢！更何况我们还不知道真正的幕后黑手是谁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510017",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "放心，我曾经也遇到过一个喜欢用炸弹的家伙，这种手段我还是能够应付的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510018",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "姐姐大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510019",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "黑子，剩余的手办就交给你们去拯救了，到时候我们在游乐园\n门口会合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "莉可是管理局重点关注的危险分子，根据已有的情报，她在游乐园应该至少有一个秘密基地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24510021",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "——能告诉我具体的方向吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-609",
+      "sourceRefs": [
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24510001,
+            24510002,
+            24510003,
+            24510004,
+            24510005,
+            24510006,
+            24510007,
+            24510008,
+            24510009,
+            24510010,
+            24510011,
+            24510012,
+            24510013,
+            24510014,
+            24510015,
+            24510016,
+            24510017,
+            24510018,
+            24510019,
+            24510020,
+            24510021
+          ],
+          "sectionId": 24510
+        }
+      ],
+      "title": "魔王计划·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24520001",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "大胆，你们居然敢假冒我的名义，向我的手下发布命令！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24520002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "想要让手办敬畏你，就需要将恐怖根植在他们的心中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24520003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我现在不是在跟你讨论这件事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24520004",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我是来指导你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24520005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "不对！你应该是来辅佐我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24520006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530001",
+          "sourceType": 3,
+          "text": "让我们把时间稍稍回拨到半天之前。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24530002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "克罗赛尔，我还是不明白我们为什么要找这个小鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不要总是板着一张脸嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "虽然她的计划有些草率，但是却挺有想象力的不是吗，而且最后还成功了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "这是一块璞玉，如果运用得好的话，会是一颗不错的棋子呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我不需要什么棋子，向人类复仇，只要有我们两人就足够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "别这么说嘛，什么事情都亲力亲为，就算是头牛也会累死的。\n以后，我们会有越来越多棋子的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24530008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "放心，洗脑的工作就交给我吧，你什么都不用做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24540001",
+          "sourceType": 3,
+          "text": "而现在——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24540002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24540003",
+          "sourceType": 2,
+          "speaker": "弗吉尼娅",
+          "text": "（说好我什么都不用做，结果借口监狱出了事便一个人离开了。）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24540004",
+          "sourceType": 2,
+          "speaker": "弗吉尼娅",
+          "text": "（克罗赛尔，真是个满口谎言的女人……）",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-610",
+      "sourceRefs": [
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24520001,
+            24520002,
+            24520003,
+            24520004,
+            24520005,
+            24520006
+          ],
+          "sectionId": 24520
+        },
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24530001,
+            24530002,
+            24530003,
+            24530004,
+            24530005,
+            24530006,
+            24530007,
+            24530008
+          ],
+          "sectionId": 24530
+        },
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24540001,
+            24540002,
+            24540003,
+            24540004
+          ],
+          "sectionId": 24540
+        }
+      ],
+      "title": "魔王计划·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24550001",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "小鬼，你不是想要成为驰名世界的超级大魔王吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "那就只需要听从我们的安排就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你才是小鬼！叫我大王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550004",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550005",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "总之，后面的事不需要你操心了，你只要负责把人抓来。\n剩下的事情和你没关系了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你这家伙，居然用这种语气和我说话，是在小看我吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "让我辛辛苦苦抓来的手办自相残杀，就是你们想到的方法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550008",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我刚才已经解释过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我不认可你们的方案，你被炒鱿鱼了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550010",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "说什么会帮我出谋划策，果然你和那个花言巧语的女人，都只是想利用我罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550011",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550012",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我已经失去耐心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "所以说，我最讨厌小鬼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550014",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你、你想干嘛？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550015",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "既然已经不需要你了，当然是把你清理掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "大、大胆，你以为本王是软柿子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24550017",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "好、好！就让你瞧瞧本王的厉害！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-611",
+      "sourceRefs": [
+        {
+          "bundle": "paojie1",
+          "rowIds": [
+            24550001,
+            24550002,
+            24550003,
+            24550004,
+            24550005,
+            24550006,
+            24550007,
+            24550008,
+            24550009,
+            24550010,
+            24550011,
+            24550012,
+            24550013,
+            24550014,
+            24550015,
+            24550016,
+            24550017
+          ],
+          "sectionId": 24550
+        }
+      ],
+      "title": "魔王计划·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 112,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 112,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "大魔王的绝妙计划",
+  "title": "魔王计划",
+  "wordCount": 2070
+}

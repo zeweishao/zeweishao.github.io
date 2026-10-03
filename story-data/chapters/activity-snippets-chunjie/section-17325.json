@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17325",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17325001",
+          "sourceType": 10,
+          "text": "手办们的心意全部塞在里面，不会对主人有半点隐藏。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17325002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "主人知道这是什么吗？这是水晶虾饺哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17325003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "对呢对呢~！很有名的茶点，最厉害的是外面的皮，晶莹剔透，还可以看到里面的内馅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17325004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，哦~？还真是奇妙的口感呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17325005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "外皮软韧，内馅饱满，特别是爽脆的虾仁，似乎还能感受到里面隐藏的活力，真是鲜活的味道。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17325",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17325001,
+            17325002,
+            17325003,
+            17325004,
+            17325005
+          ],
+          "sectionId": 17325
+        }
+      ],
+      "title": "水晶虾饺"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17325,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "12",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "手办们的心意全部塞在里面，不会对主人有半点隐藏。",
+  "title": "水晶虾饺",
+  "wordCount": 138
+}

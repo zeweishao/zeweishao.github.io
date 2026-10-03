@@ -1,0 +1,219 @@
+{
+  "bookId": "activity-extra-signin-springfestival",
+  "id": "source-25620",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25620001",
+          "sourceType": 9,
+          "text": "叮咚——叮咚——叮咚叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25620002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是谁这么早就来拜访呢……呼啊~大家都还没睡醒呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "怎么？那个人还在睡吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "现在才凌晨五点钟，不在睡觉的你……们才奇怪吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我们？居然有人选择和我在同一个时间拜访|101|吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "不巧正是周某，想必老板娘不会介意的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620007",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "不介意不介意，今天这样的日子就应该热热闹闹的才对~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620008",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "怎么你也在，莫不是偷偷跟着我一路尾随到这里的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620009",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "我跟这家的主人|101|可是老交情了，今天是特意来拜访故人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "虽然我们目标一致，但周某可是立志要在今天比孔明兄更早地登门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620011",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "周兄请，不过话说在前头，我也不会客气的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "请问，你们二位有把我这个访客放在眼里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "M城有句话叫作「女士优先」，希望你们能懂得入乡随俗的道理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们不要吵了，主人都要被你们吵醒了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，我已经醒了。\n抱歉招待不周，刚才一直在睡觉，没有听到门铃响。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "今日的主角终于到场了，做好迎接我们的准备了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25620017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然当然，请进~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "25620018",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        }
+      ],
+      "id": "25620",
+      "sourceRefs": [
+        {
+          "bundle": "signin-springfestival",
+          "rowIds": [
+            25620001,
+            25620002,
+            25620003,
+            25620004,
+            25620005,
+            25620006,
+            25620007,
+            25620008,
+            25620009,
+            25620010,
+            25620011,
+            25620012,
+            25620013,
+            25620014,
+            25620015,
+            25620016,
+            25620017,
+            25620018
+          ],
+          "sectionId": 25620
+        }
+      ],
+      "title": "活动片段 25620"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "194",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          },
+          {
+            "path": [
+              "1521",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "194",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 25620,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "videoPath": "Videos/AVG_spring_2022.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25620",
+  "wordCount": 379
+}

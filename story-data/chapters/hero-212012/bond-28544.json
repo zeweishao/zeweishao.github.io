@@ -1,0 +1,187 @@
+{
+  "bookId": "hero-212012",
+  "id": "bond-28544",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28544001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "一间房子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是送给凛的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有别的意思哦，大部分手办都收到过这样的礼物——我不说凛肯定也知道的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "可是为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喜欢你，想送给你礼物，那些聊天也是，希望你快乐，不要总是一个人，就这么简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "喜欢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，像是老父亲对女儿的喜欢，也像是恋人的喜欢，有时候还像是小朋友间的喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "凛总是不爱说话，你觉得这样很酷吧，可我从来没这么认为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "闭路收到了新任务，对不起，要离开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "又一次成功避免了煽情的桥段呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧，还能说什么呢，骄傲的小姐，祝你顺利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "可以等我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？你说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "可以等我吗，做完这次任务，我会很快回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来感觉不太……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "等我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28544019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "那个时候，我也有别的话，要对你说。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28544",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28544001,
+            28544002,
+            28544003,
+            28544004,
+            28544005,
+            28544006,
+            28544007,
+            28544008,
+            28544009,
+            28544010,
+            28544011,
+            28544012,
+            28544013,
+            28544014,
+            28544015,
+            28544016,
+            28544017,
+            28544018,
+            28544019
+          ],
+          "sectionId": 28544
+        }
+      ],
+      "title": "不辞的道别？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "不辞的道别？",
+  "wordCount": 282
+}

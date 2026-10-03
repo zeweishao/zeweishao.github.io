@@ -1,0 +1,152 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35012",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35012001",
+          "sourceType": 10,
+          "text": "祥瑞之兆",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35012002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "受绯野的启发，麒麟「兔儿爷」完成了，是不是很可爱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "咳，虽然没有我设想的那么精巧，大体上看起来还不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你的意思是我做得还不够好咯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "毕竟拿绯野家的标准要求你，实在有些勉强。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你刚才明明挡住了偷偷翘起的嘴角，优纪可不会上当的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我才、才没有偷笑，你不要乱讲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012008",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "看得出你们对这件作品都很满意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "据说麒麟是一种祥瑞之兽，能够给人带来好运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "被发现了吗，关于这个创意，我做了很久的功课。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，我在制作的时候就感受到了，绯野果然是心思细腻的女孩子呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我要给|101||103|全世界最特别的礼物——从开始到现在，这一点从未改变。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35012013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "原来，美好的祝福并不都会像泡沫那般易碎。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35012",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35012001,
+            35012002,
+            35012003,
+            35012004,
+            35012005,
+            35012006,
+            35012007,
+            35012008,
+            35012009,
+            35012010,
+            35012011,
+            35012012,
+            35012013
+          ],
+          "sectionId": 35012
+        }
+      ],
+      "title": "祥瑞之兆"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35012,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "75",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "来自怪盗小姐绯野原爱的创意，「兔儿爷」骑在威风凛凛的麒麟身上，让人眼前一亮~",
+  "title": "祥瑞之兆",
+  "wordCount": 276
+}

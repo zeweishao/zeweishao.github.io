@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215202",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "设计师品牌『第九夜』旗下全新角色「柔嘉」正式手办化登场！第九将夜对这位生来患有罕见病症的特殊女孩进行了细致入微的刻画，完美还原了她那令人极为深刻的浅白瞳色。就连成为「超能实验体」之后，柔嘉对自己的力量感到恐惧与渴望的矛盾一面也真实还原了出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215202"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 121
+}

@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211001",
+  "id": "bond-29302",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29302001",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你……你怎么在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉可不愿意等我，那我就只能来这里等你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "唔……你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈，开个玩笑~这次我呢，是来赔礼道歉的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "赔……礼道歉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "上次好像惹到莉可不开心了，所以……这个就算是赔礼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "这个……是给我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，莉可魔王大人还满意吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我……哼，虽然没我磨坊堡大，不过还算是勉勉强强吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你喜欢就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我才没有说喜欢……不过，算了，你觉得是就是吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那莉可算是原谅我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我又没有生气，本王的心胸可比你想象的宽广。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302014",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "看在你送给本王一份还算不错的礼物份上……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29302015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "之后你来找我，本王都可以勉强浪费点时间陪陪你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29302",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29302001,
+            29302002,
+            29302003,
+            29302004,
+            29302005,
+            29302006,
+            29302007,
+            29302008,
+            29302009,
+            29302010,
+            29302011,
+            29302012,
+            29302013,
+            29302014,
+            29302015
+          ],
+          "sectionId": 29302
+        }
+      ],
+      "title": "心胸宽广的魔王"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "心胸宽广的魔王",
+  "wordCount": 242
+}

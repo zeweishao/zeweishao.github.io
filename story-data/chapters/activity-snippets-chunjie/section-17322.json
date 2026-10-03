@@ -1,0 +1,85 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17322",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17322001",
+          "sourceType": 10,
+          "text": "大吉大利，今晚吃鸡~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17322002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "栗子荷花鸡完成~！好吃又好看，无论是料理还是摆盘，我们可是都花了很大的功夫哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17322003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "所谓大吉大利今晚吃鸡，主人不想赶快试试吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17322004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然还没有吃，不过已经能够感受到了啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17322005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "荷花的香气，唔，这丰沛的肉汁和软嫩的肉质……让我好像看到了一群活蹦乱跳的小鸡在荷塘上游泳？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17322006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊哈哈哈，太夸张了吗，也是，在荷塘上游泳的怎么也该是小鸭子才对。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17322",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17322001,
+            17322002,
+            17322003,
+            17322004,
+            17322005,
+            17322006
+          ],
+          "sectionId": 17322
+        }
+      ],
+      "title": "栗子荷花鸡"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17322,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "9",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "大吉大利，今晚吃鸡~",
+  "title": "栗子荷花鸡",
+  "wordCount": 167
+}

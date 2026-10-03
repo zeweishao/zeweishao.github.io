@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213001",
+  "id": "bond-27535",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27535001",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "唔……主人……为什么要单独叫我出来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535002",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "是因为，里惠做了什么让主人不开心的事情吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有，里惠很好，所以……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我给你准备了一个礼物，想单独送给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯嗯，来看看礼物吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535006",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "哇……好漂亮的大房子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535008",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了？里惠，有什么想法可以直接和我说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535010",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "我很喜欢，但是……姐姐住在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就知道你会这样问，放心交给我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我会将尤娜安排在你隔壁的手办屋的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535013",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "主、主人……呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里惠？你……呃……里惠？你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27535015",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "我呜呜……我要去把这个好消息告诉姐姐！呜呜呜……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27535",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27535001,
+            27535002,
+            27535003,
+            27535004,
+            27535005,
+            27535006,
+            27535007,
+            27535008,
+            27535009,
+            27535010,
+            27535011,
+            27535012,
+            27535013,
+            27535014,
+            27535015
+          ],
+          "sectionId": 27535
+        }
+      ],
+      "title": "一起住"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "一起住",
+  "wordCount": 219
+}

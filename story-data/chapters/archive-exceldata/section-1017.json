@@ -1,0 +1,73 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1017",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1017001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里就是后宅了啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1017002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在主人的精心布置之下，很快就能变成手办们最喜欢的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1017003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么摆放手办用到的置物架，究竟要从哪里才能获得呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1017004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错！就是家具城。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1017005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一起来跟我看看吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1017",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1017001,
+            1017002,
+            1017003,
+            1017004,
+            1017005
+          ],
+          "sectionId": 1017
+        }
+      ],
+      "title": "原文片段 1017"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1017
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1017",
+  "wordCount": 79
+}

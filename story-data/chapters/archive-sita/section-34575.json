@@ -1,0 +1,40 @@
+{
+  "bookId": "archive-sita",
+  "id": "section-34575",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "34575001",
+          "sourceType": 3,
+          "text": "交集的三人",
+          "type": "narration"
+        }
+      ],
+      "id": "34575",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34575001
+          ],
+          "sectionId": 34575
+        }
+      ],
+      "title": "原文片段 34575"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "sita",
+        "sectionId": 34575
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 34575",
+  "wordCount": 5
+}

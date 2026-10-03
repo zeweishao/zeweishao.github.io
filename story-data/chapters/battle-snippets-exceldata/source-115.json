@@ -1,0 +1,70 @@
+{
+  "bookId": "battle-snippets-exceldata",
+  "id": "source-115",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "115001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们听到了吗？刚才似乎有地方，传来了“咔嚓”的一声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "115002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "不会吧，是不是我的身体，快要散架了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "115003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在零件完全脱落以前，就用主人教给我的那招来一决胜负吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "115",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            115001,
+            115002,
+            115003
+          ],
+          "sectionId": 115
+        }
+      ],
+      "title": "原文片段 115"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "11001",
+              "pre_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "11001",
+          "pre_result_avg"
+        ],
+        "sectionId": 115,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "原文片段 115",
+  "wordCount": 72
+}

@@ -1,0 +1,49 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-199",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "199001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "车已经走远了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "199002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "看来我们必须先去把天台清理干净，提高生活费。\n把天台清理干净之后，我们又可以多一个玩耍的活动场所。还不错。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "199",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            199001,
+            199002
+          ],
+          "sectionId": 199
+        }
+      ],
+      "title": "原文片段 199"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 199
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 199",
+  "wordCount": 59
+}

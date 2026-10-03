@@ -1,0 +1,198 @@
+{
+  "bookId": "hero-213203",
+  "id": "bond-28525",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28525001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "1:1复刻珠宝，特殊的隐藏款，获取概率0.01%。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "看来这件「珍珠泪王冠」，是我先拿到手了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "「|101|」|103|，按照赌注，输的人要主动表白哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳，身为人类的我可不会对小小手办食言，怪盗小姐听好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「我喜欢你，我喜欢你！」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "脸不红，心不跳，眼睛也不眨一下，甚至还说了两遍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这位|103|，你究竟对多少手办说过同样的话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "天打雷劈，只……只有怪盗小姐一个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我猜……从定下赌注的那一刻起，你就打算输给我了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "才不是！为了先买到这件复刻品，我可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "噢噢，「我可是付出了很多努力」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "可你一点也不关心我手中「王冠」的真假，难道要让那些努力白费？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们的赌注是复刻品！你该不会……带了那件真的珠宝过来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "小孩子才对赝品感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，是你输了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "看来，在主动输给对方这件事上，我们都心有灵犀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525017",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "爱说谎的|103|，听好了，现在该我兑现赌注。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没错——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28525019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "「我也喜欢你。」",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28525",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28525001,
+            28525002,
+            28525003,
+            28525004,
+            28525005,
+            28525006,
+            28525007,
+            28525008,
+            28525009,
+            28525010,
+            28525011,
+            28525012,
+            28525013,
+            28525014,
+            28525015,
+            28525016,
+            28525017,
+            28525018,
+            28525019
+          ],
+          "sectionId": 28525
+        }
+      ],
+      "title": "怪盗谜题——赌注"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213203",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "怪盗谜题——赌注",
+  "wordCount": 371
+}

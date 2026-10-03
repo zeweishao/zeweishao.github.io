@@ -1,0 +1,149 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25930",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25930001",
+          "sourceType": 10,
+          "text": "动感兔兔号，发射！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25930002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哇，这盏兔子灯好可爱哦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪果然只关注到兔子了，没有发现它还和航天元素有结合吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "完全被这只兔子吸引了呢，做得真好呀，特别是那对耳朵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "又被我的作品震撼到了吗，真是拿你们没办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这就是来自全民偶像的魅力，我艾里克希娅无所不能，绝对是样样全能的超级优质偶像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是是，全民偶像艾里克希娅，可以告诉我们这盏花灯是怎么做的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦也很有兴趣，可以让我一起听听制作心得吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "只有你们两个对我的制作工艺感兴趣吗，多少有些让人觉得寂寞呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "还有我和孙大小姐，我们也想听听看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930011",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "明明是你硬拉我来的，否则的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "否则什么，你难道并不情愿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "否则的话，孙大小姐还会叫上更多的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25930014",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这还差不多，我们这就开始吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25930",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25930001,
+            25930002,
+            25930003,
+            25930004,
+            25930005,
+            25930006,
+            25930007,
+            25930008,
+            25930009,
+            25930010,
+            25930011,
+            25930012,
+            25930013,
+            25930014
+          ],
+          "sectionId": 25930
+        }
+      ],
+      "title": "动感兔兔号，发射！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25930,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "56",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "在艾伦兹的启发下，大家开始着手制作与星空探索有关的主题花灯，这盏灯即为该系列作品之一，融合了家中手办的巧妙构思。",
+  "title": "动感兔兔号，发射！",
+  "wordCount": 297
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213201",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "森林音乐节破例邀请到了卡缪。\n\n「哈士奇套装就是我的演出服？」\n\n「这上面的确写着您的名字。」\n\n「拿走，我命令你。」\n\n在卡缪的再三坚持下，原本的演出服被悄悄掉了包。\n\n随后，被掉包的蓝发少女盯着台上正在演出的卡缪，脑海中汹涌澎湃——\n\n「这个冷脸的家伙和我差不多高！」\n\n——该特别款仅可通过「森林音乐节」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "意外的演出Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213201",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "卡缪·意外的演出Ver.",
+  "title": "意外的演出Ver.",
+  "wordCount": 145
+}

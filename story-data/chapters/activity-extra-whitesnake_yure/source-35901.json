@@ -1,0 +1,188 @@
+{
+  "bookId": "activity-extra-whitesnake_yure",
+  "id": "source-35901",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35901001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "玉夏在看什么呢，好像很有趣的样子~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "是我不久前淘到的宝贝——《古典戏曲大百科》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好、好厚！你真了不起，居然能看得进去这么枯燥的书。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901004",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "兴趣是最好的老师，这个可远比吃喝玩乐有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "以前的我绝对想不到，戏曲的世界原来可以容纳这么多的人生百态。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我好后悔现在才发现，如果可以更早地了解戏曲世界就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "忍不住被这样子的玉夏打动了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，戏曲世界里有没有那种怪力乱神的神话传说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "当然，这种题材最有名的要属《白蛇传》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "讲的是青白两条小蛇修炼成人形后，游历人间的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这个我有所耳闻，那个白蛇后来与一个书生相恋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "但是却遭到了坏人的阻拦，最后被关在雷峰塔下，整整一千年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真让人难过……后来怎么样了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901014",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "后来，青蛇独闯雷峰塔，救出了她的姐姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901015",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "当然，这只是我了解到的版本。\n总的来说，最后白蛇得救了，她们姐妹也得以团聚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，白蛇与青蛇两姐妹的关系真好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35901017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "如果能亲自见见她们就好了，一定会是又可爱又有趣的女孩子~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35901",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake_yure",
+          "rowIds": [
+            35901001,
+            35901002,
+            35901003,
+            35901004,
+            35901005,
+            35901006,
+            35901007,
+            35901008,
+            35901009,
+            35901010,
+            35901011,
+            35901012,
+            35901013,
+            35901014,
+            35901015,
+            35901016,
+            35901017
+          ],
+          "sectionId": 35901
+        }
+      ],
+      "title": "活动片段 35901"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1095",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1095",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 35901,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 35901",
+  "wordCount": 388
+}

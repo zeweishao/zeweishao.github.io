@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17332",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17332001",
+          "sourceType": 10,
+          "text": "今年会是风调雨顺的一年。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17332002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "糯米、豆沙、枣泥、果脯、莲心、米仁、桂圆、白糖、猪板油……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17332003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "这么多东西合在一起，就是这香甜的八宝饭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17332004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "香甜的口味，就像是我们陪伴主人一年的回忆~回味无穷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17332005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "总感觉这碗饭吃下去，身体就会被你们的心意全部填满了呀。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17332",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17332001,
+            17332002,
+            17332003,
+            17332004,
+            17332005
+          ],
+          "sectionId": 17332
+        }
+      ],
+      "title": "五谷丰登"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17332,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "19",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "今年会是风调雨顺的一年。",
+  "title": "五谷丰登",
+  "wordCount": 115
+}

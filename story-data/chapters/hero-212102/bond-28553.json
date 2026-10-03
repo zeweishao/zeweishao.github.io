@@ -1,0 +1,140 @@
+{
+  "bookId": "hero-212102",
+  "id": "bond-28553",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28553001",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "嗨多磨！我是绊爱！又在直播间里跟大家见面了，你们有没有想我呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553002",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "咦？！人呢？观众呢！弹幕呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553003",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "「A.I.Channel」还从没有这么冷清的时候呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "试试这间特别为你准备的直播间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553005",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "嗯……这很可疑……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28553007",
+              "text": "不想要是吧？"
+            },
+            {
+              "targetId": "28553007",
+              "text": "那么我收回。"
+            }
+          ],
+          "sourceId": "28553006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28553007",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "开玩笑的啦哈哈哈哈哈~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553008",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "既然你盛情邀请，我就不客气咯，会尽情把这里当作自己家的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "进来吧，直播马上开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553010",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "呼呀！心脏感觉像是揣了一只兔子“乒乒乒”要跳出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553011",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "嗨多磨，聪明可爱的虚拟偶像绊爱作为1/7手办登场了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28553012",
+          "sourceType": 0,
+          "speaker": "Kizuna AI",
+          "text": "和平日里一样的装扮，头顶调皮的晃悠悠，就这样可爱、可爱满满的工作吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28553",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28553001,
+            28553002,
+            28553003,
+            28553004,
+            28553005,
+            28553006,
+            28553007,
+            28553008,
+            28553009,
+            28553010,
+            28553011,
+            28553012
+          ],
+          "sectionId": 28553
+        }
+      ],
+      "title": "特别直播间"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "特别直播间",
+  "wordCount": 243
+}

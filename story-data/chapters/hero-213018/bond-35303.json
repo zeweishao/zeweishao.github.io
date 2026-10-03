@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213018",
+  "id": "bond-35303",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35303001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喜欢吗？这是米菲亚的专属猫窝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "毛线球，纸箱，猫爪挂件……还算合格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "从这里的布置看得出来你已经十分努力了，但是还是缺少一些东西……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是挑剔的小猫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "米菲亚是缺一个猫爬架吗，听说猫咪都喜欢那种东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "不需要那种东西，你的房间就是我的爬架。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这些毛线球都是新买的吧，我不喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "粉色，蓝色……毛线球特地挑的是米菲亚喜欢的颜色呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "如果毛线球上没有主人的味道，那毫无意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "所以米菲亚会自己去拆的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么需要衣服呢，明明我就在这里啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303012",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "被那种安心的味道包围的感觉……人类是理解不了的喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303013",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "猫咪只有在主人怀里才能睡得安稳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35303014",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "那么，现在允许你抱我进去了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35303",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35303001,
+            35303002,
+            35303003,
+            35303004,
+            35303005,
+            35303006,
+            35303007,
+            35303008,
+            35303009,
+            35303010,
+            35303011,
+            35303012,
+            35303013,
+            35303014
+          ],
+          "sectionId": 35303
+        }
+      ],
+      "title": "专属猫窝"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "专属猫窝",
+  "wordCount": 262
+}

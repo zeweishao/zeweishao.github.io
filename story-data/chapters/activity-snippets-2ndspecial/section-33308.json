@@ -1,0 +1,156 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33308",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33308001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，我们再商量下吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "唯独这件事没得商量哦。\n我只想表演大变活人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但是，忽然要我去找个魔术搭档给你，这也太强人所难了。\n虽然我愿意，但我作为主持人脱不开身......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "实在找不到的话，我可以帮你出出主意——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不行不行，再把主人变没一次绝对不行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "别紧张。我是想问——排在我前面的节目是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎？是......徕卡和布鲁特的脱口秀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "很好，这不就找到了？\n让我给安排他们一个「特别的谢幕」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么，我去问一下徕卡的意见吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "被揭秘的魔术可是一文不值的，况且——\n你不是想给|101|惊喜感吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "魔术搭档并不知道自己被选中，在消失瞬间流露的惊恐、无助，这也是构成惊喜感必不可少的一环哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "如果、如果这样就能给主人|101|惊喜的话......\n我知道了，我会先对徕卡保密！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，节目已经编排得差不多了。\n接下来，去请艾伦兹来看我们的彩排吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33308014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "让主人脸上露出惊喜的表情，然后沉浸在幸福中看完整场演出——啊，单是想想就幸福得不行呢，嘿嘿。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33308",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33308001,
+            33308002,
+            33308003,
+            33308004,
+            33308005,
+            33308006,
+            33308007,
+            33308008,
+            33308009,
+            33308010,
+            33308011,
+            33308012,
+            33308013,
+            33308014
+          ],
+          "sectionId": 33308
+        }
+      ],
+      "title": "「魔术脱口秀」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33308,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「魔术脱口秀」",
+  "wordCount": 400
+}

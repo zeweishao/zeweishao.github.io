@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213001",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气游戏《蘑菇少女的日常》中的「宫本里恵」初次手办化，即将闪亮登场！除了可爱的害羞神情，其充满潮流感的服装，精致还原衬托出她的个人魅力。3D模型才能欣赏到的各种细节，也皆细腻制作呈现。里恵是不是又在想自己的姐姐了呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213001"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 109
+}

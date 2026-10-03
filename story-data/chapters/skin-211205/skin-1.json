@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211205",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "进山历练的第四日，循着涓涓水声，汐音寻得一眼天然的温泉。\n\n「疏通经络，活血化瘀！练武过后，泡一次温泉最为合适。」\n\n泉水没过汐音的小腹，少女的目光透过氤氲水汽向你看来。\n\n「修行讲究张弛有度，一直紧绷神经可不行。帮你放松身心的任务，就交给我吧~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "温汤华池Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211205",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "汐音·温汤华池Ver.",
+  "title": "温汤华池Ver.",
+  "wordCount": 118
+}

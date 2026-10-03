@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211011",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这是队员们送给队长的第一份礼物，一件适合「蒂娅」的衣服。\n\n「现在，我们要去攀岩。」\n「不，关掉你的能源系统队长，像真正的人类那样。」\n\n\n「很好队长，看到那块石头了吗？」\n「对，靠在那里，笑一笑。」\n\n「咔嚓——」\n「D-31」捕捉下这段珍贵的影像。\n\n屏幕里，编号为「D-eva」的机械仿生人，看上去就像一位真正的人类少女。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "攀登者Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211011",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蒂娅·攀登者Ver.",
+  "title": "攀登者Ver.",
+  "wordCount": 152
+}

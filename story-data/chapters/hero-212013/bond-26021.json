@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212013",
+  "id": "bond-26021",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26021001",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "找我？稍等。\n今天还有两组拉伸没完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "酒井小姐......为什么能够一直坚持锻炼呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "毕竟变成手办之后，已经可以永远地「保持身材」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021004",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "想知道吗？再来掰一次手腕吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好强！似乎比上次更有爆发力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021006",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "手办的力量也能通过锻炼提升——大概是这个世界给我留下的唯一一点安慰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来如此，酒井小姐努力锻炼，是为了变得更强、更有力量！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021008",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "话是这么说，但是在这里不需要和感染者作战，作战训练和力量也失去了意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那......究竟是为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021010",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "呵，你可别忘了——我的身份是教练啊。\n教导学员的终极奥义，就是用自身的自律去感染对方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021011",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "「想要放弃的时候，看到酒井小姐在努力就能重拾信心」之类的话，你说过的对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你居然......一直记得？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26021013",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "身为教练，我向来对学员负责。\n这一点，足够回答你的疑问了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26021",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26021001,
+            26021002,
+            26021003,
+            26021004,
+            26021005,
+            26021006,
+            26021007,
+            26021008,
+            26021009,
+            26021010,
+            26021011,
+            26021012,
+            26021013
+          ],
+          "sectionId": 26021
+        }
+      ],
+      "title": "激励者"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "激励者",
+  "wordCount": 325
+}

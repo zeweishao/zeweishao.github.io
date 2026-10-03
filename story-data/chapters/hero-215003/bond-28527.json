@@ -1,0 +1,168 @@
+{
+  "bookId": "hero-215003",
+  "id": "bond-28527",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28527001",
+          "sourceType": 9,
+          "text": "咚咚，滴答，当，当当——",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28527003",
+              "text": "在做新曲子吗？"
+            },
+            {
+              "targetId": "28527003",
+              "text": "这是什么声音？"
+            }
+          ],
+          "sourceId": "28527002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28527003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "欢迎的转译，意思是「很高兴，见到你」~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真厉害，不过转译是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "首先把文字转译成数字，然后用音乐编码的方式把数组转换成曲谱，就是你听到的旋律了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好厉害，除了厉害不知道该说什么了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不愧是「梦幻之音」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "滴——答答答，咚——哒哒，滴答咚答滴——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是……好熟悉……是不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527010",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "是主人最喜欢的游戏BGM，我重编了节奏和副歌部分，用主人最近常看的动漫OP。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28527012",
+              "text": "听起来热情又治愈呢。"
+            }
+          ],
+          "sourceId": "28527011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28527012",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "不过很可惜……到现在都没想好要怎样填词……果然写歌词这种事，我还是不太擅长阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，单听旋律就能够理解到心意了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不如我来帮助真恋填词怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28527015",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "真、真的吗，谢谢主人！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28527",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28527001,
+            28527002,
+            28527003,
+            28527004,
+            28527005,
+            28527006,
+            28527007,
+            28527008,
+            28527009,
+            28527010,
+            28527011,
+            28527012,
+            28527013,
+            28527014,
+            28527015
+          ],
+          "sectionId": 28527
+        }
+      ],
+      "title": "「梦幻之音」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「梦幻之音」",
+  "wordCount": 291
+}

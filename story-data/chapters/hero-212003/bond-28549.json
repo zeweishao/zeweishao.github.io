@@ -1,0 +1,137 @@
+{
+  "bookId": "hero-212003",
+  "id": "bond-28549",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28549001",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "对于剑士来说，除了一往无前的剑击，毫厘间的细节把握同样至关重要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549002",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "毕竟胜负的瞬间，往往就在毫厘中决出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549003",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "斩钢、错玉，这都是对剑之道最好的诠释，一者代表绝对刚猛的剑斩，一者代表毫厘间游刃有余的飘逸和迅捷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549004",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "若是将这两种技艺锻炼到极致，无论面对怎样的敌手，都能一击破除。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说得好啊山崎，大家都学会了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549006",
+          "sourceType": 0,
+          "text": "我学废了……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28549007",
+          "sourceType": 0,
+          "text": "在这么小的纸上还要雕花什么的，这种事情，根本就不可能做到吧，呜呜……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28549008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……这样看来，果然还是没办法了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "本来是应该给山崎你庆祝生日的宴会，结果没想到还要劳烦你自己来给这些装饰雕花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "明明山崎是剑士，却总让你做这种事情……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549011",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "主人多虑了，世间一切繁琐皆是修行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549012",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "剑对我来说，是寄托于自然中的念想，在这和平的年代，就该寄托于这份静谧之中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28549013",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "这同样是我的道。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28549",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28549001,
+            28549002,
+            28549003,
+            28549004,
+            28549005,
+            28549006,
+            28549007,
+            28549008,
+            28549009,
+            28549010,
+            28549011,
+            28549012,
+            28549013
+          ],
+          "sectionId": 28549
+        }
+      ],
+      "title": "错玉"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212003",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "错玉",
+  "wordCount": 321
+}

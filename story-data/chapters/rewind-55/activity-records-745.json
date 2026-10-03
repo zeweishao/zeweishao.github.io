@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-55",
+  "id": "activity-records-745",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「在尘封的书页间，藏着古老的传说和奇遇。」",
+          "title": "仙境奇遇",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "书馆奇遇"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「她的魔法，令森林中的生灵俯首称臣。」",
+          "title": "仙境奇遇",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "天鹅女王"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「在王后的指挥下，纸牌士兵列队前行。」",
+          "title": "仙境奇遇",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "红心王后"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「午夜钟声响起，奇遇在每个角落盛开。」",
+          "title": "仙境奇遇",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "童话之夜"
+    },
+    {
+      "blocks": [
+        {
+          "text": "沿着白兔先生的脚印，每一步都是新的童话篇章。",
+          "title": "梦游世界",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "白兔先生"
+    },
+    {
+      "blocks": [
+        {
+          "text": "在阳光下，蜥蜴比尔的影子讲述着古老的传说。",
+          "title": "梦游世界",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "蜥蜴比尔"
+    },
+    {
+      "blocks": [
+        {
+          "text": "在月色下，纸牌仆人与星星共舞，编织奇幻夜晚。",
+          "title": "梦游世界",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "纸牌仆人"
+    },
+    {
+      "blocks": [
+        {
+          "text": "公爵夫人的珠宝盒，开启了通往神秘世界的大门。",
+          "title": "梦游世界",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "公爵夫人"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "745",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 165
+}

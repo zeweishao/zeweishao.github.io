@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-214015",
+  "id": "bond-33406",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33406001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~今天也是丰收的一天，主人想吃点什么呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咦，这里什么时候多了一栋大房子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是为星洛准备的哦，快进去看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "……！好厉害，这里有好多厨具和调料包！\n嗯……好香！这个味道，是烤肉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是只属于星洛的迷你厨房，所有的物品都是正好符合星洛的尺寸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "以后我会和星洛一起烤肉的，你再也不用一个人冒险去狩猎了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~谢谢主人！\n星洛以前最喜欢的是烤肉，但现在，烤肉只能排到第三位了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那第一位是什么？是这个房子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406009",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哼哼~这个厨房只能排第二位啦~\n现在，星洛心里第一喜欢的是——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33406011",
+              "text": "是……兔子蛋糕？"
+            },
+            {
+              "targetId": "33406011",
+              "text": "是……超级秘制烤肉？"
+            }
+          ],
+          "sourceId": "33406010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33406011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哎呀~都不是啦！\n星洛第一喜欢的，就是主人啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "不论是天上的恶龙，还是海里的凶兽，只要是主人想吃的，星洛都会满足你的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33406013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "所以，主人的下半辈子，要一直留在星洛身边哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33406",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33406001,
+            33406002,
+            33406003,
+            33406004,
+            33406005,
+            33406006,
+            33406007,
+            33406008,
+            33406009,
+            33406010,
+            33406011,
+            33406012,
+            33406013
+          ],
+          "sectionId": 33406
+        }
+      ],
+      "title": "猎人的迷你厨房"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "猎人的迷你厨房",
+  "wordCount": 324
+}

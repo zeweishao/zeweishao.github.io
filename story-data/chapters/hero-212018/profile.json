@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212018",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "战场清道夫「菈冬」化身为1/7比例模型登场！她穿梭于断壁残垣间，悄然间便将那些被世人遗忘的机甲义体转化为黑市上闪烁的金币。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212018"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 61
+}

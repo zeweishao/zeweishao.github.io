@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211103",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「今天也是个好天气呢，呵呵呵——」\n\n海风，阳光，雪白的浪花，粉发的天使正在水面上嬉戏。\n\n一时兴起，在沙滩上朝她招手，直到她注意到自己。\n\n「啊，岛主，唔哇哇哇哇——」\n\n穗香努力地在颠簸中掌握了平衡，这才不至于翻到水里去。但是……\n\n「呀，冰淇淋掉到【虎鲸先生】的头上去了。」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "天使的微笑Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211103",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "穗香·天使的微笑Ver.",
+  "title": "天使的微笑Ver.",
+  "wordCount": 146
+}

@@ -1,0 +1,154 @@
+{
+  "bookId": "hero-211003",
+  "id": "bond-29325",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29325001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "开门！开门！开门！\n我要进去见莉莉奈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈半小时前已经出门了，没说去哪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "可恶——！莉莉奈屏蔽了我的通讯器！\n我有紧急的事要告诉她，一秒都不能再等了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么事，说吧，我帮你给她发个短信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "............",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "人类的拨号键你用不了——这你也知道吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "最最亲爱的妹妹莉莉奈：",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "今天太阳很好我起得很早早上小鸟很吵我把小鸟赶跑\n早饭奶酪涂料我吃得很快好想抱抱莉莉奈莉莉奈最可爱",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "——你最最爱的哥哥杰斯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29325011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......就这些？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "branch-config",
+          "sourceId": "29325011",
+          "sourceType": 0,
+          "text": "本行配置含选项，原游戏是否显示未确认；以下保留配置原文。",
+          "type": "notice"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29325012",
+              "text": "......就这些？"
+            },
+            {
+              "targetId": "29325012",
+              "text": "非常紧急的事？"
+            }
+          ],
+          "sourceId": "29325011",
+          "sourceType": 0,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29325012",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "愣着干什么，快打字！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29325",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29325001,
+            29325002,
+            29325003,
+            29325004,
+            29325005,
+            29325006,
+            29325007,
+            29325008,
+            29325009,
+            29325010,
+            29325011,
+            29325012
+          ],
+          "sectionId": 29325
+        }
+      ],
+      "title": "寻找莉莉奈2"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211003",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "寻找莉莉奈2",
+  "wordCount": 234
+}

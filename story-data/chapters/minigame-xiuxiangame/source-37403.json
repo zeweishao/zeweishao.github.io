@@ -1,0 +1,103 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37403",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37403001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，今天的工作可以结束了。回家吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37403002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "等等，站住。低头，往下看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37403003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "水野梅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37403004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "为什么你还在这？都说了，我是不会跟你回家的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37403006",
+              "text": "我的工作还没完成。"
+            },
+            {
+              "targetId": "37403006",
+              "text": "你会改变主意的。"
+            }
+          ],
+          "sourceId": "37403005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37403006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼，警告你，别想跟我耍花招！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37403",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37403001,
+            37403002,
+            37403003,
+            37403004,
+            37403005,
+            37403006
+          ],
+          "sectionId": 37403
+        }
+      ],
+      "title": "消除关卡 15 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "15",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "15",
+          "result_avg_id"
+        ],
+        "sectionId": 37403,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 15 · 结算",
+  "wordCount": 87
+}

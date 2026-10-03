@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214005",
+  "id": "bond-27527",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27527001",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "主公大人，这里有一封属于你的信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "光秀啊，这是什么信？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527003",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "在下写给主公的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咦，有什么事情不能当面说吗，里面写了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527005",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "不是情书。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我当然知道这不是情书！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "算了，我自己看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527008",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "还请主公于三日后拆开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然是三日后才能让我拆开的东西，为什么现在要给我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527010",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "三日后，主公便会知晓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……这家伙就这么走掉了？这么放心我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然还是很好奇啊。三天，谁能等那么长的时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "稍微看一点点，应该也不会有什么问题吧，反正他不可能发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527014",
+          "sourceType": 0,
+          "speaker": "装满钱的信封",
+          "text": "主公你太心急了，请三日后再拆开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27527015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……？？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27527",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27527001,
+            27527002,
+            27527003,
+            27527004,
+            27527005,
+            27527006,
+            27527007,
+            27527008,
+            27527009,
+            27527010,
+            27527011,
+            27527012,
+            27527013,
+            27527014,
+            27527015
+          ],
+          "sectionId": 27527
+        }
+      ],
+      "title": "好奇心"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "好奇心",
+  "wordCount": 216
+}

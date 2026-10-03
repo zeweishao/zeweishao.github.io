@@ -1,0 +1,85 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17315",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17315001",
+          "sourceType": 10,
+          "text": "喔噢，这种场合怎么可能会少得了黑桃怪盗呢~这个夜晚，绯野原爱的魔术烹饪表演即将开始。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17315002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这次，要完成怎样惊人的魔术表演呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17315003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "唔，总之，应该要满足惊喜感吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17315004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "虽然对烹饪料理不是很擅长，但我知道美味的食物也是需要营造美好的氛围才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17315005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在这方面我还是很擅长营造的，比如看着很甜的东西，其实是很可怕的辣椒？呼呼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17315006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有一种不好的预感是怎么回事……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17315",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17315001,
+            17315002,
+            17315003,
+            17315004,
+            17315005,
+            17315006
+          ],
+          "sectionId": 17315
+        }
+      ],
+      "title": "绯野原爱的魔术"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17315,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "6",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱的魔术烹饪表演即将开始。",
+  "title": "绯野原爱的魔术",
+  "wordCount": 163
+}

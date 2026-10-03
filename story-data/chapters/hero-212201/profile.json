@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212201",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师第九将夜细腻还原了夏澄阳子在经典游戏原作中的形象，挥动拳头带起一股无形的拳风、即将暴揍对手的阳子栩栩如生地出现在我们面前。飞扬的红色长发如同火焰一般甩在身后，更加增添了阳子的魅力。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212201"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

@@ -1,0 +1,141 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35009",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35009001",
+          "sourceType": 10,
+          "text": "葫芦与福禄",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35009002",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "这是一件令人叹为观止的设计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「兔儿爷」坐在一只葫芦上，哈哈哈，好逼真哦，好像真的会动一样~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "惟妙惟肖、活灵活现，连我都忍不住猜测这是谁做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一定是贝歌做的，她看起来那么心灵手巧，肯定没错啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呜，虽然很感谢你的赞美，不过并不是我做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，如果不是你，那就一定是塞西尔了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "这种没品位的东西，我通常都懒得看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009009",
+          "sourceType": 5,
+          "speaker": "米菲亚",
+          "text": "好过分喵，你在说谁做的东西没有品位啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "怎么，这是你做的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "当然是猫猫我啦，你做得出这么可爱的东西吗？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，米菲亚是怎么做的呀，教教我好不好~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35009013",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵喵喵，好呀好呀，米菲亚这就讲给优纪听~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35009",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35009001,
+            35009002,
+            35009003,
+            35009004,
+            35009005,
+            35009006,
+            35009007,
+            35009008,
+            35009009,
+            35009010,
+            35009011,
+            35009012,
+            35009013
+          ],
+          "sectionId": 35009
+        }
+      ],
+      "title": "葫芦与福禄"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35009,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "72",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「兔儿爷」坐在一只葫芦上，好像真的会动一样~",
+  "title": "葫芦与福禄",
+  "wordCount": 247
+}

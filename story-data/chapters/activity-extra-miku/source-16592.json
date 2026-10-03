@@ -1,0 +1,252 @@
+{
+  "bookId": "activity-extra-miku",
+  "id": "source-16592",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16592001",
+          "sourceType": 10,
+          "text": "歌唱吧，起舞吧，雀跃吧！\n在这个繁花盛开的季节~♫",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592002",
+          "sourceType": 9,
+          "text": "曾经空荡荡的剧场，被台下观众们的窃窃私语逐渐填满。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592003",
+          "sourceType": 9,
+          "text": "现场座无虚席，就连走道里也被手持荧光棒的观众们所占据。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592004",
+          "sourceType": 9,
+          "text": "这是属于春天的舞台，这是属于少女的舞台。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592005",
+          "sourceType": 9,
+          "text": "…………",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "轮到我们出场了呢，大家有好好的看着我吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我，紧张到双手忍不住颤抖……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "没问题的，优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我们大家排练了那么久，是时候让所有的观众见证我们的努力了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，毕竟那么辛苦才换来了今天……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "终于，来到了这个舞台，一起深呼吸吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "3",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "2",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "1——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592015",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "奏响吧，未来之音！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "起舞吧，在这百花盛开的春天~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "跳跃吧，在这万物新生的春天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592018",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "旋转吧，在这繁花似锦的春天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592019",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "我能听到你心底的音乐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592020",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "如果感到失落，就躲进我的歌声里吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592021",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "来，跟我一起吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16592022",
+          "sourceType": 9,
+          "text": "你看到了吗，我的主人|101|？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592023",
+          "sourceType": 9,
+          "text": "这是我们为你而颂唱的「春天」的歌声，其名为——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16592024",
+          "sourceType": 9,
+          "text": "「万物繁花梦之歌」♫",
+          "type": "narration"
+        }
+      ],
+      "id": "16592",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16592001,
+            16592002,
+            16592003,
+            16592004,
+            16592005,
+            16592006,
+            16592007,
+            16592008,
+            16592009,
+            16592010,
+            16592011,
+            16592012,
+            16592013,
+            16592014,
+            16592015,
+            16592016,
+            16592017,
+            16592018,
+            16592019,
+            16592020,
+            16592021,
+            16592022,
+            16592023,
+            16592024
+          ],
+          "sectionId": 16592
+        }
+      ],
+      "title": "活动片段 16592"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "132",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "132",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 16592,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "id": "24",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 16592",
+  "wordCount": 349
+}

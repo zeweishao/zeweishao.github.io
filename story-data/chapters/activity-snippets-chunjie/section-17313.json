@@ -1,0 +1,61 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17313",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17313001",
+          "sourceType": 10,
+          "text": "葵也来到了厨房，尽管一心只想睡觉，但也许葵会意外的擅长料理哦？",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17313002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔~好困，不过在给主人做完好吃的之前，还不能睡着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17313003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是辛苦葵了呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17313",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17313001,
+            17313002,
+            17313003
+          ],
+          "sectionId": 17313
+        }
+      ],
+      "title": "葵的天才厨艺"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17313,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "4",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "葵的厨台解锁，一心只想睡觉的葵，也许会意外的擅长料理哦？",
+  "title": "葵的天才厨艺",
+  "wordCount": 64
+}

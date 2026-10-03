@@ -1,0 +1,132 @@
+{
+  "bookId": "hero-215102",
+  "id": "bond-28564",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28564001",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人手里拿的是什么，为何封面上有我的照片？\n这上面印着的字是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "《M城最想约会的手办大调查》",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564003",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "有失体面，这、这可如何是好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是我帮你报的名，你很受欢迎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564005",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "如何才能取消这些报道，实在是……实在是太不成体统了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有人总结了你的迷人特质。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564007",
+          "sourceType": 2,
+          "speaker": "白素贞",
+          "text": "形容我是一个「多情」的人吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564008",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "对我来说，这的确算是个不错的评价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564009",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "人有万般可爱，「情」之一字当属其中之最。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564010",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "既已得到这个评价，是不是说明比起「蛇」，我更像一个「人」呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不用怀疑，你就是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28564012",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "能得到官人这般肯定，素贞死而无憾了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28564",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28564001,
+            28564002,
+            28564003,
+            28564004,
+            28564005,
+            28564006,
+            28564007,
+            28564008,
+            28564009,
+            28564010,
+            28564011,
+            28564012
+          ],
+          "sectionId": 28564
+        }
+      ],
+      "title": "「多情」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215102",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「多情」",
+  "wordCount": 220
+}

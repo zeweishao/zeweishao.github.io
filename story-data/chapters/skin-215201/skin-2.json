@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215201",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "金色空明灯火缓缓升上天际，末端白烟犹如云雾舒卷。\n白发少年，手持金翎羽扇，金色煌装，身披白衣，亦如金乌白羽。\n淡漠眼光若遥望天际，运筹帷幄，权智英略。\n「天下何其之大，太多东西算不到，也包括你的心思。」\n青空之下，响起少年温软的话语，仿佛那缥缈云烟。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "御灵祈天Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215201",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "诸葛孔明·御灵祈天Ver.",
+  "title": "御灵祈天Ver.",
+  "wordCount": 121
+}

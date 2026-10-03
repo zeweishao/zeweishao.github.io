@@ -1,0 +1,118 @@
+{
+  "bookId": "hero-211003",
+  "id": "bond-29324",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29324001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈呢？！莉莉奈哪去了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "|101|！是不是你把莉莉奈藏起来了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈？我刚把她送去更换新配件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "什么？！竟敢故意让我见不到莉莉奈！\n你做好求饶的准备了吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈已经很久没保养了。\n难道你不想让妹妹换上漂亮的新配件？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "............",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324007",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "............切！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以还是安心等着吧，她下午就回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29324009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "警告你，如果莉莉奈有半点闪失，我不会放过你的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29324",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29324001,
+            29324002,
+            29324003,
+            29324004,
+            29324005,
+            29324006,
+            29324007,
+            29324008,
+            29324009
+          ],
+          "sectionId": 29324
+        }
+      ],
+      "title": "寻找莉莉奈1"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "寻找莉莉奈1",
+  "wordCount": 173
+}

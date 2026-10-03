@@ -89,13 +89,7 @@
     } catch {}
   };
 
-  // Home: a random chibi figure + love line, reshuffled by the 随机 button.
-  const FIGURES = [
-    ["beige", "贝歌", "212206"], ["chuyin", "初音未来", "213103"], ["zou", "立华奏", "211104"],
-    ["heizi", "白井黑子", "212106"], ["xing", "藤林杏", "213110"], ["suixiang", "穗香", "211103"],
-    ["meiqin", "御坂美琴", "213105"], ["wenji", "蔡文姬", "213017"], ["mali", "玛莉萝丝", "213108"],
-    ["zhu", "古河渚", "215103"],
-  ];
+  // Home uses the complete catalog and the selected hero's original portrait only.
   const LOVE_LINES = [
     "如果你偶尔忘了自己有多值得被珍惜，就看着我。",
     "今天也想把最好听的歌，唱给雪雪一个人听。",
@@ -119,31 +113,116 @@
   const initFigureToday = () => {
     const box = $("[data-figure-today]");
     if (!box) return;
+    const image = $('[data-figure="img"]', box);
+    const name = $('[data-figure="name"]', box);
+    const quote = $('[data-figure="line"]', box);
+    const link = $('[data-figure="link"]', box);
+    const shuffle = $('[data-figure="shuffle"]', box);
+    if (!image || !name || !quote || !link || !shuffle) return;
+
     const pick = (list, prev) => {
-      let next;
-      do next = list[Math.floor(Math.random() * list.length)]; while (list.length > 1 && next === prev);
-      return next;
+      const choices = list.length > 1 ? list.filter((item) => item !== prev) : list;
+      return choices[Math.floor(Math.random() * choices.length)];
     };
-    let figure;
-    let line;
-    const show = () => {
-      figure = pick(FIGURES, figure);
-      line = pick(LOVE_LINES, line);
-      const [file, name, id] = figure;
-      const img = $('[data-figure="img"]', box);
-      img.src = `assets/journal/domes/${file}.webp`;
-      img.alt = `${name}手办`;
-      $('[data-figure="name"]', box).textContent = name;
-      $('[data-figure="line"]', box).textContent = line;
-      $('[data-figure="link"]', box).href = `figures.html#figure-${id}`;
+    const readJSON = async (url) => {
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), 12000);
+      try {
+        const response = await fetch(url, { signal: controller.signal });
+        if (!response.ok) throw new Error("角色资料暂未载入");
+        return await response.json();
+      } finally {
+        window.clearTimeout(timeout);
+      }
     };
-    $('[data-figure="shuffle"]', box).addEventListener("click", () => {
-      show();
-      box.classList.remove("is-shuffled");
-      void box.offsetWidth;
-      box.classList.add("is-shuffled");
+    let catalogRequest;
+    const getCatalog = () => {
+      if (!catalogRequest) {
+        catalogRequest = readJSON("figures-data/index.json").then((catalog) => {
+          const heroes = catalog.heroes?.filter((hero) => hero && hero.id && hero.name);
+          if (!heroes?.length) throw new Error("角色目录暂未载入");
+          return heroes;
+        }).catch((error) => {
+          catalogRequest = null;
+          throw error;
+        });
+      }
+      return catalogRequest;
+    };
+    const portraitURL = (path) => {
+      if (typeof path !== "string" || !path.trim()) throw new Error("角色立绘暂未提供");
+      const base = new URL(window.FIGURE_ASSET_BASE || "figures-assets/", document.baseURI);
+      const url = new URL(path.startsWith("assets/") ? path.slice(7) : path, base);
+      if (!url.href.startsWith(base.href) || !/\.(png|jpe?g|webp)$/i.test(url.pathname)) {
+        throw new Error("角色立绘地址无效");
+      }
+      return url.href;
+    };
+    const preload = (url) => new Promise((resolve, reject) => {
+      const preview = new Image();
+      const finish = (error) => {
+        window.clearTimeout(timeout);
+        preview.onload = preview.onerror = null;
+        if (error) reject(error);
+        else resolve();
+      };
+      const timeout = window.setTimeout(() => finish(new Error("角色立绘载入超时")), 12000);
+      preview.onload = () => finish();
+      preview.onerror = () => finish(new Error("角色立绘暂未载入"));
+      preview.src = url;
     });
-    show();
+
+    const idleLabel = shuffle.textContent;
+    const idleAriaLabel = shuffle.getAttribute("aria-label") || "随机换一个角色和情话";
+    let currentId = link.hash.replace(/^#figure-/, "");
+    let currentLine = quote.textContent;
+    let request = 0;
+    const show = async () => {
+      const activeRequest = ++request;
+      shuffle.disabled = true;
+      shuffle.textContent = "请稍候";
+      shuffle.setAttribute("aria-label", "正在挑选陪你的角色");
+      shuffle.removeAttribute("title");
+      box.setAttribute("aria-busy", "true");
+      try {
+        const heroes = await getCatalog();
+        if (activeRequest !== request) return;
+        const previous = heroes.find((hero) => String(hero.id) === currentId);
+        const hero = pick(heroes, previous);
+        const detail = await readJSON(`figures-data/heroes/${encodeURIComponent(hero.id)}.json`);
+        if (activeRequest !== request) return;
+        const original = detail.skins?.find((skin) => skin.id === "original");
+        const url = portraitURL(original?.portrait);
+        await preload(url);
+        if (activeRequest !== request) return;
+
+        // Keep the last working card intact until the entire next portrait is ready.
+        currentId = String(hero.id);
+        currentLine = pick(LOVE_LINES, currentLine);
+        image.src = url;
+        image.alt = `${hero.name}原版立绘`;
+        name.textContent = hero.name;
+        quote.textContent = currentLine;
+        link.href = `figures.html#figure-${encodeURIComponent(hero.id)}`;
+        shuffle.textContent = idleLabel;
+        shuffle.setAttribute("aria-label", idleAriaLabel);
+        box.classList.remove("is-shuffled");
+        void box.offsetWidth;
+        box.classList.add("is-shuffled");
+      } catch {
+        if (activeRequest !== request) return;
+        shuffle.textContent = "再试一次";
+        shuffle.setAttribute("aria-label", "角色暂未载入，点此重试");
+        shuffle.title = "角色暂未载入，已保留当前卡片。点此重试。";
+      } finally {
+        if (activeRequest === request) {
+          shuffle.disabled = false;
+          box.setAttribute("aria-busy", "false");
+        }
+      }
+    };
+    shuffle.addEventListener("click", show);
+    void show();
   };
 
   // 弗洛洛: a sticker that says hello and plays her voice line when tapped.
@@ -216,7 +295,7 @@
   const initDock = () => {
     const tabs = document.querySelectorAll(".j-tabs a");
     if (!tabs.length || document.querySelector(".j-dock")) return;
-    const short = { "团子之家": "团子", "能量补给站": "补给" };
+    const short = { "团子之家": "团子", "宝宝的能量补给站": "补给" };
     const dock = document.createElement("nav");
     dock.className = "j-dock";
     dock.setAttribute("aria-label", "快捷导航");

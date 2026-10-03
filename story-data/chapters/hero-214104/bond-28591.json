@@ -1,0 +1,180 @@
+{
+  "bookId": "hero-214104",
+  "id": "bond-28591",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28591001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘿嘿，愉快的茶会要开始咯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591002",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "人类，用来装点心的高礼帽准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好了，好了，这是我定做的礼帽形状的容器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哼……也行吧！那火烈鸟准备好了吗？茶会后可是还有槌球比赛的哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，当然，这是定做的火烈鸟主题的餐具。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591006",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "总感觉有点违和啊……不过最重要的点心都做好了，就这样吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28591008",
+              "text": "（太好了，点心不用放礼帽里了。）"
+            },
+            {
+              "targetId": "28591008",
+              "text": "（还好，不用去抓真的火烈鸟。）"
+            }
+          ],
+          "sourceId": "28591007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28591008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "锁形状的果馅饼，蜂蜜满满的太妃糖……嗯~真不错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591009",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "看样子茶壶里的奶茶也好了，我先来一杯，嘻嘻~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591010",
+          "sourceType": 3,
+          "text": "咕噜——咕噜——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28591011",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "啊呸呸呸呸，怎么糖味就这么少！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28591013",
+              "text": "不可以一次吃太多糖噢。"
+            },
+            {
+              "targetId": "28591013",
+              "text": "我少放了一点点糖。"
+            }
+          ],
+          "sourceId": "28591012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28591013",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "那槌球游戏，今天要玩到晚上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我很乐意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591015",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "等你累趴下了，我就可以吃更多糖了，嘻嘻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28591016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喂！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28591",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28591001,
+            28591002,
+            28591003,
+            28591004,
+            28591005,
+            28591006,
+            28591007,
+            28591008,
+            28591009,
+            28591010,
+            28591011,
+            28591012,
+            28591013,
+            28591014,
+            28591015,
+            28591016
+          ],
+          "sectionId": 28591
+        }
+      ],
+      "title": "多糖茶会"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214104",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "多糖茶会",
+  "wordCount": 291
+}

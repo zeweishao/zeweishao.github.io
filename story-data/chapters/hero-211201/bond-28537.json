@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-211201",
+  "id": "bond-28537",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28537001",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "你看起来烦恼重重，告诉我，是谁惹你不高兴了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就在刚才，艾伦兹她又挂掉了我的电话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "思来想去，我好像没做错什么啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537004",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "哦，原来是因为这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "我倒是可以教你一个对付她的办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "快告诉我，我可不想招惹这位祖宗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537007",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "你可以每天不吃不喝到柯斯顿去哭鼻子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537008",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "无论晴天还是雨天，无论白天还是夜晚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537009",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "站在她的城堡外面，深情默默地望着她在窗户上投下地剪影。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来怎么这么耳熟，上次和上上次你也是这么说的。\n喂，你这是在嘲讽我吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537011",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "被发现了，呵，不服气想要打架的话，我随时奉陪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大可不必，我可不想被你烤得外焦里嫩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537013",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "知道就好，现在，我们来继续谈谈刚才那个话题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28537014",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "我保证这次你肯定能够摆平艾伦兹。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28537",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28537001,
+            28537002,
+            28537003,
+            28537004,
+            28537005,
+            28537006,
+            28537007,
+            28537008,
+            28537009,
+            28537010,
+            28537011,
+            28537012,
+            28537013,
+            28537014
+          ],
+          "sectionId": 28537
+        }
+      ],
+      "title": "火之嘲讽"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211201",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "火之嘲讽",
+  "wordCount": 276
+}

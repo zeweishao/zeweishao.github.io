@@ -1,0 +1,1483 @@
+{
+  "bookId": "rewind-39",
+  "id": "chapter-155",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34701001",
+          "sourceType": 9,
+          "text": "……快醒……快醒醒……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34701002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……是谁的声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701003",
+          "sourceType": 9,
+          "text": "……约定……不要忘记……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34701004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……想不起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701006",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "岛主，您终于醒过来了！\n感觉好点了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好像还有点头晕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "糟糕，这该怎么办……还记得我是谁吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34701010",
+              "text": "不记得了"
+            },
+            {
+              "targetId": "34701010",
+              "text": "你是仓田家的……"
+            }
+          ],
+          "sourceId": "34701009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34701010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜……我是岛主的得力助手，仓田真乃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我已经找了岛主好久了……这才发现您躺在沙滩上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "沙滩？我现在在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701014",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这里是维纳斯群岛的其中一座岛屿，岛主是这座岛的主人哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我是这座岛屿的主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701016",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "看起来是睡迷糊了呢，唔……已经没时间解释了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701017",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "请跟我来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等，跟过去是要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701019",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "您早上不是委托我去把这届挑战赛的「封面女孩」召集到小屋里了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701020",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "她们还在等岛主送去这次的特别泳装呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34701022",
+              "text": "信息量突然有点大！"
+            },
+            {
+              "targetId": "34701022",
+              "text": "很好，我逐渐理解一切……"
+            }
+          ],
+          "sourceId": "34701021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34701022",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "别担心，真乃会帮岛主和她们沟通的。\n岛主就放心跟我走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701024",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "大家久等了，岛主到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34701025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……你们好？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-807",
+      "sourceRefs": [
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34701001,
+            34701002,
+            34701003,
+            34701004,
+            34701005,
+            34701006,
+            34701007,
+            34701008,
+            34701009,
+            34701010,
+            34701011,
+            34701012,
+            34701013,
+            34701014,
+            34701015,
+            34701016,
+            34701017,
+            34701018,
+            34701019,
+            34701020,
+            34701021,
+            34701022,
+            34701023,
+            34701024,
+            34701025
+          ],
+          "sectionId": 34701
+        }
+      ],
+      "title": "海岛与塞壬·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34702001",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "真是的，你迟到了呢。\n可别让玛莉等得太久了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702002",
+          "sourceType": 7,
+          "text": "玛莉萝丝 · 小恶魔仆人\n商品名称：玛莉萝丝·小恶魔仆人Ver.\n作品出处：《DEAD OR ALIVE Xtreme Venus Vacation》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约210mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "34702003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "啊，上午好，岛主~\n呵呵，刚才是遇到什么趣事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702004",
+          "sourceType": 7,
+          "text": "穗香 · 绝密校园女孩\n商品名称：穗香·绝密校园女孩Ver.\n作品出处：《DEAD OR ALIVE Xtreme Venus Vacation》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约215mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "34702005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……真是不好意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "（悄悄话）岛主应该还记得她们吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "玛莉萝丝……和穗香？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702008",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嗯，穗香在这里哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702009",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "……被选做「封面女孩」是很开心，但岛主却一直让玛莉等着……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702010",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "小玛莉是想说，很期待岛主要送来的泳装呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……泳装……在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "岛主已经让真乃准备好了哦，锵锵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702013",
+          "sourceType": 3,
+          "text": "少女一边朝这边使眼色，一边拿出了泳装礼盒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34702014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……没错，请收下这两套泳装。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702015",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "哎嘿嘿，我收下了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702016",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "那个……非常感谢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702017",
+          "sourceType": 3,
+          "text": "过了一会儿，玛莉和穗香换上了新的泳装。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34702018",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "哎，这是有点熟悉的天使泳装。\n岛主看看，我们这一身合适吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702019",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "欸……可爱的小恶魔泳装……\n玛莉给人的印象果然是小恶魔吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34702021",
+              "text": "你们穿着很合适"
+            },
+            {
+              "targetId": "34702021",
+              "text": "你们穿着很好看"
+            }
+          ],
+          "sourceId": "34702020",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34702021",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "那就好，我也很喜欢呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702022",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "唔，那就没问题了。\n作为封面女孩，「小恶魔玛莉」不会输给任何人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702023",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "「天使穗香」再度登场~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（悄悄话）……到底什么是封面女孩？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702025",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "（悄悄话）封面女孩会在宣传活动中扮演重要角色，要负责把挑战赛的氛围变得更加热闹哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702026",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "岛主，这次挑战赛的主题是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702027",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……主题？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702028",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "之前岛主和我说，挑战赛的主题是「假期」哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34702029",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "欸，假期？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-808",
+      "sourceRefs": [
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34702001,
+            34702002,
+            34702003,
+            34702004,
+            34702005,
+            34702006,
+            34702007,
+            34702008,
+            34702009,
+            34702010,
+            34702011,
+            34702012,
+            34702013,
+            34702014,
+            34702015,
+            34702016,
+            34702017,
+            34702018,
+            34702019,
+            34702020,
+            34702021,
+            34702022,
+            34702023,
+            34702024,
+            34702025,
+            34702026,
+            34702027,
+            34702028,
+            34702029
+          ],
+          "sectionId": 34702
+        }
+      ],
+      "title": "海岛与塞壬·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34703001",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "该怎样让挑战赛有热闹的「假期」氛围呢？只是在排球赛中活跃好像不够呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703002",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "嗯……在打排球时体现出度假的感觉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "我知道了，戴上亲手制作的花环，穿上椰子叶做的裙子来打排球吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703004",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "可是我们已经是「天使」和「小恶魔」了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703005",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "真是的……主题和泳装不都是岛主选好的吗？为什么从刚才起就一直不说话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……我其实……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703007",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "咳咳，岛主有自己的打算！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……没错。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34703010",
+              "text": "自由发挥才最有「假期」的感觉"
+            },
+            {
+              "targetId": "34703010",
+              "text": "因为我相信你们的能力"
+            }
+          ],
+          "sourceId": "34703009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34703010",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "呵呵，不愧是岛主。那穗香就再好好想想吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703011",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "就算岛主这么说也……呜呀！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703012",
+          "sourceType": 3,
+          "text": "一道棕黄色的影子从女孩们的脚边迅速窜过。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34703013",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "有什么毛茸茸的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703014",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "可恶的冰淇淋小偷，快给我站住！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这样追下去真是没完没了……冻住，不许走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "啾咪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703017",
+          "sourceType": 3,
+          "text": "棕黄色的生物被脚下的冰霜绊倒，在沙子上滚了几圈才停下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34703018",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "疼疼疼……喂，就算是在沙滩上也很疼的啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703019",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "啊，狐狸先生说话了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703020",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "就算是狐狸又怎么样，偷东西就该做好相应的觉悟……对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703021",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你以为你把拳头弄得嘎嘎响我就会怕你吗？\n开玩笑的，手下留情！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703022",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……哎，我们还是回去吧，就当投喂野生动物了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703023",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我可不是什么野生动物，我是排球赛的裁判哦，裁判！\n|101|，你为什么只在旁边看着？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703024",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "再揍一顿应该就老实了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703025",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "|101|，快救我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（悄悄话）真乃，它认识我？它说的是真的吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703027",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "（悄悄话）啊哈哈……虽然有点不想承认，之前岛主你拜托它来做排球赛的裁判来着……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧……\n阳子，放过它吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703029",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "嘛，既然是岛主要保它，那我也没什么意见。\n我丢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703030",
+          "sourceType": 5,
+          "speaker": "裁判小狐",
+          "text": "唔哇哇哇——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好的，我接住了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703032",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "岛主可以让它讲解一下在餐车里露营的事迹，还有偷走大家的冰淇淋——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703033",
+          "sourceType": 5,
+          "speaker": "裁判小狐",
+          "text": "前半句本狐承认，但是后面的事你们要拿出证据！\n这座岛上可没有监控摄像头！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703034",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "……听得让人越来越火大了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703035",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "摄像头……有办法了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703036",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "啊！原来如此……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703037",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34703038",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "我们来拍摄记录大家的假期生活的宣传片吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-809",
+      "sourceRefs": [
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34703001,
+            34703002,
+            34703003,
+            34703004,
+            34703005,
+            34703006,
+            34703007,
+            34703008,
+            34703009,
+            34703010,
+            34703011,
+            34703012,
+            34703013,
+            34703014,
+            34703015,
+            34703016,
+            34703017,
+            34703018,
+            34703019,
+            34703020,
+            34703021,
+            34703022,
+            34703023,
+            34703024,
+            34703025,
+            34703026,
+            34703027,
+            34703028,
+            34703029,
+            34703030,
+            34703031,
+            34703032,
+            34703033,
+            34703034,
+            34703035,
+            34703036,
+            34703037,
+            34703038
+          ],
+          "sectionId": 34703
+        }
+      ],
+      "title": "海岛与塞壬·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34704001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我这边准备好了，开始录像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "虽说在拍摄假期宣传片，我可不会留手。\n希望你们也是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704003",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "获胜规则为先得6分,「天使和小恶魔」队先发球！\n我宣布，比赛开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……为什么这家伙这么自然地做起裁判来了啊？\n算了，那就认真地来打一场吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704005",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嗯！大家一起努力地上吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704006",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "让你们尝尝「小恶魔玛莉」的厉害。\n玛莉上咯~嘿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "这样的发球，真是小菜一碟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704008",
+          "sourceType": 3,
+          "text": "排球攻防战持续了一段时间，阳子高高地跃起。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34704009",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "有本事就给我接住吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704010",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "出现了！阳子选手拿手的全力扣杀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704011",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "速度好快！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704012",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "呜，没接到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704013",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "漂亮！「深潜海盗」队先得一分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "喂，我们可没取这么奇怪的队伍名字！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704015",
+          "sourceType": 3,
+          "text": "数个回合后，面对飞来的排球，彩音举起双手——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34704016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这样的力度应该刚刚好吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704017",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "精准的吊球！排球擦过了球网后直接坠地！\n「深潜海盗」再得一分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704018",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "是不能大意的对手呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34704019",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "嗯，玛莉也要认真起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850001",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "……现在比分来到了1：4。\n「天使与小恶魔」没有办法挽回颓势了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "唔，感觉玛莉她们一点也不紧张……\n还只是在热身吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "branch-config",
+          "sourceId": "34850003",
+          "sourceType": 0,
+          "text": "本行配置含选项，原游戏是否显示未确认；以下保留配置原文。",
+          "type": "notice"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34850004",
+              "text": "或许是吧"
+            },
+            {
+              "targetId": "34850004",
+              "text": "她们已经想到了取胜的办法"
+            }
+          ],
+          "sourceId": "34850003",
+          "sourceType": 0,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34850004",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "就是现在，穗香——Attack!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850005",
+          "sourceType": 5,
+          "speaker": "夏澄阳子",
+          "text": "……竟然不是扣杀！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850006",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "排球以眼熟的方式擦过了球网，直坠而下！\n穗香选手得分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这是……模仿了我的球路？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850008",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "哎嘿嘿，只是模仿了一点发力的动作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850009",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "好，就保持这个态势——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850010",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "……玛莉选手得分！比分3:4！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850011",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "……比分追平！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850012",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "……穗香选手得分！比分5:4！\n「天使与小恶魔」拿到了赛点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850013",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "……阳子选手得分！比分5:5，再次追平！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850014",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "阳子选手的斜线发球！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850015",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "接到了……小玛莉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850016",
+          "sourceType": 3,
+          "text": "面对穗香托传来的排球，玛莉跃起的身姿沐浴着阳光——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34850017",
+          "sourceType": 5,
+          "speaker": "玛莉萝丝",
+          "text": "尝尝这招，嘿呀——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850018",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "流畅的配合，扣球得分！\n比赛结束，「天使与小恶魔」获胜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850019",
+          "sourceType": 3,
+          "text": "这时，在远处——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34850020",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "她们看起来还有几分实力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850021",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼哼，无论是谁，都不能阻止本王登上挑战赛的顶点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34850022",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……就再观察一下好了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-810",
+      "sourceRefs": [
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34704001,
+            34704002,
+            34704003,
+            34704004,
+            34704005,
+            34704006,
+            34704007,
+            34704008,
+            34704009,
+            34704010,
+            34704011,
+            34704012,
+            34704013,
+            34704014,
+            34704015,
+            34704016,
+            34704017,
+            34704018,
+            34704019
+          ],
+          "sectionId": 34704
+        },
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34850001,
+            34850002,
+            34850003,
+            34850004,
+            34850005,
+            34850006,
+            34850007,
+            34850008,
+            34850009,
+            34850010,
+            34850011,
+            34850012,
+            34850013,
+            34850014,
+            34850015,
+            34850016,
+            34850017,
+            34850018,
+            34850019,
+            34850020,
+            34850021,
+            34850022
+          ],
+          "sectionId": 34850
+        }
+      ],
+      "title": "海岛与塞壬·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34705001",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "整场比赛都录进去了……感觉镜头有点晃呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705002",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "既然是假期宣传片，除了排球赛以外，应该还要录下更多有趣的活动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "比如说……游泳、打西瓜，啊，在海边吃鲜奶油泡芙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705004",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "嗯嗯，还有晚上的试胆大会，大家一起窝在黑暗的房间里看恐怖电影！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705005",
+          "sourceType": 0,
+          "speaker": "裁判小狐",
+          "text": "恐怖电影无论什么地方都能看吧？\n|101|，你该让她们收收天马行空的念头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "岛主，您怎么一直都不说话？\n是感觉有些累了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，我只是感觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……有点困。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705009",
+          "sourceType": 9,
+          "text": "意识的深处响起了一阵空灵悠远的歌声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705010",
+          "sourceType": 9,
+          "text": "……（古老的语言）浪花沉眠寂静之海……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705011",
+          "sourceType": 9,
+          "text": "……（古老的语言）游鱼困于暗流不得归途……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705013",
+          "sourceType": 9,
+          "text": "……（古老的语言）旧日时光长埋于腐败珊瑚……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705014",
+          "sourceType": 9,
+          "text": "……（古老的语言）沉默的遗骸啊，我的崇拜亦如恐惧本身……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705015",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "晚上好，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你是……谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705017",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你记得我的名字。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34705019",
+              "text": "……"
+            },
+            {
+              "targetId": "34705019",
+              "text": "贝歌？"
+            }
+          ],
+          "sourceId": "34705018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34705019",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我只是一条滞留此地的可悲半人鱼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我有太多疑问了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705021",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "在惶惑占据你的心灵前，想听听这座岛屿的往事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，请讲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705023",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……曾经这里只是一座荒无人烟的小岛，海洋的神祇将失事的船只连同上面的船民带来了此地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705024",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "船民们信仰这位强大的神祇，许诺每年以盛大的庆典取悦神祇，从而换取它的庇佑——这就是挑战赛的雏形。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705025",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这个传统一代代人传承下来，直至今日也没有消失。\n……尽管最初的神祇已经不再现身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是……真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705027",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你现在的表情，就和岛上的其他人听到这个时一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705028",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……被彻底遗忘了，这或许会是好事也说不定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705029",
+          "sourceType": 9,
+          "text": "半人鱼转身踏入浅滩中，面朝海洋，她即将离去。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34705030",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等下，我还有很多问题！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705031",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "在充满竞争的挑战赛上好好表现吧……和你的「封面女孩」一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34705032",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "或许，我们会再见面的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-811",
+      "sourceRefs": [
+        {
+          "bundle": "doaxvv",
+          "rowIds": [
+            34705001,
+            34705002,
+            34705003,
+            34705004,
+            34705005,
+            34705006,
+            34705007,
+            34705008,
+            34705009,
+            34705010,
+            34705011,
+            34705012,
+            34705013,
+            34705014,
+            34705015,
+            34705016,
+            34705017,
+            34705018,
+            34705019,
+            34705020,
+            34705021,
+            34705022,
+            34705023,
+            34705024,
+            34705025,
+            34705026,
+            34705027,
+            34705028,
+            34705029,
+            34705030,
+            34705031,
+            34705032
+          ],
+          "sectionId": 34705
+        }
+      ],
+      "title": "海岛与塞壬·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 155,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 155,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "99",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "100",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "欢迎来到维纳斯群岛",
+  "title": "海岛与塞壬",
+  "wordCount": 3100
+}

@@ -1,0 +1,2955 @@
+{
+  "bookId": "rewind-2",
+  "id": "chapter-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "170001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "商店的各位好像在争论什么呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "170002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们也跟过去看看吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300001",
+          "sourceType": 9,
+          "text": "「伽拉人气手办再版」决赛，正在「飞艇工厂」如火如荼进行——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9300002",
+          "sourceType": 9,
+          "text": "与此同时，「太南」手办商店外——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9300003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "真是知人知面不知心，明枪易躲，家贼难防……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是这样吗……艾里克希娅骗了所有人，还把大家辛辛苦苦攒到的街机币都用在了自己身上……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "答案很明显。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300006",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "这是我们「太南」商店的家务事，轮不到外人插手，还请各位离开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "抱歉，谢谢大家的帮助……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300008",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "绿子，多说无益——进来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊……噢……是，会长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么嘛！这样未免也太失礼了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300011",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "高声喧哗者，死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300012",
+          "sourceType": 3,
+          "text": "咣——商店大门关闭了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9300013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这群人真的很不讲道理哎，明明我们才是被偷走街机币的受害者，他们怎么可以这样，主人你来评评理！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "9300015",
+              "text": "……"
+            }
+          ],
+          "sourceId": "9300014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "9300015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哼，就算是这样好了。\n——我倒要听听看，他们能讨论出什么东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300016",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "偷听墙角非君子所为，君子不立于危墙之下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "花迦又在乱用成语了，唔，虽然这的确是一堵危墙，不过优纪才不是君子，优纪是要知道里面在说什么的女孩子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300018",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "请，请等一下……会，会长大人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300019",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "你操之过急了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300020",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "这种事，轮不到你来教我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可，可我还……没准备好……这种事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "怎么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "他们……他们好像在里面……做什么奇怪的事情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "唔……太……不要……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "？？？？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300026",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪的表情变得十分一言难尽，一言难尽中又透露出跃跃欲试的兴奋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊……听不清啊，这面烂墙虽然千疮百孔，但隔音效果竟然出乎意料地好……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "让一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300029",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "瞬杀——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江最棒了！这个洞很好！连里面的状况都能看清楚了……可惜被货架挡住了桌子的位置耶……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9300031",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "……小点声呀，会被里面的人听到的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-29",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            170001,
+            170002
+          ],
+          "sectionId": 170
+        },
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9300001,
+            9300002,
+            9300003,
+            9300004,
+            9300005,
+            9300006,
+            9300007,
+            9300008,
+            9300009,
+            9300010,
+            9300011,
+            9300012,
+            9300013,
+            9300014,
+            9300015,
+            9300016,
+            9300017,
+            9300018,
+            9300019,
+            9300020,
+            9300021,
+            9300022,
+            9300023,
+            9300024,
+            9300025,
+            9300026,
+            9300027,
+            9300028,
+            9300029,
+            9300030,
+            9300031
+          ],
+          "sectionId": 9300
+        }
+      ],
+      "title": "#1 奇怪的墙角"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9310001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "怎么样，他们在说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310003",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "如果做到这种程度，绿子，你可以承受吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310004",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "只有这样而已么，呵，连消遣都够不上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不要随便小看格斗部部长的体力啊！\n就算你们两个一起上的话，我也不会认输的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310006",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "也不必勉强。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "如，如果是会长的话……绿，绿子……可以的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那是什么意思，奇怪的高校暗号吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我觉得他们很有可能在胁迫绿子做一些她不愿意做的事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪知道的很多，不愧是优纪，我还要多多修行才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310011",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "绿子，加油，绿子，可以！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310012",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "为了我们的家——「太南」店！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "放心，我已经做好觉悟了，就算是为了大家献身，赌上「千苍裂龙」的名誉，我一定可以做到！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "献身，是英勇就义、为国捐躯的那个献身吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总觉得像是为艺术献身一类的奇怪东西……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们两个够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310017",
+          "sourceType": 3,
+          "text": "稀里哗啦——咣——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9310018",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "就在这张桌子上吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "现，现在吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310020",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可，可……总觉得有点，难，难为情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310022",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "刚才不是说可以么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310023",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "会，会长……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310024",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "为了大家献身什么的，这就是你的觉悟么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310025",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不，不是的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310026",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "现在，把外套脱掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，你听……他们果然要对绿子做什么过分的事吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310028",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "趁……趁人之危，为君子不耻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "让我看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎……不要突然挤过来啊……哎哎哎哎哎……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9310031",
+          "sourceType": 3,
+          "text": "轰隆——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9320001",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "地震啦！爆炸啦！世界末日终于到啦！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320002",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "啊！不！！！我们的家！！！\n我们的家毁了！外墙全塌了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "大事不妙，我们好像……闯祸了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子不要屈服！我们来救你！！！\n——呃，哎？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "小心点啊，这是店里仅存的最后一罐珍贵涂料了！\n别浪费，那边，洒出来的部分，快涂在我身上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哎，优纪，花迦，和江……你们怎么在这儿？\n——喂！谁把我们的商店搞塌掉了！！！给我外套！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9320007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个……啊，哈哈，情况说起来……有点复杂……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-30",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9310001,
+            9310002,
+            9310003,
+            9310004,
+            9310005,
+            9310006,
+            9310007,
+            9310008,
+            9310009,
+            9310010,
+            9310011,
+            9310012,
+            9310013,
+            9310014,
+            9310015,
+            9310016,
+            9310017,
+            9310018,
+            9310019,
+            9310020,
+            9310021,
+            9310022,
+            9310023,
+            9310024,
+            9310025,
+            9310026,
+            9310027,
+            9310028,
+            9310029,
+            9310030,
+            9310031
+          ],
+          "sectionId": 9310
+        },
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9320001,
+            9320002,
+            9320003,
+            9320004,
+            9320005,
+            9320006,
+            9320007
+          ],
+          "sectionId": 9320
+        }
+      ],
+      "title": "#2 保守派，解散！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9330001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以刚才，你们是在讨论，让绿子冲击决赛冠军的事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "对啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "桌子上……是为了把店里最后一罐涂料……用在绿子身上？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "对啊。\n我觉得太浪费，还想要让给会长来着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "所以说君子不立危墙之下，也不要乱听墙角……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330007",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "现在已经浪费了。\n那我们就来算算帐吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330008",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "既然这里已经被你们拆掉，那让绿子夺冠扩大商店名气的计划就此作废，托你们的福，大家再也没有商店可以住了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对不起，非常抱歉……我们只是想要帮忙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330010",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "如果道歉有用，就不需要风纪委员了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330011",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "你们最好想想，要怎么交代。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们一定会帮大家找到艾里克希娅，追回大家的损失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330013",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "没有必要。\n现在去找艾里克希娅，对解决问题没有任何帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330015",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你以为她的名次是怎么得来的，你们的街机币早就被她用光了；再说，获得大赛第一，对现在的我们没有任何价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330016",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "客观来说，放任艾里克希娅夺冠也不是什么坏事，或许她带动了人气，还能让这些无家可归的手办被新主人捡走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "理智冷酷的分析。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330018",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我还是不能接受……这种不公平正义的竞争方式，就算为了给被夺走街机币的大家一个交代，也要阻止艾里克希娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330019",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "公平就是适者生存，绿子。\n阻止艾里克希娅，只会让街机币的损耗变得毫无意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330020",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "大家流离失所，艾里克希娅高高坐在第一的位置……这才不是什么适者生存！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330021",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "愤怒会蒙蔽你的判断。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330022",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "呜呜……我只想要我的家……我想念我们的房子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330023",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "呜呜呜……艾里克希娅……这不是真的……呜呜呜嗝儿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "办法总是会有的，那个……大家冷静一下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330025",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "真是够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330026",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "西本高中全是蠢货。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330027",
+          "sourceType": 3,
+          "text": "咣——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9330028",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喂，回来，桜介！——冈田桜介！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330029",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "他要去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9330030",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "道不同不相谋，随他的便。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-31",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9330001,
+            9330002,
+            9330003,
+            9330004,
+            9330005,
+            9330006,
+            9330007,
+            9330008,
+            9330009,
+            9330010,
+            9330011,
+            9330012,
+            9330013,
+            9330014,
+            9330015,
+            9330016,
+            9330017,
+            9330018,
+            9330019,
+            9330020,
+            9330021,
+            9330022,
+            9330023,
+            9330024,
+            9330025,
+            9330026,
+            9330027,
+            9330028,
+            9330029,
+            9330030
+          ],
+          "sectionId": 9330
+        }
+      ],
+      "title": "#3 沉默行动派"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9340001",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "都怪艾里克希娅，我竟然这样相信她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340002",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "不是她的错，艾里克希娅没有害我们，是这些外来者，是她们毁掉了我们的家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "都别吵了，是我的错，是我辜负了你们的信任和委托。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340004",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我也有责任，在最开始，我不该袖手旁观。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不，不是的……会，会长大人……没有错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340006",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "是你们不好！现在压箱底的涂料也没有了！房子也塌了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340008",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "我要回家，我要艾里克希娅，呜呜呜哇哇哇……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "瞬杀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340010",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "呜……嗝儿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "都安静，听我说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340012",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "………嗝儿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340013",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "都听好。\n当下有两个问题，首先必须解决的，是“住所问题”。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "破坏了你们的商店很抱歉，作为补偿，我们可以全权向管理局提出申请，为流浪手办办理登记和新家入住手续。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "有异议吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340017",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "………嗝儿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "至于第二个问题，“如何处置艾里克希娅”，这是你们自己的家务事，希望你们考虑清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果实在纠结，不如把账算在后面，反正损失已经无法挽回，也不差这一刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340020",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "清晰的思路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在，停止互相抱怨，放下艾里克希娅，抓紧时间收拾干净，准备迎接管理局的收容考察。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340022",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "………嗝儿！是！收拾干净！迎接考察！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9340023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇噢！和江好帅！\n不愧是和江！问题一下都迎刃而解了呢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-32",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9340001,
+            9340002,
+            9340003,
+            9340004,
+            9340005,
+            9340006,
+            9340007,
+            9340008,
+            9340009,
+            9340010,
+            9340011,
+            9340012,
+            9340013,
+            9340014,
+            9340015,
+            9340016,
+            9340017,
+            9340018,
+            9340019,
+            9340020,
+            9340021,
+            9340022,
+            9340023
+          ],
+          "sectionId": 9340
+        }
+      ],
+      "title": "#4 瞬杀斩乱麻"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9350001",
+          "sourceType": 3,
+          "text": "飞艇工厂仓库——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9350002",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "紫罗兰的校训，看来你忘得一干二净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "呵，你来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350004",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我知道你会来的，我一直在等你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "「诚」、「勤」、「爱」——坦诚面对自己的愿望，勤勉地去追求，为了让所有人都爱我——不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350007",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "你真是可悲得厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "既然知道我在这儿，为什么不带上所有人？\n可笑，风纪委员也揣着什么不可告人的私心吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350009",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "家丑不可外扬，不想让你在西本高中面前丢脸罢了。\n——在我出手前，你最好同意弃赛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "弃赛？你有什么资格命令我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350011",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我有义务制止一切徇私舞弊的行为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "说得好听，如果我没记错，你觊觎这次再版机会，已经很久了吧——劝我退赛，是怕我抢了你的风头吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350013",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "不可理喻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9350014",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "就让我用行动来告诉你，什么是对的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360001",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "守护艾里克希娅！为了爱与光！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360002",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "伤害艾里克希娅的人——都该死——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360003",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "……麻烦的杂鱼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "真可惜，本来以为我们可以好好相处的，没想到你跟西本高中的木鱼脑袋一样，顽固又清高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我不过想拿回属于我的荣光罢了，我的成名，对你们来说有什么不好，这难道不是一举两得的共赢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360006",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "依靠不光彩手段得来的东西，真叫人看不起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360007",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "可笑，风纪、规则、道德，这些都是为了规范普通民众的手段——而我，注定要成为万人之上的超级偶像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360008",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "真难看啊，你这副嘴脸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "可我的粉丝都很喜欢呢，没空跟你闲聊了，决赛的桂冠还在等我，粉丝们，让我看到你们的热情~爱你们哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9360010",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "誓死守护世界上最好的艾里克希娅！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-33",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9350001,
+            9350002,
+            9350003,
+            9350004,
+            9350005,
+            9350006,
+            9350007,
+            9350008,
+            9350009,
+            9350010,
+            9350011,
+            9350012,
+            9350013,
+            9350014
+          ],
+          "sectionId": 9350
+        },
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9360001,
+            9360002,
+            9360003,
+            9360004,
+            9360005,
+            9360006,
+            9360007,
+            9360008,
+            9360009,
+            9360010
+          ],
+          "sectionId": 9360
+        }
+      ],
+      "title": "#5 紫罗兰校训"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9370001",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "还要再打吗，你看起来很累。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370002",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我一定会阻止你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "看在同校情谊的份上，我不想这么绝情的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "认清现实吧，我的粉丝无穷无尽，你却只有一个人。\n——真的要用这种方式，坚持你所谓的「道义」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370005",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370006",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "利用规则的漏洞，以徇私舞弊的方式赢得荣誉。\n——这种事，我绝不容许。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370007",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "那为什么不体谅一下我呢，把自己的「道」强加在他人的「道」上，这就是你一直奉行的「道义」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370008",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我不明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "变得出名，被很多人所喜爱，不被理解也好，代价沉重也罢——这就是我的偶像之「道」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370010",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "扭曲的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370011",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "成王败寇罢了——等我获得再版机会，成为风靡全球的热门手办，别人就会称赞我机敏果敢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "等到大局已定，你就抱着自己死板的风纪，在角落里跟灰尘和蛛网为伴吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370013",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "不会让你如愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370014",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "说得轻巧，我看你不如先想想如何自保。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370015",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "这一拳是为了艾里克希娅！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370016",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "唔……可恶……\n醒醒吧，接受现实，你已经过气的事实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370017",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你这是嫉妒，看看我的名次，看看我的粉丝——他们爱我，他们全都爱我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370018",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "我们永远追随你！！！我的女神艾里克希娅！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370019",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "执迷不悟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370020",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "看来只能赛场见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370021",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我会用堂堂正正的方式，让你在落败与悔恨中，接受自己是个可悲失败者的现实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370022",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "先处理好自己的麻烦事吧，再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9370023",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "用生命守护世界上最好的艾里克希娅！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-34",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9370001,
+            9370002,
+            9370003,
+            9370004,
+            9370005,
+            9370006,
+            9370007,
+            9370008,
+            9370009,
+            9370010,
+            9370011,
+            9370012,
+            9370013,
+            9370014,
+            9370015,
+            9370016,
+            9370017,
+            9370018,
+            9370019,
+            9370020,
+            9370021,
+            9370022,
+            9370023
+          ],
+          "sectionId": 9370
+        }
+      ],
+      "title": "#6 所谓的「道」"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9380001",
+          "sourceType": 3,
+          "text": "万众瞩目的「伽拉」人气再版大赛——终于来到了战况焦灼的「5进1」决胜场！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9380002",
+          "sourceType": 3,
+          "text": "距离投票结束还有半小时，我们看到，比分发生了剧烈的变化——「冈田桜介」后来居上，稳稳盘踞在第一名的位置！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9380003",
+          "sourceType": 3,
+          "text": "很遗憾，初赛的黑马「艾里克希娅」后劲不足，已经逐渐落入末位。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9380004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「冈田桜介」？\n……刚才播报的第一名，是冈田桜介，我没听错吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "事情的走向逐渐变得匪夷所思起来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以他刚刚摔门离开，消失这么久，是去努力替自己拉票吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喝啊，可恶！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我真是笨蛋，竟然又上当了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "果然紫罗兰学园都是一丘之貉！\n——只会背后耍阴招结果自己偷偷参赛的卑鄙家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380011",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "看！是那家伙——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "站住！冈田桜介！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380013",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你还知道回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380014",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "我为什么不能回来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380015",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "事到如今，你还有什么话说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380016",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "啰嗦，结果一目了然，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380017",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "这就是你所谓的「方法」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380018",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380019",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "这就是你所坚持的「道」么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380020",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "从刚才起就是，每个人张口闭口都是「道」，真是够了……\n我们的确道不同，怎么，你还有什么要指教吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380021",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我错看你了，亵渎武道之人，配不上「对手」二字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380022",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "啧，又来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380023",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "既然你执迷不悟，那我就以武道的方式，与你一决高下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9380024",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "西本高中，武道极意「仓田龙马」，请赐教。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-35",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9380001,
+            9380002,
+            9380003,
+            9380004,
+            9380005,
+            9380006,
+            9380007,
+            9380008,
+            9380009,
+            9380010,
+            9380011,
+            9380012,
+            9380013,
+            9380014,
+            9380015,
+            9380016,
+            9380017,
+            9380018,
+            9380019,
+            9380020,
+            9380021,
+            9380022,
+            9380023,
+            9380024
+          ],
+          "sectionId": 9380
+        }
+      ],
+      "title": "#7 第一名？！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9390001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "噢——招牌被砸掉了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "真是叹为观止啊……这势若龙虎、风卷残云般的战斗场面……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎——小心！这样打下去……真的没关系吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "放心，用拳头说话，这才是我们武道人的交流方式！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以绿子的学校，是什么奇怪的打架高中吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390006",
+          "sourceType": 3,
+          "text": "轰隆——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390007",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你一定要拿么，这个第一？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390008",
+          "sourceType": 3,
+          "text": "哐当——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390009",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "这是最合理的结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390010",
+          "sourceType": 3,
+          "text": "喀嚓——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390011",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你不在意吗，你的同伴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390012",
+          "sourceType": 3,
+          "text": "砰砰砰——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390013",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "那种东西，我不需要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你们倒是很有觉悟，懂得自觉担负起管理局的职责。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这边请，这些无家可归的手办，都是遵纪守法、团结友善……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390016",
+          "sourceType": 3,
+          "text": "稀里哗啦——咚咚哐当——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……的好居民。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……呵，有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390019",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "执迷不悟，极意——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "都住手。\n——瞬杀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390021",
+          "sourceType": 3,
+          "text": "啪，啪，啪——稀稀落落的掌声响起。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9390022",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "精彩，精彩，呵呵呵呵哈哈哈，真是太精彩了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390023",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "什么人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390024",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "有胆量，有礼貌，我很欣赏，真是令我大开眼界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390025",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "普通又自信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390026",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "警告你，公共场合禁止吸烟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "惨啦……拜托你们少说两句……这位就是……就是管理局的负责人，阿尔弗雷德先生，今天的居民准入考察人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390028",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "什么——！！！啊……糟糕了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390029",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "看看这个灾后废墟一样的贫民窟，呵，这就是你们口中的遵纪守法？团结友善？好居民？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390030",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "一群没教养的暴民罢了，乌烟瘴气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390031",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "负责人先生，请等一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390032",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我不想听解释，事实就在眼前，\n我的时间很贵，不值得为这群流民浪费。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390033",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我很失望，管理局不是少管所，希望下次，你们不要把什么乱七八糟的阿猫阿狗都塞进来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等……阿尔弗雷德先生……阿尔弗雷德先生……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390035",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "呜呜呜哇哇……你们赔！！！赔我的家……我没有家了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390036",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "什么都没有了，现在该怎么办啊，呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390037",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "对不起，对不起，都怪我，可恶……我真是太没用了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子，绿子——你要去哪啊绿子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9390039",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "算了，让她静静吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-36",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9390001,
+            9390002,
+            9390003,
+            9390004,
+            9390005,
+            9390006,
+            9390007,
+            9390008,
+            9390009,
+            9390010,
+            9390011,
+            9390012,
+            9390013,
+            9390014,
+            9390015,
+            9390016,
+            9390017,
+            9390018,
+            9390019,
+            9390020,
+            9390021,
+            9390022,
+            9390023,
+            9390024,
+            9390025,
+            9390026,
+            9390027,
+            9390028,
+            9390029,
+            9390030,
+            9390031,
+            9390032,
+            9390033,
+            9390034,
+            9390035,
+            9390036,
+            9390037,
+            9390038,
+            9390039
+          ],
+          "sectionId": 9390
+        }
+      ],
+      "title": "#8 拆家龙虎斗"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9400001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喝啊，可恶，可恶，可恶！可恶——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "都是我的错，是我太笨了……如果好好看守街机币，如果早点发现艾里克希娅的阴谋，如果阻止会长打架……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可恶啊！绿子，一切都被你搞砸了，明明大家都这样信任你，你却是这样没用的笨蛋吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "说什么“我将来要成为人民警察”“一定会保护大家”的大话，却连自己的家都守护不好……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊啊啊啊——绿子是——天下第一！大！笨！蛋！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400006",
+          "sourceType": 3,
+          "text": "第一……大笨蛋……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9400007",
+          "sourceType": 3,
+          "text": "大笨蛋……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9400008",
+          "sourceType": 3,
+          "text": "蛋……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9400009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不甘心，连回音都在嘲笑我吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……是错觉吗，好像听到了奇怪的哭声……在这种地方……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400012",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜呜呜……呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……绿子，警察是不会害怕的……！\n你，你好……打，打扰了……有人在吗……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400014",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……我，我警告你，不要装神弄鬼，我，我的拳头很硬的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "声音好像是从那边传来的，呼……不管了！三，二，一——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哦啦哦啦哦啦哦啦——混蛋，吃我爆裂飞踢！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400018",
+          "sourceType": 3,
+          "text": "哐当——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9400019",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400020",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "艾，艾，艾……艾里克希娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400021",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "……别过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400022",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你怎么在这？\n刚刚有没有听到奇怪的鬼哭……噢，是你在这里偷偷哭吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400023",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你也是来看我笑话的么？\n觉得好笑的话，就尽管笑吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我不是这个意思……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400025",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你也觉得我可笑吧，明明就是个不出名的过气明星，做尽坏事费劲心机，却只得到第四名，活像个不自知的跳梁小丑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400026",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我没有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400027",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "冈田桜介是对的，这就是不光彩的代价，一辈子受人嘲笑，在落魄和悔恨中……度过可悲的失败者的一生……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400028",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400029",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你怎么会懂呢？不需要努力就能轻轻松松拿到前三名的人，竟然问我为什么对成功这样执着，真是炫耀的讽刺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9400030",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喂！够了！\n从刚开始就一直自说自话……好好让别人把话讲完啊！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-37",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9400001,
+            9400002,
+            9400003,
+            9400004,
+            9400005,
+            9400006,
+            9400007,
+            9400008,
+            9400009,
+            9400010,
+            9400011,
+            9400012,
+            9400013,
+            9400014,
+            9400015,
+            9400016,
+            9400017,
+            9400018,
+            9400019,
+            9400020,
+            9400021,
+            9400022,
+            9400023,
+            9400024,
+            9400025,
+            9400026,
+            9400027,
+            9400028,
+            9400029,
+            9400030
+          ],
+          "sectionId": 9400
+        }
+      ],
+      "title": "#9 绿子大笨蛋"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9410001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "总之，不要坐在这里抱头痛哭了，跟我回去就对了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "回去？一文不值的我，现在还有什么资格回去呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不要老说这些文绉绉的字眼！什么一文不值！\n做了错事，悔改就可以了，艾里克希娅还是艾里克希娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "真羡慕绿子啊，虽然风风火火神经大条，但总是那么乐观向上和充满力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "夸奖别人就用心一点，不用特地提神经大条的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "抱歉，但我不能回去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哎？刚才不是说好了吗……怎么又不能回去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "大家肯定，对我很失望吧，或许已经，开始讨厌我了啊……\n就算笑脸迎上去，心里恐怕也是不情愿的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们女生的心思真是弯弯绕啊……所以你到底在担心什么？\n如果有人要欺负你的话，放心，我会替你出手的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "说不通……难怪绿子没人追。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "混，混蛋……突，突然说什么东西啊……我，我才没有什么喜欢的男生，我，我心里只有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "呜呜呜……呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "对不起对不起，我不好我不好，你不要哭了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410014",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "到底为什么哭啊……告诉绿子好不好，我很笨的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410015",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我只是个过气明星，大家不会再喜欢我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "傻瓜！虽然艾里克希娅有时很讨厌，但我一直都喜欢艾里克希娅……哎，不是那个喜欢啦，我是说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410017",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "噗嗤——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410018",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哎……怎么突然又哭又笑的，总之，总之就是，大家喜欢艾里克希娅，不是因为出名才喜欢，是因为……是艾里克希娅！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410019",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你的文法真的有够糟糕欸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410020",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊，总之就是这个意思……因为你就是艾里克希娅，大家才会喜欢你——跟你是明星，跟你被多少人欢迎，都没有关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410021",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "哈哈哈，谢谢你，绿子。\n还有对不起，之前对你做的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410022",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我倒是无所谓啦，走吧，跟我回去，好好向大家道个歉，然后一起补救一下商店的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410023",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "嗯，我们一起！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410024",
+          "sourceType": 3,
+          "text": "绿子一行回到了游乐园——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9410025",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "如此如此，这般这般，总之，就是这样了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "龙马和桜介的误会也解除了，大家都和好了，真好啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410027",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "呜呜呜……小艾里克希娅能回来，真是太好了……呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410028",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "真的很抱歉，非常对不起大家，总之，为了通过管理局的二次入住审核，大家一起加油吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410029",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "我今天可是特地把浑身上下都擦得干干净净，那里也是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410030",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "仪容整洁，全员满分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410031",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "和江通知说，负责人先生马上就要到了，请大家做好准备~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410032",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "阿尔弗雷德先生，这边请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410033",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "欢迎时尚酷炫邪魅霸道的世界第一帅阿尔弗雷德大人！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410034",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "请最伟大最帅气最有风度最有品味的男人赐予我们住所！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410035",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "浮夸的做派。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410036",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "唔，不错吧，谦逊有礼的精神面貌，\n真是一批素质非常优良又富有品味的居民。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，作战计划成功！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410038",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "实习生，认真做好登记，就送他们到新建好的黄金楼盘去吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "9410040",
+              "text": "嗯，好的。"
+            }
+          ],
+          "sourceId": "9410039",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "9410040",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔！我们做到了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410041",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "看到大家都很开心，真是太好了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9410042",
+          "sourceType": 3,
+          "text": "就这样，在我们的帮助下，「太南」商店的手办们重新获取了阿尔弗雷德的收容准许，集体迁入了它们的豪华新家。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9410043",
+          "sourceType": 3,
+          "text": "经历过投票事件，商店内部针锋相对的关系反而变得融洽，一切都回归正轨——真是皆大欢喜，皆大欢喜。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-38",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9410001,
+            9410002,
+            9410003,
+            9410004,
+            9410005,
+            9410006,
+            9410007,
+            9410008,
+            9410009,
+            9410010,
+            9410011,
+            9410012,
+            9410013,
+            9410014,
+            9410015,
+            9410016,
+            9410017,
+            9410018,
+            9410019,
+            9410020,
+            9410021,
+            9410022,
+            9410023,
+            9410024,
+            9410025,
+            9410026,
+            9410027,
+            9410028,
+            9410029,
+            9410030,
+            9410031,
+            9410032,
+            9410033,
+            9410034,
+            9410035,
+            9410036,
+            9410037,
+            9410038,
+            9410039,
+            9410040,
+            9410041,
+            9410042,
+            9410043
+          ],
+          "sectionId": 9410
+        }
+      ],
+      "title": "#10 会喜欢你"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9420001",
+          "sourceType": 3,
+          "text": "飞艇工厂深处——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9420002",
+          "sourceType": 3,
+          "text": "咚——咚——咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9420003",
+          "sourceType": 0,
+          "speaker": "机械兔阿白",
+          "text": "不要……求求你……不要再打了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420004",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "啊，弄疼你了，\n喂，我说，难道我们不是伙伴吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420005",
+          "sourceType": 0,
+          "speaker": "机械兔阿白",
+          "text": "是，是，是伙伴……啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420006",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "作为伙伴，就应该愿意为我死才对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420007",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "喂，放开小白！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420008",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "哼，没劲。\n你们说的「那位大人」，到底什么时候来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420009",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "老大处理完麻烦，自然就到了！\n……你，你你干什么！把篮球放下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420010",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "切，再不过来，连你一起打哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420011",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "你，你你……我警告你……老，老大，老大是不会放过你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420012",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "你是在挑衅我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420013",
+          "sourceType": 3,
+          "text": "喀啦啦啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9420014",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "老大！老大！老大来了！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "9420015",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "9420016",
+          "sourceType": 0,
+          "speaker": "机械熊阿红",
+          "text": "狩猎者大人驾到！恭迎狩猎者大人！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420017",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "老大！快看！这是我拿到的涂料配方！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420018",
+          "sourceType": 0,
+          "speaker": "机械兔阿白",
+          "text": "老大，你要为我做主，老大……呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420019",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "干得不错，退下吧——还有你，在哪惹了一身脏，\n说了出门不要乱跑，免得被什么丧家野狗乱咬，呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420020",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "见过大人，都是误会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420021",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "唔~细皮嫩肉的小狼狗，脾气倒是野得狠，免不了要人来好好调教调教~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420022",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "呜呜……老大，他……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420023",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "滚开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420024",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "让弟弟见笑了，我这人一惯公私分明。\n——提起公事，组织交代的任务，你做得怎么样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420025",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "报告大人，这就是迄今为止，搜集到的所有「优纪」手办了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420026",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "老大！他撒谎！明明外面还有一个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420027",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420028",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "回大人，今天的确有一位「优纪」出现在再版活动现场，不过身边一直有人类和「管理局」保护……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420029",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "再说，依我看，那一个也未必就是阿撒兹勒大人一直在寻找的「优纪」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420030",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "废物——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420031",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "呃啊……咳，咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420032",
+          "sourceType": 0,
+          "speaker": "机械兔阿白",
+          "text": "打得好！老大威武！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420033",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "……你……这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420034",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "小弟弟，最好别再让我听到「依你看」这种自作聪明的借口，「天启」不养闲人，你也清楚规矩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420035",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "哼，不想被「白模化」，就好好听狩猎者大人的话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420036",
+          "sourceType": 0,
+          "speaker": "机械兔阿白",
+          "text": "对老大的马仔也要放尊重些！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420037",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "听明白了么？给我盯紧，想办法抓到那个「优纪」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420038",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "……是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9420039",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "明白了，就滚吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-39",
+      "sourceRefs": [
+        {
+          "bundle": "disanzhang",
+          "rowIds": [
+            9420001,
+            9420002,
+            9420003,
+            9420004,
+            9420005,
+            9420006,
+            9420007,
+            9420008,
+            9420009,
+            9420010,
+            9420011,
+            9420012,
+            9420013,
+            9420014,
+            9420015,
+            9420016,
+            9420017,
+            9420018,
+            9420019,
+            9420020,
+            9420021,
+            9420022,
+            9420023,
+            9420024,
+            9420025,
+            9420026,
+            9420027,
+            9420028,
+            9420029,
+            9420030,
+            9420031,
+            9420032,
+            9420033,
+            9420034,
+            9420035,
+            9420036,
+            9420037,
+            9420038,
+            9420039
+          ],
+          "sectionId": 9420
+        }
+      ],
+      "title": "#11 暗潮涌动"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 4,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 4,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "videoPath": "Videos/AVG_shouliezhe_box.mp4"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_shouliezhe_box.mp4"
+        }
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「太南」的家务",
+  "title": "第3章",
+  "wordCount": 6918
+}

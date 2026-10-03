@@ -1,0 +1,81 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37407",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "37407001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "37407002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "和江——！！！\n等等我，我一定会救你出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37407003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "野猫往流浪手办的领地跑了。\n不能退缩，一鼓作气冲过去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37407004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "将我拖到敌人面前，开始战斗吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37407",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37407001,
+            37407002,
+            37407003,
+            37407004
+          ],
+          "sectionId": 37407
+        }
+      ],
+      "title": "爬塔关卡 1 · 开场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1",
+              "enter_avg_id"
+            ],
+            "table": "ResClimbTower.lua"
+          }
+        ],
+        "path": [
+          "1",
+          "enter_avg_id"
+        ],
+        "sectionId": 37407,
+        "table": "ResClimbTower"
+      },
+      {
+        "videoPath": "Videos/xinshou_2.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "爬塔关卡 1 · 开场",
+  "wordCount": 61
+}

@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-211010",
+  "id": "bond-26007",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26007001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "干嘛一脸愧疚的样子，你是不是在打什么坏主意？告诉你哦，我可不会轻易上当。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "放心，绝对是彩音最喜欢的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "咦咦，我最喜欢的？难道是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哇哇，这里就是你的专属游戏室吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "唔，这里有很多很多彩音都没有见过的游戏卡带和游戏机呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好厉害，拥有这么丰富的游戏收藏，肯定花了很长时间吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不仅需要时间，还要很多精力哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你喜欢什么样的游戏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "刺激的！好玩的！难度高的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我打游戏可是出了名的，紫罗兰学园没人是我的对手。别看哥哥那么能打，可是在游戏上绝对赢不了我，嘿嘿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然这样的话，我推荐这款给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哇哦，这个卡带封面看起来就很酷呢，我这就来试试看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007013",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "3个小时后——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "咦咦，奇怪，我刚刚是不是来过这里……可恶，又迷路了吗？怎么搞的，这才是第一道关卡啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "让我来试试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26007016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "居然这么轻易就通关了，真是让我刮目相看……\n你是怎么做到的，快告诉我！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26007",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26007001,
+            26007002,
+            26007003,
+            26007004,
+            26007005,
+            26007006,
+            26007007,
+            26007008,
+            26007009,
+            26007010,
+            26007011,
+            26007012,
+            26007013,
+            26007014,
+            26007015,
+            26007016
+          ],
+          "sectionId": 26007
+        }
+      ],
+      "title": "彩音最喜欢的东西"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211010",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "彩音最喜欢的东西",
+  "wordCount": 349
+}

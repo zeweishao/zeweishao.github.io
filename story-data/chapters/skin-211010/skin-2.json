@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211010",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "装扮清凉又极富有魅力的少女站在甲板上眺望远方。\n这是伟大的航海家冈田彩音踏上海上的冒险，目标是黄金海岸的无尽宝藏。\n她的头顶是带着彩色翎羽的船长帽，手上是蔚蓝的望远镜，两者分别象征纷呈的旅途和神秘的大海。\n而少女脚下宝箱堆积闪闪发光的财富，亦如同天空闪耀晨星指引她在大海中追寻目标的方向。 \n\n——本特别款仅可通过泳装派对活动获取   ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "晨星领航Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211010",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "冈田彩音·晨星领航Ver.",
+  "title": "晨星领航Ver.",
+  "wordCount": 159
+}

@@ -1,0 +1,173 @@
+{
+  "bookId": "activity-extra-sweethome_yure",
+  "id": "source-31502",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "31502001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "我有一个好消息要告诉你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真巧呀，我也有一个好消息要跟大家一起分享~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你的好消息肯定不如我的好消息，所以我就大方地让你先讲好了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说起来这个好消息跟主人和哈莉也有一些关系呢，没错，那就是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "《甜蜜家园》男主角「车贤秀」就要手办化了，而且制作这款手办的就是我们熟悉的「FULI公司」呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么样怎么样，这个好消息是不是特别棒呢？\n哈莉，现在轮到你了，把你的好消息也拿来和大家分享吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "可恶，我没什么好说的……我想说的都被你讲完了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「车贤秀」手办化的事看来你们都知道了，我还想第一时间告诉你们呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你会订购一款「车贤秀」手办的，对吧，对吧，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，我已经第一时间向「FULI公司」的官网预订了这款手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好耶，那样的话我们只要耐心在家里等待就能见到「车贤秀」了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，见到「车贤秀」第一面跟他聊些什么好呢？\n不，还是不要说太多话比较好，他不喜欢陌生人突然靠太近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嗯哼，有什么好犹豫的，见到他的第一面肯定是把他叫到天台大干一架，我都想好用什么招式对付他了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502014",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "来吧车贤秀，看看是你的电流枪厉害，还是我的「空间武器库」厉害！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31502015",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "该怎么告诉她们，我预订的时候「车贤秀」手办早已缺货这件事呢……",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "31502",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome_yure",
+          "rowIds": [
+            31502001,
+            31502002,
+            31502003,
+            31502004,
+            31502005,
+            31502006,
+            31502007,
+            31502008,
+            31502009,
+            31502010,
+            31502011,
+            31502012,
+            31502013,
+            31502014,
+            31502015
+          ],
+          "sectionId": 31502
+        }
+      ],
+      "title": "活动片段 31502"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1046",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1046",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 31502,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 31502",
+  "wordCount": 487
+}

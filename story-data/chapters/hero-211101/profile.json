@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211101",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自人气游戏《奇迹少女优纪》，女主角「优纪」化身为1/7比例模型！依照担任本作监督的21C先生全新绘制的插图，并经由「FULI」的知名模型师全程密切监修，将优纪的角色魅力与原作世界观氛围合为一体，呈现出前所未有的高品质的模型。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211101"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 113
+}

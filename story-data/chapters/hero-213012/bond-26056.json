@@ -1,0 +1,174 @@
+{
+  "bookId": "hero-213012",
+  "id": "bond-26056",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26056001",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "哎呀呀~这么好看的屋子，是主人给谁准备的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这次轮到有咲来猜猜看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056003",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "啊，真是难猜呢，主人的心思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "被这孩子逗了这么多次，今天就稍微“报复”回来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056005",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "如果我没有猜错的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有猜错的话……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "主人现在应该是期待我露出明明很想要，可又偏偏不想直接对主人说出来之类的纠结表情吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "主人太好懂啦，这个反应，看来是一下子就被我猜中了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我的表情真有这么好懂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056011",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "唔，也可能是因为我太了解主人了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056012",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "所以这个屋子果然是送给我的吧~谢谢主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056013",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "「|101|&神宫有咲的小屋」，就叫这个名字好了，主人觉得怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056014",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "需要在小屋前面加上“爱的”这样的形容吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不不不，不用了，就按现在的，非常好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26056016",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "好吧，那我下次再偷偷加上去，趁主人不在意的时候。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26056",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26056001,
+            26056002,
+            26056003,
+            26056004,
+            26056005,
+            26056006,
+            26056007,
+            26056008,
+            26056009,
+            26056010,
+            26056011,
+            26056012,
+            26056013,
+            26056014,
+            26056015,
+            26056016
+          ],
+          "sectionId": 26056
+        }
+      ],
+      "title": "主人&神宫有咲的小屋"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "主人&神宫有咲的小屋",
+  "wordCount": 306
+}

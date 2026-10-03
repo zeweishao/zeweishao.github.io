@@ -1,0 +1,133 @@
+{
+  "bookId": "hero-211102",
+  "id": "bond-28561",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28561001",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "抱歉，我刚刚又睡着了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你看起来很累，一直都没好好休息过吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561003",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "我担心外面不安全，只有守在门口才能放心。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28561005",
+              "text": "你太紧绷了。"
+            }
+          ],
+          "sourceId": "28561004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28561005",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "不知不觉就想守护点什么，我习惯了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28561007",
+              "text": "那么这次换我来守护你吧。"
+            }
+          ],
+          "sourceId": "28561006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28561007",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "这、这怎么可以，你不是外面那些怪物们的对手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘘，安静下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里没有怪物，这里比什么地方都安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "贤秀可以彻底地好好放松下来，再睡一会吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28561011",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "唔……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28561",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28561001,
+            28561002,
+            28561003,
+            28561004,
+            28561005,
+            28561006,
+            28561007,
+            28561008,
+            28561009,
+            28561010,
+            28561011
+          ],
+          "sectionId": 28561
+        }
+      ],
+      "title": "守护与被守护的"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211102",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "守护与被守护的",
+  "wordCount": 154
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212002",
+  "id": "bond-27502",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27502001",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "给我的快递？里面是——手办家具大礼包！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "外包装也是礼物的一部分哦。\n再猜猜看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502003",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "敲敲。不是纸箱，是木板。\n所以这是——快递箱造型的屋子？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "喜欢！呜，但是，玲的职业病要犯了！\n既然是个快递箱，就应该被贴上地址寄出去才算圆满。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502006",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "对了，不如用这个来一次短途旅行？\n放心，等我想你了，就找个地方把自己寄回来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "旅行的目的地呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我来填我来填！嗯，这是个秘密，旅行回来再告诉你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......玲？快递车已经开走了，你怎么还在这？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "嘿嘿，我偷偷跳车跑回来了！\n还没启程就舍不得离开了，果然还是......继续陪在你身边吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502011",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "呀，太肉麻了，真受不了这种场合！想找个箱子钻进去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你回来了，那手办屋呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27502013",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "啊糟糕，还在车上！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27502",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27502001,
+            27502002,
+            27502003,
+            27502004,
+            27502005,
+            27502006,
+            27502007,
+            27502008,
+            27502009,
+            27502010,
+            27502011,
+            27502012,
+            27502013
+          ],
+          "sectionId": 27502
+        }
+      ],
+      "title": "快递的旅行"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "快递的旅行",
+  "wordCount": 293
+}

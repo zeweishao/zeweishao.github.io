@@ -1,0 +1,88 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1120",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1120001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "眼看着就要在街机上帮绿子上夺回一分了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1120002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "想不到街机却在关键时刻断电了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1120003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过没关系，把断掉的电线接起来，再来一次吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1120004",
+          "sourceType": 3,
+          "text": "嘶——吼吼——！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1120005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸？这是什么声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1120006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "这个大块头！不会吧！难道是它咬掉了电线！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1120007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我们怎么可能是这种家伙的对手啊！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1120",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1120001,
+            1120002,
+            1120003,
+            1120004,
+            1120005,
+            1120006,
+            1120007
+          ],
+          "sectionId": 1120
+        }
+      ],
+      "title": "原文片段 1120"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1120
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1120",
+  "wordCount": 110
+}

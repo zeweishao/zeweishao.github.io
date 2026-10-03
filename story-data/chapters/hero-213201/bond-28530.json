@@ -1,0 +1,182 @@
+{
+  "bookId": "hero-213201",
+  "id": "bond-28530",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28530001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "哼。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28530003",
+              "text": "「哼」是什么意思？"
+            },
+            {
+              "targetId": "28530003",
+              "text": "冷淡的家伙。"
+            }
+          ],
+          "sourceId": "28530002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28530003",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "靠近太阳，是会被灼烧的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28530005",
+              "text": "但卡缪已经是个手办了。"
+            }
+          ],
+          "sourceId": "28530004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28530005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "别靠过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530006",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "拿开手，我命令你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "确定不要吗？今日份的后宅扫灰环节？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530008",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "这点灰尘，微不足道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的吗？卡缪白色的制服外套，肩头和领口都挂上了粮丸的猫毛，在阳光下「无所遁形」呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530011",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "拙劣的借口……哼，这次是特许，\n过来，你将有幸窥探我的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530012",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "站住。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28530014",
+              "text": "又怎么了吗？"
+            }
+          ],
+          "sourceId": "28530013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28530014",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "低下头，我讨厌有人遮住太阳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是……现在根本看不到太阳阿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28530016",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "啰嗦，安静照做就是了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28530",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28530001,
+            28530002,
+            28530003,
+            28530004,
+            28530005,
+            28530006,
+            28530007,
+            28530008,
+            28530009,
+            28530010,
+            28530011,
+            28530012,
+            28530013,
+            28530014,
+            28530015,
+            28530016
+          ],
+          "sectionId": 28530
+        }
+      ],
+      "title": "拿开手，我命令你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "拿开手，我命令你",
+  "wordCount": 202
+}

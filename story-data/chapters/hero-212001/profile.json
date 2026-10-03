@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212001",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气游戏《蘑菇少女的日常》女主角「宫本尤娜」化身为1/7比例模型登场！模型师以惟妙惟肖的1/7比例如实重现知名绘师绘制的全新原创插图。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212001"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 68
+}

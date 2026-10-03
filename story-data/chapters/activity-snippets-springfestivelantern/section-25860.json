@@ -1,0 +1,141 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25860",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25860001",
+          "sourceType": 10,
+          "text": "猪猪最闪亮~！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25860002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哈哈哈，大功告成，快来欣赏我的杰作呀~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这是什么造型，圆圆的样子看起来有些憨态可掬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，大家都来猜猜看，猜中的话优纪有奖的哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "唔，我猜它是以月亮为原型制作的花灯，满月象征着美满和团圆，优纪一定是寄托了这样美好的祝福在里面吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你好厉害，居然能想到满月，只是听你说的就让我觉得好美好浪漫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪如果能想到貂蝉说的那些就好了，可惜不是啦~大家再猜猜看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "依我看它是一块璞玉，你想暗示你的主人是一位品质高洁的人中君子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不、不是啦，优纪想得非常非常简单，我还以为大家很容易就能猜到呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "不要卖关子了，还是你自己公布答案比较好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，这盏圆圆滚滚的花灯，其实是以猪猪储蓄罐为原型得到的灵感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪想要让主人成为M城最富有的人！所以想要送一个猪猪储蓄罐花灯给主人的想法，自然而然地就发生啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25860013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "有趣，让花迦也得到了难能可贵的启发。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25860",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25860001,
+            25860002,
+            25860003,
+            25860004,
+            25860005,
+            25860006,
+            25860007,
+            25860008,
+            25860009,
+            25860010,
+            25860011,
+            25860012,
+            25860013
+          ],
+          "sectionId": 25860
+        }
+      ],
+      "title": "猪猪最闪亮~！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25860,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "49",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "猪猪储蓄罐造型的花灯，融入了创作者的奇思妙想。拥有这个花灯，就拥有了一个象征「富有」的标志。",
+  "title": "猪猪最闪亮~！",
+  "wordCount": 362
+}

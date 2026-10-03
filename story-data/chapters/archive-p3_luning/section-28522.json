@@ -1,0 +1,113 @@
+{
+  "bookId": "archive-p3_luning",
+  "id": "section-28522",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28522001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "黑子，昨晚你说了好多梦话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在梦里，你叫了「姐姐大人」75次，「初春」6次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "真的吗？我以前从来不说梦话的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "嗯……大概是太久没见到姐姐大人，太过思念导致的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522005",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "说实话，我也挺怀念和初春一起当风纪委员的日子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "另外，你还叫了我的名字21次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522007",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "什么？！不可能不可能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以对你也说，我的重要程度位于她们两个之间吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522009",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "怎怎么可能，没有人能和姐姐大人相提并论！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28522010",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "黑子的身心都是属于姐姐大人的，不要胡思乱想哦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28522",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28522001,
+            28522002,
+            28522003,
+            28522004,
+            28522005,
+            28522006,
+            28522007,
+            28522008,
+            28522009,
+            28522010
+          ],
+          "sectionId": 28522
+        }
+      ],
+      "title": "原文片段 28522"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "p3_luning",
+        "sectionId": 28522
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 28522",
+  "wordCount": 193
+}

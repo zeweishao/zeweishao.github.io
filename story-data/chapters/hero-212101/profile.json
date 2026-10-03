@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212101",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《半岛》系列的超人气角色「水咲」化身为1/7比例模型，如实呈现出其充满魅力的站姿。脸上露出的高傲神情、飘逸的双马尾、身上穿的性感泳衣、手中持有的泳圈和可乐瓶等，将水咲的魅力细腻呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212101"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

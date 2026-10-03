@@ -1,0 +1,107 @@
+{
+  "bookId": "hero-212102",
+  "id": "bond-28552",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28552001",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "嗨多磨，今天想跟大家聊聊「手办」这件事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家！成长的过程中一定有自己喜欢的玩具吧！比如生日时收到的玩偶，或者和朋友们每天拿来战斗玩耍的塑料小人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552003",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "孩童时期拿着它们玩扮家家酒的游戏时，有没有产生「要是它们动起来就好了」这样的想法呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "一定！一定有很多人这么想过吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家小时候曾经玩过的模型和玩具，现在会被放在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "现在如果再次看到它们，会不会像触电一样，遗忘的回忆和心情在这瞬间突然苏醒？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "没有错，也许「手办」就是有着与那些记忆再次相遇的力量吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552008",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "嗨多磨，聪明可爱的虚拟偶像绊爱作为1/7手办登场了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28552009",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "哎呀，这样的手办真的有人不想要第一时间迎接到手吗？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28552",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28552001,
+            28552002,
+            28552003,
+            28552004,
+            28552005,
+            28552006,
+            28552007,
+            28552008,
+            28552009
+          ],
+          "sectionId": 28552
+        }
+      ],
+      "title": "虚拟偶像手办"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212102",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "虚拟偶像手办",
+  "wordCount": 273
+}

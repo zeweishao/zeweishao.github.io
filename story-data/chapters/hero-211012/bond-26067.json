@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211012",
+  "id": "bond-26067",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26067001",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "听说你生病了，我特地带了礼物来探望你。\n礼物？当然是我苦心收集来的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "恐怖医院怪谈！\n无论发烧到多少度，都保证吓到你后背发凉哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还是......不用了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "嘘——别客气，关掉灯躺好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......传说，有一种邪恶的幽灵，会在医院寻找虚弱的病人，悄悄趴在他们肩头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "一旦被这种幽灵缠上，就会不断被病痛折磨。\n除非病好或病死，肩上的幽灵才会消失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": ".......怎么忽然不说话了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067008",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯……你完全没发现吗，我就是这种幽灵呀！\n而从现在开始，我会一直在你身边，看着你......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇萝的意思是，从现在开始要好好照顾我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......哎？不对，都说了，我是邪恶的幽灵，跟着你是为了吸收你生病时的痛苦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我倒觉得这种幽灵未必是邪恶的，或许它们只是担心生病的人，在试着用自己的力量让病情好转。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067012",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "跟你这种愚蠢的人类说不通，你等着，我要用这个苹果雕刻出最恐怖的雕塑，摆在你的床头——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26067013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "除了吃掉削好皮苹果之外，没有任何解除诅咒的方法哦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26067",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26067001,
+            26067002,
+            26067003,
+            26067004,
+            26067005,
+            26067006,
+            26067007,
+            26067008,
+            26067009,
+            26067010,
+            26067011,
+            26067012,
+            26067013
+          ],
+          "sectionId": 26067
+        }
+      ],
+      "title": "探病"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211012",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "探病",
+  "wordCount": 397
+}

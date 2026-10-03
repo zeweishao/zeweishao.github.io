@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215006",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "没有人想到，谈笑间攻下一座城池的大都督，竟然十分热衷于市井生活。\n\n他曾设想过很多不做大都督以后的谋生方式，最终发现唯有「账房先生」最为符合他的心意。\n\n小小的算珠拿捏在手中，起起落落之间，心中早已绘制好一副事无巨细的宏大图景。\n\n何处设局、布置陷阱；何处收网、全身而退。\n\n在运筹帷幄中，化风波于无形。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "定风波Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215006",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "周瑜·定风波Ver.",
+  "title": "定风波Ver.",
+  "wordCount": 144
+}

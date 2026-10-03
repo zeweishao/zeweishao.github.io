@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-50",
+  "id": "activity-records-740",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "喂，要赶不上宇宙飞船了，总之先把好运带上吧。",
+          "title": "月光指引归途",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "别忘了带上好运"
+    },
+    {
+      "blocks": [
+        {
+          "text": "你愿意听听我的梦想吗？",
+          "title": "月光指引归途",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "连接众梦之途"
+    },
+    {
+      "blocks": [
+        {
+          "text": "人眼可以识别的色彩是有限的。",
+          "title": "月光指引归途",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "倒映宇宙的色彩"
+    },
+    {
+      "blocks": [
+        {
+          "text": "这是一趟有趣的旅途，谢谢你。",
+          "title": "月光指引归途",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "由此，奔赴深空"
+    },
+    {
+      "blocks": [
+        {
+          "text": "你已将厚如砖头的引擎故障处理手册完全背诵。",
+          "title": "星辰引领来路",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "航空学研究"
+    },
+    {
+      "blocks": [
+        {
+          "text": "你在108次失重训练结束后依然健步如飞。",
+          "title": "星辰引领来路",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "适应性训练"
+    },
+    {
+      "blocks": [
+        {
+          "text": "你配合倒计时完美地拉下了起飞杆。",
+          "title": "星辰引领来路",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "点火倒计时"
+    },
+    {
+      "blocks": [
+        {
+          "text": "你明白人类对于未知的探索才刚起步。",
+          "title": "星辰引领来路",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "向宇宙飞行"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "740",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 135
+}

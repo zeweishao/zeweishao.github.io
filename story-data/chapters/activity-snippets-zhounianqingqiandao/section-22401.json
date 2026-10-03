@@ -1,0 +1,149 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22401",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22401001",
+          "sourceType": 10,
+          "text": "「S-VIII」的……好意？",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22401002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼……这是……第几个了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔，让我想想……三，四，五——阿算了，完全记不清了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不知道多久才能帮主人攒够积分阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "啧，可怜的小玩意们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "……跟海报上一模一样……活的「S-VIII」……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔——出现了，是坏女人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "怎么了，小东西，你们看起来不是很友善？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "抱歉，可是……你、您来这里做什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "别紧张，只是来给你们提供一些，小小的帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「无事献殷勤，非奸即盗」……你为什么要帮我们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "礼尚往来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "作为「那个人类对我的喜爱」的，一点回礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22401014",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "想要尽快攒够积分的话，就跟我来~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22401",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22401001,
+            22401002,
+            22401003,
+            22401004,
+            22401005,
+            22401006,
+            22401007,
+            22401008,
+            22401009,
+            22401010,
+            22401011,
+            22401012,
+            22401013,
+            22401014
+          ],
+          "sectionId": 22401
+        }
+      ],
+      "title": "「S-VIII」的……好意"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22401,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "35",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「S-VIII」的……好意",
+  "wordCount": 238
+}

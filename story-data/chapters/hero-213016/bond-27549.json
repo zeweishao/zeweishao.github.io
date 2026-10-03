@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213016",
+  "id": "bond-27549",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27549001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你回来了？不好意思，刚刚在做扒带练习。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我是不是打扰到你了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "怎么会，是我练习太投入了，忘记了时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然快到演出日了，但适当地休息也是很有必要的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "谢谢你的关心~我会注意的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我只是，不想让粉丝感到失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "只有不断地努力，才能在演出中给大家带来快乐和惊喜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样的话，你会很辛苦吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "哈哈，我还有一起努力的伙伴们啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "只要大家在一起，哪怕是通宵排练，也是非常幸福的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549011",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "用音乐传递快乐，这就是我们最想做的事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549012",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "所以，演出日那天，你会来现场为我们加油吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，我期待很久了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549014",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "嗯哼~太好了！这是我专门为你预留的VIP观众席的门票！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27549015",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "演出日，不见不散哦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27549",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27549001,
+            27549002,
+            27549003,
+            27549004,
+            27549005,
+            27549006,
+            27549007,
+            27549008,
+            27549009,
+            27549010,
+            27549011,
+            27549012,
+            27549013,
+            27549014,
+            27549015
+          ],
+          "sectionId": 27549
+        }
+      ],
+      "title": "通宵排练"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213016",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "通宵排练",
+  "wordCount": 262
+}

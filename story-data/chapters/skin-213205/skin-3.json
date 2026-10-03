@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213205",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "孙大小姐看着哥哥献宝般呈上来的「前代名弩」，眉头紧锁——颜色黢黑、锈迹遍布，简直不堪入目！\n\n「直接扔掉吧......算了，难得他送了点有用的东西，我想想办法。」\n\n三天后，孙尚香看到金银坊老板送来焕然一新的弩，总算满意地点了点头。\n\n「哼，这才配得上本大小姐的身份！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "焕金名弩Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213205",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "孙尚香·焕金名弩Ver.",
+  "title": "焕金名弩Ver.",
+  "wordCount": 129
+}

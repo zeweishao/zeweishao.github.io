@@ -3,12 +3,13 @@ const INDEX_URL = 'figures-data/index.json';
 const detailUrl = id => 'figures-data/heroes/' + encodeURIComponent(id) + '.json';
 const ASSET_BASE = new URL(window.FIGURE_ASSET_BASE || 'figures-assets/', document.baseURI);
 const DEFAULTS_KEY = 'figure-catalog.default-skins.v1';
+const PAGE_TITLE = '团子之家｜记录爱雪雪的每一天';
 const $ = selector => document.querySelector(selector);
 const ui = {
   game: $('#game'), loading: $('#model-loading'), status: $('#model-status'), retry: $('#retry-media'),
   portrait: $('#portrait'), portraitLayer: $('#portrait-layer'), animation: $('#animation'), play: $('#pause'),
   dialog: $('#modal'), modal: $('#modal-content'), cards: $('#cards'), search: $('#hero-search'),
-  profession: $('#profession-filter'), brand: $('#brand-filter'), count: $('#results-count'),
+  profession: $('#profession-filter'), brand: $('#brand-filter'), catalogStatus: $('#catalog-status'),
 };
 const state = {
   heroId: null, skinId: null, mode: '3d', collection: true,
@@ -37,6 +38,13 @@ function el(tag, className, text) {
 const hero = () => heroById.get(state.heroId);
 const skin = () => hero()?.skins.find(entry => entry.id === state.skinId);
 const sameModel = () => state.modelReady && state.modelHeroId === state.heroId && state.modelSkinId === state.skinId;
+
+function updatePageTitle(heroId = state.heroId) {
+  const selectedHero = heroById.get(String(heroId));
+  const selectedSkin = selectedHero?.id === state.heroId ? skin() : defaultSkinForHero(selectedHero);
+  const detail = selectedHero && plain(selectedSkin?.fullName || [selectedHero.name, selectedSkin?.name].filter(Boolean).join(' · '));
+  document.title = !state.collection && detail ? detail + '｜' + PAGE_TITLE : PAGE_TITLE;
+}
 
 function localAsset(path, types, relativeTo) {
   if (typeof path !== 'string' || !path.trim()) throw new Error('资源地址未提供。');
@@ -188,9 +196,8 @@ function renderCollection() {
   const matches = filteredHeroes();
   ui.cards.replaceChildren(...matches.map(makeHeroCard));
   if (![...ui.cards.children].some(card => card.tabIndex === 0) && ui.cards.firstElementChild) ui.cards.firstElementChild.tabIndex = 0;
-  const skinTotal = catalog.heroes.reduce((sum, entry) => sum + (entry.skins?.length || 0), 0);
-  ui.count.textContent = matches.length === catalog.heroes.length ? catalog.heroes.length + ' 位 · ' + skinTotal + ' 款' : matches.length + ' / ' + catalog.heroes.length + ' 位';
-  $('#catalog-total').textContent = '';
+  ui.catalogStatus.textContent = '';
+  ui.catalogStatus.hidden = true;
   $('#catalog-empty').hidden = matches.length > 0;
 }
 function setFilters(filters = {}) {
@@ -385,6 +392,9 @@ function renderHero() {
   $('#hero-brand-name').textContent = selectedHero.brand.name;
   $('#hero-story').textContent = plain(selectedHero.story);
   $('#hero-story').hidden = !selectedHero.story;
+  const storyLink = $('#hero-story-link');
+  storyLink.href = 'stories.html?hero=' + encodeURIComponent(selectedHero.id);
+  storyLink.firstElementChild.textContent = '阅读' + selectedHero.name + '的故事';
   const cvs = [selectedHero.cv.zh ? plain(selectedHero.cv.zh) + '（中）' : '', selectedHero.cv.ja ? plain(selectedHero.cv.ja) + '（日）' : ''].filter(Boolean);
   $('#voice-credit').replaceChildren(el('span', '', 'CV'), document.createTextNode(' ' + cvs.join(' / ')));
   $('#voice-credit').hidden = !cvs.length;
@@ -393,7 +403,7 @@ function renderHero() {
 function renderSkin() {
   const selectedHero = hero(), selectedSkin = skin();
   if (!selectedHero || !selectedSkin) return;
-  document.title = plain(selectedSkin.fullName || selectedHero.name + ' · ' + selectedSkin.name) + ' · 手办图鉴';
+  updatePageTitle();
   $('#skin-name').textContent = selectedSkin.name;
   $('#stage-skin-name').textContent = selectedSkin.name;
   $('#figure-quote').textContent = plain(selectedSkin.voiceLine || selectedHero.tagline);
@@ -537,6 +547,7 @@ async function playSelectedAction() {
 function setCollection(collection, options = {}) {
   const wasCollection = state.collection;
   state.collection = Boolean(collection);
+  updatePageTitle(options.heroId || state.heroId);
   ui.game.classList.toggle('collection-mode', state.collection);
   $('.collection').hidden = !state.collection;
   $('#figure-detail').hidden = state.collection;
@@ -765,7 +776,9 @@ window.figureApp = {
   showSkins: openSkins, showVoices: openVoices, storageKey: DEFAULTS_KEY,
 };
 async function initialize() {
-  ui.count.textContent = '正在载入…';
+  updatePageTitle();
+  ui.catalogStatus.hidden = false;
+  ui.catalogStatus.textContent = '正在载入…';
   try {
     const response = await fetch(INDEX_URL);
     if (!response.ok) throw new Error('图鉴资料暂未载入。');
@@ -778,7 +791,8 @@ async function initialize() {
       await selectHero(decodeURIComponent(match[1]), { push: false });
     }
   } catch (error) {
-    ui.count.textContent = plain(error.message);
+    ui.catalogStatus.hidden = false;
+    ui.catalogStatus.textContent = plain(error.message);
   }
 }
 await initialize();

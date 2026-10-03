@@ -1,0 +1,179 @@
+{
+  "bookId": "hero-213012",
+  "id": "bond-26055",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26055001",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "主人，可以问你一个问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055003",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "小狗会汪汪叫，小猫会喵喵叫——现在提问，小龙虾会发出什么声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是什么脑筋急转弯吗，完全看不出规律……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055005",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "因为本来就是我随便问的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以这个问题有什么意义吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "问题没有意义，不过主人的回答会很有意义~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就算有咲这么说，这个问题我也回答不了，我从没听过小龙虾的声音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "好吧，那么我再换个简单的问题！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055010",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "——主人知道我最喜欢的小可爱会发出什么声音吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "最喜欢的小可爱，是指你的咕咕鸡吗，虽然名字叫咕咕鸡，但到底是咕咕叫还是叽叽叫还是很难判断啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我随便猜一个吧，咕咕叫？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055014",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "很可惜，答错了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以是会发出叽叽叫声的咕咕鸡？果然我还是猜错了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055016",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "咕咕和叽叽的声音，他都会哦，顺便一提，我最喜欢的小可爱，刚才的最后一句话是——「果然我还是猜错了啊。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26055018",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "噗哈哈哈，主人，你脸红了！快看你的表情，真可爱！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26055",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26055001,
+            26055002,
+            26055003,
+            26055004,
+            26055005,
+            26055006,
+            26055007,
+            26055008,
+            26055009,
+            26055010,
+            26055011,
+            26055012,
+            26055013,
+            26055014,
+            26055015,
+            26055016,
+            26055017,
+            26055018
+          ],
+          "sectionId": 26055
+        }
+      ],
+      "title": "土味情话"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213012",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "土味情话",
+  "wordCount": 355
+}

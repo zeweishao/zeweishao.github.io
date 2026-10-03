@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215004",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "此次推出的《永恒的异界幻想》系列，海伦将初次手办化登场！海伦高贵的出身和美丽的容貌，让她与一位真正的王子坠入爱河。她曾以为平淡充实的生活会是他们的未来，但即便高贵如她最终也没能逃过命运的残酷。再相见时，昔日的爱人已情同陌路。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215004"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 112
+}

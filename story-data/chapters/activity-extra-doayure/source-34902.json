@@ -1,0 +1,247 @@
+{
+  "bookId": "activity-extra-doayure",
+  "id": "source-34902",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34902001",
+          "sourceType": 0,
+          "speaker": "向日葵少女",
+          "text": "睡觉……享受全天候无死角的睡眠。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902002",
+          "sourceType": 0,
+          "speaker": "很凶的大姐姐",
+          "text": "哼，无聊的问题。我拒绝接受采访。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902003",
+          "sourceType": 0,
+          "speaker": "机油味女孩",
+          "text": "假期吗？最近好像经常聊起这个话题呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902004",
+          "sourceType": 0,
+          "speaker": "机油味女孩",
+          "text": "去开阔的地方兜风……嗯，既然是难得的假期，果然还是应该去海边吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902005",
+          "sourceType": 0,
+          "speaker": "机油味女孩",
+          "text": "比如去一个温暖的小岛玩沙滩排球，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902006",
+          "sourceType": 3,
+          "text": "——视频播放结束。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34902007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好的，我大概了解大家的想法了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，有各种各样想做的事情呢……但是，优纪很想知道，主人在假期的时候想要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34902010",
+              "text": "想做的事情太多了"
+            },
+            {
+              "targetId": "34902010",
+              "text": "或许也是去海边玩吧"
+            }
+          ],
+          "sourceId": "34902009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34902010",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "可以先准备好假期的心愿单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对，列好想做的事情，到时候完成一项就划去一项吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但无论如何，还是想和手办们在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，不愧是主人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说起来……最近我在网上订购了新手办呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902015",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "新的伙伴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，是在「维纳斯群岛」度假的玛莉萝丝和穗香。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好哦，等不及要欢迎她们了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902018",
+          "sourceType": 0,
+          "speaker": "治愈系女孩",
+          "text": "主人——管理局赠送的旅游招待券到了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "来得正巧，这下终于……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902020",
+          "sourceType": 0,
+          "speaker": "绝望系半人鱼",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902021",
+          "sourceType": 0,
+          "speaker": "绝望系半人鱼",
+          "text": "|101|，你的假期……开始了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34902022",
+          "sourceType": 0,
+          "speaker": "绝望系半人鱼",
+          "text": "呵呵呵……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "34902",
+      "sourceRefs": [
+        {
+          "bundle": "doayure",
+          "rowIds": [
+            34902001,
+            34902002,
+            34902003,
+            34902004,
+            34902005,
+            34902006,
+            34902007,
+            34902008,
+            34902009,
+            34902010,
+            34902011,
+            34902012,
+            34902013,
+            34902014,
+            34902015,
+            34902016,
+            34902017,
+            34902018,
+            34902019,
+            34902020,
+            34902021,
+            34902022
+          ],
+          "sectionId": 34902
+        }
+      ],
+      "title": "活动片段 34902"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1083",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1083",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 34902,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 34902",
+  "wordCount": 360
+}

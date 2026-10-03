@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212004",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "他来了！穿着鲜艳复古的皮裤，迈着自信摩登的步伐，带着他先锋锐利的专辑——这是一张开辟了华丽和迷幻摇滚的界限，标志着他独一无二音乐人格正式形成的史诗级作品！现在让我们欢迎巨星总裁！阿尔弗雷德登场！",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "华丽摇滚Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212004",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "阿尔弗雷德·华丽摇滚Ver.",
+  "title": "华丽摇滚Ver.",
+  "wordCount": 97
+}

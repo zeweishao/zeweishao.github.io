@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211014",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "些微曦光穿透层叠枝叶，照亮曾被黑暗侵蚀的林海。\n\n精灵淡然漫步，偶尔轻晃背后的翅膀，在草地上折射出宝石般透明的光晕。\n\n「……很痒，去别处玩吧，不要停在我的翅膀上。」\n成群的闪蝶不甘不愿地在精灵身侧盘旋飞舞，让她忽略了缠住小腿的藤蔓。\n「哎呀！」\n「……放心，我不会离开的，森林里还有许多我未曾听过的声音。」\n\n精灵回身望向在朝阳中醒来的森林。\n「而且，接下来都是充满阳光的日子。」\n\n——该特别款仅限活动期间通过特殊礼包获得\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "林海心音Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211014",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "菲伊·林海心音Ver.",
+  "title": "林海心音Ver.",
+  "wordCount": 201
+}

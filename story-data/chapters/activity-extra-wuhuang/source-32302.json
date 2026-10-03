@@ -1,0 +1,63 @@
+{
+  "bookId": "activity-extra-wuhuang",
+  "id": "source-32302",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "32302001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        }
+      ],
+      "id": "32302",
+      "sourceRefs": [
+        {
+          "bundle": "wuhuang",
+          "rowIds": [
+            32302001
+          ],
+          "sectionId": 32302
+        }
+      ],
+      "title": "活动片段 32302"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1067",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1067",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 32302,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "videoPath": "Videos/AVG_wuhuang.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 32302",
+  "wordCount": 0
+}

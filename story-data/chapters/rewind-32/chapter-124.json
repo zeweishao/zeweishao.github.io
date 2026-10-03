@@ -1,0 +1,1015 @@
+{
+  "bookId": "rewind-32",
+  "id": "chapter-124",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31011001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "搞什么啊！可恶的闹钟！\n那个大嘴巴的噪音鸡你给我站住！别跑，快给我吐出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011002",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "萝贝卡？！真的是你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "梅、梅根！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011004",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "你在干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我……不关我的事！我……是他们先动手的！\n就是那个闹钟——可恶！不许跑！回来啊臭闹钟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "萝贝卡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31011007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "走，我们快追上去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012001",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "喔喔喔——！赶走入侵者！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "糟糕，噪音鸡越来越多了。\n这么多噪音鸡，怎么才能找到吃掉贝斯的那只啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你说什么？我听不清——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "啊……好痛……咳咳！克莱儿你在哪……唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "真恋！把手给我。\n搂住我的脖子，我抱你出去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012006",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "绿子叽，你怎么不动手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我有更好的方法，你们退后，让我来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "克莱儿你先带真恋撤退，我混进去看看到底发生了什么！\n现在只需要配合我演戏，假装被我赶走就可以了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31012009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "快走开，不然我们就把你们全部吃掉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013001",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "绿子叽好厉害，一句话就把她们吓走了！可以教教我们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "小意思，只要你们告诉我吞下贝斯的那个大兄弟在哪就可以了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013003",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "你是说叽叽叫大哥啊，它去交货了啊。\n它真的好厉害对不对，竟然能吞下那么大的贝斯，我什么时候才能像它一样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "那它们现在都在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013005",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "卖给大老板了啊！只要攒够一万个，大老板就能让咱们长高！\n像叽叽叫大哥一样，一口一个小朋友~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31013006",
+          "sourceType": 2,
+          "speaker": "绿子",
+          "text": "大老板？难道这个什么老板就是幕后黑手？我得去看看——",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-667",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31011001,
+            31011002,
+            31011003,
+            31011004,
+            31011005,
+            31011006,
+            31011007
+          ],
+          "sectionId": 31011
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31012001,
+            31012002,
+            31012003,
+            31012004,
+            31012005,
+            31012006,
+            31012007,
+            31012008,
+            31012009
+          ],
+          "sectionId": 31012
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31013001,
+            31013002,
+            31013003,
+            31013004,
+            31013005,
+            31013006
+          ],
+          "sectionId": 31013
+        }
+      ],
+      "title": "围追堵截·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31014001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "终于出来了。\n真恋，你的脚怎么样，还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我没事，克莱儿……刚刚你力气好大，一下子就把我抱起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "毕竟我是喵爪乐队的贝斯手嘛！搬乐器抱队友什么的，是很正常的啦……\n那个，绿子她没关系吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我最后看到她的时候，她已经一边喔喔喔，一边和噪音鸡勾肩搭背了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "那就好……不过，我刚刚看到我的贝斯似乎坏掉了……\n如果贝斯出了问题，我们的乐队……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014006",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "你在想什么啊，还记得我们的海报吗？\n那是拉斐尔画的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "是啊，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "拉斐尔是M城的预言家啊！她画布上的未来一定会实现！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31014009",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "你看她给你画的乐队海报，上面有你的贝斯对不对~\n这说明你的贝斯会平安回来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "但愿如此……嗯？梅根！海伦你们回来了！\n你们……找到她了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015002",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "抱歉，克莱儿，我们跟丢了。\n那孩子叫萝贝卡，在我原来的世界里，是我萤火小队的成员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "但为什么你一叫她，她跑得更快了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015004",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "也许是我曾经对她太严厉了一些吧……\n比起我，萝贝卡更喜欢粘着酒井唯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015005",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "萝贝卡很擅长离家出走，除了酒井唯，谁也找不到她藏在哪里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "酒井唯？！糟了，已经到这个时间了吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "怎么了？你还有其他事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "酒井唯是我的私教老师啊！\n完了完了，我把她制定的训练计划忘记了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "她在我参加健身训练的第一天就警告我，千万不要逃训……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "但我今天是特殊情况，只是逃一节课而已，应该没问题吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015011",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "……克莱儿，恭喜你。\n看来，我们只要在这里等着就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015012",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……那我就先回去报告了，克莱儿，祝你好运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31015013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "海伦？你现在就回去吗？\n等等——吓！教、教练？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-668",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31014001,
+            31014002,
+            31014003,
+            31014004,
+            31014005,
+            31014006,
+            31014007,
+            31014008,
+            31014009
+          ],
+          "sectionId": 31014
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31015001,
+            31015002,
+            31015003,
+            31015004,
+            31015005,
+            31015006,
+            31015007,
+            31015008,
+            31015009,
+            31015010,
+            31015011,
+            31015012,
+            31015013
+          ],
+          "sectionId": 31015
+        }
+      ],
+      "title": "围追堵截·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31016001",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "抓到你了，克莱儿，听说你想逃训？\n怎么，是原定的训练计划不够刺激吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016002",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "那就在原有的基础上，再加三个小时的零距离私密教学好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我会帮你多流些汗，享受一下腰酸腿痛、气喘吁吁的感觉哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "请……请等一下，教练！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我不是故意的！我正在找萝贝卡，教练能帮帮我们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016006",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "……萝贝卡？她活化了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016007",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "是的，不过，情况有些复杂……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016008",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "原来如此，我大概知道是怎么回事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016009",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我会找到萝贝卡，但在此之前，我不会先入为主，对这件事做任何猜测与评论。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016010",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "唉，你还是像以前一样宠她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016011",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "虽然之前发生过一些事情，但我知道，这孩子本质不坏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016012",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "你知道吗？你的烤箱、厨具坏掉的时候，都是萝贝卡半夜偷偷修好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016013",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "但它们为什么会坏掉？\n难道是铁皮罐头自己跑进去炸烤箱的吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016014",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "……所以，萝贝卡她只是需要更多的特殊训练。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016015",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "承认自己很宠萝贝卡又能怎么样啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016016",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "放心，克莱儿，我会让萝贝卡和你一起加训的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016017",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "教练？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016018",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "哈哈……我没笑，嗯，没有哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016019",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "现在当务之急是找到萝贝卡，让我想想她会去哪里……\n嗯，走吧，我们去找|101|，萝贝卡应该就在附近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016020",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "啊？这就找到了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016021",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "在找人方面，你可以永远相信酒井唯的直觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31016022",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "所以，答应我，不要再试图逃训了，好吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-669",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31016001,
+            31016002,
+            31016003,
+            31016004,
+            31016005,
+            31016006,
+            31016007,
+            31016008,
+            31016009,
+            31016010,
+            31016011,
+            31016012,
+            31016013,
+            31016014,
+            31016015,
+            31016016,
+            31016017,
+            31016018,
+            31016019,
+            31016020,
+            31016021,
+            31016022
+          ],
+          "sectionId": 31016
+        }
+      ],
+      "title": "围追堵截·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31017001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "这里就是|101|的家？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31017002",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "嗯，不过好像有点情况……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31017003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么办怎么办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31017004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好可怕……主人救我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31017005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "冷静点啊，花花花花迦！绝对不能让恐怖分子伤害主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31017006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "趁着主人还没回来，我们……一定要把危险驱逐出去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018001",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "发生什么事了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "家里有变态！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "变态？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "不要凑那么近啊！会有危险的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "说！告诉我！东西——都藏在哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018006",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "救命！唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018007",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "不说？很好，看来你是想让我帮你——这个裁纸刀不错，你想来试试吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "听见了吗？是不是很恐怖！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018009",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "声音好大，闯进屋子里的不会是……人类吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "人类？可我们只是手办……可是，主人马上就要回来了。\n如果我们还不能把坏人赶跑，万一主人受到了伤害……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "即使在人类面前暴露身份，我也要守护主人的安全！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018012",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "等一下，我好像听见了什么声音……唔……好像是开锁的声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我回来了，嗯？你是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主人！等一下——别进去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我不管了！我要去保护主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31018016",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "等等我们，不要单独行动啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-670",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31017001,
+            31017002,
+            31017003,
+            31017004,
+            31017005,
+            31017006
+          ],
+          "sectionId": 31017
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31018001,
+            31018002,
+            31018003,
+            31018004,
+            31018005,
+            31018006,
+            31018007,
+            31018008,
+            31018009,
+            31018010,
+            31018011,
+            31018012,
+            31018013,
+            31018014,
+            31018015,
+            31018016
+          ],
+          "sectionId": 31018
+        }
+      ],
+      "title": "围追堵截·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31019001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "等等……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019002",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "救命——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "克莱儿……呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "说不说？不说我就把你拆掉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019005",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "我、我说……唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019006",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "怎么还不说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019007",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "我的嗓子……被老板……我说不出来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31019008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "那就别怪我不客气了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020001",
+          "sourceType": 5,
+          "speaker": "酒井唯",
+          "text": "萝贝卡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "酒井唯？你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "哇——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "你怎么现在才来啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "松手……别抱着我的腿，大家都在看你呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不嘛！你是我的大腿你不能丢下我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然……萝贝卡是酒井唯的腿部挂件啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "哼，你们知道就好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人？你们认识？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在楼下看到萝贝卡在抓闹钟，就顺便一起带回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "给萝贝卡买了修理器械和涂料？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31020014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我也不想，但……她在地上打滚了啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-671",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31019001,
+            31019002,
+            31019003,
+            31019004,
+            31019005,
+            31019006,
+            31019007,
+            31019008
+          ],
+          "sectionId": 31019
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31020001,
+            31020002,
+            31020003,
+            31020004,
+            31020005,
+            31020006,
+            31020007,
+            31020008,
+            31020009,
+            31020010,
+            31020011,
+            31020012,
+            31020013,
+            31020014
+          ],
+          "sectionId": 31020
+        }
+      ],
+      "title": "围追堵截·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 124,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 124,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "嫌疑人现身",
+  "title": "围追堵截",
+  "wordCount": 2133
+}

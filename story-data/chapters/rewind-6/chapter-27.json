@@ -1,0 +1,876 @@
+{
+  "bookId": "rewind-6",
+  "id": "chapter-27",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3790001",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "吾名为：优·纪，是汝等最为黑暗的噩梦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "吾，命令汝等即刻将此魔王之训诫牢记于心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790003",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "此等屈辱之所，也容得下吾么！哼，跟吾一起去更宽广的天地决斗如何？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优……优纪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪前辈……你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "直呼吾之御名者，罪不可恕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "在吾的恩赐之下，准许自尽，若此之外，别无他法！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790008",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "欸嘿嘿……你是一个傻子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "放肆！此等大逆不道之轻蔑言语！吾要锤烂汝之狗头！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790010",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "啊啊啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790011",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "啊啊啊啊啊啊啊啊啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790012",
+          "sourceType": 5,
+          "speaker": "真田幸村",
+          "text": "出现了！颜之艺术！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "啊——这——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790014",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我我我、这不是我的问题啦！（逃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790015",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "屠戮之宴，至！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790016",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "汝等，在天魔之力的颤栗中，化作无声的悲鸣罢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3790017",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "居然……打起来了，快、快拦住他们！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-195",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3790001,
+            3790002,
+            3790003,
+            3790004,
+            3790005,
+            3790006,
+            3790007,
+            3790008,
+            3790009,
+            3790010,
+            3790011,
+            3790012,
+            3790013,
+            3790014,
+            3790015,
+            3790016,
+            3790017
+          ],
+          "sectionId": 3790
+        }
+      ],
+      "title": "#1 吾名为“弑神”"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3800001",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "哇呀呀呀呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "此般奋勇，教吾甚是宽慰！哼哈哈哈哈，理应如此！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800003",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "这……究竟是一场怎样的战斗啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800004",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "我不能在允许这样的情况发生下去了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800005",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "可是岩田和江……你到底……应该怎样去做？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800006",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "强行剥离表皮的涂装，优纪她不就会……变成白模吗？可恶啊！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "只有这种程度吗？怎么了？再来为吾制造更多的欢愉啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800008",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "像虫子一样匍匐在地，屈辱的舔舐吾的双足。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "一边用欲求不满的卑微的姿态，一边祈求吾的赦免啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800010",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "你的那双臭脚，快给我死一边去啊啊啊啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哼，已经开始有些厌倦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800012",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "唔哈哈哈，就让内脏翻涌出鲜花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3800013",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "就让吾之姿态，深深的烙刻在汝空寂的灵魂之中罢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-196",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3800001,
+            3800002,
+            3800003,
+            3800004,
+            3800005,
+            3800006,
+            3800007,
+            3800008,
+            3800009,
+            3800010,
+            3800011,
+            3800012,
+            3800013
+          ],
+          "sectionId": 3800
+        }
+      ],
+      "title": "#2 吕布VS优纪"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3810001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "汝、汝……还有汝！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "睁开愚笨的双眼，吾将成为汝等漫步地狱黄泉的领路人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810003",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "嘿嘿……我是一个傻子……嘿嘿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810004",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "装疯卖傻的愚物，只会将吾的耐心消耗，尽数变为恣意的屠戮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪……优纪！请看看我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔？汝已经切实做好踏上死亡乐土的决心了么？哼哈哈哈，幸运的愚物，正是如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪……就连我，你也记不清了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810008",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "只要让我使出一拳……就可以把你打上西天，欸嘿嘿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哦？唔哈哈哈哈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810010",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "什、什么？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810011",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "看似平凡无奇的一拳，竟然孕育了六合八荒、天地玄黄……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "若不是吾以妙曼之姿竭力抵挡……是吾低估了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810013",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "如此甚好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3810014",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "就让吾体内这恶鬼的余烬，燃烧的再持久一些罢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-197",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3810001,
+            3810002,
+            3810003,
+            3810004,
+            3810005,
+            3810006,
+            3810007,
+            3810008,
+            3810009,
+            3810010,
+            3810011,
+            3810012,
+            3810013,
+            3810014
+          ],
+          "sectionId": 3810
+        }
+      ],
+      "title": "#3 逆转的号角"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3820001",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "无法插手……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820002",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "这种奇怪的作战方式，怎么说，在下还是第一次看到！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820003",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "嗯！今天也是学习到新作战技巧的一天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "玲前辈…… ",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "哎呀呀，你也察觉到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯！优纪前辈身体表层的涂料……就像那时候一样，在慢慢剥落……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "欸？有发现什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯！内层的涂装不像是纯粹的白模……而有一些斑驳的，蓝色！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你的意思是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈……花迦……并不敢随意妄下结论。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "因为……一旦有预期之外的情况发生，会……会对不起主人的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820013",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "混蛋混蛋混蛋，少给吾大放厥词了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820014",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "吾：优·|101|·T·常非·江和田岩·Yrret·迦花·纪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3820015",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "正是不可战胜之存在！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-198",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3820001,
+            3820002,
+            3820003,
+            3820004,
+            3820005,
+            3820006,
+            3820007,
+            3820008,
+            3820009,
+            3820010,
+            3820011,
+            3820012,
+            3820013,
+            3820014,
+            3820015
+          ],
+          "sectionId": 3820
+        }
+      ],
+      "title": "#4 外层·内层"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3830001",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "左边，是左边哦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830002",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "唔哈哈哈，那吾定然从右侧奇袭！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这，怎么可能？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830004",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "早就告诉过你了啦，是左边，左边哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好大的胆子！竟敢戏耍吾！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830006",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "吾誓要掏出汝滚烫之心脏，于尘土之上践踏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830007",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "欸嘿嘿……这一次，是右边哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830008",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "死吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830009",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "早就说过是右边了哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830010",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "你这混账东西！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830011",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "呜哇哇哇……好痛，好痛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这就是与吾作对、与天地作对的下场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈……优纪前辈涂料剥落的……更加厉害了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "讯息收到！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们分出全力，对抗这些包围的玩具！至于其他的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3830016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "也只能交给他了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-199",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3830001,
+            3830002,
+            3830003,
+            3830004,
+            3830005,
+            3830006,
+            3830007,
+            3830008,
+            3830009,
+            3830010,
+            3830011,
+            3830012,
+            3830013,
+            3830014,
+            3830015,
+            3830016
+          ],
+          "sectionId": 3830
+        }
+      ],
+      "title": "#5 放弃的理由"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3840001",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "哈哈，来追我啊~~来追我啊~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "死吧！死吧！死吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840003",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "欸嘿嘿……就是追不到我！你就是追不到我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840004",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "想不到，吾竟跳出此等拙劣的舞蹈！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840005",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "切……这实在远并非吾之强项！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840006",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "可恶，吾的脚踝！卡在齿轮之中了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840007",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "欸嘿嘿，像大风车一样，转起来……转起来吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840008",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "愚物！吾命令汝，快停下来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "好……恶心……住手……我要晕了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请你……快点放手啊……优纪的头……好晕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840011",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "唔啊啊啊啊，吾是不会如此屈服的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840012",
+          "sourceType": 3,
+          "text": "齿轮的旋转越来越快，在离心力作用下，优纪身上表层的「紫色颜料」尽数脱落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3840013",
+          "sourceType": 3,
+          "text": "伤痕累累的身体上，内层斑驳的蓝色涂料和最外层由你曾亲手涂上的，代表少女鲜明个性的黄色，彼此相互照应。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3840014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "求求你……请……放我下来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "吾……我、我好……我好累……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840016",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "真没劲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840017",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "拜拜，去找别的新鲜喽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大脑……完全要失去意识了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3840019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我……到底在哪里……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-200",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3840001,
+            3840002,
+            3840003,
+            3840004,
+            3840005,
+            3840006,
+            3840007,
+            3840008,
+            3840009,
+            3840010,
+            3840011,
+            3840012,
+            3840013,
+            3840014,
+            3840015,
+            3840016,
+            3840017,
+            3840018,
+            3840019
+          ],
+          "sectionId": 3840
+        }
+      ],
+      "title": "#6 原本的你"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 27,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 27,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "潜能爆发",
+  "title": "第26章",
+  "wordCount": 1540
+}

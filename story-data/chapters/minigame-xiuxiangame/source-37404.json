@@ -1,0 +1,102 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37404",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37404001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "别耍我了，人类，你其实根本没打算放弃吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就算我不买，你也早晚会被其他人买走的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这、这种事，到时候再想办法，总之先解决你再说！\n这样吧，那我们就来打赌，比比看谁挣的钱多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "手办怎么挣钱呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼哼，街角、井盖、自动售货机下面......\n这座城市里没有任何一个硬币，能逃脱我的法眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "截止时间，就定在你打工结束的日子。\n你赢了，我就跟你回家，绝不逃跑。你输了，就不准买走我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37404007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，一言为定。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37404",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37404001,
+            37404002,
+            37404003,
+            37404004,
+            37404005,
+            37404006,
+            37404007
+          ],
+          "sectionId": 37404
+        }
+      ],
+      "title": "消除关卡 20 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "20",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "20",
+          "result_avg_id"
+        ],
+        "sectionId": 37404,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 20 · 结算",
+  "wordCount": 186
+}

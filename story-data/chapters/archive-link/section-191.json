@@ -1,0 +1,105 @@
+{
+  "bookId": "archive-link",
+  "id": "section-191",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "191001",
+          "sourceType": 0,
+          "speaker": "代号VI",
+          "text": "报告大人，A区「配重币」已经搜刮完毕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191002",
+          "sourceType": 0,
+          "speaker": "代号VII",
+          "text": "报告大人，目标人类家中的闲置「配重币」已经搜刮完毕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191003",
+          "sourceType": 0,
+          "speaker": "代号VIII",
+          "text": "报告大人，已经成功胁迫目标区域手办交出自己的随盒「配重币」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191004",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "很好，继续搜集。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191005",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "凡是与人类产生牵绊的，必遭破坏；\n凡是与FULI公司相关的，终将毁灭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191006",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "我，阿撒兹勒，浴火重生，再次归来。\n——为你们最后的短暂欢愉敲响晚钟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191007",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "这是我的信念，我的复仇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191008",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "你们看，有好多「配重币」的好地方，就是这里——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "191009",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "——谁在那？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "191",
+      "sourceRefs": [
+        {
+          "bundle": "link",
+          "rowIds": [
+            191001,
+            191002,
+            191003,
+            191004,
+            191005,
+            191006,
+            191007,
+            191008,
+            191009
+          ],
+          "sectionId": 191
+        }
+      ],
+      "title": "原文片段 191"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "link",
+        "sectionId": 191
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 191",
+  "wordCount": 193
+}

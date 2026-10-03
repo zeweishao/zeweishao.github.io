@@ -1,0 +1,203 @@
+{
+  "bookId": "hero-214105",
+  "id": "bond-43806",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43806001",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "本仙知道，这些日子你定是在筹划什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43806002",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "清池绿树，云雾缭绕……竟是一处小型洞府？这雾气是从何而来？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43806004",
+              "text": "在周围铺了一层干冰。"
+            },
+            {
+              "targetId": "43806004",
+              "text": "科学的力量，很神奇吧？"
+            }
+          ],
+          "sourceId": "43806003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43806004",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "不愧是你。真是颇具巧思，本仙很中意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43806005",
+          "sourceType": 3,
+          "text": "少女这瞧瞧，那看看，没多久便逛遍了整个洞府。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43806006",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "看得出来你花了不少心思，但在本仙眼中，里面还缺了一样最重要的事物。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43806008",
+              "text": "还缺了什么？"
+            }
+          ],
+          "sourceId": "43806007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43806008",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "那便是——你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43806009",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "若是你不能同本仙一起住在洞府里头，再好的景致终究也会变得无趣，就像本仙看待仙界的琼楼玉宇一般。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43806011",
+              "text": "这个洞府是手办尺寸的。"
+            },
+            {
+              "targetId": "43806011",
+              "text": "人类可住不进去。"
+            }
+          ],
+          "sourceId": "43806010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43806011",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "嘻，只是几句笑言，莫要当真。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43806012",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "你住不进来，本仙难道不会跑出来陪你么？我们还能一起做许多许多的事。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43806014",
+              "text": "比如打铁花？"
+            }
+          ],
+          "sourceId": "43806013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43806014",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "比如打铁花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43806015",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "哎，自从到了你这，本仙的思凡之心愈发深重。长此以往，怕是回不了天上了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43806017",
+              "text": "那就一直留在我身边吧。"
+            }
+          ],
+          "sourceId": "43806016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43806017",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "暂且……依你便是。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43806",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43806001,
+            43806002,
+            43806003,
+            43806004,
+            43806005,
+            43806006,
+            43806007,
+            43806008,
+            43806009,
+            43806010,
+            43806011,
+            43806012,
+            43806013,
+            43806014,
+            43806015,
+            43806016,
+            43806017
+          ],
+          "sectionId": 43806
+        }
+      ],
+      "title": "仙人洞府"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "仙人洞府",
+  "wordCount": 334
+}

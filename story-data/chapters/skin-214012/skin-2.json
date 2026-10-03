@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214012",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这是一间古色的茶室，蓝莎犹如轻灵的雪女般惹人怜爱，跪坐在茶几的侧面。\n冰蓝色的发丝上点缀蓝紫色的头饰，那明朗令人目眩神迷的色彩亦是缀满她身上装扮的调色。\n蓝莎轻轻捧起了茶杯，让人难以判断她和那精美茶具哪边才是真正的艺术品。\n清雅的香味像是来自精心炮制的热茶，又像是来自蓝莎的白皙胜雪的肌肤。\n「主人……请喝这个。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "胧月雪姬Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214012",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蓝莎·胧月雪姬Ver.",
+  "title": "胧月雪姬Ver.",
+  "wordCount": 153
+}

@@ -1,0 +1,144 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35017",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35017001",
+          "sourceType": 10,
+          "text": "龙骧麟振",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35017002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你们快看，米菲亚做好了一只金光闪闪的超级大喵~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这是猫？似乎哪里不对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这不是猫咪啦，米菲亚，这个叫作金麒麟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "优纪会知道这个，有些意外呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是「兔儿爷」告诉我的，她知道好多有趣的民俗知识呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017007",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "难得你们会对民俗感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不会不会，民俗真的很有趣，难怪主人也那么入迷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "|101||103|会对民俗感兴趣，真是个浪漫的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？！绯野为什么突然要把「兔儿爷」拉走？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这还不明白吗，当然是恶补民俗学的知识——立刻，马上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35017012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在了解|101||103|这件事上，绝不允许有人能够超越我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35017",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35017001,
+            35017002,
+            35017003,
+            35017004,
+            35017005,
+            35017006,
+            35017007,
+            35017008,
+            35017009,
+            35017010,
+            35017011,
+            35017012
+          ],
+          "sectionId": 35017
+        }
+      ],
+      "title": "龙骧麟振"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35017,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "80",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "当金色的麒麟与「兔儿爷」相遇，是只有敏锐如猫一样的米菲亚才能想到的创意。",
+  "title": "龙骧麟振",
+  "wordCount": 234
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213104",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "破坏暴君「米莉姆·纳瓦」化身为1/7比例模型登场！登场的魔王有着娇俏活泼的粉色双马尾，漂亮面容上的神情威严又可爱，没有人可以抵挡她的魅力。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213104"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 69
+}

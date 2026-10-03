@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-215001",
+  "id": "bond-26024",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26024001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "樱……在做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么不说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024003",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "樱在扮演蘑菇，蘑菇不能说话的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "噢噢噢，原来世界上还有这么漂亮可爱的蘑菇的吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024005",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "嘿嘿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我现在要扮演采蘑菇的人，把樱带走咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "顺便问一句，樱这么好看的，会是毒蘑菇吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024008",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "不是的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024009",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "毒蘑菇的话，会伤害到想要靠近樱的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024010",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "樱就是普通的小蘑菇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "知道了，那现在我可以把樱带走了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小樱蘑菇，带回去吃要炖汤，还是炒菜呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024013",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "唔~就不能和小樱蘑菇做朋友吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，这也是一个好主意，带回一个樱，第二年就能收获几百个小樱了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26024015",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "噗~才不会。樱只有一个的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26024",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26024001,
+            26024002,
+            26024003,
+            26024004,
+            26024005,
+            26024006,
+            26024007,
+            26024008,
+            26024009,
+            26024010,
+            26024011,
+            26024012,
+            26024013,
+            26024014,
+            26024015
+          ],
+          "sectionId": 26024
+        }
+      ],
+      "title": "蘑菇"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "蘑菇",
+  "wordCount": 222
+}

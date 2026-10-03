@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212002",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "尽管早已习惯了「手办」这个新的身份，但她从未将自己的过去遗忘。\n\n她至今记得弟弟「空」说过的那些异想天开的胡话，关于荒岛的未来，关于小小的少年炙热的梦想——那是用玲看不懂的代码编写的近乎完美的世界。\n\n最近，玲的面前突然多了一个模样有些奇特的方形装置——\n这个方方正正的小盒子拥有着巨大的魔力，能够链接数以万计的奇妙虚拟空间。\n\n弟弟「空」关于荒岛的梦想竟然全都实现了，这一切究竟是怎么回事呢？",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "隐秘装置Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212002",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "玲·隐秘装置Ver.",
+  "title": "隐秘装置Ver.",
+  "wordCount": 190
+}

@@ -1,0 +1,216 @@
+{
+  "bookId": "activity-extra-party",
+  "id": "source-192",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "192001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家都准备好了，花迦这边呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「万事俱备，只欠东风」……用「迫不及待」来形容都不为过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "什么「迫不及待」？你们这些家伙，又在谋划什么奇怪的事了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "——警告你们，特别人类刚刚出浴的身体，只能由吾亲自守护。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "龙王大人？……不，不是您想的那样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "语气游移，目光闪躲，一定在隐瞒什么重要的事！\n——有水声？快让开，人类是不是在里面！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "请……请您离开，不要做这种强取豪夺的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，果然里面有……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "192010",
+              "text": "艾伦兹，你怎么来了？"
+            }
+          ],
+          "sourceId": "192009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "192010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……糟啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "唔，看来我的人类有好好保护自己的身体，\n不过你家里的几个手办，好像在暗中谋划什么奇怪的事呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "192013",
+              "text": "为什么这样说呢？"
+            }
+          ],
+          "sourceId": "192012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "192013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "胡…胡说八道，一派胡言，无中生有，信口开河，血口喷人……\n根，根本没有这样的事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿……花迦完全不擅长说谎呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192015",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "对了优纪，可以请你帮忙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192016",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "狡猾！是泳装少女！狡猾！太狡猾了……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜……这下完全曝光啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿算啦，既然这样，就直接告诉主人好了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "夏天到了，大家商量着秘密给主人准备一个惊喜派对来着，\n希望这个夏天，主人能跟西瓜、刨冰还有我们一起，开开心心地度过~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "192020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好啦主人，大家都等你很久了，快进去看看吧——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "192",
+      "sourceRefs": [
+        {
+          "bundle": "party",
+          "rowIds": [
+            192001,
+            192002,
+            192003,
+            192004,
+            192005,
+            192006,
+            192007,
+            192008,
+            192009,
+            192010,
+            192011,
+            192012,
+            192013,
+            192014,
+            192015,
+            192016,
+            192017,
+            192018,
+            192019,
+            192020
+          ],
+          "sectionId": 192
+        }
+      ],
+      "title": "活动片段 192"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "2501",
+              "enter_avg"
+            ],
+            "table": "ResOpActivityFLottoryMisc.lua"
+          }
+        ],
+        "path": [
+          "2501",
+          "enter_avg"
+        ],
+        "sectionId": 192,
+        "table": "ResOpActivityFLottoryMisc"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 192",
+  "wordCount": 456
+}

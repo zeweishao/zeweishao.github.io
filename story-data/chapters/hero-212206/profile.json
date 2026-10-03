@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212206",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名设计师细雪不庭亲自操刀，将人气游戏《永恒的异界幻想》中的「贝歌」制成手办。每一朵浪花仿佛受到召唤般环绕在她四周，倾听她轻柔的吟唱。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212206"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 67
+}

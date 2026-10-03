@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212014",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「大家久等了，冷饮都准备好了喔——」\n\n真乃在泳池边一路小跑，脚下绽放着一朵朵水花。她脚底一滑，上身后倾，眼看着即将摔倒——\n\n「仓田流·人水合一！」\n\n漂亮的转体动作。少女单脚点地，止住了倒地的态势。\n\n「洒到身上了，但是好凉快……」\n\n(专业动作，请勿模仿。) \n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "白熊冰饮Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212014",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仓田真乃·白熊冰饮Ver.",
+  "title": "白熊冰饮Ver.",
+  "wordCount": 142
+}

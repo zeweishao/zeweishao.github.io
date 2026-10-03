@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215004",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "不知什么时候起，房间的桌面上多了一个装饰精美的纸盒，隐隐地向外冒着白气。\n\n触手微凉，小心翼翼地将纸盒的上盖掀开——\n\n「呵……终于发现啦……」\n\n瓷碟上的少女莞尔一笑，轻轻地踮起脚。鲜美的红莓点缀在她的身边，带着淡淡的香味与阵阵的清凉。\n\n「今天的芭菲格外的香甜……不来尝一口吗？」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鲜莓芭菲Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215004",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海伦·鲜莓芭菲Ver.",
+  "title": "鲜莓芭菲Ver.",
+  "wordCount": 134
+}

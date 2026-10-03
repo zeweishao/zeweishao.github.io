@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212106",
+  "id": "bond-30630",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "30630001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是抱歉，今天社区的手办治安又麻烦你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630002",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "没关系，风纪委员本来就是黑子的本职工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "而且我知道，你把治安工作托付给我，是为了让我尽快适应这里，谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630004",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "扑通——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "黑子，你怎么了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630006",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "没事，只是因为使用了太多次能力所以有点疲劳而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对不起，都是我让你涉险才会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你背后的涂料好像也有点刮掉了，我帮你重新上一次吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630009",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "等、等一下，你把我拿起来干什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为要拿近一点才不会涂歪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630011",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "不用了，我自己来就好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30630012",
+          "sourceType": 5,
+          "speaker": "白井黑子",
+          "text": "请你放开，我没有那种癖好！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "30630",
+      "sourceRefs": [
+        {
+          "bundle": "paojie-p3",
+          "rowIds": [
+            30630001,
+            30630002,
+            30630003,
+            30630004,
+            30630005,
+            30630006,
+            30630007,
+            30630008,
+            30630009,
+            30630010,
+            30630011,
+            30630012
+          ],
+          "sectionId": 30630
+        }
+      ],
+      "title": "风纪委员"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212106",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "风纪委员",
+  "wordCount": 204
+}

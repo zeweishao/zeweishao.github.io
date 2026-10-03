@@ -1,0 +1,205 @@
+{
+  "bookId": "activity-extra-3rd_qiandao",
+  "id": "source-40302",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "40302001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "不知不觉和主人相伴的时光，竟然已经过去这么久了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "确实，回想初次相遇的那些日子，一切仿佛还在昨天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以，我决定要为主人策划一个特殊的约会，庆祝这个难忘的纪念日！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40302005",
+              "text": "哇，真是太棒了！"
+            },
+            {
+              "targetId": "40302005",
+              "text": "有什么特别的计划吗？"
+            }
+          ],
+          "sourceId": "40302004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40302005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，优纪早就想好了哦。\n一起到郊外的公园来一场属于手办和主人的秘密约会，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我听说过那个公园，在M城很有名的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "听起来很不错，我们什么时候出发？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在就走，我去准备一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好久没有和主人一起出门了，忍不住有些期待呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302010",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "M城郊外，公园小径。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，这里怎么会有这么多人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "唔，这里果然很受欢迎，大家都和我们一样慕名而来，不可避免地聚集了大量的游客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "可惜。看来我们的秘密约会没有办法在这里举行了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，这里不行，我们就换个地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，优纪好不容易找到这么完美的约会地点……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "本来想让主人开心，结果却完全起到了相反的效果……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "走吧，我们去别的地方看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40302018",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "突然，主人的终端通讯响了起来——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "40302",
+      "sourceRefs": [
+        {
+          "bundle": "3rd_qiandao",
+          "rowIds": [
+            40302001,
+            40302002,
+            40302003,
+            40302004,
+            40302005,
+            40302006,
+            40302007,
+            40302008,
+            40302009,
+            40302010,
+            40302011,
+            40302012,
+            40302013,
+            40302014,
+            40302015,
+            40302016,
+            40302017,
+            40302018
+          ],
+          "sectionId": 40302
+        }
+      ],
+      "title": "活动片段 40302"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10030",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10030",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 40302,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 40302",
+  "wordCount": 382
+}

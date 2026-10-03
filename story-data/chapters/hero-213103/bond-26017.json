@@ -1,0 +1,72 @@
+{
+  "bookId": "hero-213103",
+  "id": "bond-26017",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26017001",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "世界一直在变，但我永远用心歌唱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26017002",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "戴上耳机，进入音乐的世界。Go。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26017004",
+              "text": "我准备好了！"
+            }
+          ],
+          "sourceId": "26017003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26017004",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "奏响吧，未来之音！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26017",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26017001,
+            26017002,
+            26017003,
+            26017004
+          ],
+          "sectionId": 26017
+        }
+      ],
+      "title": "未来之音"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "未来之音",
+  "wordCount": 47
+}

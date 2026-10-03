@@ -1,0 +1,183 @@
+{
+  "bookId": "hero-214021",
+  "id": "bond-28579",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28579001",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你看起来心情不错，有遇到什么好事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "这是为你特别调制的饮品，来，快尝尝看。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28579004",
+              "text": "好香的味道。"
+            },
+            {
+              "targetId": "28579004",
+              "text": "我不能饮酒。"
+            }
+          ],
+          "sourceId": "28579003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28579004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "放心，酒精含量很低，你会喜欢的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579005",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "相信我，这会是你毕生难忘的味道。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28579007",
+              "text": "唔，果然很醇香，味道很特别。"
+            }
+          ],
+          "sourceId": "28579006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28579007",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "这是「口嚼酒」，它是天照大御神祭祀活动才会使用的供品，一般人是无法品尝到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579008",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你的品味很不错……嗯，我看人的眼光一向很准。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28579010",
+              "text": "什么是「口嚼酒」？"
+            }
+          ],
+          "sourceId": "28579009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28579010",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "和普通的酿造酒类相比，「口嚼酒」制作过程中需要将谷物放入口中咀嚼，然后自然发酵而成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579011",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "通常祭祀使用的口嚼酒会由侍奉天照大御神的巫女制作，没错，你喝的这杯是我亲自酿造的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28579013",
+              "text": "这里面有你的……"
+            },
+            {
+              "targetId": "28579013",
+              "text": "我感觉不太妙……"
+            }
+          ],
+          "sourceId": "28579012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28579013",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "呀，你的这个反应真是可爱呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579014",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "如你所见，如今身为「手办」的我，是没有唾液那种东西的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28579015",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "所以，你可以尽情地享受这一杯独属于你的美味哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28579",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28579001,
+            28579002,
+            28579003,
+            28579004,
+            28579005,
+            28579006,
+            28579007,
+            28579008,
+            28579009,
+            28579010,
+            28579011,
+            28579012,
+            28579013,
+            28579014,
+            28579015
+          ],
+          "sectionId": 28579
+        }
+      ],
+      "title": "特制饮品"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214021",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "特制饮品",
+  "wordCount": 327
+}

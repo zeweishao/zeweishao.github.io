@@ -1,0 +1,208 @@
+{
+  "bookId": "activity-extra-signin-springfestival",
+  "id": "source-25640",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25640001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "花灯已陪你赏过了，现在是时候犒劳一下你的胃了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640002",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "说吧，今天想吃点什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25640004",
+              "text": "不是应该吃元宵吗？"
+            }
+          ],
+          "sourceId": "25640003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25640004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，看得出来|101|是一位非常喜爱传统习俗的人呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "元宵虽然是一种很常见的家常美食，可想要做得好吃却并非那么简单的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "从元宵皮的选料，再到馅的调制，每一个环节的工序都是十分繁琐的呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25640008",
+              "text": "好麻烦，不如吃速冻的吧。"
+            }
+          ],
+          "sourceId": "25640007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25640008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "那怎么能行！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "今天的日子这么特别，想要重来一次的话，那可要等到明年的今日了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "珍惜当下、享受当下，让今天不留遗憾，才是我们应该有的态度。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25640012",
+              "text": "唔，都听你的。"
+            }
+          ],
+          "sourceId": "25640011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25640012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "这才对嘛，尽管会有一番辛苦，不过吃到手作的元宵，滋味绝对是超值的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "元宵是我唯一会制作的一道美食，可惜我已经好久没有下厨了，手生是肯定的啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "所以你会一直在旁边协助我，直到我完成的，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25640015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，我们开始吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25640",
+      "sourceRefs": [
+        {
+          "bundle": "signin-springfestival",
+          "rowIds": [
+            25640001,
+            25640002,
+            25640003,
+            25640004,
+            25640005,
+            25640006,
+            25640007,
+            25640008,
+            25640009,
+            25640010,
+            25640011,
+            25640012,
+            25640013,
+            25640014,
+            25640015
+          ],
+          "sectionId": 25640
+        }
+      ],
+      "title": "活动片段 25640"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "194",
+              "27",
+              "7",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          },
+          {
+            "path": [
+              "1521",
+              "27",
+              "7",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "194",
+          "27",
+          "7",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 25640,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25640",
+  "wordCount": 323
+}

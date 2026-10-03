@@ -1,0 +1,1177 @@
+{
+  "bookId": "rewind-20",
+  "id": "chapter-86",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22623001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，你终于回来啦……！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22623003",
+              "text": "怎么了，委屈巴巴的？"
+            }
+          ],
+          "sourceId": "22623002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22623003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……呜呜，优纪以为自己再也见不到主人啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人……你不在家的时候，优纪被坏人绑走了，差一点就死掉了，多亏了「蒂娅」，是「蒂娅」救了我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22623007",
+              "text": "你好，蒂娅，谢谢你，非常感谢。"
+            }
+          ],
+          "sourceId": "22623006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22623007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "（……心在跳动……这是什么感觉？）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "（很像……熟悉又温柔的语气……）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623009",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "（眼前这个人类……会是我要寻找的……「那个人」吗？）",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22623011",
+              "text": "蒂娅，蒂娅？"
+            }
+          ],
+          "sourceId": "22623010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22623011",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……噢，抱歉。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22623013",
+              "text": "怎么了，是我脸上沾了东西吗？"
+            }
+          ],
+          "sourceId": "22623012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22623013",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "对、对不起，我有……一点出厂故障，\n……偶尔会进入无意识的休眠。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸？怎么会这样？！是……是出荷的时候撞到了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "是原著带来的后遗症，她是战斗机型，据说因为战斗能耗太大，所以需要经常休眠呢——对吧，头儿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623016",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "嗯……是这样的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样阿，对了主人，蒂娅她超厉害的！轻轻松松就把那么多坏蛋给打飞了，还有还有阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "再就是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "「出厂故障」？「无意识休眠」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "——哎，头儿，你今天不太对劲阿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623021",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "说话磕磕巴巴，脸红得也很可疑，该不会是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22623022",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "没有的事。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-497",
+      "sourceRefs": [
+        {
+          "bundle": "blackyouji",
+          "rowIds": [
+            22623001,
+            22623002,
+            22623003,
+            22623004,
+            22623005,
+            22623006,
+            22623007,
+            22623008,
+            22623009,
+            22623010,
+            22623011,
+            22623012,
+            22623013,
+            22623014,
+            22623015,
+            22623016,
+            22623017,
+            22623018,
+            22623019,
+            22623020,
+            22623021,
+            22623022
+          ],
+          "sectionId": 22623
+        }
+      ],
+      "title": "歧途之宴·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22624001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "时间不早了，我们也该走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸……等等，这么晚了……留下来休息一下吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "而且我们马上就要举办超大的庆宴了，大家都会来的，你愿意……一起参加吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22624005",
+              "text": "留下来吧，大家都很喜欢你呢~"
+            }
+          ],
+          "sourceId": "22624004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22624005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "超大的庆宴吗，那也不错，我看我们就多呆几天好了，正好可以彼此熟悉一下呢——对吧，头儿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "喂……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好啦！那就说定啦！\n蒂娅……你现在累了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624009",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "还好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "跟我来，我想带你去一个地方~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，已经这么晚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没关系，有蒂娅和我在一起呢~安心啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "闭上眼噢，很快就到了，小心台阶——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迈过来一点，在这里坐下，好了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "锵锵——！怎么样怎么样，很不错吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624016",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "星星……好漂亮……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿~这是优纪的秘密基地哦，开心的时候、有烦恼的时候都会偷偷来这里，连和江都不知道呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但不知道为什么，第一眼看见你的时候……就想带你来看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总觉得，你身上有一种熟悉的味道……虽然这么说有些冒昧，但这种感觉就像是，我们认识了很久一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624020",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……噗，哈呵呵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸……果、果然很好笑吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624022",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "不是的，我也这样觉得——好像已经认识你很久了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那优纪真是世界上最幸福的人了！\n你看那边，启明星升起来了……真好阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624024",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（终于见到你了，「优纪」。）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22624025",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（原来是这样，这样充满活力的无忧无虑的女孩子阿……）",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-498",
+      "sourceRefs": [
+        {
+          "bundle": "blackyouji",
+          "rowIds": [
+            22624001,
+            22624002,
+            22624003,
+            22624004,
+            22624005,
+            22624006,
+            22624007,
+            22624008,
+            22624009,
+            22624010,
+            22624011,
+            22624012,
+            22624013,
+            22624014,
+            22624015,
+            22624016,
+            22624017,
+            22624018,
+            22624019,
+            22624020,
+            22624021,
+            22624022,
+            22624023,
+            22624024,
+            22624025
+          ],
+          "sectionId": 22624
+        }
+      ],
+      "title": "歧途之宴·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22625001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "蒂娅……听我说……你……颗善良的心……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "寻找伊甸……兹拉兹拉……隐藏使命……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "找到它，蒂娅……兹拉兹拉……你就会……一个真正的人类……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "停下……否则就开枪了……三，二……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625005",
+          "sourceType": 3,
+          "text": "啪——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22625006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是的，吓死了，哈莉！\n不要再乱踩露营宴会用的气球了，准备了好久呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呣呵——真是的，心脏都要吓出来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "一晚上不睡觉，两个人走路都在「休眠」呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哪有一晚上，只是和蒂娅聊了一小会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "和江前辈很担心，半夜一直守在家门口呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅和优纪看起来很累，要我托你们走一会吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇太好了，最喜欢主人了~！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22625015",
+              "text": "轻轻托起蒂娅和优纪。"
+            }
+          ],
+          "sourceId": "22625014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22625015",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（手掌很温暖……是那种熟悉的……暖洋洋的感觉……）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625016",
+          "sourceType": 7,
+          "text": "蒂娅 · 攀登者\n商品名称：蒂娅·攀登者 Ver.\n作品名称：《永恒的异界幻想》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约236mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22625018",
+              "text": "抱歉蒂娅，优纪给你添了不少麻烦吧。"
+            }
+          ],
+          "sourceId": "22625017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22625018",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "不、不会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625019",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，快下来，果然又在趁我不注意的时候，找借口占人类的便宜了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你才是呢，为了见主人换上这种狡猾的装扮！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "今天可是特别的日子，美丽的相遇当然要优雅的装扮衬托，这是保持礼节的重要部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "是吗，美丽的小姐，\n这身装束似乎不太适合钓鱼活动呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625023",
+          "sourceType": 7,
+          "text": "泉 · 愿者上钩\n商品名称：泉·愿者上钩 Ver.\n作品名称：《终焉地平线》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "22625024",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿嘿嘿~哈莉的烧烤派对也这样认为~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625025",
+          "sourceType": 7,
+          "text": "哈莉 · 热火朝天\n商品名称：哈莉·热火朝天 Ver.\n作品名称：《少女X机关枪》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约243mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "22625026",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "唔~有趣的场面~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625027",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "没见过的家伙，你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625028",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "你们好，拜「天启」所赐，我是个四处流浪的手办，对这种盛大又热闹的派对很感兴趣——可以加入你们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625029",
+          "sourceType": 7,
+          "text": "S-VIII · 黯匿者\n商品名称：S-VIII·黯匿者 Ver.\n作品名称：《终焉地平线》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约264mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "22625030",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哈，「天启」的受害者吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然啦~非常欢迎，请放松心情，不要客气尽情享受~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22625032",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "谢谢，我想我会「好，好，享，受」的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-499",
+      "sourceRefs": [
+        {
+          "bundle": "blackyouji",
+          "rowIds": [
+            22625001,
+            22625002,
+            22625003,
+            22625004,
+            22625005,
+            22625006,
+            22625007,
+            22625008,
+            22625009,
+            22625010,
+            22625011,
+            22625012,
+            22625013,
+            22625014,
+            22625015,
+            22625016,
+            22625017,
+            22625018,
+            22625019,
+            22625020,
+            22625021,
+            22625022,
+            22625023,
+            22625024,
+            22625025,
+            22625026,
+            22625027,
+            22625028,
+            22625029,
+            22625030,
+            22625031,
+            22625032
+          ],
+          "sectionId": 22625
+        }
+      ],
+      "title": "歧途之宴·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22626001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "很香呢，这位大厨，这是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉特制「涂料烧烤」！手办也能「体验」的美食盛宴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "黄色是榴莲口味，红色是草莓口味，绿色是青苹果口味~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "嗯~真是有趣~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "像真正的美食一样呢，劳驾劳驾，让我过去一下，不介意吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "当然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "不要出声，你跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "新串好的鲱鱼罐头口味，有人要吗——\n欸，她们两个到哪里去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "大概有什么悄悄话吧——嘿，给我一个金枪鱼配水果口味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626010",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "你怎么在这？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "当然是正大光明，接受了派对的邀请，\n刚才你也在场，不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626012",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "水城结奈在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "她不太喜欢这种场合，尤其是……面对这么多活蹦乱跳的，小玩意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626014",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "为什么回到M城？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这句话还轮不到你来发问，「异乡人」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626016",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我知道你在找什么，花鸟原，或者该叫你——「S-VIII」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626017",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……哼，消息倒很灵通。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626018",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "有一件事我不明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626019",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "如果我猜得不错，那单「运送货物」的委托人，就是你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626020",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "身为「天启十一众」，却刻意引我们前去破坏阿撒兹勒的计划——为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626021",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "啧，被你发现了阿，\n想给阿撒兹勒找点乐子罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626022",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……你究竟站在哪边，你们真正的目的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626023",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "我是个生意人，也是你的委托人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "蒂娅，蒂娅——咦，你们看到蒂娅了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626025",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "不走吗，你的小女孩在找你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626026",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626027",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "噢对了，关于委托的报酬，「能量石的线索」对吧？\n派对结束后，我会派人答复你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22626028",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "呵呵~合，作，愉，快。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-500",
+      "sourceRefs": [
+        {
+          "bundle": "blackyouji",
+          "rowIds": [
+            22626001,
+            22626002,
+            22626003,
+            22626004,
+            22626005,
+            22626006,
+            22626007,
+            22626008,
+            22626009,
+            22626010,
+            22626011,
+            22626012,
+            22626013,
+            22626014,
+            22626015,
+            22626016,
+            22626017,
+            22626018,
+            22626019,
+            22626020,
+            22626021,
+            22626022,
+            22626023,
+            22626024,
+            22626025,
+            22626026,
+            22626027,
+            22626028
+          ],
+          "sectionId": 22626
+        }
+      ],
+      "title": "歧途之宴·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22627001",
+          "sourceType": 3,
+          "text": "夕阳西下，一天很快过去——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22627002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳咳，各位，接下来吾宣布，\n「相遇一周年」庆宴圆满结束。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "过去的一年，留下了许多珍贵的回忆，感谢大家的陪伴，让我们期待明年新的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627004",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "说够了没，这里不是你的柯斯顿城，也没有鼓掌看热闹的嘉宾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627005",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "阿斯塔罗斯——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈好啦好啦~谢谢大家帮忙准备，也谢谢大家帮我解围~\n龙王大人说得没错，明天大家还要开开心心聚在一起呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说起明年……蒂娅……\n以后……我还能见到你吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22627009",
+              "text": "唔，蒂娅不留下来吗？"
+            }
+          ],
+          "sourceId": "22627008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22627009",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "不了，我们还有……重要的使命。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22627011",
+              "text": "听起来很厉害阿，要记得回来玩喔？"
+            }
+          ],
+          "sourceId": "22627010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22627011",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "嗯……还会再见的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "放心，一定会再见的~拜啦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627013",
+          "sourceType": 3,
+          "text": "就这样，名为「异乡人组织」的一行人，重新踏上了旅程——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22627014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "哎你们看，好漂亮的火烧云，明天会是个好天气呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "接下来我们去哪儿呢，打完一架现在干劲十足呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627016",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（为什么会对这样一个人类……产生特别的感觉呢？）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627017",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（会是因为「优纪」的情感……影响了我吗？）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627018",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（还是说那个人类，就是我一直寻找着的……「亚当」呢？）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22627019",
+          "sourceType": 2,
+          "speaker": "蒂娅",
+          "text": "（我会弄清楚的。）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "22627020",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-501",
+      "sourceRefs": [
+        {
+          "bundle": "blackyouji",
+          "rowIds": [
+            22627001,
+            22627002,
+            22627003,
+            22627004,
+            22627005,
+            22627006,
+            22627007,
+            22627008,
+            22627009,
+            22627010,
+            22627011,
+            22627012,
+            22627013,
+            22627014,
+            22627015,
+            22627016,
+            22627017,
+            22627018,
+            22627019,
+            22627020
+          ],
+          "sectionId": 22627
+        }
+      ],
+      "title": "歧途之宴·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 86,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 86,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "70",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "68",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "69",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "67",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": "Videos/_lazy_/AVG_blackYuki_x.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "不被邀请的客人",
+  "title": "歧途之宴",
+  "wordCount": 2722
+}

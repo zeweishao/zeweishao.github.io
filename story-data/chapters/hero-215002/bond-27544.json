@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-215002",
+  "id": "bond-27544",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27544001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "葵？你在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "跑到哪里去了，刚刚还在的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣~~（伸懒腰），怎么了主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我的水杯……葵在这种地方也能睡着吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "没事的，只是一些水，擦干就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唉，还真是让人担心啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "来，这是你的葵瓜子小屋，以后就可以在这里睡觉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544008",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "向日葵枕头、瓜子形状的抱枕……居然还是隔音玻璃？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，这样的话，就不会有声音打扰到你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "谢谢……不过……我更想睡在你身边……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544011",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "主人总是熬夜，如果有我陪着的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544012",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "应该可以改掉你熬夜的坏习惯了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544013",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "毕竟……大家都说我是助眠神器，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "葵……哎，可是现在还不到九点……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27544015",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "嘘……已经关灯了，好了，快睡吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27544",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27544001,
+            27544002,
+            27544003,
+            27544004,
+            27544005,
+            27544006,
+            27544007,
+            27544008,
+            27544009,
+            27544010,
+            27544011,
+            27544012,
+            27544013,
+            27544014,
+            27544015
+          ],
+          "sectionId": 27544
+        }
+      ],
+      "title": "睡觉万岁"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "睡觉万岁",
+  "wordCount": 250
+}

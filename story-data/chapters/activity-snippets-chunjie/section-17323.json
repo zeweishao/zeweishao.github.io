@@ -1,0 +1,85 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17323",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17323001",
+          "sourceType": 10,
+          "text": "诱人的烤鸭~请好好品尝！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17323002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "香喷喷的烤鸭来啦~！为了做这只烤鸭，我们可是费了不少心思呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17323003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "入口酥香，肥而不腻，这就是传闻中的烤鸭的最高境界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17323004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嘻嘻，不知道我们做到了怎样的程度呢，主人快尝尝看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17323005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "焦脆的皮一咬破，油香就塞满了口腔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17323006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "配合爽脆的黄瓜条和甜味恰到好处的酱料，搭配面皮的劲道口感，是堪称完美的搭配哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17323",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17323001,
+            17323002,
+            17323003,
+            17323004,
+            17323005,
+            17323006
+          ],
+          "sectionId": 17323
+        }
+      ],
+      "title": "脆皮烤鸭"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17323,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "10",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "诱人的烤鸭~请好好品尝！",
+  "title": "脆皮烤鸭",
+  "wordCount": 149
+}

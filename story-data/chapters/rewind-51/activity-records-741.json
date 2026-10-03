@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-51",
+  "id": "activity-records-741",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "巫女梦，春风里悄语。",
+          "title": "紫阳花盛开的季节",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "紫阳花开"
+    },
+    {
+      "blocks": [
+        {
+          "text": "神社边，樱花舞落轻纱。",
+          "title": "紫阳花盛开的季节",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "圣日崩解"
+    },
+    {
+      "blocks": [
+        {
+          "text": "秋意浓，红叶伴巫女行。",
+          "title": "紫阳花盛开的季节",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "乱象频生"
+    },
+    {
+      "blocks": [
+        {
+          "text": "寒雪覆，巫女步轻如猫。",
+          "title": "紫阳花盛开的季节",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "日照余波"
+    },
+    {
+      "blocks": [
+        {
+          "text": "山谷回音，祈祷如水流淌。",
+          "title": "巫女翩然自在飞",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "奉祝"
+    },
+    {
+      "blocks": [
+        {
+          "text": "夏夜星海，巫女眼中闪烁。",
+          "title": "巫女翩然自在飞",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "神乐"
+    },
+    {
+      "blocks": [
+        {
+          "text": "水色秋深，巫女祈福心静。",
+          "title": "巫女翩然自在飞",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "起舞"
+    },
+    {
+      "blocks": [
+        {
+          "text": "日暮轻染，巫女归途伴晚风。",
+          "title": "巫女翩然自在飞",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "拔邪"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "741",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 92
+}

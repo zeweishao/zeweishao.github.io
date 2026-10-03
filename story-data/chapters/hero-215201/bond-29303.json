@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-215201",
+  "id": "bond-29303",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29303001",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "周瑜找你告我状了，是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么知道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303003",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "主公忽然买了很多蔬菜种子，很难不让我深思啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303004",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "除了周瑜，我想应该不会有人告诉主公，我喜欢什么蔬菜吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29303006",
+              "text": "被你猜中了。"
+            },
+            {
+              "targetId": "29303006",
+              "text": "周瑜说你拿人情要挟他，要他陪你去种菜呢。"
+            }
+          ],
+          "sourceId": "29303005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29303006",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "……他是不是还请你一起来种菜？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303008",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "是不是还请你吃饭，让你付账？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303010",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "依我所见，唯有菜地，才治得了周瑜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303011",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "不当家，不知柴米油盐贵，不种地，怎知平民百姓苦。\n最重要的是——出门吃饭总是要我来付账，最可恶了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303012",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "主公，你说对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你说的没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303014",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "所以，我们现在就去将周瑜抓来种菜吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29303015",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "相信他一定可以在辛苦的劳动中，重新做人的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29303",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29303001,
+            29303002,
+            29303003,
+            29303004,
+            29303005,
+            29303006,
+            29303007,
+            29303008,
+            29303009,
+            29303010,
+            29303011,
+            29303012,
+            29303013,
+            29303014,
+            29303015
+          ],
+          "sectionId": 29303
+        }
+      ],
+      "title": "策反主公"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "策反主公",
+  "wordCount": 247
+}

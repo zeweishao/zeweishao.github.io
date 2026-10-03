@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213002",
+  "id": "bond-27540",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27540001",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奥菲利亚，你在这里吗？奥菲利亚？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540003",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人……对不起……\n都怪我，昨晚拖着你通宵复习……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "却忘了关心主人的身体，害得主人感冒……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540005",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "还影响了主人的发挥……明明保证帮主人考到全校第一的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……没关系的，全校第一什么的，我根本不在乎这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在我心中，奥菲利亚的心情才是最重要的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "可是，如果不是全校第一，会被欺负的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "没、没什么，都是过去的事了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540011",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "总之，在考到全校第一之前，我和「艾米莉亚」都会守在主人身边，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……奥菲利亚，虽然不知道你在担心什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但无论在学校还是其他地方，我都会保护你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27540014",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人……谢谢你，你是我见过的，最温柔的人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27540",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27540001,
+            27540002,
+            27540003,
+            27540004,
+            27540005,
+            27540006,
+            27540007,
+            27540008,
+            27540009,
+            27540010,
+            27540011,
+            27540012,
+            27540013,
+            27540014
+          ],
+          "sectionId": 27540
+        }
+      ],
+      "title": "考试目标"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213002",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "考试目标",
+  "wordCount": 263
+}

@@ -1,0 +1,148 @@
+{
+  "bookId": "activity-extra-dijiayureqiandao",
+  "id": "source-29002",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29002001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一日不见，如隔三秋，三日不见，如隔九秋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迪迦特别座谈会，今日继续。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "关于上次大古在TV剧集中一共坠机多少次的问题，主人有答案了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "经过我谨慎的推理，细致的研究，加上重新看完一遍迪迦剧集后，我算出来的次数一共是——20次！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "bingo，恭喜主人，答对了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002006",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迪迦也感到惊讶呢，没想到自己经历过这么多次坠机事故。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么第二个问题是，迪迦在TV中一共断过多少只怪物的角？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一定都要是这么奇怪的问题吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "因为只有回答出这样的问题，才能彰显主人对迪迦深沉的爱，才能体现主人的智慧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我懂了，下期见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29002012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "下期见！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29002",
+      "sourceRefs": [
+        {
+          "bundle": "dijiayureqiandao",
+          "rowIds": [
+            29002001,
+            29002002,
+            29002003,
+            29002004,
+            29002005,
+            29002006,
+            29002007,
+            29002008,
+            29002009,
+            29002010,
+            29002011,
+            29002012
+          ],
+          "sectionId": 29002
+        }
+      ],
+      "title": "活动片段 29002"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1033",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1033",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 29002,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 29002",
+  "wordCount": 244
+}

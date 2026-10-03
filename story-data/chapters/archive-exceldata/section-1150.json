@@ -1,0 +1,73 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1150",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1150001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你知道吗？最近有一种“桌面游戏”，可是在手办的世界打的异常火热唷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1150002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，绿子最近一段时间，就常常邀请优纪去“Toys”手办商店玩这种游戏呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1150003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但是主人一直要优纪陪着你，所以优纪放了绿子好多次鸽子，嘿嘿，真拿主人没办法呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1150004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过这次，听说出了全新的新玩法耶！名字优纪也还记得，叫做“桌游奥德赛”！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1150005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，求求你了，快带优纪去玩一下，一下下就好嘛~~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1150",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1150001,
+            1150002,
+            1150003,
+            1150004,
+            1150005
+          ],
+          "sectionId": 1150
+        }
+      ],
+      "title": "原文片段 1150"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1150
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1150",
+  "wordCount": 178
+}

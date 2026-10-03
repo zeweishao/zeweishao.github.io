@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212005",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "映入眼帘的，是鲜美的奶油，纯白的巧克力，以及点缀其上的淡蓝色玫瑰。\n\n「主公，请容许末将的僭越之举。」\n\n蛋糕底座之上，容姿英武的少年轻轻地抬起手。在他的手中，是一只精致的茶杯。\n\n「……仅以浓茶代酒，纪念与主公相识的日日夜夜。」\n\n语毕，少年将茶盏一饮而尽。接下来，他只是静静地，诚挚地看着你的眼睛。\n\n有一些约定，不必用言语诉说。\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "纯白之约Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212005",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "赵云·纯白之约Ver.",
+  "title": "纯白之约Ver.",
+  "wordCount": 157
+}

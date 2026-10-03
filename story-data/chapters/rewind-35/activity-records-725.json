@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-35",
+  "id": "activity-records-725",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "不告而别的龙马……以及斗技场的王者。",
+          "title": "开辟独属于我的武道",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "英雄登场"
+    },
+    {
+      "blocks": [
+        {
+          "text": "对决前穿上泳装是斗技的常识，不是吗？",
+          "title": "开辟独属于我的武道",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "泳装对决"
+    },
+    {
+      "blocks": [
+        {
+          "text": "在战胜对手之后，还需要战胜自己。",
+          "title": "开辟独属于我的武道",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "夏日连战"
+    },
+    {
+      "blocks": [
+        {
+          "text": "兄妹的对决带来了武道的升华，盛夏的终点依旧是碧蓝之海。",
+          "title": "开辟独属于我的武道",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "武道极意"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「桀桀桀桀桀，交出过路费！否则……后果你懂的。」",
+          "title": "盛夏人物志",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "百般武艺"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「需要我亲自帮你换上泳装吗……嗯？」",
+          "title": "盛夏人物志",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "星云斗士"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「为了得到这份工作，我苦练了一个月的口才。」",
+          "title": "盛夏人物志",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "燃尽之灰"
+    },
+    {
+      "blocks": [
+        {
+          "text": "「我啊，可是看多了管理局炒人气的把戏。这一次，我不想再忍了。」",
+          "title": "盛夏人物志",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "最终境界"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "725",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 174
+}

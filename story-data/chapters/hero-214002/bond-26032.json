@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214002",
+  "id": "bond-26032",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26032001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿......嘻嘻......吼哈哈哈！！！\n乐器室、爆破室、迷你街机！光是看着就手痒到不行了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是把哪里当成爆破室了啊......总之，你喜欢就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "上次住在房子里，还是很——久以前和家人一起！\n嘿嘿，所以这里就是哈莉和主人的家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "在家里应该干什么？一起做早饭、做炸弹，拆下房梁改衣架，晾上一排的老鼠干！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你最好放过房梁......不过，既然是给哈莉的礼物，如果拆掉组装能让你更开心，我也不会介意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈吼，居然敢说这种话，感觉自己的破坏力被小瞧了呢！\n那就玩点刺激的，你可别眨眼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032007",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "啪嚓——嘭——轰隆！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "炸、炸掉了？！这么轻易地......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉的精准爆破——建材零损伤！现在是原材料版手办屋！\n好了，来打赌吧，用一晚上时间，我能让它恢复如初！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，如果做到了，就把主人收进兵器库随身携带——开玩笑的！哈莉想和主人再去游戏厅，玩个痛快！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那如果没做到呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "任你处置！随便怎样，把哈莉彻底玩坏掉也没问题！\n不过在那之前——喝啊！这个屋顶刚好可以做舞台。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26032013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "接下来到凌晨三点是「感谢主人送我礼物」主题演唱会，然后从三点修房子到天亮！嘿嘿哈吼，太完美啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26032",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26032001,
+            26032002,
+            26032003,
+            26032004,
+            26032005,
+            26032006,
+            26032007,
+            26032008,
+            26032009,
+            26032010,
+            26032011,
+            26032012,
+            26032013
+          ],
+          "sectionId": 26032
+        }
+      ],
+      "title": "重新组装"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "重新组装",
+  "wordCount": 461
+}

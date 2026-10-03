@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213205",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这天，孙府的仆人们为大小姐搜罗来一个特殊的物件。\n\n「大小姐，这便是传说中训练身法的独门梅花桩！我们花重金买来了！」\n\n孙大小姐在「梅花桩」上试了几次，心中的疑惑却越来越深。直到几只狸奴跳上「梅花桩」嬉戏，她才恍然大悟。\n\n\n「看看你们干的好事！连狸奴的玩具和练武的梅花桩都分不清吗！所有人给本大小姐去校场站桩两个时辰！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·狸奴戏Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213205",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "孙尚香·闪亮·狸奴戏Ver.",
+  "title": "闪亮·狸奴戏Ver.",
+  "wordCount": 154
+}

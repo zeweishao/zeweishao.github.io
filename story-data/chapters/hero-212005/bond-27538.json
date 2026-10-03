@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212005",
+  "id": "bond-27538",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27538001",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "主公……这是赏赐给我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一点小小的心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538003",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "这如何使得？末将惶恐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "别这么说，这段时间多亏你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538005",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "主公……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538006",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "能遇到像主公这样的明君，末将平生之愿足矣！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538007",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "今后，赴汤蹈火，在所不惜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我不会让你去赴汤蹈火啦，再说这个世界很安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你只要陪在我身边就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538010",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538011",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "末将愿终身与主公相伴，生死相随！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27538012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你还真是有些小古板啊……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27538",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27538001,
+            27538002,
+            27538003,
+            27538004,
+            27538005,
+            27538006,
+            27538007,
+            27538008,
+            27538009,
+            27538010,
+            27538011,
+            27538012
+          ],
+          "sectionId": 27538
+        }
+      ],
+      "title": "小古板"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "小古板",
+  "wordCount": 149
+}

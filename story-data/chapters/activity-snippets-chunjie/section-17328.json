@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17328",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17328001",
+          "sourceType": 10,
+          "text": "鸡汤里泡枸杞~双倍的吉利~！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17328002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "枸杞炖鸡，这可是大补的菜品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17328003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "吃了这道菜，主人新的一年不但可以吉祥如意，而且身体各方面都能棒棒的哟~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17328004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "稍微清淡的口味，不过这样的菜吃起来反而异常温暖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17328005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "让我更加能够感觉到家的温馨。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17328",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17328001,
+            17328002,
+            17328003,
+            17328004,
+            17328005
+          ],
+          "sectionId": 17328
+        }
+      ],
+      "title": "大吉大利"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17328,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "15",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "鸡汤里泡枸杞~双倍的吉利~！",
+  "title": "大吉大利",
+  "wordCount": 102
+}

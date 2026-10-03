@@ -1,0 +1,167 @@
+{
+  "bookId": "hero-212011",
+  "id": "bond-28541",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28541001",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "What？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28541003",
+              "text": "送给家督大人的。"
+            }
+          ],
+          "sourceId": "28541002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28541003",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Fine，我知道你在想什么，你不用讨好我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28541004",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "对你的管束与要求，并不会比以前少，ok？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28541006",
+              "text": "不先看看再说吗？"
+            }
+          ],
+          "sourceId": "28541005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28541006",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "不得不承认，这是一个相当完美的「Dream House」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28541007",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "以后我可以在任何时候任何场合方便快捷地开Party了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28541008",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "做这个「Dream House」的人简直就是天才。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28541010",
+              "text": "家督大人喜欢就好！"
+            }
+          ],
+          "sourceId": "28541009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28541010",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "May be，它还欠缺点伊达家的审美，这对你似乎有点要求过高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28541011",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "总的来说，这个Surprise我很喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28541013",
+              "text": "真是太好了！"
+            }
+          ],
+          "sourceId": "28541012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28541013",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Love and peace，在M城，我已经很久无事可做了，不过——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28541014",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "现在，Let's party！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28541",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28541001,
+            28541002,
+            28541003,
+            28541004,
+            28541005,
+            28541006,
+            28541007,
+            28541008,
+            28541009,
+            28541010,
+            28541011,
+            28541012,
+            28541013,
+            28541014
+          ],
+          "sectionId": 28541
+        }
+      ],
+      "title": "Let's Party！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "Let's Party！",
+  "wordCount": 252
+}

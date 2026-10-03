@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215002",
+  "id": "skin-5",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "帷幕拉开——\n巨型水母托着葵从海中缓缓升起，触手舒展，像是缀满银河的星辰铺开。\n\n小水母在葵的身边轻柔起舞，酣然入睡的葵显得格外宁静，传达着某种治愈人心的力量。\n\n片刻后，掌声雷动。\n\n「梅根队长，我们原定是舞蹈表演......」\n梅根笑着摇摇头，向奥菲利亚比了一个「嘘」的手势。\n\n今夜，惊魂未定的幸存者们与葵一起，随着水母自在的摇摆，坠入美好的梦中。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·深海悠梦Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215002",
+        "skinId": "skin-5"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "葵·闪亮·深海悠梦Ver.",
+  "title": "闪亮·深海悠梦Ver.",
+  "wordCount": 167
+}

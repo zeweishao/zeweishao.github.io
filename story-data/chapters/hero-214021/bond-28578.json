@@ -1,0 +1,142 @@
+{
+  "bookId": "hero-214021",
+  "id": "bond-28578",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28578001",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我的那些学生承蒙你照顾了，但愿他们没给你添什么麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28578003",
+              "text": "你的学生一定很喜欢你。"
+            }
+          ],
+          "sourceId": "28578002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28578003",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我知道哦，一直都知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28578004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "老师的责任是呵护学生的成长，作为他们的校长，我会竭尽全力保护圣阳的每一位学子。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28578006",
+              "text": "真羡慕你的学生。"
+            },
+            {
+              "targetId": "28578006",
+              "text": "好想做你的学生。"
+            }
+          ],
+          "sourceId": "28578005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28578006",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "虽然你的年龄和我的学生差不多，不过经过这段时间的观察，我发现自己没什么可以教给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28578007",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不如说，与其成为我的学生，我更想让你……做我的「友人」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28578009",
+              "text": "我真的可以吗？"
+            }
+          ],
+          "sourceId": "28578008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28578009",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你要知道，有些话对自己的学生是不可以讲的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28578010",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "而在「友人」的面前，却可以肆无忌惮地把心事尽情倾诉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28578011",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "于我而言，你便是这样的存在。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28578",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28578001,
+            28578002,
+            28578003,
+            28578004,
+            28578005,
+            28578006,
+            28578007,
+            28578008,
+            28578009,
+            28578010,
+            28578011
+          ],
+          "sectionId": 28578
+        }
+      ],
+      "title": "「师」与「友」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214021",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「师」与「友」",
+  "wordCount": 241
+}

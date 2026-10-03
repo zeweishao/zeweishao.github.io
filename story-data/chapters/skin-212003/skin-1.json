@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212003",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "当蝴蝶拖着潮湿的翅膀破茧而出时，山崎也从燃烧的废料和四散的残骸中苏醒。他漫无目的行走在满目疮痍的大地上，甚至捡起了落在黄土之上的玩具熊。于是，最初的火焰就这样被点燃了。\n\n\"献给人类——\n愿与愚昧的战争终有胜利的一天。\"",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "末日浩劫Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212003",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "山崎·末日浩劫Ver.",
+  "title": "末日浩劫Ver.",
+  "wordCount": 107
+}

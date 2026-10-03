@@ -1,0 +1,966 @@
+{
+  "bookId": "rewind-24",
+  "id": "chapter-96",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23412001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感谢大家对我的信任，愿意参加此次集会。这次突然召集各位，是有一件重要的事情想要说明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412002",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "「|101|」|103|无需客气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412003",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "我们这些流浪手办可是一直承蒙你的关照，才能过上现在这样还算安稳的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412004",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "如果您有什么需要帮忙的，还请尽管提出来，我们一定会尽最大的努力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412005",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "没错！还请务必让我们帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢大家，这次并没有需要大家帮忙做的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是希望大家接下来能耐心给我一点时间，来说明一下最近在M城闹的沸沸扬扬的一件事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这件事情是和伊迪丝小姐有关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412009",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "伊，伊迪丝！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412010",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "是那个恶毒的女人！那个恶魔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412011",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "我知道她，之前杀了不少的手办，还攻击了管理局的人，现在还在M城中到处流窜，是很危险的家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412012",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "「|101|」|103|为什么会突然提到那个可怕的家伙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为我召集各位来的目的，就是为了证明伊迪丝小姐的清白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412014",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "清白……什么意思？唔！！那个是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412015",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "是那个女人！！伊迪丝！！她竟然出现在了现场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还请大家稍安勿躁~我们以管理局的信誉保证，一定会保护大家的安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "也请大家相信主人，我们请大家过来，绝对不会是想要伤害你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412018",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "既然优纪和「|101|」|103|都说到这份上了……那就听听这女人有什么要说的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412019",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "嗯……没错……反正，来都来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23412020",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "是的，我一点都不怕，这么多人挡在前面，她总不能冲过来把我们全鲨了吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-532",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23412001,
+            23412002,
+            23412003,
+            23412004,
+            23412005,
+            23412006,
+            23412007,
+            23412008,
+            23412009,
+            23412010,
+            23412011,
+            23412012,
+            23412013,
+            23412014,
+            23412015,
+            23412016,
+            23412017,
+            23412018,
+            23412019,
+            23412020
+          ],
+          "sectionId": 23412
+        }
+      ],
+      "title": "漫步·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23413001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "首先，我需要感谢「|101|」|103|，也感谢各位的信任，愿意给我一个自证清白的机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我来自古老的「奥古斯都」，自小便作为那座都市的继承者、守护者被培养。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "贵族的传承教导我品德、谦逊、规则，人民的期盼教导我怜悯、仁慈和责任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "如今，作为「奥古斯都」仅存于此世的几位成员之一，我所传承的使命之中，从来没有血腥的杀戮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我只希冀将「奥古斯都」的传承在这个世界再次延续。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "是吗，可为什么我是觉得，你是打算用你那卑劣天性中天生的谎言和欺骗，用来蛊惑一些愚昧的手办，满足你内心滋长的欲望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413007",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "谁，这又是谁在讲话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "初次见面，我是克罗赛尔……嗯，某种意义上而言，也是这家伙口中——「奥古斯都」仅存于此世的几位成员之一。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我出现在这里，是为了不让各位被这家伙的虚伪和谎言所欺骗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "克罗赛尔！你果然来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "「|101|」|103|，真没想到，连拥有那样高贵灵魂的你都被这家伙所欺骗了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不过无所谓了，等我拆穿她所有的谎言后，再来给予你灵魂的净化便好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "谎~言吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔，不知道你又想说出怎样的真实呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "那当然是关于伊迪丝的过往~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "关于您这位「奥古斯都」掌控者的真正面貌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23413017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "在真相铺垫完全之前，请容许我诉说一个……「农夫与蛇」和「偷天换日」的故事。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-533",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23413001,
+            23413002,
+            23413003,
+            23413004,
+            23413005,
+            23413006,
+            23413007,
+            23413008,
+            23413009,
+            23413010,
+            23413011,
+            23413012,
+            23413013,
+            23413014,
+            23413015,
+            23413016,
+            23413017
+          ],
+          "sectionId": 23413
+        }
+      ],
+      "title": "漫步·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23414001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "未能成为手办前，或者说，在那个原著的世界。\n我曾是「中央大陆」十二家族中「奥古斯都」一脉的嫡女。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "因「未能诞生神谕昭示」的少女，十一家族先后以悲惨的方式灭族，余下的「奥古斯都」便拼尽一切，只为搜罗女婴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "而顺应「神谕」诞生的我，将背负「奥古斯都」旗下「真理祈愿会」的教主身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "自此往后，我将接受信众无止境的索求，接纳一切人性的丑陋与贪婪，以坠入深渊的代价，换取「奥古斯都」的繁荣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "可是先祖心疼于我，于是他们从贫民窟中捡来了另一位女婴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "她的名字叫伊迪丝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "她是如此聪慧与机敏，她将替代我的身份，以教主之位稳定奥古斯都的统治。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "作为偿还，她将享受这一生以来从未见到过的，取之不尽、用之不竭的财宝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "很快「农夫与蛇」的故事开始了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "承蒙祖父的恩德，融于贵族的生活，习得各种礼仪后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝杀死了祖父。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "在这之后，她与恶魔结下契约，用邪恶的诅咒与我交换身体，并将我推入万劫不复般的教主之位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "诸位如果不相信，她手中那恐怖的球体便是凭证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "在她的一手遮天下，奥古斯都的存在从此只是虚影。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "而我在她的束缚与控制下，永生永世，将尝遍痛苦的折磨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414016",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "伊迪丝！果然是吃人不吐骨头的女人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414017",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "是散播谣言，用魔法球蛊惑人心、互换灵魂的女巫！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414018",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "是吸人血的资本家！妄图在手办世界复辟的邪恶掌权者！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414019",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝，你现在还有什么想要辩解的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23414020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我不想辩解，只想夸赞——夸赞你的故事编的不错？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-534",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23414001,
+            23414002,
+            23414003,
+            23414004,
+            23414005,
+            23414006,
+            23414007,
+            23414008,
+            23414009,
+            23414010,
+            23414011,
+            23414012,
+            23414013,
+            23414014,
+            23414015,
+            23414016,
+            23414017,
+            23414018,
+            23414019,
+            23414020
+          ],
+          "sectionId": 23414
+        }
+      ],
+      "title": "漫步·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23415001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯。若是在之前的世界，想要拆穿你的谎言，只需要简单的血脉检测术式。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "或者还有罗威这位贫民窟的百事通，也能轻易拆穿你那故事中的各种漏洞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "「奥古斯都」继承人的选取，可从未曾开创过这么随便的先例——仅仅是从贫民窟挑选一名女婴，可没法肩负起「奥古斯都」需要的一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我应该将这看做你对我的羡慕，或者嫉妒？因为我在过去夺走了你想要的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "说了这么多，你这苍白的解释不就是说明……你无力反驳吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不，并非不能反驳，只是没必要反驳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "无论你如何的添油加醋，话语总没有确切的真相来的直接。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "就像是你说我手中「质量俘获球」是与恶魔缔结的凭证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "可那个与你如影随形，名为「路西法」邪灵，不应该更像是你口中那魔女掌控的东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415010",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "邪灵……「路西法」？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "这么可爱的生物，也就只有在你的眼中，会和所谓的邪灵扯上关系。因为你无法抵抗它们的诱惑，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "只是这种程度的话语，还不够激怒我，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我铺垫这么多，只是为了给你一些时间做心理准备，毕竟许久未见，要是一上来就解决一切，弄得你哭鼻子该多难看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不过既然你已经等得不耐烦了，那么便让我来请出你要的真相好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415015",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "是，是你这个家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415016",
+          "sourceType": 0,
+          "speaker": "玛丽莲·梦露",
+          "text": "你到底是什么人！为什么要做这种疯狂的事情？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "既然你诚心诚意的问了，那就大发慈悲的告诉你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415018",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "天……天启！！你是……可是为什么，会和管理局……！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415019",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "哎呀，终于发现了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不过接下来，你们这些龙套的角色就该杀青咯，在拍完这最后一场戏后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415021",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "要记得，杀死你们的~是伊迪丝那个坏女人哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415022",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415023",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "原来真正的凶手是她！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "啧，竟然还被录下这种视频了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "看来我是小看了阿尔弗雷德那个家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415026",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "他竟然还留下了这样的后手吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "呵……不过他竟然会将这东西交给你，果然，那个废物还是摆脱不了被你控制的阴影啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "但是作为管理局的骨干，你在一开始选择和我合作，还派出了管理局的成员送死，阿尔弗雷德，你就不担心将我暴露后自己也身败名裂？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415029",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这点就不用你来担心了，我派出去的那些手办本来也都是些罪大恶极的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415030",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "他们的死能够换得你这危险女人的落网，算是死得其所了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23415031",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "束手就擒吧，克罗赛尔，你已经没有逃跑的机会了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-535",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23415001,
+            23415002,
+            23415003,
+            23415004,
+            23415005,
+            23415006,
+            23415007,
+            23415008,
+            23415009,
+            23415010,
+            23415011,
+            23415012,
+            23415013,
+            23415014,
+            23415015,
+            23415016,
+            23415017,
+            23415018,
+            23415019,
+            23415020,
+            23415021,
+            23415022,
+            23415023,
+            23415024,
+            23415025,
+            23415026,
+            23415027,
+            23415028,
+            23415029,
+            23415030,
+            23415031
+          ],
+          "sectionId": 23415
+        }
+      ],
+      "title": "漫步·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23416001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "哎呀~既然局势被翻转成了这样，果然只能启用备用的计划了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "嗯嗯，看来比起花言巧语，我还是更喜欢简单直接的动手杀戮呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "这个会场有这么多的人质，阿尔弗雷德大人真的打算在这里动手吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "想要炸弹威胁吗？这种老套的招式已经不起作用了，早在它们进入会场前，管理局的人已经进行过安全检查，排除了它们身上所有的隐患。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "至于你的精神魅惑……呵呵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "克罗赛尔，在伊迪丝苏醒的时候，你就该清楚她对你有多大的威胁了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你那一套逃跑的把戏，现在已经完全行不通了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "阿拉~差点都忘了，我这次的布置，是专门针对伊迪丝你来着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "好不容易准备了这么多惊喜，结果就被这样解决掉了，不过考虑到我们过去还算是姐妹，伊迪丝你应该不会介意放我一条生路吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "很可惜，我是言而有信的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "既然是答应了阿尔弗雷德的承诺，除非拥有不可抗力影响，否则……克罗赛尔，你今天应该走不掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "除非有……不可抗力吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "那貌似~我刚好有准备？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "克罗赛尔！你这家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "烟雾！！有奇怪的烟雾冒出来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416016",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "红色的，一看就很奇怪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大家请尽快疏散。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "抱歉，现在才反应过来的话，已经来不及了哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23416019",
+          "sourceType": 3,
+          "text": "砰——！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "23416020",
+          "sourceType": 3,
+          "text": "各色烟花炸开，烟雾笼罩了整个会场。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-536",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23416001,
+            23416002,
+            23416003,
+            23416004,
+            23416005,
+            23416006,
+            23416007,
+            23416008,
+            23416009,
+            23416010,
+            23416011,
+            23416012,
+            23416013,
+            23416014,
+            23416015,
+            23416016,
+            23416017,
+            23416018,
+            23416019,
+            23416020
+          ],
+          "sectionId": 23416
+        }
+      ],
+      "title": "漫步·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 96,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 96,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "有备而来之人",
+  "title": "漫步",
+  "wordCount": 2896
+}

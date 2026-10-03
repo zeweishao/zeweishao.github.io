@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-113",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "113001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "猫咪肉嘟嘟的肚子，我的战术完全不能奏效了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "113002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "用那个吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "113003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我会在身后全力辅助你的，优纪。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "113",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            113001,
+            113002,
+            113003
+          ],
+          "sectionId": 113
+        }
+      ],
+      "title": "原文片段 113"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 113
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 113",
+  "wordCount": 41
+}

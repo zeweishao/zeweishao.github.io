@@ -1,0 +1,170 @@
+{
+  "bookId": "hero-213205",
+  "id": "bond-28503",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28503001",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你大概早就看出来了吧，关于那件事。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28503003",
+              "text": "什么意思？"
+            }
+          ],
+          "sourceId": "28503002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28503003",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "少装糊涂，其实被你知道也没什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "不过鉴于你是第一个，也是目前唯一一个知道那件事的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503005",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我总得做点什么，不然似乎说不过去，毕竟我的身份摆在那里。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28503007",
+              "text": "到底是什么事？"
+            }
+          ],
+          "sourceId": "28503006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28503007",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我想了几种处置你的办法。\n「把你绑起来，让我蒙着眼睛用弩射你」，这个怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "或许可以在你的头顶放一个苹果，这样可以增加挑战的难度，我喜欢具有挑战性的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "这是知道那件事的人要付出的代价，我想你不会否认的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503010",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "不，我真的不知道你说的那件事是什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503011",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "啧，本大小姐可没什么耐心，我们还是速战速决好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503012",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "快承认吧，你知道我有很严重的「脸盲症」这点，对你来说只是点一下头而已。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28503014",
+              "text": "脸盲症有什么大不了的。"
+            }
+          ],
+          "sourceId": "28503013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28503014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "如果你处在我的位置，就会觉得这是一个相当棘手的难题。父兄们竭力引荐的人，忘记他们的长相对我来说只是分分钟的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28503015",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "奇怪的是，我却可以记住你的脸，这是为什么？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28503",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28503001,
+            28503002,
+            28503003,
+            28503004,
+            28503005,
+            28503006,
+            28503007,
+            28503008,
+            28503009,
+            28503010,
+            28503011,
+            28503012,
+            28503013,
+            28503014,
+            28503015
+          ],
+          "sectionId": 28503
+        }
+      ],
+      "title": "脸盲症患者"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "脸盲症患者",
+  "wordCount": 363
+}

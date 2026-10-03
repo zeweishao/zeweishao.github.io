@@ -1,0 +1,69 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17312",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17312001",
+          "sourceType": 10,
+          "text": "艾里克希娅闪亮登场，一起期待偶像的烹饪吧。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17312002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "场地搭建完毕，接下来就请主人好好看我演出吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17312003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "就算是厨艺，也会像是在舞台一样，好好展示给主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17312004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好耶，我已经做好随时打call的准备了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17312",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17312001,
+            17312002,
+            17312003,
+            17312004
+          ],
+          "sectionId": 17312
+        }
+      ],
+      "title": "偶像的厨艺较量"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17312,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "3",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾里克希娅的厨台解锁，一起期待偶像的烹饪吧。",
+  "title": "偶像的厨艺较量",
+  "wordCount": 87
+}

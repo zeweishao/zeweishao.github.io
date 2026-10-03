@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212012",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「蛰伏计划启动，任务坐标：第三区B215，行动代号：玛莎克兰。」\n\n第三区中心的咖啡馆，每天下午两点，装扮入时的干练女郎都会准时出现，安静地坐在窗边喝完一杯咖啡，然后离开。\n\n店员清楚地记得，5月28日之后，那位常点「玛莎克兰咖啡」的客人再也没有来过——之所以对这个日期印象深刻，是因为那天发生了一件轰动全城的大事。\n\n5月28日下午3时3分，第三区执政官遭遇狙杀，至今凶手不明。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "玛莎克兰Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212012",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "凛·玛莎克兰Ver.",
+  "title": "玛莎克兰Ver.",
+  "wordCount": 184
+}

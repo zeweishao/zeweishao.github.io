@@ -1,0 +1,160 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25960",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25960001",
+          "sourceType": 10,
+          "text": "当都督变成猫",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25960002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，貂蝉小姐新做的这盏花灯好特别。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "虽然被做成了猫猫的样子，从衣着打扮和透露出的气质上，可以看得出来是一位睿智优雅的男子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可以给我们讲讲这盏灯背后的原型人物的故事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "他既是我们的朋友，也是我们的上司。这么说应该没有触犯组织禁忌吧，孙大小姐？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "嘴在你的身上，我可没权力约束你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看起来是一位了不得的大人物呐，有机会真想亲自见见~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪，我想我们已经见过他了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，在哪里，什么时候？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "去年的这个时节，他来拜访过我们的主人|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来是他，我还记得他讲话叽里呱啦的，完全听不懂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过优纪知道他是很好很好的人，主人因为他的到来很开心呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "想必主人见到这盏花灯一定会想起那位老朋友吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25960014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯嗯，一定会的，主人可是最在乎朋友的人哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25960",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25960001,
+            25960002,
+            25960003,
+            25960004,
+            25960005,
+            25960006,
+            25960007,
+            25960008,
+            25960009,
+            25960010,
+            25960011,
+            25960012,
+            25960013,
+            25960014
+          ],
+          "sectionId": 25960
+        }
+      ],
+      "title": "当都督变成猫"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25960,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "59",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "以赤炎大陆上的名人「周瑜」为原型制作的猫猫花灯，造型在满足可爱这个要素的同时，融入了传统的赤炎风俗。",
+  "title": "当都督变成猫",
+  "wordCount": 312
+}

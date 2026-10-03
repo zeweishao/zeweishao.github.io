@@ -1,0 +1,91 @@
+{
+  "bookId": "hero-214102",
+  "id": "bond-26062",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26062001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是我为你准备的手办屋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062002",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "手办屋？这里，是「家」吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，从现在开始，一起把它打造成温馨的家吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062004",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "谢谢你。这是我在这个世界，可以视作家的地方。\n这次，必须清楚地记住。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这次？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062006",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我曾经陷入混乱，失去全部记忆，甚至忘记了自己是谁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26062007",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "但这一次，关于你的事，还有在此处的「家」，我一定会深刻地记在脑中，永远。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26062",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26062001,
+            26062002,
+            26062003,
+            26062004,
+            26062005,
+            26062006,
+            26062007
+          ],
+          "sectionId": 26062
+        }
+      ],
+      "title": "记忆"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "记忆",
+  "wordCount": 148
+}

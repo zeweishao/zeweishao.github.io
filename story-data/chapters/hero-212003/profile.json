@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212003",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "山崎的创作者受角色影响，觉得每个人都该懂得成长所要付出的代价，但这不应该成为我们前进的阻碍。当你迷茫彷徨之时，山崎会告诉你不要舍弃心中的那把剑。\n山崎即将出现在即将推出的「终焉地平线」系列盲盒中。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212003"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 97
+}

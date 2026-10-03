@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215008",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "学园偶像纪告一段落，特训结束的绿子姗姗来迟。\n\n最后一块布景被撤下，绿子的五官难过地挤在了一起。\n\n「这么晚才来，哪个偶像会等你。」\n「要你管，我又不是来看你的。」\n「哼，不过看你可怜找你搭个话……别哭啊，笨蛋。」\n\n暮色四起，紫色头发的少女偶像献上最后的加场演出。\n\n「看好了哦，这次别再错过了。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鎏星梦幻纪Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215008",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾里克希娅·鎏星梦幻纪Ver.",
+  "title": "鎏星梦幻纪Ver.",
+  "wordCount": 140
+}

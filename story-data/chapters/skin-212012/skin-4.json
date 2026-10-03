@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212012",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "每一次狩猎都是一场与自然搏斗的旅途。猎人同长风相伴，与芳草为伍。她亲吻手中的猎刀，而后赐予猎物恒久的沉默。\n\n在月光皎洁的夜晚，偶尔能窥见猎人休憩的姿态。石柱边，她卸去白昼的繁忙，收敛眉间的肃杀。白鹿走出丛林，在她身边徘徊。它并不害怕，因为它知道猎人也是自然的一员。\n\n——她的长弓比猎刀更秀美，但只为心上人而动。\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "行猎游憩Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212012",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "凛·行猎游憩Ver.",
+  "title": "行猎游憩Ver.",
+  "wordCount": 173
+}

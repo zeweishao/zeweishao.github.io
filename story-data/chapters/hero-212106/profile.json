@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212106",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "风纪委员「白井黑子」化身为1/7比例模型登场！作为风纪委员，虽然身材娇小，但是格斗技能非常强，加之其空间移动的能力，打击罪犯不遗余力。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212106"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 67
+}

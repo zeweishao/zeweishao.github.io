@@ -1,0 +1,133 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25880",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25880001",
+          "sourceType": 10,
+          "text": "浣熊出没注意！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25880002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好可爱的浣熊花灯，花迦，你太有才了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "没有优纪说得那么夸张啦，我只是按照说明书上的步骤一点点完成而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是效果很棒呀，就连浣熊脑袋上的耳朵都活灵活现的呢，嘻嘻，优纪好想摸一摸~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "耳朵还没有粘好，不可以随便碰……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，我把浣熊耳朵给拽下来了……花迦，我、我对不起你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "发生了什么事，优纪怎么哭起来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜呜呜优纪闯祸了，优纪把花迦好不容易做好的浣熊花灯给弄坏了，呜呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我已仔细检查过了，只不过掉了一对耳朵，没你形容得那么夸张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "还好这对小耳朵还是完整的，我来把这盏灯复原。不要再难过了，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜……嗯，优纪不难过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25880012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好期待修复后的样子，这盏浣熊花灯一定会更加精致的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25880",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25880001,
+            25880002,
+            25880003,
+            25880004,
+            25880005,
+            25880006,
+            25880007,
+            25880008,
+            25880009,
+            25880010,
+            25880011,
+            25880012
+          ],
+          "sectionId": 25880
+        }
+      ],
+      "title": "浣熊出没注意！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25880,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "51",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "浣熊造型的花灯，融入了创作者的奇思妙想，仿佛能看到它憨态可掬地搜寻食物的样子。",
+  "title": "浣熊出没注意！",
+  "wordCount": 287
+}

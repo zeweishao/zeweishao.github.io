@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-213108",
+  "id": "bond-29333",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29333001",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "啊，斧头劈进来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333003",
+          "sourceType": 3,
+          "text": "哐——哐——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29333004",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "开始砸门了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333005",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "……太好了……终于逃掉了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333006",
+          "sourceType": 3,
+          "text": "过了一段时间——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29333007",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "呵呵，岛主，感觉怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29333009",
+              "text": "有点刺激……"
+            },
+            {
+              "targetId": "29333009",
+              "text": "有点吓人……"
+            }
+          ],
+          "sourceId": "29333008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29333009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没想到，玛莉这么喜欢看恐怖电影呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333010",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "是啊。而且，能和岛主一起看，玛莉感觉更开心了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333011",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "那么……再看一部吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29333013",
+              "text": "可以。"
+            },
+            {
+              "targetId": "29333013",
+              "text": "呃……"
+            }
+          ],
+          "sourceId": "29333012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29333013",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "嗯……如果岛主感到害怕的话，可以往玛莉这边靠过来的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29333014",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "毕竟玛莉已经是大人了，就多依赖玛莉一点吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29333",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29333001,
+            29333002,
+            29333003,
+            29333004,
+            29333005,
+            29333006,
+            29333007,
+            29333008,
+            29333009,
+            29333010,
+            29333011,
+            29333012,
+            29333013,
+            29333014
+          ],
+          "sectionId": 29333
+        }
+      ],
+      "title": "心跳夜晚"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213108",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "心跳夜晚",
+  "wordCount": 175
+}

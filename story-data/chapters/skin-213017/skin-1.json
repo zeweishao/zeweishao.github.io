@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213017",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "盛夏的潮风携来了悦耳的铜铃声。循声看去，熟悉的丽人正在水面荡漾的泳池边整理打湿的秀发。\n\n「主君，您是……什么时候来的?」少女的脸颊浮现一抹淡红，一如唇边飘扬的发带。\n\n按捺不住心中的好奇，「你脚下的是什么？」\n\n「呵，它叫霞光闪闪……是一匹非常活泼的海马。」\n\n——本特别款仅可通过「池边闲戏」活动获取 ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "漾波铃音响Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213017",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蔡文姬·漾波铃音响Ver.",
+  "title": "漾波铃音响Ver.",
+  "wordCount": 144
+}

@@ -1,0 +1,86 @@
+{
+  "bookId": "rewind-19",
+  "id": "source-22001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22001001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "——呀，坏猫，看这边！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22001002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "优纪的石头扔的还真准！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22001003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这就是王牌投手的自信——唔！大家小心，坏猫猫要过来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22001004",
+          "sourceType": 5,
+          "speaker": "猫",
+          "text": "喵！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22001005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，哈莉，我们一起上。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22001",
+      "sourceRefs": [
+        {
+          "bundle": "meishumei",
+          "rowIds": [
+            22001001,
+            22001002,
+            22001003,
+            22001004,
+            22001005
+          ],
+          "sectionId": 22001
+        }
+      ],
+      "title": "灾厄的少女·Ⅰ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9120011",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9120011",
+          "after_result_avg"
+        ],
+        "sectionId": 22001,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "灾厄的少女·Ⅰ",
+  "wordCount": 64
+}

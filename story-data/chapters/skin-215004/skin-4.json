@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215004",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "奥塔山脉下，阿罗拉遗迹。\n\n大陆有史以来最年轻的女神代行者走出神殿，即将完成最后的仪式。\n\n信徒们恭敬地退守两侧，不敢亵渎神圣的威严。\n\n突然，海伦停在了一位衰老丑陋的乞讨者的面前，捧起了她的脸——\n\n「圣光会替我守护你，可怜的人。」\n\n\n圣辉穿透云层，笼罩在乞讨者的身上，融化了她眼底麻木的绝望。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "圣晖摇曳Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215004",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海伦·圣晖摇曳Ver.",
+  "title": "圣晖摇曳Ver.",
+  "wordCount": 138
+}

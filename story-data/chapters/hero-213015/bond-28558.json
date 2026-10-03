@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-213015",
+  "id": "bond-28558",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28558001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "今日罗威有事外出，如有照顾不周的地方，还望海涵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不用这么正经，只是顺路过来看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "既然如此……请您靠过来一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "请再向前靠近一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558006",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "伊迪丝轻轻地踮起脚，伸出双手，整理了一下你的领口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "怎么了，为什么露出这样的表情？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28558009",
+              "text": "感觉有点难为情。"
+            },
+            {
+              "targetId": "28558009",
+              "text": "感觉有点不自然。"
+            }
+          ],
+          "sourceId": "28558008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28558009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "失礼了，只是觉得凌乱的领口有损您的形象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这不太像是你的做法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "倘若珠玉蒙尘，我也会忍不住亲手擦拭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "在管家不在的当下，由我来做也是最有效率的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好像被夸了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "想好要商讨些什么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28558015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "今天的日程安排还算宽松，我们可以慢慢聊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28558",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28558001,
+            28558002,
+            28558003,
+            28558004,
+            28558005,
+            28558006,
+            28558007,
+            28558008,
+            28558009,
+            28558010,
+            28558011,
+            28558012,
+            28558013,
+            28558014,
+            28558015
+          ],
+          "sectionId": 28558
+        }
+      ],
+      "title": "凌乱的领口"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213015",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "凌乱的领口",
+  "wordCount": 227
+}

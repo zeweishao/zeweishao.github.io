@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214020",
+  "id": "bond-38801",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "38801001",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "怎么才来，新闻可不会一直等你啊，真是的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "昨晚想到新闻取材太兴奋了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801003",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "哼，多亏这次是我们自己调查，没有特定的采访对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801004",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "今天你必须多陪我调查一会儿，算赔我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801006",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "怎么一副惊讶的表情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还以为你会说下次就不等我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801008",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "唔，你还是实习助手，这也没办法，不过没有下次了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "实习啊……那看样子我们共处的时间还会很长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801010",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801011",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "追新闻要专心！现在只许你想取材的事情！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801012",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "作为助手你还有很多要学的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38801013",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "这就是记者助手守则第一条，好了，我们快出发！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38801",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38801001,
+            38801002,
+            38801003,
+            38801004,
+            38801005,
+            38801006,
+            38801007,
+            38801008,
+            38801009,
+            38801010,
+            38801011,
+            38801012,
+            38801013
+          ],
+          "sectionId": 38801
+        }
+      ],
+      "title": "记者守则"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214020",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "记者守则",
+  "wordCount": 205
+}

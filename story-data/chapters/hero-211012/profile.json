@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211012",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自游戏《蘑菇少女的日常》，奇迹都市的著名雕塑师「奇萝」化身为1/7比例模型登场！关上灯，在烛火的幽光中，与奇萝共度怪谈之夜吧！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211012"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 64
+}

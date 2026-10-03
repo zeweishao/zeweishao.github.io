@@ -1,0 +1,183 @@
+{
+  "bookId": "hero-214014",
+  "id": "bond-28501",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28501001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "换回了以前的衣服，看起来怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28501003",
+              "text": "美得让人移不开眼睛。"
+            }
+          ],
+          "sourceId": "28501002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28501003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "换成别人夸我漂亮，我很大可能不会有任何感觉，可是来自你的赞美，却让我感觉很受用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "也许是因为你讲话的时候非常真诚，也许还有别的什么我还不能说明白的原因。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "接下来的这段时间，我们一定会相处得非常愉快的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28501007",
+              "text": "你有什么计划？"
+            }
+          ],
+          "sourceId": "28501006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28501007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "「计划」么……真是一个过分熟悉的字眼，熟悉到多少有些讨厌的程度了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "曾经在很长的一段时间里，我的生活里充斥着一个接一个的「计划」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "它们还有另外别的名字，「任务」、「行动」或者别的什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "无论如何，它们都是禁忌，是不可告人的秘密。\n倘若因为我的失误导致计划失败，那么我就会是最后一个知道这些秘密的人。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28501012",
+              "text": "听起来非常危险。"
+            }
+          ],
+          "sourceId": "28501011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28501012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "只用「危险」来描述的话，还不足以形容我那时的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "由于任务失败所要付出的代价太大，我不得不强迫以超高的标准训练自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28501014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "久而久之，我习惯了表面华丽、实则虚假的生活，连我都分不清自己讲出去的话究竟有几分真心。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28501016",
+              "text": "你以前的职业是？"
+            }
+          ],
+          "sourceId": "28501015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28501016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "一个有着无数身份，以欺瞒和演戏为主的——「间谍」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28501",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28501001,
+            28501002,
+            28501003,
+            28501004,
+            28501005,
+            28501006,
+            28501007,
+            28501008,
+            28501009,
+            28501010,
+            28501011,
+            28501012,
+            28501013,
+            28501014,
+            28501015,
+            28501016
+          ],
+          "sectionId": 28501
+        }
+      ],
+      "title": "精英间谍？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214014",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "精英间谍？",
+  "wordCount": 420
+}

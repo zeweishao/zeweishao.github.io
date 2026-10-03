@@ -1,0 +1,292 @@
+{
+  "bookId": "hero-212111",
+  "id": "bond-43808",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43808001",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……房间里那个酷似方盒子的法宝，似乎有许多妙用。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808003",
+              "text": "它叫电脑。"
+            },
+            {
+              "targetId": "43808003",
+              "text": "它是让人堕落的元凶之一哦。"
+            }
+          ],
+          "sourceId": "43808002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808003",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "可以教我使用它吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808004",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "华焱说，有什么不懂的都可以在上面查。我想看看这个世界的人类都在做些什么。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808006",
+              "text": "没问题，我教你。"
+            }
+          ],
+          "sourceId": "43808005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808006",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "花了一番工夫，教会了龙缨如何开机，操作键鼠，在浏览器里搜索关键字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808007",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "一段时间后……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808008",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "安静的卧室里，只能听见鼠标的点击声和零星的键盘敲击声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808010",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808012",
+              "text": "怎么了？"
+            }
+          ],
+          "sourceId": "43808011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808012",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "只是有些感慨，未想此世的人们已经征服了海洋和天空，甚至将要向地外空间进发。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808013",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "早已不需要人外之物的庇佑了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808015",
+              "text": "你好像有点感伤。"
+            }
+          ],
+          "sourceId": "43808014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808015",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "我曾谛听人间的祈福之声，替人消灾除祟，但渐渐地，声音愈发稀少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808016",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "我原以为下界出了什么祸患，以致人们无暇祈愿。每每提及，烛大人只是报以微笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808017",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "后来我得知了缘由，人们只是不再需要庇护了——他们走出了自己的路。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808019",
+              "text": "人类是会成长的。"
+            },
+            {
+              "targetId": "43808019",
+              "text": "传说会留下你的功绩。"
+            }
+          ],
+          "sourceId": "43808018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808019",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "是啊，在那个世界是如此，在这个世界亦是如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "至少，还有一个人类需要你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808021",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……是谁？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43808023",
+              "text": "你能听到那个人的祈愿。"
+            }
+          ],
+          "sourceId": "43808022",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43808023",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808024",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "少女总是平静无波的脸庞，带上了恬淡的笑意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808025",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "是我生疏了，竟然连身边人的心声都未能顾及。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43808026",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "我答应你，|101|。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43808",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43808001,
+            43808002,
+            43808003,
+            43808004,
+            43808005,
+            43808006,
+            43808007,
+            43808008,
+            43808009,
+            43808010,
+            43808011,
+            43808012,
+            43808013,
+            43808014,
+            43808015,
+            43808016,
+            43808017,
+            43808018,
+            43808019,
+            43808020,
+            43808021,
+            43808022,
+            43808023,
+            43808024,
+            43808025,
+            43808026
+          ],
+          "sectionId": 43808
+        }
+      ],
+      "title": "人间祈愿"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212111",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "人间祈愿",
+  "wordCount": 458
+}

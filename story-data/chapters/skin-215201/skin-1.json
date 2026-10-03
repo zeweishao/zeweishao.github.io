@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215201",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "无袖V领针织衫选用了苍色，是描述烟岚和草木的梦幻色彩，搭配真丝提花领带，在料峭时节，给人以烟雾氤氲的缥缈之感——或许这也是他为何停驻于此的原因。\n下身搭配自信且大胆，十分挑战腿型的纯羊毛七分长筒袜，搭配森系圆头亮靴，再现优雅而沉稳的经典学院气息。\n他收起了那抹令人如沐春风的飒爽笑容，变得像晚来欲雨的天，以及空阔辽远的雾。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "学院风潮Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215201",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "诸葛孔明·学院风潮Ver.",
+  "title": "学院风潮Ver.",
+  "wordCount": 159
+}

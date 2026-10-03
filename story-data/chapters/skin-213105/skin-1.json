@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213105",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「这是……新出的呱太冰淇淋？！」\n\n「好想要……但是如果去排队的话，又会被那些带孩子的女性家长们投来奇怪的目光吧……」\n\n「啊啊啊，管不了那么多了！」\n\n下定决心的美琴，换上了珍藏已久却迟迟不敢穿出门的呱太套装。\n\n「只有今天！大胆的做自己吧！」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "欢乐呱太Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213105",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "御坂美琴·欢乐呱太Ver.",
+  "title": "欢乐呱太Ver.",
+  "wordCount": 131
+}

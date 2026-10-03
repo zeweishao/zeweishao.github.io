@@ -1,0 +1,146 @@
+{
+  "bookId": "hero-213110",
+  "id": "bond-28572",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28572001",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "等你很久了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28572002",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "哼，作为补偿，之后要带我们去个好玩的地方哦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28572004",
+              "text": "「我们」？"
+            }
+          ],
+          "sourceId": "28572003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28572004",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "怎么？没看到我的脚下还站着一只小可爱吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28572005",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗噗，噗噗。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28572007",
+              "text": "喔，是「牡丹」呀。"
+            }
+          ],
+          "sourceId": "28572006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28572007",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "喂，你那个眼神是怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28572008",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "那种垂涎欲滴的馋鬼表情，我最熟悉不过了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28572010",
+              "text": "我不是，我没有。"
+            }
+          ],
+          "sourceId": "28572009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28572010",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "最好没有，被我发现你打牡丹的注意，你就死定了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28572011",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "牡丹是我最喜欢的宠物，谁都不可以伤害它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28572012",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗噗，噗噗，噗！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28572",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28572001,
+            28572002,
+            28572003,
+            28572004,
+            28572005,
+            28572006,
+            28572007,
+            28572008,
+            28572009,
+            28572010,
+            28572011,
+            28572012
+          ],
+          "sectionId": 28572
+        }
+      ],
+      "title": "野猪「牡丹」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213110",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "野猪「牡丹」",
+  "wordCount": 161
+}

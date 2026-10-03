@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211201",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "受烈焰裹挟的披风带着焚尽一切的威严，搭配通体漆黑、充满高贵和沉稳气息的半身盔铠以及犹如圣日般灼热凛然的巨大魔剑，尽显这位无双战将的睥睨霸道。\n若是能将其收入麾下，征战将变得所向披靡，因为他将粉碎前方的一切阻碍。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "炎袭圣座Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211201",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "阿斯塔罗斯·炎袭圣座Ver.",
+  "title": "炎袭圣座Ver.",
+  "wordCount": 104
+}

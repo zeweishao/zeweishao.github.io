@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214002",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气枪战游戏《少女X机关枪》「哈莉」在战场中驰骋的姿态定格，首次手办化登场！精致细节塑造出哈莉身穿迷彩服执行任务的经典形象，将她那自信而开朗的笑颜呈现在我们面前。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214002"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 81
+}

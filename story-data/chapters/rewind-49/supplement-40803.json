@@ -1,0 +1,273 @@
+{
+  "bookId": "rewind-49",
+  "id": "supplement-40803",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "40803001",
+          "sourceType": 3,
+          "text": "仪式区域外围——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "数量真是越来越多了，如果波波在这里就好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803003",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>雷达状态更新，50米内出现大量目标，势力识别为【管理局】。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "是管理局的支援到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……这边已了解情况，管理局将全力阻止发狂手办靠近，并寻找援助诺伊尔小姐的方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803006",
+          "sourceType": 3,
+          "text": "她看向你，诚恳地低下头。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "在此，对之前管理局的草率行动表示深深的歉意。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40803009",
+              "text": "下次别这样了。"
+            },
+            {
+              "targetId": "40803009",
+              "text": "没关系，过去的事已经翻篇了。"
+            }
+          ],
+          "sourceId": "40803008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40803009",
+          "sourceType": 3,
+          "text": "在海伦的身边，还有一位魔女打扮的少女。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "奇萝？你也在帮管理局干活了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803011",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不，我有一个重要的发现。这位乌鸦，你还记得诺伊尔小姐曾拿着的邀请函吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803012",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "就是这份，我一直不清楚这是怎么回事，明明没有往N城寄过邀请函。但今早我无意间翻了下「魔女集会」的人物卡……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803014",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "我发现邀请函上的字迹和弗吉尼娅的人物卡上的一模一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803015",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……也就是说，邀请函是弗吉尼娅伪造的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803016",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "是她将假邀请函寄到了N城，将诺伊尔引来了M城吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803017",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "大概是为了嫁祸诺伊尔小姐吧，没想到玩桌游的也会有坏人。呜，人心可比鬼魂要吓人多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803018",
+          "sourceType": 3,
+          "text": "不知为何，你本能地感觉这个推理不对劲。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "可是……当时还没人查到弗吉尼娅身上。为什么要费尽心机地把诺伊尔引过来，再嫁祸给她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这有太多不确定因素了。还是说，有什么非诺伊尔不可的理由？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803021",
+          "sourceType": 3,
+          "text": "如果说，诺伊尔有什么和其他手办不同的地方……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803022",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40803024",
+              "text": "只有诺伊尔能抵御「不朽灾祸」的影响。"
+            }
+          ],
+          "sourceId": "40803023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40803024",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "犯人将一个最有可能阻止自己的人，从N城叫来了M城？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803025",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……而且还通过嫁祸的方式，逼她不得不调查自己的事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803026",
+          "sourceType": 3,
+          "text": "一个答案如电流般传遍脑海，所有的违和感都得到了解答。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40803027",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "我要进去找她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803028",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40803029",
+          "sourceType": 3,
+          "text": "无视所有人的劝阻，你振翅而飞，猛地扎进了眼前的暴风雨。",
+          "type": "narration"
+        }
+      ],
+      "id": "40803",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40803001,
+            40803002,
+            40803003,
+            40803004,
+            40803005,
+            40803006,
+            40803007,
+            40803008,
+            40803009,
+            40803010,
+            40803011,
+            40803012,
+            40803013,
+            40803014,
+            40803015,
+            40803016,
+            40803017,
+            40803018,
+            40803019,
+            40803020,
+            40803021,
+            40803022,
+            40803023,
+            40803024,
+            40803025,
+            40803026,
+            40803027,
+            40803028,
+            40803029
+          ],
+          "sectionId": 40803
+        }
+      ],
+      "title": "告别时分 · Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "detailId": "739",
+        "index": 17,
+        "table": "ResOpActivityPlotDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "活动源表补充片段",
+  "title": "告别时分 · Ⅱ",
+  "wordCount": 645
+}

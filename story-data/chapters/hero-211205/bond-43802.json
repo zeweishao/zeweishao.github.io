@@ -1,0 +1,214 @@
+{
+  "bookId": "hero-211205",
+  "id": "bond-43802",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43802001",
+          "sourceType": 3,
+          "text": "不知为何，最近家中的电器总是在出故障。在电视机之后是电冰箱，继而是电磁炉。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43802002",
+          "sourceType": 3,
+          "text": "终于在某天深夜，房间停电了。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43802004",
+              "text": "已经不早了，明天再修好了。"
+            },
+            {
+              "targetId": "43802004",
+              "text": "事已至此，先睡觉吧。"
+            }
+          ],
+          "sourceId": "43802003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43802004",
+          "sourceType": 3,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43802005",
+          "sourceType": 3,
+          "text": "在被窝里准备入睡的时候，听到了窸窸窣窣的声音，似乎有什么钻了进来。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43802007",
+              "text": "是谁？"
+            }
+          ],
+          "sourceId": "43802006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43802007",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "是我，对不起……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43802009",
+              "text": "为什么要道歉？"
+            }
+          ],
+          "sourceId": "43802008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43802009",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "今晚我看到你房间还亮着，就想给你煮夜宵，但刚打开电磁炉，家里就暗下来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43802010",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "按照明灯的开关也没有反应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43802011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可能是电磁炉短路引起了跳闸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43802012",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "对不起，我似乎总会把家里的电器弄坏，之前的电冰箱也是……给你添麻烦了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43802014",
+              "text": "没关系，旧的不去，新的不来。"
+            }
+          ],
+          "sourceId": "43802013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43802014",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "谢谢，在这个世界能遇到你真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43802015",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "哈啊……我也有点困了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43802016",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43802018",
+              "text": "汐音？"
+            },
+            {
+              "targetId": "43802018",
+              "text": "睡着了吗？"
+            }
+          ],
+          "sourceId": "43802017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43802018",
+          "sourceType": 3,
+          "text": "昏暗的房间仅能看见淡淡的月光，少女依偎在你怀里，发出规律的呼吸声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43802019",
+          "sourceType": 3,
+          "text": "今晚，想必会是一个好梦。",
+          "type": "narration"
+        }
+      ],
+      "id": "43802",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43802001,
+            43802002,
+            43802003,
+            43802004,
+            43802005,
+            43802006,
+            43802007,
+            43802008,
+            43802009,
+            43802010,
+            43802011,
+            43802012,
+            43802013,
+            43802014,
+            43802015,
+            43802016,
+            43802017,
+            43802018,
+            43802019
+          ],
+          "sectionId": 43802
+        }
+      ],
+      "title": "被窝夜话"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211205",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "被窝夜话",
+  "wordCount": 325
+}

@@ -1,0 +1,245 @@
+{
+  "bookId": "activity-extra-seasidestory",
+  "id": "source-31701",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "31701001",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "噢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "好强烈的阳光……这个世界是何等的美好……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "现在的我真幸福，感觉要升天了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "不，我已经在天堂了……要融化了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "喂，需要我帮你上点清凉涂料吗？暴晒对皮肤可不好哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔……继续光合作用……呼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……已经舒服得睡着了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "算了，海边的景色确实让人心情很畅快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701010",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "啧，你们也在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎呀，明明是来度假的，就不要愁眉苦脸了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你手上拿着的……是排球，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我说是的话，又会怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "只有一个人可是打不了沙滩排球的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701015",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我听出来你的意思了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701016",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你在挑衅我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "去旁边的场地上干一场吧。你先发球？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701018",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我可以接受你的挑战，但无论怎样结果都不会改变。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701019",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你将迎来体无完肤的惨败。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不一定哦，沙滩排球是热情与活力的比拼——比热情的话我可不会输。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701021",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "盲目自信的后果，就是堕入暗不见底的深渊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "已经到了放狠话的环节了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701023",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "咳咳，那就让你见识一下传说中的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701024",
+          "sourceType": 5,
+          "speaker": "泉",
+          "text": "夏季大三角螺旋扣球吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31701025",
+          "sourceType": 3,
+          "text": "热烈的日光与隐约的潮声，见证着这场即将上演的沙滩热斗。",
+          "type": "narration"
+        }
+      ],
+      "id": "31701",
+      "sourceRefs": [
+        {
+          "bundle": "seasidestory",
+          "rowIds": [
+            31701001,
+            31701002,
+            31701003,
+            31701004,
+            31701005,
+            31701006,
+            31701007,
+            31701008,
+            31701009,
+            31701010,
+            31701011,
+            31701012,
+            31701013,
+            31701014,
+            31701015,
+            31701016,
+            31701017,
+            31701018,
+            31701019,
+            31701020,
+            31701021,
+            31701022,
+            31701023,
+            31701024,
+            31701025
+          ],
+          "sectionId": 31701
+        }
+      ],
+      "title": "活动片段 31701"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "2504",
+              "enter_avg"
+            ],
+            "table": "ResOpActivityFLottoryMisc.lua"
+          }
+        ],
+        "path": [
+          "2504",
+          "enter_avg"
+        ],
+        "sectionId": 31701,
+        "table": "ResOpActivityFLottoryMisc"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 31701",
+  "wordCount": 385
+}

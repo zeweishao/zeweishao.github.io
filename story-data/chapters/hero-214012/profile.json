@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214012",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气枪战游戏《少女X机关枪》中的知名角色「蓝莎·海恩」化身1/7模型登场！有着冰蓝色的眼瞳与水蓝色的头发的蓝莎身着特兰斯尔教修女服，洁白的头纱衬托出她的纯洁与不可亵渎。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214012"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 84
+}

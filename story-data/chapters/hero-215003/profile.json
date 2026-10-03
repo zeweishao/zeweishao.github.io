@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215003",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI公司推出的「终焉地平线」系列盲盒中，真恋正式闪亮登场。为了还原原作中真恋的形象，模型师细腻地呈现了她在表演中的造型，将飘动的双马尾和即将按下琴键的手指，以及真恋演出服的各种细节逐一刻画出来，仿佛能听到真恋演奏出的美好音乐。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215003"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 115
+}

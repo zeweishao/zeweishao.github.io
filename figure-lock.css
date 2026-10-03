@@ -1,0 +1,269 @@
+/* 团子之家 (figures page) · a little padlock: the page stays blurred until the riddle is answered. */
+
+html.figure-locked,
+html.figure-locked body {
+  overflow: hidden;
+}
+
+html.figure-locked .figures-page > .j-wrap,
+html.figure-locked .figures-page .j-companion {
+  filter: blur(14px) saturate(0.85);
+  pointer-events: none;
+  user-select: none;
+}
+
+.figures-page > .j-wrap {
+  transition: filter 0.6s ease;
+}
+
+.figure-lock {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px calc(24px + env(safe-area-inset-bottom));
+  background: radial-gradient(ellipse at 50% 40%, rgba(245, 238, 227, 0.35), rgba(70, 45, 20, 0.28));
+  overflow-y: auto;
+  transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+.figure-lock[hidden] {
+  display: none;
+}
+
+.figure-lock.is-leaving {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.lock-card {
+  --line-h: 34px;
+  position: relative;
+  width: min(420px, 100%);
+  margin: auto;
+  padding: 58px 34px 18px;
+  border-radius: 4px;
+  background-color: var(--paper-3);
+  background-image:
+    linear-gradient(to right, transparent 30px, rgba(184, 71, 63, 0.25) 30px, rgba(184, 71, 63, 0.25) 31px, transparent 31px),
+    repeating-linear-gradient(to bottom, transparent 0, transparent 33px, rgba(44, 58, 94, 0.10) 33px, rgba(44, 58, 94, 0.10) 34px);
+  box-shadow: 0 2px 0 #efe5d6, 0 22px 50px rgba(42, 39, 51, 0.32);
+  text-align: center;
+  transform: rotate(-1deg);
+  animation: lockCardIn 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+}
+
+.lock-card::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  width: 110px;
+  height: 26px;
+  margin-left: -55px;
+  background: url("assets/journal/tape-blush.webp") center / 100% 100% no-repeat;
+  transform: rotate(-3deg);
+}
+
+.lock-key {
+  position: absolute;
+  top: -46px;
+  right: -22px;
+  width: 96px;
+  height: auto;
+  filter: drop-shadow(0 4px 6px rgba(42, 39, 51, 0.2));
+  transform: rotate(14deg);
+  pointer-events: none;
+}
+
+.lock-padlock {
+  display: block;
+  width: 46px;
+  height: 52px;
+  margin: -28px auto 10px;
+  color: var(--rose);
+}
+
+.lock-card .eyebrow {
+  margin: 0;
+  font-size: 15px;
+}
+
+.lock-card h2 {
+  margin: 6px 0 18px;
+  white-space: nowrap;
+  font-family: var(--hand);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.lock-question {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.lock-hint {
+  margin: 0 0 18px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.lock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lock-input {
+  width: 100%;
+  min-height: 50px;
+  padding: 10px 16px;
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--hand);
+  font-size: 24px;
+  text-align: center;
+  outline: none;
+  box-shadow: 3px 3px 0 rgba(42, 39, 51, 0.12);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.lock-input::placeholder {
+  color: #b9ad9c;
+  font-size: 18px;
+}
+
+.lock-input:focus-visible {
+  outline: none;
+}
+
+.lock-input:focus {
+  border-color: var(--rose);
+  box-shadow: 3px 3px 0 var(--blush);
+}
+
+.lock-submit {
+  min-height: 50px;
+  border: none;
+  border-radius: 4px;
+  background: var(--rose);
+  box-shadow: 3px 3px 0 var(--ink);
+  color: #fff8f0;
+  font-family: var(--serif);
+  font-size: 17px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.lock-submit:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.lock-error {
+  min-height: 26px;
+  margin: 10px 0 0;
+  color: var(--rose);
+  font-family: var(--hand);
+  font-size: 19px;
+}
+
+.lock-card.is-wrong {
+  animation: lockShake 0.42s ease;
+}
+
+.lock-card.is-right {
+  animation: lockOpen 0.6s ease forwards;
+}
+
+.lock-stamp {
+  position: absolute;
+  right: 18px;
+  bottom: 22px;
+  padding: 6px 10px;
+  border: 2.5px solid var(--rose);
+  border-radius: 6px;
+  color: var(--rose);
+  font-family: var(--hand);
+  font-size: 22px;
+  opacity: 0;
+  transform: rotate(-14deg) scale(1.8);
+  pointer-events: none;
+}
+
+.lock-card.is-right .lock-stamp {
+  opacity: 0.9;
+  transform: rotate(-14deg) scale(1);
+  transition: opacity 0.2s, transform 0.25s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+
+@keyframes lockCardIn {
+  from { opacity: 0; transform: translateY(24px) rotate(-3deg); }
+  to { opacity: 1; transform: rotate(-1deg); }
+}
+
+@keyframes lockShake {
+  0%, 100% { transform: rotate(-1deg) translateX(0); }
+  20% { transform: rotate(-1deg) translateX(-10px); }
+  40% { transform: rotate(-1deg) translateX(9px); }
+  60% { transform: rotate(-1deg) translateX(-6px); }
+  80% { transform: rotate(-1deg) translateX(4px); }
+}
+
+@keyframes lockOpen {
+  0%, 40% { transform: rotate(-1deg); opacity: 1; }
+  100% { transform: rotate(2deg) translateY(-30px) scale(0.96); opacity: 0; }
+}
+
+@media (max-width: 760px) {
+  .figure-lock {
+    align-items: flex-start;
+    padding-top: max(12vh, 64px);
+  }
+
+  .lock-card {
+    padding: 52px 22px 14px;
+  }
+
+  .lock-key {
+    width: 74px;
+    top: -36px;
+    right: -6px;
+  }
+
+  .lock-card h2 {
+    font-size: 26px;
+  }
+
+  .lock-question {
+    font-size: 17px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lock-card,
+  .lock-card.is-wrong,
+  .lock-card.is-right {
+    animation: none;
+  }
+}
+
+/* the index tabs and the phone tab bar stay usable, so she can still leave the page */
+html.figure-locked .figures-page .topbar,
+html.figure-locked .figures-page .j-dock {
+  position: relative;
+  z-index: 130;
+}
+
+html.figure-locked .figures-page .j-dock {
+  position: fixed;
+}

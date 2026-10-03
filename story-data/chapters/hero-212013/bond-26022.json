@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-212013",
+  "id": "bond-26022",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26022001",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "晚饭想吃什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么忽然问这个？\n我最近在减脂，不是一直都吃芒果大虾色拉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "听清楚问题。\n我问的是，你「想吃」什么。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26022005",
+              "text": "火锅，炸鸡，烤肉！"
+            },
+            {
+              "targetId": "26022005",
+              "text": "蛋糕，奶茶，甜甜圈！"
+            }
+          ],
+          "sourceId": "26022004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26022005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "去吃个够吧，仅限今天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哎？！这样真的好吗？我有点......良心不安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022007",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "没关系，是时候安排一次「cheat-day」了。\n偶尔吃到十分饱，对身体和心理都有好处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022008",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "专注于总体目标，但偶尔也要做些让自己开心的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听到酒井小姐说出这种话......总感觉有些出人意料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022010",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "早该发现了吧？从特殊私人指导开始的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022011",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "制定食谱、陪同散心，甚至早上亲自叫你起床，你该不会以为这全部是教练的工作范畴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我以为这是某种特殊关照？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022013",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "陪同你达成目标，总能让我的心情舒缓平静下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26022014",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "说不定，对我而言，你就是某种接近cheat-day的存在哦？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26022",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26022001,
+            26022002,
+            26022003,
+            26022004,
+            26022005,
+            26022006,
+            26022007,
+            26022008,
+            26022009,
+            26022010,
+            26022011,
+            26022012,
+            26022013,
+            26022014
+          ],
+          "sectionId": 26022
+        }
+      ],
+      "title": "cheat-day"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212013",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "cheat-day",
+  "wordCount": 325
+}

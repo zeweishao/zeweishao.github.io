@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213016",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气游戏《蘑菇少女的日常》中的贝斯手「克莱儿」化身为1/7比例模型登场！对出风头毫无野心，却是乐队中最耀眼的灵魂人物！即将闪亮登场！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213016"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 67
+}

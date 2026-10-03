@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214201",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "灵感来源于宫廷画师在艾伦兹珀尔加冕庆典上所绘制的油画。这位尊贵的家主此刻手持镶嵌夕波千年红宝石的权杖，在万人拥簇下即将成为柯斯顿城的新一任守护者。与庆典欢喜的气氛不同的是，珀尔口述箴言，眼神却流露出复杂之色，无人知晓此时此刻，她究竟在想什么。\n\n“生生世世，永续力量和荣光。”\n\n      ——该特别款通过天启阻击战玩法获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "王之加冕Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214201",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾伦兹·王之加冕Ver.",
+  "title": "王之加冕Ver.",
+  "wordCount": 153
+}

@@ -1,0 +1,1598 @@
+{
+  "bookId": "rewind-45",
+  "id": "chapter-184",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37516001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你没有用过「Angel Player」?明明是你操纵红眼天使在——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "为什么你觉得每个故事都该有个大坏蛋？而且这个坏蛋还得是我？嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……你怎么可能忍着什么都没做？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这一次，我只是个热情好客的导游。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516005",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "我带着那位人生地不熟的客人在M城四处转了转，结果不小心让她接触了一些……「真相」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "闭嘴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516007",
+          "sourceType": 2,
+          "speaker": "希塔",
+          "text": "这个装置光是启动就需要密码……已经来不及慢慢试了……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "怎么在我面前就开始骇入了？急了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516009",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "看来绿洲内部的情况，确实相当不妙啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516010",
+          "sourceType": 9,
+          "text": ">>>远程链接模块已激活，正尝试与【未知装置】建立握手协议……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37516011",
+          "sourceType": 9,
+          "text": ">>>失败，请重新尝试或咨询相关服务提供商。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37516012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "哎，希塔，你也活化有些阵子了，应该多少了解过绿洲的起源吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516014",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "流传较广的说法是，那里曾是反抗管理局暴政的手办们的据点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "他们崇尚自由，平等地对待每一个同伴，试图建立只属于手办自己的「理想国」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516016",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "只可惜……他们失败了。废弃的据点还被管理局接管，改建成了用来收容犯罪手办的特殊设施。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516017",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "讽刺的结局，对吧？但反抗的火种依旧存在，现在也在「天启」里熊熊燃烧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516018",
+          "sourceType": 9,
+          "text": ">>>切换到强制链接。解码进行中……链接中断。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37516019",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "你有没有想过……究竟是什么让我们以现在的姿态行走在世间？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516020",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "以商品的身份，获得了过去作为「人」的意识，却仍要面临「商品」的结局……被人类肆意玩弄——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516021",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这是多么好笑的恶作剧啊。即使是我，也要夸一句有创意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516022",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我不知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "但是，你们的做法绝对是错误的，混乱不会带来任何价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516024",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "呵，不愧是「阿尔法军工」的大小姐。你仍然抱着理想的稻草，不愿意进行半点思考……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516025",
+          "sourceType": 9,
+          "text": ">>>强制链接失败，进程挂起。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37516026",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……省点能源吧，如果能破解的话我早用上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516027",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "它是个彻底的黑箱。明明只是手办配件，却能对现实产生相当程度的影响……只有「天使」才知道怎么用吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516028",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "与其浪费时间，不如和我一起，静静欣赏绿洲真正的结局吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516029",
+          "sourceType": 3,
+          "text": ">>>正在建立外部通讯……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37516030",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "哈？场外求助可是犯规行为，对面是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37516031",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……是正义的伙伴。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-922",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37516001,
+            37516002,
+            37516003,
+            37516004,
+            37516005,
+            37516006,
+            37516007,
+            37516008,
+            37516009,
+            37516010,
+            37516011,
+            37516012,
+            37516013,
+            37516014,
+            37516015,
+            37516016,
+            37516017,
+            37516018,
+            37516019,
+            37516020,
+            37516021,
+            37516022,
+            37516023,
+            37516024,
+            37516025,
+            37516026,
+            37516027,
+            37516028,
+            37516029,
+            37516030,
+            37516031
+          ],
+          "sectionId": 37516
+        }
+      ],
+      "title": "迈向明日之歌·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37517001",
+          "sourceType": 3,
+          "text": "绿洲，收容区域——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37517002",
+          "sourceType": 5,
+          "speaker": "仓田真乃",
+          "text": "水鹤——连舞！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517003",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "呜，数量太多了，快被包围了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517004",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "是最坏的情况了……守卫拦不住分身了，她们在不断地从各个地方涌过来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517005",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……请你们停止这样的暴行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517006",
+          "sourceType": 3,
+          "text": "咣——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37517007",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "呵……他们已经得到了「惩罚」。还要继续硬撑吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517008",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我能感受到你们的愤怒……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517009",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "为什么？请告诉我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517010",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "我们……看到了一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517011",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "一起走吧，我们会慢慢地告诉你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517012",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "别听她的！她们只是想绑走本体而已！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37517013",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "我也不会让你们把朋友带走……「英雄」是不能临阵脱逃的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604001",
+          "sourceType": 9,
+          "text": "叮铃铃——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37604002",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "什么声音……啊，是小乔给的对讲机……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604004",
+          "sourceType": 3,
+          "text": "通讯接通。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37604005",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "不是……小乔吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604006",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啊，我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604007",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "肯定是她信任的人吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604008",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "你身边的那位就是天使？「AP」找到了，该怎么帮助你们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604009",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604010",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "挡住了！……我会给大家争取时间！虽然没什么自信……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604011",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "百合，请告诉她怎么做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604012",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "喂，你知道自己在说什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604013",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "想好了吗？这次的我们数量不比「之前」少，一瞬间「同化」这么多分身的意识……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604014",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "你的人格不可能平安无事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604015",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "她们本来就是我的一部分……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604016",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我想理解她们的愤怒，还有……悲伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604017",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "小奏……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604018",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "真是一直都这么固执呢。好吧，我会协助的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604019",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "首先，是它的登录密码……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604020",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "「LIFEISBEAUTIFUL」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604021",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "是来到这个世界后新设置的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37604022",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "「活着就是美好的事情」……曾经有人这么教会了我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-923",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37517001,
+            37517002,
+            37517003,
+            37517004,
+            37517005,
+            37517006,
+            37517007,
+            37517008,
+            37517009,
+            37517010,
+            37517011,
+            37517012,
+            37517013
+          ],
+          "sectionId": 37517
+        },
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37604001,
+            37604002,
+            37604003,
+            37604004,
+            37604005,
+            37604006,
+            37604007,
+            37604008,
+            37604009,
+            37604010,
+            37604011,
+            37604012,
+            37604013,
+            37604014,
+            37604015,
+            37604016,
+            37604017,
+            37604018,
+            37604019,
+            37604020,
+            37604021,
+            37604022
+          ],
+          "sectionId": 37604
+        }
+      ],
+      "title": "迈向明日之歌·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37518001",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "……程序修改好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518002",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "好……和之前一样，等小奏发动「和声」，数秒后那些分身就会被吸收。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518003",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "「和声」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518004",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518005",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "开始倒计时了呢……嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518006",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "对不起……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518007",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "把手……松开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518008",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我会全部接受的。你们的情绪和记忆……本来就是我珍贵的宝物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518009",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "是……吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518010",
+          "sourceType": 5,
+          "speaker": "立华奏",
+          "text": "唔……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518011",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "小奏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518012",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518013",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518014",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "你知道这里是哪吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518016",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "看上去像是垃圾场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518017",
+          "sourceType": 2,
+          "speaker": "立华奏",
+          "text": "我正处在……她们的记忆里。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518018",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这个答案……50分吧。再仔细看看，这可不是普通的垃圾场，而是「真相」本身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518019",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "那些白色的东西是……手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518020",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "没错，这些在露天的垃圾堆里埋着的，身上沾满脏污的……就是手办，或者说曾是手办的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518021",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "为了确保失去「商品」的价值，身体的零件都拆得七零八落了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518022",
+          "sourceType": 2,
+          "speaker": "立华奏",
+          "text": "怎么会这样……？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518023",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518024",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "历史上，曾经发生过因为牛奶生产过剩，奶农就把牛奶倒掉来稳定物价的事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518025",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "手办也是差不多的东西，卖不出去了自然也需要批量销毁。这样才能节省仓储成本，继续保留作为商品的稀缺性啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518026",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518027",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "寻找善待自己的主人？和人类愉快地生活？说什么蠢话，这里的倒霉蛋可连商品都做不成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518028",
+          "sourceType": 2,
+          "speaker": "立华奏",
+          "text": "……这也太残酷了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518029",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "在这个世界，人类就是不讲理的神，手办则是仍由其支配的玩物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518030",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "稍感欣慰的是，绝大部分的手办是没有活化的，它们什么都感觉不到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518031",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "但是……嘘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518032",
+          "sourceType": 2,
+          "speaker": "立华奏",
+          "text": "……！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518033",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "其实你已经听见了吧……只是不愿相信……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518034",
+          "sourceType": 9,
+          "text": "啊……啊……为什么……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518035",
+          "sourceType": 9,
+          "text": "为什么我还有感觉……请让我死吧……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518036",
+          "sourceType": 9,
+          "text": "……我诅咒你们……永远不会原谅……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518037",
+          "sourceType": 9,
+          "text": "一切都毫无意义……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518038",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "听到他们的悲鸣了吧？真是顽强啊，即使到这种程度也还没白模化。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518039",
+          "sourceType": 2,
+          "speaker": "立华奏",
+          "text": "好难过……「心脏」的地方在疼……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518040",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……是谁干的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518041",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "天使，原来也是会愤怒的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518042",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这里是FULI旗下的经销商之一曾使用的废弃物填埋地。但真正的凶手……呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518043",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "顺带一提，还有些手办因为别的原因躺在了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518044",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "他们……是「绿洲」的第一批住民。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518045",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37518046",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我现在明白了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37518047",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……我和你们约好了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-924",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37518001,
+            37518002,
+            37518003,
+            37518004,
+            37518005,
+            37518006,
+            37518007,
+            37518008,
+            37518009,
+            37518010,
+            37518011,
+            37518012,
+            37518013,
+            37518014,
+            37518015,
+            37518016,
+            37518017,
+            37518018,
+            37518019,
+            37518020,
+            37518021,
+            37518022,
+            37518023,
+            37518024,
+            37518025,
+            37518026,
+            37518027,
+            37518028,
+            37518029,
+            37518030,
+            37518031,
+            37518032,
+            37518033,
+            37518034,
+            37518035,
+            37518036,
+            37518037,
+            37518038,
+            37518039,
+            37518040,
+            37518041,
+            37518042,
+            37518043,
+            37518044,
+            37518045,
+            37518046,
+            37518047
+          ],
+          "sectionId": 37518
+        }
+      ],
+      "title": "迈向明日之歌·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37519001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "看起来，危机成功解除了呢？真是可喜可贺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "但是……有机可乘！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519003",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "唔唔……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "这条龙刚才一直紧张得发抖诶，果然只有外表才像样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519005",
+          "sourceType": 2,
+          "speaker": "希塔",
+          "text": "居然从波波的爪子那钻过去了？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519006",
+          "sourceType": 5,
+          "speaker": "希塔",
+          "text": "帕拉斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519007",
+          "sourceType": 9,
+          "text": ">>>警告：本机动力不足30%，即将退出长距离巡航模式。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37519008",
+          "sourceType": 3,
+          "text": "咻——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37519009",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "好险好险，翅膀差点就被射穿了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "波波，带我追她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519011",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "什么时候……！脚底有陷阱，吾被缠住了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "希塔——期待和你的下一次见面！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "希望到时候，你能给我一个满意的……答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "塞拉……总有一天……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519015",
+          "sourceType": 9,
+          "text": "一段时间后，绿洲——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37519016",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "怎么办……这么久了她还没醒过来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519017",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "是我的错，明明知道这会对她的意识造成巨大的负担……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519018",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "不，谁都没有错。应该做的是想办法唤醒她。逗猫棒会管用吗……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519019",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这怎么想也不会管用吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519020",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "而且也不能保证醒过来的会是同化的众多意识中的哪一个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519021",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……嗯……啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519022",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "……！啊，醒过来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519023",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "喂，小奏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519024",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "呵呵呵呵……是我苏醒了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519025",
+          "sourceType": 5,
+          "speaker": "仓田真乃",
+          "text": "咦？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519026",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "这个语气……？糟糕，醒过来的是冷酷的天使的人格！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519027",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "噗……百合，是我啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519028",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我是和你一起来到这个世界的奏哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519029",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "吓死我了，你感觉还好吗?有没有哪里不舒服？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519030",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "百合真是越来越会关心人了。也谢谢你，真乃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519031",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "嗯，醒过来就是最好的。你真的不要紧吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519032",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我没事，所有的一切都记得，包括分身们的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519033",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……太好了呢，小奏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519034",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "唔，抱得太紧了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519035",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我看到了分身们的记忆，她们迫切地想为手办们做什么，但采取了过激的方式。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519036",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……和死后世界的大家一样，手办们的人生也有着各种遗憾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519037",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "接下来……还有很多想做的事情。你能继续帮我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37519038",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "那当然了，我们早就是同伴了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-925",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37519001,
+            37519002,
+            37519003,
+            37519004,
+            37519005,
+            37519006,
+            37519007,
+            37519008,
+            37519009,
+            37519010,
+            37519011,
+            37519012,
+            37519013,
+            37519014,
+            37519015,
+            37519016,
+            37519017,
+            37519018,
+            37519019,
+            37519020,
+            37519021,
+            37519022,
+            37519023,
+            37519024,
+            37519025,
+            37519026,
+            37519027,
+            37519028,
+            37519029,
+            37519030,
+            37519031,
+            37519032,
+            37519033,
+            37519034,
+            37519035,
+            37519036,
+            37519037,
+            37519038
+          ],
+          "sectionId": 37519
+        }
+      ],
+      "title": "迈向明日之歌·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37520001",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "喂……那里有点紧啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520002",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵，这不是挺合身的吗？看上去像是我的接班人的模样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "事先声明，我可没有答应啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520004",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "知道了，这不是看你原先的衣服都破破烂烂了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "但我是非常执着的哦——在追求人才这方面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520006",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……可怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "真正无可救药的家伙另当别论，这的手办大多是不知如何在这个世界正常生活的「异常者」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "即使出去了，不久还会再回来。你们……想要拯救他们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520009",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "不，做坏事就要付出代价。只是……告诉他们某种可能性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "收音装置已经准备好了，随时可以向全绿洲广播。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520011",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "真快呢……小奏，我们开始吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520012",
+          "sourceType": 9,
+          "text": "琴键的乐音开始流淌——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37520013",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "喂，麦克风测试，麦克风测试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520014",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "各位住民，大家好。我是「新世界战线」的领队仲村百合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520015",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "首先，对今天的骚乱致以真诚的歉意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520016",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……是百合，她想要做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520017",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，是想给大家唱首歌吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520018",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "我知道在听的各位不少都是数一数二的坏蛋，目前过着乱七八糟的人生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520019",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "或者曾遭遇重大的变故，最后走上歧途，来到了这个地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520020",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "但是，你们始终都还有追求幸福的权利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520021",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "百合……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520022",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "光这么说可能缺乏说服力。但是我确实曾亲眼见证……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520023",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "因为各种遗憾而没能好好度过青春的年轻人们，最后获得幸福的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520024",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "所以……对「仅有一次」的人生多上点心啊笨蛋手办们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520025",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "你们还没有无可救药到，不能改过自新、获得幸福的程度……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520026",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "背负着责任或悔恨，好好过日子吧！如果从这里「毕业」了就别回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520027",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "以上。啊，对了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520028",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "这广播里的人以为自己是谁啊，颐气指使的……但是……呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520029",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "大哥，我们以后好好做手办吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520030",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "如果之后那个什么管理局有对手办不公正的行为……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520031",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "我们「新世界战线」会第一个反抗他们哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520032",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵，真是会说呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520033",
+          "sourceType": 9,
+          "text": "尾声的尾声——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37520034",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "|101|的家快到了，|102|一定会有好的想法的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520035",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "就让我见识下那位特殊的手办收藏家吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520036",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "嗯……为了帮助手办们寻找美好的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37520037",
+          "sourceType": 3,
+          "text": "——即使是作为手办的「人生」，也拥有无可替代的价值。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-926",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37520001,
+            37520002,
+            37520003,
+            37520004,
+            37520005,
+            37520006,
+            37520007,
+            37520008,
+            37520009,
+            37520010,
+            37520011,
+            37520012,
+            37520013,
+            37520014,
+            37520015,
+            37520016,
+            37520017,
+            37520018,
+            37520019,
+            37520020,
+            37520021,
+            37520022,
+            37520023,
+            37520024,
+            37520025,
+            37520026,
+            37520027,
+            37520028,
+            37520029,
+            37520030,
+            37520031,
+            37520032,
+            37520033,
+            37520034,
+            37520035,
+            37520036,
+            37520037
+          ],
+          "sectionId": 37520
+        }
+      ],
+      "title": "迈向明日之歌·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 184,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 184,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "跨越过去的遗憾",
+  "title": "迈向明日之歌",
+  "wordCount": 3330
+}

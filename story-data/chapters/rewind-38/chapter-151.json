@@ -1,0 +1,1547 @@
+{
+  "bookId": "rewind-38",
+  "id": "chapter-151",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "34301001",
+          "sourceType": 9,
+          "text": "「复仇女神就在家中，在镜子里；那便是她们的住址。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301002",
+          "sourceType": 9,
+          "text": "「即使是世间最澄澈的水，足够深时也可令人沉溺。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301003",
+          "sourceType": 9,
+          "text": "——R.S.托马斯",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301004",
+          "sourceType": 9,
+          "text": ">>>编号SLR-076，认证通过。\n>>>系统自检开始……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301005",
+          "sourceType": 9,
+          "text": ">>>正在加载记忆存储单元……\n>>>正在初始化战术记录……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301006",
+          "sourceType": 9,
+          "text": ">>>自动巡航模块……正常。\n>>>雷达IFF模块……正常。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301007",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "足够了，先只检查常用模块吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301008",
+          "sourceType": 9,
+          "text": ">>>开火限制解除，系统准备就绪。\n>>>加载个性化问候语……狂热迷妹声线。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301009",
+          "sourceType": 9,
+          "text": ">>>「哇塞，你就是M城大名鼎鼎的【希塔】！」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……「帕拉斯」，我们开始行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301011",
+          "sourceType": 3,
+          "text": "没有月光的夜晚，M城的街头巷尾陷入了一片寂静。于是——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301012",
+          "sourceType": 3,
+          "text": "——机械运转的吱嘎声响变得有些刺耳。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301013",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "吓我一跳，原来是你，还以为是谁躲在阴影里呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301014",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "这里是Beta-3，发现非友方单位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301015",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "你不记得我了？前天我们在管理局的登记处见过一面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301016",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "吱——吱——指令已接收，摧毁当前目标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301017",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "什么意思？喂，别把炮管对准我啊……救命！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301018",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "救命！还有谁在附近吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301019",
+          "sourceType": 5,
+          "text": "嘭！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301020",
+          "sourceType": 3,
+          "text": "炮弹出膛，却在半途被一道光束瞬间蒸发。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301021",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "完蛋了完蛋了……嗯？我没事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301022",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "发现新目标，识别成功……威胁等级：极高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301023",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "请求支援，Beta-3呼叫Beta-2……无响应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301024",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "Beta-3呼叫Beta-0……无响应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301025",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "不用呼叫了，你是剩下的最后一台了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301026",
+          "sourceType": 7,
+          "text": "希塔 · 拂晓之光\n商品名称：希塔·拂晓之光 Ver.\n作品出处：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "34301027",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "等、等下，这蓝白色的机体……你就是那位浮游炮小姐？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301028",
+          "sourceType": 5,
+          "speaker": "牛奶盒",
+          "text": "那位总是在夜晚现身把坏蛋手办打得落花流水，维护M城治安的正义卫士！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301029",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我不认识。\n先躲到安全位置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301030",
+          "sourceType": 0,
+          "speaker": "牛奶盒",
+          "text": "收到！请放心开打！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301031",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "歼灭模式启动，将全力处理高威胁目标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301032",
+          "sourceType": 3,
+          "text": "炮声响起，现场很快又重归寂静。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34301033",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……失控的又是机甲类型的手办？近期类似的事件变得越来越频繁了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301034",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "是的，一开始还只有孤立的个例，但现在有集体失控的趋势了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301035",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "失控的机甲们已经有了原始的指挥网络，开始有组织地袭击遭遇的目标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301036",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "也就是说，失控的对象在从个体逐渐变成军队……网络里有什么人在发号施令？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301037",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "暂时没发现其他外部链接的痕迹，但我发现部分机甲的电路里……运行着一些异常的程序，符合病毒的特征。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301038",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "病毒吗……管理局的联络人表示那边也是一头雾水，现阶段继续保持观察吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301039",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "今夜也辛苦了，现在你可以休息一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301040",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "手办不需要休息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301041",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "虽说如此，精神上依旧会感到疲劳。\n要小心，一直紧绷着的弹簧，会变得格外脆弱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301042",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……必要的时候我会去休息的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34301043",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "那在开业之前，来杯咖啡？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-787",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34301001,
+            34301002,
+            34301003,
+            34301004,
+            34301005,
+            34301006,
+            34301007,
+            34301008,
+            34301009,
+            34301010,
+            34301011,
+            34301012,
+            34301013,
+            34301014,
+            34301015,
+            34301016,
+            34301017,
+            34301018,
+            34301019,
+            34301020,
+            34301021,
+            34301022,
+            34301023,
+            34301024,
+            34301025,
+            34301026,
+            34301027,
+            34301028,
+            34301029,
+            34301030,
+            34301031,
+            34301032,
+            34301033,
+            34301034,
+            34301035,
+            34301036,
+            34301037,
+            34301038,
+            34301039,
+            34301040,
+            34301041,
+            34301042,
+            34301043
+          ],
+          "sectionId": 34301
+        }
+      ],
+      "title": "黑夜与白昼·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34302001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "漂亮地解决了今晚的危机呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "在这个世界，傲慢的你依旧以为自己是能够守护他人的「正义使者」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "那就让我看看，你能做到什么程度吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我很期待……也很焦躁……你能满足我的渴望吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302005",
+          "sourceType": 3,
+          "text": "潮酷街区，边界咖啡馆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34302006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "……很好，将椰奶涂料和适量红糖一起倒入杯子里，合上盖子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "嗯，完成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "现在用双手均匀地摇晃杯子，让它们充分混合……嗯，力道要像对待情人一样温柔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这样的程度够了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "可以了，打开盖子，用微波装置加热10秒……让涂料充分地感受到你炙热的心情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……已经开始冒泡了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "接下来，用勺子小心地把它舀在刚才的浓缩咖啡涂料上，一杯招牌的「椰奶拿铁」就完成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "多谢指点，我把它端给客人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "看样子水平很快就能赶上你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302015",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵，卖相还过得去。\n她学得很快，但心态却略显急躁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302016",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽，我可没说要点新人咖啡师的实验品。\n",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "抱歉，不满意的话可以重新做一杯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302018",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "虽然这杯看上去还像样，但也只是在模仿狩猎者大人罢了——唔，味道还不错？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302019",
+          "sourceType": 0,
+          "speaker": "咖啡熊",
+          "text": "别为难新人了，说点有意思的，你知道最近晚上发生的事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302020",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "噢，那个带着会飞的激光炮的手办？管理局门口隔三岔五就会被丢上几个被打晕的小混混。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302022",
+          "sourceType": 0,
+          "speaker": "咖啡熊",
+          "text": "不是，我说的是那个都市传说，走夜路会被「恶魔」带走手脚的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302023",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "呵，这你也信吗？多半是被「她」搞定的混混传出来的谣言，把别人抹黑成「恶魔」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302024",
+          "sourceType": 0,
+          "speaker": "咖啡熊",
+          "text": "不不，是真的，都已经发生过好几例了。最近几次都是在这个街区发生的，怪吓人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302025",
+          "sourceType": 0,
+          "speaker": "咖啡熊",
+          "text": "几个手办本来好好的，过了一晚都变得缺胳膊断腿的，而且都记不清楚发生了什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302026",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "真有什么恶魔，也会被「她」解决的吧？我倒是很期待……「她」和恶魔交手呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302027",
+          "sourceType": 0,
+          "speaker": "咖啡熊",
+          "text": "怕就怕那个手办真的就是所谓的「恶魔」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302028",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "我看你是根本不了解「她」，需要我给你讲讲这位暗夜守卫的事迹吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302029",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "打扰了，请问……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34302030",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……你们知道这些事件的发生地点吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-788",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34302001,
+            34302002,
+            34302003,
+            34302004,
+            34302005,
+            34302006,
+            34302007,
+            34302008,
+            34302009,
+            34302010,
+            34302011,
+            34302012,
+            34302013,
+            34302014,
+            34302015,
+            34302016,
+            34302017,
+            34302018,
+            34302019,
+            34302020,
+            34302021,
+            34302022,
+            34302023,
+            34302024,
+            34302025,
+            34302026,
+            34302027,
+            34302028,
+            34302029,
+            34302030
+          ],
+          "sectionId": 34302
+        }
+      ],
+      "title": "黑夜与白昼·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34303001",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "So busy today，去喝杯coffee放松下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303002",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "……Wait，是谁在尾随我？\nShow your face。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "请恕冒昧，阁下可就是伊达氏现任家督……伊达政宗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303004",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Correct，有何贵干？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303005",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "喂，你是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303006",
+          "sourceType": 9,
+          "text": "剑刃交错的声音骤然响起——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34303007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……好像有什么声音？\n「帕拉斯」，能够定位到声源吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303008",
+          "sourceType": 9,
+          "text": ">>>距离较远，且存在人类生活噪音干扰，无法定位。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34303009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "先分析当前环境情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303010",
+          "sourceType": 9,
+          "text": ">>>检测到现场存在聚氯乙烯与油性漆的残留混合物。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34303011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "墙面上还有划痕，曾有手办在这里打斗吗？或许这里就是「恶魔」事件的发生地之一……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我们去别的地方看看有无异常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303013",
+          "sourceType": 9,
+          "text": ">>>警告：雷达显示有物体在高速接近，时速为40公里每小时。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34303014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "猫？不对，是手办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……哦呀，看来今晚钓到了一条大鱼呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303016",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "晚上好啊，「恶魔」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34303017",
+          "sourceType": 9,
+          "text": ">>>IFF状态更新，目标出现敌对反应。开火限制解除。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34303018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "先瘫痪目标再解释吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "「阿尔贝尔」，把对面撞成流星吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "泉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "等下，刹车！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好险好险……喂，你不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550005",
+          "sourceType": 9,
+          "text": ">>>IFF状态更新，目标被【希塔】锁定为友方。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34550006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我是希塔，前阿尔法军工集团雇员。\n……在那个世界，我们曾经有过非正式的合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我当然记得。\n好呀，原来你也作为手办活化了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我是来调查最近流行的那个都市传说的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "巧了，我也是。\n刚才看到你在案发现场，还以为是犯人回来查看情况了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "等一下，你就是那位在晚上维护正义的「浮游炮小姐」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我只是做点我该做的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎，管理局的那帮家伙加起来也没你敬业……你上次睡觉是什么时候？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这不重要。你有关于「恶魔」的线索吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "没有，知道这事还是因为前两天请我送快递的委托者被砍了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550015",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "砍了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550016",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嗯，手臂的断面很整齐，是被利器切开的。那货完全想不起来怎么回事，还把快递到付的事情忘了个干干净净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "手办的记忆与涂装密切相关……是因为丢失涂装才失忆了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550018",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "应该是这个原因，你在追查这件事？\n那正好，我也加入吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "不，我一个人就可以解决。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这么干脆就拒绝了？看在旧交情的份上都不犹豫一下？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我还有事，先走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34550022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "喂，急什么。我载你回去？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-789",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34303001,
+            34303002,
+            34303003,
+            34303004,
+            34303005,
+            34303006,
+            34303007,
+            34303008,
+            34303009,
+            34303010,
+            34303011,
+            34303012,
+            34303013,
+            34303014,
+            34303015,
+            34303016,
+            34303017,
+            34303018
+          ],
+          "sectionId": 34303
+        },
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34550001,
+            34550002,
+            34550003,
+            34550004,
+            34550005,
+            34550006,
+            34550007,
+            34550008,
+            34550009,
+            34550010,
+            34550011,
+            34550012,
+            34550013,
+            34550014,
+            34550015,
+            34550016,
+            34550017,
+            34550018,
+            34550019,
+            34550020,
+            34550021,
+            34550022
+          ],
+          "sectionId": 34550
+        }
+      ],
+      "title": "黑夜与白昼·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34304001",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "别哭了，那些欺负你的家伙我都已经收拾了。\n根本没费什么劲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304002",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "可是……你流鼻血了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304003",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "啊！小事小事，把鼻子捏住很快就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304004",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "对不起，泉……我总是拖累你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304005",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "该说对不起的是那帮躺在地上的家伙……居然敢在贫民窟动我罩的人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304006",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "……我会变得比以前更坚强的。\n不会再麻烦大家……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304007",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "以后的事情以后再说，还站得起来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304008",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "好，先走吧，「塞拉」还在仓库外给我们把风呢。\n她等久了可不知道会干出什么事来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304009",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34304010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……是梦？\n刚才睡着了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304011",
+          "sourceType": 9,
+          "text": ">>>系统激活，加载个性化问候语，优雅管家声线。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34304012",
+          "sourceType": 9,
+          "text": ">>>「早上好，【希塔】小姐。当前时间是上午8：30。需要来一杯清晨的咖啡吗？」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34304013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "开业时间到了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304014",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你是不是在压榨新人？\n她最近的面部涂装越来越苍白了，今天看上去倒是好了一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我劝过了，是她总不肯停下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304016",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "其实你们两个还挺像的。\n作为前辈，你应该能提供一些……人生观上的指导。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304017",
+          "sourceType": 3,
+          "text": "凛轻抿了一口咖啡，看向店外的方向。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34304018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "手办也能享用的地道咖啡！感兴趣的话，请看看这份传单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304019",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "没兴趣，我只喜欢柠檬汁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哇哦，听上去不错，算我一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……怎么找到我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你反侦察学得很好，昨晚我其实跟丢了。\n但一个爱喝咖啡的手办怎么可能错过手办咖啡馆呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "居然是这种理由……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304024",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎，只是来这碰碰运气，没想到你居然在这边做店员……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304025",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不愧是你，白天打工，晚上还行侠仗义。你是完全没有个人生活是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304026",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "小点声。要喝咖啡就进来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304027",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……虽然我还是更喜欢口嚼咖啡片。\n但涂料的味道能做到这种程度，真是令人惊讶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304028",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "别瞪我，又不是不付钱，账先记在「异乡人组织」上。\n喂，请问店长在吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304029",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……你到底想干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304030",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你好，我就是这里的店长。\n请问对服务和饮品有不满意的地方吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304031",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我想借用下你的这位店员。\n我们是很久没见的朋友，想找个地方叙叙旧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304032",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "等下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304033",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "没问题，事假我批准了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304034",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "诶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34304035",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "走，带你出去兜兜风！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-790",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34304001,
+            34304002,
+            34304003,
+            34304004,
+            34304005,
+            34304006,
+            34304007,
+            34304008,
+            34304009,
+            34304010,
+            34304011,
+            34304012,
+            34304013,
+            34304014,
+            34304015,
+            34304016,
+            34304017,
+            34304018,
+            34304019,
+            34304020,
+            34304021,
+            34304022,
+            34304023,
+            34304024,
+            34304025,
+            34304026,
+            34304027,
+            34304028,
+            34304029,
+            34304030,
+            34304031,
+            34304032,
+            34304033,
+            34304034,
+            34304035
+          ],
+          "sectionId": 34304
+        }
+      ],
+      "title": "黑夜与白昼·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34305001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……过山车确实是有意思的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我就说嘛，就是没有手办尺寸的安全装置，刚才差点被甩下去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "接下来我们可以试试摩天轮！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "够了，为什么带我来这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "放松娱乐，难道还需要理由吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我还有工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "白天有工作，那晚上呢？你还要守护M城的夜晚？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "会垮掉的，看你这样子根本用不了多久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "那也是我自己的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "在这个世界，没有「极端思维」，没有「阿尔法防线」……你已经没有必要这样忙碌了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我知道！……我当然知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……但这里也不太平，这些天的袭击事件变得越来越多了。我有很不好的预感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "手办治安的事情管理局会去解决，你有什么可操心的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "在我开始晚上的活动之前，没有发生过这样的事情。\n如果这是因为我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "少自作多情了，M城里的搞事手办够站满一间仓库了。哪个都可能一时兴起搞出大乱子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "但我不能坐视不管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你以为自己是正义的使者？那倒巧了，我是正义的伙伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305018",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我们可以再次合作，我会帮你把引起事件的家伙揪出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……报酬是什么？\n上一次合作，你「顺便带走」了一车军用物资。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那就是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305021",
+          "sourceType": 3,
+          "text": "泉凑了过来，她的身上带着熟悉的机油气味。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34305022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "——给你自己放个长假。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305023",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "你在干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305024",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "冥想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305025",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "……对着你收集的这些「战利品」？\n即使是我也佩服你找乐子的本事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305026",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "这些天我的心始终无法平静，迟迟不能领悟澄澈空明的剑意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305027",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "似乎在挥刀的瞬间，它就会从我的指尖溜走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305028",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "翻译成人话，就是你陷入瓶颈期了是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305029",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "需要更强大的对手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305030",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "噢，那位剑术至臻的伊达政宗也不能满足你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305031",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "胜之不武，甚是可惜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305032",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "那正好，我有个绝佳的人选。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305033",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "嗯……她现在的名字是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34305034",
+          "sourceType": 9,
+          "text": "不远的地方，恶魔的舌尖掠过上扬的唇角，然后落在牙齿上——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34305035",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "希塔。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-791",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34305001,
+            34305002,
+            34305003,
+            34305004,
+            34305005,
+            34305006,
+            34305007,
+            34305008,
+            34305009,
+            34305010,
+            34305011,
+            34305012,
+            34305013,
+            34305014,
+            34305015,
+            34305016,
+            34305017,
+            34305018,
+            34305019,
+            34305020,
+            34305021,
+            34305022,
+            34305023,
+            34305024,
+            34305025,
+            34305026,
+            34305027,
+            34305028,
+            34305029,
+            34305030,
+            34305031,
+            34305032,
+            34305033,
+            34305034,
+            34305035
+          ],
+          "sectionId": 34305
+        }
+      ],
+      "title": "黑夜与白昼·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 151,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 151,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1143,
+          "rowNpcId": 1118
+        }
+      },
+      {
+        "id": "98",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "你就是M城大名鼎鼎的……",
+  "title": "黑夜与白昼",
+  "wordCount": 3877
+}

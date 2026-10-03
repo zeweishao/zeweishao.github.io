@@ -1,0 +1,2320 @@
+{
+  "bookId": "rewind-27",
+  "id": "chapter-163",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35701001",
+          "sourceType": 0,
+          "speaker": "嘻哈小子",
+          "text": "嘻哈哈哈——这是属于我们的狂欢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701002",
+          "sourceType": 0,
+          "speaker": "膨胀薯条",
+          "text": "自由降临了，在人类面前装模作样的日子已经结束了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701003",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "膝盖好疼，为什么它们都动起来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701004",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "呜呜……我一定是在做梦……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35701006",
+              "text": "来，把手给我。"
+            },
+            {
+              "targetId": "35701006",
+              "text": "我会带你去安全的地方。"
+            }
+          ],
+          "sourceId": "35701005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35701006",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "……你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35701008",
+              "text": "我是一个路过的……手办收藏家。"
+            }
+          ],
+          "sourceId": "35701007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35701008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "多亏了|101|把人类都支开，这下不用束手束脚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "好呢，否则处理潮玩的我们也要违反规定了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "事到如今，坚持不在人类面前活动已经没有意义了吧？\n来多少潮玩，就干趴下多少吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎，我越来越怀疑阿尔弗雷德能否遵守承诺了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "他当时倒信誓旦旦地说会有人替我们去追日光乐园的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "管理局刚发布了「潮玩搜查令」，全体出动去各街区压制潮玩了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "他们自己都完全顾不上会在人类面前暴露了，还能腾出人手去追查吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "事情这么突然，也没有更好的办法了吧。只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701016",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "怎么了，薇薇安？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701017",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "刚才战斗时我就有了违和感，那些喊口号的潮玩似乎对我们还有人类，都没有什么兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "它们在刻意地制造热闹的场面，就像一群聒噪的陆行鸟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不过，如果只想出点风头，为啥还在偏僻的巷子里窜来窜去的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这更像是……更像是在借着骚乱的势头，搜寻别的什么目标？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对对，如果真是这样，它们在寻找什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……真不爽，我们真是一直在迷雾里打转，和看不见的敌人斗智斗勇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701023",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "喂喂，你们难道不觉得熟悉吗？\n成群结队的潮玩……和全员出动的管理局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35701024",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "现在的情况，不是和N城潮玩暴动的开局非常像吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-305",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35701001,
+            35701002,
+            35701003,
+            35701004,
+            35701005,
+            35701006,
+            35701007,
+            35701008,
+            35701009,
+            35701010,
+            35701011,
+            35701012,
+            35701013,
+            35701014,
+            35701015,
+            35701016,
+            35701017,
+            35701018,
+            35701019,
+            35701020,
+            35701021,
+            35701022,
+            35701023,
+            35701024
+          ],
+          "sectionId": 35701
+        }
+      ],
+      "title": "#1 相似开局"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35702001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "目前已知的信息就是这些。拜托你了，07。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702002",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "了解，我会即刻动身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没有其他的问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702004",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "……你确实和阿尔弗雷德不同，你懂得利用身边的一切资源。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702005",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "交易达成，「奥古斯都」的代理人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这份赞美我收下了，预祝行动顺利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "极镜水域，蔚蓝之海——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "半鱼之人，纷至沓来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "失礼了。真是动听的歌声，贝歌小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "终于有人来了，请问你是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "初次见面，我是M城管理局的行政长官，伊迪丝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "负责人……不只有阿尔弗雷德吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "他有事外出。\n我是你能对话的最高级别负责人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我知道，街上正在发生……骚乱。即使在这里，也能听到外面的喧哗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯，这是对管理局的一次考验。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702016",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……罗威，去取一些纸巾来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702017",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "是，大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702018",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "不好意思，我没事……只是没控制住情绪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702019",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "一想到这里正在发生什么，我就感到撕心裂肺的痛苦。绝不能让N城的悲剧在M城里再次上演。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你想见管理局的负责人，应该就是为了这起事件吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702021",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "是的，我……是一个罪人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35702022",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我就是N城管理局的负责人。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-306",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35702001,
+            35702002,
+            35702003,
+            35702004,
+            35702005,
+            35702006,
+            35702007,
+            35702008,
+            35702009,
+            35702010,
+            35702011,
+            35702012,
+            35702013,
+            35702014,
+            35702015,
+            35702016,
+            35702017,
+            35702018,
+            35702019,
+            35702020,
+            35702021,
+            35702022
+          ],
+          "sectionId": 35702
+        }
+      ],
+      "title": "#2 双城会面"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35703001",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "最开始是零星的几起潮玩骚动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "事情很快就平息了，所以记录在案后谁也没有留意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "然后是第3街区的潮玩游行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703004",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "最优秀的员工解决了这起事件，并控制住了潮玩中的头目，但是审问没有什么进展。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "几日的风平浪静后，便到了那一天。凌晨，我被警讯惊醒……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "整个N城的潮玩就都开始暴动了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……N城管理局采取了什么措施？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我签署命令……让所有管理局员工放下手头事务，前往各自的辖区控制混乱的局面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我们失败了，管理局的力量在全城的潮玩面前根本不值一提。N城的手办世界最终……沦为了无法之地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "无能的我……在同事的掩护下侥幸逃脱，一路来到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我对你们遭遇感到同情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "啊……这恐怕就是我要背负的命运吧，但我们的失败并不是毫无价值的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……在最后一次突围时，我或许见到了潮玩暴乱的主使。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你的意思是，有人在幕后煽动这些潮玩？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703016",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我确实见到她与潮玩中的头目进行沟通，似乎在发布什么指令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703017",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……抱歉，我本不相信，也不愿意将她与什么恶毒的计划联系起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703018",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "但当她先我一步，带着队伍来到M城后，这里却也开始发生类似的事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703019",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我必须告诉你们这个关键信息……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "请说吧，符合条件的手办并不多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703021",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "那天我看到了蒂娅，「异乡人组织」的蒂娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703022",
+          "sourceType": 3,
+          "text": "嘟——嘟——嘟——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35703023",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703024",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "罗威，去检查下管理局的通讯线路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703025",
+          "sourceType": 3,
+          "text": "嘟——嘟——嘟——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35703026",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，通讯线路没有异常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703028",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "刚才，我尝试联系了包含阿尔弗雷德在内的10名外勤领队。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35703029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "目前还没有得到回应。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-307",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35703001,
+            35703002,
+            35703003,
+            35703004,
+            35703005,
+            35703006,
+            35703007,
+            35703008,
+            35703009,
+            35703010,
+            35703011,
+            35703012,
+            35703013,
+            35703014,
+            35703015,
+            35703016,
+            35703017,
+            35703018,
+            35703019,
+            35703020,
+            35703021,
+            35703022,
+            35703023,
+            35703024,
+            35703025,
+            35703026,
+            35703027,
+            35703028,
+            35703029
+          ],
+          "sectionId": 35703
+        }
+      ],
+      "title": "#3 人鱼自白"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35704001",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "发生了什么？我感受到了您的不安……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "事态……果然变得越来越糟了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不用担心，管理局已经进入一级安保状态。\n我们会确保你的人身安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704004",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "不，伊迪丝女士。我不想一直待在安全的后方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "同为管理局的一员，我也想去前线帮助M城的同事们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "外面的情况非常危险，你也并不是擅长……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704007",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "叮铃铃——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "失礼了，这个通讯很紧急。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704009",
+          "sourceType": 13,
+          "text": "（枪声，近处的爆炸，嘈杂的信号音——）",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35704010",
+          "sourceType": 13,
+          "speaker": "赵云",
+          "text": "喂……喂！可是管理局本部？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我在，请告知现场情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704012",
+          "sourceType": 13,
+          "speaker": "赵云",
+          "text": "我等遭潮玩伏击，敌军数量甚众。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704013",
+          "sourceType": 13,
+          "speaker": "赵云",
+          "text": "不少同僚已重伤倒地，恳请医疗支援……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "本部暂无支援可能，请带伤者有序撤退。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704015",
+          "sourceType": 13,
+          "speaker": "赵云",
+          "text": "呼——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704016",
+          "sourceType": 13,
+          "speaker": "赵云",
+          "text": "形势已知悉，末将必当杀出一条血路……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704017",
+          "sourceType": 3,
+          "text": "嘟——嘟——嘟——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35704018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……遥祝得胜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704019",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "请让我去前线支援他们。\n身为半人鱼，我的歌声能够疗愈手办们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704020",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我不能再眼睁睁地看着M城陷落了……\n求求您，让我完成自己的赎罪吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704021",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "明白了，我会把各辖区的人员配置同步给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704022",
+          "sourceType": 3,
+          "text": "稍久之前，爱猫社区——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35704023",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "啧，一大群……柴可夫斯鸡？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704024",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "最前面的一只服饰很独特，会是这群潮玩的头目吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704025",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "时隔多月，我们再次欢聚到一起。\n还有什么能比这更让人兴奋呢，老伙计们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704026",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "看见那边杵着的两个混账了吗？\n那就是压迫我们的牢头，维护人类统治的丑恶帮凶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704027",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……阿尔弗雷德先生，它们涌过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35704028",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "也省得我们追过去了，准备战斗。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-308",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35704001,
+            35704002,
+            35704003,
+            35704004,
+            35704005,
+            35704006,
+            35704007,
+            35704008,
+            35704009,
+            35704010,
+            35704011,
+            35704012,
+            35704013,
+            35704014,
+            35704015,
+            35704016,
+            35704017,
+            35704018,
+            35704019,
+            35704020,
+            35704021,
+            35704022,
+            35704023,
+            35704024,
+            35704025,
+            35704026,
+            35704027,
+            35704028
+          ],
+          "sectionId": 35704
+        }
+      ],
+      "title": "#4 孤立无援"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35705001",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦，该死的，我向圣母发誓，如果我这把老骨头再年轻十岁，我一定能踹烂你们的屁股。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "请停止抵抗，配合我们的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705003",
+          "sourceType": 5,
+          "speaker": "奥斯卡爵士",
+          "text": "你们这些愚蠢的走狗！比麦克叔叔阁楼上烂了五天的番茄还要腐败的家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "废话少说，你的党羽已经都躺下了。\n你们到底是来做什么的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705005",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "我即使粉身碎骨也不会说的，嘶……\n我的老天啊，我的手快像新奥尔良烤翅一样断开了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "哼，非常时期我不介意用一些「非常手段」。\n下一次，就是真的折下去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705007",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "魔鬼……我们是来反抗你们的压迫，夺回自由的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……这和之前失踪归来的潮玩不是同一套话术。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "那些家伙口中是异世界的臆想，现在的这个则是……关于自由和压迫的胡言乱语吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "柴可夫斯鸡先生，在你眼中，我们是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705011",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "明知故问，你们就是压迫M城潮玩的罪恶帮凶——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705012",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "管理局！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "居然对管理局有这么强的敌意……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "也就是说，你们的行动目标是对抗管理局吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705015",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哈哈哈哈，你们的末日到了，就在今天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……无法沟通的疯子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705017",
+          "sourceType": 3,
+          "text": "吱嘎——吱嘎——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35705018",
+          "sourceType": 0,
+          "speaker": "遥控车",
+          "text": "人类和手办一起压迫潮玩的秩序即将迎来终结……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705019",
+          "sourceType": 5,
+          "speaker": "遥控车",
+          "text": "消灭管理局暴政，荣耀重归潮玩！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705020",
+          "sourceType": 5,
+          "speaker": "加特林",
+          "text": "消灭管理局暴政，荣耀重归潮玩！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705021",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "消灭管理局暴政……唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705022",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "给我安静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705023",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "这些潮玩……刚才藏在角落里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705024",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "被摆了一道啊。\n吵闹的鸡群只是个诱饵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35705025",
+          "sourceType": 0,
+          "speaker": "遥控车",
+          "text": "各单位注意，歼灭管理局有生力量！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-309",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35705001,
+            35705002,
+            35705003,
+            35705004,
+            35705005,
+            35705006,
+            35705007,
+            35705008,
+            35705009,
+            35705010,
+            35705011,
+            35705012,
+            35705013,
+            35705014,
+            35705015,
+            35705016,
+            35705017,
+            35705018,
+            35705019,
+            35705020,
+            35705021,
+            35705022,
+            35705023,
+            35705024,
+            35705025
+          ],
+          "sectionId": 35705
+        }
+      ],
+      "title": "#5 诱捕行动"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35706001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……想单纯地靠数量来压制我们，真是被小看了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "阿尔弗雷德先生，你……被击落了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "咳，我很好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706004",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "可是你胸前的伤口，需要治疗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "节省魔力，这对手办来说还不算致命伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706006",
+          "sourceType": 3,
+          "text": "嘭——嘭——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35706007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……即使这样，阿罗拉圣枪的结界也不能支持很久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "通讯终端被破坏了……它们似乎是有意瞄准的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706009",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "它们知道管理局的指挥网是依赖通讯终端的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……接下来，我会负责拦下这里的潮玩。\n你出去求援吧，通知其他人先中止行动，撤退到安全地带。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "阿尔弗雷德先生，您……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "哼，别想多了，这可不是什么我牺牲帮你殿后的感人提议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我只是不想力量彻底解放后波及到同事而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706014",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "……好，请您撑住，我很快就会带人回来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706015",
+          "sourceType": 3,
+          "text": "嘭——轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35706016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我数三下，你就解除结界，从前面的空隙冲过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706017",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "了解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "三……二……一！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "一口气，把它们撞到外太空去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706020",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "啧，数量还挺多，这下有的打了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "久等了，两位！大家一起上，现在是难得的救场环节！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706022",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……呵，看来不需要我出手了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706023",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "真是，太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706024",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "咳，海伦，现在请你帮我治疗下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706025",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "嗯。光明啊，请抚平伤痛……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706026",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎，没想到那位阿尔弗雷德，也会有这么狼狈的时候啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706027",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "随你怎么说吧……你们来得很及时。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706028",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "行了行了，别一副拉不下脸来感谢的样子。\n异乡人可不需要管理局的人情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706029",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我要告诉你，N城管理局也是这样莫名奇妙地瘫痪，失去对城市的控制的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706030",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "泉，先解决它们再聊天！唔哇——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706031",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我并不意外。不得不承认……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35706032",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我从一开始就做出了错误的决策。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-310",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35706001,
+            35706002,
+            35706003,
+            35706004,
+            35706005,
+            35706006,
+            35706007,
+            35706008,
+            35706009,
+            35706010,
+            35706011,
+            35706012,
+            35706013,
+            35706014,
+            35706015,
+            35706016,
+            35706017,
+            35706018,
+            35706019,
+            35706020,
+            35706021,
+            35706022,
+            35706023,
+            35706024,
+            35706025,
+            35706026,
+            35706027,
+            35706028,
+            35706029,
+            35706030,
+            35706031,
+            35706032
+          ],
+          "sectionId": 35706
+        }
+      ],
+      "title": "#6 自省时刻"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35707001",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "安静……很安静。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707002",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "潮玩的暴动还没波及日光乐园，园内也处于无人的休业状态。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707003",
+          "sourceType": 3,
+          "text": "铛——铛——铛铛——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35707004",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "去有「钟声」和「水声」的地方……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707005",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "找到了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "哎，听说外面已经乱套了。会是谁干的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707007",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "看我做什么，我不是一直待在你边上吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "真有意思。似乎有人和我心意相通，把我心愿单上的事情给划掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707009",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "事件的犯人会是谁呢？她，他，还是……它？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "先顾好自己吧。\n难得有人在吸引注意力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "嗯，时机正好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "今天可以把仓库里那些占空间的家伙都放出去。\n火上浇油的事我可不嫌多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "找个远点的地方扔了就完了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707014",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "不许为了找乐子在糖果外再包一层糖纸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "放心，我不会多管闲事，这就该留给那些「正义使者」来处理啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707016",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "给你的破摩托多加点油吧……泉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707017",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "果然……潮玩暴动和她们没有关系吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35707018",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "绑架手办的……和引发潮玩暴动的，不是同一伙人。",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-311",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35707001,
+            35707002,
+            35707003,
+            35707004,
+            35707005,
+            35707006,
+            35707007,
+            35707008,
+            35707009,
+            35707010,
+            35707011,
+            35707012,
+            35707013,
+            35707014,
+            35707015,
+            35707016,
+            35707017,
+            35707018
+          ],
+          "sectionId": 35707
+        }
+      ],
+      "title": "#7 潜入乐园"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35708001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "快醒的应该就是这些了吧？等下把他们扔进运输车里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708002",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我们的服务挺到位的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "有借有还，再借不难嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "如果这次实验失败了，还得再拐一批来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708005",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "和伊迪丝掌握的情况一致……都是来自《永恒的异界幻想》的手办和潮玩。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708006",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "没有发现可疑的装置……和克罗赛尔一起在别的地方？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708007",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "需要再近点观察。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708008",
+          "sourceType": 3,
+          "text": "咣——当——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35708009",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "……脚下的金属板脱落了？！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我听到了奇怪的声音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "老旧仓库有点杂音应该也正常吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "——是这里的动静？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708014",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……就是这块金属片掉下来了吧？螺丝都老化了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "偏偏这时候掉下来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708016",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "整间仓库只有这个架子能躲藏，不如——都检查一遍吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "喵——喵——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708019",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……我懒得演了，请学猫叫的口技专家出来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708020",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "门口就有3个可见的异物探测器，隐蔽的还有3处。\n怎么可能有野猫混进来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708021",
+          "sourceType": 0,
+          "speaker": "野猫",
+          "text": "喵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708022",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35708023",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "小结奈，你没把门禁打开？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-312",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35708001,
+            35708002,
+            35708003,
+            35708004,
+            35708005,
+            35708006,
+            35708007,
+            35708008,
+            35708009,
+            35708010,
+            35708011,
+            35708012,
+            35708013,
+            35708014,
+            35708015,
+            35708016,
+            35708017,
+            35708018,
+            35708019,
+            35708020,
+            35708021,
+            35708022,
+            35708023
+          ],
+          "sectionId": 35708
+        }
+      ],
+      "title": "#8 咫尺真相"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35709001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "从一开始，潮玩们的目标就是管理局。浩大的声势只是让管理局集体出动的……诱饵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "颁布潮玩搜查令的管理局，反而成了潮玩搜查的对象……我们真是被看扁了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这一看到出乱子就打出全部手牌的做法，倒是挺「管理局」的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "N城管理局一开始也是集体出动，想要迅速地控制住局势。但没过多久，就没什么声音了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "后来嘛……有一些手办组织响应了管理局的求援，但赶到集合点却连个工作人员都找不到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "哈，要不是亲眼看到N城的秩序崩溃了，还以为管理局在开什么玩笑呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "继续说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "负责人的性格怎么突然改变啦？\n换平时，他应该听到中途就开始发火了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "想骂便骂吧……把你们知道的全告诉我，这很重要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "管理局不能承受第二次错误的决策了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "阿尔弗雷德先生……成长了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那你现在应该听得进我们的猜测了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你们的行动模式被摸得一清二楚，这么快就陷入被动的原因是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "管理局里出了内鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……我想过这个可能性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "诱捕克罗赛尔的行动失败后，管理局内部就进行过自查。这次行动所有的领队都经过伊迪丝和我亲自审查。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709017",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "内鬼的可能性是非常……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709018",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "如果不是M城管理局的内鬼呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "难道说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35709020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "最近，有没有N城的管理局员工逃到M城？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-313",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35709001,
+            35709002,
+            35709003,
+            35709004,
+            35709005,
+            35709006,
+            35709007,
+            35709008,
+            35709009,
+            35709010,
+            35709011,
+            35709012,
+            35709013,
+            35709014,
+            35709015,
+            35709016,
+            35709017,
+            35709018,
+            35709019,
+            35709020
+          ],
+          "sectionId": 35709
+        }
+      ],
+      "title": "#9 思维盲区"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35710001",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "哈哈哈哈哈……我们自由了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710002",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "大哥，咱们越狱成功，是不是应该低调点？\n刚才街上遇到的潮玩都有点……奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710003",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "怕什么，可能外面在办什么潮玩狂欢大会吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710004",
+          "sourceType": 0,
+          "speaker": "绿斩仙",
+          "text": "确实有点怪，我们一路过来都畅通无阻……管理局的家伙今天都翘班了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你们好，打扰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710006",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "你哪位啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我来自N城，想简单地和你们聊几句，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710008",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "我们没空理……啊……奇怪……唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710009",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "请您慢点说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710010",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "……大哥？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "危险！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "前面的区域有很多危险的潮玩在活动，先不要过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……|101|，是你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35710016",
+              "text": "我见过你？"
+            },
+            {
+              "targetId": "35710016",
+              "text": "你有点眼熟……"
+            }
+          ],
+          "sourceId": "35710015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35710016",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "为什么你会出现在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710017",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "人类不应该介入手办世界的事务。\n这个规矩对人类和手办都是一种必要的保护。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710019",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "既然这样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我在寻找重要的伙伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里是手办们愉快生活的家园……我不能让她们到时候无家可回。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710022",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "她们……是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710023",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我能感受到你提到那些手办时真挚的情感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35710024",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这份心情……甚至令我嫉妒。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-314",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35710001,
+            35710002,
+            35710003,
+            35710004,
+            35710005,
+            35710006,
+            35710007,
+            35710008,
+            35710009,
+            35710010,
+            35710011,
+            35710012,
+            35710013,
+            35710014,
+            35710015,
+            35710016,
+            35710017,
+            35710018,
+            35710019,
+            35710020,
+            35710021,
+            35710022,
+            35710023,
+            35710024
+          ],
+          "sectionId": 35710
+        }
+      ],
+      "title": "#10 久别重逢"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35711001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "接下来，我们的任务是去营救管理局其他被围攻的员工？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……是的，必须把剩下的力量团结起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我会想办法和本部取得联系，让伊迪丝留意下贝歌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711004",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "现在贝歌大概率已经和伊迪丝女士接触过了。\n如果真的有问题……她应该能看出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这是最好的情况。哼，那个女人……在这方面倒特别让我安心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……（悄悄话）管理局的几个负责人是不是经常在掐架啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "（悄悄话）这种草台班子不内斗才不正常吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "咳，我听得见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711009",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "喂，你们有没有感觉突然安静下来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……确实呢，风中喧闹的气息减弱了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "是潮玩们……开始冷静下来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……详情我已知晓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "继续追踪她吧，还需要更多的情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711014",
+          "sourceType": 13,
+          "speaker": "管家",
+          "text": "遵命，大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711015",
+          "sourceType": 9,
+          "text": "嘟——嘟——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35711016",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35711017",
+          "sourceType": 9,
+          "text": "「奥古斯都」的代理人临窗眺望，明朗的晴空下仿佛一切安好。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35711018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "敌人很多，棋子很少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35711019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……真怀念，就像回到了中央大陆的奥古斯都一样。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-315",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian40",
+          "rowIds": [
+            35711001,
+            35711002,
+            35711003,
+            35711004,
+            35711005,
+            35711006,
+            35711007,
+            35711008,
+            35711009,
+            35711010,
+            35711011,
+            35711012,
+            35711013,
+            35711014,
+            35711015,
+            35711016,
+            35711017,
+            35711018,
+            35711019
+          ],
+          "sectionId": 35711
+        }
+      ],
+      "title": "#11 喧嚣渐隐"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 163,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 163,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "潮玩搜查令",
+  "title": "第40章",
+  "wordCount": 4857
+}

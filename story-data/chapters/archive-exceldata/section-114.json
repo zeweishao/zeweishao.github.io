@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-114",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "114001",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "太好了，我们的战术扳回一城。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "114002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "颤抖吧大猫，我已经闻到胜利的气息啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "114003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "真正的棒球赛，九局下半才是决定生死之时。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "114004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在那只猫，已经被彻底激怒了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "114",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            114001,
+            114002,
+            114003,
+            114004
+          ],
+          "sectionId": 114
+        }
+      ],
+      "title": "原文片段 114"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 114
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 114",
+  "wordCount": 67
+}

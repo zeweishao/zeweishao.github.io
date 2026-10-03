@@ -1,0 +1,196 @@
+{
+  "bookId": "activity-extra-tu2ye_qiandao",
+  "id": "source-35022",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35022001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "葵？你在哪？\n跑到哪里去了，刚刚还在的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣~~（伸懒腰），优纪找我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然，葵在任何地方都能睡着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔，主人也在，要一起补充睡眠吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个是送给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "特别给我的？里面是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022007",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "向日葵枕头、瓜子形状的抱枕……都是我的最爱。呣，非常感谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是我准备的哦，是这位「兔儿爷」的心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022009",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "是喜欢睡觉的孩子吗？很安逸的爱好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "安逸的爱好吗……第一次听到这样的说法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022011",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "以前执行任务的时候，梅根队长和其他队友总是对我的爱好不以为然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022012",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "现在虽然有时间睡觉，可也没有人能够理解我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022013",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣~总觉得，我好像碰到了知己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "能看到葵的睡颜，的确是一件安逸美好的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022015",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "作为回报，我也会为你们准备一份特别的惊喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是什么是什么，可以先透露一些内幕消息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022017",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "暂时还不行，等准备好了，自然会知道的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35022018",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔呣，在那之前，还是得先睡个好觉，Zzzzzz。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35022",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye_qiandao",
+          "rowIds": [
+            35022001,
+            35022002,
+            35022003,
+            35022004,
+            35022005,
+            35022006,
+            35022007,
+            35022008,
+            35022009,
+            35022010,
+            35022011,
+            35022012,
+            35022013,
+            35022014,
+            35022015,
+            35022016,
+            35022017,
+            35022018
+          ],
+          "sectionId": 35022
+        }
+      ],
+      "title": "活动片段 35022"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1088",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1088",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 35022,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 35022",
+  "wordCount": 341
+}

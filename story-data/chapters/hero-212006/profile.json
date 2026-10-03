@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212006",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气轻小说《属于夏日的绮丽恋爱物语》，沉迷各种美食的「桃乐丝」化身为1/7比例模型登场！将官方图中桃乐丝沉迷的各种美味的甜食，穿着的居家吊带衫，有些冒失的动感姿态制成模型。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212006"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

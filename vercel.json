@@ -1,6 +1,25 @@
 {
   "version": 2,
   "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/assets/:path*",
+      "destination": "https://assets.isnow.life/site/v20261003/assets/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/photos/:path*",
+      "destination": "https://assets.isnow.life/site/v20261003/photos/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/videos/:path*",
+      "destination": "https://assets.isnow.life/site/v20261003/videos/:path*",
+      "permanent": false
+    }
+  ],
   "functions": {
     "api/*.js": {
       "maxDuration": 30,

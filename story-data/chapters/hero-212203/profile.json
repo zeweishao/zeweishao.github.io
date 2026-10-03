@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212203",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名设计师细雪不庭亲自操刀，将人气游戏《蘑菇少女的日常》中的「水城结奈」制成手办。五颜六色的糖果四散而出，将水城结奈包围在其中。手持巨型棒棒糖的她，身体微微倾斜，即将要冲出打开的糖果盒子，跳进你的掌心。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212203"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 101
+}

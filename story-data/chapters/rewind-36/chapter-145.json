@@ -1,0 +1,987 @@
+{
+  "bookId": "rewind-36",
+  "id": "chapter-145",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33031001",
+          "sourceType": 3,
+          "text": "咻——砰砰砰！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33031002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "礼炮烟花，万箭齐发，大家都燥起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，现在还是白天，烟花要留到晚上放才好看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "放心吧，没差！\n晚上有十倍的弹药量，保准把天空照得和白天一样，嘿嘿哈吼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳咳，那么|101|，周年庆典要开始了，没有提前吃东西吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33031007",
+              "text": "已经吃过了。"
+            },
+            {
+              "targetId": "33031008",
+              "text": "饿着等到现在呢。"
+            }
+          ],
+          "sourceId": "33031006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33031007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "既然如此，为了防止被其他东西填饱肚子，首先必须品尝吾特制的龙焰烤肉才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "很好，为了尽快填饱你的肚子，就以吾特制的龙焰烤肉开场吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "接下来，用清新爽口的蔬菜沙拉唤醒味觉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "蔬菜和浆果是我在探险中找到的特别品种哦！来，张嘴，啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031011",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "居然准备开胃菜来抢占先机，本大小姐绝不能输。\n秘制灌汤包，出锅！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，也尝尝优纪做的菜！\n加了意想不到的调料，绝对是惊喜的味道哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘴巴......已经被填满了。大家慢一点......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "慢下来......果然是不行的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031015",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "饥饿时品尝的食物是最美味的，所以，有必要尽早让|101|品尝到我的心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "说得有道理......等等，你是谁？\n我没有见过你，怎么混进来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031017",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "抱歉、我是......奇萝的友人。|101|，初次见面......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031018",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我准备了红酒扇贝，不知是否合你的胃口。\n求你......哪怕只是尝一口的话，我就心满意足了......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33031020",
+              "text": "尝一口"
+            },
+            {
+              "targetId": "33031021",
+              "text": "吃不下了"
+            }
+          ],
+          "sourceId": "33031019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33031020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "扇贝格外鲜美，风味十足。\n眨眼间，让人眼花缭乱的菜品再次堆满了眼前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031021",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "等、等等，已经完全吃不过来了......\n不能这样下去，要想个办法才行。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031022",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "只好趁现在......用「那个」来转移话题了！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33031023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "先、先等一下！我也有礼物要送给大家。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-762",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33031001,
+            33031002,
+            33031003,
+            33031004,
+            33031005,
+            33031006,
+            33031007,
+            33031008,
+            33031009,
+            33031010,
+            33031011,
+            33031012,
+            33031013,
+            33031014,
+            33031015,
+            33031016,
+            33031017,
+            33031018,
+            33031019,
+            33031020,
+            33031021,
+            33031022,
+            33031023
+          ],
+          "sectionId": 33031
+        }
+      ],
+      "title": "晨星之海·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33032001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "箱子里就是我准备的礼物，要不要先猜猜看，里面是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "敲敲，声音听起来像是玻璃，还有一股潮湿的气息。\n再结合这个大小判断——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，本王猜到了！\n是泡在水里的一大块玻璃！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉可猜错了哦，是水族箱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "笨、笨蛋！怎么想也是水族箱才对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "水族箱......？\n主人，为什么会买这个呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说来很巧，是在FULI商店买到的。\n有一位店员向我推销——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「把手办放在水族箱后面拍照，这样就会有置身水底的梦幻效果」。\n于是我就被说动了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "隔着水族箱拍照？真没意思！\n这么漂亮的水族箱，当然要跳下去玩个痛快才行！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33032011",
+              "text": "会溺水吧？"
+            },
+            {
+              "targetId": "33032011",
+              "text": "会掉漆吧？"
+            }
+          ],
+          "sourceId": "33032010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33032011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "没关系，我会告诉每一滴水，用最温柔的怀抱迎接她们。\n可以允许我们下水吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "已经很久没有见到......如此清澈的水流了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "稍等，我查一下保养手册。\n手办短时间浸在水中，应该没有什么问题——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "呜呼！那还等什么，马上出发吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33032015",
+          "sourceType": 3,
+          "text": "噗通——哗啦！",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-763",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33032001,
+            33032002,
+            33032003,
+            33032004,
+            33032005,
+            33032006,
+            33032007,
+            33032008,
+            33032009,
+            33032010,
+            33032011,
+            33032012,
+            33032013,
+            33032014,
+            33032015
+          ],
+          "sectionId": 33032
+        }
+      ],
+      "title": "晨星之海·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33033001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "咕......咕噜噜噜。\n奇、奇怪的感觉，我居然在水里还能说话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我已经赋予你们水之力量的加护，可以尽情在水中畅游。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好耶，出发出发，找到海底失落的宝藏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "莉可，那我们也——出发吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033005",
+          "sourceType": 5,
+          "text": "噗通！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33033006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "是谁，谁推的我？\n本王可没说要下来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "莉可，不用怕！\n往前冲，向着星辰大海！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "才没有害怕，本王只是不想弄湿自己的身体——\n鱼，好大的鱼，别过来呀呀呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，莉可，你听说过怪谈「水族箱之谜」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "据说水族箱中沉睡的冤魂，是曾经遇难的水手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033011",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "水鬼会紧盯进入水族箱中的人，捕捉他们的灵魂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033012",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "如果被抓住，就会从亲友的视线和记忆中永远消失——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "住、住口，别再讲了！\n本王要上岸，放我出去啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "快过来，我帮你们擦干身体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "呼——不错不错，很符合本王身份的休闲方式。\n你有心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "大鲨鱼来喽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033017",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "呀啊！咳，咳咳！\n这、这点小儿科就想吓到本王吗？真是太小看......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "水手的冤魂来了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033019",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "呜啊啊啊啊！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033020",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "久违地......有种温暖的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033021",
+          "sourceType": 2,
+          "speaker": "奇萝",
+          "text": "不妙呀，幽灵对某处产生留恋的话，可是会成为地缚灵的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033022",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "但是，能够随心所欲地度过有限而完整的一生，属于手办的一生……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033023",
+          "sourceType": 2,
+          "speaker": "奇萝",
+          "text": "似乎，也是一种不错的选择呢。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033024",
+          "sourceType": 2,
+          "speaker": "奇萝",
+          "text": "嗯，这样就足够了吧。太贪心的话，会被恶灵缠身哦。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033025",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "泡完澡再把身上晒干，好舒服——\n奇萝也一起来吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033026",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "呼——阳光照在身上，暖乎乎的。\n难得能尽情晒太阳了，要好好享受才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33033027",
+          "sourceType": 2,
+          "speaker": "奇萝",
+          "text": "心情无比平静，如果真的是幽灵，恐怕已经......\n成佛了吧......",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-764",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33033001,
+            33033002,
+            33033003,
+            33033004,
+            33033005,
+            33033006,
+            33033007,
+            33033008,
+            33033009,
+            33033010,
+            33033011,
+            33033012,
+            33033013,
+            33033014,
+            33033015,
+            33033016,
+            33033017,
+            33033018,
+            33033019,
+            33033020,
+            33033021,
+            33033022,
+            33033023,
+            33033024,
+            33033025,
+            33033026,
+            33033027
+          ],
+          "sectionId": 33033
+        }
+      ],
+      "title": "晨星之海·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33035001",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "极镜水域，蔚蓝之海——\n生灵万物，纷至沓来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "晨星陨落，不见朝阳——\n深渊回响，无尽阴霾——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035003",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "好熟悉的......歌声？唔——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035004",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你醒了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "唔......我睡了多久？\n哈欠——身为幽灵，偶尔长眠也不错......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你该走了，这不是属于你的归宿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "石膏的躯体无法承受温暖的阳光，只有黑暗与寒冷能够保护你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035008",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "嗯？贝歌，你讲的鬼故事还是这么无聊。\n来，我给你讲一个有意思的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "嘘——！你还没有真正满足，还有想要追求的东西吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "那些雕塑所刻画的怪物，才是你深入骨髓的渴望，是你内心真正的写照。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你的内心向往着它们，你的灵魂已经与它们融为一体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "制造更多吧，直到填补内心的空缺为止。去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "今天的你......真的有点奇怪......\n去......哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "跟随你的心意，回到禁锢你的牢笼，那才是你最终的容身之地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035015",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......雕塑室？\n我......什么时候走到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035016",
+          "sourceType": 3,
+          "text": "咯吱、咯吱——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33035017",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "雕塑，转过来了？！\n我没设计过这样的机关，这不可能！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035018",
+          "sourceType": 0,
+          "speaker": "优纪雕塑",
+          "text": "深渊在凝视着你，海底在召唤着你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035019",
+          "sourceType": 0,
+          "speaker": "优纪雕塑",
+          "text": "你是亡灵，是游荡在生死之间的异质。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035020",
+          "sourceType": 0,
+          "speaker": "和江雕塑",
+          "text": "嘻嘻嘻嘻——\n我们不会放过你的，我们会将你变成真正的幽灵——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33035021",
+          "sourceType": 5,
+          "speaker": "奇萝",
+          "text": "别......别！\n别过来，别过来！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33036001",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "别过来，别......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33036002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "哈、哈——\n刚才的，是梦？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-765",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33035001,
+            33035002,
+            33035003,
+            33035004,
+            33035005,
+            33035006,
+            33035007,
+            33035008,
+            33035009,
+            33035010,
+            33035011,
+            33035012,
+            33035013,
+            33035014,
+            33035015,
+            33035016,
+            33035017,
+            33035018,
+            33035019,
+            33035020,
+            33035021
+          ],
+          "sectionId": 33035
+        },
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33036001,
+            33036002
+          ],
+          "sectionId": 33036
+        }
+      ],
+      "title": "晨星之海·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33038001",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "自从成为「幽灵」之后，已经很久......没有梦到过灵异事件了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "究竟是怎么回事......有点晕乎乎的......昨晚，我听到歌声——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038003",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "然后贝歌叫醒我，对我说......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不对，究竟哪里开始是梦？\n从雕塑说话开始，还是从听到歌声开始......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "还是说——\n变成手办后的一切，都只是梦境而已吗？头、好痛——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘘——三、二、一！\n哇吼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哇、哇吼！我们是幽灵，被我们盯上就会.....",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯，那个......就会陷进可怕的梦里无法醒来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嘿嘿......吓，吓唬人真的挺有趣的。\n我稍微......有点理解奇萝的兴趣了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江和江，你看，我和花迦成功吓到奇萝了！\n她愣住一动不动，肯定是被吓了一大跳呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038011",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "优纪？我昨天......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你昨天一定是累坏了，从文艺研究社回来就昏睡过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "毛巾是主人帮你盖上的，|102|让我们不要叫醒你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038014",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "果然，那些会说话的雕像只是梦......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038015",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......不，不对！文艺研究社？！我们昨天不是在水里......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错！我们昨天约好了，要去找水里的女鬼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪记错了，我们现在要去探查的第六大不可思议，叫作「缸中的幽灵」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33038018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "差、差不多嘛，别在意。\n快走吧奇萝，我已经等不及了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-766",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33038001,
+            33038002,
+            33038003,
+            33038004,
+            33038005,
+            33038006,
+            33038007,
+            33038008,
+            33038009,
+            33038010,
+            33038011,
+            33038012,
+            33038013,
+            33038014,
+            33038015,
+            33038016,
+            33038017,
+            33038018
+          ],
+          "sectionId": 33038
+        }
+      ],
+      "title": "晨星之海·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 145,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 145,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "阳光下的泡沫是彩色的",
+  "title": "晨星之海",
+  "wordCount": 2514
+}

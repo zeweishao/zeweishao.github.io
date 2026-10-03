@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213202",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「长久的爱情、忠贞不渝的内心、永远的怀念」——迷迭花的花语，也是对洛瑞丝最好的诠释。\n换上如此惹人注目的裙装，搭配那如金色鸢尾般雍容的色彩，更为洛瑞丝的温柔成熟平添一份华贵优雅气质。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "金鸢迷迭Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213202",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "洛瑞丝·金鸢迷迭Ver.",
+  "title": "金鸢迷迭Ver.",
+  "wordCount": 90
+}

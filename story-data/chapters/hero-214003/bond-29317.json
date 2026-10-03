@@ -1,0 +1,142 @@
+{
+  "bookId": "hero-214003",
+  "id": "bond-29317",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|104|＝按玩家性别变化的兄弟称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29317001",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "有新任务？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有什么任务，再也不会有人命令你做任何事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "这个不是预付的酬金？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个只是送给你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不喜欢这个礼物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317007",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "很喜欢……这种情况，是应该说谢谢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不说谢谢也没关系，只要你喜欢就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317009",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "……哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317010",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "果然比起那个笨蛋哥哥，你才更适合做莉莉奈的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29317012",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "|104|~我以后可以这么叫你吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29317",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29317001,
+            29317002,
+            29317003,
+            29317004,
+            29317005,
+            29317006,
+            29317007,
+            29317008,
+            29317009,
+            29317010,
+            29317011,
+            29317012
+          ],
+          "sectionId": 29317
+        }
+      ],
+      "title": "礼物"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "礼物",
+  "wordCount": 141
+}

@@ -1,0 +1,156 @@
+{
+  "bookId": "activity-extra-fairytale_yure",
+  "id": "source-42923",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42923001",
+          "sourceType": 3,
+          "text": "午夜的钟声敲响，十二点准时到来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42923002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "辛德瑞拉，你真的太美了！完全没办法从你身上挪开眼睛呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "午夜到了……我看起来不会很奇怪吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "完、完全没有……你依然那么得耀眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "那么，你也这么认为吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42923007",
+              "text": "你是舞会的焦点。"
+            },
+            {
+              "targetId": "42923007",
+              "text": "你是今晚最亮的星光。"
+            }
+          ],
+          "sourceId": "42923006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42923007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "怎么会……明明墙上的时钟已经报过时了，十二点一到，我的魔法是会消失的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那是你的故事所在的世界才有的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在我们所处的现实世界，对你而言并没有这个限制。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "真的吗……我的魔法居然会一直留在我身边吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在M城，你的魔法存在于你的勇气和善良里，不会因为时间而消逝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42923012",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "谢谢，我会把它当作一种至高无上的荣耀，并将永远珍惜。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42923",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale_yure",
+          "rowIds": [
+            42923001,
+            42923002,
+            42923003,
+            42923004,
+            42923005,
+            42923006,
+            42923007,
+            42923008,
+            42923009,
+            42923010,
+            42923011,
+            42923012
+          ],
+          "sectionId": 42923
+        }
+      ],
+      "title": "活动片段 42923"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10052",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10052",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42923,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42923",
+  "wordCount": 257
+}

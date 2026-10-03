@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213101",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI七十周年纪念特典的「花迦」正式手办化登场，纤细窈窕的身材体现出令人心动的少女的娇羞感。巨大的手里剑也如实呈现，连插图无法看见的背后姿态，也由21C监修，从而制作出高品质的造型。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213101"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

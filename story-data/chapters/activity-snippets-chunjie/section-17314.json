@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17314",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17314001",
+          "sourceType": 10,
+          "text": "是充满青春活力的妹妹彩音~！虽然还不怎么擅长料理，但彩音拿出了百分百的努力，想要把自己的心意变成好吃的食物送给主人呢~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17314002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不、不要这么盯着我看啦，我可是一点都不擅长料理的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17314003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "唔……之前也从来没有了解过，一点都没有，真的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17314004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你问我手上的创可贴是怎么回事……才、才不是为了练习刀功弄伤的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17314005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "辛苦彩音了，无论做成什么样子我都会好好吃掉的哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17314",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17314001,
+            17314002,
+            17314003,
+            17314004,
+            17314005
+          ],
+          "sectionId": 17314
+        }
+      ],
+      "title": "冈田彩音的祝福"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17314,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "5",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "彩音的厨台解锁，虽然不擅长料理，但会努力做出好吃的食物！",
+  "title": "冈田彩音的祝福",
+  "wordCount": 163
+}

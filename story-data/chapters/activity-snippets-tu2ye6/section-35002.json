@@ -1,0 +1,120 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35002",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35002001",
+          "sourceType": 10,
+          "text": "名为「浪漫」的魔术",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35002002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你们聚在一起就是为了玩泥巴？切，真幼稚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不对，这似乎不是普通的泥巴，这是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002004",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "是一种特殊的红土，来自我的故乡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我要亲自捏「兔儿爷」泥塑送给主人，绯野要不要试试看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "亲手做礼物送给|101||103|？不错的主意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我不放心你们的审美水准，勉为其难地加入你们吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我可不会被你比下去的哦，我要做出对主人来说最最特别的「兔儿爷」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35002009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那么，我就赌上「绯野魔术」的名誉，为|101||103|做一个最「浪漫」的兔儿爷。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35002",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35002001,
+            35002002,
+            35002003,
+            35002004,
+            35002005,
+            35002006,
+            35002007,
+            35002008,
+            35002009
+          ],
+          "sectionId": 35002
+        }
+      ],
+      "title": "名为「浪漫」的魔术"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35002,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "65",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱——这位神秘的怪盗小姐，将要上演名为「浪漫」的独家魔术。",
+  "title": "名为「浪漫」的魔术",
+  "wordCount": 208
+}

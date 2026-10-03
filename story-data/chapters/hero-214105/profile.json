@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214105",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "灵动怡然，不谙世事的神秘焰火师，实际上却是天火仙子？「华焱」化身为1/7比例模型正式于M城隆重登场！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214105"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 50
+}

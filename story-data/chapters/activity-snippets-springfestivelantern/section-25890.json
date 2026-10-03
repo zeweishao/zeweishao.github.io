@@ -1,0 +1,152 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25890",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25890001",
+          "sourceType": 10,
+          "text": "勇者火箭号，发射！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25890002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "各种有趣的动物题材花灯都做了个遍，现在多少没有灵感了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "说的也是，接下来做些什么花灯比较好呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "那位戴红色兜帽的小姐好像有不错的灵感，从刚才开始我就看到她在纸上写写画画。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是艾伦兹家主，我们可以去问问她有没有什么好主意！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "别来打扰我，我还剩最后一步没有完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "艾伦兹，你在做什么呢，看起来好酷啊~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这都看不出来吗，你的基本常识有够肤浅呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我在书上看到过，它的形状很像人类的宇宙飞船。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890010",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "答对了，这个就是以宇宙飞船作为原型制作出的花灯。\n怎么样，肯定会让|101|眼前一亮吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "艾伦兹真厉害，是我的话无论如何都想不到这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我设计了一个系列的宇宙飞船主题花灯，你们有兴趣吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25890013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然当然，优纪会第一个报名的，绝对要给主人一个大大的惊喜~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25890",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25890001,
+            25890002,
+            25890003,
+            25890004,
+            25890005,
+            25890006,
+            25890007,
+            25890008,
+            25890009,
+            25890010,
+            25890011,
+            25890012,
+            25890013
+          ],
+          "sectionId": 25890
+        }
+      ],
+      "title": "勇者火箭号，发射！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25890,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "52",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "在艾伦兹的启发下，大家开始着手制作与星空探索有关的主题花灯，这盏灯即为该系列作品之一，灵感来自第一位飞向太空的宇宙英雄。",
+  "title": "勇者火箭号，发射！",
+  "wordCount": 316
+}

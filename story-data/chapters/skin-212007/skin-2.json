@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212007",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "铃铃铃，下课铃声响起——\n\n绿子抓起背包风风火火地冲出教室，仓促间把音乐节门票落在了位子上。\n\n气喘吁吁的绿子赶到音乐节现场，换上了早就已经准备好的打call服，却怎么都找不到门票。\n\n眼看演出就要开始，历来雷厉风行的格斗少女绿子，着急得红了眼眶。\n\n就在这时，龙马出现在她的面前，将门票递到她的手中，少女的眼睛终于再次亮了起来！\n\n——该特别款仅可通过「森林音乐节」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "只为你喝彩Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212007",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绿子·只为你喝彩Ver.",
+  "title": "只为你喝彩Ver.",
+  "wordCount": 178
+}

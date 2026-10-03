@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211201",
+  "id": "bond-28536",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28536001",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "啧，艾伦兹可真会使唤人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536002",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "这种好天气做什么不好，偏偏要我来跑腿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536003",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "总有一天我会摆脱这家伙的，我发誓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "据说你们两个签订了龙族的契约，时间长达……数百年？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "那种东西不过是纸面上的约定而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536006",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "况且，我和艾伦兹早就作为手办来到M城，那个古老的契约也没什么约束力了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "话是没错，可你还是听从了她的命令，特意来找我了不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536008",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "……习惯而已，绝非我的本愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，艾伦兹特意让你来找我是为了什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536010",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "艾伦兹最近不知道撞了什么邪，一天到晚在研究人类甜点教程。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536011",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "这是她失败了8947次后唯一的完成品，但愿你吃掉之后不会闹肚子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "味道闻起来真不错，替我谢谢艾伦兹，也谢谢你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28536013",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "少肉麻了，那家伙让我亲眼看着你吃掉，你最好速战速决。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28536",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28536001,
+            28536002,
+            28536003,
+            28536004,
+            28536005,
+            28536006,
+            28536007,
+            28536008,
+            28536009,
+            28536010,
+            28536011,
+            28536012,
+            28536013
+          ],
+          "sectionId": 28536
+        }
+      ],
+      "title": "龙王骑士"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "龙王骑士",
+  "wordCount": 293
+}

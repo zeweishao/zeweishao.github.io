@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212102",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "活跃在YouTube上聪明可爱的超级人工智能AI虚拟偶像「Kizuna AI」化身1/7比例模型登场！不论是恐怖游戏、谜语竞猜、射击游角色扮演、音乐翻唱还是学习企划全都不在话下的她，在成为手办后即将开始意想不到的全新冒险。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212102"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 110
+}

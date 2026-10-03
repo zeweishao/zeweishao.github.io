@@ -1,0 +1,94 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37405",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37405001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼哼，不愧是我，这么隐蔽的硬币都能找到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37405002",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "可是老大，我们真的能赢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37405003",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "如果输掉比赛，老大被买走......我们这些缺胳膊断腿的手办，肯定又会每天受欺负。呜呜呜，再也找不到像老大这么好的人了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37405004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我不会输的，我到哪里不是所向披靡......哎呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37405005",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "怎么了老大！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37405006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "卡、卡住了，快拉我出来！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37405",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37405001,
+            37405002,
+            37405003,
+            37405004,
+            37405005,
+            37405006
+          ],
+          "sectionId": 37405
+        }
+      ],
+      "title": "消除关卡 25 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "25",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "25",
+          "result_avg_id"
+        ],
+        "sectionId": 37405,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 25 · 结算",
+  "wordCount": 136
+}

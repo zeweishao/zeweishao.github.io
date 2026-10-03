@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215101",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "经典角色水野梅作为这个盲盒系列中的一名手办，被设定成来自女子高中的少女，作品将水野梅手持书本、侧身回望的形象细腻地展现出来，就连不耐烦的微表情也一一呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215101"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 79
+}

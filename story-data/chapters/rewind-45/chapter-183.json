@@ -1,0 +1,1535 @@
+{
+  "bookId": "rewind-45",
+  "id": "chapter-183",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37511001",
+          "sourceType": 3,
+          "text": "绿洲，娱乐区域——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511002",
+          "sourceType": 5,
+          "speaker": "野猫",
+          "text": "喵！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这又是哪里来的野猫啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，看我用手雷吓跑它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511005",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511006",
+          "sourceType": 3,
+          "text": "滴答，滴答，滴答……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511007",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……不，我可做不了堪比蛋壳雕花的电路操作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511008",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "那就是……剪蓝色的线！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "啊，可是蓝色的线也有两条啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511010",
+          "sourceType": 9,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511011",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511012",
+          "sourceType": 3,
+          "text": "1，1，【？】，7，17，41，99……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511013",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "选择最合适的数字牌进行填空……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511014",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "到底有完没完啊这个鬼地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511015",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这个简单，我今天的幸运数字是……2！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511016",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "卦象是……「离为火」，选3！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37511018",
+              "text": "听哈莉的"
+            },
+            {
+              "targetId": "37511018",
+              "text": "听小乔的"
+            },
+            {
+              "targetId": "37511018",
+              "text": "我有自己的想法"
+            }
+          ],
+          "sourceId": "37511017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37511018",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511019",
+          "sourceType": 0,
+          "speaker": "熊熊雕像？",
+          "text": "来得正好，来陪熊熊我玩问答游戏吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511020",
+          "sourceType": 0,
+          "speaker": "熊熊雕像？",
+          "text": "试问，如果有一个东西早上是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511021",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啊，不能忍了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511022",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "雷霆……只在一刹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511023",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37511024",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿，那些门全都打开了耶。真是吃硬不吃软啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37511025",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……我们继续前进。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-917",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37511001,
+            37511002,
+            37511003,
+            37511004,
+            37511005,
+            37511006,
+            37511007,
+            37511008,
+            37511009,
+            37511010,
+            37511011,
+            37511012,
+            37511013,
+            37511014,
+            37511015,
+            37511016,
+            37511017,
+            37511018,
+            37511019,
+            37511020,
+            37511021,
+            37511022,
+            37511023,
+            37511024,
+            37511025
+          ],
+          "sectionId": 37511
+        }
+      ],
+      "title": "逆光的舞者·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37512001",
+          "sourceType": 3,
+          "text": "绿洲，生产区域——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37512002",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "真是让我久等了呢，在我的领地里流窜的……小老鼠们~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "终于碰到守卫了……但是也只有一个人呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512004",
+          "sourceType": 2,
+          "speaker": "小乔",
+          "text": "真是怕什么来什么，此次回去一定要向掌柜的要双倍加班费……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512005",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "大家不可掉以轻心，她即是绿洲的现任管理人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "塞、塞西尔长官？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512007",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "「长官」？你们认识吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "咦，这不是哈莉吗？\n最近在梅根那过得不错啊，都换了一身非常可爱的校服了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "是的！长官！\n前特兰斯尓侦察局，第九小分队队长向您报道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512010",
+          "sourceType": 2,
+          "speaker": "小乔",
+          "text": "面对原著世界的上级……她竟能站得这般笔直？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "汇报情况，为什么你和你的同伙会出现在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "报告长官，我近期因为无聊加入了一个新组织，来到此地进行人质营救任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512013",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵，人质？真是个冷笑话，你知道这里是谁的地盘吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "现在知道了！长官！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512015",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "来，帮我想一个……合理的处理方案~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512016",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "……！\n哈莉背在身后的手在打战术手语？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512017",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "「两人」……「前进」？这是在让我们先走？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512018",
+          "sourceType": 2,
+          "speaker": "小乔",
+          "text": "……哈莉，你是想要独自拖住塞西尔吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，长官真是太高看哈莉了。哈莉怎么可能想出什么方案呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512020",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "她准备「掩护」我们，手上在示意行动的倒计时……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512021",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "3……2……1！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512022",
+          "sourceType": 3,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37512023",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "什么情况，我还没扔手雷呢？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512024",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "……哎呀，怎么偏偏炸开的是早上刚补好的洞口？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512025",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512026",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "小奏？\n不对，是她的「分身」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37512027",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "百合……原来也在这里呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-918",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37512001,
+            37512002,
+            37512003,
+            37512004,
+            37512005,
+            37512006,
+            37512007,
+            37512008,
+            37512009,
+            37512010,
+            37512011,
+            37512012,
+            37512013,
+            37512014,
+            37512015,
+            37512016,
+            37512017,
+            37512018,
+            37512019,
+            37512020,
+            37512021,
+            37512022,
+            37512023,
+            37512024,
+            37512025,
+            37512026,
+            37512027
+          ],
+          "sectionId": 37512
+        }
+      ],
+      "title": "逆光的舞者·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37513001",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啧，没想到在找到本体以前，分身先出现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513002",
+          "sourceType": 2,
+          "speaker": "小乔",
+          "text": "本体……和分身？\n作案的是从她友人身上分化出来的不同个体。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "为什么要引发这么多的事件？这里已经不是「死后的世界」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513004",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "百合，这是我们在「这个世界」的初次见面呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513005",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "正面回答我的问题，还有，别用小奏的语气和我说话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513006",
+          "sourceType": 3,
+          "text": "周围响起了密集的脚步声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37513007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈？这些守卫是从哪里冒出来的？之前怎么一个都没看见？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513008",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "一眨眼，周围就全是奇怪的人了呢。放任这里有这么多隐藏通道真的好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513009",
+          "sourceType": 2,
+          "speaker": "小乔",
+          "text": "……这就是「特工只需要知道该知道的事」吗？加班费需要向掌柜的要三倍。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513010",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "原来如此……我们的行动被当成诱饵了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513011",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "清空了所有区域，设置奇怪的机关，提前埋伏了守卫……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513012",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "从一开始……绿洲就准备好应对红眼天使的袭击了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513013",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你很敏锐呢，小姑娘。有兴趣的话，以后不如来我手下做事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513014",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "刚才只是逗逗你们，因为我今天的日程早就被天使小姐预定好了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513015",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "……我们可以起舞了吗？小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513016",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513017",
+          "sourceType": 9,
+          "text": "啪，绿洲的女王打了一个响指。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37513018",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "全体开火。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513019",
+          "sourceType": 3,
+          "text": "哒哒哒哒——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37513020",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "喂，子弹全都被挡下来了啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513021",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……这是她的能力，可以偏转子弹的轨迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513022",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "啊……真是美妙，不愧是与「战场」这座天堂相匹配的天使。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513023",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……轮到我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37513024",
+          "sourceType": 3,
+          "text": "铛！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37513025",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "动作真快，差点头就掉下来了呢。接下来……就让我的电锯好好品尝吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603001",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "……呼，看来天使也并不是无坚不摧呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603002",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "偏转子弹、制造残影、驱使光剑，你到底还有多少神奇的能力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "……长官将天使压制住了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603004",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "再加上周围守卫的支援……即使是天使，也「插翅难飞」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603005",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "嗯？等……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603006",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "所有人捂上耳朵！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603007",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "「防御技能·高频咆哮」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603008",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37603009",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "糟糕……这次根本没有准备耳塞。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603010",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "光捂耳朵也……没有用！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "复数……天使……阻击……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "可恶……炸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603013",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……声音……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603014",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "必须让那个分身停下！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603015",
+          "sourceType": 2,
+          "speaker": "仲村百合",
+          "text": "这个距离……以现在的状态，用枪射不中……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603016",
+          "sourceType": 9,
+          "text": "轰隆——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37603017",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啊，恢复了？能听见了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603018",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "……重整态势！支援正在赶过来，剩下还能动的随我冲锋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这是……天使军团？哇塞，现在也刺激过头了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603020",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "呼……百合。\n刚才姑且将使用能力的那位击倒了，但是……出现了更多的分身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603021",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这就是她们最棘手的地方了……分身也可以进行分身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603022",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "必须要找到小奏……还有丢失的「Angel Player」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603023",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……这个交给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603024",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这是……对讲机？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603025",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "它能接通特殊的通讯频段。你带着它去找你的友人，应该会派上用场的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603026",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "你要留下来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603027",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "这些分身未免太厉害了点，这的守卫可挡不住她们。在局势难以挽回前，只能再多花点力气了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603028",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "从刚见面起，我就知道你另有目的。朋友被关在这里什么的，也是谎话吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603029",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "啊……嗯，被识破了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603030",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "你是管理局的人，还是别的什么组织的？嘛，其实我全都无所谓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603031",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "不，这显然是很应该关注的事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603032",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "不知道，我只是看到面前站着一位我的同伴而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603033",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "在死后的世界，比你还要奇怪的同伴可是非常多呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603034",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "……百合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603035",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "那么，就在庆功宴上见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603036",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "记得请客哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37603037",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "因为接下来……九天的雷霆，将只为你一人开道。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-919",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37513001,
+            37513002,
+            37513003,
+            37513004,
+            37513005,
+            37513006,
+            37513007,
+            37513008,
+            37513009,
+            37513010,
+            37513011,
+            37513012,
+            37513013,
+            37513014,
+            37513015,
+            37513016,
+            37513017,
+            37513018,
+            37513019,
+            37513020,
+            37513021,
+            37513022,
+            37513023,
+            37513024,
+            37513025
+          ],
+          "sectionId": 37513
+        },
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37603001,
+            37603002,
+            37603003,
+            37603004,
+            37603005,
+            37603006,
+            37603007,
+            37603008,
+            37603009,
+            37603010,
+            37603011,
+            37603012,
+            37603013,
+            37603014,
+            37603015,
+            37603016,
+            37603017,
+            37603018,
+            37603019,
+            37603020,
+            37603021,
+            37603022,
+            37603023,
+            37603024,
+            37603025,
+            37603026,
+            37603027,
+            37603028,
+            37603029,
+            37603030,
+            37603031,
+            37603032,
+            37603033,
+            37603034,
+            37603035,
+            37603036,
+            37603037
+          ],
+          "sectionId": 37603
+        }
+      ],
+      "title": "逆光的舞者·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37514001",
+          "sourceType": 3,
+          "text": "绿洲，某处通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37514002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "总算出来了，但是外面都是闹哄哄的。到底出了什么乱子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514003",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "要来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "什么来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514005",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "……找到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊，我眼花了？\n怎么这里也有一位……小奏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514007",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "是敌人，交给我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514008",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "不，「守护的法则已经确定了」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514009",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "仓田流古武术分家，仓田真乃，参上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514010",
+          "sourceType": 0,
+          "speaker": "红眼天使",
+          "text": "呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514011",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "都——躲开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514012",
+          "sourceType": 9,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37514013",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……这里暂时就安全了，你们都没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514014",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "嗯，百合还是赶过来了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514015",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "真是担心死我了啊。听着，下次不能再这样突然就跟人跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514016",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "抱歉，我不想连累百合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514017",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊……我好像在这里有点多余……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514018",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啊啦，你也认识了新同伴吗？\n你好哦，这段时间就是你在照顾小奏吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514019",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊哈哈，已经不知道是谁照顾谁了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514020",
+          "sourceType": 9,
+          "text": "百合将现状简述给了在场的人。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37514021",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "情况很严峻……分身的数量太多了。大概用不了多久，就会彻底从内部攻破这座设施吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514022",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这里是传说中的绿洲……如果被攻破了，关着的坏蛋都会逃出去。M城会有大麻烦的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514023",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "为什么她们要做这样的事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514024",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "确实有点奇怪呢。明明在这里已经没有作为学生会长维持「学校纪律」的意义了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514025",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "如果是为了夺得本体，现在的阵仗又有些夸张，就像是在……发泄一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514026",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我会负起责任处理她们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514027",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "喂，你不会在想「吸收分身」的方式吧？再让这么多的意识到你一个人体内，可会出大问题的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514028",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我不会有事的，百合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514029",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "出现了，熟悉的眼神。这里可不是死后的世界，也不一定会有「那次」的好运气，太危险了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514030",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "更何况，最关键的「Angel Player」还不知道在哪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514031",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "有人在帮我们找。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37514032",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……你说什么？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-920",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37514001,
+            37514002,
+            37514003,
+            37514004,
+            37514005,
+            37514006,
+            37514007,
+            37514008,
+            37514009,
+            37514010,
+            37514011,
+            37514012,
+            37514013,
+            37514014,
+            37514015,
+            37514016,
+            37514017,
+            37514018,
+            37514019,
+            37514020,
+            37514021,
+            37514022,
+            37514023,
+            37514024,
+            37514025,
+            37514026,
+            37514027,
+            37514028,
+            37514029,
+            37514030,
+            37514031,
+            37514032
+          ],
+          "sectionId": 37514
+        }
+      ],
+      "title": "逆光的舞者·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37515001",
+          "sourceType": 3,
+          "text": "两天前，绿洲深处——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37515002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……如果你在绿洲内部期间，外面仍出现了红眼天使的事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这就足够洗清你的嫌疑，即使是「高层」也没有理由插手了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515004",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这里是内外隔离的堡垒，即使她们来找你，危害也会局限在设施内。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "但……如果她们的能力超出了这里的承载上限，我需要一个备用方案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515007",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……「Angel Player」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "那就是你们这些天在四处找的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515009",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "嗯。通过它的程序，我可以将所有的分身吸收。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我向你承诺，会有人跟进的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……请放心，比起初来乍到的你们，她们更擅长处理……寻物委托。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515012",
+          "sourceType": 9,
+          "text": "现在，绿洲外围——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37515013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "（吹口哨）绿洲在燃烧，旧日的威权在逐渐解体……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515014",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "天使的军团……和「天启」多般配啊？你说是吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "希塔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "塞拉，把「Angel Player」交出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515017",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "哎，这明明是感人的再会，怎么一见面就又要我送礼物了？圣诞节可还没到哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515018",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "还有，什么是……「安格普雷亚」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "不用装傻了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "攻入绿洲的天使们……她们所有的信号交换，都收束在你现在的位置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515021",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "被发现了，诶嘿~☆",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515022",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "接下来，是玩游戏呢，还是不走程序直接打架？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "没时间陪你玩。波波！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515024",
+          "sourceType": 9,
+          "text": "狂风呼啸——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37515025",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "……响应汝的呼唤而来——吾乃钢翼的红岚，奈落的凶星，波雷亚斯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515026",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "好酷，你什么时候找了条巨龙做帮手？那个摩托小妹去哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515027",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "速速交出汝所盗取之宝物，否则，汝将坠入龙息炙烤之火狱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515028",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "「塞拉」，你是赢不了我们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515029",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "形势比人强，我投降~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515030",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "想要就拿去吧。其实只要你求我，我当然会给你~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515031",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515032",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "在你开动小脑瓜思考我有什么阴谋诡计前，你先想想一个可能性——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37515033",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "也许，我只是个保管者，我根本没用过这玩意呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-921",
+      "sourceRefs": [
+        {
+          "bundle": "angelbeats",
+          "rowIds": [
+            37515001,
+            37515002,
+            37515003,
+            37515004,
+            37515005,
+            37515006,
+            37515007,
+            37515008,
+            37515009,
+            37515010,
+            37515011,
+            37515012,
+            37515013,
+            37515014,
+            37515015,
+            37515016,
+            37515017,
+            37515018,
+            37515019,
+            37515020,
+            37515021,
+            37515022,
+            37515023,
+            37515024,
+            37515025,
+            37515026,
+            37515027,
+            37515028,
+            37515029,
+            37515030,
+            37515031,
+            37515032,
+            37515033
+          ],
+          "sectionId": 37515
+        }
+      ],
+      "title": "逆光的舞者·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 183,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 183,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "无可阻挡的军团",
+  "title": "逆光的舞者",
+  "wordCount": 3084
+}

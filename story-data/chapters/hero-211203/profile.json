@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211203",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师细雪不庭亲自操刀制作了这款泉手办，将这位英姿飒爽的机油味女孩完美地呈现于我们的面前。骑着「阿尔贝尔」的泉身着银色机车服，刚从环城骑手联赛中夺冠，对台下疯狂尖叫的粉丝们吹了一声口哨，潇洒地比出胜利的手势。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211203"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 106
+}

@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213006",
+  "id": "bond-26049",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26049001",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "早。你醒了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么浑身是水？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等......你不会自己拧开水龙头，坐在下面打坐吧？\n不能这么做，太浪费水了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049004",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你误会了。我刚刚结束晨跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "晨跑？可是外面在下暴雨......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049006",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "精进武道，贵在坚持，风雨无阻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......龙马这么努力精进武道，是为了什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049008",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "为了......什么？\n我所追求的，就是武道本身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一般而言，变强都是为了守护在意的东西吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049010",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "信念不能被任何杂念干扰，否则，就会失去纯粹的本质。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真不愧是「武道极意」......\n就连守护朋友的想法都没有吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049012",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我不太清楚「朋友」的定义。\n但我知道，你，还有其他手办，都是我要守护的对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049013",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "不过，一码归一码，这些不能和对武道的追求混为一谈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26049014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......真是独特的表达方式。\n过来，我帮你擦干身体吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26049",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26049001,
+            26049002,
+            26049003,
+            26049004,
+            26049005,
+            26049006,
+            26049007,
+            26049008,
+            26049009,
+            26049010,
+            26049011,
+            26049012,
+            26049013,
+            26049014
+          ],
+          "sectionId": 26049
+        }
+      ],
+      "title": "暴雨"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213006",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "暴雨",
+  "wordCount": 311
+}

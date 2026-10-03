@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212007",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "专业运动背心搭配减震拳击手套，全棉防晒短袖适配基础训练高靴，没错，一切只为带来更快的出拳速度。持续7个小时的训练，可“那个人”的训练还没有停止！肩膀虽然在不受控制地颤抖，但既然你这么能干！我也不会落下，因为……\n\n“我是绝对不会，输给那家伙的！”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "格斗少女Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212007",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绿子·格斗少女Ver.",
+  "title": "格斗少女Ver.",
+  "wordCount": 121
+}

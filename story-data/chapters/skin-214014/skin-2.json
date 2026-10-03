@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214014",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「朝中不止这么些人吧？倒要看看，我设的宴，谁敢不来！」董太师怒眉睁目，现场无一人敢出声。\n\n「太师息怒，家父王司徒身体抱恙，特派小女来以舞谢罪。」一道柔美的女声打破了寂静。\n\n毫无瑕疵的妩媚面孔，在镶上金箔的短裙映衬下愈发动人，名为貂蝉的少女一出现，便成为宴会的焦点。\n\n虽然这是少女以「细作」身份执行的第一次任务，但在对上董卓视线的瞬间，她便知道，任务已经成功了。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "乱世千金Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214014",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "貂蝉·乱世千金Ver.",
+  "title": "乱世千金Ver.",
+  "wordCount": 177
+}

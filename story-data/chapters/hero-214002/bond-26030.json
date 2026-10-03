@@ -1,0 +1,161 @@
+{
+  "bookId": "hero-214002",
+  "id": "bond-26030",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26030001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "敌人出现了！哈莉，放大招！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "收到收到，看我的！上、上、下、下、左......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "快点，再快点！敌人攻进来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "左、右、左、A、B——究！极！爆！破！\n哈啊？！怎么已经输了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030005",
+          "sourceType": 3,
+          "text": "敌方玩家：「弱哎！拜托，你很弱哎！」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26030006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "......嘶哈，我要宰了他！给我去死——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈莉已经很努力了。\n手柄尺寸的按键对手办来说，果然太勉强......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030008",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "哈莉因为手太短，偶尔拖了后腿，也没关系的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030009",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "放心吧，就算输再多次，我们也不会嫌弃你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？哈莉拿出了什么，一个黑色的球？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "货真价实的高威炸弹——「追踪者爆炸三十号」！\n宰不了对手，我就炸了这个游戏机！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈莉，别冲动！\n输赢没那么重要，能一起玩就很开心了，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "既！然！主人都这么说了......\n对了，队长教的「精神冷静法」，吸气，呼气，吸气......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "呵，好吧，看在主人的面子上......暂时饶它一命。\n哈莉可没那么容易认输，再来一局！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26030015",
+          "sourceType": 3,
+          "text": "根据您的操作特征，已自动开启「儿童模式」，正常功能请使用面部识别解锁。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26030016",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "让开，我今天非炸了它不可！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26030",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26030001,
+            26030002,
+            26030003,
+            26030004,
+            26030005,
+            26030006,
+            26030007,
+            26030008,
+            26030009,
+            26030010,
+            26030011,
+            26030012,
+            26030013,
+            26030014,
+            26030015,
+            26030016
+          ],
+          "sectionId": 26030
+        }
+      ],
+      "title": "高威炸弹"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "高威炸弹",
+  "wordCount": 417
+}

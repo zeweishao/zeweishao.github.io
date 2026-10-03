@@ -1,0 +1,166 @@
+{
+  "bookId": "hero-211011",
+  "id": "bond-26003",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26003001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "是你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26003003",
+              "text": "又睡着了吗？"
+            },
+            {
+              "targetId": "26003003",
+              "text": "打扰到你了吗？"
+            }
+          ],
+          "sourceId": "26003002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26003003",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "没有，我在想一个问题。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26003005",
+              "text": "什么问题？"
+            }
+          ],
+          "sourceId": "26003004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26003005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "被制造出来的我们，在诞生之初，都被赋予了唯一的使命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "作为杀戮型机械，我的使命是战斗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "可是……作为「手办」的我，「使命」是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26003009",
+              "text": "蒂娅觉得，什么是「使命」？"
+            }
+          ],
+          "sourceId": "26003008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26003009",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "「使命」是世界上最重要的东西，是我存在的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果没有「使命」，蒂娅的存在就没有意义了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003011",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……我不知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么现在，蒂娅认为世界上最重要的是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003013",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26003014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅不想说的话，下次告诉我也可以。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26003",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26003001,
+            26003002,
+            26003003,
+            26003004,
+            26003005,
+            26003006,
+            26003007,
+            26003008,
+            26003009,
+            26003010,
+            26003011,
+            26003012,
+            26003013,
+            26003014
+          ],
+          "sectionId": 26003
+        }
+      ],
+      "title": "什么是「使命」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "什么是「使命」",
+  "wordCount": 202
+}

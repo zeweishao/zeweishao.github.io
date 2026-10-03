@@ -1,0 +1,157 @@
+{
+  "bookId": "hero-212015",
+  "id": "bond-33409",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33409001",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "新人，这是……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33409003",
+              "text": "这是给你的礼物。"
+            },
+            {
+              "targetId": "33409003",
+              "text": "我来实现承诺。"
+            }
+          ],
+          "sourceId": "33409002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33409003",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "看来曾经的新人，也变得可靠起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我说过会为你遮风挡雨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里的山水林木，亭台楼阁，错落有致。\n不论走到哪里，都有不一样的景色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就算一直待在这里，也不用担心厌烦。\n不论怎样的风雨也不会影响这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409007",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "这里真的很美。\n即便放眼整个江左，也找不到能与之相比的园林。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33409009",
+              "text": "你喜欢就好。"
+            },
+            {
+              "targetId": "33409009",
+              "text": "不用担心天气了。"
+            }
+          ],
+          "sourceId": "33409008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33409009",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "天气也好，风景也好，都不是最重要的。\n真正重要的，是和你在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409010",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "如今，招引雷鸣的剑，终于也有了栖身之所。\n你的承诺，我会永远记住哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409011",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "不过我很想知道，你这些心思是什么时候开始有的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409012",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "你之前说，加入监天院是为了平和的生活，身边的手办。\n可现在看来好像没这么简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33409013",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "不交代清楚，今晚，我可不会让你走哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33409",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33409001,
+            33409002,
+            33409003,
+            33409004,
+            33409005,
+            33409006,
+            33409007,
+            33409008,
+            33409009,
+            33409010,
+            33409011,
+            33409012,
+            33409013
+          ],
+          "sectionId": 33409
+        }
+      ],
+      "title": "栖身之所"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "栖身之所",
+  "wordCount": 302
+}

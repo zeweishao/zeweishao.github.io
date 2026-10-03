@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-212014",
+  "id": "bond-29327",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29327001",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "早上好，主人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好巧啊，真乃也是来这购物的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327003",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "不，我是在晨跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "虽然已经是手办了，但也不能松懈每天的锻炼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "很好的习惯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说起来，你晨跑的里程可真长啊……都从家附近跑到别的街区了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327007",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "……诶，我们现在不是在爱猫社区吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里是潮酷街区。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327009",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊，果然……我又跑错路线了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327010",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "一出门就容易绕远路，还好这次碰到了主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大概是因为还不熟悉周边的地区吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "跑步的时候容易放空心思……然后不知不觉就跑到别的地方去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还认得回家的路吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327014",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "唔……没有什么自信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们一起晨跑吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "跟着我跑就不会迷路了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327017",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "好，谢谢主人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327018",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "于是，两人开始朝着家的方向奔跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29327019",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "等下，她跑得好快！",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29327",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29327001,
+            29327002,
+            29327003,
+            29327004,
+            29327005,
+            29327006,
+            29327007,
+            29327008,
+            29327009,
+            29327010,
+            29327011,
+            29327012,
+            29327013,
+            29327014,
+            29327015,
+            29327016,
+            29327017,
+            29327018,
+            29327019
+          ],
+          "sectionId": 29327
+        }
+      ],
+      "title": "晨跑，但是迷路"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "晨跑，但是迷路",
+  "wordCount": 260
+}

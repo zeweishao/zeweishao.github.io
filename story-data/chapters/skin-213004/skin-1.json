@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213004",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "晚宴上，只此一眼，便能从人群中找出的高贵女王，梦幻如从星空上降临的精灵。\n于此良夜，相遇之时，命运也交织在一起，谱写梦幻般的恋歌。\n其身上散发的光芒，如同夜空的星辰般璀璨。\n\n想要和我跳第一支舞吗？",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "星辰之魅Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213004",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "弗吉尼娅·星辰之魅Ver.",
+  "title": "星辰之魅Ver.",
+  "wordCount": 95
+}

@@ -1,0 +1,218 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22404",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22404001",
+          "sourceType": 10,
+          "text": "「龙王的祝辞」",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22404002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "「喂，人类」……咳咳，「嗨，吾的专属人类」……「好久不见阿，人类」……不行不行……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404003",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "喂，我说，这已经是第678次NG了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "住口！为了柯斯顿城的门面，身为柯斯顿的一家之主，吾必须展现出最高贵完美的一面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "少用那些烂借口，幼稚的家伙，明明就是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嗨，「|101|」，现在你看到的是由桑尼带来的特别直播，标题就叫做——「龙王的祝辞」~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂喂喂，快拿开……已、已经开始了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "来不及了噢，已经接通了耶，|101||102|现在正在看着你呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳咳……|101|……你、你好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22404011",
+              "text": "你好呀~"
+            }
+          ],
+          "sourceId": "22404010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22404011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "好久不见……你、你最近过得好吗！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22404013",
+              "text": "很好，家主大人呢？"
+            }
+          ],
+          "sourceId": "22404012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22404013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我也……哎哎哎，咳咳，我今天，咳咳——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳，今日，是吾来到现世的一周年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "也马上就是，吾与你相识的一周年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "虽然你只是个也没什么了不起的普通人类，不过……莫名的可靠和让人心安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "非常感谢你为柯斯顿城和手办世界所做的一切，另外还有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404018",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "啰里吧嗦，今天就到此为止！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404019",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，阿斯塔罗斯！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22404020",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "——就是这样，不赖的家伙，再会！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22404",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22404001,
+            22404002,
+            22404003,
+            22404004,
+            22404005,
+            22404006,
+            22404007,
+            22404008,
+            22404009,
+            22404010,
+            22404011,
+            22404012,
+            22404013,
+            22404014,
+            22404015,
+            22404016,
+            22404017,
+            22404018,
+            22404019,
+            22404020
+          ],
+          "sectionId": 22404
+        }
+      ],
+      "title": "「龙王的祝辞」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22404,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "38",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「龙王的祝辞」",
+  "wordCount": 417
+}

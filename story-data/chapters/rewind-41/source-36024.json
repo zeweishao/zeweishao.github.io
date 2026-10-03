@@ -1,0 +1,134 @@
+{
+  "bookId": "rewind-41",
+  "id": "source-36024",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "36024001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "呜！好厉害。但星洛不是打不过你们，只是没吃饱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "到此为止吧，我们只想谈谈。\n这是你的东西，还给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咿呀！是星洛的手册。嗯……难道你们不是坏人吗？那它怎么会在你们这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "而且你之前不是说，要从仓库里找到手册的线索吗？难道这也是你的计划吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024005",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "额，这个，没错！这是计划的一部分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……我本以为你被星洛袭击了，但你们关系似乎不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "谁跟她关系不错了？！我都快被她折磨死了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "是吗？那请你解释下，是什么计划需要袭击仓库？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "额……其实很简单的啦……就是，那个嘛！\n对的对的，就是那个啦！对吧星洛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "你在说什么呀？是在说烤肉的事吗？！星洛最喜欢吃烤肉了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36024011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我们真的要和她合作吗……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "36024",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36024001,
+            36024002,
+            36024003,
+            36024004,
+            36024005,
+            36024006,
+            36024007,
+            36024008,
+            36024009,
+            36024010,
+            36024011
+          ],
+          "sectionId": 36024
+        }
+      ],
+      "title": "狩猎风波·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9310025",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9310025",
+          "after_result_avg"
+        ],
+        "sectionId": 36024,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "狩猎风波·Ⅴ",
+  "wordCount": 272
+}

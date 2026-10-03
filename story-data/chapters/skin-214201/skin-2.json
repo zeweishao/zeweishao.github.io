@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214201",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "大大的圆顶遮阳帽上点缀着微粉的花色，白色的缎带飘舞像是春天柔和的序曲。\n粉色连衣裙同样是适合春天的装扮，清新又富有活力，更衬得少女肌肤胜雪、玲珑有致。\n家主大人手中提着同样以粉色为主题的高跟鞋，纤巧赤足轻踩嫩绿草地。\n这套装扮在春日的阳光下尽显慵懒可爱，那时常带着高贵气质的精致脸蛋也像是被暖春融化一样，在重要之人的关注下露出了明媚的笑容。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "心动眷恋Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214201",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾伦兹·心动眷恋Ver.",
+  "title": "心动眷恋Ver.",
+  "wordCount": 167
+}

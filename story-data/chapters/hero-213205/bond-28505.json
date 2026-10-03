@@ -1,0 +1,171 @@
+{
+  "bookId": "hero-213205",
+  "id": "bond-28505",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28505001",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "上次那个温泉我很喜欢，所以这次我也带了点你会喜欢的东西。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28505003",
+              "text": "大小姐这是什么打扮？"
+            }
+          ],
+          "sourceId": "28505002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28505003",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "嘘，别吵，这个样子知道的人越少越好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28505004",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "这是从兄长那里偷师学的一手，快尝尝看。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28505006",
+              "text": "除了小了点没别的毛病。"
+            }
+          ],
+          "sourceId": "28505005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28505006",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "我也这么觉得，这可是我吃过最好吃的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28505007",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "虽然现在的我已经吃不了了，不过这个味道我会一直记得。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28505009",
+              "text": "现在也可以的哦。"
+            }
+          ],
+          "sourceId": "28505008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28505009",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "你在开玩笑吧，手办怎么可以吃东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28505010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我从不骗你，你看那边就知道了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28505011",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "居然是七星客栈的包子铺！你特别为我准备的？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28505013",
+              "text": "当然了，大小姐。"
+            },
+            {
+              "targetId": "28505013",
+              "text": "没想到吧？给你的惊喜。"
+            }
+          ],
+          "sourceId": "28505012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28505013",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "好，各种道具和材料都准备齐全，现在就可以开始动手制作美味的包子涂料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28505014",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "没错，就是这个味道，真是久违了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28505",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28505001,
+            28505002,
+            28505003,
+            28505004,
+            28505005,
+            28505006,
+            28505007,
+            28505008,
+            28505009,
+            28505010,
+            28505011,
+            28505012,
+            28505013,
+            28505014
+          ],
+          "sectionId": 28505
+        }
+      ],
+      "title": "包子出锅了！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "包子出锅了！",
+  "wordCount": 263
+}

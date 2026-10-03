@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212108",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "恣意人间，初心不改的洒脱少女「小青」化身为1/7比例模型正式于M城隆重登场！\n她是初化人形的一尾青蛇，洒脱恣意，不拘小节。\n想用自己的眼去看一看钱塘那不败的繁华盛景，想用自己的耳去听一听婉转缠绵的古老曲调，想用自己的唇舌去尝一尝那市井间的千百种滋味。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212108"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 123
+}

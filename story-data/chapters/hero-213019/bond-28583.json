@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-213019",
+  "id": "bond-28583",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28583001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "哇，这是什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这个豪华的机甲陈列馆模型，是……给我的？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28583004",
+              "text": "没错，你喜欢吗？"
+            },
+            {
+              "targetId": "28583004",
+              "text": "当然，只属于你。"
+            }
+          ],
+          "sourceId": "28583003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28583004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔，一直以来我总是很忙碌……忙到把自己都忘记了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "不是忙着做机甲研发，就是忙着照顾那些和我一样的「实验体」，这还是第一次有人这么关心我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "原来，做「手办」的感觉竟然这么好！真是太棒了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道你可能不记得自己的过去，但我希望这里能成为你的新回忆的起点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这是在邀请我把这里当作自己的家吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28583009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯嗯，我会认真考虑看看的。不过要做我的家人，可是很有挑战的一件事情哦，你准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28583011",
+              "text": "我将无条件支持你。"
+            },
+            {
+              "targetId": "28583011",
+              "text": "这里永远是你的家。"
+            }
+          ],
+          "sourceId": "28583010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28583011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔唔，这可是你说的，可不要反悔哦……\n不对，我不会让你有机会后悔的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28583",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28583001,
+            28583002,
+            28583003,
+            28583004,
+            28583005,
+            28583006,
+            28583007,
+            28583008,
+            28583009,
+            28583010,
+            28583011
+          ],
+          "sectionId": 28583
+        }
+      ],
+      "title": "机甲陈列馆"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213019",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "机甲陈列馆",
+  "wordCount": 279
+}

@@ -1,0 +1,1751 @@
+{
+  "bookId": "rewind-27",
+  "id": "chapter-106",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26500001",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "少卖关子了，到底什么事，要说快说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "这可是事关手办世界的大秘密——\n「天启」已经集齐了全部能量石，正在谋划一件危险的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "知道了，然后呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……然后？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嘿，我看这些家伙，恐怕连「能量石」是什么都不知道吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "「能量石」，还真是简单随便的起名方式。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那还真是抱歉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "总之是很严重的事，如果放任不管，会对整个手办世界造成不可逆转的大麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，不要像阿尔弗雷德一样随便使唤吾的人类，\n反正又是什么杂鱼清扫之类的工作了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500010",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "在那之前，能先说明一下「能量石」是什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对不起，在蒂娅回来前，我们不能擅自透露这个秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，「异乡人组织」，我看还是改名叫「谜语人组织」好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "别会错意，透露这个情报，只是卖个人情罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人情？吾才不需要那种廉价的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26500015",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "诸位，依我看……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26500017",
+              "text": "够了，让我安静一会。"
+            },
+            {
+              "targetId": "26500017",
+              "text": "闭嘴，都别吵了！"
+            }
+          ],
+          "sourceId": "26500016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26500017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "知道了知道了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-261",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26500001,
+            26500002,
+            26500003,
+            26500004,
+            26500005,
+            26500006,
+            26500007,
+            26500008,
+            26500009,
+            26500010,
+            26500011,
+            26500012,
+            26500013,
+            26500014,
+            26500015,
+            26500016,
+            26500017
+          ],
+          "sectionId": 26500
+        }
+      ],
+      "title": "#1 「能量石」"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26510001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，依吾看，你们这些麻烦的家伙还是尽早从人类家里离开，这对大家都好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "龙王小姐说出这种话，恐怕只是为了自己的私心吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "拜托了，|101|，我们知道你现在很难过，但还是请你……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26510005",
+              "text": "为什么？"
+            }
+          ],
+          "sourceId": "26510004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26510005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……欸？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26510007",
+              "text": "这和我有什么关系吗？"
+            }
+          ],
+          "sourceId": "26510006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26510007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "可是「能量石」和手办世界……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道，手办世界可能会有你说的所谓大危机大麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "——可这跟我有什么关系呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些手办……虽然它们不过是手办，但真的很讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我不想再参与你们的斗争了，你们的事你们自己解决。\n我不是拯救世界的超人，我只是个普通人，有自己的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我只想安安静静生活……还有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "找回失踪的优纪、和江和花迦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "听清楚了吗，你们异乡人的使命，由异乡人自己完成就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510015",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉表示赞成！小红小蓝双手双脚赞成~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26510017",
+              "text": "就这样吧。"
+            },
+            {
+              "targetId": "26510017",
+              "text": "请你们理解，我累了。"
+            }
+          ],
+          "sourceId": "26510016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26510017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "等一下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26510018",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "|101|，如果这件事，能帮你找回优纪呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-262",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26510001,
+            26510002,
+            26510003,
+            26510004,
+            26510005,
+            26510006,
+            26510007,
+            26510008,
+            26510009,
+            26510010,
+            26510011,
+            26510012,
+            26510013,
+            26510014,
+            26510015,
+            26510016,
+            26510017,
+            26510018
+          ],
+          "sectionId": 26510
+        }
+      ],
+      "title": "#2 心灰意冷"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26520001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "找回……优纪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520003",
+          "sourceType": 3,
+          "text": "滴滴滴滴——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26520004",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "管理局的来电呼叫，是阿尔弗雷德。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "真是晦气，这个自以为是的家伙，又要随便使唤吾的人类吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "没意思，哈莉讨厌追着弱鸡跑来跑去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520007",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "我们又不是打杂的小弟，我的腿都要跑断了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "那个……没有人打算接一下吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26520010",
+              "text": "……"
+            },
+            {
+              "targetId": "26520010",
+              "text": "不是很想接。"
+            }
+          ],
+          "sourceId": "26520009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26520010",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "那个……为什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520011",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "不合时宜的提问，桑尼，显而易见，|101|跟阿尔弗雷德发生了争执，严重的争执。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520012",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "如果我猜得不错的话，恐怕跟失踪的三位有关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我拒绝了阿尔弗雷德的登记邀请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "并向他声明，在找到优纪、和江和花迦之前，我不会接手任何来自管理局的指派。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "听起来完全是严重的决裂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520016",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "呼……挂断了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26520017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你做的没错|101|，管理局的事情，让他们自己解决就是了。如果这点事都做不好的话，还是不要自封「管理局」了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-263",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26520001,
+            26520002,
+            26520003,
+            26520004,
+            26520005,
+            26520006,
+            26520007,
+            26520008,
+            26520009,
+            26520010,
+            26520011,
+            26520012,
+            26520013,
+            26520014,
+            26520015,
+            26520016,
+            26520017
+          ],
+          "sectionId": 26520
+        }
+      ],
+      "title": "#3 意外通讯"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26530001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "看来你也不怎么喜欢管理局，那我们就放心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，少套近乎。\n虽然有共同的敌人，但我们也未必是朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你刚才说，「这件事能帮我找回优纪」……是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "是互帮互助的条件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我们需要你神色如常地与管理局通讯，并回应阿尔弗雷德的要求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "搞清楚，人类刚刚说过，在找回优纪他们之前，绝对不会替他们做任何事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这是自愿交易，我们不会强迫任何人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么联系管理局，你们的目的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "原因我会解释，在打完通讯之后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530010",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……又来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530011",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "有趣，是个相当严密有序的组织呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26530012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那么，|101|，你会怎么做？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-264",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26530001,
+            26530002,
+            26530003,
+            26530004,
+            26530005,
+            26530006,
+            26530007,
+            26530008,
+            26530009,
+            26530010,
+            26530011,
+            26530012
+          ],
+          "sectionId": 26530
+        }
+      ],
+      "title": "#4 同仇敌忾"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26540001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "嘴上说着「自愿交易」，其实根本是居高临下的胁迫吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540002",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "跟哈莉说「只是玩个游戏」的语气一模一样，其实哈莉只是想找个借口把我和蓝盒子都拆掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "别乱动，我的「追踪者爆炸三十号」说它想找个活靶子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540004",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "你们看……是赤裸裸的胁迫！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，优纪的话，吾会发动全「柯斯顿城」的力量去寻找，用不着莫名其妙的人来帮忙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉也会把每条下水沟都扫得干干净净！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我也绝不放弃，会一直一直努力找下去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "一直努力，就一定能找到吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540010",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "呸呸呸，乌鸦嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你们知道M城有多大吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "以人类的速度，从爱猫社区徒步到潮酷街区，至少需要半个小时。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "城西的日光乐园、城南的飞艇工厂还有城郊的废弃工厂，每个地点的行程都要比潮酷街区远得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你这个异乡人，倒是对这里很了解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "用双脚丈量地图，是冒险家的必修课。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我要说的是，在这样大的城市里，寻找一个小小的手办无异于大海捞针。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540017",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "三个。\n优纪，和江，花迦——是三个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26540018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "所以呢？你们想说什么？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-265",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26540001,
+            26540002,
+            26540003,
+            26540004,
+            26540005,
+            26540006,
+            26540007,
+            26540008,
+            26540009,
+            26540010,
+            26540011,
+            26540012,
+            26540013,
+            26540014,
+            26540015,
+            26540016,
+            26540017,
+            26540018
+          ],
+          "sectionId": 26540
+        }
+      ],
+      "title": "#5 胁迫与自愿"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26550001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我的意思是，单凭你们的力量，找到优纪她们的概率极低。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "不想帮忙的家伙，没有资格在这里说风凉话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "不是风凉话，人类是无法前往狭窄缝隙的，手办也没有办法跑遍全城。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26550005",
+              "text": "是在劝我放弃吗？"
+            },
+            {
+              "targetId": "26550008",
+              "text": "你们？"
+            }
+          ],
+          "sourceId": "26550004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26550005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "相反，我们在提出帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "谢谢，风凉话可算不上什么帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "手办和人类无法完成的事，只有我们可以办到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你还记得「蒂娅」么？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "26550009",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "26550010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "在上次「周年庆宴」，是「蒂娅」感应到了危机，从阿撒兹勒手中救回了她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "「蒂娅」和「优纪」存在某种感应，她能够看到部分属于优纪的记忆，这意味着，蒂娅能够找到优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "只要蒂娅看到优纪的记忆，就能根据画面来推测她们现在的下落了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26550015",
+              "text": "蒂娅她在哪？"
+            },
+            {
+              "targetId": "26550016",
+              "text": "知道了，成交"
+            }
+          ],
+          "sourceId": "26550014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26550015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "头儿正在完成另一件重要的任务，到时候会到M城跟我们汇合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26550016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我会联系管理局。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-266",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26550001,
+            26550002,
+            26550003,
+            26550004,
+            26550005,
+            26550006,
+            26550007,
+            26550008,
+            26550009,
+            26550010,
+            26550011,
+            26550012,
+            26550013,
+            26550014,
+            26550015,
+            26550016
+          ],
+          "sectionId": 26550
+        }
+      ],
+      "title": "#6 特殊感应"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26560002",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "实习生，你来迟了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26560004",
+              "text": "……"
+            },
+            {
+              "targetId": "26560004",
+              "text": "发生了一些事情，所以……"
+            }
+          ],
+          "sourceId": "26560003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26560004",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "我不想听你的解释，你也无须解释。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560005",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "现在，更重要的使命在等待你完成。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26560007",
+              "text": "我不想……"
+            },
+            {
+              "targetId": "26560013",
+              "text": "可是……"
+            }
+          ],
+          "sourceId": "26560006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26560007",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "嘘——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560008",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "阿尔弗雷德面前，没有人能说「不」，听好了，实习生——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560009",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "作为通过试炼的新员工，你最好尽快前往指定地点进行登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我之前说过，在找到优纪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "等一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "|101|，答应他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26560013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你必须跟管理局合作，这是「找回优纪」的条件。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26560015",
+              "text": "……"
+            },
+            {
+              "targetId": "26560015",
+              "text": "知道了，好吧。"
+            }
+          ],
+          "sourceId": "26560014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26560015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那么，合作愉快？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-267",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26560001,
+            26560002,
+            26560003,
+            26560004,
+            26560005,
+            26560006,
+            26560007,
+            26560008,
+            26560009,
+            26560010,
+            26560011,
+            26560012,
+            26560013,
+            26560014,
+            26560015
+          ],
+          "sectionId": 26560
+        }
+      ],
+      "title": "#7 二次通讯"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26570001",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "看来你接受了这份提议，明智的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570002",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "我知道你正在经历一段艰难的时刻，抱歉|101|，对此我表示非常遗憾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570003",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "管理局会永远记住她们的名字，优纪，花迦，和江。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570004",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，乌鸦嘴，你在胡说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570005",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "哦？还有一位偷听的客人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570006",
+          "sourceType": 13,
+          "speaker": "桑尼",
+          "text": "桑尼觉得他好像想说……「不速之客」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570007",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "中央城的败犬，不要以为自己在「管理局」」里跑腿，就可以随意使唤吾的人类！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570008",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "红龙，我们在正在探讨「管理局」的机要，请你回避。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，谁稀罕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570010",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "既然闲杂人等已经退避，我们可以开始谈论正事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570011",
+          "sourceType": 13,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏娜丹妮……原来……刚刚才开始进入主题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570012",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "肃静。\n实习生，你必须尽早放下悲痛，打起精神。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570013",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "因为我们遇到了前所未有的挑战，棘手的挑战。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570014",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "「管理局」辖区内的「能量石」集体失窃，不知道是哪方势力下的手，希望你能尽快恢复，协助调查。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26570016",
+              "text": "「能量石」？！"
+            }
+          ],
+          "sourceId": "26570015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26570016",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "不是什么大不了的东西，你无需知道，也不必知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570017",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "只要记住，这件事事关「管理局」的荣誉与尊严，需要你以人格捍卫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570018",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "就到这里，我还有重要的会议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26570019",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "明早八点，老地方，不要迟到。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-268",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26570001,
+            26570002,
+            26570003,
+            26570004,
+            26570005,
+            26570006,
+            26570007,
+            26570008,
+            26570009,
+            26570010,
+            26570011,
+            26570012,
+            26570013,
+            26570014,
+            26570015,
+            26570016,
+            26570017,
+            26570018,
+            26570019
+          ],
+          "sectionId": 26570
+        }
+      ],
+      "title": "#8 例行慰问"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26580001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "切，又是「能量石」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你们看，「管理局」就是这样拖沓又官僚的组织，连「天启」拿走了「能量石」这件事都不知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "按这个调查法，鬼知道能找出什么结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "明明被蒙在鼓里，还摆出一副高高在上无所不知的样子，自以为是的家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "所以「阿撒兹勒」的据点，也是过了时的消息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "「阿撒兹勒」？什么消息？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那个墨镜男说过吧，已经找到「阿撒兹勒」的这件事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580008",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "哈莉记错了，不是这么说……阿嗷——！\n不、不要打我的头！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580009",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "「我已经派人查得阿撒兹勒在M城的据点，想要的话，自己去寻找线索」——他是这样对主人说的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "阿哦，已经能猜到结果了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "根本不知道到哪里去找！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "听上去好像跟「我知道她们就在地球上，具体方位要你们去找」没有太大差别……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这叫什么线索，明明是想要你们做更多苦力的说辞吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26580014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "看来，「管理局」还是老样子，一如既往的不靠谱阿~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-269",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26580001,
+            26580002,
+            26580003,
+            26580004,
+            26580005,
+            26580006,
+            26580007,
+            26580008,
+            26580009,
+            26580010,
+            26580011,
+            26580012,
+            26580013,
+            26580014
+          ],
+          "sectionId": 26580
+        }
+      ],
+      "title": "#9 官僚组织"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26590001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我看，你们根本没必要跟管理局合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这群自以为是的家伙摆出一副统治者的样子，根本是群办事不利的饭桶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "说起合作，不如考虑一下吾的「柯斯顿城」，如果是为了人类，倒也不是不能帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "谢了~看来你这小妞也不是蛮不讲理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "表达感谢就放尊重点，要称呼吾「尊贵的龙王大人」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "说起来，「管理局」的出现很突然，\n主人被选中试炼这件事本身就很奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590007",
+          "sourceType": 5,
+          "speaker": "小红",
+          "text": "嗷呜咦——！！！\n……谁、谁谁谁在说话？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏……我们之中……刚、刚刚有这个人吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590009",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "是小梅酱，迷路的小梅酱终于找到回家的路了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590010",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "真没出息，哎，刚刚的话我都听到了。\n早就说「管理局」根本不是什么好东西，迟钝的家伙们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590011",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "而且，我早就看那家伙不爽了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590012",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "自称「管理局」试炼生的忍者，明明是个忍者，却弱得要死——肯定是什么故作柔弱用来接近主人的诱饵吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "那个……请问她说的「那家伙」是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590014",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "花迦，小梅酱说的是花迦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590015",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "肯定是在记恨那件事吧……「天台被占领」那件事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590016",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你们不用嘀咕得这么大声，我听得到！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26590017",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "抱歉，我们不太了解情况，能详细说说吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-270",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26590001,
+            26590002,
+            26590003,
+            26590004,
+            26590005,
+            26590006,
+            26590007,
+            26590008,
+            26590009,
+            26590010,
+            26590011,
+            26590012,
+            26590013,
+            26590014,
+            26590015,
+            26590016,
+            26590017
+          ],
+          "sectionId": 26590
+        }
+      ],
+      "title": "#10 不必合作"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26600001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "所以，花迦存在嫌疑，可能是「管理局」用来接近|101|的诱饵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那么优纪她们的失踪就很耐人寻味了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26600004",
+              "text": "这一切……会跟花迦有关吗？"
+            },
+            {
+              "targetId": "26600004",
+              "text": "不会的，花迦不可能是那样的。"
+            }
+          ],
+          "sourceId": "26600003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26600004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "可惜花迦本人也失踪了，不然一定能问个清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不管真相如何，「管理局」的目的都并不单纯，他们接近|101|是为了某种企图。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼，果然是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600007",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不过……为什么这样说……有什么依据吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "抱歉，没有证据。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "这也是我们来到这里的原因，希望|101|能继续假装与「管理局」合作，找出他们背后的阴谋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600010",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "麻烦，去把那个墨镜男抓起来打一顿不就好了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "好主意，要开战了吗，嘿嘿嘿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "没用的，阿尔弗雷德恐怕也被蒙在鼓里，\n真正发号施令的，是躲在幕后的所谓「高层」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "|101|，明早的「管理局」正式员工登记，请带上我们一起，就当是为了优纪。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26600015",
+              "text": "知道了，但这是最后一次。"
+            },
+            {
+              "targetId": "26600015",
+              "text": "好吧，只好这样了。"
+            }
+          ],
+          "sourceId": "26600014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26600015",
+          "sourceType": 3,
+          "text": "午夜，众人已经陷入熟睡……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26600016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "泉，这样做真的对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这种事本来就不论对错，别想了，早点休息，明早还要会会「管理局」呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "可是对|101|有所隐瞒，我总觉得……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "安心啦，我们自己了解的也未必都是真相呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26600020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "真正的答案，恐怕只有「蒂娅」本人知道了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-271",
+      "sourceRefs": [
+        {
+          "bundle": "disanshilzhang",
+          "rowIds": [
+            26600001,
+            26600002,
+            26600003,
+            26600004,
+            26600005,
+            26600006,
+            26600007,
+            26600008,
+            26600009,
+            26600010,
+            26600011,
+            26600012,
+            26600013,
+            26600014,
+            26600015,
+            26600016,
+            26600017,
+            26600018,
+            26600019,
+            26600020
+          ],
+          "sectionId": 26600
+        }
+      ],
+      "title": "#11 耐人寻味"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 106,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 106,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "videoPath": "Videos/_lazy_/AVG_blackYuki_m.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "事象背后的联系",
+  "title": "第36章",
+  "wordCount": 3733
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212009",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "Zheng是旅居德国的华裔设计师，他与FULI联手推出了缤纷牛奶盒系列，灵感来自日常生活中常见的牛奶盒。除了保留基础牛奶盒的造型之外，Zheng使平凡的牛奶盒犹如获得了新的生命。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212009"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

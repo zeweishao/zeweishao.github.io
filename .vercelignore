@@ -1,0 +1,17 @@
+.git/
+.vercel/
+node_modules/
+dist/
+tmp/
+.env*
+.DS_Store
+server.js
+logG.txt
+messages.txt
+comments.txt
+figures-assets
+figures-orig
+figures-src/
+assets/
+photos/
+videos/

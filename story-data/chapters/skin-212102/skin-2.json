@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212102",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "重要的生日到来，爱酱换上了轻飘飘的可爱礼服。\n奶油白的裙摆缀上粉扑扑的少女心色彩，就像生日蛋糕一样甜蜜烂漫~！会晃动双叶的心形发箍，是爱酱的象征，也代表少女对这个世界和未来的憧憬满满。\n从helloWorld开始，虚拟的程序不知不觉也能在这个美好的世界焕发出生命的光彩。这次的生日过后，Kizuna AI会是多少岁呢？可不管爱酱是多少岁，大家是多少岁，快乐永远是万岁~！\n\n“往后的往后，也想要与大家同行。”\n\n       ——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "A.I. Party!Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212102",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "Kizuna AI·A.I. Party!Ver.",
+  "title": "A.I. Party!Ver.",
+  "wordCount": 215
+}

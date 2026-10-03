@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213018",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "深夜，马南家族基地。还未从睡梦中彻底清醒的研究员们，被某个小巧的身影耍得团团转。\n\n「抬头，我在这里，小心你们最爱的大吊灯喵~」\n「不对，不对，那已经是上一个地点了。」\n\n警卫匆匆赶到，终于在瞄准镜里捕捉到那抹短暂停歇的金色，开枪，射击——\n\n「难得穿了最显眼的衣服，描边大师们还是打不中喵~结束游戏吧。」少女轻松举起炮筒。\n\n直至最后一秒，他们也只能记住灿金的猫咪瞳孔。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "灿金猫瞳Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213018",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "米菲亚·灿金猫瞳Ver.",
+  "title": "灿金猫瞳Ver.",
+  "wordCount": 177
+}

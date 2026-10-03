@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-215006",
+  "id": "bond-29320",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29320001",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "这是一座颇具江左风格的「乐器坊」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320002",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "虽然在我的指挥下，你经历了无数次的返工，甚至推翻了曾经的设计稿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320003",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "好在最终效果还不错，我个人表示十分满意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就送给都督好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "如此，那便多谢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "这么精致的「乐器坊」，不拿来使用就太可惜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320007",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "就让我为你演奏一曲，如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听闻都督极擅音律。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320009",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "我从小修习音律，即便酒过三巡，琴声有误，亦必能听出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "只是我从不轻易为他人演奏，唯有被视作「知己」的人才可听到我亲手抚出的琴音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我真是太荣幸了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29320012",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "这一曲琴音，赠与我的知己，祝君未来可期。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29320",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29320001,
+            29320002,
+            29320003,
+            29320004,
+            29320005,
+            29320006,
+            29320007,
+            29320008,
+            29320009,
+            29320010,
+            29320011,
+            29320012
+          ],
+          "sectionId": 29320
+        }
+      ],
+      "title": "未来可期"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "未来可期",
+  "wordCount": 222
+}

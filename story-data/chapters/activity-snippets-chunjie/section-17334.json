@@ -1,0 +1,93 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17334",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17334001",
+          "sourceType": 10,
+          "text": "熟悉的名字，像不像主人的家长群？嘿嘿，新春快乐~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17334002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这是花开富贵，祝愿主人新的一年也能这样红红火火绽放，有没有让主人想到自己的家庭群名字呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17334003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嘿嘿，其实就算各种各样的蔬菜哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17334004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "主人吃了这么多大鱼大肉，肯定也需要一盘这样清淡菜式来解腻吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17334005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是纯粹的口感~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17334006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这种清香的感觉，完全冲淡了之前的油腻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17334007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感觉自己干饭人的灵魂，又重新燃烧起来了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17334",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17334001,
+            17334002,
+            17334003,
+            17334004,
+            17334005,
+            17334006,
+            17334007
+          ],
+          "sectionId": 17334
+        }
+      ],
+      "title": "花开富贵"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17334,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "21",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "熟悉的名字，像不像主人的家长群？",
+  "title": "花开富贵",
+  "wordCount": 161
+}

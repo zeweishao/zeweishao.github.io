@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215002",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「哈唔……这里是『萤火小队』队员葵。」\n\n无线电的另一头传来了少女慵懒的声音。\n\n「地区镇压完成，敌方全员沉默。确认人质『向日葵沙雕』生命体征正常。」\n\n「倒计时5、4、3、2、1……」\n\n「耶！」\n\n ——本特别款仅可通过沙滩乐园活动获取 ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "热沙行动Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215002",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "葵·热沙行动Ver.",
+  "title": "热沙行动Ver.",
+  "wordCount": 109
+}

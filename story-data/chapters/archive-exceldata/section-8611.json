@@ -1,0 +1,41 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-8611",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "8611001",
+          "sourceType": 0,
+          "speaker": "家人",
+          "text": "钥匙果然在这里。我们准备出门旅游了，你记得起床吃早餐。\n大猫一起下去，我准备了金枪鱼罐头。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "8611",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            8611001
+          ],
+          "sectionId": 8611
+        }
+      ],
+      "title": "原文片段 8611"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 8611
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 8611",
+  "wordCount": 44
+}

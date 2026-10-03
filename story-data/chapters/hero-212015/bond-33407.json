@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-212015",
+  "id": "bond-33407",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33407001",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "新人，你成功通过了考核。\n从今天起，你就是乾雷司的一员了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "刚才好像被电了一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407003",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "这是我们的传统，被我电一下，才是真正认可你哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那接下来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407005",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "别着急，凡事欲速则不达。乾雷司最不缺的就是任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407006",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "不过，像你这么积极的新人可不多。\n你究竟是为了什么才加入监天院？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33407008",
+              "text": "我想守护平和的生活"
+            },
+            {
+              "targetId": "33407008",
+              "text": "我想帮助身边的手办"
+            }
+          ],
+          "sourceId": "33407007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33407008",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "不错的信念，我很欣赏。\n那你知道，实现信念最重要的是什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33407010",
+              "text": "是坚持？"
+            },
+            {
+              "targetId": "33407010",
+              "text": "是奋斗？"
+            }
+          ],
+          "sourceId": "33407009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33407010",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "是休息！你考核的时候就哈欠连天，现在先好好睡一觉吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33407011",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "别担心，雷鸣会伴你慢慢入睡的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33407",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33407001,
+            33407002,
+            33407003,
+            33407004,
+            33407005,
+            33407006,
+            33407007,
+            33407008,
+            33407009,
+            33407010,
+            33407011
+          ],
+          "sectionId": 33407
+        }
+      ],
+      "title": "倾囊相授"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "倾囊相授",
+  "wordCount": 218
+}

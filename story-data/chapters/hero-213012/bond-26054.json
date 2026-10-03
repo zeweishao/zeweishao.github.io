@@ -1,0 +1,165 @@
+{
+  "bookId": "hero-213012",
+  "id": "bond-26054",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26054001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有咲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054002",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "在的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以解释下这个是什么情况吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054004",
+          "sourceType": 3,
+          "text": "|101|取出背后画有「神宫有咲最喜欢的主人」涂鸦的文化衫。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26054005",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "哎呀呀，是很好看的涂鸦呢，不知道是谁这么可爱给主人画上的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你的名字都在上面了啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "那也可能是别人的陷害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以这是陷害吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "不是哦！嘿嘿，没想到被主人发现了呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，被朋友用奇怪的表情盯了一整天，他们可能觉得我在这个世界已经没有在意的人了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054011",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "后果这么严重的吗？主人是讨厌上面的涂鸦，还是讨厌有咲在上面写的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……两个都不讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054013",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "诶诶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "算了，当我什么都没说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26054015",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘿嘿。果然，今天的主人也很值得有咲喜欢啊~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26054",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26054001,
+            26054002,
+            26054003,
+            26054004,
+            26054005,
+            26054006,
+            26054007,
+            26054008,
+            26054009,
+            26054010,
+            26054011,
+            26054012,
+            26054013,
+            26054014,
+            26054015
+          ],
+          "sectionId": 26054
+        }
+      ],
+      "title": "涂鸦恶作剧"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "涂鸦恶作剧",
+  "wordCount": 246
+}

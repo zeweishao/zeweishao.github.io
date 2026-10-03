@@ -1,18 +1,20 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="figure-locked">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5eee3">
-  <title>小手办陈列馆｜属于我们的小世界</title>
+  <title>团子之家｜记录爱雪雪的每一天</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
-  <link rel="preconnect" href="figures-assets/">
   <link rel="preconnect" href="https://fonts.loli.net">
   <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
   <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap"></noscript>
-  <link rel="stylesheet" href="journal.css?v=20261003f">
-  <script>window.FIGURE_ASSET_BASE = window.FIGURE_ASSET_BASE || "figures-assets/";</script>
+  <link rel="stylesheet" href="journal.css?v=20261003k">
+  <link rel="stylesheet" href="figure-lock.css?v=20261003b">
+  <script>try{if(localStorage.getItem("figure_lock_open_v1")==="1")document.documentElement.classList.remove("figure-locked")}catch(e){}</script>
+  <link rel="stylesheet" href="figure-stories.css?v=20261003-stories-v1">
+  <script src="asset-config.js?v=20261003-r2"></script>
 </head>
 <body class="journal sub-page figures-page">
   <header class="topbar">
@@ -21,9 +23,9 @@
       <span>记录爱雪雪的每一天</span>
     </a>
     <nav class="j-tabs" aria-label="主导航">
-      <a href="index.html">情书</a>
+      <a href="index.html">一页情书</a>
       <a class="is-active" href="figures.html" aria-current="page">团子之家</a>
-      <a href="milk-tea.html">能量补给站</a>
+      <a href="milk-tea.html">宝宝的能量补给站</a>
       <a href="messages.html">悄悄话</a>
       <a href="albums.html">照片</a>
       <a class="is-night" href="comic.html">漫画</a>
@@ -31,9 +33,9 @@
     <details class="j-menu">
       <summary>目录</summary>
       <nav class="j-menu-panel" aria-label="主导航">
-        <a href="index.html">情书</a>
+        <a href="index.html">一页情书</a>
         <a class="is-active" aria-current="page" href="figures.html">团子之家</a>
-        <a href="milk-tea.html">能量补给站</a>
+        <a href="milk-tea.html">宝宝的能量补给站</a>
         <a href="messages.html">悄悄话</a>
         <a href="albums.html">照片</a>
         <a href="comic.html">漫画</a>
@@ -46,9 +48,9 @@
       <div class="j-page-head figures-head">
         <div class="figures-head-copy">
           <p class="eyebrow">陪着你的小家伙们</p>
-          <h1 id="collection-heading">小手办陈列馆</h1>
-          <p class="sub hand-sub">把你喜欢的她们，都好好收在这里。</p>
-          <p class="sub"><span id="results-count" role="status" aria-live="polite">正在载入…</span><span class="sep"> · </span><span id="catalog-total"></span></p>
+          <h1 id="collection-heading">团子之家</h1>
+          <p class="sub hand-sub figure-letter"><span class="figure-letter-opening">相遇在团子，相伴于朝夕。</span><span>虽然我们已经离开团子很久了，但是那些你和我和手办们的回忆却永远值得珍藏</span></p>
+          <p class="sub" id="catalog-status" role="status" aria-live="polite">正在载入…</p>
         </div>
         <section class="dome-cabinet" aria-labelledby="favTitle">
           <h2 id="favTitle" class="hand">你最喜欢的她们</h2>
@@ -66,6 +68,12 @@
           </ul>
         </section>
       </div>
+
+      <a class="figure-story-entry" href="stories.html" aria-label="翻开团子的剧情">
+        <span class="figure-story-label">剧情</span>
+        <span class="figure-story-copy"><strong>再读一遍，那些一起走过的故事</strong><span>主线篇章 · 活动故事 · 人物档案 · 皮肤短篇</span></span>
+        <span class="figure-story-turn" aria-hidden="true">翻开看看 ↗</span>
+      </a>
 
       <div class="figure-toolbar">
         <label class="figure-search">
@@ -121,6 +129,7 @@
           <div class="skin-title-row"><span class="skin-name" id="skin-name"></span><button class="j-wavy" id="set-default-skin" type="button" disabled>设为默认展示</button></div>
           <div class="tags"><span id="profession-name"></span><span id="hero-brand-name"></span></div>
           <p class="story" id="hero-story"></p>
+          <a class="figure-story-person" id="hero-story-link" href="stories.html"><span>去剧情里看看</span><span aria-hidden="true">↗</span></a>
           <section class="skin-story-section" id="skin-story-section">
             <div class="detail-heading"><h2>皮肤故事</h2><button class="j-wavy" id="expand-story" type="button" aria-expanded="false" aria-controls="skin-story">展开故事 ＋</button></div>
             <p id="skin-story" class="skin-story collapsed"></p>
@@ -149,7 +158,26 @@
   <dialog class="figure-modal" id="modal" aria-labelledby="modal-title"><button class="close-modal" type="button" aria-label="关闭">×</button><div id="modal-content"></div></dialog>
   <div class="figure-toast" id="toast" role="status" hidden></div>
 
-  <script type="module" src="figures/app.js?v=20261003b"></script>
-  <script src="journal.js?v=20261003c"></script>
+  <div class="figure-lock" id="figureLock" role="dialog" aria-modal="true" aria-labelledby="lockTitle" hidden>
+    <div class="lock-card">
+      <img class="lock-key" src="assets/journal/sticker-key.webp" alt="">
+      <svg class="lock-padlock" viewBox="0 0 46 52" aria-hidden="true"><path d="M12 22v-7a11 11 0 0 1 22 0v7" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><rect x="5" y="21" width="36" height="28" rx="5" fill="currentColor"/><circle cx="23" cy="33" r="4" fill="#fbf6ec"/><rect x="21.4" y="35" width="3.2" height="7" rx="1.6" fill="#fbf6ec"/></svg>
+      <p class="eyebrow">团子之家 · 上了一把小锁</p>
+      <h2 id="lockTitle">答对了，才能进来哦</h2>
+      <p class="lock-question">天下第一大美女是谁？</p>
+      <p class="lock-hint">（写她最常用的叫法）</p>
+      <form class="lock-form" autocomplete="off">
+        <label class="visually-hidden" for="lockAnswer">你的答案</label>
+        <input class="lock-input" id="lockAnswer" type="text" placeholder="写下她的名字" enterkeyhint="done" maxlength="12">
+        <button class="lock-submit" type="submit">推门进去</button>
+      </form>
+      <p class="lock-error" role="status" aria-live="polite"></p>
+      <span class="lock-stamp" aria-hidden="true">答对啦</span>
+    </div>
+  </div>
+
+  <script src="figure-lock.js?v=20261003b"></script>
+  <script type="module" src="figures/app.js?v=20261003-stories"></script>
+  <script src="journal.js?v=20261003g"></script>
 </body>
 </html>

@@ -1,0 +1,277 @@
+{
+  "bookId": "hero-213207",
+  "id": "bond-43814",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43814001",
+          "sourceType": 0,
+          "speaker": "奇怪的优纪",
+          "text": "|101|，欢迎回来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪，你知道可露莎在哪吗？我在找她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814003",
+          "sourceType": 0,
+          "speaker": "奇怪的优纪",
+          "text": "可露莎吗？我也没见到，应该是和萤火小队一起出任务去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814004",
+          "sourceType": 0,
+          "speaker": "奇怪的优纪",
+          "text": "既然提到了可露莎，我其实很想知道一件事——主人是怎样看待她的？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814006",
+              "text": "人还不错。"
+            },
+            {
+              "targetId": "43814006",
+              "text": "有点莽撞。"
+            }
+          ],
+          "sourceId": "43814005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814006",
+          "sourceType": 0,
+          "speaker": "奇怪的优纪",
+          "text": "嗯嗯，还有呢？你喜欢她的作品吗？最喜欢哪一幅？你觉得她的滑板涂什么颜色好看？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814008",
+              "text": "你不是优纪吧？"
+            },
+            {
+              "targetId": "43814008",
+              "text": "……你是可露莎？"
+            }
+          ],
+          "sourceId": "43814007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814008",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "哈哈哈，不愧是你，这么快就识破啦！看来，下次我要认真准备cos道具才行~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814010",
+              "text": "为什么想cos优纪？"
+            }
+          ],
+          "sourceId": "43814009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814010",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "首先，我可是《奇迹少女优纪》的忠实粉丝！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814011",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "其次，「可露莎」本人不在场的情况下，更容易问出你对她的真实评价吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814012",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "真是可惜，最关键的问题还没问出口呢……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814014",
+              "text": "现在问也不迟。"
+            }
+          ],
+          "sourceId": "43814013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814014",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "其实也没什么啦，就是……你看到的我，是什么颜色的？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814016",
+              "text": "色盲测试？"
+            },
+            {
+              "targetId": "43814016",
+              "text": "我的视力没问题。"
+            }
+          ],
+          "sourceId": "43814015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814016",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "就是……除了原本的颜色之外，好像还能看到轻飘飘的彩虹、亮晶晶的星光……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814017",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "……类似这种感觉，你在看到我的时候，是不是也同样会有？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814019",
+              "text": "「也同样」？"
+            },
+            {
+              "targetId": "43814019",
+              "text": "你看到我脸上有彩虹？"
+            }
+          ],
+          "sourceId": "43814018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814019",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "……欸？……这，我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43814020",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "啊哈哈哈，你、你看，外面的阳光多明媚呀，是个练习滑板的好天气！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43814022",
+              "text": "今天多云。"
+            },
+            {
+              "targetId": "43814022",
+              "text": "你的视力没问题吗？"
+            }
+          ],
+          "sourceId": "43814021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43814022",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "总、总之我先走了，下次再聊哦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43814",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43814001,
+            43814002,
+            43814003,
+            43814004,
+            43814005,
+            43814006,
+            43814007,
+            43814008,
+            43814009,
+            43814010,
+            43814011,
+            43814012,
+            43814013,
+            43814014,
+            43814015,
+            43814016,
+            43814017,
+            43814018,
+            43814019,
+            43814020,
+            43814021,
+            43814022
+          ],
+          "sectionId": 43814
+        }
+      ],
+      "title": "角色扮演挑战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213207",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "角色扮演挑战",
+  "wordCount": 462
+}

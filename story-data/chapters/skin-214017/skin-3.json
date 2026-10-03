@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214017",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "饱满红润的番茄不翼而飞，鲜嫩水灵的萝卜也消失不见。\n\n这究竟是敌人的袭击，还是自然的力量？又或者……是幽灵的把戏？\n\n经过多日的调查，海柔尔终于在菜园发现了「小偷」的踪迹——一只鼹鼠和它的朋友们。\n\n「如果扮成动物的样子，鼹鼠先生会不会友好些呢？」\n\n夜晚，海柔尔在门前摆满蔬菜，期待和动物们结下友谊。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·绵野乡间Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214017",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海柔尔·闪亮·绵野乡间Ver.",
+  "title": "闪亮·绵野乡间Ver.",
+  "wordCount": 143
+}

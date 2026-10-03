@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215005",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "此次FULI得到Complex动漫公司的授权，联手推出了疯狂的兔子系列盲盒。秉持着FULI一贯的严谨与细致的作风，细腻地呈现了动漫中经典的玩具形象，将其嚣张气焰展现的淋漓尽致。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215005"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 88
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212203",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「这些糖果全都要吃掉，不许剩下。吃了我的糖果，你就是我的人了。」\n\n特殊材质编织的蜜色糖衣将少女装扮成精美的糖果，将少女心中独一无二的爱不由分说地展现在主人的面前。无论是头顶的马卡龙发饰，还是手中持有的小熊棒棒糖，全都能够让主人放心食用，请尽情品尝这份心意。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "蜜色幻想Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212203",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "水城结奈·蜜色幻想Ver.",
+  "title": "蜜色幻想Ver.",
+  "wordCount": 127
+}

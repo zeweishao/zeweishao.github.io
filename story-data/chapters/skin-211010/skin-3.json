@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211010",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "自己打工赚钱买游戏，是冈田彩音成为独立大人的第一步计划！\n\n经学姐介绍，彩音获得了人生中第一份工作——咖啡厅服务生。只是，这家店对服务生上菜形式的要求，似乎比较特殊......\n\n「久等了，您点的饮品！彩音已经用爱的魔法，给这杯樱桃汽水注入了满满的元气哦~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "樱桃汽水Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211010",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "冈田彩音·樱桃汽水Ver.",
+  "title": "樱桃汽水Ver.",
+  "wordCount": 125
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214019",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "时髦叛逆的校园辣妹「克拉拉」化身1/7比例模型登场！配合着无比闪耀的镁光灯和晶彩夺目的钻石，克拉拉在镜头前肆意大笑！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214019"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 58
+}

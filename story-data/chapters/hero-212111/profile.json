@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212111",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "追随神秘焰火师，一心守护重要之人的仙宫护卫。「龙缨」化身为1/7比例模型正式于M城隆重登场！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212111"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 46
+}

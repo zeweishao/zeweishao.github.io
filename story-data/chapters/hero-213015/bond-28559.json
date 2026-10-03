@@ -1,0 +1,174 @@
+{
+  "bookId": "hero-213015",
+  "id": "bond-28559",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28559001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "模仿「奥古斯都」的建筑风格的别墅，露天的庭院……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有一处小型的马球场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "谢谢，我能看到您的用心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对贵族来说，这些都显得很普通吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "并非如此——请将您的手伸出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559006",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "庭院里，伊迪丝微微俯身，右手搭上了你的指腹，乐声缓缓流淌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "愿意与我共舞吗，我的骑士？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……比起上一次，您的步伐娴熟了不少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为了跟上你，我私下练习过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "当初青涩笨拙的舞步倒是显得可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "现在的成长也着实令人欣喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559014",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "在舞步渐臻完美时，两人相互凝望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "舞会总有散场的时候，但是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28559016",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "|101|，夜晚还很漫长。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28559",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28559001,
+            28559002,
+            28559003,
+            28559004,
+            28559005,
+            28559006,
+            28559007,
+            28559008,
+            28559009,
+            28559010,
+            28559011,
+            28559012,
+            28559013,
+            28559014,
+            28559015,
+            28559016
+          ],
+          "sectionId": 28559
+        }
+      ],
+      "title": "两人的共舞"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213015",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "两人的共舞",
+  "wordCount": 228
+}

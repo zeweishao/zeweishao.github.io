@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211103",
+  "id": "bond-29336",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29336001",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "唔……好像不是很难呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "穗香，你在看什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "啊，岛主，欢迎回来。我在看格斗录像带哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是《格斗学园》的比赛录像……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336005",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "里面的大家都好厉害，学到了很多没见过的招式~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "学到？只是看录像？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336007",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嗯嗯，像这招……嘿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是阳子的招牌正拳？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336009",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "还有这招……哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……这个架势，是龙马的仓田流？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "穗香，好厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336012",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "刚才有点太兴奋了，只是对岛主展示一下哦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29336013",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "请一定要对大家保密，岛主~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29336",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29336001,
+            29336002,
+            29336003,
+            29336004,
+            29336005,
+            29336006,
+            29336007,
+            29336008,
+            29336009,
+            29336010,
+            29336011,
+            29336012,
+            29336013
+          ],
+          "sectionId": 29336
+        }
+      ],
+      "title": "格斗迷"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "格斗迷",
+  "wordCount": 172
+}

@@ -1,0 +1,1231 @@
+{
+  "bookId": "rewind-36",
+  "id": "chapter-143",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33012001",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "没错，我是徘徊在人世界的幽灵。\n正因如此，我才想找到幽灵伙伴啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "抱歉，请稍等，我整理一下思绪......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "既然你是幽灵，可以问一下......你的死因吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，居然敢向幽灵打探死因，真是胆大包天的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "告诉你也无妨——我在19岁时，死于某种会缩短寿命的罕见病。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "在来到这里之前，我已经验证过5个幽灵怪谈——连个幽灵的影子都没有撞见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012007",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "这次是最后一个，又失败了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你的遭遇太令人同情了——我理解，最后的希望毁于一旦是多么令人痛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "是啊，真想就这么死掉算了——\n不过我已经是幽灵了，不能再次死亡哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......算了。或许寻找幽灵的旅途，是时候先告一段落了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012011",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "毕竟这一次，我还有很多时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "那个，请等一等，不知道这个消息能不能作为对你的补偿——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我听说过另外一则怪谈，好像叫做......「凝固的生机」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你应该知道，白模化对手办而言意味着死亡，但在我看来，这同样也是一种新生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012015",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "有传闻说，存在能唤醒手办白模的方法——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012016",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "在凌晨1点后，独自一人带着白模手办前往手办仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012017",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "对着白模呼唤13次它的名字，就会得到回应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你是说，被选中的白模手办......能够获得生命？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012019",
+          "sourceType": 3,
+          "text": "滴——滴——滴——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33012020",
+          "sourceType": 0,
+          "speaker": "护理员",
+          "text": "血氧饱和度逐渐升高，自主呼吸恢复。\n主任，太好了，她挺过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012021",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "植物基因在她体内产生了剧烈的排斥反应。\n继续这个方向的研究，搞不好会要了她的命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012022",
+          "sourceType": 0,
+          "speaker": "护理员",
+          "text": "果然，像柔嘉那样，基因能够顺利与植物拟合是偶然的奇迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012023",
+          "sourceType": 0,
+          "speaker": "护理员",
+          "text": "真可怜啊，她才16岁......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012024",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "她的时间不多了。\n说不定，无机质方向的研究能给她带来一线生机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012025",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咳、咳咳咳咳咳......这次我们，成功了......吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012026",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "小奇萝，问你一个问题。你相信雕塑能活过来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012027",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "我......咳……相……信……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012028",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "附身在雕塑上的幽灵，一定可以长长久久地活下去......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012029",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这则怪谈......我只是道听途说而已。\n不知道有没有帮到你的忙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012030",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "幽灵借助「附身」的能力，能让动物、植物，甚至是没有生命的石膏雕像活过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012031",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯......如此有趣的怪谈，必须亲自验证一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012032",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不过......要怎么才能找到白模手办呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012033",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "那种「剥离涂料的手办」，应该很难获取吧......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012034",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "果然还是，不要去追求难以确定的事物......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012035",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "等等，我想到了！如果诅咒能够找人代为承受……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33012036",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "那么白模手办也一定存在着某种几乎一样的「替代品」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-752",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33012001,
+            33012002,
+            33012003,
+            33012004,
+            33012005,
+            33012006,
+            33012007,
+            33012008,
+            33012009,
+            33012010,
+            33012011,
+            33012012,
+            33012013,
+            33012014,
+            33012015,
+            33012016,
+            33012017,
+            33012018,
+            33012019,
+            33012020,
+            33012021,
+            33012022,
+            33012023,
+            33012024,
+            33012025,
+            33012026,
+            33012027,
+            33012028,
+            33012029,
+            33012030,
+            33012031,
+            33012032,
+            33012033,
+            33012034,
+            33012035,
+            33012036
+          ],
+          "sectionId": 33012
+        }
+      ],
+      "title": "写实艺术·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33015001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "笨蛋，废物！我说过要做人像，你自己看看，你做的东西和哪个人像？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015002",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "水城结奈大人，您没发现吗？\n这是以您为原型一比一打造的，多么神似！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015003",
+          "sourceType": 3,
+          "text": "轰隆——咔嚓！\n锤子瞬间将雕像砸成碎片。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33015004",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "给我重做！还有，不准再拿我做参考。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015005",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "呜呜呜哇哇！\n没有人懂我的艺术，也没有人懂我的真心——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015006",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "告诉我，究竟还要多久，才能让石膏动起来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "新技术的研发是困难的，请您再多一些耐心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015008",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "给的时间已经够多了！\n备好的石膏材料堆积如山，你们在等它自己变成雕塑吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015009",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "大人，其实我已经让手下过制作一些雕像，但可能......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "因为造型太过离谱？涂上颜色之后，完全没有任何反应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015011",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "你为什么不亲自做？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "请您谅解，她自己做的还不如手下的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015013",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "那你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015014",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "她做的更丑，品味就像她的打底裤一样糟糕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015015",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "时间紧迫，可以容许一些雕塑品质的不足。\n把做好的雕塑拿来我看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015016",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "抱歉，唯独这点恕难从命。\n让那种东西公之于众，会让马南家族颜面扫地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015017",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "你在违抗我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015018",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "不敢。大人，请再给我们一些时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015019",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "FULI新发售的手办——雕塑师奇萝，她会为我们的计划带来转机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015020",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "手办化的雕塑师......\n你怎么确定，她会帮助我们做雕塑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33015021",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "请您放心，我刚刚得到消息——\n奇萝已经上钩，很快就会乖乖地送雕塑过来了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-753",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33015001,
+            33015002,
+            33015003,
+            33015004,
+            33015005,
+            33015006,
+            33015007,
+            33015008,
+            33015009,
+            33015010,
+            33015011,
+            33015012,
+            33015013,
+            33015014,
+            33015015,
+            33015016,
+            33015017,
+            33015018,
+            33015019,
+            33015020,
+            33015021
+          ],
+          "sectionId": 33015
+        }
+      ],
+      "title": "写实艺术·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33016001",
+          "sourceType": 3,
+          "text": "第七大不可思议：凝固的生机。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33016002",
+          "sourceType": 3,
+          "text": "「栩然如生的石膏雕像，将转瞬即逝的生命定格成永恒。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33016003",
+          "sourceType": 3,
+          "text": "「沉睡在雕像中的灵魂，等待着再度被唤醒。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33016004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，这简直是白模手办完美的替代品！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33016005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "无论是树脂还是石膏，都是雕塑的艺术，也并没有什么太大分别啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33016006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "还没到一点钟，不能心急。幽灵总是准时出场的......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33016007",
+          "sourceType": 5,
+          "speaker": "奇萝",
+          "text": "唔！呜呜呜——谁？放开我！救命，救命！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33016008",
+          "sourceType": 5,
+          "speaker": "奇萝",
+          "text": "你们会被最恶毒的诅咒缠身......我做鬼也不会放过你们的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "那就等你做鬼了再说。\n现在，安静闭嘴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "您好，奇萝小姐，初次见面。我很期待你带来的雕塑作品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "为了欣赏到您做的雕塑出此下策，请海涵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "利用幽灵谋利，当心反噬自己的灵魂！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "呵呵，奇萝小姐您不也是在「利用幽灵」，为求得心理安慰吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你......知道些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017007",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "愚蠢。如果你早点认清幽灵并不存在，也不会……懒得和你废话，验货要紧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017008",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这、这是什么鬼东西？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017009",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "奇萝小姐的作品还真是——出人意料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017010",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "不对，情报不可能有误，她的雕刻水平绝对一流。难道说......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我们还是小瞧你了，你早就察觉到不对，故意带了这种东西过来？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017012",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......你们到底为什么想要我做的雕塑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33017013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你不需要知道！\n敢耍花招，看来得给你点教训才行！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-754",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33016001,
+            33016002,
+            33016003,
+            33016004,
+            33016005,
+            33016006,
+            33016007,
+            33016008
+          ],
+          "sectionId": 33016
+        },
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33017001,
+            33017002,
+            33017003,
+            33017004,
+            33017005,
+            33017006,
+            33017007,
+            33017008,
+            33017009,
+            33017010,
+            33017011,
+            33017012,
+            33017013
+          ],
+          "sectionId": 33017
+        }
+      ],
+      "title": "写实艺术·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33018001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "住手。我替她向您道歉。\n水城的言行太过火了，竟然对您如此失礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018002",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "为什么拦我？她根本不肯听话做雕塑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我们需要奇萝小姐的能力，她是我们重要的客人，不可以如此粗鲁对待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018004",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我相信，在我们解释清楚前因后果之后，奇萝小姐的想法会改变的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "现在，您有什么问题，可以随意向我提问。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你们故意散播怪谈，骗会做雕塑的人送上门？\n那被骗来的其他人怎么样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "您误会了——\n我们对其他人不感兴趣，我们只是看中了您的才华。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018008",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "也只有你这种笨蛋会被鬼故事骗得团团转。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，才华在死后才获得认可，该说这是艺术家难以摆脱的宿命吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不过很可惜，我是幽灵，对生者在意的名利没兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018011",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我们知道您想要什么。变成手办后，您获得了一次全新的生命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "而我们能帮您，将这一次的生命无限延长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "哼，你们生者真是贪婪——手办的老化速度很慢，能有如此长久的生命还不知足？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018014",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你还真是天真得可怜。人类对你的新鲜感最多两三年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "厌倦后要么丢掉，要么把你扔进暗无天日的杂物堆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018016",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "失去人类的爱之后，生命随着树脂的老化流逝，最终躺在垃圾堆中苟延残喘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018017",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "这就是作为人类的「所有物」难以摆脱的宿命呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "人类的......所有物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "而我们不同！摆脱人类，自己收集涂料保养，只要你想，就可以永远活下去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018020",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "那么，你们的目的究竟是什么？\n为什么需要我的雕塑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018021",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "为了表达合作的诚意，我们愿意和您共享这一重要情报——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018022",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "这些雕塑会获得我们赋予的生命，成为最忠实的战士和仆人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018023",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你们已经找到让雕塑活化的方法？！\n如果是这样，我......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018024",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "需要我做的，仅仅是提供一些雕塑给你们，没错吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018025",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "正是如此，合作愉快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "事情顺利得出乎意料。那个「花瓶演员」虽然演技糟糕，但提供的情报有点价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018027",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "如果奇萝回去之后反悔怎么办？我们派些人盯着她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018028",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "没必要。我们已经抓住了她的软肋，她逃不掉的。\n倒不如说——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018029",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "她对活下去的执念，注定了她只能为我们效力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33018030",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "与人类绑定的关系，哪有什么「永恒」可言呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-755",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33018001,
+            33018002,
+            33018003,
+            33018004,
+            33018005,
+            33018006,
+            33018007,
+            33018008,
+            33018009,
+            33018010,
+            33018011,
+            33018012,
+            33018013,
+            33018014,
+            33018015,
+            33018016,
+            33018017,
+            33018018,
+            33018019,
+            33018020,
+            33018021,
+            33018022,
+            33018023,
+            33018024,
+            33018025,
+            33018026,
+            33018027,
+            33018028,
+            33018029,
+            33018030
+          ],
+          "sectionId": 33018
+        }
+      ],
+      "title": "写实艺术·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33019001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奇萝从手办仓库回来后的第三天——依旧没有出门呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那天被我们撞见从手办仓库出来，她的表情就非常不对劲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "简直是阴晴不定、捉摸不透、晦暗不明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "而且她始终不肯告诉我们，那晚发生了什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "果然，我们不该让她一个人去证实怪谈......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "啊，难道！奇萝真的遇到了不可思议事件......\n现在正被幽灵苦苦纠缠？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019007",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "麻烦让一让，我来给奇萝送材料......你们，找她有事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "奇萝一直闭门不出，我们很担心她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019009",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "没关系的，她每次制作新的雕塑，总是这样废寝忘食。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019010",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "放心，我确认过，不是以|101|为原型。这次的造型意外的很正常呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "原、原来如此。\n那么，我们还是不要打扰她比较好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "雕塑风格忽然改变，这对一名雕塑家而言绝非小事。\n至少确认一下她的状态。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33019013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好，那就鼓起勇气进门吧——\n问清楚在手办仓库到底发生了什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好冷......奇萝放雕塑的地方温度这么低吗？\n光线也很昏暗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "和江，这是不是和雕塑的存储条件有关呢......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "和江？和江，你去哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎？和江......不是和我们一起进来了吗？\n刚才还就在我身边——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看到了，她在那！我去叫她过来。......咦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020006",
+          "sourceType": 0,
+          "speaker": "和江雕塑",
+          "text": "......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "呜啊啊啊——！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "刚才看到一尊很像我的雕塑，应该就是奇萝的新作品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "回过神来时，已经和你们走散了，就先出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "和江......没有变成白模！呜呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还，还能见到你真是太好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "......怎么了？你们.....为什么在哭？\n发生什么事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "面部的线条应该再柔和一些……鼻梁再削低点……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020014",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "好了……大致的轮廓已经完成，接下来慢慢精修就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020015",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "呼——做雕塑真累，腰酸背痛。\n如果真能变成幽灵该有多好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020016",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "本以为变成手办，就获得了永恒的生命......兜兜转转，还是回到了原点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020017",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不，这次不一样。「将灵魂灌注进雕塑」都能实现，我也能找到活下去的方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "但为什么，优纪她们对自己未来的命运毫不担心......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33020019",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "她们难道......从不畏惧死亡吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-756",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33019001,
+            33019002,
+            33019003,
+            33019004,
+            33019005,
+            33019006,
+            33019007,
+            33019008,
+            33019009,
+            33019010,
+            33019011,
+            33019012,
+            33019013
+          ],
+          "sectionId": 33019
+        },
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33020001,
+            33020002,
+            33020003,
+            33020004,
+            33020005,
+            33020006,
+            33020007,
+            33020008,
+            33020009,
+            33020010,
+            33020011,
+            33020012,
+            33020013,
+            33020014,
+            33020015,
+            33020016,
+            33020017,
+            33020018,
+            33020019
+          ],
+          "sectionId": 33020
+        }
+      ],
+      "title": "写实艺术·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 143,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 143,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "雕塑是一种写实的艺术",
+  "title": "写实艺术",
+  "wordCount": 3429
+}

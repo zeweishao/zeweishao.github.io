@@ -1,0 +1,169 @@
+{
+  "bookId": "archive-gonghuizhan",
+  "id": "section-21300",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21300001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "「命运游乐场」开业大酬宾~行动券噢，免费的行动券，赢得挑战的话，什么心愿都可以实现哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "免费？什么心愿都可以？……烧肉味的涂料也有吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "当然，尊贵的客人，这是行动券和传单，再会，期待看到您向命运发起挑战的无畏勇气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300004",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "唔，「命运游乐场」，风靡手办世界的主题乐园？游玩条件：「带上你的伙伴」，看来是团体赛，要不要叫上武道社那帮家伙呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔，阳子前辈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "啊，你是「西本高中」格斗部的绿子吧？可惜没在武道联赛上遇见呢，来得正好，一起来玩这个吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可今天出来本来是为了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "这可是千载难逢的机会，不想来一场热火朝天的切磋吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好帅气的女孩子，是绿子认识的人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "看起来像是路见不平拔刀相助的黑帮大姐头那一种。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300011",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "喂，我听到了，真的不是什么黑道组织成员，只是刚升入三年级的普通女高中生而已！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "阳子前辈是非常厉害的对手，在校时号称「至诚武道，无双武豪」，被誉为新生代武道界的不败神话，和决赛冠军的不二人选！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300013",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "嘿，你倒是做足了功课。\n正好带了朋友的话，不如一起去看看？顺便，切磋一下？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们也要参加吗，可是今天不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔——那件事晚点也不迟，不如就先参加一下好了，「命运游乐场」，听起来就很有趣！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300016",
+          "sourceType": 0,
+          "speaker": "路易斯",
+          "text": "欢迎光临「命运游乐场」，请合理分配行动券，牢记前往下一站的条件：发现全部宝箱、击败首领、联通起点与终点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21300017",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "让我看看，先从哪里开始好呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "21300",
+      "sourceRefs": [
+        {
+          "bundle": "gonghuizhan",
+          "rowIds": [
+            21300001,
+            21300002,
+            21300003,
+            21300004,
+            21300005,
+            21300006,
+            21300007,
+            21300008,
+            21300009,
+            21300010,
+            21300011,
+            21300012,
+            21300013,
+            21300014,
+            21300015,
+            21300016,
+            21300017
+          ],
+          "sectionId": 21300
+        }
+      ],
+      "title": "原文片段 21300"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "gonghuizhan",
+        "sectionId": 21300
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 21300",
+  "wordCount": 541
+}

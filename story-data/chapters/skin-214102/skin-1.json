@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214102",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "对于自己为何会被选中，又即将背负怎样的使命，皇后并不完全理解。\n\n但至少在8号灯塔，她可以拥有自己的姓名，获得名为「家」的归属。\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "茶会Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214102",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "皇后·茶会Ver.",
+  "title": "茶会Ver.",
+  "wordCount": 78
+}

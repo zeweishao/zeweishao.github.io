@@ -1,0 +1,146 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25710",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25710001",
+          "sourceType": 10,
+          "text": "超级偶像才艺大展示",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25710002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这就是我的花灯工作台吗？也太小了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25710003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "负责道具支持的工作人员是谁，请让|102|出来见我，我要亲自和|102|谈。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25710005",
+              "text": "是我，怎么了？"
+            }
+          ],
+          "sourceId": "25710004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25710005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "咳，这台子太小了，会影响到我施展才能的，我要求换大一点的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25710007",
+              "text": "这已经是最大的了。"
+            }
+          ],
+          "sourceId": "25710006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25710007",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "好吧，你们的经费实在有限，我也不是不能理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25710008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我可是专业的全民偶像，即使再小再破的舞台，也阻挡不了我施展才华。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25710009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "即使做手工只是我的副业，一个无足轻重的小小特长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25710010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "所以你就好好期待着吧，我的粉丝|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25710011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "拭目以待。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25710",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25710001,
+            25710002,
+            25710003,
+            25710004,
+            25710005,
+            25710006,
+            25710007,
+            25710008,
+            25710009,
+            25710010,
+            25710011
+          ],
+          "sectionId": 25710
+        }
+      ],
+      "title": "超级偶像才艺大展示"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25710,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "42",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾里克希娅的工作台解锁了，在舞台之下的她会再一次闪耀起来吗？",
+  "title": "超级偶像才艺大展示",
+  "wordCount": 214
+}

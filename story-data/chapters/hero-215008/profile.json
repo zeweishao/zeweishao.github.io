@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215008",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI的知名绘师细腻还原了经典游戏原作中的形象，把拥有如水彩般华丽色彩的长发的艾里克希娅的明星气质衬托得淋漓尽致。轻快跳跃的她，姿态动感十足。微微上扬的校服衣角，更是将艾里克希娅性感的小蛮腰呈现于眼前。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215008"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 102
+}

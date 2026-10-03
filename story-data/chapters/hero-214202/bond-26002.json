@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214202",
+  "id": "bond-26002",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26002001",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "这是何意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "给你的，房子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你不是说，变成手办后，每天晚上你都不用睡觉吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为了帮你消磨时间，就准备了这屋子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里还有许多藏书，我托人制成了适合手办的大小。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有这些陪伴，应当可以替你排解不少寂寞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002007",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "哼，无聊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002008",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "有时间准备这些，你不如多看几本书。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为你准备的这些书，也是我之后准备学习的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你往后可以用这些来考较我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002011",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "……看来你还算有些长进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002012",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "这东西，我姑且收下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002013",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "昨天的课程你都记得怎样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我昨天给你准备这房子去了，没学也是理所当然的事情吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26002015",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "你……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26002",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26002001,
+            26002002,
+            26002003,
+            26002004,
+            26002005,
+            26002006,
+            26002007,
+            26002008,
+            26002009,
+            26002010,
+            26002011,
+            26002012,
+            26002013,
+            26002014,
+            26002015
+          ],
+          "sectionId": 26002
+        }
+      ],
+      "title": "君王养成Ⅲ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214202",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "君王养成Ⅲ",
+  "wordCount": 213
+}

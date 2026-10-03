@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214003",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自人气游戏《终焉地平线》，三无腹黑萝莉「莉莉奈」化身为1/7比例模型登场！依照官方给出的详细设定图，将机甲驾驶员莉莉奈恶作剧后得意的模样制成模型。小小的莉莉奈，心里又在打什么坏主意呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214003"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 93
+}

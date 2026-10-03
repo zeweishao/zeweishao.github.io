@@ -1,0 +1,2566 @@
+{
+  "bookId": "rewind-10",
+  "id": "chapter-45",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16020001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们回来啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "圣诞树买到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这件事不重要啦，我和主人给你们带回来一个惊喜哦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是什么样的惊喜？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "噔噔噔噔！我们家里要迎来新的成员啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020006",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "嗨嗨，我是桑尼，能见到你们真是太好啦~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这是怎么回事，主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，说来话长，总之，她们几个是我和优纪在雪地里捡到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和大家打个招呼吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们好，我是水城结奈，很高兴能来到这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020012",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "喂，克罗赛尔，该你介绍自己了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么一直盯着我看，我的脸上有什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "啊，不，什么都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "大家好，我是克罗赛尔，非常开心能到你们家里做客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欢迎欢迎~！好可爱的女孩子啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们的主人也住在这附近吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "啊，我们是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我们不小心和主人走失，在附近迷了路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020021",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "幸好被优纪和这位……|103|捡到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哦，原来如此呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020023",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "小甜甜，你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，拜托了，不要告诉她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们在说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我们……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020027",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克罗赛尔和奈奈有自己的主人，我就不一样了哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020028",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我可是被寄送到这个家里的新手办，所以你就是我的新主人了吧，今后请多指教哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇怪……我不记得买过新手办呢，不过，今后还是请多指教。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来如此，跟主人走失可有点难办了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020031",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "喂，你们怎么能忘了本大爷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯？明明听到了声音却没有见到是谁在讲话呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020033",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "我在这里啦，这里，低下头就可以看到本大爷了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，好漂亮的紫色气球~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020035",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "你才是气球！你全家都是气球！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020036",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "本大爷可是堂堂福音……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020037",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "（一道冷冷的目光射向路西法）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020038",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "我是说我是克罗赛尔的宠物，嗯，就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020039",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好可爱好可爱，我可以借来玩一阵子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020040",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "请随意，我把他交给你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020041",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好耶好耶，抱走玩去咯~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020042",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克罗赛尔，你刚刚故意隐瞒了自己的来历，这是为什么呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020043",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我不想给那个人家里带来麻烦，总之多谢你出手解围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020044",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "小意思啦，以后有需要我帮忙的尽管提出来~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020045",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "嗯，我会的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020046",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "甜甜，桑尼，你们有没有感到附近哪里不对劲？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020047",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "什么都没看到啊，怎么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020048",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "太安静了，安静得有些异常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020049",
+          "sourceType": 0,
+          "speaker": "家仆甲·傀儡",
+          "text": "发现目标……发现目标……开始接近……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16020050",
+          "sourceType": 5,
+          "speaker": "水城结奈",
+          "text": "糟了，是那些傀儡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021001",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "没想到他们这么快就找到我们了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "小甜甜，你没事吧，是不是哪里受伤了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，我没事，我只是觉得很难过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021005",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "为什么难过？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我本来还以为可以陪在那个人的身边久一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "现在才发现这样的时间远比想象中的少得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021008",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克罗赛尔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找了半天原来你们在这里啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是优纪啊，找我们有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "马上就要到圣诞节了，来家里和我们一起庆祝这个节日好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021012",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "听起来很好玩的样子，我要参加~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021013",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "圣诞节简直是特别为我量身定制的节日，岂有不参加的道理嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "多谢优纪邀请我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "克罗赛尔，你太客气了啦，我们快走吧，大家都在等我们呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16021016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-292",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16020001,
+            16020002,
+            16020003,
+            16020004,
+            16020005,
+            16020006,
+            16020007,
+            16020008,
+            16020009,
+            16020010,
+            16020011,
+            16020012,
+            16020013,
+            16020014,
+            16020015,
+            16020016,
+            16020017,
+            16020018,
+            16020019,
+            16020020,
+            16020021,
+            16020022,
+            16020023,
+            16020024,
+            16020025,
+            16020026,
+            16020027,
+            16020028,
+            16020029,
+            16020030,
+            16020031,
+            16020032,
+            16020033,
+            16020034,
+            16020035,
+            16020036,
+            16020037,
+            16020038,
+            16020039,
+            16020040,
+            16020041,
+            16020042,
+            16020043,
+            16020044,
+            16020045,
+            16020046,
+            16020047,
+            16020048,
+            16020049,
+            16020050
+          ],
+          "sectionId": 16020
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16021001,
+            16021002,
+            16021003,
+            16021004,
+            16021005,
+            16021006,
+            16021007,
+            16021008,
+            16021009,
+            16021010,
+            16021011,
+            16021012,
+            16021013,
+            16021014,
+            16021015,
+            16021016
+          ],
+          "sectionId": 16021
+        }
+      ],
+      "title": "冬日记忆后篇·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16022001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "在你们找到自己的主人之前，就留在这里和我们一起庆祝圣诞节如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这是我们的荣幸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好耶好耶，圣诞节我最喜欢了，家里一下子多了这么多新朋友，今年的圣诞节一定会非常热闹的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快快加入我们，一起庆祝这个美好的节日吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022005",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "咦，圣诞节会很好玩吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "圣诞节可以堆雪人，制作圣诞蛋糕，烤姜饼，还可以逛集市呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊还有还有，圣诞节还可以收到一年当中最棒的礼物，是神秘的圣诞老人亲自送给我们的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022009",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "哇塞，不但有好吃的好玩的，还能收到最棒的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "可是这个圣诞老人我不认识，也能收到他给的礼物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然可以~！他可是会实现我们所有心愿的全能的神！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "全能的神？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对呢对呢，他会实现我们每一个手办的心愿哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我记得去年圣诞节的时候，许了一个猫猫发卡的心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个猫猫发卡是我在广告中看到的人类戴的那种特别大的发卡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没想到圣诞节这天我真的收到了一枚一样的缩小版的猫猫发卡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我真的太高兴了啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来真的有圣诞老人存在呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？和江笑了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "哪有什么圣诞老人，即使有圣诞老人也不会给我们手办特别送礼物的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没有圣诞老人吗？可为什么|102|能听到我的心愿呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你所谓的圣诞老人，就是我们的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们的主人是圣诞老人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不知道我是不是可以被称作圣诞老人，但每一年你们的圣诞礼物的确是我准备的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "被发现了真是有点不好意思，我……我还是出门给你们准备圣诞礼物好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，主人害羞地走掉了，怎么会有这么可爱的人呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "真好……圣诞老人真的存在呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022029",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我开始期待今年的圣诞节了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪以前一直不知道，原来主人就是圣诞老人呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022031",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这不怪你，主人只是想让我们开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022033",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们一直都在被主人深深地爱着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪觉得自己非常幸运呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022035",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是的，主人只是不善言辞，但一直对我们都很好很好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022036",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "真让人羡慕呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "克罗赛尔也觉得吗~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们的主人真的很不错哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022039",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你的主人呢，也是这样的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022040",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，我不是羡慕你们的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我羡慕的是你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022042",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "羡慕我们吗？我们有什么好羡慕的呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022043",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "每一天都是看主人吃饭、睡觉、打游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022044",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还有照顾主人的饮食起居，在主人上班的时候无聊地等他回来……所有这些都很普通啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022045",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你们所以为的平常的每一天，也许是别人无论如何都奢望不来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022046",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "克罗赛尔刚才说的，优纪一点都听不懂呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022047",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "说好的一起准备圣诞节呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022048",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我们要从哪里开始呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022049",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "圣诞树！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16022050",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们就从装扮圣诞树开始吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023001",
+          "sourceType": 0,
+          "speaker": "家仆甲·傀儡",
+          "text": "教主阁下……就是这里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023002",
+          "sourceType": 0,
+          "speaker": "家仆乙·傀儡",
+          "text": "杀……杀……杀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你们给我退下，没有我的命令，不可擅自行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023004",
+          "sourceType": 0,
+          "speaker": "家仆甲·傀儡",
+          "text": "是……主人……主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵呵，这里可以把里面发生的一切都看得清清楚楚呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "就让这些蝼蚁在多活一阵，感觉好像也不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "毕竟最近一段时间，我感到有些无聊了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16023008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，被她所看上的那个人类，不知道会是怎样美味的家伙呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-293",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16022001,
+            16022002,
+            16022003,
+            16022004,
+            16022005,
+            16022006,
+            16022007,
+            16022008,
+            16022009,
+            16022010,
+            16022011,
+            16022012,
+            16022013,
+            16022014,
+            16022015,
+            16022016,
+            16022017,
+            16022018,
+            16022019,
+            16022020,
+            16022021,
+            16022022,
+            16022023,
+            16022024,
+            16022025,
+            16022026,
+            16022027,
+            16022028,
+            16022029,
+            16022030,
+            16022031,
+            16022032,
+            16022033,
+            16022034,
+            16022035,
+            16022036,
+            16022037,
+            16022038,
+            16022039,
+            16022040,
+            16022041,
+            16022042,
+            16022043,
+            16022044,
+            16022045,
+            16022046,
+            16022047,
+            16022048,
+            16022049,
+            16022050
+          ],
+          "sectionId": 16022
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16023001,
+            16023002,
+            16023003,
+            16023004,
+            16023005,
+            16023006,
+            16023007,
+            16023008
+          ],
+          "sectionId": 16023
+        }
+      ],
+      "title": "冬日记忆后篇·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16024001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在大家的齐心努力下，圣诞树终于装扮好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024002",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "圣诞树好漂亮好可爱哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "一闪一闪亮晶晶的，好像一个个被点亮的心愿呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "马上就到平安夜了，家里也已经装扮一新，好开心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你在担心什么吗，优纪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "每一年主人都会给我们准备精致的圣诞礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是我们却一次都没有给主人送过圣诞礼物呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "仔细回想一下，确实，我们竟然没有给主人送过一次圣诞礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，想到这个真是难过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们一直都只是在向主人索求，竟然从没有想过要为主人做些什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪真是太不应该了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不要太自责，优纪，主人并不想给我们这么多压力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我知道的，主人他非常温柔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么温柔的主人，理应被好好地爱护着呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我有一个主意，你们想不想听听看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好啊好啊，克罗赛尔快说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我们不如一起动手做一件圣诞礼物给你们的主人，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "自己动手做一件圣诞礼物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是的，怀着爱意和敬意的心情，用自己的双手为主人制作的礼物，一定会被他感受到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，这个主意好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们就这么办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是要做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人看起来似乎并不缺少什么东西……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "问题是我们能做些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊这个……这个可难倒优纪了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "说到这个，我可以帮忙手织一个围巾，但需要你们的援助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，克罗赛尔，你居然会织围巾？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你也太厉害了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "没有啦，这个真的算不上什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "谦虚，你太谦虚了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024032",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我以前无聊的时候自己研究的，只要熟悉之后，并不会很难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "但是……我从没有给人类织过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024034",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "所以需要你们的帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024035",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯好，交给我们吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024036",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我一定会全力协助你完成这项工作的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16024037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇怎么办，一想到这个冬天主人会戴着我们给他织的围巾，我就好兴奋呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个……说起来，围巾到底要怎么织才好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不要着急，我们先把需要的东西准备齐全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我会一点一点教会你们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "噢耶，克罗赛尔真的太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，帮我把准备好的毛线球拿过来好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025006",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这就去，马上就回来～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025007",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "咦，准备好的毛线球呢，我记得明明放在这里的，怎么会不见了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你在找的东西被我藏起来了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025009",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……你还真是阴魂不散。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "这可不是见到老朋友该有的态度哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "随便你说什么，我是绝不会再次上当的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，话不要说的太满，现在讲这些还太早了哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "不要这么紧张，我只是让你和我做一件彼此都会很满意的交易。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "不管是什么，我都拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025016",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我跟你没什么好谈的了，再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你知道的，我从不做没有把握的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我已经命令手下暗中包围了这个人类的住所，只要你现在离开这里，我就会让他们冲进去破坏掉这里的一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你……你想让我做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，这件事对你来说没什么难度，你也早就很擅长做这个了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025021",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你的意思是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你只要听我的就好，我会告诉你该怎么做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025023",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "如果……我拒绝呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我知道你在犹豫什么，劝你最好想清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16025025",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……我知道了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-294",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16024001,
+            16024002,
+            16024003,
+            16024004,
+            16024005,
+            16024006,
+            16024007,
+            16024008,
+            16024009,
+            16024010,
+            16024011,
+            16024012,
+            16024013,
+            16024014,
+            16024015,
+            16024016,
+            16024017,
+            16024018,
+            16024019,
+            16024020,
+            16024021,
+            16024022,
+            16024023,
+            16024024,
+            16024025,
+            16024026,
+            16024027,
+            16024028,
+            16024029,
+            16024030,
+            16024031,
+            16024032,
+            16024033,
+            16024034,
+            16024035,
+            16024036,
+            16024037
+          ],
+          "sectionId": 16024
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16025001,
+            16025002,
+            16025003,
+            16025004,
+            16025005,
+            16025006,
+            16025007,
+            16025008,
+            16025009,
+            16025010,
+            16025011,
+            16025012,
+            16025013,
+            16025014,
+            16025015,
+            16025016,
+            16025017,
+            16025018,
+            16025019,
+            16025020,
+            16025021,
+            16025022,
+            16025023,
+            16025024,
+            16025025
+          ],
+          "sectionId": 16025
+        }
+      ],
+      "title": "冬日记忆后篇·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16026001",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克罗赛尔，休息一下吧，你已经织了整整五个小时了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "没关系，我不……嘶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026003",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "劳累过度反而会影响效率，这个还是你说的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好，听桑尼的，我们休息一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026005",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这才对嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026007",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克罗赛尔，你在想什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我在想，|102|戴上我们织的围巾，不知道会是什么样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026009",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "噗哈哈哈，你的眼光和手艺那么好，织出来的围巾一定也很漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026010",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "主人一定会非常非常喜欢的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是呀是呀，我敢打赌这条围巾会是|102|收到的最棒的一件圣诞礼物~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你们过奖了，如果他能觉得是一份饱含情谊的特别的圣诞礼物，就已经很好很好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然手作礼物真的很能打动主人，可不得不说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "织围巾真的太难了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是的，我们几个轮流工作这么多天，才织了大概三分之一。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "再过几天就是平安夜，我很担心到时候不能顺利完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026017",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这也是我最担心的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "织围巾最开始是我出的主意，请你们放心，我一定会在平安夜来临前完成的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026019",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦，克罗赛尔真是干劲满满呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16026020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不行不行，克罗赛尔这么努力地为主人织着围巾，我们也要打起精神才可以~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "毛线球快用完了，奈奈可以再帮我拿来一点吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈怎么不在，你们看到她了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027004",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "被你一说我才发现奈奈不在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，不知道呢，我跟和江刚才一直在准备平安夜的食材，没有注意到奈奈呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快看快看，平安夜需要的食材都准备好了，呼呼，全部都是主人最爱吃的食物~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，和江，把你的那份也交给我来拿吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪已经拿了很多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没关系没关系，我有的是力气，你知道的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不要，优纪不用太考虑我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈哈，和江这是在关心我吗，真是温柔呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……我去附近找一找奈奈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "趁她们不在，悄悄溜进去，应该不会被发现……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，你去哪里了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "是、是你啊，小甜甜，吓了我一跳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我一直在找你呢，大家都说没有见到你，你不会是哪里不舒服吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027017",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "啊，没有没有，我没有哪里不舒服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027018",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我……我去厨房帮优纪、和江她们准备食材去了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027019",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "原来是这样，真是辛苦你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027021",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "没有啦，圣诞节是我们共同的节日嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "说的也是，我们过去找她们吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "在那之前，我帮你把身上的落雪擦干净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16027024",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-295",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16026001,
+            16026002,
+            16026003,
+            16026004,
+            16026005,
+            16026006,
+            16026007,
+            16026008,
+            16026009,
+            16026010,
+            16026011,
+            16026012,
+            16026013,
+            16026014,
+            16026015,
+            16026016,
+            16026017,
+            16026018,
+            16026019,
+            16026020
+          ],
+          "sectionId": 16026
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16027001,
+            16027002,
+            16027003,
+            16027004,
+            16027005,
+            16027006,
+            16027007,
+            16027008,
+            16027009,
+            16027010,
+            16027011,
+            16027012,
+            16027013,
+            16027014,
+            16027015,
+            16027016,
+            16027017,
+            16027018,
+            16027019,
+            16027020,
+            16027021,
+            16027022,
+            16027023,
+            16027024
+          ],
+          "sectionId": 16027
+        }
+      ],
+      "title": "冬日记忆后篇·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16028001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "完成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028002",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "呼啊，好累啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，这就是要送给主人的手织的围巾吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028004",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "是的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028005",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "请尽情地观赏吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的好漂亮呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "非常美丽，可以称之为艺术品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "谢谢，能被你们认可真的很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人收到这份礼物不知道会高兴成什么样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "说不定会哭泣呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "诶？！为什么要哭？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028012",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "收到圣诞礼物不是应该开心才对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你听说过喜极而泣吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "说的是，人类有时候会因为过分开心而控制不住地哭泣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028015",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "唔，人类这种生物，真的是很难懂呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028016",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哈哈哈，想到你们主人会开心得流眼泪就觉得很好玩呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "辛苦各位了，明天就是平安夜，我们可以安心地休息一下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16028018",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "终于可以休息一下了，今天可要好好补足精神~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，不知道为什么，完全无法静下心来呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪有心事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不是啦，才不是什么心事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪、优纪只是太期待明天的平安夜了啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我明白了，优纪是迫不及待地想看主人拆开那份礼物，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪想的事情果然瞒不住和江呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "既然睡不着的话，我陪你去看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好，我们走吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里就是克罗赛尔和奈奈放礼物的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，果然在这里呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，那不是奈奈吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "她怎么也没去休息？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们去打个招呼吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "等一下，她看起来有点古怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯？围巾怎么缺了一角……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029017",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……只要再一下就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029018",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "很快就会没事的……奈奈没有做错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这怎么可能……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "怎么会这样……她毁掉了给主人的围巾……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奈奈，你住手，住手啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029022",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们要相信我，我这是在保护你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你为什么要这样……这是我们大家共同准备给主人的圣诞礼物，好不容易才完成的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "明天就是平安夜……主人收到这份礼物，一定会非常非常开心呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "现在什么都没有了……我们的平安夜什么都没有了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我说过这都是为了保护你们，只不过是一条围巾而已，没什么大不了的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你真是不可理喻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "破坏掉我们大家共同的心血，你难道一点歉意都没有吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029029",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这件事不怪奈奈，不是她的错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029031",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我也有责任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029032",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……关你什么事，毁掉围巾的就是我，她们都看到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029033",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "是我鬼迷心窍，不想让你们过好这个圣诞节，全是我自己的错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029034",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "跟你有什么关系呢……为什么这种时候也要站出来维护我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，别说了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029036",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……你们一直在撒谎对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你根本没有什么主人，那些和主人走失后在附近迷路的话，全都是谎言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们两个处心积虑接近我们又是为了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029039",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……伤害了你们的感情，我感到非常抱歉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029040",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "克罗赛尔，你对主人的一切都非常熟悉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029041",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人工作的地方，喜欢的，讨厌的，大大小小的事情你都非常感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029042",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "琐碎到就连主人喜欢的游戏、运动、季节，这些你都清清楚楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029043",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们来到这里，一开始就是有着明确的目标的，我说的对么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029044",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个目标就是我们的主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029045",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "…………是，我来这里，就是为了你们的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029046",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你想对我们的主人做什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029047",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029048",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不论你想做什么，都已经不可能了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029049",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等主人回来，我们就会把你的所作所为告诉他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029050",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这里不欢迎你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029051",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "克罗赛尔，请你们离开这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029052",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029053",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029054",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "呜呜呜呜哇哇……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029055",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们怎么可以这么对她……她对你们的主人明明是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16029056",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，不要哭，我们走吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-296",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16028001,
+            16028002,
+            16028003,
+            16028004,
+            16028005,
+            16028006,
+            16028007,
+            16028008,
+            16028009,
+            16028010,
+            16028011,
+            16028012,
+            16028013,
+            16028014,
+            16028015,
+            16028016,
+            16028017,
+            16028018
+          ],
+          "sectionId": 16028
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16029001,
+            16029002,
+            16029003,
+            16029004,
+            16029005,
+            16029006,
+            16029007,
+            16029008,
+            16029009,
+            16029010,
+            16029011,
+            16029012,
+            16029013,
+            16029014,
+            16029015,
+            16029016,
+            16029017,
+            16029018,
+            16029019,
+            16029020,
+            16029021,
+            16029022,
+            16029023,
+            16029024,
+            16029025,
+            16029026,
+            16029027,
+            16029028,
+            16029029,
+            16029030,
+            16029031,
+            16029032,
+            16029033,
+            16029034,
+            16029035,
+            16029036,
+            16029037,
+            16029038,
+            16029039,
+            16029040,
+            16029041,
+            16029042,
+            16029043,
+            16029044,
+            16029045,
+            16029046,
+            16029047,
+            16029048,
+            16029049,
+            16029050,
+            16029051,
+            16029052,
+            16029053,
+            16029054,
+            16029055,
+            16029056
+          ],
+          "sectionId": 16029
+        }
+      ],
+      "title": "冬日记忆后篇·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 45,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 45,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "失而复得·雪地邂逅",
+  "title": "冬日记忆后",
+  "wordCount": 5072
+}

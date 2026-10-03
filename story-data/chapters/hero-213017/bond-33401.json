@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-213017",
+  "id": "bond-33401",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33401001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "您来了，我记得主君的脚步声。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33401003",
+              "text": "你这是……？"
+            },
+            {
+              "targetId": "33401003",
+              "text": "轻小说和流行乐……？"
+            }
+          ],
+          "sourceId": "33401002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33401003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君的眼神好生奇怪，这有什么不妥吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是好奇。你也喜欢这些吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君说笑了，不论是谁，都会为精彩的故事着迷呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401006",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "还有这些乐曲，曲调独特，音色迥异，也不知道用了什么奇特的乐器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个是电吉他，摇滚乐里比较常见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "「摇滚乐」是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个说来话长……总之它是一种象征反抗与自由的音乐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401010",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "原来如此！那已经有手办教过我「摇滚乐」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诶？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401012",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "首先是开场白——「咳咳，耐震强度没有问题，要跟着旋律一起摇摆哦！」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401013",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "接着是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33401014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "慢着慢着，这是谁教你的……？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33401",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33401001,
+            33401002,
+            33401003,
+            33401004,
+            33401005,
+            33401006,
+            33401007,
+            33401008,
+            33401009,
+            33401010,
+            33401011,
+            33401012,
+            33401013,
+            33401014
+          ],
+          "sectionId": 33401
+        }
+      ],
+      "title": "古典与摇滚乐"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "古典与摇滚乐",
+  "wordCount": 241
+}

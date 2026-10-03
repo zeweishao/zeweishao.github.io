@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214102",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「皇后」化身为1/7比例模型登场！皇后威力惊人的线圈枪在此刻对准了敌人，超频钥匙，启动！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214102"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 44
+}

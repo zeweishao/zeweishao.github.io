@@ -1,0 +1,700 @@
+{
+  "bookId": "rewind-55",
+  "id": "chapter-226",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43006001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人说过，哭鼻子是解决不了问题的……我们得打起精神来做点什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，我也很想替爱丽丝讨回公道……可、可是怎么做才好呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "唉，你们的好意我很感激……不过还是算了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "毕竟，找黑天鹅女王讨公道太危险了，我们可不是她的对手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别担心，有我们在，一定不会有事的。\n你也不想看到自己的遭遇，在其他手办的身上重演，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006006",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "好吧，我不该怀疑大家……黑女王通常会待在书馆的最深处，我带你们过去，大家一定要小心哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006007",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "接下来，属于我们的冒险时间要开始了，出发咯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一路走来果然看到不少手办被欺压的现象……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看那边，一个手办被迫搬运沉重的图书，可那些女王的手下只是站在旁边嘲笑它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊，那个搬运的手办快支撑不住了，我们得帮帮它！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006011",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "可是这么做只会让我们暴露自己，而且呢，不解决黑天鹅女王，这种事情还是会发生的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，爱丽丝说得有道理，我们还是先去找黑天鹅女王。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可、可是，就这么放任不管真的没问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43006014",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "我们再继续浪费时间，可能就找不到女王了哦，快走吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1117",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43006001,
+            43006002,
+            43006003,
+            43006004,
+            43006005,
+            43006006,
+            43006007,
+            43006008,
+            43006009,
+            43006010,
+            43006011,
+            43006012,
+            43006013,
+            43006014
+          ],
+          "sectionId": 43006
+        }
+      ],
+      "title": "天鹅女王 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43007001",
+          "sourceType": 3,
+          "text": "奇典书馆，黑天鹅寝殿外。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43007002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里就是黑天鹅女王的住所吗……可我们怎么才能进去呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "真是奇怪的地方，居、居然连门都没有……呜，真让人害怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "啊哦，我们的冒险才刚开始，就遇到了一个大麻烦呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "唷，看上去，你们好像遇到了什么麻烦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，是魔女诺伊尔小姐！我们想进入黑天鹅女王的住所，你可以帮忙吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007007",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我早就不是「魔女」了，不过，打开一面普通的墙还是不在话下的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "真、真的可以吗？！太好了……真的太好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "各位，请乖乖地待在我身后。\n否则我的剑伤到你们，可别怪我没提醒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "宵暗之光，照彻前路！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007011",
+          "sourceType": 3,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43007012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，好厉害的魔法！剑上喷出来的光……居然把墙壁弄塌了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这不是魔法，是剑技。\n前面有股奇怪的魔力，你们要小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007014",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "谢、谢你，好心的魔女姐姐……我们一定会保护好自己的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "都说了我已经不是魔女了。这次帮你们，也不过是看在|101|的份上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，怪不得主人老是说诺伊尔小姐是大好人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43007017",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "那家伙……咳，我还忙得很，先走了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1118",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43007001,
+            43007002,
+            43007003,
+            43007004,
+            43007005,
+            43007006,
+            43007007,
+            43007008,
+            43007009,
+            43007010,
+            43007011,
+            43007012,
+            43007013,
+            43007014,
+            43007015,
+            43007016,
+            43007017
+          ],
+          "sectionId": 43007
+        }
+      ],
+      "title": "天鹅女王 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43008001",
+          "sourceType": 3,
+          "text": "黑天鹅寝殿内——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43008002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，总算进来了，这里可真漂亮呀~\n爱丽丝，你快来看那个黑天鹅王座……诶，爱丽丝人呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜，明、明明刚才还在我的身边……怎么会突然不见了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，可能是一时贪玩迷路了也说不定。总之，我们先找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "这个地方好、好古怪……爱丽丝会不会遇到什么危险？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们分头去找，这样就能快一些，待会在这里汇合哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "好、好的，我会努力帮上忙的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "到处都找过了，没有见到爱丽丝……你那边有什么发现吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我……我也没有找到……爱丽丝又被我弄丢了，呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别哭别哭，这地方就像个迷宫，我们只是暂时没有找到……爱丽丝一定会没事的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我、我要坚强起来，爱丽丝说不定就在某个地方等着我……我一定要找到她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这才对嘛，无论如何都要打起精神哦，绝对不可以泄气~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "谢、谢谢你，优纪……没有你，我真的不知道该怎么办……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你已经很棒了哦，为了朋友能这么努力的孩子，值得最美好的祝福~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43008015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "来，我们继续到前面找找看，一直找到有爱丽丝的线索为止~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1119",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43008001,
+            43008002,
+            43008003,
+            43008004,
+            43008005,
+            43008006,
+            43008007,
+            43008008,
+            43008009,
+            43008010,
+            43008011,
+            43008012,
+            43008013,
+            43008014,
+            43008015
+          ],
+          "sectionId": 43008
+        }
+      ],
+      "title": "天鹅女王 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43009001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们好像不知不觉闯进了黑天鹅女王的卧室……哇，这地方真豪华呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜……我不喜欢这里……我们还是赶快离开吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "擅自闯入我的寝殿，还想悄无声息地离开，未免太失礼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009004",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "你们该不会以为，我会让你们就这样离开这里吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你就是黑天鹅女王？你把爱丽丝藏到哪里了，快些交代！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009006",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "原来这位陌生的客人，根本不知道「礼节」两个字怎么写。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "做过那么多坏事的你，为、为什么要这么说我的朋友！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009008",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "嗯？我做了很多坏事……这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不要再假装无辜了，爱丽丝已经把全部遭遇都告诉我们了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你、你欺压像爱丽丝一样善良的手办，逼迫他们为你工作……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009011",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "哦？她就是这么对你们形容我的……你们居然信了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喂喂，做了这么多坏事，你还不敢承认吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "快、快把爱丽丝交出来……否则、否则我们不客气了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43009014",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "再说一次，我没有伤害过任何人，没做过你们口中所说的那些事。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1120",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43009001,
+            43009002,
+            43009003,
+            43009004,
+            43009005,
+            43009006,
+            43009007,
+            43009008,
+            43009009,
+            43009010,
+            43009011,
+            43009012,
+            43009013,
+            43009014
+          ],
+          "sectionId": 43009
+        }
+      ],
+      "title": "天鹅女王 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43010001",
+          "sourceType": 0,
+          "speaker": "究极红皇后",
+          "text": "哎呀哎呀，怎么打起来了呢？这样下去会错过我的茶会呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010002",
+          "sourceType": 0,
+          "speaker": "究极红皇后",
+          "text": "嘻嘻，喜欢这份特别的「惊喜」吗？是我精心为你策划的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010003",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "如此虚伪的恶作剧，你的趣味还真是一如既往毫无新意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "爱丽丝，终于找到你了，你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "她、她看起来像是爱丽丝……却又好像不是爱丽丝……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010006",
+          "sourceType": 0,
+          "speaker": "究极红皇后",
+          "text": "不对不对，你们看到的是我想让你们认识的「爱丽丝」~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010007",
+          "sourceType": 0,
+          "speaker": "究极红皇后",
+          "text": "哎呀，我得离开这里了。\n哦，差点忘了，你的水晶鞋我要拿走赏玩几天，谢咯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010008",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "什么时候……你到底想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010009",
+          "sourceType": 0,
+          "speaker": "究极红皇后",
+          "text": "嘻嘻，这样我们的故事才更有趣，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010010",
+          "sourceType": 3,
+          "text": "爱丽丝离开后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43010011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来，爱丽丝一直在欺骗我们……她根本没有遭受欺压。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我们是这么、这么地信任她……不惜伤害了别人……害得辛德瑞拉弄丢了水晶鞋……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜……爱丽丝为什么要这么做……我们可是朋友呀……呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "都怪我们，不然你也不会弄丢水晶鞋……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43010015",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "不必过于自责，「欺瞒」是爱丽丝惯用的手段，很多人都是她的受害者。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1121",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43010001,
+            43010002,
+            43010003,
+            43010004,
+            43010005,
+            43010006,
+            43010007,
+            43010008,
+            43010009,
+            43010010,
+            43010011,
+            43010012,
+            43010013,
+            43010014,
+            43010015
+          ],
+          "sectionId": 43010
+        }
+      ],
+      "title": "天鹅女王 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 226,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 226,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "月亮上跳舞的彩色兔子。",
+  "title": "天鹅女王",
+  "wordCount": 1881
+}

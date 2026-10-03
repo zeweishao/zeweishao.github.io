@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213009",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气掌机游戏《半岛》中的「皓太郎」化身为1/7比例模型登场，如实呈现他忧郁低调的姿态。充满悲伤的暗淡眼神、有些害羞的站姿、扔出去的纸飞机、背上背着的兔子造型的背包等，一一用心地呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213009"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 94
+}

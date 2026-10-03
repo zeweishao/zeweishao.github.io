@@ -1,0 +1,70 @@
+{
+  "blockCounts": {
+    "choice": 985,
+    "dialogue": 44681,
+    "heading": 16,
+    "narration": 2549,
+    "notice": 402,
+    "profile": 2067
+  },
+  "books": 351,
+  "branchNodesVerified": 942,
+  "chapters": 1330,
+  "chatInlineChoicesVerified": 18,
+  "chatSourceRowsVerified": 842,
+  "chatUniqueTextRowsVerified": 833,
+  "choiceTargetsExistInOriginal": true,
+  "choiceTargetsWithoutTextAnchor": [
+    {
+      "chapter": "rewind-2/chapter-2",
+      "reason": "原目标存在，但无talk正文，仅含镜头或角色动作，故不生成可见文字锚点。",
+      "sourcePage": 17,
+      "sourceSection": 8180,
+      "sourceType": 0,
+      "target": "8180017"
+    },
+    {
+      "chapter": "hero-215204/bond-43812",
+      "reason": "原目标存在，但无talk正文，仅含镜头或角色动作，故不生成可见文字锚点。",
+      "sourcePage": 4,
+      "sourceSection": 43812,
+      "sourceType": 0,
+      "target": "43812004"
+    },
+    {
+      "chapter": "hero-215204/bond-43812",
+      "reason": "原目标存在，但无talk正文，仅含镜头或角色动作，故不生成可见文字锚点。",
+      "sourcePage": 4,
+      "sourceSection": 43812,
+      "sourceType": 0,
+      "target": "43812004"
+    },
+    {
+      "chapter": "hero-214105/bond-43805",
+      "reason": "原目标存在，但无talk正文，仅含镜头或角色动作，故不生成可见文字锚点。",
+      "sourcePage": 4,
+      "sourceSection": 43805,
+      "sourceType": 0,
+      "target": "43805004"
+    },
+    {
+      "chapter": "hero-214105/bond-43805",
+      "reason": "原目标存在，但无talk正文，仅含镜头或角色动作，故不生成可见文字锚点。",
+      "sourcePage": 4,
+      "sourceSection": 43805,
+      "sourceType": 0,
+      "target": "43805004"
+    }
+  ],
+  "deterministicFileCount": 3025,
+  "deterministicRebuildVerified": true,
+  "indexSha256": "e523f536e606b76401950a88cdcc38b8ec07d58ad3243f24ae1fa90180f88e9b",
+  "jsonFilesVerified": 1331,
+  "literalTextRowsVerified": 45529,
+  "markdownFilesVerified": 1330,
+  "rawRowsMapped": 46781,
+  "sourceFilesVerified": 140,
+  "specialControlRowsVerified": 275,
+  "staleGeneratedFiles": 0,
+  "webPayloadBytes": 14773099
+}

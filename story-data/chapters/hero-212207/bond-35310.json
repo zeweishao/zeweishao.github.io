@@ -1,0 +1,153 @@
+{
+  "bookId": "hero-212207",
+  "id": "bond-35310",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35310001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这鸡蛋壳上的花纹看起来比之前的几个要复杂许多……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310002",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "如你所见，我正在尝试新的设计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在一碰就碎的鸡蛋壳上也能雕刻出如此精美绝伦的纹路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "尽管看到过很多次了，还是会被塞西尔高超的微雕技艺所折服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "手办化后，这种程度的微雕对我来说并没有什么难度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310006",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "但这些，也只是没有灵魂的工艺品而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "塞西尔的作品都很美啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你认为生命和艺术的关系是什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35310010",
+              "text": "突然问这么哲学的问题吗？"
+            },
+            {
+              "targetId": "35310010",
+              "text": "好难回答……"
+            }
+          ],
+          "sourceId": "35310009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35310010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "不急，我们有足够的时间去讨论这个问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35310011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "好了，这次的作品已经完成了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35310013",
+              "text": "你雕刻的这个人，看起来……"
+            }
+          ],
+          "sourceId": "35310012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35310013",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "是你。你的存在确实给了我一些不错的灵感。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35310",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35310001,
+            35310002,
+            35310003,
+            35310004,
+            35310005,
+            35310006,
+            35310007,
+            35310008,
+            35310009,
+            35310010,
+            35310011,
+            35310012,
+            35310013
+          ],
+          "sectionId": 35310
+        }
+      ],
+      "title": "灵感"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212207",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "灵感",
+  "wordCount": 244
+}

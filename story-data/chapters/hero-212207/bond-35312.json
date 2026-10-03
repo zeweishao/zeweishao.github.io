@@ -1,0 +1,162 @@
+{
+  "bookId": "hero-212207",
+  "id": "bond-35312",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35312001",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "如果我没认错的话，这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312002",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "白骨教堂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原型是那个没错，我想了很久要送给塞西尔什么样子的屋子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是看到这个教堂的一瞬间，就觉得很适合塞西尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "它确实出乎我的意料，是生与死完美的结合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312006",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "这让我想到我的先祖也曾参与设计过一座这样的教堂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "那么我们的婚礼就在这里举办。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35312009",
+              "text": "婚婚婚婚……礼？"
+            }
+          ],
+          "sourceId": "35312008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35312009",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "在先辈和无数逝去之人的见证下，你愿意与我共同面对贫穷、灾厄与苦难吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35312010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "回答我。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35312012",
+              "text": "我……愿意……"
+            }
+          ],
+          "sourceId": "35312011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35312012",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "大点声。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35312014",
+              "text": "我愿意！"
+            }
+          ],
+          "sourceId": "35312013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35312014",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "很好，我也愿意。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35312",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35312001,
+            35312002,
+            35312003,
+            35312004,
+            35312005,
+            35312006,
+            35312007,
+            35312008,
+            35312009,
+            35312010,
+            35312011,
+            35312012,
+            35312013,
+            35312014
+          ],
+          "sectionId": 35312
+        }
+      ],
+      "title": "教堂"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212207",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "教堂",
+  "wordCount": 195
+}

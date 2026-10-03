@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213012",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "活泼清凉的啦啦队裙装，尽显少女闪耀活力。\n今天全世界的色彩都为你跃动，请尽情在应援中挥洒青春和汗水！\n被这样活力满满的目光所期待，无论做什么都不会感到困难~\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "活力应援Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213012",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "神宫有咲·活力应援Ver.",
+  "title": "活力应援Ver.",
+  "wordCount": 96
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215103",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「古河渚」化身为1/7比例模型登场！她恬静温柔，却又小心翼翼。这一次，以「手办」姿态存在的她，将以特别的方式实现自己的梦想。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215103"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 62
+}

@@ -1,0 +1,165 @@
+{
+  "bookId": "hero-213005",
+  "id": "bond-28547",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28547001",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "你这几天去哪了！我找你好几次，你都不在！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你找我有什么事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547003",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "我最近找到了一个好地方！特别好玩！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547004",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "那儿地势险要，地形复杂，特别适合约人干架！\n那里还有一条瀑布，打完架直接就可以去那洗澡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547006",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "是不是特别完美！我可太喜欢那里了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547007",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "所以，我准备给他的惊喜，竟然被他提前发现了吗……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547008",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "可是，我准备送给他的攀岩基地，还没有完全做好啊！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547009",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "走！我带你去看看！就在这边！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……其实……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547011",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "我看那悬崖特别适合攀岩，喏，我给你做个示范！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等！涂料还没……干……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547013",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "……我粘住了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547014",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "你怎么看起来欲言又止，有话快说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，这其实是我给你的惊喜……\n总之，看见你这么「爱不释手」，我就放心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28547016",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "我、谢、谢、你！所以，别拍照了！快放我下去！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28547",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28547001,
+            28547002,
+            28547003,
+            28547004,
+            28547005,
+            28547006,
+            28547007,
+            28547008,
+            28547009,
+            28547010,
+            28547011,
+            28547012,
+            28547013,
+            28547014,
+            28547015,
+            28547016
+          ],
+          "sectionId": 28547
+        }
+      ],
+      "title": "约架胜地"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "约架胜地",
+  "wordCount": 292
+}

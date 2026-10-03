@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214004",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "此次推出的《永恒的异界幻想》系列，桑尼将初次手办化登场！桑尼灵巧的身体漂浮在空中，目光狡黠地注视着前方，似乎将要开始施法，忍不住想要猜想这一次桑尼的目标究竟会是谁呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214004"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 83
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213001",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「欢迎回家，您要先吃饭，先洗澡，还是……先吃我呢？」\n\n换上清凉居家装扮的里惠像是完全换了个人，变得格外清纯……和大胆。\n\n如同无言诉说的小人鱼姬，用最澄澈无害的目光，引诱着你走向某些不可知的禁忌之事。\n\n\n\n「生出犄角，生出鳞片——只要能与你心意相通，变成什么都没有关系。」\n\n                   ——《禁忌的人鱼》",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "禁忌的人鱼Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213001",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "宫本里恵·禁忌的人鱼Ver.",
+  "title": "禁忌的人鱼Ver.",
+  "wordCount": 139
+}

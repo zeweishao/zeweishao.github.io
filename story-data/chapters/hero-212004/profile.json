@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212004",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "阿尔弗雷德，是热门游戏《永恒的异界幻想》中的知名角色，他出身高贵却命途多舛。当心爱的初恋少女抛弃他，选择了他的哥哥之时，这个昔日骄傲不羁的贵族王子，彻底迷失了自己。从此阿尔弗雷德只能徘徊于光明与黑暗之间，寻求属于他的生存之道。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212004"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 113
+}

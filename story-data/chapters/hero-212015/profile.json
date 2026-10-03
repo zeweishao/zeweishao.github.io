@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212015",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，绝代佳人「小乔」化身为1/7比例模型登场！雷声轰鸣，电光闪现，风趣自如的她不仅能征服职场，也能征服所有对手。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212015"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 69
+}

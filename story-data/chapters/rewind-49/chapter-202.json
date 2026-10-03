@@ -1,0 +1,1986 @@
+{
+  "bookId": "rewind-49",
+  "id": "chapter-202",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "40611001",
+          "sourceType": 3,
+          "text": "潮酷街区，角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611002",
+          "sourceType": 0,
+          "speaker": "管理局员工A",
+          "text": "刚才看到她们跑到这附近了，每个出口都有人盯着了，再仔细找找。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611003",
+          "sourceType": 0,
+          "speaker": "管理局员工B",
+          "text": "明白，我去右侧看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611004",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……这样下去我们肯定会被发现的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611005",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "不如让我飞出去引开他们吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "用不着，被发现就把对方打晕就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40611008",
+              "text": "不愧是你。"
+            },
+            {
+              "targetId": "40611008",
+              "text": "你已经打晕了快十个了……"
+            }
+          ],
+          "sourceId": "40611007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40611008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "还不是他们穷追不舍，这种时候反倒人力充足了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611009",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "但一直被堵在这里，也不是个办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "等人少一点了，我们就突围出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611011",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "不必了，到我这来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611012",
+          "sourceType": 3,
+          "text": "身后突然传出来了一个有些熟悉的女声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你是……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611014",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "是「童话的魔女」尤兰达哦。外面一直吵吵闹闹的，都妨碍我做实验了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这些瓶瓶罐罐……你难道真的是药剂师？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611016",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "药剂师……化学家……都是差不多的称呼吧。欢迎来到我的新研究室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611017",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "为什么要帮助我们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611018",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "诺伊尔，你不认识我，而我却认识你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611019",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你曾在N城向很多手办施以援手，这已经足够打动一位随心所欲的女士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "都是些不值一提的破事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611021",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "我想，你的朋友肯定充分认识到了你的本质。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611022",
+          "sourceType": 3,
+          "text": "女人微笑地看向你，镜片下的眼神富有深意。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611023",
+          "sourceType": 3,
+          "text": "看上去，她期待你给出一个答案。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40611025",
+              "text": "她是做好事不愿留名的类型。"
+            },
+            {
+              "targetId": "40611025",
+              "text": "她就是那种很老土的傲娇啊。"
+            }
+          ],
+          "sourceId": "40611024",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40611025",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，说什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611026",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……等管理局的人散了，我们立刻就走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611027",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "还有一点，我相信你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611028",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "相信我……什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611029",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你并不是杀害弗吉尼娅，制造一系列事件的犯人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611030",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "有意思，难道M城这的习俗就是动不动便相信人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611031",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "时间还早，不妨复盘一下日光乐园的事件吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611032",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "当你站在弗吉尼娅的遗体前，在场的目击者以及后来的管理局，都认为你最有可能是凶手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611033",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "这个推断很直观，也很草率。但很遗憾，现在的我们只是手办，很多刑侦手段根本派不上用场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611034",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "手办没有血液，即使你手握的就是凶器，上面也不会沾有任何液体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611035",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "即使遗体保存完好，也难以倒推出手办确切的死亡时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611036",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "因为手办不会像人类一样，在死后进行……腐烂？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611037",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "没错，手办的遗体在白模化完成后会保持稳定，过去了一小时和过去了一周时间，看上去都没什么区别。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611038",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "结果，没有证据证明你无罪，但也没有决定性的证据证明你有罪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611039",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……真是可笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611040",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "但如果……手办遗体的所谓「稳定」，真的只是看上去的稳定呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611041",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "难道你有办法鉴别？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611042",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "别忘了，我可是「童话的魔女」。既然是童话，就一定会有圆满的解答。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611043",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你边上的试管里，存放着从日光乐园的那具遗体处提取的样本。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611044",
+          "sourceType": 3,
+          "text": "听到这里，诺伊尔后退一步，低头凝视起试管底部的白色沉淀物。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611045",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "技术还很不成熟，只能根据老化程度来推算白模化完成的大致时间。结果表明——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611046",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "至少在两天前，那位弗吉尼娅就已经白模化了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611047",
+          "sourceType": 5,
+          "speaker": "乌鸦",
+          "text": "……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611048",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "不可能……她在两天前就已经死了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611049",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "可以这么说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611050",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "她明明还来参加了魔女集会，尸体怎么可能还……啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611051",
+          "sourceType": 3,
+          "text": "诺伊尔如遭雷殛，睁大了灰色的眼睛，用手紧紧地捂住嘴。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611052",
+          "sourceType": 3,
+          "text": "尸体在说话，但尸体不应该说话。参加魔女集会的弗吉尼娅当然还活着。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611053",
+          "sourceType": 3,
+          "text": "她显然也想到了此时在你脑中闪动的一个解释——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611054",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40611056",
+              "text": "弗吉尼娅用事先准备的弗吉尼娅尸体迷惑了所有人"
+            }
+          ],
+          "sourceId": "40611055",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40611056",
+          "sourceType": 3,
+          "text": "不对，这个解释似乎并不足以让你身边的魔女如此失态。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611057",
+          "sourceType": 3,
+          "text": "真正具备致命性的，是因这个解释所衍生的推论。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40611058",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "弗吉尼娅连环遇害事件的犯人是……弗吉尼娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40611059",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "不过，先不用这样急着下结论。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1002",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40611001,
+            40611002,
+            40611003,
+            40611004,
+            40611005,
+            40611006,
+            40611007,
+            40611008,
+            40611009,
+            40611010,
+            40611011,
+            40611012,
+            40611013,
+            40611014,
+            40611015,
+            40611016,
+            40611017,
+            40611018,
+            40611019,
+            40611020,
+            40611021,
+            40611022,
+            40611023,
+            40611024,
+            40611025,
+            40611026,
+            40611027,
+            40611028,
+            40611029,
+            40611030,
+            40611031,
+            40611032,
+            40611033,
+            40611034,
+            40611035,
+            40611036,
+            40611037,
+            40611038,
+            40611039,
+            40611040,
+            40611041,
+            40611042,
+            40611043,
+            40611044,
+            40611045,
+            40611046,
+            40611047,
+            40611048,
+            40611049,
+            40611050,
+            40611051,
+            40611052,
+            40611053,
+            40611054,
+            40611055,
+            40611056,
+            40611057,
+            40611058,
+            40611059
+          ],
+          "sectionId": 40611
+        }
+      ],
+      "title": "琳琅旧梦·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40612001",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "现场查验的时候，遗体上有两处伤痕……一处是诺伊尔造成的擦伤，另一处就是两天前留下的致命伤了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612002",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "弗吉尼娅将这具遗体藏在了走廊附近，当诺伊尔追出去后，将它放置在地上，造成了诺伊尔杀害自己的假象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612003",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "我们似乎解决了「谁做的」的问题，但她是怎么不被察觉地完成调换的？理论上，你当场就能识破她的手法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612004",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "诺伊尔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612005",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "是我的问题。我……那时候头很疼，不太看得清现场的情况。我只想让她站住，很不冷静地对着她释放了能量流。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612006",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "嗯……她临时起意，将尸体垫在身前，好让你的攻击在上面留下痕迹，这样更能误导人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612007",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你们的关系显然非同一般，她很了解你的行为模式，或许就连「你的头疼」也在计算之中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……我不否认。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612009",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "以这一系列案件的共同特征来看，真凶是弗吉尼娅的推论也具备了较高的可信度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "她嫁祸给我的目的……到底是什么？她为什么……要杀害自己的其他个体……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612011",
+          "sourceType": 3,
+          "text": "魔女低声说着，仿佛在自言自语。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40612012",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "这些问题需要你自己找出答案，或者说，你们一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612013",
+          "sourceType": 3,
+          "text": "女人再一次看向你。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40612015",
+              "text": "帮忙就帮到底吧"
+            },
+            {
+              "targetId": "40612015",
+              "text": "当然，毕竟她离开我连路都找不到"
+            }
+          ],
+          "sourceId": "40612014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40612015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "哼，既然弗吉尼娅还活着，我当然会去找到她，看看她究竟在搞什么鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612016",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "等下，我就去和管理局说清楚情况，让他们少来缠着我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612017",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "没用的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "哈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612019",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "虽然我可以证明你不是游乐园案件的凶手，但你仍是旧案的怀疑对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612020",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "而且非法闯入管理局档案室，与管理局正面冲突，打伤多名管理局员工……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612021",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "光这些就足够让管理局拘捕你了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612022",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "这完全是这家伙自找的啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612023",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "等下，你怎么会知道这些事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612024",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "海伦女士在通讯中和我说的，还让我留意一下在逃的你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612025",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，你原来是管理局的线人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612026",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你已经满足了我的好奇心，你的行踪会是我们魔女之间的……一点小秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612027",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "谢谢你，尤兰达。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612028",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "说起来，我的实验室连通着一条密道，直接通往M城郊外的树林。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612029",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "那似乎是个休息的好地方呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612030",
+          "sourceType": 3,
+          "text": "当你们即将离开时，化学家突然叫住了你。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40612031",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612032",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "即使改变了形态，有些东西还是一眼就能看出来呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612033",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40612034",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "没什么。祝亲爱的你，一路顺风。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1003",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40612001,
+            40612002,
+            40612003,
+            40612004,
+            40612005,
+            40612006,
+            40612007,
+            40612008,
+            40612009,
+            40612010,
+            40612011,
+            40612012,
+            40612013,
+            40612014,
+            40612015,
+            40612016,
+            40612017,
+            40612018,
+            40612019,
+            40612020,
+            40612021,
+            40612022,
+            40612023,
+            40612024,
+            40612025,
+            40612026,
+            40612027,
+            40612028,
+            40612029,
+            40612030,
+            40612031,
+            40612032,
+            40612033,
+            40612034
+          ],
+          "sectionId": 40612
+        }
+      ],
+      "title": "琳琅旧梦·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40613001",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这片绿地可真是贫瘠，都没有什么像样的花卉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613002",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "要求别那么高，我们可是来避风头的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613003",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "至少比城市里要安静，并不讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613004",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……我确实有点累了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613005",
+          "sourceType": 3,
+          "text": "魔女掩饰得很好，直到来到了放松的环境，才在你的面前显露疲态。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613006",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "那边正好有个背包。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613007",
+          "sourceType": 3,
+          "text": "时近黄昏，淡紫色的晚霞晕染着天空，日光正在消逝——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "嗳，知道吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "白天到夜晚的这段时间，对我来说总是显得漫长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613010",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "你不习惯黄昏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613011",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "是啊，曾有段时间，我甚至看到夕阳就想呕吐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613012",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "躲什么？手办又不会吐，而且我现在已经好多了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613014",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "我知道，你经历了很多曲折。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613015",
+          "sourceType": 3,
+          "text": "你想起管理局负责人所提到的「守夜人」，那是面前的魔女背负的过往。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613016",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "那么，想听故事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613017",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "洗耳恭听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "曾经，有一位高傲的魔女。她居住在森林里，一边做着研究工作，一边应付着带着琐碎愿望而来的旅人。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40613020",
+              "text": "这已经算指名道姓了。"
+            },
+            {
+              "targetId": "40613020",
+              "text": "你说的这位魔女，是不是你自己？"
+            }
+          ],
+          "sourceId": "40613019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40613020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "别插嘴。她在逃避自己的使命，本以为能一直逃下去，但议会的调令书还是找上了门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613021",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "这个议会就是……阿尔弗雷德提到的「白夜议会」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613022",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "一个老旧的法师联盟，幻想着还能躲在幕后操控局势，却不知道时代已经变了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613023",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "魔女以守夜人的身份来到了一座没有夜晚的城市，要和年轻的骑士们一起守护圣域里存放的人造太阳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613024",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "她的工作就是处理一些飞天喷火冒绿光的神秘实体，应对不知哪来的坏蛋法师的阴谋诡计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613025",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "尽管魔女自觉地与他们保持距离，骑士们对魔女很好。骑士们的队长还亲自给她挖了一间地下室，只因为她讨厌这里的阳光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613026",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "那位队长……似乎是个重要角色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613027",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "是的，她是那时候的魔女为数不多的，称得上好友的人。她的品德和能力都无可挑剔，和太阳一样耀眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613028",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "工作的间隙，魔女依旧在研究奥术，队长理解她，极少会在她专心研究时来打扰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613029",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "后来有一天，魔女结束了通宵的研究，躺在书上睡着了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613030",
+          "sourceType": 3,
+          "text": "魔女不自然地停顿下来，她在酝酿言辞。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613031",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "接连的巨响将她从睡梦中惊醒，她匆忙地来到地上……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613032",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "眼前的天色竟然是一片黄昏，日光开始熄灭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613033",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "前往圣域的路上……路上都是骑士们的尸体，那都是她曾相处的鲜活面孔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613034",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "诺伊尔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613035",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "骑士们的队长就站在圣域的深处，手中那把诡异的长弓让魔女理解了现状——她接受了寄宿在弓上的东西的劝诱，背叛了所有人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613036",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "魔女无法接受，也拒绝接受队长的背叛。她驾驭着狂暴的奥术能量，倾尽一切地想让对方付出代价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613037",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "呵，但是她最终……什么都没有改变。一切都破灭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613038",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "魔女侥幸地活了下来，头疼症和幻听始终困扰着她。而一旦她使用法术……她的精神就会走向崩溃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613039",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这是她应得的报应，因为……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613040",
+          "sourceType": 3,
+          "text": "她的嗓音变得有些哽咽。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613041",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "如果她履行守夜人的职责，如果她当时在场，那位队长也不会就这样堕落。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613042",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "只要筹码够大，没有人能够抵挡住诱惑，而她的意义就是让人不面临这样的考验。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613043",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这就是一个自作自受的……魔女的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613044",
+          "sourceType": 3,
+          "text": "她故意看向别处，不让你看到她的表情。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613045",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "故事里的魔女真是太自大了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613046",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "果然，你也是这样想的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613047",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "她以为自己是谁，能够拯救所有人的救世主吗？明明只是个被拉来干活的打工魔女罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613048",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啥？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613049",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "为什么要把罪责都揽到自己头上？整个故事里真正的坏人，难道不是那个诱人堕落的什么东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613050",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "那位魔女与其自责，不如想想怎么把这玩意彻底消灭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613051",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "看来我真是傻了，才和你讲这个故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613052",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "算了……这样就好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40613054",
+              "text": "没必要一直考虑过去的事。"
+            },
+            {
+              "targetId": "40613054",
+              "text": "放心，你不会一个人战斗的。"
+            }
+          ],
+          "sourceId": "40613053",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40613054",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "明明只是乌鸦，还说教起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613055",
+          "sourceType": 3,
+          "text": "远方的夕阳正沉入地平线，暮色将尽。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40613056",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……谢了，我感觉好受多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40613057",
+          "sourceType": 3,
+          "text": "艰难的时刻总会过去，这个夜晚，独属于魔女和她的乌鸦。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1004",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40613001,
+            40613002,
+            40613003,
+            40613004,
+            40613005,
+            40613006,
+            40613007,
+            40613008,
+            40613009,
+            40613010,
+            40613011,
+            40613012,
+            40613013,
+            40613014,
+            40613015,
+            40613016,
+            40613017,
+            40613018,
+            40613019,
+            40613020,
+            40613021,
+            40613022,
+            40613023,
+            40613024,
+            40613025,
+            40613026,
+            40613027,
+            40613028,
+            40613029,
+            40613030,
+            40613031,
+            40613032,
+            40613033,
+            40613034,
+            40613035,
+            40613036,
+            40613037,
+            40613038,
+            40613039,
+            40613040,
+            40613041,
+            40613042,
+            40613043,
+            40613044,
+            40613045,
+            40613046,
+            40613047,
+            40613048,
+            40613049,
+            40613050,
+            40613051,
+            40613052,
+            40613053,
+            40613054,
+            40613055,
+            40613056,
+            40613057
+          ],
+          "sectionId": 40613
+        }
+      ],
+      "title": "琳琅旧梦·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40614001",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，醒醒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614002",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你到底还想睡多久啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614003",
+          "sourceType": 3,
+          "text": "你睁开眼，眼前出现的是魔女不耐烦的脸庞。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614004",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "该出发了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614005",
+          "sourceType": 3,
+          "text": "她将你从大腿上拎起，放在一旁。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614006",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "要去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614007",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "休息够了，当然是去找弗吉尼娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "之前我们去翻过事件的资料了吧？其实这些遗体还有一个共同点，你想起来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "她们都缺失了作为「弗吉尼娅」应该有的一件物品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614010",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614011",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……她们的弓都不在身边？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "既然都不见了，就说明犯人——弗吉尼娅把它们带走了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "虽然只是手办配件，但那些弓上面很可能都寄宿着那个该死的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614014",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……她到底想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "肯定不是什么助人为乐的好事，我有很糟糕的预感。和管理局摊牌吧，让他们把剩下的弗吉尼娅都找出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614016",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "无论是在酝酿什么可怕的阴谋，我都会阻止她的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40614018",
+              "text": "感觉你改变了一点？"
+            },
+            {
+              "targetId": "40614018",
+              "text": "怎么突然变得像超级英雄了？"
+            }
+          ],
+          "sourceId": "40614017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40614018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "毕竟，已经很久没有这样舒服地睡一觉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614019",
+          "sourceType": 3,
+          "text": "上午，潮酷街区，阴——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "感觉有点安静呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614021",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614022",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "昨天这里还到处是追捕我们的管理局员工，今天怎么就空荡荡的了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614023",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "大概是觉得我们已经逃脱，中止了这片区域的搜索吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614024",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……前面的手办有点眼熟，昨天在管理局那见到过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614025",
+          "sourceType": 3,
+          "text": "没有丝毫的犹豫，魔女径直朝那个手办走去。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614026",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "等下，你要和他交涉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614027",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "是啊，管理局总应该分得清楚事情的轻重缓急。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614028",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，管理局的。别害怕，我们就是你们要找的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614029",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "抱歉了，这位小姐！我现在公务缠身，要管理局纪念品的事以后再说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614030",
+          "sourceType": 3,
+          "text": "少年提着长戟，急匆匆地跑向了街道的另一侧，转眼便消失在了视线里。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614031",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……哈？谁想找你要纪念品啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614032",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "应该是正在忙吧……第一眼没认出我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614033",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "真是气人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614034",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614035",
+          "sourceType": 3,
+          "text": "魔女骤然转身，摆出了迎战的姿态。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614036",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你们可不像是管理局的人呢，有何贵干？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614037",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "突然撞上了个奇怪的人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614038",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "唔，她好像是在悬赏海报上的啊？需要走一遍「打架再和好」的流程吗，希塔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614039",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "难道是……赏金猎人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614040",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你的事情我们听说了，诺伊尔小姐。情况紧急，我们并不想和你敌对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614041",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "发生什么事了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614042",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……今天凌晨起，M城各地均有手办陷入不明原因的狂化状态。我们正在赶往最近的事发地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614043",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "狂化……是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614044",
+          "sourceType": 5,
+          "speaker": "希塔",
+          "text": "小心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614045",
+          "sourceType": 3,
+          "text": "闻言，魔女闪身避开了疾射而来的几簇箭矢。随着飞箭落地，一个高大的身影跃至众人中央——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614046",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "嘻哈哈哈哈哈——诅咒吧！憎恨吧！我将化作黑暗!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614047",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614048",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "他就是狂化的典型表现啦，嘴里一直说怪话，还胡乱攻击人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614049",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "总感觉这一幕什么时候发生过……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614050",
+          "sourceType": 3,
+          "text": "随着吕布入场，更多的发狂手办从街道的另一侧涌来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40614051",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "管理局那已经压制不住了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614052",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "哈哈哈，让我掐灭这些微弱的光芒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614053",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "吵死了，先把这家伙打趴下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40614054",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "好，我们一起。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1005",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40614001,
+            40614002,
+            40614003,
+            40614004,
+            40614005,
+            40614006,
+            40614007,
+            40614008,
+            40614009,
+            40614010,
+            40614011,
+            40614012,
+            40614013,
+            40614014,
+            40614015,
+            40614016,
+            40614017,
+            40614018,
+            40614019,
+            40614020,
+            40614021,
+            40614022,
+            40614023,
+            40614024,
+            40614025,
+            40614026,
+            40614027,
+            40614028,
+            40614029,
+            40614030,
+            40614031,
+            40614032,
+            40614033,
+            40614034,
+            40614035,
+            40614036,
+            40614037,
+            40614038,
+            40614039,
+            40614040,
+            40614041,
+            40614042,
+            40614043,
+            40614044,
+            40614045,
+            40614046,
+            40614047,
+            40614048,
+            40614049,
+            40614050,
+            40614051,
+            40614052,
+            40614053,
+            40614054
+          ],
+          "sectionId": 40614
+        }
+      ],
+      "title": "琳琅旧梦·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40615001",
+          "sourceType": 3,
+          "text": "潮酷街区，角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615002",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "愚笨之人……为何要拒绝黑夜的拥抱……叽里咕噜……玛卡巴卡……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "星洛刚才敲到他的头了吗？看起来已经变成傻子了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "其他手办还没有停下来。这样下去，局势会难以控制的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615005",
+          "sourceType": 3,
+          "text": "发狂的手办们正在街道上肆虐，似乎没什么能够阻挡他们的进军。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40615007",
+              "text": "……诺伊尔，你不说几句？"
+            },
+            {
+              "targetId": "40615007",
+              "text": "魔女小姐，你为什么只是看着？"
+            }
+          ],
+          "sourceId": "40615006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40615007",
+          "sourceType": 3,
+          "text": "身边的魔女神色凝重，用手按着额头。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "他们和我的情况差不多……呵，每当我头疼起来，耳边也会响起这样的絮语，只是没像他们一样念叨而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这一切都来自那个神秘实体的力量，它的名字是「不朽灾祸」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "它最擅长的就是扭曲他人的心智，诱使其堕落，就像……它在曾经的世界做过的那样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615011",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "希塔，星洛，你们听我说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615012",
+          "sourceType": 3,
+          "text": "魔女将之前发生的事简短地告诉了两人。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "现在是最坏的情况，弗吉尼娅夺取了其他个体的武器，通过某种仪式将「不朽灾祸」的力量聚在了一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "唔，就像把食材都放进了同一口锅里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "「不朽灾祸」的影响在扩大，弗吉尼娅她……会把这个地方也毁掉的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "该怎么阻止她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615017",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "之前我还不知道怎么找到弗吉尼娅，但现在终于有办法了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "面对「不朽灾祸」，这些手办好比涌向蜜糖的蚂蚁，扑向火光的飞蛾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615019",
+          "sourceType": 3,
+          "text": "街区上空——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615020",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>正在测算各手办群的移动轨迹……进度25%……63%……80%……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615021",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "怎么感觉它有点抢我的戏份？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615022",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>测算完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "按照当前趋势，邻近区域的发狂手办们将汇聚到同一个地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615024",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "那就是——弗吉尼娅和「不朽灾祸」所在的位置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40615025",
+          "sourceType": 3,
+          "text": "同一时刻，某地——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615026",
+          "sourceType": 9,
+          "text": "……很久没有这般舒爽的感受了……这个世界一直想压制我……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615027",
+          "sourceType": 9,
+          "text": "……还不够……还需要更多的祭品……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615028",
+          "sourceType": 9,
+          "text": "……永恒的黑暗将驱散虚伪的光明……拥抱黑夜……拥抱静谧……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40615029",
+          "sourceType": 9,
+          "text": "……让我彻底复苏……弗吉尼娅……",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1006",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40615001,
+            40615002,
+            40615003,
+            40615004,
+            40615005,
+            40615006,
+            40615007,
+            40615008,
+            40615009,
+            40615010,
+            40615011,
+            40615012,
+            40615013,
+            40615014,
+            40615015,
+            40615016,
+            40615017,
+            40615018,
+            40615019,
+            40615020,
+            40615021,
+            40615022,
+            40615023,
+            40615024,
+            40615025,
+            40615026,
+            40615027,
+            40615028,
+            40615029
+          ],
+          "sectionId": 40615
+        }
+      ],
+      "title": "琳琅旧梦·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 202,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 202,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "魔女未曾诉说的往事",
+  "title": "琳琅旧梦",
+  "wordCount": 4969
+}

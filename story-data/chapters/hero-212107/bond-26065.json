@@ -1,0 +1,116 @@
+{
+  "bookId": "hero-212107",
+  "id": "bond-26065",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26065001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是为你准备的手办屋，以后可以在这里休息了。\n没做太多装饰，因为想把发挥的空间留给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065002",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "哦，原来如此。\n你真是心思细腻，考虑得很周详啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065003",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "你说得对，也差不多要到共筑爱巢的阶段了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......嗯？我什么都没说啊？\n看你的表情，对手办屋很满意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065005",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "我很满意，但总觉得差点什么。\n对了！应该在门上加一块木牌，刻上我和皇后的名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065006",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "牌子的形状——当然要心形才合适。\n你来准备一下，没问题吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26065008",
+              "text": "好主意，没问题！"
+            },
+            {
+              "targetId": "26065008",
+              "text": "可以倒是可以......"
+            }
+          ],
+          "sourceId": "26065007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26065008",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "那就拜托了，剩下的事之后再和你解释。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26065009",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "皇后，我的天使......会以怎样的可爱表情接受我的邀请，住到这里来呢？真是期待不已......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26065",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26065001,
+            26065002,
+            26065003,
+            26065004,
+            26065005,
+            26065006,
+            26065007,
+            26065008,
+            26065009
+          ],
+          "sectionId": 26065
+        }
+      ],
+      "title": "爱巢"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212107",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "爱巢",
+  "wordCount": 267
+}

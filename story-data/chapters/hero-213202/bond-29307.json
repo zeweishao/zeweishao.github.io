@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213202",
+  "id": "bond-29307",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29307001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "衣服已为您熨烫完毕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "160℃的高温之下，每根纤维都将温和舒展，柔软贴身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "备好的红茶中加入了金桔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307004",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "甜醇与清香混合相融，更能助您开启新的一天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "除此之外，行程也为您书写在了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "大人，是我哪里还做得不够好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，是有些……太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我担心这样下去，自己会不会变成贪吃懒做的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307010",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "大人，洛瑞丝是一个擅长让生活发生变化的管家哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "比如？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "为绝望麻木之人制造更深的困境，迫使他做出改变的决心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307013",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "为颓废不振之人制造短暂的希望，让他在落差里用破碎的身体重新爬起……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来有点吓人……我们还是讨论接下来行程的安排吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29307015",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "呵呵，一切全都遵照您的旨意。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29307",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29307001,
+            29307002,
+            29307003,
+            29307004,
+            29307005,
+            29307006,
+            29307007,
+            29307008,
+            29307009,
+            29307010,
+            29307011,
+            29307012,
+            29307013,
+            29307014,
+            29307015
+          ],
+          "sectionId": 29307
+        }
+      ],
+      "title": "女仆的另一面？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213202",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "女仆的另一面？",
+  "wordCount": 260
+}

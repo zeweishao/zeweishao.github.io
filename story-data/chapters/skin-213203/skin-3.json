@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213203",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "钟声敲响十二下，一辆由宝石点缀的水晶马车出人意料地停在「誓约者」的窗外。\n\n车上满载着经过精心准备的礼物，就连包装盒的底纹上都印满了王尔德的知名诗篇。\n热烈，浪漫，大胆，风趣，是熟悉的怪盗小姐的作风。然而，她人在哪里呢？\n\n踌躇之间，车子中央最大的礼物盒突然打开，少女以绯红的裙装亮相——\n\n「这份独一无二的礼物只属于你。」\n\n——该特别款仅可通过「圣诞派对」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "王尔德与「爱」Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213203",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱·王尔德与「爱」Ver.",
+  "title": "王尔德与「爱」Ver.",
+  "wordCount": 175
+}

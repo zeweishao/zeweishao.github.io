@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214202",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「嗯，你做得很好，青州有卿，当属我幸。」\n\n管理局近日收到了一份求助邮件，网名「大虎爱主公」的热心居民来信，声称自己主公忽然变得奇奇怪怪。\n\n原本深沉内敛的主公突然张扬起来，不仅爱上了金光闪闪的配饰，还变得非常喜欢夸奖下属，和蔼的笑容也很叫人惶恐。\n\n\n「这是真理的外衣，陛下，任何人穿上它，都只能说出心里话。」\n\n                   ——《皇帝的新装》",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "皇帝的新衣Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214202",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "曹操·皇帝的新衣Ver.",
+  "title": "皇帝的新衣Ver.",
+  "wordCount": 158
+}

@@ -1,0 +1,83 @@
+{
+  "bookId": "hero-212104",
+  "id": "bond-26011",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26011001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "利姆鲁的下一步计划是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26011002",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "或许是好好探索下这个世界？然后继续寻找返回特恩佩斯特的方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26011003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样啊，听起来是非常耗时的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26011004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我给你安排了住所。找到回去的方法之前，就先住在这里吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26011005",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26011006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不必有什么顾虑，这是接待魔王的礼节。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26011",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26011001,
+            26011002,
+            26011003,
+            26011004,
+            26011005,
+            26011006
+          ],
+          "sectionId": 26011
+        }
+      ],
+      "title": "计划"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "计划",
+  "wordCount": 108
+}

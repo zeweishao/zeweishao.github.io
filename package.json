@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node scripts/build-static.mjs"
   },
   "dependencies": {
     "@vercel/blob": "^2.0.0",

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215204",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "司掌时空权柄的魔女「格兰缇娜」化身为1/7比例模型登场！奇迹都市流传着一个古老传闻——老城区的废弃钟楼里居住着一位通晓时间之秘的魔女，关于她会有怎样的故事呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215204"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 79
+}

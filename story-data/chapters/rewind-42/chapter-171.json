@@ -1,0 +1,954 @@
+{
+  "bookId": "rewind-42",
+  "id": "chapter-171",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36318001",
+          "sourceType": 10,
+          "text": "第四场：知音",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36318002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里是主人|101|的家，非常欢迎你们哦~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36318004",
+              "text": "久仰大名，总算见到了。"
+            }
+          ],
+          "sourceId": "36318003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36318004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人……是你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318005",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "这人倒是有几分眼熟，可仔细一看又有不同，真是怪事。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36318007",
+              "text": "娘子，小生这厢有礼了。"
+            }
+          ],
+          "sourceId": "36318006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36318007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，主人和白娘子入戏好快！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你们先别急着过戏瘾，我有一个大胆的想法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "《白蛇传》这么优秀的传统剧目，年轻人知道得越来越少，这可不是一个好现象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318010",
+          "sourceType": 3,
+          "text": "啪嗒，玉夏将厚厚的一本企划案放在了桌子上——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36318011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，突然拿出这么厚的一本书，这是要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "这不是普通的书籍，而是一本打响戏曲《白蛇传》的最强企划案！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36318014",
+              "text": "似乎很有趣，我也想参加。"
+            }
+          ],
+          "sourceId": "36318013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36318014",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "能够让更多人的了解戏曲《白蛇传》，我责无旁贷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36318015",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "还有我还有我，青儿也不会袖手旁观的~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-862",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36318001,
+            36318002,
+            36318003,
+            36318004,
+            36318005,
+            36318006,
+            36318007,
+            36318008,
+            36318009,
+            36318010,
+            36318011,
+            36318012,
+            36318013,
+            36318014,
+            36318015
+          ],
+          "sectionId": 36318
+        }
+      ],
+      "title": "第四场：知音 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36319001",
+          "sourceType": 3,
+          "text": "手办版戏曲《白蛇传》，第五场「盗仙草」——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36319002",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "嗷呜！大胆妖孽，竟敢触犯天条，乖乖受死吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319003",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "姐姐……青儿去了……你好好保重……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "青妹！不要……姐姐陪你来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319005",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "执迷不悟，罪加一等，嗷呜——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319006",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "大胆！你这只是非不分的恶狗，也不看看这姐妹二人背后是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319007",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "哇呀呀呀，竟然是你……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319008",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "识相点，恶狗快快投降！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319009",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "呜……汪，你才是狗，你全家都是狗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319010",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "骂我是狗，我要你的命——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319011",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "不好……它被惹怒了，大家当心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "咳咳……你快带我姐姐走，我……我来拦住它……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319013",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "唉，你和你姐姐一样，都是痴儿……罢了，我就助你们一臂之力吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319014",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "「昆仑仙子」捏了个手势，口中振振有词。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319015",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "急急如律令，着！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319016",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "这是……捆仙锁！？你好大的胆子，不怕触犯天条被打回原形吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319017",
+          "sourceType": 0,
+          "speaker": "哮天犬",
+          "text": "你！#￥%*&￥#……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319018",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "它这是怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319019",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "我是个小仙，法力不足以完全将它困住。一炷香之后它便会挣开，你们拿了仙草快走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319020",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "仙子的大恩大德，素贞没齿难忘……可你若放我们回去，岂不要受严惩？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319021",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "咳咳……姐姐先走，青儿留下来接受处罚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319022",
+          "sourceType": 0,
+          "speaker": "昆仑仙子",
+          "text": "你们这份姐妹情谊，很难不让人心动……快走，再晚就来不及了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319023",
+          "sourceType": 3,
+          "text": "众手办沉浸于戏曲的世界，不知不觉天色已晚。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36319024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "终于完成《白蛇传》的排练和拍摄，虽然很累但还是好开心~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319025",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "经过我的精心调整，原有剧情的缺陷都增加了更容易被现代人喜欢的设计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319026",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没想到效果会有这么好，圆梦的感觉真是太好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，好神奇，人物丰富了许多，不愧是玉夏学姐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319028",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "第一次这么玩，我也很开心，令人记忆深刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319029",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "从未想过《白蛇传》还可以有这样的解读……这个角度的确很新奇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36319030",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "我现在深信，古典的戏曲经过改编，定会重新焕发生机。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-863",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36319001,
+            36319002,
+            36319003,
+            36319004,
+            36319005,
+            36319006,
+            36319007,
+            36319008,
+            36319009,
+            36319010,
+            36319011,
+            36319012,
+            36319013,
+            36319014,
+            36319015,
+            36319016,
+            36319017,
+            36319018,
+            36319019,
+            36319020,
+            36319021,
+            36319022,
+            36319023,
+            36319024,
+            36319025,
+            36319026,
+            36319027,
+            36319028,
+            36319029,
+            36319030
+          ],
+          "sectionId": 36319
+        }
+      ],
+      "title": "第四场：知音 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36320001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从刚才到现在，玉夏一直守在主人的电脑前做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "想不到吧，我把我们排演的《白蛇传》录制下来传到网上了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "完全没有想到的是，我们的作品在网上大受欢迎，有很多人在讨论戏曲《白蛇传》呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真好呀，这段时间的努力总算没有白费~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "自己喜欢的东西被别人所认可，是难能可贵的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320006",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "从前落魄自怜无人识，如今一朝成名天下知。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不如我们带着你和小青一起到外面看看，只有亲眼见到，你才会知道自己是多么让人喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36320008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对哦，跟我们一起到外面去看看吧，你们应该为自己感到骄傲~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36324001",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "网上那个《白蛇传》实在过于上头，我这就给你表演一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36324002",
+          "sourceType": 0,
+          "speaker": "菠萝熊",
+          "text": "快别，你这个圆滚滚的体型自己心里难道没点数吗？我可不要被辣眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36324003",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "……要说也是，完美的白娘子只有一个，别的人都是拙劣的模仿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36324004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，你可是我们大家心目中共同的「白娘子」哦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36324005",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "作为一名戏曲女伶，能够得到戏迷的认可，当真是人间一大乐事。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-864",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36320001,
+            36320002,
+            36320003,
+            36320004,
+            36320005,
+            36320006,
+            36320007,
+            36320008
+          ],
+          "sectionId": 36320
+        },
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36324001,
+            36324002,
+            36324003,
+            36324004,
+            36324005
+          ],
+          "sectionId": 36324
+        }
+      ],
+      "title": "第四场：知音 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36321001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "啧，这身衣裳束手束脚，行动起来很是不便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321002",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "左右现下没什么外人，我便躺着歇息片刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321003",
+          "sourceType": 0,
+          "speaker": "小白",
+          "text": "青妹，我与你说过多次，女子的言行举止应当合乎礼仪，须得恰当得体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321004",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "有什么关系，只要舒服就好了……好吧，我答应你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇塞，你们这个样子好美哦，这身衣服穿在你们身上好像会发光一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你快来和我们一起欣赏呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "细腻典雅的服饰细节，十分让人赏心悦目。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你们的眼光不错，为了设计这两套衣服，我花了不少时间做研究。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "现在网上热度正高，趁热打铁推出这组复古主题的青白写真集，一定会很受追捧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看到了看到了，网上的讨论已经炸锅了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家都在议论着玉夏策划的那套写真集呢，哈哈，这下玉夏学姐要发财了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "喂，你不要突然讲出来啊，我才、才不是为了那个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321013",
+          "sourceType": 0,
+          "speaker": "小白",
+          "text": "今日所遇种种，现在回想起来像是一场梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321014",
+          "sourceType": 0,
+          "speaker": "小白",
+          "text": "如若不是碰到了你们，我与青妹说不定还在四处流浪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36321015",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "都过去了，姐姐……青儿发誓，以后绝不会再让姐姐受苦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-865",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36321001,
+            36321002,
+            36321003,
+            36321004,
+            36321005,
+            36321006,
+            36321007,
+            36321008,
+            36321009,
+            36321010,
+            36321011,
+            36321012,
+            36321013,
+            36321014,
+            36321015
+          ],
+          "sectionId": 36321
+        }
+      ],
+      "title": "第四场：知音 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36322001",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人，找你许久了，可以单独谈谈吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36322003",
+              "text": "当然，随时欢迎。"
+            }
+          ],
+          "sourceId": "36322002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36322003",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "我很清楚这次《白蛇传》的排演，没有你不会这么成功。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一点点个人见解，不足挂齿的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322005",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "为表谢意，我想单独为你唱上几段《白蛇传》的片段，不知是否可以？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，白娘子能够亲自为我演唱《白蛇传》，真是再好不过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没想到我遗落的珍宝最终来到了这里，该说是巧合还是天意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不过，与其沦落到街头蒙尘，在|101||103|身边是你能做的最好的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322009",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "是你。你到这里来做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "绯野，你做的那些事我都已经听说了，事到如今还不肯认错吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "为什么要道歉？我又没有错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "除了怪盗这个身份，我是一个资深的珍宝收藏家，看到珍宝当然会得而藏之。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有些珍宝被私藏以后，反而从此销声匿迹，恐怕不是你想看到的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322014",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "如果没有被玉夏她们顺利救出，我只能终日困于你的囚笼中，怎么称得上「明珠」之名？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……你们也许是对的，但我不会就这样死心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我对你的承诺永远有效，随时欢迎你回到我的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322017",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "绯野小姐就这么离开了，真的没关系吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，她不会因为这点事受影响。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322019",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "总算没人打扰了，我这就为你清唱一段「游湖」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322020",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "姐姐，你在这里做什么……怎么|101|也在？你们该不会……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322021",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "这……我只是想亲自向官人表达自己的谢意，青妹不要误解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322022",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "既然如此，我也和姐姐一起吧，官人肯定不会介意的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳，当然。你们以后有什么打算？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322024",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "我本为寻一个人来到这M城，如今早已找到，因而会在此停留一段时日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322025",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "（传声）姐姐，你怎么这般肯定已经找到了，万一弄错可怎么办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322026",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "（传声）我的知音，我的牵绊，从来只有一位，我是不会认错的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322027",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "（传声）虽不知为何这一世官人为何会不记得我……但有些东西从未改变。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "太好了，以后可要大饱耳福了，优纪她们也会很开心的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322029",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "能够陪伴在官人的身边，日日为官人唱戏，我便心满意足了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36322030",
+          "sourceType": 3,
+          "text": "熟悉的旋律响起，「白素贞」和「小青」配合得亲密无间，古老的传说再次焕发了新的生机——",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-866",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36322001,
+            36322002,
+            36322003,
+            36322004,
+            36322005,
+            36322006,
+            36322007,
+            36322008,
+            36322009,
+            36322010,
+            36322011,
+            36322012,
+            36322013,
+            36322014,
+            36322015,
+            36322016,
+            36322017,
+            36322018,
+            36322019,
+            36322020,
+            36322021,
+            36322022,
+            36322023,
+            36322024,
+            36322025,
+            36322026,
+            36322027,
+            36322028,
+            36322029,
+            36322030
+          ],
+          "sectionId": 36322
+        }
+      ],
+      "title": "第四场：知音 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 171,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 171,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "87",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "千年回响",
+  "title": "第四场：知音",
+  "wordCount": 2390
+}

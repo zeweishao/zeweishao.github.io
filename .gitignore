@@ -1,5 +1,6 @@
 .vercel
 node_modules/
+dist/
 tmp/
 comic-chapters/
 .DS_Store
@@ -9,3 +10,9 @@ comic-chapters/
 figures-assets
 figures-src/node_modules/
 figures-orig
+
+# Local-only service and personal records; retain on disk, exclude from public source.
+server.js
+logG.txt
+messages.txt
+comments.txt

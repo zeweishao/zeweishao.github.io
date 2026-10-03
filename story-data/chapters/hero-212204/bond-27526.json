@@ -1,0 +1,158 @@
+{
+  "bookId": "hero-212204",
+  "id": "bond-27526",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27526001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "干得不错，我的「所有物」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27526002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "用尽全力为我挥霍你的财产，这是你应该做的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27526004",
+              "text": "真是无情。"
+            },
+            {
+              "targetId": "27526004",
+              "text": "对于我的礼物……只这样说吗？"
+            }
+          ],
+          "sourceId": "27526003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27526004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "当然，我也愿意为你挥霍我的一切。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27526006",
+              "text": "任性的回答。"
+            },
+            {
+              "targetId": "27526006",
+              "text": "果然是我行我素阿……"
+            }
+          ],
+          "sourceId": "27526005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27526006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "让你难过了吗，真没办法……\n总之……谢谢你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27526007",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……我是认真的，谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27526008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "一直以来我都习惯了「抢夺」，这还是初次被人「给予」，\n感觉……意外很不错~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27526010",
+              "text": "是这样吗……"
+            },
+            {
+              "targetId": "27526010",
+              "text": "忽然有点好奇「S-VIII」的过去呢。"
+            }
+          ],
+          "sourceId": "27526009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27526010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "我知道你对我的过去很感兴趣，有机会我可以带你去我的家乡看看，尽管……那里已经是一片废墟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27526011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "好了，肉麻时间结束。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27526012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "接下来，一起找点乐子怎么样？\n——很刺激那种。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27526",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27526001,
+            27526002,
+            27526003,
+            27526004,
+            27526005,
+            27526006,
+            27526007,
+            27526008,
+            27526009,
+            27526010,
+            27526011,
+            27526012
+          ],
+          "sectionId": 27526
+        }
+      ],
+      "title": "致所有物"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "致所有物",
+  "wordCount": 255
+}

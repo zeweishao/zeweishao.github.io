@@ -1,0 +1,293 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-123",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "123001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，你终于回来啦，我好想你！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "123003",
+              "text": "你在……跟我说话？"
+            }
+          ],
+          "sourceId": "123002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "123003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人在犯什么傻？当然是在跟你说话啦。\n因为除了主人，其他人类看到的手办，就只是“手办”而已呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过现在可不是说这些乱七八糟的时候。\n和江她……都怪优纪没能保护好和江，主人，对、对不起！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123005",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "腿部的涂料在战斗中丢失了一部分。\n因为这样的缘故，所以从刚刚开始，脑袋就一直晕晕乎乎的吗……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "感觉快、快要站不稳了。\n但是和江还在猫咪嘴巴里，再不出发的话，情况就糟糕了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "123008",
+              "text": "轻轻托住优纪"
+            }
+          ],
+          "sourceId": "123007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "123008",
+          "sourceType": 3,
+          "text": "未等你伸出手，优纪就晕晕乎乎倒地不起了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "123009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不怪主人……都是优纪自己在战斗不小心，才丢失了涂料导致的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸？主人呢？等等，这、这里是哪里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是……另一个优纪吗？\n难道是回忆？可是站在优纪旁边……背对着的家伙，他究竟是……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这种说不出来的熟悉感，就好像曾几何时亲身经历过的一般……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦啊！这股震动的感觉，是、是怎么回事？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123014",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "原、原来是……\n优纪的身体，被主人用手掌，轻轻托起来啦！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "123016",
+              "text": "身体磨损得非常严重呢"
+            },
+            {
+              "targetId": "123016",
+              "text": "帮助掌心手办修复瑕疵"
+            }
+          ],
+          "sourceId": "123015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "123016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人要为优纪……修补身体吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是和江她还呆在猫咪的嘴里，还是先救出和江……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123018",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "咦啊——？！涂料笔伸过来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "毛、毛绒绒的刷子涂抹在身上。\n咯哈哈哈，很、很痒痒呢！犯规……主人你太犯规啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从底座不断传来的，主人掌心温暖而潮湿的温度……好……好舒服！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "123021",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "123022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，涂料在阳光的映衬下闪烁出耀眼的光芒。\n这也就代表着：优纪的身体修补工作，宣告完成 。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123023",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "棒球少女，又重新加入比赛了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123024",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "糟糕，一时间太过得意忘形了，险些忘记了……\n和江，被猫叼走的和江，再耽搁下去，情况就糟糕了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "123026",
+              "text": "分头去找和江吧"
+            }
+          ],
+          "sourceId": "123025",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "123026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错没错，主人跟优纪兵分两路，我们分头去找和江。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然室外对手办来说，是非常危险的区域。\n但只要经过主人的许可，就一定不会有问题的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪会跳下窗子，小心躲避周围的人类，先沿着猫脚印仔细在附近寻找一番的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "123029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "约定好了，我会很快回到家跟主人再次会合唷，主人千万记得要等优纪。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "123",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            123001,
+            123002,
+            123003,
+            123004,
+            123005,
+            123006,
+            123007,
+            123008,
+            123009,
+            123010,
+            123011,
+            123012,
+            123013,
+            123014,
+            123015,
+            123016,
+            123017,
+            123018,
+            123019,
+            123020,
+            123021,
+            123022,
+            123023,
+            123024,
+            123025,
+            123026,
+            123027,
+            123028,
+            123029
+          ],
+          "sectionId": 123
+        }
+      ],
+      "title": "原文片段 123"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 123
+      },
+      {
+        "id": "1",
+        "table": "ResTalkSpecialOpt"
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 123",
+  "wordCount": 764
+}

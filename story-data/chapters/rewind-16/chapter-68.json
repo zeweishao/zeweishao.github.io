@@ -1,0 +1,1269 @@
+{
+  "bookId": "rewind-16",
+  "id": "chapter-68",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21352001",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Mission complete，任务完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "手办性格变化并非孤立事件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们从管理局那里拿到了一份消息简报，网名「大虎爱主公」的热心居民来信，声称自家主公近日变得奇奇怪怪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……原本深沉内敛的主公突然好大喜功起来，不仅爱上了金光闪闪的配饰，还变得非常喜欢夸奖下属，和蔼的笑容也很叫人惶恐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352005",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Get it，我知道主公是谁了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352006",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "比起来的话，我们可是拿到了超关键的东西！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "那可是来自寄信人的第一手线索——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352008",
+          "sourceType": 0,
+          "speaker": "神秘卡片",
+          "text": "「在奇迹消失之前，来初遇的地点见我一面。」——《十二点钟的魔法》",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "跟之前一模一样的卡片，这是什么意思，又有人发生了变化吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这是一封「请柬」，寄信人在向主人发起会面的邀请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哎——？完全看不出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "《十二点钟的魔法》我知道，是个关于灰姑娘的故事，可是怎么看出来约见信息呢，时间、地点和参与人都没有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们拿到这封信的时候，有收到其他的提示吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352014",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "唔……提示？只是凑巧撞运拿到卡片而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔——对了，花语！店长向我们推荐过蓝色妖姬，说什么「相遇是一种宿命」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "答案很明确了，是吧，主人？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21352018",
+              "text": "嗯，是该见见那位神秘的手办了。"
+            }
+          ],
+          "sourceId": "21352017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21352018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么，什么阿……你们在打什么哑谜，根本没有明白……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21352020",
+              "text": "让和江来解释吧。"
+            }
+          ],
+          "sourceId": "21352019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21352020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「在奇迹消失之前」指的是午夜十二点钟之前，根据故事情节，可以推算大致在23：50-23：55之间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「初遇的地点」，在故事里，公主初次邂逅王子是在「街心公园」，这样的公园恰好M城有且仅有一座，就在潮酷街区东部。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「相遇是一种宿命」，是「两支」蓝色妖姬的含义，晚宴上，王子的随从也恰巧只有「两位」，意思是主人只能携带两名同伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么复杂的谜题……主人跟和江都好厉害！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352025",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "两个人的话，带上我和妹妹好了，我会好好保护主人的喔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352026",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Wait，请带上真田君。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352027",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Please，这是我唯一的请求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352028",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈——那个嚣张的柴犬小子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352029",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Sorry，一定会让他道歉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352030",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可是……根本不知道他人在哪里，而且他的状况……实在有些棘手，根本没可能让他乖乖跟我们走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352031",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Don't worry，会按时带他来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352032",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "唔，你这家伙倒是蛮讲义气，就把这个名额让给你好了——警告你，如果他伤害到我妹妹的话，一定会要你们好看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21352033",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Please，人类，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21352035",
+              "text": "当然，就这样决定吧。"
+            }
+          ],
+          "sourceId": "21352034",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21352035",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Thanks，感激不尽。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-407",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21352001,
+            21352002,
+            21352003,
+            21352004,
+            21352005,
+            21352006,
+            21352007,
+            21352008,
+            21352009,
+            21352010,
+            21352011,
+            21352012,
+            21352013,
+            21352014,
+            21352015,
+            21352016,
+            21352017,
+            21352018,
+            21352019,
+            21352020,
+            21352021,
+            21352022,
+            21352023,
+            21352024,
+            21352025,
+            21352026,
+            21352027,
+            21352028,
+            21352029,
+            21352030,
+            21352031,
+            21352032,
+            21352033,
+            21352034,
+            21352035
+          ],
+          "sectionId": 21352
+        }
+      ],
+      "title": "《十二点钟的魔法》·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21355001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "街心公园，是这附近么，唔，已经23：50了阿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355002",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "四周黑漆漆的，什么都看不见呢，里惠觉得……心跳忽然加速了……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21355004",
+              "text": "里惠会觉得害怕吗？"
+            }
+          ],
+          "sourceId": "21355003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21355004",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "跟主人在一起，去哪里都不会怕的，但是这么黑的地方，忍不住想要靠主人更近一点呢，里惠可以……抱抱主人吗~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355005",
+          "sourceType": 5,
+          "speaker": "真田幸村",
+          "text": "喂臭小子，到底什么事，小爷时间很贵，不是你耽误得起的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355006",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Sorry，迟到了一点，幸好赶上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355007",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "喂，什么赶上了，耍我很好玩？臭小子，会让你付出代价——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355008",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Thanks，人类，接下来就拜托你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355009",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "人类？你是这种卖主求荣的丧家犬吗？哼，真让人看不起，哎那边的庞然大物，我根本没在怕的——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21355011",
+              "text": "轻轻拿起真田幸村。"
+            }
+          ],
+          "sourceId": "21355010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21355011",
+          "sourceType": 5,
+          "speaker": "真田幸村",
+          "text": "喂喂——别以为这样你就可以胡作非为，我迟早会找回场子的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355012",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "再这样对主人讲话，我就——鲨了你喔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355013",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "呵，就凭你吗，我原本不想打女人的……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21355015",
+              "text": "好啦，不要再吵了，接下来要赴约了噢。"
+            }
+          ],
+          "sourceId": "21355014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21355015",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "嗯呢，里惠最听主人的话了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355016",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "切，麻烦的家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355017",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "喂，大个子，到底要带我们去哪里，四周黑咕隆咚的，根本不像什么有人的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355018",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "你该不会是被人骗了吧，半夜十二点钟见面，呵呵，真是有够搞笑呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21355019",
+          "sourceType": 3,
+          "text": "叮铃，叮铃——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21355020",
+          "sourceType": 3,
+          "text": "咔哒——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21360001",
+          "sourceType": 3,
+          "text": "神秘的女郎就这样凭空出现，漆黑的夜幕里，她是唯一的光。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21360002",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "好漂亮……像童话里写的一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21360003",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "熟悉的香味，又来了，这种奇怪的感觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21360004",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "——你终于来了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21360006",
+              "text": "你是……？"
+            }
+          ],
+          "sourceId": "21360005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21360006",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "嘘——不要说出口，如果你执意要问……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21360007",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "……今晚，我是「没有水晶鞋的公主」，也可以是「埃克提克派女巫」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-408",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21355001,
+            21355002,
+            21355003,
+            21355004,
+            21355005,
+            21355006,
+            21355007,
+            21355008,
+            21355009,
+            21355010,
+            21355011,
+            21355012,
+            21355013,
+            21355014,
+            21355015,
+            21355016,
+            21355017,
+            21355018,
+            21355019,
+            21355020
+          ],
+          "sectionId": 21355
+        },
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21360001,
+            21360002,
+            21360003,
+            21360004,
+            21360005,
+            21360006,
+            21360007
+          ],
+          "sectionId": 21360
+        }
+      ],
+      "title": "《十二点钟的魔法》·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21361001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是你吗，让里惠、真田和曹操性情大变的人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361002",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "连曹操都被你发现了吗，名不虚传呢，特别的人类。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21361004",
+              "text": "为什么要这样做？"
+            }
+          ],
+          "sourceId": "21361003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21361004",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "为了引起你的注意，这是一份见面礼，也是一份考验。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21361006",
+              "text": "这是什么意思？"
+            }
+          ],
+          "sourceId": "21361005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21361006",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "我不过是个普通的逐利者，想要为自己物色一位可靠的合作搭档，借此增加自己的筹码罢了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21361008",
+              "text": "合作搭档？"
+            }
+          ],
+          "sourceId": "21361007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21361008",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "嗯哼，身为手办，与人类合作可以获得许多便利，当然——不排除你聪明得超乎预期，让我产生了一点，额外的兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "于是为了自己的利益，把痛苦施加在其他手办身上吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361010",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "有没有人跟你讲过，善良过头就是天真？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361011",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "我不是慈善使，也不是邪恶科学家——性格改变是交易的结果，我不过满足了手办们的小小心愿，帮助他们体验想象中的模样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361012",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "——根本就是胡说八道！！！你这个可恶的女人！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361013",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Aye，赞成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361014",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "哎呀，看来有人没有遵守规则，擅自带了帮手呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361015",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "跟主人没关系，是我自己要来的！还好到的及时，主人，不要被这个女人好看的外表欺骗了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361016",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "谢谢夸奖，不过就算这样说，你的愚蠢莽撞也不会得到原谅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361017",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "莽夫的热心肠，只会让事情变得更糟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21361018",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "吵死了——这一招是为了我妹妹，阿哒哒哒看脚——！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-409",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21361001,
+            21361002,
+            21361003,
+            21361004,
+            21361005,
+            21361006,
+            21361007,
+            21361008,
+            21361009,
+            21361010,
+            21361011,
+            21361012,
+            21361013,
+            21361014,
+            21361015,
+            21361016,
+            21361017,
+            21361018
+          ],
+          "sectionId": 21361
+        }
+      ],
+      "title": "《十二点钟的魔法》·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21365001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "呼，呼……可恶，耍诈的女人，那是什么招数！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365002",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "聪明人打架用头脑，愚蠢的莽夫才用拳脚说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365003",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "I see，受教了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365004",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "打也打够了，现在，可以停下来好好说话了么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21365006",
+              "text": "你刚才说，手办的心愿？"
+            }
+          ],
+          "sourceId": "21365005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21365006",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "没错，变成那样的性格，是他们自己的选择。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21365008",
+              "text": "不是你改变了他们吗？"
+            }
+          ],
+          "sourceId": "21365007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21365008",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "我的香水药剂没有那样霸道的效果，每一瓶都是一对一订制调配，完全遵从客人自己的心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365009",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "当然，香水的调配灵感取自童话故事集，每一篇都是精心挑选，跟他们的状况也非常相配呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "谁会信这种莫名其妙的鬼话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365011",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "你的妹妹里惠，在很久以前，曾经也是个开朗活泼的少女对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "你怎么会知道……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365013",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "在你们尚未来到人类世界之前，在博士的实验里，在喝下「X」药水之前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365014",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "……你究竟是什么人？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365015",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "对原本满脸雀斑、自卑怯懦的你来说，被「X」药水改变的滋味很美妙吧？漂亮，自信，活泼，乐观，勇敢——崭新的自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365016",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "口口声声说着「为了妹妹」，你有没有想过，经历着与你相反变化的妹妹，为了姐姐才牺牲自我变得害羞胆怯的妹妹，真的快乐吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365017",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "因为过于羞怯而无法传达自己的心意的话，即便心甘情愿，也会感到痛苦的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365018",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "是这样吗……我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365019",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "还有这位真田家的少城主。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365020",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "武士少年真的开心吗，虽然总是一脸阳光的样子，但在家徽的束缚下，没有一天过得从心所欲呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365021",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "My friend，真田君这样想吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365022",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "《禁忌的人鱼》——献给「无法宣之于口的心意」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365023",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "《王子与乞丐》——献给「追求自由人生的勇气」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365024",
+          "sourceType": 3,
+          "text": "当，当，当，当，当……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21365025",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "午夜的钟声响起了呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21365026",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "接下来，是十二点钟的魔法奇迹——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-410",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21365001,
+            21365002,
+            21365003,
+            21365004,
+            21365005,
+            21365006,
+            21365007,
+            21365008,
+            21365009,
+            21365010,
+            21365011,
+            21365012,
+            21365013,
+            21365014,
+            21365015,
+            21365016,
+            21365017,
+            21365018,
+            21365019,
+            21365020,
+            21365021,
+            21365022,
+            21365023,
+            21365024,
+            21365025,
+            21365026
+          ],
+          "sectionId": 21365
+        }
+      ],
+      "title": "《十二点钟的魔法》·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21370001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "搞什么鬼……欸，灯光……周围突然亮起来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370002",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "里惠！是我的里惠！太好了！变回原来的样子了！呜呜呜……我的妹妹回来了……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370004",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "里惠，你感觉怎么样？有没有不舒服？头晕吗？受伤了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370006",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370007",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "是我阿，里惠，我是姐姐，你最喜欢的姐姐阿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370008",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "……嗯。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21370010",
+              "text": "里惠看起来很难为情呢。"
+            }
+          ],
+          "sourceId": "21370009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21370010",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "果然那个女人害你做了一些叫人难堪的事吧，可恶的家伙，还说什么为了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370011",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "……不，不是的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370012",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "……添，麻烦了……谢谢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370013",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "你是在向那个女人道谢吗？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370014",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "嗯……虽然很害羞……但是……也，开心……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370015",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "有时候也会，希望……像，其他手办一样，撒娇……坦率地，对主人说，喜欢什么的……偶尔，站在姐姐身前……很，很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370016",
+          "sourceType": 0,
+          "speaker": "神秘女郎",
+          "text": "嗯哼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370017",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "是……是这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370018",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Welcome，真田君，欢迎回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370019",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "哈哈哈，真是难为你了，现在回想起来，好像做了许多不得了的「大逆不道」的事呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370020",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Agree，感觉如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370021",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "虽然不是什么好性格，不过偶尔体验一下，意外觉得很痛快呢！就像是——做了一个刺激的异想天开的梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370022",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "真田君内心也有一个bad guy呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370023",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "嘿嘿，抱歉抱歉，偶尔也想要试试不被规矩和家徽束缚，不用时刻保持阳光鼓舞大家前进，做一个随心所欲、想消极就消极的混小子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370024",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "I see，原来如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370025",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "哈哈哈，体验一下就好了——这件事是我们的秘密，不可以告诉别人喔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370026",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Sure，放心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370027",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "哼，这么看，你这个女人还不算太坏——欸？人人人人呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21370029",
+              "text": "悄悄离开了吗。"
+            }
+          ],
+          "sourceId": "21370028",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21370029",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Marvelous，十二点钟的魔法奇迹吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370030",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "真的像童话故事里的神秘公主一样，消失不见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370031",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "花……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21370032",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "这是什么，地上留下了一支……紫罗兰花？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-411",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21370001,
+            21370002,
+            21370003,
+            21370004,
+            21370005,
+            21370006,
+            21370007,
+            21370008,
+            21370009,
+            21370010,
+            21370011,
+            21370012,
+            21370013,
+            21370014,
+            21370015,
+            21370016,
+            21370017,
+            21370018,
+            21370019,
+            21370020,
+            21370021,
+            21370022,
+            21370023,
+            21370024,
+            21370025,
+            21370026,
+            21370027,
+            21370028,
+            21370029,
+            21370030,
+            21370031,
+            21370032
+          ],
+          "sectionId": 21370
+        }
+      ],
+      "title": "《十二点钟的魔法》·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 68,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 68,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "一场蓄谋已久的邂逅",
+  "title": "十二点钟的魔法",
+  "wordCount": 3117
+}

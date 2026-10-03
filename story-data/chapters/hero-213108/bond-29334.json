@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-213108",
+  "id": "bond-29334",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29334001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……房间到处都变得好干净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "甚至地板都在发亮？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334003",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "欢迎回来，岛主，房间的扫除都完成了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这都是你做的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334005",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "没错，毕竟玛莉非常擅长做家务呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334006",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "脏衣服也都在洗衣机里了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "衣服……我自己会洗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334008",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "不行哦，约好了今天要由玛莉来照顾岛主的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29334010",
+              "text": "谢谢。"
+            },
+            {
+              "targetId": "29334010",
+              "text": "玛莉真是可靠。"
+            }
+          ],
+          "sourceId": "29334009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29334010",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "只有今天是特例哦，毕竟玛莉是海莲娜大人的仆人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334011",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "呵呵，接下来，岛主会再出门吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可能会去街上买点菜，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334013",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "那就让玛莉陪你出门吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334014",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "岛主的人身安全，就由玛莉来保护了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "倒也没那么危险的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334016",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "总之！今天岛主什么都不用担心哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感觉像是约会一样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29334018",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "诶？真是的，岛主……真会说呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29334",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29334001,
+            29334002,
+            29334003,
+            29334004,
+            29334005,
+            29334006,
+            29334007,
+            29334008,
+            29334009,
+            29334010,
+            29334011,
+            29334012,
+            29334013,
+            29334014,
+            29334015,
+            29334016,
+            29334017,
+            29334018
+          ],
+          "sectionId": 29334
+        }
+      ],
+      "title": "特别仆人"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213108",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "特别仆人",
+  "wordCount": 248
+}

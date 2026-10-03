@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214006",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "在轰隆的排气管和轮胎摩擦地面声中，紫罗兰高校传说中的王牌机车手冈田桜介登场了，他摘下头盔，露出红发和冷峻脸庞的瞬间，在场观赛的高校女生几乎全部都要昏厥过去了。\n\n“靠边站，你们的车神来了。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "机车手Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214006",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "冈田桜介·机车手Ver.",
+  "title": "机车手Ver.",
+  "wordCount": 93
+}

@@ -1,0 +1,125 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35018",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35018001",
+          "sourceType": 10,
+          "text": "锦绣河山",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35018002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个兔儿爷的坐骑好特别喔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "即使在我的族人眼里，高山也有着非凡的寓意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总觉得「兔儿爷」坐在小山上，看起来变得更神气了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "像个小将军，米菲亚有机会也要试试看喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018006",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你坐在上面，只会让我觉得好笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "可恶可恶可恶！塞西尔闭嘴，米菲亚要生气了喵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快停下，你们怎么又打起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018009",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "猫捉老鼠的游戏，怎么都玩不腻，你真是幼稚鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "米菲亚生起气来，后果可是很严重的喵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35018011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，我把这个小山坐骑带走你们再打~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35018",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35018001,
+            35018002,
+            35018003,
+            35018004,
+            35018005,
+            35018006,
+            35018007,
+            35018008,
+            35018009,
+            35018010,
+            35018011
+          ],
+          "sectionId": 35018
+        }
+      ],
+      "title": "锦绣河山"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35018,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "81",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「高山仰止，景行景止」，在「兔儿爷」的陪伴下，一起见证别样的美景吧。",
+  "title": "锦绣河山",
+  "wordCount": 191
+}

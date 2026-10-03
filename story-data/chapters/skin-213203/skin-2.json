@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213203",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "由BOOM集团主办的「金粉之夜」，将于奇迹城拉开帷幕。\n\n盛典中央陈列着今晚的珍贵展品——一枚两人高的金蛋，据推测内部是价值连城的古雕塑「沉睡的奇美拉」。\n\n致辞结束，集团董事举起了小金锤。\n众人纷纷屏息，目不转睛地盯住聚光灯下的金蛋，耳边只剩下咔嚓咔嚓的媒体拍照声。\n\n「——怪盗，是怪盗！！！」\n\n漫天金粉洒落，绯野原爱从一地碎壳中走出，优雅地躬身行礼：「晚上好，这就是，华丽而即兴的登场~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "金粉盛典Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213203",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱·金粉盛典Ver.",
+  "title": "金粉盛典Ver.",
+  "wordCount": 189
+}

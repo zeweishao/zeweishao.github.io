@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215006",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，帅气大都督「周瑜」化身为比例模型登场！双手插兜、身披制服的公瑾展现出非凡的自信，闲庭信步的站姿把他运筹帷幄的从容也一并呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215006"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 79
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213010",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气掌机游戏《悲伤记忆代码》中，最后的幕府刺客源上化身比例模型登场！将取回所有力量、即将复仇的姿态，以细腻逼真的造型呈现给粉丝。拥有压倒性魅力的服饰与腰间配备的刀具，能360度体验他的魅力。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213010"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

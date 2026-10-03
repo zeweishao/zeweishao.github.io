@@ -1,0 +1,158 @@
+{
+  "bookId": "hero-214021",
+  "id": "bond-28580",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28580001",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "特意避开你的那些手办，把我约到这里来，是想「约会」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "嗯？这就脸红了？真是有趣。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28580004",
+              "text": "我有东西想送给你。"
+            }
+          ],
+          "sourceId": "28580003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28580004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "唔，好别致的古典庭院，别致到……就连紫阳花枝上的露珠都很栩栩如生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580005",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "看得出来你用了不少心思呢，这就是你追求心仪对象惯用的手段吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28580007",
+              "text": "你是值得尊敬的校长。"
+            },
+            {
+              "targetId": "28580007",
+              "text": "你是让人亲近的姐姐。"
+            }
+          ],
+          "sourceId": "28580006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28580007",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "看得出来你用了不少心思呢，这就是你追求心仪对象惯用的手段吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580008",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "哦？只是这个原因吗……忍不住有些失落呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580009",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不过倒是让我再次确认了一件事，那就是——我在你的心里足够特别。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28580011",
+              "text": "我承认，你是很特别。"
+            }
+          ],
+          "sourceId": "28580010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28580011",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "「真诚」，「坦率」，「直言不讳」……所有这些特质，才是专属于你的「气味」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580012",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我闻到了哦，只有你才具备的独特的「气味」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28580013",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "是时候考虑进一步加深我们的「关系」了，不是吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28580",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28580001,
+            28580002,
+            28580003,
+            28580004,
+            28580005,
+            28580006,
+            28580007,
+            28580008,
+            28580009,
+            28580010,
+            28580011,
+            28580012,
+            28580013
+          ],
+          "sectionId": 28580
+        }
+      ],
+      "title": "庭院私语"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214021",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "庭院私语",
+  "wordCount": 304
+}

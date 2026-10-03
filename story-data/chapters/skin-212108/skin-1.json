@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212108",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "独立别院，私密汤池。\n\n白素贞的手指梳过小青的发间，不厌其烦地，解开她一个又一个发结。\n\n小青的神思渐渐昏沉，竟不知不觉睡了过去。\n\n醒来时，汤池中云雾缭绕依旧。\n\n她回味着姐姐适才的触碰，久违地陷入了沉思——\n\n「平生不会相思……才会相思，便害相思。」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "醉青丝Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212108",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "小青·醉青丝Ver.",
+  "title": "醉青丝Ver.",
+  "wordCount": 133
+}

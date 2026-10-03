@@ -1,0 +1,179 @@
+{
+  "bookId": "hero-213204",
+  "id": "bond-27519",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27519001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没想结月竟然会有这样奇特的兴趣……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519002",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "没用“奇怪”来形容足以让我对你刮目相看哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519004",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "开个玩笑，我也知道一般人不能接受这种东西啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519005",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "但是这些科学家们思维的碰撞，还有一些好似跨越时空般的知识交流，光是想想就让人感动的起鸡皮疙瘩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519006",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "他们不少人的关系可以看做是一代代科学家知识和思维的传承和接力，犹如不断延续的火焰一样，被一个个人接力传承下去，并且寻求新的突破。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "即便领域能够看到的尽头依旧是未知，但那些踏上这条道路的人却能为了一个共同的目标前赴后继，倾注自己的一生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519008",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "就像是一群明知前方有难以战胜的恶龙，也带着决死的想法共赴战场的勇士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，听结月你这么一说，我也开始有些心潮澎湃了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519010",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "是吧，如果可以的话我也想要抱着这种精神来研究主人哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "结月说了这么多，原来是等在这里吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519012",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "因为觉得主人窘迫的样子会很有意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519013",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "嘛，话说回来，这本书是真的很有趣哦，主人不想看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "《牛顿和爱因斯坦的爱恨情仇》，这书名……总感觉不像是你说的那些正经故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519015",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "哎呀，知识的交流只是其一，顶尖的科学家之间如果产生情感上的激情碰撞，只会更令人兴奋不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这，这就有点超出我的理解范畴了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519017",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "要我念给主人你听吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27519018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好意我心领，但还请务必不要这么做！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27519",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27519001,
+            27519002,
+            27519003,
+            27519004,
+            27519005,
+            27519006,
+            27519007,
+            27519008,
+            27519009,
+            27519010,
+            27519011,
+            27519012,
+            27519013,
+            27519014,
+            27519015,
+            27519016,
+            27519017,
+            27519018
+          ],
+          "sectionId": 27519
+        }
+      ],
+      "title": "嗑CP"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213204",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "嗑CP",
+  "wordCount": 496
+}

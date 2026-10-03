@@ -1,0 +1,1014 @@
+{
+  "bookId": "rewind-26",
+  "id": "chapter-105",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25018001",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "来人，把她们给我带过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018002",
+          "sourceType": 0,
+          "speaker": "天启精英甲",
+          "text": "——报，两人均已带到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "无论对「天启」还是对「七星阁」来说，你都彻底暴露了。\n与其抓我，想办法自保才是最明智的，你说呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018004",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "你不过是个小小的棋子而已，能知道些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "可是真正和你对弈的那位大人，才华与谋略都绝不会在你之下哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你要知道，天下之事无论大小，都逃不过那位大人的眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "所以，我很期待你被那位大人抓走接受「七星阁」审判的狼狈模样，内鬼先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018008",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "闭嘴，少故弄玄虚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018009",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "给我狠狠地教训她们，直到她们说出「七星古镜」的下落。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018010",
+          "sourceType": 0,
+          "speaker": "天启精英甲",
+          "text": "领命！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018011",
+          "sourceType": 5,
+          "speaker": "天启精英乙",
+          "text": "杀！杀！杀！——毁掉！毁掉！毁掉！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你的伤还没好，我负责掩护，你便趁机逃走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018013",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "开什么玩笑，我孙尚香什么时候需要你来保护了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25018014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "——闪开，这群家伙我来摆平。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-577",
+      "sourceRefs": [
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25018001,
+            25018002,
+            25018003,
+            25018004,
+            25018005,
+            25018006,
+            25018007,
+            25018008,
+            25018009,
+            25018010,
+            25018011,
+            25018012,
+            25018013,
+            25018014
+          ],
+          "sectionId": 25018
+        }
+      ],
+      "title": "真相·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25019001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们快来看，貂蝉留下的线索到这里就断掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "线索并没有断，而是指向了这座建筑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "貂蝉的意思会不会是让我们进去，可这里是什么地方呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019004",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "管它是什么地方，闯进去就是了。你们若是怕的话，还是待在这里等本大爷的消息好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "吕布真的恢复了吗，为什么感觉和之前相比，现在的他似乎变得更加莽撞了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "无妨，我已亲自调理过，他的神智的确已经全部恢复了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019007",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "此地颇为凶险，我等进去需多加小心，务必听我号令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，你是我们这里最聪明的一个，都听你的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "天哪，这里发生了什么，怎么到处都乱糟糟的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "从地上的痕迹可以看出来这里似乎刚刚经历了一场恶战。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "从周围的摆设到旗帜上的标记，可以确定这里是「天启」的一处秘密的营地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是从进来到现在，我们还一个人影都没见到呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019013",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "气氛有些诡异的安静，这里一定发生过什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "当心，似乎有什么东西朝我们冲过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019015",
+          "sourceType": 5,
+          "speaker": "野猫",
+          "text": "喵喵呜——嗷嗷啊！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019016",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "是野猫群！各位请做好应对的准备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019017",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哇哇呜，哪、哪里来的野猫，怎么这么多！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这些野猫的样子怪怪的，不过总觉得有些眼熟，优纪是在哪里见过呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它们的行为表现，很像出现在主人家外的那群猫咪的症状。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "的确，细细想来，它们似乎是受到了什么东西的吸引。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019021",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "这是貂蝉的独家御猫术，她能够以此驾驭猫咪为自己收集、传递情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019022",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "但这种秘术对自身有反噬的副作用，因此貂蝉绝不会轻易使用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25019023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "想必她现在处境十分危险，我们需得加快动作。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-578",
+      "sourceRefs": [
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25019001,
+            25019002,
+            25019003,
+            25019004,
+            25019005,
+            25019006,
+            25019007,
+            25019008,
+            25019009,
+            25019010,
+            25019011,
+            25019012,
+            25019013,
+            25019014,
+            25019015,
+            25019016,
+            25019017,
+            25019018,
+            25019019,
+            25019020,
+            25019021,
+            25019022,
+            25019023
+          ],
+          "sectionId": 25019
+        }
+      ],
+      "title": "真相·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25020001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "乖乖，好猫猫，要听话哦，快点带我们大家去找貂蝉小姐姐吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020002",
+          "sourceType": 0,
+          "speaker": "野猫",
+          "text": "喵喵，喵呜，喵！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它停下来了，看起来似乎里面有什么东西在吸引着它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这附近开始有「天启」在巡逻，好严密的样子……难道貂蝉会在这里面？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "我的想法跟你不谋而合，野猫受到貂蝉的驯化后，对她散发出的气味非常敏感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "貂蝉现在就是它唯一的主人，归顺主人是它的本能。在找到貂蝉之前，这只猫是绝对不会停下来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020007",
+          "sourceType": 5,
+          "speaker": "野猫",
+          "text": "喵呜，喵，喵喵！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，猫猫朝着那个地方冲过去了，这么做难道是……它想救人吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020009",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "它现在把貂蝉视作主人，感应到主人有危机而采取保护的行为想必是出于本能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "了解，事不宜迟，我们这就进去救人吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020011",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "我来开路，你们在后面跟紧点。小心别掉队，本大爷可不想再分神搭救你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25020012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "放心放心，我们可是超级给力的队友，绝对不会拖后腿的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-579",
+      "sourceRefs": [
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25020001,
+            25020002,
+            25020003,
+            25020004,
+            25020005,
+            25020006,
+            25020007,
+            25020008,
+            25020009,
+            25020010,
+            25020011,
+            25020012
+          ],
+          "sectionId": 25020
+        }
+      ],
+      "title": "真相·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25021001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "孙大小姐，你还活着吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021002",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "当然……嘶，要死也是你先死，我可是要战斗到最后一刻的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，今日若不能活着出去，和你一起死在这里倒也不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你不会是想在这种时候伤春悲秋吧？本大小姐可没这个闲功夫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021005",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "两位事到如今还有闲情聊天，好兴致，好雅量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021006",
+          "sourceType": 0,
+          "speaker": "天启精英甲",
+          "text": "主子放心，我来给她们加点猛料，保证让这二人终身难忘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021007",
+          "sourceType": 5,
+          "speaker": "天启精英乙",
+          "text": "报！——有敌袭！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021008",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "「七杀星」阁下，别来无恙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021009",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "不知「天枢星」阁下此行所为何事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "跟我回「七星阁」，你将为自己所犯的罪孽付出代价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021011",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "那就要看「天枢星」有没有这个本事了。\n来人，给我好好招待这几位「贵客」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021012",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "——记住，没有任何禁忌，一个活的都不要留下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25021013",
+          "sourceType": 5,
+          "speaker": "天启精英甲",
+          "text": "杀！杀！杀！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022001",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "现在投降的话，「七星阁」可以给你留条活路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022002",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "今日败于你手，我无话可说。我只想弄清楚，你到底做了些什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022003",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "执棋的人不知身在棋局，未免有些可悲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022004",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "既然如此，周某就将一切的谜底解开，也算对涉事的诸位有所交代。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "实不相瞒，周某自一开始就知道内鬼的存在。但却无法得到足够的证据，证明内鬼的真实身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "随着事情的深入，我意识到内鬼的所作所为指向了「七星古镜」，且为了得到这件宝物，甚至勾结了「天启」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022007",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "此事非同小可，稍有不慎「七星阁」不但满盘皆输，M城的手办界也将惨遭大难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022008",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "我不得不慎之又慎，设法将损失降到最小。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022009",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "你一开始就想守住「七星古镜」，并利用「七星古镜」除掉「天启」，对么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "没错，不过这只是我棋局的前两步，还有一步棋局，便是今日你输掉的这盘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022011",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "我就算计谋不如你，也不该愚昧到让你处处占得先机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022012",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "这是你仅遵循了自己的本能，将所有的事情都复杂化所导致的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022013",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "还记得孙尚香出事之后，我们在「七星阁」议事堂所开的那个秘密会议么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022014",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "与会的所有人里，只有你提到自己曾亲自探查过孙尚香的失踪现场，并带回了一件足以指认她就是内鬼的证据。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022015",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "孙尚香失踪的来龙去脉，我自是再清楚不过。那个企图污蔑她的人，就成了我的第一怀疑对象，难道不是理所当然吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25022016",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "原来如此……我终究是走差了一着。\n只可惜，让我束手就擒可没有那么容易！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-580",
+      "sourceRefs": [
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25021001,
+            25021002,
+            25021003,
+            25021004,
+            25021005,
+            25021006,
+            25021007,
+            25021008,
+            25021009,
+            25021010,
+            25021011,
+            25021012,
+            25021013
+          ],
+          "sectionId": 25021
+        },
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25022001,
+            25022002,
+            25022003,
+            25022004,
+            25022005,
+            25022006,
+            25022007,
+            25022008,
+            25022009,
+            25022010,
+            25022011,
+            25022012,
+            25022013,
+            25022014,
+            25022015,
+            25022016
+          ],
+          "sectionId": 25022
+        }
+      ],
+      "title": "真相·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25023001",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "以上就是我们此次行动的全部内容，所收回的「七星古镜」已妥善保存。内鬼「七杀星」叛逃，目前下落不明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023002",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "此外，在人类|101|的协助下，已剿灭了企图抢夺「七星古镜」的「天启」势力，虽不能保证「天启」永不再犯，却也能有数年的太平日子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023003",
+          "sourceType": 0,
+          "speaker": "「天璇星」",
+          "text": "就这么让「七杀星」跑了，真是便宜他了。话说回来，他跟「天启」搅和到一起是想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023004",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "他梦想着拿到「七星古镜」让时间倒流，完成当年未能完成的统一大业，「天启」不过是他利用的一枚棋子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023005",
+          "sourceType": 0,
+          "speaker": "「天权星」",
+          "text": "可那「天启」想要拿到「七星古镜」又是为了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023006",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "那「天启」有一个小头目，名为「阿撒兹勒」，曾有一段毕生的恨事无法释怀，他的手下得知了「七星古镜」的奥秘，因此便被「七杀星」所利用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023007",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "此次任务危险系数极高，貂蝉表现出了卓越的智慧与勇气，挽救「七星阁」于水火的功劳非她莫属。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我不过是奉「天枢星」的命令行事，功劳应该归大家才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023009",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "这是你应得的，不必过谦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "那么我就不客气了，这次有什么奖励吗？我可是有一点点自己的私心哦，比如——什么时候给我放个长假，带薪的那种？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023011",
+          "sourceType": 0,
+          "speaker": "「天枢星」",
+          "text": "终于露出本性了么，嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「七星阁」的事总算告一段落了，我们是不是又做了一件好事呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我想是的，虽然过程很凶险，可是看到成果的一瞬间真的很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个叫「七星阁」的组织真的好神秘呢，似乎有一种特别的魅力，我们就这样离开没关系吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不会，我们一直待在这里反倒会给他们带来不便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快看，前面有一家店铺，好像有很多手办出入的样子呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "走吧，一起去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023018",
+          "sourceType": 0,
+          "speaker": "店小二",
+          "text": "这位贵客|101|里面请，您想吃点什么？小店为您的到来特意准备了丰盛的美食，只要您说得出口，就算是满汉全席也给您做！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你认识我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023020",
+          "sourceType": 0,
+          "speaker": "店小二",
+          "text": "「七星客栈」人人都认识|101|，您可是贵客中的贵客，我们恭候多时了，快请进吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们老板娘是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023022",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "相识一场，招呼都不打一声就想走，哪有那么容易的事呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023023",
+          "sourceType": 0,
+          "speaker": "周瑜·定风波",
+          "text": "依诸位看，我们该怎么应对现在的状况？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023024",
+          "sourceType": 0,
+          "speaker": "孙尚香·乐逍遥",
+          "text": "进了这家店，就必须「竖着进来，横着出去」，没商量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023025",
+          "sourceType": 0,
+          "speaker": "吕布·少年狂",
+          "text": "就这么办，给本大爷好好喂饱这群家伙，一个都不许放过！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，他们带我们去的地方是……装满了各种食物口味的涂料的豪华包厢，居然还有主人|101|可以吃的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023027",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "怎么样，这场盛宴还满意吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大快朵颐，过瘾过瘾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023029",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你不会以为只有这些吧？那你算是小瞧「七星阁」了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023030",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咦，还有什么特别节目吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023031",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "当然，这可是独属于你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023032",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你很特别，从遇见你的那刻开始，仿佛永远都能在我面前展现出令人惊喜的一面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023033",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "|101|，此时此刻，我既不代表「七星阁」、不再是一位细作，也不代表「七星客栈」、不再是一位老板娘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023034",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我不再是世界上的任何一种身份，而是一名简单的十七岁的少女。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25023035",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我将以我最原初的姿态，为你献上一支独舞，请你为我驻足，好好欣赏——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-581",
+      "sourceRefs": [
+        {
+          "bundle": "thebeauty",
+          "rowIds": [
+            25023001,
+            25023002,
+            25023003,
+            25023004,
+            25023005,
+            25023006,
+            25023007,
+            25023008,
+            25023009,
+            25023010,
+            25023011,
+            25023012,
+            25023013,
+            25023014,
+            25023015,
+            25023016,
+            25023017,
+            25023018,
+            25023019,
+            25023020,
+            25023021,
+            25023022,
+            25023023,
+            25023024,
+            25023025,
+            25023026,
+            25023027,
+            25023028,
+            25023029,
+            25023030,
+            25023031,
+            25023032,
+            25023033,
+            25023034,
+            25023035
+          ],
+          "sectionId": 25023
+        }
+      ],
+      "title": "真相·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 105,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 105,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「内鬼」的真面目",
+  "title": "真相",
+  "wordCount": 3042
+}

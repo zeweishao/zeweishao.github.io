@@ -1,0 +1,81 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1155",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1155001",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "呵哈哈哈哈……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1155002",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "如此弱小而可怜你，为什么要孜孜不倦，渴望迈入前方这无尽的黑渊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1155003",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "秘密之所以能够成为秘密，一定有它不可告人的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1155004",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "你的好奇心，总有一天，会成为紧扼你喉咙的缰绳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1155005",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "胆敢再前迈一步么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1155006",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "我会在前方等着你的，呵哈，呵哈哈哈哈……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1155",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1155001,
+            1155002,
+            1155003,
+            1155004,
+            1155005,
+            1155006
+          ],
+          "sectionId": 1155
+        }
+      ],
+      "title": "原文片段 1155"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1155
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1155",
+  "wordCount": 114
+}

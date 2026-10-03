@@ -1,0 +1,69 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17311",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17311001",
+          "sourceType": 10,
+          "text": "狩猎者也加入了这场为主人定制的美味盛宴，大姐姐的温柔与魅力也会倾注在今晚的烹饪之中哟。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17311002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵，终于来了吗，我的小可爱应该等不及了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17311003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "放心，姐姐会给你准备好有趣的食物的哦。❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17311004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，我会、会好好期待狩猎者的手艺的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17311",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17311001,
+            17311002,
+            17311003,
+            17311004
+          ],
+          "sectionId": 17311
+        }
+      ],
+      "title": "狩猎者的魅力"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17311,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "2",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "狩猎者的厨台解锁，大姐姐的温柔也会倾注在今晚的烹饪之中。",
+  "title": "狩猎者的魅力",
+  "wordCount": 103
+}

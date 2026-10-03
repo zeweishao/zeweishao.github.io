@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213017",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，古典丽人「蔡文姬」化身为1/7比例模型登场！\n蔡文姬捧着胡笳，与飞雪共成一片绝景。而在文静的外表下，动听的旋律和浪漫的幻想正在她心中激烈碰撞。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213017"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 85
+}

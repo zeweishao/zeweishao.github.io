@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213016",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "克莱儿翻转桌上的计时沙漏，唰地一声打开华丽的烫金笔记本，用羽毛蘸水笔写下今日的计划——\n\n【7:00-8:00】叫队友起床~\n【8:00-12:00】基本功+扒带练习！\n【14:00-18:00】和乐队队员们一起练习新歌！\n\n最最重要的是——\n【19:00-20:00】在教练的监督下完成今天的健身计划！",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "时之管家Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213016",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "克莱儿·时之管家Ver.",
+  "title": "时之管家Ver.",
+  "wordCount": 145
+}

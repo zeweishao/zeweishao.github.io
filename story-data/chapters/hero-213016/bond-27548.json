@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213016",
+  "id": "bond-27548",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27548001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "嗯！这次配合得很棒~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "大家先休息一下，一会儿我们再来一遍~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "克莱儿？我刚刚接到社区发来的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548004",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "滴——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "停电通知……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "克莱儿？你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怕黑吗？我这里有备用手电，现在就打开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我不怕黑，我就是……讨厌停电。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "一旦停电的话，原定的排练计划就泡汤了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，正好可以趁这个机会休息一下，你看——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在光污染日渐严重的城市中，也只有在大规模停电的时候，我们才能看到这么多的星星。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "好漂亮！这么多星星……等等，那个是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "流星！克莱儿快许愿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27548015",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "希望接下来不会再停电……\n或者，下次停电的时候，你也在我身边。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27548",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27548001,
+            27548002,
+            27548003,
+            27548004,
+            27548005,
+            27548006,
+            27548007,
+            27548008,
+            27548009,
+            27548010,
+            27548011,
+            27548012,
+            27548013,
+            27548014,
+            27548015
+          ],
+          "sectionId": 27548
+        }
+      ],
+      "title": "停电"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "停电",
+  "wordCount": 237
+}

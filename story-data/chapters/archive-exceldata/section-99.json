@@ -1,0 +1,40 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-99",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "99001",
+          "sourceType": 3,
+          "text": "测试布景",
+          "type": "narration"
+        }
+      ],
+      "id": "99",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            99001
+          ],
+          "sectionId": 99
+        }
+      ],
+      "title": "原文片段 99"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 99
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 99",
+  "wordCount": 4
+}

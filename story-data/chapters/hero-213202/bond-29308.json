@@ -1,0 +1,179 @@
+{
+  "bookId": "hero-213202",
+  "id": "bond-29308",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29308001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "这间屋子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "全心全意服务于您是我的工作，我……怎敢接受这份礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是一些心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308004",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "啊——是！我会仔细收好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "已经不知道要怎样才好了，居然如此失礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308006",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "一直以来，您总是如此辛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "凭空得来这些享受，却无法为您分担哪怕一丝忧虑……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308008",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "如果可以的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？洛瑞丝看起来怪怪的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308010",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "如果可以，请把您完全的交给我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308011",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "作为您忠实的仆人，我将全方位为您打点每一个细节。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "不论何时，只需呼唤一声，我就会立即抵达您的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308013",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我……对不起，头脑恍惚，说了使您难堪的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308014",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "此时此刻，我实在情难自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308016",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "您的意思，是准许这层契约了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳……不出什么差错的话，大概是的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29308018",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我会做好这一切——不论任何吩咐，不论任何目的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29308",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29308001,
+            29308002,
+            29308003,
+            29308004,
+            29308005,
+            29308006,
+            29308007,
+            29308008,
+            29308009,
+            29308010,
+            29308011,
+            29308012,
+            29308013,
+            29308014,
+            29308015,
+            29308016,
+            29308017,
+            29308018
+          ],
+          "sectionId": 29308
+        }
+      ],
+      "title": "终生服务"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213202",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "终生服务",
+  "wordCount": 284
+}

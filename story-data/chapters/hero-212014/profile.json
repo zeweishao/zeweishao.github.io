@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212014",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "来自仓田武道分家的仓田真乃手办化登场！头带飘扬，三节棍轻舞，少女的微笑温柔如晨光。为了成长为能够守护大家的「英雄」，她总是坚持不懈地努力着。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212014"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 70
+}

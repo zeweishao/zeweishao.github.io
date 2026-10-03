@@ -1,0 +1,66 @@
+{
+  "bookId": "hero-212104",
+  "id": "bond-26009",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26009001",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "真神奇，没想到会在这个世界变成手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26009002",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "什么东西看起来都特别大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26009003",
+          "sourceType": 3,
+          "text": "利姆鲁的视线与你相对。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26009004",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "正式的自我介绍，我是利姆鲁。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26009",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26009001,
+            26009002,
+            26009003,
+            26009004
+          ],
+          "sectionId": 26009
+        }
+      ],
+      "title": "变小"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "变小",
+  "wordCount": 55
+}

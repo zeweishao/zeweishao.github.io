@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211001",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气游戏《蘑菇少女的日常》中，与宫本姐妹对决的「莉可」正式手办化登场！手戴拳套、离开王座的莉可即将开始战斗的姿态，被永远定格了下来。逼真的形态、活灵活现的表情细节，将莉可的魅力呈现在我们的面前。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211001"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 97
+}

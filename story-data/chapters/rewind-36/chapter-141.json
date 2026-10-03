@@ -1,0 +1,1291 @@
+{
+  "bookId": "rewind-36",
+  "id": "chapter-141",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33000001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家，准备好了吗？\n要给主人献上我们的「特别节目」了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "最最亲爱的主人，我们为你准备了一份礼物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "为了纪念陪伴主人的每一天快乐时光......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳咳、咳咳！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，当然，也为了纪念艾伦兹降世两周年！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请欣赏我们精心排练的节目——《我对主人的爱》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我对主人的爱，像一首动人的歌。\n在我心里，有数不尽的知心话想要对你说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我对主人的爱，又像胸口碎大石般猛烈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000009",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "来吧，小鬼，尽管用力砸！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000010",
+          "sourceType": 5,
+          "speaker": "杰斯",
+          "text": "喝啊，给我——开！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "冲在最前，我们要把阻碍主人的坏家伙全部消灭！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我对主人的爱，又像刚出锅的灌汤包。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000013",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "今天破例亲自下厨，让你尝尝本大小姐的手艺。\n小二，上菜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000014",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "客官，刚出炉的包子，来——喽——\n哎哎哎哟，哪来的碎石头！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000015",
+          "sourceType": 5,
+          "speaker": "旁白",
+          "text": "啪叽——叮里咣当——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "鲜美的汤汁，像我的热情在燃烧——\n包、包子，飞过来了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000017",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "好烫——！！！\n呜啊啊，烫烫烫！感觉涂料......要化掉了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "优纪，烫伤好些了吗？\n吾命人再去准备一些冰敷袋给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不用不用，我已经没事啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真可惜，明明是艾伦兹第一次来看我们的彩排，还有很多节目没展示呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "......还有很多？后面是什么节目？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "接下来是现场作画、脱口秀，然后魔术师登场，用脱口秀演员表演大变活人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么样，是不是精彩不断？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "......艾伦兹？怎么了？你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你看起来很不对劲，是不是刚才包子溅出来的汤汁把你也烫到了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000026",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "虽然有些不忍苛责，但为了准备完美的周年庆典，吾不得不提醒你——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000027",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "混乱不堪、不知所云，这就是我对节目编排的评价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000028",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "就像融合了全部口味的巧克力一样糟糕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但是，大家擅长的表演完全不同，光是把节目串起来就已经很勉强了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000030",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "既然无法达成一致，为什么不各自准备？\n就像以往那样，各自送上自己的心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "话虽如此，但是......其实，我有一个小小的愿望——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我已经很久没看到主人露出「意想不到」的表情了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000033",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "以主人对我们的了解程度，肯定早就会猜到我们各自准备的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪这次想要给|102|制造一点惊喜嘛......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000035",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾理解你的想法。但即便如此，也不能简单地把所有内容叠加在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000036",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "呈现这样的节目，绝对无法让|101|高兴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33000037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么，我再想想看？\n唔，给主人制造惊喜......果然好难啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-742",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33000001,
+            33000002,
+            33000003,
+            33000004,
+            33000005,
+            33000006,
+            33000007,
+            33000008,
+            33000009,
+            33000010,
+            33000011,
+            33000012,
+            33000013,
+            33000014,
+            33000015,
+            33000016,
+            33000017,
+            33000018,
+            33000019,
+            33000020,
+            33000021,
+            33000022,
+            33000023,
+            33000024,
+            33000025,
+            33000026,
+            33000027,
+            33000028,
+            33000029,
+            33000030,
+            33000031,
+            33000032,
+            33000033,
+            33000034,
+            33000035,
+            33000036,
+            33000037
+          ],
+          "sectionId": 33000
+        }
+      ],
+      "title": "M城传说·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33001001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，还在烦恼周年庆典的事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "艾伦建议各自给主人准备礼物，大家也都接受了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但是.....但是我还是想不出要准备什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "单单让主人高兴还不够，必须给|102|制造惊喜才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "高兴和惊喜，难道不是大同小异吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然不是！我想让主人「喜出望外」，就像这样——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哇啊！......唔、哎？呜啊啊啊啊啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪这种状态，不是「喜出望外」，应该叫「大惊失色」才对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "石、石头，表演胸口碎大石用的石头在动！\n不仅在动，好像还在说话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001010",
+          "sourceType": 5,
+          "speaker": "石头",
+          "text": "呜呜呜，我死得好惨啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "凄厉的哭声......的确是从石头上传来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33001012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "难、难道说，闹鬼了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-743",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33001001,
+            33001002,
+            33001003,
+            33001004,
+            33001005,
+            33001006,
+            33001007,
+            33001008,
+            33001009,
+            33001010,
+            33001011,
+            33001012
+          ],
+          "sectionId": 33001
+        }
+      ],
+      "title": "M城传说·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33003001",
+          "sourceType": 3,
+          "text": "两天后。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33003002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，|101|你听，灵魂的悲鸣近在咫尺......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33003004",
+              "text": "什么灵魂？"
+            },
+            {
+              "targetId": "33003004",
+              "text": "哪有悲鸣？"
+            }
+          ],
+          "sourceId": "33003003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33003004",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "奇萝的意思是——有精心准备的礼物想要送给|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003005",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "这份礼物是历尽艰险得到的，独一无二的珍品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "接受来自黑暗的馈赠，寻找消逝在时光中的呼唤吧！暗夜王灵在呢喃着你的名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003007",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "......希望你喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "虽、虽然吾才不会在意送礼物被抢先了这种事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "但如果你敢拿什么奇怪的东西给|101|，吾绝不会容许！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，快拆开看看！\n主人收到的第一份礼物，优纪也很期待呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33003012",
+              "text": "拆开礼物包裹"
+            }
+          ],
+          "sourceId": "33003011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33003012",
+          "sourceType": 3,
+          "text": "包裹里是一本手记，似乎是奇萝亲自写的。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33003013",
+          "sourceType": 3,
+          "text": "手记包含了六则怪谈故事，分别是「会动的纸箱」「悬浮的影子」以及……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33003014",
+          "sourceType": 3,
+          "text": "「夜半的哀歌」「粘稠的汁液」「打不开的门」和「缸中的幽灵」。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33003015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "......这些是什么，胡编乱造的鬼故事也能称作礼物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "所谓灵异事件，不过是荒诞不羁的臆想而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003017",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "我以幽灵的信誉发誓，这些都是我亲眼所见，否则就让我——死而复生！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33003019",
+              "text": "真是毒誓！"
+            },
+            {
+              "targetId": "33003019",
+              "text": "总感觉没什么威慑力？"
+            }
+          ],
+          "sourceId": "33003018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33003019",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，|101|，这份来自幽灵的赠礼，让你感到惊喜了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33003021",
+              "text": "确实很「惊喜」。"
+            },
+            {
+              "targetId": "33003021",
+              "text": ".....我有点被吓到了。"
+            }
+          ],
+          "sourceId": "33003020",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33003021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "即便你说是亲眼所见......吾果然还是觉得难以相信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "如果有这么多幽灵在身边，吾不可能毫无察觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003023",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "这些都是我亲自从黑暗的深渊带回的秘密。\n如果怀疑，就用双眼去验证吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33003025",
+              "text": "你们相信这些怪谈吗？"
+            }
+          ],
+          "sourceId": "33003024",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33003025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有没有幽灵这种事......优纪不知道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但是，或许是直觉，我能感受到奇萝确实在用心准备礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003027",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我不相信灵异事件，但既然奇萝说是亲眼所见......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "或许这些怪象真的存在，而它们背后另有原因。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "既然怪谈现象出现的时间、地点都已经明确，我们不如跟随奇萝去验证一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003030",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾同意，即便没有幽灵，这些诡异的现象对|101|而言很可能是潜在的危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003031",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "当然，既然是吾提出的质疑，吾也会出一分力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33003032",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "是时候给阿斯塔罗斯安排新的工作了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-744",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33003001,
+            33003002,
+            33003003,
+            33003004,
+            33003005,
+            33003006,
+            33003007,
+            33003008,
+            33003009,
+            33003010,
+            33003011,
+            33003012,
+            33003013,
+            33003014,
+            33003015,
+            33003016,
+            33003017,
+            33003018,
+            33003019,
+            33003020,
+            33003021,
+            33003022,
+            33003023,
+            33003024,
+            33003025,
+            33003026,
+            33003027,
+            33003028,
+            33003029,
+            33003030,
+            33003031,
+            33003032
+          ],
+          "sectionId": 33003
+        }
+      ],
+      "title": "M城传说·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33004001",
+          "sourceType": 3,
+          "text": "第一大不可思议：会动的纸箱。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33004002",
+          "sourceType": 3,
+          "text": "「纸箱中寄宿着幽灵，爬向自己的寄送地址，彻夜不停。\n笃、笃、笃，请开门吧，你的快递到了。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33004003",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "就是这个鬼地方？这里这么多箱子，我们要从哪里找？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "安静点，自己不干活，不要打扰别人。\n桑尼，有感受到什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004005",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "米娅莫拉苏娜丹妮......唔......让我好好感受一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我早就说过，所谓灵异事件只是信口胡诌的骗局。\n对不对，阿斯塔罗斯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004007",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "阿斯塔罗斯......不见了！\n唔，仓库深处，好像有什么动静......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004008",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "嘁，像泥鳅一样，逃得飞快！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004009",
+          "sourceType": 5,
+          "speaker": "神秘盒子",
+          "text": "呜呜......呜呜呜——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004010",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "阿斯塔罗斯，等等！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004011",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "为什么拦住我？一剑扎下去，管他什么幽灵都动弹不得。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004012",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "问题在于，我没有感受到任何幽灵的气息......\n里面应该是真实的生命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "那就跟上去，既然不是幽灵，总归有从纸箱里出来的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004014",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "呼、呼哧......\n等......等一下，我跑不动了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004015",
+          "sourceType": 3,
+          "text": "窸窸窣窣——\n有人从纸箱旁边的草丛钻了出来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33004016",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "没关系，可以休息一会......应该已经甩掉他们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004017",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "你没受伤吧？快出来，我帮你检查一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004018",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "噗哈——虽然箱子里很有安全感，但果然还是外面的空气清新呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004019",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "什么？！两个手办在耍我们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004020",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "别出声，继续看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004021",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "对不起......刚才，明明出来解释清楚就行的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004022",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "都是我，害得你也跟着一起逃跑......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004023",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "虽然已经在慢慢克服了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004024",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "但是一旦被很多陌生人的目光注视着，还是会紧张得说不出话......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004025",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "海柔尔没必要道歉，毕竟让你躲在箱子里出门是我的提议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004026",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "适应新环境总需要一个过程，我会陪着你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004027",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯！谢谢......\n我们到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004028",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "已经到啦！放心吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004029",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这次我是严格按照地图前进，测量了自己一步的长度，特地数着步数走的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004030",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "今天不会再带错路让你绕一整夜了，嘿嘿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004031",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "那、那个、真乃，地图是不是......拿反了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33004032",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "哎——？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-745",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33004001,
+            33004002,
+            33004003,
+            33004004,
+            33004005,
+            33004006,
+            33004007,
+            33004008,
+            33004009,
+            33004010,
+            33004011,
+            33004012,
+            33004013,
+            33004014,
+            33004015,
+            33004016,
+            33004017,
+            33004018,
+            33004019,
+            33004020,
+            33004021,
+            33004022,
+            33004023,
+            33004024,
+            33004025,
+            33004026,
+            33004027,
+            33004028,
+            33004029,
+            33004030,
+            33004031,
+            33004032
+          ],
+          "sectionId": 33004
+        }
+      ],
+      "title": "M城传说·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33005001",
+          "sourceType": 3,
+          "text": "第二大不可思议：悬浮的影子。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33005002",
+          "sourceType": 3,
+          "text": "「不甘死去的冤魂，双脚悬空，痛苦的挣扎，重复着生命的最后一个音节。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33005003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我拜托|101|准备了强光手电筒，我们一人一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，生者才需要这些。\n即使在黑暗中，身为幽灵的我也能看得非常清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "还是拿上吧，这不仅是照明，也是武器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "在适当的地点增加光源，可以让影子变淡——或许能帮我们应对一些意外状况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005007",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咦，和江不是不相信灵异事件吗？果然，你也无法摆脱对鬼魂的恐惧......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我不相信有幽灵，但我尊重未知。\n面对未知，我们只能尽力做好万全准备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "面对幽灵本尊说这种话，真过分呢......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "别动，在你身后——出现了，悬浮的影子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005011",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜......好难受......好痛苦啊啊啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005012",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我，我不甘心......我......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "凄厉的哭嚎，充满对往生的不甘——\n看来我们遇到了怨念很强的鬼魂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "又忽然安静下来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005015",
+          "sourceType": 3,
+          "text": "啪嚓——四周忽然陷入黑暗。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33005016",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "在黑暗中看不清路的凡人——不打开手电筒吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "摸黑前进吧。\n黑暗未必是坏事，没有光亮，就无法构成影子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你听——那边有什么东西......在靠近。\n冲着我们的方向，要来了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005019",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "好极了，今天就这样偷偷溜回家......哎哟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005020",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "萝贝卡，你、要、去、哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005021",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜呜哇啊，今天停电，也没办法继续吊单杠了嘛——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "吊单杠？......「悬浮的影子」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005023",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "哦，你们这么晚还来体育场加训？很有精神，值得嘉奖！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005024",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "还有多谢！帮我抓住了逃训的坏孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "悬浮的影子，再次出现在墙壁上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005026",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "嗯......看得出来，她真的在经受非人的折磨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005027",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "如果在训练中途累死，一定会成为强大的怨灵吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005028",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜呜......好难受，好痛苦......我真的要不行了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005029",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "对不起，我承认电闸是我关掉的，放过我吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005030",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "想放弃？你甘心吗？训练结束后，白钻刺枪和全套潮玩贴纸，统统买给你哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005031",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不......呜呜，我，我不甘心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33005032",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "那就给我动起来！\n刚才为止的只是准备活动而已，热身完毕，加大量级！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-746",
+      "sourceRefs": [
+        {
+          "bundle": "qiluo",
+          "rowIds": [
+            33005001,
+            33005002,
+            33005003,
+            33005004,
+            33005005,
+            33005006,
+            33005007,
+            33005008,
+            33005009,
+            33005010,
+            33005011,
+            33005012,
+            33005013,
+            33005014,
+            33005015,
+            33005016,
+            33005017,
+            33005018,
+            33005019,
+            33005020,
+            33005021,
+            33005022,
+            33005023,
+            33005024,
+            33005025,
+            33005026,
+            33005027,
+            33005028,
+            33005029,
+            33005030,
+            33005031,
+            33005032
+          ],
+          "sectionId": 33005
+        }
+      ],
+      "title": "M城传说·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 141,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 141,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "城中流传着六大怪谈传说",
+  "title": "M城传说",
+  "wordCount": 3331
+}

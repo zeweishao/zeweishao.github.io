@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213110",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「藤林杏」化身为1/7比例模型登场！尽管总是给人很强势的印象，但她却一次又一次为身边的朋友带来鼓励和希望。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213110"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 53
+}

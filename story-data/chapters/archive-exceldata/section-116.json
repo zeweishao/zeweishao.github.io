@@ -1,0 +1,63 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-116",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "116001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江她……被叼走了……\n别走！请……请你把和江，还给优纪呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "116002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，主人……\n这个时候，你……你在哪里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "116003",
+          "sourceType": 3,
+          "text": "「岩田和江」被猫叼走。\n家中的手办虽然心急，但未经你的许可贸然出门，只会让情形更加焦急。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "116004",
+          "sourceType": 3,
+          "text": "而彼时，忙碌一天的你，正踏着步子，同样焦急的渴望再次见到书桌上可爱的手办们。",
+          "type": "narration"
+        }
+      ],
+      "id": "116",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            116001,
+            116002,
+            116003,
+            116004
+          ],
+          "sectionId": 116
+        }
+      ],
+      "title": "原文片段 116"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 116
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 116",
+  "wordCount": 132
+}

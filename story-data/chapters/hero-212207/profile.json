@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212207",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师第九将夜细腻还原了塞西尔在人气枪战游戏《少女X机关枪》中的形象。塞西尔手中的电锯划破了战场的黑暗，为特兰斯尔的民众带来白昼。战场上的食人花带着微笑，宣判敌人的死期将至！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212207"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

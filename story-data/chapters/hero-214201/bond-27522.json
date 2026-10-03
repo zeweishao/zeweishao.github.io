@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214201",
+  "id": "bond-27522",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27522001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾刚才看到你和其他手办在一起了。\n嗯，好像挺开心的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "什么「啊？」，你是吾的仆从，你怎么可以和其他手办那么亲近！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃，不行吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "当然不行！你不能和除了吾之外的手办这么要好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是，你对阿斯塔罗斯好像都不管不问呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……你不一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我也说不上哪里不一样……反正，你是特别的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "没错，你是唯一一个能和手办说话的人类，所以你的身份很特别！不是你对我来说很特别哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "恩恩，我的身份很特别，所以？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……哎呀我不管！！反正你只能效忠于本王，只能对本王好，不能悄悄和其他手办眉来眼去，听懂了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好的好的，我知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "说好了哦！！要是出尔反尔的话……我们龙族可是很记仇的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼~那现在陪我一起去巡视领地吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27522015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（心情恢复的真快呀）",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27522",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27522001,
+            27522002,
+            27522003,
+            27522004,
+            27522005,
+            27522006,
+            27522007,
+            27522008,
+            27522009,
+            27522010,
+            27522011,
+            27522012,
+            27522013,
+            27522014,
+            27522015
+          ],
+          "sectionId": 27522
+        }
+      ],
+      "title": "效忠"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214201",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "效忠",
+  "wordCount": 297
+}

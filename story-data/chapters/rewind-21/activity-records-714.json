@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-21",
+  "id": "activity-records-714",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "第一次遇到异界的魔王，竟然是在这种情况下？",
+          "title": "我可不是坏史莱姆哟",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "命运交互"
+    },
+    {
+      "blocks": [
+        {
+          "text": "为什么这些家伙会有静小姐的面具……幕后主使又是什么样的手办？",
+          "title": "我可不是坏史莱姆哟",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "幕后黑手"
+    },
+    {
+      "blocks": [
+        {
+          "text": "为了解决心中的疑惑，利姆鲁决定利用自己的伪装能力潜入敌人的据点。",
+          "title": "我可不是坏史莱姆哟",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "秘密潜行"
+    },
+    {
+      "blocks": [
+        {
+          "text": "中了圈套的话，就用力量来突破困境吧。",
+          "title": "我可不是坏史莱姆哟",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "魔王降临"
+    },
+    {
+      "blocks": [
+        {
+          "text": "闷棍的声音，如此清脆。",
+          "title": "「潜行认证」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "一级闷棍"
+    },
+    {
+      "blocks": [
+        {
+          "text": "背刺应该悄无声息。",
+          "title": "「潜行认证」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "二级背刺"
+    },
+    {
+      "blocks": [
+        {
+          "text": "那人如鹰击而落。",
+          "title": "「潜行认证」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "三级跃击"
+    },
+    {
+      "blocks": [
+        {
+          "text": "被发现的话，那就没办法了。",
+          "title": "「潜行认证」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "顶级无双"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "714",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 142
+}

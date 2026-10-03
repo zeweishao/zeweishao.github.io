@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214018",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这曾是少女心底的梦魇。她行走在战后的废墟，死亡如呼吸般在身体里流淌。焦黑的藤蔓爬满了大地，但腐朽的根茎上，却开出了洁白的花朵。\n\n「来年会丰收唷。」导师的话将希塔带回现实，「看，已经有野草长出来了。」\n\n希塔看向脚下，机甲的残骸间，鲜血滋养的土地上已经有了几丛绿意。在稍远的角落，有一朵娇小的白花。\n\n「……我会记住他们的。」希塔没有哭，因为生命和她都很坚强。\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "深涧幽花Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214018",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "希塔·深涧幽花Ver.",
+  "title": "深涧幽花Ver.",
+  "wordCount": 194
+}

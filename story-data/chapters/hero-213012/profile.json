@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213012",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "来自白鸟会的少女「神宫有咲」化身1/7比例模型登场！随意的T恤搭配超短裤，将处于青春期的少女纤细柔美的身材衬托得格外生动。双手背在身后，一脸坏笑着的神宫，双眼透出一丝狡黠，一定又在酝酿着新的整蛊恶作剧了吧。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213012"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 103
+}

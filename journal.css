@@ -5118,487 +5118,317 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
 }
 
 /* ==========================================================================
-   Home — today's diary spread
+   Home · one letter, with the little things saved between its pages.
+   Preserve the paper palette and hand lettering; use content-sized keepsakes.
    ========================================================================== */
+
+.home-page {
+  --home-paper: #fffaf1;
+  --home-edge: rgba(151, 114, 73, 0.22);
+  --home-shadow: 0 3px 6px rgba(89, 60, 32, 0.04), 0 8px 20px rgba(89, 60, 32, 0.09);
+}
 
 .diary {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
-  gap: 0 clamp(40px, 6vw, 84px);
-  padding: 40px 0 8px;
+  gap: 0 clamp(36px, 5vw, 64px);
+  padding: 36px 0 8px;
 }
 
-/* the fold between the two pages */
-.diary::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: -20px;
-  left: calc(48% - 1px);
-  width: 34px;
-  margin-left: -17px;
-  background: linear-gradient(to right, transparent, rgba(90, 60, 30, 0.10) 45%, rgba(90, 60, 30, 0.16) 50%, rgba(90, 60, 30, 0.10) 55%, transparent);
-  pointer-events: none;
-}
 
 .diary-page {
   position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
+  gap: 30px;
 }
 
 .diary-head {
   display: flex;
   align-items: center;
   gap: 18px;
-  margin-bottom: 30px;
+  min-height: 102px;
 }
 
-.diary .date-stamp {
-  width: 92px;
-  height: 92px;
-}
-
-.diary .date-stamp .md {
-  font-size: 24px;
-}
-
+.diary .date-stamp { width: 82px; height: 82px; }
+.diary .date-stamp .md { font-size: 23px; }
+.diary-head-text { min-width: 0; }
 .diary-head-text .eyebrow {
-  margin: 0 0 2px;
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #896437;
 }
-
 .diary-head h1 {
   margin: 0;
   font-family: var(--hand);
   font-weight: 400;
-  font-size: clamp(32px, 3.4vw, 44px);
-  line-height: 1.2;
+  font-size: clamp(30px, 3vw, 39px);
+  line-height: 1.35;
   color: var(--ink);
   letter-spacing: 1px;
-  white-space: nowrap;
+  text-wrap: balance;
 }
+.diary-head h1 > span { display: inline-block; white-space: nowrap; }
 
 .diary-letter {
-  --line-h: 40px;
+  --line-h: 38px;
   position: relative;
   display: block;
-  padding: 18px 30px 22px;
+  padding: 17px 26px 16px;
+  border: 1px solid var(--home-edge);
+  background-color: var(--home-paper);
   color: var(--ink) !important;
   text-decoration: none;
-  box-shadow: var(--shadow);
-  transform: rotate(-0.8deg);
+  box-shadow: var(--home-shadow);
+  transform: rotate(-0.6deg);
 }
-
-.diary-letter .label,
-.diary-figure .label {
+.diary-letter > .tape { top: -14px; left: 24px; width: 88px; transform: rotate(-4deg); }
+.diary-letter .sticker { right: -10px; top: -26px; width: 68px; transform: rotate(8deg); }
+.diary-letter .label {
   display: block;
+  padding-right: 20px;
   color: var(--ink-soft);
   font-size: 13px;
-  letter-spacing: 3px;
-  line-height: 40px;
+  letter-spacing: 2px;
+  line-height: 38px;
 }
-
 .diary-letter .text {
   margin: 0;
   font-family: var(--hand);
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 38px;
   white-space: pre-line;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 .diary-letter .more {
   display: block;
   margin-top: 6px;
   color: var(--rose);
-  font-size: 14px;
-  line-height: 40px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: right;
 }
 
-.diary-tea {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-self: flex-start;
-  width: min(300px, 86%);
-  margin: 40px 0 0 24px;
-  padding: 18px 22px 16px;
-  background: var(--card);
-  color: var(--ink) !important;
-  font-size: 14px;
-  text-decoration: none;
-  box-shadow: var(--shadow);
-  transform: rotate(1.6deg);
-  -webkit-mask: radial-gradient(circle 5px at 50% 0, transparent 98%, #000) top / 14px 51% repeat-x,
-    radial-gradient(circle 5px at 50% 100%, transparent 98%, #000) bottom / 14px 51% repeat-x;
-  mask: radial-gradient(circle 5px at 50% 0, transparent 98%, #000) top / 14px 51% repeat-x,
-    radial-gradient(circle 5px at 50% 100%, transparent 98%, #000) bottom / 14px 51% repeat-x;
+.diary-right { padding-top: 6px; gap: 32px; }
+.diary-right .spread-card {
+  margin: 0;
+  padding: 10px 10px 8px;
+  border: 1px solid var(--home-edge);
+  background: var(--home-paper);
+  box-shadow: var(--home-shadow);
+  transform: rotate(0.7deg);
 }
-
-.diary-tea .title {
-  font-weight: 700;
-  letter-spacing: 6px;
+.diary-right .spread-card figcaption {
+  padding: 10px 4px 2px;
+  color: #896437;
+  font-size: 19px;
+  line-height: 1.5;
   text-align: center;
 }
 
-.diary-tea .row {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.diary-tea .rule {
-  border-top: 1px dashed var(--brass);
-  padding-top: 8px;
-}
-
-.diary-right {
+.diary-keepsakes {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 34px 26px;
-  align-content: start;
-  padding-top: 6px;
+  align-items: start;
+  gap: 22px;
 }
-
-.diary-right .spread-card {
-  grid-column: 1 / -1;
-  margin: 0;
-  padding: 12px 12px 8px;
-  background: var(--card);
-  box-shadow: 0 6px 22px rgba(42, 39, 51, 0.14);
-  transform: rotate(1.2deg);
-}
-
-.diary-right .spread-card figcaption {
-  padding: 8px 4px 0;
-  color: var(--brass);
-  font-size: 20px;
-  text-align: center;
-}
-
 .diary-photo {
   position: relative;
   display: block;
-  padding: 10px 10px 40px;
-  background: var(--card);
-  box-shadow: var(--shadow);
+  min-width: 0;
+  padding: 9px 9px 10px;
+  border: 1px solid var(--home-edge);
+  background: var(--home-paper);
+  box-shadow: var(--home-shadow);
   color: var(--ink) !important;
   text-decoration: none;
-  transform: rotate(-2.4deg);
+  transform: rotate(-1.5deg);
 }
-
 .diary-photo img {
   display: block;
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
 }
+.diary-photo .hand { display: block; padding: 8px 3px 0; font-size: 19px; line-height: 1.45; }
 
-.diary-photo .hand {
-  position: absolute;
-  left: 14px;
-  bottom: 8px;
-  font-size: 20px;
-}
-
-.diary-figure {
+.diary-tea {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 16px 14px 18px;
-  border: 2px dotted var(--brass);
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.7);
+  min-width: 0;
+  margin: 12px 0 8px;
+  padding: 15px 16px 12px;
+  border: 1px solid var(--home-edge);
+  background: var(--home-paper);
+  box-shadow: var(--home-shadow);
   color: var(--ink) !important;
-  text-align: center;
   text-decoration: none;
+  transform: rotate(1deg);
 }
+.diary-tea::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(135deg, var(--home-paper) 25%, transparent 25%) -5px 0 / 10px 10px,
+    linear-gradient(225deg, var(--home-paper) 25%, transparent 25%) -5px 0 / 10px 10px;
+  pointer-events: none;
+}
+.diary-tea > .tape { top: -15px; left: calc(50% - 33px); width: 66px; transform: rotate(-5deg); }
+.tea-note-head { display: flex; align-items: center; gap: 6px; padding-bottom: 10px; border-bottom: 1px dashed var(--home-edge); }
+.tea-note-head img { width: 34px; height: 42px; object-fit: contain; }
+.diary-tea .title { font-size: 22px; line-height: 1.2; }
+.tea-note-label { margin-top: 12px; color: var(--ink-soft); font-size: 12px; letter-spacing: 1px; }
+.tea-note-name { margin-top: 3px; font-size: 17px; font-weight: 600; line-height: 1.65; overflow-wrap: anywhere; }
+.tea-note-meta { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; margin-top: 5px; color: var(--ink-soft); font-size: 12px; }
+.tea-note-meta .num { font-size: 15px; }
+.tea-note-meta:not(:has([data-tea-row]:not([hidden]))) { display: none; }
+.tea-note-footer { display: flex; justify-content: space-between; gap: 8px; margin-top: 14px; padding-top: 9px; border-top: 1px dashed var(--home-edge); color: var(--rose); font-size: 12px; }
 
 .diary-figure-wrap {
   position: relative;
-  display: flex;
-  transform: rotate(1.4deg);
+  align-self: stretch;
+  padding: 16px 20px 18px;
+  border: 1px solid var(--home-edge);
+  background: var(--home-paper);
+  box-shadow: var(--home-shadow);
+  transform: rotate(0.6deg);
 }
-
-.diary-figure-wrap > .diary-figure {
-  flex: 1;
-}
-
-.diary-figure .portrait {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  width: 108px;
-  height: 108px;
-  overflow: hidden;
-  border-radius: 50%;
-  background: var(--paper-2);
-}
-
-/* Dome stickers: zoom past the glass lid and base so the chibi fills the circle. */
-.diary-figure .portrait img {
-  height: 190%;
-  width: auto;
-  max-width: none;
-  margin-top: -40%;
-}
-
+.diary-figure-wrap > .tape { top: -12px; left: 28px; width: 62px; transform: rotate(-5deg); }
+.figure-note-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.figure-note-head .label { color: var(--ink-soft); font-size: 12px; letter-spacing: 2px; }
 .figure-shuffle {
-  position: absolute;
-  top: -12px;
-  right: -10px;
-  padding: 5px 12px;
-  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 4px;
+  min-height: 32px;
+  padding: 4px 8px;
+  border: 1px solid rgba(184, 71, 63, 0.26);
   border-radius: 3px;
-  background: var(--rose);
-  color: #fff;
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: 2px;
-  box-shadow: 0 2px 6px rgba(80, 40, 20, 0.25);
-  transform: rotate(8deg);
+  background: #f8ece1;
+  color: var(--rose-deep);
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s;
 }
-
-.figure-shuffle::before {
-  content: "↻ ";
+.figure-shuffle::before { content: "↻"; font-family: var(--serif); font-size: 16px; }
+.figure-shuffle:hover { background: var(--blush); }
+.diary-figure {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+  color: var(--ink) !important;
+  text-decoration: none;
 }
-
-.figure-shuffle:hover,
-.figure-shuffle:focus-visible {
-  background: var(--rose-deep);
-  transform: rotate(8deg) scale(1.06);
-}
-
-.diary-figure-wrap.is-shuffled .diary-figure {
-  animation: figure-shuffle-in 0.35s ease-out;
-}
-
+.diary-figure .portrait { display: flex; align-items: center; justify-content: center; }
+.diary-figure .portrait img { display: block; width: 100%; height: 142px; object-fit: contain; }
+.figure-note-copy { min-width: 0; }
+.diary-figure strong { display: block; margin-bottom: 6px; font-size: 20px; font-weight: 600; }
+.diary-figure .hand { display: block; color: var(--rose-deep); font-size: 20px; line-height: 1.6; }
+.figure-note-more { display: block; margin-top: 10px; font-size: 12px; color: var(--ink-soft); }
+.diary-figure-wrap.is-shuffled .diary-figure { animation: figure-shuffle-in 0.3s ease-out; }
 @keyframes figure-shuffle-in {
-  from { opacity: 0.3; transform: translateY(4px); }
+  from { opacity: 0.4; transform: translateY(3px); }
   to { opacity: 1; transform: none; }
+}
+
+.diary-more { padding-top: 42px; }
+.diary-more .c-comic {
+  max-width: none;
+  margin: 0;
+  min-height: 210px;
+  border: 1px solid var(--home-edge);
+  background: var(--home-paper);
+  box-shadow: var(--home-shadow);
+  transform: rotate(-0.3deg);
+}
+.diary-more .c-comic .cover { border-color: var(--home-edge); }
+.diary-more .c-comic .go { border-color: var(--home-edge); }
+.diary-more .c-comic .no { color: #896437; }
+
+@media (hover: hover) and (pointer: fine) {
+  .diary-letter, .diary-tea, .diary-photo, .diary-more .c-comic { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .diary-letter:hover, .diary-tea:hover, .diary-photo:hover, .diary-more .c-comic:hover { transform: rotate(0deg) translateY(-2px); box-shadow: 0 10px 24px rgba(89, 60, 32, 0.14); }
+  .diary-figure:hover .figure-note-more { color: var(--rose); }
+}
+
+@media (max-width: 1100px) {
+  .diary { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px 24px; padding-top: 26px; }
+  .diary-left, .diary-right { display: contents; }
+  .diary-head { grid-column: 1 / -1; order: 1; }
+  .diary-right .spread-card { grid-column: 1 / -1; order: 2; }
+  .diary-letter { grid-column: 1 / -1; order: 3; }
+  .diary-keepsakes { grid-column: 1 / -1; order: 4; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: center; }
+  .diary-figure-wrap { grid-column: 1 / -1; order: 5; }
+  .diary-keepsakes .diary-photo { width: 100%; max-width: 290px; justify-self: center; }
+  .diary-tea { width: 100%; max-width: 290px; justify-self: center; padding: 20px 24px 16px; }
+  .diary-figure { grid-template-columns: 120px minmax(0, 1fr); gap: 24px; }
+  .diary-figure .portrait img { height: 150px; }
+  .figure-note-copy { max-width: 28em; }
+}
+
+@media (max-width: 760px) {
+  .diary { gap: 26px; padding-top: 18px; }
+  .diary-head { min-height: 86px; gap: 12px; }
+  .diary .date-stamp { width: 64px; height: 64px; }
+  .diary .date-stamp .md { font-size: 19px; }
+  .diary .date-stamp .y, .diary .date-stamp .w { font-size: 10px; }
+  .diary-head .eyebrow { margin-bottom: 6px; font-size: 12px; letter-spacing: 1px; }
+  .diary-head h1 { font-size: clamp(25px, 4.8vw, 32px); letter-spacing: 0; }
+  .diary-right .spread-card { padding: 7px 7px 5px; transform: none; }
+  .diary-right .spread-card figcaption { padding: 8px 3px 3px; font-size: 16px; }
+  .diary-right .spread-card .tape { top: -12px; width: 64px !important; }
+  .diary-letter { --line-h: 34px; padding: 14px 18px 12px; }
+  .diary-letter .label, .diary-letter .more { font-size: 12px; line-height: 34px; }
+  .diary-letter .text { font-size: 21px; line-height: 34px; }
+  .diary-letter .sticker { width: 54px; right: -5px; top: -22px; }
+  .diary-keepsakes { gap: 18px; }
+  .diary-photo { padding: 7px 7px 8px; }
+  .diary-photo .hand { padding-top: 6px; font-size: 17px; }
+  .diary-tea { padding: 14px; }
+  .diary-figure-wrap { padding: 14px 16px 16px; }
+  .diary-figure { grid-template-columns: 88px minmax(0, 1fr); gap: 14px; }
+  .diary-figure .portrait img { height: 124px; }
+  .diary-figure strong { font-size: 18px; }
+  .diary-figure .hand { font-size: 18px; line-height: 1.55; }
+  .figure-shuffle { min-height: 40px; padding: 6px 9px; }
+  .diary-more { padding-top: 32px; }
+  .diary-more .c-comic .body { padding: 20px; }
+  .home-actions { gap: 10px; }
+  .home-actions > * { flex: 1 1 auto; padding-left: 14px; padding-right: 14px; white-space: nowrap; }
+}
+
+@media (max-width: 480px) {
+  .diary-keepsakes { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .diary-keepsakes .diary-photo { max-width: 260px; }
+  .diary-tea { max-width: none; margin: 0; padding: 16px 20px 14px; }
+  .tea-note-head { padding-bottom: 8px; }
+  .tea-note-head img { width: 30px; height: 36px; }
+  .tea-note-label { margin-top: 10px; }
+  .diary-figure-wrap { padding: 12px 13px 16px; }
+  .diary-figure { grid-template-columns: 78px minmax(0, 1fr); gap: 12px; }
+  .diary-figure .portrait img { height: 112px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .diary-figure-wrap.is-shuffled .diary-figure { animation: none; }
-}
-
-.diary-figure .label {
-  line-height: 1.6;
-  margin-top: 8px;
-}
-
-.diary-figure strong {
-  font-size: 20px;
-}
-
-.diary-figure .hand {
-  color: var(--rose);
-  font-size: 17px;
-  line-height: 1.45;
-}
-
-.diary-more {
-  padding-top: 56px;
-}
-
-.diary-more .c-comic {
-  max-width: 820px;
-  margin: 0 auto;
-  transform: rotate(-0.4deg);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .diary-letter,
-  .diary-tea,
-  .diary-photo,
-  .diary-figure,
-  .diary-right .spread-card {
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-  }
-
-  .diary-letter:hover,
-  .diary-tea:hover,
-  .diary-photo:hover,
-  .diary-figure:hover {
-    transform: rotate(0deg) translateY(-4px);
-    box-shadow: var(--shadow-lift);
-  }
-}
-
-@media (max-width: 980px) {
-  .diary {
-    grid-template-columns: 1fr;
-    padding-top: 22px;
-  }
-
-  .diary::before {
-    display: none;
-  }
-
-  .diary-left {
-    display: contents;
-  }
-
-  .diary-head { order: 1; }
-  .diary-right { order: 2; display: contents; }
-  .diary-right .spread-card { order: 2; }
-  .diary-letter { order: 3; }
-  .diary-tea { order: 4; }
-  .diary-photo { order: 5; }
-  .diary-figure-wrap { order: 6; }
-
-  .diary {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 30px 16px;
-  }
-
-  .diary-head,
-  .diary-right .spread-card,
-  .diary-letter {
-    grid-column: 1 / -1;
-  }
-
-  .diary-head {
-    margin-bottom: 0;
-  }
-
-  .diary-tea {
-    grid-column: 1 / -1;
-    width: auto;
-    margin: 0 6%;
-  }
-}
-
-@media (max-width: 760px) {
-  .diary {
-    gap: 28px 14px;
-    padding-top: 14px;
-  }
-
-  .diary-head {
-    gap: 12px;
-  }
-
-  .diary .date-stamp {
-    width: 70px;
-    height: 70px;
-  }
-
-  .diary .date-stamp .md {
-    font-size: 19px;
-  }
-
-  .diary .date-stamp .y,
-  .diary .date-stamp .w {
-    font-size: 10px;
-  }
-
-  .diary-head .eyebrow {
-    font-size: 14px;
-  }
-
-  .diary-head h1 {
-    font-size: 27px;
-  }
-
-  .diary-right .spread-card {
-    padding: 8px 8px 4px;
-    transform: rotate(1deg);
-  }
-
-  .diary-right .spread-card figcaption {
-    font-size: 16px;
-  }
-
-  .diary-right .spread-card .tape {
-    top: -12px;
-    width: 70px !important;
-  }
-
-  .diary-letter {
-    --line-h: 34px;
-    padding: 12px 18px 14px;
-  }
-
-  .diary-letter .label,
-  .diary-letter .more {
-    line-height: 34px;
-  }
-
-  .diary-letter .text {
-    font-size: 21px;
-    line-height: 34px;
-  }
-
-  .diary-letter .sticker {
-    width: 64px !important;
-    right: -6px !important;
-    top: -26px !important;
-  }
-
-  .diary-tea {
-    margin: 0 4%;
-    padding: 14px 18px 12px;
-  }
-
-  .diary-tea .sticker {
-    width: 50px !important;
-    right: -4px !important;
-  }
-
-  .diary-photo {
-    padding: 7px 7px 32px;
-  }
-
-  .diary-photo .hand {
-    font-size: 17px;
-    left: 10px;
-    bottom: 5px;
-  }
-
-  .diary-figure {
-    padding: 12px 8px 14px;
-  }
-
-  .diary-figure .portrait {
-    width: 84px;
-    height: 84px;
-  }
-
-  .diary-figure strong {
-    font-size: 17px;
-  }
-
-  .diary-figure .hand {
-    font-size: 15px;
-  }
-
-  .diary-more {
-    padding-top: 40px;
-  }
-
-  .home-actions {
-    gap: 10px;
-  }
-
-  .home-actions > * {
-    flex: 1 1 auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    white-space: nowrap;
-  }
+  .diary-letter, .diary-tea, .diary-photo, .diary-more .c-comic { transition: none; }
 }
 
 /* ==========================================================================
@@ -5890,17 +5720,6 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
   padding-top: 26px;
 }
 
-.tea-spread::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: -20px;
-  left: 50%;
-  width: 34px;
-  margin-left: -17px;
-  background: linear-gradient(to right, transparent, rgba(90, 60, 30, 0.10) 45%, rgba(90, 60, 30, 0.16) 50%, rgba(90, 60, 30, 0.10) 55%, transparent);
-  pointer-events: none;
-}
 
 .tea-page {
   position: relative;
@@ -6018,9 +5837,6 @@ body.journal:not(.comic-page) > .j-wrap > .j-footer {
     gap: 28px;
   }
 
-  .tea-spread::before {
-    display: none;
-  }
 
   .tea-left,
   .tea-right {
@@ -6146,9 +5962,6 @@ body.journal:not(.comic-page) .j-tabs {
     gap: 0 44px;
   }
 
-  .tea-spread::before {
-    display: block;
-  }
 
   .tea-left,
   .tea-right {
@@ -6172,9 +5985,6 @@ body.journal:not(.comic-page) .j-tabs {
     gap: 28px;
   }
 
-  .tea-spread::before {
-    display: none;
-  }
 
   .tea-left,
   .tea-right {
@@ -6193,4 +6003,41 @@ body.journal:not(.comic-page) .j-tabs {
     max-width: 560px;
     align-self: auto;
   }
+}
+
+/* longer page names: keep tab labels on one line and leave room for the tea sticker */
+body.journal:not(.comic-page) .j-tabs a,
+.j-brand span {
+  white-space: nowrap;
+}
+
+@media (max-width: 1180px) {
+  body.journal:not(.comic-page) .j-tabs a {
+    padding: 8px 12px 9px;
+    font-size: 14px;
+  }
+
+  body.journal:not(.comic-page) .j-tabs a.is-active {
+    padding-top: 12px;
+  }
+
+  body.journal:not(.comic-page) .j-brand {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}
+
+.tea-spread .tea-head h1 {
+  font-size: clamp(32px, 3.4vw, 46px);
+}
+
+/* the tea sticker sits in the top corner, clear of the longer title */
+.tea-spread .tea-head .sticker {
+  top: -6px !important;
+  right: 0 !important;
+  width: clamp(70px, 7vw, 96px) !important;
+}
+
+.tea-spread .tea-machine-column {
+  width: 100%;
 }

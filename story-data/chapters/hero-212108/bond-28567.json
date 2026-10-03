@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-212108",
+  "id": "bond-28567",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28567001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "好热好热，你这里借我躲一躲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567002",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "快到端午了，你有没有听到什么异闻？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "目前还没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567004",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "呼，那就好，你帮我盯紧一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567005",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "若是听到了巨大绿蟒出没之类的新闻，千万替我拦着，一定不能让我姐姐看到。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28567007",
+              "text": "被她知道了会怎么样？"
+            },
+            {
+              "targetId": "28567007",
+              "text": "这和绿蟒有什么关系？"
+            }
+          ],
+          "sourceId": "28567006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28567007",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "不日前我偷溜出去玩，不小心掉进了雄黄酒缸中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567008",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "虽说没有喝下多少，到底还是沾上了不少雄黄。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567009",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "这东西和我姐妹相克，加上天时越来越燥热，便会不能控制自己现出原形。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你可以控制自己不要出门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567011",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "不出门的话，姐姐又不能时时刻刻陪着我，也太无聊了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "出去吓一吓外面的小动物和小孩子，权当茶余饭后的娱乐活动也不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28567013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……看来只有你姐姐能制得住你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28567",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28567001,
+            28567002,
+            28567003,
+            28567004,
+            28567005,
+            28567006,
+            28567007,
+            28567008,
+            28567009,
+            28567010,
+            28567011,
+            28567012,
+            28567013
+          ],
+          "sectionId": 28567
+        }
+      ],
+      "title": "「异闻」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212108",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「异闻」",
+  "wordCount": 265
+}

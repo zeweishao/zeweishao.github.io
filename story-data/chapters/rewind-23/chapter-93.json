@@ -1,0 +1,1901 @@
+{
+  "bookId": "rewind-23",
+  "id": "chapter-93",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22200001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "「|101|」，「|101|」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "快想起来，求求你，快想起来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "当当当当——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200004",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "经过了复杂漫长的粉尘收集——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "度过了慢工细活的白模组装——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "然后把珍贵涂装一点一点仔细刷在白模身上——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200007",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "我们获得了——完好如初的优纪——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哎嘿，全新的优纪，浑身上下干干净净！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200009",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "太好了太好了，我们又有优纪了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200010",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "……她看上去是优纪，但好像又不是优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200011",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏娜丹妮——问题出在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200012",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "显然易见，这位优纪没有灵魂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200013",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "换句话说——她不会动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22200014",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "好问题！接下来该怎么办呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-250",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22200001,
+            22200002,
+            22200003,
+            22200004,
+            22200005,
+            22200006,
+            22200007,
+            22200008,
+            22200009,
+            22200010,
+            22200011,
+            22200012,
+            22200013,
+            22200014
+          ],
+          "sectionId": 22200
+        }
+      ],
+      "title": "#1 奇怪错觉"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22201001",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "主人的卧室没有反应！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201002",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "放在信号良好的地方也没有反应。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏娜丹妮……嘛，看来要让优纪活过来，只能用上那一招了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201004",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "人类，为了赋予优纪新的生命，需要一个重要的结契仪式！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "向优纪献上你的「真爱之吻」——这样沉睡的公主就能醒来了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201006",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "不错的主意，那句话叫什么来着？\n噢，「死马当活马医」~！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22201008",
+              "text": "看来只能这样试试了。"
+            }
+          ],
+          "sourceId": "22201007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22201008",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "没错，试试看~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22201010",
+              "text": "轻轻托起优纪"
+            }
+          ],
+          "sourceId": "22201009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22201010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "噢噢噢，刺激——！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22201012",
+              "text": "亲一亲优纪"
+            }
+          ],
+          "sourceId": "22201011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22201012",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "咳咳咳……真是难得的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呣……优纪好像做了一个很长的梦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿！主人……是主人！优纪最喜欢的主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜呜，主人~优纪做了个好可怕的噩梦，梦见自己再也见不到主人了……还好只是个梦呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201016",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "「真爱之吻」之吻果然有效！真是太好了呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201017",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "嗷~~~优纪活了~~~太好了！太好了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201018",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "嗯嗯，可喜可贺，可喜可贺~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "等等——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201020",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "和江和哈莉去哪了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201021",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "——没有和你在一起吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22201022",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "快想起来，求求你，快想起来——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-251",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22201001,
+            22201002,
+            22201003,
+            22201004,
+            22201005,
+            22201006,
+            22201007,
+            22201008,
+            22201009,
+            22201010,
+            22201011,
+            22201012,
+            22201013,
+            22201014,
+            22201015,
+            22201016,
+            22201017,
+            22201018,
+            22201019,
+            22201020,
+            22201021,
+            22201022
+          ],
+          "sectionId": 22201
+        }
+      ],
+      "title": "#2 没有灵魂"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22202001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你们有没有觉得，到目前为止，事情进行得太顺利了一点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "优纪失踪了，大家好像一点也不难过，\n生活还是一如既往地向前呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202003",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "主人不是说，「最喜欢」优纪了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202004",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "看起来一点都不悲伤呢，还活在轻松愉快的日常呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202005",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "主人不是说，在找到优纪、和江花迦之前，「不会接手任何来自管理局的指派」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202006",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "好像跑腿跑得很愉快呢，热心肠地替阿尔弗雷德处理「天启」的小杂鱼呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "「管理局」？为什么要帮莫名其妙冒出来的家伙，理所应当地跑前跑后？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "哎呀呀，好像完全没有人关心消失的花迦跟和江了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "话说「优纪变成碎片」、「用吸尘器收集粉末」——这种事真的合理吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202010",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "突然冒出来的「召唤阵」和「捉鬼事件」又是什么，这一部讲的是《桑尼传》吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202011",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "把手办碎片拼起来，就获得一个重新活过来的优纪——这种故事看起来也太老套了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这种事情，简直顺利得像梦一样呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "像梦一样呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22202014",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "快想起来，求求你，快想起来——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-252",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22202001,
+            22202002,
+            22202003,
+            22202004,
+            22202005,
+            22202006,
+            22202007,
+            22202008,
+            22202009,
+            22202010,
+            22202011,
+            22202012,
+            22202013,
+            22202014
+          ],
+          "sectionId": 22202
+        }
+      ],
+      "title": "#3 吐槽时刻"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22203001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "把手办碎片拼起来，就获得一个重新活过来的优纪——这种故事看起来也太老套了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203002",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这种事情，简直顺利得像梦一样呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "像梦一样呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "快想起来，求求你，快想起来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个时候，居然已经……已经无法再回忆起，主人的脸了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那张充满笑脸、无比温柔……的脸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我还想再点上生日蜡烛，为主人过满第999个生日……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我还想被装进口袋里，跟主人一起去世界各地冒险……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "明明有那么多愿望还没有实现，如果就这样结束的话，我、我会很不甘心的啊……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203012",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "喂，快醒醒——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "——！！！\n呼，呼，呼……优纪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "啊哈，「|102|」醒了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏娜丹妮……嘛，看来要让优纪活过来，只能用上那一招了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203016",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "在「真爱之吻」的作用下，优纪醒来了，「|101|」非常高兴，然后，大家举行了一个欢乐的派对……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22203017",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "欸？「|102|」醒了——嗯嗯，看来这个「招魂咒语」果然有效！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22203019",
+              "text": "果然……有效？"
+            },
+            {
+              "targetId": "22203019",
+              "text": "什么情况？"
+            },
+            {
+              "targetId": "22203019",
+              "text": "……我在哪？"
+            }
+          ],
+          "sourceId": "22203018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22203019",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，你确信是「果然有效」吗？\n眼前这个人类，怎么看都不太清醒的样子？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-253",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22203001,
+            22203002,
+            22203003,
+            22203004,
+            22203005,
+            22203006,
+            22203007,
+            22203008,
+            22203009,
+            22203010,
+            22203011,
+            22203012,
+            22203013,
+            22203014,
+            22203015,
+            22203016,
+            22203017,
+            22203018,
+            22203019
+          ],
+          "sectionId": 22203
+        }
+      ],
+      "title": "#4 消失回忆"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22204001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（怎么回事……头好重……身体也……）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204002",
+          "sourceType": 3,
+          "text": "喂，「|101|」怎么啦？(#`O′)",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22204003",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "病人刚刚苏醒，显然需要静养。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我看「|102|」需要认清现实，好好清醒一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "突然间失去三个心爱的手办，出现「选择性失忆」或者用昏迷来逃避现实——这也不难理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你们怎么证明被唤醒的是吾的专属人类，\n而不是什么反应迟钝的笨蛋「魂穿」过来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "——最近流行的小说不都这么写吗，「魂穿」什么的，用失忆做借口，其实根本不是同一个人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "唔，丰富的想象力~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "……桑尼的咒语才不会出这种差错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "喂喂，谁能解释一下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "为什么主人一回家就变成了这样？！\n优纪花迦和江她们去哪了，为什么一晚上都没回家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204012",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "附议！强烈附议！！！\n这些家伙为什么出现在我家！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204013",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "依我看，不如用提问的方式，来验明「|101|」的身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204014",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "嘿，「|101|」，现在需要你认真回答几个问题——能听到我说话吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204016",
+              "text": "我记得，你是那个侦探。"
+            }
+          ],
+          "sourceId": "22204015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204016",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "谢谢，很荣幸。\n那么，「|101|」，你记得自己昨天去了哪里吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204018",
+              "text": "我去了……「废弃工厂」？"
+            }
+          ],
+          "sourceId": "22204017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204018",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "没错，那么你是为了什么到哪里去呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204020",
+              "text": "我去找……优纪她们有危险！"
+            }
+          ],
+          "sourceId": "22204019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204020",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "很好，再想想，后来你遇到了什么人？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204022",
+              "text": "阿尔弗雷德……我们吵了一架。"
+            }
+          ],
+          "sourceId": "22204021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204022",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "发生争执的原因呢，你还记得吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204024",
+              "text": "优纪，和江，花迦……她们失踪了。"
+            }
+          ],
+          "sourceId": "22204023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204024",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "后来呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204026",
+              "text": "她们……失踪了！！！"
+            }
+          ],
+          "sourceId": "22204025",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204026",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "什么？！！什么失踪了？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22204027",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "意思是，家里再也没有优纪、花迦跟和江了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22204029",
+              "text": "我记得……我要带她们回家！"
+            }
+          ],
+          "sourceId": "22204028",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22204029",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "等等——你还没有完全弄明白发生了什么。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-254",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22204001,
+            22204002,
+            22204003,
+            22204004,
+            22204005,
+            22204006,
+            22204007,
+            22204008,
+            22204009,
+            22204010,
+            22204011,
+            22204012,
+            22204013,
+            22204014,
+            22204015,
+            22204016,
+            22204017,
+            22204018,
+            22204019,
+            22204020,
+            22204021,
+            22204022,
+            22204023,
+            22204024,
+            22204025,
+            22204026,
+            22204027,
+            22204028,
+            22204029
+          ],
+          "sectionId": 22204
+        }
+      ],
+      "title": "#5 人间失忆"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22205001",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "现在，请你把从工厂回来、跟阿尔弗雷德决裂之后的事，一五一十给我们复述一遍。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22205003",
+              "text": "后来……我遇到了桑尼。"
+            }
+          ],
+          "sourceId": "22205002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22205003",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "不，那是梦境。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22205005",
+              "text": "为了寻找优纪，我们追捕「天启」的手办。"
+            }
+          ],
+          "sourceId": "22205004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22205005",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "很遗憾，那也是梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们遇见了闹鬼的孩子，还有管理局的「新兵组织大会」……\n不知道为什么，我还看见了「花鸟原」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205007",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "情节丰富的梦境，几乎以假乱真。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22205009",
+              "text": "没有涂装碎片，也没有活过来的优纪？"
+            }
+          ],
+          "sourceId": "22205008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22205009",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "是的，从「与阿尔弗雷德决裂」后，一直到刚才「优纪在你掌心醒来」，全都是你昏迷时的梦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22205011",
+              "text": "怎么会……"
+            }
+          ],
+          "sourceId": "22205010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22205011",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "昨天晚上主人回到家就睡下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205012",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "没错，脸色像丧尸一样差。\n噢，跟主人一起回来的，还有那个黄头发和蓝头发。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嘿，我们见过的！\n我是泉，这位是薇薇安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "总之全身脏兮兮的主人一睡不醒，至少已经昏睡了十四个小时——于是这家伙就破门而入了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾只是关心一下吾的专属人类，人类可是脆弱的生物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "看来你昏睡不醒的份上，吾搬来了救兵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205017",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "然后在「米娅莫拉苏娜丹妮」的作用下，你成功醒了过来~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22205019",
+              "text": "……是这样吗。"
+            }
+          ],
+          "sourceId": "22205018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22205019",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "但有一件事情我不明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22205020",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "小蓝说得没错，你们两个家伙，为什么会跟主人一起回家？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-255",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22205001,
+            22205002,
+            22205003,
+            22205004,
+            22205005,
+            22205006,
+            22205007,
+            22205008,
+            22205009,
+            22205010,
+            22205011,
+            22205012,
+            22205013,
+            22205014,
+            22205015,
+            22205016,
+            22205017,
+            22205018,
+            22205019,
+            22205020
+          ],
+          "sectionId": 22205
+        }
+      ],
+      "title": "#6 丢失的时间线"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22206001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "所以说，你们两个家伙是怎么跟人类相遇的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "本来我们只是路过，听到工厂传来爆炸声，当时「|101|」正巧在附近……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "打起精神人类，事情是她说的这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22206005",
+              "text": "……我记不清了。"
+            }
+          ],
+          "sourceId": "22206004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22206005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你们两个，该不是为了住进人类家里，编造出什么根本不存在的事实吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "或者——就是你们蓄意谋划了珍贵人类的昏迷？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嗨嗨龙王大人，你关心人类的心情我非常理解，\n但话可不能乱说——毕竟我们帮过你们，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对呀，「周年庆宴」的时候，优纪她们被「天启」绑架的那一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，你们的头儿呢？\n那个「跟优纪有感应」的家伙去哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206010",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "好了，这种争吵毫无意义，反而让这位人类更加困惑。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22206012",
+              "text": "的确……你们先不要吵了……"
+            }
+          ],
+          "sourceId": "22206011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22206012",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "当务之急，是弄清楚昨天究竟发生了什么——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206013",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "这位小姐，可以请你复述一下相遇时的情况吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22206014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "当然，终于有一个愿意好好讲道理的人了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-256",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22206001,
+            22206002,
+            22206003,
+            22206004,
+            22206005,
+            22206006,
+            22206007,
+            22206008,
+            22206009,
+            22206010,
+            22206011,
+            22206012,
+            22206013,
+            22206014
+          ],
+          "sectionId": 22206
+        }
+      ],
+      "title": "#7 珍贵人类"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22207001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "昨天下午，是这样的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207002",
+          "sourceType": 9,
+          "text": "一天前——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22207003",
+          "sourceType": 3,
+          "text": "我们是来自N城的「异乡人组织」，背负着某种使命来到M城。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22207004",
+          "sourceType": 3,
+          "text": "按照指示，那天下午，我们应该抵达城郊的一处废弃工厂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22207005",
+          "sourceType": 3,
+          "text": "然而在半途中，目标地忽然传来巨响——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22207006",
+          "sourceType": 3,
+          "text": "因为火灾，工厂发生了爆炸，我们飞速前往，\n却只看到一个跪在地上独自流泪的人类——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22207007",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "阿巴，那个人类……在哭吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207008",
+          "sourceType": 0,
+          "speaker": "机敏墩",
+          "text": "小心躲起来，不要暴露我们能动的事实！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207009",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "阿巴阿巴，可是「|102|」看起来好像……很悲伤？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……优纪……不要开玩笑了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你一定躲在哪里对不对……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……一定在……哪里偷偷看我出糗对不对……\n优纪……不要闹了……优纪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207013",
+          "sourceType": 0,
+          "speaker": "机敏墩",
+          "text": "「优纪」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207014",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "阿巴阿巴……是我知道的那个「优纪」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22207015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "「优纪」？等等——\n泉你看，这个人类是不是……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-257",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22207001,
+            22207002,
+            22207003,
+            22207004,
+            22207005,
+            22207006,
+            22207007,
+            22207008,
+            22207009,
+            22207010,
+            22207011,
+            22207012,
+            22207013,
+            22207014,
+            22207015
+          ],
+          "sectionId": 22207
+        }
+      ],
+      "title": "#8 薇薇安的回溯"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22208001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "是「|102|」，的确是「|101|」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……终究还是来晚了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208003",
+          "sourceType": 0,
+          "speaker": "机敏墩",
+          "text": "这个大个子是你们认识的家伙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嗯，放心，是个可靠的特别人类。\n「|102|」知道活化手办的事情，也会替我们保密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208005",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "阿巴阿巴……真的要跟人类接触吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "「|101|」是个很好的人类，愿意平等地看待我们，也非常爱惜作为同伴的手办们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "与「|101|」建立联系的话，头儿也会非常赞成的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208008",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "阿巴……那……好吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嘿，「|101|」——还记得我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "工厂的大火，还有爆炸声……刚才发生了什么事？\n……你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22208012",
+              "text": "不见了，她们……你知道她们去哪了吗？"
+            }
+          ],
+          "sourceId": "22208011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22208012",
+          "sourceType": 0,
+          "speaker": "机敏墩",
+          "text": "（这个人类看起来有点奇怪，失心疯的那种奇怪。）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208013",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "（确实，阿巴阿巴，不像薇薇安说的那样友善。）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "抱歉，你说的她们，是指……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22208016",
+              "text": "优纪，和江，花迦……你看到她们了吗？"
+            }
+          ],
+          "sourceId": "22208015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22208016",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好了「|101|」，别哭，我们会帮你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208017",
+          "sourceType": 0,
+          "speaker": "阿巴墩",
+          "text": "（阿巴阿巴，没看错的话，泉收集了那个人的眼泪——对吧？）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22208018",
+          "sourceType": 0,
+          "speaker": "机敏墩",
+          "text": "（没错，有一个委托内容是这样的。）",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-258",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22208001,
+            22208002,
+            22208003,
+            22208004,
+            22208005,
+            22208006,
+            22208007,
+            22208008,
+            22208009,
+            22208010,
+            22208011,
+            22208012,
+            22208013,
+            22208014,
+            22208015,
+            22208016,
+            22208017,
+            22208018
+          ],
+          "sectionId": 22208
+        }
+      ],
+      "title": "#9 来晚一步"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22209001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "看着我的眼睛，「|101|」，\n听我说，你得振作起来，一定要振作。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22209003",
+              "text": "我找过了……到处都找过了……"
+            }
+          ],
+          "sourceId": "22209002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22209003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "如果她们三个呆在一起的话，我想……我们可以帮你找到线索。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22209005",
+              "text": "……你们真的有办法吗？"
+            }
+          ],
+          "sourceId": "22209004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22209005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "当然，你还记得「蒂娅」么，她是我们「异乡人组织」的引领者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22209006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "她跟优纪之间存在某种特别的感应，上次优纪被绑架，帮助大家定位优纪下落的，就是「蒂娅」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22209008",
+              "text": "蒂娅……"
+            }
+          ],
+          "sourceId": "22209007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22209008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "没错，事实上，我们来到这里，也是受到「蒂娅」的指示。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22209009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "「天启」成员集齐了能量石，虽然不知道对方真正的目的，但显然M城将产生危机——我们正是为此而来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22209011",
+              "text": "但这和我有什么关系呢……"
+            }
+          ],
+          "sourceId": "22209010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22209011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我们需要你的帮助，而你也恰好需要我们——这是一笔公平合理的交易。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22209012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "以「异乡人组织」的名义，我们会帮助你寻找优纪——作为回报，需要「|101|」你帮我们一个小忙。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22209014",
+              "text": "什么忙？"
+            }
+          ],
+          "sourceId": "22209013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22209014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我们从N城来，在这儿没什么落脚的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22209015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "在外逗留会引起「管理局」的注意，我们跟「管理局」不太合得来，不想太早跟他们打上交道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22209016",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "所以只好拜托你，在找到优纪前，替我们物色一个落脚点~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-259",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22209001,
+            22209002,
+            22209003,
+            22209004,
+            22209005,
+            22209006,
+            22209007,
+            22209008,
+            22209009,
+            22209010,
+            22209011,
+            22209012,
+            22209013,
+            22209014,
+            22209015,
+            22209016
+          ],
+          "sectionId": 22209
+        }
+      ],
+      "title": "#10 振作起来"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22210001",
+          "sourceType": 3,
+          "text": "就这样，「|101|」带我们来到了这里——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22210002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "等等，刚才提到的那两只小浣熊呢，住进家里的只有你们两个吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "「阿巴墩」和「机敏墩」还有别的任务，因为是生面孔，在城中行动也不会引人注意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，就算事实像你说的这样，听起来还是很可疑……\n你们一定是想找借口赖在特别人类的家里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……唔，我也想要跟人类呆在一起！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22210007",
+              "text": "优纪……"
+            }
+          ],
+          "sourceId": "22210006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22210007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "怎、怎么了？干嘛突然那样看着我？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22210009",
+              "text": "抱歉，忽然走神了。"
+            }
+          ],
+          "sourceId": "22210008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22210009",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "（「也想要跟人类呆在一起」……如果是优纪的话，大概也会这样说吧？）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "总之就是这样，在找到优纪前，我们都会住在这里~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "卑鄙的外乡人……狡猾！太狡猾了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是你们从N城赶来，目的究竟是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "虽然我本人很乐意告诉你，不过我们「异乡人」有自己的规矩——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "抱歉啦，在「蒂娅」回来前，任何事都无可奉告~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，不想说算了，故作玄虚的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22210016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "不过，有一件事，现在告诉你们也没有关系。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-260",
+      "sourceRefs": [
+        {
+          "bundle": "disanshiwuzhang",
+          "rowIds": [
+            22210001,
+            22210002,
+            22210003,
+            22210004,
+            22210005,
+            22210006,
+            22210007,
+            22210008,
+            22210009,
+            22210010,
+            22210011,
+            22210012,
+            22210013,
+            22210014,
+            22210015,
+            22210016
+          ],
+          "sectionId": 22210
+        }
+      ],
+      "title": "#11 如果是优纪"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 93,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 93,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "异乡人归来",
+  "title": "第35章",
+  "wordCount": 4134
+}

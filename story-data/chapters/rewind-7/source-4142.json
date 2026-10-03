@@ -1,0 +1,111 @@
+{
+  "bookId": "rewind-7",
+  "id": "source-4142",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4142001",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "她们都好厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142002",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "简直难以想象，好酷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142003",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "这就是烟花吗？实在是太美了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这个是像烟花一样绚烂的电子灯光哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142005",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "这个国家真好，没有丧尸，想做什么就做什么，\n还有这么棒的演唱会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142006",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "真想让其他人也能亲眼看看，这个宇宙中最酷的演唱会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142007",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "会有这么一天的，这个愿望一定会实现的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4142008",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "嗯。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4142",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4142001,
+            4142002,
+            4142003,
+            4142004,
+            4142005,
+            4142006,
+            4142007,
+            4142008
+          ],
+          "sectionId": 4142
+        }
+      ],
+      "title": "视频配套对白 4142"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "5003",
+              "talk_id"
+            ],
+            "table": "ResVideoTalk.lua"
+          }
+        ],
+        "path": [
+          "5003",
+          "talk_id"
+        ],
+        "sectionId": 4142,
+        "table": "ResVideoTalk",
+        "videoPath": "Videos/hali-band.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "视频 5003 配套文字",
+  "title": "视频配套对白 4142",
+  "wordCount": 125
+}

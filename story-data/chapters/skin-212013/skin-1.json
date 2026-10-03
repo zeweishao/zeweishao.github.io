@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212013",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「月之南交，命运索引。真理罗盘预言，下周举重决赛的冠军将属于你。」\n\n「真的？！今天总算能睡个好觉了，谢谢占星师小姐！」\n\n男孩兴冲冲地跑远了，他似乎没有意识到，这位蒙面占星师的声音，和自己的教练有些相似......\n\n「麻烦的小兔崽子！要是这样还拿不到奖，当心我拧掉你的脑袋！」\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "真理罗盘Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212013",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "酒井唯·真理罗盘Ver.",
+  "title": "真理罗盘Ver.",
+  "wordCount": 154
+}

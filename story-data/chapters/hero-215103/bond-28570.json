@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-215103",
+  "id": "bond-28570",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28570001",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "|101|家的厨房……真是一个美好的地方呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28570002",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "如果能够拥有一个烤箱……就会更完美了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28570004",
+              "text": "要烤箱做什么？"
+            }
+          ],
+          "sourceId": "28570003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28570004",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "可以用来做面包哦，各种各样的面包。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28570005",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我的家经营着一间「古河面包店」，受父亲和母亲的影响，我学到不少与面包有关的知识。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28570006",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "可是我最爱的始终是红豆面包……最喜欢红豆面包了~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28570008",
+              "text": "红豆面包一定很好吃。"
+            }
+          ],
+          "sourceId": "28570007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28570008",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "红豆面包……不仅仅很美味，对我来说还有着特别的意义。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28570010",
+              "text": "是什么呢？"
+            }
+          ],
+          "sourceId": "28570009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28570010",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "每当我缺乏勇气的时候，只要小声念出「红豆面包」，就会得到鼓励哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28570",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28570001,
+            28570002,
+            28570003,
+            28570004,
+            28570005,
+            28570006,
+            28570007,
+            28570008,
+            28570009,
+            28570010
+          ],
+          "sectionId": 28570
+        }
+      ],
+      "title": "心动红豆包"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215103",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "心动红豆包",
+  "wordCount": 202
+}

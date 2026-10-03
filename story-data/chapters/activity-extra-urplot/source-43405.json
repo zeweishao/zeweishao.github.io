@@ -1,0 +1,619 @@
+{
+  "bookId": "activity-extra-urplot",
+  "id": "source-43405",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43405001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "|101|，我有个好消息要告诉你——\n最后的潮流星手办，已经缉拿归案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "在抓捕途中，我们遭到了激烈反抗，有多名管理局成员受伤。\n这名罪犯攻击性极强，请你务必小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405003",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "嗨，|101|，早上好！你就是我未来的主人吧？\n以后请多关照咯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405004",
+          "sourceType": 7,
+          "text": "可露莎 · 炫彩光子\n商品名称：可露莎·炫彩光子 Ver.\n作品出处：《少女X机关枪》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约232mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43405005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我怎么感觉，她的态度还挺配合的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405006",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "当然要配合啦，我好不容易才逃离那个魔窟，回到主人家里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405007",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "事先声明，我可没有故意离开FULI商店！是有几个蒙面黑衣手办，半夜打开货架，强行把我带到一处仓库关起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405008",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "还好我足够机智，找到机会逃跑，遇到了巡逻的希塔小姐。\n至于激烈反抗……那是因为，我把管理局误认成绑架犯啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "黑衣人、绑架事件？这么重要的信息，刚才为什么不说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405010",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "呃，这个嘛……\n刚才我都被吓坏了，脑子一片空白，哪顾得上说呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果真的发生了绑架案件，必须尽快救出其他手办才行。\n可露莎，马上带我们去那间仓库！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "仓库里已经搜遍了，没有找到其他潮流星手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405013",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "一定是你们来得太晚，坏人早就转移根据地啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……墙上的这些涂鸦，都是你画的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405015",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "是啊，我被关在这里闲得无聊，不知不觉就画满了整面墙。\n喜欢我的画吗？可以送你一幅哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "嘘，别出声。我听到了有纸箱摩擦的声音。谁在那！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405017",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "咕咕咕，可恶……不行，我的肚子……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43405019",
+              "text": "肚子？"
+            },
+            {
+              "targetId": "43405019",
+              "text": "你还好吗？"
+            }
+          ],
+          "sourceId": "43405018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43405019",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "我的肚子要炸了啊啊啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405020",
+          "sourceType": 3,
+          "text": "噼里啪啦，轰隆——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43405021",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "哇哦，BOOM！绚烂华丽的爆炸！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405022",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "肚子里填满料的烤鸡先生，现在变成炸鸡了吗？咯咯咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "糟糕，这是设计好的圈套……看好可露莎，别让她跑了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405024",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "很遗憾，已经来不及了哦~没人能追上我的滑板！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405025",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "有些时候，就连她自己也不能~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405026",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "那么，小可露莎，跟管理局的粉丝朋友们说再见吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405027",
+          "sourceType": 3,
+          "text": "克拉拉拉起引线，手榴弹上的亮片脱落，露出蜂巢般密集的黑洞，呲呲地冒出浓烟。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43405028",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "快追，她们往打包区方向逃了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "三只一模一样的……柴可夫斯基？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405030",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这是她们的伪装。其他两人不重要，必须尽快追回可露莎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "它们往不同的方向跑了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405032",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你、我、「帕拉斯」，一人追一个。\n选吧，相信你的直觉。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43405034",
+              "text": "追左边那只"
+            },
+            {
+              "targetId": "43405034",
+              "text": "追右边那只"
+            }
+          ],
+          "sourceId": "43405033",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43405034",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "放弃抵抗吧，你已经没有退路了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405035",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "好吧，那就恭喜你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405036",
+          "sourceType": 3,
+          "text": "克拉拉卸下了柴可夫斯基的伪装。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43405037",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "追错人了哦。\n啊，爱丽丝这会儿也差不多该回来了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405038",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "抱歉弄坏了你的浮游炮。\n我不是故意的，只是想把头伸进它的肚子里看看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405039",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……可露莎编造了「绑架事件」，就是为了把|101|和管理局引到这来，让你们帮她脱困？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405040",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "哦不，我们没答应她做任何事。\n配合演出只是一时兴起，权当排遣无聊了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405041",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "规则束缚就像发条，拧得太紧会让可露莎丧失理智。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405042",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "所以我要充当引路人，送她进入自由的新世界啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405043",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……随便你们找什么借口。\n身为管理局员工，无论多少次，我都会将她送回|101|家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405044",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "转身就走吗？真是冷血，明明才刚见面不久呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405045",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "不如再多留一会，参加今天的茶会吧！作为交换，我可以告诉你一个——能让可露莎主动选择留下的方法哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405046",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "没想到，你的运气还不错~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405047",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不只是运气而已。\n你的羽毛上沾了颜料，颜色和可露莎的喷漆罐颜色很像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405048",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "什么呀，原来早就被你发现了，真没意思。\n好吧好吧，这次就先跟你回去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405049",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "但是下一次，你还能不能抓到我呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43405051",
+              "text": "你不想回去？"
+            },
+            {
+              "targetId": "43405051",
+              "text": "你还要逃跑？"
+            }
+          ],
+          "sourceId": "43405050",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43405051",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "说实话，你家的风格很符合我的审美，你也是最理想的那种主人。但要我永远住在那里，果然还是不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405052",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "因为……缺少了一件最重要的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405053",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你想要的，是「画布」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405054",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "BINGO，答对啦！欸，希塔小姐？你什么时候来的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405055",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你身上的那些奶油、糖浆和彩带是怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405056",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "没什么，不用在意。|101|，如果能让可露莎主动选择留下，你愿意给她提供「画布」吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43405058",
+              "text": "可以啊。"
+            },
+            {
+              "targetId": "43405058",
+              "text": "听起来很简单。"
+            }
+          ],
+          "sourceId": "43405057",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43405058",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "真的吗？！答应就不能反悔了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405059",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "准备画布又不是什么困难的事。\n难道说……你要用掉很多张？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405060",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "不多不多，四张就够。我们马上回家，挑个合适的房间吧！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43405062",
+              "text": "合适的房间？"
+            },
+            {
+              "targetId": "43405062",
+              "text": "什么意思？"
+            }
+          ],
+          "sourceId": "43405061",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43405062",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "身为宝石街区最知名的街头艺术家，完成我的作品，需要的画布是一整面墙——我知道你肯定不会忘记的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43405063",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "从今天开始，你的卧室就是我的画室啦！\n那么今后也请多多关照哦，主人~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43405",
+      "sourceRefs": [
+        {
+          "bundle": "urplot",
+          "rowIds": [
+            43405001,
+            43405002,
+            43405003,
+            43405004,
+            43405005,
+            43405006,
+            43405007,
+            43405008,
+            43405009,
+            43405010,
+            43405011,
+            43405012,
+            43405013,
+            43405014,
+            43405015,
+            43405016,
+            43405017,
+            43405018,
+            43405019,
+            43405020,
+            43405021,
+            43405022,
+            43405023,
+            43405024,
+            43405025,
+            43405026,
+            43405027,
+            43405028,
+            43405029,
+            43405030,
+            43405031,
+            43405032,
+            43405033,
+            43405034,
+            43405035,
+            43405036,
+            43405037,
+            43405038,
+            43405039,
+            43405040,
+            43405041,
+            43405042,
+            43405043,
+            43405044,
+            43405045,
+            43405046,
+            43405047,
+            43405048,
+            43405049,
+            43405050,
+            43405051,
+            43405052,
+            43405053,
+            43405054,
+            43405055,
+            43405056,
+            43405057,
+            43405058,
+            43405059,
+            43405060,
+            43405061,
+            43405062,
+            43405063
+          ],
+          "sectionId": 43405
+        }
+      ],
+      "title": "活动片段 43405"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10063",
+              "27",
+              "5",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10063",
+          "27",
+          "5",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 43405,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1315,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "134",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 43405",
+  "wordCount": 1650
+}

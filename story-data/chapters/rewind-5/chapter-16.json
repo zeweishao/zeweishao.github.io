@@ -1,0 +1,2044 @@
+{
+  "bookId": "rewind-5",
+  "id": "chapter-16",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3200001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "自从真恋的事情之后，天启那些家伙好像就安静了。不过终端最近也一直没有动静，坏掉了？还是说！我们试炼过期了？毕竟之前就遇到过有限时试炼的情况！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你这是在质疑管理局的专业性。如果试炼失败，会有提示的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是阿尔弗雷德。这次来是要告诉我们试炼进度的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "虽然不想表扬，但你和|101|自从接受管理局的实习生试炼以来，各方面的表现相当出色，成功地引起了高层的注意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "喂喂，不论你们管理局想打什么坏主意，都要先经过我们的同意，主人可是我们大家的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我无意从你们那里抢夺|101|，对我来说，|101|只不过是一个称心如意的工具人……试炼者。这次来只是想告诉|102|一些关于「阿撒兹勒」和「天启」的情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "「天启」比管理局更早出现，过去曾因诸多恶行为手办界不齿，遭到其他手办组织的围剿而团灭。此后，「天启」开始行踪诡秘，最近却有死灰复燃的迹象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我们得到消息，「天启十一众」中的水城结奈和另一名成员抵达了M城。幸运的是，我们目前尚未与她们正面交锋，否则后果将不堪设想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那关于「阿撒兹勒」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "根据调查显示，「阿撒兹勒」是天启安插在M城的一枚举足轻重的棋子，是天启组织在M城的主要头目。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "他大约四年前开始频繁活动，但我怀疑早在十年前他就已经在渗入M城。通过查询十年前的档案，终于找到一条关于阿撒兹勒在M城逗留的信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "可是管理局档案资料上不是显示「阿撒兹勒」十年前已经死了？所以那些可能是伪造的信息？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "对方如此隐藏行踪的原因，我认为与蓄谋破坏管理局的计划有关。十年前正是管理局改革试炼，降低试炼者门槛的第一年。也从那时起到现在的十年来，试炼一直保持着0通过率。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "为什么管理局现在才发现？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这些仅仅只是我的推测。管理区高层或许有所疑惑，但那些老家伙，从不在意这种东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200016",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "十年来管理局试炼0通过率……太匪夷所思了，简直闻所未闻……那到底是怎样做到的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200017",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "很简单，抓走。M城最近也频繁有手办失踪的报案，但由于每年都有很多起这类报案，起初我并不在意。可当我仔细查询了所有参加试炼者最后的记录，才发现他们无一不显示失踪、死亡、白模化等。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也就是阿撒兹勒抓走了所有的试炼者？那……难道对方想要捉优纪，也是因为这个原因？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "作为人类，你的脑子里总是有那么多的问号，这点很让我欣赏。\n那么，就带着这些疑问，去找寻你想要的答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200021",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "叮咚，你的终端有新的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200022",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "是否现在开始同步同区试炼进度，请确认。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "3200024",
+              "text": "确认同步区域试炼进度"
+            }
+          ],
+          "sourceId": "3200023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "3200024",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "第四关试炼已经开启。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200025",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "看来你的进度不错，那就开始你的第四次实习生试炼吧。\n不过你要面对的是一个连手办流水线都能复制的疯狂角色，采取任何行动之前务必谨慎。如有必要我会再次联系你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么流水线？你在说什么呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200027",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「阿撒兹勒」一事我会亲自调查清楚的，我绝不允许任何人伤害我最珍爱的手办们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3200028",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "那我就静待你的好消息。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-124",
+      "sourceRefs": [
+        {
+          "bundle": "15to22",
+          "rowIds": [
+            3200001,
+            3200002,
+            3200003,
+            3200004,
+            3200005,
+            3200006,
+            3200007,
+            3200008,
+            3200009,
+            3200010,
+            3200011,
+            3200012,
+            3200013,
+            3200014,
+            3200015,
+            3200016,
+            3200017,
+            3200018,
+            3200019,
+            3200020,
+            3200021,
+            3200022,
+            3200023,
+            3200024,
+            3200025,
+            3200026,
+            3200027,
+            3200028
+          ],
+          "sectionId": 3200
+        }
+      ],
+      "title": "#1 爆炸新闻"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3201001",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "交给你们的工作，进展如何了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我很抱歉，又让那丫头溜了……\n她与那个人类形影不离，下次一定会将其抓获，请大人再给我一次机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201003",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "哼，你也不过这点能耐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "原来是弗吉尼娅小姐，别来无恙。听说了你也失败了，听到这个消息，我可是好几天都没能好好休息呢，一直很担忧你呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201005",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "少假惺惺地装好人，别以为我不知道你在背后幸灾乐祸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201006",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "别吵了，你们两个各自都有过失，何必自欺欺人。\n我已重新定制了计划，但愿你不会再让我失望，狩猎者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是，大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201008",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "至于弗吉尼娅，尽管「Fbay」计划多少有些美中不足，但她在那次行动中带回来的物流技术，还是帮了大忙。我们研制的神奇涂料也已经开始有成效，甚至比我预期中要顺利得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201009",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "有些早年留下的祸端，也应该要消灭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3201010",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "既然如此，就让我亲自替大人处理掉这个麻烦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-125",
+      "sourceRefs": [
+        {
+          "bundle": "15to22",
+          "rowIds": [
+            3201001,
+            3201002,
+            3201003,
+            3201004,
+            3201005,
+            3201006,
+            3201007,
+            3201008,
+            3201009,
+            3201010
+          ],
+          "sectionId": 3201
+        }
+      ],
+      "title": "#2 出发吧！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3100001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，什么都做不了，真的好无聊啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "想要畅快地在蓝天下嬉戏，想要在绿草如茵的草地上尽情地挥动自己的棒球，想要跟和江一起观赏夏夜灿烂的烟花……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不能出门……优纪快要憋坏了啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "你忘了吗，优纪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "现在外面到处都是抓捕手办的天启，主人叮嘱过让我们多加小心，不能随意到外面去呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说到天启，优纪就很生气，都怪这些大坏蛋，把优纪和大家美好的生活全都毁掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "下次再让我遇到，一定会用这根棒球棍狠狠地敲它们的脑袋，打得它们抱头鼠窜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嘘，禁声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯？发生什么了吗，和江？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "快看那边，电视里正在播放的午间新闻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100012",
+          "sourceType": 3,
+          "text": "现在为您插播一条紧急新闻——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3100013",
+          "sourceType": 3,
+          "text": "据我台前方记者发来的报道，位于本市市中心游乐园、规模最大的一家FULI手办仓库，日前遭受了大规模失窃事件。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3100014",
+          "sourceType": 3,
+          "text": "M市警方现已介入调查，截止目前，尚未锁定目标嫌疑人，案情陷入了僵局，我台将持续关注事件动向。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3100015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "FULI手办仓库大规模失窃事件……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总觉得这件事情哪里怪怪的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "M市的警方经过多方调查仍未发现嫌疑人，对于这么大的失窃事件来说绝无仅有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，你是不是已经想到什么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "唯一的可能就是，这件事不是人类做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100021",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "不是人类做的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "对，联想起我们之前的多番遭遇，不难猜想谁的嫌疑最大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你是说……这件事是天启那群大坏蛋们做的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你进步了，优纪，我很欣慰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎嘿嘿嘿嘿，和江夸我了，真是有点不好意思呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100026",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "不过，天启为什么要袭击FULI手办仓库呢，这样势必会引起人类世界的关注，对它们来说没什么好处吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100027",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果真是天启所作所为，背后究竟是什么目的，这也是我无法想明白的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么就让我们亲自到游乐园把这件事彻底调查清楚吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100029",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别担心啦，花迦，有和江在，我们不会有事的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "而且，如果这件事真的是天启做的，不知道会有多少手办受到它们的毒害……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪知道花迦会非常不忍心看到这副情景的，对不对呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100033",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯、嗯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "放心，我们一定会平平安安回来的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100035",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们这就出发吧，和江~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100036",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，这里就是全市规模最大的FULI手办仓库了吗，真是好气派呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100038",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "FULI公司原本即将推出热门游戏《蘑菇少女的日常》系列的再版手办，制作完成后几乎全都存在这里的仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100039",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊啊，优纪知道这个，主人很喜欢这款游戏，原本很期待的呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100040",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……如果没有发生失窃事件就更好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100041",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "无需难过，我们来这里就是为了查清失窃事件，还所有失窃的手办一个公道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100042",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，和江说得对，我们这就进去吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3100043",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这里已经被人类的警方戒严，我们要多加小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里果然……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们还是来晚了一步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么会、怎么会这样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么大的手办仓库，几乎看不到一个手办……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "它们全都、全都被运到哪里去了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "有很多种可能，但我们无法根据猜测就……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我不信！一定可以找到的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一定有谁能够躲开这场灾祸，我们再四处找一找，好不好，和江，求求你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们已经找过三遍，我可以确认，这里一个手办都没有了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，我不要，找不到幸存的手办，我们该怎么办呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101012",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜呜……呜呜……呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，哭泣于事无补，冷静下来，我们再想想办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是，我没有哭啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那是哪里传来的哭声？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜呜呜……呜呜……呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，真的有谁在哭呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "禁声，声音是从那边传过来的，我们过去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我、我有点害怕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "别怕，跟在我身后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找到了！哭声是从这个箱子底下发出来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "来，我们一起把这个箱子挪开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿咻，嘿咻，再加把劲儿哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101024",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "咳，咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3101025",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "……你们是谁？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-126",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3100001,
+            3100002,
+            3100003,
+            3100004,
+            3100005,
+            3100006,
+            3100007,
+            3100008,
+            3100009,
+            3100010,
+            3100011,
+            3100012,
+            3100013,
+            3100014,
+            3100015,
+            3100016,
+            3100017,
+            3100018,
+            3100019,
+            3100020,
+            3100021,
+            3100022,
+            3100023,
+            3100024,
+            3100025,
+            3100026,
+            3100027,
+            3100028,
+            3100029,
+            3100030,
+            3100031,
+            3100032,
+            3100033,
+            3100034,
+            3100035,
+            3100036,
+            3100037,
+            3100038,
+            3100039,
+            3100040,
+            3100041,
+            3100042,
+            3100043
+          ],
+          "sectionId": 3100
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3101001,
+            3101002,
+            3101003,
+            3101004,
+            3101005,
+            3101006,
+            3101007,
+            3101008,
+            3101009,
+            3101010,
+            3101011,
+            3101012,
+            3101013,
+            3101014,
+            3101015,
+            3101016,
+            3101017,
+            3101018,
+            3101019,
+            3101020,
+            3101021,
+            3101022,
+            3101023,
+            3101024,
+            3101025
+          ],
+          "sectionId": 3101
+        }
+      ],
+      "title": "#3 抵达！FULI仓库"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3102001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "咳咳……咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你、你没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "咳，不、不用你管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你们究竟是谁？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不要紧张，我们没有恶意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们从电视新闻上得知FULI仓库手办失窃事件，特意赶来这里调查。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你听说过《蘑菇少女的日常》这款游戏么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102009",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我的名字叫作莉可，是《蘑菇少女的日常》的一名游戏角色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102010",
+          "sourceType": 7,
+          "text": "莉可 · 魔王的假面\n商品名称：莉可·魔王的假面 Ver.\n作品名称：《蘑菇少女的日常》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约190mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "3102011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么说，你的同伴……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102012",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "她，被抓走了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "被谁抓走？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "她是我的好朋友樱，我们从小一起长大，彼此形影不离。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "可是那对笨蛋姐妹却偏偏见不得樱亲近我，非要把樱从我身边带走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102017",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "樱当然不愿意离开我的身边，于是她们就、就……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "她们怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102019",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "仓库失窃的那天晚上，她们趁乱把我打晕装进箱子，等我醒过来才发现……樱不见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "原来如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "抓走樱的那对姐妹，会不会和天启有什么关联……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "目前来看，这种可能性很大，如果莉可说的全是真的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102023",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你、你什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？不要误会啦，和江她没有恶意，只是在假设某种可能，这是她思考问题的小习惯啦，我可是相当相信你的哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102025",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "我刚刚说的，句句属实，只要找到那对笨蛋姐妹一切就会真相大白！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102026",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你为什么那么肯定？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102027",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "因为，樱就是最好的证明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，我们猜来猜去，还不如亲自找到那对姐妹问个清楚呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102029",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "认同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们这就出发吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102031",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你、你们愿意帮我寻找樱的下落？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3102032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯哼，那是当然啦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-127",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3102001,
+            3102002,
+            3102003,
+            3102004,
+            3102005,
+            3102006,
+            3102007,
+            3102008,
+            3102009,
+            3102010,
+            3102011,
+            3102012,
+            3102013,
+            3102014,
+            3102015,
+            3102016,
+            3102017,
+            3102018,
+            3102019,
+            3102020,
+            3102021,
+            3102022,
+            3102023,
+            3102024,
+            3102025,
+            3102026,
+            3102027,
+            3102028,
+            3102029,
+            3102030,
+            3102031,
+            3102032
+          ],
+          "sectionId": 3102
+        }
+      ],
+      "title": "#4 莉可殿下！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3103001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你确定樱被带到这里了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103002",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "绝对不会有错的，这里对那对笨蛋来说有特别的意义，她们带走樱之后肯定会来这里的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是可是，这附近连一个手办的影子都没有看到诶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103004",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "这对笨蛋姐妹真是狡猾，她们一定是做贼心虚，所以偷偷藏了起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们现在该怎么做才好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们在明，对方在暗，得想办法把她们引出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪和我都不了解那对姐妹，所以，莉可有没有什么主意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "主意……主意……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "有了！我想到了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是什么是什么，快说来听听~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "只要掌握那对笨蛋姐妹的弱点，就可以把她们引诱出来，我说的没错吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，是这样没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "hiahiahiahiahiahiahiahiahiahiahiahiaಡωಡ~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你，在笑什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总、总觉得好可怕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "不、不好意思，我只是被自己的聪明智慧震惊到了而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你想到了什么好主意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103019",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "那是当然，这个世界上没有谁比我更了解那对笨蛋姐妹弱点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103020",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "所以我决定利用她们的弱点，设好陷阱引诱她们自己出现在我们面前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "具体该怎么做呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103022",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "hiahiahiahiahiahiahiahiahiahiahiahiaಡωಡ，这件事就交给我啦~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103023",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "大功告成！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103024",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "等着瞧吧，她们一定会上钩的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103025",
+          "sourceType": 3,
+          "text": "时间一分一秒地过去，优纪、和江、莉可仍然没有见到那对姐妹的身影……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3103026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你确定……用樱的皇冠能够把那对姐妹引诱出来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103027",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "当、当然！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是我们都等了这么长时间，连她们的影子都没看到呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103029",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "可恶……怎么会这样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103030",
+          "sourceType": 2,
+          "speaker": "莉可",
+          "text": "没道理啊……樱的皇冠是她们渴望已久的……难道她们真的不在这附近……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，快看那边！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103032",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "哇哦，我发现了一个了不得的好东西，小惠快跟我来~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103033",
+          "sourceType": 7,
+          "text": "宫本尤娜 · 热情似火\n商品名称：宫本尤娜·热情似火 Ver.\n作品名称：《蘑菇少女的日常》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "3103034",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐、姐姐，你等等我呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103035",
+          "sourceType": 7,
+          "text": "宫本里惠 · 少女的娇羞\n商品名称：宫本里惠·少女的娇羞 Ver.\n作品名称：《蘑菇少女的日常》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约230mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "3103036",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "终于出现了！我们……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3103037",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "先不要声张，等她们靠近点再做打算。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-128",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3103001,
+            3103002,
+            3103003,
+            3103004,
+            3103005,
+            3103006,
+            3103007,
+            3103008,
+            3103009,
+            3103010,
+            3103011,
+            3103012,
+            3103013,
+            3103014,
+            3103015,
+            3103016,
+            3103017,
+            3103018,
+            3103019,
+            3103020,
+            3103021,
+            3103022,
+            3103023,
+            3103024,
+            3103025,
+            3103026,
+            3103027,
+            3103028,
+            3103029,
+            3103030,
+            3103031,
+            3103032,
+            3103033,
+            3103034,
+            3103035,
+            3103036,
+            3103037
+          ],
+          "sectionId": 3103
+        }
+      ],
+      "title": "#5 好戏开始了"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3104001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "小惠快看，这是什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104002",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "这……这不是樱的皇冠吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "Bingo~恭喜小惠，你答对了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104004",
+          "sourceType": 2,
+          "speaker": "宫本里恵",
+          "text": "姐姐、姐姐夸赞小惠了……怎么办，应该说些什么才好呢……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "不过为什么会在这里呢，真是好奇怪呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104006",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "总而言之，我们先把樱的皇冠带回去再说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104007",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "好、好的，都听姐姐的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104008",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "你们两个笨蛋，给我站住！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104009",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "呜哇，什么情况，你们几个哪里冒出来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104010",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼，做贼心虚的家伙，这下被我们抓到现行了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104011",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "谁做贼心虚，你不要乱讲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104012",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "你、你不可以这样说姐姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "好吧，我现在问你，这个皇冠是不是你们的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104014",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "……不是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "既然不是你们的，为什么要随意拿走？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104016",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "这……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104017",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "没话可说了吧，哼，你就是做贼心虚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104018",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我不是，我没有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104019",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "少在那里狡辩了，人赃俱获，你还有什么好解释的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104020",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "这种小偷小摸的行径，你和你妹妹不是早就习以为常了么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104021",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "你说什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104022",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "少装了，樱就是你们两个藏起来的吧，你们还真是敢做不敢当的胆小鬼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104023",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "你……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104024",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "哇呀呀呀呀，气死我啦！气死我啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104025",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "我要把你这个油嘴滑舌的家伙痛痛快快地暴揍一顿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104026",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐、姐姐放心，小惠会保护好你的……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3104027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "莉可，小心！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-129",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3104001,
+            3104002,
+            3104003,
+            3104004,
+            3104005,
+            3104006,
+            3104007,
+            3104008,
+            3104009,
+            3104010,
+            3104011,
+            3104012,
+            3104013,
+            3104014,
+            3104015,
+            3104016,
+            3104017,
+            3104018,
+            3104019,
+            3104020,
+            3104021,
+            3104022,
+            3104023,
+            3104024,
+            3104025,
+            3104026,
+            3104027
+          ],
+          "sectionId": 3104
+        }
+      ],
+      "title": "#6 目标出现"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3105001",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "我再说一遍！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105002",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我，没有藏起樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "无论你怎么污蔑，我没有做过的事是不可能会承认的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105004",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你撒谎！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105005",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "樱就是你抓走的！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105006",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "明明是你抓走了樱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105007",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "是你一次又一次地绑架樱，害得博士伤心难过，我们还没找你算账，你反倒先咬我们一口！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105008",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "博士还在等樱回家，请把樱交给我们……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们……真的没有抓走樱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "当然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105011",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "请相信姐姐和我，我们也一直在找樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "莉可和宫本姐妹都怀疑是对方抓走了樱，可是，她们又都矢口否认……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我听下来感觉她们每一个都讲得非常有道理……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "究竟该相信谁呢，和江？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "有两种可能，她们要么都在撒谎，要么说的都是真话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们需要验证一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105019",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "我说，你们不会真的相信那对笨蛋姐妹的鬼话吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105020",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "她们那副无辜的样子都是装出来的，相信我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你，亲眼见到她们把樱带走了么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105022",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105023",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "当时被打晕装进了箱子，没有亲眼见到宫本姐妹带走樱……但不是她们做的还能是谁呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们和樱、莉可认识，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105025",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "是的！樱是博士的女儿，我们是受博士委托把她带回家的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105026",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "那个可恶的莉可，不知道打的什么主意，盯上了可爱的樱，总是想方设法把她骗走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105027",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我们已经很小心了，可樱还是被……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105028",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "说好要一起回家的，怎么会短短的功夫就不见了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们谁都没有错，但也都是不对的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105030",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你在说什么？错的怎么可能是我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105031",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我不明白你的意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105032",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们听我说完。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3105033",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "樱的失踪与你们都无直接关系，极有可能与最近的FULI仓库失窃事件有关，而这件事应当是天启的所作所为。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-130",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3105001,
+            3105002,
+            3105003,
+            3105004,
+            3105005,
+            3105006,
+            3105007,
+            3105008,
+            3105009,
+            3105010,
+            3105011,
+            3105012,
+            3105013,
+            3105014,
+            3105015,
+            3105016,
+            3105017,
+            3105018,
+            3105019,
+            3105020,
+            3105021,
+            3105022,
+            3105023,
+            3105024,
+            3105025,
+            3105026,
+            3105027,
+            3105028,
+            3105029,
+            3105030,
+            3105031,
+            3105032,
+            3105033
+          ],
+          "sectionId": 3105
+        }
+      ],
+      "title": "#7 樱的守护者"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 16,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 16,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 101,
+          "rowNpcId": 505
+        }
+      },
+      {
+        "id": "25",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 108,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "26",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 121,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "27",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "今日新闻头条！！！",
+  "title": "第15章",
+  "wordCount": 5221
+}

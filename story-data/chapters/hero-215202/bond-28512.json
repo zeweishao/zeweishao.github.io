@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-215202",
+  "id": "bond-28512",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28512001",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28512002",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "您……您来了……早上好……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28512004",
+              "text": "已经不是早上了哦？"
+            },
+            {
+              "targetId": "28512004",
+              "text": "柔嘉看起来好像很不安阿。"
+            }
+          ],
+          "sourceId": "28512003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28512004",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "对不起……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28512006",
+              "text": "为什么要一直道歉呢？"
+            },
+            {
+              "targetId": "28512006",
+              "text": "柔嘉又没做错什么。"
+            }
+          ],
+          "sourceId": "28512005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28512006",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "我……是这样吗……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28512008",
+              "text": "能跟我说说为什么吗？"
+            }
+          ],
+          "sourceId": "28512007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28512008",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "柔嘉总是……带来不幸……\n只要把自己关起来，就不会伤害到别人了吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28512010",
+              "text": "根本不是这样。"
+            },
+            {
+              "targetId": "28512010",
+              "text": "才没有谁会带来不幸。"
+            }
+          ],
+          "sourceId": "28512009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28512010",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "您是……认真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28512011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，柔嘉一直都是善良又温柔的女孩子。\n认识柔嘉，我觉得很幸运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28512012",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "听到您这样说……谢……谢谢您。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28512",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28512001,
+            28512002,
+            28512003,
+            28512004,
+            28512005,
+            28512006,
+            28512007,
+            28512008,
+            28512009,
+            28512010,
+            28512011,
+            28512012
+          ],
+          "sectionId": 28512
+        }
+      ],
+      "title": "小动物女孩"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215202",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "小动物女孩",
+  "wordCount": 182
+}

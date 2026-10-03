@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-215001",
+  "id": "bond-26026",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26026001",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "哇！这么大的房子，真漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是送给樱的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026003",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "给樱的礼物？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，樱有很多朋友吧，不能总是在外面招待朋友，有这样的小屋，以后樱就能邀请朋友一起来家里玩了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026005",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "嗯嗯，樱想要找很多好朋友来做客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026006",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "动物的朋友也可以来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，只要樱喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026008",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "樱最喜欢主人了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026009",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "那~主人再等我一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么大的木牌，樱要写上什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026011",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "很快主人就知道了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026012",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "锵锵锵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026013",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "樱和主人的小屋，今日，挂牌营业~\n欢迎大家一起来玩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26026014",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "这也是主人的小屋，主人以后也要经常过来哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26026",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26026001,
+            26026002,
+            26026003,
+            26026004,
+            26026005,
+            26026006,
+            26026007,
+            26026008,
+            26026009,
+            26026010,
+            26026011,
+            26026012,
+            26026013,
+            26026014
+          ],
+          "sectionId": 26026
+        }
+      ],
+      "title": "很喜欢"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "很喜欢",
+  "wordCount": 201
+}

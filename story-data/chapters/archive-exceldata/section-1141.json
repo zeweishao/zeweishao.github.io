@@ -1,0 +1,49 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1141",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1141001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "击败在雨夜中捣乱的坏家伙们，就能够得到不同的奖励唷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1141002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "朝着“噩梦路1号”，进发吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1141",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1141001,
+            1141002
+          ],
+          "sectionId": 1141
+        }
+      ],
+      "title": "原文片段 1141"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1141
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1141",
+  "wordCount": 40
+}

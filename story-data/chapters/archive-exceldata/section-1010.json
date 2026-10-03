@@ -1,0 +1,41 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1010",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1010001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦因为太久没有进行日常养护导致迟钝了，现在好了。\n和江早上也没有养护，趁现在也给和江养护一下。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1010",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1010001
+          ],
+          "sectionId": 1010
+        }
+      ],
+      "title": "原文片段 1010"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1010
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1010",
+  "wordCount": 47
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214101",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "闪亮的金线装点着「岩田和江」洁白的制服，脸上的表情充满威严，即将开始战斗的姿态更让「岩田和江」具备别样的英气。此外，四把充满科技感的长剑，漂浮在公主的身边部分，展现出兼具飘逸与动感的绝佳氛围。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214101"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 96
+}

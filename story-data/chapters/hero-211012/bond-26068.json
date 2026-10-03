@@ -1,0 +1,107 @@
+{
+  "bookId": "hero-211012",
+  "id": "bond-26068",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26068001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在，奇萝拥有一座属于自己的古堡了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，属于我的？不，每一座古堡都不会单独属于某一个人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068003",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "它属于刻进一砖一瓦的漫长岁月，属于沉睡在古堡中的每一个灵魂......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然不想打击你，但……作为最新款的手办屋，它经历的岁月可能还没有你长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "......咳！那还真是可惜，这座初建不久的古堡马上要被邪恶的幽灵霸占啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "啊呀，不妙......真是狡猾的人类，居然在这座古堡里施加诅咒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诅咒？我没有啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068008",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "有一股强大的力量迫使我留在这里......\n从现在开始，我已经变成无法离开你身边的地缚灵了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26068009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯咯，准备好度过幽灵缠身的漫长人生吧，人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26068",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26068001,
+            26068002,
+            26068003,
+            26068004,
+            26068005,
+            26068006,
+            26068007,
+            26068008,
+            26068009
+          ],
+          "sectionId": 26068
+        }
+      ],
+      "title": "古堡"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "古堡",
+  "wordCount": 262
+}

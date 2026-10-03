@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215001",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "春风和煦的日子，樱换上了轻飘飘的和服，像是轻柔梦境跌落的精灵。\n“花嫁衣裳，才不是呢~”\n“樱还没到那样的年纪。”\n“不过主人喜欢的话，以后也可以穿给主人看的。”\n“今天因为要和主人出去玩，才特别穿成这样！”\n“不过穿着木屐，会走的很累，回来的时候，主人可以抱着樱吗？”\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "樱花梦语Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215001",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "樱·樱花梦语Ver.",
+  "title": "樱花梦语Ver.",
+  "wordCount": 130
+}

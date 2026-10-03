@@ -1,0 +1,190 @@
+{
+  "bookId": "hero-213202",
+  "id": "bond-29306",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29306001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "您终于回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "|101|大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "肚子好饿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306004",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "请随我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "听到您喊肚子饿，总是一件让人难过又甜蜜的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "难过，又甜蜜？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "难过的是，没有我在身边的日子，您的胃究竟吃了多少苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306008",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "可一想到您狼吞虎咽的样子，内心又觉得比蜜还甜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306009",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "抱歉，说了不合时宜的话，啊——您的餐巾还没系好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "忍不住想大快朵颐了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306011",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "呵呵……大人也有这样孩子气的一面呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "啊——大人，请等一等。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306014",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "您的嘴角——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306015",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "呵呵，已经摘去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不得不说，味道一流。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306017",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "得到大人的夸赞了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29306018",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "对我来说，只要看到您填饱肚子的样子，就比什么都开心了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29306",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29306001,
+            29306002,
+            29306003,
+            29306004,
+            29306005,
+            29306006,
+            29306007,
+            29306008,
+            29306009,
+            29306010,
+            29306011,
+            29306012,
+            29306013,
+            29306014,
+            29306015,
+            29306016,
+            29306017,
+            29306018
+          ],
+          "sectionId": 29306
+        }
+      ],
+      "title": "珍馐美味"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213202",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "珍馐美味",
+  "wordCount": 234
+}

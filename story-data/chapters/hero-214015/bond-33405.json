@@ -1,0 +1,173 @@
+{
+  "bookId": "hero-214015",
+  "id": "bond-33405",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33405001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯……厨房怎么有蛋糕的香味？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "主人你回来啦！有带好吃的吗？\n没有也没关系，我替主人准备了~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33405004",
+              "text": "炉上的油……？"
+            },
+            {
+              "targetId": "33405004",
+              "text": "锅里的水……？"
+            }
+          ],
+          "sourceId": "33405003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33405004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~这是星洛在给主人做「蛋高」啦！\n主人快尝尝~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这浓郁的奶香，还有蓬松的口感……\n不愧是星洛，食材的处理和烹饪的时间都恰到好处！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405006",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "星洛可是用了好几天来准备呢！\n主人还有什么喜欢吃的，星洛全部做给你！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33405008",
+              "text": "星洛很会照顾人呢。"
+            },
+            {
+              "targetId": "33405008",
+              "text": "星洛很会做饭呢。"
+            }
+          ],
+          "sourceId": "33405007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33405008",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~除了凶兽，寒冷、黑暗还有陷阱，都是猎人要面对的敌人呢。饿着肚子可不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来好危险……你一直都是这样生活的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "星洛是被贝尔先生捡回来的，从小就在原野上长大。这些敌人，星洛早就习惯啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "不过后来，贝尔先生不见了，再也没回来过。\n很久很久，都是星洛一个人狩猎、烤肉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "正因为这样，世界上没有比星洛更熟悉原野的人了！\n星洛才能做出最好吃的烤肉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……下次，我帮星洛一起做饭吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些厨具对手办来说还是太不方便了。\n你看，你身上都粘上面粉了，我来帮你擦擦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33405015",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "主人~怎么突然——\n哎呀~摸头会长不高的啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33405",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33405001,
+            33405002,
+            33405003,
+            33405004,
+            33405005,
+            33405006,
+            33405007,
+            33405008,
+            33405009,
+            33405010,
+            33405011,
+            33405012,
+            33405013,
+            33405014,
+            33405015
+          ],
+          "sectionId": 33405
+        }
+      ],
+      "title": "猎人的烹饪时光"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214015",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "猎人的烹饪时光",
+  "wordCount": 411
+}

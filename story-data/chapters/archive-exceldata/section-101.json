@@ -1,0 +1,41 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-101",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "101001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家！快行动起来吧！危机解除了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "101",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            101001
+          ],
+          "sectionId": 101
+        }
+      ],
+      "title": "原文片段 101"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 101
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 101",
+  "wordCount": 16
+}

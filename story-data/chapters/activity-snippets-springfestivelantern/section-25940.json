@@ -1,0 +1,181 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25940",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25940001",
+          "sourceType": 10,
+          "text": "貂蝉猫猫，啾咪！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25940002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么办嘛，这下彻彻底底没有灵感了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "优纪看起来有些不开心呢，遇到什么困难了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我们做了动物题材的花灯，在艾伦兹的建议下，还做了星空探索的花灯。接下来完全不知道该做些什么了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "完全不需要为这件事烦恼，交给我们，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "喂，你要逞强随便你，可不要拉上我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "孙大小姐又害羞了呢，真是可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "没有你的话，我一个人可是不行的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "……我真想把你的嘴巴撬开仔细看看里面是什么构造。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，里面全是蜜糖哦，你早就感受到了吧，那么我们这就开始吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，我们要开始什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "当然是开始全新主题的花灯——就以赤炎大陆的名人为原型、融入猫猫元素，这个主意这么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "绝妙的想法，是只有你们才会想到的完美创意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "实不相瞒，我已经做好了一盏，这就拿出来给各位观赏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我还是第一次见这样的花灯，不，这不是花灯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "花迦你好奇怪呀，这不是花灯又是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940017",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这是难得一见的「艺术品」，只能用叹为观止来形容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25940018",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "这个评价非常不错，我很喜欢哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25940",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25940001,
+            25940002,
+            25940003,
+            25940004,
+            25940005,
+            25940006,
+            25940007,
+            25940008,
+            25940009,
+            25940010,
+            25940011,
+            25940012,
+            25940013,
+            25940014,
+            25940015,
+            25940016,
+            25940017,
+            25940018
+          ],
+          "sectionId": 25940
+        }
+      ],
+      "title": "貂蝉猫猫，啾咪！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25940,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "57",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "以赤炎大陆上的名人「貂蝉」为原型制作的猫猫花灯，造型在满足可爱这个要素的同时，融入了传统的赤炎风俗。",
+  "title": "貂蝉猫猫，啾咪！",
+  "wordCount": 397
+}

@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1151",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1151001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "耶！成功来到“Toys”手办商店了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1151002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸？！背后的桌子上，就是新出的桌游吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1151003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "“不同的抉择会将你引向不同的路口，而路口的尽头，则埋藏着最为特殊的宝物——运之骰！”",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1151004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么？！“运之骰”可以兑换新的手办！还等什么！快开一把啦~~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1151",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1151001,
+            1151002,
+            1151003,
+            1151004
+          ],
+          "sectionId": 1151
+        }
+      ],
+      "title": "原文片段 1151"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1151
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1151",
+  "wordCount": 110
+}

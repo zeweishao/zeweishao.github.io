@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211008",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《悲伤记忆代码》、沉迷睡觉的「温妮」化身为1/7比例模型登场！将官方图中温妮的睡衣造型，穿着的性感睡衣，头上戴着的眼罩，手中持有的枕头等细节一一呈现，制作成充满魅力的模型。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211008"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 88
+}

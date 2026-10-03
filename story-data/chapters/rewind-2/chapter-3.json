@@ -1,0 +1,3559 @@
+{
+  "bookId": "rewind-2",
+  "id": "chapter-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9840001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呼，终于把试炼名册交给了管理局，总觉得心里的一块大石头落了地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没想到主人会这么怕管理局啊，意外得有些可爱呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也不是怕啦，只是会忍不住担心试炼能不能顺利通过。\n虽然一开始被安排这个实习生的身份有点莫名其妙，但是呢，能帮助和你们一样的手办，倒也觉得是一件值得坚持下去的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840005",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "叮咚，你的终端有新的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "啊？管理局的终端有新消息了，会是什么呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呵呵，我也很好奇，一起打开看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "9840009",
+              "text": "点开消息"
+            }
+          ],
+          "sourceId": "9840008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "9840009",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "是否现在开始同步同区试炼进度，请确认。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不知道为什么，我有种不好的预感。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "9840012",
+              "text": "确认同步区域试炼进度"
+            }
+          ],
+          "sourceId": "9840011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "9840012",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "第二关试炼已经开启。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没了？又是隐藏试炼吗？这次连名单都没有？这个管理局的作风还真是一如既往的神秘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我却觉得管理局这么做自然有它的道理，我们安心等待第二个试炼任务吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦说的对，着急是没用的。既然这段时间比较有空，不如我们就在这个「日光乐园」痛痛快快地好好玩一次怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好耶好耶！这可是M城最大的游乐场，优纪早就想来这里玩玩看了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "等等，前面似乎出现了「天启」的身影，它们到这里来做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840018",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "果真如此的话，「管理局」定然不会坐视不管，此次试炼与「天启」或许存在着千丝万缕的联系也说不定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9840019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对待「天启」我们要谨慎一些，小心打草惊蛇，以免影响到其他无辜的手办。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-16",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9840001,
+            9840002,
+            9840003,
+            9840004,
+            9840005,
+            9840006,
+            9840007,
+            9840008,
+            9840009,
+            9840010,
+            9840011,
+            9840012,
+            9840013,
+            9840014,
+            9840015,
+            9840016,
+            9840017,
+            9840018,
+            9840019
+          ],
+          "sectionId": 9840
+        }
+      ],
+      "title": "#1 日光乐园"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9710001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "能量检测器显示它就在这附近……找到了。这颗色泽度和通透度都比以往的高。希望它的能量会持续很久吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710002",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你手里的东西，我要，给我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "谁在那里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710004",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "东西拿到了吗？对方的躯体呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710005",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "逃走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710006",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "为什么不解决掉！这下麻烦了，管理局很快就会知道我们已经来到M城了。算了，这附近有管理局的监测，既然东西已经拿到，我们现在就离开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你确定对方是「天启十一众」中的水城结奈？这是M城首次发现有天启高层，你尽快离开那里，详细情况回来再汇报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9710008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-17",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9710001,
+            9710002,
+            9710003,
+            9710004,
+            9710005,
+            9710006,
+            9710007,
+            9710008
+          ],
+          "sectionId": 9710
+        }
+      ],
+      "title": "#2 伽拉人气手办再版"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9870001",
+          "sourceType": 9,
+          "text": "|101|带着手办们来到「日光乐园」，被这里彩色的应援条幅、喧闹的人潮、还有热情如火的乐队演出深深吸引。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「日光乐园」果然和传闻中的一样热闹呢，即使什么都不做地在待着，也能轻易被这里满溢的快乐氛围所感染呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "总觉得「日光乐园」和平时不太一样呢，难道今天是什么特殊的节日么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们看那边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870005",
+          "sourceType": 9,
+          "text": "一张印着「伽拉人气手办再版」字样的海报映入大家的眼帘，同时游乐园的广播中传来了一阵高过一阵的宣传语。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，你们快看，海报上面还有绿子呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870007",
+          "sourceType": 9,
+          "text": "各位游客朋友们，欢迎来到梦幻天堂「日光乐园」，FULI公司推出的热门活动「伽拉人气手办再版」正在如火如荼地进行中~！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870008",
+          "sourceType": 9,
+          "text": "今日来到「日光乐园」的每名游客可以凭借门票免费兑换5枚「街机币」，随意畅玩我们为您准备的经典街机游戏——《格斗学园》。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870009",
+          "sourceType": 9,
+          "text": "活动规则非常简单，只要拿着活动期间限定的「街机币」选择自己喜爱的角色试玩游戏，我们的后台就会自动为您选择的角色增加一票。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870010",
+          "sourceType": 9,
+          "text": "还在等什么，动动手指就可以为喜欢的角色增添人气喔~「街机币」数量有限，先到先得，千万不要错过哟~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9870011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我还纳闷「日光乐园」为什么会比以往热闹许多，原来就是因为这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "看起来规模很庞大，想必会引起公众的大量关注。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个活动听起来很有意思，主人也带我们也去凑凑热闹好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦也很想去看看，可、可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么不可以呢~这次带你们来，就是要你们玩得开心，走吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870016",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主、主人，「日光乐园」这样规模的娱乐场所，肯定会存在很多像我们一样可以行动的的手办和玩具。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870017",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "由于主人现在的身份非常特殊，务必需要注意，不可在除了我们之外的手办面前随意展现这种能力。否则的话，后果将会不堪设想……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来花迦在担心这个啊，放心好了，我会注意的。只有在你们几个需要我的时候，我才会出现，其他的时候绝对不去打扰手办们的生活~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚才明明看到了几个天启的马仔，怎么到这里却又不见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9870020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "如此鬼鬼祟祟，到底在密谋些什么呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "嘶……疼疼疼疼疼疼疼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "今天练习的这套新拳法，稍微有点难度呢。果然是我太心急了吗……可是，我明明和那个家伙约好了的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "一定要变得更强，绝对不能松懈，我可是打不倒的「千裂苍龙」！下次见面，绝对要他对我……对我刮目相看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "唔，有点累了，就在这里稍微休息一下好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "呼……呼……呼Zzzzzzzzz……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860006",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "呜呜呜……嘤嘤嘤……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……谁在那里？！滚出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "奉劝你们最好老实一点，偷东西居然偷到了我绿子的头上，活得不耐烦了么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860009",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "呜呜呜呜，真的是你啊，我们找你找了好久，总算被我们找到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们这群登堂入室之徒瞎套什么近乎，别以为这么做就能少挨几顿拳脚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860011",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "不，千万别动手，是我啊，绿子，你不认得我了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你是……皮尔大叔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "诶——？！真的是你们，我不是在做梦吧，你们怎么找到我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860014",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "绿子啊，咱们的家园……没了，咱们都无家可归了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "什么？！怎么会这样……我不在家的这段时间，究竟发生了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860016",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "咱们一直居住的那家「太南」手办商店倒闭了，店家要处理掉卖不出去的手办。\n说是处理，其实是用残忍的手段对手办进行“销毁”。\n大家听说了之后，机灵一点的早就想办法逃了出来，可是我没想到……没想到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没想到什么，快说啊，皮尔大叔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860018",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "没想到还有一些顽固的家伙，即使知道面临被销毁的结局，仍旧死活不愿意离开那家「太南」手办商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "脑子这么轴……居然是我的同胞，真是手办世界的耻辱啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860020",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不过嘛，我从小受到的教育就是面对弱者不能袖手旁观。这件事交给我了，皮尔大叔，我会好好劝劝他们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9860021",
+          "sourceType": 0,
+          "speaker": "皮尔大叔",
+          "text": "有绿子这句话我就放心了，咱们等你的好消息。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-18",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9870001,
+            9870002,
+            9870003,
+            9870004,
+            9870005,
+            9870006,
+            9870007,
+            9870008,
+            9870009,
+            9870010,
+            9870011,
+            9870012,
+            9870013,
+            9870014,
+            9870015,
+            9870016,
+            9870017,
+            9870018,
+            9870019,
+            9870020
+          ],
+          "sectionId": 9870
+        },
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9860001,
+            9860002,
+            9860003,
+            9860004,
+            9860005,
+            9860006,
+            9860007,
+            9860008,
+            9860009,
+            9860010,
+            9860011,
+            9860012,
+            9860013,
+            9860014,
+            9860015,
+            9860016,
+            9860017,
+            9860018,
+            9860019,
+            9860020,
+            9860021
+          ],
+          "sectionId": 9860
+        }
+      ],
+      "title": "#3 特别的活动"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9720001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哦，这里就是「伽拉人气手办再版」的初赛现场了吗，果然很火爆呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "此处来来往往的人类很多，我们需多加小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "知道啦，知道啦，优纪会小心的，绝对不让除了主人以外的其他人类发现我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些人居然真的在玩《格斗学园》，看得我也好想玩玩看呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "《格斗学园》究竟是什么游戏呀？这些人看起来一副很享受的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这款游戏可是好多人的童年记忆，记得小时候常常放学后就和小伙伴们相约在街机厅，就是为了它呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "关于《格斗学园》，我也有所了解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它曾经是风靡全球的街机格斗游戏，以独具特色的连招和人物设计为卖点，随着时间的流逝，现在受众相对较小，但仍然有一批忠实的玩家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的是的，和江果然什么都知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那是当然咯，和江永远是除了主人之外最棒的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……不，我只是比较善于通过各种渠道获取有用的信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720012",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "喂，我说，你们就不能好好听我把话说完吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎，那边那个家伙看起来好眼熟哦，该不会是……绿子？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "看绿子那副气鼓鼓的样子，会不会是遇到了什么麻烦，难道是天启……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们快去看看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720016",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "一个又一个在那里自说自话，真的很讨厌诶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "老实说，我已经忍你们很久了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720018",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我千裂苍龙想做的事，想达成的梦想，哪里轮得到你们说三道四。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720019",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "看看，我早就说嘛，绿子这个叛徒怎么可能会好心帮我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720020",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "就是就是，我们随意说她几句就暴露原形了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720021",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "你们怎么能这样，绿子想要参加比赛可是为了我们啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720022",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……够了，什么都别说了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720023",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "事到如今，我该做的都做了，该说的也说了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们信也好，不信我也无所谓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720025",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "如果愿意相信我，就把你们的「街机币」交给我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720026",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "「街机币」这么重要的东西，怎么可能随随便便就交给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720027",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "万一你拿走「街机币」翻脸就不认人，我到时候岂不是哭都没地方哭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720028",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "想从我这里骗走「街机币」，门都没有！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720029",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "绿、绿子，我这里有一枚，不嫌弃的话，请收下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720030",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……谢谢你愿意相信我，真的非常感谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720031",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "哟哟哟，你的脸突然怎么这么红。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720032",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "哈哈哈哈哈哈，一个呆头瓜，一个女武痴，你们果然很般配哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720033",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "不不不不是你们想的那个样子，我对绿子、对绿子……我只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720034",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720035",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们啰嗦完了没有？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720036",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "哈哈哈……哈哈哈……绿子这家伙不会真的以为呆头瓜是相信她的话才把「街机币」交出来的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720037",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "哈哈哈哈，以她的脑回路肯定是这样想的啦，哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720038",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们说的没错，我不擅长思考，脑子里没有那么多弯弯绕的，可是我却很擅长使用拳头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9720039",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说的好，绿子！这群家伙太过分了，我们也来帮你出口气！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-19",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9720001,
+            9720002,
+            9720003,
+            9720004,
+            9720005,
+            9720006,
+            9720007,
+            9720008,
+            9720009,
+            9720010,
+            9720011,
+            9720012,
+            9720013,
+            9720014,
+            9720015,
+            9720016,
+            9720017,
+            9720018,
+            9720019,
+            9720020,
+            9720021,
+            9720022,
+            9720023,
+            9720024,
+            9720025,
+            9720026,
+            9720027,
+            9720028,
+            9720029,
+            9720030,
+            9720031,
+            9720032,
+            9720033,
+            9720034,
+            9720035,
+            9720036,
+            9720037,
+            9720038,
+            9720039
+          ],
+          "sectionId": 9720
+        }
+      ],
+      "title": "#4 千苍裂龙，参上！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9730001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么可以当着女孩子的面说女孩子的坏话，真的太没有礼貌了！都不要拦着我，我今天一定要好好教训他们一顿不可。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪不要急着动手，先听听绿子怎么说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……把他们放了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么什么？我没听错吧，就这么简单地把他们放了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "打也打了，骂也骂了，还能把他们怎么样。说到底也是我有求于他们，而他们不愿意罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你有求于他们指的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喏，那张「伽拉人气手办再版」的初赛海报，你们都看到了吧。我要进入决赛争夺再版手办的冠军，只有初版比赛中的票数排在前五名的才有机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我需要很多很多的选票，目前的票数还远远不够。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "抱歉我没有听懂，参加比赛的人气角色的票数和你在做的这件事有什么关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730010",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "小姑娘有所不知了吧，今年的这场「伽拉人气手办再版」比赛是通过玩街机游戏进行的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730011",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "只要有人类拿着「街机币」，在玩《格斗学园》这款游戏的时候选择喜欢的角色，那么参赛的角色就能获得珍贵的一票。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是，这个叫作《格斗学园》的游戏不是给人类玩的吗，就算你们拿到「街机币」也没什么用吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "并没有优纪想象得那么严格啦，这个游戏不一定非得本人来打，我们手办也可以暗中代打。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730014",
+          "sourceType": 0,
+          "speaker": "舒小克",
+          "text": "没、没错，所以「街机币」才是这个「伽拉人气手办再版」比赛的关键。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来是这样，所以绿子才想通过这种方式给自己拉票啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730016",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "她不会如愿的，看看她这个可怜巴巴的排名就知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不到最后一刻，谁也不能保证会是什么结果，快滚吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "它们都走掉啦，主人可以放心出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好险好险，还好没被它们几个看到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呐呐，绿子，我和你说哦，刚才在海报上看到你的时候感觉超新奇的呢。话说你为什么会想到要参加这个「伽拉人气手办再版」比赛呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……这件事说起来和我的老家有关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶诶，绿子的老家吗，怎么从来没听你提起过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730023",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我在遇到你们之前，是生活在这里的「太南」手办商店的一名待售的手办。为了完成自己的武道理想，数月前离开了那里四处历练。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不久前我被一群「太南」手办商店的同胞找到，他们告诉我「太南」已经倒闭。我这才知道我和我的同胞都要没有家了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子不会没有家的，绿子还有我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730026",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "能认识你们的确是我的荣幸，可是我的那些无家可归的同胞们该怎么办呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730027",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "后来我了解到今年的这场「伽拉人气手办再版」比赛，如果拿到冠军不但能为「太南」增加人气，店里居住的手办们也能有新家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来这就是绿子想要参赛的目的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "很令我敬佩，绿子，你让我们刮目相看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730030",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哈哈哈，谢谢你们的夸奖，我就不客气地收下咯~不过，真正行动起来才发现积累人气和票数好难啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730031",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我拥有的「街机币」少得可怜，不能像人类一样直接兑换，所以只有找昔日的「太南」手办商店的同胞那里募集，它们那里还有少量的往届活动剩余的「街机币」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730032",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "至于募集「街机币」的进展，你们刚才也都看到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730033",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看得出来，绿子好辛苦呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730034",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "又要募集「街机币」，又要趁人类不在的时候偷偷打街机游戏，我自己忙前忙后地两边跑，简直比平时练武还要累人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730035",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我倒是有一个很好的办法，就是要看看主人|101|愿不愿意咯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730036",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有什么是我可以为绿子做的吗，快说来听听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们的主人|101|可是个游戏天才，只要有|102|在，还没有无法通关的游戏呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "而且而且，主人|101|对《格斗学园》这款游戏非常地熟悉，如果能利用这个优势帮绿子打游戏的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730039",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哇，我怎么没想到这点，优纪真是个小机灵~帮绿子打游戏这件事，我一个人承包了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9730040",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "居然有这等好事，我绿子还真是走运呢！哈哈哈哈，打游戏的事交给你们，募集「街机币」的事就交给我吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-20",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9730001,
+            9730002,
+            9730003,
+            9730004,
+            9730005,
+            9730006,
+            9730007,
+            9730008,
+            9730009,
+            9730010,
+            9730011,
+            9730012,
+            9730013,
+            9730014,
+            9730015,
+            9730016,
+            9730017,
+            9730018,
+            9730019,
+            9730020,
+            9730021,
+            9730022,
+            9730023,
+            9730024,
+            9730025,
+            9730026,
+            9730027,
+            9730028,
+            9730029,
+            9730030,
+            9730031,
+            9730032,
+            9730033,
+            9730034,
+            9730035,
+            9730036,
+            9730037,
+            9730038,
+            9730039,
+            9730040
+          ],
+          "sectionId": 9730
+        }
+      ],
+      "title": "#5 少女的决心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9740001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚才主人是不是又一不小心刷新了《格斗学园》的通关记录呀，那快到只剩残影的手速，把优纪都看呆了呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘿嘿，我的手速……还好啦，多年养成的习惯而已。不过，还真没想到绿子给的「街机币」这么快就被用完了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……唉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了，优纪，为什么叹气，玩得不开心吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没有啦没有啦，能来到「日光乐园」优纪真的很开心，只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我想优纪是在为绿子的事情感到担忧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，不知道绿子的票数有没有增加，我好在意哦，如果可以的话，真想帮帮绿子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我理解优纪的心情，我也很想帮绿子。可惜我的「街机币」都被我用光了，不然的话就算全都送给绿子也愿意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对哦，如果能帮绿子多准备一些「街机币」，不就正好可以帮到她了吗？前面那幢建筑看起来好气派，说不定会有我们想要的东西呢～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们的运气真不错，这里可是FULI公司的总部大厦哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，这个名字听起来有点熟悉……我想起来了呢，FULI就是举办这次「伽拉人气手办再版」比赛的那家企业！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "对，此处就是那个FULI公司的总部大厦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "据我所知，这家公司在1950年正式成立，目前已经有71年的历史。FULI一名取自《龙韬 · 励军》——“将不身服礼，无以知士卒之寒暑。”",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "目前FULI旗下有三大手办事业部，分别为「猩潮」、「天马」和「伽拉」，M城中绝大多数的手办都来自这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好厉害………原来我们这些手办都是从这里诞生的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "可以这么认为，优纪、我、花迦、绿子，我们都是三大品牌事业部设计并制作的手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难怪我远远看到这里就感到一种莫名的亲切感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740018",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "……花迦也有这样的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好了！这里一定会有我们想要的！不过糟糕的是，这里到处都是人，我们没办法从正面直接进去。明明希望就在前方，却要眼睁睁地错过，这也太残忍了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "无妨，此路不通，我们就再找一条。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯？和江怎么看呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我仔细观察过这幢建筑，它的每一层都有一处紧急出口，那里平时极少有人会使用，我们可以沿着侧面的窗台爬上去，直接走紧急出口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哦，听起来好酷哦～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "需要注意的是，这栋建筑的安保系统很严密，我们要冒很大的风险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪知道这样做很危险，可是我们也没有别的办法了呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740026",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可以的话，花迦、花迦愿意一试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740027",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "连花迦都开口了，你们就一起上去看看吧，我会在这里替你们守着的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9740028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "果然，优纪最爱主人了～！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈太棒了，这里居然有这么多好东西，真是想都不敢想呢～有树脂块、补土、砂纸……最重要的是，还有不少「街机币」哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这些大多都是制作手办必须的一些道具，但同时也能拿来养护手办的身体，是很重要的珍贵物品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "既然已经拿到了这么多，我们是不是现在就回去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还不行哦！还要再找更多的「街机币」才行，这些远远不够呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「街机币」在这里并不常见，只怕是徒然浪费时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是可是，即使只能多拿到一枚「街机币」，就能让绿子多增加一票呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……好吧，那我们就再找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "早知道就应该听和江的……浪费了不少时间不说，居然连一枚「街机币」都没看到，真是好气啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「街机币」作为「伽拉人气手办再版」活动的限定道具，本就是不应该随处可见的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "之前所找到的那些，也许是人们不慎遗失在这里，所以才一直无人问津。我们已经拿到了不少「街机币」，应该觉得幸运才是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "对啊，我们早点回去把那些「街机币」送给绿子吧，她一定会很开心的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "啊……不见了……怎么会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "花迦在说什么不见了？天啊，怎么会一个都没有了呢，那可是我们好不容易才弄到的「街机币」啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……先在附近找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇怪，优纪她们怎么还没到，明明说好了是在这个时间见面的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人……我们回来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊哈，刚刚还在念叨呢，这就见你们回来了。你们怎么了，为什么一个个都愁眉苦脸的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜呜呜，主人，呜呜呜呜，我们原本收集到不少「街机币」，是想拿来送给绿子的……可是……可是……一枚都没有了，会不会是被谁偷走了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪不要难过，我陪你们找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9750020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯……好……但愿还来得及……",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "9750021",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-21",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9740001,
+            9740002,
+            9740003,
+            9740004,
+            9740005,
+            9740006,
+            9740007,
+            9740008,
+            9740009,
+            9740010,
+            9740011,
+            9740012,
+            9740013,
+            9740014,
+            9740015,
+            9740016,
+            9740017,
+            9740018,
+            9740019,
+            9740020,
+            9740021,
+            9740022,
+            9740023,
+            9740024,
+            9740025,
+            9740026,
+            9740027,
+            9740028
+          ],
+          "sectionId": 9740
+        },
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9750001,
+            9750002,
+            9750003,
+            9750004,
+            9750005,
+            9750006,
+            9750007,
+            9750008,
+            9750009,
+            9750010,
+            9750011,
+            9750012,
+            9750013,
+            9750014,
+            9750015,
+            9750016,
+            9750017,
+            9750018,
+            9750019,
+            9750020,
+            9750021
+          ],
+          "sectionId": 9750
+        }
+      ],
+      "title": "#6 为了更多的街机币~！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9760001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "到处都找遍了……还是什么都没有看到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这不奇怪，如果是故意为之，想必会第一时间把偷走的赃物尽快藏起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "藏起来……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "究竟是谁会偷走「街机币」，又会把它们藏在什么地方呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "无论是谁做的，总会露出蛛丝马迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是的，只要能找到任何有用的线索，循着线索抓到凶手也只是时间的问题了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们分析得很到位，我们到前面看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们快看，这是什么地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "门口上面的招牌上依稀写的是——「太南」手办商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎，那不是绿子的老家吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不会有错，就是这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这家店一定住着很多手办，我出现在它们面前的话恐怕不太合适，还是在这里等你们好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那就只好麻烦主人在这里稍作停留了。门锁上落了那么多的灰尘，到处都是密密麻麻的蛛网……果然像绿子说的，这里已经倒闭了很久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这种地方居然还有手办住在里面吗，真是难以想象……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760015",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "这里再破也是我们的家，轮不到你们这群外来的家伙在这里评头论足。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，抱歉，我刚才不是那个意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你就是住在这里的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760018",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "没错，我一直生活在这里。刚才你们说的话，我全都听到了，你们是绿子的朋友吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，对的哦，绿子和我们是很好很好的朋友呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760020",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "呵，那可难办了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯？这是什么意思呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760022",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "绿子这个叛徒偷偷背着我们离家出走、杳无音信，如今却又突然出现在我们面前，说什么要帮我们搬到新的住所。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760023",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "开什么玩笑，搬走对我们百害无一利，我们又不是笨蛋，怎么会听信她的一面之词。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你可知道，这家「太南」手办商店面临倒闭，店中未能售出的手办面临被销毁的危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760025",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "被销毁？这也是绿子告诉你们的？怎么她随便说什么，你们轻易就跟着相信。你们难道不会担心，她是带着自己的私心，故意欺骗你们的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760026",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "哪里会有被销毁的危险，那都是骗你们的谎话。就算是有，我们还有艾里克希娅小姐在，她一定会保护我们的周全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子不是你想的那样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760028",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "哼，随你们怎么想，总之这里不欢迎绿子，恕不奉陪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎，你别走，我们还没说完呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，不要再和她无谓地争论了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760031",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "总觉得这家店疑点重重，从她刚才说的话里可以看出，她对那个「艾里克希娅小姐」非常崇敬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "她刚才说话的感觉，带着一种……一种奇怪的狂热感，就好像……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760033",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "好像被谁洗脑了一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对对对，就是这个意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760035",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "看来这家店有必要好好调查一下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760036",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可是看他们那个样子，会不会不欢迎我们进去店里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760037",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是的，所以我们更要多加小心，万一被他们发现，只会徒增事端。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9760038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，我们悄悄地溜进去，暗中把这家「太南」手办商店查个水落石出。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-22",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9760001,
+            9760002,
+            9760003,
+            9760004,
+            9760005,
+            9760006,
+            9760007,
+            9760008,
+            9760009,
+            9760010,
+            9760011,
+            9760012,
+            9760013,
+            9760014,
+            9760015,
+            9760016,
+            9760017,
+            9760018,
+            9760019,
+            9760020,
+            9760021,
+            9760022,
+            9760023,
+            9760024,
+            9760025,
+            9760026,
+            9760027,
+            9760028,
+            9760029,
+            9760030,
+            9760031,
+            9760032,
+            9760033,
+            9760034,
+            9760035,
+            9760036,
+            9760037,
+            9760038
+          ],
+          "sectionId": 9760
+        }
+      ],
+      "title": "#7 破落的手办商店"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9770001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈，进来了进来了，也没有想象中那么难嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "小声点，不可大声声张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，知道了啦，我会小声的，和江不要不高兴哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这家店看起来很空旷，货架上的手办也寥寥无几。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "毕竟已经有手办得到被销毁的消息后，偷偷逃走了不少呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770006",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "胡闹，这么做的后果有多严重，你们居然还是不明白吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，那是绿子的声音，我们跟过去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们到底明不明白，这家「太南」手办商店已经倒闭了。\n“倒闭”是什么意思，你们真的懂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "这里不再是我们的家，如果继续待在这里，他们会把我们这些还没有售出的手办当作废弃品处理掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "想要改变这个现状，我们只有一个选择，就是……就是……呃，那句话该怎么说来着？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770011",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "离开这里，寻找新的居住地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770012",
+          "sourceType": 7,
+          "text": "仓田龙马 · 武道极意\n商品名称：仓田龙马·武道极意 Ver.\n作品名称：《格斗学园》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约265mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "9770013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "对对，会长大人说得没错，只有搬走才是生活在这里的手办唯一的出路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770014",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "嘁，真是站着说话不腰疼。突然说让我们搬走，你让我们搬到哪里去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770015",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "不搬不搬，搬到新的地方就等于大家伙都要分开了，这事我可不干。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770016",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我们大家，当然不能分开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770017",
+          "sourceType": 7,
+          "text": "艾里克希娅 · 紫色魅影\n商品名称：艾里克希娅·紫色魅影 Ver.\n作品名称：《格斗学园》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "9770018",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "我没有看错吧，是全民偶像「艾里克希娅」小姐诶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770019",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "「艾里克希娅」小姐，请给我签个名吧，签到哪里都可以！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770020",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "「艾里克希娅」小姐，下次演唱会什么时候开，提前透露点消息给我们嘛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770021",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "非常感谢你们的热情……一直都非常感谢。能够以偶像的姿态在舞台上陪伴大家，享受你们的支持和鼓励，是我艾里克希娅的幸运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770022",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我们曾经一起经历过那么多的时光，一起欢笑、悲伤、愤怒、感恩、失落……这所有的一切，都发生在这家「太南」手办商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770023",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "尽管这里早已倒闭，不再如鼎盛时期那般热闹，但却是我们共同的「家」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770024",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我很清楚，我们不仅是「偶像」和「粉丝」的关系，我们更是——「朋友」和「家人」，是彼此不可分割的一部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770025",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "无论是过去，现在，还是未来的日子，我都想尽情地为你们表演——只为我的「朋友」和「家人」表演。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770026",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "所以，无论遭遇多大的困境，我们都要一直像「家人」那样患难与共，永不分离。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770027",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "呜呜，我太感动了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770028",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "「太南」手办商店一天是我们的家，就永远是我们的家，我们哪里也不会去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770029",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你看到了么，绿子？这就是我们给出的拒绝搬家的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770030",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "不需要所谓新的住所，也不需要所谓的新的家人，我们只需要不要被打扰就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770031",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "迂腐，固执，目光短浅。你们简直不可理喻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770032",
+          "sourceType": 0,
+          "speaker": "喵大黄",
+          "text": "你有什么立场指责我们？你只知道追寻自己什么武道理想，何曾想过远在「太南」手办商店的我们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770033",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……我辛辛苦苦参加「伽拉人气手办再版」比赛，都是为了你们啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770034",
+          "sourceType": 0,
+          "speaker": "兔小黄",
+          "text": "谢谢你这份多余的关心，可是我们不需要，你可以走了，慢走不送。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770035",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "道不同不相为谋。绿子，我们走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770036",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊……哦……好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770037",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你们两个，还请留步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770038",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "怎么，你后悔了么？后悔的话，现在还来得及。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770039",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你和你的……这位会长大人都参加了这次的「伽拉人气手办再版」比赛，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770040",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没错，你们有拒绝搬家的理由，我们也可以有坚持参赛的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770041",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "当然，我很尊重未来的警官大人的选择，你一直都是自由的，没有什么可以束缚你。就像你认定修习武道是你实现理想的一个步骤，就会下定决心抛弃一切追寻自己的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770042",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "只不过，这一次你们的选择将会导致我们失去自己的家园，这一点我无法再坐视不管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770043",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "还在「太南」手办商店生活的每一位，我们的立场是一致的。我们捍卫我们最后的家园，拒绝一切不怀好意的、想要从我们手里夺走它的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770044",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "绿子，我很抱歉，虽然过去你也曾在这里和我们一起生活过。但现在，你是我们的敌人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770045",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……敌人？\n在你的心里，居然把我当作敌人看的啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9770046",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子，你在发什么呆呀，他们朝你打过来了呢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-23",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9770001,
+            9770002,
+            9770003,
+            9770004,
+            9770005,
+            9770006,
+            9770007,
+            9770008,
+            9770009,
+            9770010,
+            9770011,
+            9770012,
+            9770013,
+            9770014,
+            9770015,
+            9770016,
+            9770017,
+            9770018,
+            9770019,
+            9770020,
+            9770021,
+            9770022,
+            9770023,
+            9770024,
+            9770025,
+            9770026,
+            9770027,
+            9770028,
+            9770029,
+            9770030,
+            9770031,
+            9770032,
+            9770033,
+            9770034,
+            9770035,
+            9770036,
+            9770037,
+            9770038,
+            9770039,
+            9770040,
+            9770041,
+            9770042,
+            9770043,
+            9770044,
+            9770045,
+            9770046
+          ],
+          "sectionId": 9770
+        }
+      ],
+      "title": "#8 碰撞与交锋"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9780001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们知道吗……那个当着我的面说我们是“敌人”的家伙。曾经和我可是好朋友呢……就像优纪与和江那样亲密的关系一样哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我只不过离开了那么短的一段时间，大家就都把我忘了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子，你别难过……你还有我们，我们来做你的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "只要绿子需要，花迦、花迦会一直在的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "嗯……有你们这句话，绿子我感觉好多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在的情况比之以前，对绿子更为不利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错，他们说不定会暗中阻挠绿子。我们大家快来这里，一起想想办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "要和自己昔日的同胞们为敌，多少感觉会很难以接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780009",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你还是没能了解武道精神的精髓之所在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "会长大人突然这么说，是什么意思啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780011",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "武道的极意，在于不断地超越自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "这句话我懂啊，从小就听师父一遍又一遍地念叨，耳朵都要磨出茧子了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780013",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你只是听闻，却没有用心去理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780014",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "嗯……那会长大人说说看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780015",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "武道精神的精髓就是，世界上只有你自己，才是真正的敌人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780016",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "向着武道的高峰，持续不断地迈进，不要让其他任何事物影响这份决心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇啊啊啊，听了这番话，感觉自己全身上下都燃起来了呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780018",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……我明白了，即使要面对昔日的同胞变成今日的敌人这样残酷的现实，我也绝对不会放弃自己的初心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我会继续参加「伽拉人气手办再版」比赛，不惜一切得到更多的票数，用尽全力挤进决赛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780020",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "很好，我会在一旁看着你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊……哦……我、我会好好表现，努、努力不让会长大人失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有我还有我，打游戏和为绿子投票这件事就交给我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780023",
+          "sourceType": 9,
+          "text": "绿子和龙马经过一段时间的努力，积累了不少「街机币」，在「伽拉人气手办再版」初赛的名次有所增加。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9780024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们快来看，绿子和龙马的排名都有所增加诶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780025",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "太好了，按照这个速度，我和会长大人一定能够挤进决赛的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780026",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "不到最终的决赛，不可掉以轻心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780027",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊……哦……好吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "恭喜绿子！恭喜龙马！只要是能帮到你们的，请一定要告诉优纪哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9780029",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "谢谢你，优纪，真的很谢谢你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790001",
+          "sourceType": 9,
+          "text": "看到「伽拉人气手办再版」初赛的名次上仍旧有绿子和龙马的名字，艾里克希娅感到十分气闷。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9790002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "绿子和她的会长大人，名次不降反升。本以为上次在「太南」手办商店的那次经历，绿子会知难而退，是我把事情想得太简单了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "说实话，这个结果我并不觉得意外，毕竟绿子可是有着杂草一般的倔强精神的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790004",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "可是照这样下去的话，绿子势必会如愿进入决赛，那么我们就要彻底失去家园了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790005",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "既然绿子不愿放弃，就只好帮她退出「伽拉人气手办再版」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "嗯？怎么做让绿子退出「伽拉人气手办再版」初赛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790007",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "很简单，只要让绿子辛苦积累的「街机币」全部消失就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "……原来可以这样做，我怎么没想到呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "虽然这样做可能会对绿子有点残忍，但是如果能成功阻止绿子，我们就再也不用惧怕店里的大家被迫分开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790010",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "你总是这样落落大方，温柔，善解人意……在「太南」手办商店的大家最艰难的时候鼓励着我们。艾里克希娅小姐，你是一位真正的偶像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9790011",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "……你过誉了。我说过，我们不只是「偶像」和「粉丝」，我们更是「朋友」和「家人」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-24",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9780001,
+            9780002,
+            9780003,
+            9780004,
+            9780005,
+            9780006,
+            9780007,
+            9780008,
+            9780009,
+            9780010,
+            9780011,
+            9780012,
+            9780013,
+            9780014,
+            9780015,
+            9780016,
+            9780017,
+            9780018,
+            9780019,
+            9780020,
+            9780021,
+            9780022,
+            9780023,
+            9780024,
+            9780025,
+            9780026,
+            9780027,
+            9780028,
+            9780029
+          ],
+          "sectionId": 9780
+        },
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9790001,
+            9790002,
+            9790003,
+            9790004,
+            9790005,
+            9790006,
+            9790007,
+            9790008,
+            9790009,
+            9790010,
+            9790011
+          ],
+          "sectionId": 9790
+        }
+      ],
+      "title": "#9 武道精神的本质"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9800001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「伽拉人气手办再版」初赛就要结束了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "还剩最后一轮投票，胜败在此一举了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "唔哇，真的吗，突然觉得有一点紧张呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "无须担心，你此前的排名很不错，我们只要继续帮忙搜集「街机币」，绿子一定会进入决赛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊哈哈哈，和江都这么说了，自然差不到哪去~等我进入了决赛，一定会找时间好好感谢大家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈，感谢什么的，还是等你拿到「伽拉人气手办再版」决赛冠军再说吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "闲话少说，快来帮忙把这次拿到的「街机币」放回我们存放的地点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好~来啦，和江，我来帮你喽~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "咦，这里怎么有走动的痕迹，有谁来过这里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没有啊，我们今天不是一起出门搜集「街机币」的吗，该不会是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里也有走动的痕迹……天哪，我们存放的「街机币」全都不见了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800012",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "可恶！！！偷东西居然偷到我绿子的头上，简直活得不耐烦了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800013",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "啪嗒——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "什么声音？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哼，你们为了阻拦我参赛，居然连偷东西这种下三滥的手段都使出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800017",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "只要能够达成目的，用什么手段都不重要。绿子，算我求你，放弃这次的「伽拉人气手办再版」的比赛吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800018",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "我们在「太南」手办商店生活得很开心，真的不需要搬家，也不需要新的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "这些话，怎么听起来有些耳熟呢……我想起来了，艾里克希娅也说过类似的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800020",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "绿子，如果你真的为了我们好，不如放弃这场比赛，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喂，绿子，你清醒一点，你知道自己在说什么吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800023",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "真的吗，太好了，有你这句话我就安心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "等等，你是不是误会了什么。我刚刚的意思是，你说的那些话，我听到了，但我拒绝接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800025",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "以偷窃这样卑劣的手段，胁迫我放弃比赛，然后再拿出故友的身份向我恳求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9800026",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我绿子的脑袋是不太聪明，但你这样拙劣的演技，我还是能够看破的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-25",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9800001,
+            9800002,
+            9800003,
+            9800004,
+            9800005,
+            9800006,
+            9800007,
+            9800008,
+            9800009,
+            9800010,
+            9800011,
+            9800012,
+            9800013,
+            9800014,
+            9800015,
+            9800016,
+            9800017,
+            9800018,
+            9800019,
+            9800020,
+            9800021,
+            9800022,
+            9800023,
+            9800024,
+            9800025,
+            9800026
+          ],
+          "sectionId": 9800
+        }
+      ],
+      "title": "#10 意料之中的插曲"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9810001",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "你真的要做到这种地步吗，绿子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "拜托，我还没做什么呢，只不过想拿回被你们偷走的东西，哪里不对了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "少废话，快带我们过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "果然，偷走的「街机币」都被藏在这里了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "之前来的时候怎么没察觉到呢，说不定我们之前在FULI总部大厦时丢失的「街机币」就是被他们偷走的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810006",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "乱讲，你这是污蔑「艾里克希娅」小姐和我们大家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810007",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "「艾里克希娅」小姐那么憎恶「伽拉人气手办再版」比赛，要那些无用的「街机币」干什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810008",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "你们想要回被我拿走的「街机币」，我还给你们就是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "最好是这样，否则的话，我会让你们知道我可不是好惹的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么感觉这次到这里来，跟上一次的感觉不太一样？但是具体哪里不一样，我又没办法说上来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪的直觉很敏锐，这里的确跟上次不一样了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哪有你们说的那么神秘，这里我都不知道来过多少次了，我怎么看不出来哪里不一样了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810013",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "到了，就是这里……咦，我记得明明放在这里的，怎么会不见了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这似曾相识的剧情……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你不会又在耍什么花招吧，你最好看清楚一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810016",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "不，我绝对不会记错。这个地方还是「艾里克希娅」小姐选的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810017",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "呵呵呵，不是说好了，她们问起来的话，要全部承认是你做的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810018",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你这样让我很为难呢，我得仔细考虑看看是否要把你驱除「艾里克希娅」的粉籍咯。❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是艾里克希娅那家伙的声音！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚刚，声音是从这里发出来的吧。可恶，怎么不见艾里克希娅的身影，躲起来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这么短的时间，不会逃出去的，我们四下里仔细搜一下，绝不会让那家伙逃走的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810022",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "「艾里克希娅」小姐刚才说的要把我驱除粉籍，是我的幻听吧，这不会是真的，不会是真的，绝对不是真的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810023",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "是真的哦，我可不会开这种玩笑。如果不是你的话，我也不会遇到这种……麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "什么麻烦不麻烦的，明明是你先偷走了我的「街机币」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810025",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "哎，事到如今绿子还是没学会怎么礼貌而优雅的讲话的艺术。我们偶像的事，自然由偶像自己做主，怎么能轻易用“偷”这样丑陋的字眼呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810026",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "少在那里啰里啰嗦，再问你最后一次，到底愿不愿意把「街机币」交出来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810027",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "到了我手里的东西，当然是我的了，有本事你就自己来拿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9810028",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "……你还真是无可救药。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "9820001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "9820002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "好久没有玩得这么开心了，非常感谢各位。那么，恕我暂不奉陪。❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "再见，让我们今日的演出就以这样的方式结束吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "等等，你给我站住！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "艾里克希娅这家伙真是，到底想做什么？我真的……越来越看不懂她了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别说是绿子，就连我也觉得艾里克希娅的言行非常不一致呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一直以来她都表现得那么讨厌「伽拉人气手办再版」比赛，为什么偏偏又要独占「街机币」呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "目前来看疑点重重，仅仅是可以分析出的结果就有很多种可能。艾里克希娅最近有什么异常么，在你们看来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820009",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "没有……我是她在「太南」手办商店最亲密的朋友，也是她最忠实的粉丝。哦，抱歉，几分钟前已经不是了。她的生活与以前相比，完全看不到任何变化。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你看到的只是白天吧，晚上她做了什么，你们怎么可能会知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820011",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "说的也是，我这样默默无闻的小玩具，有什么资格做高高在上的「艾里克希娅」的朋友……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820012",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "也许，一直以来，你们都在被她欺骗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820013",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "你是说，我们看到的「艾里克希娅」小姐，都是一种假象吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820014",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我听说作为偶像很擅长塑造一种虚假的人设，这种人设是为他们的粉丝群量身定制的。粉丝喜欢什么，偶像就会表演什么给他们看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820015",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "不，我不相信，我无法相信这点。我喜欢了她那么久，久到我自己都记不清楚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820016",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "我怎么可能接受这一切都是假的呢，我没有那样的勇气……毕竟，在舞台上的「艾里克希娅」小姐，曾经是那么地迷人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820017",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "哎，所以说没事给自己找个健康的爱好不好吗，像我这样打打拳练练武多好，为什么偏偏要去学人家偶像崇拜呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "现在不是说这种话的时候吧，绿子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9820019",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "哦哦对，我们的目标很明确——找到艾里克希娅，要回属于我们的「街机币」！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-26",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9810001,
+            9810002,
+            9810003,
+            9810004,
+            9810005,
+            9810006,
+            9810007,
+            9810008,
+            9810009,
+            9810010,
+            9810011,
+            9810012,
+            9810013,
+            9810014,
+            9810015,
+            9810016,
+            9810017,
+            9810018,
+            9810019,
+            9810020,
+            9810021,
+            9810022,
+            9810023,
+            9810024,
+            9810025,
+            9810026,
+            9810027,
+            9810028
+          ],
+          "sectionId": 9810
+        },
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9820001,
+            9820002,
+            9820003,
+            9820004,
+            9820005,
+            9820006,
+            9820007,
+            9820008,
+            9820009,
+            9820010,
+            9820011,
+            9820012,
+            9820013,
+            9820014,
+            9820015,
+            9820016,
+            9820017,
+            9820018,
+            9820019
+          ],
+          "sectionId": 9820
+        }
+      ],
+      "title": "#11 偶像的真面目"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "9830001",
+          "sourceType": 3,
+          "text": "「伽拉人气手办再版」初赛最后一轮的比赛结果海报已经张贴在了「日光乐园」的各个角落，吸引了众多的目光。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9830002",
+          "sourceType": 9,
+          "text": "各位游客朋友们，欢迎来到梦幻天堂「日光乐园」，FULI公司推出的热门活动「伽拉人气手办再版」初赛结果正式揭晓~！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9830003",
+          "sourceType": 9,
+          "text": "此次海选出来的五名角色名单已经对外公示，不知道上面有没有您所喜爱的角色呢，快来一起看看吧~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9830004",
+          "sourceType": 9,
+          "text": "选出的这五名角色，即将进入「伽拉人气手办再版」决赛，角逐最终的冠军人选，冠军角色将有机会选入FULI公司特别定制的全球特典计划中哦。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "9830005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "初赛第一名怎么看起来那么眼熟，我没有看错吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个彩虹色的头发，那身JK校服，还有那个有些迷之自恋的微笑……怎么看都是艾里克希娅吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "没错，是艾里克希娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "好家伙，原来我真的是个傻子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "从一开始，艾里克希娅这家伙就在骗我们所有人。不但欺骗我和会长大人，也在骗她的那些忠实的粉丝。这家伙的良心不会痛么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830010",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "骗我和绿子还可以理解。欺骗「太南」手办商店的粉丝，对她来说有什么好处？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830011",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "…………（持续震惊中）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830012",
+          "sourceType": 0,
+          "speaker": "柴科夫·红",
+          "text": "「艾里克希娅」小姐为什么要这么做……我一定要找到一个说法，否则绝对不会甘心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，你们看这个海报上，也有绿子和龙马在呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830014",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "优纪不说，我都快把自己的事给忘了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "幸好幸好，我和会长大人也算是成功挤进了决赛。虽说被艾里克希娅横插了一脚，不过好在有惊无险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9830016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哼，艾里克希娅，就让我和你在「伽拉人气手办再版」的决赛场上再见吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9850001",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "好险，差点被那群家伙发现我们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9850002",
+          "sourceType": 0,
+          "speaker": "顽皮兔",
+          "text": "这几个丫头什么来历，要咱们这么费尽辛苦地一路跟着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9850003",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "亏你在「天启」待了那么久，怎么连大人一丁点的心思都猜不到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9850004",
+          "sourceType": 0,
+          "speaker": "顽皮兔",
+          "text": "你这话是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "9850005",
+          "sourceType": 0,
+          "speaker": "克里斯",
+          "text": "别急，我会让你知道的。既然她们想要参加这个「伽拉人气手办再版」，那我就陪她们玩玩好了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-27",
+      "sourceRefs": [
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9830001,
+            9830002,
+            9830003,
+            9830004,
+            9830005,
+            9830006,
+            9830007,
+            9830008,
+            9830009,
+            9830010,
+            9830011,
+            9830012,
+            9830013,
+            9830014,
+            9830015,
+            9830016
+          ],
+          "sectionId": 9830
+        },
+        {
+          "bundle": "dierzhang",
+          "rowIds": [
+            9850001,
+            9850002,
+            9850003,
+            9850004,
+            9850005
+          ],
+          "sectionId": 9850
+        }
+      ],
+      "title": "#12 初赛结果公布了~"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 3,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 3,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "videoPath": "Videos/AVG_equiptower.mp4"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_equiptower.mp4"
+        }
+      },
+      {
+        "id": "8",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "5",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": "Videos/AVG_lvzhifight.mp4"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_lvzhifight.mp4"
+        }
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "新的开始",
+  "title": "第2章",
+  "wordCount": 12421
+}

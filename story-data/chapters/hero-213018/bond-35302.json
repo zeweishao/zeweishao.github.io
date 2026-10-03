@@ -1,0 +1,151 @@
+{
+  "bookId": "hero-213018",
+  "id": "bond-35302",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35302001",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "起——床——了——喵——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃——咳咳咳……救命……不要突然跳到床上……米菲亚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "太好了，你还活着喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我只是睡着了，不是死了啊……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35302006",
+              "text": "如果我没看错的话，现在是凌晨三点？"
+            },
+            {
+              "targetId": "35302006",
+              "text": "我没有睡很久吧？"
+            }
+          ],
+          "sourceId": "35302005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35302006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你已经有三个小时没有给米菲亚扫灰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "|101|作为专属扫灰官，已经严重失职了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来是猫咪的分别焦虑啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "看在你最近表现还不错的份上，这是赏给你的奖励。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "难道是小鱼干吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "特制贴纸，上面有我的气味，这下不会有别的猫敢靠近你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35302012",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "决定了，就贴在你脸上吧，这是最显眼的位置。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35302",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35302001,
+            35302002,
+            35302003,
+            35302004,
+            35302005,
+            35302006,
+            35302007,
+            35302008,
+            35302009,
+            35302010,
+            35302011,
+            35302012
+          ],
+          "sectionId": 35302
+        }
+      ],
+      "title": "专属贴纸"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213018",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "专属贴纸",
+  "wordCount": 218
+}

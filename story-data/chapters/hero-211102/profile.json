@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211102",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "爆款经典漫画《甜蜜家园》男主「车贤秀」化身1/7比例模型登场！熟悉的连帽衫、牛仔裤和白色板鞋全部都由原型师一一细致地刻画了出来，就连手中所持的那把带有电流的自制武器和白色耳机也都没有遗漏~",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211102"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 94
+}

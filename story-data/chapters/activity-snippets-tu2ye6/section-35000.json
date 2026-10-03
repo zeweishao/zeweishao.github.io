@@ -1,0 +1,125 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35000",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35000001",
+          "sourceType": 10,
+          "text": "「兔儿爷」的挑战",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35000002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "该给主人准备什么礼物好呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000003",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "我有一个不错的主意，想听听看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好呀，无论什么事，只要能让主人开心，优纪都想尝试看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000005",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "优纪很有心，你的主人会感受到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "能看到主人的笑容，对优纪来说就是世界上最棒的奖励啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快点告诉优纪要做什么吧，已经有些迫不及待了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000008",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "不如，跟着我学捏泥塑「兔儿爷」吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "泥塑？就是主人很喜欢的那个什么非……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是「非遗民俗兔儿爷」——我的确很喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35000011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "了解，优纪这就开始学做「兔儿爷」喽！\n主人主人，请你仔细瞧好了哟~~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35000",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35000001,
+            35000002,
+            35000003,
+            35000004,
+            35000005,
+            35000006,
+            35000007,
+            35000008,
+            35000009,
+            35000010,
+            35000011
+          ],
+          "sectionId": 35000
+        }
+      ],
+      "title": "「兔儿爷」的挑战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35000,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "63",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "受「兔儿爷」的启发，优纪决定挑战一个从未尝试过的事物。",
+  "title": "「兔儿爷」的挑战",
+  "wordCount": 217
+}

@@ -1,0 +1,152 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35007",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35007001",
+          "sourceType": 10,
+          "text": "鲜花与祝福",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35007002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "「兔儿爷」真的很适合坐在鲜花上，摆在主人家里一定很好看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "鲜花与祝福，总是能带来愉悦，而我的歌声……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不要怀疑，贝歌的歌声也能让主人开心呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哼，只有我才是最了解|101||103|的，我才能让|102|感到幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "才不是呢，在|101|的眼里，最特别的一定是米菲亚喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "怎么可能，|101||103|最在意的，明明是我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呜，|101|真的很受欢迎，我才是多余的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你留在这里，让这只蠢猫走开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "我才不要走开呢，我还要给|101|捏泥塑小兔子喵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "岂有此理，我对|101||103|的心情是绝对不会输给你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007012",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "呵呵，大家真有干劲呐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35007013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看到大家这么有精神，优纪就放心啦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35007",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35007001,
+            35007002,
+            35007003,
+            35007004,
+            35007005,
+            35007006,
+            35007007,
+            35007008,
+            35007009,
+            35007010,
+            35007011,
+            35007012,
+            35007013
+          ],
+          "sectionId": 35007
+        }
+      ],
+      "title": "鲜花与祝福"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35007,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "70",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "鲜花与「兔儿爷」，可是绝配哦，送给主人刚刚好。",
+  "title": "鲜花与祝福",
+  "wordCount": 279
+}

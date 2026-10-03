@@ -1,0 +1,172 @@
+{
+  "bookId": "hero-211204",
+  "id": "bond-27547",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "27547001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "哇哦，为什么忽然送我这——么豪华的礼物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有特殊的理由，我想给萝贝卡一个家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "好耶！萝贝卡超喜欢这栋房子！\n让我给你一个大力的抱抱吧！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27547005",
+              "text": "抱住她"
+            }
+          ],
+          "sourceId": "27547004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27547005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "|101|的怀里，很温暖呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "就这样再......多抱一会儿......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你哭了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "大、大惊小怪，我不是经常哭吗。\n而且每次哭得都比现在更大声！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这次和之前不一样。\n你在伤心吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我记得很久之前，爸爸......还有洛瑞丝姐姐的拥抱，也是这么温暖。但后来......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27547012",
+              "text": "他们抛弃了你。"
+            },
+            {
+              "targetId": "27547012",
+              "text": "没事的，都过去了。"
+            }
+          ],
+          "sourceId": "27547011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27547012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "既然做了我的主人，在我长大之前，|101|要一直陪在我身边。\n说好了，不许反悔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是，变成手办的萝贝卡已经不会再长大了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27547014",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "嗯。所以就要永远和我在一起。\n不答应的话，我要闹了哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27547",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27547001,
+            27547002,
+            27547003,
+            27547004,
+            27547005,
+            27547006,
+            27547007,
+            27547008,
+            27547009,
+            27547010,
+            27547011,
+            27547012,
+            27547013,
+            27547014
+          ],
+          "sectionId": 27547
+        }
+      ],
+      "title": "陪着你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "陪着你",
+  "wordCount": 295
+}

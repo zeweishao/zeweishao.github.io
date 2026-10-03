@@ -1,0 +1,165 @@
+{
+  "bookId": "hero-213013",
+  "id": "bond-28506",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28506001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "上次和你分别之后，我到过很多地方去探险。可是呢，这些地方的景色都大同小异，多少让我有些失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来你没有找到想要的风景。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "也不是没有收获的，比如我发现了自己心里一直挂念着某个地方，这可是我成为冒险家以来的第一次呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28506005",
+              "text": "难道你想家了？"
+            }
+          ],
+          "sourceId": "28506004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28506005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "才不是~那个地方总是频频出现在我的脑海，无论我怎么努力都无法从自己的脑袋里抹除，所以我又回来了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我明白了，M城永远欢迎你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "这里的确是一座与众不同的城市，和我走访过的那些地方相比，它有着独属于自己的特色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "虽然我还没能找到这里吸引我的真正原因，但是我知道自己一定会找到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "在此期间，你愿意和我一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28506011",
+              "text": "当然，乐意之至。"
+            }
+          ],
+          "sourceId": "28506010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28506011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那么，我们就从故地重游开始吧，有好多地方都想再去好好游历一番呢——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "商店街1845号的那家书店，我曾在那里开始了属于我的M城冒险之旅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "M城郊外充满神秘气息的「兔之森」，我曾在那里欣赏过最美的花海风光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "还有那无数的宝藏与危险并存的「命运游乐场」，我曾在那里留下M城最浓墨重彩的一笔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28506015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "所有这些我牵挂的、怀念的一切，我会以自己的双脚再次抵达。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28506",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28506001,
+            28506002,
+            28506003,
+            28506004,
+            28506005,
+            28506006,
+            28506007,
+            28506008,
+            28506009,
+            28506010,
+            28506011,
+            28506012,
+            28506013,
+            28506014,
+            28506015
+          ],
+          "sectionId": 28506
+        }
+      ],
+      "title": "来自M城的召唤"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "来自M城的召唤",
+  "wordCount": 435
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214002",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "第四波丧尸潮过境，「萤火小队」迎来了短暂的喘息。\n\n为了庆祝，哈莉自告奋勇要来一场空前豪华的「海陆空烧烤盛宴」。\n\n「第一份给队长，」哈莉高高举起她的杰作，「超火爆的龙虾——辣到炸！」\n\n很快，所有人都明白了「辣到炸」的含义，爆炸粉尘和焦黑的余烬里，哈莉咯咯的连串笑声透过浓烟传来——\n\n「——够火爆，对吧？我提醒过你们了~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "热火朝天Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214002",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "哈莉·热火朝天Ver.",
+  "title": "热火朝天Ver.",
+  "wordCount": 155
+}

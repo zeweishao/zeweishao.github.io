@@ -1,0 +1,110 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37402",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37402001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "喂，人类，你过来！这边这边！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "手办......在叫我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402003",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "老、老大，直接跟人类搭话太冒险了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "别啰嗦，听我的就对了。\n人类，听清楚——我才不要被你买走呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么知道我要买......难道，你偷听了我和店长的对话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "不、不是偷听，这叫收集情报。\n总之，在这个地盘我是老大，不准把老大买回家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402007",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "老大，有一大批人类正在靠近！该走了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37402008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等！......一下子就跑掉了啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37402",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37402001,
+            37402002,
+            37402003,
+            37402004,
+            37402005,
+            37402006,
+            37402007,
+            37402008
+          ],
+          "sectionId": 37402
+        }
+      ],
+      "title": "消除关卡 10 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "10",
+          "result_avg_id"
+        ],
+        "sectionId": 37402,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 10 · 结算",
+  "wordCount": 178
+}

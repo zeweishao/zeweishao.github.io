@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215006",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "“怎么，穿上这件，会认不出来吗？”\n“羽扇纶巾，我可不是只能这样的打扮。”\n“所谓儒雅，是烙印在气质上的。”\n走进现代的城市后，都督换上了时尚的便服，可是其风流倜傥的气质，依旧难以遮掩。\n\n     ——该特别款仅限活动期间通过新年拜年活动【新春漫游时】获得\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "约会时刻Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215006",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "周瑜·约会时刻Ver.",
+  "title": "约会时刻Ver.",
+  "wordCount": 119
+}

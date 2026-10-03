@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214003",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "当莉莉奈喝下愤怒药水，机甲罕见的呈现出极具爆裂的赤红色，她即刻化身为终焉地平线中无情的终极猎手，开始了在比赛中的屠杀。\n\n“你菜得像大师一样。”\n\n      ——该特别款通过天启阻击战玩法获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "赤金机甲Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214003",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "莉莉奈·赤金机甲Ver.",
+  "title": "赤金机甲Ver.",
+  "wordCount": 87
+}

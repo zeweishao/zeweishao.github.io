@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213014",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气游戏中的神秘魅力角色「尤兰达」，正式手办化登场！模型设计师石田对这位极赋想象力的化学鬼才进行了细致入微的刻画，完美还原了她在BOOM实验室中冷淡而随性的姿态，绝对理性，又极致浪漫。不知道这次，尤兰达又从哪里获得了新的构想呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213014"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 115
+}

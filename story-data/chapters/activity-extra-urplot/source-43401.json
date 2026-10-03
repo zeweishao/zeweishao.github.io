@@ -1,0 +1,611 @@
+{
+  "bookId": "activity-extra-urplot",
+  "id": "source-43401",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43401001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "汐音，你……想过出去看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401002",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "出……去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "这座岛并不是你的归宿，你的天地要远比这里广大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401004",
+          "sourceType": 3,
+          "text": "潮酷街区，边界咖啡馆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43401005",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "请问，你们这边还招人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你是……店长，有人想要应聘咖啡师。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "不好意思，这位小姐，现在已经没有需求了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401008",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "打扰了，我再到别处看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……她没有经过登记，不在管理局的手办资料库里。要追吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "不用了，会有人收留她的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401011",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "午安，这边还招人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "呜哇，你是从对面楼层跳过来的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "抱歉，这边是小本经营，占卜的收入只够养活我自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401014",
+          "sourceType": 3,
+          "text": "一段时间后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43401015",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "请问这边还招人吗，如果不招的话就多有打扰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401016",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "当然招，我们「山海盟」正是急需用人的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401017",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "是啊，最近接了不少安保的单子，正愁要做不过来了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401018",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "看小姑娘你骨骼惊奇，应该挺能打的吧。我们这每年是十六薪的，交社保，包吃住。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401019",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "还包吃住？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401020",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "近期我们还在和狩猎者大人合作，很快就能发展成数一数二的大帮派，啊不是，大公司了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401021",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "加入我们，让「山海盟」再度伟大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401022",
+          "sourceType": 5,
+          "speaker": "玉夏",
+          "text": "不要——什么稀奇古怪的地方——都去加入啊啊啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401023",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "是玉夏学姐？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401024",
+          "sourceType": 3,
+          "text": "玉夏急急忙忙地将少女拉到了一旁，晃了晃手中的纸扇。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43401025",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "真让人操心，要不是有个好心的店长通知了我，根本不知道你已经来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401026",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "学姐，能遇到你真是让人喜不自胜。周围的事物都变得大了许多，我都不知如何是好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401027",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你啊，已经变成手办了，知道吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401028",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401029",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我们的身体已经变成……塑料了，你没什么感觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401030",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "确实比以前僵硬了一些，「气」的流动也变得凝滞了。我本想找个地方做工，先安顿下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401031",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "别找了，我有办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401032",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "学姐……要像过去那样收留我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401033",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不，你有更值得的去处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401034",
+          "sourceType": 3,
+          "text": "爱猫社区，|101|的家。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43401035",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "电视机柜已经擦干净了，接下来做什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43401037",
+              "text": "帮大忙了。"
+            },
+            {
+              "targetId": "43401037",
+              "text": "真乃真是太能干了。"
+            }
+          ],
+          "sourceId": "43401036",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43401037",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这段时间主人一定累了，家里的杂事就都放心交给真乃吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401038",
+          "sourceType": 3,
+          "text": "叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43401039",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "门铃响了，是谁来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401040",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "打扰了，我是汐音，自幼和爷爷学习太极拳。那个……你方便暂时收留我一阵子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401041",
+          "sourceType": 7,
+          "text": "汐音 · 两仪谐律\n商品名称：汐音·两仪谐律 Ver.\n作品出处：《格斗学园》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约231mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43401043",
+              "text": "太极拳？"
+            },
+            {
+              "targetId": "43401043",
+              "text": "还有高手？"
+            }
+          ],
+          "sourceId": "43401042",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43401043",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "等一下，她……不就是主人最近一直在外面寻找的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401044",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没错，汐音就是近期失踪的「潮游星」手办的一员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401045",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "什么是「潮游星」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401046",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "哎，真是一点都没有身为Ultra Rare的手办的自觉啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401047",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "|101|，不如由你来和她解释。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401048",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对我来说没有什么区别，所有的手办都值得珍惜爱护。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401049",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我的塑料鸡皮疙瘩起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401050",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "总之，汐音也不是在你这白住的，她很能做家务。我可是享受过被当废人养的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401051",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "学姐真风趣。买菜做饭，洗衣扫地什么的都可以放心交给我。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43401053",
+              "text": "不用这么辛苦。"
+            },
+            {
+              "targetId": "43401053",
+              "text": "太好了。"
+            }
+          ],
+          "sourceId": "43401052",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43401053",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "有了汐音，真乃也可以轻松一些，以后的家务活可以分着来。对吧，真乃?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401054",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "古武术的传人……而且也很会做家务……定位好像有点重复了……怎么办……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401055",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "真乃？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401056",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "呜至少，至少要保住给主人铺床的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401057",
+          "sourceType": 5,
+          "speaker": "玉夏",
+          "text": "喂——你到底在想些什么啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401058",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "小女子初来乍到，尚有许多不明之处，还请不吝赐教，仓田前辈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401059",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "叫我真乃就可以了，接下来也请多多指教了，汐音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401060",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "其实……我想领教一下你的太极拳，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401061",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "当然，我也正想拜见一下仓田流古武术。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43401062",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我都快忘了，她们两个都是沉迷修行的武痴啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43401064",
+              "text": "大家一起愉快地相处吧。"
+            }
+          ],
+          "sourceId": "43401063",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43401064",
+          "sourceType": 3,
+          "text": "就这样，|101|的家里多了一位「潮游星」级别的「保姆」。",
+          "type": "narration"
+        }
+      ],
+      "id": "43401",
+      "sourceRefs": [
+        {
+          "bundle": "urplot",
+          "rowIds": [
+            43401001,
+            43401002,
+            43401003,
+            43401004,
+            43401005,
+            43401006,
+            43401007,
+            43401008,
+            43401009,
+            43401010,
+            43401011,
+            43401012,
+            43401013,
+            43401014,
+            43401015,
+            43401016,
+            43401017,
+            43401018,
+            43401019,
+            43401020,
+            43401021,
+            43401022,
+            43401023,
+            43401024,
+            43401025,
+            43401026,
+            43401027,
+            43401028,
+            43401029,
+            43401030,
+            43401031,
+            43401032,
+            43401033,
+            43401034,
+            43401035,
+            43401036,
+            43401037,
+            43401038,
+            43401039,
+            43401040,
+            43401041,
+            43401042,
+            43401043,
+            43401044,
+            43401045,
+            43401046,
+            43401047,
+            43401048,
+            43401049,
+            43401050,
+            43401051,
+            43401052,
+            43401053,
+            43401054,
+            43401055,
+            43401056,
+            43401057,
+            43401058,
+            43401059,
+            43401060,
+            43401061,
+            43401062,
+            43401063,
+            43401064
+          ],
+          "sectionId": 43401
+        }
+      ],
+      "title": "活动片段 43401"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10063",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10063",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 43401,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1308,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "130",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 43401",
+  "wordCount": 1305
+}

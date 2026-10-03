@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211204",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《少女X机关枪》，街头组织「银灰枪弹」首领萝贝卡即将抱住你的大腿，请大家准备迎接萝贝卡的拥抱呀！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211204"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 50
+}

@@ -1,0 +1,101 @@
+{
+  "bookId": "rewind-41",
+  "id": "source-36023",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "36023001",
+          "sourceType": 3,
+          "text": "噼里啪啦，丁零当啷。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36023002",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "吔——大哥，快救我呀！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36023003",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "别慌！快拉警报，通知管理局的人来！\n在这之前，就让我狂霸虎来会会她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36023004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咦，刚才是不是打到了什么东西？算了，星洛是来找东西的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36023005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "啊，找到了！但是，怎么轻飘飘的呢……\n哦~说不定这里面就是星洛的手册呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36023006",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "咳咳，没想到，居然有人敢明目张胆、单枪匹马地袭击仓库……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36023007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~谢谢你的夸奖！狩猎只要啪、咚、噗就行啦！很简单的！\n这就是计划啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "36023",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36023001,
+            36023002,
+            36023003,
+            36023004,
+            36023005,
+            36023006,
+            36023007
+          ],
+          "sectionId": 36023
+        }
+      ],
+      "title": "狩猎风波·Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9310022",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9310022",
+          "after_result_avg"
+        ],
+        "sectionId": 36023,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "狩猎风波·Ⅱ",
+  "wordCount": 182
+}

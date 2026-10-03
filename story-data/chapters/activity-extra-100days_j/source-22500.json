@@ -1,0 +1,540 @@
+{
+  "bookId": "activity-extra-100days_j",
+  "id": "source-22500",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "22500001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人快醒醒，这都什么时候了，快别睡了啦！你该不会忘了今天是什么日子吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500003",
+              "text": "咦，今天是什么日子？"
+            }
+          ],
+          "sourceId": "22500002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你果然……忘记了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么重要的日子，在你的心里原来是微不足道的、随便就能忘记的小事，真的好过分……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500005",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "优纪、优纪不要理主人了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500007",
+              "text": "诶，走掉了吗。"
+            }
+          ],
+          "sourceId": "22500006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500007",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "今天怎么看都是个普普通通的工作日吧，我应该没有记错才对……总之哄一哄优纪就会没事的~",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "抱歉，优纪她今天不想见你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500010",
+              "text": "……看来是真的生气了。"
+            }
+          ],
+          "sourceId": "22500009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主人毁坏了一个女孩的梦想，把她的心高高捧起又亲手摔碎，这是何等的惨烈，何等的残忍……就连天上的云雀都要闻之落泪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，|102|根本无法体会优纪有多期待今天的到来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "所以，如果在今天之内还是想不起来的话，最好还是不要出现在优纪面前比较好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500014",
+              "text": "……我知道了。"
+            }
+          ],
+          "sourceId": "22500013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人类，你来所为何事，柯斯顿的城主可没那个闲工夫陪你虚度时光。不过今天是个特别的日子，可以另当别论。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500015",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "也不知道是谁一早在接到西区守卫的情报，得知这个人类会来之后就慌里慌张地打扮自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500016",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "呵，女人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吵死了，给我闭嘴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "说吧，今天的宴会几时开始？吾会盛装出席、如约而至的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500020",
+              "text": "宴会？没这回事。"
+            }
+          ],
+          "sourceId": "22500019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500020",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "什、什么？你胆敢戏弄吾？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500021",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "哇哦，这下有好戏看了，愤怒的龙焰把人类城市烧成灰烬之类的画面……想想就很带感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人类，你的确很特别，吾承认吾对你另眼相看，但今天的你除外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500023",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "阿斯塔罗斯，送客，我命令你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500024",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "……本以为艾伦兹知道点什么，这下只能去别的地方试试运气了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500025",
+          "sourceType": 9,
+          "text": "不知不觉间，|101|来到了曾经与手办们一起结伴游玩过的商店街。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22500026",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "请、请等一下！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500028",
+              "text": "是你啊，找我什么事？"
+            }
+          ],
+          "sourceId": "22500027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500028",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "呜哇，等、等等……我、我可是带着这个巨大的包裹追了你整整三条街呢，让我先喘口气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500029",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "就是这个，请你拿好，有人特别寄给你的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500031",
+              "text": "没有寄件人的名字？"
+            }
+          ],
+          "sourceId": "22500030",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500031",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "就、就是说啊，这个寄件人神神秘秘的，没有留下任何信息不说，还特别叮嘱我一定要在今天派送呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500032",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "与今天有关的神秘包裹……会是什么呢？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500033",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "赶快打开嘛，我很好奇里面会是什么~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "22500035",
+              "text": "打开包裹"
+            }
+          ],
+          "sourceId": "22500034",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "22500035",
+          "sourceType": 9,
+          "text": "|101|打开包裹，身着海军制服的莉可从里面跳了出来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22500036",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "本王出征，寸草不生！做好被本王征服的觉悟了嘛，笨蛋人类！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500037",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咦，莉可怎么会在这里。\n这身海军制服很适合你哦，想不到我们的大魔王也有这么可爱的一面呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500038",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "唔，你这家伙是故、故意的吗！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500039",
+          "sourceType": 2,
+          "speaker": "莉可",
+          "text": "别人夸我可爱我就会生气，为什么眼前这个人类说我可爱就没有那种感觉，难道……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500040",
+          "sourceType": 2,
+          "speaker": "莉可",
+          "text": "不、不可能，我可是骄傲的莉可大魔王，这家伙只是我要征服的对象！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500041",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "脸红了吗？莉可大魔王果然很可爱~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500042",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "……别、别说了。今天是和你相识一百天的纪念日，其他女人肯定在给你准备了丰富的礼物。哼，我莉可大魔王可不会轻易输给任何人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500043",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "快快承认吧，凡人，本王给你制造的这份惊喜绝对是最特别的一个，对不对呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500044",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "百天纪念日……该死，我怎么能把这么重要的日子给忘了呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500045",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "|101|回到家中，想到好好的纪念日被自己亲手毁掉，心里非常忐忑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500046",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我居然忘了这么重要的日子，真是太不应该了，你们想责备我的话，我统统都接受，来吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500047",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，我想恰恰相反，你看那边——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500048",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哟哟哟，家里布置得很不错嘛，这才有庆祝节日的氛围！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500049",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "虽然中间发生了一点小插曲，不过，吾可不想错过人类的任何一个重要的纪念日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500050",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "啧，艾伦兹简直想把整条街的糖果和彩带都搬过来，这么大的手笔，可是连柯斯顿庆典都没有的待遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500051",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "哎嘿，今天总算可以暂时放下店里的工作轻松一下了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500052",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，这是我们为你准备的小小心意，庆祝我们相遇相伴的百天纪念。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500053",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来我不在家的这段时间，你们做了这么多……不知道该怎么说才好，谢谢你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500054",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是我们应该感谢你。和主人在一起的每一天都那么地珍贵，无论是第100天，第1000天，还是第100000000天，都想要当作盛大的节日好好庆祝一番呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22500055",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呜哇，总觉得接收到了非常了不得的表白呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22500",
+      "sourceRefs": [
+        {
+          "bundle": "100days_j",
+          "rowIds": [
+            22500001,
+            22500002,
+            22500003,
+            22500004,
+            22500005,
+            22500006,
+            22500007,
+            22500008,
+            22500009,
+            22500010,
+            22500011,
+            22500012,
+            22500013,
+            22500014,
+            22500015,
+            22500016,
+            22500017,
+            22500018,
+            22500019,
+            22500020,
+            22500021,
+            22500022,
+            22500023,
+            22500024,
+            22500025,
+            22500026,
+            22500027,
+            22500028,
+            22500029,
+            22500030,
+            22500031,
+            22500032,
+            22500033,
+            22500034,
+            22500035,
+            22500036,
+            22500037,
+            22500038,
+            22500039,
+            22500040,
+            22500041,
+            22500042,
+            22500043,
+            22500044,
+            22500045,
+            22500046,
+            22500047,
+            22500048,
+            22500049,
+            22500050,
+            22500051,
+            22500052,
+            22500053,
+            22500054,
+            22500055
+          ],
+          "sectionId": 22500
+        }
+      ],
+      "title": "活动片段 22500"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1505",
+              "focus_avg"
+            ],
+            "table": "ResOpActivityTemplate.lua"
+          }
+        ],
+        "path": [
+          "1505",
+          "focus_avg"
+        ],
+        "sectionId": 22500,
+        "table": "ResOpActivityTemplate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 22500",
+  "wordCount": 1464
+}

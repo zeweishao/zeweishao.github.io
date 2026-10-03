@@ -1,0 +1,191 @@
+{
+  "bookId": "hero-211014",
+  "id": "bond-38806",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "38806001",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "有植物的气味，铃兰、橡树，还有……这是新扩建的植物温室？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806002",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "|101|是怎么知道我正准备筹建新温室……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38806004",
+              "text": "我也可以听见菲伊的心声了。"
+            },
+            {
+              "targetId": "38806004",
+              "text": "因为我听见了菲伊的心愿哦。"
+            }
+          ],
+          "sourceId": "38806003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38806004",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "……给「失败品」投资并不明智，空虚的生命什么都不会留下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这不是投资，菲伊也不是「失败品」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是我和你的「约定」哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806007",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "「约定」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "菲伊答应要教我照顾植物的方法，对吧？那温室就是我们「约定」的证明了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806009",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "对，但是单纯因为这个就弄个温室……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "更重要的是，只要有和我的约定在，菲伊就不会是空虚的生命哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你已经在世界上留下了存在的证明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806012",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "我存在的……证明……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "菲伊会一直存在于我的记忆与未来，当然植物们肯定也是这么想的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806014",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "谢谢……愿意让我停留在大家的生命中……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我们明天就一起来给植物们浇水吧，我很期待！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806016",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "……原来这就是「期待」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38806017",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "我也很期待，期待明天与你的相遇。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38806",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38806001,
+            38806002,
+            38806003,
+            38806004,
+            38806005,
+            38806006,
+            38806007,
+            38806008,
+            38806009,
+            38806010,
+            38806011,
+            38806012,
+            38806013,
+            38806014,
+            38806015,
+            38806016,
+            38806017
+          ],
+          "sectionId": 38806
+        }
+      ],
+      "title": "誓约之地"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "誓约之地",
+  "wordCount": 343
+}

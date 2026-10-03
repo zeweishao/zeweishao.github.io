@@ -1,0 +1,178 @@
+{
+  "bookId": "hero-212203",
+  "id": "bond-28533",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28533001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "要吃糖吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28533004",
+              "text": "要"
+            },
+            {
+              "targetId": "28533003",
+              "text": "不要"
+            }
+          ],
+          "sourceId": "28533002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28533003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "被直接拒绝了，不愧是我看中的人。\n作为奖励，请你吃糖好了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28533004",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "身体很诚实，那，甜蜜抽奖开始了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28533005",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "会抽到什么颜色的糖果呢……\n噢，粉色传说，是代表告白的超幸运色。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28533007",
+              "text": "……你早就计划好了要抽粉色吧？"
+            }
+          ],
+          "sourceId": "28533006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28533007",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "被你发现了，没关系，那我就直接开始了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28533008",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "|101|，我很欣赏你，\n所以请放下手头的事，先陪我玩一下。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28533010",
+              "text": "大人的世界可是很忙的哦？"
+            }
+          ],
+          "sourceId": "28533009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28533010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "是什么讨厌的家伙在占用你的时间？\n告诉我，我会帮你把他们处理掉的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28533012",
+              "text": "……没那么简单啦。"
+            },
+            {
+              "targetId": "28533012",
+              "text": "真是小孩子气的话。"
+            }
+          ],
+          "sourceId": "28533011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28533012",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你这是在小看我吗？我可不是什么小孩子。\n按年龄说的话，是可以给你做「老婆」的年纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28533013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你很想叫的吧，那两个字？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28533",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28533001,
+            28533002,
+            28533003,
+            28533004,
+            28533005,
+            28533006,
+            28533007,
+            28533008,
+            28533009,
+            28533010,
+            28533011,
+            28533012,
+            28533013
+          ],
+          "sectionId": 28533
+        }
+      ],
+      "title": "要吃糖吗？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "要吃糖吗？",
+  "wordCount": 262
+}

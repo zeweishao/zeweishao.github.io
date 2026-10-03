@@ -1,0 +1,1654 @@
+{
+  "bookId": "rewind-49",
+  "id": "chapter-203",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40616001",
+          "sourceType": 9,
+          "text": "……来吧……感受你心中的憎恨……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40616002",
+          "sourceType": 9,
+          "text": "……放弃对光明的眷恋……只有黑暗才是我们永恒的归宿……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40616003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这个声音……你们都听到了吗？只是我的幻听吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616004",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "唔……脑袋好涨，好像有几百个人在开会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616005",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啧，你们不能再前进了！越靠近仪式，「不朽灾祸」对精神的影响就会越大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "再继续下去，你们可能也会狂化的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616007",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "但我好像还没什么感觉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "但是，如果没法赶到仪式地点，我们该怎么阻止弗吉尼娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我联系下小乔，她肯定知道该怎么抵御精神上的这种影响……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "不，我会去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你一个人？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40616013",
+              "text": "我也去。"
+            },
+            {
+              "targetId": "40616013",
+              "text": "我可不能错过最终决战啊。"
+            }
+          ],
+          "sourceId": "40616012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40616013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我一个人就够了，只有我曾直面过「不朽灾祸」，对它的影响有抗性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616014",
+          "sourceType": 3,
+          "text": "魔女深深地吸了一口气。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40616015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我……是不称职的守夜人，曾经放任「不朽灾祸」摧残同伴，毁掉了那座城市。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616016",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "现在是弥补过错的时候了，我绝不会……让这里变成下一个不夜城。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我理解，每个人都有只属于自己的战斗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "星洛，我们留在这里阻挡发狂的手办靠近，管理局的援军已经在路上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616019",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯，等打完这场仗，大家一起去吃烤肉吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "祝你一切顺利，诺伊尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616021",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "诺伊尔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616022",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "笨蛋，你来了也只是拖后腿，我很快就会回来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616023",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "别忘了，我可是「群鸦的魔女」，此世最优秀的奥术法师——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40616025",
+              "text": "同时也是，一名孤高的流浪骑士。"
+            }
+          ],
+          "sourceId": "40616024",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40616025",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "说得不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40616026",
+          "sourceType": 3,
+          "text": "魔女提着剑迈向前方的战场，她没有回头。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1007",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40616001,
+            40616002,
+            40616003,
+            40616004,
+            40616005,
+            40616006,
+            40616007,
+            40616008,
+            40616009,
+            40616010,
+            40616011,
+            40616012,
+            40616013,
+            40616014,
+            40616015,
+            40616016,
+            40616017,
+            40616018,
+            40616019,
+            40616020,
+            40616021,
+            40616022,
+            40616023,
+            40616024,
+            40616025,
+            40616026
+          ],
+          "sectionId": 40616
+        }
+      ],
+      "title": "告别时分·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40617001",
+          "sourceType": 3,
+          "text": "魔女的脚步声在室内响起。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "这次你没有迟到呢，诺伊尔。怎么，现在不会再精神失常了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617003",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "呵，路上杂兵太多了，不然还能再快点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617004",
+          "sourceType": 9,
+          "text": "……啊……精灵之血……来吧……让黑暗充盈你的躯体……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617005",
+          "sourceType": 3,
+          "text": "狂乱的呓语如同迎面而来的暴风雨，将魔女裹挟其中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "闭嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617007",
+          "sourceType": 3,
+          "text": "随着一声怒斥，魔女向前一步，眼神如往常一样明晰。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "告诉我，为什么你要杀死其他的弗吉尼娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617009",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "她们只是在活化后选择了其他道路的废物而已。既然是废物，至少也要物尽其用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617010",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617011",
+          "sourceType": 3,
+          "text": "堆叠的长弓们融入了阴影，象征着曾经的杀戮。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你想让「不朽灾祸」在这个世界……彻底复活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "作为手办的我们远不如过去那般强大，就像玩具一样被人类肆意玩弄。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617014",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "但如果将不同个体的力量聚集起来，或许就能回到曾经的姿态。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "为什么……特地要用剑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617016",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "为了嫁祸给你，诺伊尔。昨天你在街头逃窜的狼狈姿态，我都看在眼里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617017",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617018",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你确实成长了，如果是当年，你现在应该在疯狂地释放那些花哨的法术了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617019",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "噢，你早就不能施法了，是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "那又怎么样！你还记得曾经的誓言吗，弗吉尼娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617021",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "当然，那就是——向虚伪的光明复仇！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617022",
+          "sourceType": 3,
+          "text": "失序者提起紫黑色的长弓，眨眼间射出数箭，战斗打响。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617023",
+          "sourceType": 3,
+          "text": "魔女挥剑打掉飞矢，足下用力，瞬间将与弗吉尼娅的距离缩短到仅差一个身位。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617024",
+          "sourceType": 3,
+          "text": "剑身驾驭着奔涌的奥术能量，她转身挥剑，瞄准对方右肋的空隙——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617025",
+          "sourceType": 3,
+          "text": "铛！剑刃与长弓的弓臂相接，被轻易弹开。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40617026",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "怎么会？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617027",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "别忘了，你的这几下剑术都是谁教的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40617028",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "唔——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1008",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40617001,
+            40617002,
+            40617003,
+            40617004,
+            40617005,
+            40617006,
+            40617007,
+            40617008,
+            40617009,
+            40617010,
+            40617011,
+            40617012,
+            40617013,
+            40617014,
+            40617015,
+            40617016,
+            40617017,
+            40617018,
+            40617019,
+            40617020,
+            40617021,
+            40617022,
+            40617023,
+            40617024,
+            40617025,
+            40617026,
+            40617027,
+            40617028
+          ],
+          "sectionId": 40617
+        }
+      ],
+      "title": "告别时分·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40618001",
+          "sourceType": 3,
+          "text": "失序者单手抓着魔女的脖子，将她提了起来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你以为拿着一把奥术武器，穿一身花哨的裙甲，就能算得上骑士了？嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618003",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "唔……可……可恶……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618004",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "真是好笑，守夜人。看到你自娱自乐的模样，我都忍不住变得幽默了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618005",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "咳……咕……弗吉尼娅……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "只要我一用力，就能扭断这纤细的脖子。你想必会变成非常漂亮的白模吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618007",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你曾经当着所有人的面，当着我的面……发过誓……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618008",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我不记得了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618009",
+          "sourceType": 3,
+          "text": "她甩开手，诺伊尔重重地摔在地上，长剑脱手而出。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "咳……唔，你曾向一个初来乍到的守夜人宣读了守护之誓，你发誓将守护所有的荣耀与美德，所有的光明与希望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618011",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你给予了那位陌生的魔女充分的信任，也给予了她名为「骑士」的美好幻想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这也是她现在来到你面前的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618013",
+          "sourceType": 9,
+          "text": "……快啊……让箭洞穿她的身躯……她的伤口上将开出最美艳的杀戮之花……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618014",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "该结束了，诺伊尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618015",
+          "sourceType": 3,
+          "text": "她张弓搭箭，瞄准倒地的魔女，箭矢疾射而去。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618016",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618017",
+          "sourceType": 3,
+          "text": "魔女愕然地看着眼前的景象。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618018",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……这算是赶上了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618019",
+          "sourceType": 3,
+          "text": "箭矢贯穿了你鸟类的躯体，将你钉在了地上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618021",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618022",
+          "sourceType": 3,
+          "text": "冰冷的感觉渗透了身心，你说不出话。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618023",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "没想到你的乌鸦守护了你，但也只能拖延一下。它白死了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618024",
+          "sourceType": 3,
+          "text": "来不及愤怒，也来不及悲伤，魔女只是平静地看着眼前的一切。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618025",
+          "sourceType": 3,
+          "text": "她呼唤铭刻在肉体记忆里的，她曾最熟悉的感受——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618026",
+          "sourceType": 3,
+          "text": "奥术能量在身体里久违地疾驰。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618027",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "（古精灵语）……请最后一次听我号令，为我奔走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618028",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你的眼睛……你在施法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618029",
+          "sourceType": 3,
+          "text": "纷扰的呓语充塞着魔女的脑海，激起足以让人狂乱的黑色浪潮。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618030",
+          "sourceType": 3,
+          "text": "下一瞬间，却变成了纯粹的「无」。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618031",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啊……为什么没能早点察觉呢?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618032",
+          "sourceType": 3,
+          "text": "面对濒死的使魔，魔女终于解开了一直以来束缚自己的枷锁。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618033",
+          "sourceType": 9,
+          "text": "……这是……不可能……阻止她……阻止她！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618034",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "憎恶——之矢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618035",
+          "sourceType": 3,
+          "text": "黑焰缠绕的利箭化作摧枯拉朽的一击，朝着魔女飞来——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618036",
+          "sourceType": 3,
+          "text": "却在距离她数十公分的位置被半空展开的护盾阻挡，消弭于无形。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40618037",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我们做个了断，弗吉尼娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40618038",
+          "sourceType": 3,
+          "text": "魔女轻轻地拾起剑，再度发起挑战。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802001",
+          "sourceType": 3,
+          "text": "不知过了多久，随着失序者的长弓坠地，战斗已然分晓。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "这场决斗是你赢了。动手吧，诺伊尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802003",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "只要我死了，仪式就会终止，所有的仇恨和悲伤也会画上句号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802004",
+          "sourceType": 9,
+          "text": "……弗吉尼娅……你在做什么……你……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802005",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我会的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802006",
+          "sourceType": 3,
+          "text": "魔女双手持剑，将剑高高地举过头顶——",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40802008",
+              "text": "停一下。"
+            }
+          ],
+          "sourceId": "40802007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40802008",
+          "sourceType": 3,
+          "text": "或许是魔女的治疗术起了作用，你终于有了些说话的力气。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802009",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "那封邀请函是弗吉尼娅写的，她故意将你引来N城……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802010",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "她杀死其他的个体，将「不朽灾祸」聚集在一起……为的就是让你消灭她……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802011",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802012",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "这样一来……她身上所有的「不朽灾祸」也都会死去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802014",
+          "sourceType": 3,
+          "text": "你回想起之前和诺伊尔一起推导的凶手的动机。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802015",
+          "sourceType": 3,
+          "text": "是仇恨。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40802016",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "所有的事件……都是她的赎罪计划……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802017",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "因为弗吉尼娅比任何人都恨弗吉尼娅……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802018",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "真是给我编了个好理由。听了这只乌鸦的话，你就要放过我吗，诺伊尔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802019",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "哪怕「不朽灾祸」即将完全复活……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802020",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "哪怕你的这位伙伴即使再怎样治疗，也必死无疑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802021",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40802022",
+          "sourceType": 5,
+          "speaker": "弗吉尼娅",
+          "text": "你还在等什么！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1009",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40618001,
+            40618002,
+            40618003,
+            40618004,
+            40618005,
+            40618006,
+            40618007,
+            40618008,
+            40618009,
+            40618010,
+            40618011,
+            40618012,
+            40618013,
+            40618014,
+            40618015,
+            40618016,
+            40618017,
+            40618018,
+            40618019,
+            40618020,
+            40618021,
+            40618022,
+            40618023,
+            40618024,
+            40618025,
+            40618026,
+            40618027,
+            40618028,
+            40618029,
+            40618030,
+            40618031,
+            40618032,
+            40618033,
+            40618034,
+            40618035,
+            40618036,
+            40618037,
+            40618038
+          ],
+          "sectionId": 40618
+        },
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40802001,
+            40802002,
+            40802003,
+            40802004,
+            40802005,
+            40802006,
+            40802007,
+            40802008,
+            40802009,
+            40802010,
+            40802011,
+            40802012,
+            40802013,
+            40802014,
+            40802015,
+            40802016,
+            40802017,
+            40802018,
+            40802019,
+            40802020,
+            40802021,
+            40802022
+          ],
+          "sectionId": 40802
+        }
+      ],
+      "title": "告别时分·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40619001",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……动用了「天启」的情报渠道，所有活化的弗吉尼娅个体都已经找到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619002",
+          "sourceType": 9,
+          "text": "你的提议很好……将她们持有的力量残片夺过来……我一定能回到曾经的姿态……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619003",
+          "sourceType": 9,
+          "text": "但在我休眠的时候……你似乎还做了不少多余的事……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619004",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "自活化以来，我从未放下过憎恨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619005",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "「不朽灾祸」……你应该任何人都清楚，我对黑暗的渴望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619006",
+          "sourceType": 3,
+          "text": "魔女的手颤抖着，高高举起的剑依旧没能挥下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619007",
+          "sourceType": 9,
+          "text": "……你背叛了我……这个仪式……禁锢了所有的出路……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619008",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "呵，不用想着找新的宿主，你离不开这个建筑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619009",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "唔——咳，在内部啃噬我，也改变不了什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "弗吉尼娅……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619011",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "现在的我……无法自杀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619012",
+          "sourceType": 3,
+          "text": "背景音的呓语满溢着焦躁和恐慌，它显然知晓自己的命运。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "谢谢你，诺伊尔……坚持我曾经的誓言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619014",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啊，再见了，前圣域卫士，弗吉尼娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619015",
+          "sourceType": 3,
+          "text": "魔女不再犹豫，剑刃如风般斩下——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619016",
+          "sourceType": 9,
+          "text": "不……还有可以夺取的宿主……将你献给我！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619017",
+          "sourceType": 3,
+          "text": "这一瞬间，浓稠的黑影从失序者的身上抽离，如流体一般汇集至半空中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619018",
+          "sourceType": 3,
+          "text": "它的眼中只有一个目标——诺伊尔。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619019",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "（古精灵语）我许愿……光明将消灭所有的黑暗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619020",
+          "sourceType": 3,
+          "text": "炽烈的光芒在室内爆发，仿佛所有的日光在此间聚集。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619021",
+          "sourceType": 9,
+          "text": "不……不要……我会……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619022",
+          "sourceType": 9,
+          "text": "……只有黑暗才是永恒……只有杀戮才是……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619023",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619024",
+          "sourceType": 3,
+          "text": "光明与黑暗，所有的一切都消散了，就像从未发生过。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619025",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这下……真的结束了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619026",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619027",
+          "sourceType": 3,
+          "text": "刚才，剑刃确实触及了失序者的身体，但魔女的护盾阻止了它的前进。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619028",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我不会就这样放过你……你要活着为所有人赎罪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619029",
+          "sourceType": 3,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619030",
+          "sourceType": 3,
+          "text": "随着「不朽灾祸」的影响消失，狂化的手办们纷纷失去了意识。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619031",
+          "sourceType": 3,
+          "text": "焦急的众人赶到仪式现场，只见事件的黑幕——弗吉尼娅坐倒在地。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619032",
+          "sourceType": 3,
+          "text": "在她的不远处，是魔女和她的使魔。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619033",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "……好了，好了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40619035",
+              "text": "我只是有点想睡觉。"
+            },
+            {
+              "targetId": "40619035",
+              "text": "不过是区区致命伤。"
+            }
+          ],
+          "sourceId": "40619034",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40619035",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "对不起，我……都是我的错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619036",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "相信我，我一定会治好你的……我一定会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619037",
+          "sourceType": 3,
+          "text": "生命力在流失……先前被治疗术阻碍的进程，仍在朝终点推进。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619038",
+          "sourceType": 3,
+          "text": "名为死的寒意渐渐要将你冻结——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619039",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我……又一次没能守住珍视的事物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619040",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "没关系的……诺伊尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619041",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "我答应过，要和你一起前往深渊的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619042",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啊，啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619043",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我甚至还不知道你的……名字……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619044",
+          "sourceType": 3,
+          "text": "当行在死荫的幽谷，原先由浓雾笼罩的记忆，却终于豁然开朗。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40619045",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "我想起来了，我的名字是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619046",
+          "sourceType": 0,
+          "speaker": "乌鸦",
+          "text": "|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619047",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啊……|101|……我记住了……我记住你了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619048",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我是不会允许你溜走的……我们要永远在一起……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40619049",
+          "sourceType": 3,
+          "text": "【|101|】离开了【魔女诺伊尔】的队伍。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1010",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40619001,
+            40619002,
+            40619003,
+            40619004,
+            40619005,
+            40619006,
+            40619007,
+            40619008,
+            40619009,
+            40619010,
+            40619011,
+            40619012,
+            40619013,
+            40619014,
+            40619015,
+            40619016,
+            40619017,
+            40619018,
+            40619019,
+            40619020,
+            40619021,
+            40619022,
+            40619023,
+            40619024,
+            40619025,
+            40619026,
+            40619027,
+            40619028,
+            40619029,
+            40619030,
+            40619031,
+            40619032,
+            40619033,
+            40619034,
+            40619035,
+            40619036,
+            40619037,
+            40619038,
+            40619039,
+            40619040,
+            40619041,
+            40619042,
+            40619043,
+            40619044,
+            40619045,
+            40619046,
+            40619047,
+            40619048,
+            40619049
+          ],
+          "sectionId": 40619
+        }
+      ],
+      "title": "告别时分·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40620001",
+          "sourceType": 3,
+          "text": "手办收容设施「绿洲」，中央区域。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "外面……大概是晚上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "嗯，你所引发的事件，已经完美地落幕了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620004",
+          "sourceType": 9,
+          "text": "从隔壁的收容室传来的女性嗓音，带着一股淡淡的海的气息。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620005",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你是这样认为的吗，贝歌？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "「不朽灾祸」已经消灭，你终于能够变回曾经的模样了，那位像太阳一样温暖的骑士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620007",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "即使是时间，也无法抚平那些痕迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620008",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我也还没有无耻到，将所有的罪孽推给那东西的地步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "那位守夜人小姐，知道不夜城的人造太阳的本质吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620010",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "她确实有所察觉，但很快，我就把一切都毁掉了，无论好坏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620011",
+          "sourceType": 9,
+          "text": "沉默持续了一段时间，直到半鱼人的声音再次响起。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……我认识的弗吉尼娅，可不会就这样逃跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "即使饱受折磨，她也会想要看看绝望的尽头会是什么，即使那是更惨烈的结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620014",
+          "sourceType": 9,
+          "text": "听到这里，失序者缓缓地将短剑从颈边放下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620015",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "是啊，我还没有去死的资格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620016",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我们都不过是命运的囚徒，从曾经的世界延伸而来的影子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620017",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "而我想祝福她……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620018",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "在这个世界，过上新的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620019",
+          "sourceType": 3,
+          "text": "平常的一天，爱猫社区。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620020",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人类，你昨天是不是又熬夜了？上次都昏倒了，还不注意多休息吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40620022",
+              "text": "好的，我会的。"
+            },
+            {
+              "targetId": "40620022",
+              "text": "我一般不熬夜，只通宵。"
+            }
+          ],
+          "sourceId": "40620021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40620022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哎，真是得住在你这，天天盯着你才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620023",
+          "sourceType": 3,
+          "text": "门铃响了起来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我去开门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620025",
+          "sourceType": 3,
+          "text": "房门开启，一个手办正静静地站在门口，她有着漆黑的裙甲和宵色的剑。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620026",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "唷，你就是|101|？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620027",
+          "sourceType": 3,
+          "text": "看上去有点熟悉的魔女冷冷地望着你。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，有什么事吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620029",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "准备好——和我一同前往深渊了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40620030",
+          "sourceType": 3,
+          "text": "其实，你早就已经有了答案。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40620032",
+              "text": "当然了，诺伊尔。"
+            },
+            {
+              "targetId": "40620032",
+              "text": "我已经答应过你了。"
+            }
+          ],
+          "sourceId": "40620031",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40620032",
+          "sourceType": 3,
+          "text": "——暴风雨已然过去，魔女宽恕了仇人，走出了荒岛。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40620033",
+          "sourceType": 3,
+          "text": "——而她和你的冒险，将永无止期。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1011",
+      "sourceRefs": [
+        {
+          "bundle": "noire",
+          "rowIds": [
+            40620001,
+            40620002,
+            40620003,
+            40620004,
+            40620005,
+            40620006,
+            40620007,
+            40620008,
+            40620009,
+            40620010,
+            40620011,
+            40620012,
+            40620013,
+            40620014,
+            40620015,
+            40620016,
+            40620017,
+            40620018,
+            40620019,
+            40620020,
+            40620021,
+            40620022,
+            40620023,
+            40620024,
+            40620025,
+            40620026,
+            40620027,
+            40620028,
+            40620029,
+            40620030,
+            40620031,
+            40620032,
+            40620033
+          ],
+          "sectionId": 40620
+        }
+      ],
+      "title": "告别时分·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 203,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 203,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "守夜人执剑而行",
+  "title": "告别时分",
+  "wordCount": 3707
+}

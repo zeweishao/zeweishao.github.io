@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-215008",
+  "id": "bond-27512",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27512001",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "挺胸，收腹，头上的书一本都不能掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "很好，面带微笑，现在开始练习打招呼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃......哈喽，你们好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "不合格，你笑得太僵硬了。\n想象对面是你的亲人、挚友，暗恋对象也可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "暗恋对象？......扑哧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "认真一些！既然向我请教「怎样受欢迎」，就按我的要求做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "抱歉，对着空气，我演不出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "好吧，先用情境训练找找感觉。\n想象自己早上起床，来到校园，这时......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "忽然有十个人围住你，争先恐后地向你表白，你会怎么做？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，这种事情绝对不可能发生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512011",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这就是你现在的问题所在，像我，从不低估自己的魅力。\n自信是被人喜欢绝对前提。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是......再怎么说，同时冲上来十个人也太恐怖了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512013",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "真没办法，那再简化一下。这时，学校里人气最高的校花、闪闪发光的美少女偶像走过来，递上一封情书。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "艾里克希娅！忽然......贴得好近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27512015",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "那么，你会怎么做呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27512",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27512001,
+            27512002,
+            27512003,
+            27512004,
+            27512005,
+            27512006,
+            27512007,
+            27512008,
+            27512009,
+            27512010,
+            27512011,
+            27512012,
+            27512013,
+            27512014,
+            27512015
+          ],
+          "sectionId": 27512
+        }
+      ],
+      "title": "如何受欢迎"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215008",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "如何受欢迎",
+  "wordCount": 353
+}

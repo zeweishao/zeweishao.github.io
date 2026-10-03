@@ -1,0 +1,125 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25840",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25840001",
+          "sourceType": 10,
+          "text": "呱呱~花灯亮起",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25840002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们快来看快来看，这盏花灯看起来好特别哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这是一只青蛙……吗，看得出来是一个颇具匠心的构思呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "笑死人了，这家伙为什么看起来有些眼熟？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我也有这样的感觉，究竟是在哪里见过呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "仔细看它的面部轮廓结构，我想应该是「天启」手下的某个马仔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "被发现了~\n怎么样，这个创意还不错吧，都是我在「天启」内部执行任务的那段时间得到的灵感呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "除了看起来很像，也没别的优点了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "孙大小姐这么说，看来是有大作要发表了，我可是要拭目以待了哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840010",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "放心，自然会比这个恶趣味的蛙蛙有趣得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25840011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "相信你们两位都是心灵手巧的女孩子，优纪非常期待你们制作出更多更有趣的花灯哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25840",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25840001,
+            25840002,
+            25840003,
+            25840004,
+            25840005,
+            25840006,
+            25840007,
+            25840008,
+            25840009,
+            25840010,
+            25840011
+          ],
+          "sectionId": 25840
+        }
+      ],
+      "title": "呱呱~花灯亮起"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25840,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "47",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "青蛙造型的花灯，融入了创作者的奇思妙想，让人想要忍不住想象它跳跃起来的样子。",
+  "title": "呱呱~花灯亮起",
+  "wordCount": 269
+}

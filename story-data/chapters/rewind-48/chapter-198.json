@@ -1,0 +1,912 @@
+{
+  "bookId": "rewind-48",
+  "id": "chapter-198",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39923001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "爱猫社区，主人家中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿咻，既然是庆典，那就一定不能没有好吃的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪可是很擅长烹饪的哦，一起来给大家做些好吃的吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "处理这么多人的食物不是一件容易的事，我来帮你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人也会参加这次的庆典，需要额外为|102|准备一份人类的食物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我曾经给主人准备过丰盛的年夜饭，所以给|102|做好吃的最拿手啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "给主人准备美食这件事，就交给我和……咦，有咲呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚才还在这里，怎么一转眼就不见了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "会不会又躲到哪里偷懒了，真是的，都什么时候了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "奇怪，我明明叮嘱过有咲，要一起为庆典做准备的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哎呀不管了，她那么大一个人，应该不会闯祸才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "唔，给主人做点什么好吃的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "一定得是|102|没吃过的食物才行，所以做些什么好呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923014",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "这还不简单，你不是最擅长打猎野味嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923015",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "直接到野外去为|102|打一只野猪来……咦，这不是有一只现成的吗~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923016",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗……噗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923017",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗噗噗，噗噗噗噗噗——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923018",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "小猪猪，终于让星洛找到你了！快乖乖到星洛这里来吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923019",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "住手！怎么又是你这家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39923020",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "说过多少次了，牡丹不是食物不是食物不是食物！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-987",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39923001,
+            39923002,
+            39923003,
+            39923004,
+            39923005,
+            39923006,
+            39923007,
+            39923008,
+            39923009,
+            39923010,
+            39923011,
+            39923012,
+            39923013,
+            39923014,
+            39923015,
+            39923016,
+            39923017,
+            39923018,
+            39923019,
+            39923020
+          ],
+          "sectionId": 39923
+        }
+      ],
+      "title": "粲然的青春·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39924001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "厨房的另一角——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯哼——哼哼♪哼……哼哼……♪",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇塞，好香的味道，你们在做什么呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924004",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "被、被优纪发现了呢，小杏和我在试着制作蛋糕哦，为这次庆典特别定制的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924005",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我的家里经营着一家面包店，受父亲和母亲的影响，我多少也会做一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924006",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "本来还以为作为「手办」而存在，已经没机会制作蛋糕了，没想到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924007",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "没关系的，渚。你想做的事，我都会陪你一一完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "做蛋糕看起来很好玩呢，优纪也来一起加入吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，总觉得少了点什么……是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924010",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "作为庆典蛋糕来说，吾认为这款蛋糕的造型太过普通了些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "见证过海洋母亲的美以后，没有人不会深深动容，以至于掩面哭泣，不能自已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "不如考虑以海洋作为主题，将浮华的美推进极致，如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924013",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我从没有做过这样的蛋糕……我想试一试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924014",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "在众人的协同努力下，庆典蛋糕终于完成——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924015",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "终于完成了……感觉这么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好漂亮的蛋糕，让人看了都不忍心吃掉呢~渚的手太巧了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924017",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "科斯顿城，庆典现场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾宣布，「科斯顿城」第95届「戏剧嘉年华」现在开始。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924019",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你们将会与吾共享节日的欢愉和戏剧的美妙，吾允诺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等了这么久，终于等到这一天了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真希望「科斯顿城」的每一位居民都能喜欢我们精心排演的戏剧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39924022",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "放心，对艺术的感知是所有人与生俱来的能力，这里的每个人也一样。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-988",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39924001,
+            39924002,
+            39924003,
+            39924004,
+            39924005,
+            39924006,
+            39924007,
+            39924008,
+            39924009,
+            39924010,
+            39924011,
+            39924012,
+            39924013,
+            39924014,
+            39924015,
+            39924016,
+            39924017,
+            39924018,
+            39924019,
+            39924020,
+            39924021,
+            39924022
+          ],
+          "sectionId": 39924
+        }
+      ],
+      "title": "粲然的青春·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39925001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "《仲夏奇妙夜》正式演出结束，庆典终于得以圆满完成——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，舞台下面的人看得又哭又笑，大家都被深深感动了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "赢了！我们的付出得到了所有人的肯定，一切都是值得的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "演出很成功，恭喜，吾会好好犒劳你们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦？难道还有什么庆功会吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有这样的好事应该早点通知我们才对，优纪绝对不会错过的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925007",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "能够让大家喜欢我演出的角色，我感到非常……非常的幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925008",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "快看，天空中怎么会突然出现这么多的光点？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "空气中闪耀着温暖又明亮的光点，看起来美轮美奂——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "会不会是萤火虫……不对，萤火虫不会在白天成片出现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "很漂亮……又很温暖……就像从天而降的星星。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "艾伦兹，一定是你做的对不对？好吧，我承认，这个游戏我很喜欢哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这就是「最后的红龙」吗，简直太神奇了……嘿嘿，把这个魔法教给优纪好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "不是吾。\n吾的火焰可以燃烧一切，方圆百里都能见到吾的火光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925015",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "总觉得很熟悉……像是在哪里见到过……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925016",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "难道……这就是「光玉」？可是……为什么这么多的「光玉」同时出现？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925017",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "没错，这就是「光玉」，不会有错的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "竟然真的有这样的光，太不可思议了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39925019",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "被这样的光芒包围着，心情也会忍不住平静下来呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-989",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39925001,
+            39925002,
+            39925003,
+            39925004,
+            39925005,
+            39925006,
+            39925007,
+            39925008,
+            39925009,
+            39925010,
+            39925011,
+            39925012,
+            39925013,
+            39925014,
+            39925015,
+            39925016,
+            39925017,
+            39925018,
+            39925019
+          ],
+          "sectionId": 39925
+        }
+      ],
+      "title": "粲然的青春·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39926001",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "所谓「光玉」，即是心愿之光，是人们的心愿在另一个世界形成的影像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926002",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "只有心怀爱意的人，才能看到「光玉」，「光玉」会反过来把奇迹赐予那些心怀爱意的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926003",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我从来没有一次见过这么多的「光玉」……什么样的人才能让这么多的「光玉」同时出现呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，一定有个了不起的人实现了了不起的「愿望」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以才会出现这么多的「光玉」吧，一定是这样没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "会是谁呢……可恶，优纪好想认识幕后这个让奇迹发生的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾也十分在意，会设法协助你查出此人的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926008",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "尽管我也很想认识这个人……只可惜我没剩多少时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926009",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "能在离开前见到这么美丽的景色，我已经没有遗憾了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926010",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "等一下，我想到了一个人——|101|，我们可以找|102|确认。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926011",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "那天，只有|102|和我没有说出自己的「愿望」，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926012",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "科斯顿城，庆典的一角。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，原来你在这里，我们找你很久了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等你们很久了，我知道你们为什么会来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，我那天许下的愿望和渚有关，我希望渚能完成自己的心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可这么多的「光玉」同时出现，是因为我们大家每个人心中的爱意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926017",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我明白了……是所有人的爱意点燃了这奇迹之光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926018",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "这就是愿望的力量，我们创造了奇迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926019",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我会用画笔定格现在的这个画面，永远地留下我们的纪念。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39926020",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这将会是「科斯顿城」最完美的一届「戏剧嘉年华」，吾当初找到你们，果然是个明智的决定。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-990",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39926001,
+            39926002,
+            39926003,
+            39926004,
+            39926005,
+            39926006,
+            39926007,
+            39926008,
+            39926009,
+            39926010,
+            39926011,
+            39926012,
+            39926013,
+            39926014,
+            39926015,
+            39926016,
+            39926017,
+            39926018,
+            39926019,
+            39926020
+          ],
+          "sectionId": 39926
+        }
+      ],
+      "title": "粲然的青春·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39927001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "整个科斯顿城都弥漫在「光玉」的光芒中——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927002",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "高中时，渚让我认识到一个人拥有梦想是一件多么重要的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927003",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "而现在，通过与大家这么多天的相处，我明白了一个更加重要的道理——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927004",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "要心怀爱意，无论什么时候都不能放弃希望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927005",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "现在，我会怀着爱意许下自己的愿望，祈祷渚能永远留下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927006",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "小杏……无论结果如何，这是无可替代的经历。我会永远铭记在心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，我看到更多的「光玉」冒出来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一定是杏的愿望实现了！一定是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "太好了，渚可以留下来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我现在就要为渚量身定做一个剧本，敬请期待~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927011",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "科斯顿城，庆典现场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，舞台怎么重新搭起来了……庆典不是已经结束了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，怎么每个人手上都拿着一个新的剧本，谁能给优纪解释一下这是什么情况？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927014",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我说过，会为渚量身定做一个新剧本，我向来说到做到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927015",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没空在这里跟你聊天了哦，我要去安排渚和杏紧急排练起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927016",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "那个，优纪有空的话，也一起来帮忙吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927017",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "有一个角色很适合优纪，让优纪试着扮演那个角色怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "剧本在哪里？我来看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927019",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "大家的戏剧热情都被点燃了呢，我有一个想法……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39927020",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "再一次，一起建立手办们的演剧部吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-991",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39927001,
+            39927002,
+            39927003,
+            39927004,
+            39927005,
+            39927006,
+            39927007,
+            39927008,
+            39927009,
+            39927010,
+            39927011,
+            39927012,
+            39927013,
+            39927014,
+            39927015,
+            39927016,
+            39927017,
+            39927018,
+            39927019,
+            39927020
+          ],
+          "sectionId": 39927
+        }
+      ],
+      "title": "粲然的青春·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 198,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 198,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "闪光的青春风景",
+  "title": "粲然的青春",
+  "wordCount": 2344
+}

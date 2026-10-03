@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214202",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师第九将夜亲自操刀制作了这款手办，将一代枭雄「曹操」不可一世的非凡气概活灵活现地呈现了出来。他身着私人定制的名贵制服，双手交叠地握着一把散发着独特气息的将剑，眼神中透出仿若能看透世间百态的倨傲。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214202"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 101
+}

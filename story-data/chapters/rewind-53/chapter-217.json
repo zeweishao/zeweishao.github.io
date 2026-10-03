@@ -1,0 +1,1088 @@
+{
+  "bookId": "rewind-53",
+  "id": "chapter-217",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42521001",
+          "sourceType": 9,
+          "text": "砰砰——轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42521002",
+          "sourceType": 9,
+          "text": "咔哒——砰砰砰——BOOM——！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42521003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快停下，这样下去整个家都会被你们拆掉的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "闪开，不然把你也炸成碎片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "笨蛋哥哥，你上当了——机能启动，爆射模式准备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，快管管他们兄妹两个，再不停手就来不及了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42521008",
+              "text": "要是他们肯听我的就好了……"
+            },
+            {
+              "targetId": "42521008",
+              "text": "没用的，我早就制止过了。"
+            }
+          ],
+          "sourceId": "42521007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42521008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，究竟有没有人能出面治一治这两个小魔星啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521009",
+          "sourceType": 9,
+          "text": "机甲内置的通讯器毫无预兆地响了起来——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42521010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "哼，你竟然黑进了「杀戮者一号」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521011",
+          "sourceType": 0,
+          "speaker": "通讯声",
+          "text": "小杰斯又在闹脾气了，你该不会忘了「杀戮者一号」原本就是我设计的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521012",
+          "sourceType": 0,
+          "speaker": "通讯声",
+          "text": "你和莉莉奈这段时间有没有乖乖的，闯祸的坏孩子可是会受到大人的惩罚哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521013",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "跟你说多少次了，我们兄妹的事不用你管！别再烦我们了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521014",
+          "sourceType": 0,
+          "speaker": "通讯声",
+          "text": "喂，我还没说完呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521015",
+          "sourceType": 9,
+          "text": "杰斯粗暴地关掉了开关，通讯声戛然而止。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42521016",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "笨蛋，就这么挂掉电话，那家伙肯定会着急的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521017",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "不用担心，哥哥会想办法甩掉她的。\n我绝不会再让那人打扰我们兄妹的生活，我向你发誓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521018",
+          "sourceType": 9,
+          "text": "深夜，主人家阳台的一角。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42521019",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "「逃跑」就是你想出来的办法？果然是个彻头彻尾的笨蛋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521020",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈别生气嘛，我知道你也不想看到那家伙每天支使人的嘴脸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521021",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "嗯，我讨厌被当作小孩子，你多少还是有些了解我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521022",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "你们两个这是要去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42521023",
+          "sourceType": 7,
+          "text": "西蒂斯 · 机甲信条\n商品名称：西蒂斯·机甲信条 Ver.\n作品出处：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约219mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "42521024",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我说过的吧，夜不归宿的孩子可是会被打屁股的哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1072",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42521001,
+            42521002,
+            42521003,
+            42521004,
+            42521005,
+            42521006,
+            42521007,
+            42521008,
+            42521009,
+            42521010,
+            42521011,
+            42521012,
+            42521013,
+            42521014,
+            42521015,
+            42521016,
+            42521017,
+            42521018,
+            42521019,
+            42521020,
+            42521021,
+            42521022,
+            42521023,
+            42521024
+          ],
+          "sectionId": 42521
+        }
+      ],
+      "title": "暗巷迷踪·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42522001",
+          "sourceType": 9,
+          "text": "黑暗中，她再次陷入了熟悉的梦魇——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42522002",
+          "sourceType": 0,
+          "speaker": "褐发女孩",
+          "text": "洛卡，你跑到哪里去了，我找你找了好久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42522003",
+          "sourceType": 0,
+          "speaker": "褐发女孩",
+          "text": "好啦，我以后都听你的，你不要生我的气了好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42522004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我没有生气……别走，告诉我你是谁……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42522005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "醒醒，快醒醒，在这里睡觉会着凉的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42522006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔，这里是什么地方，杰斯和莉莉奈呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42522007",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "糟了，杰斯和莉莉奈他们带走了我的芯片！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42522009",
+              "text": "昨晚发生了什么事？"
+            },
+            {
+              "targetId": "42522009",
+              "text": "那个芯片又是哪来的？"
+            }
+          ],
+          "sourceId": "42522008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42522009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "昨天晚上，我本想拿自己正在研制的芯片哄两个小家伙开心一下，结果……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545001",
+          "sourceType": 9,
+          "text": "深夜，主人家阳台。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42545002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "别闹了，快把芯片还给我。\n这枚芯片还处于实验阶段，随时都有可能出错，出了事情就不好办了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "出乱子什么的，我最喜欢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈喜欢这枚芯片，我来帮你插进机甲核心里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "很好，我们一起来试试看它能做什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "杰斯，莉莉奈，这样很危险，快停下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545007",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "哇哦，机体数据全面提升，各项指标几乎堪称完美。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42545008",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "你果然是「极端思维」最棒的机甲设计师……如果能不那么讨人厌就更好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42523001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔，事情的经过就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42523002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那枚芯片确实能够增强机甲的性能，可是也会严重反噬驾驶员的身体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42523003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我必须尽快找到杰斯和莉莉奈，否则可能会带来更大的麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42523005",
+              "text": "你一个人太危险了。"
+            },
+            {
+              "targetId": "42523005",
+              "text": "最好不要单独行动。"
+            }
+          ],
+          "sourceId": "42523004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42523005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪和西蒂斯一起去，保证把芯片和杰斯兄妹都安然无恙地带回家，主人放心好了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1073",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42522001,
+            42522002,
+            42522003,
+            42522004,
+            42522005,
+            42522006,
+            42522007,
+            42522008,
+            42522009
+          ],
+          "sectionId": 42522
+        },
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42545001,
+            42545002,
+            42545003,
+            42545004,
+            42545005,
+            42545006,
+            42545007,
+            42545008
+          ],
+          "sectionId": 42545
+        },
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42523001,
+            42523002,
+            42523003,
+            42523004,
+            42523005
+          ],
+          "sectionId": 42523
+        }
+      ],
+      "title": "暗巷迷踪·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42524001",
+          "sourceType": 9,
+          "text": "潮酷街区，暗巷深处。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42524002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我的芯片追踪系统显示就在附近，应该就是这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，这地方似乎在办地下机甲格斗比赛。\n看那边，我看到杰斯和莉莉奈了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这两个小鬼头伶俐得很，贸然找过去肯定会惊动他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "好不容易找到了这里，我可不想再满大街地追着他们跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，我们这样只用两条腿跑的，的确比不过他们开机甲的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524007",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我可以伪装成选手，趁着比赛的机会接近杰斯和莉莉奈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "只要能让我接近他们，就能取回我的芯片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524009",
+          "sourceType": 9,
+          "text": "街区暗巷，地下机甲格斗比赛现场。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42524010",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "欢迎来到地下机甲格斗比赛的现场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524011",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "今夜，我们将见证史无前例的机甲对决！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，看到杰斯和莉莉奈的排名了……他们进入决赛了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "芯片增加了机甲的性能，这种比赛对他们来说轻而易举。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524014",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "还好现在还没发生太糟糕的事故，接下来就看我的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524015",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那个，我要怎么样才能报名参赛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524016",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "别开玩笑了，小姑娘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524017",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "只会抱着海豚玩过家家的小孩子只不过是去送人头罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524018",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯，小姑娘……？\n利维坦，我们被人看扁了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524019",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": "咕噜——咕噜——嗡——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524020",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": ">>>攻击模式启动，目标锁定，等待下一步指令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524021",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "当然，你要是乐意的话，我也不会阻拦，到那边交钱报名。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42524022",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯，这才对嘛，赶快带路。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1074",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42524001,
+            42524002,
+            42524003,
+            42524004,
+            42524005,
+            42524006,
+            42524007,
+            42524008,
+            42524009,
+            42524010,
+            42524011,
+            42524012,
+            42524013,
+            42524014,
+            42524015,
+            42524016,
+            42524017,
+            42524018,
+            42524019,
+            42524020,
+            42524021,
+            42524022
+          ],
+          "sectionId": 42524
+        }
+      ],
+      "title": "暗巷迷踪·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42525001",
+          "sourceType": 9,
+          "text": "机甲格斗决赛晋级现场——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42525002",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "我宣布，今晚成功晋级决赛的是第37号选手「西蒂斯」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯哼，这就赢了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我还没拿出自己的全部实力，「利维坦」也没玩尽兴呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "算了，只要能晋级，这些都无所谓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525006",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "没想到你真的能晋级，哎，早知道刚才那局就押你赢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525007",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": "咕噜——嗡嗡嗡——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525008",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "这、这玩意怎么回事？！走开，别过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嘘，「利维坦」是乖孩子哦。\n愣着干什么，还不快带我到决赛现场？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525010",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "这、这就带你过去，请跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525011",
+          "sourceType": 9,
+          "text": "地下机甲格斗赛，最终决赛现场。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42525012",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "终于来到了万众期待的决赛现场，今晚的终极大奖究竟花落谁家，让我们拭目以待！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525013",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "有请今晚决赛的选手入场——暴走兄妹杰斯&莉莉奈，以及突然杀出的黑马，天才机甲师西蒂斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525014",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "该死，她还真是阴魂不散。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525015",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "急什么，这枚芯片会让她见识到什么是真正的「恐惧」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525016",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "莉莉奈不要乱来，这枚芯片会伤到你的！快还给我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525017",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "你又想哄我，可我已经不是小孩子了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525018",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "把「杀戮一号」调整到最佳状态，和我做好配合，我要赢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525019",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我已经等不及了，给我统统坏掉吧坏掉吧——坏掉吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525020",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": "嗡——嗡嗡——轰——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525021",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": ">>>启动程序代码「抓捕熊孩子」，目标锁定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42525022",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我说过的吧，不听话的孩子可是要被打屁股的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯哼，芯片物归原主。\n你们还是太年轻了些，乖乖跟我回去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "这不可能……不可能！我不服，我们再来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "没什么不可能的，笨蛋哥哥。\n跟你回去当然可以，但你得为我量身定制属于自己的芯片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "呼，莉莉奈真是个狡猾的孩子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "现在这枚只是我打发无聊做的实验品，等我调试好它，自然就会装在你们的机甲上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42526006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "毕竟，「杀戮者一号」和「杀戮者二号」都是我设计的机甲里最老的一批机型，我也想找个机会给它们升个级~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1075",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42525001,
+            42525002,
+            42525003,
+            42525004,
+            42525005,
+            42525006,
+            42525007,
+            42525008,
+            42525009,
+            42525010,
+            42525011,
+            42525012,
+            42525013,
+            42525014,
+            42525015,
+            42525016,
+            42525017,
+            42525018,
+            42525019,
+            42525020,
+            42525021,
+            42525022
+          ],
+          "sectionId": 42525
+        },
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42526001,
+            42526002,
+            42526003,
+            42526004,
+            42526005,
+            42526006
+          ],
+          "sectionId": 42526
+        }
+      ],
+      "title": "暗巷迷踪·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42527001",
+          "sourceType": 9,
+          "text": "地下机甲格斗比赛，最终获胜者颁奖现场。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42527002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你真的做到了，西蒂斯，我就知道你可以的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "小意思啦，优纪这么夸我，我会不好意思的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527004",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "找到她了，准备行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "谁在那边！咦，热源警示器指数爆表了……怎么会？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527006",
+          "sourceType": 9,
+          "text": "伴随着巨大的爆炸声，颁奖现场乱成了一团。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42527007",
+          "sourceType": 0,
+          "speaker": "比赛主持",
+          "text": "大家不要慌，我们已经联系了管理局……嗷，刚才谁踩我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咳，咳咳，西蒂斯，你还好吗？有没有哪里受伤？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我没事，幸好「利维坦」及时护住了我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527010",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "糟了，我的芯片怎么不见了……刚才明明还在的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "保持冷静，不要慌乱，「管理局」正在维护现场的治安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "描述一下你丢失的物品，我会让人协助你们寻找。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "芯片，我丢了一枚很重要的芯片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "尽管有「管理局」的协助，可是芯片太小了……我们真的能找到吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527015",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "计划顺利，撤离现场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527016",
+          "sourceType": 9,
+          "text": "潮酷街区，暗巷深处。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42527017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "果然，到处都找过了，连一块碎屑都没有看到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527018",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那枚芯片里有精细的定位组件，即使损坏我也可以监测到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527019",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "可是，我的探测装置至今一点信号都收不到……除非有人对芯片做了手脚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527020",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "啊，那个引爆炸弹的人，一定是那个制造暴乱的家伙干的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527021",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你确定吗？如果是有人盗走，事情的性质就变了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527022",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "跟我回「管理局」做一次笔录，配合走完立案程序，我们将会全力为你寻找芯片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看来只能先报案再说了，走吧，我陪你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42527024",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嘛，只能这样了，就和你去一趟「管理局」吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1076",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42527001,
+            42527002,
+            42527003,
+            42527004,
+            42527005,
+            42527006,
+            42527007,
+            42527008,
+            42527009,
+            42527010,
+            42527011,
+            42527012,
+            42527013,
+            42527014,
+            42527015,
+            42527016,
+            42527017,
+            42527018,
+            42527019,
+            42527020,
+            42527021,
+            42527022,
+            42527023,
+            42527024
+          ],
+          "sectionId": 42527
+        }
+      ],
+      "title": "暗巷迷踪·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 217,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 217,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "124",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "机甲实验室迎来新负责人。",
+  "title": "机甲迷踪",
+  "wordCount": 2685
+}

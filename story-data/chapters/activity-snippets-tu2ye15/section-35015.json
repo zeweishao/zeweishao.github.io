@@ -1,0 +1,141 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35015",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35015001",
+          "sourceType": 10,
+          "text": "如虎添翼",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35015002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哇，这只小脑斧好可爱哦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "小脑斧？那是什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，怎么念有什么关系，只要可爱就好了嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在真正的艺术面前，大家的眼睛果然都是雪亮的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "黑桃怪盗无所不能，现在你们肯承认了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，优纪相信只有魔术才能做出这种效果哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你究竟是怎么做到的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只有你们两个对我的魔术感兴趣吗，这点观众不值得我揭露谜底哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "嘿咻，米菲亚和塞西尔也想知道魔术的原理~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "先说好，是米菲亚硬要拉着我来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没关系，我会让你见识真正的艺术。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35015013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在我的审美水准之下，无论是谁，都将俯首称臣。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35015",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35015001,
+            35015002,
+            35015003,
+            35015004,
+            35015005,
+            35015006,
+            35015007,
+            35015008,
+            35015009,
+            35015010,
+            35015011,
+            35015012,
+            35015013
+          ],
+          "sectionId": 35015
+        }
+      ],
+      "title": "如虎添翼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35015,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "78",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "来自绯野的独门绝技，堪称魔术般的「兔儿爷」作品，只为了让主人一见倾心。",
+  "title": "如虎添翼",
+  "wordCount": 224
+}

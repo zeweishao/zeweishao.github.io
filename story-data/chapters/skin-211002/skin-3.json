@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211002",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「不行不行，感觉不对，再来。」\n\n「还是不行，你们以为自己在演奏催眠曲吗？」\n\n「停，都给我收拾收拾走人，现在，马上！」\n\n这已经是被梅根队长赶走的第五十七位DJ，而距离森林音乐节开场只剩不到十五分钟的时间。\n\n就在所有人以为这次精心准备的盛会就要泡汤的时候，梅根身着火辣的DJ演出服出场，惊艳了整个夜晚。\n\n——该特别款仅可通过「森林音乐节」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "音乐不眠夜Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211002",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "梅根·音乐不眠夜Ver.",
+  "title": "音乐不眠夜Ver.",
+  "wordCount": 166
+}

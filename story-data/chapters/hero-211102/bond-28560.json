@@ -1,0 +1,110 @@
+{
+  "bookId": "hero-211102",
+  "id": "bond-28560",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28560001",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "不要过来，不要靠近我。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28560003",
+              "text": "为什么？"
+            }
+          ],
+          "sourceId": "28560002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28560003",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "我是个怪物，会伤害你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28560005",
+              "text": "可我现在好好的呀。"
+            },
+            {
+              "targetId": "28560005",
+              "text": "你看起来非常孤独。"
+            }
+          ],
+          "sourceId": "28560004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28560005",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "你不……怕我？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28560007",
+              "text": "你很温柔，没什么好怕的。"
+            }
+          ],
+          "sourceId": "28560006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28560007",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "……谢谢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28560",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28560001,
+            28560002,
+            28560003,
+            28560004,
+            28560005,
+            28560006,
+            28560007
+          ],
+          "sectionId": 28560
+        }
+      ],
+      "title": "是人还是怪物？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "是人还是怪物？",
+  "wordCount": 68
+}

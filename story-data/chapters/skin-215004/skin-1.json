@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215004",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "让白雪凝结的头纱轻抚发丝，将冰晶塑成的礼服穿戴于身。少女那双被阿罗拉女神吻过的眼眸展露出温柔的笑意，仿若冬日雪后初晴的碧蓝天空。\n\n她缓慢走向圣洁的罗贝尔礼堂，在这座有着千百年历史的古老殿堂，在美丽的阿罗拉女神的注视与见证下，走向与自己缔结一生誓约的那个人。\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "神圣誓约Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215004",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海伦·神圣誓约Ver.",
+  "title": "神圣誓约Ver.",
+  "wordCount": 147
+}

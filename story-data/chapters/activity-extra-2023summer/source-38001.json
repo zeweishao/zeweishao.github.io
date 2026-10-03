@@ -1,0 +1,395 @@
+{
+  "bookId": "activity-extra-2023summer",
+  "id": "source-38001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "38001001",
+          "sourceType": 9,
+          "text": "在某个平凡的夏日——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "38001002",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "主人，今天的风很凉快呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001003",
+          "sourceType": 0,
+          "speaker": "椰冰小狐",
+          "text": "啾咪，啾咪！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001005",
+              "text": "眼熟的狐狸出现了"
+            },
+            {
+              "targetId": "38001005",
+              "text": "它在说什么？"
+            }
+          ],
+          "sourceId": "38001004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001005",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "「说到夏天果然还是要有泳装」，它是这么说的哦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001007",
+              "text": "……"
+            }
+          ],
+          "sourceId": "38001006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001007",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "游泳部的成员已经在泳池附近集合了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001009",
+              "text": "游泳部?"
+            },
+            {
+              "targetId": "38001009",
+              "text": "我怎么不知道？"
+            }
+          ],
+          "sourceId": "38001008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001009",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "是手办社区里新成立的「夏季限定」组织，旨在让大家重温愉快的校园生活。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001011",
+              "text": "感觉有点随便……"
+            },
+            {
+              "targetId": "38001011",
+              "text": "感觉有点意思……"
+            }
+          ],
+          "sourceId": "38001010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001011",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊哈哈哈……就让我向主人介绍下这些部员吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "首先是游泳部的部长，曾经在海底与巨大章鱼搏斗的阳子姐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001013",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "唷，|101|。等下和我还有彩音一起去潜水，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001014",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "然后是游泳部的指导老师，人称「冬临之光」的海伦女士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001015",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "你来了。在这里即使什么都不做，也感觉心情很愉快呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001016",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "游泳部的会计，拥有自己的冰饮店的泉小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "今天的冰棍可是免费不限量供应哦。|101|，要来一根吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001018",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "曾获沙雕大赛冠军的葵同学，她真的很喜欢晒太阳呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001019",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "ZZZZZZZZ……光合作用……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001020",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊……还在睡觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001021",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "咳，接下来，普通部员的吕布。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001022",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "啊？为什么一轮到我，介绍就变得这么简单了啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001023",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "说起来，还有两名今天刚加入的新成员呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001024",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "这位是在M城暂住的贝歌小姐……虽然她好像有点误解了我们的邀请……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001025",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "人类……你果然来看我了。真好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001026",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "此处是名为「游泳竞赛」的黑暗角斗场，你就是来见证我悲惨的末路的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001027",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "……诶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001028",
+          "sourceType": 0,
+          "speaker": "椰冰小狐",
+          "text": "（狐语）这只半人鱼非常危险啊！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001030",
+              "text": "……"
+            }
+          ],
+          "sourceId": "38001029",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001030",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊！贝歌小姐开始换衣服了，我们……去另一位新部员那看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001031",
+          "sourceType": 3,
+          "text": "铃、铃——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "38001032",
+          "sourceType": 3,
+          "text": "熟悉的丽人就在水波荡漾的池边。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "38001033",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，您是……什么时候来的?",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38001035",
+              "text": "我刚到"
+            },
+            {
+              "targetId": "38001035",
+              "text": "没想到你也在这"
+            }
+          ],
+          "sourceId": "38001034",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38001035",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "呵……我也是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001036",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，请帮我扎下头发，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38001037",
+          "sourceType": 3,
+          "text": "——盛夏的潮风仍将吹拂，似乎永不止歇。",
+          "type": "narration"
+        }
+      ],
+      "id": "38001",
+      "sourceRefs": [
+        {
+          "bundle": "2023summer",
+          "rowIds": [
+            38001001,
+            38001002,
+            38001003,
+            38001004,
+            38001005,
+            38001006,
+            38001007,
+            38001008,
+            38001009,
+            38001010,
+            38001011,
+            38001012,
+            38001013,
+            38001014,
+            38001015,
+            38001016,
+            38001017,
+            38001018,
+            38001019,
+            38001020,
+            38001021,
+            38001022,
+            38001023,
+            38001024,
+            38001025,
+            38001026,
+            38001027,
+            38001028,
+            38001029,
+            38001030,
+            38001031,
+            38001032,
+            38001033,
+            38001034,
+            38001035,
+            38001036,
+            38001037
+          ],
+          "sectionId": 38001
+        }
+      ],
+      "title": "活动片段 38001"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "2507",
+              "enter_avg"
+            ],
+            "table": "ResOpActivityFLottoryMisc.lua"
+          }
+        ],
+        "path": [
+          "2507",
+          "enter_avg"
+        ],
+        "sectionId": 38001,
+        "table": "ResOpActivityFLottoryMisc"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 38001",
+  "wordCount": 638
+}

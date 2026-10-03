@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213001",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "双手的血管已经扎满针孔，实习护士里惠憋红了脸，她洁白的皓齿深深咬进嘴唇中，充满了紧张和自责。终于！第七次静脉注射总算成功了！里惠长舒一口气。\n\n“在退烧之前，放心好了，我会仔仔细细……看好您的！> <”\n\n      ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "实习天使Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213001",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "宫本里恵·实习天使Ver.",
+  "title": "实习天使Ver.",
+  "wordCount": 118
+}

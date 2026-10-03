@@ -1,0 +1,40 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-3545",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "3545001",
+          "sourceType": 3,
+          "text": "击败了伊利丹",
+          "type": "narration"
+        }
+      ],
+      "id": "3545",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3545001
+          ],
+          "sectionId": 3545
+        }
+      ],
+      "title": "原文片段 3545"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 3545
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 3545",
+  "wordCount": 6
+}

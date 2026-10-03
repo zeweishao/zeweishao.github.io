@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212110",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「枣恭介」化身为1/7比例模型登场！将一切日常化作任务的队长，这一次也将提出充满挑战性的有趣任务。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212110"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 49
+}

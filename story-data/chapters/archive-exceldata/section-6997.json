@@ -1,0 +1,171 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-6997",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "6997001",
+          "sourceType": 10,
+          "text": "嗨多磨！直播马上开始！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6997002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家好，我是Kizuna AI，让我们测试一下弹幕功能。啦啦啦啦啦啦啦啦啦啦啦啦测试一下换行",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997003",
+          "sourceType": 7,
+          "text": "Kizuna AI · 超级AI美少女\n商品名称：Kizuna AI·超级AI美少女Ver.\n作品名称：《格斗学园》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约240mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "6997004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "这是第一组弹幕。在白色虚拟空间，2D画面，出现立绘",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "AAAAAAAAAAAAAAAAAA",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "BBBBBBBBBBBBBBBBBBBBBB",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "CCCCCCCCCCCCCCCCCCCC",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997008",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "接下来是第二组弹幕。在桌面，3D画面，不出现立绘，仅有模型布景",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997009",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "111111嗨多磨嗨多磨嗨多磨嗨多磨",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997010",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "222222嗨多磨嗨多磨嗨多磨嗨多磨",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997011",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "接下来是第三组弹幕。3D画面，出现立绘",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997012",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "我是绊爱绊爱是我哈哈哈哈",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997013",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "啦啦啦啦啦啦啦啦啦啦了",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997014",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "好了，直播结束，爱你哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6997015",
+          "sourceType": 10,
+          "text": "直播结束啦，大家下次再见！",
+          "title": "小节引文",
+          "type": "narration"
+        }
+      ],
+      "id": "6997",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6997001,
+            6997002,
+            6997003,
+            6997004,
+            6997005,
+            6997006,
+            6997007,
+            6997008,
+            6997009,
+            6997010,
+            6997011,
+            6997012,
+            6997013,
+            6997014,
+            6997015
+          ],
+          "sectionId": 6997
+        }
+      ],
+      "title": "原文片段 6997"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 6997
+      },
+      {
+        "id": "25",
+        "table": "ResTalkSectionIntro"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 224,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "62",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "26",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 6997",
+  "wordCount": 383
+}

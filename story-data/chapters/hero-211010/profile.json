@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211010",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "刚升入紫罗兰学园的新生「冈田彩音」化身为1/7比例模型登场！以角色原案为原型、用知名绘师绘制的插画为原图制成模型。娇俏的转身轻靠着游戏机的站姿，以及飘逸灵动的冰蓝色长发，甜美自信的笑容，各种角度都值得细细品鉴。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211010"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 105
+}

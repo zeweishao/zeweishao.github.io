@@ -1,0 +1,82 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1171",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1171001",
+          "sourceType": 9,
+          "text": "锵锵！Surprise！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171002",
+          "sourceType": 9,
+          "text": "这里是绯野原爱，关于下次对决的预热~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171003",
+          "sourceType": 9,
+          "text": "现在的你还是菜鸟‘刑警’，想要抓住我这样享誉世界的大盗，可还差的太远，可谁让我喜欢你呢，作为给你的嘉奖~这次是对决前特别奖励的内容。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171004",
+          "sourceType": 9,
+          "text": "盒子里面都是给你们的“礼物”。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171005",
+          "sourceType": 9,
+          "text": "那是一些特别的悬赏单~解决那些目标，会有我准备的特别惊喜！如果连这些简单的线索都不能好好破解，下次任务或许连成为我对手的资格都没有哦。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171006",
+          "sourceType": 9,
+          "text": "所以，为了能够离我更近一点，好好抓住这个机会，努力练习吧！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1171007",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        }
+      ],
+      "id": "1171",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1171001,
+            1171002,
+            1171003,
+            1171004,
+            1171005,
+            1171006,
+            1171007
+          ],
+          "sectionId": 1171
+        }
+      ],
+      "title": "原文片段 1171"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1171
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1171",
+  "wordCount": 209
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211005",
+  "id": "bond-27511",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27511001",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "哈哈，这个地方就是实现我们梦想的第一步了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？什么梦想？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511003",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "当然是联手一起征服世界了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不不，我并没有这种打算。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511005",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "我指的是手办世界！把那什么天启十一众的脑袋全部砍下来，给咱们当球踢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "已经把我算进去了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511007",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "小鬼，我认可你的实力，也欣赏你的人品，我们的联盟一定所向无敌！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511008",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "放心，征服世界之后，土地分你一半，我们两个共治天下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511009",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "当然，名义上我是老大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我真的没有这个打算。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511011",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "嗯？那真是可惜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511012",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "不过我们血狼部族绝对不会亏待兄弟，你已经是我承认的兄弟了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27511013",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "以后有我一口吃的，绝不会饿着你！这是血狼之主对你的承诺！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27511",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27511001,
+            27511002,
+            27511003,
+            27511004,
+            27511005,
+            27511006,
+            27511007,
+            27511008,
+            27511009,
+            27511010,
+            27511011,
+            27511012,
+            27511013
+          ],
+          "sectionId": 27511
+        }
+      ],
+      "title": "一起征服世界"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "一起征服世界",
+  "wordCount": 242
+}

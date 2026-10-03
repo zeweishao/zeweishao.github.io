@@ -1,0 +1,142 @@
+{
+  "bookId": "hero-212018",
+  "id": "bond-28597",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28597001",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "等下！旧报纸和快递盒不要扔掉，交给我就好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28597002",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "还有那边的那些旧花瓶，怎么可以随随便便地丢掉呢！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28597004",
+              "text": "不过是些废品，没必要留着。"
+            }
+          ],
+          "sourceId": "28597003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28597004",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "只有没品又没眼光的家伙，才会觉得什么都是废品啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28597005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "而我就不一样，我可以让这些东西变废为宝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28597006",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "绝对不可以小看废品，即使一个小小的旧盒子，也能换取亮闪闪的金币！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28597008",
+              "text": "你是节约狂魔吧？"
+            }
+          ],
+          "sourceId": "28597007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28597008",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "少废话。你的手里是不是还藏着什么东西，拿过来给我看看。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28597010",
+              "text": "不要用盯猎物的眼光看我！"
+            },
+            {
+              "targetId": "28597010",
+              "text": "不是什么都可以拿去换钱！"
+            }
+          ],
+          "sourceId": "28597009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28597010",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "原来是喝过的牛奶盒啊，我拿走咯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28597011",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "等我拿去换了钱，我的金苹果又可以增加新的金币了，嘿嘿~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28597",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28597001,
+            28597002,
+            28597003,
+            28597004,
+            28597005,
+            28597006,
+            28597007,
+            28597008,
+            28597009,
+            28597010,
+            28597011
+          ],
+          "sectionId": 28597
+        }
+      ],
+      "title": "节约作战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212018",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "节约作战",
+  "wordCount": 236
+}

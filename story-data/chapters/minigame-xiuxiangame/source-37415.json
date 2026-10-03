@@ -1,0 +1,54 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37415",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37415001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可恶，又让它逃走了！不过，我能感觉到，已经离野猫的栖息地越来越近了......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37415",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37415001
+          ],
+          "sectionId": 37415
+        }
+      ],
+      "title": "爬塔关卡 20 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "20",
+              "result_avg_id"
+            ],
+            "table": "ResClimbTower.lua"
+          }
+        ],
+        "path": [
+          "20",
+          "result_avg_id"
+        ],
+        "sectionId": 37415,
+        "table": "ResClimbTower"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "爬塔关卡 20 · 结算",
+  "wordCount": 39
+}

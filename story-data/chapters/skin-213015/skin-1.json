@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213015",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "伊迪丝早就告别了马球手的身份。\n多年来，她愈是涉足政坛，愈发倾向于栖居幕后、做一位优雅的旁观者——本次的慈善马球赛也不例外。\n赛事间，同行宾客忽然喝彩起哄——\n人人都想再睹，当年在伊顿庄园驰骋的女王，手挥球杆的风采。\n盛情难却。\n稍加准备后，「全副武装」的代理人出场了——\n「唔，好久没有亲自上阵。」\n「那么，我献丑了。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "伊顿女王Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213015",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "伊迪丝·伊顿女王Ver.",
+  "title": "伊顿女王Ver.",
+  "wordCount": 154
+}

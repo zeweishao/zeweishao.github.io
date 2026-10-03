@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213201",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师细雪不庭亲自操刀制作了这款卡缪手办，将他高贵而不可一世的形象近乎完美地呈现给我们。他身着贵族学校的白色制服悬在半空中，雾蓝色的瞳仁透露出蔑视，看起来对世界上的一切都漠不关心。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213201"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

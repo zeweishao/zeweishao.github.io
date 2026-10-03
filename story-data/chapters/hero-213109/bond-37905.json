@@ -1,0 +1,204 @@
+{
+  "bookId": "hero-213109",
+  "id": "bond-37905",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37905001",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "听好了，新人。这次的作战是帮助小奏顺利完成「替人送包裹」的任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905002",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "要确保她的行进路线不受到任何干扰，但别被发现了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37905004",
+              "text": "知道了。"
+            },
+            {
+              "targetId": "37905004",
+              "text": "其实她能照顾好自己的。"
+            }
+          ],
+          "sourceId": "37905003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37905004",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "小奏已经出门了，作战开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "收到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905006",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "37905007",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "有刚放学的小学生出现在小奏的10点钟方向。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "了解，我去引开他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905009",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "有可疑的玩具车在横冲直撞啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我去把它挪开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905011",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "野猫，喜欢叼手办的野猫出现了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "糟糕，它速度太快了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905013",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "那只猫已经到小奏面前了……可恶，用狙击吓走它吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37905015",
+              "text": "倒也不必用枪？"
+            },
+            {
+              "targetId": "37905015",
+              "text": "动静太大了吧？"
+            }
+          ],
+          "sourceId": "37905014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37905015",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "等下，野猫趴倒了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905016",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "居然同意让小奏骑上去了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看起来剩下的路有猫帮忙了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905018",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "哎，运气很好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37905019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以说，她能照顾好自己的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37905",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37905001,
+            37905002,
+            37905003,
+            37905004,
+            37905005,
+            37905006,
+            37905007,
+            37905008,
+            37905009,
+            37905010,
+            37905011,
+            37905012,
+            37905013,
+            37905014,
+            37905015,
+            37905016,
+            37905017,
+            37905018,
+            37905019
+          ],
+          "sectionId": 37905
+        }
+      ],
+      "title": "天使支援作战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213109",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "天使支援作战",
+  "wordCount": 265
+}

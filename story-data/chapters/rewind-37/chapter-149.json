@@ -1,0 +1,955 @@
+{
+  "bookId": "rewind-37",
+  "id": "chapter-149",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34010001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "阳光熊仔和至尊男爵之后就再也没回复了。\n究竟发生了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "唉，要是他们此刻能出现在我面前就好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "蔡文姬，你还在烦恼吗？\n其实你可以和我们说说你的想法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我们是你的朋友。要是遇到解决不了的问题，就交给我们处理吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "阿蝉，尚香……谢谢你们。\n其实，我现在在找两位手办——阳光熊仔和至尊男爵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "至尊男爵……你找他做什么？\n和他见面只会让你失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "阳光熊仔也是个怪人。\n你还是别和他们见面吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "唉，你们又这样，但我是不会放弃见面的。\n我不知道你们为什么会有这样的误会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "如果现实真的如此不堪，那我宁愿跌入浪漫的幻境，也不要屈服于浑浊的尘流。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010010",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "她已经跑远了，要追吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010011",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "追上她，让她更生气吗？\n现如今，还是找其他手办商量对策吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪、和江、蔡文姬，我回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "抱歉，最近一直在管理局帮忙。\n蔡文姬，通讯机你用的还习惯吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "多谢主君给我的通讯机。\n我在网络上认识了许多手办呢……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34010016",
+              "text": "好像不高兴？"
+            },
+            {
+              "targetId": "34010016",
+              "text": "有烦恼吗？"
+            }
+          ],
+          "sourceId": "34010015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34010016",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君不在的时候发生了许多事，我的思绪有些乱……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010017",
+          "sourceType": 3,
+          "text": "过了一会……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34010018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯……N城确实没有通讯机啊。\n既然这样，我来调查一下这两个手办的身份吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "放心吧，包在我身上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34010020",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "谢谢你，主君！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-777",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34010001,
+            34010002,
+            34010003,
+            34010004,
+            34010005,
+            34010006,
+            34010007,
+            34010008,
+            34010009,
+            34010010,
+            34010011,
+            34010012,
+            34010013,
+            34010014,
+            34010015,
+            34010016,
+            34010017,
+            34010018,
+            34010019,
+            34010020
+          ],
+          "sectionId": 34010
+        }
+      ],
+      "title": "恋爱支援作战·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34011001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "拉斐尔，之前蔡文姬的事——\n嗯？你怎么心神不定的样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011002",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "嗯，这幅画是……？我又画了一幅预知画吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011003",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "这是，蔡文姬？难道她和网友的见面会招来不幸吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "骗子、预知画、蔡文姬。不幸的命运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "似乎阻止蔡文姬就能避免悲剧发生。\n但这真的是你们想要的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你的意思是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果有百分之一的可能性，对方真的不是骗子。\n强行阻止会很难收场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不如我们兵分两路。\n我和你们去盘问被逮捕的骗子，确认同伙的身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪就去找其他手办帮忙劝说蔡文姬，给她一些建议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "……我明白了。\n那事不宜迟，分头行动吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011011",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34011012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "拉斐尔，我回来了！她们都愿意帮忙呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011013",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "少女的烦恼？洒洒水，小问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嘻嘻，少女心这种东西，破碎的时候才最有意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "灵媒师能看见过去，通晓未来。\n只要一点占卜费，就能知道见面的结果哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34011016",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "优纪，她们真的是来帮忙的吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-778",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34011001,
+            34011002,
+            34011003,
+            34011004,
+            34011005,
+            34011006,
+            34011007,
+            34011008,
+            34011009,
+            34011010,
+            34011011,
+            34011012,
+            34011013,
+            34011014,
+            34011015,
+            34011016
+          ],
+          "sectionId": 34011
+        }
+      ],
+      "title": "恋爱支援作战·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34012001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "铛铛铛，支援作战正式开始！\n首先给蔡文姬的第一个建议！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "第一次见面的时候，要给对方创造良好的印象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "应该把对方的重要物品都藏起来，告诉|102|许多个不同的地点。让对方慢慢去找。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这样一来，对方会永远记住你。\n不仅如此，哪怕你跑到天涯海角，|102|也会一直找你~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "嗯……那为什么不把这些物件抛入大海，随洋流飘荡呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012006",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这样一来，两个人不就能游遍世界吗。\n就像话本里写的那样，多浪漫呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵呵呵，不错的想法，你理解得很快呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012008",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "等等，与其说是创造印象，不如说是创造噩梦吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "接着是第二个建议~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "见面的时候，要给对方准备一个礼物才好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "那我这就去寻找千年梧桐，百年玄玉。如果我用它们打造一把古琴，肯定能给知己惊喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012012",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "不对不对，什么古琴，应该买一个哑铃。\n肉要吃，运动也要进行，这样才称得上健全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "哑铃可以在我这里买哦，给你打八折。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这样吗……对了，只要用黑铁打造琴身，就可以一边弹琴，一边锻炼了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012015",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你这不是挺聪明的嘛。我要把这条加进礼仪课的课程里。下一个建议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012016",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34012017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，大家给出了许多建议呢。\n接下来是桑尼的占卜环节！M城最优秀的占卜师！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012018",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "叽里呱啦，米娅莫拉苏娜丹妮……蔡文姬的运势是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012019",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "哇，大凶！\n巨人会从天而降，而蔡文姬会迷失在混沌一片的世界里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太可怕了！能不能帮帮蔡文姬？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34012021",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "逆天改命可是要耗费大量灵力的，不能轻易施法。\n……得加钱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203001",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "头……好晕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "桑尼，这个手办也是法术中的一环吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "额，这是意外啦。不过没事，准备已经好了。\n带上他们，我们回|101|的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你们这是在做什么，为什么绑来了这么多手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅苏丹妮，我们要借助这些手办的能力帮助蔡文姬。\n法术正在进行，不要打扰我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "优纪，拉斐尔，你们不是应该——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203007",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "啊啊啊，都是因为你，灵力涣散了啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "每个人都得说出一件不为人知的事，不然就会受到法术的反噬。先从优纪开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么突然！我，我很喜欢《风纪委员和他的王者》里龙马和樱介的情节……这样可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嘻嘻，管理局的西装大叔，有天和别人叙旧二十分钟之后才发现，对方根本不认识他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203011",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "嗯……说起来，仓田龙马有次在凌晨四点拒绝了向他告白的学生，因为他想顺便在五点晨练。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203012",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "之前，莉可挨家挨户发放讲述她魔王事迹的绘本，却被举报影响市容被罚做义务劳动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "不为人知吗？\n呵呵，某位孙大小姐在网上聊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "貂蝉！给我住口！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "啊啊啊！法术又失败了！\n你们不准跑！把材料的钱赔给我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203016",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "额……我晕过去了吗。你是……|101|的手办？\n行吧，这份文件就给你吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "|101|，这就是至尊男爵与阳光熊仔的身份，\n希望你看到之后不要太惊讶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34203018",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "怎，怎么会如此？！\n阳光熊仔和至尊男爵，居然是……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-779",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34012001,
+            34012002,
+            34012003,
+            34012004,
+            34012005,
+            34012006,
+            34012007,
+            34012008,
+            34012009,
+            34012010,
+            34012011,
+            34012012,
+            34012013,
+            34012014,
+            34012015,
+            34012016,
+            34012017,
+            34012018,
+            34012019,
+            34012020,
+            34012021
+          ],
+          "sectionId": 34012
+        },
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34203001,
+            34203002,
+            34203003,
+            34203004,
+            34203005,
+            34203006,
+            34203007,
+            34203008,
+            34203009,
+            34203010,
+            34203011,
+            34203012,
+            34203013,
+            34203014,
+            34203015,
+            34203016,
+            34203017,
+            34203018
+          ],
+          "sectionId": 34203
+        }
+      ],
+      "title": "恋爱支援作战·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34013001",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "「用闪电击碎黑暗。」\n就是你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013002",
+          "sourceType": 0,
+          "speaker": "魔力容器A",
+          "text": "呜啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "「在黄昏前偷走时间。」\n发现目标~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013004",
+          "sourceType": 0,
+          "speaker": "魔力容器B",
+          "text": "快放开我！救命啊！来人啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一切都是为了帮蔡文姬改变命运！\n挥动吧！旋转之星！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013006",
+          "sourceType": 0,
+          "speaker": "魔力容器C",
+          "text": "哎呦，你干嘛！叽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013007",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "有一份重要文件给|101|。\n咦，这几个手办好眼熟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34013008",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "我是伊迪丝大人的员工——\n哇啊啊，你们干什么？不要过来呀！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-780",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34013001,
+            34013002,
+            34013003,
+            34013004,
+            34013005,
+            34013006,
+            34013007,
+            34013008
+          ],
+          "sectionId": 34013
+        }
+      ],
+      "title": "恋爱支援作战·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34014001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "终于安静了。什么法术的反噬，都是骗人的。\n……蔡文姬，我们有话想对你说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "是啊，你们肯定有很多话想对我说。\n至尊男爵，还有阳光熊仔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你是怎么……唉，我们并非故意隐瞒。\n我们只是担心你会上当受骗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "刚才我们去审讯抓到的骗子了，能够确定你的知己不是他们的同伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014005",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "但谁也不能保证|102|就不是骗子。我们真的不想你有事，为了安全，你还是放弃吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014006",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "原来如此……你们是这么想的吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "网络确实是虚拟的。但在网络上倾注的感情是真实的。\n彼此陪伴的时光也是真实的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我愿意相信彼此之间的善意和情谊。\n我相信那位知己和你们一样，是我真正的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我知道，这可能是我的一厢情愿……\n但至少，请给我一个证明的机会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014010",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "阿蝉，尚香，谢谢你们替我着想。\n倘若真有意外，我会保护自己的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014011",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "……罢了罢了，既然如此，我们也没有理由再阻拦你了。\n不过你如何发现我们的身份？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "难道是孙大小姐暴露了？我一直觉得她平日说话的口吻，和《霸总宝典》里的台词一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014013",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "荒谬，给你一分钟时间，收回你的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "其实，我也觉得有点像呢。\n孙尚香，要不要看看你的星座分析和MBTI类型？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014015",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "住……住口，不要再让本大小姐说第二遍！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014016",
+          "sourceType": 3,
+          "text": "与此同时……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34014017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "|101|，安全系统的开发终于告一段落。让你以手办的人设发言，真是辛苦你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我们会根据你的发言设计屏蔽词库，再配合身份认证，肯定可以解决犯罪问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "作为谢礼，你有什么愿望吗？我会尽量替你实现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这段日子，我在网上认识了一位手办朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我一直没有说明我人类的身份……我不想撒谎，但又怕对方不能接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34014022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "马上我们就要见面了，我想知道我的这位朋友，究竟是谁。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-781",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34014001,
+            34014002,
+            34014003,
+            34014004,
+            34014005,
+            34014006,
+            34014007,
+            34014008,
+            34014009,
+            34014010,
+            34014011,
+            34014012,
+            34014013,
+            34014014,
+            34014015,
+            34014016,
+            34014017,
+            34014018,
+            34014019,
+            34014020,
+            34014021,
+            34014022
+          ],
+          "sectionId": 34014
+        }
+      ],
+      "title": "恋爱支援作战·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 149,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 149,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "解决问题的真正建议",
+  "title": "恋爱支援作战",
+  "wordCount": 2603
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212204",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「唔。这么简单的问题~还不愿意回答吗。不过姐姐就喜欢像你这样的嘴硬的家伙。」\n\n「我们可以慢慢享受这个美妙的夜晚——品尝恐惧的盛宴，你也会很期待吧。」\n\n「啊，差点忘了，你是要提供恐惧的那个。作为报酬，我会轻点下手，尽量让你活得更久一些的~」\n\n朦胧月夜下，女人背后金色的蝠翼撑开，手持金色的长鞭，目光迷离又危险。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "首席执刑官Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212204",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "S-VIII·首席执刑官Ver.",
+  "title": "首席执刑官Ver.",
+  "wordCount": 151
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213006",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI的知名绘师细腻还原了原作中仓田龙马的形象，刚刚休息完毕的他背上了自己的挎包，为即将开始的一段时间的体能训练做足了准备。不苟言笑的仓田龙马嘴角竟然流露出一丝笑意，究竟是看到了什么，真是让人很在意呢。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213006"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 102
+}

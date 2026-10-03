@@ -1,0 +1,165 @@
+{
+  "bookId": "hero-213001",
+  "id": "bond-27534",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27534001",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "呼哧呼哧……呜……终于、找到你了——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27534003",
+              "text": "里惠？发生什么事了？"
+            }
+          ],
+          "sourceId": "27534002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27534003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天的里惠居然不是在找尤娜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534004",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "呼呼……主人，能帮我……一下下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534005",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "拜托了，可以帮我开一下冰箱门吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534006",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "我能感觉到，我的姐姐就藏在酸奶后面……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27534008",
+              "text": "好吧，我就知道……"
+            }
+          ],
+          "sourceId": "27534007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27534008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还以为里惠特意找我，是有什么特殊的事情呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534009",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "……主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534010",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "你好像不太开心，是吃醋了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你想多了，我才没有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这种事情怎么可以说出来啊……我不要面子的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534013",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "扑哧，主人好可爱啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534014",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "无论藏在哪里，我都能找到主人的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27534015",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "毕竟主人比姐姐「高大」很多很多呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27534",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27534001,
+            27534002,
+            27534003,
+            27534004,
+            27534005,
+            27534006,
+            27534007,
+            27534008,
+            27534009,
+            27534010,
+            27534011,
+            27534012,
+            27534013,
+            27534014,
+            27534015
+          ],
+          "sectionId": 27534
+        }
+      ],
+      "title": "捉迷藏"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213001",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "捉迷藏",
+  "wordCount": 222
+}

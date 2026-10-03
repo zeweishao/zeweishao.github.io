@@ -1,0 +1,49 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1140",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1140001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人~！又有新的玩法开启了唷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1140002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这次，是在雨夜中的对战呢！一起来看看吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1140",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1140001,
+            1140002
+          ],
+          "sectionId": 1140
+        }
+      ],
+      "title": "原文片段 1140"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1140
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1140",
+  "wordCount": 38
+}

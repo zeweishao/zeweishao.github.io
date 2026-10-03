@@ -1,0 +1,149 @@
+{
+  "bookId": "hero-215103",
+  "id": "bond-28569",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28569001",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "欢迎回来。我一直在等你哦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28569003",
+              "text": "有什么事吗？"
+            }
+          ],
+          "sourceId": "28569002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28569003",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "红豆面包……最近我一直在思考着一个问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569004",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "可是直到现在，还没能得到一个理想的答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569005",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "所以，可以请你帮帮我吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28569007",
+              "text": "当然，我很乐意。"
+            }
+          ],
+          "sourceId": "28569006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28569007",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我知道，现在的我是作为「手办」而存在着的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569008",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "可是……我的梦想从过去到现在，从来都没有改变。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569009",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我渴望演出戏剧……渴望建立演剧部。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无论什么时候，拥有梦想都是一件了不起的事哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我和家里的手办们，绝对会站在你这边，一直支持你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569012",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "大家能够支持我，真是太好了。一定是团子大家族的力量！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28569013",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "一起建立属于手办们的演剧部吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28569",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28569001,
+            28569002,
+            28569003,
+            28569004,
+            28569005,
+            28569006,
+            28569007,
+            28569008,
+            28569009,
+            28569010,
+            28569011,
+            28569012,
+            28569013
+          ],
+          "sectionId": 28569
+        }
+      ],
+      "title": "梦想演剧部"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "梦想演剧部",
+  "wordCount": 228
+}

@@ -1,0 +1,107 @@
+{
+  "bookId": "hero-212106",
+  "id": "bond-30650",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "30650001",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "好多姐姐大人的照片！这里是天堂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我就知道你会喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "嗯？你在打什么歪主意？先说好，我可是不会对姐姐大人二心的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "还是说，你也对姐姐大人？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是因为你一直闷闷不乐的样子，所以想让你开心一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650006",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "没想到你这么在意我……不过不管怎么样，我也不会对姐姐大人以外的家伙感兴趣哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯嗯，这样就好，这样才是我认识的黑子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650008",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "这样就好？不得不说，你还真是一个奇怪的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30650009",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "不过，倒也不怎么令人讨厌就是了……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "30650",
+      "sourceRefs": [
+        {
+          "bundle": "paojie-p3",
+          "rowIds": [
+            30650001,
+            30650002,
+            30650003,
+            30650004,
+            30650005,
+            30650006,
+            30650007,
+            30650008,
+            30650009
+          ],
+          "sectionId": 30650
+        }
+      ],
+      "title": "这样就好"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212106",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "这样就好",
+  "wordCount": 188
+}

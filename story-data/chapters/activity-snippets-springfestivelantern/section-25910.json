@@ -1,0 +1,117 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25910",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25910001",
+          "sourceType": 10,
+          "text": "超新星号，发射！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25910002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这盏灯好特别呢，仅仅使用了简单的颜色，便烘托出了一种特别的美感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这种手法非常少见，花迦还从没在哪本书上看到过这种制作花灯的手法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "是我家乡早已失传的工艺，我凭借儿时模糊的记忆做成的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910005",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我的做工十分粗糙，远没有幼时见过的那些花灯那般精巧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "看来这盏花灯勾起了孙大小姐的乡愁呢，真让人在意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910007",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "那天也是这样挂满花灯的日子，我私自溜出孙家的宅子，到街市上游玩——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "整条街挂满了各式各样的花灯，不同的颜色、不同的样式，仿佛把黑夜都点亮了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "难得孙大小姐有兴致讲述这些往事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25910010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然优纪没有在现场，可是听了你的描述，也能想象得到挂满花灯的热闹街市呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25910",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25910001,
+            25910002,
+            25910003,
+            25910004,
+            25910005,
+            25910006,
+            25910007,
+            25910008,
+            25910009,
+            25910010
+          ],
+          "sectionId": 25910
+        }
+      ],
+      "title": "超新星号，发射！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25910,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "54",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "在艾伦兹的启发下，大家开始着手制作与星空探索有关的主题花灯，这盏灯即为该系列作品之一，灵感来自动物与航天的元素融合。",
+  "title": "超新星号，发射！",
+  "wordCount": 269
+}

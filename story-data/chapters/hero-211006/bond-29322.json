@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-211006",
+  "id": "bond-29322",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29322001",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "不好了不好了，你这里可否借我躲一阵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322002",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "我遇到大麻烦了，可对方我实在是惹不起，只好找个地方躲起来，你不会介意吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然不会，不过我很好奇你在哪里惹的麻烦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322004",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "别提了，还不是我日行一善的时候，曾经帮过一个叫作「早川大婶」的流浪手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322005",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "本想着只是一面之缘，从此以后不会再有联系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322006",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "谁知道这个「早川大婶」竟然盯上了我，三天两头地找到我，不由分说地拥上来，甚至、甚至还……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么脸红了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322008",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "还不都是因为「早川大婶」老是胡乱揉我的耳朵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322009",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "她那个神态和表情，就好像我是一只小柴犬似的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29322011",
+              "text": "难道不是吗？"
+            },
+            {
+              "targetId": "29322011",
+              "text": "她没有恶意。"
+            }
+          ],
+          "sourceId": "29322010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29322011",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "我知道她没恶意啦。所以每次都不好拒绝，可是我毕竟是一个英姿勃发的少年武士，老是这样被人揉耳朵成什么样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说实话，我也很想揉揉看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322013",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "你你你说什么！？……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322014",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "如果你坚持的话，我可以勉强给你一次机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29322015",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "仅有这一次的机会哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29322",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29322001,
+            29322002,
+            29322003,
+            29322004,
+            29322005,
+            29322006,
+            29322007,
+            29322008,
+            29322009,
+            29322010,
+            29322011,
+            29322012,
+            29322013,
+            29322014,
+            29322015
+          ],
+          "sectionId": 29322
+        }
+      ],
+      "title": "幸村的烦恼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211006",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "幸村的烦恼",
+  "wordCount": 343
+}

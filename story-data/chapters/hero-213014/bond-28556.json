@@ -1,0 +1,157 @@
+{
+  "bookId": "hero-213014",
+  "id": "bond-28556",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28556001",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "原来如此，这就是你打算支付的「筹码」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556002",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "像是从童话里蹦出来的豪华居所，还有……一间实验室。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28556004",
+              "text": "你喜欢吗？"
+            },
+            {
+              "targetId": "28556004",
+              "text": "你不喜欢吗？"
+            }
+          ],
+          "sourceId": "28556003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28556004",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "就装修的品味而言还算不赖，我可以接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556005",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "所以……你对我有什么样的期待？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28556007",
+              "text": "我并不要求回报。"
+            },
+            {
+              "targetId": "28556007",
+              "text": "……"
+            }
+          ],
+          "sourceId": "28556006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28556007",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你想要的，是更加昂贵的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556008",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "说起来，许多童话故事，都以王子和公主的幸福生活收尾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556009",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "可是，这样的幸福真的会一直存在吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556010",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "即使是刻骨铭心的爱，或许也不能长久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "尤兰达……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556012",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "但是，如果是你的话，我愿意相信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28556013",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "所谓的永恒，或许就存在于你我的眼前。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28556",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28556001,
+            28556002,
+            28556003,
+            28556004,
+            28556005,
+            28556006,
+            28556007,
+            28556008,
+            28556009,
+            28556010,
+            28556011,
+            28556012,
+            28556013
+          ],
+          "sectionId": 28556
+        }
+      ],
+      "title": "名为永恒"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "名为永恒",
+  "wordCount": 214
+}

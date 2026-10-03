@@ -1,0 +1,133 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35008",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35008001",
+          "sourceType": 10,
+          "text": "步步生莲",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35008002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大功告成，大家快来欣赏我的杰作呀~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008003",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "很漂亮，优纪很有天分呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎嘿，大家都来猜猜看，莲花代表着什么含义呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "米菲亚先来！唔，莲花粉粉嫩嫩的，一定很好吃！所以代表着好的胃口喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "莲花虽然很漂亮，可是不能用来直接食用喔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不如再猜猜看，猜对的话，优纪就给她一个大大的拥抱~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "花象征旺盛的生命力，我一直不喜欢那些花里胡哨的玩意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，塞西尔已经有一些接近啦，还有其他的答案吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我讨厌绕弯子，你还是直接公布答案吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，莲花象征清洁和吉祥，「兔儿爷」坐在莲花上，代表着步步生莲哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35008012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么美好的寓意，送给主人再合适不过啦，大家说是不是呀~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35008",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35008001,
+            35008002,
+            35008003,
+            35008004,
+            35008005,
+            35008006,
+            35008007,
+            35008008,
+            35008009,
+            35008010,
+            35008011,
+            35008012
+          ],
+          "sectionId": 35008
+        }
+      ],
+      "title": "步步生莲"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35008,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "71",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「兔儿爷」坐在莲花上，一种吉祥如意的象征。",
+  "title": "步步生莲",
+  "wordCount": 262
+}

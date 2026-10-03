@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211012",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「嘎吱——」藏品被移动的声响打破冷寂。\n\n「魂去形在，心愿未毕。」褪色的符纸被瓷白指尖轻轻拨开。\n\n白发少女露出笑容，「咯咯，将长眠者唤醒，代价可是很重的。」\n\n「什……什么代价？」\n\n「惊魂博物馆单人票，限时折扣，这里支付！」这下，来者终于注意到少女用红线拴在身前的自制门票。\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "幽影遗念Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211012",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "奇萝·幽影遗念Ver.",
+  "title": "幽影遗念Ver.",
+  "wordCount": 151
+}

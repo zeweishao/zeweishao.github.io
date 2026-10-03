@@ -1,0 +1,186 @@
+{
+  "bookId": "hero-215203",
+  "id": "bond-28586",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28586001",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这大理石的殿顶，白色的石柱，翠绿的植被……真有意思，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586002",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "你居然给我准备了一座神殿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "是希塔给你的建议吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，是我自己选的，你应该适合这种风格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "……这让我想起了久远的过去，那些已然褪色的时光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们会一起迈向未来的，阿斯特莱雅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586008",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我理想中的未来，或许与你的想象有决定性的不同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我会努力让我们步调一致的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586010",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "呵……呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586011",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "接下来的话我只想让你一个人听见。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28586013",
+              "text": "（把阿斯特莱雅放在肩膀上。）"
+            }
+          ],
+          "sourceId": "28586012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28586013",
+          "sourceType": 3,
+          "text": "女人温柔的嗓音在你耳边响起，甜蜜而危险，你不禁闭上眼。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28586014",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "「你」在向一位神祇寻求承诺，自然也该准备好相应的祭品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586015",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "在不久的未来，我将在这个世界引发一场风暴，只为让文明的族群走出童年的摇篮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586016",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我亲爱的人类，帮助我——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28586017",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "或者阻止我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28586",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28586001,
+            28586002,
+            28586003,
+            28586004,
+            28586005,
+            28586006,
+            28586007,
+            28586008,
+            28586009,
+            28586010,
+            28586011,
+            28586012,
+            28586013,
+            28586014,
+            28586015,
+            28586016,
+            28586017
+          ],
+          "sectionId": 28586
+        }
+      ],
+      "title": "未来契约"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "未来契约",
+  "wordCount": 302
+}

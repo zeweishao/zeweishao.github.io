@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211204",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "海滩边，近来声名鹊起的物资商人——螃蟹小姐看着面前的劫掠者。\n\n「要买点什么？」\n「买？把物资都交出来，否则——」\n\n劫掠者们拿出武器，却眼前一黑，掉入地穴陷阱之中。\n\n「嘻嘻~是你们先动手的哦。」\n萝贝卡捡起劫掠者的行李，清点着今天的收获。\n\n「好耶，又是免费进货，该去找下一位客人了。几位，谢谢惠顾~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·蟹蟹惠顾Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211204",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "萝贝卡·闪亮·蟹蟹惠顾Ver.",
+  "title": "闪亮·蟹蟹惠顾Ver.",
+  "wordCount": 143
+}

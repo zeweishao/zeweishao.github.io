@@ -1,0 +1,224 @@
+{
+  "bookId": "activity-extra-3rd_qiandao",
+  "id": "source-40303",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40303001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "主人接通终端系统——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303002",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "艾伦兹的脸浮现在显示器上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303003",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你在哪里？怎么这么久才接电话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303004",
+          "sourceType": 13,
+          "speaker": "玩家",
+          "text": "发生什么事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303005",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "今天这样特殊的日子，你该不会忘了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303006",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "还是说，你已经和其他人开始庆祝了……却没有通知吾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303007",
+          "sourceType": 13,
+          "speaker": "优纪",
+          "text": "不是你想的那样，艾伦兹，庆祝什么的完全没有这回事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303008",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "那你们还待在外面做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303009",
+          "sourceType": 13,
+          "speaker": "玩家",
+          "text": "我们原本打算换个地方庆祝，不过，艾伦兹看起来已经准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303010",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "咳，既然这样的话，不妨到柯斯顿来，吾将在此恭候诸位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303011",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "整个科斯顿城装饰一新，处处彰显着浓厚的节日氛围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哦，艾伦兹果然是大手笔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "音乐会和舞蹈表演，果然和纪念日的氛围更相称。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "难得的视觉盛宴，这将会是一个难忘的夜晚。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40303016",
+              "text": "果然是艾伦兹的手笔。"
+            },
+            {
+              "targetId": "40303016",
+              "text": "从未怀疑艾伦兹的惊喜。"
+            }
+          ],
+          "sourceId": "40303015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40303016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你、你不要误会，吾并不是只做给你一个人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，艾伦兹脸红了~想不到龙王大人也有这么少女的一面~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303018",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "突然，一枚亮晶晶的物体落入|101||103|的掌心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40303019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是什么……一枚贝壳？\n唔，头怎么晕乎乎的……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "40303",
+      "sourceRefs": [
+        {
+          "bundle": "3rd_qiandao",
+          "rowIds": [
+            40303001,
+            40303002,
+            40303003,
+            40303004,
+            40303005,
+            40303006,
+            40303007,
+            40303008,
+            40303009,
+            40303010,
+            40303011,
+            40303012,
+            40303013,
+            40303014,
+            40303015,
+            40303016,
+            40303017,
+            40303018,
+            40303019
+          ],
+          "sectionId": 40303
+        }
+      ],
+      "title": "活动片段 40303"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10030",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10030",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 40303,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 40303",
+  "wordCount": 377
+}

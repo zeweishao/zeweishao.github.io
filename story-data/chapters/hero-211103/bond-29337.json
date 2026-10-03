@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-211103",
+  "id": "bond-29337",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29337001",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "岛主，我回来了哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，怎么带了一大堆花回来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "呵呵，说来话长，今天早上我出门的时候遇到了一只「黑猫先生」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337005",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "然后……「黑猫先生」朝我扑了过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337007",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "原来「黑猫先生」的目标是我身后的蝴蝶，身上还飘下来一张写着地址的订货单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337008",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "我按着地址找了过去……居然来到了一家花店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喔，这些花是这么来的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337010",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嗯嗯，是长着狐狸耳朵的店长答谢我的哦，之前他还有点苦恼订货单丢了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "似乎知道是哪家花店了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337012",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "他还给了我一张抽奖券，说是最好和岛主一起刮开来看看呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，我试试……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一等奖……一年份的每日鲜花配送服务！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337015",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "欸——太好了呢，岛主！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29337016",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嘿嘿，这下子每天都能够赏花了呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29337",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29337001,
+            29337002,
+            29337003,
+            29337004,
+            29337005,
+            29337006,
+            29337007,
+            29337008,
+            29337009,
+            29337010,
+            29337011,
+            29337012,
+            29337013,
+            29337014,
+            29337015,
+            29337016
+          ],
+          "sectionId": 29337
+        }
+      ],
+      "title": "幸运天使"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211103",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "幸运天使",
+  "wordCount": 269
+}

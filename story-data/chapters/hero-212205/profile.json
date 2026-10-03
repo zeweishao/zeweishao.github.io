@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212205",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名设计师品牌『第九夜』的经典之作，完美还原了手偶师「徕卡」和他最好的搭档「布鲁特」的表演现场。伴随着悠扬的约德尔小调，在奥莱特城欣赏知名手偶表演艺术家徕卡和布鲁特的精彩演出吧！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212205"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

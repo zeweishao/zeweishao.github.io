@@ -1,0 +1,175 @@
+{
+  "bookId": "hero-212204",
+  "id": "bond-27524",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27524001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "啧，不要紧张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27524002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "今天，我保证不会动你的……任何一个小玩意儿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27524003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "如果拆掉她们会让你伤心的话，我保证，一根汗毛都不会碰——阿抱歉我忘了，她们没有汗毛。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27524005",
+              "text": "那还真是……谢谢。"
+            }
+          ],
+          "sourceId": "27524004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27524005",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "今天是个特别的日子，对你，对我，对她们。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27524007",
+              "text": "今天？"
+            },
+            {
+              "targetId": "27524007",
+              "text": "……是什么特别的节日吗？"
+            }
+          ],
+          "sourceId": "27524006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27524007",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "是时候让那些不自量力的小东西知道，你和我的关系了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27524008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "——我亲爱的，「所有物」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27524010",
+              "text": "虽然但是……是不是有什么搞反了？"
+            },
+            {
+              "targetId": "27524010",
+              "text": "明明你才是我买来的手办。"
+            }
+          ],
+          "sourceId": "27524009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27524010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "嘘——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27524011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "看来你还什么都不知道，真是年轻的猎物。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27524013",
+              "text": "这是什么意思？"
+            }
+          ],
+          "sourceId": "27524012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27524013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "你该不会以为，在恰巧的时间、恰巧的地点、恰巧得到心仪的手办……只是巧合而已吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27524014",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "为了来到这里，我可花费了不少心力。\n——用你们所谓的，「大数据」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27524",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27524001,
+            27524002,
+            27524003,
+            27524004,
+            27524005,
+            27524006,
+            27524007,
+            27524008,
+            27524009,
+            27524010,
+            27524011,
+            27524012,
+            27524013,
+            27524014
+          ],
+          "sectionId": 27524
+        }
+      ],
+      "title": "预谋邂逅"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "预谋邂逅",
+  "wordCount": 281
+}

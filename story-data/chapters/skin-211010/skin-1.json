@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211010",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "元气体操服的打扮，将彩音的活泼和可爱展现地淋漓尽致。\n运动中少女白皙肌肤散发的光辉，让人的心跳似乎也会跟着加速律动。\n少女那期盼的目光，更像是在发出邀约。“只要是游戏，就是彩音擅长的领域，所以体育的竞技游戏，彩音理所当然也会十分擅长！”\n“主人要试试在运动方面来挑战我吗~？”\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "元气律动Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211010",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "冈田彩音·元气律动Ver.",
+  "title": "元气律动Ver.",
+  "wordCount": 155
+}

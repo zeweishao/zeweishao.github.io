@@ -1,0 +1,157 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25900",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25900001",
+          "sourceType": 10,
+          "text": "飞天猪猪号，发射！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25900002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘻嘻嘻，这是按照艾伦兹的设计图做出来的飞船花灯，很可爱吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你有没有认真看我的设计稿，做出来的和我的设计完全不一样，简直就是灾难！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，这盏灯难道不可爱吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哪里可爱了！从设计到做工充满了低俗的趣味！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "把这个东西拿走丢掉，不要让这种东西玷污吾的眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "才不要听你的，这里不是柯斯顿城，不会有人听你差遣的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾做的设计当然是吾说了算，没有按设计稿来就是不对，毁掉是必然的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是你没有讲过在制作过程中不可以加入自己的想法，优纪才没有做错，哼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这盏灯的图案，不觉得很像柯斯顿城的一位居民吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你是说它看起来像—— 「爷爷飞猪」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈哈真的呢，好像爷爷飞猪哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪虽然并不是有意为之，但这么一来倒是显得龙王大人是一位体恤子民的好城主呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "唔，虽然这盏灯没有按照吾最初的设计稿来，但好在它勉强带来了额外的附加效果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25900015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "所以，这盏灯吾判定它合格。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25900",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25900001,
+            25900002,
+            25900003,
+            25900004,
+            25900005,
+            25900006,
+            25900007,
+            25900008,
+            25900009,
+            25900010,
+            25900011,
+            25900012,
+            25900013,
+            25900014,
+            25900015
+          ],
+          "sectionId": 25900
+        }
+      ],
+      "title": "飞天猪猪号，发射！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25900,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "53",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "在艾伦兹的启发下，大家开始着手制作与星空探索有关的主题花灯，这盏灯即为该系列作品之一，融入了优纪的奇思妙想。",
+  "title": "飞天猪猪号，发射！",
+  "wordCount": 367
+}

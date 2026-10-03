@@ -1,0 +1,180 @@
+{
+  "bookId": "activity-extra-sweethome_yure",
+  "id": "source-31501",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31501001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "为什么会是这样的结局，真的好难过……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪怎么一副忧心忡忡的样子，谁惹你生气了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "自从看完那本漫画就一直哭哭啼啼的，真受不了你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "能把开朗的优纪惹哭的漫画可不多呢，我能问问是怎么回事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "主人最近很沉迷一本叫作《甜蜜家园》的漫画，我和优纪发现后忍不住也跟着看了起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是没想到这个故事一旦深入进去就完全停不下来，真是太好看了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我喜欢里面每个出场的角色，不过最喜欢的当然还是「车贤秀」，他真的很勇敢也很坚强呢～！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "为什么好人都没有一个完美的故事结局呢，我真的无法接受……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿哈吼，我只看到了超级精彩的打怪现场，刺激，过瘾，够劲儿！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "其他的内容老实说我都没怎么注意，主人肯定也是一样的！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31501012",
+              "text": "我可没那么说过哦。"
+            }
+          ],
+          "sourceId": "31501011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31501012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这部漫画的故事设计和战斗场面，我都非常喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我就知道主人|101|会这么说，我们一起来聊聊这部漫画，大家说好不好呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31501014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "除去那些无聊的煽情玩意，我可是有很多很多可以说的，走起~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "31501",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome_yure",
+          "rowIds": [
+            31501001,
+            31501002,
+            31501003,
+            31501004,
+            31501005,
+            31501006,
+            31501007,
+            31501008,
+            31501009,
+            31501010,
+            31501011,
+            31501012,
+            31501013,
+            31501014
+          ],
+          "sectionId": 31501
+        }
+      ],
+      "title": "活动片段 31501"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1046",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1046",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 31501,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 31501",
+  "wordCount": 384
+}

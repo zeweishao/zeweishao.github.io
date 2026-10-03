@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-211103",
+  "id": "bond-29338",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29338001",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "好了，岛主，我要睁开眼睛了哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338003",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "哇，好宽敞的屋子……啊，还有浴室！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338004",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "浴室里还有这么大的浴缸……而且已经装满热水了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为你很喜欢泡澡，所以提前把热水准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338006",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "诶嘿嘿，现在就开始泡可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以是可以，那我就——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338008",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "岛主，再在门外陪我聊聊天吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338009",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "啊，没有什么奇怪的意思……只是奶奶也经常和我在泡澡的时候聊天的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……好的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338011",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嘿嘿，那穗香就进去了哦~嘿咻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听到了水溅出来的声音……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338013",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "唔哈——泡澡好舒服……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29338014",
+          "sourceType": 0,
+          "speaker": "穗香",
+          "text": "嗯……之后我们去玩什么好呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29338",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29338001,
+            29338002,
+            29338003,
+            29338004,
+            29338005,
+            29338006,
+            29338007,
+            29338008,
+            29338009,
+            29338010,
+            29338011,
+            29338012,
+            29338013,
+            29338014
+          ],
+          "sectionId": 29338
+        }
+      ],
+      "title": "泡澡时间"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "泡澡时间",
+  "wordCount": 209
+}

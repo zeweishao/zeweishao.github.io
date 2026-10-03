@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213018",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "如何养好一只猫咪？\n——不仅需要在精神上关爱和陪伴它，更要有足够的物质基础。\n\n「混合口味猫条？不要这个牌子的，吃起来像是过期的鱼干！」\n「这个金枪鱼罐头闻起来还挺香的，我要一百个！」\n「清甜奶香猫咪专用香波？这个味道你喜欢的话，那就勉强来一瓶吧。」\n「喂，扫灰的，我走累了！」\n\n很遗憾，因为购物车容量有限，所以本次采购就到这里。\n\n「结账的，你在扫哪里？我可不是商品！」\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "猫咪特卖Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213018",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "米菲亚·猫咪特卖Ver.",
+  "title": "猫咪特卖Ver.",
+  "wordCount": 197
+}

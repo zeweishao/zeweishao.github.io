@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-180",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "180001",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "欢迎来到，日光乐园！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "180002",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "FULI公司旗下「伽拉人气手办再版·决胜场」活动，即将拉开序幕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "180003",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "诸位在等候之余可观赏表演，也可前往位于乐园内的「周边商店」购买手办商品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "180004",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "感谢您的大力支持，史上最具神秘感「决赛评选规则」，将在稍后为您揭晓！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "180",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            180001,
+            180002,
+            180003,
+            180004
+          ],
+          "sectionId": 180
+        }
+      ],
+      "title": "原文片段 180"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 180
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 180",
+  "wordCount": 112
+}

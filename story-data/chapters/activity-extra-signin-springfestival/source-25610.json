@@ -1,0 +1,206 @@
+{
+  "bookId": "activity-extra-signin-springfestival",
+  "id": "source-25610",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25610001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼哈，今年的火锅晚餐也很丰盛呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "去年给主人准备的就是这些，今年还要再来一次吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "除了火锅，我们似乎也不会做别的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "虽然这么说有些失礼，但你们对于美食的想象真的有些贫乏呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "今天这么重要的日子，吃这些东西未免显得太不隆重了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "既然如此，不如老板娘给她们露两手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我好像又听到某个家伙在拆我的台哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你知道的，我虽然是「七星客栈」的老板娘，可从来都是十指不沾阳春水的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "哦？那请问你有什么立场评价别人辛苦准备的晚宴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，我早已安排妥当。\n你们几个，把东西都抬过来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610011",
+          "sourceType": 0,
+          "speaker": "店小二",
+          "text": "来咯来咯，老板娘要的食材都在这里啦，绝对新鲜、绝对正宗~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "那些我几次三番叮嘱你们一定要带的东西呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610013",
+          "sourceType": 0,
+          "speaker": "店小二",
+          "text": "在呢在呢，老板娘的嘱托我们怎么敢忘~\n喏，这就是咱「七星客栈」不外传的烹饪秘籍！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "好极了，大家都开工吧。\n你呢，要不要一起加入，我的老搭档？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610015",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "念在你人手不足，就顺便帮你一把好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哇真是大开眼界，原来烹饪还可以有这么多的花样~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好哇，你们趁我不在，居然在悄悄烹制大餐，我也要加入~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25610018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈主人快来，有主人加入的话，今年的晚宴一定会既好吃又好玩的~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25610",
+      "sourceRefs": [
+        {
+          "bundle": "signin-springfestival",
+          "rowIds": [
+            25610001,
+            25610002,
+            25610003,
+            25610004,
+            25610005,
+            25610006,
+            25610007,
+            25610008,
+            25610009,
+            25610010,
+            25610011,
+            25610012,
+            25610013,
+            25610014,
+            25610015,
+            25610016,
+            25610017,
+            25610018
+          ],
+          "sectionId": 25610
+        }
+      ],
+      "title": "活动片段 25610"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "194",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          },
+          {
+            "path": [
+              "1521",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "194",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 25610,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25610",
+  "wordCount": 444
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211011",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "蒂娅有许多称谓，「D-eva」「先驱者」「红与黑的殉道」「背负使命的异乡之人」……她的一生都在战斗与寻找。伴随着玩家的强烈呼声，这位《异界幻想》DLC角色终于重磅出荷，化身1/7比例模型正式登场！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211011"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 98
+}

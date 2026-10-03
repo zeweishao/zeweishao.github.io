@@ -1,0 +1,85 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17331",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17331001",
+          "sourceType": 10,
+          "text": "希望这道菜能给主人带来好运~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17331002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "牛年将至，这道菜牛运亨通，就算对主人今年最好的祝愿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17331003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "满满一罐的牛肉，全部炖的软烂可口了哦，快快把这饱满的汤汁浇在米饭上，然后大口吞下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17331004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嘿嘿~主人赶紧期待起来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17331005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这还真是完全被炖烂了啊，不过这样的牛肉口感，还真是奇妙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17331006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也不是完全的化开，保留了最后一丝丝劲道的口感。呼呼……再来一碗饭！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17331",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17331001,
+            17331002,
+            17331003,
+            17331004,
+            17331005,
+            17331006
+          ],
+          "sectionId": 17331
+        }
+      ],
+      "title": "鸿运亨通"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17331,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "18",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "希望这道菜能给主人带来好运~",
+  "title": "鸿运亨通",
+  "wordCount": 156
+}

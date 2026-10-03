@@ -1,0 +1,127 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35005",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35005001",
+          "sourceType": 10,
+          "text": "塞西尔的决心",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35005002",
+          "sourceType": 2,
+          "speaker": "塞西尔",
+          "text": "没有战斗的生活，一切都是乏味的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005003",
+          "sourceType": 2,
+          "speaker": "塞西尔",
+          "text": "或许是我过太纵容，竟让这里的生活绊住了……啧，继续下去，电锯就要生锈了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "塞西尔，别在那里发呆了，快来帮忙~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "喂，做家务这种琐事，劝你还是趁早找别人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "才不是什么琐事，没有什么比这个更有趣更重要的了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "哦？该不会是想要我展示一下自己的收藏，比如那些可爱的小盒子们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005008",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "不，别误会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "只是想请你用灵巧的双手，加入我们一起制作「兔儿爷」泥塑哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "泥土是生命的起点也是终点，啊哈，用泥土做出的泥塑，有点意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35005011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "除了战场，只有艺术能抚慰我，那么我就不客气了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35005",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35005001,
+            35005002,
+            35005003,
+            35005004,
+            35005005,
+            35005006,
+            35005007,
+            35005008,
+            35005009,
+            35005010,
+            35005011
+          ],
+          "sectionId": 35005
+        }
+      ],
+      "title": "塞西尔的决心"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35005,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "68",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "离开战场后，塞西尔敏锐地觉察到了自己的变化……但一切似乎没那么难以忍受。",
+  "title": "塞西尔的决心",
+  "wordCount": 238
+}

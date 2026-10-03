@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213004",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「砰！砰！砰！」\n弗吉尼娅的每支箭矢都会射穿一个气球，转眼间，奖品已经堆积如山。\n\n「还不够。」她轻声道。\n\n「美女，小本经营不易啊！」摊主苦着脸，难道自己动的手脚被发现了？\n\n「可以了吧？」弗吉尼娅将玩偶随手发给围着自己的孩子们，兴奋的孩子们并未就此散去，反而一路跟着她。\n\n「……所以说，我最讨厌小鬼了。」弗吉尼娅叹了口气。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "射箭冠军Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213004",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "弗吉尼娅·射箭冠军Ver.",
+  "title": "射箭冠军Ver.",
+  "wordCount": 155
+}

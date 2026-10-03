@@ -1,0 +1,94 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37408",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37408001",
+          "sourceType": 5,
+          "speaker": "野猫小黄",
+          "text": "喵呜——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37408002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它应该不会再回来了。谢谢你，优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37408003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "仗着块头大就欺负我们，真是讨厌的坏猫！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37408004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不对，事情没有那么简单。窗户平常是关上的，野猫一般也不会来这里......而且，我身上不知什么时候粘了猫薄荷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37408005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难道说，和江被叼走不是偶然？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37408006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "很有可能。等我们做好准备，去野猫的领地调查一下吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37408",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37408001,
+            37408002,
+            37408003,
+            37408004,
+            37408005,
+            37408006
+          ],
+          "sectionId": 37408
+        }
+      ],
+      "title": "爬塔关卡 3 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "3",
+              "result_avg_id"
+            ],
+            "table": "ResClimbTower.lua"
+          }
+        ],
+        "path": [
+          "3",
+          "result_avg_id"
+        ],
+        "sectionId": 37408,
+        "table": "ResClimbTower"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "爬塔关卡 3 · 结算",
+  "wordCount": 137
+}

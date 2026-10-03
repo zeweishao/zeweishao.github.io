@@ -1,0 +1,364 @@
+{
+  "bookId": "rewind-1",
+  "id": "chapter-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "100001",
+          "sourceType": 9,
+          "text": "梦……又是梦吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100002",
+          "sourceType": 9,
+          "text": "梦中人：……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100003",
+          "sourceType": 9,
+          "text": "梦中人：你就是我们要找的人类？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100004",
+          "sourceType": 9,
+          "text": "你是谁?",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100005",
+          "sourceType": 9,
+          "text": "梦中人：我是阿……阿撒兹勒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100006",
+          "sourceType": 9,
+          "text": "你是在说话吗？我听不清。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100007",
+          "sourceType": 9,
+          "text": "阿撒兹勒：想起来，想起在哪里。记住了——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100008",
+          "sourceType": 9,
+          "text": "阿撒兹勒：很快，我会找到你，夺走秩序钥匙的人类。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "100009",
+          "sourceType": 10,
+          "text": "梦的起点",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "120001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，赖床的人是小猪哦~嗷呜嗷呜嗷呜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "120002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然如此，主人，优纪就不客气了。\n小梅酱左边交给你。准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "120003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊哈——哈哈哈！！！好痒、好痒、好痒！！！！\n好好好，我起床、我起床。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "120005",
+              "text": "早上好！"
+            }
+          ],
+          "sourceId": "120004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "120005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人早安。嗯，虽然头发乱糟糟的主人也很不错……放心交给优纪吧，优纪会帮主人好好打理一下！来，把手从这个袖口穿过去——好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "120006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "早安早安，你终于起床了吗，贪睡鬼~\n牙刷牙膏我们也已经准备好了，主人我们麻利点~然后还能赶上早餐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "120007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "芜湖，主人今天穿得真好看，优纪都心动了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "120008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "普普通通，大概90分左右吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小梅酱的表情可没有说服力哦~——啊哈哈哈，不知道为什么突然身体就站不稳了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "121003",
+              "text": "我看看。"
+            }
+          ],
+          "sourceId": "121002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "121003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对不起！优纪以后一定会很小心，不出门，不晒太阳，不打棒球，不动不说话！\n请主人一定要原谅优纪！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "121005",
+              "text": "真的不说话？"
+            }
+          ],
+          "sourceId": "121004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "121005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……\n优纪只有一个、就一个！小小的请求。请至少让我和主人说话，不然优纪……优纪……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "121007",
+              "text": "别哭别哭，开玩笑的"
+            }
+          ],
+          "sourceId": "121006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "121007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的吗？（抽泣）我还可以和主人聊天吗？那出门……还有~主人能帮我再上一次涂装吗？~冰冰凉凉的，还是草莓味的，涂装可舒服了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "喂！要求过分了过分了！主人，千万别信优纪，你看她连滴眼泪都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是本来就是手办~是没有眼泪的~小梅酱你在嫉妒优纪~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "121010",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "121011",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "还是觉得很神奇，虽然也曾幻想过某一天自己的手办会说话，\n但当真的能听到手办说话，也能和她们交流的时候……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121012",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "真的感觉在做梦呢。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人又做了奇怪的梦？这次梦到什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "记不起来了，不过……似乎是很熟悉的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121015",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "怎么感觉你最近做梦的频率越来越多了，会不会影响睡眠质量？\n以后不要天天看漫画书，整天胡想乱想当然会做梦，哼~！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "121017",
+              "text": "对了，和江呢？"
+            }
+          ],
+          "sourceId": "121016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "121017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大猫在一楼享受金枪鱼罐头~和江也被大猫带到楼下了。\n哎，这么一想，突然有点担心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121018",
+          "sourceType": 0,
+          "speaker": "家人",
+          "text": "车来了，我们出发去旅游啦。为了以防你又趁我们不在时买一堆手办回家，这次生活卡限额！但是如果你把天台打扫干净，我可以酌情提高生活费。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "121019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "快，我们赶紧下去。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            100001,
+            100002,
+            100003,
+            100004,
+            100005,
+            100006,
+            100007,
+            100008,
+            100009
+          ],
+          "sectionId": 100
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            120001,
+            120002,
+            120003,
+            120004,
+            120005,
+            120006,
+            120007,
+            120008
+          ],
+          "sectionId": 120
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            121001,
+            121002,
+            121003,
+            121004,
+            121005,
+            121006,
+            121007,
+            121008,
+            121009,
+            121010,
+            121011,
+            121012,
+            121013,
+            121014,
+            121015,
+            121016,
+            121017,
+            121018,
+            121019
+          ],
+          "sectionId": 121
+        }
+      ],
+      "title": "#1 梦的起点"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 1,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 1,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "33",
+        "table": "ResTalkSectionIntro"
+      },
+      {
+        "id": "1",
+        "table": "ResTalkSpecialOpt"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "梦的起点",
+  "title": "序章",
+  "wordCount": 869
+}

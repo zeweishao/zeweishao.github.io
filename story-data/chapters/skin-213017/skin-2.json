@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213017",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "满月当空，桂子飘香。\n\n「今晚月色真美，谁能与我共赏？」\n\n「小女蔡琰，愿与主君携手同赏。」\n\n月光下，怀抱雪白月兔的华服丽人笑意盈盈。\n\n「这一刻，我已经盼望了很久。」\n「主君请听，我为您谱写的这支新谱。」\n\n悠长的胡笳声回荡在如水的月光里，将山川大地都染上了一层梦幻。\n\n「今夜，花与月不眠，恰如主君和我。」\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "月中来客Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213017",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蔡文姬·月中来客Ver.",
+  "title": "月中来客Ver.",
+  "wordCount": 163
+}

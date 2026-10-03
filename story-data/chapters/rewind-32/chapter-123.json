@@ -1,0 +1,1052 @@
+{
+  "bookId": "rewind-32",
+  "id": "chapter-123",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31000001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "大家好~喵爪乐队纳新！\n我是贝斯手克莱儿~同时也是乐队的队长呦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31000002",
+          "sourceType": 7,
+          "text": "克莱儿 · 甜蜜电音\n商品名称：克莱儿·甜蜜电音Ver.\n作品出处：《蘑菇少女的日常》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约242mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "31000003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我身边的两位分别是乐队DJ——梅根~\n以及……嗯？卡缪，你离那么远干什么？来和大家打声招呼吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31000004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "真吵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31000005",
+          "sourceType": 0,
+          "speaker": "狂热粉",
+          "text": "天啊！那不是最近刚在森林音乐节亮相的梅根和卡缪吗！！！\n真的是他们！哇——他们看到我了！人生无憾了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31000006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "在音乐节被克莱儿拉进乐队的时候，就已经无法回头了。\n坚强点，逃避是没有用的——面对观众吧，卡缪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "欢迎关注喵爪乐队~这是我们的海报！\n加入我们，就可以和你最喜欢的音乐人朝~夕~相~处~了哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001002",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "拿开手，我命令你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001003",
+          "sourceType": 0,
+          "speaker": "狂热粉",
+          "text": "我我我我——我抢到海报了呜呜呜！\n卡缪卡缪！可以给我签个名吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "他们怎么敢直视太阳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "卡缪是第一次街头演出？放轻松啦~\n当音乐响起的时候，即使是陌生人，也会在一瞬间消除隔阂，成为朋友！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "卡缪你可以往后站一些……卡缪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "我还有事，先走一步！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31001008",
+          "sourceType": 0,
+          "speaker": "狂热粉",
+          "text": "卡缪！等等我！哎呦别挤我……卡缪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "呼……原来卡缪他真的会飞啊。\n不过，大多数观众都去追卡缪的话，我们接下来……嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002002",
+          "sourceType": 5,
+          "speaker": "克莱儿",
+          "text": "等、等一下！你……你是「梦幻之音·真恋」！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "太棒了！喵爪乐队正缺少像你这样的键盘手~这是我们的海报，请你一定要考虑一下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "喵爪乐队吗？好像……很可爱的样子。\n谢谢你喜欢我的音乐~但我有一点担心……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "如果……如果在乐队演出时出错的话，就不能很好地用音乐和大家交流了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "不用担心~我相信只要大家相互配合，就可以演奏出最动听的音乐！\n真恋，难道你不想试一下这种美妙的感觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "尝试一下新的演出方式吗？唔……有点心动呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "哇呜~太好了！我这就带你去见乐队经纪人~快来~排练房就在附近！\n梅根，这里就先拜托你了，我很快就回来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31002009",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "噗……毫不意外的结局。\n毕竟克莱儿是能把卡缪拉进乐队的人啊……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-662",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31000001,
+            31000002,
+            31000003,
+            31000004,
+            31000005,
+            31000006
+          ],
+          "sectionId": 31000
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31001001,
+            31001002,
+            31001003,
+            31001004,
+            31001005,
+            31001006,
+            31001007,
+            31001008
+          ],
+          "sectionId": 31001
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31002001,
+            31002002,
+            31002003,
+            31002004,
+            31002005,
+            31002006,
+            31002007,
+            31002008,
+            31002009
+          ],
+          "sectionId": 31002
+        }
+      ],
+      "title": "贝斯失窃·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31003001",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这里是……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "当当当当~这就是喵爪乐队的排练房！\n超大的自由空间，无拘无束的音乐天地！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "好棒！我喜欢这里~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "请由我向你隆重介绍一下，这位是手办界顶级音乐鉴赏人、喵爪乐队经纪人——\n唱片机·斯利普先生！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003005",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "ZZZZZZZZZZ……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "啊哈哈……斯利普肯定是昨晚又失眠了……\n斯利普，斯利普，快醒醒！快来迎新啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003007",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "呼噜……呼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "喂！不要再睡啦！\n唉，没办法了，让我来一段贝斯solo叫醒他吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31003009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……呃？我的贝斯呢？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "斯利普，快醒醒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004002",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "什……哎呦——发生什么事了？\n嗯？克莱儿，你怎么现在就回来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你看到我的贝斯了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004004",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "不就在那……呃？怎么会！居然不见了？\n我睡着之前还看到过呢！我想想……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这里还有其他人来过吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004006",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "当然了，有很多人想要加入乐队。喏，报名表都填了这么厚一沓呢。\n你也是来报名——你、你是真恋！你是真恋吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "没错，这就是我们的新成员——键盘手真恋~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004008",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "你居然邀请到了真恋？真有你的，克莱儿！\n这样的话，我们喵爪乐队一定能成为手办音乐界最知名的乐队~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "醒醒，斯利普！贝斯，我的贝斯——\n想想你睡着之前还看到了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004010",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "我快睡着的时候，的确见过一个陌生手办在贝斯前逗留，但……我只记得是个双马尾，呃，双马尾？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004011",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "和我一样的双马尾？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004012",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "不，不一样，那个手办的发型更像是马尾+兔尾。\n一边长，一边短……大概是年轻人的时尚吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31004013",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "听起来像是很特殊的发型呢，那么找起来的话应该会简单很多！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-663",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31003001,
+            31003002,
+            31003003,
+            31003004,
+            31003005,
+            31003006,
+            31003007,
+            31003008,
+            31003009
+          ],
+          "sectionId": 31003
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31004001,
+            31004002,
+            31004003,
+            31004004,
+            31004005,
+            31004006,
+            31004007,
+            31004008,
+            31004009,
+            31004010,
+            31004011,
+            31004012,
+            31004013
+          ],
+          "sectionId": 31004
+        }
+      ],
+      "title": "贝斯失窃·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31005001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔！打扰啦——这里是喵爪乐队的大本营吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你好，我是喵爪乐队的队长，你是……噪音鸡？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不是喔，我是绿子！\n怎么样，我这个伪装是不是很成功？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "绿子为什么要穿成这个样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "最近噪音鸡特别暴躁，叽叽喔喔的吵死人了。\n我就想伪装成噪音鸡，混进去从内部瓦解它们，让它们闭嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "但怎样才能快速和噪音鸡打成一片，而不是真的打成一团……我就不太会了。\n听说喵爪乐队的队长克莱儿很擅长处理这种事情，我就来问你啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "首先，你需要了解它们的行为习惯，然后稍加模仿，让它们觉得你是它们的同类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "比如你在说话的时候，可以多加一些爆音鸡的语气词。\n例如「喔喔」、「叽叽叽」这种。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005009",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "但只有这些是不够的。如果想要影响一个群体，你需要成为它们中最闪亮的那个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你需要吸引它们的注意力，就像交响乐团的指挥家——你手里的这个应援棒就不错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔喔我学会了！谢谢你克莱儿，龙马他说的果然没错！来找你是最正确的选择！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005012",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "龙马？哎？绿子你——？你的脸怎么那么红？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊哈哈……先不说我了，你们是遇到什么麻烦了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005014",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "是这样的，我们正在找一个人，她的双马尾一长一短……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "双马尾，我想想喔……宫本尤娜、水城结奈……她们都是双马尾。\n但貌似没有你说的「一长一短」哎，你们找她是有什么事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005016",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我的贝斯不见了，如果能找到那个手办的话，说不定能问到一些线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你说的贝斯是新出的球鞋牌子吗？听起来很酷的感觉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005018",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "贝斯是一种乐器，它有四根弦，大概长这个样子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔~我知道了！你丢了一把只剩四根弦的大吉他？\n唔……有点难办啊。对了，你还有备用的吗？或者买一把新的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005020",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……不……我一定要找到它。\n它对我来说，非常，非常重要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005021",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "克莱儿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005022",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "在手办世界醒来的时候，我就知道我再也见不到我曾经的队友们了……\n但每当我看到他们在我的贝斯上留下的签名，我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005023",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "安心啦，我现在也是你的队友了！\n我们一定可以找回贝斯的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31005024",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我也来帮忙！嗯！就从混入噪音鸡群开始！\n那么多噪音鸡，说不定就有一只见过她呢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-664",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31005001,
+            31005002,
+            31005003,
+            31005004,
+            31005005,
+            31005006,
+            31005007,
+            31005008,
+            31005009,
+            31005010,
+            31005011,
+            31005012,
+            31005013,
+            31005014,
+            31005015,
+            31005016,
+            31005017,
+            31005018,
+            31005019,
+            31005020,
+            31005021,
+            31005022,
+            31005023,
+            31005024
+          ],
+          "sectionId": 31005
+        }
+      ],
+      "title": "贝斯失窃·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31006001",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "克莱儿，真恋，来做一下乐队登记。\n海伦，把名字签在这里就可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "是的，最近管理局接到了十多起手办失踪的报案。\n失踪者都与音乐有关，目前案件还在调查中，还请你们注意安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "难道说，贝斯失窃……也和这件事有关？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006004",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "贝斯？克莱儿，发生什么事了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "请你们详细说一下事情的经过可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "当然可以！如果有你的帮助真是太好了！\n事情是这样的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "原来如此，或许可以从唱片机先生睡着前看到的手办查起。\n你还记得她长什么样子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006008",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "她是一个看起来脾气不太好的小姑娘，扎着双马尾，但两边的头发不一样长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006009",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "……其他的我就想不起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "果然，管理局已登记手办的名单里没有她的信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我们已经加派人手来调查这件事了。\n如果可以的话，我想请你们帮忙一起寻找这个手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006012",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "如果有任何发现，可以随时找我，或者……你听说过|101|吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你是说，那个能与手办交流的人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31006014",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "是的，|101|也是我们管理局的一员。\n如果你遇到了我们手办无法处理的难题，可以向|102|寻求帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "谢谢你的提醒，我们会帮忙——哎？绿子你回来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔喔！我找到那个双马尾了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "绿子你真厉害！你是怎么做到的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我学会了噪音鸡语，成功混入噪音鸡群，它们见过那个手办!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "真的吗？她现在在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "就在废弃工厂那边！我现在就带你们过去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "那个……绿子，你有兴趣参加管理局的考试吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31007008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我最讨厌考试了，还是算了吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-665",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31006001,
+            31006002,
+            31006003,
+            31006004,
+            31006005,
+            31006006,
+            31006007,
+            31006008,
+            31006009,
+            31006010,
+            31006011,
+            31006012,
+            31006013,
+            31006014
+          ],
+          "sectionId": 31006
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31007001,
+            31007002,
+            31007003,
+            31007004,
+            31007005,
+            31007006,
+            31007007,
+            31007008
+          ],
+          "sectionId": 31007
+        }
+      ],
+      "title": "贝斯失窃·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31008001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我们已经进入噪音鸡的地盘了，大家跟紧我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "这声音……真的好吵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008003",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "嘘……小声一点，有噪音鸡过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "别怕，让我来喔两声——喔喔~~喔喔喔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "好险……幸好躲过去了。\n绿子学得好像啊，如果不是亲眼所见，我还以为真的是噪音鸡在喔喔叫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008006",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "克莱儿！快看那边——你的贝斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008007",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你们就这点能耐吗？\n哼，只会偷偷摸摸的家伙！你们惹恼我了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31008008",
+          "sourceType": 7,
+          "text": "萝贝卡 · 灼热利刃\n商品名称：萝贝卡·灼热利刃Ver.\n作品出处：《少女X机关枪》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约230mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "31009001",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "别！别过来！贝斯我不要了！\n都不要了！这些乐器都给你，放过我们吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009002",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "呜呜呜别打了，我们认输叽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "快点站起来，我还没玩够呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我的贝斯——快住手！把我的贝斯还给我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "今天是怎么回事，总有人来抢劫我——吓！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "你、你是……乐队的那个什么贝斯手？\n完了完了完了……烦死了！一点也不好玩！还给你就是啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "等等！别扔——我的贝斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009008",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "叽叽叫！快接住！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009009",
+          "sourceType": 0,
+          "speaker": "叽叽叫",
+          "text": "叽——噎死我了叽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我的贝斯！被噪音鸡吃掉了？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009011",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "全体噪音鸡注意！拦住这些入侵者！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009012",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "叽叽——！\n走开走开快走开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009013",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "趁现在！叽叽叫！我们走！\n哎呀别跟着我，分头跑啊笨蛋！老地方汇合！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31009014",
+          "sourceType": 0,
+          "speaker": "叽叽叫",
+          "text": "叽叽！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-666",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31008001,
+            31008002,
+            31008003,
+            31008004,
+            31008005,
+            31008006,
+            31008007,
+            31008008
+          ],
+          "sectionId": 31008
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31009001,
+            31009002,
+            31009003,
+            31009004,
+            31009005,
+            31009006,
+            31009007,
+            31009008,
+            31009009,
+            31009010,
+            31009011,
+            31009012,
+            31009013,
+            31009014
+          ],
+          "sectionId": 31009
+        }
+      ],
+      "title": "贝斯失窃·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 123,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 123,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "88",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1009,
+          "rowNpcId": 1015
+        }
+      },
+      {
+        "id": "89",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "喵爪乐队纳新",
+  "title": "贝斯失窃",
+  "wordCount": 3150
+}

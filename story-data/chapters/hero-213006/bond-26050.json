@@ -1,0 +1,174 @@
+{
+  "bookId": "hero-213006",
+  "id": "bond-26050",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26050001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这栋房子是送你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050002",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你似乎并不惊讶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050004",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我早预料到有这一天。\n但没想到，你会准备如此贵重的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050005",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我很高兴，这表明了你的诚意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......诚意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050007",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "这份拜师礼，我收下了。\n我会将武道的精髓尽数传授给你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26050009",
+              "text": "太好了！"
+            },
+            {
+              "targetId": "26050012",
+              "text": "我并不想习武。"
+            }
+          ],
+          "sourceId": "26050008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26050009",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "很好，我相信你的决心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050010",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我会和你一同摸索、领悟——什么是真正属于你的「道」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26050015",
+              "text": "听起来很难做到。"
+            }
+          ],
+          "sourceId": "26050011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26050012",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "无妨。武道精髓不仅在于拳脚功夫，更在于心境。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26050013",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "修心养性，悟到属于自己的「道」，才能获得强大的内心。\n这是实现任何理想的必备素质。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26050015",
+              "text": "听起来很难做到。"
+            }
+          ],
+          "sourceId": "26050014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26050015",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "不必担心，我会陪你一同前行。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26050",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26050001,
+            26050002,
+            26050003,
+            26050004,
+            26050005,
+            26050006,
+            26050007,
+            26050008,
+            26050009,
+            26050010,
+            26050011,
+            26050012,
+            26050013,
+            26050014,
+            26050015
+          ],
+          "sectionId": 26050
+        }
+      ],
+      "title": "领悟"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "领悟",
+  "wordCount": 238
+}

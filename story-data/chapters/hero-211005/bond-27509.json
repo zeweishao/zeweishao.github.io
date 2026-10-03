@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211005",
+  "id": "bond-27509",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27509001",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "再比一次！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？还要来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509003",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "难道以为老子看不出你一直在放水吗？小鬼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509004",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "让我看看和这个世界人类的力量差距吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃，那好吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509006",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "吃我一斧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509007",
+          "sourceType": 5,
+          "speaker": "旁白",
+          "text": "砰！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509008",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喂喂，没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509010",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "……有意思，哈哈，看来这里注定也是一个不会让人无聊的地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509011",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "等一下，小鬼，你要做什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你看起来好像受伤了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509013",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "我不需要这个修复涂料，伤痕是男人的荣耀，这点小伤很快就会自己痊愈的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509014",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "听不懂吗小鬼，快我放下来！竟敢将我当作玩具对待！可恶，我要和你再战三百回合！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27509015",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "别，不要，好了知道了！我涂就是了！让我自己来！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27509",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27509001,
+            27509002,
+            27509003,
+            27509004,
+            27509005,
+            27509006,
+            27509007,
+            27509008,
+            27509009,
+            27509010,
+            27509011,
+            27509012,
+            27509013,
+            27509014,
+            27509015
+          ],
+          "sectionId": 27509
+        }
+      ],
+      "title": "比试"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "比试",
+  "wordCount": 222
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211001",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「没有人注意到本王，伪装成功！」\n\n「旋转木马、摩天轮、碰碰车，本王来啦！」\n\n「棒棒糖、甜甜圈、奶油……还有最爱的糖果杯，今天要吃个爽！」\n\n难得的假日，莉可计划将「有损魔王威仪的禁止事件」通通列上行程单！\n\n「hiahiahia，就这样痛痛快快地玩到游乐园闭馆吧！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "假日糖心Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211001",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "莉可·假日糖心Ver.",
+  "title": "假日糖心Ver.",
+  "wordCount": 127
+}

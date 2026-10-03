@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213016",
+  "id": "bond-27550",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27550001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "咔嚓——嗒嗒、嗒嗒~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "这个节奏，嗯，没错！是「那个人」的脚步声！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "又被你发现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "毕竟你是我最特别的粉丝，我会把你的一切，都记在心里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "嘘——你听！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "奇怪，你心跳的节奏，和平时有些不太一样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "心跳的速度加快了，是因为什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为我想给你一个惊喜——\n一辆移动舞台车，希望你能喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只要开着这辆车，你在M城巡演我就放心了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550011",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "谢谢！呜~我喜欢你心跳的节拍，喜欢它们和我的旋律融合在一起的默契！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550012",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我想——M城巡演的第一站，就定在你的面前！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你想听什么歌？我都可以弹给你听~\n还是……想听我专门为你写的歌？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27550014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "专门为我……好的，我会准备好摄影机，期待你的演出！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27550",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27550001,
+            27550002,
+            27550003,
+            27550004,
+            27550005,
+            27550006,
+            27550007,
+            27550008,
+            27550009,
+            27550010,
+            27550011,
+            27550012,
+            27550013,
+            27550014
+          ],
+          "sectionId": 27550
+        }
+      ],
+      "title": "移动舞台车"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "移动舞台车",
+  "wordCount": 270
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211003",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这款手办生动逼真地还原了原作的世界观，将机甲驾驶员杰斯即将开始战斗时的形象细腻地塑造出来。此次FULI公司推出的「终焉地平线」系列盲盒，杰斯即将闪亮登场。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211003"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 77
+}

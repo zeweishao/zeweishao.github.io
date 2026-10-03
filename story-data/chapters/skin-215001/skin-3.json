@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215001",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "春日午后，阳光明媚，草长莺飞。尤娜姐姐又来找我了。\n\n一路上，我们跨过了小溪，看过了翩飞的蝴蝶，嗅过了细腻的花香。\n\n「哼，时候也不早了，计划成功。本王就把她放了吧！」莉可对姐姐说。\n\n「计划…？这次春游，樱很开心哦~」\n「笨、笨蛋，这才不是春游呢！」\n\n金色的夕阳下，我向莉可挥手告别。\n\n——《樱的春游日记》",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "童心金夕Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215001",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "樱·童心金夕Ver.",
+  "title": "童心金夕Ver.",
+  "wordCount": 145
+}

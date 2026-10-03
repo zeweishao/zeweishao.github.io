@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212206",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「明白了，我会做的。」半人鱼垂下眼眸，「如果这就是宿命的话，就让我欣然接受吧。」\n\n撩起的制服下，显露的是雪白的肌肤，和流线型的……竞速泳衣。\n\n「呵呵呵……我将在浪潮中穿行，或者，在波涛中消散。」\n\n「贝歌小姐在低声说些什么？大家只是来学校的泳池放松一下啊？！」\n\n——本特别款仅可通过「池边闲戏」活动获取 ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "橙夏咏叹调Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212206",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "贝歌·橙夏咏叹调Ver.",
+  "title": "橙夏咏叹调Ver.",
+  "wordCount": 146
+}

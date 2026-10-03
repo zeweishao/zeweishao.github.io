@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213015",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《永恒的异界幻想》，谈判女王「伊迪丝」化身为1/7比例模型登场！这位精致优雅、端庄体面的名流，也将凭借高明强硬的手腕，在手办世界续写「奥古斯都」的传奇吗？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213015"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 79
+}

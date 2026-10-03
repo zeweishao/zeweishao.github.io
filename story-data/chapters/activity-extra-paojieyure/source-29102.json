@@ -1,0 +1,164 @@
+{
+  "bookId": "activity-extra-paojieyure",
+  "id": "source-29102",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29102001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欢迎回到元气少女的特别座谈会，我们这期的主角是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "御坂美琴和白井黑子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "关于她们之间的感情，一直是大家比较关心的问题，等一下，黑子小姐似乎有话要说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "我要澄清一点，我和姐姐大人还没有确定恋人关系——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102005",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "震惊！超炮cp竟只是表面情人！白井黑子曝出惊天内幕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你好像越来越熟练了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102007",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "实际上，这次蜜月旅行就是为了测试我们是否具备情侣的默契程度，当然在我看来这完全是多此一举啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，这次你来想个标题！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？我想不出来……等一下，我们已经变成这种性质的节目了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我听人家说，这样才有热度哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102011",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "够了！早知道是这种无聊的节目我肯定不会来，到此为止吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102012",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "紧急事件！美琴因为情感瓜葛拒绝继续录制节目！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "黑子嘉宾已经追了出去，事态究竟会朝什么方向发展呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29102014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请看下期节目！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29102",
+      "sourceRefs": [
+        {
+          "bundle": "paojieyure",
+          "rowIds": [
+            29102001,
+            29102002,
+            29102003,
+            29102004,
+            29102005,
+            29102006,
+            29102007,
+            29102008,
+            29102009,
+            29102010,
+            29102011,
+            29102012,
+            29102013,
+            29102014
+          ],
+          "sectionId": 29102
+        }
+      ],
+      "title": "活动片段 29102"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1035",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1035",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 29102,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 29102",
+  "wordCount": 316
+}

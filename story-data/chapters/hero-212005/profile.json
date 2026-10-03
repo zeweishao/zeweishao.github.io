@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212005",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气动作游戏《赤炎·境界》，「赵云」以全新的帅气造型化身为1/7比例模型登场！仿佛在庆祝作战胜利的时刻，云的脸上露出明朗自信的笑容，站姿轻松帅气，正义感爆棚。龙纹与祥云图样的披风具有别致质感，完整还原作品中的迷人形态。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212005"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 112
+}

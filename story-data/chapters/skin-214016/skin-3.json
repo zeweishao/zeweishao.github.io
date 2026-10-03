@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214016",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "同人展上，玉夏捧着相机沉浸在自己的幻想世界——\n\n「今日素材大丰收！本命CP什么的，果然应该由自己来组才最对味嘛～」\n\n「啊，我现在超兴奋的～不如晚上躲在宿舍写个通宵好了～！」\n\n「学姐？玉夏学姐？你还好吧？」\n\n玉夏双手一滑，数张清晰的偷拍照片尴尬地落在了彩音和有咲的面前。\n\n「喔，看来又有学姐的新作可以看了！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·隐秘同好Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214016",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "玉夏·闪亮·隐秘同好Ver.",
+  "title": "闪亮·隐秘同好Ver.",
+  "wordCount": 148
+}

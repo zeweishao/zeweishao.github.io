@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213005",
+  "id": "bond-28546",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28546001",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "喂！小孩儿，你怎么愁眉苦脸的！\n大清早就一副挨过揍的表情，真晦气！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546003",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "怎么不说话啊，快说，到底是谁要欺负你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有人借钱不还，我要不回来，就很烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546005",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "什么！竟然有人敢这样对你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546006",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "他在哪！我这就去把他项上人头拿来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！！！你冷静一点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546008",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "你别拦着我，竟然有人敢欺负你，我要他狗命！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就是一点小钱，要不回来就算了，你别这么激动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546010",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "算了？这怎么能算了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546011",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "你知不知道「君辱臣死」！这钱我一定要给你要回来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "吕布……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546013",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "唤我何事？有事直说，别支支吾吾的，听着烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没，只是没想到你会说出这样的话，有点感动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28546015",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "那你可得好好记着！等我回来！我要三天三夜的庆功大宴！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28546",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28546001,
+            28546002,
+            28546003,
+            28546004,
+            28546005,
+            28546006,
+            28546007,
+            28546008,
+            28546009,
+            28546010,
+            28546011,
+            28546012,
+            28546013,
+            28546014,
+            28546015
+          ],
+          "sectionId": 28546
+        }
+      ],
+      "title": "君辱臣死"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213005",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "君辱臣死",
+  "wordCount": 258
+}

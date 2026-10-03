@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211203",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "热烈的日光，翻腾的热浪，潮湿的水汽。在发烫的沙滩上缓慢行走，汗水浸透了衣衫，喉咙深处感受到一阵焦渴。\n\n一阵海风吹过，恍惚间，看到前方出现了一座白色的凉亭。蓝发的少女倚在一人高的冰棍上，朝自己露出爽朗的微笑。\n\n「唷，你想要什么口味的？这里……可是应有尽有哦。」\n\n在她白皙的手上，雪花般的晶体正散发着一阵阵的白气。\n\n ——本特别款仅可通过沙滩乐园活动获取 ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "冰爽夏日Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211203",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "泉·冰爽夏日Ver.",
+  "title": "冰爽夏日Ver.",
+  "wordCount": 170
+}

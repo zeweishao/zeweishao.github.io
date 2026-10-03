@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213005",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气动作游戏《赤炎·境界》，「吕布」以全新的帅气造型化身为1/7比例模型登场！他的脸上露出狂放不羁的笑容，随意的站姿展现出强大的气场，仿若不可一世的战神出世。矫健的身姿和健康的身材，完美将原作中最经典的形象呈现在我们面前。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213005"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 114
+}

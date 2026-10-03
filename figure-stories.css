@@ -1,0 +1,64 @@
+/* A small reading invitation, kept within the existing journal page. */
+.figures-page .figure-letter {
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 1.95;
+  color: #655748;
+  text-wrap: pretty;
+}
+.figure-letter > span { display: block; }
+.figure-letter-opening { margin-bottom: 9px; color: #895c47; }
+.figure-story-entry {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin: 4px 0 28px;
+  padding: 18px 22px;
+  border-block: 1px solid #cbbda3;
+  background: rgba(255, 252, 244, .62);
+  color: var(--ink, #332d38);
+  text-decoration: none;
+  transition: background .18s ease;
+}
+.figure-story-label {
+  flex: 0 0 auto;
+  border-right: 1px solid #cbbda3;
+  padding-right: 22px;
+  color: #965d48;
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 29px;
+  font-weight: 400;
+  transform: rotate(-2deg);
+}
+.figure-story-copy { display: grid; gap: 5px; min-width: 0; }
+.figure-story-copy strong { font-size: 17px; font-weight: 600; line-height: 1.55; }
+.figure-story-copy > span { font-size: 12px; line-height: 1.7; color: #776b5e; }
+.figure-story-turn { margin-left: auto; white-space: nowrap; color: #895c47; font-size: 14px; }
+.figure-story-entry:hover { background: rgba(255, 252, 244, .96); }
+.figure-story-person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 17px 0 22px;
+  padding: 11px 2px;
+  border-bottom: 1px dashed #b99c80;
+  color: #89533f;
+  font-size: 15px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+.figure-story-entry:focus-visible,
+.figure-story-person:focus-visible { outline: 2px solid #895c47; outline-offset: 5px; }
+@media (max-width: 760px) {
+  .figures-page .figure-letter { font-size: 15px; line-height: 1.95; max-width: 38em; }
+  .figure-story-entry { display: grid; grid-template-columns: auto minmax(0, 1fr); padding: 17px 13px; gap: 8px 13px; margin-bottom: 22px; }
+  .figure-story-label { grid-row: 1 / 3; align-self: stretch; display: flex; align-items: center; font-size: 25px; padding-right: 13px; }
+  .figure-story-copy { flex: 1; }
+  .figure-story-copy strong { font-size: 15px; }
+  .figure-story-copy > span { font-size: 11px; }
+  .figure-story-turn { grid-column: 2; justify-self: end; margin-left: 0; font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .figure-story-entry { transition: none; }
+}

@@ -1,0 +1,127 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25700",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25700001",
+          "sourceType": 10,
+          "text": "优纪的决心",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25700002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呦吼，这是优纪的专属工作台~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25700003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "老实说优纪对于制作花灯一窍不通，所以是一个完全没有经验的新人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25700004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "能不能好好把花灯做出来，是优纪需要面临的最大挑战。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25700006",
+              "text": "不必紧张，当作娱乐就好。"
+            }
+          ],
+          "sourceId": "25700005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25700006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "听主人这么说，优纪安心很多了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25700007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "作为一个新人，优纪的优势并不明显，可是优纪会好好跟着有经验的前辈们学习的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25700008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以主人要相信优纪哦，优纪一定会给你带来很多惊喜的~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25700010",
+              "text": "我很期待。"
+            }
+          ],
+          "sourceId": "25700009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25700010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好极了，优纪这就带着主人的期待和祝福，开始花灯制作大挑战咯~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25700",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25700001,
+            25700002,
+            25700003,
+            25700004,
+            25700005,
+            25700006,
+            25700007,
+            25700008,
+            25700009,
+            25700010
+          ],
+          "sectionId": 25700
+        }
+      ],
+      "title": "优纪的决心"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25700,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "41",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "优纪的花灯工作台解锁了，这一次她会带来什么惊喜呢？",
+  "title": "优纪的决心",
+  "wordCount": 204
+}

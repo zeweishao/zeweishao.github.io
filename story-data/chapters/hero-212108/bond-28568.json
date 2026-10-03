@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212108",
+  "id": "bond-28568",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28568001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "交代给你的事情做得如何了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我刚做好，给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568003",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "不错，大致还算满足了我的要求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568004",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "在修改了301遍设计稿之后，你果然没有让我失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你满意就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568006",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "这栩栩如生的莲花池，以后就能和姐姐在里面共浴了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568007",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "还有我要的「西湖十景」，嗯，姐姐看了一定会喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么姐姐长姐姐短的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568009",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "因为姐姐最重要，姐姐开心，我才能开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568010",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "如此繁琐的一件事，你却能不厌其烦地完成，很让我刮目相看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "过奖，以后别老欺负我就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "哼，我姐姐一看到你，就不愿多陪我了，被我欺负一下是你的本分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28568013",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "不过我答应你，以后不再无理取闹就是。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28568",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28568001,
+            28568002,
+            28568003,
+            28568004,
+            28568005,
+            28568006,
+            28568007,
+            28568008,
+            28568009,
+            28568010,
+            28568011,
+            28568012,
+            28568013
+          ],
+          "sectionId": 28568
+        }
+      ],
+      "title": "「心愿」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212108",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「心愿」",
+  "wordCount": 232
+}

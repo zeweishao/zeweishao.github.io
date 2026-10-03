@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213002",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "皎洁的月光正落在少女的肩膀上，给她披上了一件银色的披风。奥菲利亚扶了扶滑到鼻梁上的眼镜，深呼吸。\n\n「艾米莉亚，准备好了吗？」她询问身边的伙伴。\n\n换上了中秋涂装的大炮微微颤动，回应着奥菲利亚的问话——她已经准备就绪。\n\n奥菲利亚微笑着扶了扶自己的兔耳头饰，遥指着目标发出命令，「目标门铃，全弹发射！」\n\n就这样，主人房间的门铃响了。\n\n——本特别款仅可通过月兔食坊活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "金秋玉兔Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213002",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "奥菲利亚·金秋玉兔Ver.",
+  "title": "金秋玉兔Ver.",
+  "wordCount": 177
+}

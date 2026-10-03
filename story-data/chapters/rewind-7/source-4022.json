@@ -1,0 +1,95 @@
+{
+  "bookId": "rewind-7",
+  "id": "source-4022",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4022001",
+          "sourceType": 0,
+          "speaker": "小手雷",
+          "text": "你们太欺负人了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4022002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对不起，对不起，请你一定要原谅我们！拜托了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4022003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "因为你看上去很危险，害怕你将这里炸掉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4022004",
+          "sourceType": 5,
+          "speaker": "小手雷",
+          "text": "什么以为很危险，我本来就很危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4022005",
+          "sourceType": 2,
+          "speaker": "小手雷",
+          "text": "（内心）可恶，她们人多，我太吃亏了。\n特别是这个一身武装的暴力女人，浑身散发着一股要毁灭世界的气息。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4022006",
+          "sourceType": 0,
+          "speaker": "小手雷",
+          "text": "算了，我今天还有急事，下次一定不会轻易放过你们的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4022",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4022001,
+            4022002,
+            4022003,
+            4022004,
+            4022005,
+            4022006
+          ],
+          "sectionId": 4022
+        }
+      ],
+      "title": "闪耀旋律前篇·Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9000012",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9000012",
+          "after_result_avg"
+        ],
+        "sectionId": 4022,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "闪耀旋律前篇·Ⅱ",
+  "wordCount": 142
+}

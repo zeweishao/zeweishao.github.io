@@ -1,0 +1,199 @@
+{
+  "bookId": "hero-212203",
+  "id": "bond-28535",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28535001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "哇，这是什么！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28535003",
+              "text": "你的新家。"
+            }
+          ],
+          "sourceId": "28535002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28535003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "超大的房子，是求婚礼物吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28535004",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "一般来说，买了新房就是结婚的关系，\n那么现在，我已经是|101|的合法「老婆」了~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28535006",
+              "text": "你从哪看来的奇怪知识？"
+            },
+            {
+              "targetId": "28535006",
+              "text": "嗯，结奈真是单纯的家伙。"
+            }
+          ],
+          "sourceId": "28535005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28535006",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "嗯？你那是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28535008",
+              "text": "我说结奈很可爱。"
+            }
+          ],
+          "sourceId": "28535007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28535008",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这还差不多……不过，你不会对后宅每个女人都说过这种话吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28535009",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "该不会，还偷偷给其他女人买了房子吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28535011",
+              "text": "……"
+            },
+            {
+              "targetId": "28535011",
+              "text": "怎么会呢？"
+            }
+          ],
+          "sourceId": "28535010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28535011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你心虚了，是说谎的味道。\n这么说你已经做好了跟别人出轨的打算吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28535012",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "放心，我不会怪你的。\n是|101|魅力太大，那堆女人碰了不该碰的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28535013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "|101|喜欢我吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28535015",
+              "text": "当然。"
+            }
+          ],
+          "sourceId": "28535014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28535015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "那有我一个就够了，你后宅那堆我帮你埋了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28535",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28535001,
+            28535002,
+            28535003,
+            28535004,
+            28535005,
+            28535006,
+            28535007,
+            28535008,
+            28535009,
+            28535010,
+            28535011,
+            28535012,
+            28535013,
+            28535014,
+            28535015
+          ],
+          "sectionId": 28535
+        }
+      ],
+      "title": "喜欢你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "喜欢你",
+  "wordCount": 257
+}

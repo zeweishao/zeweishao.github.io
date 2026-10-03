@@ -1,0 +1,164 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33306",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33306001",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "微风的呼唤，沙拉拉拉拉拉——\n雨点的脚步，滴滴答滴滴答——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我唱得......还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "太完美了，真恋！你的声音让整首歌都生动起来了！\n优纪，你说对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯！不愧是有名的喵爪乐队，这样的演出，听上一整天都听不够呢。\n那个，克莱儿，其实我有一个请求......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "马上就是艾伦兹降世二周年的庆典了，我打算办一个让主人惊喜的超级豪华节目——想邀请你们唱开场的第一首歌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我完全没问题！真恋呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "给|101|唱歌？我当然愿意......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "住口，你不许愿意！要唱也是本王唱才对！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "莉可怎么也在这里？是不是她也加入喵爪乐队了呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "她，她还不是，算是预备队员啦......\n莉可，我们不是说好的吗，要把声乐学好才能登台演唱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "骗人！你教的那些歌本王都已经学会了！\n你，在观众席坐好，本王现在就唱给你听！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306012",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "优、优纪，给|101|演出的事情我们答应了，没其他事的话慢走不送！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样......不太好吧，莉可正要开始唱歌呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "优纪，快走。\n不要迟疑，不要回头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33306015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "连真恋都这么说？那、那好吧，我们彩排见！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33306",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33306001,
+            33306002,
+            33306003,
+            33306004,
+            33306005,
+            33306006,
+            33306007,
+            33306008,
+            33306009,
+            33306010,
+            33306011,
+            33306012,
+            33306013,
+            33306014,
+            33306015
+          ],
+          "sectionId": 33306
+        }
+      ],
+      "title": "「献给你的歌」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33306,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「献给你的歌」",
+  "wordCount": 421
+}

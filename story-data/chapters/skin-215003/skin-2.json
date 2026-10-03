@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215003",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这是名为金色殿堂的至高舞台，是由鲜艳而热烈的红色幕布与华贵而灿烂的纯金打造而成的极致剧场。\n\n这里并非像表面上那么华而不实，相反，它是所有演奏者的最终梦想，一生之所求的终极舞台。\n\n回顾过往，无论是不被认可的痛苦、还是无情的嘲讽与讥笑、练琴的辛酸与落寞。她爱着这一切，珍惜这一切，终于抵达了这里。\n\n\n此刻，她只想用音乐传达内心，在台下千万聆听者的雷鸣般的喝彩声中，向过去弱小的自己送上无声的咏叹。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "金色咏叹Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215003",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "真恋·金色咏叹Ver.",
+  "title": "金色咏叹Ver.",
+  "wordCount": 192
+}

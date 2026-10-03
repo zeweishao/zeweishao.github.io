@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211011",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「这一次，我会以完全平等的姿态面对你。」蒂娅身后的尾巴轻轻摆动。\n\n「请相信，我们是同伴而非敌人。为了加深信任，请你务必参加这次茶会。」\n\n「你默许了。来这边，我带路。」\n\n很好，进展顺利。蒂娅小心翼翼地向前迈出半步。\n下一秒，拱起脊背的黑猫「嗷呜」一声，逃窜而去。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "柴郡猫Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211011",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蒂娅·柴郡猫Ver.",
+  "title": "柴郡猫Ver.",
+  "wordCount": 126
+}

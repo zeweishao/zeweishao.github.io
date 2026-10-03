@@ -1,0 +1,3395 @@
+{
+  "bookId": "chat-29002",
+  "id": "all-routes",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "以下按游戏配置节点顺序收录全部路线与结局。同一段文字可能出现在多条路线中；不同分支不代表一次连续发生的剧情。选项编号指向本章对应节点。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-100-1",
+          "speaker": "奥菲利亚",
+          "text": "主人，我是奥菲利亚……有件事想要拜托你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-2",
+          "speaker": "主人",
+          "text": "看头像就知道是你了，有什么需要我做的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-3",
+          "speaker": "奥菲利亚",
+          "text": "唔……不知道怎么开口，总之，请主人做一些月饼吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-4",
+          "speaker": "主人",
+          "text": "月饼？为什么这么突然？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-5",
+          "speaker": "奥菲利亚",
+          "text": "因为快要过中秋节了，吾皇猫和巴扎黑很想尝尝月饼。我也很想尝尝主人的手艺……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-6",
+          "speaker": "奥菲利亚",
+          "text": "虽然不能直接吃下去，但尝尝味道还是可以的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-7",
+          "speaker": "主人",
+          "text": "果然是吾皇猫的提议啊 ……你们最近相处得愉快吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-8",
+          "speaker": "奥菲利亚",
+          "text": "这点不用担心，我和吾皇猫它们过得很好哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-9",
+          "speaker": "主人",
+          "text": "做月饼的材料，准备起来好像不太简单？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-100-10",
+          "speaker": "奥菲利亚",
+          "text": "这一点已经想到了，请拭目以待。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 2。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-1",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "100",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 1"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-200-1",
+          "speaker": "奥菲利亚",
+          "text": "锵锵锵，面团制造机登场！主人应该已经收到了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-2",
+          "speaker": "奥菲利亚",
+          "text": "制作月饼所需要的面团，可以全都交给它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-3",
+          "speaker": "主人",
+          "text": "收到了，造型挺可爱的，上面还有两只月兔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-4",
+          "speaker": "奥菲利亚",
+          "text": "这样才有节日的氛围啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-5",
+          "speaker": "主人",
+          "text": "需要怎么操作才能生产出面团呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-6",
+          "speaker": "奥菲利亚",
+          "text": "很简单，只要启动制造机，面团就会「定期」生产出来啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-7",
+          "speaker": "奥菲利亚",
+          "text": "顺带一提，面团也是特殊调制的万能面团呢——作为基础材料，搭配辅料能够制作出任何口味的月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-200-8",
+          "speaker": "主人",
+          "text": "……这有点便利过头了吧？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 3。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-2",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 2"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-300-1",
+          "speaker": "奥菲利亚",
+          "text": "说起来，现在月饼的种类真是丰富啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-2",
+          "speaker": "奥菲利亚",
+          "text": "有豆沙馅的甜月饼，也有蛋黄馅的咸月饼，还有把各种果仁塞进去的月饼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-3",
+          "speaker": "奥菲利亚",
+          "text": "甚至还有……香菜馅，辣酱馅，章鱼馅等比较少见的月饼馅料呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-4",
+          "speaker": "主人",
+          "text": "停停，感觉口味越来越奇怪了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-5",
+          "speaker": "主人",
+          "text": "不过，在潮酷街区确实见到有店铺在卖各种样式的月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-6",
+          "speaker": "奥菲利亚",
+          "text": "是呢，我也去打探了一下它们的配方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-7",
+          "speaker": "奥菲利亚",
+          "text": "豆沙馅的月饼，就是一份糖加上三份豆子；果仁馅的月饼，是两份果仁一份蛋黄一份糖哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-8",
+          "speaker": "奥菲利亚",
+          "text": "啊，这就交给主人去自由探索吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-9",
+          "speaker": "主人",
+          "text": "好，我会的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-10",
+          "speaker": "奥菲利亚",
+          "text": "嗯嗯，不光在馅料上，在造型上也可以融入一些创意呢。比如月兔图案的月饼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-11",
+          "speaker": "主人",
+          "text": "这一点，我早有打算。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-300-12",
+          "speaker": "奥菲利亚",
+          "text": "太好了，我们更期待了呢~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 4。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-3",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 3"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-400-1",
+          "speaker": "奥菲利亚",
+          "text": "主人的第一批月饼已经收到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-2",
+          "speaker": "主人",
+          "text": "只是边学边制作的点心，和商品还是有不小的差距的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-3",
+          "speaker": "奥菲利亚",
+          "text": "不，最重要的这是主人亲手制作的，里面有主人的心意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-4",
+          "speaker": "奥菲利亚",
+          "text": "比起流水线生产的商品月饼，主人制作的月饼有着不可替代的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-5",
+          "speaker": "主人",
+          "text": "听你这么说，我的心情也变好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-6",
+          "speaker": "奥菲利亚",
+          "text": "月饼本就是被赋予了节日意义的传统点心，最重要的不是它的味道，而是它里面所蕴含的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-7",
+          "speaker": "奥菲利亚",
+          "text": "……主人是怎么考虑的呢，在中秋节吃月饼的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-400-8",
+          "speaker": "主人",
+          "text": "突然话题变得深刻起来了……让我想想。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 5。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-4",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 4"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "6",
+              "targetKind": "chat-node",
+              "text": "纪念满月"
+            },
+            {
+              "targetId": "23",
+              "targetKind": "chat-node",
+              "text": "纪念团圆"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-5",
+      "sourceRefs": [],
+      "title": "节点 5"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-501-1",
+          "speaker": "主人",
+          "text": "或许是为了纪念夜空中的那轮满月吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-501-2",
+          "speaker": "奥菲利亚",
+          "text": "唔……所以绝大多数的月饼都是圆形的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-501-3",
+          "speaker": "主人",
+          "text": "没错，在夜晚欣赏着美丽的月色，吃着美味的月饼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-501-4",
+          "speaker": "奥菲利亚",
+          "text": "嗯，想想就很美好啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-501-5",
+          "speaker": "奥菲利亚",
+          "text": "有机会的话，我也想和大家一起赏月。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 7。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-6",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 6"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-600-1",
+          "speaker": "奥菲利亚",
+          "text": "主人在月饼制作上有遇到什么困难吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-2",
+          "speaker": "主人",
+          "text": "没什么问题，甚至比想象中的要容易一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-3",
+          "speaker": "主人",
+          "text": "……只是配好材料，就能轻松地做好月饼，就像有魔法一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-4",
+          "speaker": "奥菲利亚",
+          "text": "真谦虚，明明是主人的手艺好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-5",
+          "speaker": "奥菲利亚",
+          "text": "我们也不是白白享用这些月饼的，有什么需要帮助的请说出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-6",
+          "speaker": "主人",
+          "text": "有什么月饼的新配方吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-7",
+          "speaker": "奥菲利亚",
+          "text": "唔，之前说了让主人自己探索的。就小小提示一下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-8",
+          "speaker": "奥菲利亚",
+          "text": "有一种新式的月饼，需要加入大量的糖分哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 8。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-7",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 7"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-700-1",
+          "speaker": "奥菲利亚",
+          "text": "说起来，月亮上真的会有兔子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-2",
+          "speaker": "主人",
+          "text": "为什么突然谈起神话传说中的生物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-3",
+          "speaker": "主人",
+          "text": "感觉奥菲利亚是从小不相信圣诞老人的类型。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-4",
+          "speaker": "奥菲利亚",
+          "text": "需要申明，我小时候确实是相信圣诞老人的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-5",
+          "speaker": "奥菲利亚",
+          "text": "就算现在告诉我真的会有月兔，我也不觉得奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-6",
+          "speaker": "主人",
+          "text": "真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-7",
+          "speaker": "奥菲利亚",
+          "text": "……考虑到月球上没有大气层，所以它们肯定会穿着宇航服吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-8",
+          "speaker": "主人",
+          "text": "至少要自备氧气吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-9",
+          "speaker": "奥菲利亚",
+          "text": "即使月球的重力只有地球的1/6，兔子们在厚重的宇航服里行动起来也不太方便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-10",
+          "speaker": "主人",
+          "text": "当然了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-11",
+          "speaker": "奥菲利亚",
+          "text": "那得给它们的臼子和锤子加上动力助推装置才行，就像打桩机一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-12",
+          "speaker": "主人",
+          "text": "月兔的形象变得奇怪起来了……",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 9。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-8",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 8"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-800-1",
+          "speaker": "奥菲利亚",
+          "text": "秋天，是丰收的季节呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-2",
+          "speaker": "主人",
+          "text": "是啊，庆祝丰收也是中秋节的其中一层含义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-3",
+          "speaker": "奥菲利亚",
+          "text": "……让我想起了家乡农场的丰收之日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-4",
+          "speaker": "奥菲利亚",
+          "text": "金灿灿的麦浪在田野里涌动，到处是人们开心满足的笑脸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-5",
+          "speaker": "主人",
+          "text": "非常美好的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-6",
+          "speaker": "奥菲利亚",
+          "text": "嗯，这一天人们会用收获的作物装饰自己的家，在空地上举办盛大的宴会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-7",
+          "speaker": "奥菲利亚",
+          "text": "这种时候，我会和家里的哥哥姐姐一起围着篝火打闹、跳舞、讲故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-8",
+          "speaker": "主人",
+          "text": "真开心啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-9",
+          "speaker": "奥菲利亚",
+          "text": "我们也会结伴去田里抓野兔，抓到野兔的人据说会交上好运哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-10",
+          "speaker": "主人",
+          "text": "……兔子出现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-11",
+          "speaker": "奥菲利亚",
+          "text": "啊，这可不是月兔啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-12",
+          "speaker": "奥菲利亚",
+          "text": "也有说丰收之神就藏在收获期的麦田里的，在抓野兔的时候，说不定就能与她擦肩而过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-13",
+          "speaker": "主人",
+          "text": "或许她就躲在收割下来的麦穗里呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-14",
+          "speaker": "奥菲利亚",
+          "text": "唔，那不是能把丰收之神装进小袋子里，挂在脖子上了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-15",
+          "speaker": "主人",
+          "text": "可以哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 10。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-9",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 9"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-900-1",
+          "speaker": "奥菲利亚",
+          "text": "今天被恶猫袭击了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-2",
+          "speaker": "主人",
+          "text": "没事吧?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-3",
+          "speaker": "奥菲利亚",
+          "text": "不用担心，因为——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-4",
+          "speaker": "奥菲利亚",
+          "text": "在动用「艾米莉亚」之前，吾皇猫和巴扎黑就帮我把恶猫赶跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-5",
+          "speaker": "主人",
+          "text": "这样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-6",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫它们真的非常英勇啊……吾皇猫拍了下地面，巴扎黑就冲出去对恶猫使出了「冲撞」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-7",
+          "speaker": "主人",
+          "text": "哦哦哦，效果超群。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-8",
+          "speaker": "奥菲利亚",
+          "text": "然后巴扎黑就使出了「泰山压顶」，靠体重把恶猫逼退了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-9",
+          "speaker": "主人",
+          "text": "等下，怎么好像只有巴扎黑在对付恶猫啊……吾皇猫呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-10",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫……吾皇猫在我边上指挥巴扎黑。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 11。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-10",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 10"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1000-1",
+          "speaker": "奥菲利亚",
+          "text": "作为手办，经常要担心被猫袭击。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-2",
+          "speaker": "奥菲利亚",
+          "text": "但在原来的世界，我家的农场倒是经常被熊骚扰来着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-3",
+          "speaker": "主人",
+          "text": "熊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-4",
+          "speaker": "奥菲利亚",
+          "text": "是非常凶狠的棕熊哦，不光会践踏田地，还会毁坏农具。我们叫它「熊先生」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-5",
+          "speaker": "奥菲利亚",
+          "text": "爸爸会开着拖拉机去撵它，哥哥姐姐们会拿着草叉护着机器的侧翼，直到把它赶跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-6",
+          "speaker": "主人",
+          "text": "感觉……好厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-7",
+          "speaker": "奥菲利亚",
+          "text": "明明是童年的噩梦，现在想起来，却觉得很怀念呢。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 12。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-11",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 11"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "13",
+              "targetKind": "chat-node",
+              "text": "勇气很重要"
+            },
+            {
+              "targetId": "14",
+              "targetKind": "chat-node",
+              "text": "团结一心很美好"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-12",
+      "sourceRefs": [],
+      "title": "节点 12"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1101-1",
+          "speaker": "主人",
+          "text": "能够战胜熊这样强悍的大型猛兽，很了不起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-2",
+          "speaker": "奥菲利亚",
+          "text": "虽然熊先生很可怕，但在几次冲突之后，它却和我们保持着某种默契。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-3",
+          "speaker": "奥菲利亚",
+          "text": "它没再破坏我们的农具，我们偶尔也会给它提供一些蜂蜜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-4",
+          "speaker": "奥菲利亚",
+          "text": "有一次，它甚至帮我们赶跑了下山的野狼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-5",
+          "speaker": "主人",
+          "text": "好像变成了朋友呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-6",
+          "speaker": "奥菲利亚",
+          "text": "或许吧，但最后，无论是熊先生还是……都不在了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-7",
+          "speaker": "主人",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-8",
+          "speaker": "奥菲利亚",
+          "text": "啊不行，怎么突然感伤起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-9",
+          "speaker": "主人",
+          "text": "再给我讲讲熊先生的故事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-10",
+          "speaker": "奥菲利亚",
+          "text": "嗯，还有一次，我在林子里独自撞见了熊先生……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-11",
+          "speaker": "主人",
+          "text": "它没伤害到你吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-12",
+          "speaker": "奥菲利亚",
+          "text": "没有哦，它还护送我回家了呢，紧跟在我身后敦促我全力奔跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-13",
+          "speaker": "主人",
+          "text": "这是在被追杀吧！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-13",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 13"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1102-1",
+          "speaker": "主人",
+          "text": "因为那是在和家人齐心协力守护家园吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-2",
+          "speaker": "奥菲利亚",
+          "text": "或许是吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-3",
+          "speaker": "奥菲利亚",
+          "text": "那时候有家人在身边，就觉得自己有用不完的勇气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-4",
+          "speaker": "主人",
+          "text": "我能够理解这种感受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-5",
+          "speaker": "奥菲利亚",
+          "text": "只是现在……已经只能在记忆里重温了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-6",
+          "speaker": "主人",
+          "text": "过去的事已经过去了，但我们会一起创造出新的回忆的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-7",
+          "speaker": "主人",
+          "text": "如果感到孤独的话，其他手办和我会陪在你的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-8",
+          "speaker": "奥菲利亚",
+          "text": "唔……主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-9",
+          "speaker": "主人",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-10",
+          "speaker": "奥菲利亚",
+          "text": "突然说这样的话，我真的会哭出来的……真的。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-14",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 14"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1200-1",
+          "speaker": "奥菲利亚",
+          "text": "今天我和吾皇猫他们一起出门了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-2",
+          "speaker": "主人",
+          "text": "是去什么地方玩了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-3",
+          "speaker": "奥菲利亚",
+          "text": "不是去玩的，这次出行的目的是为了主人哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-4",
+          "speaker": "奥菲利亚",
+          "text": "我们在为回礼做调研。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-5",
+          "speaker": "主人",
+          "text": "！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-6",
+          "speaker": "奥菲利亚",
+          "text": "已经收了主人这么多的月饼，还不准备点回礼也太说不过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-7",
+          "speaker": "主人",
+          "text": "是吗，是什么样的回礼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-8",
+          "speaker": "奥菲利亚",
+          "text": "这个要保密。说出来的话就不是惊喜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-9",
+          "speaker": "主人",
+          "text": "那就让我好好期待一下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-10",
+          "speaker": "奥菲利亚",
+          "text": "说起来，路上还遇到了一位尊贵的女士呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-11",
+          "speaker": "奥菲利亚",
+          "text": "「汝等是不是在为【那个人类】准备礼物？」她是这么问的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-12",
+          "speaker": "主人",
+          "text": "这个口吻，有点熟悉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-13",
+          "speaker": "奥菲利亚",
+          "text": "我们如实地说了后，她露出了非常认真的表情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-14",
+          "speaker": "奥菲利亚",
+          "text": "「记好了，只有灌注心血的礼物才会有价值。」她说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-15",
+          "speaker": "主人",
+          "text": "过去开始攻击我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-16",
+          "speaker": "奥菲利亚",
+          "text": "「啧，那个人类还真是一如既往的花心啊。」她抱着胸口说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-17",
+          "speaker": "主人",
+          "text": "……那位尊贵的女士，是不是戴着红色的兜帽？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 16。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-15",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 15"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1300-1",
+          "speaker": "奥菲利亚",
+          "text": "今天依旧和吾皇猫他们在街上取材。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-2",
+          "speaker": "主人",
+          "text": "有遇到什么好事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-3",
+          "speaker": "奥菲利亚",
+          "text": "我们见到了巨大的月饼，不是手办意义上的巨大，而是人类意义上的巨大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-4",
+          "speaker": "主人",
+          "text": "哦……哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-5",
+          "speaker": "奥菲利亚",
+          "text": "周长足够好几个人类手拉手连起来，好像已经破了那个吉O斯记录。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-6",
+          "speaker": "主人",
+          "text": "好大……这得吃多久啊?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-7",
+          "speaker": "奥菲利亚",
+          "text": "哦，主人好像很感兴趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-8",
+          "speaker": "主人",
+          "text": "等等，我只是随便问问。\n",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-9",
+          "speaker": "主人",
+          "text": "……请务必别送我巨型月饼！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 17。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-16",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 16"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1400-1",
+          "speaker": "奥菲利亚",
+          "text": "之前主人为什么这么爽快地答应了我们的请求呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-2",
+          "speaker": "奥菲利亚",
+          "text": "突然说要做月饼什么的……明明可以直接拒绝的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-3",
+          "speaker": "主人",
+          "text": "理由不是挺显然的吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 18。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-17",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 17"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "19",
+              "targetKind": "chat-node",
+              "text": "因为吾皇猫"
+            },
+            {
+              "targetId": "20",
+              "targetKind": "chat-node",
+              "text": "因为奥菲利亚"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-18",
+      "sourceRefs": [],
+      "title": "节点 18"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1501-1",
+          "speaker": "主人",
+          "text": "因为这是吾皇猫的提议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-2",
+          "speaker": "奥菲利亚",
+          "text": "……是啊，毕竟是稀客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-3",
+          "speaker": "主人",
+          "text": "满足了吾皇猫和巴扎黑的愿望，你照顾它们也会轻松一些吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-4",
+          "speaker": "奥菲利亚",
+          "text": "倒不至于说是「照顾」，我们就像朋友一样在相处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-5",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫它们也非常感谢主人哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-19",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 19"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1502-1",
+          "speaker": "主人",
+          "text": "因为这是奥菲利亚的请求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-2",
+          "speaker": "奥菲利亚",
+          "text": "诶，我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-3",
+          "speaker": "主人",
+          "text": "既然把照顾吾皇猫它们的任务丢给了你，替你做一些事也是应该的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-4",
+          "speaker": "奥菲利亚",
+          "text": "这样啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-5",
+          "speaker": "主人",
+          "text": "我希望你能够感受到节日的温暖，奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-6",
+          "speaker": "奥菲利亚",
+          "text": "主人……谢谢你。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-20",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 20"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1600-1",
+          "speaker": "奥菲利亚",
+          "text": "不知不觉已经过了一周的时间了，中秋节也快到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-2",
+          "speaker": "主人",
+          "text": "是啊，做月饼的时间好像过得特别快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-3",
+          "speaker": "奥菲利亚",
+          "text": "订单完成得差不多了，我们回礼的材料也已经准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-4",
+          "speaker": "奥菲利亚",
+          "text": "在满月的夜晚，主人就会收到我们精心准备的月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-5",
+          "speaker": "主人",
+          "text": "果然也是月饼!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-6",
+          "speaker": "奥菲利亚",
+          "text": "嘿嘿，届时请主人去阳台上看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-7",
+          "speaker": "奥菲利亚",
+          "text": "乘着晚风，披着月光，主人的礼物将静候在旁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-8",
+          "speaker": "主人",
+          "text": "阳台……礼物是用无人机送过来的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-9",
+          "speaker": "奥菲利亚",
+          "text": "……总感觉解释了就没有神秘感了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-10",
+          "speaker": "奥菲利亚",
+          "text": "总之，到时候请主人好好享用吧！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 22。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-21",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 21"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1700-1",
+          "speaker": "奥菲利亚",
+          "text": "主人收到月饼了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-2",
+          "speaker": "主人",
+          "text": "收到了，但是……数量好像有点多？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-3",
+          "speaker": "主人",
+          "text": "各种形状的月饼，而且看上去有种莫名的熟悉感……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-4",
+          "speaker": "奥菲利亚",
+          "text": "噗，因为这是萤火小队的大家一起帮忙做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-5",
+          "speaker": "主人",
+          "text": "哈莉和葵她们也来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-6",
+          "speaker": "奥菲利亚",
+          "text": "是啊，刚才我们在一边赏月，一边做月饼呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-7",
+          "speaker": "奥菲利亚",
+          "text": "主人快尝尝它们的味道吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-8",
+          "speaker": "主人",
+          "text": "上面还带着一些余温，先选这枚向日葵形状的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-9",
+          "speaker": "主人",
+          "text": "嗯……咸咸的，还有点阳光的味道，肯定是葵做的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-10",
+          "speaker": "奥菲利亚",
+          "text": "答对了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-11",
+          "speaker": "主人",
+          "text": "嗯，再尝尝它边上的这块。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-12",
+          "speaker": "主人",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-13",
+          "speaker": "奥菲利亚",
+          "text": "主人，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-14",
+          "speaker": "奥菲利亚",
+          "text": "别吓我啊，发生什么事了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-15",
+          "speaker": "主人",
+          "text": "好辣！我在喝水……喉咙快焦了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-16",
+          "speaker": "奥菲利亚",
+          "text": "啊，哈莉放了这么多的辣椒吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-17",
+          "speaker": "主人",
+          "text": "……麻烦转告哈莉，月饼做得很好，下次别做了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1700-18",
+          "speaker": "奥菲利亚",
+          "text": "呜……真是非常抱歉！",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·今宵月明",
+          "type": "heading"
+        }
+      ],
+      "id": "node-22",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 22 · 结局·今宵月明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-502-1",
+          "speaker": "主人",
+          "text": "或许是为了纪念与亲友团圆的温馨时光吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-2",
+          "speaker": "奥菲利亚",
+          "text": "是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-3",
+          "speaker": "主人",
+          "text": "无论被怎样的琐事缠身，在满月的夜晚，家人们都会团聚在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-4",
+          "speaker": "主人",
+          "text": "在这个时候，人们就会和那些重要的人分享月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-5",
+          "speaker": "奥菲利亚",
+          "text": "好友……还有家人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-6",
+          "speaker": "主人",
+          "text": "怎么了，我说错话了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-7",
+          "speaker": "奥菲利亚",
+          "text": "不不，我只是想起了些过去的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-502-8",
+          "speaker": "奥菲利亚",
+          "text": "月饼……是寄托了人们美好愿望的食物呢。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 24。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-23",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 23"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-600-1",
+          "speaker": "奥菲利亚",
+          "text": "主人在月饼制作上有遇到什么困难吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-2",
+          "speaker": "主人",
+          "text": "没什么问题，甚至比想象中的要容易一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-3",
+          "speaker": "主人",
+          "text": "……只是配好材料，就能轻松地做好月饼，就像有魔法一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-4",
+          "speaker": "奥菲利亚",
+          "text": "真谦虚，明明是主人的手艺好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-5",
+          "speaker": "奥菲利亚",
+          "text": "我们也不是白白享用这些月饼的，有什么需要帮助的请说出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-6",
+          "speaker": "主人",
+          "text": "有什么月饼的新配方吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-7",
+          "speaker": "奥菲利亚",
+          "text": "唔，之前说了让主人自己探索的。就小小提示一下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-600-8",
+          "speaker": "奥菲利亚",
+          "text": "有一种新式的月饼，需要加入大量的糖分哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 25。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-24",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 24"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-700-1",
+          "speaker": "奥菲利亚",
+          "text": "说起来，月亮上真的会有兔子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-2",
+          "speaker": "主人",
+          "text": "为什么突然谈起神话传说中的生物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-3",
+          "speaker": "主人",
+          "text": "感觉奥菲利亚是从小不相信圣诞老人的类型。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-4",
+          "speaker": "奥菲利亚",
+          "text": "需要申明，我小时候确实是相信圣诞老人的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-5",
+          "speaker": "奥菲利亚",
+          "text": "就算现在告诉我真的会有月兔，我也不觉得奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-6",
+          "speaker": "主人",
+          "text": "真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-7",
+          "speaker": "奥菲利亚",
+          "text": "……考虑到月球上没有大气层，所以它们肯定会穿着宇航服吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-8",
+          "speaker": "主人",
+          "text": "至少要自备氧气吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-9",
+          "speaker": "奥菲利亚",
+          "text": "即使月球的重力只有地球的1/6，兔子们在厚重的宇航服里行动起来也不太方便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-10",
+          "speaker": "主人",
+          "text": "当然了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-11",
+          "speaker": "奥菲利亚",
+          "text": "那得给它们的臼子和锤子加上动力助推装置才行，就像打桩机一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-700-12",
+          "speaker": "主人",
+          "text": "月兔的形象变得奇怪起来了……",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 26。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-25",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 25"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-800-1",
+          "speaker": "奥菲利亚",
+          "text": "秋天，是丰收的季节呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-2",
+          "speaker": "主人",
+          "text": "是啊，庆祝丰收也是中秋节的其中一层含义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-3",
+          "speaker": "奥菲利亚",
+          "text": "……让我想起了家乡农场的丰收之日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-4",
+          "speaker": "奥菲利亚",
+          "text": "金灿灿的麦浪在田野里涌动，到处是人们开心满足的笑脸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-5",
+          "speaker": "主人",
+          "text": "非常美好的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-6",
+          "speaker": "奥菲利亚",
+          "text": "嗯，这一天人们会用收获的作物装饰自己的家，在空地上举办盛大的宴会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-7",
+          "speaker": "奥菲利亚",
+          "text": "这种时候，我会和家里的哥哥姐姐一起围着篝火打闹、跳舞、讲故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-8",
+          "speaker": "主人",
+          "text": "真开心啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-9",
+          "speaker": "奥菲利亚",
+          "text": "我们也会结伴去田里抓野兔，抓到野兔的人据说会交上好运哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-10",
+          "speaker": "主人",
+          "text": "……兔子出现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-11",
+          "speaker": "奥菲利亚",
+          "text": "啊，这可不是月兔啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-12",
+          "speaker": "奥菲利亚",
+          "text": "也有说丰收之神就藏在收获期的麦田里的，在抓野兔的时候，说不定就能与她擦肩而过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-13",
+          "speaker": "主人",
+          "text": "或许她就躲在收割下来的麦穗里呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-14",
+          "speaker": "奥菲利亚",
+          "text": "唔，那不是能把丰收之神装进小袋子里，挂在脖子上了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-800-15",
+          "speaker": "主人",
+          "text": "可以哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 27。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-26",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 26"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-900-1",
+          "speaker": "奥菲利亚",
+          "text": "今天被恶猫袭击了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-2",
+          "speaker": "主人",
+          "text": "没事吧?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-3",
+          "speaker": "奥菲利亚",
+          "text": "不用担心，因为——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-4",
+          "speaker": "奥菲利亚",
+          "text": "在动用「艾米莉亚」之前，吾皇猫和巴扎黑就帮我把恶猫赶跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-5",
+          "speaker": "主人",
+          "text": "这样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-6",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫它们真的非常英勇啊……吾皇猫拍了下地面，巴扎黑就冲出去对恶猫使出了「冲撞」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-7",
+          "speaker": "主人",
+          "text": "哦哦哦，效果超群。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-8",
+          "speaker": "奥菲利亚",
+          "text": "然后巴扎黑就使出了「泰山压顶」，靠体重把恶猫逼退了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-9",
+          "speaker": "主人",
+          "text": "等下，怎么好像只有巴扎黑在对付恶猫啊……吾皇猫呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-900-10",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫……吾皇猫在我边上指挥巴扎黑。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 28。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-27",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 27"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1000-1",
+          "speaker": "奥菲利亚",
+          "text": "作为手办，经常要担心被猫袭击。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-2",
+          "speaker": "奥菲利亚",
+          "text": "但在原来的世界，我家的农场倒是经常被熊骚扰来着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-3",
+          "speaker": "主人",
+          "text": "熊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-4",
+          "speaker": "奥菲利亚",
+          "text": "是非常凶狠的棕熊哦，不光会践踏田地，还会毁坏农具。我们叫它「熊先生」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-5",
+          "speaker": "奥菲利亚",
+          "text": "爸爸会开着拖拉机去撵它，哥哥姐姐们会拿着草叉护着机器的侧翼，直到把它赶跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-6",
+          "speaker": "主人",
+          "text": "感觉……好厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1000-7",
+          "speaker": "奥菲利亚",
+          "text": "明明是童年的噩梦，现在想起来，却觉得很怀念呢。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 29。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-28",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 28"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "30",
+              "targetKind": "chat-node",
+              "text": "勇气很重要"
+            },
+            {
+              "targetId": "39",
+              "targetKind": "chat-node",
+              "text": "团结一心很美好"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-29",
+      "sourceRefs": [],
+      "title": "节点 29"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1101-1",
+          "speaker": "主人",
+          "text": "能够战胜熊这样强悍的大型猛兽，很了不起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-2",
+          "speaker": "奥菲利亚",
+          "text": "虽然熊先生很可怕，但在几次冲突之后，它却和我们保持着某种默契。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-3",
+          "speaker": "奥菲利亚",
+          "text": "它没再破坏我们的农具，我们偶尔也会给它提供一些蜂蜜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-4",
+          "speaker": "奥菲利亚",
+          "text": "有一次，它甚至帮我们赶跑了下山的野狼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-5",
+          "speaker": "主人",
+          "text": "好像变成了朋友呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-6",
+          "speaker": "奥菲利亚",
+          "text": "或许吧，但最后，无论是熊先生还是……都不在了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-7",
+          "speaker": "主人",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-8",
+          "speaker": "奥菲利亚",
+          "text": "啊不行，怎么突然感伤起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-9",
+          "speaker": "主人",
+          "text": "再给我讲讲熊先生的故事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-10",
+          "speaker": "奥菲利亚",
+          "text": "嗯，还有一次，我在林子里独自撞见了熊先生……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-11",
+          "speaker": "主人",
+          "text": "它没伤害到你吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-12",
+          "speaker": "奥菲利亚",
+          "text": "没有哦，它还护送我回家了呢，紧跟在我身后敦促我全力奔跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1101-13",
+          "speaker": "主人",
+          "text": "这是在被追杀吧！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 31。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-30",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 30"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1200-1",
+          "speaker": "奥菲利亚",
+          "text": "今天我和吾皇猫他们一起出门了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-2",
+          "speaker": "主人",
+          "text": "是去什么地方玩了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-3",
+          "speaker": "奥菲利亚",
+          "text": "不是去玩的，这次出行的目的是为了主人哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-4",
+          "speaker": "奥菲利亚",
+          "text": "我们在为回礼做调研。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-5",
+          "speaker": "主人",
+          "text": "！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-6",
+          "speaker": "奥菲利亚",
+          "text": "已经收了主人这么多的月饼，还不准备点回礼也太说不过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-7",
+          "speaker": "主人",
+          "text": "是吗，是什么样的回礼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-8",
+          "speaker": "奥菲利亚",
+          "text": "这个要保密。说出来的话就不是惊喜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-9",
+          "speaker": "主人",
+          "text": "那就让我好好期待一下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-10",
+          "speaker": "奥菲利亚",
+          "text": "说起来，路上还遇到了一位尊贵的女士呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-11",
+          "speaker": "奥菲利亚",
+          "text": "「汝等是不是在为【那个人类】准备礼物？」她是这么问的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-12",
+          "speaker": "主人",
+          "text": "这个口吻，有点熟悉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-13",
+          "speaker": "奥菲利亚",
+          "text": "我们如实地说了后，她露出了非常认真的表情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-14",
+          "speaker": "奥菲利亚",
+          "text": "「记好了，只有灌注心血的礼物才会有价值。」她说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-15",
+          "speaker": "主人",
+          "text": "过去开始攻击我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-16",
+          "speaker": "奥菲利亚",
+          "text": "「啧，那个人类还真是一如既往的花心啊。」她抱着胸口说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-17",
+          "speaker": "主人",
+          "text": "……那位尊贵的女士，是不是戴着红色的兜帽？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 32。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-31",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 31"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1300-1",
+          "speaker": "奥菲利亚",
+          "text": "今天依旧和吾皇猫他们在街上取材。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-2",
+          "speaker": "主人",
+          "text": "有遇到什么好事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-3",
+          "speaker": "奥菲利亚",
+          "text": "我们见到了巨大的月饼，不是手办意义上的巨大，而是人类意义上的巨大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-4",
+          "speaker": "主人",
+          "text": "哦……哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-5",
+          "speaker": "奥菲利亚",
+          "text": "周长足够好几个人类手拉手连起来，好像已经破了那个吉O斯记录。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-6",
+          "speaker": "主人",
+          "text": "好大……这得吃多久啊?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-7",
+          "speaker": "奥菲利亚",
+          "text": "哦，主人好像很感兴趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-8",
+          "speaker": "主人",
+          "text": "等等，我只是随便问问。\n",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-9",
+          "speaker": "主人",
+          "text": "……请务必别送我巨型月饼！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 33。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-32",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 32"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1400-1",
+          "speaker": "奥菲利亚",
+          "text": "之前主人为什么这么爽快地答应了我们的请求呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-2",
+          "speaker": "奥菲利亚",
+          "text": "突然说要做月饼什么的……明明可以直接拒绝的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-3",
+          "speaker": "主人",
+          "text": "理由不是挺显然的吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 34。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-33",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 33"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "35",
+              "targetKind": "chat-node",
+              "text": "因为吾皇猫"
+            },
+            {
+              "targetId": "36",
+              "targetKind": "chat-node",
+              "text": "因为奥菲利亚"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-34",
+      "sourceRefs": [],
+      "title": "节点 34"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1501-1",
+          "speaker": "主人",
+          "text": "因为这是吾皇猫的提议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-2",
+          "speaker": "奥菲利亚",
+          "text": "……是啊，毕竟是稀客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-3",
+          "speaker": "主人",
+          "text": "满足了吾皇猫和巴扎黑的愿望，你照顾它们也会轻松一些吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-4",
+          "speaker": "奥菲利亚",
+          "text": "倒不至于说是「照顾」，我们就像朋友一样在相处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-5",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫它们也非常感谢主人哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-35",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 35"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1502-1",
+          "speaker": "主人",
+          "text": "因为这是奥菲利亚的请求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-2",
+          "speaker": "奥菲利亚",
+          "text": "诶，我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-3",
+          "speaker": "主人",
+          "text": "既然把照顾吾皇猫它们的任务丢给了你，替你做一些事也是应该的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-4",
+          "speaker": "奥菲利亚",
+          "text": "这样啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-5",
+          "speaker": "主人",
+          "text": "我希望你能够感受到节日的温暖，奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-6",
+          "speaker": "奥菲利亚",
+          "text": "主人……谢谢你。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-36",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 36"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1600-1",
+          "speaker": "奥菲利亚",
+          "text": "不知不觉已经过了一周的时间了，中秋节也快到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-2",
+          "speaker": "主人",
+          "text": "是啊，做月饼的时间好像过得特别快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-3",
+          "speaker": "奥菲利亚",
+          "text": "订单完成得差不多了，我们回礼的材料也已经准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-4",
+          "speaker": "奥菲利亚",
+          "text": "在满月的夜晚，主人就会收到我们精心准备的月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-5",
+          "speaker": "主人",
+          "text": "果然也是月饼!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-6",
+          "speaker": "奥菲利亚",
+          "text": "嘿嘿，届时请主人去阳台上看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-7",
+          "speaker": "奥菲利亚",
+          "text": "乘着晚风，披着月光，主人的礼物将静候在旁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-8",
+          "speaker": "主人",
+          "text": "阳台……礼物是用无人机送过来的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-9",
+          "speaker": "奥菲利亚",
+          "text": "……总感觉解释了就没有神秘感了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1600-10",
+          "speaker": "奥菲利亚",
+          "text": "总之，到时候请主人好好享用吧！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 38。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-37",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 37"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1800-1",
+          "speaker": "奥菲利亚",
+          "text": "主人，月饼应该已经到了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-2",
+          "speaker": "主人",
+          "text": "好，我去取一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-3",
+          "speaker": "主人",
+          "text": "……奥菲利亚？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-4",
+          "speaker": "奥菲利亚",
+          "text": "我在的，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-5",
+          "speaker": "主人",
+          "text": "……能给我解释一下我的处境吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-6",
+          "speaker": "主人",
+          "text": "现在我的肩膀好像被什么厚重的东西搭着……后颈还感受到了一股温热的气息！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-7",
+          "speaker": "奥菲利亚",
+          "text": "主人可以回头看看哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-8",
+          "speaker": "主人",
+          "text": "……这只熊是怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-9",
+          "speaker": "奥菲利亚",
+          "text": "这是仿照熊先生的外形做的可动抱抱熊，还配备了远程遥控功能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-10",
+          "speaker": "主人",
+          "text": "我看到它张开大嘴，嘴里躺着包装好的月饼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-11",
+          "speaker": "奥菲利亚",
+          "text": "哦哦，月饼终于出现了，快打开看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-12",
+          "speaker": "主人",
+          "text": "好吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-13",
+          "speaker": "主人",
+          "text": "是卡通熊形状的月饼……棕色的部分是巧克力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-14",
+          "speaker": "奥菲利亚",
+          "text": "没错，这是之前遇到的那位尊贵的女士所传授的技巧哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-15",
+          "speaker": "奥菲利亚",
+          "text": "将巧克力的丝滑柔顺与月饼丰富的层次感完美地融合在了一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-16",
+          "speaker": "主人",
+          "text": "那先谢谢艾伦兹了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-17",
+          "speaker": "奥菲利亚",
+          "text": "既然这是讨人厌的熊先生，请主人务必大口大口地吃掉它！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-18",
+          "speaker": "主人",
+          "text": "在熊的注视下吃掉熊头形状的月饼……这真的很奇怪啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1800-19",
+          "speaker": "主人",
+          "text": "唔……还挺好吃的？",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·熊熊奇遇",
+          "type": "heading"
+        }
+      ],
+      "id": "node-38",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 38 · 结局·熊熊奇遇"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1102-1",
+          "speaker": "主人",
+          "text": "因为那是在和家人齐心协力守护家园吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-2",
+          "speaker": "奥菲利亚",
+          "text": "或许是吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-3",
+          "speaker": "奥菲利亚",
+          "text": "那时候有家人在身边，就觉得自己有用不完的勇气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-4",
+          "speaker": "主人",
+          "text": "我能够理解这种感受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-5",
+          "speaker": "奥菲利亚",
+          "text": "只是现在……已经只能在记忆里重温了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-6",
+          "speaker": "主人",
+          "text": "过去的事已经过去了，但我们会一起创造出新的回忆的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-7",
+          "speaker": "主人",
+          "text": "如果感到孤独的话，其他手办和我会陪在你的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-8",
+          "speaker": "奥菲利亚",
+          "text": "唔……主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-9",
+          "speaker": "主人",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1102-10",
+          "speaker": "奥菲利亚",
+          "text": "突然说这样的话，我真的会哭出来的……真的。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 40。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-39",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 39"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1200-1",
+          "speaker": "奥菲利亚",
+          "text": "今天我和吾皇猫他们一起出门了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-2",
+          "speaker": "主人",
+          "text": "是去什么地方玩了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-3",
+          "speaker": "奥菲利亚",
+          "text": "不是去玩的，这次出行的目的是为了主人哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-4",
+          "speaker": "奥菲利亚",
+          "text": "我们在为回礼做调研。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-5",
+          "speaker": "主人",
+          "text": "！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-6",
+          "speaker": "奥菲利亚",
+          "text": "已经收了主人这么多的月饼，还不准备点回礼也太说不过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-7",
+          "speaker": "主人",
+          "text": "是吗，是什么样的回礼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-8",
+          "speaker": "奥菲利亚",
+          "text": "这个要保密。说出来的话就不是惊喜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-9",
+          "speaker": "主人",
+          "text": "那就让我好好期待一下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-10",
+          "speaker": "奥菲利亚",
+          "text": "说起来，路上还遇到了一位尊贵的女士呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-11",
+          "speaker": "奥菲利亚",
+          "text": "「汝等是不是在为【那个人类】准备礼物？」她是这么问的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-12",
+          "speaker": "主人",
+          "text": "这个口吻，有点熟悉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-13",
+          "speaker": "奥菲利亚",
+          "text": "我们如实地说了后，她露出了非常认真的表情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-14",
+          "speaker": "奥菲利亚",
+          "text": "「记好了，只有灌注心血的礼物才会有价值。」她说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-15",
+          "speaker": "主人",
+          "text": "过去开始攻击我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-16",
+          "speaker": "奥菲利亚",
+          "text": "「啧，那个人类还真是一如既往的花心啊。」她抱着胸口说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1200-17",
+          "speaker": "主人",
+          "text": "……那位尊贵的女士，是不是戴着红色的兜帽？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 41。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-40",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 40"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1300-1",
+          "speaker": "奥菲利亚",
+          "text": "今天依旧和吾皇猫他们在街上取材。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-2",
+          "speaker": "主人",
+          "text": "有遇到什么好事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-3",
+          "speaker": "奥菲利亚",
+          "text": "我们见到了巨大的月饼，不是手办意义上的巨大，而是人类意义上的巨大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-4",
+          "speaker": "主人",
+          "text": "哦……哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-5",
+          "speaker": "奥菲利亚",
+          "text": "周长足够好几个人类手拉手连起来，好像已经破了那个吉O斯记录。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-6",
+          "speaker": "主人",
+          "text": "好大……这得吃多久啊?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-7",
+          "speaker": "奥菲利亚",
+          "text": "哦，主人好像很感兴趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-8",
+          "speaker": "主人",
+          "text": "等等，我只是随便问问。\n",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1300-9",
+          "speaker": "主人",
+          "text": "……请务必别送我巨型月饼！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 42。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-41",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 41"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1400-1",
+          "speaker": "奥菲利亚",
+          "text": "之前主人为什么这么爽快地答应了我们的请求呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-2",
+          "speaker": "奥菲利亚",
+          "text": "突然说要做月饼什么的……明明可以直接拒绝的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1400-3",
+          "speaker": "主人",
+          "text": "理由不是挺显然的吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 43。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-42",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 42"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "44",
+              "targetKind": "chat-node",
+              "text": "因为吾皇猫"
+            },
+            {
+              "targetId": "45",
+              "targetKind": "chat-node",
+              "text": "因为奥菲利亚"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-43",
+      "sourceRefs": [],
+      "title": "节点 43"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1501-1",
+          "speaker": "主人",
+          "text": "因为这是吾皇猫的提议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-2",
+          "speaker": "奥菲利亚",
+          "text": "……是啊，毕竟是稀客。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-3",
+          "speaker": "主人",
+          "text": "满足了吾皇猫和巴扎黑的愿望，你照顾它们也会轻松一些吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-4",
+          "speaker": "奥菲利亚",
+          "text": "倒不至于说是「照顾」，我们就像朋友一样在相处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1501-5",
+          "speaker": "奥菲利亚",
+          "text": "吾皇猫它们也非常感谢主人哦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 46。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-44",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 44"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1502-1",
+          "speaker": "主人",
+          "text": "因为这是奥菲利亚的请求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-2",
+          "speaker": "奥菲利亚",
+          "text": "诶，我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-3",
+          "speaker": "主人",
+          "text": "既然把照顾吾皇猫它们的任务丢给了你，替你做一些事也是应该的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-4",
+          "speaker": "奥菲利亚",
+          "text": "这样啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-5",
+          "speaker": "主人",
+          "text": "我希望你能够感受到节日的温暖，奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1502-6",
+          "speaker": "奥菲利亚",
+          "text": "主人……谢谢你。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 47。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-45",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 45"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-1900-1",
+          "speaker": "奥菲利亚",
+          "text": "「不太熟的人类，快去阳台领取我的打赏。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-2",
+          "speaker": "主人",
+          "text": "好的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-3",
+          "speaker": "奥菲利亚",
+          "text": "「随便做的，但保证好吃得让你合不拢嘴。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-4",
+          "speaker": "主人",
+          "text": "你是在模仿谁讲话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-5",
+          "speaker": "主人",
+          "text": "……看到月饼上的装饰，我好像知道答案了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-6",
+          "speaker": "奥菲利亚",
+          "text": "这是吾皇猫想对主人说的话哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-7",
+          "speaker": "主人",
+          "text": "确实像是它的风格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-8",
+          "speaker": "奥菲利亚",
+          "text": "这些月饼要归功给吾皇猫和巴扎黑，我只是帮它们打打下手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-9",
+          "speaker": "奥菲利亚",
+          "text": "虽然看上去有点粗糙，但也是失败了很多次才终于做好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-10",
+          "speaker": "主人",
+          "text": "我尝尝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-11",
+          "speaker": "主人",
+          "text": "嗯，口感很不错，甜度和咸度控制得刚刚好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-12",
+          "speaker": "奥菲利亚",
+          "text": "太好了，主人的夸奖我会如实传达给路上的吾皇猫它们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-13",
+          "speaker": "主人",
+          "text": "等一下，它们在路上？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-14",
+          "speaker": "奥菲利亚",
+          "text": "嗯嗯，它们要来陪主人过节哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-1900-15",
+          "speaker": "主人",
+          "text": "……已经听到了敲门的声音！",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·萌主倾心",
+          "type": "heading"
+        }
+      ],
+      "id": "node-46",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "1900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 46 · 结局·萌主倾心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29002-2000-1",
+          "speaker": "奥菲利亚",
+          "text": "主人，可以去阳台取月饼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-2",
+          "speaker": "主人",
+          "text": "……好大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-3",
+          "speaker": "主人",
+          "text": "等下，这还是月饼吗？这长得好像你的大炮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-4",
+          "speaker": "奥菲利亚",
+          "text": "她叫「艾米莉亚」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-5",
+          "speaker": "主人",
+          "text": "原来如此……炮管是用面包做成的，造型很有创意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-6",
+          "speaker": "主人",
+          "text": "等下，上面居然还有发声装置吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-7",
+          "speaker": "奥菲利亚",
+          "text": "是在「艾米莉亚」启动时零距离录下来的高保真炮声呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-8",
+          "speaker": "主人",
+          "text": "倒也不用这么真实吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-9",
+          "speaker": "奥菲利亚",
+          "text": "主人快尝尝，快尝尝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-10",
+          "speaker": "主人",
+          "text": "……非常好吃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-11",
+          "speaker": "主人",
+          "text": "入口的瞬间，蜂蜜的味道就在口腔里荡漾开来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-12",
+          "speaker": "主人",
+          "text": "咸味和甜味妙到毫巅的配比……味蕾好像要融化了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-13",
+          "speaker": "奥菲利亚",
+          "text": "主人喜欢就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-14",
+          "speaker": "奥菲利亚",
+          "text": "……今夜的月亮，确实非常明亮呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-15",
+          "speaker": "主人",
+          "text": "是啊，今晚月色真美。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-16",
+          "speaker": "奥菲利亚",
+          "text": "……主人，还记得我们聊起过月兔的事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-17",
+          "speaker": "主人",
+          "text": "当然记得，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-18",
+          "speaker": "奥菲利亚",
+          "text": "月兔是真实存在的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-19",
+          "speaker": "主人",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-20",
+          "speaker": "奥菲利亚",
+          "text": "不信的话，你就看看门外吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-21",
+          "speaker": "主人",
+          "text": "……门铃怎么响了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29002-2000-22",
+          "speaker": "奥菲利亚",
+          "text": "因为有一只月兔正在你的房间外，等着你哦。",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·「艾米莉亚」",
+          "type": "heading"
+        }
+      ],
+      "id": "node-47",
+      "sourceRefs": [
+        {
+          "detailId": "29002",
+          "sectionId": "2000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 47 · 结局·「艾米莉亚」"
+    }
+  ],
+  "source": {
+    "kind": "chat-story",
+    "refs": [
+      {
+        "detailId": "29002",
+        "table": "ResOpActivityChatGamePlot"
+      },
+      {
+        "detailId": "29002",
+        "table": "ResOpActivityChatGameSection"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "聊天剧情与全部结局",
+  "wordCount": 7255
+}

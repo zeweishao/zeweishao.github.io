@@ -1,0 +1,159 @@
+{
+  "bookId": "hero-215004",
+  "id": "bond-27515",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27515001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "下雪了呢，久违的雪的世界，美好洁净的世界。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27515003",
+              "text": "看得出来你真的很喜欢雪。"
+            }
+          ],
+          "sourceId": "27515002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27515003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我的故乡常年飘雪，看到雪花就会让我感到莫名的亲切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27515004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "除了冷一点，下雪没什么不好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27515005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "也许，你可以试试北阿罗拉人在雪天的「特别节目」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27515007",
+              "text": "会是什么呢？"
+            }
+          ],
+          "sourceId": "27515006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27515007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "小雪人们已经有些迫不及待了呢，我们也一起加入吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27515009",
+              "text": "这不就是堆雪人吗？"
+            }
+          ],
+          "sourceId": "27515008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27515009",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "在我的故乡北阿罗拉，堆雪人是一件充满仪式感的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27515010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我们会和自己亲近的友人、家人一起，为女神阿罗拉修建一座冰雪城堡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27515011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "以此来感激女神阿罗拉赐予我们的福泽与护佑。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27515013",
+              "text": "唔哇，这可是大工程啊。"
+            }
+          ],
+          "sourceId": "27515012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27515013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "时间还早，我们可以慢慢享受整个过程。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27515",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27515001,
+            27515002,
+            27515003,
+            27515004,
+            27515005,
+            27515006,
+            27515007,
+            27515008,
+            27515009,
+            27515010,
+            27515011,
+            27515012,
+            27515013
+          ],
+          "sectionId": 27515
+        }
+      ],
+      "title": "雀跃的雪"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "雀跃的雪",
+  "wordCount": 242
+}

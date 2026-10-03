@@ -1,0 +1,273 @@
+{
+  "bookId": "archive-zhuangbeita",
+  "id": "section-31650",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "31650001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么这里会出现向上的楼梯，还有一扇奇怪的门？\n我不是在御三家商场大楼的顶层吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不知道为什么，这扇门......给人一种熟悉的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31650004",
+              "text": "迈步向前"
+            },
+            {
+              "targetId": "31650004",
+              "text": "赶紧离开"
+            }
+          ],
+          "sourceId": "31650003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31650004",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "站住，不准乱动！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31650006",
+              "text": "好的！"
+            },
+            {
+              "targetId": "31650006",
+              "text": "谁在那？"
+            }
+          ],
+          "sourceId": "31650005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31650006",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "不像野猫，不像小偷，也不像运货机器......\n难道你是......客、客人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650007",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "终于......有......有客人来了！\n传说中万里挑一的尊贵顾客，真的是您吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650008",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "来来，快请进！我去准备热茶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等，你先告诉我，这是什么地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650010",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "这里？当然是御三家顶楼——位于51层的珍品收藏室啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是众所周知，御三家大楼只有50层！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650012",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "为什么这样说？你有数过吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31650014",
+              "text": "没有。"
+            },
+            {
+              "targetId": "31650019",
+              "text": "数过。"
+            }
+          ],
+          "sourceId": "31650013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31650014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......我没数过。\n没有人会做这种傻事的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650015",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "御三家第51层是对外隐藏的贵宾室，全部御宅珍品都集中存放在这里。它们等待着逛遍前50层全部店铺，真正热爱手办的「被选中的客人」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "前50层我何止是逛遍，都已经逛过无数遍了啊......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650017",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "所以，您就是我们要找的人！好激动！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31650026",
+              "text": "踏入门内"
+            }
+          ],
+          "sourceId": "31650018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31650019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "数过啊。\n我还拍成照片打印出来，手写给每一层编号——就是50层没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650020",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "居然真有这么较真的人存在吗......\n不过就算你数了，也是白费力气而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650022",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "啊，我是说！你数到的无非是有窗户的楼层，但51层精品收藏室的陈列物，全都是需要避光恒温保存的高级货哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650023",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "正因如此，唯有逛遍前50层全部店铺的，真正热爱手办的「被选中的客人」，才会有资格来到这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "的确，这一层楼的构造很奇特，完全没有设计窗户，光线昏暗......\n我觉得，简直就像身处巨型手办盒的内部。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650025",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "还等什么，快进来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31650026",
+          "sourceType": 0,
+          "speaker": "奇怪的店员",
+          "text": "珍品收藏室终于要迎来第一位客人了，请沉浸在圣遗物级别的精品中，尽情挥洒感动与渴望的泪水吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "31650",
+      "sourceRefs": [
+        {
+          "bundle": "zhuangbeita",
+          "rowIds": [
+            31650001,
+            31650002,
+            31650003,
+            31650004,
+            31650005,
+            31650006,
+            31650007,
+            31650008,
+            31650009,
+            31650010,
+            31650011,
+            31650012,
+            31650013,
+            31650014,
+            31650015,
+            31650016,
+            31650017,
+            31650018,
+            31650019,
+            31650020,
+            31650021,
+            31650022,
+            31650023,
+            31650024,
+            31650025,
+            31650026
+          ],
+          "sectionId": 31650
+        }
+      ],
+      "title": "原文片段 31650"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "zhuangbeita",
+        "sectionId": 31650
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 31650",
+  "wordCount": 676
+}

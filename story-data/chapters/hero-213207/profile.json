@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213207",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "活力洋溢的街头艺术家，炫彩光子「可露莎」化身为1/7比例模型登场！\n辗转于沦陷城市的大街小巷，喷涂最为绚丽的色彩。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213207"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 56
+}

@@ -1,0 +1,149 @@
+{
+  "bookId": "hero-212205",
+  "id": "bond-35316",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35316001",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "哦！茱丽叶！为什么你是茱丽叶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316002",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "不！罗密欧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳咳……那个……我是不是打扰你们排练了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316004",
+          "sourceType": 5,
+          "speaker": "徕卡",
+          "text": "我们完了！凯普莱特家里的人来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316005",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "好罗密欧，躲起来吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那要不我先走吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316007",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "让我们谈谈，天还没有亮呢！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35316009",
+              "text": "好吧，我只是想说——"
+            }
+          ],
+          "sourceId": "35316008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35316009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "可是在巡逻兵没有出发之前，你必须及早离开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧，我只是想说有一张手办戏剧节的票，你们感兴趣吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35316011",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "您来得正好！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35316013",
+              "text": "那门票我就放这里了。"
+            }
+          ],
+          "sourceId": "35316012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35316013",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "您不必急着要走，再耽搁一会儿吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35316",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35316001,
+            35316002,
+            35316003,
+            35316004,
+            35316005,
+            35316006,
+            35316007,
+            35316008,
+            35316009,
+            35316010,
+            35316011,
+            35316012,
+            35316013
+          ],
+          "sectionId": 35316
+        }
+      ],
+      "title": "罗密欧与茱丽叶"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "罗密欧与茱丽叶",
+  "wordCount": 178
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212111",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "上元佳节，灯火如昼。\n河畔桥头，挤满了放灯祈福的人们。\n\n龙缨也学着人类的模样，将一枚河灯轻巧地推入水中。\n\n愿能早日找回华焱仙子。\n愿普天之下皆是太平盛世。\n愿邪祟恶念从此不再为祸人间。\n\n烛火飘远，少女蓦地怔住——\n许下这么多心愿，只放一枚河灯，怕是不够？",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "灯如昼Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212111",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "龙缨·灯如昼Ver.",
+  "title": "灯如昼Ver.",
+  "wordCount": 120
+}

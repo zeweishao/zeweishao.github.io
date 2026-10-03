@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214013",
+  "id": "bond-26059",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26059001",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "这间小屋是……主人送给我的礼物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么样，会惊喜吗？算是给拉斐尔要送我的那副画的回礼哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059003",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "可是，我给主人的画……还没有画好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那是因为拉斐尔想要画出最好的我，所以才慢了些不是吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059005",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "不，我只是觉得，画的慢一点的话……就可以……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "拉斐尔的画，现在是什么进度了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059007",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "现在……已经画好一大半了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我可以先看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059009",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "只要主人想看的话，当然可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "画的真不错，特别是这双眼睛，不多不少正好两个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059011",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "……？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈，开个玩笑。拉斐尔画的真好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对了，拉斐尔如果以后还想要我来做模特，还可以来找我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059014",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "……真的还可以吗……？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26059015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26059",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26059001,
+            26059002,
+            26059003,
+            26059004,
+            26059005,
+            26059006,
+            26059007,
+            26059008,
+            26059009,
+            26059010,
+            26059011,
+            26059012,
+            26059013,
+            26059014,
+            26059015
+          ],
+          "sectionId": 26059
+        }
+      ],
+      "title": "模特的约定"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "模特的约定",
+  "wordCount": 244
+}

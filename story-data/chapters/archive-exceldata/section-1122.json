@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1122",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1122001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，圈子已经开启啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1122002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "圈子里有很多像主人一样喜欢手办的人类呢，大家聚在一起，真是太好啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1122003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人快来加入圈子，或者创建一个属于自己的圈子吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1122",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1122001,
+            1122002,
+            1122003
+          ],
+          "sectionId": 1122
+        }
+      ],
+      "title": "原文片段 1122"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1122
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1122",
+  "wordCount": 70
+}

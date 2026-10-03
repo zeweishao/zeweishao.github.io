@@ -1,0 +1,128 @@
+{
+  "bookId": "archive-honglong",
+  "id": "section-4242",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4242001",
+          "sourceType": 3,
+          "text": "回忆——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "4242002",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·黑",
+          "text": "龙的身躯可以将大海填平，甩动尾巴可以覆灭城镇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242003",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·黑",
+          "text": "谁能战胜龙族，就能名扬四海。这次，我的机会可算来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242004",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·熊",
+          "text": "是我先发现的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242005",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·黑",
+          "text": "我的腿先到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242006",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·熊",
+          "text": "我的灰尘先落地的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242007",
+          "sourceType": 0,
+          "speaker": "屠龙勇士·黑",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这就是战争的开始，人类与龙族、最终人类与人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你见证了这期间无数的杀伐，满地的鲜红，多到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "啊呼，看你们打架真是太无聊了，还不如睡觉。于是她去睡觉，这一睡就四百年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "当龙再次醒来，她遇到了一个卑鄙无耻的人族小人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4242012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "在这个人族的诱骗下，龙被迫签订契约，成为了城镇的守护者。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4242",
+      "sourceRefs": [
+        {
+          "bundle": "honglong",
+          "rowIds": [
+            4242001,
+            4242002,
+            4242003,
+            4242004,
+            4242005,
+            4242006,
+            4242007,
+            4242008,
+            4242009,
+            4242010,
+            4242011,
+            4242012
+          ],
+          "sectionId": 4242
+        }
+      ],
+      "title": "原文片段 4242"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "honglong",
+        "sectionId": 4242
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 4242",
+  "wordCount": 211
+}

@@ -1,0 +1,1191 @@
+{
+  "bookId": "rewind-25",
+  "id": "chapter-98",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24000001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「咯吱，咯吱」，魔王的脚步声近了。\n小女孩蜷在衣柜里，绝望地等待厄运降临。一秒，两秒......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "好安静，难道这次逃过一劫？\n她鼓足勇气将柜门推开一条缝，忽然，一双冰冷的手攀上她的脖颈......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "找到你了，小朋友——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜哇啊啊啊——！！！走、走开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "哈莉，你这样吓优纪，她会做噩梦的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "切~优纪又不是小孩子。\n就算真有魔王，也不会比天启那群人更欠揍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好了，和江，继续讲《月之森》后面的故事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "魔王念起咒语，女孩痛苦地蜷缩身体，发出「呜呜」的呻吟。\n头上长角，脊背伸直，她被变成了一只麋鹿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000009",
+          "sourceType": 3,
+          "text": "「呜呜呜，呜呜......」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24000010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘘——你们听，真的有痛苦的呻吟声！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是从窗户外面传来的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "24000013",
+              "text": "我去看看。"
+            }
+          ],
+          "sourceId": "24000012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "24000013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "呜呜呜！呜呜！（笨蛋姐妹，快放开本王！）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000014",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "屡教不改的绑架犯，你把樱藏到哪里去了，快说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000015",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐姐，她的嘴还被堵着......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "噗哈！笨蛋姐妹，本王什么都不知道！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "24000018",
+              "text": "怎么回事？"
+            }
+          ],
+          "sourceId": "24000017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "24000018",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "樱不见了，我们当然要找她算账。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奇怪......以莉可的性格，如果真的做了，应该会得意地承认吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "为什么你们认为，是莉可绑架了樱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000021",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "类似的事情哪次不是她做的，惯犯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000022",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "还有一张......樱留下的字条，在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000023",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "没错！字条上有涂鸦——穿紫色披风，头上长犄角，绝对是坏蛋魔王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000024",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "画得好丑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，等等，这涂鸦怎么看都像是......阿尔弗雷德？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000026",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "管理局的皮衣墨镜大叔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么一说我也觉得，那不是犄角，而是造型奇特的黑超吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24000028",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "啊哈~事情变得有趣起来了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-542",
+      "sourceRefs": [
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24000001,
+            24000002,
+            24000003,
+            24000004,
+            24000005,
+            24000006,
+            24000007,
+            24000008,
+            24000009,
+            24000010,
+            24000011,
+            24000012,
+            24000013,
+            24000014,
+            24000015,
+            24000016,
+            24000017,
+            24000018,
+            24000019,
+            24000020,
+            24000021,
+            24000022,
+            24000023,
+            24000024,
+            24000025,
+            24000026,
+            24000027,
+            24000028
+          ],
+          "sectionId": 24000
+        }
+      ],
+      "title": "演员招募·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24001001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以说，字条上的涂鸦是阿尔弗雷德？他为什么要让樱「乖乖被绑架」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "打不通......阿尔弗雷德不接电话。\n不过根据10分钟前上传自拍的定位，他应该在飞艇工厂仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "走，里惠，我们现在就去找他问清楚！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001004",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐姐，莉可......怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "等我们找到樱的下落，再回来给她松绑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "开什么玩笑，我也要去！\n如果是他干的，本王要亲手把他揍扁！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "尤娜、里惠！......跑掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "管理局没有理由绑架樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可尤娜那么着急，恐怕会直接动手......\n主人，我有点担心，想跟上去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也好。\n如果有什么意外，及时联系我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，放心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24001012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "太期待了，待会打起来，哈莉要帮谁呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "樱——你在哪——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002002",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐姐......那扇门后面，有动静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002003",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "呜呜呜，魔王大人，求求你饶了大家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002004",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "魔、魔王大人？竟敢让樱说出这种话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "还等什么，里惠，和我一起把门撞开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002006",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "好的，姐姐！我……我会努力的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002007",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "小心，有敌人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002008",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "那是什么......飞、飞碟？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002009",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐姐，快趴下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002010",
+          "sourceType": 3,
+          "text": "嘭——咣当！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24002011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "被压住了，动不了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "好大的......铁饼，里惠，你怎么变成两个了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24002013",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "姐姐，醒醒啊——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-543",
+      "sourceRefs": [
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24001001,
+            24001002,
+            24001003,
+            24001004,
+            24001005,
+            24001006,
+            24001007,
+            24001008,
+            24001009,
+            24001010,
+            24001011,
+            24001012
+          ],
+          "sectionId": 24001
+        },
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24002001,
+            24002002,
+            24002003,
+            24002004,
+            24002005,
+            24002006,
+            24002007,
+            24002008,
+            24002009,
+            24002010,
+            24002011,
+            24002012,
+            24002013
+          ],
+          "sectionId": 24002
+        }
+      ],
+      "title": "演员招募·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24003001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉从门缝看到了，樱被麻绳绑在椅子上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24003002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "别着急现身，再观察一下情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24003003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "谁在那？出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24003004",
+          "sourceType": 7,
+          "text": "酒井唯 · 魔鬼教练\n商品名称：魔鬼教练·酒井唯Ver.  \n作品名称：《少女X机关枪》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约238mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "24003005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "糟糕，被发现了吗？\n对手看起来很强，要上了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004001",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "哈莉！不是铁饼，不是飞碟，是超大杠铃片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004002",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "哈莉！不是绑匪，不是魔王，是教练员小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿吼~难怪眼熟，是你这家伙啊——酒井唯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004004",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "哦——？哈莉！\n呵，你还是老样子啊——总是出现在麻烦的场合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "太有意思啦，上上次见面这家伙是军人，上次是教练，这次是绑架犯！\n下次会变成什么呢——巨型老鼠干，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "绑架犯？你们愚蠢的树脂脑袋被灌了肥皂水吗。\n这位是《月之森》剧场总导演，酒井唯小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "《月之森》，那个有名的童话？导演？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉不喜欢导演，哈莉喜欢巨型老鼠干。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们看墙上的海报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004010",
+          "sourceType": 3,
+          "text": "「登记手办数量破万纪念活动——《月之森》主题沉浸式剧场，演员试镜，主办方——管理局。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "24004011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们好像......误会了什么呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "演员？樱是来试镜演员？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004013",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "她这次......没有被坏人骗走，太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004014",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "好人姐姐，莉可！樱在和导演姐姐对台词嘎！\n啊，这件新衣服好看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "喂！知不知道你乱跑出去害得本王多惨！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004016",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "对、对不起，添麻烦了吗？\n但是，樱和莉可排练过很多次绑架啦，一定很适合这份工作！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "应该......只有这一次是在演戏吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004018",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "好了，休息结束，试镜继续。下一幕是——魔王活捉小黄鸭！\n说，力量徽章是谁给你的，不老实交代就要挨打。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004019",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "呜呜，痛！魔王大人，可不可以不要这么用力呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24004020",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "真是的，我已经忍无可忍了！冒牌货，给我住手！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-544",
+      "sourceRefs": [
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24003001,
+            24003002,
+            24003003,
+            24003004,
+            24003005
+          ],
+          "sectionId": 24003
+        },
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24004001,
+            24004002,
+            24004003,
+            24004004,
+            24004005,
+            24004006,
+            24004007,
+            24004008,
+            24004009,
+            24004010,
+            24004011,
+            24004012,
+            24004013,
+            24004014,
+            24004015,
+            24004016,
+            24004017,
+            24004018,
+            24004019,
+            24004020
+          ],
+          "sectionId": 24004
+        }
+      ],
+      "title": "演员招募·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24005001",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "海报上写，剧组还在招演员，没错吧？\n我们就来比试比试，本王和你谁更像魔王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005002",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "演戏是个体力活，娇气的小公主可受不了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，你是在小瞧磨坊堡主人的实力吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "喂，小东西，你想清楚，那家伙的严格程度可不是说着玩的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "连哈莉都觉得严格？是有多夸张啊......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "废话少说，开始试镜吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005007",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "你通过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哎？这、这么快就被本王的气质折服了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005009",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "来，在这张同意书上签个字，你就正式算是剧组的一员了。\n莉可，今后请多关照哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005010",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "看来我们的演员招募问题已经解决了，阿尔弗雷德先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "编剧，你迟到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005012",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "不如说来得正是时候。三位，请留步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "什么事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005014",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "这张演员邀请函，请转交给|101|。\n我相信，他会对我推荐的角色感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎？！邀请主人做演员吗？其他手办会害怕的吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人最近很忙，没时间排戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005017",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "可疑！为什么一定要邀请人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005018",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "他无疑是最适合的人选。森林之神之于小动物，人类之于手办，不觉得这两个场景有微妙的契合吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘘——！主人打过来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005020",
+          "sourceType": 13,
+          "speaker": "玩家",
+          "text": "怎么样，你们找到樱了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找到了，管理局要办《月之森》剧场，樱只是来试镜......对了，编剧尤兰达小姐想请主人也演一个角色——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005022",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "万物主宰，「森林之神」。|101|作为客串嘉宾，无需参加排练。\n演出当天到场，站在隐蔽处读完台词就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005023",
+          "sourceType": 13,
+          "speaker": "玩家",
+          "text": "只需要空出一晚上时间的话，应该没问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005024",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "看来邀约很顺利呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪也要报名演员试镜！\n这样就能......让主人看到我的表演了，嘿嘿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005026",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我也加入。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005027",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "明智的选择，你们抓住了珍贵的机遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005028",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "一起一起！啊哈~酒井唯导演的剧场，一定能痛快地打仗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不、不是「打架」，而是「打仗」吗？\n说起来，哈莉和酒井唯早就认识？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005030",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "是老战友。她退役做了教练，接着又在「萤火小队」遇见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005031",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "真怀念啊，那段战场上的日子。\n她向长官打我的小报告，我往她被子里放老鼠干。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24005032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊哈哈，关系......真好？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-545",
+      "sourceRefs": [
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24005001,
+            24005002,
+            24005003,
+            24005004,
+            24005005,
+            24005006,
+            24005007,
+            24005008,
+            24005009,
+            24005010,
+            24005011,
+            24005012,
+            24005013,
+            24005014,
+            24005015,
+            24005016,
+            24005017,
+            24005018,
+            24005019,
+            24005020,
+            24005021,
+            24005022,
+            24005023,
+            24005024,
+            24005025,
+            24005026,
+            24005027,
+            24005028,
+            24005029,
+            24005030,
+            24005031,
+            24005032
+          ],
+          "sectionId": 24005
+        }
+      ],
+      "title": "演员招募·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "24006001",
+          "sourceType": 0,
+          "speaker": "真恋·星梦小夜曲",
+          "text": "有咲，我们来晚了，其他演员已经到了......\n我扮演的角色是麋鹿，请多关照。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006002",
+          "sourceType": 0,
+          "speaker": "神宫有咲·牧狼农场",
+          "text": "我们狼族要带领整个森林反抗魔王，别掉队哟，跟班们~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "很好，全员到齐。全体都有，立正！向前看齐！\n不错，很有精神。先绕场跑一圈热个身！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006004",
+          "sourceType": 0,
+          "speaker": "真恋·星梦小夜曲",
+          "text": "绕场？可是，这里是游乐园，要绕哪里跑呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "没错，我们的场地就是——整座游乐园！\n一二一二，动起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006006",
+          "sourceType": 0,
+          "speaker": "神宫有咲·牧狼农场",
+          "text": "整、整座游乐园？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，果然是弱小的平民，一点运动量就吓成这样。\n是时候展现魔王的实力了，冲呀——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哈......哈啊......之前怎么没觉得......游乐园......有这么大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006009",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "樱......没有力气了......莉可，还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006010",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "咳、咳咳咳咳......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "......先让本王......喘一会儿......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006012",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "35分32秒，太慢了！\n热身结束，现在翻开剧本第一幕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，终于进入正题了，现在开始，你们都要叫我魔王大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006014",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "安静！游客扮演的旅客入场后，会遇到可怜的小动物。\n这时魔王出场，向小动物示威。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006015",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "鸭子、麋鹿和狼人，你们在这条路上分散开，准备接戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "等等！剧本上写：「魔王帅气地从天而降，小动物被吓得逃走」......\n小动物都在不同地方，我怎么吓她们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006017",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "为了让陆续入场的游客跟上剧情，魔王要一直往返跑，遇到动物就停下来示威。\n总共也就一公里的路程，不远的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006018",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "才一公里嘛，还以为有多......\n等等，你说的该不会是，人类世界的一公里吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006019",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "回答正确！废话少说，动起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006020",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "要、要......不行了......明明，还只是第一幕而已......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006021",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘻嘻，不听哈莉的话就要吃苦头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006022",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哈啊......导演......到底是......什么来头？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "24006023",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "魔鬼酒井唯，白堡皇家军事学院最恐怖的教练。\n小东西，祝你好运吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-546",
+      "sourceRefs": [
+        {
+          "bundle": "jiujingwei",
+          "rowIds": [
+            24006001,
+            24006002,
+            24006003,
+            24006004,
+            24006005,
+            24006006,
+            24006007,
+            24006008,
+            24006009,
+            24006010,
+            24006011,
+            24006012,
+            24006013,
+            24006014,
+            24006015,
+            24006016,
+            24006017,
+            24006018,
+            24006019,
+            24006020,
+            24006021,
+            24006022,
+            24006023
+          ],
+          "sectionId": 24006
+        }
+      ],
+      "title": "演员招募·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 98,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 98,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "74",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "管理局新企划",
+  "title": "演员招募",
+  "wordCount": 3095
+}

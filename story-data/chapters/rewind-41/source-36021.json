@@ -1,0 +1,116 @@
+{
+  "bookId": "rewind-41",
+  "id": "source-36021",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "36021001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿~谢谢你的食物！这只小龙星洛就先带走啦！\n星洛以后一定会报答你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021002",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "咳……So bad……居然袭击一个rapper……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021003",
+          "sourceType": 9,
+          "text": ">>>调查完毕，未找到比赛大奖——新款涂料。\n已联系最近的管理局成员救治受害者。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36021004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "手办，仓库……多人作案。这才是他们的真正目标吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021005",
+          "sourceType": 9,
+          "text": ">>>警告：3点钟方向检测到生体运动信号，距离1.2米，深度0.35米。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36021006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不好玩不好玩！居然被你们发现了！\n再来一局，这次我要换个更隐蔽的位置！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你躲在这里做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "看仓库的工作很无聊嘛！\n我就躲在坑里玩捉迷藏，结果突——然就出现了。黑影！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36021009",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Easy……请收起武器，我只是一个路过的rapper，我需要你们的help。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "36021",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36021001,
+            36021002,
+            36021003,
+            36021004,
+            36021005,
+            36021006,
+            36021007,
+            36021008,
+            36021009
+          ],
+          "sectionId": 36021
+        }
+      ],
+      "title": "星空猎人·Ⅲ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9310013",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9310013",
+          "after_result_avg"
+        ],
+        "sectionId": 36021,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "星空猎人·Ⅲ",
+  "wordCount": 275
+}

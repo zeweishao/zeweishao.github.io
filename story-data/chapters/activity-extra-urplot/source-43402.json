@@ -1,0 +1,580 @@
+{
+  "bookId": "activity-extra-urplot",
+  "id": "source-43402",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43402001",
+          "sourceType": 3,
+          "text": "「绽放的铁树银花，流动的焰火，飘散如雨的亮星——」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402002",
+          "sourceType": 3,
+          "text": "「一切尽在日光乐园打铁花大会！」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402003",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "距报名截止期限，还有一天。距离比赛开始，还有三天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402004",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "目前小队成员，只有一人……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402006",
+              "text": "你想要参加那场比赛？"
+            }
+          ],
+          "sourceId": "43402005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402006",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "机会难得，若是错过了，不知道要等上多久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402007",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "但即使筹够了报名费，也得先把小队的队友找齐才行。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402009",
+              "text": "我来帮你？"
+            },
+            {
+              "targetId": "43402009",
+              "text": "看来是该我出场了。"
+            }
+          ],
+          "sourceId": "43402008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402009",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "真的吗？但你已经好心收留了本仙，再接受你的好意可担待不起。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402011",
+              "text": "当然，我有一个条件。"
+            }
+          ],
+          "sourceId": "43402010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402011",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "嗯，请尽管开口。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402013",
+              "text": "完赛之后，和我去管理局登记注册。"
+            }
+          ],
+          "sourceId": "43402012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402013",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "当然可以。但请问——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402014",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "什么是管理局？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402015",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "……原来如此，竟然在街上捡到了下落不明的「潮游星」手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402016",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "果然让管理局头疼的问题，对你来说算不得什么。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402018",
+              "text": "但请孔明先生出山。"
+            }
+          ],
+          "sourceId": "43402017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402018",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "有什么在下帮得上的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402019",
+          "sourceType": 3,
+          "text": "你把需要募集队员参加打铁花大赛的事告诉了孔明。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402020",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "哎，突然想起菜地里还有些事务要处理。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402022",
+              "text": "就决定是你了。"
+            },
+            {
+              "targetId": "43402022",
+              "text": "别想溜。"
+            }
+          ],
+          "sourceId": "43402021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402022",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "打铁花……是吗？完全可以想象铁花在空中绽开的模样，那一定非常美丽吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402023",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "如果我答应了，主君，您会在观众席为我喝彩吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402025",
+              "text": "当然了。"
+            }
+          ],
+          "sourceId": "43402024",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402025",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "呵，那我可以的。但毕竟不曾涉猎，怕是要拖大家的后腿了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402026",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……你将我叫出来，原来仅是为了这件事。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402028",
+              "text": "因为时间紧迫。"
+            },
+            {
+              "targetId": "43402028",
+              "text": "其他手办都没空。"
+            }
+          ],
+          "sourceId": "43402027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402028",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "让出身海洋的我与火共舞，置身于喧哗的赛场……这便是折磨我的某种手段吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402030",
+              "text": "不是你想的那样。"
+            },
+            {
+              "targetId": "43402030",
+              "text": "只是友谊参赛。"
+            }
+          ],
+          "sourceId": "43402029",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402030",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呵呵呵，不，我并没有拒绝。无论落入多么悲惨的境地，都是身为罪人的我咎由自取。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402031",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "|101|，能够在你的手上化为泡影，我很荣幸。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402033",
+              "text": "所以说不是你想的那样啊！"
+            }
+          ],
+          "sourceId": "43402032",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402033",
+          "sourceType": 3,
+          "text": "花了一番功夫，终于替华焱找到了「合适」的队友人选。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402034",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "初次见面，本仙，啊，我是来自豫州的一名焰火师。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402035",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "接下来会和大家一起为了打铁花大赛的魁首之位而努力！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402036",
+          "sourceType": 7,
+          "text": "华焱 · 漫天华彩\n商品名称：华焱·漫天华彩 Ver.\n作品出处：《永恒的异界幻想》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约225mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43402037",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "哎呀哎呀，没想到这位姑娘……事情要变得有趣起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402038",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "请问该如何上手才好？我看了主君给的资料，还是有些不得要领。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402039",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "真是令人目眩的古老技艺……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402040",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "修习打铁花的技法，贵在一个「勤」字。况且各位都是|101|精挑细选的能手，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43402042",
+              "text": "可以这么说。"
+            },
+            {
+              "targetId": "43402042",
+              "text": "大概是这样吧？"
+            }
+          ],
+          "sourceId": "43402041",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43402042",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "我会带大家在三天时间里充分准备，在会场给观众奉上最精彩的演出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402043",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "只有三天？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402044",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "算上准备材料的时间，练习时间或许会更少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402045",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "但只要有心，人间从不缺乏奇迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402046",
+          "sourceType": 3,
+          "text": "在紧张勤苦的练习中，三天的时间很快过去……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402047",
+          "sourceType": 3,
+          "text": "比赛当晚，日光乐园——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402048",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "欢迎各位来到第一届「打铁花大会」的现场！可以看到，各支参赛队伍都已经出现在候场区域了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402049",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "不久之后，会场内将迎来一阵阵耀眼的铁花火雨！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402050",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "……不必紧张，我们的准备很充分。只要发挥出排演时的水平就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402051",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "华焱，你身上的绫罗好像在抖动……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402052",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "咦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43402053",
+          "sourceType": 3,
+          "text": "随着仙绫的抖动，少女蓦地将视线投向了前方。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402054",
+          "sourceType": 3,
+          "text": "对面候场区域的手办中，出现了一个她所熟悉的黑发身影。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43402055",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "是姐……姐？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43402",
+      "sourceRefs": [
+        {
+          "bundle": "urplot",
+          "rowIds": [
+            43402001,
+            43402002,
+            43402003,
+            43402004,
+            43402005,
+            43402006,
+            43402007,
+            43402008,
+            43402009,
+            43402010,
+            43402011,
+            43402012,
+            43402013,
+            43402014,
+            43402015,
+            43402016,
+            43402017,
+            43402018,
+            43402019,
+            43402020,
+            43402021,
+            43402022,
+            43402023,
+            43402024,
+            43402025,
+            43402026,
+            43402027,
+            43402028,
+            43402029,
+            43402030,
+            43402031,
+            43402032,
+            43402033,
+            43402034,
+            43402035,
+            43402036,
+            43402037,
+            43402038,
+            43402039,
+            43402040,
+            43402041,
+            43402042,
+            43402043,
+            43402044,
+            43402045,
+            43402046,
+            43402047,
+            43402048,
+            43402049,
+            43402050,
+            43402051,
+            43402052,
+            43402053,
+            43402054,
+            43402055
+          ],
+          "sectionId": 43402
+        }
+      ],
+      "title": "活动片段 43402"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10063",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10063",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 43402,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1310,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "131",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 43402",
+  "wordCount": 1150
+}

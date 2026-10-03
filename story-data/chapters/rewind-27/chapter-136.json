@@ -1,0 +1,1642 @@
+{
+  "bookId": "rewind-27",
+  "id": "chapter-136",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32201001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你想到了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201002",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "在我们的家乡......也就是|101|口中的《永恒的异界幻想》世界，「奥古斯都」家族为了创造完美的人造人，进行了漫长的实验。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "而在实验后期，也曾经重金征集各个种族的人，成为实验的「参考样本」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "这些「参考样本」......后来怎样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "我并不清楚，但坊间有各种奇怪的传闻——有人说他们被推进火炉烧成灰烬，还有人说他们的灵魂被恐怖的巨人吞噬......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "能有这么离谱的传言，肯定没发生什么好事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "未必。凡人对望族的污蔑，并不需要什么特定的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "单凭这些，也不能说手办失踪案和「奥古斯都」家族有关吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "重点并不是征集实验对象，而是那些关于「巨人」的传言！\n很多人目睹过，「巨人」的身影在实验基地附近一闪而过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那和我在烟雾中看到的「巨人」，是同一种东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就算「奥古斯都」曾在人造人实验中造出过巨人，现在手办们用同样的方法，最多应该是造出巨型手办而已？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么桑尼会觉得，那是名为「克罗赛尔」的人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "在听到巨人出现的传闻后，我曾经连续几天蹲守在「奥古斯都」的实验基地附近......收获颇丰。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32201015",
+              "text": "探查到什么消息了？"
+            },
+            {
+              "targetId": "32201015",
+              "text": "跟踪到了什么人了？"
+            }
+          ],
+          "sourceId": "32201014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32201015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "我按照古籍上对巨人的描述，赶制了一批小挂件，大赚一笔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "面对这么重大的事件，居然只是想到摆摊而已吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201017",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不过，我在摆摊时曾经感受到一种奇怪的能量波动......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201018",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "那是一种饱含生命力的能量流转，如同被加速的四季轮回。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32201019",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不久后，「奥古斯都」科技水平的结晶，由天然有机质组合成的胚胎，克罗赛尔，诞生了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-283",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32201001,
+            32201002,
+            32201003,
+            32201004,
+            32201005,
+            32201006,
+            32201007,
+            32201008,
+            32201009,
+            32201010,
+            32201011,
+            32201012,
+            32201013,
+            32201014,
+            32201015,
+            32201016,
+            32201017,
+            32201018,
+            32201019
+          ],
+          "sectionId": 32201
+        }
+      ],
+      "title": "#1 怪异传闻"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32202001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "通过异界的力量，能够让非生命体获得生命？\n简直......难以想象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202002",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "没错，如果我的推论成立，泉看到的「巨人」就是与「奥古斯都」实验时的异象相似的产物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嘿，总算到了管理局派上用场的时候了。\n让他们帮忙联系伊迪丝，我和薇薇安去拜访一趟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202004",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "时间不等人，其他人跟我走，继续找克罗赛尔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "手办失踪案的大致情况，阿尔弗雷德已经告知我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那我们就长话短说——\n我们需要尽快找到「奥古斯都」的圣女，克罗赛尔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "她很可能正在模仿「奥古斯都」的某种仪式......或者实验？\n这种东西放在人类世界，可是要捅出大篓子的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔已经主动脱离「奥古斯都」，非常遗憾，我对她的行动毫不知情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "身为代理人，你总会知道些找到她的方法吧——\n或者弱点和把柄也行？放心，我们手底下有分寸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "来到手办世界后，我们的关系变得比原先更加疏离。\n在这一点上，恐怕我无法帮到你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那么，能否告诉我们......\n「奥古斯都」的神秘实验，究竟是要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "为了神谕中圣女的降临，我们不得不进行相当冒险的尝试。想要创造完美的人，自然要尽可能汲取这片土地上所有的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "现在全对上了，难怪又要绑架手办，又要找能量石......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32202014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "能量石已经找齐，手办失踪也屡次发生。\n看来，留给我们的时间不多了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-284",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32202001,
+            32202002,
+            32202003,
+            32202004,
+            32202005,
+            32202006,
+            32202007,
+            32202008,
+            32202009,
+            32202010,
+            32202011,
+            32202012,
+            32202013,
+            32202014
+          ],
+          "sectionId": 32202
+        }
+      ],
+      "title": "#2 当面求证"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32203001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "如果创造生命力量被天启掌控，管理局就再也没有力量与他们抗衡......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我理解，异界的能量本就不该出现在人类世界，这将带来秩序的崩坏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "如果克罗赛尔真的试图在人类世界重现实验，我会负起代理人的责任，以「奥古斯都」的方式进行妥善处理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "——当然，如果发现克罗赛尔的任何消息，我会毫无保留地与你们共享情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "伊迪丝和这件事似乎完全无关。你怎么看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "至少以我的经验，看不出她在说谎。\n好不容易找到的线索，又断了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你说......我们的「答案」，真的在M城吗？\n手办失踪也好，能量石也罢，都与N城的灾难没有任何关联。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "也许我们查得还不够全面，没有发现事件之间隐藏的关联。\n深水处才有大鱼，再耐心点吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你相信尤兰达让异乡人来M城寻找答案，不是出于敷衍？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我相信头儿，她既然做出这种决策，一定有充分的考虑。\n别想那么多，反正——我们也已经没有其他选择了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "......N城还在等着我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32203012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "但是，眼睁睁看着M城变成下一个N城，也不符合我们的作风，不是吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-285",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32203001,
+            32203002,
+            32203003,
+            32203004,
+            32203005,
+            32203006,
+            32203007,
+            32203008,
+            32203009,
+            32203010,
+            32203011,
+            32203012
+          ],
+          "sectionId": 32203
+        }
+      ],
+      "title": "#3 会面结束"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32204001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "你所说的的「地毯式搜寻」，就是没头苍蝇一样到处乱撞？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "最简单直接的方法，往往最有效果。\n鼓足气势从街头冲到街尾，把整个街区扫荡个遍！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204003",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "喂，你小子在干什么！\n收收你的光，闪得我眼睛都睁不开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "阳光会增加阴影的面积，在此之下，任何尘埃都无所遁形。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "发现了吗，就在刚才，手办的身影连同地上被拉长的影子一起，一闪而过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "......「马南家族」的洛瑞丝？\n她为什么会从N城跑来这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "你拦住她，我来问话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "我们现在顾不上那些小杂鱼，先找克罗赛尔要紧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204009",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "躲藏在N城阴影之中的人，绝不能再次逃脱制裁。\n我见过她，那是在......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32204010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "N城暴动开始的那一天。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-286",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32204001,
+            32204002,
+            32204003,
+            32204004,
+            32204005,
+            32204006,
+            32204007,
+            32204008,
+            32204009,
+            32204010
+          ],
+          "sectionId": 32204
+        }
+      ],
+      "title": "#4 暗潮涌动"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32205001",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "为什么不相信我......\n我真的没有动，爆音鸡自己叫起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205002",
+          "sourceType": 0,
+          "speaker": "妈妈",
+          "text": "那么，地上这些原味崽、机械兔，也全部是自己跑出来的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205003",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "我......我也不清楚怎么回事，大概是......「让玩具活过来」的生日愿望真的实现了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205004",
+          "sourceType": 0,
+          "speaker": "妈妈",
+          "text": "勇敢承认自己的错误，才是有担当的好孩子。\n首先，你要为刚才撒的谎向妈妈道歉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205005",
+          "sourceType": 0,
+          "speaker": "孩子",
+          "text": "妈妈，我......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205006",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽，叽叽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205007",
+          "sourceType": 0,
+          "speaker": "妈妈",
+          "text": "怎么回事？机械兔......自己动了？开关，开关在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205008",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "嘻嘻嘻！他没有说谎，现在轮到你道歉了，太太。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205009",
+          "sourceType": 0,
+          "speaker": "妈妈",
+          "text": "啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205010",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "管理局规定，在人类面前必须时刻保持静止状态，不允许任意活动，违者监禁处罚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205011",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "解释一下，这意味着你们将会面临几天的监禁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205012",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "哼，愚昧的玩具，你注定无法跟上我们划时代的脚步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205013",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "看来你们的脚步要暂时停下了，在管理局好好改造，争取早日重回自由身吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205014",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "自由......叽叽叽，找回属于我们的自由，才能重获新生！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205015",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "你、你们要干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205016",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "喔，自由与新生！喔，启示与真理！冲呀——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205017",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "不，不太对劲......先回去汇报情况！\nN城管理局14街区请求支援！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205018",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "支援部队？你们来得正好！\n我们在街头巷尾设立埋伏，等流窜的玩具一接近，就给他们来个背后突袭！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205019",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "怎么了？你们两个，为什么愣着不动？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205020",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "自由......与新生，启示......与真理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32205021",
+          "sourceType": 0,
+          "speaker": "咖啡崽",
+          "text": "嘿嘿嘿，新的纪元......即将降临！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-287",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32205001,
+            32205002,
+            32205003,
+            32205004,
+            32205005,
+            32205006,
+            32205007,
+            32205008,
+            32205009,
+            32205010,
+            32205011,
+            32205012,
+            32205013,
+            32205014,
+            32205015,
+            32205016,
+            32205017,
+            32205018,
+            32205019,
+            32205020,
+            32205021
+          ],
+          "sectionId": 32205
+        }
+      ],
+      "title": "#5 暴动乱象"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32206001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好消息，新的委托来了。\n坏消息，是管理局发来的求援。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206002",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "管理局也会向我们求援？哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "说是要抓几个发疯的小玩具，看起来是件费力不讨好的麻烦事......他们一向抠门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "发疯的小玩具......我好像听说过，有一些潮玩在人类面前动起来，造成了不小的混乱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "接下任务吧。\n事关N城全部手办的秩序，异乡人终究无法置身事外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "管理局给的地址就是这家杂货店了。垃圾桶旁边......冷饮柜里......目测藏了三个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "别跟他们磨叽，捣乱的统统抓住揍一顿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我去堵住门口，你们速战速决。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206009",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "嘻嘻嘻，狂欢的派对，现在开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206010",
+          "sourceType": 3,
+          "text": "数十个潮玩从房间各个角落钻了出来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32206011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "怎么这么多！根本......不可能拦得住这个数量级的潮玩吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "给我——老实点！\n头儿，你得告诉他们，这种情况是要加钱的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206013",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "坚持住，我尽快向管理局求援。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206014",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "对......对不起，是我的错......\n是我......毁了这一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206015",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "你的哭声很吵。\n这不是一位领导者面对灾难该有的表现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "面对这一切，我不知道还能做些什么......\n我想我们已经都尽力了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206017",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "这是无可挽回的宿命，它们的，也是我们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206018",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "滥用「无可挽回」是对神意的不敬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "......是人类的脚步声，不要恋战，该撤了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206020",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "糟糕，队长和阳子她们还在店里......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206021",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呜......呜......究竟要我怎么做，才能拯救这一切......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32206022",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "究竟怎样做，才能拯救......N城？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-288",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32206001,
+            32206002,
+            32206003,
+            32206004,
+            32206005,
+            32206006,
+            32206007,
+            32206008,
+            32206009,
+            32206010,
+            32206011,
+            32206012,
+            32206013,
+            32206014,
+            32206015,
+            32206016,
+            32206017,
+            32206018,
+            32206019,
+            32206020,
+            32206021,
+            32206022
+          ],
+          "sectionId": 32206
+        }
+      ],
+      "title": "#6 激烈交锋"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32207001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "究竟怎样做，才能......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "一个人小声嘀咕什么呢？\n没时间给你发愣了，我们负责的区域还有一大半没搜完。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207003",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "别不吭声，说话呀！\n你该不会是累了想偷懒吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "不能放走她，跟上我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "哈？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你最好解释清楚，为什么要在任务中途跑去追一个普通的过路人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "洛瑞丝，我在N城见过她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207008",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "暴动开始的那天，管理局委托的抓捕潮玩店铺里，我见过她离开的背影。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207009",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "所以你跟上来的目的，是和N城同乡叙旧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "她和N城的潮玩暴动事件必然有关。\n这是重要线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32207011",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "真是的......既然已经跟过来了，那就加把劲速战速决吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-289",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32207001,
+            32207002,
+            32207003,
+            32207004,
+            32207005,
+            32207006,
+            32207007,
+            32207008,
+            32207009,
+            32207010,
+            32207011
+          ],
+          "sectionId": 32207
+        }
+      ],
+      "title": "#7 重要线索"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32208001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这几只烦人的老鼠，赶也赶不走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "不必担心，我们只要准备诱饵，老鼠就会被引开。\n而对于异乡人，合适的诱饵要多少有多少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "在这一点上，「马南家族」还算稍微靠点谱。\n他们最适合的工作，就是清道夫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "但在他们自己眼里，他们是主宰世界的神。\n「马南家族」不是可以完全掌控的对象，也不值得完全的信任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "咳、咳咳......咳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208006",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "又不舒服了吗？\n还是那种奇怪的感觉，身体像个热气球一样在膨胀、燃烧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "......没关系，和「奥古斯都」典籍上记载的反应一样。\n这说明我们正在逐步接近成功。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "别勉强自己，慢慢走。\n洛瑞丝和老朋友叙旧的时间，足够我们转移到下一个据点了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "管理局已经察觉到了异样，不会留太多时间给我们。\n在受到阻力之前尽快完成实验，抵达极致的欢愉后，我们便无所畏惧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "创造新生的机会不再独属于「奥古斯都」，我将开辟全新的道路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "总是带着一大堆拖油瓶也不是办法，我们什么时候能有个足够大的仓库来存放「那些」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "别担心，最好的处理方式，就是让他们回到原来的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "我们的目的不会暴露吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32208014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "别担心，他们只是在奇妙的异界，进行了一场异彩纷呈的冒险而已。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-290",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32208001,
+            32208002,
+            32208003,
+            32208004,
+            32208005,
+            32208006,
+            32208007,
+            32208008,
+            32208009,
+            32208010,
+            32208011,
+            32208012,
+            32208013,
+            32208014
+          ],
+          "sectionId": 32208
+        }
+      ],
+      "title": "#8 漩涡中心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32209001",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "她怎么，还在往前跑？\n该不会是想一路走回N城去吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209002",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "安静，跟紧，别松懈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "身后的两位，请停下脚步吧。虽然没有接到提前预约，我还是决定抽出一点时间，尽到基本的礼仪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209004",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "那么，关于您一路跟随我的诉求，我可以听听看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "我在N城见过你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209006",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我理解了。由于手办的批量化生产，难免发生一些意外的巧合，或许您......将我错认成了另外一位洛瑞丝？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "少跟她废话，敢绕弯子就拳头招呼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209008",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "你在N城的杂货店出现过。\n不会错，你炮口的磨损正是那天的潮玩暴动造成的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209009",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "抱歉，我失礼了，没有足够注意细节。\n在小小的玩笑后，让我们进入正题——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209010",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "没错，我的确是来自N城的访客，而我的目的和你们一样——为了N城更好的未来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209011",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "看你得意的样子，你找到拯救N城的方法了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209012",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "N城现在需要的并不是拯救，而是焕然新生。\n新世界的希望也并不在平凡的手办上，而在于即将诞生的神。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209013",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "这一次，「马南家族」的「那位大人」选择将什么视为神明？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209014",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "总有人生来带有天赐的神性，而我们所探求的，就是如何激发神性，塑造真正的神。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209015",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "以手办之力只能点燃微弱的火苗，但我们能让你手中的火种成为燃遍世界的阳光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209016",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "如果两位感兴趣，我们随时欢迎来自N城的伙伴携手，踏入饱含希望的良夜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209017",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "胡说什么鬼话，既然这么想新生，我就送你去新生！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209018",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我无意与您交战，既然已经回答了您的问题，我就先行告退——希望日后仍有机会对您进行更正式的招待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209019",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你发什么愣？不会把她说的话当真了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32209020",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "哼......凡人自欺欺人的呓语而已。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-291",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32209001,
+            32209002,
+            32209003,
+            32209004,
+            32209005,
+            32209006,
+            32209007,
+            32209008,
+            32209009,
+            32209010,
+            32209011,
+            32209012,
+            32209013,
+            32209014,
+            32209015,
+            32209016,
+            32209017,
+            32209018,
+            32209019,
+            32209020
+          ],
+          "sectionId": 32209
+        }
+      ],
+      "title": "#9 棋逢对手"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32210001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "阿尔弗雷德先生，发现「奥古斯都」图腾的地方就在前面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210002",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "咳咳、咳咳！这里至少有半年没人来过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "......看来我们有必要继续加强监管，定期走访排查才行，\n必须掌握每一个手办的真实居住地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210004",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "这么庞大的工程，我们现在还做不到吧......\n能让手办老老实实登记身份信息就很不易了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "要建立属于手办的真正乐土，现在的程度还远远不够。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210006",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "「乐土」，阿尔弗雷德先生，这些手记全都是关于「乐土」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "那是什么，「真理祈愿会」的宣讲稿？\n烧掉吧，那种低劣的情绪安慰剂没有遗留的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210008",
+          "sourceType": 0,
+          "speaker": "管理局员工",
+          "text": "但这似乎......和手办失踪的实验有所关联。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "......拿来，我看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210010",
+          "sourceType": 3,
+          "text": "大地，火焰，风暴，水流......\n细碎的声响汇集成自然世界的灵魂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32210011",
+          "sourceType": 3,
+          "text": "迷途的灵魂将重返躯体，模型的一切将变为永生。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32210012",
+          "sourceType": 3,
+          "text": "来自异界的启迪指向崭新的世界，我们追寻真理的光芒，直至永恒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32210013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "别看了。「真理祈愿会」的文稿看多了就会像那些信徒一样疯狂，在原来的世界见得还少吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210015",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "在被雪冰封的阿罗拉冰原，外界的消息长年被完全阻隔，我也仅仅是听说过而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "好吧，总之我劝你不要试图理解「真理祈愿会」的产物。他们所推崇的真理，会让正常人的认知崩坏，成为他们的拥趸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210017",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "那我们应该怎么处理这些东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32210018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不属于异界的人反而能提供独特的解读视角。比如，|101|就是个不错的人选。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-292",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32210001,
+            32210002,
+            32210003,
+            32210004,
+            32210005,
+            32210006,
+            32210007,
+            32210008,
+            32210009,
+            32210010,
+            32210011,
+            32210012,
+            32210013,
+            32210014,
+            32210015,
+            32210016,
+            32210017,
+            32210018
+          ],
+          "sectionId": 32210
+        }
+      ],
+      "title": "#10 怪异手记"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32211001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "乐土......灵魂......躯体......永生......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "什么乱七八糟的。像那些......封面上画着八爪鱼的怪书一样，莫名其妙。果然，真理启示会就是打着救赎旗号荼毒人心的邪恶组织！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "别，别看我，我只是巫女，和真理启示会这种完全不属于同一种体系。|101|，你觉得呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32211005",
+              "text": "大致能够明白。"
+            },
+            {
+              "targetId": "32211005",
+              "text": "完全不明所以。"
+            }
+          ],
+          "sourceId": "32211004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32211005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "附近的一片城区都搜完了，毫无收获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "一点线索都没有吗？有没有遇到天启的其他成员，或是一些奇奇怪怪的人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "该告诉你们的，我们自然会说。\n其他外出的人呢，还没回来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼哼，看来我手中的，将是今天唯一的重大发现！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小梅酱今天不是在家休息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211010",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这、这不是休息，利用网络进行情报搜集整合是必须的！\n虽然......我也不确定这件事与M城有多少关联......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211011",
+          "sourceType": 0,
+          "speaker": "网页新闻",
+          "text": "本报讯，FULI公司宣布暂时关停在N城的所有经销点，官方暂未公布具体原因。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "暂停全城业务？N城难道出什么事了吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211013",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "网络上有传闻说——N城的FULI玩具活了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211014",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "该死！居然会被那些混蛋闹到这种地步......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211015",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......N城究竟发生了什么？为什么要对我隐瞒？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211017",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "没有隐瞒，我们只是不想引起恐慌。毕竟仅仅是传闻，就让N城的手办和潮玩乱成一团。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211018",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "至于具体情况，如你所见——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32211019",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "N城的手办，开始在人类面前活动了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-293",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian38",
+          "rowIds": [
+            32211001,
+            32211002,
+            32211003,
+            32211004,
+            32211005,
+            32211006,
+            32211007,
+            32211008,
+            32211009,
+            32211010,
+            32211011,
+            32211012,
+            32211013,
+            32211014,
+            32211015,
+            32211016,
+            32211017,
+            32211018,
+            32211019
+          ],
+          "sectionId": 32211
+        }
+      ],
+      "title": "#11 狂澜难挽"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 136,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 136,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "异界的联结",
+  "title": "第38章",
+  "wordCount": 5175
+}

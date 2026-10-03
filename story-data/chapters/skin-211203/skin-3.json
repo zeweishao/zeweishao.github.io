@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211203",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「烁金重工出品的Ⅺ型改装，打造这一身装备可价值不菲啊。」\n「嘿，小妞，最近到哪发财了？」形态粗狂的大型机车路过，司机吹起轻佻的口哨。\n「哈，那可是一笔横财呀，现在就在我的面前呢。」蓝发少女像是盯上了猎物，抿起莫名危险的笑容，拍了拍身下的伙伴。\n「轰——轰——」阿尔贝尔发出兴奋的回应。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "烁金重工Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211203",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "泉·烁金重工Ver.",
+  "title": "烁金重工Ver.",
+  "wordCount": 139
+}

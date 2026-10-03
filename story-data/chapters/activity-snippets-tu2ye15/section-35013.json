@@ -1,0 +1,117 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35013",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35013001",
+          "sourceType": 10,
+          "text": "事事如意",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35013002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "使用简单的配色和线条，就能塑造令人印象深刻的美，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "的确，就像隽永的旋律从来都是简单的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013004",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "这是来自特兰斯尔的手艺，今天就让你们开开眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "近来有些手生，你们将就看看好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "是可爱的小狮子，也是神气的大猫咪，喵呜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "狮子和猫一样，它们都很适合被驯养，只要手段足够有效……呵呵呵呵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呀，这个笑声好吓人，你是不是想到了什么奇怪的事情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "猫猫听了都要跳着走开，塞西尔不要再捉弄我了喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35013010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "塞西尔虽然性格古怪了些，做的东西却很出色，这大概就是主人说的反差萌吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35013",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35013001,
+            35013002,
+            35013003,
+            35013004,
+            35013005,
+            35013006,
+            35013007,
+            35013008,
+            35013009,
+            35013010
+          ],
+          "sectionId": 35013
+        }
+      ],
+      "title": "事事如意"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35013,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "76",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "受怪盗小姐的启发下，塞西尔尝试了这款狮子主题的兔儿爷，出手即非凡品。",
+  "title": "事事如意",
+  "wordCount": 223
+}

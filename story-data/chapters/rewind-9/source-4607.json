@@ -1,0 +1,174 @@
+{
+  "bookId": "rewind-9",
+  "id": "source-4607",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4607001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "真是遗憾，看来今天是不能请您到府上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "不过相信我们很快就能在M城见面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "真是奇怪的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607004",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "我的难题已经解决了，我准备现在出发赶到M城。\n绿子、蓝莎最好尽快离开这里，对方看上去是个难缠的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607005",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "听你们所言，似乎还没有落脚的地方，不嫌弃的话，可以到我朋友府上暂住一段时间，或者长住，相信有钱的他不会介意的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "太棒了！我们也在苦恼住所的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607007",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "谢谢，不同路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可是……好吧。那谢谢你热情的大叔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607009",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "大……大叔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607010",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "要叫哥哥。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "他走了，我们还要去M城吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607012",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "可有想去的地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "（激动）太棒了！太棒了！那个，我们组团一起环游世界吧？一定超酷的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607014",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "……不了，我们就在这附近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "这附近没什么好看的，而且有蛇~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4607016",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "嗯。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4607",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4607001,
+            4607002,
+            4607003,
+            4607004,
+            4607005,
+            4607006,
+            4607007,
+            4607008,
+            4607009,
+            4607010,
+            4607011,
+            4607012,
+            4607013,
+            4607014,
+            4607015,
+            4607016
+          ],
+          "sectionId": 4607
+        }
+      ],
+      "title": "花开物语前篇·Ⅰ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9020011",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9020011",
+          "after_result_avg"
+        ],
+        "sectionId": 4607,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "花开物语前篇·Ⅰ",
+  "wordCount": 280
+}

@@ -1,0 +1,109 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35016",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35016001",
+          "sourceType": 10,
+          "text": "风虎云龙",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35016002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊哦，一不小心打翻了黑色的颜料盒……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "出现了，是黑色的大喵喵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016004",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "居然有一种别样的生动之感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "黑色的喵喵最可爱啦，米菲亚好喜欢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016006",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "我得承认，优纪完成的所有作品里，我最中意这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵喵喵，米菲亚什么时候可以骑着大黑喵出去玩？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一次失误竟然得到了大家的肯定，优纪都不知道应不应该开心呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35016009",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "恭喜优纪，是件值得高兴的事哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35016",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35016001,
+            35016002,
+            35016003,
+            35016004,
+            35016005,
+            35016006,
+            35016007,
+            35016008,
+            35016009
+          ],
+          "sectionId": 35016
+        }
+      ],
+      "title": "风虎云龙"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35016,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "79",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "谁也没想到，优纪的一时失误，竟然造就了一款意想不到的「兔儿爷」。",
+  "title": "风虎云龙",
+  "wordCount": 154
+}

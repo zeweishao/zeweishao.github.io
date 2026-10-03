@@ -1,0 +1,166 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25980",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25980001",
+          "sourceType": 10,
+          "text": "奉先喵登场",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25980002",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "最特别的一盏猫猫灯制作完成了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980003",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你居然做了那个家伙的花灯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "娱乐而已，不觉得很好玩吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980005",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "最好不要让那家伙看到，不然的话一场恶斗势必在所难免。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "不会的，我自有办法摆平他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这盏猫猫灯的神情好逗，忍不住想要逗逗它呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "该怎么描述呢……嗯，可以用「憨态可掬」来形容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "有趣，我一定会转告给那家伙的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "孙大小姐，不可以把这话跟那家伙讲的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980012",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "看着吕布那个愣头青跟你打起来，不是我们在「七星阁」打发无聊的日常么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "真要是打起来的话，孙大小姐未必也能置身事外，毕竟这盏花灯可是有你一半的功劳呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们又吵架了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "怎么会呢，我们可是多年的老搭档，感情特别深厚的那种~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25980017",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "让我们把注意力转到这盏花灯上来，请尽情欣赏吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25980",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25980001,
+            25980002,
+            25980003,
+            25980004,
+            25980005,
+            25980006,
+            25980007,
+            25980008,
+            25980009,
+            25980010,
+            25980011,
+            25980012,
+            25980013,
+            25980014,
+            25980015,
+            25980016,
+            25980017
+          ],
+          "sectionId": 25980
+        }
+      ],
+      "title": "奉先喵登场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25980,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "61",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "以赤炎大陆上的名人「吕布」为原型制作的猫猫花灯，造型在满足可爱这个要素的同时，融入了传统的赤炎风俗。",
+  "title": "奉先喵登场",
+  "wordCount": 299
+}

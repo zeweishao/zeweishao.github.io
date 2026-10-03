@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214018",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "凛然的战术分析师「希塔」化身为1/7比例模型登场！被责任感驱使的少女不曾停下守护他人的脚步，即使在最绝望的境地，她也会为你指出胜利的路径。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214018"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 69
+}

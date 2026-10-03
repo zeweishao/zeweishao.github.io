@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213019",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "天才机甲设计师「西蒂斯」化身为1/7比例模型登场！此款造型完美呈现了她在实验室中工作的姿态，就连星星眼罩和海豚发卡这样的细节都没有放过。嘘，不要靠太近哦，「利维坦」可是会生气的~",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213019"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

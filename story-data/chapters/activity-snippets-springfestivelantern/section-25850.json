@@ -1,0 +1,141 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25850",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25850001",
+          "sourceType": 10,
+          "text": "叽叽复叽叽",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25850002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这、这又是什么东西啦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪忘记了吗，这是和我们战斗过很多次的尖叫鸡呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我当然看出来是尖叫鸡了，可是谁会想到以尖叫鸡为灵感创作花灯呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "嗯哼，如此大胆又不失创意的想法，当然是我「全民偶像」艾里克希娅才会有的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "的确很特别，你怎么会想到以尖叫鸡为原型呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850007",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "说起来我也不知道为什么，只要闭上眼晴就能看到无数的尖叫鸡在我面前跳来跳去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "难道不是因为它们是你曾经的狂热粉丝吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850009",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "哼，我像是需要依赖做花灯这种方式来给自己增加人气的那种过气偶像吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "咦，原来是这个用意吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850011",
+          "sourceType": 5,
+          "speaker": "艾里克希娅",
+          "text": "怎、怎么可能，我可是很红的超级顶流偶像好不好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没关系，艾里克希娅，如果觉得寂寞的话，我们都可以做你的粉丝哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25850013",
+          "sourceType": 5,
+          "speaker": "艾里克希娅",
+          "text": "喂，为什么要曲解我的意思，好好听人家讲话啦~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25850",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25850001,
+            25850002,
+            25850003,
+            25850004,
+            25850005,
+            25850006,
+            25850007,
+            25850008,
+            25850009,
+            25850010,
+            25850011,
+            25850012,
+            25850013
+          ],
+          "sectionId": 25850
+        }
+      ],
+      "title": "叽叽复叽叽"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25850,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "48",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "尖叫鸡造型的花灯，融入了创作者的奇思妙想，仿佛听到了它发出滑稽叫声的搞笑样子。",
+  "title": "叽叽复叽叽",
+  "wordCount": 305
+}

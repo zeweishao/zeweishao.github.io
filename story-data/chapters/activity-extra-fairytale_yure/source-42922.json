@@ -1,0 +1,116 @@
+{
+  "bookId": "activity-extra-fairytale_yure",
+  "id": "source-42922",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42922001",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "诸位，这里是我亲自拟定的邀请函。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922002",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我以个人的名义，邀请诸位在今晚参加一场盛装舞会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦咦，听起来很好玩的样子，我第一个报名~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922004",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "当然，这是给优纪准备的邀请函，请收下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "还有这一封是给你的，请你不要拒绝，一定要来参加，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我……我不会拒绝的……嗯，我是说……我会到场的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我期待着大家今晚的到来，但愿这会是一场令人难忘的舞会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42922008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，你策划的舞会肯定很特别的啦……诶，怎么还有这么多邀请函没送出去，我帮你吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42922",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale_yure",
+          "rowIds": [
+            42922001,
+            42922002,
+            42922003,
+            42922004,
+            42922005,
+            42922006,
+            42922007,
+            42922008
+          ],
+          "sectionId": 42922
+        }
+      ],
+      "title": "活动片段 42922"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10052",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10052",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42922,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42922",
+  "wordCount": 197
+}

@@ -1,0 +1,973 @@
+{
+  "bookId": "rewind-53",
+  "id": "chapter-219",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42533001",
+          "sourceType": 3,
+          "text": "M城，废弃工厂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42533002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "根据「管理局」提供的线索，应该就是这里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喔，到处都是废弃的机甲呢，它们身上会有复刻的芯片吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "从破损的痕迹上看，不是没有这个可能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那边还有很多巡逻的机甲，我们行动一定要小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，这些机甲太太可怕了……就像是好多好多个莉莉奈一起朝我扑过来呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "诶，仅仅复刻西蒂斯的芯片，就能有这么惊人的战斗力吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那些偷走我设计稿的人，一定悄悄改了芯片的构造，只强化了机甲的战斗能力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "所以得尽快找到私造芯片的准确地点，才能根本上解决这场骚乱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "复制这么多的芯片，这些人是想做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "优纪提出的这个问题，我也很好奇，但却一直没能想明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯哼，我会让他们亲自说出口的，毕竟——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "偷盗我的作品四处作乱，让我的名誉白白受损，这样深厚的情谊我不能不还嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "西蒂斯，你该不会是想故意引起注意吧？太危险了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533015",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "哈，我的一个眼神你就知道我想做什么，这种感觉真是太棒了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533016",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "可是游戏就要这样放肆大胆地玩才过瘾，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇呀，附近的巡逻机甲注意到我们了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "没办法了，我来负责吸引它们的注意，你们两个趁机快走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533019",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "开玩笑，我怎么会留你一个人在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533020",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "利维坦，我们的后背就交给你了，其他的「货色」我来收拾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533021",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": "咕噜——咕噜——嗡——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42533022",
+          "sourceType": 0,
+          "speaker": "利维坦",
+          "text": ">>>启动代码「极限游戏时间」，攻击系统全面升级，作战开始。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1082",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42533001,
+            42533002,
+            42533003,
+            42533004,
+            42533005,
+            42533006,
+            42533007,
+            42533008,
+            42533009,
+            42533010,
+            42533011,
+            42533012,
+            42533013,
+            42533014,
+            42533015,
+            42533016,
+            42533017,
+            42533018,
+            42533019,
+            42533020,
+            42533021,
+            42533022
+          ],
+          "sectionId": 42533
+        }
+      ],
+      "title": "真相暗涌·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42534001",
+          "sourceType": 3,
+          "text": "M城，废弃工厂的一角。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42534002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "再有一次刚才那样的战斗，优纪会、会疯掉的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯？你们快看那边，那两个大猩猩一样的家伙是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "应该是按照动物造型制作的机甲，这种设计有些少见呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "哈，我想到了一个有趣的计划，快跟我来~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "唔，你带我到这里来干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我可没有近距离欣赏大猩猩的兴趣，就算是机甲也不行的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "才不是呢，我是想黑进这两台金刚机甲的系统，你替我掩护。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "真的吗？那样的话，我们就能更方便地搜集线索了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "可是这样做很危险……万一操作不当的话，这里全体机甲都会收到预警。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "别担心，我对这些机甲的构造了如指掌，绝对不会出查错~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "（口哨声）搞定了，系统被我黑掉了，我们可以进去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我没骗你吧，任何复杂的机甲构造在我眼里根本不值一提~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534014",
+          "sourceType": 2,
+          "speaker": "薇薇安",
+          "text": "啊，她刚才的这幅神情，简直和洛卡一模一样。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534015",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哇啊啊啊，你们别过来——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534016",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "别怕，是我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534017",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "应该提前和优纪打好招呼的，抱歉抱歉，你还好吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，原来是你们两个啊……我还以为要被抓走了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534019",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "我和薇薇安打算开着这两台金刚机甲去前面搜集一下线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534020",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "优纪的话待在这里别动，我们调查结束会来这里找你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534021",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "没办法，这里到处都是巡逻的机甲。\n如果遇到任何意外状况，就随时联系我们，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42534022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，优纪会注意安全的，你们也要小心哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1083",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42534001,
+            42534002,
+            42534003,
+            42534004,
+            42534005,
+            42534006,
+            42534007,
+            42534008,
+            42534009,
+            42534010,
+            42534011,
+            42534012,
+            42534013,
+            42534014,
+            42534015,
+            42534016,
+            42534017,
+            42534018,
+            42534019,
+            42534020,
+            42534021,
+            42534022
+          ],
+          "sectionId": 42534
+        }
+      ],
+      "title": "真相暗涌·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42535001",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "哇哦，那些巡逻的机甲果然没认出我们来呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535002",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "西蒂斯，你真是太厉害了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535003",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "嗯……其实也没什么啦，嘿嘿~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535004",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "如果像我这样熟悉机甲的构造，你也可以做到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535005",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "我有一位非常要好的童年玩伴，她和你一样非常热爱机甲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535006",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "所以我比谁都清楚，这是一种难能可贵的天赋，别人是无论如何都做不到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535007",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "诶，你的那位朋友是个什么样的人，有机会我也想认识一下~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535008",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "她失踪了……我也已经很多年没有见过她了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535009",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "什么，怎么会……\n啊，坐标信息更新了，这里应该就是他们制造和复刻芯片的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535010",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "终于被我们找到了，快进去看看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535011",
+          "sourceType": 3,
+          "text": "废弃工厂，芯片制造工坊。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42535012",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "为什么……这里会有这么多的复刻芯片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535013",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "虽然做好了心理准备，看到这样的画面还是让我相当震惊呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535014",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "这么多的芯片仅仅是自己使用是不够的，他们肯定有对外的销售途径。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535015",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "你的意思是背后有更大的买主，而那个买主才是整个事件的始作俑者吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535016",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "也不是没有这个可能啦，总之整件事情的背后肯定还有别的猫腻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535017",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "按照我们原定的计划，只毁掉这个芯片小作坊是远远不够的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535018",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "你的意思是，还想顺着这条线索查清背后的主谋？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535019",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "当然，我倒要看看是什么人在背后捣鬼，你也一样吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535020",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "这么有趣的冒险，没有我薇薇安怎么能行呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535021",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "嘘，有人进来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42535022",
+          "sourceType": 0,
+          "speaker": "金刚1号驾驶员",
+          "text": "喂，你们在这里做什么？谁准许你们把机甲开进来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42536001",
+          "sourceType": 3,
+          "text": "片刻过后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42536002",
+          "sourceType": 0,
+          "speaker": "金刚1号驾驶员",
+          "text": "什么情况，我的机甲怎么不听我指挥了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42536003",
+          "sourceType": 0,
+          "speaker": "金刚2号驾驶员",
+          "text": "我们这里混进了外人，快拦住这两个家伙，别让她们跑了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42536004",
+          "sourceType": 0,
+          "speaker": "乔装的西蒂斯",
+          "text": "怎么办，我们的伪装被这群家伙识破了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42536005",
+          "sourceType": 0,
+          "speaker": "乔装的薇薇安",
+          "text": "我早就厌烦这副伪装了，来吧，是时候活动一下身体了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1084",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42535001,
+            42535002,
+            42535003,
+            42535004,
+            42535005,
+            42535006,
+            42535007,
+            42535008,
+            42535009,
+            42535010,
+            42535011,
+            42535012,
+            42535013,
+            42535014,
+            42535015,
+            42535016,
+            42535017,
+            42535018,
+            42535019,
+            42535020,
+            42535021,
+            42535022
+          ],
+          "sectionId": 42535
+        },
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42536001,
+            42536002,
+            42536003,
+            42536004,
+            42536005
+          ],
+          "sectionId": 42536
+        }
+      ],
+      "title": "真相暗涌·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42537001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我们做到了，西蒂斯，真是太不可思议了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "现在该怎么办，要把他们两个带到管理局去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "别急，我们还有时间，索性先审审他们好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537004",
+          "sourceType": 3,
+          "text": "残破的芯片制造工坊内——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42537005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "快说，指使你们制造这么多芯片的幕后金主是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那些造出的芯片都被送到了哪里？使用途径又是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537007",
+          "sourceType": 0,
+          "speaker": "金刚1号驾驶员",
+          "text": "呵呵……哈哈哈哈……想知道吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537008",
+          "sourceType": 0,
+          "speaker": "金刚1号驾驶员",
+          "text": "靠近点，再近点，我全都告诉你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "等等，他们身上有异常的红灯闪烁！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537010",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "不好，这是自爆程序的启动信号！快闪开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537011",
+          "sourceType": 0,
+          "speaker": "金刚2号驾驶员",
+          "text": "想知道答案？和我一起下地狱吧！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "西蒂斯，危险！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537013",
+          "sourceType": 3,
+          "text": "砰————！！！！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42537014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "咳咳，你、你还好吧？有没有哪里受伤？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537015",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "……为什么不顾自己的安危冲上来救我，你疯了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "嘿嘿，你看我这不是没事吗？\n我是未来的大冒险家，身上可是有好运光环的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537017",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "真没想到这些家伙会选择自爆……他们这是不惜牺牲自己也要隐藏真相啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42537018",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "走吧，我们还有最后一件工作要做。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1085",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42537001,
+            42537002,
+            42537003,
+            42537004,
+            42537005,
+            42537006,
+            42537007,
+            42537008,
+            42537009,
+            42537010,
+            42537011,
+            42537012,
+            42537013,
+            42537014,
+            42537015,
+            42537016,
+            42537017,
+            42537018
+          ],
+          "sectionId": 42537
+        }
+      ],
+      "title": "真相暗涌·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42538001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "呼，能找到的设备和芯片都在这里了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那是当然，我可是来来回回搜查了很多遍呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还有我还有我，每个角落都没有忽略掉哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "好极了，销毁这批机器和芯片以后，至少能让背后的坏家伙们消停很长一段时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "销毁这些芯片和机器看起来是个大工程，需要帮忙吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "不用，我一个人足够了，你们在外面等我就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538007",
+          "sourceType": 3,
+          "text": "芯片制造工坊在一片火光中化为灰烬——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42538008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "销毁过程结束了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "已经全部搞定了，就像这里从没出现过芯片制作坊一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538010",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "虽然有些遗憾，但这样的结果多少还是让我满意的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你的那枚芯片怎么办，你不想留下它吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "而且，只有那枚芯片才能向「管理局」证明你是无辜的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我果然还是不能自由随性地做研究，看吧，第一次就出事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538014",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "那枚芯片是对我的惩罚……丢了就丢了吧，我无所谓的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你看，这是什么~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇啊，是西蒂斯最喜欢的那枚机甲芯片~！竟然真的在这里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538017",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔，你在哪找到它的，我还以为再也见不到了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "嘿嘿，是薇薇安的小秘密哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538019",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "总之，你快收起来吧，这么重要的东西别再弄丢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538020",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔唔，我会把它好好带回去，彻彻底底地来一次大更新！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42538021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那么，我可要从现在开始就期待起来了呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1086",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42538001,
+            42538002,
+            42538003,
+            42538004,
+            42538005,
+            42538006,
+            42538007,
+            42538008,
+            42538009,
+            42538010,
+            42538011,
+            42538012,
+            42538013,
+            42538014,
+            42538015,
+            42538016,
+            42538017,
+            42538018,
+            42538019,
+            42538020,
+            42538021
+          ],
+          "sectionId": 42538
+        }
+      ],
+      "title": "真相暗涌·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 219,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 219,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "她将用行动证明自己。",
+  "title": "真相缥缈",
+  "wordCount": 2400
+}

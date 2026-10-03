@@ -1,0 +1,146 @@
+{
+  "bookId": "hero-215103",
+  "id": "bond-28571",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28571001",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "团子、团子、团子、团子、团子大家族。\n呀，我，我什么都没说。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28571003",
+              "text": "你刚才在唱歌？"
+            }
+          ],
+          "sourceId": "28571002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28571003",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "是、是的……如果有打扰到你，真的很抱歉。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28571005",
+              "text": "不会，旋律非常好听。"
+            }
+          ],
+          "sourceId": "28571004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28571005",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "是「团子大家族」的歌哦，我最喜欢「团子大家族」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28571006",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "可惜成为「手办」后，知道「团子大家族」的人越来越少了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28571008",
+              "text": "不要难过，这个送给你。"
+            }
+          ],
+          "sourceId": "28571007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28571008",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "好、好多团子……顽皮的烧烤团子……温柔的豆沙团子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28571009",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我一直憧憬着的「团子大家族」，就是现在这个样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28571010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是我亲手做的团子屋，你能喜欢真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28571011",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我很喜欢……非常喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28571012",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "辛苦你了。有你在，我感觉更有勇气了呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28571",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28571001,
+            28571002,
+            28571003,
+            28571004,
+            28571005,
+            28571006,
+            28571007,
+            28571008,
+            28571009,
+            28571010,
+            28571011,
+            28571012
+          ],
+          "sectionId": 28571
+        }
+      ],
+      "title": "团子大家族"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "团子大家族",
+  "wordCount": 230
+}

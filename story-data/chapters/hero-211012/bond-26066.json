@@ -1,0 +1,132 @@
+{
+  "bookId": "hero-211012",
+  "id": "bond-26066",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26066001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇萝为什么会成为雕塑师呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "因为喜欢。\n我看到喜欢得不行的东西，就会有做成雕塑的冲动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喜欢？可是奇萝做的雕塑，样子都......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "阴森而骇人吧？那当然，毕竟这些是幽灵的作品，沾染了亡者的气息，咯咯咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇萝是在传达自己看到这些东西的感受吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "你居然会这样想......\n太过了解幽灵的内心可不是什么好事哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066007",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "看着我的作品，你会有什么感受？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26066009",
+              "text": "有点害怕。"
+            },
+            {
+              "targetId": "26066009",
+              "text": "有点惋惜。"
+            }
+          ],
+          "sourceId": "26066008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26066009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "覆灭的瞬间，才最能展现最初的美好。\n在你心中......对死的恐惧，其实是对生的向往。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "不明白吗？没关系，多看些我的作品，自然就懂了。\n对了，不如......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26066011",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "下一尊雕塑，就以你为原型吧？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26066",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26066001,
+            26066002,
+            26066003,
+            26066004,
+            26066005,
+            26066006,
+            26066007,
+            26066008,
+            26066009,
+            26066010,
+            26066011
+          ],
+          "sectionId": 26066
+        }
+      ],
+      "title": "原型"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "原型",
+  "wordCount": 262
+}

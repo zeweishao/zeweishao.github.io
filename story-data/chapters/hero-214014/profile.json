@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214014",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，美人「貂蝉」化身为比例模型登场！\n手持丝质团扇、身姿娴雅的名伶貂蝉，似笑非笑地注视着前方，眼中仿佛蕴含着万千星河的光辉。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214014"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 74
+}

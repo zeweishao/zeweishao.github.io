@@ -1,0 +1,186 @@
+{
+  "bookId": "hero-212014",
+  "id": "bond-29329",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29329001",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "主人，今天也坚持下来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是啊，运动后的心情真是畅快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这段时间每天都在陪真乃晨跑，渐渐地也形成了习惯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329004",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "话说……后宅这怎么多了一栋大房子？出发的时候好像还没看到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是只属于你的新家哦，进去看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329006",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "啊啊啊，这是真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329007",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "装修得好漂亮，还有宽敞的露天阳台……就像是能看到海景的别墅一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329008",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "呜……我要感动得哭出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "别哭啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329010",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "（抽泣声）我都还没做什么，就收到了这么贵重的礼物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你已经足够努力了，最近后宅也是你在主动打扫吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329012",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "（抽泣声）对不起……我只是太开心了。好了……眼泪就此打住。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329013",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "……我马上就去帮主人烧洗澡水！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等下，我自己会去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329015",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "运动后的泡澡，还有缓解疲劳的按摩！这些都包在真乃身上吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329016",
+          "sourceType": 3,
+          "text": "少女的眼中有着熊熊燃烧的，不容拒绝的热情。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29329017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……好，有劳了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329018",
+          "sourceType": 0,
+          "speaker": "仓田真乃",
+          "text": "从今天起，主人的生活就都由我来照顾！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29329019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "停！你冷静一下……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29329",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29329001,
+            29329002,
+            29329003,
+            29329004,
+            29329005,
+            29329006,
+            29329007,
+            29329008,
+            29329009,
+            29329010,
+            29329011,
+            29329012,
+            29329013,
+            29329014,
+            29329015,
+            29329016,
+            29329017,
+            29329018,
+            29329019
+          ],
+          "sectionId": 29329
+        }
+      ],
+      "title": "努力的奖励"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "努力的奖励",
+  "wordCount": 343
+}

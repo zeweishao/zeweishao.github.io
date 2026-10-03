@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-212206",
+  "id": "bond-26070",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26070001",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "……最终，人鱼公主还是没有忍心杀掉王子。\n她将尖刀刺入自己的心脏，化作泡沫消失了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真可惜......王子甚至根本不知道她的爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "由于世界的不公，她已经承受了足够多的痛苦。\n为什么还要做出这样的牺牲呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我倒是觉得，人鱼公主的勇敢还是值得称赞的，只不过差一点点——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26070006",
+              "text": "自身的努力。"
+            },
+            {
+              "targetId": "26070006",
+              "text": "外界的协助。"
+            }
+          ],
+          "sourceId": "26070005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26070006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果换个思路——\n打败海巫破除诅咒的方法，或是让王子变成人鱼的方法，说不定也会有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "......呵呵。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26070009",
+              "text": "你觉得很幼稚吗？"
+            },
+            {
+              "targetId": "26070009",
+              "text": "你觉得有道理吧？"
+            }
+          ],
+          "sourceId": "26070008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26070009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "啊，抱歉，我只是觉得......\n稍微理解她的想法了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "既然化作泡沫消失是人鱼的宿命，迟早会到来......\n如果在那时，世界上的光明还未消失殆尽......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26070011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "如果牺牲我自己，能够延续你眼中的希望......\n我想，我会愿意。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26070",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26070001,
+            26070002,
+            26070003,
+            26070004,
+            26070005,
+            26070006,
+            26070007,
+            26070008,
+            26070009,
+            26070010,
+            26070011
+          ],
+          "sectionId": 26070
+        }
+      ],
+      "title": "故事"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212206",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "故事",
+  "wordCount": 312
+}

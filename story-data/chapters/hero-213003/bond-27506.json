@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-213003",
+  "id": "bond-27506",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27506001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你刚才是不是在偷看别的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "没有经过我的允许，竟然敢把视线从我的身上移开。看来要好好惩罚一下才行~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "惩罚？要怎么惩罚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "嗯？你看起来很期待嘛，是不是想到了色色的事情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "脸红了，连面对变成手办的我都能够兴奋起来吗，真是一个无可救药的家伙~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不过，妾身好像也跟着兴奋起来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等一下，我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哈哈哈哈，就是这种表情，实在太有趣了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "露出这种表情，是想要妾身好好疼爱你一番么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "嗯？你的呼吸是不是变粗重了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不过不好意思，惩罚已经结束了~\n哈哈哈哈，你看起来很失望呢，这就是妾身对你的惩罚~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27506013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "如果想要真正的“惩罚”的话，可不许再看除了我以外的人了哦？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27506",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27506001,
+            27506002,
+            27506003,
+            27506004,
+            27506005,
+            27506006,
+            27506007,
+            27506008,
+            27506009,
+            27506010,
+            27506011,
+            27506012,
+            27506013
+          ],
+          "sectionId": 27506
+        }
+      ],
+      "title": "惩罚"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "惩罚",
+  "wordCount": 266
+}

@@ -1,0 +1,128 @@
+{
+  "bookId": "hero-211204",
+  "id": "bond-27546",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27546001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "听好！我要宣布一件重要的大事——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "喜欢你喜欢你喜欢你！\n连说三次，因为我最最最——喜欢你啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说吧，又想买什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "才不是！怎么可以问这种问题？\n我喜欢你到了不得了的地步，才会有如此热情的告白哦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27546006",
+              "text": "我也喜欢萝贝卡。"
+            }
+          ],
+          "sourceId": "27546005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27546006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "那么，你最最最喜欢的萝贝卡刚才不小心打碎了花瓶、撞翻了涂料，你不会生气吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可以不计较花瓶和涂料的价格，不过，你要帮我收拾干净。\n走吧，一起去打扫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了，还有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "有件事，必须说明清楚！刚才的连说三次「喜欢」，一次是因为花瓶，一次是因为涂料，还有一次......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27546011",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "是因为萝贝卡真的喜欢你！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27546",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27546001,
+            27546002,
+            27546003,
+            27546004,
+            27546005,
+            27546006,
+            27546007,
+            27546008,
+            27546009,
+            27546010,
+            27546011
+          ],
+          "sectionId": 27546
+        }
+      ],
+      "title": "喜欢你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211204",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "喜欢你",
+  "wordCount": 251
+}

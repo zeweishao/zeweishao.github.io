@@ -1,0 +1,167 @@
+{
+  "bookId": "hero-211204",
+  "id": "bond-27545",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "27545001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "买给我吧——\n蜜瓜生蚝味的限定款涂料是我一生的执念！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么奇怪的东西，你真的愿意用吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不管不管！不用摆着看也要买！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "萝贝卡，不可以这么任性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜呜......求求你，我真的很想很想要！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "除了|101|，我已经没有别人可以依靠了......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27545008",
+              "text": "好吧，服了你。"
+            },
+            {
+              "targetId": "27545009",
+              "text": "不行就是不行。"
+            }
+          ],
+          "sourceId": "27545007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27545008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "耶！你是世界上最最最——好的主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545009",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜呜呜呜哇哇啊——！！！喜欢的东西不能买，也没有人陪我玩，萝贝卡实在太寂寞了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧......接下来，我会多陪陪你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "说话算数？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27545014",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "那今天一整天，不，今年一整年，都和萝贝卡一起度过吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27545",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27545001,
+            27545002,
+            27545003,
+            27545004,
+            27545005,
+            27545006,
+            27545007,
+            27545008,
+            27545009,
+            27545010,
+            27545011,
+            27545012,
+            27545013,
+            27545014
+          ],
+          "sectionId": 27545
+        }
+      ],
+      "title": "服了你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "服了你",
+  "wordCount": 240
+}

@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-213105",
+  "id": "bond-30620",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "30620001",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "这是……呱太的最新周边？！\n送给我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620003",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "非常喜欢！不过……你不会觉得都是初中生了，还喜欢这个很幼稚吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我觉得呱太挺可爱的啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620005",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "对吧对吧？呱太明明就超可爱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620006",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "那些不懂得呱太可爱之处的人，居然反过来诋毁它是只给小孩子玩的玩偶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620007",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你还挺有眼光的嘛~看来之前误会你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "好，就这样一口气把这个世界所有的呱太周边集齐吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30620010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "以后我们就是呱太发烧友了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "30620",
+      "sourceRefs": [
+        {
+          "bundle": "paojie-p3",
+          "rowIds": [
+            30620001,
+            30620002,
+            30620003,
+            30620004,
+            30620005,
+            30620006,
+            30620007,
+            30620008,
+            30620009,
+            30620010
+          ],
+          "sectionId": 30620
+        }
+      ],
+      "title": "发烧友"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "发烧友",
+  "wordCount": 173
+}

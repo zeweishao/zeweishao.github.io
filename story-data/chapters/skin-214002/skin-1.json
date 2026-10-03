@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214002",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "华丽的炫彩撞色裙装，与哈莉反复无常、冲动任性的个性相得益彰。\n手持星光流彩般的渐变虹信号枪，无所畏惧的哈莉似乎又在酝酿着下一个恶作剧。\n只不过这次的目标不是往常在战场上遇到的敌人，而是眼前的你。\n接下来，在「俘获心动之人」的这场没有硝烟的战场上，全新着装的哈莉将会以她独特的方式令你心跳加速哟！",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "砰然星动Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214002",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "哈莉·砰然星动Ver.",
+  "title": "砰然星动Ver.",
+  "wordCount": 144
+}

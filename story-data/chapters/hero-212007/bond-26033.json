@@ -1,0 +1,190 @@
+{
+  "bookId": "hero-212007",
+  "id": "bond-26033",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26033001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "有个严肃的问题，想请教你——什么是爱情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "突然问这个......绿子有在意的人了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没有。但是，今天大家讨论「爱情」，绿子说，「爱情就是崇拜比自己更强的人」——然后被笑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然像是绿子会给出的答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "爱情是很复杂的东西吗？像她们说的那样，「希望一个人是自己的所有物」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是谁那么说的啊......不过，每个人的理解不同，没有正误之分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "绿子特地来问你，就是想知道你的理解啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26033009",
+              "text": "心跳加速的感觉。"
+            },
+            {
+              "targetId": "26033011",
+              "text": "彼此陪伴的温暖。"
+            }
+          ],
+          "sourceId": "26033008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26033009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我看到坏人也会气得心跳加速、血压飙升，但绿子绝对不会爱上那些人！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26033013",
+              "text": "......"
+            }
+          ],
+          "sourceId": "26033010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26033011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "爸妈的陪伴也很温暖啊，还有你的陪伴......难道说，我们之间是爱情吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26033013",
+              "text": "......"
+            }
+          ],
+          "sourceId": "26033012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26033013",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "搞不懂，这种麻烦的问题果然搞不懂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也不用急，绿子早晚有一天会明白的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "等不到什么「早晚有一天」了啊！拿不出一个完美的答案，马上就会被看扁的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "总之就......「想到他早晚一天会变成所有物温暖陪伴自己就心跳加速，愿意为他奉献出崇拜之情的强者！」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26033017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这不是更离谱了吗......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26033",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26033001,
+            26033002,
+            26033003,
+            26033004,
+            26033005,
+            26033006,
+            26033007,
+            26033008,
+            26033009,
+            26033010,
+            26033011,
+            26033012,
+            26033013,
+            26033014,
+            26033015,
+            26033016,
+            26033017
+          ],
+          "sectionId": 26033
+        }
+      ],
+      "title": "爱情？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212007",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "爱情？",
+  "wordCount": 413
+}

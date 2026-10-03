@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214015",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这天，星洛接到了一个奇怪的「狩猎任务」——必须扮成猫咪才能执行。\n\n「顺利潜入！呼，这次的猎物也太不小心了吧。」\n\n「什么味道这么香？哇，小鱼干~！」\n\n星洛抓起一条小鱼干，撒上自己随身携带的调料，准备大快朵颐。\n\n一阵笑声响起，「猎物」走向她，笑容里满是宠溺。\n\n「抓到你了哦，偷吃的小猫咪。」\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "偷腥小猫咪Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214015",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "星洛·偷腥小猫咪Ver.",
+  "title": "偷腥小猫咪Ver.",
+  "wordCount": 158
+}

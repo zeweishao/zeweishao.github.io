@@ -1,0 +1,73 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-112",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "112001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这么锋利的爪子，优纪你……没问题吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "112002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "短裙上被挠出了许多痕迹，但我会在前面一直保护大家的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "112003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "刚才走出门的人类，是生面孔没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "112004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "加上眼前的猫，主人不在的时候，家里总是意外会出现奇怪的客人呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "112005",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "毫无例外……喜欢把玩人家的盲盒跟身体，去死啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "112",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            112001,
+            112002,
+            112003,
+            112004,
+            112005
+          ],
+          "sectionId": 112
+        }
+      ],
+      "title": "原文片段 112"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 112
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 112",
+  "wordCount": 115
+}

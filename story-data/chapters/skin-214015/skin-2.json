@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214015",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「呼~星洛的烤肉果然天下第一！」篝火上只剩下雪白干净的凶兽腿骨，同伴们在餐后满足感叹。\n\n「手感完美，长度完美！最重要的是，还有烤肉香味，嘿嘿~」星洛对着新「武器」满意颔首。\n\n凶兽环伺的焦热土地之上，远处再次传来嘶吼，沉重的声响快速接近。\n\n「大家放心，烤肉的篝火由我来守护！」挥舞骨棒带起的火星点燃猎手的瞳孔。\n\n背向火堆，猎手骄傲宣言，「这次的猎物要做香辣的！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "火狱守卫Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214015",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "星洛·火狱守卫Ver.",
+  "title": "火狱守卫Ver.",
+  "wordCount": 176
+}

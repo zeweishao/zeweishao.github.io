@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213105",
+  "id": "bond-30600",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "30600001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "啪！啪！啪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你在做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……没什么，电视机好像有点失灵了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你那样拍可能会把它拍坏的，闪开让我来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600006",
+          "sourceType": 5,
+          "speaker": "御坂美琴",
+          "text": "喝呀——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喂喂！那么用力踢的话……修好了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "常盘台中学秘传，奶奶式斜角四十五度打击机器修理法！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好帅……原来这招不是只能修自动贩卖机啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "……帅吗？我还以为你会觉得这样做很粗鲁呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不会啊，超帅的！包括飞踢时不经意间露出的安全裤也是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600012",
+          "sourceType": 5,
+          "speaker": "御坂美琴",
+          "text": "喂，你在看哪里啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不好意思，因为太过显眼了。\n总之以后就多关照了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30600014",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "哼！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "30600",
+      "sourceRefs": [
+        {
+          "bundle": "paojie-p3",
+          "rowIds": [
+            30600001,
+            30600002,
+            30600003,
+            30600004,
+            30600005,
+            30600006,
+            30600007,
+            30600008,
+            30600009,
+            30600010,
+            30600011,
+            30600012,
+            30600013,
+            30600014
+          ],
+          "sectionId": 30600
+        }
+      ],
+      "title": "常盘台中学秘传"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "常盘台中学秘传",
+  "wordCount": 200
+}

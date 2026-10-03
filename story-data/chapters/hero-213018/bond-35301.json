@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-213018",
+  "id": "bond-35301",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35301001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇怪，我的那件蓝色毛衣怎么不见了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "啊，难道说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "米菲亚见到过吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "难道说……是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "是……你到了会得健忘症的年纪了喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然不应该期待米菲亚说的话啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是米菲亚窝里的这团蓝色毛线球看起来十分眼熟……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "那是米菲亚的！上面有米菲亚的贴纸！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的不是用我的毛衣拆的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "虽然它之前属于你，不过现在贴了贴纸就属于米菲亚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是严格来说，米菲亚现在也是属于我的手办呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301013",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "恰恰相反！你才是属于米菲亚的专属扫灰官！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35301014",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "快点顺着毛撸，不然后果你知道的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35301",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35301001,
+            35301002,
+            35301003,
+            35301004,
+            35301005,
+            35301006,
+            35301007,
+            35301008,
+            35301009,
+            35301010,
+            35301011,
+            35301012,
+            35301013,
+            35301014
+          ],
+          "sectionId": 35301
+        }
+      ],
+      "title": "专属扫灰官"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "专属扫灰官",
+  "wordCount": 214
+}

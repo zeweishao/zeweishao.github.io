@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213202",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师第九将夜制作的这款洛瑞丝1/7系列手办，细腻还原了原著设定中的经典形象。洛瑞丝站在华丽古堡的一角，左手轻抚着名为「猎犬」的迫击炮，微微俯下身体，仿佛正在向高贵的古堡主人行礼。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213202"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214014",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "最近「七星客栈」持续低迷，已经很久没有往日门庭若市的盛景了。\n\n明明各色美食照常供应，店员的服务素质也一如以往地保持着高水准。\n\n可是，来店里的光顾的客人还是越来越少了。\n\n「果然，七星客栈没有她不行呀。」\n\n「没办法，谁让我这么受欢迎呢~」\n\n万众瞩目之下，消失的「老板娘」貂蝉终于盛装归来。\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "冠群芳Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214014",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "貂蝉·冠群芳Ver.",
+  "title": "冠群芳Ver.",
+  "wordCount": 157
+}

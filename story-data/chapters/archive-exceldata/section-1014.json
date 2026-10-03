@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1014",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1014001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇！盲盒300抽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1014002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是能够不断抽取30次的大奖励欸！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1014003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "盒子中究竟会开出怎样的手办呢？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1014004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸嘿嘿~~优纪要迫不及待啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1014",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1014001,
+            1014002,
+            1014003,
+            1014004
+          ],
+          "sectionId": 1014
+        }
+      ],
+      "title": "原文片段 1014"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1014
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1014",
+  "wordCount": 56
+}

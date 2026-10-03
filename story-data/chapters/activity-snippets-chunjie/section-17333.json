@@ -1,0 +1,85 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17333",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17333001",
+          "sourceType": 10,
+          "text": "恭喜发财！好彩自然来~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17333002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "招财进宝出锅，原材料是鹌鹑蛋和猪肉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17333003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哼哼，虽然听上去有些奇怪，但是吃进去，可是会让人停不下来的魔力哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17333004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "一口一个，源源不断，会像是今年主人的财运一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17333005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "借你们吉言！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17333006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来今天这一盘，都要好好解决了，我开动了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17333",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17333001,
+            17333002,
+            17333003,
+            17333004,
+            17333005,
+            17333006
+          ],
+          "sectionId": 17333
+        }
+      ],
+      "title": "招财进宝"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17333,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "20",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "恭喜发财！",
+  "title": "招财进宝",
+  "wordCount": 113
+}

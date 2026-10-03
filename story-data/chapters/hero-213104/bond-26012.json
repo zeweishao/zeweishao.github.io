@@ -1,0 +1,75 @@
+{
+  "bookId": "hero-213104",
+  "id": "bond-26012",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26012001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "米莉姆，我给你带了礼物，是新的涂料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26012002",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "看上去很好喝的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26012003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "迫不及待端到嘴边了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26012004",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "才没喝，我只是稍微尝下味道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26012005",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "唔！！这是什么，我从来没有尝过这么有趣的味道！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26012",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26012001,
+            26012002,
+            26012003,
+            26012004,
+            26012005
+          ],
+          "sectionId": 26012
+        }
+      ],
+      "title": "礼物"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "礼物",
+  "wordCount": 76
+}

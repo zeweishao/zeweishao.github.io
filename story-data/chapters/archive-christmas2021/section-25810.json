@@ -1,0 +1,193 @@
+{
+  "bookId": "archive-christmas2021",
+  "id": "section-25810",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "25810001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "25810002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "呼……好冷。\n各位，久等了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "欸……大家都在了吗……抱歉来晚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，我们的节日信使到了呢！不知道今天会收到什么礼物~\n优纪可是认真写了一整天的心愿单！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "或许是因为看了那种连篇累牍的东西，信使小姐才会迟到吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么嘛，花迦真过分……\n明明自己的心愿就写了粮丸的尾巴那么长！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810007",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "竟……竟然偷看……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "好了，让我来看看清单——\n第一位收件人，优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "欸？我吗我吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "优纪的礼物，是一份「超大节日惊喜」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是我的第十二个心愿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810012",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "难道说，这个似曾相识的气息是……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "请稍等，礼物就在门外。\n失陪一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好期待呀……会是什么呢……是信使小姐能搬动的东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可是她刚刚说了「超大」，对我们来说，超大的话只有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什、什么嘛……哪有的事，今、今天可是「手办之夜」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "好了|101|，你的出场时间到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25810018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "进去看看吧，她们等你很久了。\n……还有，节日快乐。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25810",
+      "sourceRefs": [
+        {
+          "bundle": "christmas2021",
+          "rowIds": [
+            25810001,
+            25810002,
+            25810003,
+            25810004,
+            25810005,
+            25810006,
+            25810007,
+            25810008,
+            25810009,
+            25810010,
+            25810011,
+            25810012,
+            25810013,
+            25810014,
+            25810015,
+            25810016,
+            25810017,
+            25810018
+          ],
+          "sectionId": 25810
+        }
+      ],
+      "title": "原文片段 25810"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "christmas2021",
+        "sectionId": 25810
+      },
+      {
+        "videoPath": "Videos/AVG_xmas_2021.mp4"
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 25810",
+  "wordCount": 346
+}

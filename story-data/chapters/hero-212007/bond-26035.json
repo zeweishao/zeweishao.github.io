@@ -1,0 +1,123 @@
+{
+  "bookId": "hero-212007",
+  "id": "bond-26035",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26035001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔！房子好大个，好大个房子！漂亮、美丽、好看！\n可恶，想不到更多形容词了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里面布置了道场和格斗训练器材，希望你喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "原来如此！你要亲眼见证绿子变成世界最强，送这款礼物是为了督促我训练。放心，绝对不会辜负你的心意！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "倒也不是这个意思......\n我希望绿子能快乐地生活在这里，做自己想做的事，仅此而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "绿子想做的事，就是保护弱小。从今天开始，这里就是西本高中格斗部分部，只要入部就是我罩的人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "不过，用你送的房子做庇护所，不就还是在依赖你吗？虽然，偶尔被朋友保护的感觉也不赖......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "咳咳，这只是暂时的，绿子很快就会成为了不起的强者！\n到那时，你看到我就会崇拜得心跳加速，就像现在的我一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊，说出口了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，在那一天之前，就让我来保护你好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035010",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "容容容容我拒绝！但是，想不到拒绝的理由。\n心里感觉有火在烧，难道这就是......被激起了挑战的决心吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26035011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "好吧，在绿子足够强之前，就由你来保护我，我去保护更多的人。\n那，那么，拜托了？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26035",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26035001,
+            26035002,
+            26035003,
+            26035004,
+            26035005,
+            26035006,
+            26035007,
+            26035008,
+            26035009,
+            26035010,
+            26035011
+          ],
+          "sectionId": 26035
+        }
+      ],
+      "title": "挑战的决心"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212007",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "挑战的决心",
+  "wordCount": 408
+}

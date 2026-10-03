@@ -1,0 +1,120 @@
+{
+  "bookId": "activity-extra-banai",
+  "id": "source-21190",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21190001",
+          "sourceType": 10,
+          "text": "聊聊关于「手办」这件事",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21190002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "嗨多磨，今天想跟大家聊聊「手办」这件事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190003",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家！成长的过程中一定有自己喜欢的玩具吧！比如生日时收到的玩偶，或者和朋友们每天拿来战斗玩耍的塑料小人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "孩童时期拿着它们玩扮家家酒的游戏时，有没有产生「要是它们动起来就好了」这样的想法呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "一定！一定有很多人这么想过吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家小时候曾经玩过的模型和玩具，现在会被放在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "现在如果再次看到它们，会不会像触电一样，遗忘的回忆和心情在这瞬间突然苏醒？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21190008",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "没有错，也许「手办」就是有着与那些记忆再次相遇的力量吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "21190",
+      "sourceRefs": [
+        {
+          "bundle": "banai",
+          "rowIds": [
+            21190001,
+            21190002,
+            21190003,
+            21190004,
+            21190005,
+            21190006,
+            21190007,
+            21190008
+          ],
+          "sectionId": 21190
+        }
+      ],
+      "title": "活动片段 21190"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "155",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "155",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 21190,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "id": "27",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 21190",
+  "wordCount": 232
+}

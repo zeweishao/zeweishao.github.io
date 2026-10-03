@@ -1,0 +1,161 @@
+{
+  "bookId": "activity-extra-heiyanyure",
+  "id": "source-32000",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "32000001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你觉得，优纪的名字会是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32000003",
+              "text": "优纪，不就是优纪吗？"
+            },
+            {
+              "targetId": "32000003",
+              "text": "优纪，你没事吧？"
+            }
+          ],
+          "sourceId": "32000002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32000003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不是啦！《黑岩射手 黎明降临》剧情里，皇后和死亡主宰在来到8号灯塔之前没有自己的姓名，她们通过抽牌获得了名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪在想，如果我去到那边的世界，和她们一样进入8号灯塔，会获得怎样的名字呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪也想抽牌试试看吗？但是我没有塔罗牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "锵锵——我在二手手办商店的仓库找到一副，问玲借来了。\n主人，你来洗牌，我来抽牌吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32000008",
+              "text": "洗牌"
+            }
+          ],
+          "sourceId": "32000007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32000008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "决定了——就是这张！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000009",
+          "sourceType": 3,
+          "text": "牌面上写着「太阳」。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32000010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太阳吗？总觉得，有点过于普通了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪一点也不普通，像太阳一样热情而活泼，乐观而积极，是奇迹般的女孩子哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32000012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真、真的吗？优纪好开心......\n那么，我会一直做主人的太阳，让主人永远幸福快乐！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "32000",
+      "sourceRefs": [
+        {
+          "bundle": "heiyanyure",
+          "rowIds": [
+            32000001,
+            32000002,
+            32000003,
+            32000004,
+            32000005,
+            32000006,
+            32000007,
+            32000008,
+            32000009,
+            32000010,
+            32000011,
+            32000012
+          ],
+          "sectionId": 32000
+        }
+      ],
+      "title": "活动片段 32000"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1059",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1059",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 32000,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 32000",
+  "wordCount": 310
+}

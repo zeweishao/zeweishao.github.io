@@ -1,0 +1,186 @@
+{
+  "bookId": "hero-213205",
+  "id": "bond-28504",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28504001",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "虽然我此次到这里来，并未事先向你说明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504002",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "可你居然连一个像样的车马和仆从都没有准备好，这也太失礼了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504003",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "卫生也不好好打扫，家里的陈设看起来也没有精心收拾过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "这哪里像我这样的大小姐应该待的地方？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28504006",
+              "text": "我平时就是这么生活的。"
+            }
+          ],
+          "sourceId": "28504005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28504006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "平民百姓的生活即使再普通，在迎接本大小姐的时候也需要装点一下门面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504007",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你应该清楚，能够见到我本人，已经是你莫大的荣幸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "侍奉我、取悦我，才是你最应该做的，明白么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28504010",
+              "text": "是，大小姐。"
+            }
+          ],
+          "sourceId": "28504009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28504010",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "为了迎接我的到来，你都准备了什么好东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504011",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "哦，我懂了，你的表情说明了一切，你果然什么都没准备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504012",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "等一下，那边那个冒着热气的东西，难道是为我准备的温泉？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28504014",
+              "text": "不，那个是……"
+            }
+          ],
+          "sourceId": "28504013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28504014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "没想到你居然还能有这么细心的时候，我对你刮目相看了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504015",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "这个温泉的味道很香甜，果然是用梅花的花瓣精心泡制的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504016",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我很喜欢你为我准备的这些，多谢。\n你的确尽到了应有的地主之谊，我收回之前说的那些话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28504017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那其实是我泡茶的水杯……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28504",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28504001,
+            28504002,
+            28504003,
+            28504004,
+            28504005,
+            28504006,
+            28504007,
+            28504008,
+            28504009,
+            28504010,
+            28504011,
+            28504012,
+            28504013,
+            28504014,
+            28504015,
+            28504016,
+            28504017
+          ],
+          "sectionId": 28504
+        }
+      ],
+      "title": "什么是大小姐"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213205",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "什么是大小姐",
+  "wordCount": 373
+}

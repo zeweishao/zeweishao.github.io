@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-212001",
+  "id": "bond-29312",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29312001",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "新的一天开始啦，今天也要火力全开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "话说，为什么尤娜的鞋带总是不绑起来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "原因很简单，因为——我不会绑鞋带！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "打绑带之类的太麻烦了，一般都是里惠在帮我做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不绑鞋带的话会容易绊倒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312007",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "这点小困难，就用毅力去克服吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真拿你没办法，这样，我有一个提议。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29312010",
+              "text": "我来帮帮你吧。"
+            },
+            {
+              "targetId": "29312010",
+              "text": "我来教教你吧。"
+            }
+          ],
+          "sourceId": "29312009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29312010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "喔，没问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样……这样……我的手有点大，不过也不算太难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312014",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "啊，和妹妹给我绑鞋带的感觉完全不一样诶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29312015",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "主人，谢谢你！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29312",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29312001,
+            29312002,
+            29312003,
+            29312004,
+            29312005,
+            29312006,
+            29312007,
+            29312008,
+            29312009,
+            29312010,
+            29312011,
+            29312012,
+            29312013,
+            29312014,
+            29312015
+          ],
+          "sectionId": 29312
+        }
+      ],
+      "title": "鞋带岂是如此不便"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "鞋带岂是如此不便",
+  "wordCount": 196
+}

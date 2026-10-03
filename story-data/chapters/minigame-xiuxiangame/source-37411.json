@@ -1,0 +1,54 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37411",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37411001",
+          "sourceType": 0,
+          "speaker": "百货店主",
+          "text": "我们偶尔也会接到一些急单，必须尽快发货。\n在闹钟倒计时结束前，完成它们的整理。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37411",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37411001
+          ],
+          "sectionId": 37411
+        }
+      ],
+      "title": "消除关卡 3 · 开场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "3",
+              "enter_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "3",
+          "enter_avg_id"
+        ],
+        "sectionId": 37411,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 3 · 开场",
+  "wordCount": 38
+}

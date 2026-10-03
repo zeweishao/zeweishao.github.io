@@ -1,0 +1,74 @@
+{
+  "bookId": "rewind-11",
+  "id": "source-6870",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "6870001",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6870002",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6870003",
+          "sourceType": 9,
+          "text": "抱歉了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6870004",
+          "sourceType": 9,
+          "text": "优纪。",
+          "type": "narration"
+        }
+      ],
+      "id": "6870",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6870001,
+            6870002,
+            6870003,
+            6870004
+          ],
+          "sectionId": 6870
+        }
+      ],
+      "title": "盛情难却·Ⅲ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9040033",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9040033",
+          "after_result_avg"
+        ],
+        "sectionId": 6870,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "盛情难却·Ⅲ",
+  "wordCount": 11
+}

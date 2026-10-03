@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-213014",
+  "id": "bond-28554",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28554001",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你来得正好，试试我新研制的香水。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28554003",
+              "text": "请问我可以拒绝吗？"
+            },
+            {
+              "targetId": "28554003",
+              "text": "上一次……"
+            }
+          ],
+          "sourceId": "28554002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28554003",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "别担心，这只是单纯的香水，没有什么特别的效果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554004",
+          "sourceType": 3,
+          "text": "尤兰达亲自在你的手背上喷了些颜色奇特的香水。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28554005",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "感觉怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "闻起来很香。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554007",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "闭上眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554009",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你想到了什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28554011",
+              "text": "你。"
+            },
+            {
+              "targetId": "28554012",
+              "text": "一些美好的东西，紫罗兰？"
+            }
+          ],
+          "sourceId": "28554010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28554011",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "你真幽默。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554012",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "可惜它的香气并不持久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554013",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "今晚带你去一个地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28554014",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "……作为参加试验的回报。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28554",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28554001,
+            28554002,
+            28554003,
+            28554004,
+            28554005,
+            28554006,
+            28554007,
+            28554008,
+            28554009,
+            28554010,
+            28554011,
+            28554012,
+            28554013,
+            28554014
+          ],
+          "sectionId": 28554
+        }
+      ],
+      "title": "此为美好"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "此为美好",
+  "wordCount": 152
+}

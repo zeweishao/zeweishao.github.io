@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212007",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI的知名绘师细腻还原了游戏中的形象，把绿子英气逼人的魅力呈现出来。手中拎着运动背包的她呈现着跳跃的态势，就连两条辫子都高高翘起。紧皱的眉头看起来不太高兴的绿子，是不是又要去打抱不平了呢。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212007"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 96
+}

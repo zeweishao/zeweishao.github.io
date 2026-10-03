@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213014",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这套孤本的书名不详，作者不详，全手抄的拉丁文让读者望而却步——除了这位极具求知欲的化学家。\n\n「......下一步，加入黄油、狼桃、黑猫毛、7滴眼泪，中火熬制。涂抹全身，可变大7倍，见日光失效。」\n\n雾气升腾，烧瓶咕嘟咕嘟冒着泡。\n尤兰达合上书，将玻璃棒伸入杯中半透明的淡紫色液体。\n\n今夜，注定会发生一些奇妙的事。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·魔药配方Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213014",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "尤兰达·闪亮·魔药配方Ver.",
+  "title": "闪亮·魔药配方Ver.",
+  "wordCount": 151
+}

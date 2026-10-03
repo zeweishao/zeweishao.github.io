@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213003",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「已经疲惫不堪了吗？看起来，您需要一些兴奋因子。」\n\n在狩猎者爱抚般的研磨下，咖啡豆被碾成细腻的颗粒。\n恒温82度的热水滚入，水分子吸饱了咖啡的醇香。\n\n「请用。今日份的特调，仅此一杯。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·兴奋因子Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213003",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "狩猎者·闪亮·兴奋因子Ver.",
+  "title": "闪亮·兴奋因子Ver.",
+  "wordCount": 89
+}

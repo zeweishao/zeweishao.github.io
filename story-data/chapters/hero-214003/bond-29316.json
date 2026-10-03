@@ -1,0 +1,146 @@
+{
+  "bookId": "hero-214003",
+  "id": "bond-29316",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29316001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……莉莉奈，出什么事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没事的话我继续睡了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……能不能不要一直戳我的脸，这样我睡不着了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316004",
+          "sourceType": 3,
+          "text": "轰隆隆！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29316005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你是害怕打雷吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316007",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是个不坦率的孩子。\n没记错的话，这是你第一次向我求助呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有时候你显得太成熟，我会忍不住把你当初大人看待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其实，可以更多依靠一点我哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316011",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "肉麻死了，笨蛋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今晚我陪你睡吧，让我看看有什么睡前读物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "我要听《克苏鲁的呼唤》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29316014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29316",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29316001,
+            29316002,
+            29316003,
+            29316004,
+            29316005,
+            29316006,
+            29316007,
+            29316008,
+            29316009,
+            29316010,
+            29316011,
+            29316012,
+            29316013,
+            29316014
+          ],
+          "sectionId": 29316
+        }
+      ],
+      "title": "雷雨夜"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214003",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "雷雨夜",
+  "wordCount": 172
+}

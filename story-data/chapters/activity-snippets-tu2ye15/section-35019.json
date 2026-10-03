@@ -1,0 +1,101 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35019",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35019001",
+          "sourceType": 10,
+          "text": "春山如笑",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35019002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呀，贝歌做了一个好特别的小山呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呜，没有见过陆地的大山，果然……做得太奇怪了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "恰恰相反，你对色彩有着敏锐的感知。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "好像开满了山花的山野，米菲亚好想扑进去捉蝴蝶喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈，被米菲亚这么形容，优纪也好想一起去玩呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "可以的哟，米菲亚认识好多好多蝴蝶，都可以告诉优纪喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35019008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "米菲亚真厉害，做猫猫真好呀~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35019",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35019001,
+            35019002,
+            35019003,
+            35019004,
+            35019005,
+            35019006,
+            35019007,
+            35019008
+          ],
+          "sectionId": 35019
+        }
+      ],
+      "title": "春山如笑"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35019,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "82",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「驱马春山去，山蹊绕涧斜」，与「兔儿爷」一起游历大好河山吧。",
+  "title": "春山如笑",
+  "wordCount": 149
+}

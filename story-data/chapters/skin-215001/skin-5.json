@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215001",
+  "id": "skin-5",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「黄豆，下雨了，该回家啦。」\n被樱称作「黄豆」的鸭子不明所以地嘎嘎叫了两声。\n\n「来，躲到我的雨伞下面。」\n「黄豆、蛙仔，你怎么不带伞就出门？哦，我知道啦，你们不识字，看不懂天气预报，真可怜。」\n\n「那以后，我就把天气预报画成图，投进这个信箱里，黄豆来转告大家，好不好？」\n\n「嘎，嘎嘎！」\n「嗯！一言为定！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·晴雨信箱Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215001",
+        "skinId": "skin-5"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "樱·闪亮·晴雨信箱Ver.",
+  "title": "闪亮·晴雨信箱Ver.",
+  "wordCount": 146
+}

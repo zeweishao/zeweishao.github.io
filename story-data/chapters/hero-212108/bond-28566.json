@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-212108",
+  "id": "bond-28566",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28566001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "那边的大个子，过来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28566003",
+              "text": "找我什么事？"
+            },
+            {
+              "targetId": "28566003",
+              "text": "不好的预感。"
+            }
+          ],
+          "sourceId": "28566002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28566003",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "你告诉我，究竟应该怎么做一个人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃，这是能说的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566005",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "怎么，这做人的秘籍在你们M城是稀世孤本不成？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，是世界上根本没有一本教程会告诉你怎么做人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566007",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "怎么会这样，唉，那我不是完了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566008",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "姐姐要我学会怎么做人，不然就不理我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你是不是闯了什么祸惹她生气了?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566010",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "没什么呀，不过是当着她的面囫囵生吞了一只蛙崽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566011",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "很小很小的一只，都不够我塞牙缝儿的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "你知道手办不能吃东西，我看姐姐脸色不对，当时就吐出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我明白你姐姐为什么会生气了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566014",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "这么说你知道怎么教我做人咯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28566015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "食色性也，我决定先教你学会鉴赏美食。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28566",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28566001,
+            28566002,
+            28566003,
+            28566004,
+            28566005,
+            28566006,
+            28566007,
+            28566008,
+            28566009,
+            28566010,
+            28566011,
+            28566012,
+            28566013,
+            28566014,
+            28566015
+          ],
+          "sectionId": 28566
+        }
+      ],
+      "title": "「讨教」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212108",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「讨教」",
+  "wordCount": 260
+}

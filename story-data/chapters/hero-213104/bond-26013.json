@@ -1,0 +1,74 @@
+{
+  "bookId": "hero-213104",
+  "id": "bond-26013",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26013001",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "我的！这些都是我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26013002",
+          "sourceType": 3,
+          "text": "米莉姆面前是涂料罐堆成的小山。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26013003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "涂装模型的涂料不够用了啊......米莉姆可以分我一罐吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26013004",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "唔，不过……如果是密友想要的话就没有办法了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26013005",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "但是顶多……分给你一个！再想要的话，求我也不会给你了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26013",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26013001,
+            26013002,
+            26013003,
+            26013004,
+            26013005
+          ],
+          "sectionId": 26013
+        }
+      ],
+      "title": "分你一个"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213104",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "分你一个",
+  "wordCount": 103
+}

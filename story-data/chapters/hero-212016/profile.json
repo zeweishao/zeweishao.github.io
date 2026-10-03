@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212016",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《永恒的异界幻想》，十项全能的贴心侍者，恭谨谦和的忠诚管家，光曜执事·「罗威·伯恩斯」化身为1/7比例模型登场！\n即使已经取得了不凡的社会地位，他也从未忘记过自己的出身，始终以自己的方式关心着普通民众的生活。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212016"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 105
+}

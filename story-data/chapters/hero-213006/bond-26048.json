@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-213006",
+  "id": "bond-26048",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26048001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "龙马，你每天坚持正坐静心，这我并不反对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "每次一坐就是四个小时，隔绝外界的干扰纹丝不动，真的很令人佩服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但你能不能换个地方，不要坐在水龙头下面！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048004",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "......\n............",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......算了，我换个地方去洗手吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048006",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你可以正常使用水龙头，不会影响到我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048007",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "水流能让我更加冷静。\n心静，则不会在意外物的干扰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是，看到你在下面坐着，我根本没法心安理得地洗手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可我做不到像你一样，完全不被所处环境影响。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048010",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "我还没有达到那种境界。\n你看，今天的静坐已经被在意的事情打断了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26048012",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "你的提问。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26048",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26048001,
+            26048002,
+            26048003,
+            26048004,
+            26048005,
+            26048006,
+            26048007,
+            26048008,
+            26048009,
+            26048010,
+            26048011,
+            26048012
+          ],
+          "sectionId": 26048
+        }
+      ],
+      "title": "瀑布"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "瀑布",
+  "wordCount": 235
+}

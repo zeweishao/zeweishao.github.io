@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-215102",
+  "id": "bond-28563",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28563001",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人可知，何为「西湖」之精髓？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28563003",
+              "text": "湖光山色。"
+            },
+            {
+              "targetId": "28563003",
+              "text": "四时景物。"
+            }
+          ],
+          "sourceId": "28563002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28563003",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人所言不错，「西湖」的山色与湖光随着时节的不同，更加增添了别样的雅致。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "而我却独爱「西湖」的烟雨，胜过一切时节。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563006",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "唯有身处雨中，方能为你亲手执伞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来十分熨帖，可惜现在是大晴天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563008",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "无妨，雨来了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563009",
+          "sourceType": 3,
+          "text": "霎时间乌云密布，大雨从天而降，泛起朦胧的水雾。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28563010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "竟然真的下雨了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28563011",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "我来为官人执伞，与君共度这一段烟雨。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28563",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28563001,
+            28563002,
+            28563003,
+            28563004,
+            28563005,
+            28563006,
+            28563007,
+            28563008,
+            28563009,
+            28563010,
+            28563011
+          ],
+          "sectionId": 28563
+        }
+      ],
+      "title": "「执伞」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「执伞」",
+  "wordCount": 177
+}

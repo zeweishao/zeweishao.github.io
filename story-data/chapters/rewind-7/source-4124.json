@@ -1,0 +1,110 @@
+{
+  "bookId": "rewind-7",
+  "id": "source-4124",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4124001",
+          "sourceType": 0,
+          "speaker": "小手雷",
+          "text": "你们人多欺负人少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124002",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "就是欺负你怎么了。你这个偷了哈莉机箱的小偷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124003",
+          "sourceType": 0,
+          "speaker": "小手雷",
+          "text": "你们都给我等着，不要走，我去找人来帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124004",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "诸葛孔明，我们的约定已经完成，你跟我回去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124005",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "那要看你有没有本事抓到我了。有缘再会，两位小朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "诸葛孔明！你别想跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124007",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "他们就这样走了？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4124008",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "嗯，我们也赶紧，趁着那家伙还没找到救兵前把机箱带走。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4124",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4124001,
+            4124002,
+            4124003,
+            4124004,
+            4124005,
+            4124006,
+            4124007,
+            4124008
+          ],
+          "sectionId": 4124
+        }
+      ],
+      "title": "闪耀旋律后篇·Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9000032",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9000032",
+          "after_result_avg"
+        ],
+        "sectionId": 4124,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "闪耀旋律后篇·Ⅱ",
+  "wordCount": 143
+}

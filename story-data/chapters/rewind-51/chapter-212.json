@@ -1,0 +1,1294 @@
+{
+  "bookId": "rewind-51",
+  "id": "chapter-212",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "41815001",
+          "sourceType": 3,
+          "text": "深夜，密林深处。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41815002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "这里暂时是安全的，没有人会找来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815003",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "冒着风险把您从「管理局」和「边界行动队」的手中救了出来，可以谈谈了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815004",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "不得不承认，你很有胆量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815005",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "但，我不会就此答应你的条件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815006",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "哈，我给出的条件难道还不够优渥么？无非是想请您从我弟弟的身体里离开而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815007",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "但凡接受了我的条件，您的力量就会变得更强，这难道不是百年来您梦寐以求的东西么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815008",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "注意你的言辞，造物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815009",
+          "sourceType": 3,
+          "text": "此时此刻，密林的另一边。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41815010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "就是这个痕迹，我不会认错的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我们要找的人，一定就在附近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "「帕拉斯」，扩大扫描范围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815013",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>搜索范围已达极限，暂未发现目标信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815014",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>警告：检测到有不明身份的敌人靠近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815015",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你们两个，不准再往前走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815016",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "不要问我理由，因为我就是「理由」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815017",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "阳子姐，我们说好只是困住她们两个，不动手的……你还记得吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815018",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "你们是圣阳的学生，为什么要阻拦我们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815019",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "抱歉，我们只是奉命拖延你们一段时间，其他的还不能透露太多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "海伦，看来冲突是不可避免了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815021",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "无须担心，我会全力协助希塔小姐的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41815022",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "少啰嗦，还是直接动手更爽快！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1047",
+      "sourceRefs": [
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41815001,
+            41815002,
+            41815003,
+            41815004,
+            41815005,
+            41815006,
+            41815007,
+            41815008,
+            41815009,
+            41815010,
+            41815011,
+            41815012,
+            41815013,
+            41815014,
+            41815015,
+            41815016,
+            41815017,
+            41815018,
+            41815019,
+            41815020,
+            41815021,
+            41815022
+          ],
+          "sectionId": 41815
+        }
+      ],
+      "title": "日照余波·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "41816001",
+          "sourceType": 3,
+          "text": "深夜，郊外密林附近。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41816002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你别说，这两人还真有两下子啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816003",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "敢追着校长不放，果然是有些本事的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816004",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "据我了解到的情报来看，她们的履历都很资深，阳子姐千万不能轻敌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "真麻烦。我才不管那么多，只想打个痛快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816006",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "不可以，我们答应过校长的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "目标动摇，就是现在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "如你所愿——冰雪，将洒满大地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816009",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "阳子姐，小心你的后面！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816010",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "刚才好险，差点就要脱不开身了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816011",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "这样下去可不行，我有个不错的主意，阳子姐要不要听听看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816012",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "别啰嗦，有话快说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816013",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "阳子姐，避开「帕拉斯」的射击后立即改变冲刺方向，在目标斜后方35°角出拳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816014",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "至于另一位对手，只要在接近她的同时暴露自己的要害，她便不会继续攻击。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816015",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你怎么这么肯定？万一那个她扼住我的喉咙怎么办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816016",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "不会的，阳子姐相信我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41816017",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "虽然没全部听懂……管他呢，就按你说的做！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817001",
+          "sourceType": 3,
+          "text": "半小时后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41817002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "竟然成了，小结月的脑瓜可真好使！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817003",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "嘿嘿，那也得阳子姐身手厉害，我们才能顺利甩脱她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817004",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "否则的话，我即使想出再好的主意，也不过是纸上谈兵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "嘘，这么快就追上来了，我们溜溜她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "找到了。你们逃不掉的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "阳子姐，我又有了一个新主意，你愿意再相信我一次吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41817008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "快点！全部告诉我！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1048",
+      "sourceRefs": [
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41816001,
+            41816002,
+            41816003,
+            41816004,
+            41816005,
+            41816006,
+            41816007,
+            41816008,
+            41816009,
+            41816010,
+            41816011,
+            41816012,
+            41816013,
+            41816014,
+            41816015,
+            41816016,
+            41816017
+          ],
+          "sectionId": 41816
+        },
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41817001,
+            41817002,
+            41817003,
+            41817004,
+            41817005,
+            41817006,
+            41817007,
+            41817008
+          ],
+          "sectionId": 41817
+        }
+      ],
+      "title": "日照余波·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "41818001",
+          "sourceType": 3,
+          "text": "此时此刻，安静的密林角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41818002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "看来无论我怎么说，您都不会接受我的条件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818003",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "这下难办了……我本来还想和您保持友好的关系呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "事到如今，我恐怕没有这个幸运了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818005",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "哼，你知道就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818006",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "别忘了，你是我的巫女，侍奉我是你的职责。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818007",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "是，我和我的家族，从未有一天忘记自己的职责。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818008",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "可是，我弟弟是无辜的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818009",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "让一个无辜的孩子背负他这个年纪不该有的沉重枷锁，您不觉得太残忍了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818010",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "造物在神的眼里，本没有贵贱之分，何来残忍与否？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818011",
+          "sourceType": 3,
+          "text": "气氛一度陷入了僵局。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41818012",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "神果然，不爱祂的子民……既然如此，那就不要怪我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818013",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "你想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818014",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "当然是，去做一个姐姐应该做的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818015",
+          "sourceType": 3,
+          "text": "御景熏取出八咫镜，光华瞬间照亮了她的周身。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41818016",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "奉请八方真神，借由八咫镜之映照，于吾之身降临此界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818017",
+          "sourceType": 3,
+          "text": "紫黑色的光倏地从地底钻出——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41818018",
+          "sourceType": 3,
+          "text": "以御景熏为中心，朝四面八方扩散，迅捷而凶猛地缠上了「天照」。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41818019",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "住手！你应该清楚这样做的后果！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818020",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我原本也不想这样，是您逼我这么做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818021",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "既然您不同意我开出的条件，那就只有请您陷入永眠了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818022",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "你这样做，等于自毁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818023",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "没有人会感激你，尤其是你弟弟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818024",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我不需要任何人感激我，只要……他能偶尔想起我，哪怕是憎恨也好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818025",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "术式完成以后，他或许会丢失所有的记忆，但至少他可以做回一个自由的孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41818026",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "没有比这个更好的结局了，这样就很好……这是我和我的家族亏欠他的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1049",
+      "sourceRefs": [
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41818001,
+            41818002,
+            41818003,
+            41818004,
+            41818005,
+            41818006,
+            41818007,
+            41818008,
+            41818009,
+            41818010,
+            41818011,
+            41818012,
+            41818013,
+            41818014,
+            41818015,
+            41818016,
+            41818017,
+            41818018,
+            41818019,
+            41818020,
+            41818021,
+            41818022,
+            41818023,
+            41818024,
+            41818025,
+            41818026
+          ],
+          "sectionId": 41818
+        }
+      ],
+      "title": "日照余波·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "41819001",
+          "sourceType": 3,
+          "text": "映射天道的八咫镜啊，将吾之心愿托付于你，展现无尽神威。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41819002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "万象虚影，虚幻假象，借吾之手，返照真实之境——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819003",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "看得出来，你有些力不从心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "这个术式反噬过大，是我始料未及的，万不可有人在此时打扰，否则……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819005",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "哼，可悲的造物。\n挣扎是徒劳的，你还不肯悔悟么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819006",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不，我不后悔……我会做到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819007",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "您无路可逃了，御景校长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819008",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "卡缪的状态现在很危险，随时都可能对M城造成无法估量的严重后果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819009",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "我理解您关爱弟弟的心情，但现在的他威胁到整个M城的秩序和安全，恳请您与「管理局」达成合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819010",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "只要交出卡缪，我可以向伊迪丝大人求情，「管理局」定然不会为难您。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819011",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "呵，我们姐弟难道需要「管理局」的肯定才能存活于这个世界么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819012",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "看来您拒绝了我的提议，但很抱歉，我答应过伊迪丝大人。\n御景熏校长，请允许我的失礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41819013",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "谁都别想阻拦我，无论是「管理局」，还是伊迪丝，亦或是你一个区区管家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820001",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "我留下了烧灼的印迹，那个人很快就会追上来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820002",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "你的术式只会让你和你的家族堕入永劫。\n停下，我命令你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820003",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不，我一向随心所欲，从不打算按谁定的规矩而活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "更何况，我还有一张能打的牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820005",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "什么……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820006",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "还记得吧，关于我们此前的约定？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41820008",
+              "text": "当然，我一直在等着这一刻。"
+            },
+            {
+              "targetId": "41820008",
+              "text": "你需要我为你做些什么？"
+            }
+          ],
+          "sourceId": "41820007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41820008",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "告诉我，有没有什么地方可以甩开无谓的追踪者，只有你和我知道最好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41820010",
+              "text": "我的秘密基地或许可以帮到你。"
+            }
+          ],
+          "sourceId": "41820009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41820010",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "天亮以后，到这里来见我，我等你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820011",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "造物之间的互相怜悯，究竟有何意义？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820012",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你不需要理解这些，因为很快你就要感知不到这一切了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820013",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "你说什……么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820014",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "唔……我的头好痛……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820015",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "是小光……！快些回来，回到姐姐的身边来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820016",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "造物……休想得逞！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820017",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "强烈的反噬感再次袭来，御景熏的身心也因此剧烈地震颤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820018",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "唔……！咳咳咳……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820019",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "姐……姐姐……我……帮你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41820020",
+          "sourceType": 3,
+          "text": "紫黑色的光华瞬间化为点点星光，而后终于消散——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41820021",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我们做到了……能再次见到你，真好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1050",
+      "sourceRefs": [
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41819001,
+            41819002,
+            41819003,
+            41819004,
+            41819005,
+            41819006,
+            41819007,
+            41819008,
+            41819009,
+            41819010,
+            41819011,
+            41819012,
+            41819013
+          ],
+          "sectionId": 41819
+        },
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41820001,
+            41820002,
+            41820003,
+            41820004,
+            41820005,
+            41820006,
+            41820007,
+            41820008,
+            41820009,
+            41820010,
+            41820011,
+            41820012,
+            41820013,
+            41820014,
+            41820015,
+            41820016,
+            41820017,
+            41820018,
+            41820019,
+            41820020,
+            41820021
+          ],
+          "sectionId": 41820
+        }
+      ],
+      "title": "日照余波·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "41821001",
+          "sourceType": 3,
+          "text": "清晨时分，御景神社。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41821002",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你终于醒了，小光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821003",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "睡了一天一夜，现在感觉怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821004",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "怎么这副表情看着我，不认识我这个姐姐了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "唔，这是谁？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41821007",
+              "text": "欢迎来到巨人国。"
+            },
+            {
+              "targetId": "41821007",
+              "text": "很高兴你没事。"
+            }
+          ],
+          "sourceId": "41821006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41821007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "……原来你也在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821008",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "连|101|都认识，看来小光恢复得不错嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821009",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "你受伤了……疼吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821011",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821012",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "你知道吗？这是这么多年来，你第一次主动关心我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821013",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我很开心，真的很开心，所以一点都不痛哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821014",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "都是为了我，如果不是我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821015",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不可以这么想哦，小光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821016",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "正是因为你的存在，我这个姐姐所做的一切才有了意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821017",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "如此说来，我反而应该感谢你平安无事地回到我的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821018",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "不说这些了。\n御景家的神社平日里可不对外开放哦，今天就为你们破个例，一起来吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41821020",
+              "text": "我当然很乐意。"
+            },
+            {
+              "targetId": "41821020",
+              "text": "向往已久的地方。"
+            }
+          ],
+          "sourceId": "41821019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41821020",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "嗯，我要去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821021",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "很不错，小光终于笑了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821022",
+          "sourceType": 3,
+          "text": "傍晚时分，爱猫社区。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41821023",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "好久不见，「管理局」的诸位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821024",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "能在如此美好的天气与老朋友们见面，真是令人心情愉快，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821025",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "的确，能再次见到魅力非凡的御景熏校长，我也感到无比的荣幸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821026",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我今天来，另有要事相告。\n不介意的话，一起沿着面前的这条小径边走边谈吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "关于您的弟弟卡缪身上的太阳神封印，「管理局」经过协商后一致认为，我方确实无能为力，这次的事件也证明了这一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821028",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "「管理局」对此的态度很明确，「圣阳」需要严格控制他的活动范围，确保这次的手办灼烧事件不再发生，还望御景校长日后能严加看管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821029",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "我认同「管理局」的决定，但我有些条件却不得不谈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821030",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "今后「圣阳贵族学院」仍可以在M城自由活动，同时也要确保我和我弟弟的人身自由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821031",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "只要「管理局」应允我给出的条件，那么我便可以保证，今次之事绝不会在M城重现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821032",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "经此一役，我们完全有理由肯定御景校长的品格。\n因此无论于公于私，我都会竭力满足校长的要求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821033",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "M城的繁荣需要您和贵校的共同参与，我将无比珍视我们共同守护的、来之不易的「和平」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821034",
+          "sourceType": 0,
+          "speaker": "御景熏",
+          "text": "呵呵，看来我们都很清楚，做「朋友」比做「敌人」的好处要多的多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821035",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "当然，关于这一点，我们见解一致。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821036",
+          "sourceType": 3,
+          "text": "深夜，卡缪处所。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41821037",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "唔…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41821038",
+          "sourceType": 0,
+          "speaker": "天照",
+          "text": "御景熏……御景熏……\n胆敢忤逆神明，我要毁了你……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1051",
+      "sourceRefs": [
+        {
+          "bundle": "mikage",
+          "rowIds": [
+            41821001,
+            41821002,
+            41821003,
+            41821004,
+            41821005,
+            41821006,
+            41821007,
+            41821008,
+            41821009,
+            41821010,
+            41821011,
+            41821012,
+            41821013,
+            41821014,
+            41821015,
+            41821016,
+            41821017,
+            41821018,
+            41821019,
+            41821020,
+            41821021,
+            41821022,
+            41821023,
+            41821024,
+            41821025,
+            41821026,
+            41821027,
+            41821028,
+            41821029,
+            41821030,
+            41821031,
+            41821032,
+            41821033,
+            41821034,
+            41821035,
+            41821036,
+            41821037,
+            41821038
+          ],
+          "sectionId": 41821
+        }
+      ],
+      "title": "日照余波·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 212,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 212,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "寒雪覆，巫女步轻如猫。",
+  "title": "日照余波",
+  "wordCount": 2918
+}

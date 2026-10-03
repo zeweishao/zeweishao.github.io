@@ -1,0 +1,180 @@
+{
+  "bookId": "activity-extra-paojieyure",
+  "id": "source-29103",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29103001",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "姐姐大人，这只是帮助我们在手办中打响第一炮的噱头嘛，都是演戏~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "是吗，我怎么感觉你好像挺过瘾的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103003",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "啊哈哈……有吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103004",
+          "sourceType": 0,
+          "speaker": "白井黑子",
+          "text": "姐姐大人，先别走啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等一下，你难道不想再见见「那个人」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103006",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "难、难道？不可能吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "倒计时5秒，5——4——3——2——1！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈抱歉，节目经费有限，下次一定哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "——无聊！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "御坂美琴谈及感情问题愤而离席，暧昧对象疑为一般男性？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哦哦主人，good job！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103013",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103014",
+          "sourceType": 5,
+          "speaker": "御坂美琴",
+          "text": "「超电磁炮当众耍大牌，殴打过气主持人」——你们看这个标题怎么样啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等一下……不要……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29103016",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "啊——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29103",
+      "sourceRefs": [
+        {
+          "bundle": "paojieyure",
+          "rowIds": [
+            29103001,
+            29103002,
+            29103003,
+            29103004,
+            29103005,
+            29103006,
+            29103007,
+            29103008,
+            29103009,
+            29103010,
+            29103011,
+            29103012,
+            29103013,
+            29103014,
+            29103015,
+            29103016
+          ],
+          "sectionId": 29103
+        }
+      ],
+      "title": "活动片段 29103"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1035",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1035",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 29103,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 29103",
+  "wordCount": 230
+}

@@ -1,0 +1,140 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35001001",
+          "sourceType": 10,
+          "text": "深海的欢歌",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35001002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "外面太喧闹了，人们总是容易沉湎于狂欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "可我并不讨厌，毕竟一切终会归破碎凋零。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "贝歌看起来很忧伤，这样下去可不行的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001005",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "把我的捣药杵借给她，不好的情绪就会随之消散。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个金灿灿的宝贝居然还有这种效果，我一定要试试看~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001007",
+          "sourceType": 3,
+          "text": "贝歌拿起优纪递过去的捣药杵——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35001008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "不知道为什么，我现在很想唱歌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "想唱一首快乐的，充满幸福的歌——我还从未有过这样的体验。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001010",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我的心仿佛被粉红色的泡泡填满了，你做了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001011",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "一种古老而神秘的力量，不会对你的身体造成伤害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样才对嘛，快来和我一起捏「兔儿爷」泥塑吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35001013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "也许我也可以过一种全新的生活，仅仅是暂时的也好——我们开始吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35001",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35001001,
+            35001002,
+            35001003,
+            35001004,
+            35001005,
+            35001006,
+            35001007,
+            35001008,
+            35001009,
+            35001010,
+            35001011,
+            35001012,
+            35001013
+          ],
+          "sectionId": 35001
+        }
+      ],
+      "title": "深海的欢歌"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35001,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "64",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "神奇的捣药杵，竟然影响到了贝歌……一起来见证她的改变吧。",
+  "title": "深海的欢歌",
+  "wordCount": 264
+}

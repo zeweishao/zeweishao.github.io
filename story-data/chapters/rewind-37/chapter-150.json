@@ -1,0 +1,861 @@
+{
+  "bookId": "rewind-37",
+  "id": "chapter-150",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34015001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "表明身份的书签没有遗漏。\n运势占卜也没有问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这一天终于来了。貂蝉，孙尚香，各位。我出发了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015003",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "我们刚认识的时候，你的出现，像是穿过了寰宇，摇醒了我昏眠的心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015004",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "每次与你聊天，我都感觉到快乐。\n连夕阳晚霞隐褪后的夜，也会泛着妃色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015005",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "我不想总是面对冰冷的机器和文字。\n而现在，我们终于可以见面了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015006",
+          "sourceType": 0,
+          "speaker": "管理局员工B",
+          "text": "参加网友见面会的朝这走，\n完成身份认证，换了门票就能进去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015007",
+          "sourceType": 0,
+          "speaker": "管理局员工B",
+          "text": "诶，你干什么？！没有门票是不能参加网友见面会的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "网友见面会……？请问那是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015009",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "嗯？你不知道就来了？等等，你手上拿的是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34015010",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "别担心，有什么想知道我都告诉你。\n来，先完成身份认证吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-782",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34015001,
+            34015002,
+            34015003,
+            34015004,
+            34015005,
+            34015006,
+            34015007,
+            34015008,
+            34015009,
+            34015010
+          ],
+          "sectionId": 34015
+        }
+      ],
+      "title": "咫尺间的幸福·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34016001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "约定的地点居然和见面会冲突了……幸好有牙白白先生讲明情况。可人这么多，该怎么办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016002",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "哈莉姐姐，你在哪里？樱找不到你了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "乖……别哭了。你叫什么名字？你的家人呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016004",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "樱以前叫樱，现在是小鸭子。嘎。\n小鸭子是我的人设。这是哈莉姐姐告诉我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "人设？貂蝉和孙尚香似乎也提到过这个词……这和你的名字有什么关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016006",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "欸——这个游戏，姐姐也想玩吗~樱来告诉姐姐，人设是什么吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016007",
+          "sourceType": 3,
+          "text": "时间过去……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34016008",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "就是这样啦。要是哈莉姐姐的话一定能解释得更清楚。\n呀，他们回来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "无聊，真是无聊。我都快无聊死了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "哼，你刚才可是拿着枪追了别人一路。\n这就是你在网上扮演的少女偶像？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈哈嘿吼，只要复读几句奥菲利亚写的回复，就能引来这么多活靶子……这样的好事还能去哪找？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "而且你也不赖嘛，说是什么歌王，结果一开嗓子手办全吓跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "哼，你一无所知。我是管理局公认的歌王。\n这些家伙层次太低，欣赏不了我的歌喉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "要不我们联手……来干一票大的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016015",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "瞪我干什么？真是无聊，去别的地方找刺激咯。\n走吧，樱，别再学鸭子叫了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016016",
+          "sourceType": 0,
+          "speaker": "樱",
+          "text": "可是樱是小鸭子，小鸭子就是这么说话的呀。嘎嘎。\n这位姐姐，我们下次再一起玩~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34016017",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "人设就是用来抚平网络和现实的差距吗。\n那我的知己，网上的你也是人设吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-783",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34016001,
+            34016002,
+            34016003,
+            34016004,
+            34016005,
+            34016006,
+            34016007,
+            34016008,
+            34016009,
+            34016010,
+            34016011,
+            34016012,
+            34016013,
+            34016014,
+            34016015,
+            34016016,
+            34016017
+          ],
+          "sectionId": 34016
+        }
+      ],
+      "title": "咫尺间的幸福·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34017001",
+          "sourceType": 3,
+          "text": "许久之后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34017002",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "不知不觉，我这是走到了哪里……？已经过了多久了？\n我的知己，我们没能见面呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，有更多人知道本王的威名了。\n但是好像玩的太久了，樱呢？已经回去了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017004",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "喂！你们要干什么！别靠近本王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017005",
+          "sourceType": 0,
+          "speaker": "薯薯",
+          "text": "嘿嘿，小姑娘，有没有时间呀，和薯薯一起出去兜风怎么样~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017006",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "什么小姑娘？！我可是最凶最恶的莉可大魔王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017007",
+          "sourceType": 0,
+          "speaker": "薯薯",
+          "text": "哟，你用的是魔王人设呀？真是巧呢，我也是。\n我们加个好友呗~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "气死我了！谁用人设了？！我可是如假包换的魔王！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017009",
+          "sourceType": 0,
+          "speaker": "薯薯",
+          "text": "网络人设说说就行了，怎么还当真了？\n废话少说，快把你的涂料交出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017010",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你们想对本王做什么？！别过来！本王可是不好惹的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "慢着……你们要对这个女孩做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34017012",
+          "sourceType": 0,
+          "speaker": "薯薯",
+          "text": "哟，这是来个勇者？多管闲事的家伙。\n看我给你点颜色瞧瞧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34204001",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "居然被不认识的家伙救了。\n可恶，给我等着，我会找人来救你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34204002",
+          "sourceType": 0,
+          "speaker": "薯薯",
+          "text": "哼，居然跑了一个。这下要被老大骂了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34204003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "成功逃跑了吗，太好了……\n我的知己，恐怕我无法与你相见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34204004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "蔡文姬！我的知己！\n你们几个，放开她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34204005",
+          "sourceType": 2,
+          "speaker": "薯薯",
+          "text": "老大？你不是要隐藏身份吗……\n难道是计划有变？算了，我们先撤！",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-784",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34017001,
+            34017002,
+            34017003,
+            34017004,
+            34017005,
+            34017006,
+            34017007,
+            34017008,
+            34017009,
+            34017010,
+            34017011,
+            34017012
+          ],
+          "sectionId": 34017
+        },
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34204001,
+            34204002,
+            34204003,
+            34204004,
+            34204005
+          ],
+          "sectionId": 34204
+        }
+      ],
+      "title": "咫尺间的幸福·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34018001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "原来是牙白白先生，谢谢你救了我。\n你刚才说的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018002",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "没错，我就是你的知己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "牙白白先生，请别和我开玩笑了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018004",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "你不信？我们去个没人的地方，我证明给你看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018005",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34018006",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "怎么样，蔡文姬。我们的聊天记录，我能一字一句全部背下来。这样你总信了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我从没和知己说过我的真名……你究竟是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018008",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "啧，居然输在这种细节上了吗。本以为利用身份认证知道真名之后，就更容易下手才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "你果然不是我的知己！\n你怎么知道我和|102|的事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018010",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "哼哼哼，既然你诚心发问，那我就大发慈悲告诉你！\n我就是大名鼎鼎的神秘甜心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018011",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "我潜伏在管理局里，就是为了获得手办的网络数据。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018012",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "那些聊天记录，我一下就能记住。再加上有了身份认证，还不是一骗一个准吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018013",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "本来我只是想要你的宝贝胡笳。\n不过你知道了这么多，我可不能放你走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "管理局有内鬼？燥起来燥起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018015",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "你，你们是谁？！怎么会在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018016",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼，本王说了，会回来救人的。\n你快投降吧，你的那些手下已经被我们解决了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018017",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "我骗来的涂料还没用完呢。想让我投降？门都没有！看招！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34018018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "哼，不自量力，你这是自寻死路。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-785",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34018001,
+            34018002,
+            34018003,
+            34018004,
+            34018005,
+            34018006,
+            34018007,
+            34018008,
+            34018009,
+            34018010,
+            34018011,
+            34018012,
+            34018013,
+            34018014,
+            34018015,
+            34018016,
+            34018017,
+            34018018
+          ],
+          "sectionId": 34018
+        }
+      ],
+      "title": "咫尺间的幸福·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34019001",
+          "sourceType": 3,
+          "text": "不久后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34019002",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "神秘甜心终于落网了，没想到他竟然是管理局的内鬼，真是可恨。说起来，蔡文姬呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "她想一个人静一静，别去打扰她了。可惜到最后，我们也不知道那位知己究竟是谁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019004",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "相濡以沫，不如相忘于江湖。\n我的知己，也许这就是我们的命运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蔡文姬，原来你在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019006",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "多谢主君关心，我并无大碍。\n主君怎么会在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我刚从管理局回来，事情我都已经知道了……\n你现在觉得，你的知己，是怎样的人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，我是不是很傻。也许知己只是一个虚拟的人设。\n也许，一切都是我的幻想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "但现在，不论|102|是怎样的人，我都想试着和|102|成为朋友。\n聊一聊彼此的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019010",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "或许我们最后会分别，但曾经相遇就已足够。\n此刻我只想见到真实的|102|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蔡文姬，网络虽然是虚拟的，但是你经历的时光是属于你自己的，是真实的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "人设也好，网络也好，如果那些经历能给你带来美好和感动，那就不必纠结。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019013",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蔡文姬，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019015",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，我一直都是这么想的……\n我以为不会有人能和我有一样的感受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019016",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君刚才问我，那位知己是怎样的人。\n我想，如果|102|能像主君一样浪漫就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……其实，我在网上认识了一位手办朋友。\n因为管理局的要求，我不能暴露人类的身份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我一直想知道她是谁，直到刚才，她完成了身份认证。\n……青州小琰，我们终于见面了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019019",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，你怎么会知道……\n你就是，知己？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34019021",
+              "text": "讲明情况"
+            },
+            {
+              "targetId": "34019021",
+              "text": "讲明经过"
+            }
+          ],
+          "sourceId": "34019020",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34019021",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "…………居然是这样。我没想到，能使用通讯机的除了手办，居然还有一个人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019022",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "呵呵，不过这不是很浪漫吗？跌跌撞撞，历经坎坷，我们最终还是相遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019023",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "网上的知己，现实中的主君……\n不论是在哪个世界，我们都是最了解彼此的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019024",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "看呀，主君，多美的夜晚。这是我最美好、最浪漫的回忆。\n我会永远将您铭记在心底。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019025",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "但我还有一个请求，您可否把这件事当做我们之间的秘密？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34019027",
+              "text": "当然可以"
+            },
+            {
+              "targetId": "34019027",
+              "text": "没有问题"
+            }
+          ],
+          "sourceId": "34019026",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34019027",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "谢谢你，主君。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019028",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "边塞的夜晚，也经常能见到这般美丽深邃的星河。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019029",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，我的知己。您想不想再多欣赏片刻？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34019030",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我还有很多话想和您说。很多，很多……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-786",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34019001,
+            34019002,
+            34019003,
+            34019004,
+            34019005,
+            34019006,
+            34019007,
+            34019008,
+            34019009,
+            34019010,
+            34019011,
+            34019012,
+            34019013,
+            34019014,
+            34019015,
+            34019016,
+            34019017,
+            34019018,
+            34019019,
+            34019020,
+            34019021,
+            34019022,
+            34019023,
+            34019024,
+            34019025,
+            34019026,
+            34019027,
+            34019028,
+            34019029,
+            34019030
+          ],
+          "sectionId": 34019
+        }
+      ],
+      "title": "咫尺间的幸福·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 150,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 150,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "网络人设与迟来的见面",
+  "title": "咫尺间的幸福",
+  "wordCount": 2376
+}

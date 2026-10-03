@@ -1,0 +1,180 @@
+{
+  "bookId": "activity-extra-longnianqiandao",
+  "id": "source-42501",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42501001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇啊，家里怎么堆放着这么多的烟花，哪里来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501002",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "一些不起眼的礼物，喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "今晚是除夕夜，阿斯特莱雅策划了一场烟花盛宴，优纪也一起来吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我要来我要来，这种场合怎么能少得了我呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501005",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "除夕夜的烟花盛宴就此拉开帷幕——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我们开始吧，优纪，点燃第一枚烟花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "早就迫不及待了~\n主人，要好好欣赏优纪挑选的这枚烟花哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "第一枚烟花，祝愿主人「春光照心田，喜乐常伴随」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢你，优纪还是一如既往的温暖如初。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501010",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "现在轮到我了，绝对会让你们耳目一新的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "想不到吧？独特的机甲造型烟花，而且是一·整·支的机甲战队哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "画面相当震撼，西蒂斯总是那么有创意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "气氛不错，按照既定的计划，一举将除夕夜的欢乐气氛送向巅峰吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501014",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "此即为最后一枚烟花，我给它命名为「群星的誓言」，赠与我珍爱的人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "群星的誓言……真是太美了，谢谢你们，让我的除夕夜这么精彩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42501016",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "不必过谦，此等丰饶又绚丽的美，本就是你应得的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42501",
+      "sourceRefs": [
+        {
+          "bundle": "longnianqiandao",
+          "rowIds": [
+            42501001,
+            42501002,
+            42501003,
+            42501004,
+            42501005,
+            42501006,
+            42501007,
+            42501008,
+            42501009,
+            42501010,
+            42501011,
+            42501012,
+            42501013,
+            42501014,
+            42501015,
+            42501016
+          ],
+          "sectionId": 42501
+        }
+      ],
+      "title": "活动片段 42501"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10048",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10048",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42501,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42501",
+  "wordCount": 369
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214003",
+  "id": "bond-29315",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29315001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈，为什么我在早餐里吃到了小章鱼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315002",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "不清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "也许是我那个笨蛋哥哥干的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你能不能不要一边否认，一边若无其事地清理杀戮者二号上的墨汁啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "不喜欢吗？明明很好吃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是喜不喜欢的问题，没有人早上吃这个的吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "更何况，它的触角还是会动的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315008",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "这样吃才美味哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……所以，你是想把自己喜欢的东西分享给主人，才这么做的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是恶作剧吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315011",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "嗯（点头）。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315012",
+          "sourceType": 5,
+          "speaker": "莉莉奈",
+          "text": "噗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29315013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……果然你是故意的吧？！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29315",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29315001,
+            29315002,
+            29315003,
+            29315004,
+            29315005,
+            29315006,
+            29315007,
+            29315008,
+            29315009,
+            29315010,
+            29315011,
+            29315012,
+            29315013
+          ],
+          "sectionId": 29315
+        }
+      ],
+      "title": "恶作剧"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "恶作剧",
+  "wordCount": 178
+}

@@ -1,0 +1,150 @@
+{
+  "bookId": "hero-213019",
+  "id": "bond-28582",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28582001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "你又熬夜了吗？\n这样可不好，迟早会累垮的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28582002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "还有，听说你今天又没来得及吃早餐，我能感觉到你的能量存储正在下降。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28582004",
+              "text": "西蒂斯，你怎么……？"
+            }
+          ],
+          "sourceId": "28582003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28582004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我怎么会不担心呢？\n你现在可是我重要的助理，想不注意到都难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28582005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "即使是最坚固的机甲，也需要定期的维护和休息，更别说脆弱的碳基身体了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28582006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我命令你现在就去休息，我会启动自动关机程序，保持室内环境绝对安静。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28582008",
+              "text": "可是，现在是白天……"
+            }
+          ],
+          "sourceId": "28582007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28582008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "怎么，还要我亲自动手抱你到床上去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28582009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嘛，倒也不是不行，我会让「利维坦」帮我想想办法的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28582011",
+              "text": "嗯，这个还是我自己来吧。"
+            },
+            {
+              "targetId": "28582011",
+              "text": "不，我还没虚弱到这个程度。"
+            }
+          ],
+          "sourceId": "28582010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28582011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这才乖嘛，真是好孩子，比杰斯和莉莉奈那两个淘气包乖多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28582012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "睡吧，睡吧，我会一直在这里陪着你的哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28582",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28582001,
+            28582002,
+            28582003,
+            28582004,
+            28582005,
+            28582006,
+            28582007,
+            28582008,
+            28582009,
+            28582010,
+            28582011,
+            28582012
+          ],
+          "sectionId": 28582
+        }
+      ],
+      "title": "关心则乱"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213019",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "关心则乱",
+  "wordCount": 285
+}

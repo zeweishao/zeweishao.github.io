@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-214020",
+  "id": "bond-38802",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "38802001",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "助手，你终于取材回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奥莉安娜一直在等我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802003",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "今天开始，有个任务要交给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802004",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "喏，这个镜头的擦拭，以后就是助手最重要的每日任务了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看上去很贵重，交给我真的可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802006",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "当然可以，只有我认可的助手才能完成这项任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过这个镜头有什么特殊之处吗，居然每天都要擦拭？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802008",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "哼~很会提问啊，是反过来想采访我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802009",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "这是助手专属的镜头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我专属的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802011",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "是我专门用来拍你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来是这个「专属」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802013",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "拍摄新闻是追逐真相的过程，我很喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38802014",
+          "sourceType": 0,
+          "speaker": "奥莉安娜",
+          "text": "毕竟，现在对我来说，你的“真相”还远远不够呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38802",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38802001,
+            38802002,
+            38802003,
+            38802004,
+            38802005,
+            38802006,
+            38802007,
+            38802008,
+            38802009,
+            38802010,
+            38802011,
+            38802012,
+            38802013,
+            38802014
+          ],
+          "sectionId": 38802
+        }
+      ],
+      "title": "专属镜头"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214020",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "专属镜头",
+  "wordCount": 220
+}

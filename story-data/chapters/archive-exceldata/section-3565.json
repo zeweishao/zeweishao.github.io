@@ -1,0 +1,83 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-3565",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "3565001",
+          "sourceType": 3,
+          "text": "这是一个司空见惯的，晴朗的午后。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "3565002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我回来啦！优纪！\n今天有发生什么有趣的事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3565003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你看起来好熟悉……我认识你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3565004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你知道……「|101|」是谁吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3565005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一提及这个名字，这里总会有温暖的感觉，可是到底是谁呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "3565",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3565001,
+            3565002,
+            3565003,
+            3565004,
+            3565005
+          ],
+          "sectionId": 3565
+        }
+      ],
+      "title": "原文片段 3565"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 3565
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 3565",
+  "wordCount": 96
+}

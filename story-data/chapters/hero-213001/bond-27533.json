@@ -1,0 +1,161 @@
+{
+  "bookId": "hero-213001",
+  "id": "bond-27533",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27533001",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "主……主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533002",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "为什么……要一直盯着我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533003",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "呜、呜……姐姐……你在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533004",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "快来救救主人吧，呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……里惠？你怎么哭了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我刚刚只是在发呆……吓到你了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533007",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "那样严肃的眼神……只、只是在发呆吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27533009",
+              "text": "嗯……在想一些事情。"
+            },
+            {
+              "targetId": "27533009",
+              "text": "安心啦，不用担心我。"
+            }
+          ],
+          "sourceId": "27533008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27533009",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "如果主人遇到麻烦的话，可以告诉我，我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533010",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？怎么不说话了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27533012",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "我就叫姐姐来帮主人！把欺负主人的坏蛋都打跑！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27533014",
+              "text": "噗嗤，那里惠呢？"
+            }
+          ],
+          "sourceId": "27533013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27533014",
+          "sourceType": 0,
+          "speaker": "宫本里惠",
+          "text": "别笑啊，我……会站在姐姐身后，保护姐姐和主人的……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27533",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27533001,
+            27533002,
+            27533003,
+            27533004,
+            27533005,
+            27533006,
+            27533007,
+            27533008,
+            27533009,
+            27533010,
+            27533011,
+            27533012,
+            27533013,
+            27533014
+          ],
+          "sectionId": 27533
+        }
+      ],
+      "title": "保护主人"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "保护主人",
+  "wordCount": 197
+}

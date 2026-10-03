@@ -1,0 +1,86 @@
+{
+  "bookId": "rewind-7",
+  "id": "source-4043",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4043001",
+          "sourceType": 0,
+          "speaker": "索里玛利亚",
+          "text": "熊仔，你还是回去多练练吧。等你变强了我就同意你当我的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4043002",
+          "sourceType": 0,
+          "speaker": "熊仔",
+          "text": "我会成为一个厉害的家伙的，到时候你一定要答应当我的仆人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4043003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "熊仔信心满满地走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4043004",
+          "sourceType": 0,
+          "speaker": "索里玛利亚",
+          "text": "这是他让人佩服的地方，永远都这样自信。你们找我是有什么事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "4043005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们想让你帮一个忙。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4043",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4043001,
+            4043002,
+            4043003,
+            4043004,
+            4043005
+          ],
+          "sectionId": 4043
+        }
+      ],
+      "title": "闪耀旋律前篇·Ⅳ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9000013",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9000013",
+          "after_result_avg"
+        ],
+        "sectionId": 4043,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "闪耀旋律前篇·Ⅳ",
+  "wordCount": 108
+}

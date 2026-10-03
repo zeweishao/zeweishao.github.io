@@ -1,0 +1,1353 @@
+{
+  "bookId": "rewind-40",
+  "id": "chapter-162",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35524001",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "捉老鼠的时间到！关灯是没有用的，夜里的我看得更清楚喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "见不得人的小老鼠，你在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524003",
+          "sourceType": 3,
+          "text": "啪——灯亮了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35524004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "哈莉，萝贝卡？喂，醒醒，大喇叭？幼稚园小鬼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "唔……龙虾……烤肉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呼……呼……讨厌的臭猫咪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "梦里居然还不忘记骂我，你不会是在装睡吧？早知道不来救你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524008",
+          "sourceType": 3,
+          "text": "哒——哒——哒——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35524009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你的脚步声这么重，该减肥了喵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524010",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "嗯……比我预定的时间提前了三十分钟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "我想什么时候来就什么时候来喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524012",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你就是那个因为长得太丑不敢见人，所以一直戴着面具绑架女孩子的采花大盗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524013",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "真是特别的解释，很有意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524014",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "那你可以让她们俩回去了，我来陪你玩喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524015",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "哦？莫急莫急……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524016",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "再靠近一点喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524017",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "在下只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524018",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "现在！尝尝猫爪子的厉害——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524019",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "需要你安静地睡一觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35524020",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵……什么……味道……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35525001",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "逗猫真是有趣，差点忘记正事。醒醒吧，可以不用装了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35525002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "她居然真的来了，怎么办怎么办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35525003",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "猫的领地意识很强，尤其是对被划进自己领地范围里的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35525004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "哇，第一次看到她这么安静的样子。臭猫咪和哈莉不会有事吧，你得保证！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35525005",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "放心莫急，这种药水最多只会让人梦到一些印象深刻的事物。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-842",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35524001,
+            35524002,
+            35524003,
+            35524004,
+            35524005,
+            35524006,
+            35524007,
+            35524008,
+            35524009,
+            35524010,
+            35524011,
+            35524012,
+            35524013,
+            35524014,
+            35524015,
+            35524016,
+            35524017,
+            35524018,
+            35524019,
+            35524020
+          ],
+          "sectionId": 35524
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35525001,
+            35525002,
+            35525003,
+            35525004,
+            35525005
+          ],
+          "sectionId": 35525
+        }
+      ],
+      "title": "猫的新家·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35526001",
+          "sourceType": 0,
+          "speaker": "肥猫",
+          "text": "……喵……喵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "请停下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526003",
+          "sourceType": 0,
+          "speaker": "仆人",
+          "text": "是，尤菲小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526004",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "呀，是只刚出生的小白猫。好可怜啊，下雨天被丢在这里了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526005",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "你好呀，小猫咪，你愿意跟我回家吗？不说话的话，就当你答应了好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526006",
+          "sourceType": 0,
+          "speaker": "仆人",
+          "text": "小姐，您的身体……中将阁下不会同意的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526007",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "医生说良好的心情对我的病情有帮助，我会说服爸爸的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526008",
+          "sourceType": 0,
+          "speaker": "仆人",
+          "text": "是。小姐，野猫携带大量细菌，由我来替您抱着吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526009",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "谢谢，不过它很干净——看，它更想在我怀里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526010",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "小猫咪马上就有家啦……给你起个什么名字好呢，叫米菲亚好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526011",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "你是个贵族夫人，别像个怨妇一样哭哭啼啼的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526012",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "就她这副身体，既无法参军，也无法作为联姻的对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526013",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "达斯特家不养废物。既然这样，不如把尤菲送去马南家族的实验室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526014",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "他们需要看到我的一些诚意，才肯和我合作……事成之后，你就是上将夫人了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526015",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "况且如果实验顺利，尤菲也能收获一具健康的身体，这是一笔划算的生意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526016",
+          "sourceType": 3,
+          "text": "喵——喵——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35526017",
+          "sourceType": 5,
+          "speaker": "达斯特中将",
+          "text": "晦气！一边去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526018",
+          "sourceType": 5,
+          "speaker": "旁白",
+          "text": "喵！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526019",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "到时候把这个猫也丢出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526020",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "这只猫看我的眼神，总让我想到军部那个不祥的女人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35526021",
+          "sourceType": 0,
+          "speaker": "达斯特中将",
+          "text": "女人居然也能当上少将！看我怎么把她的骄傲踩在脚底下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527001",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "心跳140……168……189……体内各脏器出血量1000cc……止血钳给我，继续输血。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527002",
+          "sourceType": 0,
+          "speaker": "助理研究员",
+          "text": "止血钳……找到了！尤菲·达斯特。实验体居然有名字，不是编号？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527003",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "想在这活得久点，就别问东问西。好好看，这次的实验品来头可不小。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527004",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "米……菲……亚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527005",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "实验体居然还有意识？麻醉失效了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527006",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "不要……不要带走……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527007",
+          "sourceType": 0,
+          "speaker": "心电监护仪",
+          "text": "心跳100——90——80——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527008",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "怎么回事！突然排异反应了！你给我拿的是什么东西的基因片段？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527009",
+          "sourceType": 0,
+          "speaker": "心电监护仪",
+          "text": "心跳60——50——40——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527010",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "该死，只能把这个新来的实验基因一起融合进去试试了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527011",
+          "sourceType": 0,
+          "speaker": "助理研究员",
+          "text": "这不是刚从那只猫身上提取出来的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527012",
+          "sourceType": 0,
+          "speaker": "研究员",
+          "text": "物尽其用，反正也是她的猫。如果有什么副作用，就当不知道，懂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35527013",
+          "sourceType": 0,
+          "speaker": "尤菲",
+          "text": "回……家……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-843",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35526001,
+            35526002,
+            35526003,
+            35526004,
+            35526005,
+            35526006,
+            35526007,
+            35526008,
+            35526009,
+            35526010,
+            35526011,
+            35526012,
+            35526013,
+            35526014,
+            35526015,
+            35526016,
+            35526017,
+            35526018,
+            35526019,
+            35526020,
+            35526021
+          ],
+          "sectionId": 35526
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35527001,
+            35527002,
+            35527003,
+            35527004,
+            35527005,
+            35527006,
+            35527007,
+            35527008,
+            35527009,
+            35527010,
+            35527011,
+            35527012,
+            35527013
+          ],
+          "sectionId": 35527
+        }
+      ],
+      "title": "猫的新家·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35528001",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "回……家……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "咦，臭猫咪在说什么梦话？回……家？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528003",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "时间确实不早了，教训完她你们就回去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "什么教训啊，都这个时候了！我，我们……现在就回基地！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528005",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "我记得你说「要给她一个印象深刻的教训」……不打她一顿出气吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "平常也可以，她现在不能还手，没意思！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528007",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "那不如把她送离M城？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不行！因为……因为那样不就不能报仇了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528009",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "午夜一过，药水就会失效，还剩……最后十分钟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我、我、我想……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528011",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "你想什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我想带她们回家！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528013",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "啊，哈哈哈，那倒是有些麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528014",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "主人说过，什么麻烦你肯定都有办法解决的！快想想嘛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528015",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "嗯……要拖着她俩在十分钟内回去，这可是个体力活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528016",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "这个我可以，只要找个箱子把她们俩放进去，这个就不错——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528017",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "那好，她们俩就交给你自己喽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528018",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "哎，你就是想偷懒吧？！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528019",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "当然不是，在下还要负责更大的麻烦，比如外面的那几位……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528020",
+          "sourceType": 3,
+          "text": "吱呀——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35528021",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "门开了！兄弟们！上——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528022",
+          "sourceType": 0,
+          "speaker": "绿斩仙",
+          "text": "有我们兄弟三人在，今天你别想轻易逃走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528023",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "终于肯出来了吗？希望这次见面，我锯开的不只是你的披风。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35528024",
+          "sourceType": 3,
+          "text": "滋——滋滋——滋滋滋！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35528025",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "有劳各位惦记了。哎……这下麻烦大了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-844",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35528001,
+            35528002,
+            35528003,
+            35528004,
+            35528005,
+            35528006,
+            35528007,
+            35528008,
+            35528009,
+            35528010,
+            35528011,
+            35528012,
+            35528013,
+            35528014,
+            35528015,
+            35528016,
+            35528017,
+            35528018,
+            35528019,
+            35528020,
+            35528021,
+            35528022,
+            35528023,
+            35528024,
+            35528025
+          ],
+          "sectionId": 35528
+        }
+      ],
+      "title": "猫的新家·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35530001",
+          "sourceType": 3,
+          "text": "唰啦——唰啦——唰啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35530002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "好重，可恶，你们俩该减肥了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530003",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "嗯……笨蛋……幼稚……萝贝卡",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "梦里还骂我！你……该不会醒了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530005",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "嗯……呼噜……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呼，还睡着啊……吓死了。不行，要来不及了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530007",
+          "sourceType": 3,
+          "text": "唰啦——唰啦——唰啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35530008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "怎么还有这么远！我再也不离家出走了呜呜呜哇！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35530009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531001",
+          "sourceType": 3,
+          "text": "叮咚叮咚叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35531002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "门铃响了，难道是哈莉和萝贝卡回来了吗？！我去看——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531003",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "你们后退，我去开门。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "说起来，每次挡在最前面的那个人，总是梅根队长呢。但是这次，我也想和队长站在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "梅根，一起去吧。不论门后是好是坏，大家一起面对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣……葵也是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531007",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "你们误会了其实我……好吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我……我回来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531009",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "萝贝卡！你跑去哪里了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "萝贝卡，你没事……太好了！大家都好担心你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531011",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜呜呜哇！我再也不离家出走了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531012",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "说到做到，为了让你记住这个教训，明天开始训练翻倍！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531013",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "等一下……米菲亚和哈莉在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531014",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "是啊，她们怎么没跟你一起回来？难道她们……不会吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531015",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "你居然抛弃同伴一个人回来的吗，萝贝卡？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531016",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我没有！她们在这！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531017",
+          "sourceType": 3,
+          "text": "嗯……喵……呼噜……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35531018",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "啊！是米菲亚和哈莉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531019",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "嘘——你小点声，她们睡着了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531020",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "离家出走一趟居然学会关心人了，萝贝卡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531021",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣……葵也想睡觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531022",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "这下可以放心了呢，梅根队长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531023",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "嗯，大家都没事……快把她们搬进来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531024",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "三、二、一，一起抬进来。\n你从哪找来的礼盒，萝贝卡？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531025",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "就是、就是、就是醒来看到的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531026",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "总之，不论怎么样，平安回来就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35531027",
+          "sourceType": 3,
+          "text": "铛——铛——铛",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35531028",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "十二点了啊，真是太好了，大家都平安回家了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-845",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35530001,
+            35530002,
+            35530003,
+            35530004,
+            35530005,
+            35530006,
+            35530007,
+            35530008,
+            35530009
+          ],
+          "sectionId": 35530
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35531001,
+            35531002,
+            35531003,
+            35531004,
+            35531005,
+            35531006,
+            35531007,
+            35531008,
+            35531009,
+            35531010,
+            35531011,
+            35531012,
+            35531013,
+            35531014,
+            35531015,
+            35531016,
+            35531017,
+            35531018,
+            35531019,
+            35531020,
+            35531021,
+            35531022,
+            35531023,
+            35531024,
+            35531025,
+            35531026,
+            35531027,
+            35531028
+          ],
+          "sectionId": 35531
+        }
+      ],
+      "title": "猫的新家·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35532001",
+          "sourceType": 3,
+          "text": "咚咚咚！！！！叮铃哐啷——嘭！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35532002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣……好吵……地震了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532003",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "葵，你醒啦……这个时间……真是不凑巧呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "怎么了喵，幼稚园小鬼今天是想直接认输吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈哈哈嘿吼吼吼！是新游戏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "现在是米菲亚和萝贝卡的人气比赛，票数少的人就——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "要给对方道歉哦！而且还要认对方做老大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你是害怕自己人缘不好的真相暴露所以拒绝参加比赛吗，萝贝卡~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532009",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "臭猫咪，你！我还有事，不跟你玩这种幼稚的游戏。\n出门了，拜拜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532010",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "萝贝卡，注意安全，早点回家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532011",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "哦，幼稚园小鬼一夜长大了还是……心有愧疚呢，喵？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532012",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "让我来看看你去偷偷干什么坏事了喵~我也出门了——",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532013",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "好，路上小心，你也早点回家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35532014",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "知道了知道了！爱操心的梅根！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533001",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "花店？大喇叭来这干嘛？难道是……有了暗恋的对象喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "店主！店主！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533003",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "萝贝卡小姐？本店还没营业哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "不是！不是！我是想问……想问……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533005",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "外面有位客人，萝贝卡小姐稍等一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "想问有没有……那种……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533007",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "就是送给人道歉用的花……因为米菲亚她毕竟……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "总之就是不知道怎么开口啦！但是梅根说不同的花有不同的含义，所以……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你要给谁道歉喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533010",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "米、米米米菲亚！你怎么在这？你偷偷跟踪我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "大喇叭还是一紧张就结巴。你是不是做了什么对不起我的事？我都知道了喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "才没有！你你你怎么知道的？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533013",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "哼，这是猫的秘密~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘴上说着不管了，其实偷偷跟着。梅根也太像操心的家长了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533015",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我只是担心她们的安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "放心吧，你要相信她们可以自己处理好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533017",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "因为|101|的办法，效果意外的不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只有经历过失去才懂得珍惜。看来危机解除了，要一起回去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35533019",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "嗯，走吧，回家。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-846",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35532001,
+            35532002,
+            35532003,
+            35532004,
+            35532005,
+            35532006,
+            35532007,
+            35532008,
+            35532009,
+            35532010,
+            35532011,
+            35532012,
+            35532013,
+            35532014
+          ],
+          "sectionId": 35532
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35533001,
+            35533002,
+            35533003,
+            35533004,
+            35533005,
+            35533006,
+            35533007,
+            35533008,
+            35533009,
+            35533010,
+            35533011,
+            35533012,
+            35533013,
+            35533014,
+            35533015,
+            35533016,
+            35533017,
+            35533018,
+            35533019
+          ],
+          "sectionId": 35533
+        }
+      ],
+      "title": "猫的新家·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 162,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 162,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "最终为梦的彼岸",
+  "title": "猫的新家",
+  "wordCount": 2749
+}

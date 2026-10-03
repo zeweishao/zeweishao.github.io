@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213015",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "奥古斯都，私人花园。\n\n「这是您的红茶，请慢用。」\n\n若有若无的茶香传来，伊迪丝的嘴角染上一抹不易察觉的微笑。\n\n「茶的香味能让人忘忧，当然，得在味道『无误』的前提下，不是吗？」\n\n「明明它和茶水的味道毫无区别，你、你怎么可能发现？！」\n\n伊迪丝放下茶杯，身后的管家早已堵住了投毒者的退路。\n\n「在『奥古斯都』，没有人会混淆『锡兰高地红茶』的气味。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·静谧午后Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213015",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "伊迪丝·闪亮·静谧午后Ver.",
+  "title": "闪亮·静谧午后Ver.",
+  "wordCount": 163
+}

@@ -1,0 +1,212 @@
+{
+  "bookId": "activity-extra-heiyanyure",
+  "id": "source-32002",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32002001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "听说这里有热闹的牌局，却没有邀请我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "倒也不算是牌局，只是用塔罗牌抽取名字的游戏而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嗯——用随机的牌决定名字，从中解读自己的命运。\n新颖的玩法，值得尝试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "绯野原爱也要抽牌试试看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我猜会是「魔术师」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不，我能预感到，这张牌会是「恋人」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32002008",
+              "text": "洗牌"
+            }
+          ],
+          "sourceId": "32002007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32002008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那就选择你拇指按住的第一张好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "果真是「恋人」。\n那么，|101|今后要以新名字「恋人」称呼我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不对，你怎么可能提前预知自己会抽出的牌！\n难道是......作弊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我没有哦，这不过是命运的指引罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我不信，我要检查一下这副牌！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有什么发现吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "果然有问题！牌的数量不对，少了三张！\n除去莉莉奈拿走的一张，还有「皇后」「死神」不见了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，那两张牌，是我拿掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "皇后和死亡主宰两款手办今天就会到货，以后要朝夕相处的伙伴，重名就不好了，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人......居然偷偷订购了新手办都不告诉我！\n真过分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32002018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为我想给优纪一个惊喜。\n那么，现在要一起去快递站，接她们回家吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "32002",
+      "sourceRefs": [
+        {
+          "bundle": "heiyanyure",
+          "rowIds": [
+            32002001,
+            32002002,
+            32002003,
+            32002004,
+            32002005,
+            32002006,
+            32002007,
+            32002008,
+            32002009,
+            32002010,
+            32002011,
+            32002012,
+            32002013,
+            32002014,
+            32002015,
+            32002016,
+            32002017,
+            32002018
+          ],
+          "sectionId": 32002
+        }
+      ],
+      "title": "活动片段 32002"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1059",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1059",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 32002,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 32002",
+  "wordCount": 394
+}

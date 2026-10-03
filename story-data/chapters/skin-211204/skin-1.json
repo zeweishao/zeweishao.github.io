@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211204",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「喂！你在找什么？修理指南？那种东西有什么用！最后不都得我来解决吗~」\n「还有——你是不是忘了什么？小费啦小费！不可以忘记萝贝卡的小费哦~」\n「早就准备好了吗？让我看看~」\n「耶！你居然记得我喜欢这个！看来你的记忆力还是很不错的嘛！」\n「记住了哦，就算脑袋坏掉了，只要找我，无论什——么！」\n「萝贝卡都会给你修好哒！」     ——该特别款仅限通过「萝贝卡的修理指南」活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "修理指南Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211204",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "萝贝卡·修理指南Ver.",
+  "title": "修理指南Ver.",
+  "wordCount": 178
+}

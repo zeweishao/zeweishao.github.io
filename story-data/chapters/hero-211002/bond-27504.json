@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-211002",
+  "id": "bond-27504",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27504001",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "抗议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504003",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "抗议无效。\n我问你，现在这个家谁说了算？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27504005",
+              "text": "你。"
+            },
+            {
+              "targetId": "27504006",
+              "text": "我。"
+            }
+          ],
+          "sourceId": "27504004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27504005",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "没错，既然被委托管账，我会负起责任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "从你委托我来管账的那一刻起——\n你就不再是一家之主了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是我想买很久了！\n错过这次再贩，肯定要等到地老天荒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504008",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "......好吧，可以破例一次，但有条件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504009",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "买下以后，由我替你保管。\n如果表现好就送给你，否则——直接转卖给二手商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "表现好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504011",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "早睡早起，节俭开销，坚持锻炼，每天打扫卫生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "把我当成小孩子了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504013",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "那就接受挑战，证明自己是成熟的大人。\n如何？成交的话，来拉钩吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504014",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "没想到，再次住进「房子」的一天，会以这种方式到来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504015",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "病毒爆发以来，「萤火小队」四处奔波解救幸存者，居无定所......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在可以安定下来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504017",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "我忍不住会想......如果再早一些该多好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27504018",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "我所挂怀的人们，有些已经永远离开了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27504",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27504001,
+            27504002,
+            27504003,
+            27504004,
+            27504005,
+            27504006,
+            27504007,
+            27504008,
+            27504009,
+            27504010,
+            27504011,
+            27504012,
+            27504013,
+            27504014,
+            27504015,
+            27504016,
+            27504017,
+            27504018
+          ],
+          "sectionId": 27504
+        }
+      ],
+      "title": "一家之主"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211002",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "一家之主",
+  "wordCount": 331
+}

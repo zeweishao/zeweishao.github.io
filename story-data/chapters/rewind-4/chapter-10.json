@@ -1,0 +1,1388 @@
+{
+  "bookId": "rewind-4",
+  "id": "chapter-10",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "2203001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这副狼狈的样子真不想让主人看到呢，他一定会很担心的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "没有办法，我们这次贸然闯入天启内部能全身而退已经很不错了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "那里废弃已久，聚集的都是被遗弃的、没有主人的二手手办，可是你们并不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们去那里是为了……啊，我们到家了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈，主人在家里呢，你的运气很好哦，真恋~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203006",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "为什么这么说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然是因为我们可以把你的事情告诉给主人，有主人帮我们查信息的话，找起来就会方便多了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "什么？你们可以直接跟主人说话……？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，我们回来啦~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2203011",
+              "text": "这次外出有什么有趣的事情吗？"
+            }
+          ],
+          "sourceId": "2203010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2203011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然有啦，我们去了一个废弃已久的工厂旧址探险，没想到里面有很多被遗弃的玩具哦。它们对我们非常友好，我与和江离开的时候，它们还有意邀请我们下次再去那里玩呢~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2203013",
+              "text": "有趣的经历，真想亲自去看看呢"
+            }
+          ],
+          "sourceId": "2203012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2203013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊哈哈，优纪就知道主人会感兴趣，主人总是会喜欢一些奇奇怪怪的事情呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "为什么优纪没有讲实话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "她选择隐瞒，大概是不想让主人担心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203017",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "也是呢，如果是我的话，大概也会选择隐瞒吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203018",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "太慢了……这样下去根本凑不齐能量石，要我说，不如交给阿撒兹勒做好了，毕竟他五年前就呆在M城了，不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "「大人」说过能量石这件事要保密的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203020",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "有什么关系呢，比起告诉阿撒兹勒，找不到能量石这件事才更让「大人」生气吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203021",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "嘴上说着不可以，你还是诚实地走到这里了呢，既然来了，那就进去吧——不过我不太想和这家伙起冲突呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203022",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203023",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "所以你们希望我帮你们找到剩下的能量石？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203024",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "以你在M城的势力范围，很容易办到吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203025",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "不过我拒绝，天启从来就不是凭靠品阶决定话语的地方，尽管你们身处高层，但这并不意味着，我必须服从。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203026",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "阿撒兹勒，我知道哦，我知道你这几年在M城这个地方计划这什么。如果你不帮我们，我会将你的秘密上报给大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203027",
+          "sourceType": 0,
+          "speaker": "神秘人-花鸟原",
+          "text": "到时候你这个依靠虚假的忠诚骗取来的M城首领的职位可就岌岌可危。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203028",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203029",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "既然听到了，就出来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203030",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "……阿呵呵呵呵~凑巧罢了，阿撒勒兹大人。\n妾身来这里，是为了汇报一件事，关于您要的那位「优纪」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203031",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "根据观察，我可以确定，出现在二手手办商店的，被特别人类和管理局所保护的少女，就是您一直在寻找的真正的「优纪」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203032",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "很好，我们的计划要加快了，\n但目前看来，仅凭你似乎并不能按时带回「优纪」。\n弗吉尼娅会协助你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203033",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "是，大人，我一定会将你需要的人抓回来、",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203034",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "弗吉尼娅！阿撒兹勒大人，你知道我不需要她的帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203035",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "不必多言，既然不想被弗吉尼娅取代，那就证明给我看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203036",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "对了，这是最新研制出的涂料，希望有了这个的帮助，你们能早日让我见到优纪——好了，退下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203037",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "阿撒兹勒大人，相信只要有了这个，抓回优纪易如反掌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203038",
+          "sourceType": 2,
+          "speaker": "狩猎者",
+          "text": "（弗吉尼娅……该死……可恶！）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2203039",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "呵，我也是时候去见见那位优纪，和她那位特别的人类了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-86",
+      "sourceRefs": [
+        {
+          "bundle": "714",
+          "rowIds": [
+            2203001,
+            2203002,
+            2203003,
+            2203004,
+            2203005,
+            2203006,
+            2203007,
+            2203008,
+            2203009,
+            2203010,
+            2203011,
+            2203012,
+            2203013,
+            2203014,
+            2203015,
+            2203016,
+            2203017,
+            2203018,
+            2203019,
+            2203020,
+            2203021,
+            2203022,
+            2203023,
+            2203024,
+            2203025,
+            2203026,
+            2203027,
+            2203028,
+            2203029,
+            2203030,
+            2203031,
+            2203032,
+            2203033,
+            2203034,
+            2203035,
+            2203036,
+            2203037,
+            2203038,
+            2203039
+          ],
+          "sectionId": 2203
+        }
+      ],
+      "title": "#1 隐秘的心事"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "802001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "事情就是这样啦，我们在废弃工厂里认识了真恋，答应会帮她找到自己主人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真恋，你可以把自己主人的情况详细地讲一下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我和主人分开了很长一段时间，很多事情已经记不清楚了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我、我只知道他曾经是一名职业竞技游戏选手，经常玩的一个游戏好像是叫……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "想起来了，那个游戏的名字是——《终焉地平线》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有没有更多的更详细一点的信息呢？比如……你是从什么时候被主人买回家的？你的主人又在哪里生活？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我记得自己不是被主人买回家的……是主人在一场比赛中获胜后赢取回的奖品……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "那一天，主人把我捧在手里、展露出的那个灿烂的笑颜，我永远也不会忘记……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802009",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我能记得的就这些了……我、我真的能够找到主人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个信息非常关键~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "802012",
+              "text": "交给我吧！"
+            }
+          ],
+          "sourceId": "802011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "802012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇这么快就查到了，主人真的好厉害！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇哈哈哈，我先来看看网上写了什么——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这上面说，他在五年前参加《终焉地平线》的业余比赛组获得了冠军，奖品是一座限定典藏版的真恋手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个手办是FULI特意为那届业余赛制作的绝版手办，全球只有一个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这些说的是不是就是你的主人呢……真恋？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802017",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "没、没错，每一条都很吻合，这个人肯定就是我的主人，他……现在在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "网上没有他的更多的资料，看起来是个很低调的人……这可怎么办呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我想到一个办法，可以让真恋的主人主动来找她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？！真的可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么样才能让真恋的主人主动来找她呢？和江快说说看嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不如就利用真恋是绝版手办这一点，帮助真恋录制演奏视频发布到网上，相信会吸引到喜欢《终焉地平线》的人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果视频的热度足够高的话，真恋的主人也可以看到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇我怎么没有想到！和江，你真是个天才！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802025",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我、我真的可以吗……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没问题的！真恋的琴声那么动人，一定会被很多人喜欢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迫不及待想要早点开始帮真恋录制视频了呢，哈哈哈哈我们这就开始吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "802028",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "…………",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-87",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            802001,
+            802002,
+            802003,
+            802004,
+            802005,
+            802006,
+            802007,
+            802008,
+            802009,
+            802010,
+            802011,
+            802012,
+            802013,
+            802014,
+            802015,
+            802016,
+            802017,
+            802018,
+            802019,
+            802020,
+            802021,
+            802022,
+            802023,
+            802024,
+            802025,
+            802026,
+            802027,
+            802028
+          ],
+          "sectionId": 802
+        }
+      ],
+      "title": "#2 牵挂你的心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "803001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，录制视频究竟需要准备些什么呀……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "表演场所、乐器、录像设备……还需要做些什么呢，和江？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "视频剪辑和上传发布。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……那是什么东西，听起来就很复杂的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……这些交给我，你和苍岚分别把剩下的准备工作做好就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好了！优纪最喜欢和江啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么我们现在就出发吧，去附近物色一个最棒的拍摄场地，作为真恋即将开始演奏的表演舞台~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803008",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803009",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "你们先走，我有点其他的事要去处理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好吧，我们等你来哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803011",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "为什么会变成这样，这不是我想看到的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵呵，到我这里来，我可以帮你哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803013",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "怎么是你？！你又在打公主殿下的坏主意了么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803014",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "好过分哦，你的心里只有公主殿下么，人家好伤心呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803015",
+          "sourceType": 5,
+          "speaker": "苍岚",
+          "text": "我苍岚是属于公主殿下一个人的骑士，守护公主殿下是我从生到死的唯一荣誉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803016",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是么？我怎么觉得，你的公主殿很快要回到她主人的身边了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803017",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这是不是意味着，你并不被自己的公主殿下认可，所以，她要把你遗弃了呢，呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803018",
+          "sourceType": 5,
+          "speaker": "苍岚",
+          "text": "你、你乱讲！我不会相信你的胡言乱语，拔剑吧，让我们用武力决一胜负！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803019",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "可是，你分明在害怕啊，你在担心你的公主殿下找到主人后就把你遗弃，难道不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803020",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803021",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵呵呵，看来我猜对了，你真是个单纯的孩子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803022",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "被遗弃的滋味，你一定不陌生吧，你不想重新体会那种绝望的感觉，我说的对么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803023",
+          "sourceType": 2,
+          "speaker": "苍岚",
+          "text": "我……我不想，当然不想……我想要永远守护在公主殿下的身边。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803024",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "如果我说，我可以帮你实现你的心愿——你的公主殿下将永远属于你，你愿意相信我么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803025",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803026",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵呵呵，我知道你在犹豫什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803027",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你的公主已经决定要追随她的主人、选择将你遗弃，即使这样，你也不肯为自己赌一把么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803028",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "好……我姑且相信你一次，告诉我该怎么做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个地方不错呢，我们就选这里吧，大家觉得怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "可以，就这里好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803031",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我也觉得这里不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好极了，我们接下来可以把录制视频需要的器材都搬过来啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803033",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，东西貌似有点多呢，看来要花不少时间了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803034",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们三个是会花不少时间没错，尽可能找到更多的帮手会相应地把时间缩短。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803035",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对耶，我们还有苍岚呢，只要是真恋的事情，那家伙肯定不会袖手旁观的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803036",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "你们在找我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803037",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈哈苍岚你终于来了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们选择这个地方当作真恋录制视频的舞台，现在打算搬运录制视频的器材过来，苍岚也一起来帮忙吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "803039",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "……好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-88",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            803001,
+            803002,
+            803003,
+            803004,
+            803005,
+            803006,
+            803007,
+            803008,
+            803009,
+            803010,
+            803011,
+            803012,
+            803013,
+            803014,
+            803015,
+            803016,
+            803017,
+            803018,
+            803019,
+            803020,
+            803021,
+            803022,
+            803023,
+            803024,
+            803025,
+            803026,
+            803027,
+            803028,
+            803029,
+            803030,
+            803031,
+            803032,
+            803033,
+            803034,
+            803035,
+            803036,
+            803037,
+            803038,
+            803039
+          ],
+          "sectionId": 803
+        }
+      ],
+      "title": "#3 极致诱惑"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "804001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，所有录制视频需要用到的器材都在这里了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "苍岚那家伙，辛辛苦苦帮我们搬运了器材却不肯过来帮真恋录制视频，也不知道她到底在想些什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过这下终于准备妥当了，让我们现在就开始准备录制视频吧，哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "虽然做足了准备，可是，想到要被主人看到就有些紧张呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，优纪懂的哦，只有在主人的面前才会有的莫名其妙的紧张感~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没关系的啦，优纪和大家会一直陪在你的身边哦，要相信自己哦，真恋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "好、好的，我会加油的，努力……用自己的音乐让大家感到幸福~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "咦……我的小兔音箱怎么不见了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？！不会吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不要慌张，先仔细找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼呼，附近都找过了，到处都没看到真恋的音箱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804012",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "……怎么会在这个时候把音箱弄丢呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804013",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "没有音箱就不能顺利地演奏音乐，那样的话，视频就不能如愿制作完成了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这是不是就说明主人没办法看到我，我再也找不到主人了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这可怎么办呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们之前搬运器材的时候，是谁负责搬运的音箱，你们还能回忆起来么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804017",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "当时太乱了，我没有注意……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我也不记得是谁负责搬运的小兔音箱……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那么，我们只好沿路返回再找找看了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "804020",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "好、好的……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-89",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            804001,
+            804002,
+            804003,
+            804004,
+            804005,
+            804006,
+            804007,
+            804008,
+            804009,
+            804010,
+            804011,
+            804012,
+            804013,
+            804014,
+            804015,
+            804016,
+            804017,
+            804018,
+            804019,
+            804020
+          ],
+          "sectionId": 804
+        }
+      ],
+      "title": "#4 丢失的音响"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "805001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "到处都找遍了，还是没看到真恋的小兔音箱……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们各自再仔细想想，最后一次见到真恋的音箱是在什么时候？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，我记得离开家里的时候，两个小兔音箱还在真恋的身边呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "是、是的，从那之后小兔音箱一直被我小心带在身边，没有片刻离开过我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜哇，难道两个小兔音箱就这么凭空蒸发了吗，这下可怎么办呀，呜呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我从不相信超越逻辑和推理之外的事，小兔音箱的失踪一定有迹可循。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "所以我推测小兔音箱是被故意偷走、藏起来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805009",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "怎么会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "既然小兔音箱一直被真恋带在身边，那么你能不能再仔细回想一下，除了你之外还有谁接触过那两个音箱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805011",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我……我想来了，不……不可能……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "怎么，你想到了谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805013",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我……我们当时找到了一个很棒的演奏场所，打算把拍摄的道具转移过去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "苍岚她……她找到我，主动提出要帮我搬运演奏需要用的音箱，我、我没有多想就把音箱交给她了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说起来，好像好久没有看到苍岚了，难道小兔音箱的失踪真的是她做的吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "805016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "找到苍岚自会有答案，走吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-90",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            805001,
+            805002,
+            805003,
+            805004,
+            805005,
+            805006,
+            805007,
+            805008,
+            805009,
+            805010,
+            805011,
+            805012,
+            805013,
+            805014,
+            805015,
+            805016
+          ],
+          "sectionId": 805
+        }
+      ],
+      "title": "#5 细节追踪"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "806001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "苍岚，我们找你找了半天，你有没有看到真恋的小兔音箱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806002",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "……没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806003",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "你撒谎！那是什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806004",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "证据确凿，无话可说了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806006",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "我不会把音箱交给你们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "……为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806008",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "因为……我讨厌公主殿下回到人类的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "你说什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806010",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "公主殿下只能永远被我守护，这是骑士和公主的誓约。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是莫名其妙的家伙，我早就想告诉你了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们都是生活在人类城市中的手办，这个世界根本没有你想的那些东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没有所谓的骑士，也没有所谓的公主。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你不是骑士，真恋也不是公主！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806015",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "这不可能，我不相信……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "806016",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "那我就用我的方式让你相信！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-91",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            806001,
+            806002,
+            806003,
+            806004,
+            806005,
+            806006,
+            806007,
+            806008,
+            806009,
+            806010,
+            806011,
+            806012,
+            806013,
+            806014,
+            806015,
+            806016
+          ],
+          "sectionId": 806
+        }
+      ],
+      "title": "#6 不存在的"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 10,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 10,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "无法说出口的心事",
+  "title": "第9章",
+  "wordCount": 3748
+}

@@ -1,0 +1,107 @@
+{
+  "bookId": "hero-214012",
+  "id": "bond-26041",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26041001",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "这座神所是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "礼物，这样你就可以在这个世界继续你的信仰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041003",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "谢谢，神会庇佑你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我还以为你会更激动一点呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041005",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "我很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来你开心也是这幅表情啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041007",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "嗯，我真的很喜欢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你喜欢这个礼物就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26041009",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "不单指礼物……总之就是喜欢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26041",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26041001,
+            26041002,
+            26041003,
+            26041004,
+            26041005,
+            26041006,
+            26041007,
+            26041008,
+            26041009
+          ],
+          "sectionId": 26041
+        }
+      ],
+      "title": "喜欢"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "喜欢",
+  "wordCount": 104
+}

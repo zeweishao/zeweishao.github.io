@@ -1,0 +1,49 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1121",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1121001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "放马过来吧巨龙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1121002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优……优纪是不会输给你的！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1121",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1121001,
+            1121002
+          ],
+          "sectionId": 1121
+        }
+      ],
+      "title": "原文片段 1121"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1121
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1121",
+  "wordCount": 21
+}

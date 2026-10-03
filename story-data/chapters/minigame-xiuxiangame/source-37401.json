@@ -1,0 +1,62 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37401",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37401001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真怀念啊，那段在FULI商店打工的日子......\n糟糕！不知不觉，在橱窗前发呆了这么久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37401002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "回家吧，今天还有事要做。以后有空，再来这里慢慢回忆。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37401",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37401001,
+            37401002
+          ],
+          "sectionId": 37401
+        }
+      ],
+      "title": "消除关卡 3 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "3",
+              "result_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "3",
+          "result_avg_id"
+        ],
+        "sectionId": 37401,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 3 · 结算",
+  "wordCount": 70
+}

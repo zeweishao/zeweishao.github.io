@@ -1,0 +1,146 @@
+{
+  "bookId": "hero-214012",
+  "id": "bond-26040",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26040001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蓝莎，你在练字？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040002",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "中国书法能够修炼心性，让人平静下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好习惯！不过这根毛笔对你来说会不会太过巨大了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040004",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "还好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040005",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "你是不是可以走了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？打扰到你了吗，真是抱歉！我这就走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等等，好像有张宣纸被风吹到地上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？！这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040009",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "不能看！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040010",
+          "sourceType": 3,
+          "text": "好喜欢主人好喜欢主人好喜欢主人好喜欢主人好喜欢主人\n好喜欢主人好喜欢主人好喜欢主人好喜欢主人好喜欢主人",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26040011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040012",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "你什么都没看到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我发誓，我什么都没看到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26040014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……这样可以把枪放下了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26040",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26040001,
+            26040002,
+            26040003,
+            26040004,
+            26040005,
+            26040006,
+            26040007,
+            26040008,
+            26040009,
+            26040010,
+            26040011,
+            26040012,
+            26040013,
+            26040014
+          ],
+          "sectionId": 26040
+        }
+      ],
+      "title": "修心养性"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214012",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "修心养性",
+  "wordCount": 194
+}

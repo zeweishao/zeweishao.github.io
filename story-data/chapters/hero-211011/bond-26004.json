@@ -1,0 +1,205 @@
+{
+  "bookId": "hero-211011",
+  "id": "bond-26004",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26004001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "谢谢，我不擅长打扫卫生。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26004003",
+              "text": "不客气。"
+            },
+            {
+              "targetId": "26004003",
+              "text": "上次的问题，想到答案了吗？"
+            }
+          ],
+          "sourceId": "26004002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26004003",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26004005",
+              "text": "哈哈抱歉，冷场了呢。"
+            }
+          ],
+          "sourceId": "26004004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26004005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "那个问题，我认真想过了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "对作为手办的我而言，|101|是世界上最重要的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "|101|是「救世主」，内心有种永不枯竭的力量，关心大家每一个人，也在帮助成为手办的我们适应和成长。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26004010",
+              "text": "哪有你说的那么伟大……"
+            },
+            {
+              "targetId": "26004010",
+              "text": "这又是从哪看来的话？"
+            }
+          ],
+          "sourceId": "26004009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26004010",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "《经典人物原型45种》，我每一页都仔细读过了，\n|101|就是「救世主」，每一条都很相符。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是……看来在理解人类方面，蒂娅还有很长的路要走呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004012",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "错了吗，我不明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和我比起来，蒂娅才更像是「救世主」呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004014",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "真、真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，很厉害又很帅气！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅可是真正的「先驱者」呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26004017",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "那么，我们就是并肩作战的关系了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26004",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26004001,
+            26004002,
+            26004003,
+            26004004,
+            26004005,
+            26004006,
+            26004007,
+            26004008,
+            26004009,
+            26004010,
+            26004011,
+            26004012,
+            26004013,
+            26004014,
+            26004015,
+            26004016,
+            26004017
+          ],
+          "sectionId": 26004
+        }
+      ],
+      "title": "「救世主」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211011",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「救世主」",
+  "wordCount": 295
+}

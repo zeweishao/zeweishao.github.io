@@ -1,0 +1,85 @@
+{
+  "bookId": "rewind-8",
+  "id": "activity-records-8002",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "毫无征兆，这一天\n凶暴龙王和她的骑士，降临人类世界……",
+          "title": "资产：|无上限|=未知数",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "家主行程Day1"
+    },
+    {
+      "blocks": [
+        {
+          "text": "在某一个瞬间，艾伦兹曾想过，\n如果我还在云里，我就可以一直都是超级有钱代名词……",
+          "title": "资产：|无上限|=0",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "家主行程Day2"
+    },
+    {
+      "blocks": [
+        {
+          "text": "曾有龙到处肆虐，给人类带来恐慌，后觉幼稚就开始睡觉。\n意外成柯斯顿守护者，然后发现自己被人坑了……",
+          "title": "资产：|无上限|=-0",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "家主行程Day3"
+    },
+    {
+      "blocks": [
+        {
+          "text": "我可是龙王大人，\n保护人类这种生命稍纵即逝的生物，\n不过是用来消磨时光。",
+          "title": "资产：|无上限|=无上限",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "家主行程Day4"
+    },
+    {
+      "blocks": [
+        {
+          "text": "任何觊觎龙王所有物者，都会遭到龙焰攻击，\n尘埃亦是……（真是爱记仇的龙王）",
+          "title": "资产：|无上限|=无限增长",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "家主大人！百万柠檬盒"
+    },
+    {
+      "blocks": [
+        {
+          "text": "一起尽情享受人类世界的庆典吧，\n心情愉悦度上升中……",
+          "title": "资产：|无上限|=无限增长",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "家主大人！单轮粉红炮"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "8002",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 208
+}

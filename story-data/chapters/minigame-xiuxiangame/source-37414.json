@@ -1,0 +1,54 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37414",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37414001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不止这一只野猫，我们继续追！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37414",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37414001
+          ],
+          "sectionId": 37414
+        }
+      ],
+      "title": "爬塔关卡 10 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10",
+              "result_avg_id"
+            ],
+            "table": "ResClimbTower.lua"
+          }
+        ],
+        "path": [
+          "10",
+          "result_avg_id"
+        ],
+        "sectionId": 37414,
+        "table": "ResClimbTower"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "爬塔关卡 10 · 结算",
+  "wordCount": 14
+}

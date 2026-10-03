@@ -1,0 +1,117 @@
+{
+  "bookId": "activity-extra-fairytale_yure",
+  "id": "source-42921",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42921001",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这件圆圆的挂在墙上的东西……是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42921002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们叫它「闹钟」，一种常见的计时装置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42921003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我猜时针和分针指向12点时，便意味着午夜即将到来了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42921005",
+              "text": "这么理解没错。"
+            },
+            {
+              "targetId": "42921005",
+              "text": "你果然很聪明。"
+            }
+          ],
+          "sourceId": "42921004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42921005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "午夜的钟声响起时，我的魔法就会消失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42921006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "看来即使我成为了手办，这里仍然是一个受到约束的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42921007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我必须尽快做完那件事……毕竟，留给我的时间不多了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42921",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale_yure",
+          "rowIds": [
+            42921001,
+            42921002,
+            42921003,
+            42921004,
+            42921005,
+            42921006,
+            42921007
+          ],
+          "sectionId": 42921
+        }
+      ],
+      "title": "活动片段 42921"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10052",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10052",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42921,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42921",
+  "wordCount": 146
+}

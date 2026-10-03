@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213006",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "轻松贴身的便服，配色朴素的运动外套、背心和手套，甚至头带处渗出的细小汗珠，都代表了仓田龙马新一轮魔鬼训练的结束。这个表面如冰山一般，精英学校的生徒会长，习惯性将自己的内心封闭起来，以追求完美而极限的武道之名。\n\n“谈恋爱？抱歉，我不认为这比训练有意思。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "格斗特训Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213006",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仓田龙马·格斗特训Ver.",
+  "title": "格斗特训Ver.",
+  "wordCount": 125
+}

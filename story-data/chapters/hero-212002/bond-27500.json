@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-212002",
+  "id": "bond-27500",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27500001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这朵花是哪来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500002",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "小区花圃里摘的！很新鲜，还挂着露水！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那，这些石头呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500004",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "公园的鹅卵石地上挖出来的，颜色最饱满的几颗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些东西不可以拿回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500006",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "为什么？你不喜欢它们吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27500008",
+              "text": "它们属于所有人。"
+            },
+            {
+              "targetId": "27500008",
+              "text": "你会给别人造成困扰的。"
+            }
+          ],
+          "sourceId": "27500007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27500008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "这，这样吗......对不起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其实，玲不需要送我什么东西，我会也一样喜欢玲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "在玲原来的世界，拥有足够的物资才能活下去。\n嘿嘿，可能是做惯了快递员，每天总想送点什么给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500011",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "而且......在给你送东西的时候，玲会有种安心的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500012",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "别、别这样看我啦，我现在就把它们放回去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......玲，等一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "以后每天请你帮我取报纸和牛奶，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27500015",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "嗯......嗯？好啊好啊！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27500",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27500001,
+            27500002,
+            27500003,
+            27500004,
+            27500005,
+            27500006,
+            27500007,
+            27500008,
+            27500009,
+            27500010,
+            27500011,
+            27500012,
+            27500013,
+            27500014,
+            27500015
+          ],
+          "sectionId": 27500
+        }
+      ],
+      "title": "配送使命！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "配送使命！",
+  "wordCount": 276
+}

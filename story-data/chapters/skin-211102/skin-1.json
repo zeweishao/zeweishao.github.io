@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211102",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "眼前的怪物犹如山岳横亘于弱小的「车贤秀」面前。只需要轻轻抬起一根手指，就能把少年碾成粉末。\n\n无论怎么看，这都是他最后一次的战斗了。这是必死的终局，在场的所有人都这么认为。\n\n唯有「车贤秀」是个例外。\n\n体内汹涌澎湃的力量在灼灼燃烧，他听到一个疯狂的声音不断地在耳边嘶吼着。\n\n「活下去，不计一切地活下去！」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "欲望之影Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211102",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "车贤秀·欲望之影Ver.",
+  "title": "欲望之影Ver.",
+  "wordCount": 162
+}

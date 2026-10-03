@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-212001",
+  "id": "bond-29314",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29314001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "哇，这间房子好宽敞！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314002",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我可以在床上蹦来蹦去吗，可以吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然，本来就是给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314004",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "妹妹的话也能够住进来，但是主人的话却不行……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "毕竟这是给手办住的房子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过尤娜为什么想着让我住进来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314007",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "因为主人已经是家人了啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，进展好像有点快？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314009",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "现在的我非常开心，也非常幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "心情好到能够一口气打爆十个沙袋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "非常形象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "好，这就出发去把妹妹接进来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其实里惠的手办屋，就安排在你的隔壁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314014",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "诶诶诶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29314015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一起好好生活吧，尤娜。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29314",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29314001,
+            29314002,
+            29314003,
+            29314004,
+            29314005,
+            29314006,
+            29314007,
+            29314008,
+            29314009,
+            29314010,
+            29314011,
+            29314012,
+            29314013,
+            29314014,
+            29314015
+          ],
+          "sectionId": 29314
+        }
+      ],
+      "title": "在一起"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "在一起",
+  "wordCount": 191
+}

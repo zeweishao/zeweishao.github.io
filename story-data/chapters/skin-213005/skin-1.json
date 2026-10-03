@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213005",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "当海风开始如一头脱困的异兽嘶吼时，海水也不断翻涌出巨浪。吕布踩着冲浪板，大胆而谨慎冲破狂风，他的双眼有如水珠一般闪亮。\n\n“本大爷，是让海洋颤抖的男人！”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "破风斩浪Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213005",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "吕布·破风斩浪Ver.",
+  "title": "破风斩浪Ver.",
+  "wordCount": 75
+}

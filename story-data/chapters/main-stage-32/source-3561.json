@@ -1,0 +1,146 @@
+{
+  "bookId": "main-stage-32",
+  "id": "source-3561",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "3561001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "特别的人类，哦不，此时此刻更准确地说——管理局的新晋实习生，你好，试炼结束了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "总之，恭喜正式成为M.The3rdSection的一员，伟大的阿尔弗雷德欢迎你的加入。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪、和江还有花迦，你知道她们的下落吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这不在我的职权范围之内，我的义务只是通知你，作为通过试炼的新员工，最好尽快前往指定地点进行登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我拒绝。\n在没有找到优纪、和江花迦之前，我不会接手任何来自管理局的指派。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你在威胁我？哼，有趣。从目前的情报来看，与你交手的阿撒兹勒，也就是天启M城的负责人，他也对优纪有着相当深刻的执念。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我已经派人查得阿撒兹勒在M城的据点，\n想要的话，自己去寻找线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "有件事要告诉你，凡是涉及天启的任务，难度均在A级以上——这意味着，接下来的战斗将会相当困难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道，但即便如此，我也一定要带我的手办回家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我欣赏你的勇气，只是作为建议，如果没办法在困难的战斗中取胜，不妨去尝试别的玩法，等你变得更强，那些阻碍自然不再是阻碍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "祝你好运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "3561012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪、和江、花迦……\n等着我，一定会带你们回家。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "3561",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3561001,
+            3561002,
+            3561003,
+            3561004,
+            3561005,
+            3561006,
+            3561007,
+            3561008,
+            3561009,
+            3561010,
+            3561011,
+            3561012
+          ],
+          "sectionId": 3561
+        }
+      ],
+      "title": "追寻"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1",
+              "32",
+              "1",
+              "pre_enter_avg"
+            ],
+            "table": "ResStage.lua"
+          }
+        ],
+        "path": [
+          "1",
+          "32",
+          "1",
+          "pre_enter_avg"
+        ],
+        "sectionId": 3561,
+        "table": "ResStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "想要找到优纪、和江、花迦的下落……就必须一路打败天启，请等我，一定会带你们回家！",
+  "title": "追寻",
+  "wordCount": 429
+}

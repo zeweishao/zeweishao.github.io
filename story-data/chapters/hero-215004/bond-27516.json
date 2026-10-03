@@ -1,0 +1,174 @@
+{
+  "bookId": "hero-215004",
+  "id": "bond-27516",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27516001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "怎么了，为什么这样看着我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你看起来和别的手办不太一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "也许是因为我的仪态和举止，让你产生了这样的感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516004",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我出生于血统古老而高贵的望族「罗贝尔」，被称作寒冰之脉的血继者，在北阿罗拉有着深远的影响。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "在这样的家族长大，从小被寄予厚望的我，所接受的教育十分严苛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516006",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我不能大声讲话，不能失声大笑，也不可以任性，不能随意表露情感。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27516008",
+              "text": "你的童年一定很不自由。"
+            },
+            {
+              "targetId": "27516008",
+              "text": "看来你的过去并不快乐。"
+            }
+          ],
+          "sourceId": "27516007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27516008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "你知道吗？你是第一个这么说的人。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27516010",
+              "text": "我冒犯你了吗？"
+            }
+          ],
+          "sourceId": "27516009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27516010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "恰恰相反，你说出了我不敢表露的心声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我一直有一个未曾宣之于口的梦想，现在我把它将给你听——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516012",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我梦想着变成洁白晶莹的雪花，能够自由自在地随风飘舞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27516013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "静静地描摹大地的轮廓，让凛冬为人们带去希望与爱。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27516015",
+              "text": "你会实现这个梦想的。"
+            }
+          ],
+          "sourceId": "27516014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27516015",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我一度忘了这个梦想，是你让我重新发现了它。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27516",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27516001,
+            27516002,
+            27516003,
+            27516004,
+            27516005,
+            27516006,
+            27516007,
+            27516008,
+            27516009,
+            27516010,
+            27516011,
+            27516012,
+            27516013,
+            27516014,
+            27516015
+          ],
+          "sectionId": 27516
+        }
+      ],
+      "title": "端方的淑女"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215004",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "端方的淑女",
+  "wordCount": 328
+}

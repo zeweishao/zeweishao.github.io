@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1012",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1012001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，手办在室外冒险时，会为你收集各种各样的“战利品”。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1012002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "而且随着时间的累积，“战利品”的数量还会变得更加丰富。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1012003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请主人好好利用这些材料，让手办们快速成长起来吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1012",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1012001,
+            1012002,
+            1012003
+          ],
+          "sectionId": 1012
+        }
+      ],
+      "title": "原文片段 1012"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1012
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1012",
+  "wordCount": 81
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212005",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "单襟马甲搭配手工定制衬衫，与上衣配套的西裤单线缝制、量体裁剪。甚至手套，腰带和皮鞋的选择，鞠躬的角度，谈吐的品格，每个细节都彰显出这位执事绝佳的素养和姿容。\n\n在未来的日子里，他将竭尽所能，只为你一人服务。\n\n“遵命，阁下。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "西装执事Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212005",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "赵云·西装执事Ver.",
+  "title": "西装执事Ver.",
+  "wordCount": 109
+}

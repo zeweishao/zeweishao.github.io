@@ -1,0 +1,168 @@
+{
+  "bookId": "hero-211011",
+  "id": "bond-26005",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26005001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "这是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "送给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005003",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我代表「异乡人」向你表示感谢，会好好使用这座基地的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是基地……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是送给蒂娅一个人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "谢谢。\n这样做，是想要我一直留下来的意思吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是希望蒂娅过得舒适一点，\n你这位「异乡之人」，总要有个「归来」的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "「归来」的地方……可以理解为「家」么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，可以安心休息的，温暖的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005010",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "噗……哈哈……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "欸……有什么好笑的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "很少看到蒂娅这么开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005013",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……没什么，只是突然想通了一个道理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26005014",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "关于「使命」的答案，我已经找到了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26005016",
+              "text": "嗯？"
+            }
+          ],
+          "sourceId": "26005015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26005016",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "就是现在，就在眼前，\n站在我面前的，我一直在寻找的，特别的人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26005",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26005001,
+            26005002,
+            26005003,
+            26005004,
+            26005005,
+            26005006,
+            26005007,
+            26005008,
+            26005009,
+            26005010,
+            26005011,
+            26005012,
+            26005013,
+            26005014,
+            26005015,
+            26005016
+          ],
+          "sectionId": 26005
+        }
+      ],
+      "title": "「归来」的地方"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「归来」的地方",
+  "wordCount": 240
+}

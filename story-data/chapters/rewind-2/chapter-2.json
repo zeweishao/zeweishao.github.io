@@ -1,0 +1,4325 @@
+{
+  "bookId": "rewind-2",
+  "id": "chapter-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "198001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "车已经走远了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "198002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我肯定是垃圾桶里捡回来的。\n看来我们必须先去把天台清理干净，争取提高生活费。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "198003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "把天台清理干净之后，我们又可以多一个玩耍的活动场所。还不错。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "198005",
+              "text": "走，我们开疆辟土去。"
+            }
+          ],
+          "sourceId": "198004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "198005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "出发~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "泥土的味道混合着青草的芳香，是最适合改建成棒球训练场的味道。\n0.350打击率、20本垒打、96分打点的优纪选手要开始天台清扫了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "呸呸，草屑都飘过来了！\n主人，劝一下那家伙，她刚上的涂装会被弄脏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "闹闹腾腾正是火力四射的优纪嘛。\n我们一起努力争取在太阳下山前把天台清理干净吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "……哼，你就惯着优纪吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唉，小梅酱也要过去？真……真的要这样做吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "放心，目测只有三米，没什么要担心的。我一定可以顺顺利……利的……\n输给优纪是不可能的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010007",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "一米、两米、三米！好了，主人，快帮我看看，优纪在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过……看来小梅酱还是迷路了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小梅酱，优纪现在在你的左手边大概五米的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小梅酱现在方向又反了哦，有花的那边才是左边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010011",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "知道了！知道了！——呼、呼……总算找到方向。\n优纪我也要一起清理杂草。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小梅酱，你竟然可以安全走过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010013",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你这是什么语气，这又不是什么大不了的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，小梅酱完成了一番大事业呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你们在这里做什么？这是什么任务吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010016",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "和江你回来啦，刚刚在一楼都没找到你。\n我们在清理这个天台，要一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8010017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我跟着大猫去了一趟收件处。\n清理天台吗？我来帮忙把。只是前面杂物太多，看不清情况。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8010019",
+              "text": "我来帮大家看看"
+            }
+          ],
+          "sourceId": "8010018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8010019",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "前面似乎有东西在动，是什么老鼠吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021001",
+          "sourceType": 0,
+          "speaker": "守卫鸡",
+          "text": "糟了！我必须去通知村长，管理局的人来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它们逃了，也是和我们一样有生命的手办？——主人，和江回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021003",
+          "sourceType": 7,
+          "text": "岩田和江 · 极夜之刃\n商品名称：岩田和江·极夜之刃 Ver.\n作品名称：《坦塔罗斯之陆》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约240mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8021004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和江，欢迎回来。我也不清楚，这个世界上还有其他可以活动的手办吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021005",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "笨蛋！你在干什么！？看到洞跳开啊！跳开啊！笨死了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "糟了，她们两个都掉下去了。这里什么时候有这样一个洞。\n优纪、小梅酱，你们还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8021007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "没有回答，看来洞应该挺深。主人，你在我身上绑上绳子，我下去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030001",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "村长，我们真的要搬家吗？\n这地方虽然简陋，也是大家耗费心血才搭好。这么匆忙搬家，损失太大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030002",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "呜呜呜！放开我，我不走！我宁愿死在这里，也不要流浪街头被狗追。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030003",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "不要闹了，管理局已经来信要赶我们走。\n大家就向这里做最后的道别，然后我们就出发离开吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030004",
+          "sourceType": 5,
+          "speaker": "守卫鸡",
+          "text": "村长不好了、不好了！管理局的人来了！大家快逃啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030005",
+          "sourceType": 5,
+          "speaker": "蜜桃崽",
+          "text": "上面有人！一定是管理局的！大家快逃啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "噗、噗、脏死了，身上都是叶子划出来的绿兮兮的颜色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奇怪，未来甲子园冠军的视力不可能会出错，怎么不见了呢？\n我刚刚掉下来的时候确实看到这里有东西在动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪、小梅，你们都没事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030009",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "和江你怎么也下来了。\n还不知道这里有什么状况就下来，你知道有多危险吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "放心，我没事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030011",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "别动，再动我们就切了你。你是谁？管理局信中说要派来的人就是你们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030012",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "什么玩意。还有你们又是谁？为什么在主人的天台挖洞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030013",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "蜜桃崽，不可以对管理者大人无礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030014",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "你们这些无知的流浪手办，为什么还在这里。这是公然藐视管理局的驱逐命令吗？\n我今天将代表管理局，赐予你们惩罚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030015",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "谁在说话，也是你们管理局的人吗？它是藏起来了吗？——管理局大人，请再给我们一点时间，我们已经在搬家了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030016",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "好可怕，好可怕，它的声音就像那些讨债要涂装的恶棍一样难听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030017",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哼，装神弄鬼，我们去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030018",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "原来藏在这里，你这只兔子就是它们说的管理局大人？\n敢威胁我水野梅，你是活不长了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8030019",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "谁！——你……你们怎么可以过来，我还没说完。——快，大飞猪，拦下他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8040001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "快说，你这只兔子为什么躲在这里故意吓唬人？还要赶这些家伙搬家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8040002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "管理局是什么？感觉好凶。快看，上面有石头掉下来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8040003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "刚刚的打斗让四周的泥土开始掉落，洞里现在不安全了。那边有一条绳子可以通向洞外，我们先出去。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-2",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            198001,
+            198002,
+            198003,
+            198004,
+            198005
+          ],
+          "sectionId": 198
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8010001,
+            8010002,
+            8010003,
+            8010004,
+            8010005,
+            8010006,
+            8010007,
+            8010008,
+            8010009,
+            8010010,
+            8010011,
+            8010012,
+            8010013,
+            8010014,
+            8010015,
+            8010016,
+            8010017,
+            8010018,
+            8010019
+          ],
+          "sectionId": 8010
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8021001,
+            8021002,
+            8021003,
+            8021004,
+            8021005,
+            8021006,
+            8021007
+          ],
+          "sectionId": 8021
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8030001,
+            8030002,
+            8030003,
+            8030004,
+            8030005,
+            8030006,
+            8030007,
+            8030008,
+            8030009,
+            8030010,
+            8030011,
+            8030012,
+            8030013,
+            8030014,
+            8030015,
+            8030016,
+            8030017,
+            8030018,
+            8030019
+          ],
+          "sectionId": 8030
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8040001,
+            8040002,
+            8040003
+          ],
+          "sectionId": 8040
+        }
+      ],
+      "title": "#1 不速之客"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "8050001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "8050002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "葵，你那里有接到来信要求搬家吗？绿子不想搬家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "接到了，葵也不想搬走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050004",
+          "sourceType": 3,
+          "text": "此时的另一边——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8050005",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "人类？！戳下去是软的，是真的人类！天哪，我们会被抓去坐牢的。\n不行，我去把风，不能让其他手办发现我们在和人类对话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050006",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "不能向人类泄露活动手办的存在是必须遵守的铁律，所以平常大家都躲起来，避免被人类发现。但其实这个世界上，生活着很多像我们、像你们这样，可以说话、可以活动的手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050007",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "为了避免无谓纷争，区域划分、组织、法律应运而生，而此地归属管理局管辖。\n三天前管理局来信，信中说我们流浪到此未报备就定居，会派试炼者来处理我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050008",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "只是……如果可以，我们并不希望离开这里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那可以留下，管理局条例中没有赶走未报备定居手办的条例。此次来信，是希望大家能完成流浪手办定居入册登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我们各自不同世界而来，在这里可能会不适应。入册登记可以让管理局清楚了解大家的困难，才能根据实际情况提供协助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050011",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "所以即使不入册，没有报备，我们也可以不用搬家，留在这里？但你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "你们好，第一次见面。\n我是花迦，是管理局派来负责此次流浪手办定居入册登记工作的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050013",
+          "sourceType": 7,
+          "text": "花迦 · 南国少女\n商品名称：花迦·南国少女 Ver.\n作品名称：？？？\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约220mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8050014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "入册登记后，还能定期获得管理局提供的义务服务。免费的涂装保养、修补损坏的外壳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050015",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "能提供零件更换申请……\n这是，我只要完成居住入册登记，就可以申请领到一个新的奶盒吸管了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050016",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "只是向管理局申请住所需要一定的入册年限。目前来看，各位只能留在这里。这份手册可以查阅所有条例和可提供的义务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050017",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "优纪，我警告你，不可以！不可以！别以为我不知道你想干什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪身为未来甲子园的冠军，看到它们需要帮助，不能当做没看到。\n主人，优纪可以不要棒球训练场的。或者先让他们暂住……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050019",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我有！有一就有二，万一以后来更多陌生手办，我的新活动区域就没了！我不会和你们一起发疯的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是提供天台给这些流浪手办暂住，应该可以……吧？!小梅酱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050021",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "……我……好吧……但只能是暂住！暂住！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8050022",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "不行！你们必须现在离开这里。她是骗子！骗子！不能相信她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060001",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "你这只红兔子很嚣张啊。\n一直瞎嚷着说自己是管理局的，那她又是谁？你们两个一定有人在说谎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "向师傅起誓，花迦没有说谎，花迦确实是管理局派来处理此事的试炼者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060003",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "这位能听到我们说话的人类，你……怎么看？请帮帮我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我？我只是一个普通人类，掺和这种纠纷不太好吧……好吧，我试试。不如我出题，考考你们，再决定谁值得相信。——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8060006",
+              "text": "请背诵管理局守则"
+            },
+            {
+              "targetId": "8060006",
+              "text": "管理局口号是？"
+            }
+          ],
+          "sourceId": "8060005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8060006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我……我不记得，那本管理局的基本概论太厚……我……我背不下来。\n对不起，我笔试没及格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那你的答案呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060008",
+          "sourceType": 2,
+          "speaker": "红兔子",
+          "text": "这些家伙已经在怀疑我，就这样撤退吗？但是任务失败的话，狩猎者大人一定会被那位大人训斥的……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060009",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060010",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "（哭唧唧）我讨厌你们！\n你们都给我等着，我还会回来了！天启不会放过你们的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060011",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "村长，刚刚那只红兔子是说到天启了吗？难道这附近有天启组织的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060012",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "不要慌，估计是气话，天启不可能会出现在这个城市的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "感激不尽，花迦已经完成所有居住入册登记。\n花迦心中离情别绪良多，下次必登门拜谢，我先去提交管理局实习生试炼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，那就有缘再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好！那我们继续打扫天台，争取在太阳公公下山前完成。\n等这里的场地弄好，优纪还可以教大家打棒球~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060016",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "哼，打吧打吧，再打出一个洞，或许还能出来更多手办来陪你一起玩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小梅酱还在生气~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，气鼓鼓的，不过很可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8060019",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "你们两个不要故意嘀咕得这么大声，我听得到！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-3",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8050001,
+            8050002,
+            8050003,
+            8050004,
+            8050005,
+            8050006,
+            8050007,
+            8050008,
+            8050009,
+            8050010,
+            8050011,
+            8050012,
+            8050013,
+            8050014,
+            8050015,
+            8050016,
+            8050017,
+            8050018,
+            8050019,
+            8050020,
+            8050021,
+            8050022
+          ],
+          "sectionId": 8050
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8060001,
+            8060002,
+            8060003,
+            8060004,
+            8060005,
+            8060006,
+            8060007,
+            8060008,
+            8060009,
+            8060010,
+            8060011,
+            8060012,
+            8060013,
+            8060014,
+            8060015,
+            8060016,
+            8060017,
+            8060018,
+            8060019
+          ],
+          "sectionId": 8060
+        }
+      ],
+      "title": "#2 忍者少女"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8070001",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "那个就是花迦说的人类？我们真的要找人类帮忙吗？会违规的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070002",
+          "sourceType": 5,
+          "speaker": "狂躁兔",
+          "text": "但是，想要救出花迦，只能这样做了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070003",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "请问你们认识花迦吗？花迦因为管理局实习生试炼失败，被阿尔弗雷德退货回FULI商店的盲盒里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070004",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "咦？——花迦被退回盲盒了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "也就是说，其实花迦的试炼并未完成，因为还漏掉两个还未入册的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070006",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "可是村子里的人都已经在这里了……除非——是绿子和葵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8070007",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "是这两个名字，就是这两个手办被遗漏了。\n人类巨巨，请你一定要救救花迦，她一个人呆在黑漆漆的盲盒里太可怜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1000001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天打扫了一天天台，我先帮你们检查一下零件。然后再来商讨看看，怎么救花迦吧。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "1000002",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "1000003",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "1000004",
+          "sourceType": 0,
+          "speaker": "狂躁兔",
+          "text": "哇！好牢固，完全契合。\n不怕你笑话，其实我这个手之前断过，之后就经常会断掉。那花迦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1000005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦有两个很好的朋友。我只要按照这个编号，将花迦买下来就好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1000006",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "是的，这些是我们存了很久的钱，本来想买新涂料……不过……\n请你一定要救救花迦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1001001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "暗无天日、日月无光、光阴虚度、度日如岁、岁不我与、与草木同朽、朽株枯木、木人石心……心心念念……心心念念……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1001002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好困、好冷，是幻觉吗？我好像看到了优纪、小梅酱、和江，还听到了……那位人类在叫我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1001003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦、花迦……这不是梦哦。快醒醒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1001004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪！水野梅！还有和江小姐！这真的不是梦。花迦太开心了，喜极而泣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1001005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你也真是倒霉，竟然还能被退回盲盒里面。\n呃！（打颤）突然想起了很不好的被关在盲盒里的回忆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1002001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "谢谢你们，是我的朋友委托你们来救我了吗？\n谢谢你们、谢谢狂躁兔子、谢谢小柠檬盒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1002002",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "花迦，你平安回来就好。只是你以后就不要再回黑街了，阿尔弗雷德还很生气。\n我们还会来看你的。可爱的人类大人，还有几位，花迦就拜托你们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1002003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从今往后，就由我们来守护花迦了。花迦愿意留在这里吗？\n继续呆在盲盒里会有怪物哦~嗷呜~嗷呜~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "1002005",
+              "text": "欢迎来到新家"
+            }
+          ],
+          "sourceId": "1002004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "1002005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是，花迦愿意，花迦愿意，花迦想和大家在一起。\n可是……我好像动不了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-4",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8070001,
+            8070002,
+            8070003,
+            8070004,
+            8070005,
+            8070006,
+            8070007
+          ],
+          "sectionId": 8070
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1000001,
+            1000002,
+            1000003,
+            1000004,
+            1000005,
+            1000006
+          ],
+          "sectionId": 1000
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1001001,
+            1001002,
+            1001003,
+            1001004,
+            1001005
+          ],
+          "sectionId": 1001
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1002001,
+            1002002,
+            1002003,
+            1002004,
+            1002005
+          ],
+          "sectionId": 1002
+        }
+      ],
+      "title": "#3 花迦大危机？"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8090001",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "你们来了，事情我都听村长说了。在座是帮助大家赶走假冒者，给了大家一个住所的恩人。我千裂苍龙——绿子一定会帮助你们的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090002",
+          "sourceType": 7,
+          "text": "绿子 · 千裂苍龙\n商品名称：绿子·千裂苍龙Ver.\n作品名称：《格斗学园》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约230mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8090003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "绿子明镜止水、风林火山、一骑当千，花迦感激涕零。\n这是管理局的终端，若无其他疑问，烦请填写相关信息，申请登记入册。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090004",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "绿子已经完全看过手册！绿子没问题！就是绿子太蠢了，打不开这个黑不溜秋的东西。一定绿子太暴力，所以它被吓到不肯亮起来！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8090006",
+              "text": "检查花迦的终端。"
+            }
+          ],
+          "sourceId": "8090005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8090006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "原来终端没坏……是我已经没有权限，我已经没有参加管理局实习生试炼的资格……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊、哈哈哈，没关系。\n这点小事干嘛垂头丧气，今天能认识大家，绿子已经很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错，像挥动球棒一样，打起精神来！对了！不如优纪来教大家打棒球~和江、梅、花迦、绿子，你们觉得……梅呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "梅是刚往那边离开的女孩子吗？我看她低着头，很生气的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "梅……难道在为天台的事情生气吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "梅一直都想有一块新的活动空间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错，是优纪太自以为是，忽略了小梅的心情。\n不能耽误了，主人，优纪现在就去找回小梅酱，然后郑重的道歉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我去准备一些小梅酱喜欢的涂料，你们赶紧趁着梅还没走远快去找她回来。\n我们一起努力，争取获得小梅酱的原谅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090014",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "大猫，你带我来，是为了让我看你的新藏宝地？树上？你是说树上有东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090015",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090016",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "找到了，好多小鱼干，原来你是嗅到了小鱼干的味道啊。给，小鱼干已经帮你拿到了，快走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090017",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090018",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这个四叶草不能给你，我有用处。小鱼干已经帮你拿到了，快走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090019",
+          "sourceType": 5,
+          "speaker": "阿宅",
+          "text": "喂，识趣点，把你手里的全部交出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小梅酱快闪开！！！！！！看招！！！！！！！！！谁敢欺负小梅酱！\n梅！我们来救你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090021",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "小梅前辈，花迦不会让它们伤害你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8090022",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "啊？这些找茬的家伙怎么可能伤得了我水野梅。\n不过你们来得正好，那就一起上吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "担心我迷路了？我又不是小学生。还有，你这个家伙不要靠近我。也不要再塞四叶草给我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小梅酱不喜欢四叶草吗？我再找找！优纪会尽量找到比天台更好的礼物送小梅的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我不是这个意思！——喂，天台是怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是！再次自我介绍，我是千裂苍龙绿子，现在为小梅酱解释天台的事情。\n你的朋友刚找不到你，以为你因为天台被村长它们占领而生气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100006",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "小梅酱！快看！优纪找到了一只巨大的晴天娃娃！！！！——小梅酱，这朵花好漂亮！送你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100007",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "！！！那不是晴天娃娃！！！快放下那种恶心的玩意！！！\n还有，不要再给我塞东西，我拿不了那么多东西！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "……\n算了，和你们这些白痴生什么气。你们这些家伙就一根筋的笨蛋，什么都不懂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100009",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "真是令绿子感动到泪流满面的友情，绿子也要去找葵玩~\n来，送你一个哈莉送我的包裹，可以放很多东西。走啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100010",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "绿子再见。哇，好厉害的包裹，真的能放很多东西，那我要多收集点。\n这是给小梅酱的、和江的、花迦的……这是给主人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100011",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "嗯，把这些也放进去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "找到你们了。看来大家已经和好了呢？——真的吗？这是送给我的礼物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "四叶草？好像还有什么东西在动。虫子！！！——大家是故意吓我的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100014",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "当然，我这人很记仇的。天台让那么多人霸占，我本来都要忘记了。\n结果你们这些家伙竟然还不断提起来！气死我了！不过——哼，现在扯平了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小梅酱真好~我知道的哦~虽然看起来不好接触，喜欢赌气，却意外受小动物喜欢，喜欢捡硬币勤俭持家，会悄悄帮助老奶奶过马路，答应的事情一定会做到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8100016",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "闭……闭嘴！突然说什么呢，给你啦，这次是真的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-5",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8090001,
+            8090002,
+            8090003,
+            8090004,
+            8090005,
+            8090006,
+            8090007,
+            8090008,
+            8090009,
+            8090010,
+            8090011,
+            8090012,
+            8090013,
+            8090014,
+            8090015,
+            8090016,
+            8090017,
+            8090018,
+            8090019,
+            8090020,
+            8090021,
+            8090022
+          ],
+          "sectionId": 8090
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8100001,
+            8100002,
+            8100003,
+            8100004,
+            8100005,
+            8100006,
+            8100007,
+            8100008,
+            8100009,
+            8100010,
+            8100011,
+            8100012,
+            8100013,
+            8100014,
+            8100015,
+            8100016
+          ],
+          "sectionId": 8100
+        }
+      ],
+      "title": "#4 消失的小梅"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8110001",
+          "sourceType": 3,
+          "text": "入夜之后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8110002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "下雨了，台风一来，太阳公公的脸色就变得好快。优纪还想教大家打棒球的……\n花迦有想做的事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我希望能成为一名合格忍者。当我看到师父将围堵我的手办通通击退的时候，我想超越师父，成为可以保护别人的人。但我太弱了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "师父说，若是原世界，她无法改变我的体质，但手办的我却可以通过涂装去提升。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "涂装维护就如豆腐被套在钛合金里面，不管外面经受多少狂风暴雨，只要有钛合金的保护，内部的豆腐就永远不会输。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "所以我一定要通过管理局实习生的试炼。\n成为管理局的正式工作人员，就可以获得足够多的涂料，我就能像现在这样子，一直强大下去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这就是你说的人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110008",
+          "sourceType": 0,
+          "speaker": "阿宅",
+          "text": "就是这个人类。\n我已经带你找到你要找的人类了，我可以走了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "呆着，别想逃跑。——你过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110010",
+          "sourceType": 0,
+          "speaker": "阿宅",
+          "text": "？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "太高了，我下不去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110012",
+          "sourceType": 0,
+          "speaker": "阿宅",
+          "text": "……\n要不我带大人飞下去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110013",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "那还不滚过来！我很吓人？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110014",
+          "sourceType": 5,
+          "speaker": "阿宅",
+          "text": "不不不，大人平易近人，和蔼可亲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我平易近人？你眼瞎的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110016",
+          "sourceType": 0,
+          "speaker": "阿宅",
+          "text": "是！大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110017",
+          "sourceType": 3,
+          "text": "第二天清晨——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8110018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奇怪，一早上优纪她们怎么都不见了，难道都去天台了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110019",
+          "sourceType": 3,
+          "text": "一段楼梯有多长？对人类来说，只不过是区区几步就能跨越的障碍。我不假思索地迈进，从未深思就推开的大门之外，或许是即将到来的密云。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8110020",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "你是谁？为什么要将她们绑起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110021",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我是阿尔弗雷德，平易近人的阿尔弗雷德，管理局M城黑街负责人，\n能听到手办说话的愚蠢人类。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8110023",
+              "text": "将大家救回来"
+            }
+          ],
+          "sourceId": "8110022",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8110023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大家还好吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8110024",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你还傻站在这里做什么？还不快去将她们抢过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "呜呜呜呜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大家忍耐一下，这是强力胶布，不能随便撕下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我奉劝你将你的手办交出来。你的手办涉嫌向人类世界泄露手办界的秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "凡是违反《全届公约》中第304条条约“活化手办禁止与人类沟通”和第305条条约“活化手办禁止委托或指引人类进行任何事情”的手办会被处予监禁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不对。如果想将优纪她们监禁起来，为什么还要绑架到天台，还特意引我发现。你特意引我来的目的到底是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "从刚刚的战斗来看，你了解每一个手办的不同能力，并且善于发现和指导。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "是被管理局通缉你的手办，从此你的手办都只能如同过街老鼠，无处藏身；除非你能每时每刻都呆在她们身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "还是参加管理局实习生试炼，协助我们完成工作。作出你的选择吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8120010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我要你参加试炼，并且必须通过试炼。\n对于手办来说，很艰难才能完成的事情，身为人类的你却可以轻易完成。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-6",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8110001,
+            8110002,
+            8110003,
+            8110004,
+            8110005,
+            8110006,
+            8110007,
+            8110008,
+            8110009,
+            8110010,
+            8110011,
+            8110012,
+            8110013,
+            8110014,
+            8110015,
+            8110016,
+            8110017,
+            8110018,
+            8110019,
+            8110020,
+            8110021,
+            8110022,
+            8110023,
+            8110024
+          ],
+          "sectionId": 8110
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8120001,
+            8120002,
+            8120003,
+            8120004,
+            8120005,
+            8120006,
+            8120007,
+            8120008,
+            8120009,
+            8120010
+          ],
+          "sectionId": 8120
+        }
+      ],
+      "title": "#5 总裁般的男人"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8130001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "让我一个人类参加你们手办界的管理局实习生试炼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么？对方到底在谋划什么？我要先了解清楚状况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你想了解什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8130005",
+              "text": "关于管理局。"
+            },
+            {
+              "targetId": "8130007",
+              "text": "我要做什么？"
+            },
+            {
+              "targetId": "8130011",
+              "text": "我没有想了解的。"
+            }
+          ],
+          "sourceId": "8130004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8130005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "在我们的世界中，有数量众多的以个人、群体相互合作形成的团队或集体，\n而其中最为人知的组织是管理局。\nM城是管理局的主要活动城市和总部所在地。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8130004",
+              "text": "我明白了。"
+            }
+          ],
+          "sourceId": "8130006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8130007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "通过管理局实习生试炼，成为正式的实习生。\n同时你有义务履行以下内容：",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "1、对M城内所有尚未完成居住登记的活动手办，邀请其进行入册登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "2、保护并按照《管理局基本守则》对所有在册手办和前来委托的在册手办提供守则内的协助。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8130004",
+              "text": "我明白了。"
+            }
+          ],
+          "sourceId": "8130010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8130011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "感谢平易近人的阿尔弗雷德吧。不过你要切记，绝对不可以亲自干涉手办界的所有行为。关于终端的使用可以询问那位落榜考生花迦。既然交易达成，那就再见了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "8130012",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "8130013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我拒绝参加试炼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130014",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "哈？！你说什么？！我和你说了这么多，你凭什么不答应？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8130016",
+              "text": "质疑对方。"
+            },
+            {
+              "targetId": "8130016",
+              "text": "谈条件。"
+            }
+          ],
+          "sourceId": "8130015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8130016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你能证明自己来自管理局？你知道自己从何而来？要到哪里去？或许这一切只是一场梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里是人类世界，不是漫画世界。\n想要我按照你的规则走，至少应该有一个合理的交谈气氛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "好，请问怎么你才愿意参加管理局试炼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然是交易，只有双方都有好处，才是交易。\n我参加管理局实习生试炼，对我有什么好处？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130020",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我可以保证在你参加管理局实习生试炼期间，你的手办都不会被通缉。\n当然你也可以选择拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来手办界中的确存在所谓的管理局……我不可能每时每刻都带着优纪她们，万一真的趁着我不在家……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130022",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "而且！我的手办都很贵的！！！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8130024",
+              "text": "加入吗？加入吧"
+            },
+            {
+              "targetId": "8130024",
+              "text": "不加入吗？加入吧"
+            }
+          ],
+          "sourceId": "8130023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8130024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可以加入，但我有一个条件，我需要让花迦的管理局实习生试炼的资格重新生效。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130025",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "成交。友情提醒，试炼没有你们想的简单。在三天内必须完成这个区域所有手办的入册登记。三天后如果失败了，你们的手办将会被通缉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130026",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "最后再给你一个忠告，尽量不要和天启成员接触，因为对方很危险,",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130027",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "哈哈哈哈哈哈哈哈哈哈，还记得我吗？今天我带了一堆手下来报复你们。\n都出来吧！接受来自天启的愤怒吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8130028",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "呵呵，人类，你今天的运气不错，竟然碰到A级任务，抓住这只红烧兔子。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-7",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8130001,
+            8130002,
+            8130003,
+            8130004,
+            8130005,
+            8130006,
+            8130007,
+            8130008,
+            8130009,
+            8130010,
+            8130011,
+            8130012,
+            8130013,
+            8130014,
+            8130015,
+            8130016,
+            8130017,
+            8130018,
+            8130019,
+            8130020,
+            8130021,
+            8130022,
+            8130023,
+            8130024,
+            8130025,
+            8130026,
+            8130027,
+            8130028
+          ],
+          "sectionId": 8130
+        }
+      ],
+      "title": "#6 是，先生。"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8140001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好像并不强？等等——虽然赢了天启，但是优纪刚刚差点再也见不到主人。呜哇！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "吵死，我们都没事了，不要哭了！\n可恶，那个阿尔弗雷德竟然能在我们毫无察觉的情况下，将我们所有人都绑起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "对不起，刚听介绍以为你也是天启的，以为很厉害用尽了全力。你很疼吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140004",
+          "sourceType": 2,
+          "speaker": "红兔子",
+          "text": "疼，疼死了。什么兔子什么兔子！我是兔子老大。好痛，为什么下手这么重！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在怎么处理这只兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140006",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "手办届中组织繁多，而天启便是聚集着对这个世界饱含恶意而能力极强的手办们的劣迹组织。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "以天启十一众为首，它们为达目的不择手段。据近200年的记录，因天启而致白膜化的手办，总数已超亿万。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140008",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "但是！为！什！么！你这么弱！\n喂，你真是天启的人？天启现在的入会标准这么低？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你们，和这只兔子再打一次，看看现在的天启是不是真的这么弱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140010",
+          "sourceType": 5,
+          "speaker": "红兔子",
+          "text": "你们侮辱我，侮辱狩猎者大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140011",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哭了，哭了。你别哭啊。优纪最害怕小孩子哭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140012",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "我是成年兔子！呜哇！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140013",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "红烧手办兔子，应该和生烤螃蟹烤焦了味道差不多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140014",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8140015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，我们要打吗？优纪有点不忍心……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8140017",
+              "text": "那就打轻点？"
+            }
+          ],
+          "sourceId": "8140016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8140017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好嘞！优纪领命！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150001",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "呜哇，你们欺负可爱的兔子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "吵死了，带走。记得，你的试炼只有三天时间，那就期待你的表现。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "8150003",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "8150004",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "阿尔弗雷德是吧！我记住你了。下次碰到你，我会将你那双鸡翅膀上的羽毛一根一根地拔掉！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人，你真的要参加管理局试炼吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然答应了，那就参加吧。虽然有很多疑点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "而且……关于我为什么能看到、听到优纪、和江、水野梅、花迦她们说话和行动，也许能从中找到什么线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "花迦，你知道这个终端怎么用吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这是管理局实习生试炼的终端，有通讯和录像等功能，不过像这么大的，花迦还是闻所未闻，见所未见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那这些小圆点有什么用处？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这是一种微型追踪器，像这样子，贴在我们身上，然后链接主人的终端……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，是优纪，优纪在主人的终端里。那这是我们和主人的专属联络了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "以后的确可以通过这个终端看到我们的行动，还能和我们异地交流。\n不过如果碰到信号不好的地方，可能会有点麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150015",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "欢迎使用终端，您有新的消息可查看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150016",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "感谢您参加本次的管理局实习生试炼，是否现在开始同步同区试炼进度。请确认",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8150018",
+              "text": "确认同步区域试炼进度。"
+            }
+          ],
+          "sourceId": "8150017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8150018",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "本区域尚有2名人员未完成居住入册登记。\n具体名单如下：葵、绿子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8150019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "同区域试炼者进度共享吗？看上去这个试炼似乎只要找到绿子和葵就能完成了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-8",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8140001,
+            8140002,
+            8140003,
+            8140004,
+            8140005,
+            8140006,
+            8140007,
+            8140008,
+            8140009,
+            8140010,
+            8140011,
+            8140012,
+            8140013,
+            8140014,
+            8140015,
+            8140016,
+            8140017
+          ],
+          "sectionId": 8140
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8150001,
+            8150002,
+            8150003,
+            8150004,
+            8150005,
+            8150006,
+            8150007,
+            8150008,
+            8150009,
+            8150010,
+            8150011,
+            8150012,
+            8150013,
+            8150014,
+            8150015,
+            8150016,
+            8150017,
+            8150018,
+            8150019
+          ],
+          "sectionId": 8150
+        }
+      ],
+      "title": "#7 天启的兔子"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "8160001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "8160002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "葵，今天来得真早。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "光合作用是葵最大的幸福。哦~葵今天好像忘记带防晒霜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我们是手办，应该没问题的。阳光真的好舒服~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "很舒服……葵感觉……身体好像……泡在棉花里……软绵绵的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160006",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "葵……葵！你的身体！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绿子的家真不好找，优纪记得好像是这朵花然后左转……咦？你们听到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "绿子的声音，从二楼阳台传出来的。\n她怎么会在那里。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8160010",
+              "text": "先赶回去看看"
+            }
+          ],
+          "sourceId": "8160009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8160010",
+          "sourceType": 5,
+          "speaker": "源上",
+          "text": "站住，你就是那个新来的管理局试炼者？让我试试你的身手！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8160011",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "小心！快躲开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "啧，这么不禁打。主人，他晕过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可能是村民，先放口袋里，等会顺便问问绿子。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8170004",
+              "text": "前往二楼阳台。"
+            }
+          ],
+          "sourceId": "8170003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8170004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "天哪，这里难道就是传说中的专门惩罚损公肥私，行贿受贿，偷鸡摸狗，抢劫钱财，放火之人的第十六层火山地狱吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "好热……软软的……头好晕……\n葵这是要死了吗？……如果葵真的要死了……请把葵埋在太阳底下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170006",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "啊啊啊，更软了！葵要化掉了！！！\n我们本来正在晒太阳，因为太舒服睡着了。等绿子再睁眼，就看到葵变成软绵绵、像章鱼的这样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "别乱动她！我们要找一个东西小心地将她挪到阴凉的地方先！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170008",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "冰冰凉凉的、好舒服……\n可是葵还是觉得头好晕、软绵绵……绿子……葵现在是不是很奇怪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "呜呜呜，葵，放心，不管你变成什么样子，绿子都不会放弃你的！\n大恩人！有办法可以救救葵吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们的身体有PVC聚氯乙烯，这种材料会因为高温照射而导致你们的身体发黄、软化、出油。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "放到冰箱里面是不是就不会软化了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那会让手办损伤的速度加快，特别是一些关节部位，很容易变脆而断掉。\n稍等，我去查一下资料，看有没有办法让软化的葵恢复。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8170014",
+              "text": "查询手办软化资料。"
+            }
+          ],
+          "sourceId": "8170013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8170014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……如果是空心的我们可以切开灌AB水，就是GK白模的那种树脂。\n第二种就是用电钻深的钻孔插铜棒，但会有一定风险性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "在我们的历史记载中，反复提及的就是，我们的涂层就是我们的记忆。这两种办法会让葵的外壳涂层掉落吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我明白了，我再找找其他途径。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "找到了，FULI有一款修补工具，只能希望葵还没有严重到完全没办法救的程度。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8170019",
+              "text": "使用FULI修补工具。"
+            }
+          ],
+          "sourceId": "8170018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8170019",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "神……清气……爽……葵感觉都好了……谢谢你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170020",
+          "sourceType": 7,
+          "text": "葵 · 睡意袭来\n商品名称：葵·睡意袭来 Ver.\n作品名称：《少女X机关枪》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约235mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8170021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "太好了，太好了。谢谢你们。以后可不能不涂防晒就晒太阳，葵你刚刚真的吓坏我了。葵，你身上好像多了什么好闻的味道，虽然绿子闻不到，但好像能感觉得到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是葵瓜子味，我刚刚帮葵抹了这个。它是FULI专门推出的一款有防晒保养作用的专用手办产品。下次实在想晒太阳，可以涂上它，然后注意适当时间，应该就没有太大问题了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170023",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "葵喜欢这种味道，就像油炸瓜子的香味。这是葵的名册……以后葵每个月都要去申领这种防晒霜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170024",
+          "sourceType": 12,
+          "text": "组织：M. The 3rd Section\n编号：114314\n地址：爱猫社区中部电线杆旁小树丛\n描述：总在晒太阳和打盹小睡",
+          "title": "身份卡 · 葵",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8170025",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "绿子也登记好了。我千裂苍龙绿子，在这里向各位发誓！各位救葵于危难之中！以后有任何难题，都可以找绿子，两肋插刀万死不辞！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170026",
+          "sourceType": 12,
+          "text": "组织：M. The 3rd Section\n编号：111928\n地址：爱猫社区中部隐蔽大草坪\n描述：风风火火的西本格斗王牌",
+          "title": "身份卡 · 绿子",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8170027",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣~身体又开始浑身都没干劲呢……稍微睡一会儿好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170028",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "既然这样，那我们就先离开了。各位！再见！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170030",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "您有新的消息可查看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8170031",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "恭喜完成本区域的最后一名未登记手办的入册。\n下面将为你开放管理局任务公告栏的权限。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "missing",
+          "text": "本段在当前资源中未找到文字正文，已保留原目录位置。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-9",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8160001,
+            8160002,
+            8160003,
+            8160004,
+            8160005,
+            8160006,
+            8160007,
+            8160008,
+            8160009,
+            8160010,
+            8160011
+          ],
+          "sectionId": 8160
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8170001,
+            8170002,
+            8170003,
+            8170004,
+            8170005,
+            8170006,
+            8170007,
+            8170008,
+            8170009,
+            8170010,
+            8170011,
+            8170012,
+            8170013,
+            8170014,
+            8170015,
+            8170016,
+            8170017,
+            8170018,
+            8170019,
+            8170020,
+            8170021,
+            8170022,
+            8170023,
+            8170024,
+            8170025,
+            8170026,
+            8170027,
+            8170028,
+            8170029,
+            8170030,
+            8170031
+          ],
+          "sectionId": 8170
+        }
+      ],
+      "title": "#8 晒太阳会化掉！"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8180001",
+          "sourceType": 3,
+          "text": "不要动，小心我这把刀戳穿你的肚子！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8180002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "噗——什么东西这么痒。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8180004",
+              "text": "掏口袋。"
+            }
+          ],
+          "sourceId": "8180003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8180004",
+          "sourceType": 5,
+          "speaker": "源上",
+          "text": "哪个混蛋敢揪我？！手上带着终端！是传说中新来的巨型手办试炼者……触感不对……这是人类！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，这个手办怎么不动了，刚刚明明还活蹦乱跳的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180006",
+          "sourceType": 2,
+          "speaker": "源上",
+          "text": "肥头大耳的棒球女、矫揉造作的忍者、粗暴野蛮的小学生、看似正常的冷淡女，这些都是违反规定在和人类对话的手办。太诡异了！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180007",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "粗暴野蛮的小学生， 臭小子你姑奶奶我是高中生！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快来拦下小梅酱！会出事的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "勿动肝火，勿动肝火。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180010",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "举报？举报的话我也会被抓吧？这个人类不觉得手办能动能说话是很诡异的事情吗？而且人类为什么有试炼者终端。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180011",
+          "sourceType": 5,
+          "speaker": "源上",
+          "text": "不管了，只要有这个试炼者终端的，都是我的敌人！\n我是要成为世界命运创造者的主角源上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180012",
+          "sourceType": 7,
+          "text": "源上 · 斗笠刺客\n商品名称：源上·斗笠刺客 Ver.\n作品名称：《悲伤记忆代码》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约265mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "8180013",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "喂，人类，趁我还客气地和你们说话，你知难而退，利索点退出管理局实习生的试炼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180014",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "客气你大爷！把他丟出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8180015",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "干什么、你们要干什么！敢动我这个世界之主，你们不要命了！\n放我下来，我要一爪一个，把你们这些奇怪的敌人通通消灭！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8180017",
+              "text": "把源上丢出去。"
+            }
+          ],
+          "sourceId": "8180016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8190001",
+          "sourceType": 5,
+          "speaker": "源上",
+          "text": "你们竟然打我！看到没！58条达成通知！我已经参加过58次试炼，是好心才劝你们放弃试炼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190002",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "管理局已连续十年，零试炼者完成试炼，甚至还有手办为此牺牲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "“恭喜完成本区域的最后一名未登记手办的入册”，主人，真的和我们的一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不是完全一样。主人的终端还解锁了“管理局任务公告栏的权限”。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "还真的是，主人收到的信息竟然不是群发。\n不过从管理局公告栏上的任务来看，奖励虽多，但都是枯燥乏味的日常任务啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我要你参加管理局实习生试炼，并且必须通过试炼。\n对于手办来说，很艰难才能完成的事情，身为人类的你却可以轻易完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190007",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "或许还有一种可能！那只鸡翅膀真正想说的是身为人类的主人很好用，所以解锁任务栏公告是因为——阿尔弗雷德想要偷懒不干活，骗取劳动力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190008",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "这么说，过去的58次试炼不过是管理局在利用我？！不！不可能！这一定是我被试炼之门选中了，也就是说在历经58次无限循环后终于找到的真正物理奇点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "的确不像管理局做法。整个手办界各种公会、组织多如繁星，管理局在组织榜上位列第一，不是因其管理层皆实力强悍且有庞大的雇佣兵团，而在于管理局恪守宗旨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8190010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说完成却未说通过试炼……对方说过试炼严苛，但花迦是立时重获资格、同区域试炼者进度共享……这个试炼简单到随意，甚至就像……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8190012",
+              "text": "一场闹剧。"
+            },
+            {
+              "targetId": "8190012",
+              "text": "另有目的。"
+            }
+          ],
+          "sourceId": "8190011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8190012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "也就是说，真正的试炼题目不是完成区域的人员居住入册登记，真正的试炼被隐藏了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-10",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8180001,
+            8180002,
+            8180003,
+            8180004,
+            8180005,
+            8180006,
+            8180007,
+            8180008,
+            8180009,
+            8180010,
+            8180011,
+            8180012,
+            8180013,
+            8180014,
+            8180015,
+            8180016,
+            8180017
+          ],
+          "sectionId": 8180
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8190001,
+            8190002,
+            8190003,
+            8190004,
+            8190005,
+            8190006,
+            8190007,
+            8190008,
+            8190009,
+            8190010,
+            8190011,
+            8190012
+          ],
+          "sectionId": 8190
+        }
+      ],
+      "title": "#9 世界的主角"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8200001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我曾听闻管理局曾因试炼门槛过高，造成轰动，引发争议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8200002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "此后虽降低试炼门槛，完成者骤增。但确如源上所说，大约十年前开始，再无一人被公布成为管理局实习生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8200003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我说那只鸡翅膀这么好心，还给友情提醒，原来是因为这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8200004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "所有人员已经登记入册，两天后我们自然全部通过试炼。\n如果真有隐藏试炼，我们还有两天时间。两天之内，我们找出被隐藏的真正试炼。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8200006",
+              "text": "那就一起找出被隐藏的试炼。"
+            }
+          ],
+          "sourceId": "8200005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8200006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果要找出被隐藏的试炼，情报，我们需要拿到更多的情报。或许绿子、葵她们会知道些什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8200007",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "看你们还有点用，我就一起去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8200008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我们和你这位正常脑回路的救赎主不是同路人。不过看你这态度，是想偷偷跟着吧。行啊，不过我有一个条件。跳——个——舞——蹈——我——看——看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201001",
+          "sourceType": 2,
+          "speaker": "源上",
+          "text": "我竟然沦落至此……等会，我知道为什么她们不怕这个人类。因为她们都已经被这个人类控制。对！这是对我的考验，拿到更多情报，救出所有被控制的手办。\n哈哈哈哈哈哈哈——哈哈哈哈——哈哈哈哈——我是天才。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这就是备受打击了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "呵，看到这家伙被打击到发疯~心情比打架赢了还舒畅~今天的阳光真灿烂~\n正事要紧，我们还是抓紧时间去打探多点情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "葵也参加过试炼……到第三天有人问我，为什么想成为管理局实习生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "我说，这样就可以免费得到很多防晒霜，一天24小时都能晒太阳睡觉……然后我就回家了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "哦，葵想起来了，当时和葵一起的还有一个试炼者，它或许知道些什么。\n只是去那个地方，要先通过下水道，人类的身体太大会进不去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，我们可以正好试试那个终端，我们身上的追踪器是和主人手上的终端相连的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，那等会你们进去，我在外面用这个终端和你们交流。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201009",
+          "sourceType": 0,
+          "speaker": "仙人掌",
+          "text": "我当时就觉得奇怪，这么简单的试炼那谁都可以加入管理局了？搞得一点挑战性都没有。来，你们和我打一架，让我看看你们的实力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8201010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "小仙好快~咻的就冲过去了~呣~打起来了~小仙~她们都是我的朋友~下手轻点~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-11",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8200001,
+            8200002,
+            8200003,
+            8200004,
+            8200005,
+            8200006,
+            8200007,
+            8200008
+          ],
+          "sectionId": 8200
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8201001,
+            8201002,
+            8201003,
+            8201004,
+            8201005,
+            8201006,
+            8201007,
+            8201008,
+            8201009,
+            8201010
+          ],
+          "sectionId": 8201
+        }
+      ],
+      "title": "#10 被隐藏的试炼"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8210001",
+          "sourceType": 0,
+          "speaker": "仙人掌",
+          "text": "你们很强，我认输。\n如果是你能通过试炼，成为这区的管理者，相信一定能让大家都信服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你也不赖，能够接住我这么多招的已经很不容易。\n但这和你一定要和我们比试有什么关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210003",
+          "sourceType": 0,
+          "speaker": "仙人掌",
+          "text": "我有小道消息，真正的试炼是挑战并战胜所负责区域的所有在册手办。毕竟只有足够强大才能保护这里的所有手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210004",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "你确定要帮助这个人类通过试炼吗？管理局近十年并非完全没有手办通过试炼，只是它已经白模化了，被自己的同期试炼者杀死的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "请问，您为何要告诉花迦这个信息？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210006",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "你说有什么理由会让试炼者们相互残杀？因为它们发现了能通过试炼的名额，只有一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210007",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "我们可以合作一起杀死人类，这样不仅能掩盖我们向人类泄露活动手办的秘密，也能避免唯一的名额，被人类轻而易举就拿到。很划算的计划。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210008",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "那就麻烦小仙带我去找其他挑战者。——花迦，我们要出发了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是，花迦这就过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210010",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "喂，我说的是真的，作为参加过58次试炼的过来人，我有自己的消息来源。\n你可以考虑一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "仙人掌先生，这真的是最后一个了吧？再打下去，优纪感觉要散架。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210012",
+          "sourceType": 0,
+          "speaker": "仙人掌",
+          "text": "小仙办事从不拖拉，已经按照名单上的找遍了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "终端还是没有动静。你们有问到什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "没有发现新线索。你是怎么知道的真正的试炼是挑战所有在册手办的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210015",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "它们知道的还不如花迦源上知道的清楚。我们真的没有漏掉谁还没挑战吗？我还有一个疑问，你是怎么知道的真正的试炼是挑战所有在册手办的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210016",
+          "sourceType": 0,
+          "speaker": "仙人掌",
+          "text": "哦，我们这里有一个很有毅力的试炼者，考58次一次都没过。\n上次我正好听到他在树下嘀咕什么挑战、胜利。我估摸着这就是他找到的线索",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210017",
+          "sourceType": 3,
+          "text": "源上！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8210018",
+          "sourceType": 0,
+          "speaker": "源上",
+          "text": "我、我那是自言自语。我怎么知道它在偷听，它长得和树一样，黑漆漆的我也看不清。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然大家对于隐藏的试炼到底是什么都在很热烈的讨论，但还是没有找出来，还是先回去和主人商量下吧。——大猫，好巧~我们竟然又碰到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210020",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210021",
+          "sourceType": 2,
+          "speaker": "源上",
+          "text": "我是源上，来自《悲伤记忆代码》，平时是一位看似阴沉，实际强大无敌的刺客。\n我现在正跟着这些奇怪的手办返回同样奇怪的人类家中。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210022",
+          "sourceType": 2,
+          "speaker": "源上",
+          "text": "我知道自己身负拯救这些奇怪手办的重要任务，但……\n英雄都有弱点，我的弱点就是那只猫，那是我一生的心理阴影……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210023",
+          "sourceType": 2,
+          "speaker": "源上",
+          "text": "自从我变成手办以来，就一直被狗追、被猫追，甚至被蛇压断过腿……\n所以我发过誓，我要消灭这个世界上所有的猫……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210024",
+          "sourceType": 5,
+          "speaker": "源上",
+          "text": "快走开！走开，你这只可怕的猫咪！！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8210025",
+          "sourceType": 3,
+          "text": "喵！！！！！！！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8210026",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "糟了，大猫已经受惊了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8220001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大猫怎样了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8220002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "已经冷静下来了。源上他人呢？我一定要给他一点教训！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8220003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不知道什么时候不见了。他好像很害怕猫，会没事的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8220004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "能有什么事情，猫咪多可爱啊，一点都不值得害怕的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8220005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，我们回来啦~村长它们还给主人准备了秘密礼物哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-12",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8210001,
+            8210002,
+            8210003,
+            8210004,
+            8210005,
+            8210006,
+            8210007,
+            8210008,
+            8210009,
+            8210010,
+            8210011,
+            8210012,
+            8210013,
+            8210014,
+            8210015,
+            8210016,
+            8210017,
+            8210018,
+            8210019,
+            8210020,
+            8210021,
+            8210022,
+            8210023,
+            8210024,
+            8210025,
+            8210026
+          ],
+          "sectionId": 8210
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8220001,
+            8220002,
+            8220003,
+            8220004,
+            8220005
+          ],
+          "sectionId": 8220
+        }
+      ],
+      "title": "#11 何谓试炼"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8230001",
+          "sourceType": 3,
+          "text": "入夜，雨又来——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8230002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "先是发现很多和优纪她们一样的活动手办……现在我还成了管理局实习生试炼者……太多意料之外的事情……到底真正的试炼是什么？睡不着了，去查下资料吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8230004",
+              "text": "查询活动手办"
+            },
+            {
+              "targetId": "8230006",
+              "text": "查询组织等关键词"
+            },
+            {
+              "targetId": "8230009",
+              "text": "没有其他查询内容"
+            }
+          ],
+          "sourceId": "8230003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8230004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有查到任何异常，和以前查的一样。\n难道我真的是唯一一个看到过、听到过手办活动的人类？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8230003",
+              "text": "再查询一下其他信息。"
+            }
+          ],
+          "sourceId": "8230005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8230006",
+          "sourceType": 3,
+          "text": "通过建立组织结构，规定职务或职位，明确责权关系，以使组织中的成员互相协作配合、共同劳动，能有效实现组织目标。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8230007",
+          "sourceType": 3,
+          "text": "成员共同维护和发展良好的声誉，有助于提高相关影响力。\n一个好的组织应该是值得他人信任和对得起他人信任的。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8230003",
+              "text": "再查询一下其他信息。"
+            }
+          ],
+          "sourceId": "8230008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8230009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是新闻推送？近日，发生大量手办被破坏事件，凶手暂未找到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主人，我……我能进来吗？我看主人房间灯还亮着……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦不习惯这里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "习惯，也很喜欢。主人、优纪、和江，一直都很关心花迦……如果能通过试炼的名额只有一个人，我希望是主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦是想放弃试炼了吗？——你……会突然有这种想法，难道是源上和你说了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦没有放弃。这个试炼，没有时间限制的，不管什么时候，花迦都可以再次申请。但主人和我们不一样，也许这是主人唯一的机会了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦在哭……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "成为管理局实习生对花迦可能有更深的意义。于我却不过是一时兴起，就算不通过，我也不怕阿尔弗雷德。作为人类，我相信自己有能力保护好优纪、保护好和江、保护好梅，还有花迦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但花迦这种情况应该说点什么？快想想，之前应该看过的……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8230019",
+              "text": "《紧急的巨人》"
+            },
+            {
+              "targetId": "8230019",
+              "text": "《吸血鬼与恶魔共舞》 "
+            },
+            {
+              "targetId": "8230021",
+              "text": " 《棒球少女》"
+            }
+          ],
+          "sourceId": "8230018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8230019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "似乎想不到什么适合说的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8230018",
+              "text": "再仔细想想"
+            }
+          ],
+          "sourceId": "8230020",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8230021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我是谁？叫什么？花迦总是那么温柔的叫唤着的我，是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230022",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「|101|」？主、主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不用疑惑，我就是「|101|」，就是喜欢花迦的主人，那我也是花迦喜欢的主人吗？如果是，那花迦会听主人的话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230024",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯，花迦会一直都听主人的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好不容易拿到的试炼资格，本来就不应该轻易放弃，这是对我，对所有试炼者的不敬。而且，这个试炼于我是无所谓的，参加不过是觉得有趣。就算不通过，我也不怕他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦，可以和我约定吗？把这场试炼当成认真的比赛，一起努力通过试炼。\n不管谁能通过，我们都会替对方开心。还是花迦不信我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230027",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "信，花迦怎么不信。主人帮大家重建家园，给大家细心涂装更换身体零件……\n我们被绑架时，主人只是手一提，阿尔弗雷德再心高气傲、气急败坏，也无可奈何。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这件事也不要对其他人说，源上所说真假难辨，就不要让优纪她们担心了。\n而且，我或许知道真正的试炼是什么。我有一个计划，你可以和我一起完成吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230029",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "乐意效劳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230030",
+          "sourceType": 3,
+          "text": "第二天——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8230031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "只要把这些心愿单交到大家手里就可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8230032",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "务必让大家都认真填写，麻烦各位小天使啦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-13",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8230001,
+            8230002,
+            8230003,
+            8230004,
+            8230005,
+            8230006,
+            8230007,
+            8230008,
+            8230009,
+            8230010,
+            8230011,
+            8230012,
+            8230013,
+            8230014,
+            8230015,
+            8230016,
+            8230017,
+            8230018,
+            8230019,
+            8230020,
+            8230021,
+            8230022,
+            8230023,
+            8230024,
+            8230025,
+            8230026,
+            8230027,
+            8230028,
+            8230029,
+            8230030,
+            8230031,
+            8230032
+          ],
+          "sectionId": 8230
+        }
+      ],
+      "title": "#12 一个计划"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "8240001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请问您有什么需要吗？我们会尽量帮助您完成心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主人，这些心愿单已经按照急需程度分好了。如果你累了，告诉花迦，我们轮班。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家一个一个来，不急，我们都会尽力帮助大家完成心愿的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240004",
+          "sourceType": 0,
+          "speaker": "膨膨薯条",
+          "text": "谢谢你们帮我找回我爱人，我还以为再也无法见到她了。\n自从那只狗将我爱人叼走之后……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "您是想要找回项链吗？还记得项链是什么样子的吗？在哪里掉落的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240006",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "听说M城新增了一位实习生试炼者？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你害怕了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240008",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "不过是提醒你，\n希望我们的敌人仅限于手办，人类掺和进来会给整个手办界带来灾难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "人类能利用手办，我们为什么不能利用人类。还是说，你可以养狗，还不让我养猫？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240010",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "人类可不是什么可爱小猫，人类的脾气就像他们的欲望一样，随时都会爆发。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240011",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "你的脑子是上周刚申请的新零件吧，下次直接申请报废。\n换了还是一样的守旧，狭隘。滚吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240012",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "好说，那我等着看一个笑话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240013",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "咳咳，都怪那些家伙把这里弄塌，本来只要赶走那些家伙就好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240014",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8240015",
+          "sourceType": 5,
+          "speaker": "红兔子",
+          "text": "找到了，狩猎者大人，我终于找到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人，您辛苦了，大家现在都变得开朗起来了。终端还没有消息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我们已经做完自己能做的，就等消息吧。\n不过现在让我惊喜的是，和江现在的笑容，看来和江很喜欢她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "和江是想起来主人也总是这样，很照顾我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦！？骗人的吧？真的有这么厉害吗？那下次优纪也想要去摘一朵送给主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250005",
+          "sourceType": 5,
+          "speaker": "柴可夫斯鸡",
+          "text": "你怎么这么喜欢那位大人。还整天瞎嚷嚷着要嫁给那位大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喜欢，很喜欢很喜欢。第一次来到这个家，优纪可胆小。害怕摔断腿，害怕睡着就再也不能动，害怕那高高的椅子，还有凶狠的大猫……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人就每天都把我带在身边，陪着我。优纪是手办不怕熬夜，可主人担心我不适应，总是哄着优纪，直到优纪睡着了自己才睡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江时常守在窗前，为我驱赶窗外的大鸟；小梅酱气汹汹却很小心地拉着我的手去找大猫算账。虽然没有血缘关系，但她们都是我的家人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250009",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "哼，你这么说，我可是会羡慕的。到时候我也要抢走你的大人。如果你对那位大人不好的话。——喂，我真的可以去你家里玩吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250010",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "那我也可以一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么多人，那我要好好问问主人。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8250013",
+              "text": "可以哦。"
+            }
+          ],
+          "sourceId": "8250012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8250013",
+          "sourceType": 0,
+          "speaker": "蜜桃崽",
+          "text": "好耶，好期待好期待好期待~对了，我要回去准备一下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250014",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "邀请的是我！别跑，我也要准备点东西~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250015",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "以前我们总在各地流浪，好不容易扎根M城，却因为不了解这里的守则，以为要被管理局赶走，还好有你帮我们解开误会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250016",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "它们已经很久没有这么开心过了……你给我们提供住所，帮大家完成心愿。我们都不知道该怎么感谢你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不用在意，只是力所能及之事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "按照目前的情况来看，明天可能会有不少村民参加派对。\n我们的房间可能容纳不了这么多村民。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8250019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "后宅那里应该可以。\n我们把剩下的委托心愿单处理完成就回家准备吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-14",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8240001,
+            8240002,
+            8240003,
+            8240004,
+            8240005,
+            8240006,
+            8240007,
+            8240008,
+            8240009,
+            8240010,
+            8240011,
+            8240012,
+            8240013,
+            8240014,
+            8240015
+          ],
+          "sectionId": 8240
+        },
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8250001,
+            8250002,
+            8250003,
+            8250004,
+            8250005,
+            8250006,
+            8250007,
+            8250008,
+            8250009,
+            8250010,
+            8250011,
+            8250012,
+            8250013,
+            8250014,
+            8250015,
+            8250016,
+            8250017,
+            8250018,
+            8250019
+          ],
+          "sectionId": 8250
+        }
+      ],
+      "title": "#13 解忧万事屋"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "8270001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "8270002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "来了来了，主人，村长他们来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是你们自己做的抱枕？还有一封信和四叶草，用心了，我很喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "能找到这么漂亮四叶草的地方可是我指点的，好好感谢我的大方吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270005",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "好吧，我承认，你也有一点点用。诺，这是我送给你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "哦，那真是抱歉，让你这家伙认可了我。想夸我就夸吧，我会接受的。\n你送的是什么？怎么不是四叶草。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270007",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "这是狗尾巴草……我觉得这种花特别适合你，可以清热解毒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270008",
+          "sourceType": 5,
+          "speaker": "水野梅",
+          "text": "臭小子，胆子够大，敢埋汰我！你别跑！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从现在开始，优纪会成为各位的贴心管家，服务好各位~现在，请进吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270010",
+          "sourceType": 5,
+          "speaker": "众多村民",
+          "text": "谢谢款待~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "8270012",
+              "text": "开门。"
+            }
+          ],
+          "sourceId": "8270011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "8270012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "葵今天很精神呐，竟然会跑步了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270013",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "葵，不要跑太快，会摔倒。哎！等会，将军。和江小姐，不好意思，老人家我赢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "谢谢先生指教。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270015",
+          "sourceType": 0,
+          "speaker": "村长",
+          "text": "和江小姐品行高洁，承让了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "唔……那个，这里要填什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270017",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这里如果填……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270018",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "绿子不可以作弊哦~呣~顺带一提~绿子考试没有及格过~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "太难了。绿子最不会这种填字游戏，一看到这些，感觉这字和这字就像在脑子里面打架一样，头晕脑胀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊哈哈哈哈，那和优纪一样，优纪国语课也没有及格过。不过优纪从来不担心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270021",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "真的吗？绿子也是~不过绿子的目标是成为天下第一强者，如果不识字会被人欺负。所以绿子已经在努力学习了，只是好像现在还差一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江学习很厉害的，她会很多诗。和江有空也会教优纪。\n到时候绿子来我们家，我们一起学习。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270023",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "她们很开心的样子，这就是传说中的知足常乐吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270024",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "主人，终端来信息了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270026",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "恭喜「|101|」通过第一关试炼。请收到通知后尽早前往以下地址进行登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270027",
+          "sourceType": 13,
+          "speaker": "M. The 3rd Sect.",
+          "text": "恭喜花迦通过第一关试炼。请收到通知后尽早前往以下地址进行登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270028",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "过了。主人，通过了、通过了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦也通过了哦。我们第二关继续加油。未来的管理局实习生，未来的同事，请多多指教。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270030",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯，请多多指教。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "通过啦通过啦~花迦和主人通过了。优纪去告诉大家这个好消息~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "8270032",
+          "sourceType": 3,
+          "text": "或许不可思议，但这是确实发生的奇迹。曾经幻想过的，珍惜的手办，某一天真的开始相遇……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "8270033",
+          "sourceType": 3,
+          "text": "虽然我尚不清楚前面会有什么，当然我也没有什么特殊使命感……\n但现在的我就这样成了手办的主人，以及管理局实习生试炼者。",
+          "type": "narration"
+        },
+        {
+          "noticeKind": "missing",
+          "text": "本段在当前资源中未找到文字正文，已保留原目录位置。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-15",
+      "sourceRefs": [
+        {
+          "bundle": "diyizhang",
+          "rowIds": [
+            8270001,
+            8270002,
+            8270003,
+            8270004,
+            8270005,
+            8270006,
+            8270007,
+            8270008,
+            8270009,
+            8270010,
+            8270011,
+            8270012,
+            8270013,
+            8270014,
+            8270015,
+            8270016,
+            8270017,
+            8270018,
+            8270019,
+            8270020,
+            8270021,
+            8270022,
+            8270023,
+            8270024,
+            8270025,
+            8270026,
+            8270027,
+            8270028,
+            8270029,
+            8270030,
+            8270031,
+            8270032,
+            8270033
+          ],
+          "sectionId": 8270
+        }
+      ],
+      "title": "#14 来开派对吧！"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 2,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 2,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "3",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": "Videos/AVG_Story1_ShaiYou.mp4"
+      },
+      {
+        "id": "4",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_Story1_ShaiYou.mp4"
+        }
+      },
+      {
+        "id": "2",
+        "table": "ResTalkSpecialOpt"
+      },
+      {
+        "id": "3",
+        "table": "ResTalkSpecialOpt"
+      },
+      {
+        "id": "7",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": "HeroUltra/12004/video_12004_ultra_short.mp4"
+      },
+      {
+        "videoPath": "HeroUltra/12004/video_12004_ultra_short.mp4"
+      },
+      {
+        "videoPath": "Videos/AVG_Story1_Kuihuazi.mp4"
+      },
+      {
+        "id": "14",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "2",
+        "table": "ResTalkIDCard"
+      },
+      {
+        "id": "3",
+        "table": "ResTalkIDCard"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_Story1_Kuihuazi.mp4"
+        }
+      },
+      {
+        "id": "10",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": "Videos/AVG_Story1_Qichuang.mp4"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_Story1_Qichuang.mp4"
+        }
+      }
+    ]
+  },
+  "status": "partial",
+  "subtitle": "流浪手办",
+  "title": "第1章",
+  "wordCount": 14919
+}

@@ -1,0 +1,149 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25970",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25970001",
+          "sourceType": 10,
+          "text": "清风与猫",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25970002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这盏猫猫花灯好漂亮哦，是和女孩子不一样的那种特殊的漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "有一种清风拂面的感觉，它的原型想必是一位文雅公子吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "五分钟内，我要拿到这个原型人物背后的所有资料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "他是我的老友「诸葛孔明」，本人的确是翩翩佳公子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈，这是长得好看的人都和好看的人做朋友了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "欣赏一个人不能止于外貌哦，还要看这个人的内在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我多多少少听到过与他有关的传说，是个很聪明的人呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「诸葛孔明」上知天文、下知地理，可以说无所不知、无所不晓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "聪明的人可不多见，聪明而知分寸的人尤其稀少，有机会我也想见见这个人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970011",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "说起来孔明可是我的第一批粉丝呢，他懂我的舞，是一位难得的知音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970012",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "你们喜好摆弄风雅的人就爱弄这些华而不实的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "可我并没有否定你也是我的知音哦，最特别的一位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25970014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "……少来这套。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25970",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25970001,
+            25970002,
+            25970003,
+            25970004,
+            25970005,
+            25970006,
+            25970007,
+            25970008,
+            25970009,
+            25970010,
+            25970011,
+            25970012,
+            25970013,
+            25970014
+          ],
+          "sectionId": 25970
+        }
+      ],
+      "title": "清风与猫"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25970,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "60",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "以赤炎大陆上的名人「诸葛孔明」为原型制作的猫猫花灯，造型在满足可爱这个要素的同时，融入了传统的赤炎风俗。",
+  "title": "清风与猫",
+  "wordCount": 325
+}

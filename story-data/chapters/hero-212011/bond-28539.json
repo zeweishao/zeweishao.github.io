@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-212011",
+  "id": "bond-28539",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28539001",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "You，过来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28539003",
+              "text": "竟然是伊达政宗！"
+            }
+          ],
+          "sourceId": "28539002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28539003",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Wait，说了多少次，叫我「家督大人」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28539004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳……家，督大人，突然到来是有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28539005",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "I see，你看起来的确有些不一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28539006",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "有没有兴趣加入我的「伊达军」？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28539008",
+              "text": "可我什么都不会啊。"
+            }
+          ],
+          "sourceId": "28539007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28539008",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "我的队伍里到处都是什么都不会的混混，who care。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28539009",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "So，你不用担心这个。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28539011",
+              "text": "这下我更迷惑了。"
+            },
+            {
+              "targetId": "28539011",
+              "text": "所以招我去干嘛？"
+            }
+          ],
+          "sourceId": "28539010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28539011",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "还没想好，but，有你在的话，找麻烦的人就会变少。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28539013",
+              "text": "这是要我去做门神？！"
+            }
+          ],
+          "sourceId": "28539012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28539013",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Certainly.",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28539",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28539001,
+            28539002,
+            28539003,
+            28539004,
+            28539005,
+            28539006,
+            28539007,
+            28539008,
+            28539009,
+            28539010,
+            28539011,
+            28539012,
+            28539013
+          ],
+          "sectionId": 28539
+        }
+      ],
+      "title": "少年家督"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "少年家督",
+  "wordCount": 194
+}

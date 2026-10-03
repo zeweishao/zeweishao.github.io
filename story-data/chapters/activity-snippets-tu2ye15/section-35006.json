@@ -1,0 +1,125 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35006",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35006001",
+          "sourceType": 10,
+          "text": "花开富贵",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35006002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快来看快来看，这款「兔儿爷」好特别哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "坐在花上的「兔儿爷」，是个颇具匠心的构思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "据说盛开的花象征着富贵，为什么会有这种说法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大概是看到花开，让人觉得心里会满满当当的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这个创意很棒吧，是猫咪朋友们给米菲亚出的主意，猫猫世界第一！喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你的那些猫朋友，可比你有生活常识得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "闻到了……是有人故意挑衅的味道喵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006009",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "随时奉陪，毕竟我和你之间还没分出胜负，我会温柔地……剖出你的野心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快停下，你们不会又要上演猫鼠游戏的戏码了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35006011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在「兔儿爷」全部做完之前，谁都不可以乱来喔~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35006",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35006001,
+            35006002,
+            35006003,
+            35006004,
+            35006005,
+            35006006,
+            35006007,
+            35006008,
+            35006009,
+            35006010,
+            35006011
+          ],
+          "sectionId": 35006
+        }
+      ],
+      "title": "花开富贵"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35006,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "69",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "骑在鲜花上的「兔儿爷」，融入了创作者的奇思妙想。",
+  "title": "花开富贵",
+  "wordCount": 234
+}

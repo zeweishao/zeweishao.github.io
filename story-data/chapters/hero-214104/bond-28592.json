@@ -1,0 +1,203 @@
+{
+  "bookId": "hero-214104",
+  "id": "bond-28592",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28592001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "咦，总是循规蹈矩的人类也会准备惊喜呀？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28592003",
+              "text": "毕竟是为了爱丽丝。"
+            },
+            {
+              "targetId": "28592003",
+              "text": "是献给爱丽丝的礼物。"
+            }
+          ],
+          "sourceId": "28592002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28592003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，正好，爱丽丝最喜欢惊喜了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592004",
+          "sourceType": 3,
+          "text": "嘎吱——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28592005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哦？这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "爱丽丝不是之前和我描述过地下奇境吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我就尝试还原了一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哇哈哈哈！很像！很像那时的玫瑰花园哦！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28592010",
+              "text": "你喜欢就好。"
+            },
+            {
+              "targetId": "28592010",
+              "text": "太好了！"
+            }
+          ],
+          "sourceId": "28592009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28592010",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哇，还有好多可爱的纸牌扑克士兵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就是关节没办法动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592012",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "没关系，爱丽丝最擅长让大家的关节扭动起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592014",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "下次一起做扑克兵吧，然后也放到这个花园里~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来是这个意思，吓我一跳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592016",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "对了对了，这个门也可以用我的金色钥匙打开~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是，这是我画上去的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28592018",
+          "sourceType": 3,
+          "text": "嘎吱——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28592019",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "来，我们一起去寻找新的奇境吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28592",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28592001,
+            28592002,
+            28592003,
+            28592004,
+            28592005,
+            28592006,
+            28592007,
+            28592008,
+            28592009,
+            28592010,
+            28592011,
+            28592012,
+            28592013,
+            28592014,
+            28592015,
+            28592016,
+            28592017,
+            28592018,
+            28592019
+          ],
+          "sectionId": 28592
+        }
+      ],
+      "title": "金色奇境"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "金色奇境",
+  "wordCount": 256
+}

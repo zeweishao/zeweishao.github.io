@@ -1,0 +1,96 @@
+{
+  "bookId": "rewind-14",
+  "id": "activity-records-706",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "虽然是第一次的相遇，但是主人的温柔似乎如阳光沁入体内。",
+          "title": "",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "~迷途少女~"
+    },
+    {
+      "blocks": [
+        {
+          "text": "“我一定会帮你找到回去的路的。”\n“嗯嗯！”\n（要是永远找不到就好了。）",
+          "title": "",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "~春樱之旅~"
+    },
+    {
+      "blocks": [
+        {
+          "text": "“那么约定好了，要将我带回家哦！”\n  香甜的奶油旁，立下这样的誓言，不会更改。",
+          "title": "",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "~香甜誓约~ "
+    },
+    {
+      "blocks": [
+        {
+          "text": "为了制作蛋糕，少女奋力地准备中……",
+          "title": "「有咲的秘密手札」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "食材管理者"
+    },
+    {
+      "blocks": [
+        {
+          "text": "没有体验过生日的少女，却意外的擅长制作生日蛋糕。",
+          "title": "「有咲的秘密手札」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "厨具调度员"
+    },
+    {
+      "blocks": [
+        {
+          "text": "想要将所有的爱意一同灌注进去。",
+          "title": "「有咲的秘密手札」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "营养均衡师"
+    },
+    {
+      "blocks": [
+        {
+          "text": "香甜的味道，是我献给你的所有。",
+          "title": "「有咲的秘密手札」",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "心意包装专家"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "706",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 169
+}

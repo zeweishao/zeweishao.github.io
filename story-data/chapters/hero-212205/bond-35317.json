@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-212205",
+  "id": "bond-35317",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35317001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对了，上次的戏剧节你们去参加了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317002",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "哦！当然！真是十分感谢你的门票！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317003",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "如果不是伟大的布鲁特提醒，笨蛋徕卡完全忘记了这件事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "热闹吗，感觉怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317005",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "有两位女士令人印象深刻，她们表演了一首和蛇有关的戏剧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317006",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "那个叫《白蛇传》！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没想到徕卡居然能欣赏《白蛇传》，现在很多年轻人都不喜欢看了呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317008",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "作为优秀的艺术家，这些都会成为我表演时的灵感来源。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "咦咦咦~~~啊啊啊~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好厉害，布鲁特这么快就学会了高难度的戏曲唱腔吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "徕卡这么有天赋，为什么不成为一个专业演员，而选择去街头表演呢?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317012",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "因为答应了弟弟要和他一起成为演员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317013",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "在那之前，要努力找到他才行啊。是吧，布鲁特？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35317014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "哼，先解决了皇后区的市容管理员再说吧，笨蛋徕卡。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35317",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35317001,
+            35317002,
+            35317003,
+            35317004,
+            35317005,
+            35317006,
+            35317007,
+            35317008,
+            35317009,
+            35317010,
+            35317011,
+            35317012,
+            35317013,
+            35317014
+          ],
+          "sectionId": 35317
+        }
+      ],
+      "title": "曲艺杂谈"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212205",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "曲艺杂谈",
+  "wordCount": 292
+}

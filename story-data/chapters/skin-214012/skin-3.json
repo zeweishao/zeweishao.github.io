@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214012",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "魁梧健硕的男人在补给点宣讲「特兰斯尔」的信条。有人认出，这正是「海恩帮」落魄的统领。\n听众或是迷惑，或是嗤笑。然而，当身披华服的少女出现，全场寂然。\n她的全身笼罩着淡金色光晕，如同荒郊败野中怒放的金百合一般夺目。\n少女的声音清冷而平和，「请相信，黑暗中定有光亮指引前路。神，定会倾听我们的声音。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "盛金百合Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214012",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蓝莎·盛金百合Ver.",
+  "title": "盛金百合Ver.",
+  "wordCount": 145
+}

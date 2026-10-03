@@ -1,0 +1,134 @@
+{
+  "bookId": "hero-212018",
+  "id": "bond-28596",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28596001",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "你怎么这么快就回来了？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28596003",
+              "text": "你要出门？"
+            },
+            {
+              "targetId": "28596003",
+              "text": "这是要去哪里？"
+            }
+          ],
+          "sourceId": "28596002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28596003",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "作为一名战场清道夫，当然是要去废墟搜寻自己的「猎物」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28596004",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "瞧，探险地图我都准备好了，我已经迫不及待要大显身手了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28596006",
+              "text": "听起来会是有趣的冒险。"
+            }
+          ],
+          "sourceId": "28596005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28596006",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "「有趣」？这个形容太肤浅了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28596007",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "我可是靠着在废墟中的「冒险」，一步步成为今天的自己的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28596008",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "这是我的生存方式，也就是我的一部分。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28596010",
+              "text": "那么，我也可以参加吗？"
+            }
+          ],
+          "sourceId": "28596009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28596010",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "你看起来没什么经验，不过经过调教或许能有用处，跟我来吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28596",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28596001,
+            28596002,
+            28596003,
+            28596004,
+            28596005,
+            28596006,
+            28596007,
+            28596008,
+            28596009,
+            28596010
+          ],
+          "sectionId": 28596
+        }
+      ],
+      "title": "废墟冒险"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "废墟冒险",
+  "wordCount": 188
+}

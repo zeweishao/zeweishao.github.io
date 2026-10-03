@@ -1,0 +1,149 @@
+{
+  "bookId": "hero-212203",
+  "id": "biography",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "甜蜜暴击",
+          "type": "profile"
+        }
+      ],
+      "id": "1-1",
+      "title": "昵称/绰号"
+    },
+    {
+      "blocks": [
+        {
+          "text": "神秘人X从外部带回来的来历不明女孩，一直在组织中生活，接受恐怖的杀手训练；多年过去，容貌从未更改。\n她是神秘人X的利爪，帮组织处理不可告人的秘密事件。\n她没有属于自己的名字和过去的记忆。\n曾用名：水城结奈。",
+          "type": "profile"
+        }
+      ],
+      "id": "1-2",
+      "title": "人物小传"
+    },
+    {
+      "blocks": [
+        {
+          "text": "神秘人X",
+          "type": "profile"
+        }
+      ],
+      "id": "1-3",
+      "title": "原著羁绊"
+    },
+    {
+      "blocks": [
+        {
+          "text": "永远面带微笑，看上去有点愣头愣脑；说话方式和行事一样果断直接，从不瞻前顾后",
+          "type": "profile"
+        }
+      ],
+      "id": "1-4",
+      "title": "性格"
+    },
+    {
+      "blocks": [
+        {
+          "text": "自身存在感会无意识为零",
+          "type": "profile"
+        }
+      ],
+      "id": "1-5",
+      "title": "特技"
+    },
+    {
+      "blocks": [
+        {
+          "text": "不记仇",
+          "type": "profile"
+        }
+      ],
+      "id": "2-1",
+      "title": "优点"
+    },
+    {
+      "blocks": [
+        {
+          "text": "超强的占有欲、没有同情心",
+          "type": "profile"
+        }
+      ],
+      "id": "2-2",
+      "title": "缺点"
+    },
+    {
+      "blocks": [
+        {
+          "text": "问别人：吃糖吗？\n根据棒棒糖的口味决定如何行事：红色——战斗；蓝色——放过；传说粉色——表白；黄色和绿色至今还未被抽到过",
+          "type": "profile"
+        }
+      ],
+      "id": "2-3",
+      "title": "小动作/癖好"
+    },
+    {
+      "blocks": [
+        {
+          "text": "暴力拆快递、踩/捏泡泡膜、切水果游戏（唯一会玩的游戏）",
+          "type": "profile"
+        }
+      ],
+      "id": "2-4",
+      "title": "兴趣爱好"
+    },
+    {
+      "blocks": [
+        {
+          "text": "神秘人X",
+          "type": "profile"
+        }
+      ],
+      "id": "2-5",
+      "title": "喜欢的东西"
+    },
+    {
+      "blocks": [
+        {
+          "text": "扎头发，鞋子，小动物",
+          "type": "profile"
+        }
+      ],
+      "id": "2-6",
+      "title": "讨厌的东西"
+    },
+    {
+      "blocks": [
+        {
+          "text": "棒棒糖",
+          "type": "profile"
+        }
+      ],
+      "id": "2-7",
+      "title": "喜欢的食物"
+    },
+    {
+      "blocks": [
+        {
+          "text": "除了棒棒糖以外的食物都无感",
+          "type": "profile"
+        }
+      ],
+      "id": "2-8",
+      "title": "讨厌的食物"
+    }
+  ],
+  "source": {
+    "kind": "hero-biography",
+    "refs": [
+      {
+        "heroId": "212203",
+        "table": "ResHeroCrystalStory"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物小传与设定",
+  "wordCount": 287
+}

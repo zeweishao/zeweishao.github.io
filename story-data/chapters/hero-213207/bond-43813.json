@@ -1,0 +1,186 @@
+{
+  "bookId": "hero-213207",
+  "id": "bond-43813",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43813001",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "新作品的创意已经在脑内成型了！接下来要——找一面足够大的墙，当作画布！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "恐怕不行哦。可露莎的身体变得这么小，已经拿不动喷漆罐了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813003",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "小问题！我用花洒做了改装版本，喷起来更省力！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那也不行。爱猫社区有严格的文明规定，禁止在墙上乱涂乱画。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813005",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "所以呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43813007",
+              "text": "你有认真听吗？"
+            },
+            {
+              "targetId": "43813007",
+              "text": "所以不许画。"
+            }
+          ],
+          "sourceId": "43813006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43813007",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "我说，你相信自己能改变世界吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43813009",
+              "text": "怎么忽然说这个……"
+            }
+          ],
+          "sourceId": "43813008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43813009",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "我一直相信，经验也好，规则也罢——如果不能达成想要的结果，那就统统去他的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813010",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "只要想做，总有办法。所以，这副画，我画定了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813011",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "况且嘛……虽然小区围墙也不错，但我找到了更好的作画场地！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43813013",
+              "text": "小区地砖？"
+            },
+            {
+              "targetId": "43813013",
+              "text": "我家的墙？"
+            }
+          ],
+          "sourceId": "43813012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43813013",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "哼哼，我已经和神秘的幕后之人达成了交易！看到门口的包裹了吗？拆开看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里面有一块黑板……看起来很眼熟啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813015",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "我给居委会发了邮件，以你的名义，主动要求负责下一期的文明社区黑板报！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43813016",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "如果你答应帮我描边的话，我可以考虑……把黑板报上你画得好看一点哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43813",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43813001,
+            43813002,
+            43813003,
+            43813004,
+            43813005,
+            43813006,
+            43813007,
+            43813008,
+            43813009,
+            43813010,
+            43813011,
+            43813012,
+            43813013,
+            43813014,
+            43813015,
+            43813016
+          ],
+          "sectionId": 43813
+        }
+      ],
+      "title": "艺术创作挑战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213207",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "艺术创作挑战",
+  "wordCount": 372
+}

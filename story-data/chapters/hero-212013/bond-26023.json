@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-212013",
+  "id": "bond-26023",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26023001",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我还以为，你会把整栋房子打造成体训馆一样的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "想到你毕竟要住在这里，就布置得更有生活气息了一些。\n不喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "倒不如说，不适应。\n这种环境氛围下，完全不适合用教练的身份指导你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你介意的话，可以重新布置一下？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "算了。就把这里当做「家」看待，可以不谈工作——\n你也不必以学员的身份和我相处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023006",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "作为来我家做客的朋友，忘掉训练的话题吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "忘掉训练？！\n那么......酒井小姐想要谈些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023008",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "叫我唯就好。\n你感兴趣的，你想了解的，任何问题都可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023009",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "身为教练，我指导过很多人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26023010",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "而现在，我开始期待，被你教导一些我所不知道的事。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26023",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26023001,
+            26023002,
+            26023003,
+            26023004,
+            26023005,
+            26023006,
+            26023007,
+            26023008,
+            26023009,
+            26023010
+          ],
+          "sectionId": 26023
+        }
+      ],
+      "title": "指导"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "指导",
+  "wordCount": 247
+}

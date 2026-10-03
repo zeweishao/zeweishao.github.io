@@ -1,0 +1,196 @@
+{
+  "bookId": "hero-213109",
+  "id": "bond-37904",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37904001",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "新人，这段时间我和小奏就先在你这住下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊……哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这个反应有点冷淡呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37904005",
+              "text": "啊……哦。"
+            },
+            {
+              "targetId": "37904005",
+              "text": "好耶！"
+            }
+          ],
+          "sourceId": "37904004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37904005",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "接下来就带我看看你家里的环境吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904006",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "「战线」的发展也是需要场地的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里是卧室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904008",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……还挺整洁的，现在身体变小了，衣柜里可以改造成作战本部。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是客厅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904010",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "娱乐区域……或者说，运动区域吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……这是厨房。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904012",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "啊，设备还挺多的，武器装备什么的就在这里制造吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳……这是后宅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904014",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "很多手办在这里生活呢，抽空招募一些新同伴吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有个问题，现在战线的对抗对象是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904016",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "答案是显而易见的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904017",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "让手办遭受不合理的待遇的对象，都是我们的敌人哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "百合等人的战斗仍将继续，敬请期待！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37904019",
+          "sourceType": 5,
+          "speaker": "仲村百合",
+          "text": "不要模仿奇怪的背景解说啊！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37904",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37904001,
+            37904002,
+            37904003,
+            37904004,
+            37904005,
+            37904006,
+            37904007,
+            37904008,
+            37904009,
+            37904010,
+            37904011,
+            37904012,
+            37904013,
+            37904014,
+            37904015,
+            37904016,
+            37904017,
+            37904018,
+            37904019
+          ],
+          "sectionId": 37904
+        }
+      ],
+      "title": "战线的新据点"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213109",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "战线的新据点",
+  "wordCount": 272
+}

@@ -1,0 +1,1306 @@
+{
+  "bookId": "rewind-15",
+  "id": "chapter-62",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "20000001",
+          "sourceType": 9,
+          "text": "《大冒险家艾瑞克森VII》签售现场——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "20000002",
+          "sourceType": 0,
+          "speaker": "粉丝一号",
+          "text": "有生之年！！！「艾瑞克森系列」竟然更新了，不知道会不会交代「终焉」革命后续的故事阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000003",
+          "sourceType": 0,
+          "speaker": "粉丝二号",
+          "text": "「终焉」什么的都无所谓，我只关心艾瑞克森的新大陆，还有上午能不能排到作者的亲笔签名……嚯，看起来前面至少还有两百人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000005",
+          "sourceType": 13,
+          "speaker": "哈莉",
+          "text": "主人又偷偷跑出去玩！算起来已经……一，二，三，整整三个小时了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "抱歉，新书签售会实在太火爆了，就算起个大早，排队的人还是很多……总之拿到签名就会回去了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000007",
+          "sourceType": 13,
+          "speaker": "哈莉",
+          "text": "你果然忘了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "20000009",
+              "text": "出门太早没跟哈莉道别？"
+            },
+            {
+              "targetId": "20000009",
+              "text": "忘记给大猫铲屎了吗？"
+            }
+          ],
+          "sourceId": "20000008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "20000009",
+          "sourceType": 13,
+          "speaker": "哈莉",
+          "text": "说好要给哈莉买全新的榴莲口味涂料的！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人偏心，优纪也要，还有和江的草莓口味~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好啦好啦，排到签名就给你们买，噢，还有两位就到我了，先挂了，晚上给你们讲大冒险家的新故事喔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000012",
+          "sourceType": 9,
+          "text": "尊敬的顾客，午休时间到了，请各位带好自己的号码牌，有序离场，签售会将于一小时后继续——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "20000013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是不巧，这么多人只能去便利店了阿……买好午餐就随便找个地方等一下好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？那边原来有个巷子的吗，倒是可以避开跟人挤在一起呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000015",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "嘿——咻！嘿——咻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000016",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "哪里来的手办？看上去慌慌张张的……坐在这里装作机器人的话，应该不会惊动它吧？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20000017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘟嘟嘟，欢迎光临——欢迎光临——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001001",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "阿阿阿阿！！！——呼……原来是机器人，我说呢，怎么可能会有能跟手办对话的人类呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001002",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "累死了，唔，这个机器人质量还不错，很像艾瑞克森里智械迷城里的那一款，嗯……靠起来暖洋洋的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001003",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "……真舒服……突然有点……睁不开眼睛了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001004",
+          "sourceType": 2,
+          "speaker": "玩家",
+          "text": "就这么睡着了吗，似乎对「艾瑞克森」的故事非常了解阿，是《终焉地平线》作品里的手办吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001005",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "糟糕！竟然睡着了，什么时候了，该死，都怪这个热乎乎的机器人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001006",
+          "sourceType": 0,
+          "speaker": "神秘手办",
+          "text": "可不能耽误了那件事，我得马上动身……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那家伙走掉了呢，它怎么一副匆匆忙忙的样子，害我都没机会好好和它打个招呼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，休息时间差不多要结束了，我也该回书店排队了……嗯？这是什么，刚刚那个手办落下的吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……《大冒险家艾瑞克森VII》？竟然是手办版的冒险系列最新故事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的耶，这本书刚好适合优纪这样的手办阅读呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来「艾瑞克森系列」在手办之间也很受欢迎，真是有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这本书应是刚才那个手办的物品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "它已经走远了，我们要追上去把书还给它吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不必，我们未必能找到它，还是将书小心放好，等它自己回来取。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20001015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江说的有道理，放好这本书之后，我们陪主人买到签售书后就可以回家啦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-377",
+      "sourceRefs": [
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20000001,
+            20000002,
+            20000003,
+            20000004,
+            20000005,
+            20000006,
+            20000007,
+            20000008,
+            20000009,
+            20000010,
+            20000011,
+            20000012,
+            20000013,
+            20000014,
+            20000015,
+            20000016,
+            20000017
+          ],
+          "sectionId": 20000
+        },
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20001001,
+            20001002,
+            20001003,
+            20001004,
+            20001005,
+            20001006,
+            20001007,
+            20001008,
+            20001009,
+            20001010,
+            20001011,
+            20001012,
+            20001013,
+            20001014,
+            20001015
+          ],
+          "sectionId": 20001
+        }
+      ],
+      "title": "花之美错·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "20002001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "自从买回《大冒险家艾瑞克森VII》，家里总是怪事频发——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奇怪……为什么这扇窗户开着的？昨天晚上明明……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，昨晚是你爬窗进来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿，红盒子，昨晚是你爬窗吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002005",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "喂，小蓝，你爬窗吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002006",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "我没有，是窗子自己打开的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿，大猫，是你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002008",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵呜——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "大猫不会这么做，虽然它的确是一头不懂事的调皮大猫，便便也出人意料的臭……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "最近家里真是怪事连连，每天关好的门窗，第二天早上总是打开的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果不是我们做的，就只能是小偷了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没错没错，家里一定是进了小偷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们分头行动，各自找找线索吧——优纪跟我去客厅，花迦哈莉去厨房。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哼哼，狡猾的小偷，马上就让你知道乱闯主人家的下场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "沙发下面没有——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "窗帘后面安全——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002018",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，抓到你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002019",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "住手！投降！投降——！是我！哈莉，是我！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002020",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "不可以，战场就是这样教你的吗，士兵的尊严就是生命，起来决斗，男子汉就要要堂堂正正！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002021",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "我不要！！！反正结局都是被你拆掉！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002022",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "……报告，橱柜里没有发现敌情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002023",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "说起来真是不可思议，厨房里一丝外人的痕迹都没有，如果有小偷来过，那一定是个隐匿气息的高手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "家里进贼可是关乎主人安危的大事，说说看，大家有什么新发现吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002025",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "一无所获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002026",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "资产清点完毕！没有遗失！没有遗失！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔……真是奇怪，没有人，又没丢东西……难道是错觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "也许是我们关心则乱，根本没有什么小偷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好了，可以放心地玩耍了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002030",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "看起来是虚惊一场，这下可以安心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002031",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那么任务完成！原地解散！小红小蓝，来和我玩儿吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002032",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "我不要！！！你又在想把我们拆掉的合理借口了对吧！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20002033",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿嘿哈哈哈~快跑！被我追上的话~嘿嘿嘿嘿嘿——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-378",
+      "sourceRefs": [
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20002001,
+            20002002,
+            20002003,
+            20002004,
+            20002005,
+            20002006,
+            20002007,
+            20002008,
+            20002009,
+            20002010,
+            20002011,
+            20002012,
+            20002013,
+            20002014,
+            20002015,
+            20002016,
+            20002017,
+            20002018,
+            20002019,
+            20002020,
+            20002021,
+            20002022,
+            20002023,
+            20002024,
+            20002025,
+            20002026,
+            20002027,
+            20002028,
+            20002029,
+            20002030,
+            20002031,
+            20002032,
+            20002033
+          ],
+          "sectionId": 20002
+        }
+      ],
+      "title": "花之美错·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "20003001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「很遗憾你的好运到此为止了，永别了，大冒险家，艾瑞克森。」血港屠夫狞笑着，叩响了扳机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "鲜血染红了铁桥下的水，贪婪的食人鱼循迹而来，夜色中充满令人毛骨悚然的牙齿咬合声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "艾瑞克森从容站起身，一步一步走近屠夫开花的半边脑袋，遗憾地摇了摇头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「如果你去过77号贫民窟，就应该知道，这把枪有个形象生动的名字，叫狡猾恶徒。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好了，以上就是今晚的睡前故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "真是让人意犹未尽的故事阿，听完之后心潮澎湃，奇迹般地睡意全无了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "再来一节，主人主人~再来一节嘛！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "20003009",
+              "text": "不可以喔，明天还要早起。"
+            }
+          ],
+          "sourceId": "20003008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "20003009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜……好吧，不过最后那句话是什么意思？「狡猾恶徒」是枪的名字吗，扣动扳机的不是血港屠夫吗，为什么中枪的反而是他自己呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "第四部讲过这把枪的故事，「77号贫民窟」的特产，子弹会向枪口的反方向射出，是非常适合声东击西的武器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "听上去很好玩儿，哈莉也想要一把！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "危险的东西放在哈莉手里，总感觉变得更危险了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "真让人羡慕阿，这种传奇一样的冒险生涯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过孤独一人的旅行，会感到寂寞的吧……我的话，还是更希望可以跟喜欢的朋友们呆在一起——和江呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003015",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不清楚，我之前身处的世界，或许可以称作「孤身一人的旅行」，那是没有尽头的救赎，和注定不会终止的轮回。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "听起来有些难过……总之都过去了，现在大家快快乐乐的住在一起呢，还有最最喜欢的主人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003017",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "那我们和哈莉投「出去旅行」一票！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003018",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿，旅行可是有很趣的，有很多把新枪，和很多新脑袋~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003019",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "她之前真的是什么政府军士兵么，确定不是打家劫舍的强盗土匪之类的反派角色吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大概吧……主人呢，主人怎么看待「旅行」呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "20003022",
+              "text": "旅行本身就有着自己的意义。"
+            }
+          ],
+          "sourceId": "20003021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "20003022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也许寂寞，也许传奇，也许跌宕起伏，也许波澜不惊……每个冒险家都在旅行的过程中寻找着独属于自己的那份意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "或许满载而归，或许一无所获……结果其实并不重要，因为冒险和探索本身，就是一种非凡的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "很有哲理……虽然不是很明白，但主人说得真好哎！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "20003026",
+              "text": "哈哈，一点感想而已。"
+            }
+          ],
+          "sourceId": "20003025",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "20003026",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "冒险和探索本身……的意义吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20003027",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "没想到能在这里遇到这么一位有趣的人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-379",
+      "sourceRefs": [
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20003001,
+            20003002,
+            20003003,
+            20003004,
+            20003005,
+            20003006,
+            20003007,
+            20003008,
+            20003009,
+            20003010,
+            20003011,
+            20003012,
+            20003013,
+            20003014,
+            20003015,
+            20003016,
+            20003017,
+            20003018,
+            20003019,
+            20003020,
+            20003021,
+            20003022,
+            20003023,
+            20003024,
+            20003025,
+            20003026,
+            20003027
+          ],
+          "sectionId": 20003
+        }
+      ],
+      "title": "花之美错·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "20004001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "又来了！第五天了！！！每天早上主人的书桌都会莫名其妙多出一枝鲜花，果然家里进了奇怪的小偷吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "跟花相关的贼……「采花大盗」！是要偷走我们的主人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "今天的花看起来像是雏菊，嗯……花语是「永远的快乐」，「你爱不爱我」，还有「隐藏在心中的爱」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，这不是雏菊，而是一种名为紫丁香的花。它的花语是「纯洁」、「初恋」和「爱慕」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……所以难道是主人的爱慕者？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "对方还未留下痕迹，我们再等等看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004007",
+          "sourceType": 9,
+          "text": "——翌日清晨。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "20004008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "果然，又有新鲜的紫丁香被放在这里了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "用鲜花做奇奇怪怪的表白，这家伙的目标果然就是主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不能再任由这位不知名的客人在家里随意穿行了，就算对方没有恶意，也是个可疑的隐患。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "双手赞成！！！今天就算把家里翻个底朝天，也要抓到这个肆意妄为的家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "你们有没有闻到……一股淡淡的香味？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……是花香！每天送花的家伙，身上一定沾了花香！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "顺着香气传来的方向，就是这里——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004015",
+          "sourceType": 3,
+          "text": "哗啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "20004016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呼——呼——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么嘛！一点小偷的自觉都没有，竟然能在别人家里睡得这么若无其事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004018",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是和我们一样的手办吗，她的装束看起来好特别……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿~起床暴击——啾！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004020",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呣……阿秋——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎，快醒醒，小偷小姐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004022",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "呵……太阳真好阿，嗨，你们好~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004023",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "她那个打招呼的手势，是在挑衅我们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004024",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "看起来很像什么东西的起手式，叫什么来着，噢，牛顿术！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004025",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "是吗，那个……应该叫「巴顿术」才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "就是你每天在主人的桌上放花吗，你的目的是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004027",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你们的主人吗，他很有趣，我对他很感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004028",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "听上去很像狩猎者的台词，对猎物很有兴趣什么的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004029",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "干什么！她的手！她要掏出武器了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20004030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪躲开——瞬杀。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-380",
+      "sourceRefs": [
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20004001,
+            20004002,
+            20004003,
+            20004004,
+            20004005,
+            20004006,
+            20004007,
+            20004008,
+            20004009,
+            20004010,
+            20004011,
+            20004012,
+            20004013,
+            20004014,
+            20004015,
+            20004016,
+            20004017,
+            20004018,
+            20004019,
+            20004020,
+            20004021,
+            20004022,
+            20004023,
+            20004024,
+            20004025,
+            20004026,
+            20004027,
+            20004028,
+            20004029,
+            20004030
+          ],
+          "sectionId": 20004
+        }
+      ],
+      "title": "花之美错·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "20005001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嚯，想不到你还蛮厉害嘛，是个厉害的小偷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "小偷……？你们误会了，我其实是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005003",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "干什么！她的手！又放到背后了！是偷袭一定是偷袭！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005004",
+          "sourceType": 3,
+          "text": "哐——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "20005005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "闭嘴，别吵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005006",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "给，其实我是想给你们看看这个~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸，不是武器嘛？——这是……一本书？唔……《M城见闻录》，记录者：「V.V」……「V.V」？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「艾瑞克森系列」故事集里好像出现过这个名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的吗！你认识大冒险家艾瑞克森吗？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "正式介绍一下，我是薇薇安，初到M城的冒险家，梦想是成为跟艾瑞克森比肩的大冒险家喔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005011",
+          "sourceType": 7,
+          "text": "薇薇安 · 古迹守望者\n商品名称：薇薇安·古迹守望者 Ver.\n作品名称：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约236mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "20005012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道，你是《终焉地平线》作品的角色，以笔名「V.V」出过很多本游记，多次登顶各地区畅销榜喔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "想不到会有人注意到在作品里连配角的算不上的我呢，嘻，突然觉得好开心~！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "20005015",
+              "text": "所以你为什么会出现在我家里呢？"
+            }
+          ],
+          "sourceId": "20005014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "20005015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我是来寻找丢失的书籍的，一路追踪了那个家伙好久，《大冒险家艾瑞克森VII》发售当天恰好看到你拾到一本从他那里捡来的书，就一路跟过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然对方鬼鬼祟祟，不过后来我还是把书放回原处了，当时的想法是，如果他发现自己丢了东西的话，一定会回去找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005017",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "怪不得我翻遍角落都没有找到呢，不过也不算白跑一趟——毕竟这也是「旅行的意义」，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸——她竟然偷偷听我们说话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005019",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "抱歉啦，因为艾瑞克森的故事太迷人就忍不住听了下去……不过你们主人关于「旅行」的见解，比故事本身更让人着迷喔~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喜欢艾瑞克森的家伙……嗯，算了，那就原谅你好啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "谢谢，你们都是很有趣的人，我会在新游记里为你们多记一笔的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005022",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "新游记，是关于M城的游记吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸，我也要出名了吗！作为知名作家「V.V」笔下的人物~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005024",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "纠正一下喔，是「未来会与大冒险家艾瑞克森比肩」的冒险家笔下的人物~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然这样的话，让我们来担任你的向导吧~可以帮你找回丢失的书籍，还能顺便带你游历一下我们M城的风土人情噢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "20005026",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "真是帮了大忙，那就恭敬不如从命咯~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-381",
+      "sourceRefs": [
+        {
+          "bundle": "tanxianjia",
+          "rowIds": [
+            20005001,
+            20005002,
+            20005003,
+            20005004,
+            20005005,
+            20005006,
+            20005007,
+            20005008,
+            20005009,
+            20005010,
+            20005011,
+            20005012,
+            20005013,
+            20005014,
+            20005015,
+            20005016,
+            20005017,
+            20005018,
+            20005019,
+            20005020,
+            20005021,
+            20005022,
+            20005023,
+            20005024,
+            20005025,
+            20005026
+          ],
+          "sectionId": 20005
+        }
+      ],
+      "title": "花之美错·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 62,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 62,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "55",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关于大冒险家的传闻",
+  "title": "花之美错",
+  "wordCount": 3860
+}

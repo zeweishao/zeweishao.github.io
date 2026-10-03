@@ -1,0 +1,259 @@
+{
+  "bookId": "activity-extra-signin-springfestival",
+  "id": "source-25630",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "25630001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "周先生今日找我们几个来，是有什么秘密任务吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630002",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "诸位为「七星阁」奔走忙碌，瑜都看在眼里。一直想犒劳各位一番，无奈未曾得到合适的时机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630003",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "恰逢今日天朗气清，瑜便自作主张约各位在此会面，共赏美景、聊以怡情，各位以为如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630004",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "听得本大爷耳朵都要长茧子了，你不会让我们几个坐在这里干瞪眼吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "当然不会那么简单，我已经邀请了|101|一同加入，|102|会协助我们布置好宴席的各种事宜。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25630007",
+              "text": "没错，放心交给我吧。"
+            }
+          ],
+          "sourceId": "25630006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25630007",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "那么我们这就开始了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630008",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "如此良辰美景在前，让人忍不住想吟诗一首以抒胸臆。\n瑜自作主张选「缱绻心意」四个字作为主题，诸位请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "「玲珑骰子安红豆，入骨相思知不知。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "妙哉，貂蝉秀外慧中，此句甚好甚好。\n其他二位可曾有什么好句子，也一并说来听听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630011",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "「山无陵，江水为竭。冬雷震震，夏雨雪。天地合，乃敢与君绝。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630012",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "尚香的句子虽不华丽，却隐隐透着一股决然之气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630013",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "奉先，只剩你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630014",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "饶了本大爷吧，吟诗作赋什么的，我可是一窍不通啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630015",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "无妨，把心里的感受简单地表达出来就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630016",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "「执子之手，将子拖走。子若不走，拍晕了继续拖走~」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630017",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "瑜从未听过如此淳朴原始的诗句，别具风味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630018",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "早就跟你说了，本大爷不会吟诗作赋，这下傻眼了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630019",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "不得不说，还真是有你这个人的独特风格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25630020",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "的确，粗犷、狂妄、直接，让人印象深刻。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25630022",
+              "text": "看起来你们很尽兴。"
+            }
+          ],
+          "sourceId": "25630021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25630022",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "好久没有这么放松了，我想我会一直记得今天发生的种种。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25630",
+      "sourceRefs": [
+        {
+          "bundle": "signin-springfestival",
+          "rowIds": [
+            25630001,
+            25630002,
+            25630003,
+            25630004,
+            25630005,
+            25630006,
+            25630007,
+            25630008,
+            25630009,
+            25630010,
+            25630011,
+            25630012,
+            25630013,
+            25630014,
+            25630015,
+            25630016,
+            25630017,
+            25630018,
+            25630019,
+            25630020,
+            25630021,
+            25630022
+          ],
+          "sectionId": 25630
+        }
+      ],
+      "title": "活动片段 25630"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "194",
+              "27",
+              "6",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          },
+          {
+            "path": [
+              "1521",
+              "27",
+              "6",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "194",
+          "27",
+          "6",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 25630,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25630",
+  "wordCount": 550
+}

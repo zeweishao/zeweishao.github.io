@@ -1,0 +1,1033 @@
+{
+  "bookId": "rewind-32",
+  "id": "chapter-126",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31031001",
+          "sourceType": 0,
+          "speaker": "扎心大锤哥",
+          "text": "各位来宾~欢迎来到地下拍卖会~我是今天的拍卖师大锤哥！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31031002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这里好多人呐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31031003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "咳咳！注意！你是大小姐，不可以露出这种惊讶的表情！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31031004",
+          "sourceType": 0,
+          "speaker": "扎心大锤哥",
+          "text": "第一件宝贝是传奇重金属乐队的绝版唱片！\n起拍价——50罐涂料！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31031005",
+          "sourceType": 0,
+          "speaker": "苦命拍卖桌",
+          "text": "喂喂喂，还没人竞拍呢，你的锤子离我远点啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "难得来一次拍卖会，不买点太可惜了。\n你看那个唱片就很不错不是吗？大小姐~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "是、是嘛……好像，有点不错。\n那我举牌了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032003",
+          "sourceType": 0,
+          "speaker": "扎心大锤哥",
+          "text": "很好！喵爪帮大小姐60罐！60！\n还有没有更高的？这可是绝版唱片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "100罐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "怎么回事！他为什么和我们抢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "卡缪在帮我们拖延时间，真恋，再举——200罐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032008",
+          "sourceType": 0,
+          "speaker": "扎心大锤哥",
+          "text": "200罐！看来喵爪帮对这张唱片是势在必得啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032009",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "1000罐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032010",
+          "sourceType": 0,
+          "speaker": "扎心大锤哥",
+          "text": "1000罐一次！1000罐两次！1000罐——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032011",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "搞什么嘛！1000罐他怎么不去抢，可恶！\n真恋，快喊一万罐！算了，我自己来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032012",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "一万罐？！萝贝卡……真的拍下来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032013",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "举牌真有趣~现场气氛逐渐热烈起来了！\n呼呼，怎么样，我厉害吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "好像……有点感觉了，我还想再试一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032015",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……那么我们现在就以验货的名义去仓库吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032016",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "萝贝卡，保护好喵爪帮大小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032017",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "放心吧，不会把你的库存全花光的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31032018",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "萝贝卡快看！下一个要开始竞拍了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-677",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31031001,
+            31031002,
+            31031003,
+            31031004,
+            31031005
+          ],
+          "sectionId": 31031
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31032001,
+            31032002,
+            31032003,
+            31032004,
+            31032005,
+            31032006,
+            31032007,
+            31032008,
+            31032009,
+            31032010,
+            31032011,
+            31032012,
+            31032013,
+            31032014,
+            31032015,
+            31032016,
+            31032017,
+            31032018
+          ],
+          "sectionId": 31032
+        }
+      ],
+      "title": "音乐力量·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31033001",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "仓库在这边，我们小声一点，否则……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033002",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "仓库禁地，禁止通行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "别慌，让我来试试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我是喵爪帮的管家，我们小姐要在5分钟之内见到货物！\n不要让我们大小姐等太久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033005",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "叽叽叽——绝对不会让你们过去的！\n除非踏过我的尸体——叽啊！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033006",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "酒井唯真、真的踏过去了！\n幸好我没惹她，呜呜呜太可怕了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033007",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "你居然踩我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033008",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "居然还可以说话，看来我需要加强一下腿部力量的锻炼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033009",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "你你你闭嘴！踏过去又怎么样，你们是不可能打开金库大门的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033010",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "金库门？那这条应该就是正确路线。\n不过，要怎么打开它？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033011",
+          "sourceType": 0,
+          "speaker": "噪音鸡",
+          "text": "哼……没辙了吧？这可是M城最结实的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033012",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "啊，不好意思，我已经打开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "只是轻轻一掀，就把整个门拆下来了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31033014",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "这门意外地趁手，就用它来打完下半场吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "这是……怎么回事？他们的腿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034002",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "这就是……逃跑的下场。\n我们被拆掉零件，关进笼子，作为残次品卖出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034003",
+          "sourceType": 0,
+          "speaker": "大嗓门音乐家",
+          "text": "闹斯尼，你怎么又回来了？有一个能逃出去也好啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034004",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我们是来救你们出去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034005",
+          "sourceType": 0,
+          "speaker": "大嗓门音乐家",
+          "text": "没用的，拍卖会老板雇佣了全城的爆音鸡来为她做事。\n它们发出的噪音能让我们瞬间丧失战斗力。而现在，你们也逃不掉了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "噪音吗……让我想想……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034007",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我想到了！我们可以用音乐来打败噪音~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31034008",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "但……怎么才能让大家恢复健康呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-678",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31033001,
+            31033002,
+            31033003,
+            31033004,
+            31033005,
+            31033006,
+            31033007,
+            31033008,
+            31033009,
+            31033010,
+            31033011,
+            31033012,
+            31033013,
+            31033014
+          ],
+          "sectionId": 31033
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31034001,
+            31034002,
+            31034003,
+            31034004,
+            31034005,
+            31034006,
+            31034007,
+            31034008
+          ],
+          "sectionId": 31034
+        }
+      ],
+      "title": "音乐力量·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31035001",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "嗯哼~我就知道——你们离不开我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035002",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "萝贝卡，你怎么来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "趁着真恋和卡缪还在竞拍，我先把卡缪抢走的唱片抢回来~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "那你为什么要拎着工具箱呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我、我愿意！这可是|101|给我的，万一被其他人偷走了怎么办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035006",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "那就请喵爪帮专业修理师，帮忙救治一下这里受伤的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035007",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "那我就勉为其难帮帮你们吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035008",
+          "sourceType": 0,
+          "speaker": "大嗓门音乐家",
+          "text": "谢谢你，修好了我们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31035009",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "还有一个……哎？你是吃掉贝斯的那个！噪音鸡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036001",
+          "sourceType": 0,
+          "speaker": "叽叽叫",
+          "text": "呜……贝斯卡住了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我的贝斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "克莱儿，我找到了你的贝斯，但……貌似拿不出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "是有点难度——要不我把他整个拆开……哎呦，干嘛打我嘛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "先看看能不能把贝斯拽出来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036006",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "好，我试试……唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036007",
+          "sourceType": 0,
+          "speaker": "叽叽叫",
+          "text": "唔唔唔唔！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31036008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我也来帮忙！嘿咻嘿咻~耶！出来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31037001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "接下来，我们这样这样……这就是合奏，大家理解了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31037002",
+          "sourceType": 0,
+          "speaker": "大嗓门音乐家",
+          "text": "呱！我知道了，就是该张嘴张嘴，不该张嘴的时候假装张嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31037003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "很好，那一会大家都别忘记了自己的站位喔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31037004",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我们快过去吧，真恋那边不知道怎么样了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31037005",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "大小姐一定很想我！嗯！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-679",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31035001,
+            31035002,
+            31035003,
+            31035004,
+            31035005,
+            31035006,
+            31035007,
+            31035008,
+            31035009
+          ],
+          "sectionId": 31035
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31036001,
+            31036002,
+            31036003,
+            31036004,
+            31036005,
+            31036006,
+            31036007,
+            31036008
+          ],
+          "sectionId": 31036
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31037001,
+            31037002,
+            31037003,
+            31037004,
+            31037005
+          ],
+          "sectionId": 31037
+        }
+      ],
+      "title": "音乐力量·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31038001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "真恋，我们回来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31038002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "那些是你们救出来的手办吗？真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31038003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "让我看看大小姐都买了什么好东西~喔！我喜欢的唱片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31038004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "怎么吵吵嚷嚷的，噪音鸡呢，把闹事的都给我赶出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "你就是这个拍卖会的老板？为什么要做这种事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "为什么？音乐手办可爱漂亮，还有着动人的歌声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "做佣人，哄睡觉，叫起床……还有比他们更讨人喜欢的商品吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "……不，我们的音乐是出于对这个世界的热爱，是自由的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我们……绝不做任何人的金丝雀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31039006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "自由？哼……天真。\n噪音鸡，教育教育这群可爱的小家伙们~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31040001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "该死，这声音，吵得我头疼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31040002",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "尖叫吗？这个我也会！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31040003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "这是！海豚音？很有乐队主唱的潜力啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31041001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "噪音鸡呢，平时吵吵嚷嚷，这时候怎么不出声了！\n快点压过它们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31041002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔，那就欣赏一下我们的排练成果吧！噪音鸡大合唱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31041003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "啧，一群只会拖后腿的废物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31042001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "果然在这里……S-VIII，你涉嫌绑架手办、违法经营，请跟我们走一趟吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31042002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "不好意思，这种冷冰冰的邀请，我才不想接受呢~\n先走一步了，希望下次还能见到你们——喵爪帮的各位！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31042003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "辛苦各位了，接下来就交给我们吧。\n管理局会为大家颁发热心市民奖状。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31042004",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "终于结束了，我们可以离开这个鬼地方了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31042005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我想你已经迫不及待要和|101|一起进行面红耳赤的运动吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-680",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31038001,
+            31038002,
+            31038003,
+            31038004
+          ],
+          "sectionId": 31038
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31039001,
+            31039002,
+            31039003,
+            31039004,
+            31039005,
+            31039006
+          ],
+          "sectionId": 31039
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31040001,
+            31040002,
+            31040003
+          ],
+          "sectionId": 31040
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31041001,
+            31041002,
+            31041003
+          ],
+          "sectionId": 31041
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31042001,
+            31042002,
+            31042003,
+            31042004,
+            31042005
+          ],
+          "sectionId": 31042
+        }
+      ],
+      "title": "音乐力量·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31043001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "今天是喵爪乐队正式成立的日子！\n感谢|101|为我们的第一次排练提供舞台~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043002",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "鼓手梅根、键盘手真恋、贝斯手克莱儿、小提琴手卡缪、经纪人斯利普先生~\n以及——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043003",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "叮铃铃——大家好，今后还请多多指教了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "哎？！闹钟先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043005",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "他的声音非常独特，如果能加入乐队，相信一定能做出更有意思的音乐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043006",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "你们以后再也不用担心迟到啦~\n斯利普先生，快醒醒！你该换唱片了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31043007",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "哈？唔~闹钟！！饶了我吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "看来斯利普先生很喜欢闹斯尼先生啊~\n大家要好好相处哟~不过，有谁看见|101|了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人还在赖床，我这就去叫|102|起床~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044003",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "这么有趣的事，让我来！哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044004",
+          "sourceType": 0,
+          "speaker": "闹斯尼",
+          "text": "不要和我抢活啊，这可是我们闹钟的天职！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044005",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "|101|还没见过我，我得给|102|留下一个好印象！\n克莱儿，能帮我换一张唱片吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044006",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "我来帮你吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044007",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "你、你不要过来啊！！救命啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044008",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "斯利普你躲什么，嗓子都喊哑了，让我来修好你吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044009",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "放心吧，我可是专业的维修工喔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044010",
+          "sourceType": 0,
+          "speaker": "斯利普",
+          "text": "我，谁来救救我啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么回事，发生什么了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "|101|你醒啦，噗嗤，你的发型真不错，和我的一样棒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31044013",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我们的排练就要开始啦，欢迎你来看！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "sourceId": "31044014",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-681",
+      "sourceRefs": [
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31043001,
+            31043002,
+            31043003,
+            31043004,
+            31043005,
+            31043006,
+            31043007
+          ],
+          "sectionId": 31043
+        },
+        {
+          "bundle": "claire",
+          "rowIds": [
+            31044001,
+            31044002,
+            31044003,
+            31044004,
+            31044005,
+            31044006,
+            31044007,
+            31044008,
+            31044009,
+            31044010,
+            31044011,
+            31044012,
+            31044013,
+            31044014
+          ],
+          "sectionId": 31044
+        }
+      ],
+      "title": "音乐力量·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 126,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 126,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "videoPath": "Videos/_lazy_/AVG_Claire.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "用音乐打败噪音",
+  "title": "音乐力量",
+  "wordCount": 2238
+}

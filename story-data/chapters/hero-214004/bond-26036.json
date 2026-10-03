@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214004",
+  "id": "bond-26036",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26036001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嘿咻，桑尼小店外送订单，请付款！嗯？你多给了一盒羽毛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "辛苦你亲自送来，这是额外的配送费。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "可以理解成小费吗？\n虽然小木人搬东西不费力，但我还是收下了，谢谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036004",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "运势守恒，多得到的总会在别处失去，要小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "对哦......作为交换，给你一次免费的占卜吧。\n来，伸出食指，抵住我的手心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "想问什么？事业、学业、爱情？\n或者，告诉我你昨晚的梦，我可以预见你明天会看到的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我梦到自己变成手办大小，和桑尼一起开店。顾客排成长龙，赚得盆满钵满。我们买了很多装饰品，装扮店铺和房子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036008",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "已经具体到可疑了，但看不出说谎的痕迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这个梦......好像有些似曾相识。\n难道我也做过类似的......不不，怎么可能这么巧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看到什么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036011",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "稍、稍等一下！米娅莫拉苏娜丹妮......咦？怎么一片漆黑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036012",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "我懂了，他明天会变成一只没有视力的水母，或者章鱼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036013",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "不，章鱼有眼睛。这说明他明天一直在闷头大睡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036014",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不准说客人坏话！一定......一定是你的描述有问题！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26036015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "那个，等有机会，我亲自进入你的梦里看一看......行吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26036",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26036001,
+            26036002,
+            26036003,
+            26036004,
+            26036005,
+            26036006,
+            26036007,
+            26036008,
+            26036009,
+            26036010,
+            26036011,
+            26036012,
+            26036013,
+            26036014,
+            26036015
+          ],
+          "sectionId": 26036
+        }
+      ],
+      "title": "小费"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "小费",
+  "wordCount": 431
+}

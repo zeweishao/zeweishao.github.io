@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-213108",
+  "id": "bond-29335",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29335001",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "哇——好大的屋子，里面的家具好可爱……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335002",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "这真的是送给玛莉的吗？该让海莲娜大人也看一看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，毕竟你这些天帮了很多忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335004",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "哇，床垫好软，玛莉都想在上面蹦来蹦去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335005",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "……那个，岛主不会说玛莉像小孩子吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然不会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就算是足够成熟的大人，也会需要时间去休闲放松的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335008",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "岛主……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335010",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "没什么，呵呵，再陪玛莉一会儿吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335012",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "和玛莉一起放松以后，就去玩水吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一起？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335014",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "呼哈……有点困了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335015",
+          "sourceType": 0,
+          "speaker": "玛莉萝丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29335016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……聊着聊着就睡着了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29335",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29335001,
+            29335002,
+            29335003,
+            29335004,
+            29335005,
+            29335006,
+            29335007,
+            29335008,
+            29335009,
+            29335010,
+            29335011,
+            29335012,
+            29335013,
+            29335014,
+            29335015,
+            29335016
+          ],
+          "sectionId": 29335
+        }
+      ],
+      "title": "公主房间"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213108",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "公主房间",
+  "wordCount": 196
+}

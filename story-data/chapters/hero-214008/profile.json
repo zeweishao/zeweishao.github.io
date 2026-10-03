@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214008",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "中国知名潮流设计师Meng创办的Lemon潮流玩具品牌，多次与FULI旗下的品牌跨界合作。其中Meng创作的柠檬茶多酚系列公仔深受收藏爱好者的喜爱，逐渐成为潮人收藏柜的标配。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214008"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 87
+}

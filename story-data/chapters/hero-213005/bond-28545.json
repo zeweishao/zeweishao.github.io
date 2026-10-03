@@ -1,0 +1,170 @@
+{
+  "bookId": "hero-213005",
+  "id": "bond-28545",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28545001",
+          "sourceType": 9,
+          "text": "咚咚咚、咚咚咚……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28545002",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "谁啊！敲敲敲烦死了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545003",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "怎么是你们！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545004",
+          "sourceType": 5,
+          "speaker": "吕布",
+          "text": "咣！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545005",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "不在！今天谁都不在家，你们赶紧走，不然我就打人了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "吕布？怎么了，刚刚是谁在敲门？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545007",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "嘘——先别说话，他们还没走……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……他们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545009",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "就周瑜，还有孔明！那两个烦人精，就喜欢坑人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545010",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "仗着自己有脑子，就装模作样，坑害老实人！\n我最讨厌这种人了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545011",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "还有那种絮絮叨叨的老学究，苍蝇似的围着我转，念叨什么「君辱臣死」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545012",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "他们活着真累！一点都不值得，要我说，人活这一辈子——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545013",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "就得大口吃肉大碗喝酒，潇潇洒洒，快意顺心才是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545014",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "虽然我变成了手办，不能再吃肉喝酒，但起码还能打架！哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545015",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "谁挡了你的路，让你不开心，就揍他个满地找牙！让他再也笑不出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……还真是简单粗暴的人生哲理呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28545017",
+          "sourceType": 0,
+          "speaker": "吕布",
+          "text": "有用就行，记住，顺从本心，才叫活着！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28545",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28545001,
+            28545002,
+            28545003,
+            28545004,
+            28545005,
+            28545006,
+            28545007,
+            28545008,
+            28545009,
+            28545010,
+            28545011,
+            28545012,
+            28545013,
+            28545014,
+            28545015,
+            28545016,
+            28545017
+          ],
+          "sectionId": 28545
+        }
+      ],
+      "title": "人间清醒"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "人间清醒",
+  "wordCount": 317
+}

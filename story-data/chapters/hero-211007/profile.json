@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211007",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "日本设计师山川照之联合FULI推出特别版玩具：Jonathan“暴躁熊”系列，将山川照之特色的插画元素与自身可爱的造型融合，将设计师独有的特色完美呈现给大众。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211007"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 79
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213003",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "身着鎏金高定晚礼服系列的狩猎者，这一次将她的狩猎目标，瞄准了位于“钻石大道”的高级奢侈品店。\n店中面容冰冷，态度高傲的店员看到她进门的瞬间，无一不被她手中闪耀的黑卡折服。\n当她闲庭信步，拎包出门的瞬间，曼妙的身姿将她的优雅大气与性感曼妙永远的留在了众人惊愕的双眼之中。\n\n“我的地盘里只能存在时尚的东西，落伍的都应该被淘汰掉。”\n\n      ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "购物狂魔Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213003",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "狩猎者·购物狂魔Ver.",
+  "title": "购物狂魔Ver.",
+  "wordCount": 180
+}

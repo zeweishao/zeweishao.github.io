@@ -1,0 +1,204 @@
+{
+  "bookId": "hero-211013",
+  "id": "bond-29341",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29341001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "群鸦的魔女，此世最优秀的奥术法师，孤高的流浪骑士诺伊尓小姐——这边请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341002",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "为什么这些话你念出来就让我觉得很羞耻啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341003",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "这座高塔是……法师塔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，这是给你的新住处。魔女、法师、巫师、魔法少女之类的不都喜欢住在高塔里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341005",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "说了，我和魔法少女根本不一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341007",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我也没说不喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "只有拥有足够的名望和地位的魔女，才会拥有自己的法师塔。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29341010",
+              "text": "你已经是了"
+            },
+            {
+              "targetId": "29341010",
+              "text": "毕竟你帮助了很多手办"
+            }
+          ],
+          "sourceId": "29341009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29341010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "顺带一提，边上的空地还有专供骑士使用的训练场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341011",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……谢谢啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我可没想到有一天，曾经的使魔乌鸦会送给自己……一个居所。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29341014",
+              "text": "现在你能想到了"
+            },
+            {
+              "targetId": "29341014",
+              "text": "看来这个世界也充满了奇遇"
+            }
+          ],
+          "sourceId": "29341013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29341014",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "嗳，你曾经问过我现在的愿望，是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你想好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341016",
+          "sourceType": 3,
+          "text": "魔女双手背在身后，微微弯腰，对你露出了危险的微笑。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29341017",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我想要——眼前的灵魂，眼前的你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "魔女的恋情可是有着死亡也无法消去的重量。你有这样的觉悟吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29341019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我的答案和当初一样，诺伊尔。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29341",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29341001,
+            29341002,
+            29341003,
+            29341004,
+            29341005,
+            29341006,
+            29341007,
+            29341008,
+            29341009,
+            29341010,
+            29341011,
+            29341012,
+            29341013,
+            29341014,
+            29341015,
+            29341016,
+            29341017,
+            29341018,
+            29341019
+          ],
+          "sectionId": 29341
+        }
+      ],
+      "title": "魔女与法师塔"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "魔女与法师塔",
+  "wordCount": 358
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214014",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "茶水间，手下们惊讶地看着面前的人。\n\n「组长你不是出差吗？怎么在这？」\n「我今天开始休假，谁也别打扰我。」\n\n貂蝉熟练地走进「自己」的办公室。\n想到组长平日的凶残，手下们无人敢多问一句。\n\n半个月后，一个脸带杀气的女人结束了繁忙的工作，决定给自己放个长假。但当她回到组织的时候，却看到桌上放着一张纸条——「这些文件我就拿走了。顺带一提，你的假期已经被我用完了哦~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闲坐偷暇Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214014",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "貂蝉·闲坐偷暇Ver.",
+  "title": "闲坐偷暇Ver.",
+  "wordCount": 174
+}

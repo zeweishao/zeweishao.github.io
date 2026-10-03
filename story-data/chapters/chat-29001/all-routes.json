@@ -1,0 +1,3035 @@
+{
+  "bookId": "chat-29001",
+  "id": "all-routes",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "以下按游戏配置节点顺序收录全部路线与结局。同一段文字可能出现在多条路线中；不同分支不代表一次连续发生的剧情。选项编号指向本章对应节点。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-100-1",
+          "speaker": "艾伦兹",
+          "text": "吾决定以柯斯顿城主的身份，正式向你提出一份工作委托。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-2",
+          "speaker": "艾伦兹",
+          "text": "准确地说，是一份巧克力订单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-3",
+          "speaker": "主人",
+          "text": "巧克力味涂料？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-4",
+          "speaker": "艾伦兹",
+          "text": "不，吾需要作为人类食物的真正「巧克力」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-5",
+          "speaker": "主人",
+          "text": "为什么？手办又不能进食。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-6",
+          "speaker": "艾伦兹",
+          "text": "无需多问，完成订单，吾自会给你相应的报酬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-100-7",
+          "speaker": "艾伦兹",
+          "text": "这是非常重要的委托，希望你认真对待。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 2。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-1",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "100",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 1"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-200-1",
+          "speaker": "艾伦兹",
+          "text": "关于这份工作，你有什么打算？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-2",
+          "speaker": "主人",
+          "text": "总之先去糖果专柜看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-3",
+          "speaker": "艾伦兹",
+          "text": "吾要求你成为厨师，而不是采购员。\n每一块巧克力，都必须由你亲手烘焙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-4",
+          "speaker": "主人",
+          "text": "要从哪一步开始做起呢？烘烤可可豆？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-5",
+          "speaker": "艾伦兹",
+          "text": "请从种植可可豆开始。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-6",
+          "speaker": "主人",
+          "text": "这个工序是不是......太靠前了些？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-200-7",
+          "speaker": "艾伦兹",
+          "text": "越是原始的材料，越能突出手工制作的意义。\n植株已经差人送到你家了，精心照料，别让吾失望。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 3。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-2",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 2"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-300-1",
+          "speaker": "艾伦兹",
+          "text": "吾要给订单追加一点新的要求——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-2",
+          "speaker": "艾伦兹",
+          "text": "请把巧克力做得有趣些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-3",
+          "speaker": "主人",
+          "text": "「有趣」能用来形容食物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-4",
+          "speaker": "艾伦兹",
+          "text": "巧克力的口味和样式上，你要有所创新。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-5",
+          "speaker": "主人",
+          "text": "我又不是专业甜品师......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-6",
+          "speaker": "艾伦兹",
+          "text": "烹饪凭借的是灵感，而非死板的烹调准则。\n吾研发「咔嚓咔饮料」时也是如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-7",
+          "speaker": "主人",
+          "text": "「灵感」在烹饪领域通常会带来灾难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-8",
+          "speaker": "艾伦兹",
+          "text": "不要想得过于复杂。畅销柯斯顿的「咔嚓咔饮料」原始配方，就是两份油脂、两份调味粉——再加一些咔嚓咔果汁这么简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-9",
+          "speaker": "艾伦兹",
+          "text": "「油加粉」，这是柯斯顿甜品师屡试不爽的秘诀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-300-10",
+          "speaker": "艾伦兹",
+          "text": "用头脑思考，然后实践你的灵感。\n不必担心，无论有多少失败品，吾照单全收。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 4。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-3",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 3"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-400-1",
+          "speaker": "艾伦兹",
+          "text": "可疑。十分可疑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-400-2",
+          "speaker": "主人",
+          "text": "怎么了，巧克力有什么问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-400-3",
+          "speaker": "艾伦兹",
+          "text": "吾找人鉴定过了，巧克力的色泽、顺滑度和香味全部完美——\n这本身就是最大的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-400-4",
+          "speaker": "主人",
+          "text": "我不明白你的意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-400-5",
+          "speaker": "艾伦兹",
+          "text": "「亲手制作巧克力」这种事，你是不是做过很多次，送过很多人？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 5。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-4",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 4"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "6",
+              "targetKind": "chat-node",
+              "text": "当然"
+            },
+            {
+              "targetId": "23",
+              "targetKind": "chat-node",
+              "text": "你看到的只是成功的一小部分。"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-5",
+      "sourceRefs": [],
+      "title": "节点 5"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-501-1",
+          "speaker": "主人",
+          "text": "我会用这种方式，将自己的爱传达给大家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-501-2",
+          "speaker": "艾伦兹",
+          "text": "所以才会如此熟练吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-501-3",
+          "speaker": "主人",
+          "text": "你很介意？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-501-4",
+          "speaker": "艾伦兹",
+          "text": "不，成品质量更高，这是好事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-501-5",
+          "speaker": "艾伦兹",
+          "text": "嗯，吾逐渐开始理解了——赠送巧克力的真实意义。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 7。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-6",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 6"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-600-1",
+          "speaker": "艾伦兹",
+          "text": "提前告知你，吾开始了一项困难的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-2",
+          "speaker": "主人",
+          "text": "需要帮助吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-3",
+          "speaker": "艾伦兹",
+          "text": "唯独这件事，必须由我亲力亲为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-4",
+          "speaker": "艾伦兹",
+          "text": "需要完成取材、设计、加工、购物、午睡等繁重的任务......因此，近期无法及时回复你的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-5",
+          "speaker": "主人",
+          "text": "这么困难的工作，是怎样的大工程呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-6",
+          "speaker": "艾伦兹",
+          "text": "目前阶段，这是个秘密。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 8。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-7",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 7"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-700-1",
+          "speaker": "艾伦兹",
+          "text": "为什么，偏偏是巧克力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-2",
+          "speaker": "艾伦兹",
+          "text": "常见，廉价，却用它表达爱慕。\n看来，人类总喜欢赋予一些东西不存在的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-3",
+          "speaker": "主人",
+          "text": "那你觉得，什么才能表达爱慕？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-4",
+          "speaker": "艾伦兹",
+          "text": "金银，或是宝石。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-5",
+          "speaker": "主人",
+          "text": "这对普通人而言太过奢侈了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-6",
+          "speaker": "艾伦兹",
+          "text": "母后向父王表达爱慕时，献上了堆积如山的珠宝，甚至用纯金打造了和父王体型同样庞大的雕塑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-7",
+          "speaker": "艾伦兹",
+          "text": "明白了吗，人类？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "9",
+              "targetId": "chat-29001-700-9",
+              "targetKind": "chat-text",
+              "text": "明白什么"
+            },
+            {
+              "rawTargetId": "9",
+              "targetId": "chat-29001-700-9",
+              "targetKind": "chat-text",
+              "text": "不敢明白"
+            }
+          ],
+          "sourceId": "chat-29001-700-8",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-700-9",
+          "speaker": "艾伦兹",
+          "text": "你应该明白，这笔订单，是对你多大的恩赐。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 9。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-8",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 8"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-800-1",
+          "speaker": "艾伦兹",
+          "text": "吾翻到一本古籍，上面记载了让人相爱的魔法。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "3",
+              "targetId": "chat-29001-800-3",
+              "targetKind": "chat-text",
+              "text": "听起来很危险"
+            },
+            {
+              "rawTargetId": "3",
+              "targetId": "chat-29001-800-3",
+              "targetKind": "chat-text",
+              "text": "听起来很有趣"
+            }
+          ],
+          "sourceId": "chat-29001-800-2",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-800-3",
+          "speaker": "艾伦兹",
+          "text": "读完它之后，我立刻使用了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-4",
+          "speaker": "主人",
+          "text": "使用了？！对谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-5",
+          "speaker": "艾伦兹",
+          "text": "使用了龙焰——对那本书。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "7",
+              "targetId": "chat-29001-800-7",
+              "targetKind": "chat-text",
+              "text": "干得漂亮"
+            },
+            {
+              "rawTargetId": "7",
+              "targetId": "chat-29001-800-7",
+              "targetKind": "chat-text",
+              "text": "有些可惜"
+            }
+          ],
+          "sourceId": "chat-29001-800-6",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-800-7",
+          "speaker": "艾伦兹",
+          "text": "爱情与龙族的荣耀一样，值得最高的敬意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-8",
+          "speaker": "艾伦兹",
+          "text": "不容愚弄，不容亵渎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-9",
+          "speaker": "主人",
+          "text": "很少见到艾伦兹这样严肃的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-10",
+          "speaker": "艾伦兹",
+          "text": "偶尔也该向你展现龙族威严的一面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-11",
+          "speaker": "艾伦兹",
+          "text": "不过到此为止了。因为吾相信，你和吾见解一致。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 10。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-9",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 9"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-900-1",
+          "speaker": "艾伦兹",
+          "text": "你在期待吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-2",
+          "speaker": "主人",
+          "text": "期待什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-3",
+          "speaker": "艾伦兹",
+          "text": "盯着漆黑的屏幕苦守，回味着曾经的对话辗转反侧——\n直到吾发来新的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-4",
+          "speaker": "艾伦兹",
+          "text": "书上说，这是亲密关系进展的必经阶段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-5",
+          "speaker": "主人",
+          "text": "这是一本讲什么的书啊......？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-6",
+          "speaker": "艾伦兹",
+          "text": "大概是关于心理......人际关系......婚姻与家庭。\n咳！你还没回答吾的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-7",
+          "speaker": "主人",
+          "text": "对消息的期待吗？\n我想......我应该和艾伦兹的状态差不多？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-8",
+          "speaker": "艾伦兹",
+          "text": "......哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-9",
+          "speaker": "艾伦兹",
+          "text": "你最好没有说谎。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 11。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-10",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 10"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1000-1",
+          "speaker": "艾伦兹",
+          "text": "为什么人类喜欢亲手制作的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-2",
+          "speaker": "主人",
+          "text": "明明让我从种植可可豆开始做巧克力，却提出这种问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-3",
+          "speaker": "艾伦兹",
+          "text": "那只是基于形式的模仿，吾还不够了解人类的心理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-4",
+          "speaker": "艾伦兹",
+          "text": "比方说，作为礼物，高价购买的精美点心，和亲手制作的难吃点心，你认为哪种更有意义？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 12。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-11",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 11"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "13",
+              "targetKind": "chat-node",
+              "text": "当然是亲手制作"
+            },
+            {
+              "targetId": "14",
+              "targetKind": "chat-node",
+              "text": "具体有多难吃？"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-12",
+      "sourceRefs": [],
+      "title": "节点 12"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1101-1",
+          "speaker": "主人",
+          "text": "这种行为包含的情谊，已经超越了一些金钱能够衡量的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-2",
+          "speaker": "主人",
+          "text": "无论味道如何，后者都已经赢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-3",
+          "speaker": "艾伦兹",
+          "text": "真是令人感动的回答。\n果真如此，亲手制作的意义本身胜过一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-4",
+          "speaker": "艾伦兹",
+          "text": "嗯，是吾多虑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-5",
+          "speaker": "主人",
+          "text": "多虑？艾伦兹本来有什么苦恼吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-6",
+          "speaker": "艾伦兹",
+          "text": "不，我的困惑现在已经得到了解答。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-13",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 13"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1102-1",
+          "speaker": "艾伦兹",
+          "text": "既然是举例，就描述得极端一些——\n混杂各种难以入口的颗粒，散发着腐烂水果的恶臭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-2",
+          "speaker": "主人",
+          "text": "......我不认为我的朋友能把巧克力做成这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-3",
+          "speaker": "艾伦兹",
+          "text": "或许你的朋友不太擅长烹饪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-4",
+          "speaker": "主人",
+          "text": "那么，我会选择前者。\n既然是赠送礼物，就要让收礼者感到开心才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-5",
+          "speaker": "艾伦兹",
+          "text": "......哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-6",
+          "speaker": "主人",
+          "text": "哼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-7",
+          "speaker": "艾伦兹",
+          "text": "人类，吾命令你加快制作巧克力的进度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-8",
+          "speaker": "主人",
+          "text": "？？？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-14",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 14"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1200-1",
+          "speaker": "艾伦兹",
+          "text": "吾今天独自在外寻找灵感，遇到了一只奇怪的狐狸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-2",
+          "speaker": "主人",
+          "text": "真不妙！你没有被抓伤吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-3",
+          "speaker": "艾伦兹",
+          "text": "他是长着狐狸耳朵的手办，一家花店店长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-4",
+          "speaker": "主人",
+          "text": "明智光秀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-5",
+          "speaker": "艾伦兹",
+          "text": "吾没有问他的名字。\n作为近期工作的犒劳，吾订了一束花给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-6",
+          "speaker": "艾伦兹",
+          "text": "一束龙舌兰，稀有、昂贵，最为匹配龙族的身份。\n唯一的缺点是，它的样子一点也不像龙舌。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "我很开心"
+            },
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "谢谢艾伦兹"
+            }
+          ],
+          "sourceId": "chat-29001-1200-7",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1200-8",
+          "speaker": "艾伦兹",
+          "text": "花的质量很不错，吾听从狐狸的建议订了花店的包纪套餐，果然是正确决定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-9",
+          "speaker": "主人",
+          "text": "打错字了吗？包季。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-10",
+          "speaker": "艾伦兹",
+          "text": "包纪。从明天开始，订了一个世纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-11",
+          "speaker": "主人",
+          "text": "......下次出门买东西，带上桑尼一起去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-12",
+          "speaker": "艾伦兹",
+          "text": "为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-13",
+          "speaker": "主人",
+          "text": "没什么，桑尼人傻钱多，我怕她被骗，想拜托你盯着点她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-14",
+          "speaker": "艾伦兹",
+          "text": "的确，她真是让人担心。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 16。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-15",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 15"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1300-1",
+          "speaker": "艾伦兹",
+          "text": "今天吾去西点屋取材，看到一款人偶蛋糕——少女模样的人偶穿着面粉和奶油制作成的裙摆，站在托盘中央。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-2",
+          "speaker": "艾伦兹",
+          "text": "真是可悲，如果她们有意识，岂不是要直面自己成为食物的命运？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-3",
+          "speaker": "主人",
+          "text": "「插在」蛋糕中间的人偶一般都是装饰品，不能吃吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-4",
+          "speaker": "主人",
+          "text": "其实，蛋糕相当于是人偶的外衣。\n吃掉蛋糕后，拿出人偶清洗一下，就可以保留了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-5",
+          "speaker": "艾伦兹",
+          "text": "原来如此。那么，人偶如果萌生意识，反而是一件好事。\n这是真正意义上，与甜品进行了心意交融。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-6",
+          "speaker": "艾伦兹",
+          "text": "对了，订单还没完成吧？\n下一份巧克力就做成贴身衣物，由你穿在身上送来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-7",
+          "speaker": "主人",
+          "text": "容我拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 17。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-16",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 16"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1400-1",
+          "speaker": "艾伦兹",
+          "text": "吾听说，人类送礼的礼节非常繁琐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-2",
+          "speaker": "艾伦兹",
+          "text": "收到礼物后，首先要在心中估算对方礼物的价值，自己回赠礼品的价格必须等值或更高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-3",
+          "speaker": "艾伦兹",
+          "text": "礼物的价值果真有那么关键吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 18。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-17",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 17"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "19",
+              "targetKind": "chat-node",
+              "text": "当然重要"
+            },
+            {
+              "targetId": "20",
+              "targetKind": "chat-node",
+              "text": "要看情况"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-18",
+      "sourceRefs": [],
+      "title": "节点 18"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1501-1",
+          "speaker": "主人",
+          "text": "如果送了价值过低的礼品，总会受人非议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-2",
+          "speaker": "艾伦兹",
+          "text": "所以，礼物越贵重就越好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-3",
+          "speaker": "主人",
+          "text": "可以这么说吧，谁不想体会被金钱淹没的幸福呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-4",
+          "speaker": "艾伦兹",
+          "text": "有道理。人类，你给了吾新的启发。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-19",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 19"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1502-1",
+          "speaker": "主人",
+          "text": "要好的朋友或恋人之间，也不必拘泥这种规则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-2",
+          "speaker": "艾伦兹",
+          "text": "......是吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-3",
+          "speaker": "主人",
+          "text": "艾伦兹好像有点失望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-4",
+          "speaker": "艾伦兹",
+          "text": "以为自己已经接近正确答案，却再次被否定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-5",
+          "speaker": "艾伦兹",
+          "text": "复杂。\n人类世界的规则，太过复杂了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-20",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 20"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1600-1",
+          "speaker": "艾伦兹",
+          "text": "你做得很好，订单完成的时间比吾想象中早很多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-2",
+          "speaker": "主人",
+          "text": "现在可以告诉我了吗？你为什么要订这些东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-3",
+          "speaker": "艾伦兹",
+          "text": "迟钝的家伙，到现在还毫无察觉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-4",
+          "speaker": "艾伦兹",
+          "text": "2月的手作巧克力，在人类世界的特殊含义......\n难道，需要吾给你提醒吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "6",
+              "targetId": "chat-29001-1600-6",
+              "targetKind": "chat-text",
+              "text": "2月14日？"
+            },
+            {
+              "rawTargetId": "6",
+              "targetId": "chat-29001-1600-6",
+              "targetKind": "chat-text",
+              "text": "情人节？"
+            }
+          ],
+          "sourceId": "chat-29001-1600-5",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1600-6",
+          "speaker": "艾伦兹",
+          "text": "......哼，狡猾的人类。\n你刚才，果然是在明知故问。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-7",
+          "speaker": "艾伦兹",
+          "text": "吾许诺的报酬，一定会兑现。\n完成订单后，你将收获吾的回礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-8",
+          "speaker": "艾伦兹",
+          "text": "交融在可可中的甜蜜味道，是吾为你准备的私人订制。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-9",
+          "speaker": "主人",
+          "text": "私人订制！我已经开始期待了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-10",
+          "speaker": "艾伦兹",
+          "text": "那么，吾提前预定了，你一整天的时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-11",
+          "speaker": "主人",
+          "text": "需要那么久吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-12",
+          "speaker": "艾伦兹",
+          "text": "没错。这份回礼，会比你想象中更加隆重。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 22。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-21",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 21"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1700-1",
+          "speaker": "艾伦兹",
+          "text": "回礼真是份繁重的工作，不过，总算完成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-2",
+          "speaker": "主人",
+          "text": "但是......我并没有收到什么「回礼」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-3",
+          "speaker": "艾伦兹",
+          "text": "吾已经以你的名义，给后宅的全体手办，以及柯斯顿城的全体居民，每人送了一份情人节巧克力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-4",
+          "speaker": "主人",
+          "text": "全、全体？！那是有多少人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-5",
+          "speaker": "艾伦兹",
+          "text": "你制作的每一份巧克力，都被物尽其用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-6",
+          "speaker": "主人",
+          "text": "那么，收到巧克力的手办们有什么反应？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-7",
+          "speaker": "艾伦兹",
+          "text": "该怎么形容......普天同庆？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-8",
+          "speaker": "艾伦兹",
+          "text": "比起巧克力，他们对于吾亲手制作的「传达爱的卡片」更感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-9",
+          "speaker": "艾伦兹",
+          "text": "相信大家已经迫不及待到你面前，给你爱的回应了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-10",
+          "speaker": "主人",
+          "text": "地、地在震！有什么东西，要冲进来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-11",
+          "speaker": "主人",
+          "text": "响起了堪称恐怖的敲门声！\n艾伦兹，请你去和他们解释清楚吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-12",
+          "speaker": "艾伦兹",
+          "text": "礼物已经送达，吾就不多打扰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1700-13",
+          "speaker": "艾伦兹",
+          "text": "如你所言，「将自己的爱传达给大家」，果然是一件幸福的事。",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·普天同庆",
+          "type": "heading"
+        }
+      ],
+      "id": "node-22",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 22 · 结局·普天同庆"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-502-1",
+          "speaker": "主人",
+          "text": "毕竟，我不可能把失败品交给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-502-2",
+          "speaker": "艾伦兹",
+          "text": "原来如此。下次一并呈上来就好，吾不会嫌弃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-502-3",
+          "speaker": "主人",
+          "text": "真的吗？可能很难吃，或者根本不成型......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-502-4",
+          "speaker": "艾伦兹",
+          "text": "没关系。人类制作的笨拙失败品，也很有趣。\n在烹饪方面，吾也可以给你一点提示：",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-502-5",
+          "speaker": "艾伦兹",
+          "text": "不妨先从单一的口味开始制作，把某种材料运用到极致。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 24。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-23",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 23"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-600-1",
+          "speaker": "艾伦兹",
+          "text": "提前告知你，吾开始了一项困难的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-2",
+          "speaker": "主人",
+          "text": "需要帮助吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-3",
+          "speaker": "艾伦兹",
+          "text": "唯独这件事，必须由我亲力亲为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-4",
+          "speaker": "艾伦兹",
+          "text": "需要完成取材、设计、加工、购物、午睡等繁重的任务......因此，近期无法及时回复你的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-5",
+          "speaker": "主人",
+          "text": "这么困难的工作，是怎样的大工程呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-600-6",
+          "speaker": "艾伦兹",
+          "text": "目前阶段，这是个秘密。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 25。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-24",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 24"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-700-1",
+          "speaker": "艾伦兹",
+          "text": "为什么，偏偏是巧克力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-2",
+          "speaker": "艾伦兹",
+          "text": "常见，廉价，却用它表达爱慕。\n看来，人类总喜欢赋予一些东西不存在的意义。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-3",
+          "speaker": "主人",
+          "text": "那你觉得，什么才能表达爱慕？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-4",
+          "speaker": "艾伦兹",
+          "text": "金银，或是宝石。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-5",
+          "speaker": "主人",
+          "text": "这对普通人而言太过奢侈了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-6",
+          "speaker": "艾伦兹",
+          "text": "母后向父王表达爱慕时，献上了堆积如山的珠宝，甚至用纯金打造了和父王体型同样庞大的雕塑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-700-7",
+          "speaker": "艾伦兹",
+          "text": "明白了吗，人类？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "9",
+              "targetId": "chat-29001-700-9",
+              "targetKind": "chat-text",
+              "text": "明白什么"
+            },
+            {
+              "rawTargetId": "9",
+              "targetId": "chat-29001-700-9",
+              "targetKind": "chat-text",
+              "text": "不敢明白"
+            }
+          ],
+          "sourceId": "chat-29001-700-8",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-700-9",
+          "speaker": "艾伦兹",
+          "text": "你应该明白，这笔订单，是对你多大的恩赐。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 26。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-25",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 25"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-800-1",
+          "speaker": "艾伦兹",
+          "text": "吾翻到一本古籍，上面记载了让人相爱的魔法。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "3",
+              "targetId": "chat-29001-800-3",
+              "targetKind": "chat-text",
+              "text": "听起来很危险"
+            },
+            {
+              "rawTargetId": "3",
+              "targetId": "chat-29001-800-3",
+              "targetKind": "chat-text",
+              "text": "听起来很有趣"
+            }
+          ],
+          "sourceId": "chat-29001-800-2",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-800-3",
+          "speaker": "艾伦兹",
+          "text": "读完它之后，我立刻使用了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-4",
+          "speaker": "主人",
+          "text": "使用了？！对谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-5",
+          "speaker": "艾伦兹",
+          "text": "使用了龙焰——对那本书。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "7",
+              "targetId": "chat-29001-800-7",
+              "targetKind": "chat-text",
+              "text": "干得漂亮"
+            },
+            {
+              "rawTargetId": "7",
+              "targetId": "chat-29001-800-7",
+              "targetKind": "chat-text",
+              "text": "有些可惜"
+            }
+          ],
+          "sourceId": "chat-29001-800-6",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-800-7",
+          "speaker": "艾伦兹",
+          "text": "爱情与龙族的荣耀一样，值得最高的敬意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-8",
+          "speaker": "艾伦兹",
+          "text": "不容愚弄，不容亵渎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-9",
+          "speaker": "主人",
+          "text": "很少见到艾伦兹这样严肃的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-10",
+          "speaker": "艾伦兹",
+          "text": "偶尔也该向你展现龙族威严的一面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-800-11",
+          "speaker": "艾伦兹",
+          "text": "不过到此为止了。因为吾相信，你和吾见解一致。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 27。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-26",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 26"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-900-1",
+          "speaker": "艾伦兹",
+          "text": "你在期待吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-2",
+          "speaker": "主人",
+          "text": "期待什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-3",
+          "speaker": "艾伦兹",
+          "text": "盯着漆黑的屏幕苦守，回味着曾经的对话辗转反侧——\n直到吾发来新的消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-4",
+          "speaker": "艾伦兹",
+          "text": "书上说，这是亲密关系进展的必经阶段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-5",
+          "speaker": "主人",
+          "text": "这是一本讲什么的书啊......？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-6",
+          "speaker": "艾伦兹",
+          "text": "大概是关于心理......人际关系......婚姻与家庭。\n咳！你还没回答吾的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-7",
+          "speaker": "主人",
+          "text": "对消息的期待吗？\n我想......我应该和艾伦兹的状态差不多？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-8",
+          "speaker": "艾伦兹",
+          "text": "......哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-900-9",
+          "speaker": "艾伦兹",
+          "text": "你最好没有说谎。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 28。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-27",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 27"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1000-1",
+          "speaker": "艾伦兹",
+          "text": "为什么人类喜欢亲手制作的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-2",
+          "speaker": "主人",
+          "text": "明明让我从种植可可豆开始做巧克力，却提出这种问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-3",
+          "speaker": "艾伦兹",
+          "text": "那只是基于形式的模仿，吾还不够了解人类的心理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1000-4",
+          "speaker": "艾伦兹",
+          "text": "比方说，作为礼物，高价购买的精美点心，和亲手制作的难吃点心，你认为哪种更有意义？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 29。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-28",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 28"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "30",
+              "targetKind": "chat-node",
+              "text": "当然是亲手制作"
+            },
+            {
+              "targetId": "39",
+              "targetKind": "chat-node",
+              "text": "具体有多难吃？"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-29",
+      "sourceRefs": [],
+      "title": "节点 29"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1101-1",
+          "speaker": "主人",
+          "text": "这种行为包含的情谊，已经超越了一些金钱能够衡量的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-2",
+          "speaker": "主人",
+          "text": "无论味道如何，后者都已经赢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-3",
+          "speaker": "艾伦兹",
+          "text": "真是令人感动的回答。\n果真如此，亲手制作的意义本身胜过一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-4",
+          "speaker": "艾伦兹",
+          "text": "嗯，是吾多虑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-5",
+          "speaker": "主人",
+          "text": "多虑？艾伦兹本来有什么苦恼吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1101-6",
+          "speaker": "艾伦兹",
+          "text": "不，我的困惑现在已经得到了解答。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 31。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-30",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 30"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1200-1",
+          "speaker": "艾伦兹",
+          "text": "吾今天独自在外寻找灵感，遇到了一只奇怪的狐狸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-2",
+          "speaker": "主人",
+          "text": "真不妙！你没有被抓伤吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-3",
+          "speaker": "艾伦兹",
+          "text": "他是长着狐狸耳朵的手办，一家花店店长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-4",
+          "speaker": "主人",
+          "text": "明智光秀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-5",
+          "speaker": "艾伦兹",
+          "text": "吾没有问他的名字。\n作为近期工作的犒劳，吾订了一束花给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-6",
+          "speaker": "艾伦兹",
+          "text": "一束龙舌兰，稀有、昂贵，最为匹配龙族的身份。\n唯一的缺点是，它的样子一点也不像龙舌。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "我很开心"
+            },
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "谢谢艾伦兹"
+            }
+          ],
+          "sourceId": "chat-29001-1200-7",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1200-8",
+          "speaker": "艾伦兹",
+          "text": "花的质量很不错，吾听从狐狸的建议订了花店的包纪套餐，果然是正确决定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-9",
+          "speaker": "主人",
+          "text": "打错字了吗？包季。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-10",
+          "speaker": "艾伦兹",
+          "text": "包纪。从明天开始，订了一个世纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-11",
+          "speaker": "主人",
+          "text": "......下次出门买东西，带上桑尼一起去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-12",
+          "speaker": "艾伦兹",
+          "text": "为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-13",
+          "speaker": "主人",
+          "text": "没什么，桑尼人傻钱多，我怕她被骗，想拜托你盯着点她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-14",
+          "speaker": "艾伦兹",
+          "text": "的确，她真是让人担心。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 32。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-31",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 31"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1300-1",
+          "speaker": "艾伦兹",
+          "text": "今天吾去西点屋取材，看到一款人偶蛋糕——少女模样的人偶穿着面粉和奶油制作成的裙摆，站在托盘中央。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-2",
+          "speaker": "艾伦兹",
+          "text": "真是可悲，如果她们有意识，岂不是要直面自己成为食物的命运？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-3",
+          "speaker": "主人",
+          "text": "「插在」蛋糕中间的人偶一般都是装饰品，不能吃吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-4",
+          "speaker": "主人",
+          "text": "其实，蛋糕相当于是人偶的外衣。\n吃掉蛋糕后，拿出人偶清洗一下，就可以保留了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-5",
+          "speaker": "艾伦兹",
+          "text": "原来如此。那么，人偶如果萌生意识，反而是一件好事。\n这是真正意义上，与甜品进行了心意交融。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-6",
+          "speaker": "艾伦兹",
+          "text": "对了，订单还没完成吧？\n下一份巧克力就做成贴身衣物，由你穿在身上送来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-7",
+          "speaker": "主人",
+          "text": "容我拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 33。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-32",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 32"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1400-1",
+          "speaker": "艾伦兹",
+          "text": "吾听说，人类送礼的礼节非常繁琐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-2",
+          "speaker": "艾伦兹",
+          "text": "收到礼物后，首先要在心中估算对方礼物的价值，自己回赠礼品的价格必须等值或更高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-3",
+          "speaker": "艾伦兹",
+          "text": "礼物的价值果真有那么关键吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 34。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-33",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 33"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "35",
+              "targetKind": "chat-node",
+              "text": "当然重要"
+            },
+            {
+              "targetId": "36",
+              "targetKind": "chat-node",
+              "text": "要看情况"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-34",
+      "sourceRefs": [],
+      "title": "节点 34"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1501-1",
+          "speaker": "主人",
+          "text": "如果送了价值过低的礼品，总会受人非议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-2",
+          "speaker": "艾伦兹",
+          "text": "所以，礼物越贵重就越好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-3",
+          "speaker": "主人",
+          "text": "可以这么说吧，谁不想体会被金钱淹没的幸福呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-4",
+          "speaker": "艾伦兹",
+          "text": "有道理。人类，你给了吾新的启发。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-35",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 35"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1502-1",
+          "speaker": "主人",
+          "text": "要好的朋友或恋人之间，也不必拘泥这种规则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-2",
+          "speaker": "艾伦兹",
+          "text": "......是吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-3",
+          "speaker": "主人",
+          "text": "艾伦兹好像有点失望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-4",
+          "speaker": "艾伦兹",
+          "text": "以为自己已经接近正确答案，却再次被否定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-5",
+          "speaker": "艾伦兹",
+          "text": "复杂。\n人类世界的规则，太过复杂了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-36",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 36"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1600-1",
+          "speaker": "艾伦兹",
+          "text": "你做得很好，订单完成的时间比吾想象中早很多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-2",
+          "speaker": "主人",
+          "text": "现在可以告诉我了吗？你为什么要订这些东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-3",
+          "speaker": "艾伦兹",
+          "text": "迟钝的家伙，到现在还毫无察觉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-4",
+          "speaker": "艾伦兹",
+          "text": "2月的手作巧克力，在人类世界的特殊含义......\n难道，需要吾给你提醒吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "6",
+              "targetId": "chat-29001-1600-6",
+              "targetKind": "chat-text",
+              "text": "2月14日？"
+            },
+            {
+              "rawTargetId": "6",
+              "targetId": "chat-29001-1600-6",
+              "targetKind": "chat-text",
+              "text": "情人节？"
+            }
+          ],
+          "sourceId": "chat-29001-1600-5",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1600-6",
+          "speaker": "艾伦兹",
+          "text": "......哼，狡猾的人类。\n你刚才，果然是在明知故问。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-7",
+          "speaker": "艾伦兹",
+          "text": "吾许诺的报酬，一定会兑现。\n完成订单后，你将收获吾的回礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-8",
+          "speaker": "艾伦兹",
+          "text": "交融在可可中的甜蜜味道，是吾为你准备的私人订制。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-9",
+          "speaker": "主人",
+          "text": "私人订制！我已经开始期待了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-10",
+          "speaker": "艾伦兹",
+          "text": "那么，吾提前预定了，你一整天的时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-11",
+          "speaker": "主人",
+          "text": "需要那么久吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1600-12",
+          "speaker": "艾伦兹",
+          "text": "没错。这份回礼，会比你想象中更加隆重。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 38。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-37",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 37"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1800-1",
+          "speaker": "艾伦兹",
+          "text": "开门接收惊喜吧，人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-2",
+          "speaker": "主人",
+          "text": "奇怪......打不开，门好像被什么东西堵住了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-3",
+          "speaker": "艾伦兹",
+          "text": "试试再用力一点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-4",
+          "speaker": "主人",
+          "text": "总算推开了。\n不知为什么，门口堵了一块石碑一样的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-5",
+          "speaker": "艾伦兹",
+          "text": "那正是吾的回礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-6",
+          "speaker": "艾伦兹",
+          "text": "这是用你送来的全部巧克力融化灌注制成——饱含吾真挚心意和天才创想的巧克力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-7",
+          "speaker": "艾伦兹",
+          "text": "上面镌刻的碑文，凝结着爱的光辉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-8",
+          "speaker": "主人",
+          "text": "「吾之所爱，愿你与天同寿，福泽绵长」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-9",
+          "speaker": "艾伦兹",
+          "text": "寓意与龙族一样长寿，和吾共享幸福。\n品尝吧，吾特制巧克力的美妙口味。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "11",
+              "targetId": "chat-29001-1800-11",
+              "targetKind": "chat-text",
+              "text": "看起来很诡异"
+            },
+            {
+              "rawTargetId": "11",
+              "targetId": "chat-29001-1800-11",
+              "targetKind": "chat-text",
+              "text": "闻起来很不妙"
+            }
+          ],
+          "sourceId": "chat-29001-1800-10",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1800-11",
+          "speaker": "艾伦兹",
+          "text": "太失礼了！\n还没入口，就将吾精心烹饪的成果贬低得一无是处吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-12",
+          "speaker": "主人",
+          "text": "好吧，那我就......尝一口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-13",
+          "speaker": "艾伦兹",
+          "text": "味道如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-14",
+          "speaker": "主人",
+          "text": "......已经无法......用语言......来形容了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-15",
+          "speaker": "主人",
+          "text": "咳咳咳！！！这种东西，人类的味觉......根本无法承受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-16",
+          "speaker": "艾伦兹",
+          "text": "果真这么好吃？第一次烹饪的尝试，居然如此成功！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1800-17",
+          "speaker": "艾伦兹",
+          "text": "为了不辜负吾的心意，请你务必要，全部吃完哦。",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·镌刻光辉",
+          "type": "heading"
+        }
+      ],
+      "id": "node-38",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 38 · 结局·镌刻光辉"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1102-1",
+          "speaker": "艾伦兹",
+          "text": "既然是举例，就描述得极端一些——\n混杂各种难以入口的颗粒，散发着腐烂水果的恶臭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-2",
+          "speaker": "主人",
+          "text": "......我不认为我的朋友能把巧克力做成这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-3",
+          "speaker": "艾伦兹",
+          "text": "或许你的朋友不太擅长烹饪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-4",
+          "speaker": "主人",
+          "text": "那么，我会选择前者。\n既然是赠送礼物，就要让收礼者感到开心才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-5",
+          "speaker": "艾伦兹",
+          "text": "......哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-6",
+          "speaker": "主人",
+          "text": "哼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-7",
+          "speaker": "艾伦兹",
+          "text": "人类，吾命令你加快制作巧克力的进度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1102-8",
+          "speaker": "主人",
+          "text": "？？？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 40。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-39",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 39"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1200-1",
+          "speaker": "艾伦兹",
+          "text": "吾今天独自在外寻找灵感，遇到了一只奇怪的狐狸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-2",
+          "speaker": "主人",
+          "text": "真不妙！你没有被抓伤吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-3",
+          "speaker": "艾伦兹",
+          "text": "他是长着狐狸耳朵的手办，一家花店店长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-4",
+          "speaker": "主人",
+          "text": "明智光秀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-5",
+          "speaker": "艾伦兹",
+          "text": "吾没有问他的名字。\n作为近期工作的犒劳，吾订了一束花给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-6",
+          "speaker": "艾伦兹",
+          "text": "一束龙舌兰，稀有、昂贵，最为匹配龙族的身份。\n唯一的缺点是，它的样子一点也不像龙舌。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "我很开心"
+            },
+            {
+              "rawTargetId": "8",
+              "targetId": "chat-29001-1200-8",
+              "targetKind": "chat-text",
+              "text": "谢谢艾伦兹"
+            }
+          ],
+          "sourceId": "chat-29001-1200-7",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29001-1200-8",
+          "speaker": "艾伦兹",
+          "text": "花的质量很不错，吾听从狐狸的建议订了花店的包纪套餐，果然是正确决定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-9",
+          "speaker": "主人",
+          "text": "打错字了吗？包季。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-10",
+          "speaker": "艾伦兹",
+          "text": "包纪。从明天开始，订了一个世纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-11",
+          "speaker": "主人",
+          "text": "......下次出门买东西，带上桑尼一起去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-12",
+          "speaker": "艾伦兹",
+          "text": "为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-13",
+          "speaker": "主人",
+          "text": "没什么，桑尼人傻钱多，我怕她被骗，想拜托你盯着点她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1200-14",
+          "speaker": "艾伦兹",
+          "text": "的确，她真是让人担心。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 41。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-40",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 40"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1300-1",
+          "speaker": "艾伦兹",
+          "text": "今天吾去西点屋取材，看到一款人偶蛋糕——少女模样的人偶穿着面粉和奶油制作成的裙摆，站在托盘中央。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-2",
+          "speaker": "艾伦兹",
+          "text": "真是可悲，如果她们有意识，岂不是要直面自己成为食物的命运？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-3",
+          "speaker": "主人",
+          "text": "「插在」蛋糕中间的人偶一般都是装饰品，不能吃吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-4",
+          "speaker": "主人",
+          "text": "其实，蛋糕相当于是人偶的外衣。\n吃掉蛋糕后，拿出人偶清洗一下，就可以保留了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-5",
+          "speaker": "艾伦兹",
+          "text": "原来如此。那么，人偶如果萌生意识，反而是一件好事。\n这是真正意义上，与甜品进行了心意交融。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-6",
+          "speaker": "艾伦兹",
+          "text": "对了，订单还没完成吧？\n下一份巧克力就做成贴身衣物，由你穿在身上送来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1300-7",
+          "speaker": "主人",
+          "text": "容我拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 42。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-41",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 41"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1400-1",
+          "speaker": "艾伦兹",
+          "text": "吾听说，人类送礼的礼节非常繁琐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-2",
+          "speaker": "艾伦兹",
+          "text": "收到礼物后，首先要在心中估算对方礼物的价值，自己回赠礼品的价格必须等值或更高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1400-3",
+          "speaker": "艾伦兹",
+          "text": "礼物的价值果真有那么关键吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 43。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-42",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 42"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "44",
+              "targetKind": "chat-node",
+              "text": "当然重要"
+            },
+            {
+              "targetId": "45",
+              "targetKind": "chat-node",
+              "text": "要看情况"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-43",
+      "sourceRefs": [],
+      "title": "节点 43"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1501-1",
+          "speaker": "主人",
+          "text": "如果送了价值过低的礼品，总会受人非议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-2",
+          "speaker": "艾伦兹",
+          "text": "所以，礼物越贵重就越好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-3",
+          "speaker": "主人",
+          "text": "可以这么说吧，谁不想体会被金钱淹没的幸福呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1501-4",
+          "speaker": "艾伦兹",
+          "text": "有道理。人类，你给了吾新的启发。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 46。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-44",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 44"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1502-1",
+          "speaker": "主人",
+          "text": "要好的朋友或恋人之间，也不必拘泥这种规则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-2",
+          "speaker": "艾伦兹",
+          "text": "......是吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-3",
+          "speaker": "主人",
+          "text": "艾伦兹好像有点失望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-4",
+          "speaker": "艾伦兹",
+          "text": "以为自己已经接近正确答案，却再次被否定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1502-5",
+          "speaker": "艾伦兹",
+          "text": "复杂。\n人类世界的规则，太过复杂了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 47。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-45",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 45"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-1900-1",
+          "speaker": "艾伦兹",
+          "text": "人类，你可以去阳台迎接吾的回礼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-2",
+          "speaker": "艾伦兹",
+          "text": "怀着期待打开窗户，望向远方吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-3",
+          "speaker": "主人",
+          "text": "怎么回事！我的脚，被粘住了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-4",
+          "speaker": "艾伦兹",
+          "text": "请放心，这是回礼的一环。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-5",
+          "speaker": "主人",
+          "text": "远处有什么金光闪闪的东西......正在飞向这边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-6",
+          "speaker": "主人",
+          "text": "是小龙......背着堆成小山的金币，要从窗户洒进来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-7",
+          "speaker": "艾伦兹",
+          "text": "吾按照柯斯顿城最高面值货币定制的金币巧克力。\n巧克力的外包装，是货真价实的金箔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-8",
+          "speaker": "主人",
+          "text": "太多了！艾伦兹，屋子里要盛不下了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-9",
+          "speaker": "主人",
+          "text": "艾伦兹，等等，停下！\n我要被埋@&#%QVZAE",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-10",
+          "speaker": "艾伦兹",
+          "text": "吾精心设计的「金币巧克力雨」如何？\n这份礼物足够贵重吗，人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-11",
+          "speaker": "艾伦兹",
+          "text": "......人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-1900-12",
+          "speaker": "艾伦兹",
+          "text": "看来，吾为你实现了呢，被金钱淹没的幸福。",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·金碧辉煌",
+          "type": "heading"
+        }
+      ],
+      "id": "node-46",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "1900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 46 · 结局·金碧辉煌"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29001-2000-1",
+          "speaker": "艾伦兹",
+          "text": "让你久等了，现在请前往餐厅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-2",
+          "speaker": "主人",
+          "text": "好香的巧克力味。这一桌菜，是艾伦兹准备的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-3",
+          "speaker": "艾伦兹",
+          "text": "龙族最高规格的晚宴——巧克力主题，今日限定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-4",
+          "speaker": "主人",
+          "text": "全部是......巧克力制作的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-5",
+          "speaker": "艾伦兹",
+          "text": "不，但每一道菜都使用巧克力点缀或调味，是我近期取材后钻研的原创菜品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-6",
+          "speaker": "主人",
+          "text": "艾伦兹不来和我一起吗？明明摆放了两个座椅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-7",
+          "speaker": "艾伦兹",
+          "text": "慢慢享用吧，吾会在恰当的时机出场的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-8",
+          "speaker": "艾伦兹",
+          "text": "......味道如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-9",
+          "speaker": "主人",
+          "text": "精致新奇，而且非常美味！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-10",
+          "speaker": "主人",
+          "text": "差不多吃好了。现在，艾伦兹可以出来见我了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-11",
+          "speaker": "艾伦兹",
+          "text": "晚餐还没结束。察觉到了吗，少了些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-12",
+          "speaker": "主人",
+          "text": "虽然很多菜用到巧克力，口味却都不是很甜......少了甜点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-13",
+          "speaker": "艾伦兹",
+          "text": "今天的甜品比较特别。「人偶蛋糕」，还记得吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-14",
+          "speaker": "主人",
+          "text": "难道艾伦兹......把自己做成了蛋糕？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-15",
+          "speaker": "艾伦兹",
+          "text": "吾不可能把自己尊贵的身体插入黏腻的蛋糕里！\n但......今天的服装，是由巧克力制作的，点缀蔷薇的礼服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-16",
+          "speaker": "艾伦兹",
+          "text": "粉色蔷薇的花语......你明白的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-17",
+          "speaker": "主人",
+          "text": "爱的誓言？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-18",
+          "speaker": "艾伦兹",
+          "text": "情人节快乐。享用完餐后甜点之后......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29001-2000-19",
+          "speaker": "艾伦兹",
+          "text": "今天还有很长时间可以一起度过，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·龙焰蔷薇",
+          "type": "heading"
+        }
+      ],
+      "id": "node-47",
+      "sourceRefs": [
+        {
+          "detailId": "29001",
+          "sectionId": "2000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 47 · 结局·龙焰蔷薇"
+    }
+  ],
+  "source": {
+    "kind": "chat-story",
+    "refs": [
+      {
+        "detailId": "29001",
+        "table": "ResOpActivityChatGamePlot"
+      },
+      {
+        "detailId": "29001",
+        "table": "ResOpActivityChatGameSection"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "聊天剧情与全部结局",
+  "wordCount": 6649
+}

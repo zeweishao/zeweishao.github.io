@@ -1,0 +1,154 @@
+{
+  "bookId": "rewind-11",
+  "id": "source-6655",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "6655001",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "情报略有出入。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655002",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "主要体现在心理年龄预测及战斗技巧两方面。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655003",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "实际指向约为14-19岁少女。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655004",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "逻辑混乱，沉溺自我幻想，擅长纠缠不休。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655005",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "战斗特征为毫无章法挥动武器，偏好视觉效果，着重使用特效迷惑对手的风格吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655006",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "铲车在哪里，你个骗子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655007",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "要没完没了了，单刀直入。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "FIGURE联邦警署特别行动员——凛，负责安保、防卫及相关侦查工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "根据线人提供线索，初步怀疑两位涉嫌协助犯罪份子，共同参与了一起绑架案件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "请配合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "绑……绑架？我们不会这么做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6655012",
+          "sourceType": 9,
+          "text": "你们见过这样的纸牌吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6655013",
+          "sourceType": 9,
+          "text": "这……这是那时候的……",
+          "type": "narration"
+        }
+      ],
+      "id": "6655",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6655001,
+            6655002,
+            6655003,
+            6655004,
+            6655005,
+            6655006,
+            6655007,
+            6655008,
+            6655009,
+            6655010,
+            6655011,
+            6655012,
+            6655013
+          ],
+          "sectionId": 6655
+        }
+      ],
+      "title": "大变活人·Ⅲ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9040013",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9040013",
+          "after_result_avg"
+        ],
+        "sectionId": 6655,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "大变活人·Ⅲ",
+  "wordCount": 231
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215002",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "假日里通常选择宅在家里睡大觉的葵，为了摄取光合作用所需的原材料，趿着拖鞋睡眼惺忪的出门了。她手里拿着爆米花和果汁饮料，看起来十分惬意的模样。\n\n“（打哈欠）这是获取快乐最轻松的方式之一。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "悠然自得Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215002",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "葵·悠然自得Ver.",
+  "title": "悠然自得Ver.",
+  "wordCount": 92
+}

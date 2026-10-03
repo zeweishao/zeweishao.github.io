@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215002",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气枪战游戏《少女X机关枪》「葵」以全新姿态登场，休闲的站姿更加衬托其明黄色的长发与柔韧的身体曲线。大范围的绿色和白色部分，细腻呈现精致涂装与光泽感的差异。此外，奥菲利亚赠送的睡眠眼罩和向日葵抱枕也精致呈现。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215002"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 104
+}

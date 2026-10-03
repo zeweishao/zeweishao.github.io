@@ -1,0 +1,54 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37412",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37412001",
+          "sourceType": 0,
+          "speaker": "百货店主",
+          "text": "看到那些装在盒子里的手办了吗？\n先用剪刀拆开包装，才能移动。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37412",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37412001
+          ],
+          "sectionId": 37412
+        }
+      ],
+      "title": "消除关卡 21 · 开场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "21",
+              "enter_avg_id"
+            ],
+            "table": "ResEliminate.lua"
+          }
+        ],
+        "path": [
+          "21",
+          "enter_avg_id"
+        ],
+        "sectionId": 37412,
+        "table": "ResEliminate"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "消除关卡 21 · 开场",
+  "wordCount": 29
+}

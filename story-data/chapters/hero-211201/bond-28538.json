@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-211201",
+  "id": "bond-28538",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28538001",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "你这是要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "突发奇想顺手做的，觉得很适合你，送给你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538003",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "你这家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538004",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "知道对于龙族而言，赠送屋舍有多么重大的意义么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "就这么随随便便地拿出来交给我，谁给你的胆子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咦，是这座房子哪里做的不够好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我查了很多关于罗斯本家和柯斯顿城的资料，这个建筑造型应该就是你故乡的风格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538008",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "我没说不好，只能说太像了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538009",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "我已经很久很久没有见到与故乡相似的事物了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538010",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "这房子我要定了，就算你想收回去也不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不会收回去的，你喜欢就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538012",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "相对的，我要拿出身为一个龙族男人的最高尊严，向你允诺——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28538013",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "无论何时何地，只要你需要，我将为你扫平一切障碍。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28538",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28538001,
+            28538002,
+            28538003,
+            28538004,
+            28538005,
+            28538006,
+            28538007,
+            28538008,
+            28538009,
+            28538010,
+            28538011,
+            28538012,
+            28538013
+          ],
+          "sectionId": 28538
+        }
+      ],
+      "title": "男人的允诺"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "男人的允诺",
+  "wordCount": 251
+}

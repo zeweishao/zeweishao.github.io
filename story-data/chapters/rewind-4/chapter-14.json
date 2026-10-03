@@ -1,0 +1,2070 @@
+{
+  "bookId": "rewind-4",
+  "id": "chapter-14",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "2207001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "都说完了？没有隐瞒？优纪，说谎的孩子不是好孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没有，这次优纪真的没有说谎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来以前有说谎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "就一点点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "算了，那就是说她们还在追杀你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，但现在已经被我们甩掉了。只是她们现在真的变得很厉害。我们根本打不过。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2207008",
+              "text": "联系阿尔弗雷德"
+            }
+          ],
+          "sourceId": "2207007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2207008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "管理局的通讯……对了！阿尔弗雷德，他可能有办法！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207010",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "试炼者们，最近的调查有什么进展？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿尔弗雷德！快帮帮我们！那个叫弗吉尼娅的带来了一种涂料，涂在手办身上，就会让对方的力量增强。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "更棘手的状况是，对方已经批量投入使用，对抗变得更加困难了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘤~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207015",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "一种可以增加手办力量的涂料？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，但是那种涂料有点奇怪，使用了这种涂料的人，性情都会变得很暴躁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿尔弗雷德有办法帮下我们吗？她们还在追我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207018",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "没有办法！你们不到处招惹天启的家伙，怎么会惹来这些麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "阿尔弗雷德，根据现在的情形，我不认为就算我们防卫会有用，很明显对方是已经盯上了优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207020",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "你们现在的位置报一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207021",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "喂，接下来我会告诉你们一个地址，你们尽快赶过去。但对于这个地址，不可以泄露给任何人或者手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207022",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "都记住了吗？记住了就赶紧赶过去。感谢阿尔弗雷德的慈悲吧，毕竟我可不希望自己的狗腿们变成缺胳膊少腿的残废。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207023",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "顺便一提，「天启」相关的事，问问看或许也会有额外收获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，都记住了。我们现在就赶过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207025",
+          "sourceType": 13,
+          "speaker": "海伦",
+          "text": "阿尔弗雷德，这是违规的。\n就算是前员工，我们也要严格保护对方的住址和个人信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207026",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "这件事情，你不提及，没有人会知道的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207027",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "那我在这里等你们回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207028",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "主人你放心，我和小梅酱会帮你处理好报名事项的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那拜托你们了。我们会尽快赶回来、",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2207030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "荆棘路13号……是这里没错吧，唔，这个是门铃吗？\n——叮咚！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208002",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "你们迟到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对，对不起！因为地图上的路线实在很隐蔽……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208004",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "你就是那个特别的人类吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2208006",
+              "text": "是的，你好。"
+            }
+          ],
+          "sourceId": "2208005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2208006",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "看起来也很普通。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好过分，竟然这样说主人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208008",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "你们来这里，是为了得到变强的方法吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……说起来好像是这样，又好像不是……其实我们也不是很清楚，是阿尔弗雷……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208010",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "管理局的麻烦吗，如果想变强的话，我知道一个地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208011",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "出门右转有一家格斗俱乐部，取得足够多的历练后，再来找我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2208012",
+          "sourceType": 3,
+          "text": "砰——大门关闭了。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-110",
+      "sourceRefs": [
+        {
+          "bundle": "714",
+          "rowIds": [
+            2207001,
+            2207002,
+            2207003,
+            2207004,
+            2207005,
+            2207006,
+            2207007,
+            2207008,
+            2207009,
+            2207010,
+            2207011,
+            2207012,
+            2207013,
+            2207014,
+            2207015,
+            2207016,
+            2207017,
+            2207018,
+            2207019,
+            2207020,
+            2207021,
+            2207022,
+            2207023,
+            2207024,
+            2207025,
+            2207026,
+            2207027,
+            2207028,
+            2207029,
+            2207030
+          ],
+          "sectionId": 2207
+        },
+        {
+          "bundle": "714",
+          "rowIds": [
+            2208001,
+            2208002,
+            2208003,
+            2208004,
+            2208005,
+            2208006,
+            2208007,
+            2208008,
+            2208009,
+            2208010,
+            2208011,
+            2208012
+          ],
+          "sectionId": 2208
+        }
+      ],
+      "title": "#1 荆棘路13号"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2209001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然她人很没礼貌，但推荐的地方竟然还不错，呼~感觉整个人都充满力量了呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那要好好道谢哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209003",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "又是你们，那些力量还不足够吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2209005",
+              "text": "我们是来道谢的。"
+            }
+          ],
+          "sourceId": "2209004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2209005",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "我接受了，走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209006",
+          "sourceType": 3,
+          "text": "砰——大门关闭了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "2209007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎，本来还想问点关于「天启」的事情的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209008",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "喂，你们不要蹲在这里，妨碍我进去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你是……阿蓝？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209010",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "你认识我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚刚看到照片上，里面那位把你抱在怀里，你们两位似乎感情很好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209012",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "赫兰德放你们进屋了？怎么可能，这个手办这么大块头，怎么进去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "只是刚刚门开着的时候，恰好看到了那张照片。\n虽然照片看上去有点年代久远，但依稀能辨认出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209014",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "你们是谁介绍过来的？这里没有人指示，是找不到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2209015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿尔弗雷德。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以她是……你的姑姑吗？虽然你们看起来完全不像是同一个物种……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210002",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "阿蓝是被姑姑捡回去收留的，那时候姑姑还很温柔，笑容也很温暖……原本是从小到大，都是善良而心软的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210003",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "但是自从那天晚上从实验室回来后就变成这样冷冰冰的模样……就连我，她也时常无视。\n如果可以，希望有人能帮下赫兰德小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210004",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "优纪，找到你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是「弗吉尼娅」，她带了涂料，大家小心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "小心可救不了你们的命，上吧，暴躁的奴隶们——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210007",
+          "sourceType": 5,
+          "speaker": "暴躁化手办",
+          "text": "阿吼吼——暴——躁！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你就是弗吉尼娅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210009",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你就是传说中的人类吧，可惜我可不怕你。反倒是你，身为人类插手手办界的事情的话，可是违反《全届公约》的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我没打算和你纠缠，大家快到袋子里来，我们现在就走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210011",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "追！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，她们还在追，这里到处都是乱石，会伤到你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是停下来就会被围攻，还不能反击，万一我不小心真的伤到它们其中一个，以后你们就要被追捕了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "快帮我看看哪里是出路，我对这边不熟悉。糟了，看来已经迷路了。我们在原地转圈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210015",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "这里设置了机关，原本是用来抵御敌人来犯的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么大的机关阵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210017",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "怎么小看我们手办的数量吗？这里可是曾经发生过天启和管理局战争的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210018",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "呃阿……好痛……唔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿蓝，你身上的是涂料？什么时候沾到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210020",
+          "sourceType": 5,
+          "speaker": "阿蓝",
+          "text": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿蓝！振作一点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我要跳出去了，可能会有点抖，抓稳了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2210023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊啊啊啊，飘起来了！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-111",
+      "sourceRefs": [
+        {
+          "bundle": "714",
+          "rowIds": [
+            2209001,
+            2209002,
+            2209003,
+            2209004,
+            2209005,
+            2209006,
+            2209007,
+            2209008,
+            2209009,
+            2209010,
+            2209011,
+            2209012,
+            2209013,
+            2209014,
+            2209015
+          ],
+          "sectionId": 2209
+        },
+        {
+          "bundle": "714",
+          "rowIds": [
+            2210001,
+            2210002,
+            2210003,
+            2210004,
+            2210005,
+            2210006,
+            2210007,
+            2210008,
+            2210009,
+            2210010,
+            2210011,
+            2210012,
+            2210013,
+            2210014,
+            2210015,
+            2210016,
+            2210017,
+            2210018,
+            2210019,
+            2210020,
+            2210021,
+            2210022,
+            2210023
+          ],
+          "sectionId": 2210
+        }
+      ],
+      "title": "#2 去而复返"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2211001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喂，开门阿，你不是阿蓝的姑姑吗！帮帮我们！拜托了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211002",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "死生是各自的命运，跟我没有任何关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211003",
+          "sourceType": 2,
+          "speaker": "赫兰德",
+          "text": "（真是冷漠阿，悲哀的家伙，这就是你的真心话吗？）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211004",
+          "sourceType": 2,
+          "speaker": "赫兰德",
+          "text": "（走开，不要擅自入侵我的思想！）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211005",
+          "sourceType": 2,
+          "speaker": "赫兰德",
+          "text": "（你的确变得无情了，呵，再怎么说我也是你的救命恩人……）",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "瞬杀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "唔……可恶……主人，我们要尽快离开。这样下去，你就走不了了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211008",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "赫兰德小姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "赫兰德小姐！赫兰德小姐，请你至少要救救你的小机器人。我们要走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211010",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "赫兰德小姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211011",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "临终感言说完的话，就安心上路吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211012",
+          "sourceType": 3,
+          "text": "砰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "2211013",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "什么人？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211014",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "滚出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211015",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你身上有让人熟悉的味道，真让人好奇阿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211016",
+          "sourceType": 0,
+          "speaker": "暴躁化手办",
+          "text": "阿吼——暴躁——暴——躁！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211017",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "现在，立刻，滚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211018",
+          "sourceType": 0,
+          "speaker": "暴躁化手办",
+          "text": "暴……呃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211019",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "暴躁涂料在她面前不堪一击么，真是可怕的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211020",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "全部杀掉，杀掉——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这就是赫兰德小姐的力量？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211022",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "赫兰德小姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "有什么地方改变了，但我说不上来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2211024",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "撤退！全部撤退！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "终于将它们都赶跑了。优纪好累。不知道主人和赫兰德小姐在说些什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212002",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "永远保守这个秘密，你能做到吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "2212004",
+              "text": "当然。"
+            }
+          ],
+          "sourceId": "2212003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "2212004",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "你要调查一个人类，他是「Future手办制作大赛」的既得利益者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212005",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "我能说的只有这么多，阿蓝，送客吧——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212006",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "今天谢谢你们，救了我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "其实应该我们向你们道歉，弗吉尼娅是追着我来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212008",
+          "sourceType": 0,
+          "speaker": "阿蓝",
+          "text": "这是姑姑制作的「强力升级特效包」噢，我还偷偷帮你们强化一下身体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "多谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好了，我们要赶紧赶回去和山崎碰面。而且距离主人的比赛时间已经接近了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔……虽然弗吉尼娅的涂料似乎比之前都要强大，但我相信有赫兰德小姐的这些强化药包，我们一定能战胜天启的家伙的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过像赫兰德小姐这么强大的人，竟然一直隐姓埋名生活在这种地方，也是让人想不懂阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪也学会思考了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总觉得，或许……还会再见面呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212015",
+          "sourceType": 3,
+          "text": "紧闭的门后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "2212016",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "特别的，人类吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212017",
+          "sourceType": 0,
+          "speaker": "赫兰德",
+          "text": "还会再见面的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212018",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "你们回来了。我知道怎样可以找到莉莉奈她们了。这里正在举办一场比赛，参赛者中有我和杰斯、莉莉奈的主人。也许她们会来观看比赛的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212019",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "更重要的是，在其中，我看到有一个参赛者的自我介绍，很像你们之前提及过的，真恋的主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们要自己注意安全，记住不要再乱跑，一切等我比赛回来再说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2212021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯，我们会在这里等主人的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-112",
+      "sourceRefs": [
+        {
+          "bundle": "714",
+          "rowIds": [
+            2211001,
+            2211002,
+            2211003,
+            2211004,
+            2211005,
+            2211006,
+            2211007,
+            2211008,
+            2211009,
+            2211010,
+            2211011,
+            2211012,
+            2211013,
+            2211014,
+            2211015,
+            2211016,
+            2211017,
+            2211018,
+            2211019,
+            2211020,
+            2211021,
+            2211022,
+            2211023,
+            2211024
+          ],
+          "sectionId": 2211
+        },
+        {
+          "bundle": "714",
+          "rowIds": [
+            2212001,
+            2212002,
+            2212003,
+            2212004,
+            2212005,
+            2212006,
+            2212007,
+            2212008,
+            2212009,
+            2212010,
+            2212011,
+            2212012,
+            2212013,
+            2212014,
+            2212015,
+            2212016,
+            2212017,
+            2212018,
+            2212019,
+            2212020,
+            2212021
+          ],
+          "sectionId": 2212
+        }
+      ],
+      "title": "#3 瞬间秒杀"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2001001",
+          "sourceType": 3,
+          "text": "阳光下闪耀银白光芒的巨大飞艇前正聚集了众多《终焉地平线》的玩家，人声鼎沸，好不热闹。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "2001002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，人好多，好热闹啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿蓝的强化包真不错，我上的话，感觉自己可以打十个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪、山崎，我们要小心，不能被人类发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好的，没问题~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001006",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001007",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "大家好，这里是第35期《终焉地平线》的比赛直播现场。下面请出我们的参赛选手",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001008",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "首先出场的是来自蓝队蓝狮Lion的队员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "山崎快看快看，你的主人出场了。\n哇塞，他第一个角色就选了你耶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001010",
+          "sourceType": 1,
+          "speaker": "山崎",
+          "text": "剑出，必赢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哦~奥~奥~那杰斯和莉莉奈打得过你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001012",
+          "sourceType": 1,
+          "speaker": "山崎",
+          "text": "3869场战斗，从未败北。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "山崎好厉害！你放心，我们会找到杰斯和莉莉奈的。相信只要解开误会，他们一定会跟你回去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "比起真恋，杰斯和莉莉奈的确比较好劝解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不知道为什么，我觉得真恋的主人阴深深，心情很糟糕的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001016",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵，我想你们很快也会体验到那种心情的。我的可爱手办们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么变态的声音是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001018",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哎呀，妾身这迷人嗓音怎么会变态呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "狩猎者，果然是你。你把杰斯和莉莉奈带到哪里去了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真，真恋和苍岚？你们被狩猎者骗了，她一直在骗你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001021",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "咯咯咯，真恋，怎么办，我说的没错吧，她们一定会这样说的，毕竟她们都是一群狡猾的小老鼠~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "站在最后面的，好像是杰斯和莉莉奈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001023",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "山崎现在不要过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001025",
+          "sourceType": 5,
+          "speaker": "杰斯",
+          "text": "让开让开，你们都统统滚开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001026",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "山崎，你过来！我要把你的四肢通通扯掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001027",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "烫！莉莉奈，你的武器烫到我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001028",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "哦。和我没有关系，是哥哥靠太近了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001029",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "杰斯，莉莉奈，跟我回去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001030",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "本大爷才不会跟你走，去死去死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001031",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "好了，不要耽误太久，不要浪费我精心布置的、专为引小优纪过来的设局，唔~没有弗吉尼娅的时机，适合狩猎的场地，合适的帮手……天时地利人和的局势。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001032",
+          "sourceType": 5,
+          "speaker": "最佳捧场观众",
+          "text": "喔┗|｀O′|┛ 嗷~~（欢呼声）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001033",
+          "sourceType": 0,
+          "speaker": "主持人",
+          "text": "可以看到，「嗜睡者Zzzzz」一如既往的选择了「山崎」，而他的队友罕见的选择了「真恋」。已经进入倒计时，到底哪一队会取得终焉胜利，让我们拭目以待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001034",
+          "sourceType": 0,
+          "speaker": "最佳捧场观众",
+          "text": "喔┗|｀O′|┛ 嗷~~（欢呼声）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001035",
+          "sourceType": 5,
+          "speaker": "杰斯",
+          "text": "山崎，又是你！主人永远都只会选择你。没有我和莉莉奈，没有我们两个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001036",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "糟了，山崎闪开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2001037",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "优纪，你们的对手在这里。不要到处乱跑哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-113",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            2001001,
+            2001002,
+            2001003,
+            2001004,
+            2001005,
+            2001006,
+            2001007,
+            2001008,
+            2001009,
+            2001010,
+            2001011,
+            2001012,
+            2001013,
+            2001014,
+            2001015,
+            2001016,
+            2001017,
+            2001018,
+            2001019,
+            2001020,
+            2001021,
+            2001022,
+            2001023,
+            2001024,
+            2001025,
+            2001026,
+            2001027,
+            2001028,
+            2001029,
+            2001030,
+            2001031,
+            2001032,
+            2001033,
+            2001034,
+            2001035,
+            2001036,
+            2001037
+          ],
+          "sectionId": 2001
+        }
+      ],
+      "title": "#4 飞艇工厂"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2003001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "小优纪，快出来，我知道你躲在哪里了哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "调皮的猴子真是让我苦恼呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，还好我们藏起来，和江你真的太太太机智。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "但一直躲着也不是办法，我刚刚在那边看到山崎了。他的情况不妙，一直被那对杰斯和莉莉奈追着打。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不用太担心，山崎很厉害。他至今都不曾拔剑，估计是不想与对方正面冲突。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那我们要快点过去帮他才行。首先，我们要想办法躲开烦人的狩猎者和原味崽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，我有一个计划。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "计划可行，但有一个难题，你能跑得过这么多原味吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我肺活量还不错，毕竟是每日经受大猫追杀的小可怜，这运动神经早练出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那你要小心，和江会暗中保护你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喂，那边的原味。你怕痛吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003013",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "原味？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003014",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哼哼哈嘿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003015",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "原（好）味（痛）~~~~~~~~~~~~~~~~~~~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003016",
+          "sourceType": 5,
+          "speaker": "原味崽",
+          "text": "原味原味原味！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对对对，就这样，来追我吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003018",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "优纪~躲迷藏是小孩子的游戏哦，快出来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找到你了，狩猎者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003020",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "会躲在哪里呢？\n哎 ，成年人就应该玩玩大人的游戏。安静的角落里，只有我和你，两个人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003021",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这么想的话，这里好像也不错，黑暗，肮脏，刺鼻。\n啊，不行，这里会被人类发现的，狩猎者大人，优纪害怕~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003022",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "（兴奋）妾身已经抑制不住地浑身颤抖了！\n我可爱的小优纪你别害怕~我很快就会找到你的~优纪，你在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "HI~狩猎者，你在找我吗？我在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003024",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我的小优纪，我美味可口的小苹果，见到你妾身很开心呦❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是啊，见到你，我也挺开心的。狩猎者，我也给你带了一份礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003026",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是什么呢？——投怀送抱吗？想不到优纪你如此喜欢我。不过你身后的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003027",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "原味原味原味！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这是礼物哦~狩猎者要好好享受这份礼物哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2003029",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "小优纪真调皮，狩猎者不太喜欢这份礼物，那可怎么办呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-114",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            2003001,
+            2003002,
+            2003003,
+            2003004,
+            2003005,
+            2003006,
+            2003007,
+            2003008,
+            2003009,
+            2003010,
+            2003011,
+            2003012,
+            2003013,
+            2003014,
+            2003015,
+            2003016,
+            2003017,
+            2003018,
+            2003019,
+            2003020,
+            2003021,
+            2003022,
+            2003023,
+            2003024,
+            2003025,
+            2003026,
+            2003027,
+            2003028,
+            2003029
+          ],
+          "sectionId": 2003
+        }
+      ],
+      "title": "#5 混乱"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2213001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，好了，快出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "狩猎者呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在和原味们玩呢，一时半会爬不出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "优纪，我不喜欢这个礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "优纪，你真的要这样舍弃妾身吗？回来，我的小优纪，妾身要生气了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "苍岚，真恋，",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你们两个不要像个不解风情的木头一样，快帮我拦下优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213008",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "我们并没有义务要帮你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "怎么说，我也在在你们落难之时提供栖息之所，你们就这样回报我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213010",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "我不认为你是出于善意收留的我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "真恋，难道你也是这样想我的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213012",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我……我不知道，但我不希望优纪她们受伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是啊，我所熟悉的真恋早已经死了，现在站在我面前的只是一个背叛了救命恩人的人，优纪的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213015",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "（沉默）……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213016",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "我们可以帮你拦下优纪和和江，但能不能抓到她，就凭你自己的本事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213017",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你们能先搭把手把我拉出来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213018",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "这不在我们约定的范围内。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213019",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "（笑）好啊，那你们快去帮我抓住优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213020",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "今天这份屈辱妾身记住了，我定会向你们所有人讨回来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼呼——\n快了，快了，山崎你要坚持住，我们来救你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "山崎是个武力高强的人，不用太担心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213023",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "优纪，和江，你们只能到这里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "苍岚，真恋，你们真的要这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213025",
+          "sourceType": 0,
+          "speaker": "苍岚",
+          "text": "束手就擒就不会受伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213026",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "苍岚，我不能，我现在必须要去和山崎汇合，山崎他要撑不住了。\n真恋，你能让苍岚不要抓我们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2213027",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "优纪，和江，很抱歉。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-115",
+      "sourceRefs": [
+        {
+          "bundle": "714",
+          "rowIds": [
+            2213001,
+            2213002,
+            2213003,
+            2213004,
+            2213005,
+            2213006,
+            2213007,
+            2213008,
+            2213009,
+            2213010,
+            2213011,
+            2213012,
+            2213013,
+            2213014,
+            2213015,
+            2213016,
+            2213017,
+            2213018,
+            2213019,
+            2213020,
+            2213021,
+            2213022,
+            2213023,
+            2213024,
+            2213025,
+            2213026,
+            2213027
+          ],
+          "sectionId": 2213
+        }
+      ],
+      "title": "#6 难缠"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "2005001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "山崎，你要像老鼠一样躲到什么时候，真该让主人看看你现在的模样，老鼠小人。\n莉莉奈!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005002",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "二级能量炮瞄准，发射。——哦，没打中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005003",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "该死的，你怎么就不能乖乖中弹！\n你这个夺走了主人所有注意力的小偷，到底哪一点能让主人喜欢你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "山崎，拔出你的剑，证明给我看。你到底哪里配得上主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005005",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "我不会拔剑的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "为什么！我要杀了你哦，杀了你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005007",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "剑不虚出，出必见血。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "你这话什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005009",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "山崎说我们两个打不过他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "混蛋山崎，你竟敢瞧不起我们！我们可不是游戏里没有自我意识的被操作物。\n我要将你撕碎！三级能量炮瞄准，发射。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "到此为止，杰斯，莉莉奈，你们已经将事情闹得太大了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005012",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "呦，和江，你是来给山崎陪葬的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005013",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "山崎，你的陪葬品可真丰富。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "山崎，你为何不拔剑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005015",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "不必。他伤不了我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005016",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "伤不了？狂妄小偷，我会人让你付出代价的！\n死吧死吧，一起死吧。莉莉奈，全能量准备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005017",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "1-2-3-全能量，准备中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "山崎，你必须拔剑。他们的全能量不容小觑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005019",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "我不会拔剑，我手中的剑不杀身后之人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "既然如此，山崎你让开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005021",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "和江。这是我和他们的战斗，你不能出战。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "2005022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，这不是你和他们的战斗，你们三个是因为我和优纪才和狩猎者碰上的。\n优纪，她不会希望看到你受伤的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-116",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            2005001,
+            2005002,
+            2005003,
+            2005004,
+            2005005,
+            2005006,
+            2005007,
+            2005008,
+            2005009,
+            2005010,
+            2005011,
+            2005012,
+            2005013,
+            2005014,
+            2005015,
+            2005016,
+            2005017,
+            2005018,
+            2005019,
+            2005020,
+            2005021,
+            2005022
+          ],
+          "sectionId": 2005
+        }
+      ],
+      "title": "#7 出色理解力"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 14,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 14,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "管理局的新委托",
+  "title": "第13章",
+  "wordCount": 4926
+}

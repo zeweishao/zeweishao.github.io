@@ -1,0 +1,707 @@
+{
+  "bookId": "rewind-55",
+  "id": "chapter-227",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43011001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么办怎么办，要是被主人知道我又轻信别人、上当受骗，|102|肯定又要说我了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我、我还是不甘心就这样放弃……一定得做些什么才行……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有道理~！只要我们能找回水晶鞋，就能得到那个辛德瑞拉的原谅，我们的负罪感也就会消失了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "真、真的可以吗……可是被朋友欺骗的感觉好难过哦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔……等我们找到爱丽丝，我会给你讨个公道的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总之，我们得先一起去找辛德瑞拉，好好向她道个歉才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯嗯……我这就和你一起去……希望她能原谅我们的过失……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011008",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "道歉那种东西，我不需要。\n我已说过，你们无须自责。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可是……如果不是我们破坏了外墙，爱丽……那个人也不会偷走水晶鞋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们怎么做你才不会生气？无论是什么，我都会去做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011011",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "这次水晶鞋被盗，我的确很生气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011012",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "这件事虽然因你们而起，却并不能完全归咎于你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011013",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "经过今天这些变故，想必你们也累了，在我这寝殿好好休息一下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "谢、谢你的包容……那只被盗的水晶鞋，我一定会替你找回来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43011015",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "在那之前，或许你们会想听一个故事？关于爱丽丝和我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1122",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43011001,
+            43011002,
+            43011003,
+            43011004,
+            43011005,
+            43011006,
+            43011007,
+            43011008,
+            43011009,
+            43011010,
+            43011011,
+            43011012,
+            43011013,
+            43011014,
+            43011015
+          ],
+          "sectionId": 43011
+        }
+      ],
+      "title": "红心王后 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43012001",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "我和爱丽丝的关系，比你们想象得要复杂得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶……你们之间究竟发生了什么？为什么会变成现在这样呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012003",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "我们过去曾经是朋友，但她渴望的生活和我的理想完全不同。\n久而久之，我们便产生了隔阂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "如、如果是朋友的话……她究竟为什么要做伤害你的事呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012005",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "她想让我和她一起回到过去的梦中世界，但我拒绝了，这让她感到愤怒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我明白了……所以她才会用这种方式来引起你的注意……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012007",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "我只是没想到她竟然会想要利用你们，真是太乱来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012008",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "爱丽丝手办化后没多久，就对M城的日常生活产生了厌倦，她开始渴望寻找更多的奇遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么嘛，那她为什么要拉你一起去呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012010",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "我和她都来自童话世界，所以，她理所当然地认为我是唯一能理解她的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012011",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "但我在M城有尚未完成的责任……因此不能随她离开。\n她却以为我的拒绝是为了针对她，频繁来找我的麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜……这样的爱丽丝好、好像曾经渴望朋友的我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012013",
+          "sourceType": 0,
+          "speaker": "黑天鹅女王",
+          "text": "不，我想你们并不一样。\n她认为我背叛了她，从那以后，她就变了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43012014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难怪爱丽丝会用这些计谋来对付你，她这是想要报复你吧……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1123",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43012001,
+            43012002,
+            43012003,
+            43012004,
+            43012005,
+            43012006,
+            43012007,
+            43012008,
+            43012009,
+            43012010,
+            43012011,
+            43012012,
+            43012013,
+            43012014
+          ],
+          "sectionId": 43012
+        }
+      ],
+      "title": "红心王后 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43013001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "决定了！我们一起找到爱丽丝，夺回辛德瑞拉的水晶鞋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013002",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我带你们去爱丽丝常去的几个地方，或许能找到她的踪迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013003",
+          "sourceType": 7,
+          "text": "辛德瑞拉 · 焕梦新生\n商品名称：辛德瑞拉·焕梦新生 Ver.\n作品名称：《仙履奇缘》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约237mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43013004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "太、太好了，有了辛德瑞拉的帮助，一定能找到爱丽丝的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "怎么了，为什么一直盯着我看？这身衣服哪里不对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，没有没有~我只是觉得这件衣服更适合你呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "当然，这是我在魔法学院学习魔法时的装扮，对我来说意义非凡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小心，爱丽丝可能在这里设置了陷阱。我们得留意脚下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我、我踩到了一个装满蜂蜜的罐子……动不了了……怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "让我来。这是爱丽丝设置的恶作剧，必须用魔法才能破除。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013011",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "透明之水，净化世间一切污秽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太厉害了，辛德瑞拉，没想到你真的会使用魔法~！超酷的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013013",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "当然，我手中的魔棒从来都不是摆设。\n对于一名合格的魔法师来说，应对这类事情是必备的技能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43013014",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯嗯，有你在，终于可以安心一点了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1124",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43013001,
+            43013002,
+            43013003,
+            43013004,
+            43013005,
+            43013006,
+            43013007,
+            43013008,
+            43013009,
+            43013010,
+            43013011,
+            43013012,
+            43013013,
+            43013014
+          ],
+          "sectionId": 43013
+        }
+      ],
+      "title": "红心王后 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43014001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看那里，是爱丽丝！我们终于找到她了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "爱丽丝……把水晶鞋交出来，其他的让我们来帮助你，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "水晶鞋？那是什么东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哎呀哎呀，我想起来了，我拿走那双鞋只是想逗一逗辛德瑞拉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "既然我的目的达到了，自然不需要那种东西咯，所以我也不知道水晶鞋在哪里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你把我的水晶鞋丢了？那是我最珍贵的私人物品，你怎么敢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是乱来的孩子……水晶鞋你丢在了哪里，这个总该记得吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哼哼，说不定就在这片林子里的哪个角落，谁知道呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我会找到的，否则……你不会想知道后果是什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014010",
+          "sourceType": 3,
+          "text": "一阵紧张的搜索过后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43014011",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你怎么可以……怎么可以弄丢我最珍视的东西？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014012",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嗯嗯？真的生气啦……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014013",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "对不起嘛，我真的不是故意的，再相信我一次好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014014",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这不仅仅是一只鞋，你根本不明白它的意义……如果找不回来，我绝不原谅你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014015",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜……辛德瑞拉生起气来，好、好可怕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014016",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "好吧好吧，我会尽力帮忙找回鞋子，我保证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014017",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "但你要答应我，找回水晶鞋后，你也要陪我回到仙境世界~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43014018",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "怎么，遗失水晶鞋的始作俑者，竟还有脸跟我谈条件？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1125",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43014001,
+            43014002,
+            43014003,
+            43014004,
+            43014005,
+            43014006,
+            43014007,
+            43014008,
+            43014009,
+            43014010,
+            43014011,
+            43014012,
+            43014013,
+            43014014,
+            43014015,
+            43014016,
+            43014017,
+            43014018
+          ],
+          "sectionId": 43014
+        }
+      ],
+      "title": "红心王后 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43015001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家停一下~！争吵是不能解决问题的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015002",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "抱歉，我刚才有些失态了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你们不明白，水晶鞋对我的意义有多么重要，找不到我是不会罢休的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那就扩大搜索范围，再仔细找一遍吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯嗯，我也想要帮上忙，我已经准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015006",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "好诶！新一轮的槌球游戏开始咯，火烈鸟在哪里~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这地方真的太大了……大家分散开来，全力搜索鞋子的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "到处都是杂草，我们的视野受到很严重的遮掩，怎、怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "天色渐暗，时间快要到了……我的魔法就要失效了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015010",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "呼哇，找东西什么的真无聊……\n我可没说要放弃，干嘛这样盯着我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你知道就好，和我一起到那边的林子下找找看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "那……那个，你愿意和我到后面的草丛寻找水晶鞋吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015013",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "没用的，那里我刚才已经找过了，什么都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43015014",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "失去水晶鞋，就是失去了自我的一部分……这就是命运吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1126",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43015001,
+            43015002,
+            43015003,
+            43015004,
+            43015005,
+            43015006,
+            43015007,
+            43015008,
+            43015009,
+            43015010,
+            43015011,
+            43015012,
+            43015013,
+            43015014
+          ],
+          "sectionId": 43015
+        }
+      ],
+      "title": "红心王后 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 227,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 227,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "128",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "翻滚的红心，王后的游戏。",
+  "title": "红心王后",
+  "wordCount": 1979
+}

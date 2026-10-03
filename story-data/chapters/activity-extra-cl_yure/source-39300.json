@@ -1,0 +1,208 @@
+{
+  "bookId": "activity-extra-cl_yure",
+  "id": "source-39300",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "39300001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "小猪猪——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "乖乖出来哦，不要再跟星洛捉迷藏啦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "我已经闻到你散发出的香味咯，这下你可逃不掉啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300004",
+          "sourceType": 3,
+          "text": "脚步声从不远处传来，每一下都踩中了牡丹的心跳。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39300005",
+          "sourceType": 3,
+          "text": "咚——咚咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39300006",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗——噗噗——噗噗噗——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿！抓~到~你~了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300008",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "星洛的肚子快要饿扁了，你可要好好补偿我哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300009",
+          "sourceType": 3,
+          "text": "空气一瞬间凝固下来，牡丹急中生智——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39300010",
+          "sourceType": 3,
+          "text": "啵唧——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39300011",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "（盯）………………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "奇怪，刚才明明听到了猪猪的叫声，怎么突然没有了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "喂，你是被谁丢掉的布偶娃娃吧，捏起来真好玩~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300014",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "（盯）…………噗噗——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300015",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "你刚刚笑了吧？对吧对吧对吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300016",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嘿嘿，你果然是我要找的小猪猪，今天真的大丰收啦~~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300017",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "（疯狂暴汗中）噗噗！噗噗噗——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300018",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "「牡丹」究竟跑哪里去了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300019",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "万一出了什么事可怎么办……渚，我一定要找到它！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39300020",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "我有种不太好的预感……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "39300",
+      "sourceRefs": [
+        {
+          "bundle": "cl_yure",
+          "rowIds": [
+            39300001,
+            39300002,
+            39300003,
+            39300004,
+            39300005,
+            39300006,
+            39300007,
+            39300008,
+            39300009,
+            39300010,
+            39300011,
+            39300012,
+            39300013,
+            39300014,
+            39300015,
+            39300016,
+            39300017,
+            39300018,
+            39300019,
+            39300020
+          ],
+          "sectionId": 39300
+        }
+      ],
+      "title": "活动片段 39300"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10022",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10022",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 39300,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 39300",
+  "wordCount": 319
+}

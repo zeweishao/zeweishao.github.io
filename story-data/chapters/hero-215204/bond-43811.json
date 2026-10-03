@@ -1,0 +1,210 @@
+{
+  "bookId": "hero-215204",
+  "id": "bond-43811",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43811001",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "嗳，知道吗？因使用能力而休眠的时候，我偶尔会梦到一些奇特的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43811002",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "有时是巨大的机甲碾过防御工事，有时是擂台上少年少女们比武，也有时是赤色的龙飞过广袤的大地……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43811004",
+              "text": "听起来有点熟悉。"
+            }
+          ],
+          "sourceId": "43811003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43811004",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "来到你的世界，见到手办们之后，一个模糊的猜想得到了验证——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43811005",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "我梦中所见的，果然是其他世界的浮光掠影。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43811007",
+              "text": "还有其他的世界？"
+            },
+            {
+              "targetId": "43811007",
+              "text": "手办们曾生活的原著世界？"
+            }
+          ],
+          "sourceId": "43811006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43811007",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "或许真如尤兰达所推测的那样，世界之间的距离在缩短。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43811008",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "那么也许有一天，我们能够重返曾经的世界，甚至到其他手办的世界去冒险。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43811010",
+              "text": "这也太幻想了。"
+            }
+          ],
+          "sourceId": "43811009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43811010",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "幻想和现实的界限其实并没有那么分明。你已经见过很多与幻想无异的事物了，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43811012",
+              "text": "比如手办有生命，会动起来？"
+            }
+          ],
+          "sourceId": "43811011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43811012",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵，我能够隐约地感受到那道无形的屏障，只是还没找到突破它的手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43811013",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "我想问你，|101|。如果我找到了，你会跟我一起踏上旅途吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43811015",
+              "text": "和你一起前往别的世界？"
+            }
+          ],
+          "sourceId": "43811014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43811015",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "正是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43811016",
+          "sourceType": 3,
+          "text": "正在你思考如何回答时，魔女飘到了你的眼前，轻轻地将手放在你的唇瓣上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43811017",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "不必急着回答，我们的时间还有很多。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43811",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43811001,
+            43811002,
+            43811003,
+            43811004,
+            43811005,
+            43811006,
+            43811007,
+            43811008,
+            43811009,
+            43811010,
+            43811011,
+            43811012,
+            43811013,
+            43811014,
+            43811015,
+            43811016,
+            43811017
+          ],
+          "sectionId": 43811
+        }
+      ],
+      "title": "跨越世界之旅"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215204",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "跨越世界之旅",
+  "wordCount": 400
+}

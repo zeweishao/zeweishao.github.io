@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-215006",
+  "id": "bond-29319",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29319001",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "孔明这人，实在是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "实在是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319003",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "实在是过于「贫穷」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29319005",
+              "text": "可他有才呀。"
+            },
+            {
+              "targetId": "29319005",
+              "text": "还好他有才。"
+            }
+          ],
+          "sourceId": "29319004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29319005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "才华再高，若没有财力支撑的话，遇到柴米油盐酱醋茶这些琐碎的日常就会发现自己有多么无力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319006",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "他早晚会知道，「财力」是一个男人的门面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "都督说的有道理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319008",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "说完孔明，我们来谈谈你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可没办法和孔明相比。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "在我看来，你在此道上比孔明更为开窍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319011",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "我知道你对手办向来慷慨，他们提出的要求从不拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319012",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "巧了，我恰好看中一罐具有江左传统风味的涂料，已向店家预约货到付款，现在店家在门口等着结账。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我中计了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29319014",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "不不，你知道的，我出门从不带钱，这是一直以来的习惯。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29319",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29319001,
+            29319002,
+            29319003,
+            29319004,
+            29319005,
+            29319006,
+            29319007,
+            29319008,
+            29319009,
+            29319010,
+            29319011,
+            29319012,
+            29319013,
+            29319014
+          ],
+          "sectionId": 29319
+        }
+      ],
+      "title": "潇洒多金贵公子？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215006",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "潇洒多金贵公子？",
+  "wordCount": 250
+}

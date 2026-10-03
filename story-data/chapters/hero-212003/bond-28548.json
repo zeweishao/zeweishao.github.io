@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212003",
+  "id": "bond-28548",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28548001",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "剑士的剑，需要一往无前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样凌厉的刀光，不愧是你，山崎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548003",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "只要心不困顿，犹豫，我的剑就不会迟疑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过这些工作全部交给你，真的没有问题吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "需不需要我们帮忙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548006",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "这也是修行之道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548007",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "而且我已经许久没有这样酣畅淋漓的斩过什么了，这对我来说不算麻烦，而是享受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548008",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "一切交给我便好，主人只需要在一旁休息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就麻烦山崎了，不过还真是令人好奇啊，山崎你每次出剑似乎都是一样的精准，甚至连力道都像是一模一样，这是怎样做到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548010",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "并没有什么特殊的地方，只是日复一日练习自然而然掌握的技巧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这就是所谓的心技吧，山崎你已经到了技近乎道的程度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "顺便一说，山崎你切的牛肉实在是太好吃了，明明是那样凌厉的一刀，厚薄却能切到恰到好处。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28548013",
+          "sourceType": 0,
+          "speaker": "山崎",
+          "text": "……感谢主人夸奖。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28548",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28548001,
+            28548002,
+            28548003,
+            28548004,
+            28548005,
+            28548006,
+            28548007,
+            28548008,
+            28548009,
+            28548010,
+            28548011,
+            28548012,
+            28548013
+          ],
+          "sectionId": 28548
+        }
+      ],
+      "title": "斩钢"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "斩钢",
+  "wordCount": 302
+}

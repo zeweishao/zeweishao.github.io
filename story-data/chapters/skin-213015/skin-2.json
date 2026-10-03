@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213015",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "奥古斯都荆棘山庄。\n\n「早有耳闻玫瑰公爵的美貌，果不其然让这满园的花朵都黯然失色了。」\n\n似乎已经对接下来的谈判胸有成竹，新任议长的态度显得有些轻浮。\n\n「感谢您的夸奖。」\n\n\n「那么这次的议员名单，您没有异议了？」\n\n伊迪丝微微一笑，挥手让管家送上了一叠厚厚的账本。「在您看过这些之后，或许能有一份新的备选方案。」\n\n世人总是忘记，玫瑰佩戴着荆棘。\n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "玫瑰公爵Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213015",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "伊迪丝·玫瑰公爵Ver.",
+  "title": "玫瑰公爵Ver.",
+  "wordCount": 182
+}

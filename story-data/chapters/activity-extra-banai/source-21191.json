@@ -1,0 +1,112 @@
+{
+  "bookId": "activity-extra-banai",
+  "id": "source-21191",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21191001",
+          "sourceType": 10,
+          "text": "#Kizuna AI：爱酱登录卡池啦！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21191002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "嗨多磨，聪明可爱的虚拟偶像Kizuna AI作为1/7手办登场了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21191003",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "和平日里一样的装扮，头顶调皮的晃悠悠，就这样可爱、可爱满满的工作吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21191004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "哎呀，这样的手办真的有人不想要第一时间迎接到手吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21191005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "哟吼吼！欧气欧气欧气集结！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21191006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "因为是约定，所以绝对会见到哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21191007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "大家！快点来见变成手办的我吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "21191",
+      "sourceRefs": [
+        {
+          "bundle": "banai",
+          "rowIds": [
+            21191001,
+            21191002,
+            21191003,
+            21191004,
+            21191005,
+            21191006,
+            21191007
+          ],
+          "sectionId": 21191
+        }
+      ],
+      "title": "活动片段 21191"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "155",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "155",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 21191,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "id": "28",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 21191",
+  "wordCount": 153
+}

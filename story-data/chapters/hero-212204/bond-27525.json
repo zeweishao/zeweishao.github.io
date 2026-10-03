@@ -1,0 +1,163 @@
+{
+  "bookId": "hero-212204",
+  "id": "bond-27525",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27525001",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "看来人类的世界有很多烦恼呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27525003",
+              "text": "大概吧。"
+            },
+            {
+              "targetId": "27525003",
+              "text": "……你又知道什么了？"
+            }
+          ],
+          "sourceId": "27525002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27525003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "你的浏览记录，在你睡着的时候，我顺便翻了一下~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27525005",
+              "text": "侵犯隐私可是不好的行为。"
+            }
+          ],
+          "sourceId": "27525004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27525005",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "那你得管好自己的手指，网络没有隐私可言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27525006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来真像是无法无天的家伙才会说的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27525007",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "无法无天？主动挑衅我的人都不会有好下场，\n但你是个例外，不过这是暂时的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27525009",
+              "text": "暂时？"
+            },
+            {
+              "targetId": "27525009",
+              "text": "那会到什么时间呢？"
+            }
+          ],
+          "sourceId": "27525008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27525009",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "等到月亮爆炸，等到太阳西升东落，等到世界上再也没有刺身和法餐。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27525011",
+              "text": "……这是告白吗？"
+            },
+            {
+              "targetId": "27525011",
+              "text": "那就是永远咯？"
+            }
+          ],
+          "sourceId": "27525010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27525011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "随你理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27525012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "好了，生活的烦恼就随它们的便吧，\n及时行乐，听我的没错~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27525",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27525001,
+            27525002,
+            27525003,
+            27525004,
+            27525005,
+            27525006,
+            27525007,
+            27525008,
+            27525009,
+            27525010,
+            27525011,
+            27525012
+          ],
+          "sectionId": 27525
+        }
+      ],
+      "title": "及时行乐"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212204",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "及时行乐",
+  "wordCount": 227
+}

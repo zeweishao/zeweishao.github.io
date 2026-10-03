@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-215001",
+  "id": "bond-26025",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26025001",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "是雨天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025002",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "樱很喜欢雨天，有冰凉凉的雨，小花和小草都能得到滋养。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025003",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "而且到处都有小水坑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025004",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "不过爸爸从来不让樱去踩水坑玩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在这里的话没关系，樱喜欢的话就去玩好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025006",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025008",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "好耶~\n小水坑，踩呀，踩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "啪叽。\n樱摔倒在水坑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "樱，你没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025011",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "没事哟，樱很开心~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025012",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "主人要一起来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025014",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "噢噢噢~主人真厉害呀，可以踩起这么多的水花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26025015",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "樱也不能输~嘿呀！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26025",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26025001,
+            26025002,
+            26025003,
+            26025004,
+            26025005,
+            26025006,
+            26025007,
+            26025008,
+            26025009,
+            26025010,
+            26025011,
+            26025012,
+            26025013,
+            26025014,
+            26025015
+          ],
+          "sectionId": 26025
+        }
+      ],
+      "title": "踩水坑"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215001",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "踩水坑",
+  "wordCount": 163
+}

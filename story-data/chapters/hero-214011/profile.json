@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214011",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气游戏《永恒的异界幻想》中的知名角色「克罗赛尔」被制成1/7比例模型闪亮登场~魔法斗篷「欢愉的颂赞者」包裹着她的全身，手持法杖「众神的陨落之刻」的少女赤裸着双足，轻盈得仿佛即将振翅的雏鸟。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214011"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

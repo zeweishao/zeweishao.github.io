@@ -1,0 +1,152 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35011",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35011001",
+          "sourceType": 10,
+          "text": "小鹿儿心头撞",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35011002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "接下来还可以做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "灵感可遇不可求，就像海上的泡沫转瞬即逝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "怪盗小姐一直在那里捏捏捏，她会不会有不错的灵感喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是呢，绯野的鬼点子可多了，我们去问问她有没有什么好主意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不要打扰我，我还没有完全做好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绯野在捏什么呀，看起来好神秘哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "很明显这是一只鹿，难道很难看出来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "鹿和葫芦，都代表着某种相似的寓意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "没错，象征着福禄与吉祥的小鹿，一定能让|101||103|眼前一亮的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "绯野对主人真的很用心，优纪都不自觉地感到惭愧了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我说过的吧，我对|101||103|的心意不会输给任何人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35011013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，就是这样的决心，优纪也要打起精神来~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35011",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35011001,
+            35011002,
+            35011003,
+            35011004,
+            35011005,
+            35011006,
+            35011007,
+            35011008,
+            35011009,
+            35011010,
+            35011011,
+            35011012,
+            35011013
+          ],
+          "sectionId": 35011
+        }
+      ],
+      "title": "小鹿儿心头撞"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35011,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "74",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "来自怪盗小姐绯野原爱的创意，「兔儿爷」骑在灵动活泼的小鹿身上，看起来好神气~",
+  "title": "小鹿儿心头撞",
+  "wordCount": 267
+}

@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-212007",
+  "id": "bond-26034",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26034001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "绿子盯着我看很久了，有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我在想，如果有一天你被坏人欺负了，我该怎么保护你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "能欺负我的，应该会是人类吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没错，问题在于——我不能在别人面前动起来，该怎么办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不仅是这个问题吧......手办和人类的力量太悬殊了，绿子冲上去会很危险的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "看到了就不能坐视不管，何况遇到困难的是你——绿子最好的朋友！就算对方是人类，我也不会畏惧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "嗯！是时候启用格斗秘术「伪装术」了！穿着猫外衣，用爪子和牙齿保护弱小的千裂苍龙，怎么样，是不是帅毙了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "想象了一下，感觉会很可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可爱？真是的，怎么可以用这种词来评价我！\n为了保护你，我一定会想出更帅气的伪装！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "绿子不是常说「强大保护弱小」吗？那么，应该由我来保护绿子才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "现在确实如此，但绿子早晚有一天要成为世界最强，一脚踢翻人类也不在话下！所以，迟早还是我来保护你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "干、干嘛用那种眼神盯着我看，你不信吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不会啊。因为是绿子说的，所以一定会相信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26034014",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "咳咳咳！脸、脸在发烫！要烧起来了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26034",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26034001,
+            26034002,
+            26034003,
+            26034004,
+            26034005,
+            26034006,
+            26034007,
+            26034008,
+            26034009,
+            26034010,
+            26034011,
+            26034012,
+            26034013,
+            26034014
+          ],
+          "sectionId": 26034
+        }
+      ],
+      "title": "保护弱小"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212007",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "保护弱小",
+  "wordCount": 402
+}

@@ -1,0 +1,107 @@
+{
+  "bookId": "hero-211002",
+  "id": "bond-27505",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27505001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可以帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505002",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "时光无法倒流，逝去的人无法复生——\n如同这块怀表的主人，再也不会回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我一直在给FULI公司写信，建议将下士芙蕾——\n以及其他一些角色手办化。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505004",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "......什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在新的世界重生，对你们而言意味着另一种可能：一个实现完美结局的可能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "为我......做到了这种地步吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也是希望给她们一个更好的归宿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505008",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "我会和你一起，一直等那一天的到来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27505009",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "从现在开始......如果你愿意，任何时候都可以，来我身后。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27505",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27505001,
+            27505002,
+            27505003,
+            27505004,
+            27505005,
+            27505006,
+            27505007,
+            27505008,
+            27505009
+          ],
+          "sectionId": 27505
+        }
+      ],
+      "title": "怀表"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "怀表",
+  "wordCount": 198
+}

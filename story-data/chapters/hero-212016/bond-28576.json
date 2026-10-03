@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-212016",
+  "id": "bond-28576",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28576001",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "您看起来似乎有些烦恼，请允许我为您分忧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "家里陆续购置了很多手办，日常的维护和保养，要花很大一笔钱……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576003",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "我明白了，您完全可以交给我，我很擅长管理账目。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576004",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "今天起我将为您的每一笔消费进行记账，同时将会对您的个人财务进行一次全方位的体检，还请您配合。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28576006",
+              "text": "那是什么意思？"
+            }
+          ],
+          "sourceId": "28576005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28576006",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "包括但不限于清点您的家庭资产、收入支出情况，以及从过去到现在为止的各项负债。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576007",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "在全面了解这些信息后，真正的财务管理才刚刚开始，因此还请您务必不要对我隐瞒。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28576009",
+              "text": "总觉得要被你看光了……"
+            }
+          ],
+          "sourceId": "28576008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28576009",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "作为您的私人管家，保守您的隐私是我的基本素养。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576010",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "而且根据我目前的了解，您的资产情况完全不算复杂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576011",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "无论于公于私，我都不会对您的个人资产产生不该有的想法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28576012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……其实你可以不用解释的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28576",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28576001,
+            28576002,
+            28576003,
+            28576004,
+            28576005,
+            28576006,
+            28576007,
+            28576008,
+            28576009,
+            28576010,
+            28576011,
+            28576012
+          ],
+          "sectionId": 28576
+        }
+      ],
+      "title": "「财务管理」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212016",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「财务管理」",
+  "wordCount": 300
+}

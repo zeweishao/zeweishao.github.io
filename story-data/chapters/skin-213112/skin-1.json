@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213112",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "加冕前夕，女王寝殿。\n\n身着黑羽礼服的辛德瑞拉慵懒斜倚在王座上，眼中闪烁着灼人的情愫。\n\n她伸出手，向你发出隆重的邀约。\n\n「请你，将这最后的荣耀赋予我。」\n\n你轻轻捉住她纤巧的玉足，为她穿上水晶鞋。\n\n她注视着这一切，轻声低语——\n\n「只有你，让我感到完整。」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "黑羽加冕夜Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213112",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "辛德瑞拉·黑羽加冕夜Ver.",
+  "title": "黑羽加冕夜Ver.",
+  "wordCount": 135
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213105",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "如臂使指般地操控电磁，如入无人之境的骇客技术,虽然拥有在现代城市十分便利的能力，美琴却并没有借此为所欲为，而是想办法一点点地纠正这个残酷的世界。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213105"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 72
+}

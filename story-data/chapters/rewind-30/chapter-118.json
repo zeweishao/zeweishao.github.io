@@ -1,0 +1,1300 @@
+{
+  "bookId": "rewind-30",
+  "id": "chapter-118",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "30020001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "地下水箱这里的味道好难闻，跟什么东西腐烂了似的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "废弃的工厂地下竟然还存在着这样的地方，真是意想不到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个地方太大了，我们分头检查一下周围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "明白，绝对不会放过角落里的任何一个活物，就连老鼠也不例外！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我和暮间猫一组，负责寻找车贤秀的线索。\n哈莉和花迦一组，负责登记流浪手办，你们觉得怎么样?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "没问题，主人放心交给我们吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "附近太暗了，什么都看不清楚，我们得更加仔细搜才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020008",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "啊，那里！贤秀在那里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020009",
+          "sourceType": 5,
+          "speaker": "怪异的车贤秀",
+          "text": "呃……啊啊啊啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020010",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀！车贤秀！你能听到我的声音吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020011",
+          "sourceType": 5,
+          "speaker": "暮间猫",
+          "text": "不管是什么原因把你变成这样，千万不要退缩，醒过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020012",
+          "sourceType": 0,
+          "speaker": "怪异的车贤秀",
+          "text": "呃……你……啊啊啊！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然还是不行，这下有些棘手呢……等等，那边似乎有动静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020014",
+          "sourceType": 0,
+          "speaker": "被遗弃的掌机",
+          "text": "老老实实把车贤秀交出来，我们主人还能放你一条生路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020015",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "只要我还有一口气在，就绝对不会放弃车贤秀，你们死心吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30020016",
+          "sourceType": 5,
+          "speaker": "流浪手办甲",
+          "text": "啧，我最讨厌这种无能又勇敢的家伙，赶快解决掉交差！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30021001",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "我果然还是……太弱了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30021002",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀，对不起……不能再继续守护你了……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-637",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30020001,
+            30020002,
+            30020003,
+            30020004,
+            30020005,
+            30020006,
+            30020007,
+            30020008,
+            30020009,
+            30020010,
+            30020011,
+            30020012,
+            30020013,
+            30020014,
+            30020015,
+            30020016
+          ],
+          "sectionId": 30020
+        },
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30021001,
+            30021002
+          ],
+          "sectionId": 30021
+        }
+      ],
+      "title": "始作俑者·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "30022001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好了，下一位请到我这里来接受「管理局」的登记。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "都麻利一点，别想着逃跑，我的子弹可不长眼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉，你这样讲话会把他们都吓跑的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022004",
+          "sourceType": 0,
+          "speaker": "流浪手办甲",
+          "text": "又是「管理局」啊，我还是躲远点吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "想从我哈莉的眼皮底下逃走？嘿嘿，你的胆子可不小啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "虽然答应了主人要先做完登记工作，但他们那边的情况我有些不放心，我们真的不用去看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "当然要去，我可比谁都想早点找到车贤秀和他单挑呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那边怎么这么吵，不会是那些流浪手办在闹事吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "听起来似乎是战斗的声音，我们过去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "最好不是流浪手办在闹事，不然又要耽误我们不少时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那些流浪手办即使闹事也是小打小闹，还从没有到眼前这样的级别。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我有种似曾相识的感觉，总觉得在哪见过类似的战斗方式……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022013",
+          "sourceType": 5,
+          "speaker": "异化车贤秀",
+          "text": "呃……啊啊啊啊啊啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022014",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "真是太美丽了，残暴又野蛮，只有末世才能开出这么绚丽的花朵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022015",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "一切都很完美，就等最后的变异到来，那样主人就会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022016",
+          "sourceType": 3,
+          "text": "哈莉用手雷对准洛瑞丝扔了过去，炸碎了她的美梦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "30022017",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "什么人胆敢袭击我？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022018",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "竟然是你，哈莉，别来无恙，你的队友们还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你还敢提她们，你忘了是怎么欺骗她们的吗，你这个狡猾的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022020",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我们不过都是为了各自的主子，只要能赢，谈何欺骗呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022021",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你这次又想打什么坏注意，警告你，我不会让你得逞的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022022",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "真是可惜，我还想多和你这位老朋友叙叙旧呢……如果你能「友好」一点的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈莉，暮间猫和车贤秀的情况很不好，赶快后退！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022024",
+          "sourceType": 5,
+          "speaker": "异化车贤秀",
+          "text": "呃啊啊……啊啊啊啊啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "他已经完全失去神智了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022026",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "偏偏选在这种时候，我完全没办法专心跟这家伙单挑啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022027",
+          "sourceType": 5,
+          "speaker": "暮间猫",
+          "text": "贤秀！——车贤秀——！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈莉，你在发什么愣，快躲开！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022029",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "干嘛对我大喊大叫的，我知道——啊呀！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022030",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉，不要……不要啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022031",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "再见了，我的老朋友，我们的叙旧到此为止吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022032",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "车贤秀！你已经严重到无法分清谁是谁了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022033",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在我修复他身上的瑕疵之前，大家一定要坚持住！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30022034",
+          "sourceType": 5,
+          "speaker": "异化车贤秀",
+          "text": "呃啊啊啊！！！——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-638",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30022001,
+            30022002,
+            30022003,
+            30022004,
+            30022005,
+            30022006,
+            30022007,
+            30022008,
+            30022009,
+            30022010,
+            30022011,
+            30022012,
+            30022013,
+            30022014,
+            30022015,
+            30022016,
+            30022017,
+            30022018,
+            30022019,
+            30022020,
+            30022021,
+            30022022,
+            30022023,
+            30022024,
+            30022025,
+            30022026,
+            30022027,
+            30022028,
+            30022029,
+            30022030,
+            30022031,
+            30022032,
+            30022033,
+            30022034
+          ],
+          "sectionId": 30022
+        }
+      ],
+      "title": "始作俑者·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "30023001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈啊……哈啊……车贤秀……真的好强……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦！哈莉！你们都还好吧，我来检查下你们的伤势。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023003",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "等等，你这个坏女人，不要擅自带走贤秀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然是你一直在捣鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "没错，散布谣言、伪装「管理局」，都是我计划的一部分。我既然已经达到了目的，各位就再见吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023006",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "绝对不行，不能带走车贤秀，你这个坏蛋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023007",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "这种粗俗的言辞真是刺耳呢，有机会真该纠正一下你们的言行举止呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023008",
+          "sourceType": 5,
+          "speaker": "异化车贤秀",
+          "text": "呃呃呃！！！啊啊啊啊啊啊——！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30023009",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "什、什么？！车贤秀，你竟敢攻击我？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-639",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30023001,
+            30023002,
+            30023003,
+            30023004,
+            30023005,
+            30023006,
+            30023007,
+            30023008,
+            30023009
+          ],
+          "sectionId": 30023
+        }
+      ],
+      "title": "始作俑者·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "30024001",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "没想到事情竟然会发展到现在这个局面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "完全怪物化的车贤秀拒绝了我的控制，真是有够难看的呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "我竟然比不上你这样弱小的无名手办，多少有些不甘心啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024004",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "你在说我吗？我可是有自己名字的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024005",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "没有完成主人的心愿，我是不会放弃的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024006",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "总有一天我还会回来的，各位，我们后会有期。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "别走，还有好多事情没有讲清楚！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "洛瑞丝，你给我站住，别想甩掉我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉，她已经走远了，我们再追已经来不及了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "别忘了我们此行还有更重要的目的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "我们来这里的目的……对哦，我是为了车贤秀来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你总算想起来了啊，真不容易。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "经过刚才的战斗，他已经几乎耗光了自己的精力，不知道这次会不会恢复意识。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "车贤秀难道不能凭借自己的意志控制身体的怪物化么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没有你想得那么神奇啦，目前他还做不到这点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过这个也不知道应该算是幸运还是不幸，有点难说呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024017",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀！你醒了！贤秀他醒了，大家快来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024018",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "还记得我是谁吗，我可是你最好的朋友啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024019",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "车贤秀会不会真的把暮间猫给忘了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "并不能完全排除这种可能……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "毕竟车贤秀是特殊变异者，在他身上发生什么都不足为奇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024022",
+          "sourceType": 3,
+          "text": "突然，尚未清醒的车贤秀再度对身边的暮间猫发起了攻击！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "30024023",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "暮间猫，小心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024024",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "小心！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024025",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "我……没事的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024026",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "幸好贤秀也没事，真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024027",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀，我们一起去属于我们的家吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024028",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "没有人会伤害你，可以永远安心地生活着的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024029",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "没事了……没事了，贤秀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024030",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "家……呃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024031",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "你是……我的朋友……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024032",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "我……啊啊啊啊！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024033",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "我……认识你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024034",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "暮间猫，你怎么这么傻啊，根本躲都不躲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024035",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这下该怎么办，他身上的伤好严重，主人快想想办法！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024036",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "车贤秀的情绪似乎稳定住了，真不容易啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024037",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我来检查一下他们两个身上的伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024038",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还好还好，车贤秀似乎对暮间猫没有下那么重的手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024039",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "真的？可以恢复到以前的样子对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024040",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，是可以修理的，大家放心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024041",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我仔细检查过他身上的每个地方，除了脑袋之外其他地方都没有严重的破损。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024042",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "你……还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024043",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀终于想起我了啊，太好了太好了，真开心呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024044",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "突然抱上来是要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024045",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "车贤秀，念在你还在受伤的份上，单挑什么的以后再说，这是你欠我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024046",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉怎么还在惦记这件事呀，这个根本不是重点吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024047",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "幸好我们是手办，不然被贤秀揍过的我早就没命了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024048",
+          "sourceType": 0,
+          "speaker": "异化车贤秀",
+          "text": "抱歉，我下次会注意的，尽量下手轻一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30024049",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈哈，可以开玩笑，证明车贤秀完全恢复了意识！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-640",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30024001,
+            30024002,
+            30024003,
+            30024004,
+            30024005,
+            30024006,
+            30024007,
+            30024008,
+            30024009,
+            30024010,
+            30024011,
+            30024012,
+            30024013,
+            30024014,
+            30024015,
+            30024016,
+            30024017,
+            30024018,
+            30024019,
+            30024020,
+            30024021,
+            30024022,
+            30024023,
+            30024024,
+            30024025,
+            30024026,
+            30024027,
+            30024028,
+            30024029,
+            30024030,
+            30024031,
+            30024032,
+            30024033,
+            30024034,
+            30024035,
+            30024036,
+            30024037,
+            30024038,
+            30024039,
+            30024040,
+            30024041,
+            30024042,
+            30024043,
+            30024044,
+            30024045,
+            30024046,
+            30024047,
+            30024048,
+            30024049
+          ],
+          "sectionId": 30024
+        }
+      ],
+      "title": "始作俑者·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "30025001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好，下一位请到我这里来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "在场的每一位都会好好登记哦，请大家不要着急。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "没错没错，我的炸弹可是会盯紧那些插队的坏家伙们哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025004",
+          "sourceType": 0,
+          "speaker": "流浪手办甲",
+          "text": "哇呀，这个戴头盔的「管理局」工作人员好凶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "大家不要误会，这位是来协助我的朋友，不是「管理局」正式编制的人员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "花迦，居然这个时间还这么多人排队登记，你这个月的业绩肯定是第一没跑啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嘿嘿，多亏有主人和哈莉的帮忙，我才能有这么个好机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "据说这次「管理局」业绩最高的实习生，可以拿到的奖品可是高级涂料呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "新推出的全新产品吗，真想看看呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025010",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "贤秀，车贤秀，我都说过多少遍了不要老是关着我啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "暮间猫，你身上的粘合剂还没有彻底干燥，小心脱落哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025012",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "要乖乖听话，这样才能早点好起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025013",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "虽然是这样没错……可等我好起来之后你是不是就要走了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025014",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "别担心，我会等你完全恢复之后再离开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025015",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "真的吗？我有点不想好起来了怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025016",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "主人|101|，有没有什么好办法，让我能够病得再久一点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "请你理性一点，这么做是没有意义的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025018",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "说的也是，我还是好好享受和贤秀在一起的时光吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025019",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "你能这么说我就放心了，还是早点恢复比较好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025020",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "可是，我还是觉得很难过诶。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025021",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "是在为恢复身体烦恼吗，这种事完全急不来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025022",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "才不是为了那个，我在想……你不离开这里，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025023",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "我明白你的心情，可是我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025024",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "我明白的，虽然知道我很贪心，但还是想试着挽留你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025025",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "你能有幸福的家真是太好了，我从心底为你感到高兴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025026",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "你想要的话，这里也可以成为你的家，对吗主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025027",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，我家的大门随时为你敞开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025028",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "家就是我们疲惫疲倦的时候，可以随时停留休息的地方，这里对你来说也是一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025029",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "非常感谢你们的好意，我一直都很渴望拥有这样的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025030",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "留下来吧，车贤秀，让这里也成为你的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025031",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "好，我答应你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025032",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "好耶，贤秀答应留下来了，啊哈哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025033",
+          "sourceType": 0,
+          "speaker": "暮间猫",
+          "text": "呃呃——！不小心又碰到伤口了，好疼啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025034",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "哈哈哈，该怎么说你才好呢，真是让人放心不下呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025035",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉，说了多少次不要老是欺负流浪手办，「管理局」的名声都要被你毁掉啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025036",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿哈吼，来追我呀，追上我就答应你~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025037",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "哈莉，不要逼我使出绝招哦，你会后悔的……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025038",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "家，「SweetHome」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30025039",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "我终于也有了属于自己的温暖的家，「绿之家」的朋友们，你们看到了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-641",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome",
+          "rowIds": [
+            30025001,
+            30025002,
+            30025003,
+            30025004,
+            30025005,
+            30025006,
+            30025007,
+            30025008,
+            30025009,
+            30025010,
+            30025011,
+            30025012,
+            30025013,
+            30025014,
+            30025015,
+            30025016,
+            30025017,
+            30025018,
+            30025019,
+            30025020,
+            30025021,
+            30025022,
+            30025023,
+            30025024,
+            30025025,
+            30025026,
+            30025027,
+            30025028,
+            30025029,
+            30025030,
+            30025031,
+            30025032,
+            30025033,
+            30025034,
+            30025035,
+            30025036,
+            30025037,
+            30025038,
+            30025039
+          ],
+          "sectionId": 30025
+        }
+      ],
+      "title": "始作俑者·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 118,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 118,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "属于我们的「甜蜜家园」",
+  "title": "始作俑者",
+  "wordCount": 3092
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214013",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「我到了，你在哪里？」年轻的画家在聊天框里键入了她的疑问。\n\n在四下无人的艺术街，少女停下脚步。微风掠过街道，吹起她脚下纸张的一角。她开始思考这是否是雕塑师朋友的又一个恶作剧。\n\n「我就在你的身后哦……回头看看吧。」\n\n耳机里流淌的乐声忽然消失了，取而代之的是风声般的絮语，拉斐尔回过头。\n\n咔嚓——影像在相机中定格。这一定能够作为雕塑的完美参考吧，躲在远处的奇萝露出微笑。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·街拍靓影Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214013",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "拉斐尔·闪亮·街拍靓影Ver.",
+  "title": "闪亮·街拍靓影Ver.",
+  "wordCount": 179
+}

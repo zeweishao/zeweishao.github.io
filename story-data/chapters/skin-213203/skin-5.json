@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213203",
+  "id": "skin-5",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "亚特兰蒂斯号邮轮。\n\n「今晚八点，在这艘永不沉没的梦幻之船，我将前来取走蓝钻『海洋之星』。」\n\n怪盗如约而至，等待她的是警方布下的天罗地网。\n\n「绯野原爱，这可是海上！你跑不掉了！」\n\n「嘘——你们见过，会飞的鱼吗？」\n\n在乘客们的惊呼声中，巨大的魔鬼鱼跃出海面，协助怪盗完成了一场「深海飞行」的魔术表演。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·深海飞行Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213203",
+        "skinId": "skin-5"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱·闪亮·深海飞行Ver.",
+  "title": "闪亮·深海飞行Ver.",
+  "wordCount": 143
+}

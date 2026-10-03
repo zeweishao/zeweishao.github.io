@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1015",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1015001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇……来到“日光乐园”了耶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1015002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "手办再版人气评选的决赛，就是在这里举行吗？好期待！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1015003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿——\n一边用球棒打倒这些坏家伙们，一边立刻出发赶往决赛会场吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1015",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1015001,
+            1015002,
+            1015003
+          ],
+          "sectionId": 1015
+        }
+      ],
+      "title": "原文片段 1015"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1015
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1015",
+  "wordCount": 72
+}

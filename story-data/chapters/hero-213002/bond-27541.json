@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-213002",
+  "id": "bond-27541",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27541001",
+          "sourceType": 5,
+          "speaker": "旁白",
+          "text": "轰隆隆——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "咳咳、咳咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "奥菲利亚！你没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "咳咳、我、我没事咳咳咳……\n不用担心，「艾米莉亚」被我新研究的弹药噎到了，咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "又炸膛了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "嗯，其实这次还好……上一次，我的眼镜都被炸飞了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541007",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "当时「艾米莉亚」还因为不能帮我找眼镜，自责了很久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……奥菲利亚，我给你和「艾米莉亚」准备了一座防爆实验室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你可以在隔离室的防爆玻璃后面陪着「艾米莉亚」。\n这样比较安全，奥菲利亚也不想「艾米莉亚」担心吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "主人，谢谢你，可以让我抱你一会吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27541012",
+              "text": "伸出一根手指。"
+            },
+            {
+              "targetId": "27541013",
+              "text": "伸出两根手指。"
+            }
+          ],
+          "sourceId": "27541011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27541012",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "啊！主人你……居然戳我呆毛……\n这就是主人的恶趣味吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541013",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "唔，主人，居然捏我的脸蛋……\n这就是主人的恶趣味吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27541014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈哈哈哈哈……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27541",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27541001,
+            27541002,
+            27541003,
+            27541004,
+            27541005,
+            27541006,
+            27541007,
+            27541008,
+            27541009,
+            27541010,
+            27541011,
+            27541012,
+            27541013,
+            27541014
+          ],
+          "sectionId": 27541
+        }
+      ],
+      "title": "防爆实验室"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "防爆实验室",
+  "wordCount": 285
+}

@@ -1,0 +1,202 @@
+{
+  "bookId": "hero-215203",
+  "id": "bond-28584",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28584001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584002",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "……嗯。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28584004",
+              "text": "……"
+            }
+          ],
+          "sourceId": "28584003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28584004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "怎么啦？我在这里会让你不舒服吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28584006",
+              "text": "感觉好像在被监视着。"
+            },
+            {
+              "targetId": "28584006",
+              "text": "感觉好像在被观察着。"
+            }
+          ],
+          "sourceId": "28584005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28584006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "你的感觉没有错，我确实在考察你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584007",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "最近希塔经常到你这来，我想知道到底是什么吸引了她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这也算是导师的职责吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584009",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "当然了，如果对象是什么奇怪的人，我就会动用管理局总部的权限给她下禁足令哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听上去就像什么严厉的母亲一样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584011",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "呵，我姑且算是她的监护人。现在看来，我的担心似乎是多余的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "已经得出答案了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "你身上有着和她很相似的东西，如同幽夜里的火炬一般醒目。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28584015",
+              "text": "不要再说谜语了。"
+            },
+            {
+              "targetId": "28584015",
+              "text": "能解释一下吗？"
+            }
+          ],
+          "sourceId": "28584014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28584015",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我差不多该走了，希塔已经在书柜的阴影里藏了一段时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584017",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "再见，希塔。再见，人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28584018",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我很期待下一次的会面。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28584",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28584001,
+            28584002,
+            28584003,
+            28584004,
+            28584005,
+            28584006,
+            28584007,
+            28584008,
+            28584009,
+            28584010,
+            28584011,
+            28584012,
+            28584013,
+            28584014,
+            28584015,
+            28584016,
+            28584017,
+            28584018
+          ],
+          "sectionId": 28584
+        }
+      ],
+      "title": "考察对象"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "考察对象",
+  "wordCount": 281
+}

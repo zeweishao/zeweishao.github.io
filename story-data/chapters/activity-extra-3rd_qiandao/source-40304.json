@@ -1,0 +1,305 @@
+{
+  "bookId": "activity-extra-3rd_qiandao",
+  "id": "source-40304",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40304001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "梦境沙滩，夕落之海。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我这是在……哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你终于回应了我，来到了我的身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304004",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这一刻，我已经等了太久，太久，太久了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "贝歌……？这是怎么回事，我为什么会到这里来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "嘘，别问，什么都别问，求求你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我只想安静地和你待上一会，在这个只有你和我的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304008",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "待你再次醒来的时候，所有的秩序都将回归如初。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "而我将化为海上的泡沫，在遥远虚无的海之国为你永生颂唱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你怎么睡着了，快醒醒~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304011",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "爱猫社区，主人家中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从柯斯顿回来到现在，主人总是一副睡不醒的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "艾伦兹还很担心呢，主人醒过来她就能放心了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40304015",
+              "text": "抱歉，让你们担心了。"
+            },
+            {
+              "targetId": "40304015",
+              "text": "咦，桌子上的是什么？"
+            }
+          ],
+          "sourceId": "40304014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40304015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "桌上的这个蛋糕，我们回来的时候就放在这里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "精致的手艺，难得的艺术品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "蛋糕上面的小人，看起来似乎有些眼熟……主人认识吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是贝歌，一定是她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，那么这个蛋糕，一定就是她偷偷送过来的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "先是艾伦兹的豪华庆典计划，后有名为贝歌的少女特意送来的精美蛋糕……主人果然很受欢迎呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不可以，对主人的爱意，优纪绝对不能被其他人比下去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿咻，终于可以拿出来给主人看了，还好来得及~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "豪华的装订纪念册，这是什么限定周边吗？不，这个是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪和大家一起，把我们和主人相处的点滴日常记录下来，做成了这本厚厚的相册。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，从今以后的每一天，请让我们继续陪伴在你的身边，好不好？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40304027",
+              "text": "好，一言为定。"
+            },
+            {
+              "targetId": "40304027",
+              "text": "我们永远不分开。"
+            }
+          ],
+          "sourceId": "40304026",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40304027",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "|101||103|打开相册，每一张照片都记录着一个温馨的瞬间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40304028",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "在这个特殊的时刻，回忆和感情在手办和主人之间流淌着，时光仿佛在这个甜蜜的瞬间静止。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "40304",
+      "sourceRefs": [
+        {
+          "bundle": "3rd_qiandao",
+          "rowIds": [
+            40304001,
+            40304002,
+            40304003,
+            40304004,
+            40304005,
+            40304006,
+            40304007,
+            40304008,
+            40304009,
+            40304010,
+            40304011,
+            40304012,
+            40304013,
+            40304014,
+            40304015,
+            40304016,
+            40304017,
+            40304018,
+            40304019,
+            40304020,
+            40304021,
+            40304022,
+            40304023,
+            40304024,
+            40304025,
+            40304026,
+            40304027,
+            40304028
+          ],
+          "sectionId": 40304
+        }
+      ],
+      "title": "活动片段 40304"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10030",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10030",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 40304,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 40304",
+  "wordCount": 620
+}

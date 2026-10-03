@@ -1,0 +1,67 @@
+{
+  "bookId": "hero-213104",
+  "id": "bond-26014",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26014001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是专门为米莉姆准备的手办屋，量身定制，希望你能喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26014002",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "既然话都说这份上了，没有拒绝的道理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26014003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里面存放了很多米莉姆喜欢的蜂蜜涂料哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26014004",
+          "sourceType": 0,
+          "speaker": "米莉姆",
+          "text": "不愧是我的密友，考虑得很周到嘛。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26014",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26014001,
+            26014002,
+            26014003,
+            26014004
+          ],
+          "sectionId": 26014
+        }
+      ],
+      "title": "密友"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "密友",
+  "wordCount": 80
+}

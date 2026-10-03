@@ -1,0 +1,230 @@
+{
+  "bookId": "activity-extra-christmas2021",
+  "id": "source-25800",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "sourceId": "25800001",
+          "sourceType": 11,
+          "text": "此处为游戏视频演出，尚未转写为文字。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "25800002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "呼……好冷。\n各位，久等了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "欸……大家都在了吗……抱歉来晚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，我们的节日信使到了呢！不知道今天会收到什么礼物~\n优纪可是认真写了一整天的心愿单！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "或许是因为看了那种连篇累牍的东西，信使小姐才会迟到吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么嘛，花迦真过分……\n明明自己的心愿就写了粮丸的尾巴那么长！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800007",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "竟……竟然偷看……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "好了，让我来看看清单——\n第一位收件人，优纪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "欸？我吗我吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "优纪的礼物，是一份「超大节日惊喜」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是我的第十二个心愿！\n哇……真的这么大！全都是我的吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800012",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "难道说，这个似曾相识的气息是……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "Surprise——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800014",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "……这就是……「超大节日惊喜」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "见到我你好像很失望呢，让我来猜猜看——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "难道你是在想念某个未被邀请之人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什、什么嘛……哪有的事，今、今天可是「手办之夜」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "噢，原来——那个|102|是位人类呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你的心愿我看清了，接下来……It's show time！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "好了|101|，你的出场时间到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25800021",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "进去看看吧，她们等你很久了。\n……还有，节日快乐。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25800",
+      "sourceRefs": [
+        {
+          "bundle": "christmas2021",
+          "rowIds": [
+            25800001,
+            25800002,
+            25800003,
+            25800004,
+            25800005,
+            25800006,
+            25800007,
+            25800008,
+            25800009,
+            25800010,
+            25800011,
+            25800012,
+            25800013,
+            25800014,
+            25800015,
+            25800016,
+            25800017,
+            25800018,
+            25800019,
+            25800020,
+            25800021
+          ],
+          "sectionId": 25800
+        }
+      ],
+      "title": "活动片段 25800"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "2502",
+              "enter_avg"
+            ],
+            "table": "ResOpActivityFLottoryMisc.lua"
+          }
+        ],
+        "path": [
+          "2502",
+          "enter_avg"
+        ],
+        "sectionId": 25800,
+        "table": "ResOpActivityFLottoryMisc"
+      },
+      {
+        "videoPath": "Videos/AVG_xmas_2021.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25800",
+  "wordCount": 404
+}

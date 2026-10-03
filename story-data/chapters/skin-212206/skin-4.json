@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212206",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「深海的歌声唤醒了漂泊的旅人。」\n「欢迎你，远道而来的客人。」\n\n「你的眼中满是疲惫和落寞，没关系，我的歌声会为你驱散一切阴霾。」\n「今晚，在这海洋的深处，我的歌声会伴你度过漫漫长夜，直至最后的黎明。」\n\n半人鱼的吟唱在海底深处激起层层涟漪，也唤醒了听者心中久违的律动。\n\n不知谁的眼泪无声坠落，在海草的抚摸下，化成一颗颗纯白莹润的明珠。\n\n——该特别款仅限灿世华章赛季获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鲛人离歌Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212206",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "贝歌·鲛人离歌Ver.",
+  "title": "鲛人离歌Ver.",
+  "wordCount": 177
+}

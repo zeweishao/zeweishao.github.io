@@ -1,0 +1,117 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35020",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35020001",
+          "sourceType": 10,
+          "text": "江山如画",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35020002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "最特别的兔儿爷制作完成了喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020003",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "真让我感到意外，这还是第一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "米菲亚很厉害吧，快快承认吧，我不会笑你的喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "不过是概率性事件，值得让你如此得意么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "塞西尔一定是不好意思，我来替她讲——米菲亚最最最最棒啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "哎嘿嘿，还是优纪最了解我啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "那么我们一起把这个小山送给「兔儿爷」吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020009",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "谢谢你们，这份心意我会好好珍藏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35020010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们也非常开心能和「兔儿爷」成为朋友哦，你的到来让我们都觉得很幸福呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35020",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35020001,
+            35020002,
+            35020003,
+            35020004,
+            35020005,
+            35020006,
+            35020007,
+            35020008,
+            35020009,
+            35020010
+          ],
+          "sectionId": 35020
+        }
+      ],
+      "title": "江山如画"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35020,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "83",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "「客路青山外，行舟绿水前」，带着希望与祝福，「兔儿爷」的旅程才刚刚开始。",
+  "title": "江山如画",
+  "wordCount": 188
+}

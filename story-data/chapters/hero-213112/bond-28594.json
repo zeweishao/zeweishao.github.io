@@ -1,0 +1,138 @@
+{
+  "bookId": "hero-213112",
+  "id": "bond-28594",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28594001",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "尘埃消散，污渍消失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28594002",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "——让一切杂乱无章之物归于整洁。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28594004",
+              "text": "等等，你在做什么？"
+            }
+          ],
+          "sourceId": "28594003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28594004",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我看到这堆杂物，试图使用魔法协助整理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28594005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你知道，魔法在处理这些事情时总是很便捷。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28594007",
+              "text": "这些……并不是杂物，不需要清理。"
+            }
+          ],
+          "sourceId": "28594006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28594007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "怎么，我做错了什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28594009",
+              "text": "咳，是我收藏的同人志。"
+            }
+          ],
+          "sourceId": "28594008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28594009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我本想用魔法简化一切，不过看来反而弄巧成拙了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28594010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这也让我认识到，魔法也有与现代生活不兼容的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28594011",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "至于如何处置这些同人志，你已经想好怎么办了，对吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28594",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28594001,
+            28594002,
+            28594003,
+            28594004,
+            28594005,
+            28594006,
+            28594007,
+            28594008,
+            28594009,
+            28594010,
+            28594011
+          ],
+          "sectionId": 28594
+        }
+      ],
+      "title": "魔法时间"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213112",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "魔法时间",
+  "wordCount": 184
+}

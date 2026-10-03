@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212201",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "“武道的尽头，是永无止境。”\n“奋发向前，以太阳般燃烧的黄金之心。”\n“带着敢于直面一切的炽热勇气。”\n“如果前方没有道路，那么便由我来开辟道路。”\n  阳子身上黄金般的武道服，也似绽放出太阳一样炽烈的光芒。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "辉煌年代Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212201",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "夏澄阳子·辉煌年代Ver.",
+  "title": "辉煌年代Ver.",
+  "wordCount": 98
+}

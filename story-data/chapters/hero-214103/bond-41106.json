@@ -1,0 +1,196 @@
+{
+  "bookId": "hero-214103",
+  "id": "bond-41106",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41106001",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "没有来过的地方，稍微有点紧张的说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "锵锵——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是给库特的惊喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106004",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼！？这里是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106005",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "是天文台的说！还是半露天的设计！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，这样的话库特晚上看星星的时候，就可以偶尔用天文望远镜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106007",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "简直是super surprise的说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106008",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "感觉光是感谢的话语，已经完全不能表达内心的情感了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106009",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "现在心里仿佛在经历宇宙big bang一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "冷静，冷静……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "作为感谢话语的替代，库特可以帮我实现一个愿望吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106012",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41106014",
+              "text": "库特愿意告诉我更多有关星星的故事吗？"
+            },
+            {
+              "targetId": "41106014",
+              "text": "我想知道更多有关星星的知识，库特教教我！"
+            }
+          ],
+          "sourceId": "41106013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41106014",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "诶？当，当然no problem的说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106015",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "可是这样就够了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "十分足够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "毕竟能看到库特讲述星星时眼睛闪闪发亮的样子，就是最好的感谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106018",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "唔，那你可要做好prepare的说！关于星星的事情我可是会说很久的哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41106019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我会努力的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41106",
+      "sourceRefs": [
+        {
+          "bundle": "lbgaobai",
+          "rowIds": [
+            41106001,
+            41106002,
+            41106003,
+            41106004,
+            41106005,
+            41106006,
+            41106007,
+            41106008,
+            41106009,
+            41106010,
+            41106011,
+            41106012,
+            41106013,
+            41106014,
+            41106015,
+            41106016,
+            41106017,
+            41106018,
+            41106019
+          ],
+          "sectionId": 41106
+        }
+      ],
+      "title": "与星星的约定"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "与星星的约定",
+  "wordCount": 328
+}

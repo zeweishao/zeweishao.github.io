@@ -1,0 +1,299 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-122",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "122001",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "主人主人主人~~你回来啦！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快、快过来这边~~优纪一直很焦急的，在等主人回家呢！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "122004",
+              "text": "我不在的时候，你们又偷偷动啦？"
+            },
+            {
+              "targetId": "122004",
+              "text": "小心！被其他人看到的话就糟糕了"
+            }
+          ],
+          "sourceId": "122003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "122004",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "122005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过现在，这些一点也不重要啦！因为和江、和江她——！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "122007",
+              "text": "点三下"
+            }
+          ],
+          "sourceId": "122006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "122007",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "122008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人在回家过程中，有看到那只可恶的猫咪吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦？身体……怎么感觉站不稳了，塑料脑袋……也晕晕乎乎的……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "122011",
+              "text": "用手轻轻托住优纪"
+            }
+          ],
+          "sourceId": "122010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "122011",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "欸~~！优纪的身体，被主人用手掌，轻轻托起来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "手心温暖潮湿的温度，就像被小小的太阳融化一样，好舒服耶~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122013",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "看起来……这种晕眩的感觉，是刚才跟猫咪作战之后留下的后遗症呢。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人！为了帮助和江，优纪和小梅刚才也在很努力的和猫咪战斗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是可是，突然回家的妈妈却让优纪吓了好大一跳，只好变成“手办”的样子，一动不动了……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "122017",
+              "text": "优纪的身体磨损得很严重呢，先修补一下吧"
+            }
+          ],
+          "sourceId": "122016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "noticeKind": "interaction",
+          "sourceId": "122017",
+          "sourceType": 6,
+          "text": "此处为游戏互动演出，文字版保留位置。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "122018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是现在，优纪只想要快点出门去找和江，因为优纪真的非常担心她的安全！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122019",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "欸——涂、涂料笔伸过来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "格哈哈哈……很、很痒痒呢！主人，请轻一点、稍微轻一点啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈~~不过毛绒绒的小刷子刷在身上，真的感觉很舒服呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯呐，主人的手心也在渗出小小的汗珠，嘿嘿~~稍微可以不用这么认真唷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "耶~！修补~~完成啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "涂料在身体上闪烁出耀眼的光芒，嘿嘿~~元气满满的优纪又重新复活喽~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "糟糕！忘记了！被猫咪叼走的和江酱，再这样耽搁下去，身体一定会变成瑕疵手办的！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "122027",
+              "text": "分头去找和江吧！"
+            }
+          ],
+          "sourceId": "122026",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "122027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯~~！优纪会跳出窗子，在楼下先找出那只猫咪的下落的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "122028",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "到时候，找到和江酱的话，约定好了，就在家里再次会合唷！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "122",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            122001,
+            122002,
+            122003,
+            122004,
+            122005,
+            122006,
+            122007,
+            122008,
+            122009,
+            122010,
+            122011,
+            122012,
+            122013,
+            122014,
+            122015,
+            122016,
+            122017,
+            122018,
+            122019,
+            122020,
+            122021,
+            122022,
+            122023,
+            122024,
+            122025,
+            122026,
+            122027,
+            122028
+          ],
+          "sectionId": 122
+        }
+      ],
+      "title": "原文片段 122"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 122
+      },
+      {
+        "id": "2",
+        "table": "ResTalkSpecialOpt"
+      },
+      {
+        "id": "3",
+        "table": "ResTalkSpecialOpt"
+      },
+      {
+        "id": "1",
+        "table": "ResTalkSpecialOpt"
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 122",
+  "wordCount": 618
+}

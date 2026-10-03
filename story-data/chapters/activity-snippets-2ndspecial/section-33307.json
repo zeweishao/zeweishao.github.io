@@ -1,0 +1,171 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33307",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33307001",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "真男人举铁，就应该从十公斤开始！\n乳臭未干的小鬼，闪一边去，别砸到你的小脑瓜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "切，就这点重量，谁举不起来？\n莉莉奈，看好了，哥哥有的是力气！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......笨蛋哥哥，烦死了。\n酒井教练回来之后，我要告诉她你一直在偷懒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "不、不要啊妹妹，我不敢了，我马上闭嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个，所以说......献给主人|101|的举重表演，你们到底谁来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307006",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "这还用问？老子不去，难道让这两个小屁孩上去丢人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307007",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "大块头，你说谁丢人？！哼，今天必须给你露一手。\n举铁算什么本事，胸口碎大石你会吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "杰斯，别这样，太危险了！\n我们是手办，身体的韧性很差，经不起这种冲击的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "一块石头而已，有什么好怕。来吧，莉莉奈，往我身上砸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307010",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "笨蛋哥哥......砸掉它，就能让你安静下来吗？\n好吧，我知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307011",
+          "sourceType": 3,
+          "text": "轰隆——啪嚓！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33307012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "杰斯，你没事吧，有没有受伤？\n呼——看起来完好无损呢，真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "主人觉得笨蛋哥哥整天出去惹事，每次都重新维修太麻烦了，给我们的机甲进行了特殊工艺加固。他这属于作弊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307014",
+          "sourceType": 0,
+          "speaker": "格雷豪斯",
+          "text": "哈哈哈哈哈哈！好小子，有血性，是个好苗子，我接受你的挑战。\n胸口碎大石是吧？到时候老子亲自演给|101|看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307015",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "一群疯子，没救了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33307016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总、总之，节目定下来真是太好了呢。\n那排练的时候，我们不见不散！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33307",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33307001,
+            33307002,
+            33307003,
+            33307004,
+            33307005,
+            33307006,
+            33307007,
+            33307008,
+            33307009,
+            33307010,
+            33307011,
+            33307012,
+            33307013,
+            33307014,
+            33307015,
+            33307016
+          ],
+          "sectionId": 33307
+        }
+      ],
+      "title": "「胸口碎大石」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33307,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「胸口碎大石」",
+  "wordCount": 496
+}

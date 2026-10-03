@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213207",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "为了调查情报，可露莎秘密潜入马南家族投资的主题咖啡厅，却被当成前来应聘的新员工……\n\n看着身上过分可爱的恶魔制服，可露莎决定——将错就错！\n\n「这位客人，让您久等了~」小恶魔的尾巴尖高高翘起，划出顽皮的弧度，「抱歉，调制饮品不能指定口味，只能指定颜色哦。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "魅魔咖啡厅Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213207",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "可露莎·魅魔咖啡厅Ver.",
+  "title": "魅魔咖啡厅Ver.",
+  "wordCount": 124
+}

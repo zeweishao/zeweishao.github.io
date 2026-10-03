@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212107",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「死亡主宰」化身为1/7比例模型登场！激战后的废墟中，死亡主宰微笑着向你款款走来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212107"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 41
+}

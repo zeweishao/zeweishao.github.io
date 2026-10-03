@@ -1,0 +1,170 @@
+{
+  "bookId": "rewind-41",
+  "id": "source-36022",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36022001",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "啧，真是奇怪的战斗方式，从来没见过……\n咦，难道……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哼！你已经逃不掉了！\n贝尔先生的《野外生存手册》写了，面对坏家伙的时候应该——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "咦？手册呢？怎么不见了？\n糟了……这可是贝尔先生留给星洛唯一的礼物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022004",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻~你说的《野外生存手册》，是不是一个画着图案的卷轴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "欸，你怎么会知道？难道就是你偷走了星洛的手册？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022006",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻，果然……咳咳，当然不是我偷的，但我知道它在哪。\n求我的话，我就考虑帮你的忙~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "真的吗？嗯……可是你刚刚还在偷|101|的东西。\n哼！你是坏家伙，星洛才不相信你呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022008",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻，其实我也是|101|的朋友。\n朋友的朋友也是朋友，帮助你很正常呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "我在这里和你一起等|101|回来，而且，我还会给你涂料。\n如果是坏人，才不会这样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "涂料？是|101|说的，好吃的涂料吗？\n星洛确实想吃东西，但你为什么对星洛这么好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022011",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "其实嘛，我也遇到了一些问题。\n我帮你找回手册，你帮我解决麻烦，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022012",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯……你可不要骗星洛哦！等到|101|回来，星洛就会和你缔结契约。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022013",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "一言为定！这些涂料就当做契约的证明吧！\n手办只能小口品尝，小心点~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36022014",
+          "sourceType": 2,
+          "speaker": "神宫有咲",
+          "text": "嘻嘻，真好骗~有她打掩护，计划会更顺利。\n开始吧，我盛大的恶作剧！",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "36022",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36022001,
+            36022002,
+            36022003,
+            36022004,
+            36022005,
+            36022006,
+            36022007,
+            36022008,
+            36022009,
+            36022010,
+            36022011,
+            36022012,
+            36022013,
+            36022014
+          ],
+          "sectionId": 36022
+        }
+      ],
+      "title": "星空猎人·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9310015",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9310015",
+          "after_result_avg"
+        ],
+        "sectionId": 36022,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "星空猎人·Ⅴ",
+  "wordCount": 475
+}

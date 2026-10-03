@@ -1,0 +1,64 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1111",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1111001",
+          "sourceType": 3,
+          "text": "（引导）升阶成长",
+          "type": "narration"
+        },
+        {
+          "sourceId": "1111002",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "还记得我刚才给牧羊女的东西么？就是用来升阶的材料",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1111003",
+          "sourceType": 0,
+          "speaker": "宫本里恵",
+          "text": "记得记得，升阶以后特别厉害",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1111004",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "嗯，需要熟练掌握升阶技巧，以后才有可能打败大魔王",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1111",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1111001,
+            1111002,
+            1111003,
+            1111004
+          ],
+          "sectionId": 1111
+        }
+      ],
+      "title": "原文片段 1111"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1111
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1111",
+  "wordCount": 69
+}

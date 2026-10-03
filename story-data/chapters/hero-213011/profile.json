@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213011",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "Grace是来旅居德国的设计师，她与FULI联手推出了奇思蛙想系列，灵感来自日常生活中常见的动物——青蛙。除了保留基础造型之外，Grace使原本普通的青蛙展现出搞怪俏皮的一面。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213011"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 88
+}

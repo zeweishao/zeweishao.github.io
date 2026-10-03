@@ -1,0 +1,101 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35004",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35004001",
+          "sourceType": 10,
+          "text": "猫与兔",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35004002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "没办法玩猫鼠游戏，米菲亚好无聊呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵喵喵？那边的小兔子看起来很好欺负，不如陪米菲亚玩一会吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "米菲亚快住手！「兔儿爷」可不是一般的兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004005",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "陪小孩子玩一会的时间，我还是有的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "呜喵~优纪，你手里拿的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，我在捏「兔儿爷」泥塑，超级超级好玩呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35004008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "哇哇哇，米菲亚也要玩~猫猫来做小兔子，绝对会是世界上最可爱的喵~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35004",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35004001,
+            35004002,
+            35004003,
+            35004004,
+            35004005,
+            35004006,
+            35004007,
+            35004008
+          ],
+          "sectionId": 35004
+        }
+      ],
+      "title": "猫与兔"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35004,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "67",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "想要让猫咪米菲亚开心，除了猫薄荷之外，还有软糯的小兔子~",
+  "title": "猫与兔",
+  "wordCount": 158
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214013",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "金色的沙滩和蔚蓝海水相接之地，盛大的婚礼在此举办。\n纯白的泳装婚纱衬托少女白皙闪耀的肌肤，让她在夏日阳光的洗礼下更显熠熠闪光。\n此刻的少女像是沙滩上最纯白耀眼的珍珠，犹如这片大海赐予的最珍贵宝物。\n她的眼里只有你一人的存在，目光没有任何迷茫和对未来的担忧，只有期盼和坦然。\n你准备好接过她手中的鲜花，牵过她的小手，立下与她相伴一生的誓约了吗？  \n\n——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "海滩嫁日Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214013",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "拉斐尔·海滩嫁日Ver.",
+  "title": "海滩嫁日Ver.",
+  "wordCount": 187
+}

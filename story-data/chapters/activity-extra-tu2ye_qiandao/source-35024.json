@@ -1,0 +1,179 @@
+{
+  "bookId": "activity-extra-tu2ye_qiandao",
+  "id": "source-35024",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35024001",
+          "sourceType": 3,
+          "text": "海风伴着人鱼的歌声，远远地传了过来——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35024002",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "刚才的歌，好听吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总感觉旋律中带着一丝愉悦，似乎不太像贝歌的风格呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样的贝歌更加令人动容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我的族人如果能听到这个评价就好了……非常感谢......呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不要哭，这个是送给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "给我的礼物……我可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然了，你值得所有的美好哦。不要客气，快收下吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "抱歉，我只是觉得有点受宠若惊……\n担心那些美好的事物消亡，我一定会痛苦而不舍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024010",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "可怜的孩子，我们会一直都在的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "除了包容万物的海洋，世界上不存在恒久的东西。\n——这是我过去坚信不疑的，也许是时候做出改变了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我会很期待的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呜......呜呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么哭得更厉害了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024015",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "......为什么，你这样的人，没有再早些出现呢？\n如果，如果你早点来到我身边......或许一切都会不同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35024016",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我无以为报，唯有为你献出更加美好的歌声。\n我会为你唱歌，一直唱到喉咙沙哑，生命终结。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35024",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye_qiandao",
+          "rowIds": [
+            35024001,
+            35024002,
+            35024003,
+            35024004,
+            35024005,
+            35024006,
+            35024007,
+            35024008,
+            35024009,
+            35024010,
+            35024011,
+            35024012,
+            35024013,
+            35024014,
+            35024015,
+            35024016
+          ],
+          "sectionId": 35024
+        }
+      ],
+      "title": "活动片段 35024"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1088",
+              "27",
+              "6",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1088",
+          "27",
+          "6",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 35024,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 35024",
+  "wordCount": 374
+}

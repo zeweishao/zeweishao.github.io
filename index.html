@@ -4,15 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5eee3">
-  <meta name="description" content="属于我们的小世界：一本写给宝宝的星轨手账。">
-  <title>属于我们的小世界</title>
+  <meta name="description" content="记录爱雪雪的每一天：一页写给宝宝的情书，收好我们的小日常。">
+  <title>一页情书｜记录爱雪雪的每一天</title>
   <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
   <link rel="preload" as="image" href="assets/journal/home-spread.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.loli.net">
   <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
   <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap"></noscript>
-  <link rel="stylesheet" href="journal.css?v=20261003g">
+  <link rel="stylesheet" href="journal.css?v=20261003k">
+  <link rel="stylesheet" href="home.css?v=20261003c">
+  <script src="asset-config.js?v=20261003-r2"></script>
 </head>
 <body class="journal home-page">
   <header class="topbar">
@@ -21,9 +23,9 @@
       <span>记录爱雪雪的每一天</span>
     </a>
     <nav class="j-tabs" aria-label="主导航">
-      <a class="is-active" href="index.html" aria-current="page">情书</a>
+      <a class="is-active" href="index.html" aria-current="page">一页情书</a>
       <a href="figures.html">团子之家</a>
-      <a href="milk-tea.html">能量补给站</a>
+      <a href="milk-tea.html">宝宝的能量补给站</a>
       <a href="messages.html">悄悄话</a>
       <a href="albums.html">照片</a>
       <a href="comic.html">漫画</a>
@@ -31,9 +33,9 @@
     <details class="j-menu">
       <summary>目录</summary>
       <nav class="j-menu-panel" aria-label="主导航">
-        <a class="is-active" href="index.html" aria-current="page">情书</a>
+        <a class="is-active" href="index.html" aria-current="page">一页情书</a>
         <a href="figures.html">团子之家</a>
-        <a href="milk-tea.html">能量补给站</a>
+        <a href="milk-tea.html">宝宝的能量补给站</a>
         <a href="messages.html">悄悄话</a>
         <a href="albums.html">照片</a>
         <a href="comic.html">漫画</a>
@@ -42,40 +44,28 @@
   </header>
 
   <main class="j-wrap">
-    <section class="diary" aria-labelledby="homeTitle">
-      <div class="diary-page diary-left">
-        <header class="diary-head">
-          <div class="date-stamp" aria-label="今天的日期">
-            <span class="y" data-date="year"></span>
-            <span class="md" data-date="md"></span>
-            <span class="w" data-date="weekday"></span>
-          </div>
-          <div class="diary-head-text">
-            <p class="eyebrow">写给宝宝的一页</p>
-            <h1 id="homeTitle" class="hand">今天，写给你。</h1>
-          </div>
-        </header>
+    <header class="home-heading">
+      <p class="eyebrow">写给宝宝的一页情书</p>
+      <h1 id="homeTitle" class="hand">把喜欢你，写进每一天。</h1>
+      <div class="home-date" aria-label="今天的日期">
+        <span data-date="year"></span><span aria-hidden="true">·</span>
+        <span data-date="md"></span><span aria-hidden="true">·</span>
+        <span data-date="weekday"></span>
+      </div>
+    </header>
 
-        <a class="diary-letter lined" href="messages.html">
-          <img class="sticker" src="assets/journal/sticker-letter.webp" alt="" style="right: -18px; top: -34px; width: 92px; transform: rotate(10deg)">
+    <section class="diary" aria-labelledby="homeTitle">
+      <a class="diary-letter lined" href="messages.html">
+          <span class="tape" aria-hidden="true"></span>
+          <img class="sticker" src="assets/journal/sticker-letter.webp" alt="">
           <span class="label">最近悄悄跟你说的</span>
-          <p class="text" id="homeLatestMessageText">……</p>
+          <p class="text" id="homeLatestMessageText">有些话，想慢慢写给你听。</p>
           <span class="more">翻到悄悄话 →</span>
         </a>
 
-        <a class="diary-tea" href="milk-tea.html" data-tea-card>
-          <img class="sticker" src="assets/journal/sticker-tea.webp" alt="" style="right: -14px; top: -30px; width: 66px; transform: rotate(12deg)">
-          <span class="title">奶茶小票</span>
-          <span class="row rule"><span>你的上一杯</span><span data-tea="name">还没摇呢</span></span>
-          <span class="row" data-tea-row hidden><span>品牌</span><span data-tea="brand">—</span></span>
-          <span class="row" data-tea-row hidden><span>那天</span><span class="num" data-tea="date">—</span></span>
-        </a>
-      </div>
+      <figure class="spread-card">
 
-      <div class="diary-page diary-right">
-        <figure class="spread-card">
-          <span class="tape" style="left: 34px; transform: rotate(-4deg)"></span>
-          <span class="tape navy" style="right: 30px; width: 84px; transform: rotate(5deg)"></span>
+          <span class="tape navy" aria-hidden="true"></span>
           <div class="spread-art">
             <img src="assets/journal/home-spread.webp" alt="手账跨页：左边杭州的西湖，右边纽约的布鲁克林大桥" width="1400" height="933">
             <div class="time-chip day">
@@ -90,22 +80,43 @@
           <figcaption class="hand">隔着十二小时，我们在同一条轨道上</figcaption>
         </figure>
 
-        <a class="diary-photo" href="albums.html">
-          <span class="tape gold" style="top: -12px; left: 50%; width: 70px; margin-left: -35px; transform: rotate(-3deg)"></span>
-          <img src="photos/1.jpg" alt="照片站里的一张照片" loading="lazy" decoding="async">
-          <span class="hand">我们的照片</span>
-        </a>
-
-        <div class="diary-figure-wrap" data-figure-today>
-          <a class="diary-figure" href="figures.html#figure-213103" data-figure="link">
-            <div class="portrait"><img src="assets/journal/domes/chuyin.webp" alt="初音未来手办" data-figure="img"></div>
+      <aside class="diary-figure-wrap" data-figure-today aria-label="今天陪着你的">
+          <span class="tape gold" aria-hidden="true"></span>
+          <div class="figure-note-head">
             <span class="label">今天陪着你的</span>
-            <strong data-figure="name">初音未来</strong>
-            <span class="hand" data-figure="line">今天也想把最好听的歌，唱给雪雪一个人听。</span>
+            <button class="figure-shuffle" type="button" data-figure="shuffle" aria-label="随机换一位英雄和情话">换一个</button>
+          </div>
+          <a class="diary-figure" href="figures.html#figure-213103" data-figure="link">
+            <div class="portrait"><img data-figure-asset="media/portraits/13103-13103.webp" alt="初音未来原版立绘" data-figure="img" width="600" height="800"></div>
+            <div class="figure-note-copy">
+              <strong data-figure="name">初音未来</strong>
+              <span class="hand" data-figure="line">今天也想把最好听的歌，唱给雪雪一个人听。</span>
+              <span class="figure-note-more">去团子之家 <span aria-hidden="true">→</span></span>
+            </div>
           </a>
-          <button class="figure-shuffle" type="button" data-figure="shuffle" aria-label="随机换一个手办和情话">随机</button>
+        </aside>
+
+      <div class="diary-keepsakes">
+          <a class="diary-photo" href="albums.html">
+          <span class="tape gold" style="top: -12px; left: 50%; width: 70px; margin-left: -35px; transform: rotate(-3deg)"></span>
+          <img src="photos/1.jpg" alt="我们的一张照片" loading="lazy" decoding="async">
+          <span class="hand">我们的照片</span>
+          </a>
+          <a class="diary-tea" href="milk-tea.html" data-tea-card>
+            <span class="tape" aria-hidden="true"></span>
+            <span class="tea-note-head">
+              <img src="assets/journal/sticker-tea.webp" alt="" width="48" height="56">
+              <span class="title hand">奶茶小票</span>
+            </span>
+            <span class="tea-note-label">你的上一杯</span>
+            <strong class="tea-note-name" data-tea="name">等你来摇一杯</strong>
+            <span class="tea-note-meta">
+              <span data-tea="brand" data-tea-row hidden></span>
+              <span class="num" data-tea="date" data-tea-row hidden></span>
+            </span>
+            <span class="tea-note-footer">今天也要甜一点 <span aria-hidden="true">→</span></span>
+          </a>
         </div>
-      </div>
     </section>
 
     <section class="diary-more" aria-label="接着往下翻">
@@ -125,11 +136,11 @@
 
     <footer class="j-footer">
       <span class="hand">今天就写到这里，明天见呀。</span>
-      <span class="num">写给宝宝 · 属于我们的小世界</span>
+      <span class="num">写给宝宝 · 一页情书</span>
     </footer>
   </main>
 
   <script src="app.js?v=20261003b"></script>
-  <script src="journal.js?v=20261003d"></script>
+  <script src="journal.js?v=20261003g"></script>
 </body>
 </html>

@@ -1,0 +1,135 @@
+{
+  "bookId": "archive-link",
+  "id": "section-190",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "190001",
+          "sourceType": 9,
+          "text": "为回馈新老收藏家，FULI公司特别发行了珍版「手办伴生」纪念品，\n包含「手办角色资料卡」、「手办伴生物件」等珍贵藏品。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "190002",
+          "sourceType": 9,
+          "text": "只要携带指定品牌「配重币」，就能免费兑换对应品牌手办的伴生纪念品——想了解手办的原作故事吗，想要与手办亲密接触吗——走过路过，不要错过！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "190003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好热闹阿，是新的发售活动吗，我好像听到「免费」和「配重币」……「配重币」是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "「配重币」是手办盲盒里附带的配重赠品，用于平衡不同盲盒之间的重量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊好可惜，主人买来的所有盒子好像都被收掉了……优纪也想偷偷兑换纪念品，给主人一个惊喜，可是不知道从哪里能弄到「配重币」啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔，说起来主人最近在房间里搭了一座博物馆，是早早就为这个活动做了准备吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "「转眼升入三年级，武馆外偷看训练的小女生越来越多……」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190008",
+          "sourceType": 5,
+          "speaker": "夏澄阳子",
+          "text": "喂，小鬼，给我站住——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "「“难道是加急礼仪课起了效果，”阳子不解地抓了抓头发，引起一片轻声的喧闹，“大家也觉得我更有大小姐的闺秀气质了吗？”」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190010",
+          "sourceType": 5,
+          "speaker": "夏澄阳子",
+          "text": "喂，臭小鬼，都说了不要念了——\n可恶，真的很羞耻啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190011",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "是吗，如果你不说「请您停下」的话，我这里还有另一份喔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请等一下——有咲，有咲——你的「配重币」是哪里来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "190013",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "弹弓打来的，我知道一个好地方，\n想知道的话……要拿你的主人来换哟？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "190",
+      "sourceRefs": [
+        {
+          "bundle": "link",
+          "rowIds": [
+            190001,
+            190002,
+            190003,
+            190004,
+            190005,
+            190006,
+            190007,
+            190008,
+            190009,
+            190010,
+            190011,
+            190012,
+            190013
+          ],
+          "sectionId": 190
+        }
+      ],
+      "title": "原文片段 190"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "link",
+        "sectionId": 190
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 190",
+  "wordCount": 509
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215004",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "信奉女神，气质圣洁又温柔的大小姐遇上了久违的夏日休沐。\n她的泳装以纯白和天蓝为主色调进行搭配着，像是水天相接般的色彩调配，让人想到大海的壮阔波澜，和天空的深邃美好。\n——这是为了和重要的人去到海边度假，海伦不惜冒着违背女神教义的风险，特意换上的清凉大胆装扮。\n因为是休沐的日子，又是为了重要的人，海伦相信女神很愿意原谅她今日的失礼。 \n\n——本特别款仅可通过泳装派对活动获取   ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "神圣休沐Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215004",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海伦·神圣休沐Ver.",
+  "title": "神圣休沐Ver.",
+  "wordCount": 181
+}

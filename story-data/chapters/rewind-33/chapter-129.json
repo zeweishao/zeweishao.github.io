@@ -1,0 +1,1032 @@
+{
+  "bookId": "rewind-33",
+  "id": "chapter-129",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31664001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "黑猫......被她安抚了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664002",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "真是神奇，她就这样轻而易举地达成了实验目标......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你、你们好，我叫......海柔尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "终于......成功地说出来了！\n布鲁特说得对，交朋友，我也能行的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "海柔尔，你好。\n我们在研究猫咪的习性，谢谢你帮我们拦住了它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不、不......不用谢！\n这是我应该做的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "请问——你是怎么做到的？\n为什么猫咪这么亲近你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "哎？可能是......可能......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664009",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我记录下来了你的行为顺序——首先摸的位置是后背，为什么？后背对安抚猫咪情绪有特殊作用吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664010",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "而且你的力度很轻，由此，我们是不是可以提出假设：\n猫咪的亲近程度和抚摸力度呈反比？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我，我只是......按照自己的想法去做了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664012",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "自己的想法吗......你微笑的幅度也完全没达到标准。\n可以麻烦你再重复一下刚才的笑容，让我做个记录吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜......那个.......\n我，我也，我不知道......呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31664014",
+          "sourceType": 0,
+          "speaker": "野猫小黑",
+          "text": "喵！！唬......\n嗷嗷喵呜——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665001",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "实验第15分钟，猫咪忽然对我们产生了敌意，原因不明......\n啊，蒂娅，小心右侧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665002",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "嘶！手臂......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665003",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "你被抓伤了，马上终止实验！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665004",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我没事，那个叫海柔尔的女孩还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665005",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "她就在那......嗯？趁乱跑掉了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "猫咪似乎觉得我们在欺负她，才发动攻击的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31665007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "现在最关键的是处理你的伤口。\n跟我来吧，我们去找那个人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-687",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31664001,
+            31664002,
+            31664003,
+            31664004,
+            31664005,
+            31664006,
+            31664007,
+            31664008,
+            31664009,
+            31664010,
+            31664011,
+            31664012,
+            31664013,
+            31664014
+          ],
+          "sectionId": 31664
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31665001,
+            31665002,
+            31665003,
+            31665004,
+            31665005,
+            31665006,
+            31665007
+          ],
+          "sectionId": 31665
+        }
+      ],
+      "title": "微笑黑猫·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31666001",
+          "sourceType": 3,
+          "text": "沙沙......沙沙......",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31666002",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "咳，别担心，事情也没到不可挽回的地步！\n你还可以......可以......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666003",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "好吧，现在局面确实很糟糕！不过那又如何呢？\nM城有的是手办，你有接近无限次的尝试机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "没有用的......我继续下去，也只会给更多的人添麻烦而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我这样的人，根本交不到朋友，除非......除非小动物和植物能开口说话才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666006",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "你不是无论如何都想交到新朋友吗？\n遇到一点挫折就这么轻易放弃，胆小鬼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "对不起......我就是做不到，怎么努力都做不到。\n谢谢你。但是，我真的不想再继续下去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "没错，我是胆小鬼。你帮了我这么多，可是......我连面对你的勇气都没有，徕卡先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你......不要再管我这种人了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666010",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "啊呀呀，又跑掉了。\n看来她真的很喜欢逃避问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31666011",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "——或者逃避提出问题的人，比如我们。\n这可不是好习惯，要改掉才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "前面......是谁？布鲁特先生，不要再跟着我了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667002",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "嘻嘻嘻，小姑娘，你在森林里迷路了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜！！！不是布鲁特先生！\n你是谁......你不要过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667004",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "嘻嘻，小姑娘，我听到了你的愿望。小人鱼用歌声换得灵药，精灵将花汁滴进仙后的眼睛......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你，你在说什么，我听不懂......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667006",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "无所不能的魔法，请带来奇迹！赐予这片森林猫语花言！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "好有穿透力的声音......\n感觉头昏昏沉沉的，好想睡......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667008",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "别担心，这只是无伤大雅的安眠喷雾。\n睡吧，睡吧，带着你梦中渴望的睡一觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31667009",
+          "sourceType": 0,
+          "speaker": "神秘人",
+          "text": "灵药将鱼尾变成双腿，花汁唤醒情感的萌芽。\n这世界将会改变，如你所愿。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-688",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31666001,
+            31666002,
+            31666003,
+            31666004,
+            31666005,
+            31666006,
+            31666007,
+            31666008,
+            31666009,
+            31666010,
+            31666011
+          ],
+          "sectionId": 31666
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31667001,
+            31667002,
+            31667003,
+            31667004,
+            31667005,
+            31667006,
+            31667007,
+            31667008,
+            31667009
+          ],
+          "sectionId": 31667
+        }
+      ],
+      "title": "微笑黑猫·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31668001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我必须再次亲自来向你表达歉意。约定好的加冕礼，我却临时失约，还让赶来的你帮忙收拾残局。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31668003",
+              "text": "没关系。"
+            },
+            {
+              "targetId": "31668003",
+              "text": "下不为例。"
+            }
+          ],
+          "sourceId": "31668002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31668003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不过这次不像是克罗赛尔的手笔。\n除了玫瑰花被撕碎以外，对方似乎没有什么恶意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "捣乱的人有说过什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "听罗威说......对方似乎对我非常不满，还想要霸占我的花园。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668006",
+          "sourceType": 3,
+          "text": "笃，笃，笃。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31668007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅，还有星野结月？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "打扰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668009",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "蒂娅被大猫抓伤，涂料掉了好几块。\n可以麻烦你帮她修补一下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么回事？小区里的猫咪都很温顺，一般不会下爪这么狠的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668011",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我们在做关于猫咪习性的实验，实验中途有个戴蘑菇帽的小姑娘出现，然后......大猫攻击了我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668012",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我们吓到了她，或者吓到了猫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668013",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我们没有任何恶意，只是问了几个问题，她就没来由地开始哭......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "戴蘑菇帽的小姑娘......我有印象。\n破坏玫瑰花的也是她，哭着跑得飞快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以说，你们遇到的麻烦源于同一个手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668016",
+          "sourceType": 3,
+          "text": "咻——嘭！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31668017",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "大家趴下！3点钟方向，有爆炸物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "那似乎只是......一束小型礼花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668019",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "亲爱的观众们，欢迎来到世界巡回演出的现场，让我们掌声欢迎巨星——徕卡和布鲁特！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668020",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "你是谁？为什么闯进这里！\n放下你的武器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668021",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "这家伙身上能称得上武器的只有我——布鲁特先生。\n要是能放得下，不用你说，我早就摆脱这个笨蛋了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31668023",
+              "text": "你叫徕卡？"
+            },
+            {
+              "targetId": "31668023",
+              "text": "你是手偶师？"
+            }
+          ],
+          "sourceId": "31668022",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31668023",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "呜呼，看来这里有一位我的狂热粉丝！\n在今天的演出开始之前，我们先就海柔尔的故事做一个简单的前情回顾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668024",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "换句话说，就是解释一下你们口中蘑菇帽小姐的迷惑行为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668025",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "......|101|，你怎么看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31668026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可以给你一个解释的机会。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-689",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31668001,
+            31668002,
+            31668003,
+            31668004,
+            31668005,
+            31668006,
+            31668007,
+            31668008,
+            31668009,
+            31668010,
+            31668011,
+            31668012,
+            31668013,
+            31668014,
+            31668015,
+            31668016,
+            31668017,
+            31668018,
+            31668019,
+            31668020,
+            31668021,
+            31668022,
+            31668023,
+            31668024,
+            31668025,
+            31668026
+          ],
+          "sectionId": 31668
+        }
+      ],
+      "title": "微笑黑猫·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31670001",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "我要迟到了，我要迟到了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "唔......是谁在说话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670003",
+          "sourceType": 0,
+          "speaker": "克莱儿",
+          "text": "要迟到了，马上就到下午两点，该排练了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我在......和布鲁特见面的地方附近？那边拿着乐器的......是路过的乐手吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "昏过去之前，我好像让布鲁特先生不要再管我......然后遇到了一个奇怪的人，然后......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670006",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "海柔尔，哈哈，快看看我今天有什么不一样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "布鲁特先生？！你今天来得好早......\n我要为我昨天的态度道歉......啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你，你，你怎么......你的脚......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "BINGO！\n今天是布鲁特先生的大日子——摆脱笨蛋徕卡的第一天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你身后......空空荡荡。\n徕卡呢？手偶师到哪里去了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670011",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "管他呢！一觉醒来就不见了。他出现的意义也仅限于增加一颗随时会把你吓哭的炸弹，所以去他的吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不，不会的......手偶怎么可能......脱离手偶师而单独存在？\n我在做梦吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670013",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "卟、卟——海柔尔选手再次回答正确！\n如你所愿，这就是能实现心中所想的梦境！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "看，你的第一个愿望——让徕卡消失，已经实现了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670015",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我......我没有许过这样的愿望......\n如果要我许愿，我一定会想要......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670016",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "小动物和植物......开口说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670017",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "那算是我许的愿让他消失，行了吧！\n摆脱了那个碍事的家伙，咱们得好好庆祝一番才行，走走走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670018",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我们......去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670019",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "去茶会！孤单的小可怜，今天布鲁特先生就帮你在茶会上找到一万个朋友！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31670020",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "布鲁特先生，慢点，等等我！\n别把我一个人留在这......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-690",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31670001,
+            31670002,
+            31670003,
+            31670004,
+            31670005,
+            31670006,
+            31670007,
+            31670008,
+            31670009,
+            31670010,
+            31670011,
+            31670012,
+            31670013,
+            31670014,
+            31670015,
+            31670016,
+            31670017,
+            31670018,
+            31670019,
+            31670020
+          ],
+          "sectionId": 31670
+        }
+      ],
+      "title": "微笑黑猫·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31671001",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "再也不用和那个傻子共事，真是神清气爽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "布鲁特先生......很不喜欢徕卡吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671003",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "没办法，他生来就是个不讨喜的笨蛋，缺少了搭档，就会一事无成。你也不喜欢他那吓人的样子，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不是因为......他的样子。\n是我太过胆小......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671005",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "好吧，好吧，我允许你最后为他说上两句好话，然后开始我们的新旅程！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我们刚才，是不是经过了这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671007",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "别质疑布鲁特先生的方向感，小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可是这里树上的纹路、树底的蘑菇，都和十分钟前路过的一模一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "该死，这难道不是茶会主办方的失职吗！宁可花两个小时摆弄点心的角度，也不肯派使者过来接送客人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671010",
+          "sourceType": 3,
+          "text": "哔哔——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31671011",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "他们最好识相点，听到贵客的哨声，就赶快派引路的人过来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671012",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "喵呜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "咦？！陌，陌生的......\n不，你是，蒂娅小姐？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "错！这位是玫瑰女王的侍从黑猫！\n货真价实的猫耳和猫尾，柔软到不容争辩哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671015",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "但这......分明是蒂娅小姐的脸啊！\n这是梦吗？真的是梦吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671016",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "海柔尔，正视现实！你来到了另一个更美妙，更适合你的世界。在这里，没有恐怖的人类或手办，你就是动植物的一员！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671017",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "动植物在你眼中就是自己的同类。至于看到熟悉的脸，只不过是记忆留下的微小副作用而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671018",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我要......被绕晕了......\n所以，这的确是一只能和我交流的猫咪......吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31671019",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "哪来那么多废话，这个世界的黑猫就长这样！\n蒂娅，黑猫，或者随便谁，带路！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "原来如此，这里是梦境的世界......\n既然是我的梦，我把小动物看成自己认识的人也不奇怪了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不过，既然是小动物的话......\n只要不是人类，和她说上话这种事......我说不定可以做到？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "黑猫......小姐，那个，喵喵呜......\n喵喵嗷呜喵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672004",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "用你习惯的语言也没关系。\n很高兴认识你，海柔尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "黑、黑猫小姐，是天使！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31672006",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "别闲聊了，我们还有更重要的事要做——给你弄一身像样点的衣服，最适合茶会氛围的那一种！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-691",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31671001,
+            31671002,
+            31671003,
+            31671004,
+            31671005,
+            31671006,
+            31671007,
+            31671008,
+            31671009,
+            31671010,
+            31671011,
+            31671012,
+            31671013,
+            31671014,
+            31671015,
+            31671016,
+            31671017,
+            31671018,
+            31671019
+          ],
+          "sectionId": 31671
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31672001,
+            31672002,
+            31672003,
+            31672004,
+            31672005,
+            31672006
+          ],
+          "sectionId": 31672
+        }
+      ],
+      "title": "微笑黑猫·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 129,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 129,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "获取猫的信任，的确是个难题",
+  "title": "微笑黑猫",
+  "wordCount": 3123
+}

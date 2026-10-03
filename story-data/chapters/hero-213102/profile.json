@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213102",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "新锐设计师Phoenix与FULI旗下的Gala品牌展开合作，联手推出几何系列潮流玩偶。作品取材自生活中熟悉的图形，Phoenix先生独具匠心，为自己的作品赋予了灵魂，并为其命名为「阿发」。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213102"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

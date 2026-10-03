@@ -1,0 +1,99 @@
+{
+  "bookId": "hero-212107",
+  "id": "bond-26064",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26064001",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "红茶香气醇厚，点心也很精致。\n你的品味还不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可惜手办不能喝茶，不然我也会给你准备一份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064003",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "没关系，感受这种氛围也是一种惬意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来，你很喜欢茶会？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064005",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "曾经是的，但能让我尽情享受茶点的时光并没持续多久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064006",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "不过这并不遗憾，我很快发现，比起所谓的茶点，坐在面前的人要重要得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064007",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "哈啊......只要是和皇后一起，无论喝茶、战斗，或是随便什么别的事，都幸福得令人发抖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26064008",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "当然，包括和皇后一起成为你的手办这件事，也是无与伦比的幸福哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26064",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26064001,
+            26064002,
+            26064003,
+            26064004,
+            26064005,
+            26064006,
+            26064007,
+            26064008
+          ],
+          "sectionId": 26064
+        }
+      ],
+      "title": "茶会"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212107",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "茶会",
+  "wordCount": 205
+}

@@ -1,0 +1,237 @@
+{
+  "bookId": "activity-extra-heiyanyure",
+  "id": "source-32001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32001001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "主人|101|，快点把死亡主宰和皇后选名字的牌拿来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "杰斯和莉莉奈也对《黑岩射手 黎明降临》感兴趣吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "人类在绝境中挣扎的样子，特别有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001004",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "决定好了，我是「月亮」，莉莉奈是「太阳」！\n这样才最符合我们的身份！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "名字是随机抽取的，不是看着牌面自己挑选的，笨蛋哥哥。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "嘿嘿，还是妹妹懂得多。不过，在莉莉奈耀眼的光芒下，我怎么敢自称是月亮呢，「星星」就足够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "打断一下，那个，我已经抽到过太阳了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "那么你重新抽牌不就好了。\n莉莉奈，你喜欢哪种组合？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001009",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "星星和太阳、月亮和太阳都不错，不会同时在天空出现。\n这样笨蛋哥哥就不能天天烦我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "可恶，漏算了这一点！\n想不出更好的组合......总之先随便抽一张吧！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32001012",
+              "text": "洗牌"
+            }
+          ],
+          "sourceId": "32001011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32001012",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "吼吼，我抽到了可以将敌人全部碾碎的「战车」！\n莉莉奈的牌呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "「节制」。什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「节制」代表承诺，还有希望。\n总感觉莉莉奈和这张牌......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "32001016",
+              "text": "不完全符合"
+            },
+            {
+              "targetId": "32001016",
+              "text": "完全不符合"
+            }
+          ],
+          "sourceId": "32001015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "32001016",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "当然！莉莉奈必须有更帅气的称号，哥哥用「战车」跟你换！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001017",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "我不要。\n笨蛋哥哥，笨蛋主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈喜欢这张牌吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001019",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......我收下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32001020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，莉莉奈，牌不能拿走的啦——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "32001",
+      "sourceRefs": [
+        {
+          "bundle": "heiyanyure",
+          "rowIds": [
+            32001001,
+            32001002,
+            32001003,
+            32001004,
+            32001005,
+            32001006,
+            32001007,
+            32001008,
+            32001009,
+            32001010,
+            32001011,
+            32001012,
+            32001013,
+            32001014,
+            32001015,
+            32001016,
+            32001017,
+            32001018,
+            32001019,
+            32001020
+          ],
+          "sectionId": 32001
+        }
+      ],
+      "title": "活动片段 32001"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1059",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1059",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 32001,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 32001",
+  "wordCount": 446
+}

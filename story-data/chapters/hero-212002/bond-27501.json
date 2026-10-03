@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212002",
+  "id": "bond-27501",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27501001",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "你在吃药，生病了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，有点感冒，医生说是病毒感染。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501003",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "病病病病病毒？！感感感感感染？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不至于那么惊讶吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "为、为什么......偏偏是你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好痛！你咬我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501007",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "说不定，玲的抗体可以救你！\n但是队长说，即使直接注射抗体，幸存率也很低......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "怎么办，怎么办......你是玲最重要、最想守护的人。\n别怕，就算是最坏的结果，我也会一直陪你——到最后一刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我想你误会了。这个世界没有Cerebrum，也没有丧尸。\n普通的流感病毒只会让人鼻塞头疼几天哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "哎——哎哎哎？\n那，那刚才的算什么啊，意意意味不明的肉麻时刻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，我可以当作没听见。\n痛！你又咬？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27501012",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "忘掉忘掉！现在立刻忘掉！！！啊呜——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27501",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27501001,
+            27501002,
+            27501003,
+            27501004,
+            27501005,
+            27501006,
+            27501007,
+            27501008,
+            27501009,
+            27501010,
+            27501011,
+            27501012
+          ],
+          "sectionId": 27501
+        }
+      ],
+      "title": "病毒感染？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212002",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "病毒感染？",
+  "wordCount": 285
+}

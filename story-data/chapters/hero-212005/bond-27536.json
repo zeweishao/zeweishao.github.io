@@ -1,0 +1,146 @@
+{
+  "bookId": "hero-212005",
+  "id": "bond-27536",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27536001",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "主公，小心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536003",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "末将能感应到附近潜伏的危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536004",
+          "sourceType": 3,
+          "text": "唰！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "27536005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是蚊子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536006",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "最近蚊虫甚多，让人不堪其扰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536007",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "主公你安心睡吧，今晚我会在此守夜！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，我点蚊香就好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "而且，你不要老是跪着和我说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536010",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "君臣礼节，不可轻易废弛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "额……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536012",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "而且，守护在主公身边，是现在这幅身躯的我，为数不多能做到的事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536013",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "请准许末将继续为主公做些力所能及的小事吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27536014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……真拿你没办法。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27536",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27536001,
+            27536002,
+            27536003,
+            27536004,
+            27536005,
+            27536006,
+            27536007,
+            27536008,
+            27536009,
+            27536010,
+            27536011,
+            27536012,
+            27536013,
+            27536014
+          ],
+          "sectionId": 27536
+        }
+      ],
+      "title": "主公危机感应机制"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "主公危机感应机制",
+  "wordCount": 167
+}

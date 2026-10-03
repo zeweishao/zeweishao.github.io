@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-160",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "160001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当前版本的剧情发展到这里，要暂时告一段落了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "160002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然不能继续见证手办们的冒险，但后续还有各种新奇有趣的关卡哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "160003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请主人在空闲之际，多多为我们奉上关于游戏最宝贵的意见和建议吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "160004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪保证，新的故事内容会尽快呈现给主人哦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "160",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            160001,
+            160002,
+            160003,
+            160004
+          ],
+          "sectionId": 160
+        }
+      ],
+      "title": "原文片段 160"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 160
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 160",
+  "wordCount": 105
+}

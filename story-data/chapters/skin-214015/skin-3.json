@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214015",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「本次狩猎行动大成功！所以……我们什么时候开饭？」\n「你的眼里难道只剩下吃了吗，身为猎人的『尊严』呢！？」\n\n「嗯哼，荒野行动必须得保存足够的体力，所以吃当然很重要咯。」\n「……随你的便。」\n\n「嘿嘿，我带了锅具和调味包哦。」\n「只可惜没有带烤肉的叉子……唔，有了。」\n\n「你居然用自己的标枪串肉……！」\n「很好吃哦，哈，你也来尝尝吧~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "璨金刺枪Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214015",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "星洛·璨金刺枪Ver.",
+  "title": "璨金刺枪Ver.",
+  "wordCount": 159
+}

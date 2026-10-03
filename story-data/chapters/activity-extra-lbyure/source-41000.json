@@ -1,0 +1,215 @@
+{
+  "bookId": "activity-extra-lbyure",
+  "id": "source-41000",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41000001",
+          "sourceType": 3,
+          "text": "潮酷街区，手办商店。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41000002",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "外面已经没有声音，差不多是时候了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000003",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "你准备好了吗，能美·库特莉亚芙卡队员？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000004",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "准，准备好了！Yes,sir的说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000005",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "嗯，那么今晚的侦查行动现在开始。Mission start！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000006",
+          "sourceType": 3,
+          "text": "两人脚步声在安静的店铺里回响。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41000007",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼……没想到会在盒子里醒来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000008",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "不知道今天能找到其他同伴吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000009",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "唔，这已经是最后一个货架区域，如果依旧没有线索，看样子就得前往店外了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000010",
+          "sourceType": 3,
+          "text": "啪嚓——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41000011",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "那边有声音？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000012",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "恭介学长，我过去看看！我现在这样也跑得很快的说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000013",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "喂，能美，等——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000014",
+          "sourceType": 5,
+          "speaker": "枣恭介",
+          "text": "小心头顶——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000015",
+          "sourceType": 3,
+          "text": "啪嚓——轰——噼里啪啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41000016",
+          "sourceType": 3,
+          "text": "有什么东西砸破玻璃从窗外飞了进来，激起一阵烟尘。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41000017",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "咳咳，咳！喂，能美，醒醒，你没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000018",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "……哇……哇呼……恭介学长……？怎么你头上有天使在飞？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000019",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "啊，天使们在向我招手的说……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000020",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "走……走马灯吗？喂，振作点，不要跟着天使走啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41000021",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41000",
+      "sourceRefs": [
+        {
+          "bundle": "lbyure",
+          "rowIds": [
+            41000001,
+            41000002,
+            41000003,
+            41000004,
+            41000005,
+            41000006,
+            41000007,
+            41000008,
+            41000009,
+            41000010,
+            41000011,
+            41000012,
+            41000013,
+            41000014,
+            41000015,
+            41000016,
+            41000017,
+            41000018,
+            41000019,
+            41000020,
+            41000021
+          ],
+          "sectionId": 41000
+        }
+      ],
+      "title": "活动片段 41000"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10034",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10034",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 41000,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 41000",
+  "wordCount": 346
+}

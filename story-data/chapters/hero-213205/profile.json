@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213205",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自超人气游戏《赤炎·境界》，大小姐「孙尚香」化身为比例模型登场！\n沉稳的眸光折射出「刚强勇猛」的强大气场，就连发丝都透出冷若冰霜的味道。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213205"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 68
+}

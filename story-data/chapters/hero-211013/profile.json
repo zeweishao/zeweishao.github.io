@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211013",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "《永恒的异界幻想》的人气角色诺伊尔化身1/7比例模型登场！身着漆黑裙甲的魔女行走在暮色里，暗紫色的披风随风飘荡。舍弃了所有的法术和奇迹，她以流浪骑士的身份追查着不夜城覆灭的真相，只为了守住曾经的誓言。\n",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211013"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 100
+}

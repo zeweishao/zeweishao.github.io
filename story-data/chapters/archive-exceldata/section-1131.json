@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1131",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1131001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不会有错的！这里就是优纪常常听到的“格斗俱乐部”啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1131002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸——？那边的手办，它们居然穿着跟绿子一样的衣服，看起来，似乎在进行酣畅淋漓的对战呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1131003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿哈，优纪内心的小火苗也被点燃起来啦，等不及要去会会传说中的格斗高手啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1131004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呐，为了主人的排名，一起加油吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1131",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1131001,
+            1131002,
+            1131003,
+            1131004
+          ],
+          "sectionId": 1131
+        }
+      ],
+      "title": "原文片段 1131"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1131
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1131",
+  "wordCount": 121
+}

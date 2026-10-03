@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215002",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "虽说以雇佣兵的身份参与过多场战役，但在葵的心里，战争是极为乏味与无趣的事情。\n\n冲杀、撕扯、叫喊、战火，没有什么比这些更简单粗暴，每一场战役都是熟悉的事物不断地重复。她渴望着更大的冒险，更加刺激与鲜活的极端体验。\n\n在远离战争的和平年代，虚拟现实终于实现了葵未竟的梦想。\n\n「唔……世界上果然存在着比睡觉还有意思的事情吗。我准备好了，但在开始之前，要先补充睡眠才行。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "虚拟现实Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215002",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "葵·虚拟现实Ver.",
+  "title": "虚拟现实Ver.",
+  "wordCount": 178
+}

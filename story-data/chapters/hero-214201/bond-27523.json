@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-214201",
+  "id": "bond-27523",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27523001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这个地方很适合作为宝库呢，真的要送给我吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人类……你对我那么好，是不是想要「那个」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「那个」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "还装傻，就是缔结最后的契约啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "用你们人类的话来说，应该是叫做「结婚」吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你理解这两个字的含义吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "当然，你竟然胆敢低估龙族的智慧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "将双方的命运、财产、以及生命，通过契约的方式紧紧联系在一起，这就是「结婚」吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27523011",
+              "text": "没错，我想要！"
+            },
+            {
+              "targetId": "27523012",
+              "text": "我没想过这件事……"
+            }
+          ],
+          "sourceId": "27523010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27523011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "如果你想的话……那我也不是不能答应你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "没关系，吾应允了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "唔，按照人类的习惯，我以后是不是应该称呼你为老公了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27523014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……老公？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27523",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27523001,
+            27523002,
+            27523003,
+            27523004,
+            27523005,
+            27523006,
+            27523007,
+            27523008,
+            27523009,
+            27523010,
+            27523011,
+            27523012,
+            27523013,
+            27523014
+          ],
+          "sectionId": 27523
+        }
+      ],
+      "title": "最后的契约"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "最后的契约",
+  "wordCount": 231
+}

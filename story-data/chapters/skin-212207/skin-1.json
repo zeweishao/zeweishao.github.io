@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212207",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「又见面了，尊敬的长官。」银色手铐在塞西尔的指尖旋转，发出「簌簌」的轻响。\n\n「达斯特已经死了，你放过我吧！」\n\n「嗯……可我更想让你去陪他。」\n\n「你！我那时候就不该同意让女人进军部！你会下地狱的！」\n\n「谢谢你的祝福。还有当初你们送我的这顶『就职礼物』……」她压了压头上的兔耳军帽，露出一个略显残忍的微笑，「我很喜欢。」\n\n——该特别款仅限通过「追踪调查报告」活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "无路可逃Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212207",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "塞西尔·无路可逃Ver.",
+  "title": "无路可逃Ver.",
+  "wordCount": 176
+}

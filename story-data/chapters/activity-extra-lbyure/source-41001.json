@@ -1,0 +1,183 @@
+{
+  "bookId": "activity-extra-lbyure",
+  "id": "source-41001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41001001",
+          "sourceType": 3,
+          "text": "不久之前——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41001002",
+          "sourceType": 3,
+          "text": "深夜之时，已经无人的手办店铺中响起时轻时重的脚步声。一声，两声，声音来到隔壁的走廊……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41001003",
+          "sourceType": 3,
+          "text": "三声，四声，声音在你的背后消失——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41001004",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咯咯，只有专业人士才能察觉的最新怪谈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001005",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "一定是诞生不久的幽灵，趁着别人都没发现，这次肯定可以抓到它！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001006",
+          "sourceType": 3,
+          "text": "啪嚓——轰——噼里啪啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41001007",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "——！什，什么声音？难道是还有别人来抓幽灵？这可不行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001008",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "……能……库……醒醒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "烟雾里好像有声音？果真有幽灵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001010",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "咳咳，初生的同胞哟，不用害怕，让我们一起——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001011",
+          "sourceType": 3,
+          "text": "一只苍白的手即将穿过烟雾碰上恭介的肩膀。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41001012",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "唔……恭介学长？我这是……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001013",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "呼，你醒了，刚刚似乎有什么东西从外面砸进来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001014",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "啊，恭恭恭介学长……你的背后有手……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001015",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼——！是幽灵啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001016",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "哇啊啊啊啊啊不是鬼啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41001017",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "是……和我们一样大小的……人？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41001",
+      "sourceRefs": [
+        {
+          "bundle": "lbyure",
+          "rowIds": [
+            41001001,
+            41001002,
+            41001003,
+            41001004,
+            41001005,
+            41001006,
+            41001007,
+            41001008,
+            41001009,
+            41001010,
+            41001011,
+            41001012,
+            41001013,
+            41001014,
+            41001015,
+            41001016,
+            41001017
+          ],
+          "sectionId": 41001
+        }
+      ],
+      "title": "活动片段 41001"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10034",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10034",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 41001,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 41001",
+  "wordCount": 320
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215008",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "“非常好，就是这样！身体前倾，紧收腹部，跟随踩踏的节拍注意呼吸。要想象自己是一只美丽的蝴蝶，即将在崇山峻岭间破茧重生。”\n    拥有雄壮腿部肌群的自行车教练此刻正对行进在路上的竞技俱乐部学员一一进行指点，当他的目光扫过艾里克希娅上下耸立、刻意翘起的臀部时，眼神就再也无法移向别的地方了。\n\n“腰身的曲线这样纤细，真是让人非常的苦恼呢，哦呵呵。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "竞速之星Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215008",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "艾里克希娅·竞速之星Ver.",
+  "title": "竞速之星Ver.",
+  "wordCount": 166
+}

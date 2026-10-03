@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214002",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「你们要潜入被控制的学校。记住，你们现在是学生，不要打草惊——」\n梅根话音未落，哈莉已狂奔而出。\n\n敌方的指挥中心里，指挥官不可思议地看着迅速变化的战术屏幕。\n\n「有突袭！三个火力点都没拦住？」\n「对方的动作太快了！指挥官是作战的心脏，我们掩护您先撤退。」\n\n盛大的爆炸轰碎了作战中心的墙壁，哈莉一跃而入。\n「哈哈嘿吼，心脏要逃走了？再来玩点刺激的！」\n\n——该特别款仅可通过「春日社团季」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "直入重围Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214002",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "哈莉·直入重围Ver.",
+  "title": "直入重围Ver.",
+  "wordCount": 188
+}

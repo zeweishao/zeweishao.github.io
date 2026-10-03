@@ -1,0 +1,117 @@
+{
+  "bookId": "hero-212017",
+  "id": "bond-28589",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28589001",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "此乃何等雅致之所！竟像是故乡青州工坊的制式。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28589002",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "观此坊之造型，恍若入梦幻之境，当真美轮美奂。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28589004",
+              "text": "不愧是设计师，观察得真仔细。"
+            }
+          ],
+          "sourceId": "28589003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28589004",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "一墙一石，处处透着匠心独运，雅致非凡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28589005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "等等，门上的刻字，莫不是「甄」？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28589007",
+              "text": "没错，就是以你的名字命名的。"
+            }
+          ],
+          "sourceId": "28589006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28589007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你不是一直想要自己的工作室吗？这是特意送给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28589008",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "君之慷慨，如春风化雨，润物细无声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28589009",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "我当以此坊为舞台，铸就千古绝世珠宝，以报君恩。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28589",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28589001,
+            28589002,
+            28589003,
+            28589004,
+            28589005,
+            28589006,
+            28589007,
+            28589008,
+            28589009
+          ],
+          "sectionId": 28589
+        }
+      ],
+      "title": "洛川珠宝坊"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "洛川珠宝坊",
+  "wordCount": 171
+}

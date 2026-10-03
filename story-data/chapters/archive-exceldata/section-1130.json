@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1130",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1130001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你要带优纪……去什么地方呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1130002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这条路，感觉有些似曾相识呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1130003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶诶！仔细听，什么地方……似乎正不断有越来越强的欢呼声跟喝彩声传来耶~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1130004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难道我们要去的地方，是“格斗俱乐部”？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1130",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1130001,
+            1130002,
+            1130003,
+            1130004
+          ],
+          "sectionId": 1130
+        }
+      ],
+      "title": "原文片段 1130"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1130
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1130",
+  "wordCount": 84
+}

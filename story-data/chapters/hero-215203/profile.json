@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215203",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "设计师品牌『第九夜』旗下全新角色「阿斯特莱雅」正式手办化登场！第九将夜对这位阿尔法军工集团的主导人进行了细致入微的刻画，完美还原了她那令人神往的迷人气场，就连其基于神经缔结技术制造的「埃癸斯」也真实呈现在了收藏家的面前。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215203"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 110
+}

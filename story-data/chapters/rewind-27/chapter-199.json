@@ -1,0 +1,3394 @@
+{
+  "bookId": "rewind-27",
+  "id": "chapter-199",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40351001",
+          "sourceType": 3,
+          "text": "M城郊外，晴，无风——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "到这里就差不多了吧，07？我们还要继续玩追踪游戏吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "哈？什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351004",
+          "sourceType": 3,
+          "text": "特工的身影出现在道路的一侧，似乎此前从未存在。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351005",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "光学迷彩，老套的把戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351006",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这个绿色的女人……怎么又是她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "花鸟原和水城结奈，你们在M城犯下诱拐和监禁手办的多条重罪，证据确凿。现在停手，还不算太晚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "呵，你现在倒是在给管理局当狗了，别让我发笑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "也就是说，你们拒绝了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "都不重要了。在我们愉快聊天的时候，她的计划早就到了最后阶段，没有人能够让她停下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "别废话了！让我……砸扁她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351012",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "会有人去阻止的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351013",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "很多人……很多手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351015",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "……真的假的，这么刺激？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "而我的任务，就是拖住你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351017",
+          "sourceType": 3,
+          "text": "凛在瞬息间欺近S-VⅢ身前，手中的双刀迸发青绿色的锋芒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351018",
+          "sourceType": 3,
+          "text": "废弃工厂外——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351019",
+          "sourceType": 13,
+          "speaker": "梅根",
+          "text": "这里是梅根，萤火小队全员已就位，等待指示。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351020",
+          "sourceType": 13,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾和桑尼已经到了，柯斯顿城随时可以发起进攻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351021",
+          "sourceType": 13,
+          "speaker": "绿子",
+          "text": "黄金楼盘的大家都到了。这下真是大场面了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351022",
+          "sourceType": 13,
+          "speaker": "水野梅",
+          "text": "家里能联系上的手办都赶过来了，我啊，可是绝不会让那家伙有事的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351023",
+          "sourceType": 13,
+          "speaker": "宫本尤娜",
+          "text": "等下，莉可你来干什么……？我正在联络中啊。别碰它，会爆炸的！喂——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351024",
+          "sourceType": 3,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351025",
+          "sourceType": 13,
+          "speaker": "伊达政宗",
+          "text": "Not bad，政宗事务所随时可以效劳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351026",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我说，真是来了一堆奇奇怪怪的手办啊，他们都是|101|之前认识的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351027",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "没错，毕竟那个人类，可是成功地通过了管理局的「实习生试炼」啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351028",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……管理局的支援力量已抵达现场，可以开始了，海伦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351029",
+          "sourceType": 3,
+          "text": "下一刻，手办们持有的通讯终端纷纷接通了管理局的信道。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40351030",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "在场的诸位，这之前我们也许互不相识，甚至可能互为敌手……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351031",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "但今天我们聚集在这里，将后背托付给对方，为的只是一个相同的目的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351032",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "那就是将管理局的优秀员工，我们亲切的友人，收藏家|101|从敌人的据点里救出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351033",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "|101|对手办社区做出了巨大的贡献，我们绝不能接受，也绝不能迎接这个人类消失的未来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351034",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "现已查明克罗赛尔和|101|就在废弃工厂的中心地带，谨慎前进，保持联络。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351035",
+          "sourceType": 5,
+          "speaker": "海伦",
+          "text": "愿胜利的光芒始终照耀我们！M城管理局与诸位同在，与|101|同在！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40351036",
+          "sourceType": 5,
+          "speaker": "海伦",
+          "text": "现在，救援行动开始！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-338",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40351001,
+            40351002,
+            40351003,
+            40351004,
+            40351005,
+            40351006,
+            40351007,
+            40351008,
+            40351009,
+            40351010,
+            40351011,
+            40351012,
+            40351013,
+            40351014,
+            40351015,
+            40351016,
+            40351017,
+            40351018,
+            40351019,
+            40351020,
+            40351021,
+            40351022,
+            40351023,
+            40351024,
+            40351025,
+            40351026,
+            40351027,
+            40351028,
+            40351029,
+            40351030,
+            40351031,
+            40351032,
+            40351033,
+            40351034,
+            40351035,
+            40351036
+          ],
+          "sectionId": 40351
+        }
+      ],
+      "title": "#1 集结的意志"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40352001",
+          "sourceType": 3,
+          "text": "救援行动开始十分钟后，工厂内南面通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352002",
+          "sourceType": 0,
+          "speaker": "守卫",
+          "text": "一切都是为了克罗赛尔大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这些家伙之前都蹲在哪啊？怎么现在到处都是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "毕竟这是冒险最终阶段的大决战呢，不用担心，现在我们有了这么多的帮手！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "无所谓，来多少就揍趴下多少！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352006",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "喂，龙马，我们来比赛怎么样？看看谁能撂倒更多的守卫！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352007",
+          "sourceType": 5,
+          "speaker": "仓田龙马",
+          "text": "喝——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352008",
+          "sourceType": 3,
+          "text": "龙马闪身一拳，激发的气劲正中樱介——身边袭来的刀锋，将守卫的武器打落在地。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352009",
+          "sourceType": 0,
+          "speaker": "仓田龙马",
+          "text": "别大意，此处已是敌人腹地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352010",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "啧，算你先赢一分，接下来就看我的了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352011",
+          "sourceType": 3,
+          "text": "工厂内西面通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352012",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "是这个……不对，是那个……啊唔啊啊啊，我好像带错道具箱了！这下屏蔽门打不开了啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352013",
+          "sourceType": 5,
+          "speaker": "莉莉奈",
+          "text": "笨蛋主人还在等着我呢！地狱腐蚀——全弹发射！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352014",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "喂，这种时候明明该用炸弹的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352015",
+          "sourceType": 3,
+          "text": "工厂内东面通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352016",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "幸村，这边就交给我吧，你们先过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352017",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "可是，你身上还带着之前的伤啊？这里的守卫可不是泛泛之辈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352018",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "正因如此，让我留下才是最合理的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352019",
+          "sourceType": 3,
+          "text": "赵云的枪尖指向了一旁的狭窄通道，密集的脚步声正在逼近。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352020",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "这是非常合适的拦截地点，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352021",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "……明白了，子龙先生，我们一定会完成任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352022",
+          "sourceType": 3,
+          "text": "守卫们蜂拥而至，在通道的尽头，他们见到了一杆银色的长枪。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352023",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "各位，现在开始，这里禁止通过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352024",
+          "sourceType": 3,
+          "text": "接下来他们将充分领略，「万人敌」的称号是从何而来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352025",
+          "sourceType": 3,
+          "text": "工厂内中央地带——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352026",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "嗳，知道吗？你的那些手办们都在赶过来的路上，就像是……一群扑火的飞蛾。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40352028",
+              "text": "停手吧"
+            },
+            {
+              "targetId": "40352028",
+              "text": "你的计划是不会成功的"
+            }
+          ],
+          "sourceId": "40352027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40352028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "亲爱的，你只是还没有准备好迎接至高幸福的时刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352029",
+          "sourceType": 3,
+          "text": "她正倚在你的身上，硬质的塑料躯体，还有淡淡的牡荆香气。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "睡吧，等你再次醒来……我们将彻彻底底地融为一体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352031",
+          "sourceType": 3,
+          "text": "她的脸颊近在咫尺，随之而来的，是一个吻。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352032",
+          "sourceType": 3,
+          "text": "香气渐渐从鼻腔扩散至脑海，意识也逐渐堕入……黑暗。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352033",
+          "sourceType": 3,
+          "text": "努力抵抗，但仍然失去了所有的力量。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40352034",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "克罗赛尔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40352035",
+          "sourceType": 3,
+          "text": "就这样，你来到了绀紫色的梦乡。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-339",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40352001,
+            40352002,
+            40352003,
+            40352004,
+            40352005,
+            40352006,
+            40352007,
+            40352008,
+            40352009,
+            40352010,
+            40352011,
+            40352012,
+            40352013,
+            40352014,
+            40352015,
+            40352016,
+            40352017,
+            40352018,
+            40352019,
+            40352020,
+            40352021,
+            40352022,
+            40352023,
+            40352024,
+            40352025,
+            40352026,
+            40352027,
+            40352028,
+            40352029,
+            40352030,
+            40352031,
+            40352032,
+            40352033,
+            40352034,
+            40352035
+          ],
+          "sectionId": 40352
+        }
+      ],
+      "title": "#2 各自的战场"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40353001",
+          "sourceType": 3,
+          "text": "工厂外，指挥阵地——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40353002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "各队伍都遇到了不同程度的阻力，但根据定位器数据，进展比预想的要顺利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "按这个步调下去，不用多久，就会有队伍抵达中央区域……能量石是仪式的重要触媒，想必也会在那里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "事到如今，应该警惕表面乐观的情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "克罗赛尔接手了阿撒兹勒在M城的残余势力，却仍将据点设在发生过那次事件的废弃工厂……未免太过引人注目了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "即使没有贝歌提供|101|的具体位置，我们迟早也会查到那里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "但到那时候，克罗赛尔的仪式肯定已经完成了吧？现在管理局的大部分员工还在原地为潮玩暴动善后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……海伦，接下来的话你不能告诉其他人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353009",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "怎么了，阿尔弗雷德先生？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我曾在那场大火熄灭后带队搜索工厂的废墟地带，想要寻找优纪她们和天启首领阿撒兹勒的下落。你有印象吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我记得……结论是「一无所获」，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "但真实的情况是，我在准备出发的前一刻收到了由高层下达的终止指令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "咦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "管理局的总部会接管这座工厂，M城管理局将无需插手，也无权干涉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353015",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "但是……现在工厂已经被克罗赛尔的势力占领了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "所以，这次救援行动，我没有向高层报备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353017",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "您是在暗示……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "要有心理准备，但不用担心，所有的责任我都会承担。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353019",
+          "sourceType": 3,
+          "text": "工厂内，北面通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40353020",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "全员，原地待命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353021",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "为啥不前进啊？明明还差一点就能逮到克罗赛尔了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353022",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "停下来的话……就要睡着了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353023",
+          "sourceType": 5,
+          "speaker": "梅根",
+          "text": "做好对冲击准备，龙要来了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353024",
+          "sourceType": 5,
+          "speaker": "奥菲利亚",
+          "text": "啊，龙？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353025",
+          "sourceType": 3,
+          "text": "它庞大的身躯一时间遮掩了光线，降落时地面发出剧烈的震动。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40353026",
+          "sourceType": 0,
+          "speaker": "提尔",
+          "text": "主人……主人……主人……在哪里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353027",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "不要大意，它就是阿撒兹勒的坐骑……曾一度让工厂燃烧的巨龙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353028",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "但它看上去很不对劲诶，就好像……吃错了药？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353029",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "它已经被克罗赛尔操纵了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353030",
+          "sourceType": 0,
+          "speaker": "提尔",
+          "text": "啊……虫子们，受死吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40353031",
+          "sourceType": 3,
+          "text": "龙的攻击狂乱至极，近乎无差别地破坏着现场的一切。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40353032",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "以「玛尔斯之盾」起誓，我等将阻止你的暴行。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-340",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40353001,
+            40353002,
+            40353003,
+            40353004,
+            40353005,
+            40353006,
+            40353007,
+            40353008,
+            40353009,
+            40353010,
+            40353011,
+            40353012,
+            40353013,
+            40353014,
+            40353015,
+            40353016,
+            40353017,
+            40353018,
+            40353019,
+            40353020,
+            40353021,
+            40353022,
+            40353023,
+            40353024,
+            40353025,
+            40353026,
+            40353027,
+            40353028,
+            40353029,
+            40353030,
+            40353031,
+            40353032
+          ],
+          "sectionId": 40353
+        }
+      ],
+      "title": "#3 顺风局"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40354001",
+          "sourceType": 9,
+          "text": "意识在浑浊的湍流中艰难地沉浮，几乎无法维持原来的形体。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354002",
+          "sourceType": 9,
+          "text": "过往的一切变得支离破碎，在身边打了个转，便匆匆流走。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354003",
+          "sourceType": 9,
+          "text": "此时，有一道金色的光芒穿透了浊流——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "克罗赛尔，克罗赛尔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354005",
+          "sourceType": 9,
+          "text": "这个嗓音你很熟悉，温和淡雅，让人联想起舒缓的圆舞曲。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354006",
+          "sourceType": 9,
+          "text": "你想起了她的名字，她在不久前和你做过自我介绍。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝……伊迪丝！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我在，你又摔倒了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "嗯……唔……对不起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这没有什么可道歉的，重新站起来，我教你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354011",
+          "sourceType": 9,
+          "text": "你努力地爬了起来，但到了中途，双脚却再次不听使唤。你又要摔倒了——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "好了，我扶住你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354013",
+          "sourceType": 9,
+          "text": "少女的手温柔地抓着你的肩膀，使你不再倒下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我……站好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354015",
+          "sourceType": 9,
+          "text": "她的手也适时地松开，现在你只靠自己的力量站着了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354016",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "做得很好，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "人类的行走建立在对重心和肢体力量的协调控制上，是左腿和右腿周期性的前后交叉运动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "……啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "也就是往前迈左腿的时候右臂向前，迈右腿的时候左臂向前。刚才你同手同脚了，所以才会摔倒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "是……这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354021",
+          "sourceType": 9,
+          "text": "于是，似懂非懂的你向前颤抖地迈出了一步，紧接着又是一步。虽然姿势歪歪扭扭，但你没有摔倒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354022",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "很不错，刚降生的你已经比绝大多数的人类学得要快了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354023",
+          "sourceType": 9,
+          "text": "咚咚咚——房外响起了有规律的三声敲门声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354024",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "请进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354025",
+          "sourceType": 0,
+          "speaker": "见习管家",
+          "text": "加冕典礼的会场已经布置好了，大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354026",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "罗威，我等下会去看看现场的情况。我不在的时间，那些官员就交给你应付了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354027",
+          "sourceType": 0,
+          "speaker": "见习管家",
+          "text": "了解，他们似乎迫切地想要看到典礼的最终人选。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "加冕……典礼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯，正是为你准备的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354031",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔，你将在两天后的典礼上，以圣女的身份成为——「真理祈愿会」的教主。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354032",
+          "sourceType": 9,
+          "text": "她的嗓音总是很温柔，但唯独这句话，却像是在无感情地宣读一个事实。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354033",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354034",
+          "sourceType": 9,
+          "text": "克罗赛尔是你，但「你」却还不是克罗赛尔——你们的灵魂正在趋近融合。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40354035",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是……《永恒的异界幻想》的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40354036",
+          "sourceType": 9,
+          "text": "你用残存的意识，察觉了被诱拐的手办们所做的梦的真相。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-341",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40354001,
+            40354002,
+            40354003,
+            40354004,
+            40354005,
+            40354006,
+            40354007,
+            40354008,
+            40354009,
+            40354010,
+            40354011,
+            40354012,
+            40354013,
+            40354014,
+            40354015,
+            40354016,
+            40354017,
+            40354018,
+            40354019,
+            40354020,
+            40354021,
+            40354022,
+            40354023,
+            40354024,
+            40354025,
+            40354026,
+            40354027,
+            40354028,
+            40354029,
+            40354030,
+            40354031,
+            40354032,
+            40354033,
+            40354034,
+            40354035,
+            40354036
+          ],
+          "sectionId": 40354
+        }
+      ],
+      "title": "#4 金色往昔"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40355001",
+          "sourceType": 3,
+          "text": "工厂内，北面通道——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355002",
+          "sourceType": 3,
+          "text": "扬起的坚盾猛地弹开了巨龙试图啃咬的头颅，提尔在眩晕间后退。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355003",
+          "sourceType": 5,
+          "speaker": "梅根",
+          "text": "趁现在！七点钟方向！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355004",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "这些手榴弹——就全都喂给你吧！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355005",
+          "sourceType": 3,
+          "text": "轰——大量烟尘随着爆炸腾起，笼罩住了巨龙的身形。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "已经是全部的存货了，接下来……不会出现什么「有烟无伤」的老套桥段吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355007",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "所有人注意观察，还没有结束。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355008",
+          "sourceType": 3,
+          "text": "随着一声怒嚎，巨龙从烟尘中现身。它的动作依旧迅猛，却明显变得不太协调。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355009",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "完好无损……不对，它的翅膀已经被炸伤了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "……好吵。啊，龙？我还没醒过来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355011",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "它已经不能再飞了！变更作战目标——我们要把它牵制在北部区域。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "真刺激，还要继续和它打啊？|101|怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355013",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "提尔已是克罗赛尔的最后一道防线。我相信，其他队伍一定会完成任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355014",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "嗯，我也相信大家。那么，艾米利亚——开火！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355015",
+          "sourceType": 3,
+          "text": "行动开始一小时后，工厂外——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355016",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "萤火小队和巨龙提尔处于交战状态，情况可控。北部通道的其余手办正在绕过提尔，向中央区域前进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355017",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "很好，其他方向的队伍进展也很顺利。甚至已经有一支……嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355018",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "海伦，南面的这个队伍是怎么回事？它属于哪边的势力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355020",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "咦，现在已经……进入了中央区域？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355021",
+          "sourceType": 3,
+          "text": "哗啦——吱咔咔咔——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355022",
+          "sourceType": 3,
+          "text": "闭锁的隔离门像是纸片一样被撕开了一道缝。缝隙不断扩大，直到彻底出现一个缺口。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "嗯？这个声音……难道是……质量俘获球？啊，是你来了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355024",
+          "sourceType": 3,
+          "text": "她的情绪在惊讶和喜悦间回荡，最终随着那个名字的出现转为狂喜。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355025",
+          "sourceType": 5,
+          "speaker": "克罗赛尔",
+          "text": "——伊迪丝！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355026",
+          "sourceType": 3,
+          "text": "出现在少女视线下方的，是主仆二人的身影。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "停下你的仪式，克罗赛尔。你知道这会导致什么后果吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "呵呵呵，现在的你是如此的娇小啊，这就是|101|一直以来看你的样子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "回答我的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我当然知道，所有的一切都会汇聚到幸福之中。我将像真正的人类一样重获自由，带着所有人的灵魂，活下去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355031",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……「所有人」是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355032",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "（低声）罗威，你去察看|101|的情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355033",
+          "sourceType": 3,
+          "text": "管家在听到指令的瞬间便开始行动，却在半途发现身体动弹不得。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355034",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "这是……禁锢力场？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不可以偷跑哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355036",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "这次可不是什么团结必胜的童话，伊迪丝，你从根本上就弄错了一件事——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355037",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "难道，你把整个工厂都……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355038",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "没错，多亏了能量石，整座工厂都变成了魂祭仪式的场地。来到这里的所有手办，都将成为仪式的祭品。呵呵呵……你一定也很高兴吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355039",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "奥古斯都家族的夙愿将在今天变为现实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355040",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……你会毁掉这个世界的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "呵，大家一起成为仪式的燃料，然后堕入幸福，还有比这更美好的事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355042",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "加入我吧，伊迪丝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355043",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40355044",
+          "sourceType": 3,
+          "text": "伊迪丝已经无法开口。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40355045",
+          "sourceType": 3,
+          "text": "无形的力量攫住了她的咽喉，她最后看到的，是克罗赛尔深潭般的眼睛。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-342",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40355001,
+            40355002,
+            40355003,
+            40355004,
+            40355005,
+            40355006,
+            40355007,
+            40355008,
+            40355009,
+            40355010,
+            40355011,
+            40355012,
+            40355013,
+            40355014,
+            40355015,
+            40355016,
+            40355017,
+            40355018,
+            40355019,
+            40355020,
+            40355021,
+            40355022,
+            40355023,
+            40355024,
+            40355025,
+            40355026,
+            40355027,
+            40355028,
+            40355029,
+            40355030,
+            40355031,
+            40355032,
+            40355033,
+            40355034,
+            40355035,
+            40355036,
+            40355037,
+            40355038,
+            40355039,
+            40355040,
+            40355041,
+            40355042,
+            40355043,
+            40355044,
+            40355045
+          ],
+          "sectionId": 40355
+        }
+      ],
+      "title": "#5 家族事务"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40356001",
+          "sourceType": 0,
+          "speaker": "平民A",
+          "text": "啊啊啊，教主大人，她终于开播了。我已经23小时34分35秒没有听到她的声音了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356002",
+          "sourceType": 0,
+          "speaker": "平民B",
+          "text": "她……就是神谕中那位能够拯救世界的女孩？为了避免太阳熄灭的未来，所以……决定成为偶像？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356003",
+          "sourceType": 0,
+          "speaker": "平民C",
+          "text": "来真的？奥古斯都的圣女居然在做网络主播吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356004",
+          "sourceType": 0,
+          "speaker": "平民C",
+          "text": "可爱捏，我先点个关注。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356005",
+          "sourceType": 9,
+          "text": "彼时的奥古斯都东城，每到某个时间段，许多人智能终端的画面里活跃着的都是同一位绀紫色的少女。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356006",
+          "sourceType": 9,
+          "text": "而在奥古斯都的西城——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356007",
+          "sourceType": 0,
+          "speaker": "老人",
+          "text": "伯恩斯家的小伙子，你快去看看伊索吧。那孩子……快饿死了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356008",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "怎么可能？来自东城的救济物资每天都在发放。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356009",
+          "sourceType": 0,
+          "speaker": "老人",
+          "text": "你去了就知道了。他把所有吃的用的都典当了，用来……用来……唉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356010",
+          "sourceType": 9,
+          "text": "当年轻的见习管家赶到现场，他见到的是一个空荡荡的居所，但是——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356011",
+          "sourceType": 9,
+          "text": "墙壁上贴满了各式各样的圣女画像。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356012",
+          "sourceType": 5,
+          "speaker": "罗威·伯恩斯",
+          "text": "喂，你在做什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356013",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "教主大人……啊……教主大人，继续关爱我们吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356014",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "伊索，你疯了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356015",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "罗威……你来了。啊，对了，你去了奥古斯都家族做佣人对不对？真羡慕啊，能帮我要一张教主大人的签名照吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356016",
+          "sourceType": 9,
+          "text": "罗威强行夺过了少年手里的终端，后者只是眼神呆滞地望着他，根本无力起身。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356017",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "……我的劣质植入体到寿命了，接下来要么变成疯子，要么变成废人……我的半边身体已经没感觉了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356018",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "求求你……我不想活了，让我看着她的笑容去死，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356019",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "我会带你去治疗。你别放弃自己！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356020",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "那其他人呢？你能救贫民窟的所有人吗！卡兰前阵子被追债的活活打死了，你在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356021",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "我……只能顾得上眼前的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356022",
+          "sourceType": 0,
+          "speaker": "伊索",
+          "text": "对不起，罗威，你很善良。但只有教主大人……能给所有人救赎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356023",
+          "sourceType": 9,
+          "text": "此时很少有人想到，「真理祈愿会」顺应时代的网络化运营，会对民众产生多大的影响。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356024",
+          "sourceType": 9,
+          "text": "随着时光流逝，一切都在酝酿着，等待着爆发的时刻。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝……伊迪丝？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356026",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "教主大人？您找代理人女士有什么事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "罗威，我的粉丝数量已经到一千万了喔，大家都非常热情呢。我想让伊迪丝也高兴一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356028",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "那位大人正在和厄瑞卡斯家族的使者进行洽谈，现在不太方便。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356029",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "已经快一个月没有见到她了，为什么总是这么忙呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356030",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "当前内外局势都很紧张，那位大人也是分身乏术，已经两天没合眼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356031",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "民众的事不用担心，他们会变得很幸福的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356032",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "……您说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "明明是杂草般的人生，为什么还要有那么多不必要的烦恼呢？大家只要放弃思考，沉浸在欲望里就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356034",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "人类真是脆弱……但又是多么的惹人怜爱啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356036",
+          "sourceType": 9,
+          "text": "眼前青年的表情凝固了，他看你的眼神很陌生，与网络上的那些信徒完全不同。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356037",
+          "sourceType": 9,
+          "text": "不久之后，战火在北阿罗拉爆发，混乱和哀嚎渐渐从北方扩散至整个中央大陆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356038",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40356039",
+          "sourceType": 9,
+          "text": "你听到许多熟悉的声音，它们陆陆续续地进入这个世界，形成交织的回响。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356040",
+          "sourceType": 9,
+          "text": "你看到许多微弱的光点，每一个都代表着一个独特的灵魂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40356041",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "难道其他的手办们也……进来了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-343",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40356001,
+            40356002,
+            40356003,
+            40356004,
+            40356005,
+            40356006,
+            40356007,
+            40356008,
+            40356009,
+            40356010,
+            40356011,
+            40356012,
+            40356013,
+            40356014,
+            40356015,
+            40356016,
+            40356017,
+            40356018,
+            40356019,
+            40356020,
+            40356021,
+            40356022,
+            40356023,
+            40356024,
+            40356025,
+            40356026,
+            40356027,
+            40356028,
+            40356029,
+            40356030,
+            40356031,
+            40356032,
+            40356033,
+            40356034,
+            40356035,
+            40356036,
+            40356037,
+            40356038,
+            40356039,
+            40356040,
+            40356041
+          ],
+          "sectionId": 40356
+        }
+      ],
+      "title": "#6 阴燃"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40357001",
+          "sourceType": 3,
+          "text": "工厂内，中央区域——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357002",
+          "sourceType": 5,
+          "speaker": "泉",
+          "text": "喂，阳子，醒醒啊，可恶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "泉……我也感觉不太对劲……有点……困。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357004",
+          "sourceType": 3,
+          "text": "薇薇安倒在了地上，不省人事。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "该死……呼……还不可以睡……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357006",
+          "sourceType": 3,
+          "text": "通讯接通。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357007",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "异乡人，里面发生什么事了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……仪式影响了……所有人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357009",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "喂？！还听得到吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357010",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "……接通和所有队伍的紧急联络，快！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357011",
+          "sourceType": 9,
+          "text": "…………",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357012",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357013",
+          "sourceType": 9,
+          "text": "北阿罗拉在游猎部族的进攻下陷落了，罗贝尔家族灭族，小女儿海伦下落不明。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357014",
+          "sourceType": 9,
+          "text": "来自北地的战争难民逃亡至中央大陆，发现这里并没有他们安身的家园。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357015",
+          "sourceType": 9,
+          "text": "但始终有一个甜美的身影在抚慰他们的灵魂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357016",
+          "sourceType": 9,
+          "text": "「拯救我们吧，教主大人。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357017",
+          "sourceType": 9,
+          "text": "「将我们从无边的苦难中解脱，继续疼爱我们吧，教主大人。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357018",
+          "sourceType": 9,
+          "text": "无数人如此感念着，直到生命的最后一刻。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔，在难民的救济物资里下毒的民政官已经认罪伏诛了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "啊，伊迪丝……你居然主动来找我了呢。这很重要吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357021",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "更多的人只是以为被教主大人抛弃了——他们是自愿死去的。他们的血让奥古斯都的河流美得让人窒息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357022",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我的意思是，这不是你的错，但真理祈愿会的活动需要中止。在神谕之日到来前，一切都必须小心谨慎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "你为什么让我来到这个世界上，伊迪丝？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357024",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "在你面前的，只是一个承载家族夙愿的容器，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357026",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不……你知道不是这样的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357027",
+          "sourceType": 9,
+          "text": "伊迪丝的语气在动摇，她无懈可击的社交面孔在你面前轻易瓦解了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "说起来，我见到了自称「路西法」的神明，但它其实是奥古斯都家族的某位先人，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你进入了禁忌殿堂？那是先祖封印的自己的恶念……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "很美味哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357031",
+          "sourceType": 9,
+          "text": "克罗赛尔的舌尖掠过唇角，笑容随之荡漾。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357032",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我一点一点地吃掉了它，然后理解了自己真正的使命——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "在日光熄灭的未来，我并非救世的圣女，而是末日本身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40357034",
+          "sourceType": 9,
+          "text": "之后，有一个阴谋论迅速兴起，最终演变成席卷世界的反抗运动。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40357035",
+          "sourceType": 9,
+          "text": "「神谕是奥古斯都家族伪造的，所有的混乱和罪孽归属于同一人——克罗赛尔。」",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-344",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40357001,
+            40357002,
+            40357003,
+            40357004,
+            40357005,
+            40357006,
+            40357007,
+            40357008,
+            40357009,
+            40357010,
+            40357011,
+            40357012,
+            40357013,
+            40357014,
+            40357015,
+            40357016,
+            40357017,
+            40357018,
+            40357019,
+            40357020,
+            40357021,
+            40357022,
+            40357023,
+            40357024,
+            40357025,
+            40357026,
+            40357027,
+            40357028,
+            40357029,
+            40357030,
+            40357031,
+            40357032,
+            40357033,
+            40357034,
+            40357035
+          ],
+          "sectionId": 40357
+        }
+      ],
+      "title": "#7 堕入梦乡"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40358001",
+          "sourceType": 9,
+          "text": "奥古斯都东城，真理祈愿会大教堂——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "啦——啦啦啦——啦——啦啦啦♪",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358003",
+          "sourceType": 9,
+          "text": "你坐在教堂的穹顶上，赤裸的双脚在半空中轻轻晃荡。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "看啊，他们都在为欲望而战，就像是……蚂蚁一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358005",
+          "sourceType": 9,
+          "text": "教堂之下，最后的信徒卫队正在与数量悬殊的叛军厮杀。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358006",
+          "sourceType": 9,
+          "text": "喊杀声正从四面八方传来，神谕中的战火最终在奥古斯都汇聚，即将焚尽一切。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "人类啊，我只知道如何让你们感觉幸福，但直到最后，我也没能理解你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不，我甚至连身边的人都无法理解。你说呢，伊迪丝？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358009",
+          "sourceType": 9,
+          "text": "克罗赛尔看向身边的「人」，但后者已经无法回答。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358010",
+          "sourceType": 9,
+          "text": "奥古斯都的女主人在更早之前，以自己的死拖延了叛军十天。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358011",
+          "sourceType": 9,
+          "text": "她忠诚的管家带回了她的遗体，借口离开后，便再也没有回来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝，如果我变成人类的话……我能理解你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358013",
+          "sourceType": 9,
+          "text": "女人的肉身没有腐朽，依旧维持着生前优雅端庄的模样，仿佛这只是一场酣眠。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "……伊迪丝……伊迪丝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358015",
+          "sourceType": 9,
+          "text": "你想起伊迪丝如何教你行走，想起她哄着你入睡的那些夜晚。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358016",
+          "sourceType": 9,
+          "text": "她曾赠送给你一本纸质风景册，里面是她在幼时曾游历的地方，她所珍藏的记忆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "啊啊啊，啊啊啊啊啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358019",
+          "sourceType": 9,
+          "text": "你开始哭泣。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358020",
+          "sourceType": 9,
+          "text": "奥古斯都家族最完美的造物终于知道了悲伤是何物。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358021",
+          "sourceType": 9,
+          "text": "与此同时，你感受到了无边无际的幸福——这甚至压过了哀恸本身。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "……呵，已经无所谓了……大家最后都会在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "奥古斯都所传承的魂祭仪式，是以人力铸就的神迹，是救赎人类的最终手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358024",
+          "sourceType": 9,
+          "text": "是的，你感觉无所谓了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358025",
+          "sourceType": 9,
+          "text": "你就是克罗赛尔，克罗赛尔就是你。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358026",
+          "sourceType": 9,
+          "text": "无论生死，所有的灵魂都会融为一体，堕入永恒的幸福，无限的欢愉。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358027",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "不可以！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358028",
+          "sourceType": 9,
+          "text": "听到了一个熟悉的声音。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358029",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "快醒过来，|101|！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358030",
+          "sourceType": 9,
+          "text": "漆黑的视界里，出现了一个熟悉的身影。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40358031",
+          "sourceType": 0,
+          "speaker": "克罗赛尔？",
+          "text": "是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40358032",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪……吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-345",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40358001,
+            40358002,
+            40358003,
+            40358004,
+            40358005,
+            40358006,
+            40358007,
+            40358008,
+            40358009,
+            40358010,
+            40358011,
+            40358012,
+            40358013,
+            40358014,
+            40358015,
+            40358016,
+            40358017,
+            40358018,
+            40358019,
+            40358020,
+            40358021,
+            40358022,
+            40358023,
+            40358024,
+            40358025,
+            40358026,
+            40358027,
+            40358028,
+            40358029,
+            40358030,
+            40358031,
+            40358032
+          ],
+          "sectionId": 40358
+        }
+      ],
+      "title": "#8 神谕之日"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40359001",
+          "sourceType": 3,
+          "text": "熟悉的少女出现在仪式区域的中心地带。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "为什么……你没有受到影响？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我也看到了那个漫长的梦，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "但是……你所追求的所谓「幸福」，只是虚假的安慰剂而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "……安慰剂？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359006",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "真正的幸福是要靠自己去争取的，而不是靠他人赐予的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359007",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "为了所谓的快乐丧失独立的自我，更是本末倒置。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "所以……停手吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359009",
+          "sourceType": 5,
+          "speaker": "克罗赛尔",
+          "text": "你……一个机器人没有资格指手画脚！对，一定是因为你没有灵魂，所以才不会受到魂祭仪式的影响！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我不知道，但我知道自己的信念是从何而来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359011",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "那是|101|和优纪一直坚信的东西，也是他们教会我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "闭嘴，你没有资格提起|102|的名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "|101|已经认同了我，我们一定会融为一体……我们一定会……咦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359014",
+          "sourceType": 5,
+          "speaker": "克罗赛尔",
+          "text": "为什么……为什么要拒绝我？|101|！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359015",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "这场梦，该醒来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359016",
+          "sourceType": 3,
+          "text": "少女化作一道赤色的流星，朝着克罗赛尔的方向疾奔而来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "你赢不了我的，你根本就……啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359018",
+          "sourceType": 3,
+          "text": "异质的力量将蒂娅钉倒在地，但下一秒，克罗赛尔才意识到了蒂娅真正的目标——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359019",
+          "sourceType": 3,
+          "text": "脱手的鬼轮向前飞去，击碎了搭载能量石的供能装置。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359020",
+          "sourceType": 3,
+          "text": "嘭！咔啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359021",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不、不可以……啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我一定要变成人类……我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359023",
+          "sourceType": 3,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359024",
+          "sourceType": 3,
+          "text": "仪式的力量在流逝，真正的你睁开了眼睛。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359025",
+          "sourceType": 3,
+          "text": "脑海里残留着梦境的钝痛，眼前的一切都显得模糊不清。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪……？你回来了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359027",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "……|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359028",
+          "sourceType": 3,
+          "text": "你明白了，她很像优纪，但终究不是优纪。但你依旧感到高兴。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "蒂娅……好久不见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359030",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "异乡之人，终会归来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359031",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……我很遗憾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40359032",
+          "sourceType": 3,
+          "text": "顺着少女的视线，你看到克罗赛尔跪倒在地，失魂落魄地捡拾着装置的碎片。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40359033",
+          "sourceType": 3,
+          "text": "不再发光的能量石散落在边上，看上去就像平平无奇的石块。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-346",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40359001,
+            40359002,
+            40359003,
+            40359004,
+            40359005,
+            40359006,
+            40359007,
+            40359008,
+            40359009,
+            40359010,
+            40359011,
+            40359012,
+            40359013,
+            40359014,
+            40359015,
+            40359016,
+            40359017,
+            40359018,
+            40359019,
+            40359020,
+            40359021,
+            40359022,
+            40359023,
+            40359024,
+            40359025,
+            40359026,
+            40359027,
+            40359028,
+            40359029,
+            40359030,
+            40359031,
+            40359032,
+            40359033
+          ],
+          "sectionId": 40359
+        }
+      ],
+      "title": "#9 梦醒时分"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40360001",
+          "sourceType": 3,
+          "text": "仪式中止后，工厂内中央区域——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "……唔，好晕……感觉像是被人打了一顿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "醒过来了……咦，危机解除了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "啊，头儿？什么时候回来的啊？难道现在还是在梦里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "抱歉，之前一直没联络你们。这次，我不会再走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "|101|呢，还有克罗赛尔那家伙呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "……他们会处理好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360008",
+          "sourceType": 3,
+          "text": "另一边——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360009",
+          "sourceType": 3,
+          "text": "高跟鞋的声音在地面响彻，而后停下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔，都结束了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "是啊……呵呵……奥古斯都家族的愚蠢图谋，终于画上了句号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这个世界没有神谕，没有末日，更不存在圣女。我们都应该接受现状，奥古斯都……已经不再是那个奥古斯都了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "我也迎来了应有的结局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360014",
+          "sourceType": 3,
+          "text": "你搀扶着克罗赛尔，她已经不能靠自己站立。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40360016",
+              "text": "你需要为你做的事付出代价"
+            },
+            {
+              "targetId": "40360016",
+              "text": "活着回去接受审判吧"
+            }
+          ],
+          "sourceId": "40360015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40360016",
+          "sourceType": 3,
+          "text": "下一刻，剧烈的震颤顺着她的塑料躯体传递到你的身上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360017",
+          "sourceType": 5,
+          "speaker": "克罗赛尔",
+          "text": "唔——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "呵，反噬开始了……我会变小，变回手办……然后白模化……唔啊啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360021",
+          "sourceType": 3,
+          "text": "剧烈的痛楚贯穿了她的身体，你忍不住将她放倒在地上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360022",
+          "sourceType": 3,
+          "text": "是的，她几乎每一秒都在变小，就像在火中炙烤的冰块。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "……伊迪丝……|101|……我真狡猾呢……犯错了就想跑……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360024",
+          "sourceType": 5,
+          "speaker": "伊迪丝",
+          "text": "克罗赛尔！你与多起恶性事件存在关联，现以M城管理局的名义对你进行批捕！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360025",
+          "sourceType": 5,
+          "speaker": "伊迪丝",
+          "text": "在交待所有犯罪事实之前，你没有资格就这样死去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360026",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "伊迪丝……我想和你说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我不想听……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "谢谢……你让我作为人造人……在那个世界降生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360030",
+          "sourceType": 3,
+          "text": "奥古斯都的女主人低下头，用手掩住脸颊。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360031",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "还有|101|……我是真的……真的很喜欢你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360032",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "不止是你的灵魂……还有你本身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360033",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你已经……变回手办的大小了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360034",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "至少最后……卑鄙的我努力地争取了……我的计划成功了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔",
+          "text": "现在……我真的很幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40360036",
+          "sourceType": 3,
+          "text": "她安详地闭上眼。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40360037",
+          "sourceType": 3,
+          "text": "白模化的进程已经开始，一切已经无可挽回。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-347",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40360001,
+            40360002,
+            40360003,
+            40360004,
+            40360005,
+            40360006,
+            40360007,
+            40360008,
+            40360009,
+            40360010,
+            40360011,
+            40360012,
+            40360013,
+            40360014,
+            40360015,
+            40360016,
+            40360017,
+            40360018,
+            40360019,
+            40360020,
+            40360021,
+            40360022,
+            40360023,
+            40360024,
+            40360025,
+            40360026,
+            40360027,
+            40360028,
+            40360029,
+            40360030,
+            40360031,
+            40360032,
+            40360033,
+            40360034,
+            40360035,
+            40360036,
+            40360037
+          ],
+          "sectionId": 40360
+        }
+      ],
+      "title": "#10 真正的幸福"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "40361001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "啊，总感觉我的出现会破坏现在的感人氛围呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361002",
+          "sourceType": 3,
+          "text": "从克罗赛尔渐渐枯白的身体里，升起来了一个淡淡的光球。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……！你是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是我哦，那个在下雪的日子和你相遇的克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "40361006",
+              "text": "她说她吃掉了你的灵魂"
+            },
+            {
+              "targetId": "40361006",
+              "text": "她说你们已经合二为一"
+            }
+          ],
+          "sourceId": "40361005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "40361006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "那是谎言哦。我其实一直留在她的身体里，只是被压制着没法现身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你想要……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是的，我亲爱的伊迪丝。我要最后一次破坏「她」的计划——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361009",
+          "sourceType": 3,
+          "text": "渺小的光球散发出了璀璨的光芒，一时间昏暗的工厂区域亮如白昼。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我是弃绝奥古斯都夙愿的圣女，现将行使我的旧职，我的权能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "坏坏的另一个我，接下来的日子，就好好地，洗心革面地赎罪吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……然后，找到属于「克罗赛尔」的真正的幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361013",
+          "sourceType": 3,
+          "text": "光球再度沉入了克罗赛尔的身躯，仿佛一场壮美的落日。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361014",
+          "sourceType": 3,
+          "text": "白模化的进程戛然而止，甚至开始倒退——色彩在渐渐回归。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "她在和「她」……一起承担仪式的代价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……她们会没事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不知道，但这次她们的灵魂或许真正地……融合了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361018",
+          "sourceType": 3,
+          "text": "刚从梦中苏醒的你感到疲惫，有太多的谜团，太多的遗憾和悲伤。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361019",
+          "sourceType": 3,
+          "text": "你听到了他们赶过来的动静，手办们在陆陆续续赶到现场。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361020",
+          "sourceType": 3,
+          "text": "于是，你回望——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361021",
+          "sourceType": 3,
+          "text": "在这一路的旅途上与你陪伴的手办们，正向你投来关切的目光。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361022",
+          "sourceType": 3,
+          "text": "你知道，你将心怀希望，继续前行。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361023",
+          "sourceType": 9,
+          "text": "M城的又一次危机宣告落幕，相关事件的善后工作正在有序进行。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361024",
+          "sourceType": 9,
+          "text": "克罗赛尔的仪式对你的精神造成了不小的损伤，你经历了一段艰难的康复期。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361025",
+          "sourceType": 9,
+          "text": "在半梦半醒的日子里，手办们一直在努力地照料你，就像你曾经对他们做的那样。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361026",
+          "sourceType": 9,
+          "text": "现在，除了偶尔感觉头昏脑涨，你已经与过去没有什么不同。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361027",
+          "sourceType": 9,
+          "text": "平常的一天，那位少女再次找到了你——她认为你已经做好了准备。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361028",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "优纪与和江都还活着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361030",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "她们现在在哪里？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361031",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "抱歉，我还不知道。但我们一定能找到她们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361032",
+          "sourceType": 3,
+          "text": "与她一起来到你面前的，还有一张泛黄的纸片，似乎是从笔记本上撕下来的一页。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361033",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "这是我前段时间在赫兰德的地下实验室里发现的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361034",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "你……还记得赫兰德吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361035",
+          "sourceType": 3,
+          "text": "你知道这个名字，她曾在你和阿尔弗雷德的面前逝去。而她真正的名字是……阿撒兹勒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361036",
+          "sourceType": 3,
+          "text": "她的涂料技术被那位获得阿撒兹勒之名的天启负责人利用，在M城制造了多场悲剧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361037",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "N城的一些潮玩身上提取出了阿撒兹勒事件的狂化涂料。有人再次利用了她的研究，扩大了潮玩暴动的影响范围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361038",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "这张纸来自Terry的日记，你应该看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361039",
+          "sourceType": 3,
+          "text": "Terry，一位著名的手办设计师，你很快就想起了他的生平。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361040",
+          "sourceType": 3,
+          "text": "据说他是手办设计理念的奠基者，「非常玩具公司」的创始人，却在一场诡异的大火中下落不明。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361041",
+          "sourceType": 3,
+          "text": "你拿过纸片，开始阅读。字迹很潦草，似乎书写者当时的情绪很激动。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "40361042",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "……FULI在邮件里说在我方代工的手办涂装成品存在与原型不一致的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361043",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "或是姿势变了，或是服饰改了，这些显然不是上色步骤会导致的异常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361044",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "对此，我并非一无所知。很长一段时间，我认为手办模型师的使命是赋予手办生命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361045",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "但真实的情况或许是——让手办在这个世界上重新活着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361046",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "我没和任何人谈起过这个想法，包括阿一。他肯定会觉得是我研究手办研究傻了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361047",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "我曾听过一个虚构的故事，讲作者笔下的角色变成了真实存在的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361048",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "而我，或者说我们，面临的可能是更甚于此的局面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361049",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "手办们曾经的人生，他们曾生活的在背景设定里存在的幻想世界……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361050",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "或许全都是真实的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361051",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "或许从创作完成的那一刻起，就变成了真实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "40361052",
+          "sourceType": 0,
+          "speaker": "Terry",
+          "text": "只要……你有足够的爱与信念。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-348",
+      "sourceRefs": [
+        {
+          "bundle": "zhuxian43",
+          "rowIds": [
+            40361001,
+            40361002,
+            40361003,
+            40361004,
+            40361005,
+            40361006,
+            40361007,
+            40361008,
+            40361009,
+            40361010,
+            40361011,
+            40361012,
+            40361013,
+            40361014,
+            40361015,
+            40361016,
+            40361017,
+            40361018,
+            40361019,
+            40361020,
+            40361021,
+            40361022,
+            40361023,
+            40361024,
+            40361025,
+            40361026,
+            40361027,
+            40361028,
+            40361029,
+            40361030,
+            40361031,
+            40361032,
+            40361033,
+            40361034,
+            40361035,
+            40361036,
+            40361037,
+            40361038,
+            40361039,
+            40361040,
+            40361041,
+            40361042,
+            40361043,
+            40361044,
+            40361045,
+            40361046,
+            40361047,
+            40361048,
+            40361049,
+            40361050,
+            40361051,
+            40361052
+          ],
+          "sectionId": 40361
+        }
+      ],
+      "title": "#11 希望的黎明"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 199,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 199,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绀紫的梦乡",
+  "title": "第43章",
+  "wordCount": 8876
+}

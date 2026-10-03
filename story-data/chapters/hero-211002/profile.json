@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211002",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI将正在执行任务的雇佣兵队长梅根制成模型，随性而帅气的站姿，搭配干净利落的金色短发，看似有些中性的风衣穿在她的身上却透露出一丝独有的女性魅力，将梅根身处战场的别样风姿完美呈现。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211002"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 91
+}

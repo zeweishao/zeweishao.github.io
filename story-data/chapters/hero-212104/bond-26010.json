@@ -1,0 +1,67 @@
+{
+  "bookId": "hero-212104",
+  "id": "bond-26010",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26010001",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "不要用这样的眼神看我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26010002",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "我想做的仅仅是保护好身边重要的人，不让自己珍惜的一切被侵犯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26010003",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "即便冠上魔王的头衔，我也不会改变原则，纯粹的侵略和毁灭，我并没有这种残暴的兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26010004",
+          "sourceType": 0,
+          "speaker": "利姆鲁",
+          "text": "毕竟我可不是什么坏史莱姆哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26010",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26010001,
+            26010002,
+            26010003,
+            26010004
+          ],
+          "sectionId": 26010
+        }
+      ],
+      "title": "和平"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212104",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "和平",
+  "wordCount": 95
+}

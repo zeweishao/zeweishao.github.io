@@ -1,0 +1,873 @@
+{
+  "bookId": "rewind-42",
+  "id": "chapter-169",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "36307001",
+          "sourceType": 10,
+          "text": "第二场：新声",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "36307002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "唔，闭关三天三夜，完全没灵感……手办版《白蛇传》企划难道就到此为止了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "可恶……好不甘心啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，玉夏之前说要写什么企划案，原来不是说说而已……还以为在写什么CP文呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "咳，我也是有自己梦想的好不好！\n而且区区青蛇白蛇的CP文，对我来说根本不在话下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呀，写完不要忘记和优纪分享喔，可以的的话，优纪可以陪你出门寻找灵感呢~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36307008",
+              "text": "的确，不如出门寻找灵感。"
+            }
+          ],
+          "sourceId": "36307007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36307008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你们以为我不想吗……我可是做梦都想见到白娘子，可是到哪去找她呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "据说有手办昨天在「酒吧街」见到过，而且瞬间就失踪了……也不知道是不是真的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我的天……你怎么不早说！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "在「酒吧街」突然出现又失踪……这件事怎么想都不简单。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "36307013",
+              "text": "其中或许另有隐情。"
+            }
+          ],
+          "sourceId": "36307012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "36307013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "无论是真是假，我都要亲自去「酒吧街」一趟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36307014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，优纪说好要陪你的，一起出发吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-852",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36307001,
+            36307002,
+            36307003,
+            36307004,
+            36307005,
+            36307006,
+            36307007,
+            36307008,
+            36307009,
+            36307010,
+            36307011,
+            36307012,
+            36307013,
+            36307014
+          ],
+          "sectionId": 36307
+        }
+      ],
+      "title": "第二场：新声 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36308001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我们又见面了，两位美丽的女士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308002",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "你是何人，快快交代，不然别怪我不客气！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "您真是一位敏锐的女士，让人肃然起敬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "能在众目睽睽之下，不费吹灰之力地带走我和青妹，阁下的确好手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "过奖，能得到「白素贞」的赏识，是一种无上的荣誉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "请允许我自我介绍一下——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我的真实身份是「黑桃怪盗」绯野原爱，对二位仰慕已久……所以花了点小手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我发誓，我绝对没有丝毫恶意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我有幸在「浣熊酒吧」看到了你们的即兴演出，真是一段美妙绝伦的表演。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我从小痴迷于古典戏剧，却从未见到如此叹为观止的艺术形式，一时忍不住有些心潮澎湃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "艺术的瑰宝不应该屈从于一个小小的陋室，所以我斗胆把你们从「浣熊酒吧」带走，不介意吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "哼，我早厌倦了那个地方，姐姐待在那里实在委屈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在我这里，你们会受到绝对的尊重，我会竭尽所能为你们提供最好的照顾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "当然，这只是出于对艺术的尊重和欣赏，二位不必感到介怀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308015",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "可我怎么觉得，你的目的不会这么简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我会用行动证明，真正的艺术值得最真诚的礼遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308017",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "没想到M城还能遇到这样的人物，当真让人感到意外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36308018",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "既然如此，我与青妹便在此叨扰几日吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-853",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36308001,
+            36308002,
+            36308003,
+            36308004,
+            36308005,
+            36308006,
+            36308007,
+            36308008,
+            36308009,
+            36308010,
+            36308011,
+            36308012,
+            36308013,
+            36308014,
+            36308015,
+            36308016,
+            36308017,
+            36308018
+          ],
+          "sectionId": 36308
+        }
+      ],
+      "title": "第二场：新声 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36309001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "所有的戏服、道具、戏台布景，我都让人特意重新置备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "细节全都按照戏本上的描述一一还原，由我亲自监工，绝不会有丝毫的差错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309003",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "当真身临其境，一时竟让我有种重新回到「临安」的错觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "这些工作想是十分繁琐，绯野小姐有心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309005",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "虽然不想承认，但姐姐的确很欢喜，这点没什么好说的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "能得到二位的肯定，我做的这点工作总算也有了一些价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只是想让二位知道，在我这里可以放心唱曲儿，不会有任何后顾之忧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309008",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "无以回报如此盛情，我与青妹自当勉力一试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309009",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "姐姐都这么说了，我也不好拒绝，就这么着吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309010",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "今日要排练的是「游湖」这场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309011",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "这是我与青妹初到「临安」，来到这波光粼粼的西湖边，不禁被湖光山色所吸引。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "刚刚化作人形的白蛇与青蛇，想必此时满心欢喜，看到美丽的景色当然会忍不住流连忘返。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309013",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "不错，我对人间百态充满期翼，终于得以亲眼见证西湖盛景，心底里那份欢欣是如何遮掩不了的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309014",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "明明我才是陪伴在姐姐身边的那个人，现在怎么倒像这个人最懂姐姐一样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309015",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "青妹不要多想，绯野小姐只是在与我谈论这场戏的心路历程。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309016",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "听戏的人有权了解角色背后的故事，这样才能更好地沉浸剧情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309017",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "我……我明白的，姐姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309018",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "如此便好，这场戏尚有些地方需要细细讨论，不知绯野小姐可否移步另谈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "当然，我随时奉陪，这边请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36309020",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "自从来到这里，绯野这厮总是挡在我与姐姐中间，当真讨厌。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-854",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36309001,
+            36309002,
+            36309003,
+            36309004,
+            36309005,
+            36309006,
+            36309007,
+            36309008,
+            36309009,
+            36309010,
+            36309011,
+            36309012,
+            36309013,
+            36309014,
+            36309015,
+            36309016,
+            36309017,
+            36309018,
+            36309019,
+            36309020
+          ],
+          "sectionId": 36309
+        }
+      ],
+      "title": "第二场：新声 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36310001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "姐姐，你怎么还在这里排戏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310002",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "今日天光尚好，你我姐妹二人何不一同出游？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310003",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "抱歉，青妹，我今日无论如何都脱不开身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "昨日「游湖」那场戏我总觉得不甚满意，还需要绯野小姐与我讨论一番。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "或许可以尝试换一种思路，把自己当作不谙世事的人类少女，演绎那种初次来到「临安」的兴奋与渴望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310006",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "的确，少女的情怀更加纯真，也更能令人动容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310007",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "不如我再来演示一场，请绯野小姐多加指点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只要你肯演，我就会一直看下去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310009",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "一直沉溺于过去，就是姐姐想要的生活吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310010",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "青妹……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310011",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "我的话你从来都不愿意放在心里，从来没有——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310012",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "整日只知道排戏、唱戏，你究竟有没有关心过我的感受？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310013",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "刚刚我是不是太凶了……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310014",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "我从没有那么大声对姐姐说过话……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310015",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "会不会吓到姐姐了……姐姐会生我的气吗……总之先去道个歉吧。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "小青的话是不是让你想起了什么心事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310017",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "有些事无论如何都无法释怀，只是平日故意不让自己想起来罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "如果你相信我，或许可以向我倾诉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310019",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "我的心里一直记挂着一个人，从久远的时光以来一直如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310020",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "便是那个人让我与戏曲结缘，我也因此对人间充满留恋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310021",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "今次我到这M城来，也是为了寻找那人的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310022",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "这件心事我从未对青妹讲过，请你一定替我保守秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310023",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "原来……原来在姐姐的心里，竟有不可以对我说的秘密……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310024",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "我在你的心里，究竟算什么呢……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36310025",
+          "sourceType": 2,
+          "speaker": "小青",
+          "text": "是不是我从此消失不见，你也会无所谓？",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-855",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36310001,
+            36310002,
+            36310003,
+            36310004,
+            36310005,
+            36310006,
+            36310007,
+            36310008,
+            36310009,
+            36310010,
+            36310011,
+            36310012,
+            36310013,
+            36310014,
+            36310015,
+            36310016,
+            36310017,
+            36310018,
+            36310019,
+            36310020,
+            36310021,
+            36310022,
+            36310023,
+            36310024,
+            36310025
+          ],
+          "sectionId": 36310
+        }
+      ],
+      "title": "第二场：新声 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "36311001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "我向来最听姐姐的话，她定然想不到我会离家出走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311002",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "哼，就是要看到姐姐找不到我着急的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311003",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "谁让姐姐不把我放在心上，惹得我的心里好不畅快……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311004",
+          "sourceType": 0,
+          "speaker": "混混A",
+          "text": "此路是我开，此树是我栽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311005",
+          "sourceType": 0,
+          "speaker": "混混B",
+          "text": "要想从此过，留下买路财。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311006",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "我现在心情很糟，劝你们不要不自量力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311007",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "若是惹毛了我，你们不会有好果子吃的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311008",
+          "sourceType": 0,
+          "speaker": "混混A",
+          "text": "哟，咱哥俩开张第一天就碰到了刺头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311009",
+          "sourceType": 0,
+          "speaker": "混混B",
+          "text": "搞不定这种弱不经风的小丫头，我们以后别混了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311010",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "弱不经风？可笑，头一回听到有人这么形容我，有眼无珠的东西！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一路沿着「酒吧街」追查到这里，什么线索都没看到，真让人沮丧呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "优纪累了的话，我们就在前面休息一下，修整后再出发吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好担心「白素贞」和她的妹妹，不知道会不会有什么危险……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，前面什么声音这么吵闹？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311015",
+          "sourceType": 0,
+          "speaker": "混混A",
+          "text": "不知天高地厚的丫头片子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311016",
+          "sourceType": 0,
+          "speaker": "混混B",
+          "text": "今天就让你见识见识我们哼哈兄弟的厉害！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311017",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "想找死？我就随你们的意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36311018",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "那个绿衣服的少女怎么这么眼熟？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-856",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake",
+          "rowIds": [
+            36311001,
+            36311002,
+            36311003,
+            36311004,
+            36311005,
+            36311006,
+            36311007,
+            36311008,
+            36311009,
+            36311010,
+            36311011,
+            36311012,
+            36311013,
+            36311014,
+            36311015,
+            36311016,
+            36311017,
+            36311018
+          ],
+          "sectionId": 36311
+        }
+      ],
+      "title": "第二场：新声 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 169,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 169,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "85",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "新声旧梦",
+  "title": "第二场：新声",
+  "wordCount": 2195
+}

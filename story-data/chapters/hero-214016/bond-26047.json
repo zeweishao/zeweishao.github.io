@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-214016",
+  "id": "bond-26047",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26047001",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "手办屋？这未免也太大了......\n完全是超大号行李箱的尺寸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "反正以玉夏的实力，这点空间很快就会被各种周边填满。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "笨蛋，才没那么夸张！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "况且，玉夏不希望其他人知道自己的兴趣。\n有自己的储物空间会安全一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "避开别人的眼光吗？\n那种事情，现在已经无所谓了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "有你能接受真实的我，就足够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "足够了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "当然，至于原因......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "呐，这次不是台词哦，是正式的、认真的告白：",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26047010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你是我最在意的人。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26047",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26047001,
+            26047002,
+            26047003,
+            26047004,
+            26047005,
+            26047006,
+            26047007,
+            26047008,
+            26047009,
+            26047010
+          ],
+          "sectionId": 26047
+        }
+      ],
+      "title": "足够了"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "足够了",
+  "wordCount": 189
+}

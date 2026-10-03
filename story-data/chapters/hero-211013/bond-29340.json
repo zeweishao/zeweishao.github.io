@@ -1,0 +1,238 @@
+{
+  "bookId": "hero-211013",
+  "id": "bond-29340",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29340001",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你……每天都在帮手办们处理各种事情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340002",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "一次两次也就算了，整天都帮这帮那的，不烦吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29340004",
+              "text": "因为我是手办收藏家"
+            },
+            {
+              "targetId": "29340004",
+              "text": "手办越多，责任越大"
+            }
+          ],
+          "sourceId": "29340003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29340004",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "好吧，我的老好人。你让我想起以前在森林那会儿的事了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29340006",
+              "text": "你好像和我提起过"
+            },
+            {
+              "targetId": "29340006",
+              "text": "那位「群鸦的魔女」的往事……"
+            }
+          ],
+          "sourceId": "29340005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29340006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "也是我多管闲事，有一天把在森林里迷路的一个熊孩子扔了出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340007",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "接着，外面就流传起「森林里住着一个能实现愿望的魔女」的传闻……乱七八糟的人就开始来骚扰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好心的诺伊尔肯定来者不拒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "鬼才想搭理啊，大部分都让我用雾气挡在外面了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "小部分坚持不懈的，才有机会拜见伟大的魔女。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你果然还是帮了他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "咳，其实都是恶作剧。比如想长高的，就只把他的鞋底变厚；想要变瘦的，就把他的胃变小……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "甚至都没用什么正经的法术。结果……他们居然都很满意？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29340015",
+              "text": "你也太别扭了"
+            },
+            {
+              "targetId": "29340015",
+              "text": "这怎么听，都是在做好事啊！"
+            }
+          ],
+          "sourceId": "29340014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29340015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啧，越说越感觉火大了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340016",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "算了……你等下要干什么，我陪你去看看好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好心的诺伊尔要来帮我忙了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340018",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "哼，我就知道你只会调侃我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，总是帮人实现愿望的魔女，现在有想要实现的愿望吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这个问题太突然了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29340022",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "呵，等我想好了，自然会告诉你的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29340",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29340001,
+            29340002,
+            29340003,
+            29340004,
+            29340005,
+            29340006,
+            29340007,
+            29340008,
+            29340009,
+            29340010,
+            29340011,
+            29340012,
+            29340013,
+            29340014,
+            29340015,
+            29340016,
+            29340017,
+            29340018,
+            29340019,
+            29340020,
+            29340021,
+            29340022
+          ],
+          "sectionId": 29340
+        }
+      ],
+      "title": "魔女与愿望们"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211013",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "魔女与愿望们",
+  "wordCount": 448
+}

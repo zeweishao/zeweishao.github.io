@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212014",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "大楼天台上气流呼啸，群集的恶党将两位少女逼到了平台的边缘。\n\n「变——身！」\n\n随着一声清喝，银白的炽光自腰带向周围延伸，化作铠甲包覆少女的全身。真乃抬起头，气质已然判若两人。\n\n「庆贺吧！在此登场的是晨曦眷顾的少女，汇集众人愿望的英雄——卡面英雄晨星！」绿子在一旁吟唱。\n\n「糟糕，还没有想好帅气的开场白……怎么办……」面对畏缩的敌人们，真乃如此说道。\n\n总之，英雄的旅途才刚刚开始。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "卡面英雄晨星Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212014",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仓田真乃·卡面英雄晨星Ver.",
+  "title": "卡面英雄晨星Ver.",
+  "wordCount": 183
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213003",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「别这么没耐心嘛，我的猎物。」狩猎者身着昂贵的缎面睡袍，血色械爪此刻缓缓苏醒，随之开始贪婪呼吸。酒红色发丝如瀑般披垂，馥郁芬芳，即将在这个夜晚静谧而危险的绽放。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "出浴良夜Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213003",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "狩猎者·出浴良夜Ver.",
+  "title": "出浴良夜Ver.",
+  "wordCount": 80
+}

@@ -1,0 +1,167 @@
+{
+  "bookId": "hero-212205",
+  "id": "bond-35318",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35318001",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "这崭新的道具，这闪亮的灯光，这华丽的舞台！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318002",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "笨蛋徕卡，你走了什么大运！还不谢谢|101|！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只是小小的心意而已，上次听你说起选择街头表演的原因。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就想着如果有一个能安心表演的舞台，你和布鲁特应该都会很开心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318005",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "我很喜欢这份礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318006",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "请允许我由衷地表示对您的感谢，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318007",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "只是嘴上的感谢也太没有诚意了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318008",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "当然！那么接下来有请徕卡和他的伙伴布鲁特——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318009",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "是布鲁特和他的伙伴徕卡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318010",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "为|101|带来一场精彩的双人舞表演！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈哈，是徕卡和布鲁特要跳双人舞吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35318012",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "不不不，我现在诚挚邀请你加入我们，成立一个三人组合！你，愿意吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35318014",
+              "text": "愿意。"
+            },
+            {
+              "targetId": "35318014",
+              "text": "不愿意。"
+            }
+          ],
+          "sourceId": "35318013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35318014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "等一下，还是两个人怎么样，我不想带徕卡。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35318",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35318001,
+            35318002,
+            35318003,
+            35318004,
+            35318005,
+            35318006,
+            35318007,
+            35318008,
+            35318009,
+            35318010,
+            35318011,
+            35318012,
+            35318013,
+            35318014
+          ],
+          "sectionId": 35318
+        }
+      ],
+      "title": "独家剧场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "独家剧场",
+  "wordCount": 276
+}

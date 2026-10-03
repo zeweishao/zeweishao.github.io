@@ -1,0 +1,2621 @@
+{
+  "bookId": "rewind-11",
+  "id": "chapter-47",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6600001",
+          "sourceType": 3,
+          "text": "这是手办们曾经在某个冬天所经历过的，最离奇的故事。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600002",
+          "sourceType": 3,
+          "text": "故事以一场黑暗中的阴谋拉开序幕。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600003",
+          "sourceType": 9,
+          "text": "组织：好久不见，07。有新任务，响应程度：黑曼巴Ⅰ级。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600004",
+          "sourceType": 9,
+          "text": "你打扰到我的红茶时间。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600005",
+          "sourceType": 9,
+          "text": "组织：先生的“变色龙”丢了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600006",
+          "sourceType": 9,
+          "text": "详细说下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600007",
+          "sourceType": 9,
+          "text": "组织：失窃发生在三天前。\n闭路监控只拍到了对方的背影，她的手法很专业，是个惯犯。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600008",
+          "sourceType": 9,
+          "text": "组织：不介意的话，请打开你的脊椎第二小节的解码芯片开关，我将闭路影像传送过去。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600009",
+          "sourceType": 9,
+          "text": "嗯。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600010",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600011",
+          "sourceType": 9,
+          "text": "组织：似乎进行的不顺利。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600012",
+          "sourceType": 9,
+          "text": "组织：哦，抱歉，忘记你刚从盲盒清醒，现在你的脊椎第二小节应该是焊接完整的状态。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600013",
+          "sourceType": 9,
+          "text": "咔——清脆的脊椎断裂声。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600014",
+          "sourceType": 9,
+          "text": "可以了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600015",
+          "sourceType": 7,
+          "text": "凛 · 机能锋刃\n商品名称：凛·机能锋刃 Ver.\n作品名称：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约240mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "6600016",
+          "sourceType": 9,
+          "text": "组织：当然，不过07小姐，下次最好温柔点。\n现在你的躯体受伤可不容易治疗。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600017",
+          "sourceType": 9,
+          "text": "你已经打扰了我两分钟的红茶时间。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600018",
+          "sourceType": 9,
+          "text": "传输已建立……信息正在编码。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600019",
+          "sourceType": 9,
+          "text": "只有这些？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600020",
+          "sourceType": 9,
+          "text": "组织：除此之外，还有一件事需要你去调查，我们怀疑跟这次的“变色龙”失窃有关。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600021",
+          "sourceType": 9,
+          "text": "组织：失窃后的第二天凌晨10时1分。\n爱猫社区检测到了和失窃现场一样的信号，有人向一名名叫【|101|】的人类发送了一封摩斯电码，内容如下：",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600022",
+          "sourceType": 9,
+          "text": "“寒冬岁尾的新月被撕成两半，赶在加尼米德被掠走前，我将在荧光中降临，收走你心之所向。”\n摩尔斯电码：--. --- - - .- -....- -.-. .-.. ..- .",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600023",
+          "sourceType": 9,
+          "text": "gottaclue。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600024",
+          "sourceType": 9,
+          "text": "组织：没错，编译结果的确是“gottaclue”。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600025",
+          "sourceType": 9,
+          "text": "无聊的把戏。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600026",
+          "sourceType": 9,
+          "text": "组织：当然，这些对07来说不过是无聊把戏。\n不过现在的你已经不是人类，为了帮助你快速习惯现在这具身体，",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600027",
+          "sourceType": 9,
+          "text": "组织：我们会提供新型丙烯酸防水涂料、配件加固装置，还有一种名为四叶草的强化剂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600028",
+          "sourceType": 9,
+          "text": "组织：功能类比你熟知的血清蛋白或是胆固醇素，能短时间提升作战对抗能力。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6600029",
+          "sourceType": 9,
+          "text": "组织：那么，07，祝你的红茶时间愉快。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6605001",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "呜，真的好冷，不过雪真好看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好了，围巾戴上去了！\n看来很快会有一只胖胖软软的白熊了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "胡萝卜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哦，对了，还有胡萝卜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "完成了，红围巾的雪人先生！哼哼，很神气吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "好厉害，是真的雪人先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "强壮的雪人先生，优纪有一个小请求，请一直保佑主人健健康康，开开心心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605008",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "是的，可爱的雪人先生，请保佑主人一切安好，请让我们可以一直陪着主人。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605009",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "嗯，我们都会一直陪着主人。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605010",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "大家快看天空，雪花飘起来了。雪人先生！你是答应我们的愿望了，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605011",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "一定是的，花迦觉得一定是我们的祷告灵验了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605013",
+          "sourceType": 9,
+          "text": "是纸牌，哇，好多漂亮的纸牌从空中飘下来。这就是叹为观止吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6605014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好壮观！这个纸牌的花纹也好漂亮哦。咦，大家快看，上面好像有字……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605015",
+          "sourceType": 9,
+          "text": "【|101|】……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6605016",
+          "sourceType": 9,
+          "text": "纸牌上面居然……写了主人的名字吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6605017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这张也有，啊，这张也有。不止一张，这里所有的纸牌上面都写满了主人的名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江，你怎么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6605019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "只是在意，这场像魔术表演一样的纸牌，就像某种预告或者宣言，让我不安。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-302",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6600001,
+            6600002,
+            6600003,
+            6600004,
+            6600005,
+            6600006,
+            6600007,
+            6600008,
+            6600009,
+            6600010,
+            6600011,
+            6600012,
+            6600013,
+            6600014,
+            6600015,
+            6600016,
+            6600017,
+            6600018,
+            6600019,
+            6600020,
+            6600021,
+            6600022,
+            6600023,
+            6600024,
+            6600025,
+            6600026,
+            6600027,
+            6600028,
+            6600029
+          ],
+          "sectionId": 6600
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6605001,
+            6605002,
+            6605003,
+            6605004,
+            6605005,
+            6605006,
+            6605007,
+            6605008,
+            6605009,
+            6605010,
+            6605011,
+            6605012,
+            6605013,
+            6605014,
+            6605015,
+            6605016,
+            6605017,
+            6605018,
+            6605019
+          ],
+          "sectionId": 6605
+        }
+      ],
+      "title": "大变活人·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6615001",
+          "sourceType": 9,
+          "text": "凌晨9:00，家中的桌面上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6615002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "早安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人今天起得很早。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615005",
+              "text": "做了一个梦。"
+            }
+          ],
+          "sourceId": "6615004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "怎样的梦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好像……嗯……想不起来了。不过似乎会听到什么声音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "看上去会是一个好梦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615009",
+              "text": "嗯，是一个好梦。"
+            }
+          ],
+          "sourceId": "6615008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "优纪她们呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "还在休息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和江不喜欢休息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我一直在研究这个。这是我们昨晚捡到的东西，它可能和主人有关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是扑克牌？上面这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是你的名字。不仅一张，是这里的所有扑克牌上都写有你的名字。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们在哪里捡到的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "外面的空地。昨晚这些牌就这样凭空从天上被什么东西撒下来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615018",
+              "text": "难道是……"
+            }
+          ],
+          "sourceId": "6615017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是主人认识的人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我也不知道，我只是在想对方是怎样做到凭空撒纸牌的。\n难道是无人机吗？好像是有特小型号的无人机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果是体积特别小的无人机，下雪、体积小、夜晚，这样子的确不容易被人发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们花了5个小时在雪地里把牌一张不落都收集起来了。纸牌数量意外的多，而且……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615022",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这些数量夸张的纸牌里……隐藏着一个谜题。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615024",
+              "text": "什么谜题？"
+            }
+          ],
+          "sourceId": "6615023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "散落的扑克牌根据绘制图案的不同共分为13种。\n牌面上依次绘制的Ⅰ-XⅢ的符号，很显然是指罗马数字中的1-13。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "收集到的扑克牌并非张张独立，时不时会出现两张扑克牌粘贴在一起这样的情况发生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615026",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "而如果将这两张牌上的数字相加，最大没有超过24。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615028",
+              "text": "数字分别对应A-Z的英文字母吗？"
+            }
+          ],
+          "sourceId": "6615027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "按照这个逻辑，这张绘制有图案Ⅰ的扑克牌对应字母A。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "而当Ⅰ与Ⅹ粘连在一起，数字总和为11，则对应字母K。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们演算了所有的数字出现的频率。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615031",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "结果……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615033",
+              "text": "结果怎样？"
+            }
+          ],
+          "sourceId": "6615032",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615033",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "只有：1、5、12、19、20、21，六个数字反复出现，每个数字十分同步地共出现了45次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615034",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "它们分别对应A，E，L，S，T，U这6个字母。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615035",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "十分有理由相信，对方在试图通过它们传递信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615036",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "6个字母的排列组合共720种，而其中有含义的一组排列是……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615038",
+              "text": "是什么？"
+            }
+          ],
+          "sourceId": "6615037",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615038",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "STEALU，结合扑克牌上你的名字，是“偷走你”的意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615039",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "【|101|】我要偷走你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615041",
+              "text": "难道没有别的组合了吗？"
+            },
+            {
+              "targetId": "6615042",
+              "text": "前面提到的45次，又是怎么回事？"
+            }
+          ],
+          "sourceId": "6615040",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615041",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "对不起，暂时没有想到其他的可能，但我有理由确信就是这一组。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615042",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "STEALU，六个字母各出现了45次。虽然数字代表的含义尚不清晰，但英文的释义已不言而喻。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615044",
+              "text": "偷走我？为什么？"
+            }
+          ],
+          "sourceId": "6615043",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615044",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "对不起，还不知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615045",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "甚至TA是谁？打算采用怎样的手法？在什么时候，全都不清晰。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615047",
+              "text": "听起来好像还蛮有意思的。"
+            }
+          ],
+          "sourceId": "6615046",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615047",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你这么认为吗？站在我的角度，我不得不做最坏的考量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615048",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果对方对你怀有某种敌意的话……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615050",
+              "text": "我皮糙肉厚。"
+            }
+          ],
+          "sourceId": "6615049",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615050",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人，你很珍贵。你对于我们所有手办来说，都是无与伦比的珍宝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615051",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我无法容忍任何可能伤害到你的事情发生，希望你能够理解我的心情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615052",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "在事情调查清楚之前，请主人暂时不要离开房间，请您尽量和我们在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615053",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我，不，我们想要保护你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615055",
+              "text": "我……我明白了。"
+            }
+          ],
+          "sourceId": "6615054",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615055",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "时间不早了，优纪她们应该起来了。我们要和优纪她们商量一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615056",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人可以请你叫一下优纪她们吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6615058",
+              "text": "后宅里没有她们的身影。"
+            }
+          ],
+          "sourceId": "6615057",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6615058",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "人不在？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6615059",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "难道她们……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-303",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6615001,
+            6615002,
+            6615003,
+            6615004,
+            6615005,
+            6615006,
+            6615007,
+            6615008,
+            6615009,
+            6615010,
+            6615011,
+            6615012,
+            6615013,
+            6615014,
+            6615015,
+            6615016,
+            6615017,
+            6615018,
+            6615019,
+            6615020,
+            6615021,
+            6615022,
+            6615023,
+            6615024,
+            6615025,
+            6615026,
+            6615027,
+            6615028,
+            6615029,
+            6615030,
+            6615031,
+            6615032,
+            6615033,
+            6615034,
+            6615035,
+            6615036,
+            6615037,
+            6615038,
+            6615039,
+            6615040,
+            6615041,
+            6615042,
+            6615043,
+            6615044,
+            6615045,
+            6615046,
+            6615047,
+            6615048,
+            6615049,
+            6615050,
+            6615051,
+            6615052,
+            6615053,
+            6615054,
+            6615055,
+            6615056,
+            6615057,
+            6615058,
+            6615059
+          ],
+          "sectionId": 6615
+        }
+      ],
+      "title": "大变活人·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6640001",
+          "sourceType": 9,
+          "text": "凌晨10:00，爱猫社区。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6640002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈……这样真的不会有问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "STEAL U？怎么可能，主人是我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640004",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "优纪要送给这家伙一张S卡。\n代表SNATCH U！SCARE U！还有……还有SLEEP U！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈~一晚上掌握了不少新词汇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "本来想找个笼子把主人关起来呢，打开笼子的钥匙就用优纪的身体来做好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样不论对方是谁，要想偷走主人，就都得先过优纪这一关了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈你是被冻昏头了吗？这样对于敌人来说……明明不就更容易了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸嘿嘿，好像有点道理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "从昨晚开始到现在也没有机会睡觉，先是在雪地里捡扑克牌……好多好多张……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "接着是解谜，加上刚才又马不停蹄地做了几个对付坏家伙的得意机关。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好想睡觉哦……雪人身体里真暖和……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈，前辈？前辈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我去这里揉几个雪球，花迦你就站在这里……等我回来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "前辈……前辈？前辈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640016",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "总感觉被前辈占了便宜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640017",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "看来暂时睡过去了，身体是PVC的话，这种等级的温度对手办来说算不上什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640018",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "优纪前辈，请先好好休息一阵吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640019",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "既然对方目的是主人，那就必须要分出一定的人手时刻守在主人身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "把这种事交给和江前辈去做，再也没有更放心的人选了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640021",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "但毕竟我们在明处，总是坐以待毙并不能解决问题，所以要更加积极主动地出击。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640022",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "但是前辈，你做的那些机关怎么能够称得上是……得意之作……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640023",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "用球棒支起鸟笼，球棒末端用细线牵引，鸟笼里放着主人的照片。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640024",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "趁坏家伙沉迷主人照片上的美色而趁机拉动绳子，据说这招叫做守株待兔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640025",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "岂止是兔，最笨的鸟都不会上当吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640026",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "又如在前往家门的必经之路上挖几个洞穴，这一招名叫“画地为牢”，听起来好像高明不少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640027",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可是你为什么要用主人的照片来覆盖穴口，难道仅仅因为坏家伙对主人感兴趣……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640028",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这不就等同于昭告别人陷阱在哪里了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640029",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "啊……感觉自己真辛苦呢……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6640030",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "只能祈祷那些小小的改动能够起到效果了……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645001",
+          "sourceType": 9,
+          "text": "午间11:00，爱猫社区，另一处角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645002",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "左起一排第五棵树的树枝没有落雪。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645003",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "显而易见的陷阱。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645004",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "打算利用倾倒的重力将关节压碎吗？低温环境下，塑料会变脆。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645005",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "切实命中的话，会被砸成渣滓，失去任何胶合可能。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645006",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "从承重的最大角度看，触发的机括在往前一步……两步……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645007",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "39.37英尺处。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645008",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "弹簧触发吗？与U形铁丝摩擦形成死锁，约300千克咬合力。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645009",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "能够在一瞬间咬碎羚羊的头骨。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645010",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "但不论如何，那颗树都太过显眼了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645011",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "故意的吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645012",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "混淆引导我做出错误的距离判断。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645013",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "那么实际准确的位置，应该在将要迈出的下一步。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645014",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "但她会猜到我猜到她会如此，所以准确的位置还在39.37英尺处。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645015",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "同样，她也会猜到我猜到了她猜到我确认39.37英尺的事实。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645016",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645017",
+          "sourceType": 2,
+          "speaker": "07",
+          "text": "真麻烦。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6645018",
+          "sourceType": 9,
+          "text": "思考到行动前后不超过一秒，一抹绿色的暗影略过，树枝上的雪花簌簌落下。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645019",
+          "sourceType": 9,
+          "text": "哼，在玩我吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645020",
+          "sourceType": 9,
+          "text": "随她去吧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645021",
+          "sourceType": 9,
+          "text": "呼叫申请。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645022",
+          "sourceType": 9,
+          "text": "组织：传输已建立……信息正在编码。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645023",
+          "sourceType": 9,
+          "text": "申请搭建名为《FIGURE治安管理处罚法》网站架构。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645024",
+          "sourceType": 9,
+          "text": "显示频率与7日最高关键词挂钩，内容嫁接《治安管理处罚法》中相关细则。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645025",
+          "sourceType": 9,
+          "text": "关键词由刑警替换为FIGURE，货币单位由“圆”替换为“四叶草”，需求度：即刻。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645026",
+          "sourceType": 9,
+          "text": "另外，接入【|101|】移动通讯设备，修改电芯储能，加速过放保护。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6645027",
+          "sourceType": 9,
+          "text": "系统：连接已挂断。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6650001",
+          "sourceType": 9,
+          "text": "爱猫社区，优纪与花迦藏身的雪人处。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6650002",
+          "sourceType": 0,
+          "speaker": "07",
+          "text": "出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6650003",
+          "sourceType": 0,
+          "speaker": "07",
+          "text": "倒数3s之后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6650004",
+          "sourceType": 0,
+          "speaker": "07",
+          "text": "铲车会碾过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6650005",
+          "sourceType": 0,
+          "speaker": "07",
+          "text": "3",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6650006",
+          "sourceType": 0,
+          "text": "2",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6650007",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "优纪前辈，快醒一醒！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6650008",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "请等一等，这里还——有——人——在！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-304",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6640001,
+            6640002,
+            6640003,
+            6640004,
+            6640005,
+            6640006,
+            6640007,
+            6640008,
+            6640009,
+            6640010,
+            6640011,
+            6640012,
+            6640013,
+            6640014,
+            6640015,
+            6640016,
+            6640017,
+            6640018,
+            6640019,
+            6640020,
+            6640021,
+            6640022,
+            6640023,
+            6640024,
+            6640025,
+            6640026,
+            6640027,
+            6640028,
+            6640029,
+            6640030
+          ],
+          "sectionId": 6640
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6645001,
+            6645002,
+            6645003,
+            6645004,
+            6645005,
+            6645006,
+            6645007,
+            6645008,
+            6645009,
+            6645010,
+            6645011,
+            6645012,
+            6645013,
+            6645014,
+            6645015,
+            6645016,
+            6645017,
+            6645018,
+            6645019,
+            6645020,
+            6645021,
+            6645022,
+            6645023,
+            6645024,
+            6645025,
+            6645026,
+            6645027
+          ],
+          "sectionId": 6645
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6650001,
+            6650002,
+            6650003,
+            6650004,
+            6650005,
+            6650006,
+            6650007,
+            6650008
+          ],
+          "sectionId": 6650
+        }
+      ],
+      "title": "大变活人·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6660001",
+          "sourceType": 9,
+          "text": "午时11:40，家中的桌面上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6660002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以你是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "联邦警署特别行动员，凛。很高兴见到你，谢谢你的配合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我们从未听说有这个职务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "《FIGURE治安管理处罚法》第二十三条第二款。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "机关工作人员依法履行职务期间，如公然侮辱或捏造事实诽谤者，处以500枚四叶草罚款。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "情节特别严重者，处5日以上10日以下拘留。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这是我的警察证，上面的编号可以查询到我的相关身份。\n另外可以的话，希望你谨言慎行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人，可以将你的手机借我们使用一下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "查到了，查到了~~真的是警察。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，所以我们真的犯法了？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "冷静，事情还未清晰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "所以，你们只是碰巧捡到了这些扑克牌？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，我们当时也很意外，这些扑克牌上竟然有主人的名字。所以不会抓我们走吧？我们不想离开主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这些暂时还不能证明你们没有参与其中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "可是也没有证据显示，我们参与其中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "当然，但嫌疑会一直伴随你们。而且显然你们的主人已经被对方盯上了。\n我想我们可以合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你知道什么信息？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "【|101|】|103|，那么长话短说，此次我所抓捕对象是一名女性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660021",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "祖籍波兰，混血，真实姓名不详。曾经以黑桃♠为代号犯下多起大案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "包括但不限于偷取人类珠宝，盗窃古文物，复制信用卡，侮辱执法人员等。\n如果加上这起与你有关的预告绑架案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660023",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "目前为止，犯罪记录已经超53起。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6660025",
+              "text": "宣称要偷走我的，就是这个“怪盗”手办？"
+            }
+          ],
+          "sourceId": "6660024",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6660025",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "信息属实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660026",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "疑犯如果为人类，这样的案件也并非我所属职权范围之内。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6660028",
+              "text": "但你似乎在我面前行动自如，知晓分寸？"
+            }
+          ],
+          "sourceId": "6660027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6660028",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "如果你是指“手办在人类面前无法随心所欲自由行动这件事”。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660029",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "很抱歉的通知你，我就是起草此则纲领的发起、监察和维护者之一。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660030",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "另外，知晓分寸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660031",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "如果你这么认为的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660032",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "回归正题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660033",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "作案开始前，疑犯往往会在现场留下黑桃纸牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660034",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "以谜题形式隐藏其作案目标与时机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660035",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "很猖狂不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660036",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "FIGURE联邦警署特别行动员——凛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6660037",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "请你配合，告知相关信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "6位字母。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "A，E，L，S，T，U。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "除STEAL U的字母组合预告目标外，暂缺作案时机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665004",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "确认是否无误。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6665006",
+              "text": "正确，长官！"
+            }
+          ],
+          "sourceId": "6665005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6665006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "720种组合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "拥有释意的组合是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "敬礼。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6665011",
+              "text": "敬……敬礼！"
+            }
+          ],
+          "sourceId": "6665010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6665011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665012",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "S-A-L-U-T-E，词组意味敬礼。720种组合唯一解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "salute是一种流通在军队士兵与军官间的手势。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "波兰籍吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6665016",
+              "text": "波兰……蠢驴？"
+            }
+          ],
+          "sourceId": "6665015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6665016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "波兰的陆军军队流行一种用食指和中指并拢，斜上方45°的敬礼手势。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "以时间作为关联，食指代表时针，中指代表分针。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "延续字母重复45次叠加关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665019",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "是12:00！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "现在时刻11:50。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665021",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "距离怪盗登场余10min。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这也就意味着，留给我们准备的时间也只剩10分钟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665023",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "和江女士，在这10分钟内，关于我身上的疑点——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6665024",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你还有任何想要发问的吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-305",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6660001,
+            6660002,
+            6660003,
+            6660004,
+            6660005,
+            6660006,
+            6660007,
+            6660008,
+            6660009,
+            6660010,
+            6660011,
+            6660012,
+            6660013,
+            6660014,
+            6660015,
+            6660016,
+            6660017,
+            6660018,
+            6660019,
+            6660020,
+            6660021,
+            6660022,
+            6660023,
+            6660024,
+            6660025,
+            6660026,
+            6660027,
+            6660028,
+            6660029,
+            6660030,
+            6660031,
+            6660032,
+            6660033,
+            6660034,
+            6660035,
+            6660036,
+            6660037
+          ],
+          "sectionId": 6660
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6665001,
+            6665002,
+            6665003,
+            6665004,
+            6665005,
+            6665006,
+            6665007,
+            6665008,
+            6665009,
+            6665010,
+            6665011,
+            6665012,
+            6665013,
+            6665014,
+            6665015,
+            6665016,
+            6665017,
+            6665018,
+            6665019,
+            6665020,
+            6665021,
+            6665022,
+            6665023,
+            6665024
+          ],
+          "sectionId": 6665
+        }
+      ],
+      "title": "大变活人·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6685001",
+          "sourceType": 9,
+          "text": "午时11:50，家中的桌面上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6685002",
+          "sourceType": 9,
+          "text": "      ",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6685003",
+          "sourceType": 9,
+          "text": "距离怪盗登场还有10分钟。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6685004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还有十分钟，那个小偷就要来了。怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685005",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "我们已经将房间的门和窗都关上了，对方应该无法进入的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "还有九分钟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685007",
+          "sourceType": 2,
+          "speaker": "花迦",
+          "text": "但还是好担心，主人真的会被偷走吗？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你好，不介意的话，请泡杯红茶给我。【|101|】。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6685010",
+              "text": "身为手办的你……想要喝茶吗？"
+            }
+          ],
+          "sourceId": "6685009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6685010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "并非用来品尝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "只是看着袅袅红茶会让我冷静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685012",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "所以，可以麻烦你吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6685014",
+              "text": "稍等。"
+            }
+          ],
+          "sourceId": "6685013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6685014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，你最好不要单独行动，优纪陪你去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你不去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你真的是警察？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你们不是查过了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如此放松警觉真的能抓到那个怪盗吗？我们希望你能认真对待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "像你的主人这样机敏，手持武器的人类，当被等比例制为手办后，也会变得毫无伤害性，我想，甚至还可以称得上可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "各方面来说，手办的力量在人类面前毫无胜算。\n我从一开始就不认为对方会成功偷走如此巨大的人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你在计划什么？不管是什么，我们都不会允许你伤害主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你很喜欢你的主人，感情会让你看不清状况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685023",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我是警察，所以我的目标只有一个，抓到犯人。而保护人类不在我的职责范围内。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685024",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "而且，如果怪盗是手办，以1/7微小的体型来说，此刻可能早就已经……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "有可能早就潜伏在房间里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685026",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我只相信证据。现在都不过是猜测。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685027",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685028",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "袭警可是重罪。你将被抓走，然后永远离开自己的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我会抓到那个狂妄而狡猾的怪盗，没有你的协助也是如此！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6685030",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我期待你的表现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你回来了……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6690003",
+              "text": "这个氛围，你们吵架了？"
+            }
+          ],
+          "sourceId": "6690002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6690003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "在这漫长的10分钟内，你的手办为了保护你，做了很多无关紧要的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690004",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "但现在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "距离12:00还有8s，7s——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "要来了吗？主人，我会保护你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人请到我们身后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "如果这时候其他人也在就好了，这样就可以有更多人保护主人了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "1，来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690011",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "快出来吧！坏蛋怪盗，胆敢偷走主人的人，优纪一定不会让你成功的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "怪盗，你在哪里？出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "大家小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690014",
+          "sourceType": 9,
+          "text": "逾时十五分钟后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6690015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "超过预告时间至少十五分钟了，好像什么都没有发生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以，这只是一场玩笑吗？还好还好，主人你安全了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "建议你们不要放松警戒。这位怪盗每次都能全身而退，并不简单。\n而且，现在还未到时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "未到时间？是重合性挂钟！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "6690020",
+              "text": "这是什么意思？"
+            }
+          ],
+          "sourceId": "6690019",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "6690020",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "墙上闹钟的时间是不准确的，至少和我身体内的时间不是同一个速度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690021",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "而且，在不久前，我在那里发现了一张绘制有X图案的扑克牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难道我们还有漏掉的扑克牌？那里是吗！快，我们去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690023",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "在这里，真的有一张绘制有Ⅹ图案扑克牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，不可能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "所有纸牌被我亲手锁进抽屉里，怎么可能有漏网之鱼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690026",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "反光处的小字？！是新的卡牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690027",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "念出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "大变活人的魔术……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690029",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "即将……开始？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "等等！难道刚才不是你们在说话吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690031",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "it is show time！人我就偷走了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690032",
+          "sourceType": 9,
+          "text": "滴滴滴滴——警报声骤响。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6690033",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "啊！！！！好吵！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690034",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "好难受，我要站不稳了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690035",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "主人，你捂住耳朵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690036",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "没用的，你的主人已经被偷走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6690037",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "什么？你说什么？\n主人！！！！！！！！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-306",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6685001,
+            6685002,
+            6685003,
+            6685004,
+            6685005,
+            6685006,
+            6685007,
+            6685008,
+            6685009,
+            6685010,
+            6685011,
+            6685012,
+            6685013,
+            6685014,
+            6685015,
+            6685016,
+            6685017,
+            6685018,
+            6685019,
+            6685020,
+            6685021,
+            6685022,
+            6685023,
+            6685024,
+            6685025,
+            6685026,
+            6685027,
+            6685028,
+            6685029,
+            6685030
+          ],
+          "sectionId": 6685
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6690001,
+            6690002,
+            6690003,
+            6690004,
+            6690005,
+            6690006,
+            6690007,
+            6690008,
+            6690009,
+            6690010,
+            6690011,
+            6690012,
+            6690013,
+            6690014,
+            6690015,
+            6690016,
+            6690017,
+            6690018,
+            6690019,
+            6690020,
+            6690021,
+            6690022,
+            6690023,
+            6690024,
+            6690025,
+            6690026,
+            6690027,
+            6690028,
+            6690029,
+            6690030,
+            6690031,
+            6690032,
+            6690033,
+            6690034,
+            6690035,
+            6690036,
+            6690037
+          ],
+          "sectionId": 6690
+        }
+      ],
+      "title": "大变活人·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 47,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 47,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 193,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "46",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "典藏的名画，还是珍贵的宝物？\n你跟它们却截然不同。",
+  "title": "大变活人",
+  "wordCount": 5756
+}

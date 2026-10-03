@@ -1,0 +1,156 @@
+{
+  "bookId": "activity-extra-dijiayureqiandao",
+  "id": "source-29001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29001001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好消息，好消息！今天的优纪特别座谈会，邀请到了特别嘉宾，迪迦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001002",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迪迦无法和主人正常交流，所以就由我来转述，迪迦刚才是在问好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001004",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "准备这次座谈会的目的，是为了欢迎迪迦加入手办世界，此外我们还精心准备了趣味问答环节，都是和迪迦相关的问题——需要回答的，是主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人要加油回答，以此证明对迪迦的喜爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没问题，我准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，那么首先第一个问题是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迪迦TV剧情中，迪迦人间体在变身之前，一共坠机过多少次？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "？？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "居然是这样离谱的问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这只是基础的难度，另外，会给主人寻找答案的时间哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29001013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人可以先去参加签到领取奖励，问题回答时间截止到下期，优纪会期待主人的答案！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29001",
+      "sourceRefs": [
+        {
+          "bundle": "dijiayureqiandao",
+          "rowIds": [
+            29001001,
+            29001002,
+            29001003,
+            29001004,
+            29001005,
+            29001006,
+            29001007,
+            29001008,
+            29001009,
+            29001010,
+            29001011,
+            29001012,
+            29001013
+          ],
+          "sectionId": 29001
+        }
+      ],
+      "title": "活动片段 29001"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1033",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1033",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 29001,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 29001",
+  "wordCount": 280
+}

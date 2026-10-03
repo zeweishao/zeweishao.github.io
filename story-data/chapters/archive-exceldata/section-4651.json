@@ -1,0 +1,41 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-4651",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "4651001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "4651",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            4651001
+          ],
+          "sectionId": 4651
+        }
+      ],
+      "title": "原文片段 4651"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 4651
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 4651",
+  "wordCount": 2
+}

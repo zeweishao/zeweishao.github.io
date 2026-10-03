@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214011",
+  "id": "bond-27531",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27531001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我好想你，我再也无法忍受和你的分离。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你来是索要上次的答案吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "那些都不重要，重要的是——\n我非常非常想念你，这样的感受对我来说还是第一次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "所以我原谅你了，亲爱的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可我明明什么都没有做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你当然有，你的所作所为都被我看在眼里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我熟悉你的一切，甚至包括你的呼吸频率，和你酣睡时嘴角的笑颜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "所有这些，我全都了如指掌——因为我一直陪在你的身边，注视着你，渴望着你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，我该不会是被偷窥了吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来你得到了想要的答案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是的，没错，我对此深信不疑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "因为爱是无法隐藏的，我非常确信这一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你终于回应了我的感情，像我对你那样的，你也如此这般地珍惜着我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我不在乎你的身边是否还有别人，我只知道，我对你来说是特别的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27531015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "能够确认这一点，对我来说就已经足够。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27531",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27531001,
+            27531002,
+            27531003,
+            27531004,
+            27531005,
+            27531006,
+            27531007,
+            27531008,
+            27531009,
+            27531010,
+            27531011,
+            27531012,
+            27531013,
+            27531014,
+            27531015
+          ],
+          "sectionId": 27531
+        }
+      ],
+      "title": "好想你，好想你"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214011",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "好想你，好想你",
+  "wordCount": 313
+}

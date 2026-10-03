@@ -1,0 +1,196 @@
+{
+  "bookId": "hero-212110",
+  "id": "bond-41101",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41101001",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "哟，我回来了。真是热血的一天啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41101003",
+              "text": "欢迎回来，恭介！"
+            },
+            {
+              "targetId": "41101003",
+              "text": "太好了，恭介平安回来了！"
+            }
+          ],
+          "sourceId": "41101002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41101003",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101004",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "怎么一脸「勇者居然无伤归来，真是太好了」的表情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为大家都说看到你在和巨兽搏斗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "手臂也被巨兽吃了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101007",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "「巨兽」？啊，是说粮丸吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然是它啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101009",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "不过不必担心，粮丸现在已经是「little busters」的荣誉队员了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101010",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "哼哼，别看它那样，其实也是心怀青春热血之人，不对，之猫啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "明，明明听说只是在打架……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101012",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "「战斗可是灵魂级别的对话」，我昨天读的漫画里有这样一句名言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101013",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "勇者和拳击手经过激烈的战斗后成为了同伴……简直感动到落泪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（——所以今天才去挑战猫猫拳了吗？）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101016",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "不过还是希望粮丸不要再含着我的手臂了，全是口水……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101017",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "好了，不管那些小事，该给新成员定个称号了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101018",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "「吞噬宇宙的幻兽」，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41101019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不知为什么，感觉超级合适……不愧是恭介。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41101",
+      "sourceRefs": [
+        {
+          "bundle": "lbgaobai",
+          "rowIds": [
+            41101001,
+            41101002,
+            41101003,
+            41101004,
+            41101005,
+            41101006,
+            41101007,
+            41101008,
+            41101009,
+            41101010,
+            41101011,
+            41101012,
+            41101013,
+            41101014,
+            41101015,
+            41101016,
+            41101017,
+            41101018,
+            41101019
+          ],
+          "sectionId": 41101
+        }
+      ],
+      "title": "新的同伴"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212110",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "新的同伴",
+  "wordCount": 349
+}

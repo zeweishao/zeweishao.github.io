@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-214005",
+  "id": "bond-27529",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27529001",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "主公，似乎兴致不高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，有人要割我的肉，吃我的血。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529003",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "翻译过来，便是要我大出血的意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529005",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "哦？所为何事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为了应付一个坏东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你瞅瞅这个，满意吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529008",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529009",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "原来在下便是主公眼中的坏东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不愧是光秀，果然机智如你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你在笑什么？笑得和狐狸似的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529012",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "只是忽然想到了一些有趣的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529013",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "这份礼，在下厚颜收下了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27529014",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "往后，也将会有一份礼回赠主公。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27529",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27529001,
+            27529002,
+            27529003,
+            27529004,
+            27529005,
+            27529006,
+            27529007,
+            27529008,
+            27529009,
+            27529010,
+            27529011,
+            27529012,
+            27529013,
+            27529014
+          ],
+          "sectionId": 27529
+        }
+      ],
+      "title": "反击"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214005",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "反击",
+  "wordCount": 156
+}

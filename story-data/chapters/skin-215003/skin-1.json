@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215003",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "真恋凭借可爱的单曲专辑风格已经成功打开了青少年市场，如今装扮为幻乐少女的她，在经纪公司的引导下，正积极探索音乐转型的第一步。\n\n“新专的主打歌叫「桃」，是特别为你准备的喔。”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "梦幻之音Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215003",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "真恋·梦幻之音Ver.",
+  "title": "梦幻之音Ver.",
+  "wordCount": 85
+}

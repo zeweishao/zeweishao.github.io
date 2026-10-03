@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211001",
+  "id": "bond-29301",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29301001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "小莉可，你这是在等人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301002",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "怎么又是你这个麻烦的家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301003",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "还有……我才不是小莉可，要叫本王莉可魔王大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好的，小莉可，我知道了，小莉可。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "……算了，本王懒得跟你说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以说小……莉可你是在等人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼，本王才不会浪费时间等一些无聊的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以说，如果是不无聊的家伙，莉可就愿意浪费时间去等了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "当然不会！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是吗。那莉可你觉得我算是无聊的人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你……问这个问题干嘛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301012",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你不会以为本王是在等你吧……这，这是绝对不可能的事情！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哦，这倒是可惜了，不过……莉可你果然是在等什么人吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301014",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "……你！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29301015",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "本王不要跟你说话了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29301",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29301001,
+            29301002,
+            29301003,
+            29301004,
+            29301005,
+            29301006,
+            29301007,
+            29301008,
+            29301009,
+            29301010,
+            29301011,
+            29301012,
+            29301013,
+            29301014,
+            29301015
+          ],
+          "sectionId": 29301
+        }
+      ],
+      "title": "等人的魔王"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211001",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "等人的魔王",
+  "wordCount": 242
+}

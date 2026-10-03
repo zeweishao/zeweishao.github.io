@@ -1,0 +1,1191 @@
+{
+  "bookId": "rewind-24",
+  "id": "chapter-95",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23407001",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，有关这个世界的情报，我能告诉你的就是这些了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯，这样看来果然之前的那些意外，呵呵，是因为他们提前来到这个世界了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不过变成「手办」存在的个体，倒是一种新奇的体验。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407004",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "塑料的身体可以让您长生不死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "伯爵听到这番话，大概会十分开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯，这个地方也很有趣。一个「手办」与「人类」共存的世界，真是令人期待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "宛如神一般的「人类」，制造出与自身截然不同的「手办」后，并未残忍地舍弃它们，而是慈悲播下关怀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "最重要的是，这里竟然还有一个特殊的人类，可以和手办交流。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "听上去，会是那孩子喜欢的猎物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407010",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "这，这个是！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407011",
+          "sourceType": 5,
+          "speaker": "不明真相群众",
+          "text": "大家快过来！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407012",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，前面聚集了不少手办，容我先去探查情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407013",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "这个视频里的女人……她在做什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "想明白了吗。那么，现在给你们两个选择。听话……或者，成为一具死尸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407015",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "你到底是什么人！为什么要做这种疯狂的事情？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407016",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "天……天启！！你是…！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407017",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "啊！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407018",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "那，那些手办竟然都被杀死了！！怎么会有这么可怕的人存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407019",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "那个杀人的手办，现在已经进入了M城了吗？？她是来自天启的怪物……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407020",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "这个视频！！是专门冲着伊迪丝大人来的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407021",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "当时还有其他人在现场？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407022",
+          "sourceType": 0,
+          "speaker": "管理局",
+          "text": "「以下手办因非法使用爆炸武器、涉嫌故意伤害其他手办，现全城发出通缉。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407023",
+          "sourceType": 0,
+          "speaker": "管理局",
+          "text": "「请各位注意以下特征手办——」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407024",
+          "sourceType": 0,
+          "speaker": "管理局",
+          "text": "「主犯」女，周身环绕未知球体。\n「从犯」性别不明，周身穿戴盔甲，携带管制刀具。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407025",
+          "sourceType": 0,
+          "speaker": "不明真相群众",
+          "text": "环绕未知球体……啊啊啊！救命，那个家伙就在前面！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407026",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "糟了……伊迪丝大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407027",
+          "sourceType": 0,
+          "speaker": "管理局手办",
+          "text": "站住，你们已经被包围了，放弃抵抗，否则别怪我们动用强硬手段。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407028",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "伊迪丝大人，还请您先离开，我来挡住他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "无需这么麻烦。正好我也想见见他们背后的那位故人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23407030",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "……我知道了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-527",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23407001,
+            23407002,
+            23407003,
+            23407004,
+            23407005,
+            23407006,
+            23407007,
+            23407008,
+            23407009,
+            23407010,
+            23407011,
+            23407012,
+            23407013,
+            23407014,
+            23407015,
+            23407016,
+            23407017,
+            23407018,
+            23407019,
+            23407020,
+            23407021,
+            23407022,
+            23407023,
+            23407024,
+            23407025,
+            23407026,
+            23407027,
+            23407028,
+            23407029,
+            23407030
+          ],
+          "sectionId": 23407
+        }
+      ],
+      "title": "交涉·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23408001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "伊迪丝，真是没有想到，我们再次见面，会是在这种情形下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "是吗。我还以为，从我出现，一直到被带到这个地方，都是在阿尔弗雷德你的算计之中呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "结果只是一场偶遇吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……伊迪丝。\n你果然是个可怕的女人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不过很可惜，设计这一切的并不是我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你是想说，这都是克罗赛尔的安排？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "果然，你已经看出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没办法，谁让她在那些手办身上安置的炸弹总是老样式。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "但这也可能是她特别的欢迎仪式，想要告诉我……她盯上我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "比起这个，你愿意跟她合作，这倒是出乎我的预料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "让我想想，是因为过去我给你带来了太多的阴影，所以你在忌惮我的出现？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这不是合作，只是利用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你是个危险的家伙！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "在确定你对这个世界彻底无害之前，必须被控制起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不过现在的结果看来……啧，克罗赛尔那女人远比我想象的更狡猾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "在你残杀那些手办的视频记录下，即便没有我出手，管理局也必须抓捕你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408017",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "伊迪丝，你对你做过的一切还有什么要辩解的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "噗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "伊迪丝？！你笑什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没什么，嗯，许久未见，阿尔弗雷德你还是那样可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23408021",
+          "sourceType": 5,
+          "speaker": "阿尔弗雷德",
+          "text": "你！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-528",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23408001,
+            23408002,
+            23408003,
+            23408004,
+            23408005,
+            23408006,
+            23408007,
+            23408008,
+            23408009,
+            23408010,
+            23408011,
+            23408012,
+            23408013,
+            23408014,
+            23408015,
+            23408016,
+            23408017,
+            23408018,
+            23408019,
+            23408020,
+            23408021
+          ],
+          "sectionId": 23408
+        }
+      ],
+      "title": "交涉·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23409001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "虽然演技略显浮夸，但不得不说，在计谋方面，你算是有了不少的长进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你说这个是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "经过我过去的调……嗯，我是说，教育，就算是为了对付我——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "阿尔弗雷德你应该也没那么简单被克罗赛尔说动吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "最关键的是，你如今身为管理局的骨干，真的能做出那样任性的事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "随意听信克罗赛尔的几句偏颇话语，就与她合作，还派遣管理局的成员来对付我？随便浪费他们的性命？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409007",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "若是换做不了解她的人，或许会被迷惑，但是，阿尔弗雷德，我知道你不会的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "如果我没猜错，那些被你派出的手下应该还有其他身份，作为你用来对付克罗赛尔的后手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "……哼。\n它们都是犯下大罪，被判决即将销毁的手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409010",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯，这样看来，克罗赛尔后续的那些布置，应当也都在你的计算中了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "所以就算那家伙散布了那种视频，你应当也有办法证明我的清白了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你这女人……果然还是一如既往的讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不用露出这么不甘心的表情，在我看来，你确实比过去成长许多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "现在，说出你的真实目的吧，将我请到这里来，你应该是要请我帮忙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "没错。我需要你帮我抓住克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "虽然现在没有证据直接证明她和天启有关系，但是她已经在M城生出了不少事端。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409017",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "她的能力太诡异，分身又众多，管理局想要抓住她没有十足的把握。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "不过你一直都有着克制她的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "只要你愿意帮忙，我可以证明你的清白，并且给你注册正规的手办身份，让你在这个世界可以正常生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "是吗。不过比起这种被胁迫的方式，我更喜欢能够被放在平等的位置进行合作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23409021",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不如先听听我的计划？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-529",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23409001,
+            23409002,
+            23409003,
+            23409004,
+            23409005,
+            23409006,
+            23409007,
+            23409008,
+            23409009,
+            23409010,
+            23409011,
+            23409012,
+            23409013,
+            23409014,
+            23409015,
+            23409016,
+            23409017,
+            23409018,
+            23409019,
+            23409020,
+            23409021
+          ],
+          "sectionId": 23409
+        }
+      ],
+      "title": "交涉·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23410001",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "你到底是什么人！为什么要做这种疯狂的事情？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410002",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "天……天启！！你是…！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410003",
+          "sourceType": 5,
+          "speaker": "玛丽莲·梦露",
+          "text": "啊！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太，太可怕了，那个女人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "竟然一言不合，就动手残杀了那么多手办……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "之前管理局去抓捕她的人都失败了，据说阿尔弗雷德先生都受了重伤呢，大家一定要小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那个女人现在就隐藏在M城的某个地方！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "优纪，你看看，视频里的女人，是不是就和你身后那个手办一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，你又来吓唬我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这次绝对没有，不信你转头看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410011",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "呀！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主，主人，小心，我会保护你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "冒昧打扰各位，我没有恶意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这样的鬼话~小孩子都不会相信，先吃我一枪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410015",
+          "sourceType": 3,
+          "text": "嗡……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "23410016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "先等等！哈莉，阿尔弗雷德先生那边发来了终端消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "起因经过大抵如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我在克罗赛尔制造的舆论中进退两难，因此恳请您的帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410019",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "阿尔弗雷德说您在手办中极具人气，只要您愿意开口，我想很快能够召集足够多的手办，让我有机会来澄清这谣言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然有阿尔弗雷德先生背书，我自然相信，不过……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410021",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我明白您的担忧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410022",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "您担心克罗赛尔的出现，会让这场集会变得不可控制？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果是她的话，必然也不会放过这绝佳引起混乱的机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410024",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "事实上，这也是我期待的，她不会放弃这个可以和我正面对峙的机会的，无论是为了我们彼此的胜负，亦或者是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "伊迪丝小姐为何突然走近看我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410026",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没什么，只是突然想到一些有趣的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "总之，还请「|101|」|103|相信，不管她出不出现，我都能控制住局面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410028",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "除此之外，冒昧请阁下召集M城的其他手办，除了想要澄清我自己身上的谣言外，我还有一个其他的心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23410030",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "那就是做一些我力所能及的事情，为这个世界来做些贡献。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-530",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23410001,
+            23410002,
+            23410003,
+            23410004,
+            23410005,
+            23410006,
+            23410007,
+            23410008,
+            23410009,
+            23410010,
+            23410011,
+            23410012,
+            23410013,
+            23410014,
+            23410015,
+            23410016,
+            23410017,
+            23410018,
+            23410019,
+            23410020,
+            23410021,
+            23410022,
+            23410023,
+            23410024,
+            23410025,
+            23410026,
+            23410027,
+            23410028,
+            23410029,
+            23410030
+          ],
+          "sectionId": 23410
+        }
+      ],
+      "title": "交涉·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "23411001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "未曾深入了解前，我认为「M城」是个手办与人类美好相处的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "可事实上，手办作为人类的附属品，在满足了一时需要后，难免会被遗忘、丢弃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "您一直以来的工作，也是避免手办流浪的情况发生，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "能够做的非常有限。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "随着我作为商品而诞生，原著中我所治理的城市「奥古斯都」也作为模型被制造出了一部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "如果真的找不到回归人类的方法，我相信那里会成为流浪手办们的一个温暖的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这件事，会在晚宴上宣布吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411008",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "既然伊迪丝小姐对一切都有了布置，我会努力配合的，地点就定在天台吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "愿意接纳那些流浪的手办，伊迪丝小姐，你是个善良的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "谬赞了。其实做这一切，我也是在为我的名望考虑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "真正善良的应该是你，「|101|」|103|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411013",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人在想什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "罗威，你记得吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411015",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "「奥古斯都」也有这样一座能俯瞰城市的高台。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411016",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "「中央塔楼」，您一直很喜欢那里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411017",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "没有卫兵看守，风吹过时，能短暂感到自由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411018",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "说起来，正是这个习惯，才让你的「劫持」有了可乘之机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411019",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大……大人，不是说好不提这件事吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411020",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这里没有外人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411021",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "如M城般，「奥古斯都」也是这样被河流一分为二的城市。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411022",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "可不同的是，「奥古斯都」那时的发展却如此畸形。\n河的东岸是高楼林立灯红酒绿，西岸却是数以万计的贫民窟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411023",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "那天是您的12岁生日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411024",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "托你的福，那也是我人生中第一次来到城市的西边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411025",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "回忆起来，那似乎是我人生中为数不多，称得上浪漫的时刻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411026",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "我花了整整3个月，抱着玉石俱焚的决心策划整起绑架案。\n而大人只用了短短3句……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411027",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "后面的事情我们都知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411028",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "那天过后，「贫民窟少年智救财阀大小姐」的新闻以急速之势登上各大头版。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411029",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "而后来，那个小小的少年，也凭借出众的能力，成为了「奥古斯都」最年轻管家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411030",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，有一句话，我一直未曾对您说起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411031",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "感激的话就放在心里吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411032",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "比起这个，宴会的筹备已经没有多少时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411033",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "新的「奥古斯都」，也不会一直是我们的回忆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23411034",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "它很快将在这个世界重现辉煌。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-531",
+      "sourceRefs": [
+        {
+          "bundle": "edith",
+          "rowIds": [
+            23411001,
+            23411002,
+            23411003,
+            23411004,
+            23411005,
+            23411006,
+            23411007,
+            23411008,
+            23411009,
+            23411010,
+            23411011,
+            23411012,
+            23411013,
+            23411014,
+            23411015,
+            23411016,
+            23411017,
+            23411018,
+            23411019,
+            23411020,
+            23411021,
+            23411022,
+            23411023,
+            23411024,
+            23411025,
+            23411026,
+            23411027,
+            23411028,
+            23411029,
+            23411030,
+            23411031,
+            23411032,
+            23411033,
+            23411034
+          ],
+          "sectionId": 23411
+        }
+      ],
+      "title": "交涉·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 95,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 95,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "简单聊聊如何？",
+  "title": "交涉",
+  "wordCount": 3057
+}

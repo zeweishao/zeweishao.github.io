@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215102",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "仪态万端的古典名姝，千年痴守的忠贞爱侣「白素贞」化身为1/7比例模型正式于M城隆重登场！\n她是修行千年的得道白蛇，端庄娴雅，柔情似水，蕙质兰心。本应飞升成仙，却因痴情流连于人间，只为再续千年前的一段尘缘。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215102"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 101
+}

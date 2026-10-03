@@ -1,0 +1,101 @@
+{
+  "bookId": "rewind-39",
+  "id": "source-35529",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35529001",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵呵……没有风的你还能飞得起来吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35529002",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "哎呀，星象明明显示今夜会有风的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35529003",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "站好，让我给你留下一个完整的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35529004",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "大哥，二哥！你们快看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35529005",
+          "sourceType": 3,
+          "text": "喵——喵喵喵喵！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35529006",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "哪来的这么多猫！快跑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35529007",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "山人自有妙计。嗯，不愧是我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35529",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35529001,
+            35529002,
+            35529003,
+            35529004,
+            35529005,
+            35529006,
+            35529007
+          ],
+          "sectionId": 35529
+        }
+      ],
+      "title": "穿越碧涛之影·Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9290032",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9290032",
+          "after_result_avg"
+        ],
+        "sectionId": 35529,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "穿越碧涛之影·Ⅱ",
+  "wordCount": 95
+}

@@ -1,0 +1,165 @@
+{
+  "bookId": "rewind-41",
+  "id": "source-36025",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "36025001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哼哼~被星洛抓住了吧~看你还能飞到哪里去！\n快把抢走的涂料还给星洛的朋友！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025002",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼……要不是吾没吃饱……不然这小小的陷阱，吾一下子就——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025003",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼……别打了！那些涂料吾一口都没吃啊！\n吾不敢……吾全藏在地下室的冷库里了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025004",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "没吃？那你做这些是为了什么？嘻嘻，不会只是想挨打吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025005",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吼……原来的世界，吾祖祖辈辈一直生活在龙堡里，过着幸福快乐的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025006",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "但后来，也不知道为什么总有人类要狩猎吾等，夺回什么财宝……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025007",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "他们没完没了地来骚扰、建城，龙堡方圆千里的地皮都被铲干净了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025008",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "吾等躲了几百年，龙堡被打垮了，身体都饿瘦了……连一顿烤肉都吃不上……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025009",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "他们非说龙堡里有财宝，可吾等住了这么久，有没有财宝，吾能不知道吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025010",
+          "sourceType": 0,
+          "speaker": "波雷亚斯",
+          "text": "来到这个世界，吾实在是饿怕了……\n越狱也只是为了找点烤肉而已……但从没人听吾说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "……呜呜呜，没有烤肉吃的日子，好痛苦。星洛也能理解这种感觉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025012",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "喂！你不要和他一起哭啦！\n明明看起来是条恶龙，结果竟然是个吃不饱的爱哭包吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "每个犯人都有自己的遭遇，但我们不会因此就相信你。\n你的陈述，我们会报告管理局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我们走吧。等等，神宫呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "36025015",
+          "sourceType": 3,
+          "text": "嘭！陷阱发出巨大的响声，将众人吞没。",
+          "type": "narration"
+        }
+      ],
+      "id": "36025",
+      "sourceRefs": [
+        {
+          "bundle": "xingluo",
+          "rowIds": [
+            36025001,
+            36025002,
+            36025003,
+            36025004,
+            36025005,
+            36025006,
+            36025007,
+            36025008,
+            36025009,
+            36025010,
+            36025011,
+            36025012,
+            36025013,
+            36025014,
+            36025015
+          ],
+          "sectionId": 36025
+        }
+      ],
+      "title": "寻踪觅迹·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9310035",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9310035",
+          "after_result_avg"
+        ],
+        "sectionId": 36025,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "寻踪觅迹·Ⅴ",
+  "wordCount": 464
+}

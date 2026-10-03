@@ -1,0 +1,169 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33304",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33304001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是太可恶了！难道所有绿色徽章已经被他们拿走了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "那岂不是......想要兑换奖品，就只能和他们交易？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不对劲。他们是怎么做到的？\n我们是在开园后马上进入的，他们应该没有足够的时间搜集所有的绿色徽章。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我也觉得很奇怪，他们为什么不直接把全部徽章都拿走，而只要拿走其中一种呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "啊，对了，我看到海报上提过「活动特殊彩蛋」，但后半截被撕掉了。\n好像是说，根据徽章主题......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我想到了一种可能。\n大家跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "就是这里，日光乐园中绿植最密集的地方。\n徽章应该就在这附近，比如这边的草坪，或者......那边的灌木丛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈哈嘿吼！灌木丛里堆满了徽章，全都是绿色的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "徽章上的叶片和灌木的叶片混在一起，简直就像迷彩一样，难怪我们很难发现。\n不过，为什么主办方会把同一种徽章这么集中地放在这里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "应该不是主办方做的，而是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304011",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "依靠偷窃赢得游戏，真是令人不齿的行为。\n这些徽章可是我一枚一枚辛苦收集到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是你把徽章全部藏起来的吗？\n难道，海报上的彩蛋提示也是你撕掉的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "如果我没猜错，海报上应该写的是「第五种徽章会特别藏在绿植中」类似的内容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真过分，明明你才是小偷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304015",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "小偷？呵呵，你或许误会了什么......这次徽章兑换的奖品，本来就是我的同伴。\n我对她的思念如此强烈，以至于无论如何都要与她相见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304016",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "所以，我不过是使用了一些——提升效率的小方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33304017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "先抢先把绿植里的徽章全部拿走，再强迫其他手办和你交换——\n这就是你的方法？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33304",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33304001,
+            33304002,
+            33304003,
+            33304004,
+            33304005,
+            33304006,
+            33304007,
+            33304008,
+            33304009,
+            33304010,
+            33304011,
+            33304012,
+            33304013,
+            33304014,
+            33304015,
+            33304016,
+            33304017
+          ],
+          "sectionId": 33304
+        }
+      ],
+      "title": "植物迷彩"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33304,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "植物迷彩",
+  "wordCount": 586
+}

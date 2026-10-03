@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211205",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "传承太极精意的「汐音」化身为1/7比例模型登场！明慧纯粹的少女离开了从小长大的孤岛，来到了陌生的现代校园，她将遇到什么样的邂逅呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211205"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 65
+}

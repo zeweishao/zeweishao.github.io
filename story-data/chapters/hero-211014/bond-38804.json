@@ -1,0 +1,224 @@
+{
+  "bookId": "hero-211014",
+  "id": "bond-38804",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "38804001",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "……王子解除诅咒变回人类，从此和公主幸福地生活在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804002",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "故事结束，下次见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "菲伊在读童话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804004",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "嗯？|101|，你来得很巧，我的工作刚结束。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38804006",
+              "text": "欸，刚刚不是在休息？！"
+            },
+            {
+              "targetId": "38804006",
+              "text": "原来刚才不是休息时间……"
+            }
+          ],
+          "sourceId": "38804005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38804006",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "是劳动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804007",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "考虑到无报酬这点，算是「志愿服务」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无报酬？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804009",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "嗯，是那株玫瑰的愿望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "她想成为童话里的玫瑰？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804011",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "准确来说，她想成为在结局画面中被公主拿着的那枝玫瑰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，好具体的心愿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我们接下来要去找可以扮演公主的手办吗？感觉有很多人选……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804014",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804015",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "不，要去图书馆借书。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38804017",
+              "text": "去图书馆？"
+            },
+            {
+              "targetId": "38804017",
+              "text": "要借什么书？"
+            }
+          ],
+          "sourceId": "38804016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38804017",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "去借现代社会体制相关的书目。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804018",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "这样就可以委婉地向玫瑰说明现在没有公主了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "委婉……果然还是去找手办扮演公主吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38804020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为了保护玫瑰的心愿，请菲伊部长再次考虑！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38804",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38804001,
+            38804002,
+            38804003,
+            38804004,
+            38804005,
+            38804006,
+            38804007,
+            38804008,
+            38804009,
+            38804010,
+            38804011,
+            38804012,
+            38804013,
+            38804014,
+            38804015,
+            38804016,
+            38804017,
+            38804018,
+            38804019,
+            38804020
+          ],
+          "sectionId": 38804
+        }
+      ],
+      "title": "玫瑰之愿"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "玫瑰之愿",
+  "wordCount": 297
+}

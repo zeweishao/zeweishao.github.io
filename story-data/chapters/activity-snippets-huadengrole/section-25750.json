@@ -1,0 +1,127 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25750",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25750001",
+          "sourceType": 10,
+          "text": "大小姐的骄傲",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25750002",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "「玩物丧志」这四个字，你不会没有听说过吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25750004",
+              "text": "为什么说这个？"
+            }
+          ],
+          "sourceId": "25750003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25750004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我也很想知道，为什么这种场合会邀请我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25750005",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "才智敏捷、雷厉风行的孙家大小姐，看起来像是跟这种场合有一丝一毫的关系么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25750007",
+              "text": "貂蝉也在哦。"
+            }
+          ],
+          "sourceId": "25750006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25750007",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "什么？那家伙也在这里么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25750008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "很好，我改变主意了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25750009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "孙家大小姐偶尔也需要娱乐活动转换一下心情，所以这种场合我也是会去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25750010",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "是要制作花灯吗？没问题。我是不会落后的，尤其是不会输给某个花枝招展的家伙。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25750",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25750001,
+            25750002,
+            25750003,
+            25750004,
+            25750005,
+            25750006,
+            25750007,
+            25750008,
+            25750009,
+            25750010
+          ],
+          "sectionId": 25750
+        }
+      ],
+      "title": "大小姐的骄傲"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25750,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "46",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "既然某位同行展露出了手作花灯的技艺，孙大小姐就绝对没有理由示弱，她会带来什么惊喜呢？",
+  "title": "大小姐的骄傲",
+  "wordCount": 189
+}

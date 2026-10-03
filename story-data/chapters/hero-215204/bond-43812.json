@@ -1,0 +1,207 @@
+{
+  "bookId": "hero-215204",
+  "id": "bond-43812",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43812001",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "哎呀呀，这些天你是不是在瞒着我准备些什么?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43812002",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "居然……是一座庭院，草坪边上还有喷泉？真漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43812004",
+              "text": "喜欢吗？"
+            },
+            {
+              "targetId": "43812004",
+              "text": "这是送给你的。"
+            }
+          ],
+          "sourceId": "43812003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43812005",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "真是让人怀念。你怎么想到要送我庭院的，我可不记得有和人提过这样的偏好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43812007",
+              "text": "因为和你的衣服很搭。"
+            }
+          ],
+          "sourceId": "43812006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43812007",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "待在旧钟楼里的时候，偶尔我就会想，要是哪天可以在一个开阔的庭院里晒晒太阳，喝喝下午茶就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43812008",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "但这也只是想想，我一直没有行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43812009",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "转眼便过去了许多年，转眼……我便在这个世界遇到了你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43812011",
+              "text": "现在你随时可以在庭院里办茶会。"
+            }
+          ],
+          "sourceId": "43812010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43812011",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "说起来，你还记得之前我的那个问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43812013",
+              "text": "记得。"
+            },
+            {
+              "targetId": "43812013",
+              "text": "想不起来了。"
+            }
+          ],
+          "sourceId": "43812012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43812013",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "我找到了哦，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43812014",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "所以，你会和我一起踏上旅途吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43812015",
+          "sourceType": 3,
+          "text": "魔女在后宅里向你发问，恍惚间，你看到了无数的幻影——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43812016",
+          "sourceType": 3,
+          "text": "在客厅、在卧室、在街区、在游乐园……无数个格兰缇娜曾在不同的地点向你问出相同的问题。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43812017",
+          "sourceType": 3,
+          "text": "你有一种错觉，她询问的不止是「你」，还有那个更为遥远的「屏幕」之外的你。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43812018",
+          "sourceType": 3,
+          "text": "而你知道，无论是什么的答案，魔女都将欣然接受。",
+          "type": "narration"
+        }
+      ],
+      "id": "43812",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43812001,
+            43812002,
+            43812003,
+            43812004,
+            43812005,
+            43812006,
+            43812007,
+            43812008,
+            43812009,
+            43812010,
+            43812011,
+            43812012,
+            43812013,
+            43812014,
+            43812015,
+            43812016,
+            43812017,
+            43812018
+          ],
+          "sectionId": 43812
+        }
+      ],
+      "title": "时光庭院"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "时光庭院",
+  "wordCount": 384
+}

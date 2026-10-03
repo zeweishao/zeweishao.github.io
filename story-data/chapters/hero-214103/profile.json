@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214103",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「库特」化身为1/7比例模型登场！梦想是成为宇航员，不可思议且十分娇小可爱的女孩子。她会带领大家看到怎样的宇宙呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214103"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 57
+}

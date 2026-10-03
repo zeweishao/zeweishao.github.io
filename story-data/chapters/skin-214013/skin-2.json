@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214013",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "从小到大，拉斐尔一直都非常擅长绘画和考试，唯独对恋爱一窍不通。\n\n——直到被称作「主人」的人出现在自己的面前。\n\n她偷偷绘制了无数人物速写，尽管画面上的角度各不相同，但无疑都是同一个人。\n\n她终于确认了自己的心意，决定在情人节这天，带上手作的蛋糕和那些素描。\n\n亲手送给那个自己无比珍视的人。\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "恋之初体验Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214013",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "拉斐尔·恋之初体验Ver.",
+  "title": "恋之初体验Ver.",
+  "wordCount": 158
+}

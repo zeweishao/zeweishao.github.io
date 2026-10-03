@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-213204",
+  "id": "bond-27520",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27520001",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "真是难以想象，这是主人送给我的礼物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520003",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "原来如此，算是报酬吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什，什么报酬？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520005",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "当然是帮你念书的报酬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可不记得我有听过那种东西！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "你当然没听过，因为我根本没念给你听啊，这算是预支的，预支的对吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520008",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "那么，还请主人为了让我有机会偿还这笔债务，每天晚上入睡前都来找我吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可以问下是听什么书吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520010",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "是会让主人兴奋的书~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我应该不至于因为那种书兴奋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520012",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "诶，我可还没说是什么书哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520013",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "反正还请主人期待就是了！说好了，绝对，一定要来，不能错过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520014",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "不然下次我会跑到主人床边去大声念那种书的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27520015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道了，还请饶过我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27520",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27520001,
+            27520002,
+            27520003,
+            27520004,
+            27520005,
+            27520006,
+            27520007,
+            27520008,
+            27520009,
+            27520010,
+            27520011,
+            27520012,
+            27520013,
+            27520014,
+            27520015
+          ],
+          "sectionId": 27520
+        }
+      ],
+      "title": "念书"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "念书",
+  "wordCount": 240
+}

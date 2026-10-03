@@ -1,0 +1,126 @@
+{
+  "bookId": "hero-214017",
+  "id": "bond-26053",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26053001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "海柔尔，你在手办屋里面吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "抱，抱歉！没经过你同意就擅自钻进去，因为......这里面实在太有安全感了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，这就是送给你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "哎？我收下......真的......可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你是觉得礼物太贵重了吗？不用担心这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不是的，我在担心......自己进去以后，会更加不想出门。\n毕竟屋子的布置这么可爱、温馨......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我觉得海柔尔需要这样的地方，所以买下来了。\n如果你喜欢，多在里面待些时间也可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是，至少我在外面叫你的时候，可以给我回应吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "如果，如果是|101|的话......\n听到你的声音，我一定会马上出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26053010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "说不定，偶尔......还会因为想见你主动出门......\n嗯，这样一想的话，安心住进去也没关系呢！嘿嘿。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26053",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26053001,
+            26053002,
+            26053003,
+            26053004,
+            26053005,
+            26053006,
+            26053007,
+            26053008,
+            26053009,
+            26053010
+          ],
+          "sectionId": 26053
+        }
+      ],
+      "title": "安全感"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "安全感",
+  "wordCount": 305
+}

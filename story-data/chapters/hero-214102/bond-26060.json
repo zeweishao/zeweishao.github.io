@@ -1,0 +1,125 @@
+{
+  "bookId": "hero-214102",
+  "id": "bond-26060",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26060001",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "那个……你知道列车难题吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26060005",
+              "text": "知道。"
+            },
+            {
+              "targetId": "26060003",
+              "text": "不知道。"
+            }
+          ],
+          "sourceId": "26060002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26060003",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "假设你遇上火车脱轨，目前火车行驶线路的正前方有5个人，什么都不做的话会他们就会遇难。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26060004",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "但如果你扳动切换线路的拉杆，火车就会驶向只有1个人的那边……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26060005",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "如果是你的话，会扳动拉杆吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26060007",
+              "text": "会的。"
+            },
+            {
+              "targetId": "26060007",
+              "text": "不会的。"
+            }
+          ],
+          "sourceId": "26060006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26060007",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "这样吗。\n其实，我相信总会有让全员幸存的方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26060008",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "无论是原来的我，还是身为手办的我，都有比人类更强的生命力。所以，我一定可以让大家一起活下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26060009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯！那么，如果真的遇到这种问题，我们一起寻找不用牺牲任何人的解决方法吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26060",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26060001,
+            26060002,
+            26060003,
+            26060004,
+            26060005,
+            26060006,
+            26060007,
+            26060008,
+            26060009
+          ],
+          "sectionId": 26060
+        }
+      ],
+      "title": "列车难题"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "列车难题",
+  "wordCount": 217
+}

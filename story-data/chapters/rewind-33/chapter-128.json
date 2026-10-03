@@ -1,0 +1,1149 @@
+{
+  "bookId": "rewind-33",
+  "id": "chapter-128",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31655001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "初，初次见面！\n很高兴认识你！我叫海柔尔，兴趣爱好是......园艺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655002",
+          "sourceType": 7,
+          "text": "海柔尔 · 暗夜星光\n商品名称：海柔尔·暗夜星光Ver.\n作品出处：《少女X机关枪》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约220mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "31655003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我种过很多东西，蘑菇、水果，还有漂亮的花。\n最喜欢的花是，红玫瑰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊，抱歉！你脚边的白玫瑰也很好看！\n如果你愿意的话，我可以帮忙除草，让它们开得更好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655005",
+          "sourceType": 3,
+          "text": "沙沙............",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31655006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "那个，尽管有些唐突，我有一个请求：\n能不能请你，请你......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "请你和我成为朋友吧，树洞先生！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655008",
+          "sourceType": 3,
+          "text": "沙......沙沙............",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31655009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你答应了吗？太好了！我每天都会来找你聊天的。\n我们定个见面的时间吧，就像朋友会做的那样——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655010",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "那就每天下午四点在这里见。\n顺带一提，我的名字是布鲁特。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "好的，布鲁特先生......\n......哎？！树、树洞，开口......说话了？！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "是我的幻觉吗......我的脑子已经坏掉了吗......\n呜呜，我还想见妈妈最后一面——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655013",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "停停停，卡！小姐，自己设定的情境必须严格执行到底，这是对舞台和观众的尊重。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "听好了，如果你把树洞当做搭戏的演员，真正得到回应时，绝不会被吓个半死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655015",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊！......你，你到底是谁？为什么会出现在这里？\n好奇怪的机械怪物，身后连着的是——人类的手臂？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655016",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "对，对！我是「手偶」，屁股被牢牢固定在某个笨蛋的手上，谢谢你再次提醒我这可悲的命运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655017",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "至于出现在此的原因——作为路过的未来的巨星，发善心想指导一下你的演技，免得你在台上出丑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655018",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你，你误会了，我不是演员......刚才我在做「交友演习」。\n不上台表演，只是用来认识朋友......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655019",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "啊——哈。「交友演习」，听听这个愚蠢的字眼！\n我来告诉你交友的真相——实践、实践、还是实践！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655020",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不行的，如果不提前做好演习的话，我......\n甚至不能完整地说出一句话来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655021",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "把你反驳我的力气用在开口和别人搭话上吧！\n对了，我身后这个笨蛋和你智商接近，刚好拿他练练手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655022",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "给你个亮相的机会，徕卡！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655023",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不，等等......\n别，先别从树后走出来......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655024",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "锵锵，世界第一表演艺术家徕卡闪亮登场！\n请你和我成为朋友吧，海柔尔小姐！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655025",
+          "sourceType": 3,
+          "text": "沙沙............",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31655026",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呃......我.......呜......呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655027",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜......呜呜呜......\n你别过来啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655028",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "请等等，为什么要逃跑？\n为什么要将我伸出的友谊橄榄枝狠狠折断？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655029",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "省省吧，别演了，人家都跑得没影了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655030",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "......布鲁特先生，我们接下来怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31655031",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "谢幕了，我们该回家，笨蛋！\n不过别担心......我们约好了每天下午四点，不是吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-682",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31655001,
+            31655002,
+            31655003,
+            31655004,
+            31655005,
+            31655006,
+            31655007,
+            31655008,
+            31655009,
+            31655010,
+            31655011,
+            31655012,
+            31655013,
+            31655014,
+            31655015,
+            31655016,
+            31655017,
+            31655018,
+            31655019,
+            31655020,
+            31655021,
+            31655022,
+            31655023,
+            31655024,
+            31655025,
+            31655026,
+            31655027,
+            31655028,
+            31655029,
+            31655030,
+            31655031
+          ],
+          "sectionId": 31655
+        }
+      ],
+      "title": "布鲁特先生·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31656001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "三点五十八......三点五十九......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "第五棵树下，第三块石头旁......\n就是这里，那株玫瑰花苞生长的地方......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656003",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "很好，准时是一名演员的基本素养。\n别躲在石头后面，这是对观众的不尊重。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "布、布鲁特先生？！\n抱歉，我昨天直接跑掉实在太没礼貌了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656005",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "放轻松，我今后不会再让那个笨蛋出来吓人。\n这不是你的错，就连我都时常被他冒傻气的脸吓个半死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你是来......找我聊天的吗？\n像朋友那样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656007",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "我是来维护自己的名誉！嫉妒我才华的人很多，如果放任不管，《布鲁特恐吓新人演员》后天就会登上娱乐头条。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656008",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "但出于对未来星途的考虑，我决定帮你彻底解决关于「交朋友」的问题，顺带塑造我关爱后辈的正面形象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可我真的......不是演员......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656010",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "这不重要！从现在开始每天第四点钟，你要准时来这株红玫瑰下面接受布鲁特的指导！直到你找到朋友为止！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "红玫瑰......吗？虽然现在它还没有开花，但在这附近长出的都是白玫瑰，这株也一定是白玫瑰才对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656012",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "不不不，小姐，相信我的判断——唯独这一株是红玫瑰。\n很奇妙，但总有些事情是戏剧般的奇妙，令人着迷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656013",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "在下一场雨水后，花苞就会绽开，玫红色的花瓣将会如同你的友谊之火般炽热燃烧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656014",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯......谢谢。但是，我......我从没交到过朋友。\n只要对方是人，我就会紧张得说不出话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656015",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "至少你和家人交谈时是放松的，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656016",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "唔......和妈妈交谈的时候......会比遇到陌生人更紧张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656017",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "......好吧，看来问题比我想象中更严重。\n但无论如何，想和谁交朋友就去主动搭话，这是不变的铁律！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656018",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "其实变成手办之后，我在M城观察到一些有趣的人......\n但我真的好害怕被拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656019",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "你不会被拒绝，因为布鲁特先生会亲自准备你的台本，你绝对会成为爆红的女星！来，选择你的第一个目标！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31656020",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我，我想认识......伊迪丝小姐。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-683",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31656001,
+            31656002,
+            31656003,
+            31656004,
+            31656005,
+            31656006,
+            31656007,
+            31656008,
+            31656009,
+            31656010,
+            31656011,
+            31656012,
+            31656013,
+            31656014,
+            31656015,
+            31656016,
+            31656017,
+            31656018,
+            31656019,
+            31656020
+          ],
+          "sectionId": 31656
+        }
+      ],
+      "title": "布鲁特先生·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31657001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "白玫瑰准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657002",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "特殊培植的50瓣精品白玫瑰七十七朵已经备好，按照骑士加冕礼的最高规格定制。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "邀请函寄出去了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657004",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "已经亲手交给|101||103|，|102|答应今晚会准时赴约。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "很好。推掉今天下午4点后的所有安排。\n我承诺过|101|，给|102|一个正式的骑士加冕礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "办妥之后，通知今天的访客，可以按照预约时间进来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31657007",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "遵命，大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "深呼吸——\n再背一次布鲁特先生写的台本！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我、我叫海柔尔！占用你一点时间，贵府的花圃上全是杂草和害虫，我想为伊迪丝小姐提供一些园艺服务，顺便交个朋友！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "好了，鼓起勇气上吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "伊，伊迪丝小姐，我叫......我叫......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658005",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "我要叫了！再不放我进去我要叫了！\n咕咕咕叽叽！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658006",
+          "sourceType": 0,
+          "speaker": "困困大王",
+          "text": "别插队，我有重要的文件需要审批。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658007",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "伊迪丝小姐，手办收容机构发生了斗殴事件！您快去看看吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜......完全找不到时机。\n交朋友这种无关紧要的事，说出来会被他们笑话的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不行......好不容易鼓起了勇气，至少要去尝试一次才行！\n但是，要选在什么时机进去呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "地上有这么多白玫瑰......对了，像往常一样来数花瓣吧！\n如果最后一瓣是「去」，就勇敢地去拜见她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "去、不去、去.......去、不去。\n呼——那就安心等这位客人离开吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "下一位客人进去了，再数一朵。\n去、不去......不去、去......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658013",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，时间到了。要结束会见客人，开始准备骑士加冕礼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31658014",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "嗯。重新整理一下玫瑰花摆成的奥古斯都图腾。\n然后遣散其他手办，去门口迎接|101|。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-684",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31657001,
+            31657002,
+            31657003,
+            31657004,
+            31657005,
+            31657006,
+            31657007
+          ],
+          "sectionId": 31657
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31658001,
+            31658002,
+            31658003,
+            31658004,
+            31658005,
+            31658006,
+            31658007,
+            31658008,
+            31658009,
+            31658010,
+            31658011,
+            31658012,
+            31658013,
+            31658014
+          ],
+          "sectionId": 31658
+        }
+      ],
+      "title": "布鲁特先生·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31659001",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这是怎么回事？\n为什么变成了满地的碎花瓣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31659002",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "抱歉！是我办事不力！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31659003",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "有个女孩蹲在花坛的草丛里。\n随我去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31659004",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "是！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31660001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "去，不去......嗯，这一朵还是不去。好奇怪，每朵花的花瓣都是双数吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31660002",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你是谁？在这里做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31660003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊！我，我我，我在......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "好可怕的表情，不行了，心脏......要停止跳动了。\n不能退缩，要把心里想的内容，全部传达出去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661002",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "快说，为什么破坏大人精心布置的玫瑰花？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我，我叫海柔尔......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661004",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大声点，我听不清。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我要占用......你们的花圃，伊迪丝小姐......是杂草......是害虫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661006",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "竟敢如此侮辱大人......\n你是克罗赛尔的亲信吗，快说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜......好可怕，求求你，求求你不要过来啊——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661008",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "站住！向伊迪丝大人交代清楚！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661009",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "罗威，不必追了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661010",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "可是......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "放她走吧，下次加强些戒备就是了。\n......我能感觉到，她并不是有意为之。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661012",
+          "sourceType": 0,
+          "speaker": "管家",
+          "text": "大人，您的仁慈和包容令人敬佩。\n我一定会加强宅邸的防范，绝不让这种事再次发生！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜......呜呜呜呜呜呜.......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "啧啧，连续哭这么久嗓子都不哑，真是天生做演员的料。\n放轻松点，小事而已，我们被观众扔的臭鸡蛋砸中脑壳都没这么悲痛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661015",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661016",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "再哭下去，我要让徕卡出来安慰你了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661017",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "咳咳咳！别、别让他出来！\n我......呜呜呜，我不、不哭了，不哭了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661018",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "这件事也怪我，一开始就让你去挑战那么高难度的目标。\n我说，你的备选名单里就没有平易近人一点的人选吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661019",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嗯，平易近人......上次......在图书馆，我遇到一个女孩。\n她写在笔记本上的名字是「星野结月」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661020",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "她看了一整个下午的书，一句话都没有说。\n如果我们成为朋友，就不用为说什么而担心了吧......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31661021",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "一句话也不说，那你交朋友是为了什么......\n算了，总之赶快打起精神来，制定新的战略计划！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-685",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31659001,
+            31659002,
+            31659003,
+            31659004
+          ],
+          "sectionId": 31659
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31660001,
+            31660002,
+            31660003
+          ],
+          "sectionId": 31660
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31661001,
+            31661002,
+            31661003,
+            31661004,
+            31661005,
+            31661006,
+            31661007,
+            31661008,
+            31661009,
+            31661010,
+            31661011,
+            31661012,
+            31661013,
+            31661014,
+            31661015,
+            31661016,
+            31661017,
+            31661018,
+            31661019,
+            31661020,
+            31661021
+          ],
+          "sectionId": 31661
+        }
+      ],
+      "title": "布鲁特先生·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31662001",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "《关于亲近中华田园猫正确的控制变量研究》课题组，第一次实地实验开始。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662002",
+          "sourceType": 7,
+          "text": "星野结月 · 超维解析\n商品名称：星野结月·超维解析Ver.\n作品出处：《格斗学园》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约234mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "31662003",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "为什么给我一个本子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662004",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "做好实验记录，一个称职的助手必须时刻记下实验中的细微变化。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662005",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我昨晚查到一篇新的文献，上面提出了一种很有趣的论点：\n动物能够感知到人类的情绪波动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662006",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "——因此，面带真诚、亲切、阳光的笑容，更容易亲近动物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662007",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "怎样才算是真诚、亲切、阳光的笑容呢？\n微笑，就可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662008",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我用数据综合了网络上带有「真诚」「亲切」「阳光」描述的笑容图片，按照1:1:1权重计算，合成了模拟图——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662009",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "蒂娅，你做出这样的表情试试看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662010",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "......这样吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662011",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "唔......肌肉再用力一些。\n图片上的微笑露出了八颗牙，你现在只露出六颗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662012",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "......这样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662013",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "嗯......还是不太像。眼睛要更加有神，用力睁大眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662014",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662015",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我来对比看看——很好，相似度达到了90%以上！\n保持这种表情，马上开始实验吧，诺，猫咪已经被小鱼干吸引过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662016",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "按照书上的步骤，从猫咪的头到下巴，用温和的力度抚摸......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662017",
+          "sourceType": 0,
+          "speaker": "野猫小黑",
+          "text": "唬——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662018",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "它并没有亲近我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662019",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "我想想......对了，中等力度是对于人类而言，蒂娅是手办，所以要更加用力才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662020",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "好的，我会用最大力气去做。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662021",
+          "sourceType": 0,
+          "speaker": "野猫小黑",
+          "text": "喵！！！嗷呜——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31662022",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "它好像很生气！\n我明明是按照步骤执行的......究竟是哪里出了问题？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31663001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "嘘——\n大猫乖，大猫乖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31663002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你的毛色真漂亮，和我用纸折出来的小黑猫一模一样。\n你看，它和你很像吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31663003",
+          "sourceType": 0,
+          "speaker": "野猫小黑",
+          "text": "唬......喵，喵喵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31663004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "没事了，没事了。\n她们没有恶意的，别怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31663005",
+          "sourceType": 0,
+          "speaker": "野猫小黑",
+          "text": "咕噜咕噜......咪呜——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-686",
+      "sourceRefs": [
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31662001,
+            31662002,
+            31662003,
+            31662004,
+            31662005,
+            31662006,
+            31662007,
+            31662008,
+            31662009,
+            31662010,
+            31662011,
+            31662012,
+            31662013,
+            31662014,
+            31662015,
+            31662016,
+            31662017,
+            31662018,
+            31662019,
+            31662020,
+            31662021,
+            31662022
+          ],
+          "sectionId": 31662
+        },
+        {
+          "bundle": "mushroom",
+          "rowIds": [
+            31663001,
+            31663002,
+            31663003,
+            31663004,
+            31663005
+          ],
+          "sectionId": 31663
+        }
+      ],
+      "title": "布鲁特先生·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 128,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 128,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "90",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "91",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "奇怪的手偶师和他的手偶",
+  "title": "布鲁特先生",
+  "wordCount": 3867
+}

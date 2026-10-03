@@ -1,0 +1,156 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33305",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33305001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们不会让你把全部徽章据为己有的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305002",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "你们好像误会了什么。\n这些徽章，只不过是我得到的一小部分而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305003",
+          "sourceType": 0,
+          "speaker": "洛瑞丝",
+          "text": "既然你们能够找到这里，获得一些奖励也是理所应当的。\n拿去吧，这些徽章是我赠予|101|的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "它们本来就不属于你一个人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "给我站住，别跑——！\n切，被她逃掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "徽章......我们真的要带回去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305007",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "当然了，我们亲手抢回来的，为什么不带走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "花迦是不是在担心这名新手办的身份？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "嗯......洛瑞丝说，她是同伴。\n而且还特意把这些徽章送给我们，让我们兑奖，总觉得是在图谋不轨......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那家伙一脸欠揍，在我抓到她好好教训一顿之前，她说的话我一个字都不会信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我也觉得......\n我们连新手办的面都没见过，不能因为洛瑞丝的一句话就怀疑她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我同意优纪的想法。\n新手办的立场，就让我们亲自判断。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那就赶快去兑奖！\n会不会是个打架厉害的家伙呢，我都等不及了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33305014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯！真期待和新伙伴见面呀。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33305",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33305001,
+            33305002,
+            33305003,
+            33305004,
+            33305005,
+            33305006,
+            33305007,
+            33305008,
+            33305009,
+            33305010,
+            33305011,
+            33305012,
+            33305013,
+            33305014
+          ],
+          "sectionId": 33305
+        }
+      ],
+      "title": "满载而归"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33305,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "满载而归",
+  "wordCount": 373
+}

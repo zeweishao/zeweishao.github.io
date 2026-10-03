@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214201",
+  "id": "bond-27521",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27521001",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "呼啦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你在对我的早餐做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼哼哼~这是让食物变得美味的火焰魔法！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这是对你平时侍奉有佳的赏赐！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你看着吾做什么？还不快怀着感恩的心好好品尝！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……可是不管怎么看，这都已经焦成炭了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "焦了？可能成品就是这种颜色吧，卖相是差了点……\n不过，这可是父王教给吾的魔法，大胆吃吧，一定没事的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那，那好吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521010",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "味道怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……关于这道魔法，你父王当初是怎么和你说的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "唔……父王说，如果哪天遇到喜欢的家伙，一定要使用这道魔法，对方一定会很高兴的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我想他说这句话的时候应该带着杀气吧……\n不过，原来我是「喜欢的家伙」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你你不要多想，是主人对下属的那种喜欢！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27521015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……等一下，人类你怎么吐沫了？\n……人类！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27521",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27521001,
+            27521002,
+            27521003,
+            27521004,
+            27521005,
+            27521006,
+            27521007,
+            27521008,
+            27521009,
+            27521010,
+            27521011,
+            27521012,
+            27521013,
+            27521014,
+            27521015
+          ],
+          "sectionId": 27521
+        }
+      ],
+      "title": "美味的魔法"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "美味的魔法",
+  "wordCount": 296
+}

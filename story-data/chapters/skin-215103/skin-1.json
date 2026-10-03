@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215103",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "纷飞的蝶羽裹挟着沁人的花香，簇拥着少女于舞台中央款款登场。\n\n无法平复心中的紧张，她默默勉励着自己：「……红豆面包，渚一定可以的。」\n\n终于，少女鼓足勇气踏出第一步。\n\n她的演出如同花灵的轻语，唤醒晨曦的柔光，也唤醒花海之间翩翩起舞的精灵。\n\n散场时分，观众们掌声如雷，她的不安瞬间化为喜悦——\n\n「在这仲夏的夜晚，我的梦想……盛开了。」\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "花海晨曦Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215103",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "古河渚·花海晨曦Ver.",
+  "title": "花海晨曦Ver.",
+  "wordCount": 175
+}

@@ -1,0 +1,1768 @@
+{
+  "bookId": "rewind-3",
+  "id": "chapter-6",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "617001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人，我们回来了……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "617003",
+              "text": "你们怎么灰头土脸的？"
+            }
+          ],
+          "sourceId": "617002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "617003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们，我们……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，还是坦白地告诉主人吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好、好吧，事情的经过是这样的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我很担心被运走的葵和哈莉，主人能不能帮我们查一查她们的物流信息？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "617008",
+              "text": "没问题，交给我"
+            }
+          ],
+          "sourceId": "617007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "617008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇塞，主人好厉害喔，这么快就查到了哈莉和葵的下落~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "上面显示的位置是附近的某个居民社区，我知道那里，我们走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们到了，又回到这里来了呢，感觉好亲切喔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "事不宜迟，我们得尽快找到葵和哈莉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好嘛好嘛，和江不要这么严肃啦，优纪知道的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶？奥菲利亚呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "刚刚还在呢，怎么一转眼就……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊！在那边，我看到了，奥菲利亚，这边这边！咦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617016",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "你、你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617017",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "我是奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617018",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "不、不，我才是奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617019",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "你好像有点搞不清楚，你和我，我和你，我们都是奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617020",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "除了我们之外，人类的世界还有很多个奥菲利亚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617021",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "什、什么？！怎么会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617022",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "呵，你看起来很惊讶，怎么，你以前一直觉得自己是唯一一个奥菲利亚么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617023",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "我、我，我不知道，主人他只有我一个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617024",
+          "sourceType": 5,
+          "speaker": "奥菲利亚复刻品",
+          "text": "那是你的错觉！身为手办，从来都不是主人的唯一。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617025",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "觉得唯一的，从来都不是人类……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617026",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "我、我不是主人的唯一，就像葵那个时候所说的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617027",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "人们会用源源不断的替代品，换掉他们不再喜欢的瑕疵品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617028",
+          "sourceType": 0,
+          "speaker": "奥菲利亚复刻品",
+          "text": "这就是作为手办的，残酷现实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奥菲利亚，你怎么自己在这里发呆，我们要出发啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617030",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "对、对不起，刚刚碰到了……诶，怎么不见了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617031",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你在说什么呀，谁不见了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "617032",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "不，没什么，我们走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快来，快来，我看到她了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "谨慎些，不要惊动对方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618003",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "小心点，别磕坏了这些包裹，全部放在这里，我来清点一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618004",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "是，是，保证一件都不会落下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "不错，所有派发到这个社区的快递都在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618006",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "接下来，这批快递就交给你们两个了，务必要送到顾客的家里，千万不能出任何查错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618007",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "放心，我们被派来这里，就是为了协助你把这些快递好好地送到“目的地”的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "那就好，我还有些急事，剩下的就交给你们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，她看起来很着急的样子，发生什么事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "那些「Fbay」的包裹里，真的有哈莉和葵吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，和江，我们接下来该怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "先找哈莉和葵比较重要，其他暂且放一放。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "618013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好，优纪最听和江酱的话啦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-53",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            617001,
+            617002,
+            617003,
+            617004,
+            617005,
+            617006,
+            617007,
+            617008,
+            617009,
+            617010,
+            617011,
+            617012,
+            617013,
+            617014,
+            617015,
+            617016,
+            617017,
+            617018,
+            617019,
+            617020,
+            617021,
+            617022,
+            617023,
+            617024,
+            617025,
+            617026,
+            617027,
+            617028,
+            617029,
+            617030,
+            617031,
+            617032
+          ],
+          "sectionId": 617
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            618001,
+            618002,
+            618003,
+            618004,
+            618005,
+            618006,
+            618007,
+            618008,
+            618009,
+            618010,
+            618011,
+            618012,
+            618013
+          ],
+          "sectionId": 618
+        }
+      ],
+      "title": "#1 重要的目标"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "620001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "发现她们了！咦，怎么只剩一个快递盒？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……先把快递打开，一直被关在里面很痛苦的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我来我来，这个就交给我吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "咳，咳咳，憋死我了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么……只有你一个，葵没有和你在一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你在说什么，谁是葵啊，一直就只有我被关在这个快递包裹里而已啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620007",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "不可能，之前我们明明听到，你和葵是被同一个人购买的，而且「Fbay」也是同时把你们装好发货的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620009",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "怎么会，怎么会只有你被送到这里，葵却不见了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，既然你已经被我们救出来，就跟我们一起走吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "……不，我还不能跟你们走，我要回「Fbay」的仓库去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "为什么？！你刚刚也听到了，现在的「Fbay」疑点重重，回去的话会很危险也说不定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "就是因为危险，我才要回去，说不定「Fbay」正在悄悄密谋些什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620015",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "那里还有我很多朋友，我很担心他们……至少，我要确保我的朋友们是安全的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620016",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "既然这是你自己的决定，我们尊重你的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是，和江，主人他……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪，勉强的选择都不会有好的结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好、好吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "620020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "接下来，我们继续寻找葵的下落。我有预感，找到葵就能揭露真相。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-54",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            620001,
+            620002,
+            620003,
+            620004,
+            620005,
+            620006,
+            620007,
+            620008,
+            620009,
+            620010,
+            620011,
+            620012,
+            620013,
+            620014,
+            620015,
+            620016,
+            620017,
+            620018,
+            620019,
+            620020
+          ],
+          "sectionId": 620
+        }
+      ],
+      "title": "#2 失望的真相"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "621001",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔，好黑……这是什么地方……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621002",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "嘿嘿，真是顺利啊，只要把这批包裹成功运出社区，我们就可以去交差了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "咦？这是离开社区的方向……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "怎么会这样，不是说买下我的新主人，是住在这个社区里的么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621005",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "如果能得到那位大人的称赞就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "那位大人？他们在说谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621007",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "说起来，那位大人要我们偷偷把这批快递包裹运走，是想干什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621008",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "我只听说，那位大人要把这批包裹处理掉，至于其他的，我就什么都不知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621009",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "处理掉……？那是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621010",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "就是从哪里来，还到哪里去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621011",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "我、我不明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621012",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "那些一个个漂亮的人形手办，别看他们平时自视清高的模样，其实不都还是用PVC材质做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621013",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "所谓的“从哪来还到哪去”，意思就是把人形手办咔嚓掉，懂了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621014",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "呜哇，这、这也太可怕了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621015",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "这件事你可千万不能传出去，不然我们俩都会被咔嚓掉的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621016",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "好、好，我不说，绝对不说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621017",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "……怎么办，我该怎么办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "621018",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "有谁……有谁可以救救我……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-55",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            621001,
+            621002,
+            621003,
+            621004,
+            621005,
+            621006,
+            621007,
+            621008,
+            621009,
+            621010,
+            621011,
+            621012,
+            621013,
+            621014,
+            621015,
+            621016,
+            621017,
+            621018
+          ],
+          "sectionId": 621
+        }
+      ],
+      "title": "#3 真相居然是…"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "622001",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "葵，葵！你、你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "是你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "咳、咳咳，放开我，不用管我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "你……就这么讨厌我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "……我之前说过的吧，我们各自有各自的宿命，你还不懂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "快回你的主人身边去吧，我，不想再看到你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "喂！你这样很过分你知道吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奥菲利亚她为了你，几乎跑遍了整个社区，你就连一句感激的话都不肯说吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "多少次……多少次我们想放弃的时候，都是奥菲利亚坚持要继续寻找你的下落。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "优纪，不要再说了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622011",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "葵，我知道你是为我好……你想赶我走，是想让我回到主人的身边，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622012",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "抱歉，我直到现在才体会到你的心情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622013",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "在原来的那个主人身边，你也一定是怀着寂寞的心情，还要强装笑脸，艰难地走过来的，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622014",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622015",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "但是啊，葵，我不会离开你的，你的孤单，就由我和你一起承受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622016",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622017",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "即使我们做不了主人的唯一，我们可以做彼此的唯一，你说是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622018",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "你这是……默认了吗，好高兴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是太好了……优纪也替你们高兴~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622020",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "葵，这究竟是怎么回事，你怎么会被装进盒子运到这个地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622021",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "我亲耳听到，是那帮「天启」的玩具私自决定的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的，有这回事吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622023",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "是的，它们似乎听从另外一个神秘的大人的命令，要偷偷把快递包裹运走，然后销毁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "竟然有这种事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622026",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "还好我们及时把你救下来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622027",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "之前我们的怀疑，已经得到了证实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622028",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在最重要的是，找出「Fbay」中的幕后主谋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622029",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们都听你的，我已经迫不及待要抓住玲的小辫子，把她狠狠地教训一顿了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "622030",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，在事情水落石出之前，不要擅自下结论。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-56",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            622001,
+            622002,
+            622003,
+            622004,
+            622005,
+            622006,
+            622007,
+            622008,
+            622009,
+            622010,
+            622011,
+            622012,
+            622013,
+            622014,
+            622015,
+            622016,
+            622017,
+            622018,
+            622019,
+            622020,
+            622021,
+            622022,
+            622023,
+            622024,
+            622025,
+            622026,
+            622027,
+            622028,
+            622029,
+            622030
+          ],
+          "sectionId": 622
+        }
+      ],
+      "title": "#4 守护重要的"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "623001",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "来了？东西呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623002",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "东、东西……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623003",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "怎么支支吾吾的，说话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623004",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "那批快递、包、包裹，被突然出现的几个家伙给劫走了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623005",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "你·说·什·么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623006",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "我们运送的快递包裹，被、被劫走了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623007",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "哦？被谁劫走了？查清楚了么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623008",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "没、没有，被她们逃了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623009",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "好、好、好，你们做得可真好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623010",
+          "sourceType": 0,
+          "speaker": "西瓜崽",
+          "text": "我、我们再也不敢了，再给我们一次机会，我保证下次……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623011",
+          "sourceType": 5,
+          "speaker": "西瓜崽",
+          "text": "啊！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623012",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "很抱歉，你再也没有下次了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623013",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623014",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "他的下场，你都看到了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623015",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "看、看、看到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623016",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "很好，眼见为实，这就是让那位大人失望的代价。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623017",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "以后可要学机灵着点，不要再辜负那位大人的信任，知道了么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "623018",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "是、是、是，我知、知、知道了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-57",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            623001,
+            623002,
+            623003,
+            623004,
+            623005,
+            623006,
+            623007,
+            623008,
+            623009,
+            623010,
+            623011,
+            623012,
+            623013,
+            623014,
+            623015,
+            623016,
+            623017,
+            623018
+          ],
+          "sectionId": 623
+        }
+      ],
+      "title": "#5 沉重的责罚"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "627001",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "这里是医院。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "医院是人类生病后会去的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "虽然人类看起来无所不能，但却很容易被病魔击倒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来是这样，那玲之所以来这里是因为……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627005",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "小心跟上，注意不要惊动她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627006",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我来看你了，主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627007",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "你最近感觉好吗……还会觉得哪里痛吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "不要担心店里，你不在的这段时间，我有好好地照管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627009",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我还赚到了很多很多钱，你可以用它们看病。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "一定要早点回来哦，我会一直等你的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么说，玲转卖二手手办，全都是为了自己生病的主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "应该就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "627013",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "可是，葵的订单被他们擅自修改地址，是怎么回事？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-58",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            627001,
+            627002,
+            627003,
+            627004,
+            627005,
+            627006,
+            627007,
+            627008,
+            627009,
+            627010,
+            627011,
+            627012,
+            627013
+          ],
+          "sectionId": 627
+        }
+      ],
+      "title": "#6 手办的初心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "628001",
+          "sourceType": 3,
+          "text": "焦灼的白天与不眠的夜晚过后，玲的主人还是没能实现他与玲之间的承诺。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "628002",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628003",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "你失信了，主人，这样不好哦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "玲，你、你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "不好，非常不好，身为手办的我，就连眼泪也无法流出来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628006",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "他是一个非常、非常好的主人，对手办温柔体贴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628007",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "他会把我们当做是他的朋友一样，每天都和我们说话，虽然大多数时候都是他自言自语……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628008",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "他真的非常珍惜家里的手办，我们身上一旦出现瑕疵，他就会非常难过，一定会亲自把我们修复得焕然一新才肯罢休……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628009",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "……能够拥有这样的主人真是幸运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "他因为太喜欢手办，自学了修复技术，后来还开了「Fbay」二手手办商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628011",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "目的就是为了给那些被人丢弃的手办，寻找一个新的主人，一个温暖的新家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊！这就是「Fbay」的由来么？真是想不到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "628013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "曾经的「Fbay」一定是二手手办的天堂。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-59",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            628001,
+            628002,
+            628003,
+            628004,
+            628005,
+            628006,
+            628007,
+            628008,
+            628009,
+            628010,
+            628011,
+            628012,
+            628013
+          ],
+          "sectionId": 628
+        }
+      ],
+      "title": "#7 心碎之时"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "629001",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "这次这件事，从头到尾，都是那家伙的责任，你明白吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629002",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "明、明白，是他的责任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629003",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "我这可是帮你，不然你们两个都会是这个下场，你可要记得感激我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629004",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "是、是，多亏了有您的指点，我、我才能……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629005",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "行了，奉承话就免了，你以后要乖乖听我的话，我让你干什么，你就干什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629006",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "以、以后我全都听您的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629007",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "那就好，现在有件事要交给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629008",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "您、您请说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629009",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "咱们这批快递包裹被那几个小丫头给截胡，她们现在应该已经知道快递的地址被修改了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629010",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "按照上面那位大人的意思，咱们得想办法阻止那几个丫头把这个消息告诉给玲那个傻子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629011",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "你知道怎么做了吧，嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629012",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "知道，我、我这就去办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629013",
+          "sourceType": 0,
+          "speaker": "奇奇",
+          "text": "记住，你没有第二次犯错的机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "629014",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "……是。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-60",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            629001,
+            629002,
+            629003,
+            629004,
+            629005,
+            629006,
+            629007,
+            629008,
+            629009,
+            629010,
+            629011,
+            629012,
+            629013,
+            629014
+          ],
+          "sectionId": 629
+        }
+      ],
+      "title": "#8 谎言的代价"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "630001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "听了你和你主人的故事，感觉「Fbay」二手手办商店的成立是一件非常有意义的事情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630002",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "是的……我的主人一直是个非常温暖的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你以后有什么打算？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630004",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我会继续把「Fbay」经营下去，帮助更多的二手手办找到新的归宿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630005",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "这是主人和我共同的心愿，我想，主人如果在的话，也会同意我的选择的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "……你真的觉得，你们所做的一切，对被遗弃的手办们来说，是一件正确的事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630007",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "是的，这是主人的信仰，也是我的信仰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630008",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "你知不知道「天启」的那帮玩具，在偷偷修改「Fbay」快递包裹的物流地址？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630009",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "……这不可能，也许它们只是对物流技术不太熟悉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630010",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "在我最无助迷茫的时候，「天启」的伙伴给予了我最大的帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630011",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "主人曾经教导我，对待朋友要宽容，所以它们偶尔把事情弄错不足为奇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是，我们亲眼看到……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630013",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "我打算回到潮酷街区的店里，还有很多工作需要处理。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "630014",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "再见，如果你们以后有机会来到「Fbay」，我会很欢迎的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-61",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            630001,
+            630002,
+            630003,
+            630004,
+            630005,
+            630006,
+            630007,
+            630008,
+            630009,
+            630010,
+            630011,
+            630012,
+            630013,
+            630014
+          ],
+          "sectionId": 630
+        }
+      ],
+      "title": "#9 深刻的烙印"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "631001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "玲似乎非常信任「天启」那帮坏蛋，这可怎么办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "她这次回去，怕是会有危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631003",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "什、什么？！那还愣着做什么，快追上去啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631004",
+          "sourceType": 0,
+          "speaker": "原味崽",
+          "text": "找到你们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜哇，怎么又是这个家伙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这次是冲我们来的，注意小心应对！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "631007",
+          "sourceType": 5,
+          "speaker": "原味崽",
+          "text": "阻止！破坏！消灭！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可恶！被它们这样一拦，玲的影子都看不到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江酱，我们该怎么办……啊？你、你受伤了？！呜呜呜呜，和江你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我……我不要紧，只是惯用剑的这只手臂，磨损得有些厉害，只怕难以追上玲了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么办怎么办，难道就这样让玲这样离开吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可、可是，让和江酱带着受到损伤的素体继续战斗，优纪会很担心的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "626006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不、不如，我们先回家，让主人帮忙修复一下和江酱，再继续去寻找玲，也许主人能给我们出出主意也说不定……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-62",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            631001,
+            631002,
+            631003,
+            631004,
+            631005,
+            631006,
+            631007
+          ],
+          "sectionId": 631
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            626001,
+            626002,
+            626003,
+            626004,
+            626005,
+            626006
+          ],
+          "sectionId": 626
+        }
+      ],
+      "title": "#10 主人的意志"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 6,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 6,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "回归是为了新的开始",
+  "title": "第5章",
+  "wordCount": 3936
+}

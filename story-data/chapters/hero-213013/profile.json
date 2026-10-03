@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213013",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "自由浪漫的新晋冒险家「薇薇安」化身为1/7比例模型登场！在沙漠中轻快跳跃的她眼神明亮而坚定，这是通往「伟大冒险家」这一终极梦想的中途，在未抵达之前，少女绝不会停下脚步。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213013"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 84
+}

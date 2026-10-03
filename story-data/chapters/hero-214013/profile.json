@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214013",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "模型师石田亲自操刀拉斐尔的手办，银发的天才美少女画家，瑰丽的红色瞳孔带着某种不安，身上隐藏着想让人探知的谜团。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214013"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 55
+}

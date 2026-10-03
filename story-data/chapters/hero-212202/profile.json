@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212202",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "风格最为独特前卫的知名模型师第九将夜，不久前与FULI联手推出了搞怪猫系列。该作品的设计理念源自对猫咪的喜爱，因此特意保留了猫咪的基础外形，加以第九将夜个人独特的审美趣味，令人感到耳目一新。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212202"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 95
+}

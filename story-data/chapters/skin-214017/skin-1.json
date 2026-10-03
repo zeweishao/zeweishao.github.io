@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214017",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "花朵比树高，兔子会说话？海柔尔用力拧了一下自己的手臂。\n\n「完全不痛。原来是梦啊。」\n「果然，我还在那座岛上，这些美好的东西只是梦......而已。」\n「但是......累了的时候，偶尔躲进梦里休息一下，也没关系的吧？」\n\n铃兰的清香钻进鼻腔，海柔尔抱起兔子先生，奔向面前烂漫的花海。\n\n ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "未尽之梦Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214017",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "海柔尔·未尽之梦Ver.",
+  "title": "未尽之梦Ver.",
+  "wordCount": 156
+}

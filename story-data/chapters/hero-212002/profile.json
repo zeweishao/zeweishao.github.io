@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212002",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI将正在物流工作中忙碌的“超极速快递员·玲”造型制成模型，细腻的动作及飘逸的衣摆和发梢等动感十足的造型，以及采用最新涂装技术制作的工作制服等，展现出工作中的快递员少女独有的风韵。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212002"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

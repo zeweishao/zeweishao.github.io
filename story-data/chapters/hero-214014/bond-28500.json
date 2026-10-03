@@ -1,0 +1,175 @@
+{
+  "bookId": "hero-214014",
+  "id": "bond-28500",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28500001",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "有时候太受欢迎，真的会是一件烦恼的事呢~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28500003",
+              "text": "老板娘又在凡尔赛了。"
+            }
+          ],
+          "sourceId": "28500002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28500003",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "虽然没有完全听懂你的话，但是你的意思我明白的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500004",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "我并不是在炫耀哦，是真的觉得很烦恼呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500005",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "可惜客栈里的那群家伙无法理解我的心情，我只好出来散散心，没想到不知不觉走到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28500007",
+              "text": "有什么话可以对我说。"
+            }
+          ],
+          "sourceId": "28500006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28500007",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "不错嘛，你这样的人确实很适合做倾诉对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500008",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "简单来说，我的烦恼也可以说是因为——「七星客栈」的生意太好了。对，没错，这就是导致一切矛盾的根本原因。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28500010",
+              "text": "这应该是好事才对吧！"
+            }
+          ],
+          "sourceId": "28500009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28500010",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "的确是这个道理，但凡事都需要有个度，如果你像我每日每夜地要迎接来来往往如潮水一般密集的客人，肯定也会受不了的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500011",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "为了远离这种束缚的生活，我给自己制定了一个秘密计划。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500012",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "这个计划我没有透露给任何人，「七星客栈」的那些家伙更加不可能知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28500013",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "但这项计划只有我一个人是无法完成的，你愿意帮助我吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28500015",
+              "text": "先说说看你的计划是什么。"
+            }
+          ],
+          "sourceId": "28500014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28500015",
+          "sourceType": 0,
+          "speaker": "貂蝉·冠群芳",
+          "text": "我，貂蝉，厌倦了「七星客栈」老板娘的身份。\n只有短短的几天时间就可以，让我忘掉这个身份，做回真正的自己吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28500",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28500001,
+            28500002,
+            28500003,
+            28500004,
+            28500005,
+            28500006,
+            28500007,
+            28500008,
+            28500009,
+            28500010,
+            28500011,
+            28500012,
+            28500013,
+            28500014,
+            28500015
+          ],
+          "sectionId": 28500
+        }
+      ],
+      "title": "客栈老板娘？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "客栈老板娘？",
+  "wordCount": 409
+}

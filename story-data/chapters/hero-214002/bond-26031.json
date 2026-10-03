@@ -1,0 +1,169 @@
+{
+  "bookId": "hero-214002",
+  "id": "bond-26031",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26031001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "今天是！年度爆炸惊喜日！\n啊哈~所有人，准备好接受哈莉的礼物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "全部有趣的家伙们，会收到爆炸彩带气球！\n「萤火小队」的各位还有特别礼物——会炸的手雷闹钟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "不过今年开始，要加上主人那一份——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031004",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "主人是有趣的人，并且是哈莉的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031005",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "同时也是战友——如果电动游戏算战斗的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿哈吼，决定了！要给主人特制超——大的爆炸惊喜，比朋友的更大，比战友的更大，踏进门的第一步直接炸上天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我回来了！哈莉，我给你订了涂料蛋糕......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031008",
+          "sourceType": 3,
+          "text": "嘭——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26031009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈哈哈哈！主人脸上全是彩带，像小丑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（果然......今天是官方设定的哈莉生日，但是从父母去世开始，哈莉对「生日」的概念逐渐模糊了。）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，因为是「年度爆炸惊喜日」，对吗？\n人类过这个节日的时候，就要切蛋糕庆祝，来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉要切！哈莉喜欢切开东西！嘿哈——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031013",
+          "sourceType": 3,
+          "text": "嘭——！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26031014",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "蛋糕爆炸了，哈莉也变成了小丑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是我送给哈莉的「爆炸惊喜」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031016",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿哈吼，太刺激啦！哈莉要用一整年给主人准备世界上最最最厉害的爆炸惊喜，让主人一辈子忘不掉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26031017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好，我会好好期待的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26031",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26031001,
+            26031002,
+            26031003,
+            26031004,
+            26031005,
+            26031006,
+            26031007,
+            26031008,
+            26031009,
+            26031010,
+            26031011,
+            26031012,
+            26031013,
+            26031014,
+            26031015,
+            26031016,
+            26031017
+          ],
+          "sectionId": 26031
+        }
+      ],
+      "title": "爆炸惊喜日"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214002",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "爆炸惊喜日",
+  "wordCount": 426
+}

@@ -1,0 +1,81 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1110",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1110001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "糟糕，这里到处都是人，我们没办法从正面直接进去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1110002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我仔细观察过这幢建筑，它的每一层都有一处紧急出口，那里平时极少有人会使用，我们可以沿着侧面的窗台爬上去，直接走紧急出口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1110003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "需要注意的是，这幢建筑的安保系统很严密，我们要冒很大的风险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1110004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "可以的话，花迦、花迦愿意一试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1110005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这栋楼非工作人员不允许进入，那边的是观光区域。那我们分头行动，然后在观光区域的天台会合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1110006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没问题，我们会注意安全。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1110",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1110001,
+            1110002,
+            1110003,
+            1110004,
+            1110005,
+            1110006
+          ],
+          "sectionId": 1110
+        }
+      ],
+      "title": "原文片段 1110"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1110
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1110",
+  "wordCount": 185
+}

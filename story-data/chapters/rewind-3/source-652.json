@@ -1,0 +1,122 @@
+{
+  "bookId": "rewind-3",
+  "id": "source-652",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "652001",
+          "sourceType": 5,
+          "speaker": "奥菲利亚",
+          "text": "——危险！葵！……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "啊！……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "你、你为什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652005",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "你没事……真是太好了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "抱歉，我没有实现我们的约定……以后请你……请你好好保重……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652007",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "一定要找到一个很好的主人，幸福地生活在一起……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "葵……再……再见……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "652009",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "不、不要……奥菲利亚……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "652",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            652001,
+            652002,
+            652003,
+            652004,
+            652005,
+            652006,
+            652007,
+            652008,
+            652009
+          ],
+          "sectionId": 652
+        }
+      ],
+      "title": "属于你和我的羁绊"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1",
+              "6",
+              "24",
+              "pre_battle_avg"
+            ],
+            "table": "ResStage.lua"
+          }
+        ],
+        "path": [
+          "1",
+          "6",
+          "24",
+          "pre_battle_avg"
+        ],
+        "sectionId": 652,
+        "table": "ResStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "“我们说好了，会一直一直在一起，永远都不分开。我会守护好这个誓言，赌上自己的一切。”",
+  "title": "属于你和我的羁绊",
+  "wordCount": 111
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213014",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「今晚，你无药可救。」\n\n如果你在星期三走进「ROMANTIC」，就会在店内发现那位化名「玛格丽特」的神秘女子。\n\n迷人的气质，优雅的举止，风趣的谈吐——慕名而来之人不计其数，却无一人能将芳心俘获。\n\n她总是若即若离，触手可及，却又拒人千里。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "玛格丽特Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213014",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "尤兰达·玛格丽特Ver.",
+  "title": "玛格丽特Ver.",
+  "wordCount": 115
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214005",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「每一种花都有着独特的寓意，我的使命就是把人们不曾表露的心意用花传达出来。」\n\n这里是博学风雅、魅力四射的明智光秀开设的，以传达百花的寓意为使命的梦幻花店。\n\n有幸见过店长本尊的人，至今对那人的容貌念念不忘。他换上简单的白衬衣，略显随意而慵懒地站在花店的门口，修长的双腿在西裤的衬托下显得尤为挺拔，整个人仿佛笼罩在一层柔和的晨光中。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "花之恋曲Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214005",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "明智光秀·花之恋曲Ver.",
+  "title": "花之恋曲Ver.",
+  "wordCount": 162
+}

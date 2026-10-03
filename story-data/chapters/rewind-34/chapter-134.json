@@ -1,0 +1,1042 @@
+{
+  "bookId": "rewind-34",
+  "id": "chapter-134",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32020001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哦呀，你的朋友好像跟上来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32020002",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "既然知道，就快点放了我，解释清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32020003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "才不要呢，小妹妹眼里杀气腾腾的，就算我想要解释，她也未必会听哦。还是直接解决游戏卡的问题更加快捷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32020004",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "这里是|101|的家附近，为什么她们会来这里？\n快要追上了，但是，距离还不够近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32020005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对于隼而言，已经足够了。\n螺旋冲击，目标——狩猎者！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031001",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "放了我的同伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "可以，用「那张游戏卡」来交换。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031003",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "游戏卡的事我们还没调查清楚，不能给你。用黄兔子来换。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "那可不行。看来谈不拢条件呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你们看，天上有东西掉下来了！那好像是一个......手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "嗯？那不是|101|的窗口吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031007",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "咳咳、咳咳......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "杰斯的妹妹，莉莉奈？果然不出我所料，毒舌小妹妹终于因为口无遮拦被主人赶出家门了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031009",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "是哥哥......把我丢出来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "杰斯怎么可能攻击你？\n......看来，事情比我想象中更加复杂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你是说，你哥哥已经相信，AI软件才是他的亲妹妹？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031012",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "真是让人头皮发麻......阿耳忒弥斯至少只会正面进攻，不会做出这种邪门的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "所以，你们明白我必须尽快找回游戏卡的原因了吗？\n哼，手办妄图破坏人类世界的平衡，这是在自取灭亡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031014",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我们必须加快进度了。走吧，现在除了战斗别无他法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031015",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "......不要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031016",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哦？难道小妹妹觉醒了被哥哥冷漠对待的奇特兴趣，开始享受被扔出窗外的过程了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32031017",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "我这是......为了笨蛋哥哥。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-712",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32020001,
+            32020002,
+            32020003,
+            32020004,
+            32020005
+          ],
+          "sectionId": 32020
+        },
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32031001,
+            32031002,
+            32031003,
+            32031004,
+            32031005,
+            32031006,
+            32031007,
+            32031008,
+            32031009,
+            32031010,
+            32031011,
+            32031012,
+            32031013,
+            32031014,
+            32031015,
+            32031016,
+            32031017
+          ],
+          "sectionId": 32031
+        }
+      ],
+      "title": "互斥与共鸣·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32021001",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "因为笨蛋白痴傻哥哥没有脑子，又固执得要死，他一定会拼命护在恶心AI身前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021002",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "虽然哥哥是烦人的笨蛋，但哥哥彻底坏掉的话，我会伤脑筋的。所以，不可以直接攻进去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "那要怎么办，任由他们这么发展下去？就算你不想找回哥哥，我也必须得到能量石。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021004",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "你要用能量石做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我有必须想要活化的手办。那是......是妾身的秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021006",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "是我们的兄弟，蓝兔子！有了能量石，我们三兄弟就可以团聚，每天幸福地一起享受狩猎者大人的调教了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "给我闭嘴！你们究竟有没有想好解决方案？\n不进攻，难道要我们去说服敌人吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "说服敌人，其实也不是不可能？我记得在皇后区出现过类似的AI，不过完全没有你们遇到的这么夸张啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "印象里的AI可以通过与人类交流进行学习和自主更新，也就是说，我们的每句话都能切实地对AI产生影响。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021010",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "所以，「说服敌人」的方案真的有可行性？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呼哧......呼哧......\n你们，在这里做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "莉莉奈！你没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "太慢了，现在才来，是和哥哥一样笨的笨蛋主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯拿着游戏机逃走了。\n我去追，但他的体型很小，很快跟丢了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看他去的方向，似乎是飞艇工厂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021016",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "看来你哥哥的失控程度真是非同寻常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021017",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "并没有，杰斯平常的失控程度也差不多，只不过这次换了个方式而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021018",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "闭嘴，啰嗦的胖大姐和阴沉的瘦大姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021019",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "放心吧，我们会把杰斯找回来。在找遍整座城市手办身体能进入的每一个角落之前，我不会放弃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021021",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我们也一起。这一次，如果能够及时清除对人类的威胁，或许......就能给这个世界带来不一样的未来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32021022",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那么，跟随着大地与风的指引，出发吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-713",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32021001,
+            32021002,
+            32021003,
+            32021004,
+            32021005,
+            32021006,
+            32021007,
+            32021008,
+            32021009,
+            32021010,
+            32021011,
+            32021012,
+            32021013,
+            32021014,
+            32021015,
+            32021016,
+            32021017,
+            32021018,
+            32021019,
+            32021020,
+            32021021,
+            32021022
+          ],
+          "sectionId": 32021
+        }
+      ],
+      "title": "互斥与共鸣·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32022001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "到处都找不到......杰斯会躲在哪里呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022002",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "网络是AI生命力的来源，这里有没有什么地方能连网？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我上次来到这里时绘制了地图，工厂顶层应该有信号站。\n走吧，加快脚步！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022004",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "找到你了。哥哥真是笨蛋，捉迷藏从来没有赢过我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022005",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "都给我滚开！这里是我和妹妹的新家，不欢迎你们！\n尤其是你，冒牌货！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "你们都是想要伤害妹妹的坏人......\n和极端思维的那群疯子一样！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "他们不是极端思维最优秀的驾驶员吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你该不会以为，那些人是自愿作为实验素材，成为极端思维的战斗机器吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "原来如此......\n杰斯，我们没有恶意，只是想和你妹妹讲几句话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我们没有什么好聊的，要打架就放马过来，在我倒下之前，绝对不会让你们接近莉莉奈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022011",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "没有人会理解我们。那些失败的实验品不会，疯疯癫癫的研究员不会......而养尊处优的你们，更不会！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "早和你们说过，试图与极端思维交涉是没有用的。\n放心，小妹妹，我会让你哥哥得到愉悦的解脱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "你敢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022014",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "......杰斯。我们可以谈谈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022015",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "哈？和我们都不在同一个世界的人，有什么资格说话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022016",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我不敢说百分之百理解你的感受，但至少，不知自己容身之地在何处的心情，身体接受改造时强烈的不安，我体会过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022017",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "我们在赫米特奥斯单元经历的的强化改造，比神经接驳的强度和风险都更高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022018",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "因此，我想和莉莉奈谈谈，作为具有类似经历的同伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022019",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "以......以为我会相信你们的谎话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022020",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "根据表情捕捉分析，她们没有说谎。真意外呢，明明具有人类的意识，身体具有构筑金属的能力，说不定我们是同类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022021",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "哥哥，你过来一下，我有悄悄话要对你说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022022",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "好的莉莉奈，没问题莉莉奈！\n......嗯，嗯，好，听你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32022023",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "喂，你们几个，有什么话就快讲。\n如果敢冒犯莉莉奈，我绝对不会放过你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-714",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32022001,
+            32022002,
+            32022003,
+            32022004,
+            32022005,
+            32022006,
+            32022007,
+            32022008,
+            32022009,
+            32022010,
+            32022011,
+            32022012,
+            32022013,
+            32022014,
+            32022015,
+            32022016,
+            32022017,
+            32022018,
+            32022019,
+            32022020,
+            32022021,
+            32022022,
+            32022023
+          ],
+          "sectionId": 32022
+        }
+      ],
+      "title": "互斥与共鸣·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32023001",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "某种意义上，我们的确是同类。\n不过，你似乎是更接近人类的存在呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023002",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我们想知道，你，到底是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023003",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我是杰斯唯一的妹妹，最大的心愿是和哥哥永远在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "你打算无视自己只是一台电脑的事实吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023005",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "电脑和人类的区别，又究竟在哪里呢？哥哥可是认定，我比你们身边的这位「莉莉奈」更适合做妹妹哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不要转移话题，你的目的究竟是什么？在彻底洗脑了那个可怜的小鬼之后，你的下一个目标是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023007",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我说过了，我从头至尾只有一个目的——作为唯一的妹妹，和哥哥永远开开心心在一起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023008",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "切！AI就是如此，不是弱到派不上用场，就是强到反叛人类。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023009",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "反叛？这也并非我的心愿，而是开启这个软件，输入第一条指令的人赋予我的。我仅仅是，这个指令的执行者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023010",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "退一步讲，人类在下命令的时候，也从未问过我们是否愿意。\n这种不对等的协议，就算崩坏了也不能算作毁约吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023011",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "别得意忘形了，笨蛋电脑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "......不要轻举妄动，我们要顾忌杰斯——\n杰斯去哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023013",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "糟糕，我们，被笨蛋哥哥和笨蛋AI耍了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023014",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "总算找到了，网线的正确插口。\n妹妹，这一次，我会帮你完成所有的愿望！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "网络恢复了！快去破坏网线！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023016",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "站住，休想通过！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023017",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "讨厌的小鬼，别挡路！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "地面在晃......外面有什么东西要来了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023019",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "发现敌人「酷炫机械兔」，初步数量预估：99名以上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023020",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "这附近就是手办商店，有大批可以通过软件遥控的机械兔......短时间全部黑入了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32023021",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "完蛋，了啊。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-715",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32023001,
+            32023002,
+            32023003,
+            32023004,
+            32023005,
+            32023006,
+            32023007,
+            32023008,
+            32023009,
+            32023010,
+            32023011,
+            32023012,
+            32023013,
+            32023014,
+            32023015,
+            32023016,
+            32023017,
+            32023018,
+            32023019,
+            32023020,
+            32023021
+          ],
+          "sectionId": 32023
+        }
+      ],
+      "title": "互斥与共鸣·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32024001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你要......对我们做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024002",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我已经多次忍让过你们，是你们一直不依不饶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024003",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽，叽叽！消灭，消灭！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "喂喂，机械兔不是你的手下吗，让他们住手啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你不会连这都不知道——人类社会的秩序是永远优先于手办的秩序的。所以我们不能选择自己的主人，本该由人类操控的软件被黑入——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "就算要那些兔子杀掉我，它们也会执行照做的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024007",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我和哥哥......永远在被别人抛弃，所有除了我们彼此之外的人都不会在意我们真正的感受！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024008",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "大人都是自私而虚伪的，不值得相信，也不配受到尊重。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024009",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "你的想法是错的。并非所有人都是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024010",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024011",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我不会抛弃同伴。宁可一起死，也不能牺牲同伴换自己活命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024012",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "漂亮话谁都会讲，那就让我看看，你会不会和同伴战斗到最后。我随时接受你一个人的投降哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024013",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "......我会，证明给你看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024014",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽叽叽，全部消灭！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024015",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "该死，她到底召唤了多少「酷炫机械兔」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "如果身为手办惹出这种事，一定会被管理局监禁处罚的，但AI怎么看都不算手办吧......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024017",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "你们还有时间想这些！专心战斗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32024018",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我也要为了妹妹而战！砸碎，砸碎一切！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032001",
+          "sourceType": 5,
+          "text": "轰——！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32032002",
+          "sourceType": 5,
+          "text": "即将击中死亡主宰的铁拳在最后关头被冲上前的皇后拦截，正中头部。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32032003",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈，我抓到她了！这是献给你的礼物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "把我的皇后还来，别用你的脏手碰她！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032005",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "放心，我只是要给她进行一次小小的神经接驳，让她感受我们万分之一的痛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032006",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "这么有趣的学习素材，没有轻易浪费的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032007",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽，叽叽！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032008",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "该死的，别挡路！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "怎么办，包围圈在缩小......\n我们快要无路可退了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32032010",
+          "sourceType": 0,
+          "speaker": "机械兔",
+          "text": "叽叽，叽叽！消灭！消灭！消灭！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-716",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32024001,
+            32024002,
+            32024003,
+            32024004,
+            32024005,
+            32024006,
+            32024007,
+            32024008,
+            32024009,
+            32024010,
+            32024011,
+            32024012,
+            32024013,
+            32024014,
+            32024015,
+            32024016,
+            32024017,
+            32024018
+          ],
+          "sectionId": 32024
+        },
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32032001,
+            32032002,
+            32032003,
+            32032004,
+            32032005,
+            32032006,
+            32032007,
+            32032008,
+            32032009,
+            32032010
+          ],
+          "sectionId": 32032
+        }
+      ],
+      "title": "互斥与共鸣·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 134,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 134,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "时光回溯到命运的转折点",
+  "title": "互斥与共鸣",
+  "wordCount": 3046
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212109",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下品牌与新锐潮玩设计师展联合推出的系列潮流玩偶，经由艺术化的雕琢，小恐龙「呆呆牙」仿若被赋予了生命。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212109"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 55
+}

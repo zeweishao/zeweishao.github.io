@@ -1,0 +1,140 @@
+{
+  "bookId": "hero-211006",
+  "id": "bond-29323",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29323001",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "嗨，又见面了，你最近在忙什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323002",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "为何躲躲闪闪的，有什么我不能见的东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323003",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "唔哇，该不会在偷偷做什么见不得人的勾当吧，哈哈哈，被我发现了吧~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29323005",
+              "text": "才不是你想的那样。"
+            },
+            {
+              "targetId": "29323005",
+              "text": "这还不都是为了你。"
+            }
+          ],
+          "sourceId": "29323004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29323005",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "嚯，这不是我信浓豪族「真田家」所建的武道馆吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323006",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "你从哪里弄来这么个宝贝的，简直和我家乡的那座武道馆一摸一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323007",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "竟然连那块「天下第一强者」都在，真是太神奇了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是我亲手做的，送你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323009",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "亲手做出来的？你这家伙过于可爱了吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323010",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "好吧，我决定了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323011",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "从今以后，你想做什么我都会无条件支持你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29323012",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "当然，这里面也包括揉我的耳朵~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29323",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29323001,
+            29323002,
+            29323003,
+            29323004,
+            29323005,
+            29323006,
+            29323007,
+            29323008,
+            29323009,
+            29323010,
+            29323011,
+            29323012
+          ],
+          "sectionId": 29323
+        }
+      ],
+      "title": "天下第一强者"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "天下第一强者",
+  "wordCount": 235
+}

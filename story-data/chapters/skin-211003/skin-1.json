@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211003",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这个暴虐的小恶魔此刻看起来居然有些孩子气般的羞赧，原因自然不是又一次将对手无情重碾在脚下。因为比起这个，他一直默默关注的莉莉奈的赤金机甲，现在从颜色上，怎么说，他终于有了跟她般配的一套。\n\n“哥哥是蓝色，妹妹是红色。”\n\n      ——该特别款通过天启阻击战玩法获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "霄金机甲Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211003",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "杰斯·霄金机甲Ver.",
+  "title": "霄金机甲Ver.",
+  "wordCount": 124
+}

@@ -1,0 +1,145 @@
+{
+  "bookId": "hero-212207",
+  "id": "bond-35311",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35311001",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你来得正好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是有什么需要我帮忙的吗？这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311003",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "是棺材。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊哈哈……有点吓到。为什么突然制作这样的东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "上次的问题，你有答案了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35311007",
+              "text": "你是说生命和艺术的关系吗？"
+            },
+            {
+              "targetId": "35311007",
+              "text": "实话说有些难住我了，也许生命短暂，但艺术恒久。"
+            }
+          ],
+          "sourceId": "35311006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35311007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "正因为人类生命转瞬即逝，才想留下永垂不朽的作品。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "不错的回答，我会把这句话刻在我们的棺盖上。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35311010",
+              "text": "我们的……棺盖?"
+            }
+          ],
+          "sourceId": "35311009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35311010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "我无法阻止死亡将你夺走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "但在那一天来临时，我会陪着你一起面对永恒的寂静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35311012",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "只有我和你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35311",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35311001,
+            35311002,
+            35311003,
+            35311004,
+            35311005,
+            35311006,
+            35311007,
+            35311008,
+            35311009,
+            35311010,
+            35311011,
+            35311012
+          ],
+          "sectionId": 35311
+        }
+      ],
+      "title": "永恒"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212207",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "永恒",
+  "wordCount": 193
+}

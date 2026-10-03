@@ -1,0 +1,85 @@
+{
+  "bookId": "rewind-11",
+  "id": "activity-records-703",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "典藏的名画，还是珍贵的宝物？\n你跟它们却截然不同。\n让我如此迫不及待、疾风骤雨般地想要收入囊中。",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "大变活人"
+    },
+    {
+      "blocks": [
+        {
+          "text": "世界冰冷残酷，\n所以你明知虚妄，也甘愿沉沦。",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "本能理论"
+    },
+    {
+      "blocks": [
+        {
+          "text": "冷漠克制、简洁敏锐。\n高效沉稳、精准锋利。",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "盛情难却"
+    },
+    {
+      "blocks": [
+        {
+          "text": "“谁先抓到，就是谁的。”",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "疑犯追踪·骑士·黑桃"
+    },
+    {
+      "blocks": [
+        {
+          "text": "有人告诉过你吗？你的眼神真美。\n当它们在不安和怀疑中漫天闪烁时，\n就像浮在天上的水面倒影一样，会发光。",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "疑犯追踪·皇后·黑桃"
+    },
+    {
+      "blocks": [
+        {
+          "text": "平常的财宝会被偷走,\n而真正的财富则不会。\n你灵魂里无限珍贵的东西是无法被夺走的。",
+          "title": "情报网络",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "疑犯追踪·鬼牌·黑桃"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "703",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 187
+}

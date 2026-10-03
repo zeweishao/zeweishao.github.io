@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213004",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "本次由人气游戏《永恒的异界幻想》中，目标是带领族人统一整个大陆的「弗吉尼娅 · 被遗忘者」登场！制作出她头戴兜帽，手持弓箭单手叉腰的帅气站姿，将女王般强大的气场呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213004"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 83
+}

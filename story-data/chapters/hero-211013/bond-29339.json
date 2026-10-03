@@ -1,0 +1,204 @@
+{
+  "bookId": "hero-211013",
+  "id": "bond-29339",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29339001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诺伊尔，你追的小说的新刊已经买到了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诺伊尔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339003",
+          "sourceType": 3,
+          "text": "找遍了后宅，魔女却始终不见人影。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "大概出门了吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339005",
+          "sourceType": 3,
+          "text": "当你来到客厅，却发现电视机正开着。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，小说放着就可以了，你过来。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29339008",
+              "text": "怎么了？"
+            },
+            {
+              "targetId": "29339008",
+              "text": "好吧，我的魔法宅女"
+            }
+          ],
+          "sourceId": "29339007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29339008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "《亚瑟王和她的圆桌骑士》的大结局马上开播了，你不看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你想要我陪你看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啰嗦，你到底看不看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339011",
+          "sourceType": 3,
+          "text": "你坐在沙发上，和魔女一起看着这部改编自著名传说的动画。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339012",
+          "sourceType": 3,
+          "text": "剧情已然进入高潮，你和魔女一起看得入神。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339013",
+          "sourceType": 9,
+          "text": "「贝狄威尔卿……」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339014",
+          "sourceType": 9,
+          "text": "「将我的剑……还回去。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339015",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339016",
+          "sourceType": 3,
+          "text": "看到这里，魔女的肩膀颤抖起来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29339017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哭了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339018",
+          "sourceType": 5,
+          "speaker": "诺伊尔",
+          "text": "没有哭！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的没有哭？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……只是有一点感动，只是一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29339021",
+          "sourceType": 3,
+          "text": "今天，魔女也依旧在鉴赏骑士文化。",
+          "type": "narration"
+        }
+      ],
+      "id": "29339",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29339001,
+            29339002,
+            29339003,
+            29339004,
+            29339005,
+            29339006,
+            29339007,
+            29339008,
+            29339009,
+            29339010,
+            29339011,
+            29339012,
+            29339013,
+            29339014,
+            29339015,
+            29339016,
+            29339017,
+            29339018,
+            29339019,
+            29339020,
+            29339021
+          ],
+          "sectionId": 29339
+        }
+      ],
+      "title": "魔女与骑士情结"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "魔女与骑士情结",
+  "wordCount": 269
+}

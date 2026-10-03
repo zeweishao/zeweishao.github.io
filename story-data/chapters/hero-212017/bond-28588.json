@@ -1,0 +1,141 @@
+{
+  "bookId": "hero-212017",
+  "id": "bond-28588",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28588001",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "此处或许应该加入一些小巧的装饰，以增强珠宝整体的质感。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28588003",
+              "text": "甄姬，你在想什么呢？"
+            }
+          ],
+          "sourceId": "28588002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28588003",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "正好。\n我在思考这款珠宝的装饰应该挑选哪种图案，你也过来看看如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588004",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "这个图案取自洛水的波纹，另一个孔雀翎图案，则是源自我当年在洛川山中的奇遇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588005",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "不过，我似乎不记得设计它的初衷了，因此便搁置到现在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "记得你说过，设计这件珠宝是想展示珍珠的纯净之美。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588007",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "「纯净之美」么？我明白了，感谢你提醒我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有时候，设计师太过于专注细节，反而会迷失方向。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588009",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "大道至简，万物归一。或许我该到洛川水畔故地重游一趟了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28588010",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "那人说得没错，你的确拥有成为知音之人的资格。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28588012",
+              "text": "那人……是指蔡文姬吗？"
+            }
+          ],
+          "sourceId": "28588011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28588012",
+          "sourceType": 0,
+          "speaker": "甄姬",
+          "text": "呵呵，除了她还能有谁？\n这件珠宝完成之日，我会邀请你们两人一同前来鉴赏。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28588",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28588001,
+            28588002,
+            28588003,
+            28588004,
+            28588005,
+            28588006,
+            28588007,
+            28588008,
+            28588009,
+            28588010,
+            28588011,
+            28588012
+          ],
+          "sectionId": 28588
+        }
+      ],
+      "title": "共忆初衷"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212017",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "共忆初衷",
+  "wordCount": 294
+}

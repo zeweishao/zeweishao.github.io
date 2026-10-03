@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213109",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "此处是位于孤岛的封闭设施，四面环海，崖壁嶙峋。其人蒙冤入狱，苦心数年挖掘通道。光线流溢的尽头，现身的却是传说中的典狱长。\n\n黑羽从铁窗间飘落，她开口：「反抗的精神值得赞许，有兴趣加入我们的乐队吗？」\n\n于孤岛诞生的摇滚物语，堂堂开幕——\n\n「——个鬼啊，槽点太多了，不知道该从哪里开始吐槽了……」百合说。\n\n「现在元素混搭挺受欢迎的，这是商业化的策略哦~」导演——玉夏说。\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "朋克典狱长Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213109",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仲村百合·朋克典狱长Ver.",
+  "title": "朋克典狱长Ver.",
+  "wordCount": 194
+}

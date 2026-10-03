@@ -1,0 +1,130 @@
+{
+  "bookId": "hero-213112",
+  "id": "bond-28595",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28595001",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这座如梦似幻的水晶城堡，仿佛来自另一个世界。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28595003",
+              "text": "希望它能成为你的避风港。"
+            }
+          ],
+          "sourceId": "28595002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28595003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "从没想到会有人如此体贴待我，你的这份善意我会谨记于心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28595004",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "只是如此珍贵的礼物，就这样送给我，真的好吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28595006",
+              "text": "当然，你值得拥有最好的。"
+            }
+          ],
+          "sourceId": "28595005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28595006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "有种无法用语言形容的奇妙感觉……像是某种神秘魔法击中了我的心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28595007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "让我忍不住相信，在这座美丽的水晶城堡里，魔法会一直存在，永不消失。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28595009",
+              "text": "这是名为「爱与陪伴」的魔法。"
+            }
+          ],
+          "sourceId": "28595008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28595009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我会在这里，创造属于你和我的「新童话」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28595010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "而这一次，故事的结局将由我们共同书写。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28595",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28595001,
+            28595002,
+            28595003,
+            28595004,
+            28595005,
+            28595006,
+            28595007,
+            28595008,
+            28595009,
+            28595010
+          ],
+          "sectionId": 28595
+        }
+      ],
+      "title": "焕梦奇缘"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213112",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "焕梦奇缘",
+  "wordCount": 212
+}

@@ -1,0 +1,165 @@
+{
+  "bookId": "hero-212206",
+  "id": "bond-26069",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26069001",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "我听到一种…...充满压抑的喘息声。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有吗？我完全没听见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "这种声音似乎是来自你内心深处。\n你已经太过疲惫，需要放空身心的休息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我也想…...但要做的事情还有很多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "其实，你不必去追求那些不属于你的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么是「不属于我的」呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069007",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你相信「既定的命运」吗？\n人的命运是无法改变的，没有的就算拼命努力也无法得到。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26069009",
+              "text": "我相信。"
+            },
+            {
+              "targetId": "26069010",
+              "text": "我不相信。"
+            }
+          ],
+          "sourceId": "26069008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26069009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我相信。但或许，拼命努力的过程也是我命中注定要经历的一部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无论如何，我都不想留下遗憾，\n如果尽全力去争取后仍然得不到，也不失为一种美好的回忆。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "......有没有人说过，你的眼睛很特别？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26069013",
+              "text": "眼睛吗？"
+            },
+            {
+              "targetId": "26069013",
+              "text": "怎么忽然说这个？"
+            }
+          ],
+          "sourceId": "26069012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26069013",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "你的瞳孔，散发着柔和的光。\n像蚌壳中的珍珠......又像是燃烧的太阳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26069014",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "谢谢你，很久没有感受到......这样令人安心的温暖了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26069",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26069001,
+            26069002,
+            26069003,
+            26069004,
+            26069005,
+            26069006,
+            26069007,
+            26069008,
+            26069009,
+            26069010,
+            26069011,
+            26069012,
+            26069013,
+            26069014
+          ],
+          "sectionId": 26069
+        }
+      ],
+      "title": "命运"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212206",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "命运",
+  "wordCount": 324
+}

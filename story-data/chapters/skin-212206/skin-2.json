@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212206",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "普照不夜城的日芒从未消逝。在这片圣域，即使是黄昏也不曾降临。某一天，北阿罗拉的极镜水域派来了一名特殊的使者。她携族人的希冀而来，渴望寻找拯救之法。\n\n「你，为什么在流泪？」随行的圣域守卫说。\n\n「我本以为，在这里能够找到救赎一切的光明……」贝歌看着手中的泪滴，它正折射着人造太阳的光，「送我回去吧，弗吉尼娅。」\n\n此后，半人鱼踏上归乡之途，一路皆是无望的悲歌。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "幻金珠泪Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212206",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "贝歌·幻金珠泪Ver.",
+  "title": "幻金珠泪Ver.",
+  "wordCount": 174
+}

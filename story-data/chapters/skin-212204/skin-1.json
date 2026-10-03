@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212204",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "S-VIII找到了一个新乐子。\n\n用黑市搞来的贵宾函，参加某业界大亨的「慈善花火祭」。\n\n谁能想到呢，身着浴衣招摇过市的狐面少女——正是被多方追拿的通缉犯本人。\n\n暮色降临，灯笼亮起。\n\n酒饱饭足的S-VIII点燃烟花棒，目光落在了会场中央那堆价值不菲的易燃物上。\n\n——在慌乱的惊叫声中，烟火大会开始了。",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "寻欢作乐Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212204",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "S-VIII·寻欢作乐Ver.",
+  "title": "寻欢作乐Ver.",
+  "wordCount": 143
+}

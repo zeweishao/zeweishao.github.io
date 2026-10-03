@@ -1,0 +1,197 @@
+{
+  "bookId": "hero-214018",
+  "id": "bond-29330",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29330001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "|101|，你在做什么？这是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是《终焉地平线》……呃，该怎么说呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我明白，这是以「那个世界」为蓝本制作的战术竞技游戏吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "选择界面上有很多熟悉的人，泉、我，甚至还有……塞拉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，可以这么理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "最近回归玩了一段时间，但在队长模式里老是输呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "那么，我来帮你吧。有相关的资料库吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样都可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330009",
+          "sourceType": 3,
+          "text": "一天后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29330010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "对面的战术意图很明显，想要通过偏前期发育的阵容取得线上优势，然后全力推进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "禁用「狩猎者」，然后选「希塔」吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "居然推荐自己吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "别误会，只是「希塔」的AOE机制和攻速增益可以克制对面的召唤物。「狩猎者」则可能补强对面的阵容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "选好了。屏幕上是希塔，身边又是希塔在讲话……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29330016",
+              "text": "感觉好酷"
+            },
+            {
+              "targetId": "29330016",
+              "text": "感觉好奇怪"
+            }
+          ],
+          "sourceId": "29330015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29330016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "接下来，还有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29330017",
+          "sourceType": 3,
+          "text": "就这样，时间流逝——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29330018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "回过神来……居然已经连续赢了五把？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29330",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29330001,
+            29330002,
+            29330003,
+            29330004,
+            29330005,
+            29330006,
+            29330007,
+            29330008,
+            29330009,
+            29330010,
+            29330011,
+            29330012,
+            29330013,
+            29330014,
+            29330015,
+            29330016,
+            29330017,
+            29330018
+          ],
+          "sectionId": 29330
+        }
+      ],
+      "title": "战术教练"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "战术教练",
+  "wordCount": 327
+}

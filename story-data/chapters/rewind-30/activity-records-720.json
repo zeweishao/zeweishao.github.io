@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-30",
+  "id": "activity-records-720",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "成为手办后的世界依然充满危险，所幸有朋友的陪伴才不会孤单。",
+          "title": "成为手办之后的奇特冒险",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "我变小了"
+    },
+    {
+      "blocks": [
+        {
+          "text": "为了寻找幕后的真相，昔日的特殊变异者再次孤身涉险。",
+          "title": "成为手办之后的奇特冒险",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "地下探险"
+    },
+    {
+      "blocks": [
+        {
+          "text": "就算你被全世界误解，我也会站在你的身边。",
+          "title": "成为手办之后的奇特冒险",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "回家的路"
+    },
+    {
+      "blocks": [
+        {
+          "text": "终于找到了，曾经魂牵梦絮的「甜蜜家园」。",
+          "title": "成为手办之后的奇特冒险",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "始作俑者"
+    },
+    {
+      "blocks": [
+        {
+          "text": "某位父亲因儿子被怪物抓走，逐渐被强烈的愧疚感淹没，最终转换成怪物。",
+          "title": "「绿之家」怪物图鉴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "长手怪"
+    },
+    {
+      "blocks": [
+        {
+          "text": "本是不满上司刁难而心生憎恨的上班族，在不知不觉被欲望控制后成为怪物。",
+          "title": "「绿之家」怪物图鉴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "莲藕怪"
+    },
+    {
+      "blocks": [
+        {
+          "text": "身为公寓警卫长期被住户欺压、瞧不起，长久以来的怨念使他转换成怪物。",
+          "title": "「绿之家」怪物图鉴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "警卫怪"
+    },
+    {
+      "blocks": [
+        {
+          "text": "被当作「弱鸡」会感到愤怒，欲望为拥有强大的「力量」，是目前最难缠的存在。",
+          "title": "「绿之家」怪物图鉴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "肌肉怪"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "720",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 230
+}

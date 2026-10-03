@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212206",
+  "id": "bond-26071",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26071001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我不知道......鱼缸对你而言能不能称作「房屋」？\n但总感觉这才是最适合送给你的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "从现在开始，这里是属于你的「家」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "真的，非常感谢......呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么哭，你不喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "抱歉，我只是在担心......\n等到这些美好的事物消亡，我一定会痛苦而不舍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071006",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "除了永远包容万物的海洋，世界上不存在恒久的东西。\n最终......我与你的羁绊，也会化作泡沫消失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "曾经存在过的美好瞬间，并不是没有意义的。\n不如说，只要时间还在流逝，就永远不会到达「最终」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以，我们拥有的希望和时间一样是永恒的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071009",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "呜......呜呜呜......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么哭得更厉害了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071011",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "......为什么，你这样的人，没有再早些出现呢？\n如果，如果你早点来到我身边......或许一切都会不同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26071012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "谢谢你。我会珍惜这份礼物，珍惜与你的羁绊......\n直至生命的终结。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26071",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26071001,
+            26071002,
+            26071003,
+            26071004,
+            26071005,
+            26071006,
+            26071007,
+            26071008,
+            26071009,
+            26071010,
+            26071011,
+            26071012
+          ],
+          "sectionId": 26071
+        }
+      ],
+      "title": "终点"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212206",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "终点",
+  "wordCount": 355
+}

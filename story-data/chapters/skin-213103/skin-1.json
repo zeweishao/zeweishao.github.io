@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213103",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "焦糖色的饼干上撒上彩色的糖霜，就像大地有了鲜花而变得缤纷起来。\n奶油、水果酱、巧克力，当然还有草莓和红樱桃，这种组合是给味蕾的礼物呢。\n\n       ——该特别款仅限特定联动活动专属应援活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "小熊饼干Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213103",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "初音未来·小熊饼干Ver.",
+  "title": "小熊饼干Ver.",
+  "wordCount": 88
+}

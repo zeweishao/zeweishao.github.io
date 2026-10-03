@@ -1,0 +1,134 @@
+{
+  "bookId": "hero-212018",
+  "id": "bond-28598",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28598001",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "金子！是金子！好多好多金子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28598002",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "我不是在做梦吧？！快掐我一把，告诉我这不是梦！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28598004",
+              "text": "这不是梦哦。"
+            },
+            {
+              "targetId": "28598004",
+              "text": "是送给你的。"
+            }
+          ],
+          "sourceId": "28598003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28598004",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "哇，居然还用黄金打造了龙之巢穴！\n嘿，中间的那个位置，我要摆上自己最爱的金苹果~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28598005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "老实交代，准备这个礼物，你一定花了很多钱吧？太浪费了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28598007",
+              "text": "镀金的啦，不会很贵。"
+            }
+          ],
+          "sourceId": "28598006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28598007",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "这么说……这座黄金巢穴原本只是普通的手办屋，只有表面一层全是金子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28598008",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "如果把外面这层金箔取下来，能打造多少金币啊！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28598010",
+              "text": "停，不要打这座手办屋的主意。"
+            }
+          ],
+          "sourceId": "28598009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28598010",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "嘿，我开玩笑的啦。你送的东西，我可不忍心破坏~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28598",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28598001,
+            28598002,
+            28598003,
+            28598004,
+            28598005,
+            28598006,
+            28598007,
+            28598008,
+            28598009,
+            28598010
+          ],
+          "sectionId": 28598
+        }
+      ],
+      "title": "黄金巢穴"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212018",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "黄金巢穴",
+  "wordCount": 217
+}

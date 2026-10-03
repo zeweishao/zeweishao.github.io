@@ -1,0 +1,196 @@
+{
+  "bookId": "hero-215003",
+  "id": "bond-28528",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28528001",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "各位，「生活之歌」演奏会开始了——\n今天也会用音乐，一起为大家加油的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528002",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这一首，是新鲜的「黄瓜圆舞曲」——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "叮咚叮，咚哒哒，……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528004",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "接下来，是火热的「青椒进行曲」——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "然后是，酸甜的「橘子间奏曲」——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28528007",
+              "text": "等一下。"
+            }
+          ],
+          "sourceId": "28528006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28528007",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "怎、怎么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……为什么都是这样的名字？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "黄瓜，青椒……橘子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528010",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "都、都是主人昨天买来的食材，我用了上面的条形码数字组，编码成了新的曲调。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528011",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "因为实在不知道该怎样起名，所以就……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28528013",
+              "text": "用条形码的数组编曲吗？"
+            },
+            {
+              "targetId": "28528013",
+              "text": "真恋实在是太厉害了！"
+            }
+          ],
+          "sourceId": "28528012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28528013",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "嗯……那么请休息一下，听首新歌吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "这一首是用主人的身份ID特别编制的，「|101|之歌」——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我的身份ID？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真恋怎么会知道这个呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28528017",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "上次主人拿出证件的时候无意中看了一眼，因为觉得可能是非常好听的旋律，就不小心记住了……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28528",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28528001,
+            28528002,
+            28528003,
+            28528004,
+            28528005,
+            28528006,
+            28528007,
+            28528008,
+            28528009,
+            28528010,
+            28528011,
+            28528012,
+            28528013,
+            28528014,
+            28528015,
+            28528016,
+            28528017
+          ],
+          "sectionId": 28528
+        }
+      ],
+      "title": "「生活之歌」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215003",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「生活之歌」",
+  "wordCount": 311
+}

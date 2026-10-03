@@ -1,0 +1,157 @@
+{
+  "bookId": "activity-snippets-springfestivelantern",
+  "id": "section-25950",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25950001",
+          "sourceType": 10,
+          "text": "孙大小姐驾到",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25950002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "你们快看，我做好了一盏猫猫灯~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "看起来还不错，不过这只猫猫的原型是哪个赤炎大陆的名人呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，花迦没有认出来吗？我还以为很容易就能猜到呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "猫猫的这身打扮看来是一位女将军，她神情冷酷，气场强大，我一时猜不到是哪位人物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，原型确实就在我们身边哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "远在天边，近在眼前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "够了，不要再讨论这个话题了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950009",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "生气了吗，这样会更容易穿帮哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "就是这个表情，这个花灯的原型就是孙大小姐，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "答对了，优纪就是以孙大小姐为原型作为灵感制作的哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "惟妙惟肖，眉目之间的神情尤其像呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950013",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "闭嘴，不要再说了，我警告你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950014",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "对不起，我们是不是惹孙大小姐不高兴了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25950015",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "不要紧，只是在闹别扭而已，等一下就会好起来的~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25950",
+      "sourceRefs": [
+        {
+          "bundle": "springfestivelantern",
+          "rowIds": [
+            25950001,
+            25950002,
+            25950003,
+            25950004,
+            25950005,
+            25950006,
+            25950007,
+            25950008,
+            25950009,
+            25950010,
+            25950011,
+            25950012,
+            25950013,
+            25950014,
+            25950015
+          ],
+          "sectionId": 25950
+        }
+      ],
+      "title": "孙大小姐驾到"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25950,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "58",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "以赤炎大陆上的名人「孙尚香」为原型制作的猫猫花灯，造型在满足可爱这个要素的同时，融入了传统的赤炎风俗。",
+  "title": "孙大小姐驾到",
+  "wordCount": 291
+}

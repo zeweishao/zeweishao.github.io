@@ -1,0 +1,175 @@
+{
+  "bookId": "hero-213013",
+  "id": "bond-28508",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28508001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "准备好了吗，我要睁开眼睛了哟。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28508003",
+              "text": "睁开眼睛。"
+            }
+          ],
+          "sourceId": "28508002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28508003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "哇哦，这是什么？一座小房子？！是送给我的吗~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，是送给薇薇安的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "外观是我最喜欢的英式仿古博物馆风格，唔，看起来你查阅了不少资料啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28508007",
+              "text": "惊喜还在里面哦。"
+            }
+          ],
+          "sourceId": "28508006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28508007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "天呢，这里面有古迹陈列室、豪华卧室和书房……最最重要的是，还有我最喜欢的图书室，里面居然摆放着很多古籍复刻品！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28508009",
+              "text": "薇薇安喜欢就好。"
+            }
+          ],
+          "sourceId": "28508008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28508009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "难以想象这个庞大工程的背后隐藏了多少艰辛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对普通人来说，光是那间图书馆里的藏品，找到原版书已经很难了，而你却要根据原版书复刻成手办比例……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你一定准备了很长时间吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28508013",
+              "text": "我确信是值得的。"
+            }
+          ],
+          "sourceId": "28508012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28508013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你知道吗？\n你是我在冒险旅程中所能期待发生的，最幸运的一件事呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对于以前的我来说，成为大冒险家或许只是说说而已，但是现在的我今非昔比。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28508015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "因为有你在，我一定可以成为与大胡子艾瑞克森比肩的大冒险家~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28508",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28508001,
+            28508002,
+            28508003,
+            28508004,
+            28508005,
+            28508006,
+            28508007,
+            28508008,
+            28508009,
+            28508010,
+            28508011,
+            28508012,
+            28508013,
+            28508014,
+            28508015
+          ],
+          "sectionId": 28508
+        }
+      ],
+      "title": "大冒险家之路"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "大冒险家之路",
+  "wordCount": 344
+}

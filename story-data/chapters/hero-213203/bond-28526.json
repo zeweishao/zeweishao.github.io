@@ -1,0 +1,210 @@
+{
+  "bookId": "hero-213203",
+  "id": "bond-28526",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28526001",
+          "sourceType": 9,
+          "text": "这天，正打算把购买的「手办屋」送给绯野原爱小姐。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28526002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "锵——Surprise！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧，一点都不意外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "提前进入这间屋子，怪盗小姐也许有一千种方法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但你怎么会知道，在万千商品中，我会购买这一件？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这难道不是侦探们的工作吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就把屋子送给凛小姐了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "然后，又一次正中我的下怀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可恶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哈哈，骗你的！\n一位顶尖的怪盗，首先是一位顶尖的心理师。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "心理……师？我知道了……手法是「心理暗示」？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "人类会被周遭环境同化，进而做出无意识判断。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "在你活动的区域，我摆放了一些不太引起警觉、但总能吸引视线的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "比如这间玩具屋的海报，模型图纸，广告以及各种商品信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "太狡猾了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "比起这个，怪盗小姐「精心挑选」的屋子，不好奇里面还准备了什么好东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是那个时候的……契约书？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "上面多了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "英文短句，我的指纹——被你骗上去的！还有……小红点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526020",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那可是怪盗大人的手印。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526021",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "现在，这份契约书终于完整了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28526022",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我喜欢完整的东西，就像房子、契约，还有我跟你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28526",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28526001,
+            28526002,
+            28526003,
+            28526004,
+            28526005,
+            28526006,
+            28526007,
+            28526008,
+            28526009,
+            28526010,
+            28526011,
+            28526012,
+            28526013,
+            28526014,
+            28526015,
+            28526016,
+            28526017,
+            28526018,
+            28526019,
+            28526020,
+            28526021,
+            28526022
+          ],
+          "sectionId": 28526
+        }
+      ],
+      "title": "怪盗谜题——契约"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "怪盗谜题——契约",
+  "wordCount": 398
+}

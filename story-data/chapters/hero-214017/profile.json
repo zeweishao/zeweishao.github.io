@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214017",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气枪战游戏《少女X机关枪》中的知名角色「海柔尔」化身1/7模型登场！海柔尔羞怯而怕生的神态被模型师刻画得无比生动。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214017"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 58
+}

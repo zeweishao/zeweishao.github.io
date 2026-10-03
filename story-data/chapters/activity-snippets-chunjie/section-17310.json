@@ -1,0 +1,88 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17310",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17310001",
+          "sourceType": 10,
+          "text": "厨房焕然一新，优纪跃跃欲试，她会做些什么呢？",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17310002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "噔噔噔噔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17310003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪的厨台解锁了，等着瞧吧，绝对会做出令主人|101|大吃一惊的美味料理的哟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17310004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总之呢，把你的心和你的胃统统放心地交给优纪，这个春节请主人|101|尽情享受美味盛宴~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17310005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听优纪这么说，真的很难不心动呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17310",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17310001,
+            17310002,
+            17310003,
+            17310004,
+            17310005
+          ],
+          "sectionId": 17310
+        }
+      ],
+      "title": "优纪的惊喜"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17310,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "1",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "优纪的厨台解锁，会准备什么好吃的呢？请拭目以待。",
+  "title": "优纪的惊喜",
+  "wordCount": 126
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212104",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「不要用这样的眼神看我，我可不是什么坏史莱姆。」\n「我想做的仅仅是保护好身边重要的人，不让自己珍惜的一切被侵犯。」\n「即便冠上魔王的头衔，我也不会改变原则，纯粹的侵略和毁灭，我并没有这种残暴的兴趣。」\n威严王座上，觉醒的魔王没有君王般的孤傲，更不会显得咄咄逼人，有的只有令人如沐春风的温和。\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "魔王神座Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212104",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "利姆鲁·魔王神座Ver.",
+  "title": "魔王神座Ver.",
+  "wordCount": 158
+}

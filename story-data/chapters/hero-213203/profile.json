@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213203",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《蘑菇少女的日常》，传闻中来去无踪的黑桃怪盗「绯野原爱」化身为1/7比例模型。精致华丽的黑红色装饰，完美重现少女怪盗浪漫活泼的姿态。点缀全身的纸牌营造出丰富的层次感，头部两侧的马尾与手中持有的纸牌也一一呈现。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213203"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 106
+}

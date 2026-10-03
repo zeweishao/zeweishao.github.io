@@ -1,0 +1,151 @@
+{
+  "bookId": "hero-213017",
+  "id": "bond-33403",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "33403001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君，这间屋子！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33403003",
+              "text": "喜欢吗？"
+            },
+            {
+              "targetId": "33403003",
+              "text": "不喜欢吗？"
+            }
+          ],
+          "sourceId": "33403002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33403003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我当然是喜欢的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403004",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这屋檐，这书案，这香炉……这我梦想中的屋子就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "无数个夜晚，我期待着能和知己在这屋子里抚琴谈心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403006",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我从未和别人说过的它的样子，但现在，它居然真的出现在我眼前。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这就是我们的默契。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "谢谢你，主君，我的知己……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "与你相遇之后，那些遥不可及的梦想，全都变成了真实的幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不论是什么梦想，我们都会一起实现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "君子一言，千金不换，我会永远记住这个约定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33403012",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "而现在，|101|，闭上眼睛，细细倾听吧。这首为你而作的歌。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33403",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33403001,
+            33403002,
+            33403003,
+            33403004,
+            33403005,
+            33403006,
+            33403007,
+            33403008,
+            33403009,
+            33403010,
+            33403011,
+            33403012
+          ],
+          "sectionId": 33403
+        }
+      ],
+      "title": "为你而作的歌"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "为你而作的歌",
+  "wordCount": 224
+}

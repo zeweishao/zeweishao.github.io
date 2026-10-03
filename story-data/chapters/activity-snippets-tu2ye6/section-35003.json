@@ -1,0 +1,117 @@
+{
+  "bookId": "activity-snippets-tu2ye6",
+  "id": "section-35003",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35003001",
+          "sourceType": 10,
+          "text": "葵的愿望",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35003002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔呣，你们吵到我了……现在是珍贵的睡眠时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "葵，你终于醒了，快来帮我们一把！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呜哇，不要拉我，我……呼啊，我还没睡醒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快别睡啦，睡觉可远远没有帮我们捏「兔儿爷」泥塑有意思哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "什么是泥塑……唔呣，一种特别的兔子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003007",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呼，帮你们做好该做的工作，我可以给自己捏一个新抱枕吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等你帮我们把「兔儿爷」泥塑全都做好，优纪什么都可以依你哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过，你要答应我，葵。在没有完成工作之前，千万不要睡着了呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35003010",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔呣，我答应你……Zzzzzzz。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35003",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye6",
+          "rowIds": [
+            35003001,
+            35003002,
+            35003003,
+            35003004,
+            35003005,
+            35003006,
+            35003007,
+            35003008,
+            35003009,
+            35003010
+          ],
+          "sectionId": 35003
+        }
+      ],
+      "title": "葵的愿望"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35003,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "66",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "珍贵的睡眠时间被打乱了，葵看起来也并没有想象中那么的生气。",
+  "title": "葵的愿望",
+  "wordCount": 211
+}

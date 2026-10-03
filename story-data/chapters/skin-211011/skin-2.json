@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211011",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "经过420小时的艰苦计算，R型指令解析终于得出了新的结果——名为「金色果实」的隐藏数据。\n\n蒂娅毫不犹豫地将数据导入机体。\nⅣ级强度的金色外壳如同获得生命般迅速蔓延，直至覆盖她的全身。\n\n「金色果实，释义：不祥祸端。」百科查询冰冷的机械音响起。\n\n「D-eva申请补充释义，智慧与爱。我会找到的——指令中的伊甸园，属于我们的金色异乡。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鎏金异乡Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211011",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蒂娅·鎏金异乡Ver.",
+  "title": "鎏金异乡Ver.",
+  "wordCount": 161
+}

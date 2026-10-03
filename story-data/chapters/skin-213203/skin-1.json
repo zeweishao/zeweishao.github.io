@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213203",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "身着性感兔女郎装扮的绯野原爱，今天也带来了有趣的魔术表演，是读心术的魔法，并且发出邀约——\n“嘿，要来和我来一局吗？看我能不能猜中你的心中所想。”\n“赌注的话，就是你自己！”\n“输了的话，今天就是我的人了！”\n“赢了的话……那我就是你的人，嘿嘿。”\n\n     ——该特别款仅限活动期间通过【绯野的魔术时间】解锁获得。\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "蓝调魅兔Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213203",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "绯野原爱·蓝调魅兔Ver.",
+  "title": "蓝调魅兔Ver.",
+  "wordCount": 148
+}

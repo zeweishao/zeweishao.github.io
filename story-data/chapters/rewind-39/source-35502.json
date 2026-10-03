@@ -1,0 +1,125 @@
+{
+  "bookId": "rewind-39",
+  "id": "source-35502",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35502001",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "感谢的话就不用了，我只是碰巧路过而已，碰巧的喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502003",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "大哥，就一句喵，她是怎么听出来说了啥的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502004",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "要你多嘴！\n算我们看走眼了，你和这猫是什么关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "答案就是——\n没有关系！猫就是喜欢欺负手办喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502006",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "算你狠，给我等着！走，先撤！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502007",
+          "sourceType": 3,
+          "text": "嘭——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35502008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "咳咳咳咳，居然还准备了烟雾弹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502009",
+          "sourceType": 0,
+          "speaker": "猫",
+          "text": "喵~喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35502010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "好吧。既然你一定要报答的话，奖励给你一个机会，去让这的猫都来见我。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35502",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35502001,
+            35502002,
+            35502003,
+            35502004,
+            35502005,
+            35502006,
+            35502007,
+            35502008,
+            35502009,
+            35502010
+          ],
+          "sectionId": 35502
+        }
+      ],
+      "title": "海岛与塞壬·Ⅳ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9290014",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9290014",
+          "after_result_avg"
+        ],
+        "sectionId": 35502,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "海岛与塞壬·Ⅳ",
+  "wordCount": 160
+}

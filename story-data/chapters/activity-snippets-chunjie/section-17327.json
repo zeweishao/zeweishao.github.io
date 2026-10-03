@@ -1,0 +1,101 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17327",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17327001",
+          "sourceType": 10,
+          "text": "新春干饭人必备~！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17327002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "锵锵锵，超级硬菜登场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "步步祥云，超大的猪肘，绝对能够填饱主人的胃口哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "说起来~这道菜可是烹饪了很久呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "主人有没有看到这红色油亮的汤汁，这可是细心烹饪了很长的时间溢出的肉汁哦，满满都是肉香~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这种口感……果然只有吃到嘴里的时候，才能真正的满足吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "连皮带肉一起吃进嘴里，这踏实的口感，让人欲罢不能。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17327008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "肉完全软烂，像是随时要在嘴里化开，我感觉我好了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17327",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17327001,
+            17327002,
+            17327003,
+            17327004,
+            17327005,
+            17327006,
+            17327007,
+            17327008
+          ],
+          "sectionId": 17327
+        }
+      ],
+      "title": "步步祥云"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17327,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "14",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "新春干饭人必备~！",
+  "title": "步步祥云",
+  "wordCount": 180
+}

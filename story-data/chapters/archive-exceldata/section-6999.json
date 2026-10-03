@@ -1,0 +1,152 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-6999",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "6999001",
+          "sourceType": 3,
+          "text": "特效测试",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999002",
+          "sourceType": 9,
+          "text": "时钟1",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999003",
+          "sourceType": 9,
+          "text": "时钟2",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999004",
+          "sourceType": 9,
+          "text": "时钟3",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999005",
+          "sourceType": 9,
+          "text": "特效1：场景：黑屏——角色：卡特（未输出，暂用元气代替）——特效：信号闪动（立绘层级之下）\n情景：身为特工的卡特正在军情处通过电子讯号跟组织对话。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999006",
+          "sourceType": 9,
+          "text": "特效1：场景：黑屏——角色：卡特（未输出，暂用元气代替）——特效：信号闪动（立绘层级之下）\n情景：身为特工的卡特正在军情处通过电子讯号跟组织对话。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999007",
+          "sourceType": 9,
+          "text": "测试结束",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999008",
+          "sourceType": 9,
+          "text": "特效2：场景：（制作中）——角色：扑克女（未输出，暂用元气代替）——特效：扑克牌飞舞（立绘层级之上）\n情景：身为怪盗的扑克女在飞舞的扑克牌掩盖下消失在视野中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999009",
+          "sourceType": 9,
+          "text": "测试结束",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999010",
+          "sourceType": 9,
+          "text": "特效3：场景：黑屏——角色：卡特（未输出，暂用高冷代替）——特效：扑克牌循环飞舞（立绘层级之下）\n情景：卡特正在进行头脑风暴（类柯南）分析怪盗的动机。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999011",
+          "sourceType": 9,
+          "text": "测试结束",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999012",
+          "sourceType": 9,
+          "text": "特效4：场景：主界面桌面——角色：扑克女（动作不全，暂时如此）——特效：3D全息投影（暂时不需要调整，忽略）\n情景：扑克女在桌面对玩家揭示大变活人的机关，原来是3D投影。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999013",
+          "sourceType": 9,
+          "text": "测试结束",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999014",
+          "sourceType": 9,
+          "text": "特效5：场景：主界面桌面——角色：扑克女（动作补全，暂时如此）——特效：3D全息投影-婚礼现场（暂时不需要调整，忽略）\n情景：3D投影投下婚礼背景，扑克女宣称要跟你结婚。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999015",
+          "sourceType": 9,
+          "text": "测试结束",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999016",
+          "sourceType": 9,
+          "text": "特效6：场景：天空/白天——角色：无——特效：气球漫天飞舞（立绘层级之下）\n情景：很多（指定）气球在天上飞舞",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6999017",
+          "sourceType": 3,
+          "text": "测试结束",
+          "type": "narration"
+        }
+      ],
+      "id": "6999",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6999001,
+            6999002,
+            6999003,
+            6999004,
+            6999005,
+            6999006,
+            6999007,
+            6999008,
+            6999009,
+            6999010,
+            6999011,
+            6999012,
+            6999013,
+            6999014,
+            6999015,
+            6999016,
+            6999017
+          ],
+          "sectionId": 6999
+        }
+      ],
+      "title": "原文片段 6999"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 6999
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 6999",
+  "wordCount": 554
+}

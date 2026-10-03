@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214105",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "华灯连皓月，人间共团圆。\n\n你匆忙赶到灯会，在人群中四处寻找华焱的身影——\n\n只见少女轻巧地坐在巨型鲤鱼花灯之上，手捻七彩焰火，绘出鱼跃龙门的奇景，引得众人惊呼赞叹。\n\n「你来迟了，错过了本仙的开幕秀！」她目光低垂、面露羞赧，「那便罚你……来年继续陪本仙游历人间吧。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鱼龙舞Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214105",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "华焱·鱼龙舞Ver.",
+  "title": "鱼龙舞Ver.",
+  "wordCount": 128
+}

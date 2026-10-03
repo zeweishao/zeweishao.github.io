@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212017",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气动作游戏《赤炎·境界》中的经典角色「甄姬」化身为1/7比例模型闪亮登场！盈盈洛水畔，古典的丽人手持短剑，似乎在等候着久违的故人。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212017"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 67
+}

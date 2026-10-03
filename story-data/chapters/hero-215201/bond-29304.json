@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-215201",
+  "id": "bond-29304",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29304001",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "啊呀呀，你回来了？今天有什么好事发生吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么知道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304003",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "关心主公，是我分内之事啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……别以为我没有看到你刚刚还在玩泥巴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304005",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "照料蔬菜，也是为了学习更好地关心主公啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哦？你的意思是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304007",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "幼苗稚嫩，若是不小心照看着——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304008",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "一疏忽，忘了浇水捉虫，就会蔫了叶子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304009",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "时刻关注着，才能保证它们健康快乐地成长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……好啊，你是把我当小菜苗照顾了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304011",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "嗯~如果你这么认为的话，也没有问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304012",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "我会好好陪着你，慢慢长大的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304013",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "所以，有什么小虫子惹你烦心的话，可以告诉我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304014",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "我诸葛孔明罩着的菜苗，一定是最幸福的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29304015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29304",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29304001,
+            29304002,
+            29304003,
+            29304004,
+            29304005,
+            29304006,
+            29304007,
+            29304008,
+            29304009,
+            29304010,
+            29304011,
+            29304012,
+            29304013,
+            29304014,
+            29304015
+          ],
+          "sectionId": 29304
+        }
+      ],
+      "title": "保护菜苗"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215201",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "保护菜苗",
+  "wordCount": 233
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214012",
+  "id": "bond-26039",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26039001",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "今天是忏悔日。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039002",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "有什么想要诉说的吗，神会倾听我们的声音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好像没有？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039004",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "想想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃……我昨天晚上偷点外卖了，还是烧烤！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我有罪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039007",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "再想想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……明明说过再也不要睡前玩手机了，但还是控制不住自己的手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我有罪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039010",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "仔细想想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有吗？我真想不出了啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039012",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "……你昨天，没有和我道晚安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26039013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我有罪！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26039",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26039001,
+            26039002,
+            26039003,
+            26039004,
+            26039005,
+            26039006,
+            26039007,
+            26039008,
+            26039009,
+            26039010,
+            26039011,
+            26039012,
+            26039013
+          ],
+          "sectionId": 26039
+        }
+      ],
+      "title": "忏悔"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "忏悔",
+  "wordCount": 130
+}

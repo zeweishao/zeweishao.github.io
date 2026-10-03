@@ -1,0 +1,272 @@
+{
+  "bookId": "hero-214105",
+  "id": "bond-43805",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43805001",
+          "sourceType": 3,
+          "text": "刚到家中，就有一位熟悉的手办凑了上来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43805002",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "外面有发生什么趣事吗？快给本仙讲讲。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805004",
+              "text": "又是普通的一天。"
+            },
+            {
+              "targetId": "43805004",
+              "text": "没发生什么特殊的事。"
+            }
+          ],
+          "sourceId": "43805003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805005",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "本仙在这待得身上都快长青苔了，你多少得说些什么，让本仙解解闷。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805007",
+              "text": "不如换一换，由你讲讲过去的趣闻？"
+            }
+          ],
+          "sourceId": "43805006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805007",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "好啊，给人讲故事也算是消磨时间了。你乖乖坐好，本仙便讲讲在豫州时的见闻吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805009",
+              "text": "（坐下。）"
+            }
+          ],
+          "sourceId": "43805008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805009",
+          "sourceType": 3,
+          "text": "少女倏忽腾空而起，如同御风飞行一般，来到了你的肩膀上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43805010",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "离耳朵近点讲，比较有临场感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805011",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "那时我刚到豫州不久，身上的法宝「聚宝盆」便不见了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805013",
+              "text": "那是什么？"
+            }
+          ],
+          "sourceId": "43805012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805013",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "它啊，可以源源不断地产生金银财宝，取之不竭，用之不尽。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805015",
+              "text": "我也要一个。"
+            },
+            {
+              "targetId": "43805015",
+              "text": "会通货膨胀吧？"
+            }
+          ],
+          "sourceId": "43805014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805015",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "哎，你别打岔。若是聚宝盆还在，钱的问题便根本不是问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805016",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "我寻了它好一阵子，小施仙术，才终于……找到了它的下落。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805017",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "原来我下界时走得太急，聚宝盆从身上掉了下来，落在地上碎成了七瓣。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805019",
+              "text": "这下摔坏了。"
+            }
+          ],
+          "sourceId": "43805018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805019",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "岂止，它的碎片还附有少许仙力，被几个好事者拾了去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805020",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "自那以后，豫州就开始流传起「有仙女下凡带来七大宝物，集齐便可实现愿望」的奇怪传闻了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43805022",
+              "text": "这个有点既视感。"
+            },
+            {
+              "targetId": "43805022",
+              "text": "原来你就是趣闻的一部分。"
+            }
+          ],
+          "sourceId": "43805021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43805022",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "本仙深刻地反省了，断不可让仙家法宝流入人间。但本仙并不觉得后悔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805023",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "若不是阴差阳错上街卖艺了，本仙绝无可能见识到人们欣赏表演时发自内心的笑颜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43805024",
+          "sourceType": 3,
+          "text": "不知是否是无意为之，她略带温度的气息正轻抚着耳廓。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43805025",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "下一次出行，捎上本仙如何？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43805",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43805001,
+            43805002,
+            43805003,
+            43805004,
+            43805005,
+            43805006,
+            43805007,
+            43805008,
+            43805009,
+            43805010,
+            43805011,
+            43805012,
+            43805013,
+            43805014,
+            43805015,
+            43805016,
+            43805017,
+            43805018,
+            43805019,
+            43805020,
+            43805021,
+            43805022,
+            43805023,
+            43805024,
+            43805025
+          ],
+          "sectionId": 43805
+        }
+      ],
+      "title": "仙家法宝"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214105",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "仙家法宝",
+  "wordCount": 541
+}

@@ -1,0 +1,1833 @@
+{
+  "bookId": "rewind-11",
+  "id": "chapter-48",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6720001",
+          "sourceType": 9,
+          "text": "12:10，家中的桌面上，巨大分贝警报声响起的瞬间，紧闭的玻璃窗被震的粉碎。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6720002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "主人不见了！什么时候不见了的！快，快找到主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720003",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "警报器的声音太吵了，我无法行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720004",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "不可以，谁都不可以带走主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "警报声……停了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720006",
+          "sourceType": 2,
+          "speaker": "凛",
+          "text": "警报我已经解除危机了，你们都起来。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720007",
+          "sourceType": 2,
+          "speaker": "优纪",
+          "text": "主人，主人，你在哪里？快，谁来帮我把门打开。我……我出不去。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720008",
+          "sourceType": 5,
+          "speaker": "凛",
+          "text": "都冷静。对方只是手办，不可能会对人类造成伤害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "不，警察小姐，请你一定要帮帮我们。帮我们把主人救回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720010",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "不管你知道什么，请你告诉我们吧。我所有的涂料都给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720011",
+          "sourceType": 5,
+          "speaker": "花迦",
+          "text": "优纪……警察小姐，对不起，我们之前对你态度不好，请你帮帮我们吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720012",
+          "sourceType": 5,
+          "speaker": "凛",
+          "text": "奇怪，明明只是手办，到底是怎样将人类偷走的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "请你帮帮我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我是警察，我自然会抓到犯人。现在都安静，让我整理一下信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "救命……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720016",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "救命……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "窗外的声音，是主人的求救声！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "就在附近。大家快，一起把窗子打破！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "都冷静，这件事情太古怪了。对方明明只是一个手办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "对不起警察小姐，我们无法像你这样冷静，那是我们的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720021",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "加大力度，玻璃窗快被打破了。还差一点。成功了！追——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6720022",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "等等！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725001",
+          "sourceType": 9,
+          "text": "12:15，爱猫社区，沿着你的求救声一路狂追不舍的手办跳下窗子，来到室外。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6725002",
+          "sourceType": 9,
+          "text": "救我……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6725003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "那边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725004",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "箱子？这么大的箱子？悬在了空中？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725005",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人在箱子里！主人的声音听上去很痛苦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725007",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "的确，就如那个警察所说。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725008",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "刚刚明明好端端地坐在家里。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725009",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "为什么会一瞬间消失不见。一瞬间又被关进悬空的木箱里！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725010",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "手办到底是……如何将人类瞬间运输到上面去的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725011",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "你是谁？啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725012",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "不行，我现在已经无法冷静思考了。\n我要相信主人，主人|102|可是……一个坚不可摧的人类啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "你看上去要哭了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "是你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "怎么跑不动了吗？如果继续按照这个速度追，你们会距离空中那个移动中的箱子越来越远。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725016",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "不！我们不会跟丢的。和江，我还能跑得更快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯，我也可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "加速了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725019",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "我当然知道该怎么做。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725020",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "我会追上她、他、它们的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725021",
+          "sourceType": 2,
+          "speaker": "岩田和江",
+          "text": "不论是谁，敢把如此玩弄主人，我都会杀了它。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这份滋味，我会付诸在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6725024",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "任何一个，伤害|102|的人之上！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-307",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6720001,
+            6720002,
+            6720003,
+            6720004,
+            6720005,
+            6720006,
+            6720007,
+            6720008,
+            6720009,
+            6720010,
+            6720011,
+            6720012,
+            6720013,
+            6720014,
+            6720015,
+            6720016,
+            6720017,
+            6720018,
+            6720019,
+            6720020,
+            6720021,
+            6720022
+          ],
+          "sectionId": 6720
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6725001,
+            6725002,
+            6725003,
+            6725004,
+            6725005,
+            6725006,
+            6725007,
+            6725008,
+            6725009,
+            6725010,
+            6725011,
+            6725012,
+            6725013,
+            6725014,
+            6725015,
+            6725016,
+            6725017,
+            6725018,
+            6725019,
+            6725020,
+            6725021,
+            6725022,
+            6725023,
+            6725024
+          ],
+          "sectionId": 6725
+        }
+      ],
+      "title": "本能理论·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6745001",
+          "sourceType": 9,
+          "text": "爱猫社区，手办追逐着悬空的木箱。即使敌人肆意从箱子跳下围攻，也无法它们阻挡一步。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745002",
+          "sourceType": 9,
+          "text": "哪里不对。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745003",
+          "sourceType": 9,
+          "text": "究竟哪里不对。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745004",
+          "sourceType": 9,
+          "text": "悬空……的纸箱吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745005",
+          "sourceType": 9,
+          "text": "设备投影抑或视觉假象？发生在强光照的白天。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745006",
+          "sourceType": 9,
+          "text": "所以，我们的确在追逐真实的箱子。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745007",
+          "sourceType": 9,
+          "text": "而并非一个幻觉或是影像。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745008",
+          "sourceType": 9,
+          "text": "悬空？细线垂钓或是牵引？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745009",
+          "sourceType": 9,
+          "text": "强风扇？磁力？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745010",
+          "sourceType": 9,
+          "text": "4层楼的高度，40英尺，四周空无一物，假设推翻重构。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745011",
+          "sourceType": 9,
+          "text": "箱子里面有什么？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745012",
+          "sourceType": 9,
+          "text": "被抓起来的，约莫50kg的人类？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745013",
+          "sourceType": 9,
+          "text": "|102|是手办的主人，被怎样的手法抓进去？且瞒过我的眼睛。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745014",
+          "sourceType": 9,
+          "text": "或者根本没有，里面空无一物？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745015",
+          "sourceType": 9,
+          "text": "甚至充满了飘浮状的物体？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745016",
+          "sourceType": 9,
+          "text": "是气球吗？轻易提供骗过眼睛的浮力。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745017",
+          "sourceType": 9,
+          "text": "但它在移动，因为它被某个事物牵引。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745018",
+          "sourceType": 9,
+          "text": "飞行的事物吗？道具、鸟，还是玩具。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745019",
+          "sourceType": 9,
+          "text": "这重要吗？或许很重要，或许不重要。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745020",
+          "sourceType": 9,
+          "text": "飞行的道具想要制造什么？一个从外表看上去不可思议的悬浮木箱。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745021",
+          "sourceType": 9,
+          "text": "它不想被看到，是角度吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745022",
+          "sourceType": 9,
+          "text": "仰视的盲角，手办天然的比例。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745023",
+          "sourceType": 9,
+          "text": "为什么不想被看到，因为它丑陋，亦或者担心、害怕？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745024",
+          "sourceType": 9,
+          "text": "被看到会传达信息，信息会揭露真相。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745025",
+          "sourceType": 9,
+          "text": "真相会让让我们停驻脚步。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745026",
+          "sourceType": 9,
+          "text": "停驻脚步之后怎样？不再追逐。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745027",
+          "sourceType": 9,
+          "text": "因为追逐会拉长距离，跟谁拉长距离？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745028",
+          "sourceType": 9,
+          "text": "【|101|】",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745029",
+          "sourceType": 9,
+          "text": "是那个人类。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745030",
+          "sourceType": 9,
+          "text": "谁在乎那个人类？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745031",
+          "sourceType": 9,
+          "text": "那个窃贼，怪盗，她想要偷走|102|。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745032",
+          "sourceType": 9,
+          "text": "此刻现在。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6745033",
+          "sourceType": 9,
+          "text": "思考到行动前后不超过一秒，一抹绿色的暗影略过，将几欲失去理智的手办阻拦得瘫倒在地上。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-308",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6745001,
+            6745002,
+            6745003,
+            6745004,
+            6745005,
+            6745006,
+            6745007,
+            6745008,
+            6745009,
+            6745010,
+            6745011,
+            6745012,
+            6745013,
+            6745014,
+            6745015,
+            6745016,
+            6745017,
+            6745018,
+            6745019,
+            6745020,
+            6745021,
+            6745022,
+            6745023,
+            6745024,
+            6745025,
+            6745026,
+            6745027,
+            6745028,
+            6745029,
+            6745030,
+            6745031,
+            6745032,
+            6745033
+          ],
+          "sectionId": 6745
+        }
+      ],
+      "title": "本能理论·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6760001",
+          "sourceType": 9,
+          "text": "爱猫社区，停止追逐后的一分钟。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760002",
+          "sourceType": 9,
+          "text": "坏事做多后会下地狱。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760003",
+          "sourceType": 9,
+          "text": "我发自内心渴望这一天来临。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760004",
+          "sourceType": 9,
+          "text": "说法不对，麻木的人没有渴望。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760005",
+          "sourceType": 9,
+          "text": "还是没有心？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760006",
+          "sourceType": 9,
+          "text": "但想不到变成如今不疼不痒的塑料姿态。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760007",
+          "sourceType": 9,
+          "text": "塑料无法感受痛觉，以前的这副身体也是。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760008",
+          "sourceType": 9,
+          "text": "自然降解的时间约为200年，所以居然获得了长生？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760009",
+          "sourceType": 9,
+          "text": "先生一定很爱这个名为“人类”的世界。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760010",
+          "sourceType": 9,
+          "text": "连接唤醒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760011",
+          "sourceType": 9,
+          "text": "调查12:00截至目前途经或接近爱猫社区坐标386.426的所有载客、乘用车辆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760012",
+          "sourceType": 9,
+          "text": "或可容纳50kg人类收纳装置，反斗坦克、喷气摩托、飞行器械。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760013",
+          "sourceType": 9,
+          "text": "留意一切化工合成人、械造人……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760014",
+          "sourceType": 9,
+          "text": "错误……已自动为您修正为灵长类生物。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760015",
+          "sourceType": 9,
+          "text": "留意他们与【|101|】的接触。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6760016",
+          "sourceType": 9,
+          "text": "断开连接。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6765001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "2",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765002",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "1",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "可以站起来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765004",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "低级的欲望通过放纵就能获取。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "高级的欲望，",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "只有通过克制才能拥有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "在被怪盗预告一脸的情况下，反而主动离你们的主人【|101|】越来越远。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "看出来了，你们比嘴上更爱|102|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "算了，一旦跟那个人类扯上关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "总是会看起来不太聪明的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "拉我一把。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "手套有微型便携甲苯溶剂，一秒腐蚀硬塑料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "靠自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "那边的两个，还不快点的话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6765016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我猜怪盗现在已经摸到了你们主人的大腿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770001",
+          "sourceType": 9,
+          "text": "爱猫社区，折返回家的路上，宽阔的路面此刻突然被一众柴可夫斯鸡围堵得水泄不通。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6770002",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "噢，瞧瞧，瞧瞧我亲爱的老伙计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770003",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦，该死，还有我们迷人的姑娘，我的甜心。我说你省省吧，别再不停散播你那该死的魅力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770004",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "看在上帝的份上，今日我们欢聚于此，控诉人类，这群心肠比黑面包还硬的吸血鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770005",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "这群坏透了的土拨鼠，我是说，看看他们都把我们折磨成什么样子了。我恨不得穿上麦克叔叔家的皮靴子，狠狠踹他们的屁股。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770006",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哪里有压迫，哪里就有，哦是的反抗，当然如此我亲爱的朋友们，我的意思是，没有比这更让人反抗的了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770007",
+          "sourceType": 5,
+          "speaker": "奥斯卡爵士",
+          "text": "建立圣光在上玛利亚保佑的柴可夫斯鸡火星移民国度，我们的立场是如此的坚定！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6770008",
+          "sourceType": 5,
+          "speaker": "奥斯卡爵士",
+          "text": "见鬼，让人类都下地狱吧，我发誓我会付出生命。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-309",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6760001,
+            6760002,
+            6760003,
+            6760004,
+            6760005,
+            6760006,
+            6760007,
+            6760008,
+            6760009,
+            6760010,
+            6760011,
+            6760012,
+            6760013,
+            6760014,
+            6760015,
+            6760016
+          ],
+          "sectionId": 6760
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6765001,
+            6765002,
+            6765003,
+            6765004,
+            6765005,
+            6765006,
+            6765007,
+            6765008,
+            6765009,
+            6765010,
+            6765011,
+            6765012,
+            6765013,
+            6765014,
+            6765015,
+            6765016
+          ],
+          "sectionId": 6765
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6770001,
+            6770002,
+            6770003,
+            6770004,
+            6770005,
+            6770006,
+            6770007,
+            6770008
+          ],
+          "sectionId": 6770
+        }
+      ],
+      "title": "本能理论·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6785001",
+          "sourceType": 9,
+          "text": "爱猫社区，控诉人类并打算移民火星的柴可夫斯鸡集会将道路围绕的水泄不通。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785002",
+          "sourceType": 9,
+          "text": "柴可夫斯鸡1号踱着小步子入场控诉人类罪行。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785003",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "我是一只生活在一个普通人类家庭的一只普通的鸡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785004",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "曾经也梦想着为人类带来乐趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785005",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "天可怜见，亲爱的主人盯着亚克力柜的白毛长腿手办一看就是一整天，可是像我这样的小丑他却从不肯多看一眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785006",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "生为一只鸡，想被叫一声老公、老婆就这么难吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785007",
+          "sourceType": 5,
+          "speaker": "柴可夫斯鸡",
+          "text": "其实我也可以拥有光滑香嫩的肌肤和修长优雅的大长腿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785008",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦天呐，这是真的吗？我的老伙计，真不敢相信自己的耳朵。看在上帝的份上，我保证！他们的恶行将受到正义的惩罚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785009",
+          "sourceType": 9,
+          "text": "柴可夫斯鸡2号踱着小步子入场控诉人类罪行。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785010",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "呐，米娜桑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785011",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "鸡酱脸上今天又增加了新的疤呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785012",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "这样自己是懦弱的吧，总是被主人踩在脚下的话，总有一天会坏掉的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785013",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "死掉的话是不是就可以快乐一点，呐，呐呐，一定是的吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785014",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "真该死！我可怜的心肝宝贝儿，我是说，你为什么不把他的头打成马蜂窝呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785015",
+          "sourceType": 9,
+          "text": "柴可夫斯鸡3号踱着小步子入场控诉人类罪行。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785016",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "很快乐，也很痛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785017",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "你看过那些漆黑的、没有尽头的隐秘隧道么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785018",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "你听过那些嘶吼的、崩出灵魂的欲望呼喊么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785019",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "是玩具么？又或者，是别的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785020",
+          "sourceType": 0,
+          "speaker": "柴可夫斯鸡",
+          "text": "当再一次抬头时，太阳，早已刺痛了我的眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785021",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦，我的小宝贝，是的没错，你只不过是把自己那颗可怜的心弄丢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785022",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "而人类，那帮疯狂的家伙，我担保，这份丑恶的行径，即使是魔鬼看到也会忍不住诅咒他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785023",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "人类真的无法无天了吗？身为柴可夫斯鸡的我们什么时候才能站起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785024",
+          "sourceType": 5,
+          "speaker": "奥斯卡爵士",
+          "text": "亲爱哒，我们并不是一个人对抗着屠戮的暴行，别的同胞们，是的，她们也将带给我们勇气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785025",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "伙计们，用最甜的蜜和酒把她们请上来，哦天可怜见，我已经快要等不及了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785026",
+          "sourceType": 9,
+          "text": "优纪、和江、花迦及凛在无可抗拒的人潮推搡下，被围在了柴可夫斯鸡集会的最中央。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785027",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦，美丽的女郎，为什么不美言上几句呢？你的嘴唇一旦开口，亲爱的，就像是蜂吐出了肚子里的蜜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785028",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "让开！放我出去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785029",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "不错，这真不错，我是说这真的相当不错。上帝会保佑你的，亲爱的，我想可能的话，他一定会的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785030",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "不可思议，还有这位迷人的姑娘，见到你真是太好了，这头容光焕发的黑发，麦格婶婶看了也会像苍蝇那样兴奋地搓搓手的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785031",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785032",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦！该死，真该死！瞧瞧，她居然是个哑巴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785033",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "上帝保佑，你可以为我唱首《小猫咪》么。哦豁豁豁，别往心里去亲爱的，因为我现在改变主意了，我又改回来了，我又改回去了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785034",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦，还有一位，我迷人的小姐，尊贵的警探大……哦不，我是说，这位美丽动人的女士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785035",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785036",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "不论你答不答应，是的，即使要那该死的魔鬼夺走我炽热的热情，我也要，是的，我也要拉着你的手……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785037",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "好的我牵到了，哦，这是什么味道，我知道的，一定是魔鬼在您的身上打了一个不怎么优美的嗝，我想一定是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785038",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "哦！无意冒犯，这是什么？一摊狗屎，您身上有一滩狗屎？这可真蠢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785039",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "蠢东西，快给我过来，对，就是你，你这没有荣誉感老蠢货，我是说，快好好为咱们美丽的小姐洗一洗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785040",
+          "sourceType": 0,
+          "speaker": "奥斯卡爵士",
+          "text": "当然了，如果可能的话，那最好是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6785041",
+          "sourceType": 9,
+          "text": "戴着小圆镜的奥斯卡爵士如鱼得水般从集群中滑落而出。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785042",
+          "sourceType": 9,
+          "text": "哦！我的上帝，柴可夫斯鸡的变装玩具真是像苏珊姑妈织的棉袄一样，热透了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785043",
+          "sourceType": 9,
+          "text": "不过，能暂时拖住她们一阵，还算不错吧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785044",
+          "sourceType": 9,
+          "text": "爱猫社区的另一边，无数尖叫鸡涌上去七嘴八舌的议论，似乎要将4个手办吞没。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785045",
+          "sourceType": 9,
+          "text": "领头的那只。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785046",
+          "sourceType": 9,
+          "text": "……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6785047",
+          "sourceType": 9,
+          "text": "已经，逃走了吗？",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-310",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6785001,
+            6785002,
+            6785003,
+            6785004,
+            6785005,
+            6785006,
+            6785007,
+            6785008,
+            6785009,
+            6785010,
+            6785011,
+            6785012,
+            6785013,
+            6785014,
+            6785015,
+            6785016,
+            6785017,
+            6785018,
+            6785019,
+            6785020,
+            6785021,
+            6785022,
+            6785023,
+            6785024,
+            6785025,
+            6785026,
+            6785027,
+            6785028,
+            6785029,
+            6785030,
+            6785031,
+            6785032,
+            6785033,
+            6785034,
+            6785035,
+            6785036,
+            6785037,
+            6785038,
+            6785039,
+            6785040,
+            6785041,
+            6785042,
+            6785043,
+            6785044,
+            6785045,
+            6785046,
+            6785047
+          ],
+          "sectionId": 6785
+        }
+      ],
+      "title": "本能理论·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "6805001",
+          "sourceType": 9,
+          "text": "爱猫社区，柴可夫斯鸡集群由于群龙无首很快四散离去，手办们在急速地狂奔之中已经十分接近家的地点。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805002",
+          "sourceType": 9,
+          "text": "落在地上的圆镜、胡须，变装外套。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805003",
+          "sourceType": 9,
+          "text": "她在主动地周旋。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805004",
+          "sourceType": 9,
+          "text": "故意暴露给我看吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805005",
+          "sourceType": 9,
+          "text": "在试图传达什么信息？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805006",
+          "sourceType": 9,
+          "text": "胜利的挑衅？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805007",
+          "sourceType": 9,
+          "text": "已经成功抓到了，名为【|101|】的人类吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805008",
+          "sourceType": 9,
+          "text": "不，我要二次确认。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805009",
+          "sourceType": 9,
+          "text": "这一次不再使用眼睛和耳朵。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805010",
+          "sourceType": 9,
+          "text": "而是切实地触碰，感知。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805011",
+          "sourceType": 9,
+          "text": "我会让虚妄无从遁形。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805012",
+          "sourceType": 9,
+          "text": "信号尝试接入。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805013",
+          "sourceType": 9,
+          "text": "主动联络的权限？谁颁布的密匙准许？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805014",
+          "sourceType": 9,
+          "text": "这帮家伙还不清楚吗？单方向的贸然的联络有时候会葬送我的性命。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805015",
+          "sourceType": 9,
+          "text": "允许。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805016",
+          "sourceType": 9,
+          "text": "调查12:00截至目前途经或接近爱猫社区坐标386.426的所有载客、乘用车辆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805017",
+          "sourceType": 9,
+          "text": "目标确定。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805018",
+          "sourceType": 9,
+          "text": "储存物料单元移动集装设备，与目标【|101|】触达率，100%",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805019",
+          "sourceType": 9,
+          "text": "触达时间：12:30，汽车品牌：FULI物流。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805020",
+          "sourceType": 9,
+          "text": "无法施展子局部破坏。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805021",
+          "sourceType": 9,
+          "text": "无法施展子局部破坏。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805022",
+          "sourceType": 9,
+          "text": "已将【|101|】抓捕到手。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805023",
+          "sourceType": 9,
+          "text": "并尝试通过物流设备实施转移吗？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805024",
+          "sourceType": 9,
+          "text": "连接终止。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6805025",
+          "sourceType": 9,
+          "text": "单方向强制断开。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810001",
+          "sourceType": 9,
+          "text": "爱猫社区，家方圆1米。一辆物流车正执行点火装置，即将启动。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810002",
+          "sourceType": 9,
+          "text": "物流车上装有可容纳成人大小的木箱。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810003",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "那辆卡车！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810004",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我们兵分两路进行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我前往运载工具进行调查。\n你们三人负责折返回家进行针对【|101|】目标的二次存在确认。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "明白吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "好，交给我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810008",
+          "sourceType": 9,
+          "text": "毫无征兆之下，物流车上装载的木箱突然内突然传来【|101|】的呼喊。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810009",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "救命！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810010",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "救命啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810011",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "主人的声音！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810012",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "车辆……启动了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6810013",
+          "sourceType": 9,
+          "text": "凛在第一时间朝卡车尾部抛出匕首钩锁。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810014",
+          "sourceType": 9,
+          "text": "和江、优纪与花迦本能反应下抓住了凛的身体。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6810015",
+          "sourceType": 9,
+          "text": "在物流车的疾驰之下，钩锁上的手办在空中剧烈地上下晃动，急速前进。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6815001",
+          "sourceType": 9,
+          "text": "晚间5:00，物流卡车疾驰在郊野。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6815002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "光是沿着铁索攀爬上来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "身体就已经接近极限了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "好大的风。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815005",
+          "sourceType": 5,
+          "speaker": "岩田和江",
+          "text": "抓紧我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "【|101|】！【|101|】！你在箱子里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "为什么你不回答优纪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜呜，你是不是死了，是不是死了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815009",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "哇啊啊啊啊啊——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "抓到你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "要殉情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815012",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "真是羡慕你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6815013",
+          "sourceType": 9,
+          "text": "不会吧！【|101|】|103|可是好端端地待在人家的箱子里呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6815014",
+          "sourceType": 9,
+          "text": "？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6820001",
+          "sourceType": 9,
+          "text": "好不容易才生擒的猎物。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "6820002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "怎么忍心让|102|就如此轻易地……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "6820003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "死掉呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-311",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6805001,
+            6805002,
+            6805003,
+            6805004,
+            6805005,
+            6805006,
+            6805007,
+            6805008,
+            6805009,
+            6805010,
+            6805011,
+            6805012,
+            6805013,
+            6805014,
+            6805015,
+            6805016,
+            6805017,
+            6805018,
+            6805019,
+            6805020,
+            6805021,
+            6805022,
+            6805023,
+            6805024,
+            6805025
+          ],
+          "sectionId": 6805
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6810001,
+            6810002,
+            6810003,
+            6810004,
+            6810005,
+            6810006,
+            6810007,
+            6810008,
+            6810009,
+            6810010,
+            6810011,
+            6810012,
+            6810013,
+            6810014,
+            6810015
+          ],
+          "sectionId": 6810
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6815001,
+            6815002,
+            6815003,
+            6815004,
+            6815005,
+            6815006,
+            6815007,
+            6815008,
+            6815009,
+            6815010,
+            6815011,
+            6815012,
+            6815013,
+            6815014
+          ],
+          "sectionId": 6815
+        },
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            6820001,
+            6820002,
+            6820003
+          ],
+          "sectionId": 6820
+        }
+      ],
+      "title": "本能理论·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 48,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 48,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "世界冰冷残酷，\n所以你明知虚妄，也甘愿沉沦。",
+  "title": "本能理论",
+  "wordCount": 4172
+}

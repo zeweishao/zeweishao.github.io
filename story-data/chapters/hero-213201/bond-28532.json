@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-213201",
+  "id": "bond-28532",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28532001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "这是什么，一座狗屋？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28532003",
+              "text": "……"
+            }
+          ],
+          "sourceId": "28532002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28532003",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "虽然有些简陋，但「王子」收到的话，应该也会高兴吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28532005",
+              "text": "……「王子」？"
+            }
+          ],
+          "sourceId": "28532004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28532005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "「王子」是一只西伯利亚哈士奇犬，我十岁时捡到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28532006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样阿……卡缪一定很想念它吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28532007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "一条狗罢了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28532009",
+              "text": "……"
+            }
+          ],
+          "sourceId": "28532008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28532009",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "怎么，没有话要对我说吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28532011",
+              "text": "一时间不知道该说什么。"
+            },
+            {
+              "targetId": "28532011",
+              "text": "今天太阳很好。"
+            }
+          ],
+          "sourceId": "28532010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28532011",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "既然这样，要不要加入我的亲卫队？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28532012",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "虽然是个听起来有点蠢的东西，但你在的话，我会破格关注一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28532013",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "神，不爱他的子民，\n但会眷顾他的亲卫队。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28532015",
+              "text": "这算是感激吗？"
+            },
+            {
+              "targetId": "28532015",
+              "text": "这是邀请吗？"
+            }
+          ],
+          "sourceId": "28532014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28532015",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "不，这是恩赐。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28532",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28532001,
+            28532002,
+            28532003,
+            28532004,
+            28532005,
+            28532006,
+            28532007,
+            28532008,
+            28532009,
+            28532010,
+            28532011,
+            28532012,
+            28532013,
+            28532014,
+            28532015
+          ],
+          "sectionId": 28532
+        }
+      ],
+      "title": "哈士奇「王子」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "哈士奇「王子」",
+  "wordCount": 205
+}

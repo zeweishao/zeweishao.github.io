@@ -1,0 +1,1411 @@
+{
+  "bookId": "rewind-40",
+  "id": "chapter-160",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35508001",
+          "sourceType": 0,
+          "speaker": "玲",
+          "text": "这是玲特制的爱心炒饭味涂料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508002",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿吼！再来尝尝哈莉的火爆龙虾，辣到爆炸！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "哼哼，居然没有准备米菲亚最爱吃的小鱼干吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "当然有，特制的鱼干味涂料，快尝尝看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这还差不多喵~\n不过总觉得哪里不对……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "是味道不对劲吗，我看看……涂料没有过保质期啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "我知道了，因为大喇叭不在，太安静了不习惯喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "啊，都七点了！萝贝卡居然还没回来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "说不定在哪里一个人躲着偷偷哭呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "这么晚了一个人在外面很危险，我们一会还是出去找下她吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508011",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "梅根怎么不来，她不是最担心大家的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508012",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "我出去看看，顺便去叫下梅根队长，她好像刚才就有事在忙。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35508014",
+              "text": "那边很热闹的样子，梅根你怎么不去和她们一起?"
+            }
+          ],
+          "sourceId": "35508013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35508014",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "你在的地方很安静，适合思考一些事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508015",
+          "sourceType": 3,
+          "text": "嘀嗒——嘀嗒——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35508016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "十分钟里你看了四次怀表，你好像从下午就一直有烦心事的样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508017",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "一些小事，不用担心。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35508019",
+              "text": "是因为萝贝卡吗？"
+            },
+            {
+              "targetId": "35508019",
+              "text": "是因为米菲亚吗？"
+            }
+          ],
+          "sourceId": "35508018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35508019",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "还是被你看出来了，不愧是你……部分是因为她们俩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "米菲亚和萝贝卡都是很有个性的队员啊，相处起来难免有点摩擦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508021",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "是的，让队员们和睦相处也是我这个队长应该担负的责任，但是结果……让你见笑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感情和羁绊并不是刻意相处出来的，而是共同经历造就的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508023",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "就像这块怀表的主人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "梅根可是永远站在大家面前的「玛尔斯之盾」啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508025",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "但是，盾牌只能抵挡外部的伤害，而内部的问题……我知道萝贝卡很委屈，米菲亚也不开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "难得见到你脆弱苦恼的一面呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508027",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "不好意思，我会处理好的。欢迎晚宴结束，我会去把萝贝卡找回来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "危机其实是加深感情的最好方式。唔，我想到了一个办法，要听听看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508029",
+          "sourceType": 3,
+          "text": "嘀嗒——嘀嗒——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35508030",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "这种方法……怎么能行，太危险了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "放心，我倒是知道有两个人一定能办好这件事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35508032",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "不行，一定会被发现的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35508034",
+              "text": "偶尔也希望梅根可以信赖一下我的。"
+            }
+          ],
+          "sourceId": "35508033",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35508034",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "听上去……我也没有拒绝的理由了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-832",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35508001,
+            35508002,
+            35508003,
+            35508004,
+            35508005,
+            35508006,
+            35508007,
+            35508008,
+            35508009,
+            35508010,
+            35508011,
+            35508012,
+            35508013,
+            35508014,
+            35508015,
+            35508016,
+            35508017,
+            35508018,
+            35508019,
+            35508020,
+            35508021,
+            35508022,
+            35508023,
+            35508024,
+            35508025,
+            35508026,
+            35508027,
+            35508028,
+            35508029,
+            35508030,
+            35508031,
+            35508032,
+            35508033,
+            35508034
+          ],
+          "sectionId": 35508
+        }
+      ],
+      "title": "猫的天敌·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35509001",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "这个时间萝贝卡还没回来，要辛苦大家一起去附近找找她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "一个女生走在外面很危险，我和葵去周围问问。米菲亚要一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509003",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这种小事，应该轮不到我出马吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509004",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "萝贝卡今天又逃训了——咦，这么晚了，你们要去哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509005",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "什么，萝贝卡准备的欢迎礼物里装满了哈莉的炸药？还离家出走了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509006",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "没关系，习惯了，我不会和幼稚园小朋友计较的喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509007",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "看来是我之前的做法太温柔，才让她越来越任性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "唉？也不能全都怪萝贝卡吧……我也有责任的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你们还去不去找她了喵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509010",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "我和你们一起去找。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509011",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "酒井教练在的话，一定能很快找到她的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509012",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "真辛苦，应该不需要我帮忙吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509013",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "嗯，麻烦米菲亚在基地，萝贝卡也可能随时会回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35509014",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "放心，我一定会好好待在家欢迎她回来的喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿吼吼！！萝贝卡！你在这里吗！喂——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510002",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "谁会藏在水缸里啊，哈莉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "孤独是人鱼的宿命，请不要来打扰我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你有没有看见萝贝卡？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "刺刀和墙壁触碰发出的刺耳声音，是女孩对命运不甘的抗争吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510006",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "水缸上有个箭头，难道是萝贝卡用刺刀留下的记号吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35510007",
+          "sourceType": 3,
+          "text": "噗通——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35511001",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "葵，你看这个痕迹，像不像是萝贝卡的刺刀留下的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511002",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔……这画的是螃蟹？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511003",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "是猫咪小姐，这边画的是土豆，奥菲利亚和向日葵！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511004",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "哎？樱怎么一个人在这里？夜里独自出门很危险的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "哼哼，你是在小瞧磨坊堡主人的实力吗？有本王陪着她一起！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511006",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "原来莉可也在啊，请问你们有见过萝贝卡吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "当然没有！她不让本王说见过她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511008",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "这样吗，那莉可一定也不知道萝贝卡往哪边走了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "作为魔王，我当然知道她往左边去了，但是我不会告诉你的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511010",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "谢谢魔王莉可大人。哎，葵在看什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511011",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "呣……樱在旁边画的是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511012",
+          "sourceType": 0,
+          "speaker": "樱·晴雨信箱",
+          "text": "会飞的狐狸先生，樱看到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "笨蛋樱，本王都说了狐狸不会飞！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511014",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "猫咪、狐狸还有一堆蔬菜？看起来很有趣呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35511015",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "走吧，葵，我们还要去找萝贝卡呢，莉可说的左边……那好像是光秀花店？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-833",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35509001,
+            35509002,
+            35509003,
+            35509004,
+            35509005,
+            35509006,
+            35509007,
+            35509008,
+            35509009,
+            35509010,
+            35509011,
+            35509012,
+            35509013,
+            35509014
+          ],
+          "sectionId": 35509
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35510001,
+            35510002,
+            35510003,
+            35510004,
+            35510005,
+            35510006,
+            35510007
+          ],
+          "sectionId": 35510
+        },
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35511001,
+            35511002,
+            35511003,
+            35511004,
+            35511005,
+            35511006,
+            35511007,
+            35511008,
+            35511009,
+            35511010,
+            35511011,
+            35511012,
+            35511013,
+            35511014,
+            35511015
+          ],
+          "sectionId": 35511
+        }
+      ],
+      "title": "猫的天敌·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35512001",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "啊呀，客人们都是来买花的吗，请问是送人还是自用呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512002",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "不是的，店长，我们是来找人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512003",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "明智店长，请问你看到过一个拿着刺刀的双马尾小女孩吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512004",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "呵呵，抱歉，小生忙着看顾花店，并没有留意到什么人出现过呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512005",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "但是萝贝卡留下的痕迹消失在了花店附近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512006",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "嗯……真是奇怪呢，难道她是故意让你们找错地方吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512007",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "萝贝卡很会撒娇，可能有谁心软收留她了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512008",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "呵呵，梅根队长难道是在怀疑我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512009",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "只是提醒店主留心一下。如果不介意的话，能让我们进花店看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512010",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "原则上打烊了以后是不接待客人的，不过是梅根队长的话，请——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512011",
+          "sourceType": 3,
+          "text": "哐！啪啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35512012",
+          "sourceType": 0,
+          "speaker": "奥菲利亚",
+          "text": "啊！好像有什么东西碎了，店长不进去看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512013",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "嗯，糟糕……一定又是野猫跑了进来，昨天晚上就被打碎了几盆猫薄荷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512014",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "既然这样，我们就不进去了。如果店长看到萝贝卡，请务必告诉她早点回家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512015",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "这是自然，不过说不定，小姑娘玩腻了就会乖乖回家了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512016",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "好了，她们走了。你可以出来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512017",
+          "sourceType": 3,
+          "text": "哐啷——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35512018",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "小心！在下的茄子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512019",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "啊啊啊哎？呼，好险，接住了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512020",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "店长，你就收留我一晚上嘛，就一晚上好不好，我肯定不会给你添麻烦的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512021",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "十分抱歉，本店不提供借宿服务哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512022",
+          "sourceType": 3,
+          "text": "叮咚叮铃——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35512023",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "抱歉，本店今天已经打烊了——哦呀，稀客呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512024",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "你、你、你怎么找到这里的？千万别告诉梅根她们我在这！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512025",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "哎呀，不知不觉和光秀兄下棋下到这么晚了，在下该告辞了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512026",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "孔明请先留步，有件事情想要拜托你们，关于萝贝卡和米菲亚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512027",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "还是走慢了。你看，麻烦这么快就找上门了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……事情大概就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512029",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "呜哇哇哇，主人你最好了！帮我一起教训那只坏猫咪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512030",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "米菲亚……小生想起来了。她差点让猫打碎小生店里所有的猫薄荷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512031",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "是早晨那个小姑娘。巧了，我夜观星象，天狼星大亮，光秀兄定有妙计，在下先走——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512032",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "呵呵，且慢。小生倒是有个办法能让事情变得更有趣，不过需要孔明兄的配合。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35512033",
+          "sourceType": 0,
+          "speaker": "萝贝卡",
+          "text": "主人主人主人，你快让这个帅气的大哥哥帮个忙嘛~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35512035",
+              "text": "真拿你没办法，孔明……"
+            }
+          ],
+          "sourceId": "35512034",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35512035",
+          "sourceType": 0,
+          "speaker": "诸葛孔明",
+          "text": "既然是你的请求，哎呀哎呀，看来这次要费点力气了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-834",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35512001,
+            35512002,
+            35512003,
+            35512004,
+            35512005,
+            35512006,
+            35512007,
+            35512008,
+            35512009,
+            35512010,
+            35512011,
+            35512012,
+            35512013,
+            35512014,
+            35512015,
+            35512016,
+            35512017,
+            35512018,
+            35512019,
+            35512020,
+            35512021,
+            35512022,
+            35512023,
+            35512024,
+            35512025,
+            35512026,
+            35512027,
+            35512028,
+            35512029,
+            35512030,
+            35512031,
+            35512032,
+            35512033,
+            35512034,
+            35512035
+          ],
+          "sectionId": 35512
+        }
+      ],
+      "title": "猫的天敌·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35513001",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "就是这里吗……你们说看到的什么可疑危险手办喵？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这么黑，不像是大喇叭敢来的地方，难道是和谁约好了在这见面？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513003",
+          "sourceType": 0,
+          "speaker": "肥猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "嘻嘻，看我怎么戳穿她……嘘，脚步声，有人来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513005",
+          "sourceType": 0,
+          "speaker": "拿着刺刀的身影",
+          "text": "一如既往的很准时。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513006",
+          "sourceType": 0,
+          "speaker": "奇怪的女人",
+          "text": "呵呵，一些刻在骨子里改不掉的习惯。你也十分准时。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513007",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "准时？她果然是假装离家出走！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "不对，大喇叭什么时候多了一把刺刀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513009",
+          "sourceType": 0,
+          "speaker": "拿着刺刀的身影",
+          "text": "东西带来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513010",
+          "sourceType": 0,
+          "speaker": "奇怪的女人",
+          "text": "自然。手办化之后，虽然能进行更细致的雕刻，但得重新习惯锯子大小，不然应该能更早完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513011",
+          "sourceType": 0,
+          "speaker": "拿着刺刀的身影",
+          "text": "这，这是多么精美的艺术品！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513012",
+          "sourceType": 0,
+          "speaker": "拿着刺刀的身影",
+          "text": "完美凝固了死者生前痛苦与挣扎的表情，难以想象的生动，像是亲眼见到了那一幕一样。\n我已经想到了要如何将它做成雕像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513013",
+          "sourceType": 0,
+          "speaker": "奇怪的女人",
+          "text": "呵呵，不止是亲眼所见……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513014",
+          "sourceType": 0,
+          "speaker": "奇怪的女人",
+          "text": "我还亲自为他挑选了墓碑和墓志铭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513015",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "塞西尔你真是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513016",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "太了解死亡的艺术了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513017",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "遇到你之前，我只是一个人每夜在这孤独徘徊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513018",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "但是你给了我灵感！作为幽灵，我应该去主动创造艺术！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513019",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵呵，很荣幸。我不过是见得多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513020",
+          "sourceType": 7,
+          "text": "塞西尔 · 微笑死神\n商品名称：塞西尔·微笑死神Ver.\n作品出处：《少女X机关枪》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约247mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "35513021",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "你喜欢这次的蛋雕就好，我给这幅作品起的名字是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513022",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "死者？痛苦挣扎？墓碑？！！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513023",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "幽灵？做成雕像？创造死亡？！！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513024",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "这两个人是什么奇怪的恐怖艺术家？大喇叭要是落到她们手里了……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513025",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你，去把哈莉找过来，就是那个早上用烟花炸你的手办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513026",
+          "sourceType": 0,
+          "speaker": "肥猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35513027",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "猫叫？呵呵……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-835",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35513001,
+            35513002,
+            35513003,
+            35513004,
+            35513005,
+            35513006,
+            35513007,
+            35513008,
+            35513009,
+            35513010,
+            35513011,
+            35513012,
+            35513013,
+            35513014,
+            35513015,
+            35513016,
+            35513017,
+            35513018,
+            35513019,
+            35513020,
+            35513021,
+            35513022,
+            35513023,
+            35513024,
+            35513025,
+            35513026,
+            35513027
+          ],
+          "sectionId": 35513
+        }
+      ],
+      "title": "猫的天敌·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "35514001",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "作品的名字是猫叫？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514002",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "非常奇特的名字。黑猫象征着不详和厄运，并且在很多神话中都与死者复苏相关……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514003",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "所以你是用猫叫来隐喻不祥吗？非常艺术……不愧是塞西尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514004",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵呵，并不是，只是听到了一声奇怪的猫叫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514005",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "相反，与不详和厄运无关，这幅作品的名字叫白昼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514006",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "白昼？就像描绘地狱的书，书名却叫神曲一样吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514007",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "嗯……意外的解读，但是非常合适。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514008",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "对我来说，这位达斯特上将的去世，象征着白昼的开始呢……呵呵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514009",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "既然这样，我也要创作出配得上的雕像作品，不能辜负幽灵雕刻师的名号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514010",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "雕刻大型作品比较花费时间吧，不如将时间放长一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514011",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "明天的约会先取消，等你雕刻完成后我会亲自上门拜访的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514012",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "唔……虽然很想继续每天和塞西尔探讨艺术。\n但雕刻这种作品确实需要全身心的投入。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514013",
+          "sourceType": 0,
+          "speaker": "奇萝",
+          "text": "好吧，那我先走了，已经迫不及待想动手了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514014",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "呵呵，我也十分期待成品。路上小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514015",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "要玩捉迷藏吗，小野猫？还是不敢见人的小老鼠？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514016",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "再不出来，就把你们全都装进棺材里哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514017",
+          "sourceType": 2,
+          "speaker": "米菲亚",
+          "text": "怎么可能，她竟然能发现我？",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514018",
+          "sourceType": 0,
+          "speaker": "狂霸虎",
+          "text": "可恶，竟然被你发现了。那我们也摊牌了，兄弟们一起上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514019",
+          "sourceType": 0,
+          "speaker": "绿斩仙",
+          "text": "三弟，我们绿林兄弟会的生死存亡就靠你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514020",
+          "sourceType": 0,
+          "speaker": "熊傲天",
+          "text": "可是，大哥二哥，我们不是来找那个猫的麻烦吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514021",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "原来是来找你的啊，躲在树上的小猫咪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514022",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "就是你们害我被这个棺材脸发现了！等下精神损失费……要赔我一百条小鱼干！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514023",
+          "sourceType": 3,
+          "text": "轰隆——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35514024",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "你干嘛！乱砍花花草草，是要赔钱的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514025",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "我讨厌有人站在上面和我说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514026",
+          "sourceType": 0,
+          "speaker": "绿斩仙",
+          "text": "大、大、大哥，她把树锯倒了！我们好像打不过这个女人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514027",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "才认识到这件事吗？喂，棺材脸，你把萝贝卡藏哪了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35514028",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "嗯……你们是想一起去地下陪她吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-836",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35514001,
+            35514002,
+            35514003,
+            35514004,
+            35514005,
+            35514006,
+            35514007,
+            35514008,
+            35514009,
+            35514010,
+            35514011,
+            35514012,
+            35514013,
+            35514014,
+            35514015,
+            35514016,
+            35514017,
+            35514018,
+            35514019,
+            35514020,
+            35514021,
+            35514022,
+            35514023,
+            35514024,
+            35514025,
+            35514026,
+            35514027,
+            35514028
+          ],
+          "sectionId": 35514
+        }
+      ],
+      "title": "猫的天敌·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 160,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 160,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "102",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "象征不祥的黑猫",
+  "title": "猫的天敌",
+  "wordCount": 3368
+}

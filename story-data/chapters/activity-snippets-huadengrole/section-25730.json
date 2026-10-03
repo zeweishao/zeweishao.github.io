@@ -1,0 +1,132 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25730",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25730001",
+          "sourceType": 10,
+          "text": "龙王大人的另一面",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25730002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "比起柯斯顿城，这里的一切都显得很局促。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25730004",
+              "text": "龙王大人见谅。"
+            }
+          ],
+          "sourceId": "25730003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25730004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾、吾并没有说这里不好，相反，这里的一切都让吾觉得亲切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25730005",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这就是你为吾准备的花灯工作台么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25730007",
+              "text": "果然……太小了吗？"
+            }
+          ],
+          "sourceId": "25730006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25730007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "刚刚好，所有的设备都很齐全，值得吾对你夸赞一番。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25730008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "人类，吾现在郑重地命令你——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25730010",
+              "text": "龙王有何指教？"
+            }
+          ],
+          "sourceId": "25730009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25730010",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "要对吾接下来所要做的一切充满期待，因为吾这次是有备而来，绝对会让你大开眼界。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25730",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25730001,
+            25730002,
+            25730003,
+            25730004,
+            25730005,
+            25730006,
+            25730007,
+            25730008,
+            25730009,
+            25730010
+          ],
+          "sectionId": 25730
+        }
+      ],
+      "title": "龙王大人的另一面"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25730,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "44",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "对于从未接触过手作花灯的龙王大人来说，这是一项有趣多于挑战的工作。",
+  "title": "龙王大人的另一面",
+  "wordCount": 170
+}

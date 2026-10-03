@@ -1,0 +1,84 @@
+{
+  "bookId": "hero-213103",
+  "id": "bond-26015",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26015001",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "你好，我是初音未来，可以叫我Miku。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26015002",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "你看起来有些消沉，是遇到什么困难了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26015005",
+              "text": "是的，不太顺利。"
+            },
+            {
+              "targetId": "26015005",
+              "text": "还好，只是有些累。"
+            }
+          ],
+          "sourceId": "26015003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26015004",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "如果感到失落，就躲进我的歌声里吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26015005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯！听完Miku的演唱，再次感觉活力满满了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26015",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26015001,
+            26015002,
+            26015003,
+            26015004,
+            26015005
+          ],
+          "sectionId": 26015
+        }
+      ],
+      "title": "练习"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213103",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "练习",
+  "wordCount": 94
+}

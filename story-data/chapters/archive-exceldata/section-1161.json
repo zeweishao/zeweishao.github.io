@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1161",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1161001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼哇！这件衣服真的很好看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1161002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不对不对！对于手办来说，应该不叫“衣服”，而是叫做“配件”才对！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1161003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "只要通关，就能够获得大量的“配件”唷！主人快点来试试看吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1161",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1161001,
+            1161002,
+            1161003
+          ],
+          "sectionId": 1161
+        }
+      ],
+      "title": "原文片段 1161"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1161
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1161",
+  "wordCount": 75
+}

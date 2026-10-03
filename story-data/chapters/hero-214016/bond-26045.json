@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-214016",
+  "id": "bond-26045",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26045001",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "又有新的手办上架了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好纠结，普通版和限定版，订哪个好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "买限定版是最低要求吧，换我的话绝对要双入！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "限定版的确更好看，但是价格贵了不少。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "相信自己的判断，这是为了爱！\n看到了吗，她的眼神在吸引你，她的笑容在呼唤你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就必须节省饮食开支才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不不，为了买周边饿肚子完全是颠倒主次......\n但是，限定版的手办也无法割舍......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "表情忽然变得好严肃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我想通了，爱是牺牲，也是成全。\n呐，卖掉我，和新手办一起幸福生活下去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么忽然冒出这种奇怪的想法......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "别担心，我并没有离你而去。我会化作你的执念，你的幻梦，化作附着在你每个手办上的一道灵魂！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26045012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然你的情意让人感动，但这幅画面听起来好可怕......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26045",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26045001,
+            26045002,
+            26045003,
+            26045004,
+            26045005,
+            26045006,
+            26045007,
+            26045008,
+            26045009,
+            26045010,
+            26045011,
+            26045012
+          ],
+          "sectionId": 26045
+        }
+      ],
+      "title": "限定版"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "限定版",
+  "wordCount": 297
+}

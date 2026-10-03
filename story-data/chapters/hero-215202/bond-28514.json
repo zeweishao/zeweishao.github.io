@@ -1,0 +1,209 @@
+{
+  "bookId": "hero-215202",
+  "id": "bond-28514",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28514001",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "您好……这……是什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28514003",
+              "text": "送给柔嘉的专属礼物。"
+            },
+            {
+              "targetId": "28514003",
+              "text": "是柔嘉的房子，和家。"
+            }
+          ],
+          "sourceId": "28514002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28514003",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "这样贵重的礼物……真的……真的要浪费在我身上吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514004",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "我……我这样的人……怎么能够……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "柔嘉想要一直陪伴在我身边吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514006",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "……嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那就必须收下它，这就是陪伴必须要承担的「后果」哦？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有，不可以再说「浪费」和「我这样的人」这种话了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514009",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "是……对不起……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28514011",
+              "text": "也不可以随便道歉。"
+            }
+          ],
+          "sourceId": "28514010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28514011",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "嗯……是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在柔嘉有什么感想要说吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514013",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "|101|是世上最温柔的人了，温柔……又很强大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "柔嘉也是世上最温柔的女孩子，温柔、漂亮又强大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514015",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "我……我还有一个愿望……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28514017",
+              "text": "嗯？"
+            }
+          ],
+          "sourceId": "28514016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28514017",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "我希望……|101|能交到更多，比我更好的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28514018",
+          "sourceType": 0,
+          "speaker": "柔嘉",
+          "text": "以后每一天，都要比现在更快乐。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28514",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28514001,
+            28514002,
+            28514003,
+            28514004,
+            28514005,
+            28514006,
+            28514007,
+            28514008,
+            28514009,
+            28514010,
+            28514011,
+            28514012,
+            28514013,
+            28514014,
+            28514015,
+            28514016,
+            28514017,
+            28514018
+          ],
+          "sectionId": 28514
+        }
+      ],
+      "title": "一个愿望"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215202",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "一个愿望",
+  "wordCount": 274
+}

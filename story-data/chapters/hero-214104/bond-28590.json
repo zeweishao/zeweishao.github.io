@@ -1,0 +1,188 @@
+{
+  "bookId": "hero-214104",
+  "id": "bond-28590",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28590001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘿！守规矩的人类，欢迎来到爱丽丝的收藏室！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哇！突然出现！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "吓到了吗！吓到了吧哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来是爱丽丝，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "没生气啊？果然还是有点无聊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你叫我过来之前，我就有心理准备了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590007",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "切~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28590009",
+              "text": "这是你的秘密收藏室吗？"
+            },
+            {
+              "targetId": "28590009",
+              "text": "谢谢爱丽丝愿意邀请我。"
+            }
+          ],
+          "sourceId": "28590008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28590009",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，一会儿可不要吓到啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？究竟是什么收藏品……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590011",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "锵锵~这是兔子先生和玫瑰小姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "兔子先生真可爱，呃……但是耳朵断了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590013",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "这是名为断耳兔子的收藏品，我的力作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "玫瑰小姐的颜色真好看，欸？这是白油漆涂在了红玫瑰上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590015",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "特制油漆，在皮肤上不容易掉色哟！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看样子，爱丽丝的收藏品都很与众不同呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590017",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "当然啦~而且……我觉得你也很特别！要不要也变成爱丽丝的收藏品呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28590018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28590",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28590001,
+            28590002,
+            28590003,
+            28590004,
+            28590005,
+            28590006,
+            28590007,
+            28590008,
+            28590009,
+            28590010,
+            28590011,
+            28590012,
+            28590013,
+            28590014,
+            28590015,
+            28590016,
+            28590017,
+            28590018
+          ],
+          "sectionId": 28590
+        }
+      ],
+      "title": "怪奇收藏"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "怪奇收藏",
+  "wordCount": 280
+}

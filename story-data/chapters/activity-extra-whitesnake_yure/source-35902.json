@@ -1,0 +1,196 @@
+{
+  "bookId": "activity-extra-whitesnake_yure",
+  "id": "source-35902",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35902001",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "叫天下无情人吃我一剑——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇呀，怎么招呼都不打一声就要打人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，这身打扮，这个装束，你该不会是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902004",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "我是「小青」，在找我姐姐「白素贞」，你们可曾见过她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "竟然真的让我遇到了《白蛇传》中的两姐妹……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "好不真实……我不是在做梦吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "优纪，快告诉我我不是在做梦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这还不简单，快用折扇用力敲一下自己的脑袋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "嘶，果然好痛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这下明白了吧，你不是在做梦哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902011",
+          "sourceType": 0,
+          "speaker": "小青",
+          "text": "你们在嚷嚷什么，究竟见到我姐姐了没有？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "啊，抱歉，我太兴奋了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我们没有见到过白娘子，你和她走散了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真让人担心，会不会在哪里迷路了呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902015",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "这种事情，我绝不允许！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902016",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "让自己崇拜的对象陷入困顿和危险，真爱粉是万万不能接受的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喔，玉夏一瞬间爆发出了惊人的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35902018",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "废话少说，我们现在就动身去找人。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35902",
+      "sourceRefs": [
+        {
+          "bundle": "whitesnake_yure",
+          "rowIds": [
+            35902001,
+            35902002,
+            35902003,
+            35902004,
+            35902005,
+            35902006,
+            35902007,
+            35902008,
+            35902009,
+            35902010,
+            35902011,
+            35902012,
+            35902013,
+            35902014,
+            35902015,
+            35902016,
+            35902017,
+            35902018
+          ],
+          "sectionId": 35902
+        }
+      ],
+      "title": "活动片段 35902"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1095",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1095",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 35902,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 35902",
+  "wordCount": 306
+}

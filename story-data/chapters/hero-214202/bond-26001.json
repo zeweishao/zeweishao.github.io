@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-214202",
+  "id": "bond-26001",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26001001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "焯焯焯……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001002",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "你是将来的君主，随随便便如此惊慌，成何体统。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你没看到吗，刚才一只大蜘蛛跑了过去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001004",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "泰山崩于前而色不变，麋鹿兴于左而目不瞬，此为将之道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001005",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "若是其他人见你如此，你可知他们将作何想法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……他们也会觉得那蜘蛛很可怕？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001007",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "……荒谬。看来你要成为君主，你还有很长的路要走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可从来没说过我要成为君主，还有曹操，比起说教……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不如你先处理下这个危险？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有这蜘蛛在，我感觉我今晚都睡不着觉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001011",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "我在十岁可在龙潭搏击鳄鱼都不怕，你却怕一只小小蜘蛛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……如果我还是十岁，我觉得我应该也不怕？会去抓着玩？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26001013",
+          "sourceType": 0,
+          "speaker": "曹操",
+          "text": "朽木不可雕也……你退远点！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26001",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26001001,
+            26001002,
+            26001003,
+            26001004,
+            26001005,
+            26001006,
+            26001007,
+            26001008,
+            26001009,
+            26001010,
+            26001011,
+            26001012,
+            26001013
+          ],
+          "sectionId": 26001
+        }
+      ],
+      "title": "君主养成Ⅱ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214202",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "君主养成Ⅱ",
+  "wordCount": 253
+}

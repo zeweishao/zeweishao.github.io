@@ -1,0 +1,153 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33303",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33303001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿嘿哈哈，找到了，这里有一个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "在那么高的树上找东西，也只有哈莉能做到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303003",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "哈莉，小心点，不要把徽章摔坏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "又找到一个！接着！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "但是......我们找到的徽章只有四种......\n这样下去，无论收集到多少都无法兑奖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "最后一种徽章，是不是被藏起来了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303007",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "嘻嘻，你们在找这个吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇呀！什么时候身后多出来一个人......\n你、你拿着的是——第五种徽章！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303009",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "想要吗？用你们的徽章来换啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "当然可以！你想要哪个，尽管说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303011",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "我要剩下四枚徽章各五个，换我手里的一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈？二十换一，当我们傻吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303013",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你只有一枚绿色徽章，换到我们的二十个也无法兑奖，为什么要这么做？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303014",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "一枚？哼哼！\n这种徽章洛瑞丝大人有的是，想要兑换的话我们随时奉陪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33303015",
+          "sourceType": 0,
+          "speaker": "柠檬仔",
+          "text": "劝你们识趣点，事到如今，想要自己找到绿色徽章已经不可能了哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33303",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33303001,
+            33303002,
+            33303003,
+            33303004,
+            33303005,
+            33303006,
+            33303007,
+            33303008,
+            33303009,
+            33303010,
+            33303011,
+            33303012,
+            33303013,
+            33303014,
+            33303015
+          ],
+          "sectionId": 33303
+        }
+      ],
+      "title": "缺一不可"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33303,
+        "table": "ResTalkTitle"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "缺一不可",
+  "wordCount": 323
+}

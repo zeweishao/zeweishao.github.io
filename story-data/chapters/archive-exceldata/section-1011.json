@@ -1,0 +1,57 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1011",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1011001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "耀眼！大家都变得像太阳一样闪亮了。——对了，花迦的朋友说的，管理局实习生试炼是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1011002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "通过管理局实习生试炼，加入管理局，是花迦的梦想。可是现在已经失败了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1011003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好像就只差绿子和葵。既然这样，不如我们去找绿子和葵吧。\n试炼失败也没关系，就像补考一样，我们可以再试试。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1011",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1011001,
+            1011002,
+            1011003
+          ],
+          "sectionId": 1011
+        }
+      ],
+      "title": "原文片段 1011"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1011
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1011",
+  "wordCount": 128
+}

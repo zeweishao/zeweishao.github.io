@@ -1,0 +1,113 @@
+{
+  "bookId": "archive-p3_luning",
+  "id": "section-28520",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28520001",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "这是……呱太的最新周边？！\n送给我的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错，喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520003",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "非常喜欢！不过……你不会觉得都是初中生了，还喜欢这个很幼稚吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我觉得呱太挺可爱的啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520005",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "对吧对吧？呱太明明就超可爱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520006",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "那些不懂得呱太可爱之处的人，居然反过来诋毁它是只给小孩子玩的玩偶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520007",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你还挺有眼光的嘛~看来之前误会你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520008",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "好，就这样一口气把这个世界所有的呱太周边集齐吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28520010",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "以后我们就是呱太发烧友了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28520",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28520001,
+            28520002,
+            28520003,
+            28520004,
+            28520005,
+            28520006,
+            28520007,
+            28520008,
+            28520009,
+            28520010
+          ],
+          "sectionId": 28520
+        }
+      ],
+      "title": "原文片段 28520"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "p3_luning",
+        "sectionId": 28520
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 28520",
+  "wordCount": 173
+}

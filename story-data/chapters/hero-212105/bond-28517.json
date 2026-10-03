@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-212105",
+  "id": "bond-28517",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28517001",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是想問這個是什麼嗎？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "這是專門為迪卡準備的……家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "迪卡你承擔了所有和怪獸戰鬥的責任，一定忍受了不少辛苦和孤獨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我們的世界沒有怪獸那種東西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以就不需要迪卡你以特殊的身分繼續承擔那些了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "在這個世界你可以以普通人的身分享受生活。啊，抱歉，應該說作為一個普通模型享受生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "總之，為了感謝迪卡守護了我們的夢想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今後就由我來守護你吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28517010",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28517",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28517001,
+            28517002,
+            28517003,
+            28517004,
+            28517005,
+            28517006,
+            28517007,
+            28517008,
+            28517009,
+            28517010
+          ],
+          "sectionId": 28517
+        }
+      ],
+      "title": "和迪卡……住一起！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "和迪卡……住一起！",
+  "wordCount": 166
+}

@@ -1,0 +1,171 @@
+{
+  "bookId": "hero-213017",
+  "id": "bond-33402",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33402001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "刚才这首曲子，主君感觉如何？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33402003",
+              "text": "感觉有些奇怪"
+            },
+            {
+              "targetId": "33402003",
+              "text": "感觉有些微妙"
+            }
+          ],
+          "sourceId": "33402002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33402003",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "不愧是主君，只听一遍就发现了曲中的异样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402004",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我尝试了十多种乐器的组合，可始终没有满意的结果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "已经过去了这么长时间。究竟是哪里出了问题……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哪怕是天才也有找不到灵感的时候。休息一下如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "一刻没有完成，我就一刻放不下心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这首曲子有这么重要吗？它是写给谁的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "此曲当然是献给我最重要的知己，也就是主君您的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "居然是这样。看来我必须得帮忙了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "只要主君在身边，我就感觉思若泉涌呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402012",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33402013",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这样一来，这一部分就完成了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "主君寥寥数语，就令乐曲有所进展。\n主君正是我的灵感之源呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "能帮上忙就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33402016",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "但曲中未竟之处还有许多。\n为了完成乐曲，还请主君一直留在我的身边哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33402",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33402001,
+            33402002,
+            33402003,
+            33402004,
+            33402005,
+            33402006,
+            33402007,
+            33402008,
+            33402009,
+            33402010,
+            33402011,
+            33402012,
+            33402013,
+            33402014,
+            33402015,
+            33402016
+          ],
+          "sectionId": 33402
+        }
+      ],
+      "title": "灵感的源泉"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213017",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "灵感的源泉",
+  "wordCount": 295
+}

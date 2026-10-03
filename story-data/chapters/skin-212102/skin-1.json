@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212102",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气的虚拟YouTuber踏入了青春的运动场，粉白色搭的运动系装扮，洋溢青春活力的色彩。\n爱酱手中是铭刻AI称号的球拍，在网球的世界铸造虚拟YouTuber的荣光就从爱酱开始。\n这是专属爱酱的爱式（ACE）发球，将ACE念成爱式绝不是因为致敬口胡的花Q。\n\n“准备接下我爱式的发球了吗？”\n\n       ——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "爱式发球Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212102",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "Kizuna AI·爱式发球Ver.",
+  "title": "爱式发球Ver.",
+  "wordCount": 157
+}

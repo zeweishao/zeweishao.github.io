@@ -1,0 +1,183 @@
+{
+  "bookId": "hero-212107",
+  "id": "bond-26063",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26063001",
+          "sourceType": 3,
+          "text": "死亡主宰在一堆花瓶碎片旁边发抖。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "26063002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "发生什么事了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26063003",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "好恶心......好可怕......不要过来！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26063005",
+              "text": "清扫碎片"
+            }
+          ],
+          "sourceId": "26063004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26063005",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "碎片下面扣着一本杂志。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26063007",
+              "text": "捡起杂志"
+            }
+          ],
+          "sourceId": "26063006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26063007",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "杂志下面是死亡主宰的摩托车。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26063009",
+              "text": "查看摩托车"
+            }
+          ],
+          "sourceId": "26063008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26063009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "车底有一只被压扁的虫子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26063010",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "噫！快扔掉它，不要拿到我面前！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26063012",
+              "text": "扔掉虫子"
+            }
+          ],
+          "sourceId": "26063011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26063012",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "呼——因为体型变小，视野中的虫子成了庞然大物。\n我可能，稍微有点反应过度。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26063014",
+              "text": "没关系。"
+            },
+            {
+              "targetId": "26063015",
+              "text": "确实反应过度了。"
+            }
+          ],
+          "sourceId": "26063013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26063014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，请安心吧，我会想些彻底驱虫的办法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26063015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你可以不用勉强自己处理的，下次直接叫我过来就好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26063",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26063001,
+            26063002,
+            26063003,
+            26063004,
+            26063005,
+            26063006,
+            26063007,
+            26063008,
+            26063009,
+            26063010,
+            26063011,
+            26063012,
+            26063013,
+            26063014,
+            26063015
+          ],
+          "sectionId": 26063
+        }
+      ],
+      "title": "虫子"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212107",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "虫子",
+  "wordCount": 209
+}

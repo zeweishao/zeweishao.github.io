@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17329",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17329001",
+          "sourceType": 10,
+          "text": "火锅，温暖的快乐~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17329002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "游龙戏凤完成~！里面的食材全部是最新鲜的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17329003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "里面装满了我们对主人新的一年新的祝福，大家都会团团圆圆，在新的一年也会如此幸福美满~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17329004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢你们，我可以感觉到的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17329005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "里面不同的食材，都是你们各自准备的吧，里面的心意都有好好感觉到。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17329",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17329001,
+            17329002,
+            17329003,
+            17329004,
+            17329005
+          ],
+          "sectionId": 17329
+        }
+      ],
+      "title": "游龙戏凤"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17329,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "16",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "火锅，温暖的快乐~",
+  "title": "游龙戏凤",
+  "wordCount": 117
+}

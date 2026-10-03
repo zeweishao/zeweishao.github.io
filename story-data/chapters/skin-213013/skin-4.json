@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213013",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "夏日烟火的祭典即将开场。\n蓝红撞色的浴衣松松垮垮搭在少女的身上。薇薇安抬起娇俏的面庞，那澄澈的眼瞳像是倒映着星空的剪影。\n\n她的左手是热气腾腾的章鱼小丸子，穿着凉拖的小脚丫微微踮起，将三色的团子送到你的眼前。\n「呐，想要试试这个团子吗？很可爱的。」\n「嗯？烟花要开始啦？不急的。吃饱了慢慢来，先张嘴~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·夏日祭典Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213013",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "薇薇安·闪亮·夏日祭典Ver.",
+  "title": "闪亮·夏日祭典Ver.",
+  "wordCount": 146
+}

@@ -1,0 +1,1851 @@
+{
+  "bookId": "rewind-38",
+  "id": "chapter-153",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34311001",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "你还好吗？这里确实高了一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311002",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "我……我没事，只是有点累。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311003",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "那就抬头看看吧。至少有一点是奥特莱城里的富豪们享受不到的，那就是贫民窟的这片星空！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311004",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "是的……城市室外照明会遮掩星光，此外，热岛效应导致的大气折射也会……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311005",
+          "sourceType": 0,
+          "speaker": "塞拉？",
+          "text": "停，别念了，又突然开始科普了——啊，是流星！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311006",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "哇塞，该许愿了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311007",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "我啊，长大后要成为天下无双的赏金猎人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311008",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "我想变得更厉害，不让朋友操心……我要保护贫民窟的大家！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311009",
+          "sourceType": 0,
+          "speaker": "塞拉？",
+          "text": "你们许愿都是喊出来的吗？算了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311010",
+          "sourceType": 0,
+          "speaker": "塞拉？",
+          "text": "我……想要这个恶心的世界变得更有意思一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311011",
+          "sourceType": 0,
+          "speaker": "泉？",
+          "text": "总感觉你只会许些危险的愿望呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311012",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "塞拉……坏坏的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311013",
+          "sourceType": 0,
+          "speaker": "塞拉？",
+          "text": "无聊，你们不觉得现在非常无聊吗？\n明明只要我们三个人在一起，就能干出一番大事！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311014",
+          "sourceType": 0,
+          "speaker": "塞拉？",
+          "text": "希塔，你说对不对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311015",
+          "sourceType": 0,
+          "speaker": "希塔？",
+          "text": "我……不知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "所以，你就选择离开了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311018",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "变成阿尔法军工集团的走狗，这算实现了你的愿望吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311020",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "你，真的守护了贫民窟的人们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你到底是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311022",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "明明知道答案，却不敢承认——你现在还瞒着泉，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我没有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311024",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "终于醒了！你都睡了快一天了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311025",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "泉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311026",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "怎么了，我脸上沾了什么东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311027",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "没事，我刚才……做了个噩梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311028",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "——应该是骇入山崎时受到了病毒的影响。幸运的是，感染的程度很轻微，很快就会自动消除。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311029",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "长期的精力透支也是其中一个原因……先休息一阵子吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311030",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "事件还没有结束……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311031",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "昨晚，管理局的海伦带人处理了现场，今后我们将共享关于「机甲失控」现象的情报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311032",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这段时间管理局会重点关注夜晚的治安，你的巡查工作可以先放一放。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311033",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "嘛，虽然不知道你加入了什么奇怪的手办组织，但总算放假了。我会陪你休养的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311034",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……我们是管理局的合作机构「边界行动队」，负责侦察、控制、消除手办引发的异常现象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311035",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "——维持手办活动与人类世界的边界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311036",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "为什么是在咖啡馆？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311037",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "出于隐蔽的需要。还有，我们都挺喜欢咖啡的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311038",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那倒确实是个挺有说服力的理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311039",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……不能再等了，山崎感染的是会自我复制的AI病毒，它会感染机械义体——即使是手办也不例外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311040",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "必须尽快找到引发事件的黑幕，中止它的传播，不然局面会变得很麻烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311041",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "那么，你有找到什么线索吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34311042",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "顺着山崎这条线去追查……我知道怎么找到他的栖身之处。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-797",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34311001,
+            34311002,
+            34311003,
+            34311004,
+            34311005,
+            34311006,
+            34311007,
+            34311008,
+            34311009,
+            34311010,
+            34311011,
+            34311012,
+            34311013,
+            34311014,
+            34311015,
+            34311016,
+            34311017,
+            34311018,
+            34311019,
+            34311020,
+            34311021,
+            34311022,
+            34311023,
+            34311024,
+            34311025,
+            34311026,
+            34311027,
+            34311028,
+            34311029,
+            34311030,
+            34311031,
+            34311032,
+            34311033,
+            34311034,
+            34311035,
+            34311036,
+            34311037,
+            34311038,
+            34311039,
+            34311040,
+            34311041,
+            34311042
+          ],
+          "sectionId": 34311
+        }
+      ],
+      "title": "机甲的反叛·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34312001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "经过了大雨的洗礼，现场已经什么都没剩下了。\n这样还能追踪他吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我在骇入时记录了山崎的信号特征。\n昨晚，他的信号在附近停留了一段时间就消失了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你的意思是，他到了某个藏身点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312004",
+          "sourceType": 9,
+          "text": ">>>环境监测模块激活，复现目标【山崎】的行动轨迹。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34312005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……他进入了街道上的窨井盖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "等下，我们也要跟着下去吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……让我想起了贫民窟里的臭水沟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "奇怪……这里还有信号？\n是哪里安装了信号中继器吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "喂，这是什么？真恶心……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……手办的肢体堆，应该是之前山崎收集的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那我们还真找对地方了。\n真是恶趣味，感染了病毒就会变成这样子吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "山崎已经离开了，这里之前只有他在吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312013",
+          "sourceType": 9,
+          "text": ">>>扫描完毕，共发现两种足迹，其中之一属于目标【山崎】。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34312014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "对未知足迹进行特征比对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312015",
+          "sourceType": 9,
+          "text": ">>>正在接入管理局手办数据库……检索完毕。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34312016",
+          "sourceType": 9,
+          "text": ">>>符合特征的有6种——均属于FULI天马工作室出品的【疯狂的兔子】系列盲盒。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34312017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "疯狂的兔子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312018",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那不就是随处可见的……机械兔吗？\n它会和黑幕有关联吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312019",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "真是失礼的说法，能不能照顾下我们这些龙套的心情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312020",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……声音是从那传过来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312021",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "游戏机？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312022",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "哎呀，如果我不出声，你们还要卿卿我我到什么时候？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……是你散播的病毒？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312024",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "Bingo，这也是显然的事情吧？\n像我这样愿意等侦探上门的犯人可不多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312025",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "躲在别的地方和我们通讯，你以为你逃得掉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312026",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "别着急，泉。\n你看看希塔，她现在的表情可真有意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312027",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "……你认识我们?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312028",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "告诉我，那些恶意代码到底是怎么回事？\n为什么机甲手办也能被感染？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312029",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "那是「Eros」，某位黑客在原来的世界编写的AI程序。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312030",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "现在只要加入某种神奇的能量块……就能啪的一下，变成非常好用的工具！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312031",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "神奇的能量块……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312032",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "难道是能量石？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312033",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "啊咧，一不小心就透露了这个秘密。\n无所谓了，现在我们来玩个刺激的躲猫猫游戏吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312034",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "希塔……伪善的希塔，这次你能捉到我吗？\n捉不到我，M城说不定就烧成灰咯……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312035",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "结束了……这家伙，每句话都让人火大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312036",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我一定会阻止「她」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312037",
+          "sourceType": 9,
+          "text": ">>>有外部通讯接入，身份识别为【凛】。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34312038",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "希塔，长话短说——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34312039",
+          "sourceType": 13,
+          "speaker": "凛",
+          "text": "潮酷街区的机甲集体失控了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-798",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34312001,
+            34312002,
+            34312003,
+            34312004,
+            34312005,
+            34312006,
+            34312007,
+            34312008,
+            34312009,
+            34312010,
+            34312011,
+            34312012,
+            34312013,
+            34312014,
+            34312015,
+            34312016,
+            34312017,
+            34312018,
+            34312019,
+            34312020,
+            34312021,
+            34312022,
+            34312023,
+            34312024,
+            34312025,
+            34312026,
+            34312027,
+            34312028,
+            34312029,
+            34312030,
+            34312031,
+            34312032,
+            34312033,
+            34312034,
+            34312035,
+            34312036,
+            34312037,
+            34312038,
+            34312039
+          ],
+          "sectionId": 34312
+        }
+      ],
+      "title": "机甲的反叛·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34313001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "天好阴沉，看起来快下雨了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313002",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "采购任务已完成，该返程了……嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了，蒂娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313004",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "那边的大猫……好像在被什么东西追？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "等一下，这边的情况不太对劲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313006",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "Gamma-0发现目标，呼叫Gamma小队其他成员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313007",
+          "sourceType": 0,
+          "speaker": "机甲坦克",
+          "text": "指令已接收，歼灭模式启动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313008",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "突然涌出来了很多机甲战车……来源是路边的物流仓库吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么会这样？\n它们不怕被别的人类看到吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "看样子是冲着我们来的……数目越来越多了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313011",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "异乡人，准备战斗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我联系下管理局……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313013",
+          "sourceType": 3,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34313014",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "有目标被摧毁了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313015",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "哈哈哈哈，这些孱弱的量产机真是不堪一击！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯……和莉莉奈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313017",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "哼，笨蛋主人的救星登场了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313018",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "要不是更笨蛋的傻瓜哥哥刚才在等动画片播完，我们早就到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313019",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "这个世界上只有我们两台机甲是有用的，其余都是废物！\n让我碾碎它们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313020",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "呜——和阴沉的瘦大姐那次情况好像，不会又是什么恶心AI在搞鬼吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……虽然他们有点奇怪，这种时候当然援军是越多越好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313022",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "嗯，一起战斗吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313023",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "看起来，今天彻底没客人了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313024",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "但还算是营业高峰期，毕竟门口都被堵上了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313025",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你会讲冷笑话了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313026",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "外面的事情希塔她们会处理，我们管好咖啡馆吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313027",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "那先把店门前的机甲清理掉吧，看得心烦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313028",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "一杯咖啡的时间，然后交换。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313029",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我同意……嗯哼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313030",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "似乎我们有帮手了……有个独臂的武士正在机甲群里冲锋陷阵呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313031",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "果然，一出来就被包围了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313032",
+          "sourceType": 9,
+          "text": ">>>雷达IFF状态更新，敌对目标数量为120……更新，145，更新，168。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34313033",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "数量还在持续增加，这样打下去会没完没了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313034",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "当务之急是把那个讨厌的兔子揪出来……能定位到它吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313035",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "可以试试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313036",
+          "sourceType": 0,
+          "speaker": "机甲坦克",
+          "text": "吱吱，有外部链接侵入……侵入……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313037",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好厉害，近处的两台都不动了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313038",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "果然……他们也感染了同样的AI病毒，被黑幕操控了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313039",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "机甲集群共享着同一个指挥网络，信号的源头应该就是黑幕的所在地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313040",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那就好办了，去那边把兔子打倒，应该就能结束这场混乱了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313041",
+          "sourceType": 9,
+          "text": ">>>解析信号源坐标……完成。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34313042",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……是FULI大厦的手办仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313043",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好，上来吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313044",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313045",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "上车，我载你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313046",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "可是，你骑的不是单轮机车吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313047",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "别忘了，「阿尔贝尔」可是我亲自组装的一台——机甲啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313048",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "居然，变形出车轮了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313049",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "怕被甩下去的话就抱紧我——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34313050",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "现在开始，就是疾驰的时间了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-799",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34313001,
+            34313002,
+            34313003,
+            34313004,
+            34313005,
+            34313006,
+            34313007,
+            34313008,
+            34313009,
+            34313010,
+            34313011,
+            34313012,
+            34313013,
+            34313014,
+            34313015,
+            34313016,
+            34313017,
+            34313018,
+            34313019,
+            34313020,
+            34313021,
+            34313022,
+            34313023,
+            34313024,
+            34313025,
+            34313026,
+            34313027,
+            34313028,
+            34313029,
+            34313030,
+            34313031,
+            34313032,
+            34313033,
+            34313034,
+            34313035,
+            34313036,
+            34313037,
+            34313038,
+            34313039,
+            34313040,
+            34313041,
+            34313042,
+            34313043,
+            34313044,
+            34313045,
+            34313046,
+            34313047,
+            34313048,
+            34313049,
+            34313050
+          ],
+          "sectionId": 34313
+        }
+      ],
+      "title": "机甲的反叛·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34314001",
+          "sourceType": 3,
+          "text": "昏暗的街道上，机车的引擎在轰鸣——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "追兵越来越多了……呜哇，好多导弹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "还没甩掉他们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314004",
+          "sourceType": 0,
+          "speaker": "机甲战车",
+          "text": "Delta小队，全速追击目标中……预计10秒后追及。\n倒计时，10，9，8……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314005",
+          "sourceType": 0,
+          "speaker": "机甲独轮车",
+          "text": "Delta-02呼叫Zeta小队，采取钳形攻势。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314006",
+          "sourceType": 9,
+          "text": ">>>「目标已锁定……Pallas-B攻击。」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314007",
+          "sourceType": 3,
+          "text": "咻——轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "先解决一台。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314009",
+          "sourceType": 3,
+          "text": "轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "第二台。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "真是酷毙了，希塔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "专心开车，后面的追兵我会处理的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "了解！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314014",
+          "sourceType": 9,
+          "text": ">>>警告：11点钟方向出现大量敌对目标。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "犯规啊，居然在前面埋伏我们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "有路障……我们的行动被「她」预测了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314017",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不管了，先抓紧我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314018",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314019",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "加速，再加速，然后——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314020",
+          "sourceType": 3,
+          "text": "泉提起了机车的前轮，后轮火花四溅。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "等一下？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "一飞冲天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314023",
+          "sourceType": 3,
+          "text": "「阿尔贝尔」径直冲上了前方机甲的斜甲板，高高地飞在了空中——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314024",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎，真是好久没有这么痛快地疾驰了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314025",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……下次绝对不坐你的车了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314026",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这次是特殊情况，以后带你兜风我绝对会遵守交通规则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314027",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "小心，信号源离我们很近了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314028",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "找到了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314029",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "呵，来得比我预想得快。\n话虽如此，你们这副愉快搭档的样子还是让我很不爽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314030",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "现在你还有什么话说吗？\n让那些机甲都停下来，否则你应该知道后果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314031",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "哎，没办法，我可打不过你们。\n希塔，你怎么不说话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314032",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……你的本体藏在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314033",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "什么本体？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314034",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你别装傻了！到底要玩到什么时候……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314035",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "别激动，别激动，你就没有玩游戏的耐心吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314036",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "我倒奇怪，为什么你们要这么努力地保护人类的世界。\n看着M城的秩序坍塌，难道不是非常美妙的事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314037",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "那帮见到手办动起来就能尖叫的人类，被机甲们包围的时候，会露出什么样的表情。你们不想看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314038",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你真是疯了啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314039",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我们保护的不是人类的世界……是人类和手办两者的和平生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314040",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "还是只会说一些装模作样的话呢，希塔。\n好吧，现在我会停止信号的传输，然后——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314041",
+          "sourceType": 0,
+          "speaker": "机械兔？",
+          "text": "捉迷藏游戏的第二阶段就开始……开始……开始了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314042",
+          "sourceType": 3,
+          "text": "咣当——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314043",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "它怎么……倒在了地上？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314044",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……这只是一个被控制的空壳。\n一个发出指挥信号的跳板。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314045",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "也就是说，黑幕还藏在别的地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314046",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "还真是享受玩弄我们的感觉呢……已经不能更生气了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34314047",
+          "sourceType": 9,
+          "text": ">>>侦测到指挥网络的节点变化……100米内出现大量敌对目标。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314048",
+          "sourceType": 3,
+          "text": "希塔低下头，用泉听不到的声音，念着「她」曾经的名字。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34314049",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……塞拉。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-800",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34314001,
+            34314002,
+            34314003,
+            34314004,
+            34314005,
+            34314006,
+            34314007,
+            34314008,
+            34314009,
+            34314010,
+            34314011,
+            34314012,
+            34314013,
+            34314014,
+            34314015,
+            34314016,
+            34314017,
+            34314018,
+            34314019,
+            34314020,
+            34314021,
+            34314022,
+            34314023,
+            34314024,
+            34314025,
+            34314026,
+            34314027,
+            34314028,
+            34314029,
+            34314030,
+            34314031,
+            34314032,
+            34314033,
+            34314034,
+            34314035,
+            34314036,
+            34314037,
+            34314038,
+            34314039,
+            34314040,
+            34314041,
+            34314042,
+            34314043,
+            34314044,
+            34314045,
+            34314046,
+            34314047,
+            34314048,
+            34314049
+          ],
+          "sectionId": 34314
+        }
+      ],
+      "title": "机甲的反叛·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34315001",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "敌人越来越多了……我们必须找机会突围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……要被堵在这个角落了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315003",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "可恶，可恶，明明只是杂鱼——数量怎么会这么多！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315004",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "就是因为只是杂鱼才会有这么多啊，笨蛋哥哥！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315005",
+          "sourceType": 3,
+          "text": "叮铃铃——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34315006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "手办通讯机响了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315007",
+          "sourceType": 13,
+          "speaker": "泉",
+          "text": "|101|，我们这边注意到了你这的情况，头儿应该也在你边上吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，蒂娅也在。你想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315009",
+          "sourceType": 13,
+          "speaker": "泉",
+          "text": "那就好，换人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315011",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "你好，请告诉我你这目前可战斗的成员情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呃，我这有蒂娅、薇薇安、杰斯、莉莉奈。\n你的意思是这个吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315013",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "嗯……机甲群中的部分机甲承担了通讯节点的角色——如果成功把它击破，就能让一部分机甲陷入混乱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315014",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "请让薇薇安用回力标「隼」标记我发来的坐标，让蒂娅和杰斯作为前锋击破节点单位。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315015",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "莉莉奈……杀戮者二号可以用腐蚀液体清理出前进的道路，保护前锋的侧翼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "诶，她的声音我是不是在哪里听过？刚才「隼」确实接收到了一串坐标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315017",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "是泉的朋友吗？明白了，我会信任你的决策。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315018",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我偏不，这个自以为了不起的家伙到底是谁啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315019",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "唔，对我的机甲还挺了解。就只听一回哦，笨蛋哥哥也要照做！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315020",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "我只能通过网络看到敌方的布阵，现场的具体情况就拜托你把握了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "34315022",
+              "text": "这点你不用担心"
+            },
+            {
+              "targetId": "34315022",
+              "text": "我可是手办们的「主人」啊"
+            }
+          ],
+          "sourceId": "34315021",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "34315022",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "泉和我讲过你的事，我相信你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34315023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和这些机甲再开一局吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "|101|那边的进展很顺利，节点单位已经被击破了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "毕竟是|102|，而且有异乡人的队长在啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "泉……在这个世界也加入了新的组织呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你怎么很羡慕的样子？\n要不别在那个什么「边界行动队」里干了，也来异乡人吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "现在的我，还不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "有些时候，我真不太懂你在纠结什么。\n好吧，现在可以处理那个黑幕的事了，本体到底在哪呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯定位到了新的信号源，地点在潮酷街区的黄金楼盘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……但估计又只是一个信号中继器吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "看着是假的倒可能是真的，现在我们只能一步步跟着对方的步调走了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "或者，我们联系管理局，让他们帮我们去看看情况？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "管理局的联络人海伦吗？\n看来只能这样……嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "有一台联网的机甲……在M城城区的边缘。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565013",
+          "sourceType": 9,
+          "text": ">>>测算目标行动轨迹……完毕",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34565014",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "那是N城的方向？\n它在离开M城，前往N城？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "为什么不跟着其他机甲一起闹事呢？\n喂，难道说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34565016",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我们追上去！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-801",
+      "sourceRefs": [
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34315001,
+            34315002,
+            34315003,
+            34315004,
+            34315005,
+            34315006,
+            34315007,
+            34315008,
+            34315009,
+            34315010,
+            34315011,
+            34315012,
+            34315013,
+            34315014,
+            34315015,
+            34315016,
+            34315017,
+            34315018,
+            34315019,
+            34315020,
+            34315021,
+            34315022,
+            34315023
+          ],
+          "sectionId": 34315
+        },
+        {
+          "bundle": "sita",
+          "rowIds": [
+            34565001,
+            34565002,
+            34565003,
+            34565004,
+            34565005,
+            34565006,
+            34565007,
+            34565008,
+            34565009,
+            34565010,
+            34565011,
+            34565012,
+            34565013,
+            34565014,
+            34565015,
+            34565016
+          ],
+          "sectionId": 34565
+        }
+      ],
+      "title": "机甲的反叛·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 153,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 153,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "制造危机只是一种手段",
+  "title": "机甲的反叛",
+  "wordCount": 4171
+}

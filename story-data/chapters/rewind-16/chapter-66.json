@@ -1,0 +1,1189 @@
+{
+  "bookId": "rewind-16",
+  "id": "chapter-66",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21301001",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "主人！！！你终于回来了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301002",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "出大事了！！！这绝对是！！！世界末日！！！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21301004",
+              "text": "怎么回事？"
+            }
+          ],
+          "sourceId": "21301003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21301004",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我妹妹……里惠她……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21301006",
+              "text": "……到底怎么了？"
+            }
+          ],
+          "sourceId": "21301005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21301006",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "唔嗯~主人，欢，迎，回，来~\n您要先吃饭，先洗澡，还是……先吃我呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301007",
+          "sourceType": 7,
+          "text": "宫本里惠 · 禁忌的人鱼\n商品名称：宫本里惠·禁忌的人鱼 Ver.\n作品名称：《蘑菇少女的日常》\n制造商：LET'S RED 猩潮\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约230mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "21301008",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "这这这这——超奇怪的吧？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301009",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "……我妹妹绝对不可能穿这么暴露的衣服！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "虽然话是这么说没错，但重点根本不是那个好吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301011",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "主人出去那么久，不会想念里惠吗~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21301013",
+              "text": "当然会想啦……"
+            }
+          ],
+          "sourceId": "21301012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21301013",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "我也是呢，里惠阿……最喜欢主人了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21301014",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "喂喂！出大事了！天要塌了！！！——妹妹最喜欢的人竟然……不是我了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "里惠……我的里惠……你这家伙！你跟本是个冒牌货对吧，喂，快说，你把我的妹妹藏到哪去了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎尤娜，你冷静一点……这个人的确是里惠没错啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "不可能！根本不可能！！！我妹妹……是超害羞的！绝对绝对不会跟陌生人对视或者说话的那一种！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔，也没什么问题嘛，我们又不是陌生人，主人就更不是了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "不对不对，不是这个！我妹妹……无论做什么都一定会跟在我身后的，不管怎样都一定会双手双脚支持我的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "嗯……万一是她长大了呢，小孩子长大之后都会更加独立一些的，不会再依赖父母兄弟什么的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302007",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "阿阿阿阿——！不是！绝对不是这样！！！……你看，你看她的眼睛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "眼睛……唔怎么了吗……喔喔——之前没注意，仔细看下来，你妹妹的眼睛还蛮好看的耶！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302009",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "阿阿阿阿——！！！都说了不是这样了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21302010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "尤娜……冷静……冷静一点阿……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-397",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21301001,
+            21301002,
+            21301003,
+            21301004,
+            21301005,
+            21301006,
+            21301007,
+            21301008,
+            21301009,
+            21301010,
+            21301011,
+            21301012,
+            21301013,
+            21301014
+          ],
+          "sectionId": 21301
+        },
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21302001,
+            21302002,
+            21302003,
+            21302004,
+            21302005,
+            21302006,
+            21302007,
+            21302008,
+            21302009,
+            21302010
+          ],
+          "sectionId": 21302
+        }
+      ],
+      "title": "《禁忌的人鱼》·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21305001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我用三罐苹果口味涂料跟你打赌，我妹妹绝对从头到尾完完全全变了一个人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305002",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "可是你明明一罐涂料都没有，而且你妹妹也没有尾巴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "阿阿阿！！！都说了只是比方！打个比方！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "唔……但怎么看，里惠都还是里惠，看上去跟平时也没什么不同……就是，嗯……多了一丝「女人味」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "的确变成了更有女人味的风格呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305006",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是吧？唔，闻起来很香，要说是什么味道的话……就是一股女人的味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……阿绿子，我们说的好像不是同一个东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305008",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "我妹妹才不是换了个味道这么简单！你们仔细看阿喂……她，她今天没戴帽子！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305009",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是帽子的问题吗……喔喔——要这么说的话的确是，因为没戴帽子的缘故，里惠看起来跟平时不太一样了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305010",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "重点是帽子吗？！你你你……你再看她的衣服！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔——你说得对！是衣服！嗯……看起来是比平时更加清凉的居家服，难怪好像哪里不太一样了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305012",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "喂！重点是衣服吗？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305013",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "姐姐不喜欢里惠这样穿吗，主人呢？这是特地为主人换上的装扮喔，主人不喜欢的话，里惠也可以一件一件，脱，下，来，喔~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305014",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "！！！你们听到了吗！！！这是我妹妹会说出来的话吗？！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305015",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "如果主人不喜欢的，脱下来也没什么问题吧？我，我我，哈哈哈哈哈哈，换我也，也会为主人换衣服的啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305016",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "阿阿阿阿！！！里惠她说话不是这样的！她说话都是……都是一字一字，犹犹豫豫……慢吞吞的！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是吗，刚才也是阿，一字一顿地……说什么「一件一件，脱，下，来，喔~」之类的，已经很慢了阿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305018",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "不是这个，不是……你看看她的眼睛阿浑蛋——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "水汪汪又有神的大眼睛，看起来很精神，你妹妹身心状况都很不错的样子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305020",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "欧拉欧拉欧拉——可恶可恶可恶！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……小心杯子杯子……尤娜你冷静一下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305022",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "阿……完全搞不清楚状况呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21305023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "别吵了，大家好好坐下来，一起仔细判断清楚里惠的情况吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-398",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21305001,
+            21305002,
+            21305003,
+            21305004,
+            21305005,
+            21305006,
+            21305007,
+            21305008,
+            21305009,
+            21305010,
+            21305011,
+            21305012,
+            21305013,
+            21305014,
+            21305015,
+            21305016,
+            21305017,
+            21305018,
+            21305019,
+            21305020,
+            21305021,
+            21305022,
+            21305023
+          ],
+          "sectionId": 21305
+        }
+      ],
+      "title": "《禁忌的人鱼》·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21311001",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "接下来是针对里惠的「性格问答大测验」，大家一起准备问题，由最熟悉妹妹的尤娜对回答进行比对，有问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311002",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "快点开始吧，你们马上就会知道，这个家伙绝对不可能是我的妹妹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么里惠，来向大家做一个自我介绍吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311004",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "不可以哦，里惠只想听从主人一个人的命令呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311005",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "阿——！里惠……你连姐姐的话都不愿意听了吗！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "绿子，麻烦把场外无关因素拉走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "是~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311008",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "放开窝……唔唔唔……唔唔——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "平时的话，里惠有什么兴趣爱好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311010",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "洗香香，干净漂亮地欢迎主人回家~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311011",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "——明明是蹲在地上看蚂蚁搬家和观察模仿姐姐的唔唔唔……唔唔……唔唔唔——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "阿呵呵……咳……那么里惠，最喜欢的东西是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311013",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "里惠最喜欢主人了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311014",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "——胡说！明明是窝唔唔……唔唔唔——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样阿，讨厌的东西呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311016",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "没有主人的地方~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "喜欢的食物呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311018",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "虽然没办法享用美食，但最喜欢主人喜欢的食物~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311019",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "——明明是窝唔唔……唔唔……唔唔唔——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311020",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "哎哎……要拉不住了……她力气大的像一头疯牛……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311021",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "放开我——欧拉欧拉欧拉欧拉——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311022",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "不可以！她不是里惠！里惠最喜欢的是姐姐讨厌没有姐姐的地方喜欢姐姐喜欢的食物讨厌姐姐讨厌的食物兴趣爱好是模仿姐姐的一举一动！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311023",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔……要这么看的话，里惠的性格的确发生了巨大的变化没错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311024",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "怎么会突然完全变了一个人呢……最近有接触什么人或者奇怪的地方吗……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21311026",
+          "sourceType": 3,
+          "text": "叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21311027",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸，门铃响了？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-399",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21311001,
+            21311002,
+            21311003,
+            21311004,
+            21311005,
+            21311006,
+            21311007,
+            21311008,
+            21311009,
+            21311010,
+            21311011,
+            21311012,
+            21311013,
+            21311014,
+            21311015,
+            21311016,
+            21311017,
+            21311018,
+            21311019,
+            21311020,
+            21311021,
+            21311022,
+            21311023,
+            21311024,
+            21311025,
+            21311026,
+            21311027
+          ],
+          "sectionId": 21311
+        }
+      ],
+      "title": "《禁忌的人鱼》·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21315001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没有寄件人信息呢……主人最近有订购什么东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "21315003",
+              "text": "并没有。"
+            }
+          ],
+          "sourceId": "21315002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "21315003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "拆拆看是什么好了——这是……一张卡片？\n没有署名，上面只写了一句话——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315004",
+          "sourceType": 0,
+          "speaker": "神秘卡片",
+          "text": "「生出犄角，生出鳞片——只要能与你心意相通，变成什么都没有关系。」——《禁忌的人鱼》",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "情诗吗，完全看不懂……这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "一个「隐喻」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "《禁忌的人鱼》……这名字好熟悉，阿，不是花迦最喜欢的那本童话故事书的名字吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315008",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "童话故事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯……大致就是哑女爱上水兽，却言语不通，为了传达自己的爱意，注射药水将自己变成怪物——是个悲伤的爱情故事呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315010",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "喂！这是什么意思，我妹妹不是哑女，也不是什么怪物！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "都说了是「隐喻」，「隐喻」懂不懂，总之就是……没有在说你妹妹是怪物就对了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315012",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "我看你根本没懂，哎，优纪，你来说说看，这张卡片和我妹妹的关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯……看起来像是，有人特地把里惠变成这样，然后送来礼品卡片说明一样……里惠跟人鱼的故事……嗯……那个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "《禁忌的人鱼》内核是「心意的传达」，哑女注射药水变成怪物，获得了与水兽沟通的能力——这大概是寄信人想要传达的意思吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江好厉害！对，所以里惠才变成了这样坦率大胆的性格，对主人说一些平时不敢说出口的话什么的，还变得很有女人味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔——说起「女人味」，唔……这张卡片好香阿，嗯……是跟里惠身上很类似的味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真的哎，是洒了什么香水吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315018",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "喂喂，这根本不是重点吧，究竟是哪个家伙对我的妹妹做出这种事，简直不可原谅——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315019",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "的确可疑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是什么奇怪的家伙盯上了主人吗，还是说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21315021",
+          "sourceType": 3,
+          "text": "稀里哗啦——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21315022",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "小心！有什么东西冲进来了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-400",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21315001,
+            21315002,
+            21315003,
+            21315004,
+            21315005,
+            21315006,
+            21315007,
+            21315008,
+            21315009,
+            21315010,
+            21315011,
+            21315012,
+            21315013,
+            21315014,
+            21315015,
+            21315016,
+            21315017,
+            21315018,
+            21315019,
+            21315020,
+            21315021,
+            21315022
+          ],
+          "sectionId": 21315
+        }
+      ],
+      "title": "《禁忌的人鱼》·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "21321001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "咳咳咳，咳咳，咳咳咳——啊嗨，大家好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉？！！……你，你怎么弄成这个样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321003",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "看上去像是刚被人从窗外扔进来的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉是自己飞进来的，这是体能训练的重要部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321005",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "哈莉根本没打过，哈莉竟然输给……唔唔唔——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "……哼，没有的事，切磋，只是普通的技术切磋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是你的伤……小蓝，到底怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321008",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "街区新来了个很厉害的柴犬小子，正带着爱搞事的篮球小子四处砸场子，我们和哈莉正在做手雷追击特训，然后就……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321009",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "然后就打起来了，我一记后空翻，灵巧躲过了篮球小子的直球，然后回手拔枪，砰砰——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "声东击西，哈莉瞄准的是旁边的柴犬小子，算他有两把刷子，子弹打在了路牌上，但没完，还有下一招——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321011",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "精彩的对决！然后呢，然后呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "盯——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321014",
+          "sourceType": 0,
+          "speaker": "奇怪的里惠",
+          "text": "……呣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321015",
+          "sourceType": 5,
+          "speaker": "宫本尤娜",
+          "text": "喂！不要这样直勾勾地盯着我的妹妹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321016",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嗅嗅……这个味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321018",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "嘶——她身上有柴犬小子的味道！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21321019",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "哈，哈——想宰人——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325001",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "喂，搞什么，突然像疯狗一样扑过来……警告你，虽然里惠变成这样，但终归还是我的妹妹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "哈莉的反应一定是受到了什么刺激，果然跟里惠身上的香味有关吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "呼，呼……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325004",
+          "sourceType": 0,
+          "speaker": "小蓝",
+          "text": "我想起来了，柴犬小子身上……也有一股奇特的香味！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325005",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "香味？是香喷喷的「女人味」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325006",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "跟里惠闻起来很像，没错，就是这个……成熟女人的味道！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325007",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "看来想要弄清楚里惠的变化，要到哈莉所说的街区看看那位柴犬小子了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325008",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "超能打的柴犬小子吗，总之交给我准没错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "还是小心点好，不要太冲动阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325010",
+          "sourceType": 0,
+          "speaker": "宫本尤娜",
+          "text": "放心好了，包在我身上！——噢对了，记得替我照顾好里惠。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "绿子，看好尤娜，万事小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21325012",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "没问题，现在就去会会胡作非为的家伙们吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21327001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "想必礼物已经送到了吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21327002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "赫兰德，不知道那个人类，是不是像你说得那样有趣呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21327003",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "笃笃笃——叨扰了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21327004",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "这位房客，下个月要续租么，还是计划就此告别M城呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21327005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "现在没办法答复你，我还在考量，这个地方有没有什么人值得我停留。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-401",
+      "sourceRefs": [
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21321001,
+            21321002,
+            21321003,
+            21321004,
+            21321005,
+            21321006,
+            21321007,
+            21321008,
+            21321009,
+            21321010,
+            21321011,
+            21321012,
+            21321013,
+            21321014,
+            21321015,
+            21321016,
+            21321017,
+            21321018,
+            21321019
+          ],
+          "sectionId": 21321
+        },
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21325001,
+            21325002,
+            21325003,
+            21325004,
+            21325005,
+            21325006,
+            21325007,
+            21325008,
+            21325009,
+            21325010,
+            21325011,
+            21325012
+          ],
+          "sectionId": 21325
+        },
+        {
+          "bundle": "yolanda",
+          "rowIds": [
+            21327001,
+            21327002,
+            21327003,
+            21327004,
+            21327005
+          ],
+          "sectionId": 21327
+        }
+      ],
+      "title": "《禁忌的人鱼》·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 66,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 66,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "59",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "无法宣之于口的心意",
+  "title": "禁忌的人鱼",
+  "wordCount": 3270
+}

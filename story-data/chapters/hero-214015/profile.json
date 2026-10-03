@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214015",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《永恒的异界幻想》，星空猎人「星洛」化身为1/7比例模型登场！个子虽小，却拥有强大的力量！天真可爱的吃货猎人即将开始新的狩猎！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214015"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 65
+}

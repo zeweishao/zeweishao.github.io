@@ -1,0 +1,91 @@
+{
+  "bookId": "hero-211102",
+  "id": "bond-28562",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28562001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是送给贤秀的礼物，喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562002",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "似乎是「绿之家」，可总觉得哪里不一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562003",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "没错，是我第一次来到「绿之家」时候的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562004",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "甚至要比那个时候还要干净整洁，真是不可思议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为这是属于贤秀真正的家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562006",
+          "sourceType": 0,
+          "speaker": "车贤秀",
+          "text": "属于我的「家」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28562007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对，只属于贤秀的「Sweet Home」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28562",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28562001,
+            28562002,
+            28562003,
+            28562004,
+            28562005,
+            28562006,
+            28562007
+          ],
+          "sectionId": 28562
+        }
+      ],
+      "title": "「Sweet Home」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「Sweet Home」",
+  "wordCount": 117
+}

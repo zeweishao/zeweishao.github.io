@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212103",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下的猩潮品牌与新锐潮玩设计师展开合作，联手推出这款闹钟系列潮流玩偶。该作品灵感来自日常生活中熟悉的普通物件，经由艺术化的雕琢，普通的闹钟仿若被赋予了生命。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212103"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 82
+}

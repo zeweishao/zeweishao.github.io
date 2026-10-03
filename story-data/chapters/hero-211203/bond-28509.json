@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211203",
+  "id": "bond-28509",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28509001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "又带了这么多有趣的小玩具来找我，说吧，你有什么目的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没什么，只是意外收集到这些修理工具，就想到你会喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "赏金猎人从不相信这世界上会有白捡的午餐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你这么大方送东西给我，很难让我不怀疑你啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "所以，老实点说出来吧，你真正的目的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可我真的只是单纯想送给你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过既然你这样问了，那你觉得我还能有什么目的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "比如喜欢我，想要借此接近我之类的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咳咳咳……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "怎么，被我说中心虚了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然不是……如果实在要说有什么目的的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那也顶多是想瞻仰下泉小姐享受机车骑行的飒爽英姿？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "啧，那还不是和我说的一个意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "如果是你想看的话，我不介意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28509015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不过阿尔贝尔跑起来可是很快的，追不上可别怪我嘲笑你。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28509",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28509001,
+            28509002,
+            28509003,
+            28509004,
+            28509005,
+            28509006,
+            28509007,
+            28509008,
+            28509009,
+            28509010,
+            28509011,
+            28509012,
+            28509013,
+            28509014,
+            28509015
+          ],
+          "sectionId": 28509
+        }
+      ],
+      "title": "目的~"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211203",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "目的~",
+  "wordCount": 282
+}

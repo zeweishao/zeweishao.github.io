@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215202",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「葡萄糖摄入已抑制，血清总胆固醇水平持续降低，试体未观测到明显异常。」\n「谷胱甘肽因子-玉米提取血清，准备推入。」\n「……等等！躯体发生强烈排异反应，申请I级援……来人！你们这群饭桶，在搞什么！」\n「化学性质趋于稳定，蛋白链体竟在表皮……延展出了黄金般的纹路吗？这真不可思议。」\n「你有信心保证，我们真的没有制造出一个怪物吗？」\n「必要的牺牲在所难免，何况这是柔嘉……是她自己的心愿。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "黄金试体Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215202",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "柔嘉·黄金试体Ver.",
+  "title": "黄金试体Ver.",
+  "wordCount": 188
+}

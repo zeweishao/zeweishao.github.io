@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214010",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "出自《悲伤记忆代码》经典角色「艾薇塔·梦想女仆」化身1/7比例模型！手持扫把微微弯腰的艾薇塔，身着性感的女仆装，海藻般迷人的卷发突出了她迷人的曲线。工作中面露迷人微笑的艾薇塔，內心究竟在想着什么呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214010"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 99
+}

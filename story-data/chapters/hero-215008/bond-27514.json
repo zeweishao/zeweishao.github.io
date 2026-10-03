@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-215008",
+  "id": "bond-27514",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27514001",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "果然，我还是低估了自己的魅力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这份礼物，还满意吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我必须提醒你，这不是给偶像应援该送的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我没多想，看到适合你的就买下来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514005",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "算了......既然是你送的，就算形式特别一点，也可以接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "身为偶像，收下一栋房子，你明白我要承受多大的压力吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我换一件别的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "不行，我已经决定收下了。\n原因......我相信你能明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我布置了一些觉得你会喜欢的东西。打开门看看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "居然，这、这么......",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27514012",
+              "text": "这么大？"
+            },
+            {
+              "targetId": "27514012",
+              "text": "这么漂亮？"
+            }
+          ],
+          "sourceId": "27514011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27514012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这么优质的素材，我要拍足足一周份的照片出来！\n你来做我的摄影师，抓拍你喜欢的画面就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27514013",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "这次会收到多少点赞，十万，百万，不如就以千万为目标？\n不过首先，你要拍到我满意为止哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27514",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27514001,
+            27514002,
+            27514003,
+            27514004,
+            27514005,
+            27514006,
+            27514007,
+            27514008,
+            27514009,
+            27514010,
+            27514011,
+            27514012,
+            27514013
+          ],
+          "sectionId": 27514
+        }
+      ],
+      "title": "完美的素材"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215008",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "完美的素材",
+  "wordCount": 283
+}

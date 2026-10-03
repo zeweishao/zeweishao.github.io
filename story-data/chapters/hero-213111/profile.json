@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213111",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下的猩潮品牌与新锐潮玩设计师展开合作，联手推出这款药丸系列潮流玩偶。该作品灵感来自日常生活中熟悉的事物，经由设计师的艺术加工，吃枣药丸的个性与特色被展现得淋漓尽致。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213111"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 87
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212201",
+  "id": "bond-26019",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26019001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听说你最近举办了一场手办世界武道联赛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "已经连赢15场了，发挥得算马马虎虎吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019003",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "站在手办世界的顶点，是不是能看到不一样的风景呢，我很期待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不愧是武道狂！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019005",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "接下来的对手可是一个比一个怪物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "你愿意做我的陪练吗，一般的手办已经无法激起我的胜负欲了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好啊，说来你一次都没向我发起过挑战呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "作为一名武者，我能清晰地看到我们之间巨大的力量差距。这是无论怎样修炼都无法弥补的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是没有办法的事吧……不过为什么你执着于成为最强呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "原来的我也没有完全想明白这个问题，也许我只是享受战斗，以及赢的快感。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019011",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "但是现在我找到了变强的意义……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019012",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "因为只有变得足够强，才能成为配得上你的手办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26019013",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "……这样说是不是太直接了不够淑女？嘛，反正就是这个意思啦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26019",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26019001,
+            26019002,
+            26019003,
+            26019004,
+            26019005,
+            26019006,
+            26019007,
+            26019008,
+            26019009,
+            26019010,
+            26019011,
+            26019012,
+            26019013
+          ],
+          "sectionId": 26019
+        }
+      ],
+      "title": "最强手办"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212201",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "最强手办",
+  "wordCount": 305
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-214016",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "文艺研究社初代社长「玉夏」化身1/7比例模型登场！在她看似冷漠的表情下隐藏着炽热的内心和天马行空的想象力，她身后书上的内容或许可以为我们揭示一二。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214016"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 73
+}

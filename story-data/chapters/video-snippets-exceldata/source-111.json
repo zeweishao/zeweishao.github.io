@@ -1,0 +1,111 @@
+{
+  "bookId": "video-snippets-exceldata",
+  "id": "source-111",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "111001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好危险，好危险。\n差点被发现我们能动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "111002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你是笨蛋吗？为什么不把门关好？！\n如果被其他人类发现我们能动会被抓去解剖的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "111003",
+          "sourceType": 7,
+          "text": "水野梅 · 女高日常\n商品名称：水野梅·女高日常 Ver.\n作品名称：《属于夏日的绮丽恋爱物语》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约255mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "111004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "疏忽疏忽。优纪以后会更仔细检查，绝不让除主人之外的人类发现我们能动的秘密。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "111005",
+          "sourceType": 7,
+          "text": "优纪 · 奇迹少女\n商品名称：优纪·奇迹少女 Ver.\n作品名称：《奇迹少女优纪》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约220mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "111006",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "算了。快点过来啦，你这个笨蛋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "111007",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "是！来了来了~棒球少女，轮换登场了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "111",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            111001,
+            111002,
+            111003,
+            111004,
+            111005,
+            111006,
+            111007
+          ],
+          "sectionId": 111
+        }
+      ],
+      "title": "视频配套对白 111"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "5001",
+              "talk_id"
+            ],
+            "table": "ResVideoTalk.lua"
+          }
+        ],
+        "path": [
+          "5001",
+          "talk_id"
+        ],
+        "sectionId": 111,
+        "table": "ResVideoTalk",
+        "videoPath": "Videos/xinshou_1.mp4"
+      },
+      {
+        "id": "54",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "2",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "视频 5001 配套文字",
+  "title": "视频配套对白 111",
+  "wordCount": 316
+}

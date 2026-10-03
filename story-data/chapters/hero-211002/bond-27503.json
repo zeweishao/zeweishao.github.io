@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-211002",
+  "id": "bond-27503",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27503001",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "准备完毕，要上了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "要、要开始了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503003",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "沉静下来，保持专注。\n如今的磨砺，将会是你宝贵的人生财富。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503004",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "相信我的判断，此战必捷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是万一爆炸，或者起火......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503006",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "或许会，但我们必须勇敢面对这一切。\n我向你保证，「玛尔斯之盾」会挡住飞向你的所有威胁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......我想我准备好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503008",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "听我指令，开火！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503009",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "做得很好，我为你感到骄傲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我真的做到了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503011",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "现在把火调小些，土豆块下锅，翻炒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "梅根闻到了吗，好香啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503013",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "......嗯，就是这种香味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27503014",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "和院长奶奶做的炒土豆，一模一样。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27503",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27503001,
+            27503002,
+            27503003,
+            27503004,
+            27503005,
+            27503006,
+            27503007,
+            27503008,
+            27503009,
+            27503010,
+            27503011,
+            27503012,
+            27503013,
+            27503014
+          ],
+          "sectionId": 27503
+        }
+      ],
+      "title": "指挥官"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211002",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "指挥官",
+  "wordCount": 217
+}

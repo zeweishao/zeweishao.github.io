@@ -1,0 +1,161 @@
+{
+  "bookId": "hero-214017",
+  "id": "bond-26052",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26052001",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "你又要......出门了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是啊，怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "和你在一起会......很有安全感，可以陪我多待一会吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样的话，我带你一起出去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052005",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "不，不行的。\n比起一起出门，一起待在家里更好吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是总有必须出门的理由呀。比如——",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26052008",
+              "text": "采买食物"
+            },
+            {
+              "targetId": "26052010",
+              "text": "处理垃圾"
+            }
+          ],
+          "sourceId": "26052007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26052008",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "其实，我们可以在家种菜，再储备一些......压缩饼干？\n这样就能补充维生素的同时，尽量减少出门了，嘿嘿。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "26052012",
+              "text": "......"
+            }
+          ],
+          "sourceId": "26052009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "26052010",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "这个确实，没办法避免......不过，等到夜深人静时偷偷出去扔垃圾更好吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "这样就不会遇到其他人，可以安心享受独自丢垃圾的时光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......我果然还是需要现在出门一趟。\n海柔尔在家稍等一会吧，我会尽快回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052013",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "等、等一等！那么，请把我放进背包里吧。\n在黑暗里听到你的心跳，也会安心一些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26052014",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊！但是......无论发生什么，都不可以把我拿出来哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26052",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26052001,
+            26052002,
+            26052003,
+            26052004,
+            26052005,
+            26052006,
+            26052007,
+            26052008,
+            26052009,
+            26052010,
+            26052011,
+            26052012,
+            26052013,
+            26052014
+          ],
+          "sectionId": 26052
+        }
+      ],
+      "title": "出门的理由"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214017",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "出门的理由",
+  "wordCount": 335
+}

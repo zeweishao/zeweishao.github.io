@@ -1,0 +1,2187 @@
+{
+  "bookId": "rewind-13",
+  "id": "chapter-54",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16300001",
+          "sourceType": 3,
+          "text": "距离柯斯顿城活化已经过去数月——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16300002",
+          "sourceType": 3,
+          "text": "叮铃铃，电话声响起——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16300003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "咳咳……喂，您好，我是FULI公司的售后客服人员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300004",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "客人您最近在我们平台购买了一批产品，\n现通知您，这批产品有质量问题，作为补偿我们将全额退款。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300006",
+              "text": "阿，那要怎么做？"
+            }
+          ],
+          "sourceId": "16300005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300006",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "接下来我会逐步指导你进行操作。\n你要准备一个银行账号，唔……由于流程非常非常复杂，就不详细介绍了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300008",
+              "text": "的确。"
+            },
+            {
+              "targetId": "16300010",
+              "text": "没关系，我正好非常感兴趣呢。"
+            }
+          ],
+          "sourceId": "16300007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "感谢您的理解。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300012",
+              "text": "不客气，艾伦兹家主大人。"
+            }
+          ],
+          "sourceId": "16300009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300012",
+              "text": "是吧，艾伦兹家主大人。"
+            }
+          ],
+          "sourceId": "16300011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……阿，不玩了。讨厌的财务流程！\n没错，是吾，感到意外吧，受宠若惊的人族。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300014",
+              "text": "的确很惊喜哦。"
+            }
+          ],
+          "sourceId": "16300013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，不许笑出声，嘴角上扬也不可以。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16300016",
+              "text": "（小声笑）"
+            },
+            {
+              "targetId": "16300016",
+              "text": "（大声狂笑）"
+            }
+          ],
+          "sourceId": "16300015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16300016",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……\n呵，你的笑声真是有趣的人族礼节。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不笑，我真的不笑了。\n家主最近怎样？还习惯人族世界吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "无聊透顶，每日收收租，逛逛柯斯顿，\n同那些吱吱喳喳的美食们开开会，讨论下怎样振兴城市罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300019",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你呢，最近过得怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "悄悄告诉你，我——中——了——一等奖。\n快递应该快到了，是FULI合作活动的一等奖，奖品是一款绝版限定手办哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "真是，这点小事值得你这么高兴吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "家主大人的口气听上去好像有点奇怪哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300023",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "大概是不爽吧，毕竟你可是我的所有物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300024",
+          "sourceType": 5,
+          "speaker": "阿斯塔罗斯",
+          "text": "艾伦兹，你还要拖到什么时候？\n出来开会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300025",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "阿斯塔罗斯来了，吾要开始工作，再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300026",
+          "sourceType": 3,
+          "text": "嘟——通话被艾伦兹干净利落挂断——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16300027",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哎呀，这次挂得这么快，难道生气了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300028",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "成天黏着人类，像什么样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300029",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "打个电话而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300030",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "四区管理者都到齐了，不要迟到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300031",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "别让我催第三遍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16300032",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "知道了，啰嗦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301001",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "如果这次的柯斯顿建成日春日庆典举办顺利，将有效扩大我们在这里的影响力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301002",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "南区提议举办水果创意雕刻大赛。\n参赛者将以龙王大人作为雕刻对象，让观众在嗅觉与视觉的双重冲击下，深刻感受到龙王大人的伟岸形象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301003",
+          "sourceType": 0,
+          "speaker": "小坦克",
+          "text": "小气巴巴的水果雕刻有什么好看！\n东区提议举办那种有震撼力、够火爆的比赛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301004",
+          "sourceType": 0,
+          "speaker": "小男孩",
+          "text": "西区投东区一票，biubiubiu~\n热闹火爆的电玩游乐机摆满街道两旁，超吸引人的说~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301005",
+          "sourceType": 0,
+          "speaker": "小坦克",
+          "text": "震撼又火爆的比赛应该是正面直接的激情碰撞——属于男人的较量！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301006",
+          "sourceType": 0,
+          "speaker": "小男孩",
+          "text": "biu~你身为时尚区负责人，太粗暴直接了。\n我认为电玩游乐机同样很符合火爆的要求~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301007",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "我也想说……那个，如果邀请人气歌姬参与庆典活动的话，气氛也会很热烈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301008",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "情报显示，FULI即将推出一款广受喜欢的绝版限定手办。\n我们监测到系列中的一个手办，有思考和行动的迹象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301009",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "不如还是征求一下龙王大人的意见吧。\n龙王大人，您看应该选择哪一个方案……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301010",
+          "sourceType": 2,
+          "speaker": "艾伦兹·珀尔",
+          "text": "（内心）轻率的人族！竟然用那种轻率的期待口气！轻率无耻！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16301011",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "龙王大人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16302001",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "我说艾伦兹，你能稍微认真点吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16302002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我很认真在思考，只是你们这些建议完全让吾提不起兴致。\n（呵欠）……甚至还没有和人类聊天有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16302003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "吾的伟岸形象哪里需要区区一个比赛衬托？\n让参赛者产生自卑感，会影响节日氛围。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16302004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "而且你们不要搞错方向，这次的庆典是为了彻底摘下那老掉牙的“破败遗址”称号——我们需要时尚高贵又前卫的方案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16302005",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "给我重新想！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-337",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16300001,
+            16300002,
+            16300003,
+            16300004,
+            16300005,
+            16300006,
+            16300007,
+            16300008,
+            16300009,
+            16300010,
+            16300011,
+            16300012,
+            16300013,
+            16300014,
+            16300015,
+            16300016,
+            16300017,
+            16300018,
+            16300019,
+            16300020,
+            16300021,
+            16300022,
+            16300023,
+            16300024,
+            16300025,
+            16300026,
+            16300027,
+            16300028,
+            16300029,
+            16300030,
+            16300031,
+            16300032
+          ],
+          "sectionId": 16300
+        },
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16301001,
+            16301002,
+            16301003,
+            16301004,
+            16301005,
+            16301006,
+            16301007,
+            16301008,
+            16301009,
+            16301010,
+            16301011
+          ],
+          "sectionId": 16301
+        },
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16302001,
+            16302002,
+            16302003,
+            16302004,
+            16302005
+          ],
+          "sectionId": 16302
+        }
+      ],
+      "title": "春和景明序章·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16310001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "六十，一百八，三十天，唔，再乘以二……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310002",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "错了，要乘以三。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嗯？你知道我在算什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310004",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "简单的侦探直觉，如果有什么能让桑尼完全无视周围环境的话，只能是赚钱的事了，尤其是，来自柯斯顿庆典的大商机。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "喔，门口的不是阿斯塔罗斯吗，嗨，阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310006",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "出于对这具身体的爱护，你现在最好不要贸然接近。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310007",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "显而易见，他的站姿表明近期压力很大，并且对自身无力的处境感到烦躁，对性格强势且急需发泄的人来说，下意识做出袭击举动的概率极高。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310008",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "我建议你躲开他，如果要打招呼，务必绕到他的正前方。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "谢谢提醒，侦探先生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310010",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嗨，阿斯塔罗斯，你还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310011",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "托艾伦兹的福，好极了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "听说你们在筹备春日庆典，真叫人期待。方便稍微透露一下主题和摊位信息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310013",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "注意他的面部，隐蔽的轻蔑表情，持续了0.5秒，意思是，糟糕透了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310014",
+          "sourceType": 0,
+          "speaker": "小男孩",
+          "text": "家主大人！考虑下，绝无仅有的寻找游戏史上最强者的方案！——这是我今生唯一的祈求了！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哦，加油，你可以让它成为永生的追求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310016",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "家主大人，戏剧模仿赛怎么样，我挑选了不少时下流行的精品剧本：有《白雪公主和她的恶毒母后》，《睡美人与嫉妒心极强的碧莲》……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310017",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "不要不要不要！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310018",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "那家伙一旦任性起来，简直没完没了，真是叫人火大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310019",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "啊哈，冷静，冷静，想想你的工资，她可是你的甲方龙王大人喔，\n像阿尔弗雷德和我，虽然他的时尚品味我并不认同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310020",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "阿尔弗雷德？他和你什么关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310021",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "忠诚的上帝顾客与诚信商家的关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310022",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "桑尼，我们来做一个交易吧。\n你去向阿尔弗雷德转达一句话，作为回报，我会告诉你摊位信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310023",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这么做真的好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310024",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "哼，龙在熬夜方面可是天生的强者。\n——这场会议，三小时只是开始。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310025",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "好吧，交易达成。\n只要这样转达给阿尔弗雷德就可以了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16310026",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "那个男人不会希望有人挑战他在时尚方面的权威。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "侦探先生，你觉得这个计划真的行得通么……\n阿尔弗雷德会上当吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311002",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "不必担心，对付自大狂，激将法就像捕鼠夹上的鲜奶酪——\n根本无法抗拒，他们才不管这是圈套还是阴谋。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311003",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "熟悉的香烟味道，他来了。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "桑尼，我预定的COL-III系列到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "当然，COL黑超新品，硬汉风，全球限量，酷潮街区仅此一款。\n另外，相信这个会让你感兴趣，17年的阿瑞斯绝版。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311006",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "酷。你从哪里弄到的，看这锋利的线条和完美的一体式结构！\n不得不说，桑尼，你有敏锐的时尚嗅觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311007",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "好机会，就是现在！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "说起时尚，我听说艾伦兹正在筹备柯斯顿春日庆典，要一举推动柯斯顿超越曾经的中央城，成为全新的时尚与潮流之都。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "嗯……这款也还不错，可惜运动风今年已经过时了。\n——呵，有趣，区区“破败遗址”，也配在我面前谈论时尚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311010",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "她打算垄断供应来源，毕竟艾伦兹还是有点钱的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311011",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "以那条龙的糟糕品味，再给她一千年，也打造不出另一个黑街。\n这款，这款，这款，不要，其他的替我包起来，买单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "阿尔弗雷德，你简直就是完美的时尚潮流引领者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "粮丸出来吧，是时候出发了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311014",
+          "sourceType": 5,
+          "speaker": "猫",
+          "text": "喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "天哪，好大——这头……呃，看起来超凶的……大……大橘猫？！\n……是你的新代步工具？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "波普艺术的冷漠和疏离感，富有贵族气息的毛发和纹理，这是上天赋予这只猫的时尚外衣——愣着干什么，还不上来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311017",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "我……吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311018",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "嗯？你不想去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311019",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不，我很乐意同行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311020",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "身为潮流时尚的引领者，我有义务让不自量力的家伙知难而退。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311021",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "哎呀呀，真是看不惯这个男人的做派。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16311022",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不，我反而觉得……\n阿尔弗雷德大人认真起来的样子，真叫人着迷。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "……唔……我觉得有点晕，还有点……想吐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312002",
+          "sourceType": 2,
+          "speaker": "桑尼第三人格",
+          "text": "放松，深呼吸，按照这个速度，不出意外，再有十个呼吸就能到了……看，那是柯斯顿的守门员。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "呃，呼，咳咳……阿尔弗雷德先生，是守卫，我们要通报吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "通报？你在讲一个蠢透的笑话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "喂，守卫，你去告诉那条龙，\n我，中央城第二继承人，尊贵的阿尔弗雷德大人，驾临了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312006",
+          "sourceType": 5,
+          "speaker": "守卫",
+          "text": "大……大……大橘……是……可怕的……橘猫……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你理应对我感到敬畏，但也不必恭敬至此。\n比起识大体，我更欣赏忠诚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312008",
+          "sourceType": 5,
+          "speaker": "守卫",
+          "text": "……好……好可怕……会被吃掉的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "他好像被你的代步工具吓到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "好吧，粮丸，回去吧。\n太弱了，果然柯斯顿都是没用的废物。接下来，就让我亲自——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16312011",
+          "sourceType": 5,
+          "speaker": "守卫",
+          "text": "……等等！阿尔弗雷德先生……不要……还没有通报家主龙王大人！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-338",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16310001,
+            16310002,
+            16310003,
+            16310004,
+            16310005,
+            16310006,
+            16310007,
+            16310008,
+            16310009,
+            16310010,
+            16310011,
+            16310012,
+            16310013,
+            16310014,
+            16310015,
+            16310016,
+            16310017,
+            16310018,
+            16310019,
+            16310020,
+            16310021,
+            16310022,
+            16310023,
+            16310024,
+            16310025,
+            16310026
+          ],
+          "sectionId": 16310
+        },
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16311001,
+            16311002,
+            16311003,
+            16311004,
+            16311005,
+            16311006,
+            16311007,
+            16311008,
+            16311009,
+            16311010,
+            16311011,
+            16311012,
+            16311013,
+            16311014,
+            16311015,
+            16311016,
+            16311017,
+            16311018,
+            16311019,
+            16311020,
+            16311021,
+            16311022
+          ],
+          "sectionId": 16311
+        },
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16312001,
+            16312002,
+            16312003,
+            16312004,
+            16312005,
+            16312006,
+            16312007,
+            16312008,
+            16312009,
+            16312010,
+            16312011
+          ],
+          "sectionId": 16312
+        }
+      ],
+      "title": "春和景明序章·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16320001",
+          "sourceType": 3,
+          "text": "咣——轰——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16320002",
+          "sourceType": 5,
+          "speaker": "小坦克",
+          "text": "敌袭！敌袭！保护家主大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320003",
+          "sourceType": 5,
+          "speaker": "小男孩",
+          "text": "biu！怎么啦！要打架了吗！来吧我准备好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320004",
+          "sourceType": 5,
+          "speaker": "牙牙",
+          "text": "家……家主大人，您没受伤吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "下午好，好久不见，破败遗址的老古董们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320006",
+          "sourceType": 5,
+          "speaker": "猪猪",
+          "text": "这个声音，似乎是阿尔弗雷德阁下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320007",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你在做什么？这欠扁的语气，真是一如既往地叫人讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320008",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "愚昧的红龙，我来教下你什么叫尊重时尚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320009",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "谁给你的可笑自信。\n一个被中央城驱逐的弃子，没有资格与吾等对话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320010",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "资格？区区破败遗址，也配跟中央城相提并论，真是愚蠢又天真。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320011",
+          "sourceType": 5,
+          "speaker": "小坦克",
+          "text": "侮辱！家主大人，这是赤裸裸的侮辱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320012",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "龙焰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320013",
+          "sourceType": 0,
+          "speaker": "小坦克",
+          "text": "家主大人，我们来帮你！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320014",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "哎哎，吵起来了……那个，阿斯塔罗斯，他们的关系为什么这么差劲？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320015",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "要命的好胜心，长期以来柯斯顿城总被中央城压一头，骄傲高贵的龙族绝不能容忍这种事情，所以双方虽然有贸易往来，但两人每次见面都是剑拔弩张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320016",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "话说真的没关系吗，你的解决办法……就是让他们碰面打架？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320017",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "打够了总会停下来，再说，这点损失中央城又不是赔偿不起。\n你看，这不是已经好好坐下来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "我很忙，你想撒野，麻烦去找别人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320019",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "算起来，先动手的是你，野蛮物种总是这样不讲道理。\n喔，这是什么，《柯斯顿春日庆典之初音未来计划》？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320020",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "谁允许你碰它！放下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320021",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你在害怕？的确，毕竟黑街的主人是我，全城物流和人类商品流通都在我的掌控之下，只要一个指令，你一个手办都别想得到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "阿尔弗雷德，你的自大症是越来越严重了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320023",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "呼，遗迹的空气是陈旧又污浊，实在没什么久留的必要。\n桑尼我就先带走了，在庆典开始前，我会禁用她的蜘蛛网账号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320024",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "别跑，站住，喂——\n……可恶！这个臭屁的中央城龟毛老处男！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320025",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "瞧瞧你们家主大人这气急败坏的模样，我已经能够想象到柯斯顿城覆灭的一天——那么，祝你们庆典顺利，再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320026",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "阿斯塔罗斯！你一直愣在那里做什么！为什么不说话！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320027",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "随他好了，反正又没有定下方案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320028",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "该死的臭屁男！\n刚刚提到的方案都有什么？快！快！快！会议开起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320029",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "现在定下了！我宣布，全部方案统统通过！并且，一定要邀请到初音未来！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320030",
+          "sourceType": 0,
+          "speaker": "小坦克",
+          "text": "万岁！家主大人英明！\n一雪前耻！让柯斯顿成为世界第一的时尚与潮流之都！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320031",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "不过龙王大人，按照初音庆典计划，当前最大的难题，是场地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320032",
+          "sourceType": 0,
+          "speaker": "猪猪",
+          "text": "活化的柯斯顿城虽大，但远远不及过去的土地，\n我们需要一个大且安全的演出场地，同时要避免被人族发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320033",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "还有一个更大的难题，怎样才能让那位初音参加庆典呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320034",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "如果不能得到黑街的协助，我们就只能从FULI商店买下那款手办并邀请过来……可是我们没有人类网站的购买账号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320035",
+          "sourceType": 0,
+          "speaker": "小男孩",
+          "text": "biu，没有人类帮助的话……根本就是超噩梦等级的难度！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320036",
+          "sourceType": 0,
+          "speaker": "小坦克",
+          "text": "说什么人类，别做梦了，还……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320037",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "啊哈~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320038",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "你倒是笑得出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320039",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，这个阿尔弗雷德，总算做了件好事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320040",
+          "sourceType": 0,
+          "speaker": "牙牙",
+          "text": "家主大人，您想到解决办法了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16320041",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "没什么，忽然想起一个有趣的人类。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-339",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16320001,
+            16320002,
+            16320003,
+            16320004,
+            16320005,
+            16320006,
+            16320007,
+            16320008,
+            16320009,
+            16320010,
+            16320011,
+            16320012,
+            16320013,
+            16320014,
+            16320015,
+            16320016,
+            16320017,
+            16320018,
+            16320019,
+            16320020,
+            16320021,
+            16320022,
+            16320023,
+            16320024,
+            16320025,
+            16320026,
+            16320027,
+            16320028,
+            16320029,
+            16320030,
+            16320031,
+            16320032,
+            16320033,
+            16320034,
+            16320035,
+            16320036,
+            16320037,
+            16320038,
+            16320039,
+            16320040,
+            16320041
+          ],
+          "sectionId": 16320
+        }
+      ],
+      "title": "春和景明序章·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16330001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，搭把手，这个相框实在是太重了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330002",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "来了来了，重脚，后撤闪避……哼哼，轻拳重拳KO！ROUND 2！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "别玩了，哈莉，主人的快递就快到了，我们要赶紧打扫房间迎接新成员阿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330004",
+          "sourceType": 5,
+          "speaker": "哈莉",
+          "text": "只要三十秒，我就把这家伙解决掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "还是我来吧，优纪，挂在这边可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯嗯，再高一点喔，\n主人主人，你来看看嘛，这个位置很不错吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16330008",
+              "text": "很不错，做得很好呢。"
+            }
+          ],
+          "sourceId": "16330007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16330008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼~大功告成！\n欸，好漂亮……这个双马尾的女孩子，就是初音未来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330009",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "我看看，喔喔，的确是个可爱的女孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330010",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "台子已经擦干净了，还有哪里需要帮忙吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "让我想想……嗯……好像全都完成了呢！\n接下来阿，嘿嘿，就去主人被窝里聊天吧~好不好嘛，主人？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16330013",
+              "text": "优纪今天很开心哦。"
+            },
+            {
+              "targetId": "16330013",
+              "text": "不过，不可以睡太晚喔。"
+            }
+          ],
+          "sourceId": "16330012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16330013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，最喜欢主人啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330014",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "啊哈，被窝真暖和，我要躺在最里面！\n怎么了花迦，喔——知道了，你想躺在主人旁边？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330015",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "不是的，我只是在想明天要来的新同伴。她会是个什么样的人呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "会不会也是个路痴，像小梅酱一样~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330017",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "小梅酱难道就是那位传说中……迷路到现在至今未归的水野梅前辈？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是啊，不知道能不能找到回家的路阿……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330019",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "啊，难道你们不担心吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330020",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没事哦，主人的信息显示小梅酱现在一切都很安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330021",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "我~还~知~道~小梅酱害怕什么哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "小红没见过小梅酱吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330023",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我记得小红和小梅酱从来没见过呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330024",
+          "sourceType": 0,
+          "speaker": "小红",
+          "text": "哼哼，我偷偷黑进了主人的手机，看到了哦~小梅酱每隔一段时间就会联系主人，昨天才被一只大螃蟹吓到不敢动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊！大螃蟹，那，那小梅酱没事吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330026",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "一般来说，这种情况，应该关心一下螃蟹的状况吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16330027",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "听起来总觉得哪里不太对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331001",
+          "sourceType": 3,
+          "text": "第二天——\n叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16331002",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "阿，快递！是初音未来到了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331003",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "哈哈，马上就能见到可爱的女孩子了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331004",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "快打开！快打开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331005",
+          "sourceType": 5,
+          "speaker": "绿子",
+          "text": "喔！比照片上还要可爱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "阿嗨~第九小分队队长哈莉~这是我的两个小盒子~\n红的叫小红，蓝的叫小蓝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欢迎你哦，可爱的初音未来~\n以后这里就是你的新家了，我们都会好好保护你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331008",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我们把初音未来摆在哪里呢，那边的新架子怎么样。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16331010",
+              "text": "不错的建议呢。"
+            }
+          ],
+          "sourceId": "16331009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16331010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "唔，不愧是限量款，做工好精致，摸起来的质感也很不错！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "小心，哈莉，你要把她弄倒了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331012",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "噗嗤——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欸，她笑了？主人，快看，初音未来跟我们一样哎！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你好，请问可以听到我们说话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331015",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "你们好，我是初音未来，初次见面，请多指教。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331016",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔！可爱女孩子的声音！\n嘿，我是绿子，以后有我罩着，谁都不能欺负你，明白吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是令人意外，很高兴能认识你。我是「|101|」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331018",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "岩田和江。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331019",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "嘿，再次介绍，小红，小蓝，还有我——哈莉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "你好，我是花迦，欢迎你来，请务必把这里当作自己的家……我们可以叫你Miku吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331021",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "当然可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16331022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好棒！我们以后可以一起玩哦，有什么需要尽管和我们说哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-340",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16330001,
+            16330002,
+            16330003,
+            16330004,
+            16330005,
+            16330006,
+            16330007,
+            16330008,
+            16330009,
+            16330010,
+            16330011,
+            16330012,
+            16330013,
+            16330014,
+            16330015,
+            16330016,
+            16330017,
+            16330018,
+            16330019,
+            16330020,
+            16330021,
+            16330022,
+            16330023,
+            16330024,
+            16330025,
+            16330026,
+            16330027
+          ],
+          "sectionId": 16330
+        },
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16331001,
+            16331002,
+            16331003,
+            16331004,
+            16331005,
+            16331006,
+            16331007,
+            16331008,
+            16331009,
+            16331010,
+            16331011,
+            16331012,
+            16331013,
+            16331014,
+            16331015,
+            16331016,
+            16331017,
+            16331018,
+            16331019,
+            16331020,
+            16331021,
+            16331022
+          ],
+          "sectionId": 16331
+        }
+      ],
+      "title": "春和景明序章·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16340001",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "就算是为了庆典拜访人族，也没必要一大早就亲自上门吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340002",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "除了拜托认识的人族，难道你还有什么别的办法接触到那款具有思维活动的初音未来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340003",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "不过是想要找个借口接近对方。成天黏着人族，没半点龙王的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "喂，拿稳点，你手里拿着的可是代表着柯斯顿尊贵门面的黄金邀请函。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "快点，办完正事就赶紧回去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，去敲门吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340007",
+          "sourceType": 3,
+          "text": "叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16340008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人有客人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我看看是谁——喔，优纪不是一直想要认识龙王大人吗？机会来了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是家主大人和骑士大人啊，欢迎欢迎——\n说起来今天真是个特别的日子呢，家里的客人格外多~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，是真的，真的龙王大人！\n好荣幸，我是优纪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "怎……怎么这么多雌性生物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那个，不如先进来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340015",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "打扰了。\n唔——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340016",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "请问，您是……认识我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哦，介绍一下，这位就是之前电话提到的初音未来，你也一定会喜欢她的。\n这位是柯斯顿城的家主，龙王大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "初音未来……？\n阿斯塔罗斯，庆典计划里的那位嘉宾，是不是也叫这个名字？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340019",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "看起来完全是同一个人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340020",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "哼，真是无巧不成书。\n果然是漂亮又可爱的女孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "你好，吾乃柯斯顿城城市守护者，柯斯顿现任家主，高贵而受人敬仰的龙王，\n你可以称呼吾艾伦兹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这位是吾的骑士，世间最强的人族，你可以称他为骑士大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340023",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "你好，我是初音未来，请多指教~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340024",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "叫我阿斯塔罗斯就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340025",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是庆典哎~我们也能参加吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340026",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "自然，这是自由出入柯斯顿城的黄金邀请函。\n柯斯顿建成日就快到了，还要拜托你们多多扩散消息，邀请更多人参加庆典。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340027",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "另外，庆典的举办需要人类的协助。\n作为报酬，以龙王之名，吾可以满足你的一个愿望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听上去很有趣呢，我需要做些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340029",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "首先，我们需要一个足够大的场地，安全且不会被其他人类发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340030",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "其次，我们需要一些工作人员，协助表演节目筹备和派发黄金邀请函。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "乐意效劳，不过不是为了报酬。\n场地的话，天台如何？四周都有围栏，除非从高空俯瞰，一般很难被人发现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340032",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦可以帮忙派发邀请函。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340033",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈，我也可以！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那，我也要参加~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340035",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "还有一件事，经过管理会决议，我们希望邀请初音未来作为庆典的表演嘉宾。\n你也会同意的，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16340037",
+              "text": "这件事，要看初音自己的意愿。"
+            }
+          ],
+          "sourceId": "16340036",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16340037",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "初音未来，吾以柯斯顿家主的身份，正式邀请你参加柯斯顿城的春日庆典，并且担任我们的赛事裁判和表演嘉宾，你的要求，我们也都会尽量满足。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340038",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "感谢龙王大人的邀请，我可以帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340039",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "相关宣传和准备工作需要尽快启动，\n事不宜迟，要劳驾【|101|】和阿斯塔罗斯立刻动身回柯斯顿了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340040",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "那你呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340041",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "当然是稍后就来……我还没有好好参观过人族的家呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340042",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "又在为偷懒找借口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340043",
+          "sourceType": 5,
+          "speaker": "艾伦兹·珀尔",
+          "text": "研究人族也是很重要的工作！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340044",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "艾，伦，兹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340045",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "知道知道，唔……但真的很想和有趣的人族多呆一会……\n或者，要不要来我们柯斯顿观光？庆典筹备工作可是很有趣的~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "16340047",
+              "text": "真拿你没办法。"
+            },
+            {
+              "targetId": "16340047",
+              "text": "好像也不错，那就一起走吧？"
+            }
+          ],
+          "sourceId": "16340046",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "16340047",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "过分，主人和Miku竟然丢下我们偷偷出去玩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340048",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "他们是去工作啦，等下我们也有事情要做哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340049",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那这些黄金邀请函，就拜托你们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16340050",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "放心，保证按时送到~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-341",
+      "sourceRefs": [
+        {
+          "bundle": "miku",
+          "rowIds": [
+            16340001,
+            16340002,
+            16340003,
+            16340004,
+            16340005,
+            16340006,
+            16340007,
+            16340008,
+            16340009,
+            16340010,
+            16340011,
+            16340012,
+            16340013,
+            16340014,
+            16340015,
+            16340016,
+            16340017,
+            16340018,
+            16340019,
+            16340020,
+            16340021,
+            16340022,
+            16340023,
+            16340024,
+            16340025,
+            16340026,
+            16340027,
+            16340028,
+            16340029,
+            16340030,
+            16340031,
+            16340032,
+            16340033,
+            16340034,
+            16340035,
+            16340036,
+            16340037,
+            16340038,
+            16340039,
+            16340040,
+            16340041,
+            16340042,
+            16340043,
+            16340044,
+            16340045,
+            16340046,
+            16340047,
+            16340048,
+            16340049,
+            16340050
+          ],
+          "sectionId": 16340
+        }
+      ],
+      "title": "春和景明序章·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 54,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 54,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "被窝里的悄悄话~",
+  "title": "春和景明序",
+  "wordCount": 6006
+}

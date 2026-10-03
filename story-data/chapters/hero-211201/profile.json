@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211201",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名模型师第九将夜细腻还原了阿斯塔罗斯在经典游戏原作中的形象，阿斯塔罗斯狂妄而又邪恶地站立在被火焰灼烧得皲裂的大地上，手中的大剑仿佛发出了嗜血的争鸣。暗夜之中的屠龙骑士，正式浴血归来！",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211201"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

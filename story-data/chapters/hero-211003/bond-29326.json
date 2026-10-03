@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-211003",
+  "id": "bond-29326",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29326001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈呢？！她在这房子里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "她不在，这房子是送你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326003",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈当然要和哥哥住一起，让她也搬进来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我想她大概不会接受这个提议......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326005",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "谁允许你猜测莉莉奈的想法了？能看透莉莉奈心思的只有我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我们兄妹间的感情是外人不可企及的，明白了吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说实话不太明白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "呵，难怪！\n没有莉莉奈那样可爱的妹妹，你根本无法理解这种感情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326009",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "好吧，为了让你理解莉莉奈究竟多完美......\n仅此一次，我破例允许你妄想一秒——莉莉奈是你的妹妹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "停！到此为止！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "然后呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326012",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "吼——！！！\n坏掉吧坏掉吧——坏掉吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "忽然这是怎么了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29326014",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "果然不能把莉莉奈分给别人，一秒都不行！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29326",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29326001,
+            29326002,
+            29326003,
+            29326004,
+            29326005,
+            29326006,
+            29326007,
+            29326008,
+            29326009,
+            29326010,
+            29326011,
+            29326012,
+            29326013,
+            29326014
+          ],
+          "sectionId": 29326
+        }
+      ],
+      "title": "寻找莉莉奈3"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "寻找莉莉奈3",
+  "wordCount": 262
+}

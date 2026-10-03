@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17326",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17326001",
+          "sourceType": 10,
+          "text": "红红火火恍恍惚惚，预示着主人新的一年鸿运亨通~",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17326002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "红红火火~蒜蓉龙虾来了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17326003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "扑鼻的蒜香，已经完全浸入了龙虾的里面，配合龙虾细致鲜嫩的口感，绝对可以让主人大吃一斤！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17326004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呼呼……好烫！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17326005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过果然，炸香的蒜蓉蒜香浓郁，很是开胃，只是这一只龙虾的话，我一个人吃完还真没问题呢~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17326",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17326001,
+            17326002,
+            17326003,
+            17326004,
+            17326005
+          ],
+          "sectionId": 17326
+        }
+      ],
+      "title": "红红火火"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17326,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "13",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "红红火火恍恍惚惚，预示着主人新的一年鸿运亨通~",
+  "title": "红红火火",
+  "wordCount": 129
+}

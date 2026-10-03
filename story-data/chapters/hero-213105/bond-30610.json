@@ -1,0 +1,123 @@
+{
+  "bookId": "hero-213105",
+  "id": "bond-30610",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "30610001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "御坂， 我的手机只剩一格电了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610002",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "你这家伙，是把我当成了移动充电宝了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "对不起，因为实在太方便了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610004",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "真是……充好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610005",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "等一下——！你的手机壁纸为什么是我的照片啊？！而且还是趁我睡着的时候拍的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，那个是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看见那么可爱的睡脸，我想没有人能忍住不拍下来的吧？\n你看，还有一张流口水的——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610008",
+          "sourceType": 5,
+          "speaker": "御坂美琴",
+          "text": "住、住住口！居然能一本正经地说出如此下流的话，以后不准再偷拍我了!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那光明正大地拍就可以了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610010",
+          "sourceType": 5,
+          "speaker": "御坂美琴",
+          "text": "什么……变、变变态！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "30610011",
+          "sourceType": 0,
+          "speaker": "御坂美琴",
+          "text": "我不知道！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "30610",
+      "sourceRefs": [
+        {
+          "bundle": "paojie-p3",
+          "rowIds": [
+            30610001,
+            30610002,
+            30610003,
+            30610004,
+            30610005,
+            30610006,
+            30610007,
+            30610008,
+            30610009,
+            30610010,
+            30610011
+          ],
+          "sectionId": 30610
+        }
+      ],
+      "title": "照片"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213105",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "照片",
+  "wordCount": 198
+}

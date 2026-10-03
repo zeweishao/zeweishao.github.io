@@ -1,0 +1,93 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17324",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17324001",
+          "sourceType": 10,
+          "text": "新年会是一个崭新的开始~！这道菜让主人元气满满。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17324002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "火，自古以来都是烹饪核心，而烧烤对火候的把控更是重中之重。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17324003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这个我知道，多一分肉如干柴，便能少一分腥膻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17324004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不过不过，这次的烤牛腿，我们可是很有信心的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17324005",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "里面还有葵特别制作的调料腌制，主人要好好感受这味道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17324006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是光看着就很有压迫力的菜肴啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17324007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔……这是什么，肉汁……还有香气，好像从口中要溢出来了，看我来表演，三口一条牛腿。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17324",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17324001,
+            17324002,
+            17324003,
+            17324004,
+            17324005,
+            17324006,
+            17324007
+          ],
+          "sectionId": 17324
+        }
+      ],
+      "title": "祥瑞贺春"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17324,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "11",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "新年会是一个崭新的开始~！这道菜让主人元气满满。",
+  "title": "祥瑞贺春",
+  "wordCount": 180
+}

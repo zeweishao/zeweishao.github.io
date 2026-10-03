@@ -1,0 +1,245 @@
+{
+  "bookId": "hero-214105",
+  "id": "bond-43804",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43804001",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "这具化身虽小巧玲珑，却多有不便之处。就连仙绫，似乎都僵滞了几分。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804003",
+              "text": "什么意思？"
+            },
+            {
+              "targetId": "43804003",
+              "text": "请说人话。"
+            }
+          ],
+          "sourceId": "43804002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804003",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "本仙还是不太适应手办的躯体啦。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804005",
+              "text": "说起来，你真的是仙人？"
+            }
+          ],
+          "sourceId": "43804004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804005",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "那还有假，在旁人面前或许还要隐瞒身份，以免麻烦。但对你，本仙毫无保留。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804007",
+              "text": "还以为这是什么幻想设定。"
+            }
+          ],
+          "sourceId": "43804006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804007",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "咳，听好了，本仙乃钟山仙界烛大人座下，天火仙子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43804008",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "尽管当下身姿是那位豫州焰火师的「手办化」，但内里却是如假包换的仙人精魄。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804010",
+              "text": "你还有别的模样？"
+            },
+            {
+              "targetId": "43804010",
+              "text": "在仙界你是什么样子？"
+            }
+          ],
+          "sourceId": "43804009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804010",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "想看？那不妨闭上眼睛。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804012",
+              "text": "（闭上眼。）"
+            }
+          ],
+          "sourceId": "43804011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804012",
+          "sourceType": 3,
+          "text": "漆黑的视界里，忽然亮起了一团摇曳的火光。明亮，温和，徐徐燃烧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43804013",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "感受到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804015",
+              "text": "（睁开眼。）"
+            }
+          ],
+          "sourceId": "43804014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804015",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "说说看，你瞧见了什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804017",
+              "text": "一团火。"
+            },
+            {
+              "targetId": "43804017",
+              "text": "那是你？"
+            }
+          ],
+          "sourceId": "43804016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804017",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "呵呵，究竟是如何呢？那并不重要，你只需记得本仙现在的模样便好。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43804019",
+              "text": "当然，我挺喜欢现在的「华焱」的。"
+            }
+          ],
+          "sourceId": "43804018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43804019",
+          "sourceType": 0,
+          "speaker": "华焱",
+          "text": "咳，那便是极好的。本仙也不是随随便便化形的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43804020",
+          "sourceType": 3,
+          "text": "她似不在意地偏过头，脸颊却已染上了淡淡的红霞。",
+          "type": "narration"
+        }
+      ],
+      "id": "43804",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43804001,
+            43804002,
+            43804003,
+            43804004,
+            43804005,
+            43804006,
+            43804007,
+            43804008,
+            43804009,
+            43804010,
+            43804011,
+            43804012,
+            43804013,
+            43804014,
+            43804015,
+            43804016,
+            43804017,
+            43804018,
+            43804019,
+            43804020
+          ],
+          "sectionId": 43804
+        }
+      ],
+      "title": "仙子真身"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "仙子真身",
+  "wordCount": 364
+}

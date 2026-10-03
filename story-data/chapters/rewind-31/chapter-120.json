@@ -1,0 +1,1041 @@
+{
+  "bookId": "rewind-31",
+  "id": "chapter-120",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29508001",
+          "sourceType": 5,
+          "text": "轰隆——！！！咣当！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29508002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "给我搜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508003",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "报告！找到《咖啡执事的狩猎》全本手稿，还有一名疑似幕后黑手的手办！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508004",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "报告！\n每本书封面上的狩猎者大人都非常迷人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "闭嘴，然后把人带上来。\n这本东西，是你写的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "......我不知道你在说什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508007",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "她撒谎！我们捡到的纸上写了「联系地址」，就在这间仓库！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508008",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "就是这家伙把狩猎者大人写成了咖啡店里打杂跑腿的服务生！\n还对客人说出，呜......「这样的」「那样的」羞耻的话！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508009",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "大胆！能接受狩猎者大人调教的只有我们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29508010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "老实交代，装傻对我可行不通。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509001",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "受害者不止你一个。\n我也正是为此而来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "难以置信......\n这群丧心病狂的人，污蔑我是恶心的宅女。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "恶心的，宅女？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509004",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "邋遢的社交障碍人士，省吃俭用买漫画和游戏的神经病，瘫倒在泡面堆里看卡通片的幼稚鬼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哦？还真是相当过火的侮辱呢。\n但我想不通，他们这么做的目的是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这本书的用词也十分微妙，虽然通篇胡说八道，却又不像是恶意抹黑......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "阴谋。\n幕后黑手想要毁掉我们的形象，抹杀整个手办产业。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "最终，FULI公司倒闭，手办无人购买，全部都会被放进垃圾焚烧炉销毁。我不会允许这种事发生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这么说，刚才是一场误会？\n既然如此，不如放一把火，把这些污秽的文稿烧个干净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不行。\n这些书是我们被污蔑的唯一证据，也是追查真凶的唯一线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "那你打算怎么做？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我守住这里，你追出去。\n电脑还热，他们跑不远。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "紧要时刻还能够保持理智清醒，不错。\n你叫什么名字？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509014",
+          "sourceType": 5,
+          "speaker": "神宫有咲",
+          "text": "玉夏学姐，我们回来啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "印好了两百本，全部是散发油墨香味的新书哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509016",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "......彩音，有咲。我都说了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29509017",
+          "sourceType": 5,
+          "speaker": "玉夏",
+          "text": "讲话之前......要看清楚场合啊笨蛋——！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-647",
+      "sourceRefs": [
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29508001,
+            29508002,
+            29508003,
+            29508004,
+            29508005,
+            29508006,
+            29508007,
+            29508008,
+            29508009,
+            29508010
+          ],
+          "sectionId": 29508
+        },
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29509001,
+            29509002,
+            29509003,
+            29509004,
+            29509005,
+            29509006,
+            29509007,
+            29509008,
+            29509009,
+            29509010,
+            29509011,
+            29509012,
+            29509013,
+            29509014,
+            29509015,
+            29509016,
+            29509017
+          ],
+          "sectionId": 29509
+        }
+      ],
+      "title": "二次创作·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29510001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "给我炸掉这间仓库！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29510002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你们三个，和这些烂纸一起燃烧成灰烬吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511001",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "再来呀，谁会怕你！\n阴暗的变态大姐，名字拼写的按键在键盘上隔那——么远！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "自私自利！机械臂复杂得离谱，单是描线都要花半个小时，你有考虑过别人的感受吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "满口胡话的两个小妹妹，是不是脑子坏掉了。\n那就让姐姐帮你们醒醒神！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511004",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "全都！给我！住手——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "狩猎者小姐，容我解释一下，这些书是我们制作的商品。\n我想邀请你，成为我们生意的合伙人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "可笑，谁会为这种东西买单？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "人类。他们愿意为手办和周边花钱，同人本也一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我不会相信没有凭据的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "这是我们上个月的收入记录。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "......你果真在和人类做生意？有点意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "毁掉这些书对我们都没有好处。\n这次卖同人本的利润，可以给你分成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "就凭你们三个高中生，想要卖出那么多？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "花光全部积蓄印刷的这批书，我们拼上性命也要全部卖掉！\n彩音，给她看看印好的同人本，让她感受一下我们的决心！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "交给我吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511015",
+          "sourceType": 3,
+          "text": "哗啦——\n麻将牌大小的书本倾倒而出。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29511016",
+          "sourceType": 5,
+          "speaker": "神宫有咲",
+          "text": "怎么会——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511017",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "怎、怎么会如此完美！\n印刷清晰，排版整齐，封装精致。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511018",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "没错，它们很完美。\n但你是不是觉得，我会忘了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29511019",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "卖给人类的书，应该按照人类尺寸印刷呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-648",
+      "sourceRefs": [
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29510001,
+            29510002
+          ],
+          "sectionId": 29510
+        },
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29511001,
+            29511002,
+            29511003,
+            29511004,
+            29511005,
+            29511006,
+            29511007,
+            29511008,
+            29511009,
+            29511010,
+            29511011,
+            29511012,
+            29511013,
+            29511014,
+            29511015,
+            29511016,
+            29511017,
+            29511018,
+            29511019
+          ],
+          "sectionId": 29511
+        }
+      ],
+      "title": "二次创作·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29512001",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "一定是印刷公司的失误，我们的步骤是完美的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "刚好缩小到手办尺寸怎么可能是失误，给我好好回忆一下印刷的全部流程！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好像寄送样刊的时候，直接寄了玉夏学姐的手稿，关于尺寸忘记特殊说明了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "学姐，抱歉......\n接下来我一定努力工作，早点补上这次的损失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "那么，谁来补偿我的损失呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没关系，时间来得及，我们还可以重新联系印刷！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你刚才可是说，印刷这批书花光了全部积蓄。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "这......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "很好。现在，仅仅是抹杀你们都不够了，我想做一些更有趣、更能让人兴奋的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你要干什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不如就让你们亲自呈现一次，你们自己写出来的奇妙场景。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "喝下特制的咖啡，身体不受控制变成奇怪的模样，准备好接受全新的自己了吗——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "等等！快看你身后！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512014",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你们究竟还想用无聊的把戏耍我几次？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29512015",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "狩猎者大人，人类！是人类来了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-649",
+      "sourceRefs": [
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29512001,
+            29512002,
+            29512003,
+            29512004,
+            29512005,
+            29512006,
+            29512007,
+            29512008,
+            29512009,
+            29512010,
+            29512011,
+            29512012,
+            29512013,
+            29512014,
+            29512015
+          ],
+          "sectionId": 29512
+        }
+      ],
+      "title": "二次创作·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29513001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "|101|，你条件反射般充满敌意的眼神真是伤人。\n就让他们亲口告诉你，妾身遭受了多么过分的凌辱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有咲，这是怎么回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513003",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "我是......受到社长的邀请，来参加社团活动而已。\n对吧，社长？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513004",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "原来如此，你是能让手办们放心交流的人类吗。\n那么我来说明情况吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我是文艺研究社的社长，玉夏。\n同时，也是一名后现代魔幻现实主义的作家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我们创作的小说集，由于艺术观念过于超前，遭到了狩猎者的迫害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就是这本书吗？字好小，看不清楚......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过，印在封皮上的几个词——「执事」「SM」「调教」是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "如你所见。\n《咖啡执事的狩猎》是我得意的作品，一部立志创业小说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "狩猎者是街边小店的临时工，苦心钻研出「SuperMocha」咖啡，终于成为高级咖啡执事，为咖啡调制教学工作奉献终生。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29513012",
+              "text": "继续装傻。"
+            },
+            {
+              "targetId": "29513018",
+              "text": "拆穿她。"
+            }
+          ],
+          "sourceId": "29513011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29513012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "无论怎么听，SuperMocha都像是硬造出来的词。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "果然......被看穿了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "玉夏学姐，我们干脆承认......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513015",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "好，我承认。\n我担心自己的创意被抄袭，掩盖了真实的想法。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513016",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "真实的故事其实是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513017",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "执事狩猎者梦想成为咖啡师，她经过汽修师傅的调教学会电焊，发明自动咖啡机，成为咖啡界的「SuperMachinist」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其实这些标签，我能看懂的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513019",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513020",
+          "sourceType": 5,
+          "speaker": "玉夏",
+          "text": "是吗！我就看不懂！\n你这个人该不会是御宅吧？咦，好奇怪哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29513021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "学姐已经放弃思考了吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29514001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嗯，事情大致就是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29514002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我明白了，按照现在的情况......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29514003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然让手办看到自己同人本的风险很大，但这是唯一能回收成本的办法——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29514004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些书，只能卖给手办了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-650",
+      "sourceRefs": [
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29513001,
+            29513002,
+            29513003,
+            29513004,
+            29513005,
+            29513006,
+            29513007,
+            29513008,
+            29513009,
+            29513010,
+            29513011,
+            29513012,
+            29513013,
+            29513014,
+            29513015,
+            29513016,
+            29513017,
+            29513018,
+            29513019,
+            29513020,
+            29513021
+          ],
+          "sectionId": 29513
+        },
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29514001,
+            29514002,
+            29514003,
+            29514004
+          ],
+          "sectionId": 29514
+        }
+      ],
+      "title": "二次创作·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "29515001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "看在|101|的面子上，我可以给你们重新提出方案的机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "但是，这样就要在手办之间公开销售全部同人本——包括《咖啡执事的狩猎》。狩猎者不会同意的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "为什么不？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515004",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "哎？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我对书的内容并无不满，只是来要回肖像授权费用。\n但你们一直在用谎言遮掩，让我丧失了耐心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "快点确定方案。卖给手办收回涂料，也算是对我肖像授权和精神损失的弥补——前提是你们卖得出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515007",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "事不宜迟，马上开始摆地摊卖货——啊痛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "笨蛋！同人本不是那种随便谁都会买的涂料！\n卖本子最重要的是环境，让顾客融入我们的氛围！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515009",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "你们潜下心来思考！在什么环境下，最有购买漫画的冲动！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515010",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "感到无聊想找点乐子的时候？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "写完作业吃过晚饭的时候？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515012",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "两个笨蛋......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "开一间漫画咖啡厅怎么样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515014",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "先用精致的涂料饮品吸引手办光顾，看到自己或朋友们的同人本，自然会产生兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515016",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "好主意，但是为了吸引客人，我们需要一个足够抓眼球的噱头才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "和同人本密切相关的......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515018",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "具有压倒性人气的......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515019",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "就是你——咖啡执事本人！\n狩猎者cos同人本里的角色，做咖啡厅的看板娘，绝对爆火！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515020",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "你们三个，是在找死吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不考虑一下吗？我觉得是个不错的主意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515022",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "竟然连|101|都这么说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515023",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我很期待呢，狩猎者换上执事装扮的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515024",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "为了我们的共同利益，请你做些牺牲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515025",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "......营业的总利润，我要五成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29515026",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没问题，成交！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-651",
+      "sourceRefs": [
+        {
+          "bundle": "yuxia",
+          "rowIds": [
+            29515001,
+            29515002,
+            29515003,
+            29515004,
+            29515005,
+            29515006,
+            29515007,
+            29515008,
+            29515009,
+            29515010,
+            29515011,
+            29515012,
+            29515013,
+            29515014,
+            29515015,
+            29515016,
+            29515017,
+            29515018,
+            29515019,
+            29515020,
+            29515021,
+            29515022,
+            29515023,
+            29515024,
+            29515025,
+            29515026
+          ],
+          "sectionId": 29515
+        }
+      ],
+      "title": "二次创作·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 120,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 120,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "文艺研究社的社长",
+  "title": "二次创作",
+  "wordCount": 2617
+}

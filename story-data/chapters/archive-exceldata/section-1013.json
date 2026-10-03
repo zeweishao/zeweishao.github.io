@@ -1,0 +1,65 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1013",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1013001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这里记录的，就是主人你待解决的清单啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1013002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "完成任务的话，就能够获得很多新的奖励哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1013003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "积累更多的钻石，去「盲盒订购」里「十件连拍」吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1013004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样，就会有更多的手办陪我一起啦！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1013",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1013001,
+            1013002,
+            1013003,
+            1013004
+          ],
+          "sectionId": 1013
+        }
+      ],
+      "title": "原文片段 1013"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1013
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1013",
+  "wordCount": 80
+}

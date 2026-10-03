@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213205",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这是孙大小姐的秘密梦想——\n\n在热闹的街市开一家小小的包子铺，搜罗江左各地的馅料配方，把它们一股脑地制作成香喷喷的包子。\n\n只是，来购买包子的人不知何时排起了长龙，乌泱泱地几乎堵住了街市的主干道。\n\n尽管觉得麻烦，但孙大小姐十分享受这个过程。\n\n当然，如果不被熟人撞见就更好了，尤其是某个爱臭美的家伙。\n\n     ——该特别款仅限通过「赏味的狂想」活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "乐逍遥Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213205",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "孙尚香·乐逍遥Ver.",
+  "title": "乐逍遥Ver.",
+  "wordCount": 164
+}

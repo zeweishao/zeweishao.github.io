@@ -1,0 +1,166 @@
+{
+  "bookId": "hero-211010",
+  "id": "bond-26008",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26008001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这是什么东西，一座迷你手办屋吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "特别为彩音定做的，进去看看吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "天呢，里面、里面居然是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "按照你的游戏室，复刻了符合手办比例的、一模一样的房间！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我有点分不清自己是不是在做梦了，里面的摆设和布置，就连游戏卡带的数目都和你的一模一样，真是惟妙惟肖，好逼真呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然是缩小的卡带和游戏机，不过里面的游戏都可以玩哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "之前看到你玩人类比例的游戏机非常吃力，就觉得如果都是缩小到适合你的比例，彩音就会绝对没问题的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你对我真好……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你是除了家人和朋友之外对我最好的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "能够想起来家人的好也不错，彩音果然是个乖孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "虽然我经常和家人吵架，被哥哥管束，但我心里非常清楚——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "他们都是很爱很爱我的，我一直都是个幸运的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008013",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "只有你不一样，|101||103|，你是最特别的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你为我打开了一片全新的天地，你让我看到了平凡生活的更多可能。更重要的是，你是真正了解彩音的人，所以彩音决定了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26008015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "无论春天、夏天、秋天还是冬天，要一直一直和彩音玩游戏哟，一起成为M城最强的Gamer吧~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26008",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26008001,
+            26008002,
+            26008003,
+            26008004,
+            26008005,
+            26008006,
+            26008007,
+            26008008,
+            26008009,
+            26008010,
+            26008011,
+            26008012,
+            26008013,
+            26008014,
+            26008015
+          ],
+          "sectionId": 26008
+        }
+      ],
+      "title": "一起玩游戏吧"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211010",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "一起玩游戏吧",
+  "wordCount": 423
+}

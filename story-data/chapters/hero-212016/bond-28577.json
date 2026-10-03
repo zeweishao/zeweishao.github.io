@@ -1,0 +1,149 @@
+{
+  "bookId": "hero-212016",
+  "id": "bond-28577",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28577001",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "尊贵的大人，这是您接下来一周的日程安排，还请过目。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28577003",
+              "text": "来得正好，这个给你。"
+            }
+          ],
+          "sourceId": "28577002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28577003",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "这是……奥古斯都西城的乡间小屋？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577004",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "不，这不是普通的乡野建筑，而是我小时候生活过的那间「育儿院」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577005",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "真是不可思议，我从未想过有一天自己会以这种方式重回「故乡」的怀抱。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28577007",
+              "text": "看来你很喜欢。"
+            }
+          ],
+          "sourceId": "28577006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28577007",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "抱歉，语言已经无从表达我此刻的心情，请允许我的失态。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577008",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "大人，您的这份心意我无以为报。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577009",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "罗威·伯恩斯在此郑重宣誓，将终身效忠于您，侍奉于您的左右。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577010",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "这是一纸长期有效的契约，直至时间的尽头。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听到了了不得的誓言呢，讲讲你的故乡如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577012",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "是，只要您愿意听，我绝不会对自己的过去有任何隐瞒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28577013",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "在这之前，我会为您备好醇厚美味的热可可和柔软舒适的沙发椅，您将聆听着一个遥远古老的故事，坠入安宁的梦乡。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28577",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28577001,
+            28577002,
+            28577003,
+            28577004,
+            28577005,
+            28577006,
+            28577007,
+            28577008,
+            28577009,
+            28577010,
+            28577011,
+            28577012,
+            28577013
+          ],
+          "sectionId": 28577
+        }
+      ],
+      "title": "「长期契约」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「长期契约」",
+  "wordCount": 309
+}

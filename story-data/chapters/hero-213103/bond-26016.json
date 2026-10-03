@@ -1,0 +1,99 @@
+{
+  "bookId": "hero-213103",
+  "id": "bond-26016",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26016001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就像Miku喜欢唱歌一样，我很喜欢收集手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和你们生活在一起非常幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016003",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "可以“做自己喜欢的事”本身，的确是一件幸运而且令人开心的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我最近在努力练习唱歌。这样就可以和你合唱了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016005",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "我们一起来练习吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可以吗？我还没完全掌握。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016007",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "我相信你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26016008",
+          "sourceType": 0,
+          "speaker": "初音未来",
+          "text": "加油。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26016",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26016001,
+            26016002,
+            26016003,
+            26016004,
+            26016005,
+            26016006,
+            26016007,
+            26016008
+          ],
+          "sectionId": 26016
+        }
+      ],
+      "title": "相信"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213103",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "相信",
+  "wordCount": 116
+}

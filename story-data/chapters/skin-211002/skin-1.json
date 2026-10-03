@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211002",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "芊芊淑女，芳菲流年，\n丁香结怨，如诗如画。\n纤腰柔体，轻罗小扇，\n曼妙多姿，眸胜星华。\n\n     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "鎏金雅韵Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211002",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "梅根·鎏金雅韵Ver.",
+  "title": "鎏金雅韵Ver.",
+  "wordCount": 60
+}

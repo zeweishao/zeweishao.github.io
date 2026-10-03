@@ -1,0 +1,176 @@
+{
+  "bookId": "hero-215004",
+  "id": "bond-27517",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27517001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "突然捂着我的眼睛，是要做什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27517003",
+              "text": "等下你就会知道了。"
+            }
+          ],
+          "sourceId": "27517002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27517003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "和别人靠这么近，我有些……不太习惯，这样真的没问题吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27517005",
+              "text": "睁开眼睛吧。"
+            }
+          ],
+          "sourceId": "27517004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27517005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "这是……一座用冰雪雕刻成的古堡，很有北阿罗拉的建筑特色，你是怎么做到的？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27517007",
+              "text": "稍微用了一点黑科技。"
+            },
+            {
+              "targetId": "27517007",
+              "text": "希望海伦小姐能喜欢。"
+            }
+          ],
+          "sourceId": "27517006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27517007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我从未收到这么珍贵的礼物，一时之间不知该如何表达感激。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27517009",
+              "text": "城堡里面的惊喜发现了吗？"
+            }
+          ],
+          "sourceId": "27517008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27517009",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "你准备得非常用心，就连「罗贝尔」最好的管家都做不到那些。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27517011",
+              "text": "你指的什么？"
+            }
+          ],
+          "sourceId": "27517010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27517011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "那些浪漫故事集，我是指那套全册的《奥塔爱情故事全集》，是我从小就爱读的爱情传说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27517012",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "没想到久别故乡的我，现在还能读到以前收藏的这些故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27517013",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "所有的故事集里，我最喜欢的是一个名为「蓝色约定」的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27517014",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "你和这个故事，我会永远记得。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27517",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27517001,
+            27517002,
+            27517003,
+            27517004,
+            27517005,
+            27517006,
+            27517007,
+            27517008,
+            27517009,
+            27517010,
+            27517011,
+            27517012,
+            27517013,
+            27517014
+          ],
+          "sectionId": 27517
+        }
+      ],
+      "title": "蓝色的约定"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "蓝色的约定",
+  "wordCount": 295
+}

@@ -1,0 +1,565 @@
+{
+  "bookId": "archive-urplot",
+  "id": "section-43400",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43400001",
+          "sourceType": 3,
+          "text": "某个平静的早晨——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，你是不是忘记了什么重要的事情呀？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43400004",
+              "text": "有吗？"
+            },
+            {
+              "targetId": "43400004",
+              "text": "今天是什么特殊的日子吗？"
+            }
+          ],
+          "sourceId": "43400003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43400004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "蒂娅，快跟主人讲讲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400005",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "|101|，今天就是「潮游星」手办正式发售的日子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400006",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "之前FULI寄来的稀金卡牌里解读出了新系列手办的信息……你已经抢先预定了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43400008",
+              "text": "还是想不起来。"
+            },
+            {
+              "targetId": "43400008",
+              "text": "好像是有这么一回事。"
+            }
+          ],
+          "sourceId": "43400007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43400008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总之，主人可以去提货了。好期待，这次会遇到什么样的伙伴呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400009",
+          "sourceType": 3,
+          "text": "潮酷街区，FULI直营旗舰店。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400010",
+          "sourceType": 3,
+          "text": "优纪和蒂娅藏身在你的外套里，与你一起来到门店附近。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400011",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "（悄悄话）很多人类正在进行「排队」的行为，但……情况不太对，要小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "（悄悄话）前面吵吵闹闹的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400013",
+          "sourceType": 0,
+          "speaker": "收藏家A",
+          "text": "怎么回事？早不说晚不说，出荷当天才和我们说要延期了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400014",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "非常抱歉，接到了总部的紧急通知，今天的活动需要终止。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400015",
+          "sourceType": 0,
+          "speaker": "收藏家A",
+          "text": "真行啊，要延期多久？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400016",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "暂时……暂时没有收到消息。但后续情况一定会及时告知，我们还会提供代金券补偿——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400017",
+          "sourceType": 0,
+          "speaker": "收藏家B",
+          "text": "补偿有什么用？我大老远从N城赶过来，在这里通宵排队，结果FULI卷款跑路了是吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400018",
+          "sourceType": 0,
+          "speaker": "收藏家B",
+          "text": "这是商业欺诈，退钱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400019",
+          "sourceType": 0,
+          "speaker": "收藏家A",
+          "text": "是啊，退钱！FULI，退钱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400020",
+          "sourceType": 0,
+          "speaker": "收藏家们",
+          "text": "FULI，退钱！FULI，退钱！FULI，退钱！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看来今天没法拿到新手办了？糟糕，大家都好生气，推推搡搡地在往门店里挤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400022",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "只靠在场的工作人员很难维持秩序，这样下去……可能会演变成危险的群体事件。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43400024",
+              "text": "我过去看看。"
+            }
+          ],
+          "sourceId": "43400023",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43400024",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "|101|？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400025",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "请冷静，我们一定会给大家一个满意的补偿方案。请再给FULI一点时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400026",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "啊，你是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400027",
+          "sourceType": 3,
+          "text": "现场的人们齐刷刷地将目光投在你的身上，沸腾的声势冷却了几分。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400028",
+          "sourceType": 0,
+          "speaker": "收藏家A",
+          "text": "那个人是……「稀金卡牌」的持有者，FULI官方认定的金牌收藏家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400029",
+          "sourceType": 0,
+          "speaker": "收藏家B",
+          "text": "我在N城也听过|102|的名号，FULI不会连这位的订单也交付不了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400030",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "欢迎光临……原本该优先给您准备手办的，但现在活动实在无法正常进行了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "到底发生了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400032",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "请坦诚地告知大家原因，遮遮掩掩是对收藏家的不负责。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400033",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "众所周知，新系列手办的所有环节一直是严格保密的，我们门店是本次发售活动的唯一渠道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400034",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "原本货品预计在昨天晚上运抵门店，我们准备通宵铺货，却一直没等到运输车。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400035",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "直到早上，总部发来消息——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400036",
+          "sourceType": 3,
+          "text": "接下来的发言让现场的人群哑然无声，仿佛炙热的铁块投入了冰水。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400037",
+          "sourceType": 0,
+          "speaker": "FULI门店经理",
+          "text": "预定出荷的所有「潮游星」手办都失窃了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400038",
+          "sourceType": 3,
+          "text": "一段时间后，花坛边——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400039",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真奇怪，仓库里的新手办怎么会一夜之间都消失了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400040",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "FULI的安保措施一直存在很多漏洞，这次的事件并不意外。但要如此迅速地转移手办，或许……是人类所为。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400041",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "会是人类的犯罪团伙盗走了限量发售的精品手办吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400042",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "无论是坏蛋手办，还是坏蛋人类，都逃不过正义的制裁。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400043",
+          "sourceType": 3,
+          "text": "叮铃铃——您收到了一条新的通讯——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43400044",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是管理局。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400045",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "久疏问候，|101|。我想，你应该已经知道FULI旗舰店发生的事情了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400046",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是的，管理局这边有什么新的情报吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400047",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "在FULI总部发现手办失踪的同时，管理局也启动了调查程序。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400048",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是「失踪」，而不是「失窃」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400049",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "你的感觉一直这么敏锐。不错，我是说，手办「失踪」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400050",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "这批手办中有个体已经活化了，他们可能是主动从仓库中逃逸的。管理局分部发现了疑似对象的行踪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400051",
+          "sourceType": 0,
+          "speaker": "蒂娅",
+          "text": "我们的活化一直是小概率事件，这批手办难道都……取回了自己的意识和记忆吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400052",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "还没有定论，昨晚发生的事情至今仍有很多谜团。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400053",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "但有一件事是确定的，|101|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400054",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "这是从管理局中央机构直接下达的指示，委派管理局唯一的人类员工执行特殊任务。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43400056",
+              "text": "肯定还是要干活……"
+            },
+            {
+              "targetId": "43400056",
+              "text": "我已经猜到你要说什么了。"
+            }
+          ],
+          "sourceId": "43400055",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43400056",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "呵，请你找到这些活化的手办个体。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43400058",
+              "text": "我也没别的选择。"
+            },
+            {
+              "targetId": "43400058",
+              "text": "属于我的手办当然要找回来。"
+            }
+          ],
+          "sourceId": "43400057",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43400058",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "别掉以轻心，「潮游星」手办是前所未有的高规格，他们的能力或许会更接近原著世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400059",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "如果发生冲突，他们显然是最为棘手的那一类。但是，我相信你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400060",
+          "sourceType": 13,
+          "speaker": "伊迪丝",
+          "text": "管理局永远与你同在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43400061",
+          "sourceType": 3,
+          "text": "熟悉的M城，陌生的事件，或许还会有崭新的邂逅。如往常一般，你再度踏上冒险。",
+          "type": "narration"
+        }
+      ],
+      "id": "43400",
+      "sourceRefs": [
+        {
+          "bundle": "urplot",
+          "rowIds": [
+            43400001,
+            43400002,
+            43400003,
+            43400004,
+            43400005,
+            43400006,
+            43400007,
+            43400008,
+            43400009,
+            43400010,
+            43400011,
+            43400012,
+            43400013,
+            43400014,
+            43400015,
+            43400016,
+            43400017,
+            43400018,
+            43400019,
+            43400020,
+            43400021,
+            43400022,
+            43400023,
+            43400024,
+            43400025,
+            43400026,
+            43400027,
+            43400028,
+            43400029,
+            43400030,
+            43400031,
+            43400032,
+            43400033,
+            43400034,
+            43400035,
+            43400036,
+            43400037,
+            43400038,
+            43400039,
+            43400040,
+            43400041,
+            43400042,
+            43400043,
+            43400044,
+            43400045,
+            43400046,
+            43400047,
+            43400048,
+            43400049,
+            43400050,
+            43400051,
+            43400052,
+            43400053,
+            43400054,
+            43400055,
+            43400056,
+            43400057,
+            43400058,
+            43400059,
+            43400060,
+            43400061
+          ],
+          "sectionId": 43400
+        }
+      ],
+      "title": "原文片段 43400"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "urplot",
+        "sectionId": 43400
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 43400",
+  "wordCount": 1470
+}

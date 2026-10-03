@@ -1,0 +1,121 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1200",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1200001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "呐，屏幕前最可爱的你，抱歉打扰啦☆~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "这里是本游戏官方指定GM——凛月。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200003",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "想要告诉大家的是，当前版本的剧情发展到这里，要暂时告一段落了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200004",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "“究竟「苍岚」一行能否找到「葵」的下落？”",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "“而手办「葵」走出的秘密又是什么？”",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200006",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "相信诸位一定要比凛月更加期待——背后所隐藏的真相。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200007",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "虽然后续不再提供剧情方面的支撑，但我们依然为大家准备了额外的玩法和内容。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "也请您在体验之余，多多为我们奉上关于游戏改进的、最宝贵的意见和建议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200009",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "下次见面时，我们将保证为大家带来一个更加独特的，关于“手办”的微世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200010",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "再次感谢您对本游戏的支持。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1200011",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "那么就这样喽☆~回见~~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1200",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1200001,
+            1200002,
+            1200003,
+            1200004,
+            1200005,
+            1200006,
+            1200007,
+            1200008,
+            1200009,
+            1200010,
+            1200011
+          ],
+          "sectionId": 1200
+        }
+      ],
+      "title": "原文片段 1200"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1200
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1200",
+  "wordCount": 260
+}

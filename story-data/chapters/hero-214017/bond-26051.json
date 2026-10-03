@@ -1,0 +1,123 @@
+{
+  "bookId": "hero-214017",
+  "id": "bond-26051",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26051001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "海柔尔？又躲起来了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051002",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "被、被发现了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "出来吧，今天要去FULI商店给你更换配件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我不想出门，外面的世界好可怕......\n不去，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不可以哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051006",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜......呜呜呜，为什么......一定要面对外面的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "就像......有的人不擅长吃辣，有的人会恐高，我只是......天生不擅长出门而已......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但是，海柔尔想要交到朋友的吧？\nFULI商店的手办应有尽有，是交朋友的好机会哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051009",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "啊！朋，朋友......\n如果是，为了认识新的朋友，我会......鼓起勇气出门的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我们现在出发吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26051011",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "我......我会出去的，但是，要等我做好心理准备才行。\n至于要多久......我也......不清楚呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26051",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26051001,
+            26051002,
+            26051003,
+            26051004,
+            26051005,
+            26051006,
+            26051007,
+            26051008,
+            26051009,
+            26051010,
+            26051011
+          ],
+          "sectionId": 26051
+        }
+      ],
+      "title": "不擅长的事"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214017",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "不擅长的事",
+  "wordCount": 296
+}

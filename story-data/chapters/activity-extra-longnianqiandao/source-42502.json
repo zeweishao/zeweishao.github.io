@@ -1,0 +1,189 @@
+{
+  "bookId": "activity-extra-longnianqiandao",
+  "id": "source-42502",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42502001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯哼，我做了一台超酷的机甲给你当新年礼物！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42502003",
+              "text": "超大惊喜！"
+            },
+            {
+              "targetId": "42502003",
+              "text": "能看看吗？"
+            }
+          ],
+          "sourceId": "42502002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42502003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "喏，就是我后面这台大家伙，你会爱上它的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "融合了前沿科技和疯狂的想法，是我迄今为止的一个巨大突破。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "除了常规的功能之外，这台机甲还可以帮你做很多很多事哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "比如自动扫地、浇花、泡茶，甚至还能在你疲惫的时候给你按摩肩颈~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来很令人期待，西蒂斯的才华总能令我惊叹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我还在它里面加入了语音识别功能，方便你随时下达指令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "怎么样，我是不是很厉害~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这不是普通的机甲，简直就是个智能管家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "被发现了吗！是的没错，这台机甲是我为你量身定做的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "全世界仅此一台，绝对无可替代。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢你，西蒂斯，你一定花了不少时间吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502014",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "咳，其实也没什么啦，不过是熬了几天夜，我早习惯咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502015",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "最最重要的是，我要拿着自己制作的专属礼物送给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42502016",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "祝愿你在新的一年里，不止今天，天天都要开心幸福~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42502",
+      "sourceRefs": [
+        {
+          "bundle": "longnianqiandao",
+          "rowIds": [
+            42502001,
+            42502002,
+            42502003,
+            42502004,
+            42502005,
+            42502006,
+            42502007,
+            42502008,
+            42502009,
+            42502010,
+            42502011,
+            42502012,
+            42502013,
+            42502014,
+            42502015,
+            42502016
+          ],
+          "sectionId": 42502
+        }
+      ],
+      "title": "活动片段 42502"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10048",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10048",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42502,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42502",
+  "wordCount": 349
+}

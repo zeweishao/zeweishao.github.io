@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212205",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「医生，我真的能恢复如初吗？」\n「当然！你睡一觉醒来就好了。」\n\n在麻醉气体的作用下，手术台上的患者很快失去了意识……\n\n「你醒啦，手术很成功。如你所愿，恢复如初。」\n「谢谢医生！我感觉身体很轻松……不对！我的手和脚？！」\n「我给你换了一具新身体，试试感觉怎么样？」\n「对了，现在你叫嗯……布鲁特三号实验体。」\n\n节选自手偶剧《怪医黑徕卡》\n\n——该特别款仅限通过「禁忌的实验」活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "怪奇医者Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212205",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "徕卡·怪奇医者Ver.",
+  "title": "怪奇医者Ver.",
+  "wordCount": 181
+}

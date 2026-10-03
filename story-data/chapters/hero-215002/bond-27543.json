@@ -1,0 +1,156 @@
+{
+  "bookId": "hero-215002",
+  "id": "bond-27543",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27543001",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "主人，你这是在……打游戏？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，这个是最近很火的一个双人竞技小游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543003",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "哈欠……主人，真的很有干劲呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543004",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "葵也喜欢玩游戏吗？要不要和我一开黑？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔……我考虑一下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543006",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "据说进入全球前一百的玩家，可以获得神秘大奖。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "27543008",
+              "text": "你看，这是不同排名对应的奖品名单，有感兴趣的吗？"
+            },
+            {
+              "targetId": "27543008",
+              "text": "嗯……？第98名是稀有品种的向日葵种子？"
+            }
+          ],
+          "sourceId": "27543007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "27543008",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "唔……决定了，主人，一起开黑吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543009",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "我想和主人一起种向日葵，而且……\n如果可以睡在向日葵上的话，那一整天都晒到太阳吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那样的话，葵会受伤的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543011",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "你是说长时间暴晒会导致的软化问题吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但如果葵真的很想，我会陪着葵的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543013",
+          "sourceType": 0,
+          "speaker": "葵",
+          "text": "一起晒太阳吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27543014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，然后，一起回家。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27543",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27543001,
+            27543002,
+            27543003,
+            27543004,
+            27543005,
+            27543006,
+            27543007,
+            27543008,
+            27543009,
+            27543010,
+            27543011,
+            27543012,
+            27543013,
+            27543014
+          ],
+          "sectionId": 27543
+        }
+      ],
+      "title": "电子游戏万岁"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215002",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "电子游戏万岁",
+  "wordCount": 262
+}

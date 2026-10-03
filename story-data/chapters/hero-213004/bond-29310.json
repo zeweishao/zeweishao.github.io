@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-213004",
+  "id": "bond-29310",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29310001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "弗吉尼娅，你不用这样时时刻刻跟着我的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310002",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我是在保护你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310003",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "即使是强者，也会有陨落的一天。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……放心啦，这个世界很安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过，你为什么要保护我呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我不能让你死在除了我之外的人手上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310007",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "换句话说，在被我杀死之前，你得好好活着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是，你为什么非要杀我呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310009",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "因为我一旦看见美好的东西，就忍不住毁掉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我可不会束手就擒哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310011",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你无处可逃，也无法抵挡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29310012",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "因为我使用的凶器，并非「恶堕之弓」，而是「岁月」。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29310",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29310001,
+            29310002,
+            29310003,
+            29310004,
+            29310005,
+            29310006,
+            29310007,
+            29310008,
+            29310009,
+            29310010,
+            29310011,
+            29310012
+          ],
+          "sectionId": 29310
+        }
+      ],
+      "title": "凶器"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213004",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "凶器",
+  "wordCount": 186
+}

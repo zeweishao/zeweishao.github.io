@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-213003",
+  "id": "bond-27507",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27507001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么晚了，还不睡吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "睡不着呢……能不能让妾身咬一口？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咬一口？\n……唔！你真咬啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呼，舒服多了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不过你居然都不挣扎一下，真是无趣呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为我想，你一定是有什么内心烦闷的事才这样的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "……其实没什么，就是酒瘾犯了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "毕竟女人是需要玫瑰和红酒滋养的嘛，变成手办之后，连基本的口腹之欲也无法享受了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……如果咬我能让你开心一点的话，你就多咬几口吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "嗯？你该不会是在暗爽吧？我的主人还真是够变态的呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不过，妾身却一点也不讨厌这样的主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你刚才说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27507013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "没听清的话就算了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27507",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27507001,
+            27507002,
+            27507003,
+            27507004,
+            27507005,
+            27507006,
+            27507007,
+            27507008,
+            27507009,
+            27507010,
+            27507011,
+            27507012,
+            27507013
+          ],
+          "sectionId": 27507
+        }
+      ],
+      "title": "瘾"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213003",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "瘾",
+  "wordCount": 225
+}

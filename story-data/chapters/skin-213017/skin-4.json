@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213017",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「昨夜翻阅古籍直至深夜，竟就这般睡了过去。」\n「险些忘了与主君今日之约……小女实在惭愧。」\n\n屏风后走出一位薄衫的丽人，手持一盘散发着奇香的糕点。\n\n「只好把主君约在这里，只为……」\n「让主君一尝古籍上记载的美味。」\n\n少女纤细的手轻抚朱唇，露出了略显羞涩的笑容——\n\n「今日之事，主君要为我保密哟。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·点绛唇Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213017",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蔡文姬·闪亮·点绛唇Ver.",
+  "title": "闪亮·点绛唇Ver.",
+  "wordCount": 141
+}

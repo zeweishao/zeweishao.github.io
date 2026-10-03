@@ -1,0 +1,77 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17320",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17320001",
+          "sourceType": 10,
+          "text": "这道菜，代表手办们的祝福，请尽情品尝。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17320002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "年年有余，岁岁平安，这道鱼代表我们的祝福~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17320003",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "主人快尝尝看吧！这可是我们用了不少功夫做出来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17320004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "是呢是呢~优纪还专门调了闹钟，为了把握住最佳的烹饪时间~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17320005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，入口的口感软嫩，鱼肉入口即化，调味和火候把控的都恰到好处，是完全不输人类的厨艺呢！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17320",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17320001,
+            17320002,
+            17320003,
+            17320004,
+            17320005
+          ],
+          "sectionId": 17320
+        }
+      ],
+      "title": "年年有余"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17320,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "7",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "这道菜，代表手办们的祝福。",
+  "title": "年年有余",
+  "wordCount": 135
+}

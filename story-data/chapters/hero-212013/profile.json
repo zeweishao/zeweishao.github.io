@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212013",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下猩潮品牌将《少女X机关枪》中白堡教练酒井唯制成模型，模型师对酒井唯优美的肌肉线条进行了精心雕琢。标准的健美型的肌肉，加之不怒自威的眼神，一名拥有魔鬼身材的严苛教练栩然如生。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212013"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 92
+}

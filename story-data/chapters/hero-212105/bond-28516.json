@@ -1,0 +1,131 @@
+{
+  "bookId": "hero-212105",
+  "id": "bond-28516",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28516001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "迪卡獨自面對那些怪獸的時候，有害怕過嗎？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516002",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看這個回答的氣勢，應該是沒有？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是令人驚嘆的勇氣啊，話說我以前也幻想過很多次自己變成超人力霸王，並與那些怪獸戰鬥的樣子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "現在想想，要是我變成超人力霸王，和那些怪獸戰鬥的話——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不用十秒，不，甚至不用五秒，那些怪物就會跪在我的面前！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516007",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……搖著我的肩膀求我不要死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516009",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈，只是開個小玩笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「沒有勝算？我聽不懂。」——我也應該拿出和迪卡一樣的人生態度才行啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28516012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "無論面對什麼樣的困難和敵人，都不能輕易認輸。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28516",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28516001,
+            28516002,
+            28516003,
+            28516004,
+            28516005,
+            28516006,
+            28516007,
+            28516008,
+            28516009,
+            28516010,
+            28516011,
+            28516012
+          ],
+          "sectionId": 28516
+        }
+      ],
+      "title": "和迪卡玩格鬥遊戲"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212105",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "和迪卡玩格鬥遊戲",
+  "wordCount": 223
+}

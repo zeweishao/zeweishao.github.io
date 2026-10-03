@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-212105",
+  "id": "bond-28515",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28515001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "迪卡，你知道嗎。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我們小時候很多人都幻想過成為光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515003",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不過正因為還小，所以才能擁有如此純粹又單純的幻想。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "長大後，我們失去了這種幻想的能力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因為……我們都知道，現實中，這些並不存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515007",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "長大之後，我們獲得了一些小時候沒有的東西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515009",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "比如說，煩惱和負債。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515011",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "但無論如何，心中的那份光，都不會消失。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "這就是成長，即便知道某些東西可能是假的，還是會去相信它。正所謂——「要實現夢想，就要向現實挑戰！」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "謝謝你，迪卡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28515015",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28515",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28515001,
+            28515002,
+            28515003,
+            28515004,
+            28515005,
+            28515006,
+            28515007,
+            28515008,
+            28515009,
+            28515010,
+            28515011,
+            28515012,
+            28515013,
+            28515014,
+            28515015
+          ],
+          "sectionId": 28515
+        }
+      ],
+      "title": "和迪卡聊天"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212105",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "和迪卡聊天",
+  "wordCount": 207
+}

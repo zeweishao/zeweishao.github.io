@@ -1,0 +1,133 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22406",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22406001",
+          "sourceType": 10,
+          "text": "「致所有物」",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22406002",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "啧，不要紧张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406003",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "今天，我保证不会动你的……任何一个小玩意儿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406004",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "如果拆掉她们会让你伤心的话，我保证，一根汗毛都不会碰——阿抱歉我忘了，她们没有汗毛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406005",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "今天是个特别的日子，对你，对我，对她们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406006",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "是时候让那些不自量力的小东西知道，你和我的关系了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406007",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "——我亲爱的，「所有物」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406008",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "对我来说，只有你是特别的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406009",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "无论现在，还是将来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406010",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "阿，你可能不喜欢我说话的态度，没关系，\n相信不久之后，你就会习惯了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406011",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "接下来，一起找点乐子怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22406012",
+          "sourceType": 0,
+          "speaker": "S-VIII",
+          "text": "很刺激那种。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22406",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22406001,
+            22406002,
+            22406003,
+            22406004,
+            22406005,
+            22406006,
+            22406007,
+            22406008,
+            22406009,
+            22406010,
+            22406011,
+            22406012
+          ],
+          "sectionId": 22406
+        }
+      ],
+      "title": "「致所有物」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22406,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "40",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「致所有物」",
+  "wordCount": 211
+}

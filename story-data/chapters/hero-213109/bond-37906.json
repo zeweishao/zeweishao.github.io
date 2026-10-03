@@ -1,0 +1,197 @@
+{
+  "bookId": "hero-213109",
+  "id": "bond-37906",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37906001",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "这里是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "「新世界战线」的新作战本部。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906003",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "完全一样……你是怎么知道原来的作战本部的布局的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有位好心的天使在帮忙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906005",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……是吗？我等下会去向她道谢的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906007",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "你嘛……那个……当然也是谢谢咯。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37906009",
+              "text": "今天的百合有点奇怪……"
+            },
+            {
+              "targetId": "37906009",
+              "text": "今天的百合有点温柔……"
+            }
+          ],
+          "sourceId": "37906008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37906009",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "胡说什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906010",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "只是感觉有些满足……啊，我身上应该没有发光吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "37906012",
+              "text": "不会发光的。"
+            },
+            {
+              "targetId": "37906012",
+              "text": "这个世界可没有「消失」这样的事。"
+            }
+          ],
+          "sourceId": "37906011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "37906012",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "……和小奏一起冒险，遇到新的同伴，建立了新的战线，还招募了像你这样得力的新人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906013",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "那就更不能安于现状了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "熟悉的百合回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906015",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "既然有了新的作战本部，就要好好利用起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906016",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "召集全员吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "收到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37906018",
+          "sourceType": 0,
+          "speaker": "仲村百合",
+          "text": "今天的作战，也要开始了哦!",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37906",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37906001,
+            37906002,
+            37906003,
+            37906004,
+            37906005,
+            37906006,
+            37906007,
+            37906008,
+            37906009,
+            37906010,
+            37906011,
+            37906012,
+            37906013,
+            37906014,
+            37906015,
+            37906016,
+            37906017,
+            37906018
+          ],
+          "sectionId": 37906
+        }
+      ],
+      "title": "新世界作战本部"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213109",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "新世界作战本部",
+  "wordCount": 264
+}

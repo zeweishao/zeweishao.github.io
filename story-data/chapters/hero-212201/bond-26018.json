@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-212201",
+  "id": "bond-26018",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26018001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "阳子，我昨天又在信箱里收到了一封写给你的信。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "帮我放在抽屉里就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不打开看看吗，抽屉里已经堆积几十封了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018004",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "反正不是挑战书就是表达钦佩之情的吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "说不定有情书哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "不可能的，他们只是把我当作大姐头而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "……嗯？你的意思是现在的我变得更有女人味了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你一直都很有魅力啊，我经常看到有流浪手办在窗外偷看你练\n功呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018009",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "是吗，原来你觉得我很有魅力吗，哈哈哈……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "啊，淑女不能这么笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过你真的没感受到其他手办对你的好感吗，真是迟钝的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018012",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "要说迟钝这点，你可是完全没资格说我，明明你才是最迟钝的人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26018013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……嗯？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26018",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26018001,
+            26018002,
+            26018003,
+            26018004,
+            26018005,
+            26018006,
+            26018007,
+            26018008,
+            26018009,
+            26018010,
+            26018011,
+            26018012,
+            26018013
+          ],
+          "sectionId": 26018
+        }
+      ],
+      "title": "迟钝"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "迟钝",
+  "wordCount": 240
+}

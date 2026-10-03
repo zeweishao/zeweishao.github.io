@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211101",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「主人主人，刚才的表演，你看到了吗~」\n\n金色长发少女自绿茵场上回眸，灿烂的笑容比阳光还要耀眼。\n\n她用尽全力奔跑，毫不懈怠地对待每一分每一秒，尽情挥洒着汗水。\n\n只为站在冠军的舞台上，享受被你注视的荣光——\n\n因为在她的心里，与你共度的每一个平凡的日常，才是高于一切的意义。\n\n——该特别款仅限三周年特别活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "庆典王牌Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211101",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "优纪·庆典王牌Ver.",
+  "title": "庆典王牌Ver.",
+  "wordCount": 147
+}

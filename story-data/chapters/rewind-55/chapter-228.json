@@ -1,0 +1,753 @@
+{
+  "bookId": "rewind-55",
+  "id": "chapter-228",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43016001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "都怪你都怪你！如果不是你拒绝我的要求，我也不会设计偷走你的水晶鞋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016002",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你、说、什、么？\n不如问问我手中的魔棒，答不答应你的这套说辞？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "停！快停下！\n我们还没有找到水晶鞋，这个时候闹起来只会添乱的~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "就是说嘛，水晶鞋找不到又不是我的错，你干嘛只凶我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "好啊，居然还在逃避责任，你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016006",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "一阵铃声响起——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016007",
+          "sourceType": 13,
+          "speaker": "优纪",
+          "text": "诶，怎么是主人打来的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016008",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "做梦都没想到，我竟然捡到了一只水晶鞋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016009",
+          "sourceType": 13,
+          "speaker": "优纪",
+          "text": "好巧！一定是辛德瑞拉丢失的那只！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016010",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "那个睡前故事中的辛德瑞拉？她现在在哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016011",
+          "sourceType": 13,
+          "speaker": "优纪",
+          "text": "她和爱丽丝都在这里，我们一直在野外帮她找水晶鞋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016012",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "好神奇，就像做梦一样！\n我想邀请她们一起到家里做客，你能帮我转达吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43016013",
+          "sourceType": 13,
+          "speaker": "优纪",
+          "text": "没问题！优纪这就带她们回家~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1127",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43016001,
+            43016002,
+            43016003,
+            43016004,
+            43016005,
+            43016006,
+            43016007,
+            43016008,
+            43016009,
+            43016010,
+            43016011,
+            43016012,
+            43016013
+          ],
+          "sectionId": 43016
+        }
+      ],
+      "title": "童话之夜 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43017001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呐呐，你们刚才都听到了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "辛德瑞拉的水晶鞋被主人|101|找到了，|102|还请你们一起到家里做客呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "偏偏是|101|捡到了我的水晶鞋……那个预言果然没有骗我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，感觉会是一场愉快的聚会呢，我要去我要去~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿，既然主人开口了，你们两位不如趁这个机会和好怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "既然已经找到了水晶鞋，我自然会依据承诺重新接纳你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017007",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哇哇，这一次，终于有人可以陪我去仙境世界了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这才像话嘛~曾经的朋友和好什么的，优纪最喜欢了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "就像你不了解「水晶鞋」对于我的意义，我也无法理解「仙境世界」于你而言意味着什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "现在，你愿意告诉我们关于「仙境世界」的故事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017011",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，我讨厌无趣的现实世界，只有童话中的仙境能满足我~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017012",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "可是……我们都知道，童话的世界是不存在的呀……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017013",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "才不是呢~兔子先生会找到去往仙境世界的大门，我有预感，那个|101|一定能提供有用的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017014",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "既然爱丽丝和我的目的地一致，我们不如即刻动身吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43017015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "奇怪……总觉得有什么重要的事被我忘记了，是什么呢？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1128",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43017001,
+            43017002,
+            43017003,
+            43017004,
+            43017005,
+            43017006,
+            43017007,
+            43017008,
+            43017009,
+            43017010,
+            43017011,
+            43017012,
+            43017013,
+            43017014,
+            43017015
+          ],
+          "sectionId": 43017
+        }
+      ],
+      "title": "童话之夜 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43018001",
+          "sourceType": 3,
+          "text": "一行人回到了初遇的书馆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43018002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "等等，我差点忘了，到书馆来最初是想为主人|101|寻找一本绝版的童话集~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "绝版童话集？或许我知道在哪里可以找到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "诶，可以趁这个机会，弄乱整齐的书柜吗？早就想试试看了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "爱丽丝，不要乱来，我们找到书就走~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018006",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "咦……不能这么做吗？好吧好吧，我答应你，仅此一次哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "跟我来，我带你们到书馆的地下仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018008",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "那边书架上有些封面古旧的书，可能就是你要找的童话集。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太棒了，哈哈，这个地方简直就是主人的梦想~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018010",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "这里有好多书，哎呀呀，哪本才是你要的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "找到了……就是这本！它就是主人|101|梦寐以求的童话集~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018012",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "很高兴你找到了你想要的，这是找回水晶鞋的一点谢意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，现在有些迫不及待想要回到主人身边呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43018014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看到这本书的主人，会有什么样的表情呢……好期待呀~！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1129",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43018001,
+            43018002,
+            43018003,
+            43018004,
+            43018005,
+            43018006,
+            43018007,
+            43018008,
+            43018009,
+            43018010,
+            43018011,
+            43018012,
+            43018013,
+            43018014
+          ],
+          "sectionId": 43018
+        }
+      ],
+      "title": "童话之夜 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43019001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呼，事情总算要圆满结束了……我们也不得不分开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "海柔尔，谢谢你一直以来的帮助，你是个很棒的朋友哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019003",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "真、真的吗？好高兴……我会想你们的，大家再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019004",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "爱丽丝……虽然你骗了我，但我一点也不后悔认识你哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，你当然不会后悔，因为我可是个超级有趣的朋友~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "的确，作为朋友，你已经做了自己能做的。\n以后不要再把自己藏起来了，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019007",
+          "sourceType": 0,
+          "speaker": "海柔尔",
+          "text": "呜呜呜……我会的……我会努力变得越来越勇敢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019008",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "安心安心，下次我再找你玩，要乖乖等我呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好了，我们回家吧。我迫不及待想把这本童话集拿给主人了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019010",
+          "sourceType": 3,
+          "text": "爱猫社区，主人家中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43019011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "总算回到家里了，嘿嘿，果然还是家里最舒服呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019012",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哎呀呀，天台的花园风景真不错，优纪帮我选个茶会地点吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，现在吗……好吧，这本童话集纪麻烦你们交给主人了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019014",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "这是你想要的童话集，我把它给你带回来了，你打算怎么谢我？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43019016",
+              "text": "你想我怎么做？"
+            },
+            {
+              "targetId": "43019016",
+              "text": "不如一起分享吧。"
+            }
+          ],
+          "sourceId": "43019015",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43019016",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "噗，哈哈哈哈！干嘛回答得这么认真，我只是开个玩笑啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43019017",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "抱歉，爱丽丝太顽皮了，她没有恶意。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43019019",
+              "text": "我在做梦吗？"
+            },
+            {
+              "targetId": "43019019",
+              "text": "真的是你们。"
+            }
+          ],
+          "sourceId": "43019018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43019019",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "时间还早，属于我们的这场梦还很漫长。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1130",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43019001,
+            43019002,
+            43019003,
+            43019004,
+            43019005,
+            43019006,
+            43019007,
+            43019008,
+            43019009,
+            43019010,
+            43019011,
+            43019012,
+            43019013,
+            43019014,
+            43019015,
+            43019016,
+            43019017,
+            43019018,
+            43019019
+          ],
+          "sectionId": 43019
+        }
+      ],
+      "title": "童话之夜 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43020001",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "咦，树洞里钻出了兔子先生？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020002",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "哎呀，消失得无影无踪了呢……以为这样就结束了吗？太小瞧我了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020003",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "嘻嘻，抓住了哦，兔子先生，乖乖在前面带路吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020004",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "唔，好香的味道……是蜂蜜香桃红茶~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020005",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "时钟涂满黄油，帽子装满糖果……花朵沾满甜甜的奶油！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020006",
+          "sourceType": 0,
+          "speaker": "爱丽丝",
+          "text": "果然，这里是属于我的「仙境世界」……我终于回来了，噗哈哈哈~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "爱丽丝睡得很香甜，想必她已经如愿抵达了「仙境世界」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020008",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "现在是属于我们的时间，但愿它不会像我的午夜魔法那么短暂。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43020010",
+              "text": "这是你的水晶鞋。"
+            },
+            {
+              "targetId": "43020010",
+              "text": "现在物归原主吧。"
+            }
+          ],
+          "sourceId": "43020009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43020010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我……我不知道该如何表达我的谢意。谢谢，真的非常感谢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020011",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这水晶鞋对我意义非凡，它是我的诅咒，也是我的力量之源。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020012",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "找到水晶鞋对我来说，是全新生活的开始，我也将成为一个全新的自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真替你感到高兴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020014",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "你知道吗？预言里说捡到水晶鞋的人，会是我的命定之人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020015",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我原本并不相信这种荒唐的言论，直到……我遇到了你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020016",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "从今往后，我的命运将与你息息相关……我们的一切将连环缠绕，永不分离。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43020017",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "我将与你共同执笔，写下属于只属于你我的长久的未来。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1131",
+      "sourceRefs": [
+        {
+          "bundle": "fairytale",
+          "rowIds": [
+            43020001,
+            43020002,
+            43020003,
+            43020004,
+            43020005,
+            43020006,
+            43020007,
+            43020008,
+            43020009,
+            43020010,
+            43020011,
+            43020012,
+            43020013,
+            43020014,
+            43020015,
+            43020016,
+            43020017
+          ],
+          "sectionId": 43020
+        }
+      ],
+      "title": "童话之夜 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 228,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 228,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "茶杯里，旋转的童话故事。",
+  "title": "童话之夜",
+  "wordCount": 1854
+}

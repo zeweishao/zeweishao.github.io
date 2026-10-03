@@ -1,0 +1,148 @@
+{
+  "bookId": "activity-extra-dijiayureqiandao",
+  "id": "source-29003",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29003001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "看主人这副胸有成竹的样子，应该是已经有了答案？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然！全TV中被迪迦断过角的怪物一共7个！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "bingo！主人又对了，正确的答案就是7个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "顺便一提，虽然TV中被迪迦断角的怪物只有7个，但迪迦人间体还弄断过建筑物的角，此外还有只怪物在海底被弄断过脚……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不可思议，主人竟然还掌握了比标准答案还要更加标准的答案吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003006",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "连迪迦都对主人表示了认可呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这不算什么，整个TV剧集我都研究了个遍，优纪还有什么问题都尽管问吧，不可能再有问题可以难倒我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那么，请主人听好了——最后的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "迪迦从剧集开始到现在，一共说了多少次“恰”？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "？？？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29003012",
+          "sourceType": 0,
+          "speaker": "迪迦",
+          "text": "恰……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29003",
+      "sourceRefs": [
+        {
+          "bundle": "dijiayureqiandao",
+          "rowIds": [
+            29003001,
+            29003002,
+            29003003,
+            29003004,
+            29003005,
+            29003006,
+            29003007,
+            29003008,
+            29003009,
+            29003010,
+            29003011,
+            29003012
+          ],
+          "sectionId": 29003
+        }
+      ],
+      "title": "活动片段 29003"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1033",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1033",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 29003,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 29003",
+  "wordCount": 261
+}

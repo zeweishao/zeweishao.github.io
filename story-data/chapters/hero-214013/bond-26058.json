@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214013",
+  "id": "bond-26058",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26058001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我坐在这里，应该能方便拉斐尔画画吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058002",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "嗯。不过……凑这么近，真的没关系吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么没关系？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058004",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "……我是说，主人一直保持这个姿势，不会累吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，等待礼物的过程，很开心哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058006",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "我会努力画好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，我相信拉斐尔的画技。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过在拉斐尔你继续前，我觉得有件事需要先提醒你一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058009",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "主人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "拉斐尔，你的脸红了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058011",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "我的脸……？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不要慌张，我的意思是，你的脸上沾上了红色的颜料。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058013",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "主人……真过分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那作为道歉，需要我帮你擦掉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26058015",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "不……嗯。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26058",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26058001,
+            26058002,
+            26058003,
+            26058004,
+            26058005,
+            26058006,
+            26058007,
+            26058008,
+            26058009,
+            26058010,
+            26058011,
+            26058012,
+            26058013,
+            26058014,
+            26058015
+          ],
+          "sectionId": 26058
+        }
+      ],
+      "title": "害羞的颜料"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214013",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "害羞的颜料",
+  "wordCount": 199
+}

@@ -1,0 +1,167 @@
+{
+  "bookId": "hero-213110",
+  "id": "bond-28573",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28573001",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "有没有手办也能骑的摩托车呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28573002",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "嘛，在这之前，我需要先确认一件事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28573003",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "手办在M城骑摩托，需要考驾照吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28573005",
+              "text": "应该……不用？"
+            },
+            {
+              "targetId": "28573005",
+              "text": "不如问问管理局。"
+            }
+          ],
+          "sourceId": "28573004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28573005",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "啧，麻烦，还是你骑摩托带我兜风吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28573007",
+              "text": "可是……我不会骑摩托。"
+            }
+          ],
+          "sourceId": "28573006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28573007",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "很简单，我来教你。很快你就会明白骑摩托就像穿衣吃饭一样容易。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28573009",
+              "text": "万一路上遇到行人怎么办？"
+            }
+          ],
+          "sourceId": "28573008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28573009",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "当然要停下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28573010",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "只不过有的时候，不是你想停就能马上停下来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28573011",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "没办法啊，一直看着前面的话，当然就看不到速度计了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28573013",
+              "text": "？？？"
+            },
+            {
+              "targetId": "28573013",
+              "text": "告辞。"
+            }
+          ],
+          "sourceId": "28573012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28573013",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "喂，我还没有说完，你给我回来！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28573",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28573001,
+            28573002,
+            28573003,
+            28573004,
+            28573005,
+            28573006,
+            28573007,
+            28573008,
+            28573009,
+            28573010,
+            28573011,
+            28573012,
+            28573013
+          ],
+          "sectionId": 28573
+        }
+      ],
+      "title": "指导骑摩托"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213110",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "指导骑摩托",
+  "wordCount": 207
+}

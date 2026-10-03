@@ -1,0 +1,107 @@
+{
+  "bookId": "rewind-41",
+  "id": "activity-records-731",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "一场狩猎，在M城卷起风波。",
+          "title": "猎人盛宴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-1",
+      "title": "星空猎人"
+    },
+    {
+      "blocks": [
+        {
+          "text": "猎人和猎物的胜负，依旧难料。",
+          "title": "猎人盛宴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-2",
+      "title": "狩猎风波"
+    },
+    {
+      "blocks": [
+        {
+          "text": "寻找真凶的过程少不了烤肉和冒险。",
+          "title": "猎人盛宴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-3",
+      "title": "寻踪觅迹"
+    },
+    {
+      "blocks": [
+        {
+          "text": "和伙伴一起享用美味，才是真正的团圆。",
+          "title": "猎人盛宴",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-4",
+      "title": "猎人之心"
+    },
+    {
+      "blocks": [
+        {
+          "text": "丛林遍布危险，却也有甜美的果实。",
+          "title": "荒野生存",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-5",
+      "title": "险峻丛林"
+    },
+    {
+      "blocks": [
+        {
+          "text": "寒风会带走体温，却带不走猎人的激情。",
+          "title": "荒野生存",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-6",
+      "title": "瑟瑟冷风"
+    },
+    {
+      "blocks": [
+        {
+          "text": "黑夜再长，终会迎来日出。",
+          "title": "荒野生存",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-7",
+      "title": "黑暗长夜"
+    },
+    {
+      "blocks": [
+        {
+          "text": "昨日之敌，或许是今日挚友。",
+          "title": "荒野生存",
+          "type": "profile"
+        }
+      ],
+      "id": "stage-8",
+      "title": "凶猛恶兽"
+    }
+  ],
+  "source": {
+    "kind": "activity-diary",
+    "refs": [
+      {
+        "detailId": "731",
+        "table": "ResOpActivityPlotStage"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "活动手记",
+  "wordCount": 120
+}

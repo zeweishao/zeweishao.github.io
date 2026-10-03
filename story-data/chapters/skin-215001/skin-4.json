@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215001",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「月亮圆圆，心愿满满。」\n「说出你的愿望，统统帮你实现哦！」\n\n「骗人的吧？谁会相信一只兔子。」\n围观的路人在看清女孩手里的兔子布偶以后，纷纷摇头离开。\n\n「呜…大家都不记得你了，小月兔。」\n\n「不要难过哦，樱会帮助你的！约定好了哦~」\n\n月兔灯在夜风中摇曳，仿佛回应着女孩——「嗯！一言为定！」\n\n——本特别款仅可通过月兔食坊活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "月兔逐影Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215001",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "樱·月兔逐影Ver.",
+  "title": "月兔逐影Ver.",
+  "wordCount": 156
+}

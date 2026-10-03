@@ -1,0 +1,133 @@
+{
+  "bookId": "activity-snippets-2ndspecial",
+  "id": "section-33302",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33302001",
+          "sourceType": 10,
+          "text": "「潮玩全明星」启动！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "33302002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "「潮玩全明星启动，集齐徽章兑换奖品！根据徽章主题，活动有特殊彩蛋......」\n哎？后半截海报......为什么被撕掉了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "别管那些啦，我们绝对要收集到满满当当的徽章，兑换超级大奖送给主人！\n各位，鼓起精神来大干一场吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302004",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我根据日光乐园的布局规划了搜索路线，大家不要浪费时间，直奔目标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "收到收到！只要发现徽章，一枪一个准！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈莉，这样会把徽章打坏的啦......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "呼哧、呼哧......大家，稍微慢一点......\n我们已经找了很久了，休息一下吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302008",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "明明已经绕游乐园一整圈了，却连一整套都没收集到。\n你们觉得问题出在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我知道，大家应该更努力才行！\n花迦，打起精神来，还不是休息的时候！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "不对！是我们找徽章的方法错了。\n该拆就拆，该炸就炸，翻个底朝天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "现在的情况很反常。\n我们收集了这么多徽章，却只有四种，第五种一个都没出现过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33302012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "难道说......这次的活动出了什么问题？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33302",
+      "sourceRefs": [
+        {
+          "bundle": "2ndspecial",
+          "rowIds": [
+            33302001,
+            33302002,
+            33302003,
+            33302004,
+            33302005,
+            33302006,
+            33302007,
+            33302008,
+            33302009,
+            33302010,
+            33302011,
+            33302012
+          ],
+          "sectionId": 33302
+        }
+      ],
+      "title": "「潮玩全明星」再启动！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 33302,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "62",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "「潮玩全明星」再启动！",
+  "wordCount": 382
+}

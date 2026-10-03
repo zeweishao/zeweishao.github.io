@@ -1,0 +1,142 @@
+{
+  "bookId": "hero-212015",
+  "id": "bond-33408",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "33408001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天天气不错，要一起出门逛逛吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33408002",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "唉。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33408004",
+              "text": "怎么在叹气？"
+            },
+            {
+              "targetId": "33408004",
+              "text": "不想出门吗？"
+            }
+          ],
+          "sourceId": "33408003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33408004",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "看看外面，下雨了。\n只要我想出门游玩，就会遇上坏天气，每次都这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33408005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那岂不是很遗憾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "33408006",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "也许等到一切结束的那天，我才能和常人一样游山玩水吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33408008",
+              "text": "我会陪你一起等。"
+            },
+            {
+              "targetId": "33408008",
+              "text": "我会帮你遮风挡雨。"
+            }
+          ],
+          "sourceId": "33408007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33408008",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "你还得好好努力，从胆量练起呢。\n听见雷鸣轰响的你，可不如现在这么坚定。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "33408010",
+              "text": "听多就习惯了。"
+            },
+            {
+              "targetId": "33408010",
+              "text": "有你在就安心。"
+            }
+          ],
+          "sourceId": "33408009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "33408010",
+          "sourceType": 0,
+          "speaker": "小乔",
+          "text": "既然如此，那靠得再近一些，来听听我心口鼓动的雷鸣~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "33408",
+      "sourceRefs": [
+        {
+          "bundle": "p3_guozheng",
+          "rowIds": [
+            33408001,
+            33408002,
+            33408003,
+            33408004,
+            33408005,
+            33408006,
+            33408007,
+            33408008,
+            33408009,
+            33408010
+          ],
+          "sectionId": 33408
+        }
+      ],
+      "title": "隐约雷鸣"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212015",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "隐约雷鸣",
+  "wordCount": 186
+}

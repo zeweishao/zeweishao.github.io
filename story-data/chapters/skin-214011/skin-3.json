@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214011",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "伴随着盛大的加冕仪式，这位身着金色华衣的14岁少女教主终于出现在信众们的面前。\n\n她的美是极致又脆弱的，仿佛雪山上绽放的粉嫩花蕾，转瞬间就会凋零。\n\n——可惜，那只不过是人们自以为是的「幻觉」。\n\n用不了多久，人们就会懂得这位年轻教主甜笑着的表情背后，所蕴含的致命的「魅力」。\n\n「准备好把一切献给我了吗？♥」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "献给吾爱Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214011",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "克罗赛尔·献给吾爱Ver.",
+  "title": "献给吾爱Ver.",
+  "wordCount": 147
+}

@@ -1,0 +1,2443 @@
+{
+  "bookId": "rewind-12",
+  "id": "chapter-53",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓；|103|＝按玩家性别变化的敬称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17128001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "彩音和绯野居然一起回来了，看来事情的进展很顺利嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "呃，哈哈哈，那个，这件事说起来有些复杂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我和绯野较量了大半天，结果那封邀请函突然又飞回到了绯野的手里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "总之，结局可谓皆大欢喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然这样我就放心啦，主人知道这件事之后可是一直都在担心你们呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你，一直在担心我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们真是太乱来了，没有受伤吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵，说我乱来，那么是谁害我以为自己没在邀请之列的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊这个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128010",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我告诉你哦，如果下次被我抓到你真的把我忘了的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那可就不只是阻止团圆宴这么简单的事情了呢。♣",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我记住了，绝对不会把你忘了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔哇，你怎么能威胁主人呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "毕竟是和我签订了誓约的家伙，我必须得看牢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "什么跟你签订了誓约，我可没有答应那件事，|101|主人是我们大家的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵，你答不答应关我什么事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128017",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "反正这张誓约书已经是我的了，上面可印着|101|的红手印哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可恶……真是太可恶了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "上次被你跑掉了，这次可是你主动找上门来的，我一定要代表大家狠狠地教训你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128020",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "来呀，我可不怕你，你们全部一起上也不是我的对手哦。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128021",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "住手，不要闹了，我可不想看到你们因为我打起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128022",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我知道你是心疼我哦，所以我这次可以先放过她们。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128023",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "既然主人开了口，我当然不会跟绯野这家伙计较，但不要以为我们就是好欺负的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好了好了，你们都是我的祖宗好吧，没一个我惹得起。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128025",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不说这些了，彩音介绍下你带来的新朋友们吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128026",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这位是梅根前辈，曾经是一名雇佣兵队长哦，可神气了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128027",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "听闻你是一个与众不同的人类，我对这点很感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128028",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "嗨嗨，初次见面，我的名字叫作樱，听音姐姐说这里有很多好玩的，樱很期待哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128029",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊哈，欢迎你们，我的家永远为可爱的手办们敞开大门~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好啦，一起期待即将到来的团圆宴会吧~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128031",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "说起来这个团圆宴会究竟要做些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "没能仔细地向你们介绍这个宴会，真是抱歉，请你们跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128033",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "啊，樱也要去，也带上樱嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17128034",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哈哈哈哈去吧去吧，我和安达先生在这附近逛逛，等你们回来哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "上次离开得太匆忙，都没能仔细地看看上面都有些什么游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "无论看多少次都会觉得，这里真是太壮观了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这么多的游戏收藏，简直就是天堂中的天堂。啊不，天堂恐怕都没有这么美妙吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129004",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "真是受不了你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "安达先生，你快来看这个，上面写的是……《终焉地平线》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "完全没听说过的名字呢，是游戏么？安达先生能不能帮我查查看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129007",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "这是一款在全球有着巨大影响力的多人对战游戏，玩家可在百种英雄间召唤属于自己的个性英雄，团结协作，以推塔和摧毁敌方基地为目标，进行红蓝两队的对抗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哇哦，原来是对抗类游戏，我最擅长这个了，好想好想玩玩看哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129009",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "音酱不会喜欢这个游戏的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，这是为什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129011",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "因为它讲述的是一个关于在科技高度发达的未来世界的故事……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "后来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129013",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "人类以精密的技术，研制出了名为“地平线”巨型机械机甲，驾驶员以特别的神经作为缔结媒介，以自身的意志操纵并驾驶机甲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "听起来是一个我从未知晓过的新世界……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129015",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "但是很快，名为“地平线一号”的机械初号机，操纵了其驾驶员的意志，伙同极端思维组织者，发起了一场名为“终焉”的革命。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129016",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "你一个女孩子会喜欢这样的游戏吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "当然，女孩子为什么不能喜欢这样的游戏，安达先生不会是对女孩有什么偏见吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129018",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "我可没有，你不要乱讲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129019",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "真好，一个全新的未知世界正等待着我去探索呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129020",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "好幸福，真是太幸福了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "能成为手办真是太好了！能来到|101|的家里真是太好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129022",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "什么事情那么开心，不如讲出来让我也开心一下？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129023",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啧，怎么又是你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129024",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵，看到是我很失望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129025",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那还真是抱歉了呢，我对这里也很感兴趣，你不介意吧，毕竟我也是受邀到这个家里来的客人哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129026",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "随便你啦，只要不打扰到我就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129027",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你手里拿的是什么，让我看看嘛？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129028",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我才不要，这个是我先发现的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129029",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵，是嘛，那可真是遗憾呢，人家真的很想知道嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129030",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "咦，|101|，你怎么来了，是特意来找我的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129031",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶？|101|在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129032",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "呵呵呵，你上当了哟。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129033",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，《终焉地平线》的游戏卡带怎么一瞬间就到了绯野的手上……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129034",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "是么，这个东西叫作《终焉地平线》，看起来挺有意思的嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129035",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我警告你，快还给我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129036",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "啊，你生气了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129037",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "不要生气嘛，生气的女孩子会长皱纹哦，那样就不漂亮了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129038",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "快，还，给，我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129039",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你这么想要这个嘛，我有一个好主意想不想听听看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129040",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你又想做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17129041",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "啊好凶，人家只是想和你一起玩这个游戏嘛~♠",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "text": "本段为游戏视频演出，当前文字库未转写。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "17229001",
+          "sourceType": 9,
+          "text": "1小时后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17229002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊啊啊啊啊，好难啊这个游戏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可恶，我居然输了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这怎么可能，居然有我打不赢的游戏存在于这个世界上！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "轮到我的回合了呢，做好准备了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "就让怪盗的演出，正式开始吧！♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229007",
+          "sourceType": 9,
+          "text": "45分钟后，游戏内传来熟悉的电子音——\n“我方基地被摧毁，the game is over.”",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17229008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "连我也没能赢得这场游戏，真是灾难……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17229009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我的心受伤了，今晚我要循环播放一百遍肖邦的夜曲才能安抚我受伤的心灵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130001",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "我闻到了修罗场的味道，而且是单方面遭到屠戮的修罗场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130002",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "彩音，绯野，你们这是怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130005",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "简单来说，她们两个因为输掉游戏，此时此刻正在陷入名为绝望和郁闷的负面情绪中。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "咦，彩音和绯野两个在玩什么游戏呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130007",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "喏，就是这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，原来是《终焉地平线》，这个游戏主人也很喜欢哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们在聊什么，看起来很开心的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，快来这里，我们在讨论你最爱的游戏呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "居然是《终焉地平线》，这款游戏陪伴了我很多年。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天被你们拿出来，忍不住手痒了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇，主人也想试试看嘛，好期待哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130014",
+          "sourceType": 9,
+          "text": "30分钟后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17130015",
+          "sourceType": 9,
+          "text": "“敌方基地已被摧毁，You win！”",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17130016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "居然用了30分钟才打完了一局，真是惭愧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们怎么了，为什么这么看着我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130020",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这就是传说中的神明大人吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "妈妈，我见到了神明大人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我可不是什么神明哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130023",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不不不，你就是神，我亲眼见证了你的力量。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17130024",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "神明大人，请你收阿音为徒吧！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-332",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17128001,
+            17128002,
+            17128003,
+            17128004,
+            17128005,
+            17128006,
+            17128007,
+            17128008,
+            17128009,
+            17128010,
+            17128011,
+            17128012,
+            17128013,
+            17128014,
+            17128015,
+            17128016,
+            17128017,
+            17128018,
+            17128019,
+            17128020,
+            17128021,
+            17128022,
+            17128023,
+            17128024,
+            17128025,
+            17128026,
+            17128027,
+            17128028,
+            17128029,
+            17128030,
+            17128031,
+            17128032,
+            17128033,
+            17128034
+          ],
+          "sectionId": 17128
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17129001,
+            17129002,
+            17129003,
+            17129004,
+            17129005,
+            17129006,
+            17129007,
+            17129008,
+            17129009,
+            17129010,
+            17129011,
+            17129012,
+            17129013,
+            17129014,
+            17129015,
+            17129016,
+            17129017,
+            17129018,
+            17129019,
+            17129020,
+            17129021,
+            17129022,
+            17129023,
+            17129024,
+            17129025,
+            17129026,
+            17129027,
+            17129028,
+            17129029,
+            17129030,
+            17129031,
+            17129032,
+            17129033,
+            17129034,
+            17129035,
+            17129036,
+            17129037,
+            17129038,
+            17129039,
+            17129040,
+            17129041
+          ],
+          "sectionId": 17129
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17229001,
+            17229002,
+            17229003,
+            17229004,
+            17229005,
+            17229006,
+            17229007,
+            17229008,
+            17229009
+          ],
+          "sectionId": 17229
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17130001,
+            17130002,
+            17130003,
+            17130004,
+            17130005,
+            17130006,
+            17130007,
+            17130008,
+            17130009,
+            17130010,
+            17130011,
+            17130012,
+            17130013,
+            17130014,
+            17130015,
+            17130016,
+            17130017,
+            17130018,
+            17130019,
+            17130020,
+            17130021,
+            17130022,
+            17130023,
+            17130024
+          ],
+          "sectionId": 17130
+        }
+      ],
+      "title": "~共赴盛宴~ · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17131001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嗯哼哼~♪哼哼……♫哼~……♬",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你心情不错嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嘿嘿，那是当然，神明大人答应收我为徒了嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，应该做些什么才能讨神明大人的欢心，我一点经验也没有呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "如果一直游手好闲的话，会被神明大人讨厌的吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "有了，我可以趁这次的团圆晚宴的机会多多表现，这样神明大人就会更加喜欢我了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "居然能这么容易就沉浸于小粉丝这个低廉的身份里，该说你幼稚还是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "绯野绯野，你也一起来嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "啊，我可没说自己也要去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "少来，你明明一脸期待的样子，你的心里对于|101|的崇拜心情，我可是相当明白的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "谁、谁说我崇拜|101|，我只是……算了，就随你去吧，毕竟我并不讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17131012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嗯？绯野你看，优纪她正在搬运什么东西，我们一起去帮忙吧~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "text": "本段为游戏视频演出，当前文字库未转写。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "17231001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "呼呼，这些盒子可真重，里面装了什么啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这些盒子里装的都是给主人|101|的新年礼物呢，每一个盒子里都住着一个美好的心愿，所以自然会很有分量嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这么多的礼物，都是谁送的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，我想想看……主人的同学、朋友、家人，还有还有，家里的手办们也都有给主人准备新年礼哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "只有你自己搬运，要搬到什么时候呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这也是没办法的嘛，团圆晚宴要做的事情那么多，大家都忙不过来呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊我要再快点才行，等一下还要给和江她们送食材呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "既然如此的话，我们可以帮你把食材送到和江那边哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "真是帮大忙了，那就拜托彩音和绯野了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "优纪刚才所说的就是这个地方，没错吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "就是这里，不会有错的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可是怎么没看到优纪说的那些食材呢，难道已经被拿走了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "如果是家里其他手办拿走的话，不可能不告诉优纪的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "说的也是……咦，地上那些是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "似乎是猫咪的脚印。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231016",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "诶诶？房间里为什么会有猫？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可是我听说，神明大人|101|因为担心猫咪会伤害到家里的手办，所以并没有特意蓄养宠物呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "的确如此，这件事我也有听闻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231019",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "那么这些脚印，应该不是家养的猫咪，而是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231020",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "想必是户外的野猫溜进了房间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "如果真的是流浪猫的话，那就糟糕了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231022",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我们得尽快把它们找出来才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17231023",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，脚印那边也有呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这里原本放着的食材也不见了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这个状况有点糟糕哦，没有了食材，优纪她们为|101|准备的火锅就要泡汤了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你为什么能这么气定神闲啊，这件事不会是你做的吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我知道你盲目崇拜|101|，所以难免会为|102|的事感到紧张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "拜托你有点脑子好不好，如果我真想做点什么的话，会这么容易被你发现么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……说的也是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "这些失踪的食材，多半是被溜进房间的猫咪给叼走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "人家好不容易想要在神明大人|101|的面前表现一下，居然会发生这种事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你不会这么快就想打退堂鼓吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "切，我知道你在想什么，你一定是想趁我放弃的时候，独占这份功劳对吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我不会让你得逞哦，因为在神明大人|101|的面前，我是无论如何不会放松警惕的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "干劲十足呢，那就让我们看看究竟谁能先找到失踪的食材吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嘶，好冷，我讨厌这样的天气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "绯野居然也有害怕的东西，感觉莫名地有些可爱呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "待在华丽舒适的房间里，欣赏古典音乐，或者戏剧表演，会更适合你的身份吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "啧，如果不是为了|101|，我才不会在这么冷的天气外出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132017",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊，绯野快看，前面的雪地上有猫咪的脚印呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132018",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "唔哇，这里有这么多的猫咪脚印。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "那些丢失的食材原来在这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132020",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "看起来还是完整的样子，我们来的真是时候，得想办法把这些食材带走呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17132021",
+          "sourceType": 9,
+          "text": "喵~嗷呜！——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17132022",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "小心，有只庞然大物朝我们扑过来了！~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "呼，大猫真是太可怕了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "还好有绯野在，不然就要被那只肥嘟嘟的怪兽给吞进肚子里了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133003",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "平心而论，我们两个刚才的配合相当漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哈哈哈，这点我也很认同哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "对了，既然食材都找回来了，我们还是赶快送回去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17133006",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嗯哼，正有此意。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-333",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17131001,
+            17131002,
+            17131003,
+            17131004,
+            17131005,
+            17131006,
+            17131007,
+            17131008,
+            17131009,
+            17131010,
+            17131011,
+            17131012
+          ],
+          "sectionId": 17131
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17231001,
+            17231002,
+            17231003,
+            17231004,
+            17231005,
+            17231006,
+            17231007,
+            17231008,
+            17231009,
+            17231010,
+            17231011,
+            17231012,
+            17231013,
+            17231014,
+            17231015,
+            17231016,
+            17231017,
+            17231018,
+            17231019,
+            17231020,
+            17231021,
+            17231022,
+            17231023
+          ],
+          "sectionId": 17231
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17132001,
+            17132002,
+            17132003,
+            17132004,
+            17132005,
+            17132006,
+            17132007,
+            17132008,
+            17132009,
+            17132010,
+            17132011,
+            17132012,
+            17132013,
+            17132014,
+            17132015,
+            17132016,
+            17132017,
+            17132018,
+            17132019,
+            17132020,
+            17132021,
+            17132022
+          ],
+          "sectionId": 17132
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17133001,
+            17133002,
+            17133003,
+            17133004,
+            17133005,
+            17133006
+          ],
+          "sectionId": 17133
+        }
+      ],
+      "title": "~共赴盛宴~ · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17134001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "丢失的食材被我和绯野找回来了哟~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "太好了，彩音和绯野这次帮了大忙呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这些食材都是主人|101|最喜欢吃的，如果弄丢的话，和江和我都会很困扰呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哈哈，小意思，这点小忙不算什么啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "接下来要做些什么呢，请尽管让我和绯野也参加进来吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们要开始准备主人|101|最喜欢的火锅了，这可是优纪最喜欢的环节呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "不过火锅准备起来有些麻烦，为了尽快准备好，我们一起来分工进行吧。❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "彩音和绯野就负责对这些清洗过的蘑菇进行十字切花，可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不就是切蘑菇嘛，这个挺、挺简单的嘛……放心交给我好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17134010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "那么我们就分头开始行动咯~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "又、又失败了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可恶，这玩意究竟要怎么切啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135003",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "平时不帮着妈妈做家务，这种时候后悔也来不及了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "安达先生，你快帮帮我啊~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135005",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "你这个要求未免太过分了点吧，游戏机的设计初衷可不是为了切菜花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135006",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "众所周知，这可是基本常识。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "如果是核桃就好了，这样安达先生就能派上用场了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135008",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "喂，你到底有没有好好听我讲话啊~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135009",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "办不到的话就直说嘛，坦率的孩子更容易引起好感哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "才、才不是办不到，我只是还没有认真对待而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135011",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我知道你不会承认哦，还是让我来帮你吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135012",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "少开玩笑了，什么都没有准备的你，难道打算用手指切蘑菇吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你忘了吗，我的本职工作可是拥有着独一无二的王牌的魔术师。♠",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135014",
+          "sourceType": 9,
+          "text": "绯野原爱拿出了自己的扑克牌，华丽的牌技令周围的手办看得目瞪口呆。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17135015",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "哇，绯野好厉害，只用扑克牌就把蘑菇切得这么漂亮~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "小妹妹，我的扑克牌不仅能切蘑菇，还可以表演精彩绝伦的魔术哦，想不想看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135017",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "想看想看，樱现在就想看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135018",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "樱现在这个样子，总觉得有些熟悉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135019",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "哦，我想起来了，当初你把樱救回来的时候，她看你的表情，就是现在这个样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135020",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "音酱，你的地位不保咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135021",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135022",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "绯野。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135023",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "嗯哼，你也想看我的扑克牌表演吗，抱歉，可以麻烦你在后面排队吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135024",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我说啊，你不要太得意了！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135025",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不就是给蘑菇切花吗，我也可以切得很漂亮，绝对绝对不会输给你这个怪盗的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17135026",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哦，是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136001",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "啧，你还真是难缠啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哈啊，哈啊，我说过……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "切菜花这件事，我是绝对不会输给你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这个场面真是有够凄惨呢，得抓紧时间在主人|101|回来前打扫干净才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136005",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "有彩音和绯野两个在一起的地方，无论一开始多么整洁美观，最后的结局很大可能会变演变成修罗场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136006",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "好像是这样呢，樱也发现了这一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136008",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不过，你们两个较量的后果也不全都是坏事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136010",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这话怎么说？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我仔细检查过，这些蘑菇的十字切花全部都已完成，而且，以我专业的眼光来看，刀工非常美丽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136012",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "哇好棒，樱宣布，音姐姐和绯野姐姐都是切菜花的天才~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136013",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "啊哈哈，「切菜花的天才」……总觉得这个身份有些奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17136014",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "不过，能帮上大家的帮真是太好了~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-334",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17134001,
+            17134002,
+            17134003,
+            17134004,
+            17134005,
+            17134006,
+            17134007,
+            17134008,
+            17134009,
+            17134010
+          ],
+          "sectionId": 17134
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17135001,
+            17135002,
+            17135003,
+            17135004,
+            17135005,
+            17135006,
+            17135007,
+            17135008,
+            17135009,
+            17135010,
+            17135011,
+            17135012,
+            17135013,
+            17135014,
+            17135015,
+            17135016,
+            17135017,
+            17135018,
+            17135019,
+            17135020,
+            17135021,
+            17135022,
+            17135023,
+            17135024,
+            17135025,
+            17135026
+          ],
+          "sectionId": 17135
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17136001,
+            17136002,
+            17136003,
+            17136004,
+            17136005,
+            17136006,
+            17136007,
+            17136008,
+            17136009,
+            17136010,
+            17136011,
+            17136012,
+            17136013,
+            17136014
+          ],
+          "sectionId": 17136
+        }
+      ],
+      "title": "~共赴盛宴~ · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17137001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "火锅大餐完工~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137002",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "哇，好漂亮的颜色，看起来好好吃的样子~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "可惜手办不能吃火锅，不然的话，这些都不够我自己吃呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "唔，你的食量还真是可怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哈哈哈哈，说到这个我可是相当自豪的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我曾经参加过社区举办的大胃王比赛拿到了冠军呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137007",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137009",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "你们这是什么表情？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137010",
+          "sourceType": 0,
+          "speaker": "安达先生",
+          "text": "音酱，对于女孩子来说，吃得多……并不是什么值得骄傲的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "这样啊，为什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "……你还真是不解风情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈，哈，火锅大餐能够准备得这么好，真是辛苦大家了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17137014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人|101|如果看到不知道会有多开心呢，因为我们选用的食物和调料全都是|102|的最爱呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138001",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "美味当前，总觉得缺点什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "美食须得美景来相称，才算锦上添花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈我想到了一个好主意，我可以跟和江一起跳支舞，在主人|101|吃火锅的时候跳给|102|看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138004",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "优纪果然满脑子都是主人，虽然看起来很一根筋，但是只要是对|101||103|有利的事，我怎么都讨厌不起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "确实值得佩服，优纪一定很爱很爱神明大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138006",
+          "sourceType": 0,
+          "speaker": "梅根·鎏金雅韵",
+          "text": "舞蹈本身的确十分赏心悦目，对于节日来说更加平添了几分喜气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138007",
+          "sourceType": 0,
+          "speaker": "樱·樱花梦语",
+          "text": "哇，好期待哦，优纪姐姐、和江姐姐的舞蹈一定非常好看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "没错没错，说得我都心痒难耐了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我回来了，好饿啊，优纪，和江，今天晚上吃什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哇哦，太棒了~！是我最爱的麻辣火锅~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些……都是你们为我准备的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "是的呢，主人，请尽情享受美食带来的愉悦吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "请允许我跟和江代表家里的每一位手办，向主人|101|献上一支节日的舞蹈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "祝我们最爱的主人|101|新年快乐，好运常伴~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138015",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "神明大人，新年快乐哦，新的一年祝你玩游戏更上一层楼~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "|101||103|，新年快乐哦，你要在新的一年每天都想念我，知道了么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢大家……真的非常感谢……我已经不知该用什么言语来表达我的感激……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17138018",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们才要向主人表示感谢呢，谢谢主人这一年来的照顾与陪伴，有你真好~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "酒足饭饱，美人当前，这个年真是过得分外满足~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这么美好的夜晚，主人有没有什么安排呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看你们一脸期待的样子，是不是早有安排了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈果然什么事情都瞒不过主人呢，阿音，把你的安排告诉给主人吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139005",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "那个，神明大人，请、请你再和我们一起玩游戏吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17139006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好啊好啊，和你们在一起玩什么都会很有意思，来吧~！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "text": "本段为游戏视频演出，当前文字库未转写。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-335",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17137001,
+            17137002,
+            17137003,
+            17137004,
+            17137005,
+            17137006,
+            17137007,
+            17137008,
+            17137009,
+            17137010,
+            17137011,
+            17137012,
+            17137013,
+            17137014
+          ],
+          "sectionId": 17137
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17138001,
+            17138002,
+            17138003,
+            17138004,
+            17138005,
+            17138006,
+            17138007,
+            17138008,
+            17138009,
+            17138010,
+            17138011,
+            17138012,
+            17138013,
+            17138014,
+            17138015,
+            17138016,
+            17138017,
+            17138018
+          ],
+          "sectionId": 17138
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17139001,
+            17139002,
+            17139003,
+            17139004,
+            17139005,
+            17139006
+          ],
+          "sectionId": 17139
+        }
+      ],
+      "title": "~共赴盛宴~ · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17140001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人主人，烟火大会就要开始了呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪最喜欢的就是烟火大会了，我们一起去看烟火吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哇好棒，居然还有烟火表演，我也要去看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "开始了开始了，快看快看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好美的烟火哦，五彩绚烂的颜色，预示着主人新的一年会有一个好的开始哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140006",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "对呢对呢，神明大人快来许个愿望吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诶，对着烟火许愿吗，会不会太傻了点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "才不会呢，我每一年都会在烟火大会的时候许愿，可灵了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧，听彩音的，我也来许个心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……我的愿望已经许好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140011",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "就这么结束了？我还什么都没听到呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你……许了什么愿望？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "优纪也想知道，主人快告诉我们吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那怎么行呢，愿望就是愿望，讲出来就不灵了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140015",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "狡猾的主人，告诉我们啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈哈哈，不要，我才不要说~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其实，我许下的心愿，一直都和你们有关，这一点，你们也是清楚的吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17140018",
+          "sourceType": 9,
+          "text": "真希望时间能够停留在这一刻，烟火的光芒因为这些手办少女的陪伴，显得更加灿烂夺目。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17141001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "大家难得聚在一起，一起拍照留念吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17141002",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "快快快，都站好了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17141003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感谢你们的陪伴，我会永远记得这一刻的。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "video",
+          "text": "本段为游戏视频演出，当前文字库未转写。",
+          "type": "notice"
+        }
+      ],
+      "id": "detail-336",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17140001,
+            17140002,
+            17140003,
+            17140004,
+            17140005,
+            17140006,
+            17140007,
+            17140008,
+            17140009,
+            17140010,
+            17140011,
+            17140012,
+            17140013,
+            17140014,
+            17140015,
+            17140016,
+            17140017,
+            17140018
+          ],
+          "sectionId": 17140
+        },
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17141001,
+            17141002,
+            17141003
+          ],
+          "sectionId": 17141
+        }
+      ],
+      "title": "~共赴盛宴~ · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 53,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 53,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_kula_play.mp4"
+        }
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_kula_box.mp4"
+        }
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_kula_doudizhu.mp4"
+        }
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_kula_heying.mp4"
+        }
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "完美的一天从现在开始",
+  "title": "共赴盛宴",
+  "wordCount": 5988
+}

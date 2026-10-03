@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212205",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「欢迎来到奇味乐园！」\n「你将品尝到毕生难忘的美味！」\n\n男孩面对琳琅满目的甜品，一时不知该怎么选择。\n\n「这款『巧克力蟋蟀圈』选用了新鲜的蟋蟀作为配料……很好吃的哦！」\n「或者『培根慕斯蛋卷』，搭配辛辣的果酱，你会爱上这个味道的。」\n\n还没听完甜点师的介绍，男孩转身就消失得无影无踪。\n\n「别演了，笨蛋！客人都跑光了！」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "奇味乐园Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212205",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "徕卡·奇味乐园Ver.",
+  "title": "奇味乐园Ver.",
+  "wordCount": 151
+}

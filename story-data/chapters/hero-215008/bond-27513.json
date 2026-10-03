@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-215008",
+  "id": "bond-27513",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27513001",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "果然，被太多人喜欢也是会有苦恼的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513002",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "被神眷顾，拥有大家的爱，却不能偏爱一人。\n因为，艾里克希娅是属于大家的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真是令人羡慕的苦恼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513004",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你不也是一样，被那么多手办爱着、簇拥着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "其中包括艾里克希娅吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513006",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "我和她们不同。我对你的爱是偶像对于粉丝的，人人有份。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这样说可真伤人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513008",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "不过，如果你愿意更多地关注我，为我应援更卖力一些......\n我不介意让你做粉丝后援会的队长。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我更想成为你的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513010",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "做世界第一偶像的朋友，你的实力够吗？\n就算你稍微有点天分，珍视手办，又认真努力......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513011",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "好吧，你的确很特别，不过我的择友标准可是很严格的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513012",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "你必须答应，就算被再多手办爱着，也把最多的关注投入我身上。这样才公平。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "成交。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27513014",
+          "sourceType": 0,
+          "speaker": "艾里克希娅",
+          "text": "作为交换，我也可以试着，把你当做......更特别的人来看待。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27513",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27513001,
+            27513002,
+            27513003,
+            27513004,
+            27513005,
+            27513006,
+            27513007,
+            27513008,
+            27513009,
+            27513010,
+            27513011,
+            27513012,
+            27513013,
+            27513014
+          ],
+          "sectionId": 27513
+        }
+      ],
+      "title": "被爱的苦恼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215008",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "被爱的苦恼",
+  "wordCount": 321
+}

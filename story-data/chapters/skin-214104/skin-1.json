@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214104",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "由远及近，破晓之光照亮一片狼藉的王宫审判厅。\n\n「当女王的感觉果真不错，大家看起来都和蚂蚁一样小了。」\n「今天要举行怎么样的审判呢~」金发的新女王坐在毒蘑菇上摇摇晃晃。\n\n「嘻嘻~原来你早上吃了黄油司康呀，不过，我很讨厌司康哦……」台下的罪人试图慌张辩解。\n\n「嘘——你什么都不用说。」\n「判决，早就决定好了。」\n戏谑地晃着法律文书，女王降下绝对的判决。\n\n——该特别款仅限特定联动活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "深赤冠冕Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214104",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "爱丽丝·深赤冠冕Ver.",
+  "title": "深赤冠冕Ver.",
+  "wordCount": 184
+}

@@ -1,0 +1,133 @@
+{
+  "bookId": "activity-snippets-tu2ye15",
+  "id": "section-35010",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35010001",
+          "sourceType": 10,
+          "text": "快乐桃桃",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "35010002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好可爱的桃子，贝歌，你做得太漂亮了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010003",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "没什么的，不过是按照「兔儿爷」讲述的步骤认真去完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "可是桃子的效果很棒呀，嘻嘻，优纪好想摸一摸~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010005",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "还没有完全做好，等……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊，我把桃子给戳了个洞……贝歌，我、我对不起你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010007",
+          "sourceType": 0,
+          "speaker": "兔儿爷",
+          "text": "优纪怎么在哭鼻子，发生了什么事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呜，优纪把贝歌做好的桃桃给戳破了，呜呜呜呜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010009",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "喂，只不过戳了一个浅浅的印子，没你说得那么夸张。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这种程度的印子，米菲亚就可以复原，交给我喵~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，谢谢……谢谢大家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35010012",
+          "sourceType": 0,
+          "speaker": "贝歌",
+          "text": "太好了，我会期待它修复后的样子。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35010",
+      "sourceRefs": [
+        {
+          "bundle": "tu2ye15",
+          "rowIds": [
+            35010001,
+            35010002,
+            35010003,
+            35010004,
+            35010005,
+            35010006,
+            35010007,
+            35010008,
+            35010009,
+            35010010,
+            35010011,
+            35010012
+          ],
+          "sectionId": 35010
+        }
+      ],
+      "title": "快乐桃桃"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 35010,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "73",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "可爱的桃子，可爱的「兔儿爷」，只是看一眼心情就能好起来~",
+  "title": "快乐桃桃",
+  "wordCount": 219
+}

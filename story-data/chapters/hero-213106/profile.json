@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213106",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI旗下的天马品牌与新锐潮玩设计师展开合作，联手推出这款爆音鸡系列潮流玩偶。该作品灵感来自日常生活中熟悉的可爱动物，经由设计师的艺术加工，爆音鸡的个性与特色被展现得淋漓尽致。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213106"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 89
+}

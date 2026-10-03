@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-212102",
+  "id": "bond-28551",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28551001",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "今天的直播配信也顺利结束了，那么一起来聊聊「幕后花絮」吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "说起来，为什么会想到举行一场「手办世界」的直播企划呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551003",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "当然是因为大家的热情了！绊爱也是，想要和大家一起愉快玩耍的意愿真是非常强烈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "做这场直播以前我从来不会想到，在人类注意不到的角落居然生活着这样一群小小、小小的可爱手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "真是奇妙的世界呀……觉得有这样一趟冒险真好！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "这么说来……直播配信时还发生过一件让人很吃惊的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "因为我是在直播中才知道，原来还有「手办是不可以在人类面前动起来」这样的规则存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551008",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "……那一瞬间AI宕机了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551009",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "但是嘛，聪明可爱的我还是让身为手办的大家作为虚拟艺人顺利出道了，哼哼，我很厉害吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28551010",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "咦？想知道经过吗，哈哈，那快一点来关注爱酱「手办世界直播企划」的视频吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28551",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28551001,
+            28551002,
+            28551003,
+            28551004,
+            28551005,
+            28551006,
+            28551007,
+            28551008,
+            28551009,
+            28551010
+          ],
+          "sectionId": 28551
+        }
+      ],
+      "title": "奇妙的世界"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "奇妙的世界",
+  "wordCount": 316
+}

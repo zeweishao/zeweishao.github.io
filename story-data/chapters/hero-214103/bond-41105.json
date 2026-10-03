@@ -1,0 +1,171 @@
+{
+  "bookId": "hero-214103",
+  "id": "bond-41105",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41105001",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "3——2——1——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105002",
+          "sourceType": 5,
+          "speaker": "库特",
+          "text": "点火！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "报告，水火箭已顺利完成一级加速。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105004",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "ok的说……接，接下来就是关键的二级加速！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105005",
+          "sourceType": 3,
+          "text": "嘭——咻——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "41105006",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "大危机的说，二级加速瓶子开始漏水……哇呼！？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41105008",
+              "text": "在我们头上完美地形成了水花呢。"
+            },
+            {
+              "targetId": "41105008",
+              "text": "啊，衣服湿了。"
+            }
+          ],
+          "sourceId": "41105007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41105008",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "第5次「水火箭自动花园洒水功能」的发射试验也完全变成water了的说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过比上次的实验进步了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105010",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "积极来考虑的话是这样的呢……上次差点砸到粮丸的饭碗，真是十分sorry的说……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过我因此知道粮丸原来对接水火箭也有一番心得呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105012",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "哇呼……和斯特列尔卡、威尔卡一样呢，很厉害的说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈，那我们继续下一次发射实验吧，感觉就快要成功了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "要是以后让水火箭给花园浇水的话，大家就能轻松很多了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105015",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "有道理的说，为了大家，现在可不是气馁的时候！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41105016",
+          "sourceType": 0,
+          "speaker": "库特",
+          "text": "下次一定会是big big success的说！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41105",
+      "sourceRefs": [
+        {
+          "bundle": "lbgaobai",
+          "rowIds": [
+            41105001,
+            41105002,
+            41105003,
+            41105004,
+            41105005,
+            41105006,
+            41105007,
+            41105008,
+            41105009,
+            41105010,
+            41105011,
+            41105012,
+            41105013,
+            41105014,
+            41105015,
+            41105016
+          ],
+          "sectionId": 41105
+        }
+      ],
+      "title": "水火箭发射实验"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214103",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "水火箭发射实验",
+  "wordCount": 333
+}

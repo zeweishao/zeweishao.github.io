@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-215006",
+  "id": "bond-29318",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29318001",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "嗯，这下可难办了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "都督有何烦恼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318003",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "你有所不知，我曾欠下孔明一个人情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318004",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "不久前和他再度碰面，不知怎么被提起这件事来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318005",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "他就提出一个让我十分头痛的要求，而我碍于曾经欠下的人情没办法拒绝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以究竟是什么要求？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318007",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "种菜。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29318009",
+              "text": "我没听错吧？"
+            },
+            {
+              "targetId": "29318009",
+              "text": "他在整你吗？"
+            }
+          ],
+          "sourceId": "29318008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29318009",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "不排除这是孔明的恶作剧，不过我既然应承下来，就没有理由放弃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318010",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "我看你家中的阳台有诸多的植被，想必你很擅长此道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318011",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "不如和我一道去为孔明种菜，如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那要先看看种什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29318013",
+          "sourceType": 0,
+          "speaker": "周瑜",
+          "text": "好说，一些茄子、葫芦和毛豆之类的家常小菜。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29318",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29318001,
+            29318002,
+            29318003,
+            29318004,
+            29318005,
+            29318006,
+            29318007,
+            29318008,
+            29318009,
+            29318010,
+            29318011,
+            29318012,
+            29318013
+          ],
+          "sectionId": 29318
+        }
+      ],
+      "title": "都督的烦恼"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "都督的烦恼",
+  "wordCount": 213
+}

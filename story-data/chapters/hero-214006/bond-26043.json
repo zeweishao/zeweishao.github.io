@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214006",
+  "id": "bond-26043",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26043001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "冈田桜介？你这是……要出门？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043002",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "踢馆去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "又去找仓田龙马？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043004",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "这次不是他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……新的受害者吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043006",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "呵，虽然你的说法让我不爽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043007",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "但看在你默认我是胜利者的面子上，就不扣你分了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这都能扣分？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043009",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "紫罗兰学园校规校纪第867条：禁止诽谤他人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……那校规校纪有没有禁止学生打架斗殴？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043011",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "呵，打架斗殴？我们是合法合规的武道切磋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043012",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "是走正规程序的踢馆，懂吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……所以你背校规校纪的根本目的是打擦边球吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043014",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "紫罗兰学园校规校纪第867条：禁止诽谤他人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26043015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你狠。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26043",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26043001,
+            26043002,
+            26043003,
+            26043004,
+            26043005,
+            26043006,
+            26043007,
+            26043008,
+            26043009,
+            26043010,
+            26043011,
+            26043012,
+            26043013,
+            26043014,
+            26043015
+          ],
+          "sectionId": 26043
+        }
+      ],
+      "title": "踢馆去"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214006",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "踢馆去",
+  "wordCount": 208
+}

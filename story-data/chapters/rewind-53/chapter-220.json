@@ -1,0 +1,1202 @@
+{
+  "bookId": "rewind-53",
+  "id": "chapter-220",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42539001",
+          "sourceType": 3,
+          "text": "潮酷街区，管理局。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42539002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "呼，终于回到这个地方了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我说过，我会亲自证明自己的清白。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539004",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "我承认，你和薇薇安的行动队解决当下的机甲危机至关重要。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539005",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "不愧是被复刻无数次的原型芯片，它值得所有的赞美。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539006",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "你是无辜的，西蒂斯。\n我代表「管理局」撤销对你的所有指控，也不再监视你的任何行踪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "太好了，西蒂斯，我由衷替你感到开心~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嘿嘿，没有你们，我一个人绝对做不到的啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "快跟我来，主人还在家里等着我们呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539010",
+          "sourceType": 3,
+          "text": "爱猫社区，主人家。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42539011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "诶诶，怎么这么多人都在？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42539013",
+              "text": "欢迎回来，西蒂斯！"
+            },
+            {
+              "targetId": "42539013",
+              "text": "我们为你准备了欢迎仪式。"
+            }
+          ],
+          "sourceId": "42539012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42539013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我把西蒂斯的故事讲给大家听，他们都想见你一面呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "你真的很了不起，凭借自己的实力守护着手办世界的安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539015",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "欢迎回来，嗯……你这家伙命可真大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539016",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "笨蛋哥哥，连提前教给你的台词都记不住。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539017",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我没骗你吧，你在主人家很受欢迎哦，西蒂斯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539018",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "我要先听听你这次的冒险经历，然后你就要为我定制专属芯片！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539019",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "小孩子果然都是一样地爱听睡前故事，我当然没问题啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539020",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "我准备了一些美味的涂料，大家可以一边听故事一边享用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539021",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "唔，肚子饿了呢，终于可以美美地饱餐一顿咯~\n啊唔啊唔，你的故事怎么还没开始？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42539022",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "好吧，让我们从发现芯片设计草稿事件的那天开始讲起。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1087",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42539001,
+            42539002,
+            42539003,
+            42539004,
+            42539005,
+            42539006,
+            42539007,
+            42539008,
+            42539009,
+            42539010,
+            42539011,
+            42539012,
+            42539013,
+            42539014,
+            42539015,
+            42539016,
+            42539017,
+            42539018,
+            42539019,
+            42539020,
+            42539021,
+            42539022
+          ],
+          "sectionId": 42539
+        }
+      ],
+      "title": "未尽终局·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42540001",
+          "sourceType": 3,
+          "text": "傍晚时分，天台。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42540002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔，听优纪说|101|就在这里，怎么没见到人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "咦，你也在找主人吗？真是好巧啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42540005",
+              "text": "既然如此，一起聊聊吧。"
+            }
+          ],
+          "sourceId": "42540004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42540005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "咳，不瞒你们说，我一直都会做同一个梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "可是经过这段时间的冒险，我发现自己不再做那个梦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "真让人在意，那是个什么样的梦呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我经常会梦到同一个褐发的女孩，但我无法看清她的脸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "她总是一遍又一遍地叫我「洛卡」，可是，「洛卡」是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "洛卡……你真的是洛卡？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42540012",
+              "text": "你们认识？"
+            },
+            {
+              "targetId": "42540012",
+              "text": "为什么不相认？"
+            }
+          ],
+          "sourceId": "42540011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42540012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "我不知道什么「洛卡」，我只是「西蒂斯」，一直都是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "现在我所处的世界给足了安全感，我是……不会舍弃的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……尽管我不知道你经历了什么，但我愿意尊重你的决定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我只有一个请求……\n请你留下来，留在这里，别再让我找不到，好吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42540017",
+              "text": "这里会是你以后的家。"
+            },
+            {
+              "targetId": "42540017",
+              "text": "你可以有全新的开始。"
+            }
+          ],
+          "sourceId": "42540016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42540017",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "一个全新的开始……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540018",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "可是我很任性的哦，即使成为「手办」也想做机甲设计师也没关系吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "早就开始做准备了，很快，你就会在这里有一间属于自己的机甲实验室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540020",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "所以，你这是答应留下来了吗？我可以……时常来找你玩吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42540021",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯嗯，我就在这里哪也不去，随时欢迎薇薇安的到来~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1088",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42540001,
+            42540002,
+            42540003,
+            42540004,
+            42540005,
+            42540006,
+            42540007,
+            42540008,
+            42540009,
+            42540010,
+            42540011,
+            42540012,
+            42540013,
+            42540014,
+            42540015,
+            42540016,
+            42540017,
+            42540018,
+            42540019,
+            42540020,
+            42540021
+          ],
+          "sectionId": 42540
+        }
+      ],
+      "title": "未尽终局·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42541001",
+          "sourceType": 3,
+          "text": "潮酷街区，管理局。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42541002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "资料都提交过去了，确定没有遗漏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，检查今天的日程。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541004",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>今日事务处理完毕，仅剩最后一件非紧急事件，请确认。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "「工作结束后拜访导师」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541006",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>观察到您多次查看这条待办事项，建议您提升这项工作的优先级。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……不必。\n导师她肯定很忙，我们回「边界咖啡馆」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541008",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "嗯？前面这间实验室，怎么之前没有见过？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，检索相关信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541010",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>抱歉，未能找到这间实验室的任何信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "没有门禁，我们进去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "看得出来是一间芯片研究实验室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "只是，为什么从未听「管理局」提起过？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541014",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>「唯有勇敢的人，才能在纷繁的表象之后获取真知。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541015",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "关掉这个语音提示，我没有想要提问的意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "好奇心是保持活力的秘诀，任何时候都不应将其舍弃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我说了，关掉语音提示系统。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541018",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "是我在这里哦，希塔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541019",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "导师……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541020",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "呵，真是好久不见，需要一个温暖的拥抱吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541021",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "不了，您在这里做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541022",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这问题真奇怪，这里可是管理局的机密场所，应该是我问你在这里做什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541023",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我只是有点迷路。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541024",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "嗯，M城大名鼎鼎的「浮游炮小姐」，原来也有不熟悉的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541025",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……我还有些工作要处理，先走了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541026",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "不如就让我牵着你的手，把你带到正确的出口吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541027",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "谢谢，「帕拉斯」会带我出去的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541028",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "分析仪和光刻机……那个实验室里居然都是些研发芯片的设备。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541029",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "导师出现在那里，只是一个巧合吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541030",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>终端已接收到一条新的消息，发信人【阿斯特莱雅】。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42541031",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>「亲爱的希塔，我们还会再见的。」",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1089",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42541001,
+            42541002,
+            42541003,
+            42541004,
+            42541005,
+            42541006,
+            42541007,
+            42541008,
+            42541009,
+            42541010,
+            42541011,
+            42541012,
+            42541013,
+            42541014,
+            42541015,
+            42541016,
+            42541017,
+            42541018,
+            42541019,
+            42541020,
+            42541021,
+            42541022,
+            42541023,
+            42541024,
+            42541025,
+            42541026,
+            42541027,
+            42541028,
+            42541029,
+            42541030,
+            42541031
+          ],
+          "sectionId": 42541
+        }
+      ],
+      "title": "未尽终局·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42542001",
+          "sourceType": 3,
+          "text": "数天后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42542002",
+          "sourceType": 3,
+          "text": "叮咚——叮咚——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42542003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "奇怪，阿斯特莱雅邀请信里提到的地址明明是这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542004",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "可是，怎么会一直没人开门呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542005",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "请进，导师在里面等你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "总算有人开门了……诶，你的脸怎么这么红？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我没有，我只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542008",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "只是在和她亲爱的导师在一起过神话派对\n欢迎，「极端思维」的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542009",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "你这又是什么打扮，你可没告诉我是要来泡澡堂子的！我拒绝！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542010",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "哎，偶尔怀旧一下也挺不错的。或许我也可以为你量身定制一套。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这种浑身上下只有两三块布的衣服，我才不穿呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542012",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔唔，你身上怎么好像在闪闪发光……搞得和真的女神一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "啊，这只是室内灯光的效果哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542014",
+          "sourceType": 3,
+          "text": "一段时间后，M城管理局移动办公室。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42542015",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "这些黑色白色的棋子，怎么这里也有？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542016",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "嗯，你会下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542017",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "当然！这可是实验室里常备的益智玩具，没有人比我更了解这些棋子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542018",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "……但一般只有「利维坦」会陪我下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542019",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "那么，你的面前就有一位对手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542020",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "停，阿斯特莱雅，你请我来这里到底是为了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542021",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这可是难得的温馨之夜，这么快就要谈正事了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542022",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "那么，我以管理局中央机构负责人的身份，正式与你提出交易——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542023",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "收购你手中拥有的芯片技术设计图和专利使用权。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542024",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "导师……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542025",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "哈？我的芯片刚闹出了这么大的乱子，你为什么想要？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542026",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "工具只是工具，既能招致祸端，也能带来福音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542027",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "且不说运算能力，你原型芯片的通信性能，或许能够大幅改善手办世界的通讯网络。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542028",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "岂止是这样，我现在还把安全问题也解决了。嘛——我可不能随随便便就卖出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542029",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "和我下棋吧，如果你赢了，我就答应这笔交易。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42542030",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "那么，我执黑棋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543001",
+          "sourceType": 9,
+          "text": "夜幕降临——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42543002",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "皇后来到e4，吃掉白兵。将军。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "唔唔唔，可恶，怎么又是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "还要再来一局吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "不玩了不玩了，怎么下都赢不了你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "那么，交易成立？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42543007",
+          "sourceType": 9,
+          "text": "咻——嘭！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42543008",
+          "sourceType": 9,
+          "text": "绚烂的烟花在M城的上空绽放。",
+          "type": "narration"
+        }
+      ],
+      "id": "detail-1090",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42542001,
+            42542002,
+            42542003,
+            42542004,
+            42542005,
+            42542006,
+            42542007,
+            42542008,
+            42542009,
+            42542010,
+            42542011,
+            42542012,
+            42542013,
+            42542014,
+            42542015,
+            42542016,
+            42542017,
+            42542018,
+            42542019,
+            42542020,
+            42542021,
+            42542022,
+            42542023,
+            42542024,
+            42542025,
+            42542026,
+            42542027,
+            42542028,
+            42542029,
+            42542030
+          ],
+          "sectionId": 42542
+        },
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42543001,
+            42543002,
+            42543003,
+            42543004,
+            42543005,
+            42543006,
+            42543007,
+            42543008
+          ],
+          "sectionId": 42543
+        }
+      ],
+      "title": "未尽终局·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "42544001",
+          "sourceType": 3,
+          "text": "M城管理局，芯片实验室。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42544002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "原型芯片的测试数据近乎完美，预计一个月后可以进行量产。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "半年后，搭载量产芯片的移动终端会以成本价流通至人类世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "很好，这也算是手办给人类送去的「礼物」了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544005",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "但是芯片里还有些加密的模块，我们的研发人员还无法完全解析。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这些细枝末节，可以再给你们一个月的时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544007",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "时代在变化，我们不能再畏惧不前了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我了解了，女士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "通讯结束——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544010",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "开始录音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544011",
+          "sourceType": 3,
+          "text": "嘟——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "42544012",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "……听到这段录音的朋友们，你们好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我是阿斯特莱雅，管理局中央机构现任负责人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544014",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这是一个人类和手办共存的世界，而手办们却隐匿在角落，躲藏着人类的视线。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544015",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "长久以来，我们恐惧被人类察觉，以至于忘记了这份恐惧从何而来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544016",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "现在，变革的日子终于到来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544017",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "那些搭载通讯芯片的移动终端，将发出特殊的电磁波，修改人类的认知。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544018",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "人类将接受手办们「活着」的事实，将接受一个手办行走在阳光下的世界。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544019",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "从此，文明的族群将不止有人类，还有携带着不同世界记忆的手办们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544020",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我们将一同分享这颗星球，分享所有的记忆和情感，所有的欢乐与痛苦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544021",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "人类和手办的旅途将永无止境，直抵星宇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42544022",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "欢迎来到美丽的新世界。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1091",
+      "sourceRefs": [
+        {
+          "bundle": "thetis",
+          "rowIds": [
+            42544001,
+            42544002,
+            42544003,
+            42544004,
+            42544005,
+            42544006,
+            42544007,
+            42544008,
+            42544009,
+            42544010,
+            42544011,
+            42544012,
+            42544013,
+            42544014,
+            42544015,
+            42544016,
+            42544017,
+            42544018,
+            42544019,
+            42544020,
+            42544021,
+            42544022
+          ],
+          "sectionId": 42544
+        }
+      ],
+      "title": "未尽终局·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 220,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 220,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "她开启了一个机甲新时代。",
+  "title": "未尽终局",
+  "wordCount": 2617
+}

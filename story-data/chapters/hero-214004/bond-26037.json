@@ -1,0 +1,158 @@
+{
+  "bookId": "hero-214004",
+  "id": "bond-26037",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "26037001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你今天，心情不好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯......嗯？！为什么这么问？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你已经托腮叹气12次了，再多1次就会被不好的东西注意到哦——我、我才没那么闲，是小木人告诉我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还好，除了点失眠、脱发以外，没什么问题。\n麻烦事总会一件件件件件件解决的，我先回去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "站住！让你垂头丧气地道别很不吉利，会影响我的财运！\n我来想想......你现在最需要什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037006",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "空虚，落寞，他需要「爱意」的抚慰和关怀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037007",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "很显然，|101|的黑眼圈是更直观的问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你们说的都有道理，稍等一下，我去准备点东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这是树木灵魂编织成的垫子，过来躺下。\n放空大脑，闭上眼睛，想象自己是一条鱼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037010",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "......树木的枝杈，轻语歌唱♪；清澈的泉眼，恣意流淌♪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "（眼前出现了一片静谧的森林，小木人围着篝火跳舞......久违的困意席卷而来。）",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "好好睡一觉吧，|101|，晚安。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嗯嗯，睡眠的问题解决了！\n接下来，要进入梦里，给他「爱意」的抚慰和关怀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26037014",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你们，绝对不可以出来偷看！\n这是......只属于我和|101|的秘密。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26037",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26037001,
+            26037002,
+            26037003,
+            26037004,
+            26037005,
+            26037006,
+            26037007,
+            26037008,
+            26037009,
+            26037010,
+            26037011,
+            26037012,
+            26037013,
+            26037014
+          ],
+          "sectionId": 26037
+        }
+      ],
+      "title": "失眠"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214004",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "失眠",
+  "wordCount": 417
+}

@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211104",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「立华奏」化身为1/7比例模型登场！沉默寡言的学生会长散发着如天使般圣洁的光辉。在大家面前现身的她到底想做什么呢？",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211104"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 57
+}

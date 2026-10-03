@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214006",
+  "id": "bond-26044",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26044001",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "……这是……你给我准备的……办公室？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯，惊喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044003",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "……谢谢，惊吓多一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044004",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "架子上塞满校规校纪，这我能理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044005",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "但连墙纸都是扣分统计表，是不是有点过了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那不只有扣分统计表。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有踢馆记录表。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你可以将每一次踢馆的战况都记录下来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我还特意为未来的武道联赛冠军奖杯，准备了展示柜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044010",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "最重要的是——这里，《风纪委员演讲模板大全》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还可以用照相机记录你在演讲台上的样子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044013",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哎？你去哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26044015",
+          "sourceType": 0,
+          "speaker": "冈田桜介",
+          "text": "找仓田龙马换房子！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26044",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26044001,
+            26044002,
+            26044003,
+            26044004,
+            26044005,
+            26044006,
+            26044007,
+            26044008,
+            26044009,
+            26044010,
+            26044011,
+            26044012,
+            26044013,
+            26044014,
+            26044015
+          ],
+          "sectionId": 26044
+        }
+      ],
+      "title": "惊吓"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "惊吓",
+  "wordCount": 193
+}

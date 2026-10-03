@@ -1,0 +1,194 @@
+{
+  "bookId": "hero-213201",
+  "id": "bond-28531",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28531001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "今天没有么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28531003",
+              "text": "没有什么？"
+            }
+          ],
+          "sourceId": "28531002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28531003",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "猫毛，我的袖口沾了猫毛。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28531005",
+              "text": "是吗？"
+            },
+            {
+              "targetId": "28531005",
+              "text": "嗯嗯，然后呢？"
+            }
+          ],
+          "sourceId": "28531004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28531005",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "该履行你的义务了，后宅扫灰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我记得我今天扫过了喔？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "卡缪看起来很干净，一根猫毛都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531008",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531009",
+          "sourceType": 0,
+          "speaker": "粮丸",
+          "text": "嗷嗷喵——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "看，猫毛，现在你必须打扫了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28531012",
+              "text": "不要欺负大猫。"
+            },
+            {
+              "targetId": "28531012",
+              "text": "卡缪原来是个傲娇吗？"
+            }
+          ],
+          "sourceId": "28531011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28531012",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "不要揣测神。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是是~不过说起来，卡缪几乎是手办里最高的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531014",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "仰视我，这是他们该做的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531015",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "——你也不例外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不过去掉底座的话，卡缪似乎只有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28531017",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "拿开手，你可以退下了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28531",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28531001,
+            28531002,
+            28531003,
+            28531004,
+            28531005,
+            28531006,
+            28531007,
+            28531008,
+            28531009,
+            28531010,
+            28531011,
+            28531012,
+            28531013,
+            28531014,
+            28531015,
+            28531016,
+            28531017
+          ],
+          "sectionId": 28531
+        }
+      ],
+      "title": "猫毛"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213201",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "猫毛",
+  "wordCount": 190
+}

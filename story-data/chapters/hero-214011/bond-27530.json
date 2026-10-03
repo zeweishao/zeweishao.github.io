@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214011",
+  "id": "bond-27530",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27530001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好久不见~\n先让我检查一下，我不在的这段时间，你有好好想我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "请、请不要突然靠这么近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不愧是我看中的人，这点程度就已经害羞了，你还真是有趣呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不过，重新回到你的身边，既让我感到欢喜，又让我觉得忧虑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我有做过什么让你不愉快的事情吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "呵呵，看来你全都忘了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "没关系，我有的是时间，可以等你慢慢回想起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有没有什么提示？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "如果事先给你提示的话，一切就变得没意思了，不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我很期待你的表现呢，千万不要让我失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果我没有顺利回想起来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你真是调皮，失忆可不是聪明的人会用的借口哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "以防万一，假如你最终还是没能想起来的话，我就会亲自为你送上一份意想不到的「大礼」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不、不，我看还是算了吧，总觉得不会是什么好东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27530015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "请千万不要拒绝，我的一番美意哟~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27530",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27530001,
+            27530002,
+            27530003,
+            27530004,
+            27530005,
+            27530006,
+            27530007,
+            27530008,
+            27530009,
+            27530010,
+            27530011,
+            27530012,
+            27530013,
+            27530014,
+            27530015
+          ],
+          "sectionId": 27530
+        }
+      ],
+      "title": "当她感到不满时"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214011",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "当她感到不满时",
+  "wordCount": 316
+}

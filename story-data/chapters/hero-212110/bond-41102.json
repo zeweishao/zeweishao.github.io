@@ -1,0 +1,180 @@
+{
+  "bookId": "hero-212110",
+  "id": "bond-41102",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "41102001",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "今天是手办篮球队「little busters」的第一次训练——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102002",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "场地就选择那边露天的空地吧。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "41102004",
+              "text": "可昨天说的是棒球队啊！"
+            },
+            {
+              "targetId": "41102004",
+              "text": "啊……我这无处安放的棒球……"
+            }
+          ],
+          "sourceId": "41102003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "41102004",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "和漫画的相遇总是无法预料的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102005",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "昨天正在品味棒球漫画的余韵，有位拿着纸扇的手办就给我热情推荐了这个篮球漫画……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102006",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "结果不知不觉看了个通宵，我就觉得果然篮球队也很不错啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "内容这么有趣吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102008",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "虽然概括来说就是高中生打篮球啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102009",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "不过作者给每个角色都设定了详细的招式，还有听起来很有趣的称号！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102010",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "嗯……读的时候感觉和作者产生了灵魂共鸣的程度吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哦哦哦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102012",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "其他队员还没来，你要不要一起来看看这本漫画，我刚好带着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102013",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "你也会迷上的，我保证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我们一起看吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102015",
+          "sourceType": 0,
+          "speaker": "枣恭介",
+          "text": "看完这册，我还有一本异能战斗的漫画推荐给你——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "比起我，你一定会更懂得怎么帮助大家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "41102017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "感觉又要有新的队伍了呢。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "41102",
+      "sourceRefs": [
+        {
+          "bundle": "lbgaobai",
+          "rowIds": [
+            41102001,
+            41102002,
+            41102003,
+            41102004,
+            41102005,
+            41102006,
+            41102007,
+            41102008,
+            41102009,
+            41102010,
+            41102011,
+            41102012,
+            41102013,
+            41102014,
+            41102015,
+            41102016,
+            41102017
+          ],
+          "sectionId": 41102
+        }
+      ],
+      "title": "新的队伍究竟是——"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212110",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "新的队伍究竟是——",
+  "wordCount": 334
+}

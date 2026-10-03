@@ -1,0 +1,123 @@
+{
+  "bookId": "hero-212201",
+  "id": "bond-26020",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26020001",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "哦哦，这个房子真不错！可以用来做「道义堂」的手办世界分馆呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "真的要送给我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020004",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "太感谢了！以为打群架叫上我，绝对不带含糊的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来真让人安心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "不过这个礼物对我来说还是太过贵重了，我还是不能轻易接受……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "不然，这家武道馆就当作是我们两人共同经营的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "共同经营？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020009",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "嗯！就不叫道义堂了，从我们两个人的名字中各取一个字怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "听起来有种夫妻店的感觉呢！不然就这么决定了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26020011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诶？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26020",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26020001,
+            26020002,
+            26020003,
+            26020004,
+            26020005,
+            26020006,
+            26020007,
+            26020008,
+            26020009,
+            26020010,
+            26020011
+          ],
+          "sectionId": 26020
+        }
+      ],
+      "title": "武道馆"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212201",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "武道馆",
+  "wordCount": 184
+}

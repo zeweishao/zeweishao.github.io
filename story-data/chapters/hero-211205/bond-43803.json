@@ -1,0 +1,216 @@
+{
+  "bookId": "hero-211205",
+  "id": "bond-43803",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43803001",
+          "sourceType": 3,
+          "text": "碧竹葱葱，流水潺潺，一座古色古香的建筑矗立在少女眼前。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43803002",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "是……书里提到过的「道场」？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43803004",
+              "text": "嗯，送给你的。"
+            },
+            {
+              "targetId": "43803004",
+              "text": "这样每天就可以在里面修行了。"
+            }
+          ],
+          "sourceId": "43803003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43803004",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "非常感谢，这片竹林……就好像回到了我长大的小岛一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803005",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "那时候，爷爷……和大家都在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803006",
+          "sourceType": 3,
+          "text": "少女的语气染上了一丝感伤，但随即，她露出明朗的笑容。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43803007",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "我没让大家失望，我在外面的世界遇到了许多有趣的事，见到了很多不错的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803008",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "也找到了……想要托付终身的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803009",
+          "sourceType": 3,
+          "text": "尽管脸颊泛上了红霞，少女仍然目光坚定地看向你。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43803010",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "|101|，请跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803011",
+          "sourceType": 3,
+          "text": "汐音带你来到后宅的某处，那里有一件精心包装的物品——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43803012",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "这是我在这个世界亲手制作的金铃，尺寸大了一些，但和我腰上的是成对的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803013",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "请收下我的回礼。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43803015",
+              "text": "真漂亮。"
+            },
+            {
+              "targetId": "43803015",
+              "text": "我会好好珍藏它的。"
+            }
+          ],
+          "sourceId": "43803014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43803015",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "伴侣。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43803017",
+              "text": "什么？"
+            }
+          ],
+          "sourceId": "43803016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43803017",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "不习惯听我这样叫你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803018",
+          "sourceType": 0,
+          "speaker": "汐音",
+          "text": "既然已经交换了定情信物，我们便结成了伴侣，不是么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43803019",
+          "sourceType": 3,
+          "text": "少女的嗓音和她的情意一般纯净无瑕，让你无法拒绝。",
+          "type": "narration"
+        }
+      ],
+      "id": "43803",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43803001,
+            43803002,
+            43803003,
+            43803004,
+            43803005,
+            43803006,
+            43803007,
+            43803008,
+            43803009,
+            43803010,
+            43803011,
+            43803012,
+            43803013,
+            43803014,
+            43803015,
+            43803016,
+            43803017,
+            43803018,
+            43803019
+          ],
+          "sectionId": 43803
+        }
+      ],
+      "title": "竹林道场"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211205",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "竹林道场",
+  "wordCount": 359
+}

@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211001",
+  "id": "bond-29300",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29300001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "早上好啊，莉可。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300002",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "……切，什么，就只有你一个人啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "看来除了我之外，莉可还有其他想要见到的人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300004",
+          "sourceType": 5,
+          "speaker": "莉可",
+          "text": "本，本王才没这么说！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300005",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "不……不对！本王什么时候说想要见到你了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "开个玩笑。不过莉可一个人，好像很孤独的样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300007",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "才不会孤独！而且这也不叫孤独，这叫做魔王的威严！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300008",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "没有人赶来侵犯我的私人空间，不就证明了本王的强大了吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300009",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "那些弱小的家伙才没有靠近我的资格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我有接近莉可的资格吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300011",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "你……勉勉强强吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "太好了，那正好让我来陪陪你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300013",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "本王不是说了吗，这不是孤独！本王才不要你需要你陪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300014",
+          "sourceType": 0,
+          "speaker": "莉可",
+          "text": "……不过你要是寂寞需要本王陪伴的话……哼，倒不是不可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29300015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那我就恭敬不如从命了？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29300",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29300001,
+            29300002,
+            29300003,
+            29300004,
+            29300005,
+            29300006,
+            29300007,
+            29300008,
+            29300009,
+            29300010,
+            29300011,
+            29300012,
+            29300013,
+            29300014,
+            29300015
+          ],
+          "sectionId": 29300
+        }
+      ],
+      "title": "魔王的威严"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211001",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "魔王的威严",
+  "wordCount": 264
+}

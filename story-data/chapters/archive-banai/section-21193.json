@@ -1,0 +1,109 @@
+{
+  "bookId": "archive-banai",
+  "id": "section-21193",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "21193001",
+          "sourceType": 10,
+          "text": "我做视频企划五周年啦！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "21193002",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "嗨多磨，我是Kizuna AI！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193003",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "今天想跟大家聊聊我的直播。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193004",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "我呢，是在2016年6月30日出生的。距离现在，担任虚拟主播刚好5年整！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193005",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "整整五个365天，每天都陪在大家身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193006",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "我知道了各种各样的事，体验了各种各样的事，也去了不知道的世界……当然手办的世界也是！这真的是一段非常愉快的时光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193007",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "我啊，能和大家联系在一起真是太好了！但爱酱还想和世界上更多的大家联系在一起，所以今后也会不断进行新的挑战。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193008",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "为了能和大家共享开心的时光，我会一直努力的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "21193009",
+          "sourceType": 15,
+          "speaker": "<color=#ED839F>Kizuna AI</color>",
+          "text": "今后也请一直多多关照！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "21193",
+      "sourceRefs": [
+        {
+          "bundle": "banai",
+          "rowIds": [
+            21193001,
+            21193002,
+            21193003,
+            21193004,
+            21193005,
+            21193006,
+            21193007,
+            21193008,
+            21193009
+          ],
+          "sectionId": 21193
+        }
+      ],
+      "title": "原文片段 21193"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "banai",
+        "sectionId": 21193
+      },
+      {
+        "id": "30",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 21193",
+  "wordCount": 236
+}

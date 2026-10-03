@@ -1,0 +1,4930 @@
+{
+  "bookId": "rewind-10",
+  "id": "chapter-43",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "noticeKind": "video",
+          "text": "本段为游戏视频演出，当前文字库未转写。",
+          "type": "notice"
+        },
+        {
+          "sourceId": "16000001",
+          "sourceType": 9,
+          "text": "我天生拥有一种特殊的能力，能够听到灵魂的声音，看清灵魂的颜色。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000002",
+          "sourceType": 7,
+          "text": "克罗赛尔 · 甜笑的教主\n商品名称：克罗赛尔·甜笑的教主 限定特典Ver.\n作品名称：《永恒的异界幻想》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约240mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "16000003",
+          "sourceType": 9,
+          "text": "人们都说我是被神选中的幸运儿，可我却因为这样的能力，被套上了沉重的枷锁。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000004",
+          "sourceType": 9,
+          "text": "那些被伪善的皮囊所隐藏的灵魂，\n以它们最为丑陋和绝望的样子淹没了我的生活。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000005",
+          "sourceType": 9,
+          "text": "我曾以为，\n世上没有一个完美的灵魂。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000006",
+          "sourceType": 9,
+          "text": "明白这一点后，我一度非常消沉。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000007",
+          "sourceType": 9,
+          "text": "直到有一天，我碰到了一个人——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000008",
+          "sourceType": 9,
+          "text": "|102|的灵魂有如五彩霞光般灿烂夺目，\n那一刻，我知道自己得到了救赎的希望。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16000009",
+          "sourceType": 5,
+          "speaker": "奥古斯都家仆甲",
+          "text": "站住——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……你们可真够难缠呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000011",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "克罗赛尔，你这个叛徒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "叛徒？呵呵，真是有趣的称谓。\n一直以来我听到的最多的称呼都是什么「教主大人」、「神明的代言人」、「圣洁的神女」之类的，被叫作「叛徒」倒是第一次呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000013",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你背弃了奥古斯都大人的信任，欺骗了伟大的神明路西法，这不是叛徒是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，不，不。\n路西法是你们自己的神明，不是我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "至于你口中所说的什么奥古斯都大人的信任……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "抱歉，我改变主意了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000017",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你、你什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我呢，不想再被你们奥古斯都家族所左右了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000019",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "比起无聊乏味的教主游戏，我发现了更好玩更有趣的事情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000020",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000021",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你会后悔的，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000022",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "离开了奥古斯都家族，你什么都不是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "哦？我倒想试试看呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不如我们来打个赌，究竟是你的主子离不开我，还是我离不开你的主子多一点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000025",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你太年轻了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000026",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "失去奥古斯都家族的庇护，你将无处可去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000027",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "终有一天你会明白，只有神明路西法才是你的归宿，而且——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000028",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你休想逃离奥古斯都家族的掌控，哈哈哈哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16000029",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "啧，麻烦的家伙，看来不得不让你吃点苦头了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你输了，离我远点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039002",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "神明……咳咳……绝对不会宽恕你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我不需要你的神明宽恕我，我的神明只能由我自己来选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039004",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你为什么……要这么做……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039005",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你是奥古斯都家族抚养长大的圣女，奥古斯都家族历来待你不薄……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……我厌倦了这一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "每一天重复的枯燥日常，无尽的痛苦的等待我救赎的灵魂，都让我感到厌倦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039008",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "这是你的天职，是你身为圣女不可逃避的责任。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，那些都是你们强行塞给我的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039010",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "那么多华丽的宫殿，圣洁的殿堂，忠心的仆从，你统统都可以舍弃么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我说过，这是我的选择，所以不会后悔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "嗯？那边的那个人是……\n等等，不要走！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "哈啊，哈啊……\n这副手办的身体真是累赘得很呢，又要跟那个人失之交臂了么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "出现了……！等等，|102|这是要去哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这里原来是……与那个人类初次相遇的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "终于被我找到了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039017",
+          "sourceType": 9,
+          "text": "JingleBells~♩JingleBells~♪Jinglealltheway~♫\n欢迎光临，本店正在热售各种爆款手办名作，请随意挑选哦~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16039018",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "人类的世界真热闹呢，而且，还有很多好玩的东西，以前听都没有听说过呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "幸好你把我带出了那个臭地方，克罗赛尔，你真是太够朋友了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039020",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "话说你对人类的世界还真是了解呢，居然能轻车熟路地找到这么棒的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039021",
+          "sourceType": 7,
+          "text": "水城结奈 · 甜蜜暴击\n商品名称：水城结奈·甜蜜暴击Ver.\n作品名称：《蘑菇少女的日常》\n制造商：SNOW-A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约220mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "16039022",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "老实说，你是不是悄悄跑到这里来玩很多次了呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你还真是单纯，这样远远地看着就感到满足了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039024",
+          "sourceType": 7,
+          "text": "克罗赛尔 · 夜之诱惑\n商品名称：克罗赛尔·夜之诱惑 特别款Ver.\n作品名称：《永恒的异界幻想》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约240mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "16039025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "喜欢的东西就摆在面前，你难道不会想要更多吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "诶？难道只要想要就可以得到吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "没错，世界的法则就是这么简单，\n想要就去拿，得不到的话就抢过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039028",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "嗯！我懂了，多谢你告诉我这些，我会把这句话奉为自己的生活法则。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039029",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "不过，你果然就像传说中那样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "嗯？还有我不曾听闻的关于自己的传说么，说来听听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039031",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "其实也没什么啦，大家都说你是奥古斯都家族历代最厉害最传奇的圣女，这些你早就听腻了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039032",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，这些我怎么都听不腻哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039033",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你还真是一点都不谦虚，不过如果我是你的话，我也会像你那样坦然接受所有的赞美，不对，我想要更多更多的赞美~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039034",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这附近该看的都看过了，接下来我们去哪玩呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "浮于表象的快乐何其浅薄，只有更深沉的乐趣才值得去探索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039036",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "虽然听不懂你刚刚说的，不过感觉你在暗示还有更好玩的东西，快告诉我啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16039037",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，不要着急，你会知道的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-282",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16000001,
+            16000002,
+            16000003,
+            16000004,
+            16000005,
+            16000006,
+            16000007,
+            16000008,
+            16000009,
+            16000010,
+            16000011,
+            16000012,
+            16000013,
+            16000014,
+            16000015,
+            16000016,
+            16000017,
+            16000018,
+            16000019,
+            16000020,
+            16000021,
+            16000022,
+            16000023,
+            16000024,
+            16000025,
+            16000026,
+            16000027,
+            16000028,
+            16000029
+          ],
+          "sectionId": 16000
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16039001,
+            16039002,
+            16039003,
+            16039004,
+            16039005,
+            16039006,
+            16039007,
+            16039008,
+            16039009,
+            16039010,
+            16039011,
+            16039012,
+            16039013,
+            16039014,
+            16039015,
+            16039016,
+            16039017,
+            16039018,
+            16039019,
+            16039020,
+            16039021,
+            16039022,
+            16039023,
+            16039024,
+            16039025,
+            16039026,
+            16039027,
+            16039028,
+            16039029,
+            16039030,
+            16039031,
+            16039032,
+            16039033,
+            16039034,
+            16039035,
+            16039036,
+            16039037
+          ],
+          "sectionId": 16039
+        }
+      ],
+      "title": "冬日记忆前篇·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16001001",
+          "sourceType": 9,
+          "text": "JingleBells~♩JingleBells~♪Jinglealltheway~♫",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001002",
+          "sourceType": 9,
+          "text": "男孩：妈妈，妈妈，这个小人好漂亮，我想要这个，买给我好不好？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001003",
+          "sourceType": 9,
+          "text": "顾客A女士：小小年纪什么眼神，这么暴露低俗的东西哪里好看了！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001004",
+          "sourceType": 9,
+          "text": "顾客A女士：都怪你那个一天到晚就知道买什么破手办的爸爸，你们父子俩一个个的真是要把我气死才满意吗？！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001005",
+          "sourceType": 9,
+          "text": "男孩：可是你说过……只要我期末考拿到一百分，我想要什么都会买给我……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001006",
+          "sourceType": 9,
+          "text": "顾客A女士：只有这个绝对不行！走，跟我回家！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001007",
+          "sourceType": 9,
+          "text": "男孩：呜……呜呜，这可是我最想要的圣诞礼物啊。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "好吵，是谁这么不懂规矩，打扰本家主休息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001009",
+          "sourceType": 7,
+          "text": "艾伦兹·珀尔 · 王之加冕\n商品名称：艾伦兹·王之加冕 特别款Ver.\n作品名称：《永恒的异界幻想》\n制造商：SNOW-A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约234mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "16001010",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "家主大人，我承认您的身份十分尊贵。\n可是你要明白，我们身处的这个地方可不是柯斯顿城哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001011",
+          "sourceType": 7,
+          "text": "桑尼 · 欢乐圣诞\n商品名称：桑尼·欢乐圣诞 特别款Ver.\n作品名称：《永恒的异界幻想》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约220mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "16001012",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "啧，我把这件事给忘了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001013",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "我还不太习惯以手办的姿态存在，特别是活动空间只能局限在这么小的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001014",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "作为珀尔家族最年轻的家主，拥有着多达5000座私人豪华别墅，\n每天什么事情不用做也能月入3000亿的超级有钱的富婆，\n如今却屈居于人类制作出来的不足5平方米的小小商品展示橱窗内……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001015",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "空间狭小还不算什么，关键是这里的环境真是太糟糕了吧！\n车流穿梭而过的轰鸣声，过路的大人和小孩永不止息的喧哗声，还有还有，\n隔壁店里的喇叭里传出来的亢奋得莫名其妙的流行音乐的声音！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001016",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "每一天每一天都要忍受这些噪音，真是一种巨大的折磨……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001017",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "最最重要的是，身为圣诞老人代言人的我，居然要被困在这里哪也去不了，真是太可恶了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001018",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "请等一下，你刚刚说这是什么地方？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001019",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这里，是人类世界随处可见的千千万万家商店里的一间小小的橱窗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001020",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "而你和我，是这家商店里正待出售的商品。\n就是那种明码标价，被路过的某个人类看中后，就可以随意买走的那种商品哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "我堂堂珀尔家族的家主，坐拥着整个柯斯顿城商业大版图的艾伦兹·珀尔，竟然也有沦落为变成商品的一天……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001022",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你现在的感受是不是——\n特别屈辱、特别愤怒、特别不甘？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001023",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "——这就对了！和我一起出逃吧，家主大人！\n让我们来一场属于我们的圣诞大冒险吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001024",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "圣诞大冒险？那是什么东西？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001025",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "嘿嘿，圣诞节可是人类最棒的发明哦，传说在圣诞节只要许愿都可以实现呢，无论是什么样的愿望都不会被圣诞老人拒绝~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001026",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "为了庆祝这个盛大的节日，人类世界会举办各种各样有趣的活动。\n总之，圣诞节是一年一度难得一见的隆重节日~！\n怎么样怎么样，是不是很心动~~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001027",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "听起来是要比呆在这个玻璃格子里有趣得多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001028",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "对嘛对嘛，我们认识这么久，我什么时候骗过你！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001029",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "圣诞节可是我梦寐以求的节日，为了这一天我特意换上了这身特别的造型。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001030",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "嗯，怎么说，你的品味一直都很……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001031",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "很怎样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001032",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "很有自己独特的风格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001033",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这可是专为我——桑尼·通灵女巫量身定做的圣诞节套装，穿上它我就是这个世界上最最最可爱的圣诞老人啦~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001034",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "圣诞老人就是你刚才说的那个可以实现所有愿望的家伙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001035",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "没错~！\n我一直都很崇拜圣诞老人哦，所以我们出去以后，我也要以圣诞老人的身份，给这个城市里的人类带去幸福~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001036",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "……你还是和以前一样，桑尼。\n有一个你这样的朋友陪在身边，感觉真的很不错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001037",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "你让我相信——\n无论是以人类姿态还是以手办的姿态存在于这个世界，境遇在不断更迭的同时，有一些东西是会保持不变的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001038",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "所以，我们应该怎样出去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001039",
+          "sourceType": 9,
+          "text": "—",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001040",
+          "sourceType": 9,
+          "text": "——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001041",
+          "sourceType": 9,
+          "text": "三个小时后。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16001042",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "可恶！这个破橱窗究竟是谁设计的！\n密不透风得好像铁桶一样，我们根本没有办法打开嘛……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001043",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "还有这面玻璃到底是用什么材质做的，为什么这么结实，怎么敲都敲不破！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001044",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "真是没天理啊没天理！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001045",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "难道我们就要一直被困在这里了吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001046",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "也许，我可以帮你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001047",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦，是你，美丽的蓝莎·海恩，特兰斯尔年轻的颂魂神使。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001048",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "你认识我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001049",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "嘿嘿，我的爱好之一可是收藏各种美人的履历，你可是我记录在案的档案里鼎鼎有名的大美人之一哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001050",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我读过很多关于你的故事呢，话说，哈莉的父母真的是你杀死的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001051",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "……无可奉告。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001052",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哎呀呀，你果然是传闻中那样冷言冷语的模样。\n算了，美人不愿意讲就不讲咯，反正长得美怎么样都是对的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001053",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "让开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001054",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "我来打碎这面玻璃。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001055",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "我来助你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001056",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我说，你们两个不要以为长着一张漂亮的脸蛋，就不把别的女孩子放在眼里啊喂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001057",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我也来加入你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001058",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001059",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "当然，我的小龙随时等候我的命令。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001060",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "嗯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001061",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "好，我数到一，我们一起释放技能——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001062",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "3，2，1，开始！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001063",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "（特兰斯尔语）凡人感到的孤独，是内心的自我拘禁。神并不孤独，神有信徒，神会倾听我们的声音。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001064",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "——龙焰，Dracarys！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001065",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "——米娅莫拉苏娜……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001066",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "糟糕，有人过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001067",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "大家快停下！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001068",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "呼，呼，真是太刺激了，差一点就被人类发现了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001069",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "计划失败。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001070",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001071",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001072",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "需要自我介绍么？你们好，我是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001073",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "自我介绍就免了吧，你这个突然闯入的外来者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001074",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这种欢迎新朋友的方式似乎不太礼貌呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16001075",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你算哪门子的新朋友，你简直就是我们的噩梦啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040001",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "原来如此——\n你们到这里来，是为了找一个人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是的，我找了|102|很久很久，一直都没有消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不久前，我在这附近再次见到了|102|，一路跟了来。\n这里是我和那个人初次相遇的地方，没想到兜兜转转再次回到了这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040004",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "不是我说你，你的这个想法未免太自以为是了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040005",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "人类的世界和手办的世界是不可能会有交集的啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040006",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "就算你再次见到|102|又能怎么样，我们不可能把真实的心意告诉|102|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你说的没错……这些我全都知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "可是，我只是觉得只要能多看|102|一眼就很好很好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "其他的，我并没有考虑那么多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040010",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "……你还真是奇怪呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "第一次见到对人类这么执着的手办同类，感觉有点意思。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040012",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "现在呢，我有一个好消息，和一个坏消息要通知你们，你们想先听哪个？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040013",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "坏消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040014",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "好消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040015",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "好吧好吧，好消息其实你们已经看到啦，我们这个小小的橱窗里多了一个新同伴~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040016",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "坏消息呢，由于刚才我们的出逃计划制造的动静太大，这家店里的职员加强了橱窗的安保机制，所以我们想要逃离这里难上加难啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040017",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "所以我们只能乖乖躺平，等着买家过来把我们买走咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "身体被囚禁在这里，心灵不一定也要遭受同样的对待。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040019",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "唔，突然说这样的话，是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "快乐是需要自己去创造的，而我，很擅长这点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040021",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "咦咦咦咦——？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040022",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "有什么好玩的，快告诉我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "可以哦，我们来一起创造只属于手办少女们的狂欢吧~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040024",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这是什么地方，看起来好像很有趣的样子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "人类的一家商店。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "好多人进进出出的呢，他们都在里面干什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "在意的话，就去看看好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040028",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我超在意的，我一定要去看看里面是什么样子~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040029",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你不是说过，想要的就伸手去拿，得不到的就抢过来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "……没错，我只说了一遍你就记住了，真是聪明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040031",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "快来快来，我看到里面了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040032",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "咦，里面有很多跟我们很像的家伙，都被摆放在架子上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040033",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "唔，不过她们跟我们不太一样，因为她们都一动不动的呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040034",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这是怎么回事呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "这是因为手办的行动能力是一个秘密，不能被人类知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040036",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "唔哇，克罗赛尔，里面有一个家伙跟你长得一模一样呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040037",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "…………是么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040038",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "对呀对呀，如果不是你就站在我旁边，我肯定就要以为她就是你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040039",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我来看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040040",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "喏，就是那个，被摆在橱窗角落里的架子上，戴着兜帽的那个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "果然是……呵呵呵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040042",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "对吧，是不是跟你很像！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040043",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "她就是我哦，只不过是另一个时空的我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040044",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "事情开始变得有趣起来了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16040045",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵呵呵呵呵呵……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-283",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16001001,
+            16001002,
+            16001003,
+            16001004,
+            16001005,
+            16001006,
+            16001007,
+            16001008,
+            16001009,
+            16001010,
+            16001011,
+            16001012,
+            16001013,
+            16001014,
+            16001015,
+            16001016,
+            16001017,
+            16001018,
+            16001019,
+            16001020,
+            16001021,
+            16001022,
+            16001023,
+            16001024,
+            16001025,
+            16001026,
+            16001027,
+            16001028,
+            16001029,
+            16001030,
+            16001031,
+            16001032,
+            16001033,
+            16001034,
+            16001035,
+            16001036,
+            16001037,
+            16001038,
+            16001039,
+            16001040,
+            16001041,
+            16001042,
+            16001043,
+            16001044,
+            16001045,
+            16001046,
+            16001047,
+            16001048,
+            16001049,
+            16001050,
+            16001051,
+            16001052,
+            16001053,
+            16001054,
+            16001055,
+            16001056,
+            16001057,
+            16001058,
+            16001059,
+            16001060,
+            16001061,
+            16001062,
+            16001063,
+            16001064,
+            16001065,
+            16001066,
+            16001067,
+            16001068,
+            16001069,
+            16001070,
+            16001071,
+            16001072,
+            16001073,
+            16001074,
+            16001075
+          ],
+          "sectionId": 16001
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16040001,
+            16040002,
+            16040003,
+            16040004,
+            16040005,
+            16040006,
+            16040007,
+            16040008,
+            16040009,
+            16040010,
+            16040011,
+            16040012,
+            16040013,
+            16040014,
+            16040015,
+            16040016,
+            16040017,
+            16040018,
+            16040019,
+            16040020,
+            16040021,
+            16040022,
+            16040023,
+            16040024,
+            16040025,
+            16040026,
+            16040027,
+            16040028,
+            16040029,
+            16040030,
+            16040031,
+            16040032,
+            16040033,
+            16040034,
+            16040035,
+            16040036,
+            16040037,
+            16040038,
+            16040039,
+            16040040,
+            16040041,
+            16040042,
+            16040043,
+            16040044,
+            16040045
+          ],
+          "sectionId": 16040
+        }
+      ],
+      "title": "冬日记忆前篇·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16002001",
+          "sourceType": 9,
+          "text": "店员|101|：欢迎光临，请问有什么可以帮您的？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002002",
+          "sourceType": 9,
+          "text": "男孩：这个……这个好漂亮。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002003",
+          "sourceType": 9,
+          "text": "店员|101|：您也喜欢这款手办吗？呵呵，不过目前我们暂不出售哦。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002004",
+          "sourceType": 9,
+          "text": "男孩：为什么？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002005",
+          "sourceType": 9,
+          "text": "店员|101|：因为我们工作疏忽的原因，目前还不清楚这款手办的详细信息。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002006",
+          "sourceType": 9,
+          "text": "店员|101|：不过请您放心，我们后续会把这款手办的信息补充完整，届时非常欢迎您光临选购。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002007",
+          "sourceType": 9,
+          "text": "男孩：太遗憾了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002008",
+          "sourceType": 9,
+          "text": "店员|101|：您可以选看一下这里别的商品，请跟我来。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16002009",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "呼，吓死我了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002010",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "刚才那两个人走了，我们可以放下戒备了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002011",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "我的肩膀好酸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002012",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "一直保持同一个姿势真是辛苦家主大人了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002013",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你怎么了，克罗赛尔，怎么一直在发呆？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "那个人就是……就是我要找的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "原来|102|是这家店的一位店员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002016",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦，这是什么感天动地的缘分！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "恭喜你，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "谢谢你们，我会珍惜这份幸运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002019",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "话说你这该死的魅力还真是让人有点眼红呢，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "嗯？我做什么了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002021",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "就是因为你什么都没做才更让人生气啊，每个路过这个橱窗的人都会忍不住多看你一眼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我明白了，原来你是在介意刚才那个人类男孩说的一番话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你们放心，我对其他的人类没有兴趣哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "迄今为止，只有一个人类能让我另眼相看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002025",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这个人类看起来跟其他人没什么不一样啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002026",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "|102|是谁？住在哪里？是做什么的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这些我都不清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我只知道|102|只要一出现，我就能马上认出|102|。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002029",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这就是你年轻时候的样子吗，和你现在给我的感觉很不一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "以前的我给你什么样的感觉？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002031",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我说不清楚那种感觉，\n你们明明是同一个人，却有着截然不同的两种气质。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002032",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "但是我能明显感受到，过去的你看起来，要比现在的你更加开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "……那是你的错觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002034",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "才不是呢，眼神是不会说谎的，你和她的眼睛闪着不一样的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "闭嘴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002036",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "是你的错觉，一定是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002037",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "克罗赛尔，你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002038",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我怎么可能没有过去幸福，我拥有着无数的虔诚仆从，他们甚至愿意向我呈献所拥有的一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002039",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "那个家伙拿什么跟我比，她凭什么？她脸上的那种笑容，我看见就恶心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002040",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "抱歉，我说错话了，你……不要太在意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "……不过我倒是很好奇，是什么让那家伙会露出这样的表情。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002042",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "如果你愿意帮我的话，我就原谅你刚才的无礼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002043",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "只要你不再生我的气，让我做什么都可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002044",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "那就最好不过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16002045",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "放心，我想让你做的事很简单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003001",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "咔咔……咔咔咔咔咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003002",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "路西法大人，属下无能，新上任的教主……不，那个狡猾的丫头被我跟丢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003003",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "废物……咔咔……统……咔咔……统统都是废物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003004",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "属下该死，请路西法大人责罚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003005",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "如果……咔咔……我能做到的话……咔咔……我早就……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003006",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "咔咔……咔咔咔咔咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003007",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "您、您没事吧，大人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003008",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003009",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "路西法大人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003010",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "滚，别……咔咔咔……烦我……咔咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003011",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "是，属下告退。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003012",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆乙",
+          "text": "路西法大人这是怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003013",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "嘘，小声点，路西法大人正在气头上呢，可别让他听见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003014",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆乙",
+          "text": "说起来大人这个样子，似乎是从教主那丫头逃走开始的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003015",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "可不是嘛，都已经这么久了，还不见路西法大人有好转。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003016",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆乙",
+          "text": "传闻说，这是因为身为奥古斯都家族的圣女拒绝完成血契，这是真的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003017",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "我也听过这个说法，如果血契没能顺利完成，教主圣女和路西法大人的力量就会逐渐衰退，到最后……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003018",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "到最后会怎么样，为什么不讲了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003019",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你、你是克罗赛尔教主？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "如此美妙的故事，没有一个好的结局怎么能行，我来替你们讲下去——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003021",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "教主圣女和神明路西法的血契没能顺利完成，他们彼此将会力量衰退，直至化为虚无，下场极为可怖呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "怎么，你们的神明大人已经衰弱得竟然连一个形体都没有了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003023",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "你不是那个叛逃的疯丫头，你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我是来帮你们的哦，准确的说，我是来帮你们那个虚弱的神明大人的，还不快带我去见他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003025",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "咔咔……咔咔咔咔咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003026",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "怎么又回来了……咔咔咔……快滚……咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "是我哦，路西法，别来无恙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003028",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003029",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "没想到竟能在这里……咔咔……见到你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，想我了吗，我可是很想你的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003031",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "你的想念我可无福消受，咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003032",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "真过分呢，我刚才说的可是真心话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003033",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "废话少说，你来找我干什么，咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003034",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我说过，我是来帮你的，而你只需要配合我，就可以如愿恢复形体。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003035",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "……我的事不用你插手，咔咔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003036",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我知道你在找她，我也知道只有她可以打开你盒子上的封印，而且我还知道她在哪里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16003037",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "……告诉我该怎么做。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-284",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16002001,
+            16002002,
+            16002003,
+            16002004,
+            16002005,
+            16002006,
+            16002007,
+            16002008,
+            16002009,
+            16002010,
+            16002011,
+            16002012,
+            16002013,
+            16002014,
+            16002015,
+            16002016,
+            16002017,
+            16002018,
+            16002019,
+            16002020,
+            16002021,
+            16002022,
+            16002023,
+            16002024,
+            16002025,
+            16002026,
+            16002027,
+            16002028,
+            16002029,
+            16002030,
+            16002031,
+            16002032,
+            16002033,
+            16002034,
+            16002035,
+            16002036,
+            16002037,
+            16002038,
+            16002039,
+            16002040,
+            16002041,
+            16002042,
+            16002043,
+            16002044,
+            16002045
+          ],
+          "sectionId": 16002
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16003001,
+            16003002,
+            16003003,
+            16003004,
+            16003005,
+            16003006,
+            16003007,
+            16003008,
+            16003009,
+            16003010,
+            16003011,
+            16003012,
+            16003013,
+            16003014,
+            16003015,
+            16003016,
+            16003017,
+            16003018,
+            16003019,
+            16003020,
+            16003021,
+            16003022,
+            16003023,
+            16003024,
+            16003025,
+            16003026,
+            16003027,
+            16003028,
+            16003029,
+            16003030,
+            16003031,
+            16003032,
+            16003033,
+            16003034,
+            16003035,
+            16003036,
+            16003037
+          ],
+          "sectionId": 16003
+        }
+      ],
+      "title": "冬日记忆前篇·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16004001",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你们听说了没，这家店据说要进一批新货。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "新货是指？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004003",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "就是和我们一样的手办，只不过是不同的新系列。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004004",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "“货”这个称呼我很不喜欢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004005",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "知道啦知道啦，家主大人，不是新货，是新的手办，这样说总可以了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "姑且可以接受。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004007",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我很好奇会是什么样的家伙，因为据说这个系列的角色以前还没有手办化过呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004008",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "如果是个美人就好了，那样的话我就可以在自己的美人图鉴里记上新的一笔了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004009",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "啊，店员带着新的手办过来了，我们快准备好——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "唔，头好晕，这是哪里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004011",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "密闭的空间，讨厌……我要出去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004012",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "才刚进来就想出去，哪有那么好的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004013",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们被关在这里很久了吧，告诉我怎么出去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004014",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "就是因为不知道怎么出去才会一直被关在这里，你以为我们是因为爱好才待在这里的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004015",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……我还以为自己摆脱了那个地方之后就完全自由了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004016",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "总觉得气氛突然消沉起来了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "桑尼，我们继续之前的那个游戏怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004018",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦，你提醒了我，让我们现在就开始吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004019",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这里这里，你们快来看~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004020",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我发现了好多好玩的东西~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004021",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "唔，这家店的员工真是勤劳呢，居然想到用这么多的礼物盒子装扮整个橱窗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004022",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "这种感觉就好像圣诞老人把全世界的礼物都送给了我们呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004023",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我有一个好主意，你们想听听看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004024",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "不要卖关子，桑尼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004025",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "我们就用这些盒子来模仿人类平安夜互相赠送礼物的游戏，你们说好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004026",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "听起来很有意思，我要玩~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004027",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你总算打起精神了，就这么说定了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004028",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "接下来我们要把橱窗里的盒子都集中起来，大家开始行动吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004029",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们快来看，我发现了一个很漂亮的盒子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004030",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这个盒子是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004031",
+          "sourceType": 0,
+          "speaker": "神秘盒子",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004032",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "好美的盒子，里面会是什么呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，桑尼，不要打开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004034",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵呵，这份见面礼喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004036",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004037",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你把我的朋友们怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004038",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "朋友？你这样不祥的存在也配有朋友？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004039",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "不要紧张，我只是给她们编织了一个甜美的梦境，一个永远幸福快乐的美梦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004040",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "永远也不会醒过来的那种哦，呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004041",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦~！这里好美呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004042",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "这是什么地方……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004043",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "发生了什么事，我们不是应该在商店橱窗里么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004044",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "家主大人，你你你你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004045",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "连蓝莎也……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004046",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "诶诶诶诶——？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004047",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "突然大叫什么，吵死了，快闭嘴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004048",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "嗯？我怎么会穿成这样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004049",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "好害羞……有没有什么东西可以挡一下……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004050",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "大家都是女孩子，你有的我们都有，有什么不好意思的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004051",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "可是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004052",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "请不要一直盯着我看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004053",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "好啦好啦，知道你容易害羞，我答应你不会一直盯着你看啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004054",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "咦，其他女孩都很惊慌失措，只有蓝莎一直都很淡定。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004055",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "这样的大家真是赏心悦目呢，呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004056",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "克克克罗赛尔，你穿得也太太太大胆了吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004057",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我很喜欢这样的自己哦，呵呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004058",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "尽情享受只属于女孩们的秘密节日吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004059",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我为你们准备了丰盛的礼物哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004060",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "打开你们面前的盒子，就会得到你们梦寐以求的一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004061",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "真的吗真的吗？太好了，这个盒子我早就迫不及待要拆开看看了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004062",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "哇哦，快看，艾伦兹，是以我们为原型的布偶娃娃呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004063",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "好可爱好可爱，我很喜欢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004064",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "我的盒子是空的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004065",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "咦？怎么会这样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004066",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "无所谓，反正早就没什么能提起我的兴致了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004067",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "我的是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004068",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "一把特兰斯尔产的SPP-1水下手枪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004069",
+          "sourceType": 0,
+          "speaker": "蓝莎·海恩",
+          "text": "上面还有百合花和十字架的图案……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004070",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "十字架和百合花怎么了吗？非常适合你呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004071",
+          "sourceType": 2,
+          "speaker": "蓝莎·海恩",
+          "text": "这把枪是养父为了我的成人礼特意命人定做的。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004072",
+          "sourceType": 2,
+          "speaker": "蓝莎·海恩",
+          "text": "也就是说，这把枪世界上应该仅有一件才对。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004073",
+          "sourceType": 2,
+          "speaker": "蓝莎·海恩",
+          "text": "并且我的枪，早已在某次对抗僵尸的战斗中遗失。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004074",
+          "sourceType": 2,
+          "speaker": "蓝莎·海恩",
+          "text": "而我从未对任何人提及过这件事……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004075",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "看到了吗，多么甜美幸福的梦境啊~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004076",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "这份特别为你的朋友定制的圣诞节惊喜，你还满意吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004077",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "放了她们，我命令你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16004078",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "当然可以，不过你要先让我尽兴才行哦~❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005001",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵，拒绝与路西法签订血契的你还有这样的实力，有点出乎我的意料呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005002",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "解除梦境的办法只有我知道，即使你杀了我，你的朋友们也无法从梦境中脱身哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005003",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你怎样才能放了我的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005004",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "唔，看来你对我很有敌意呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005005",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "这样真的好么，世界上另外一个我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005006",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我们之间已经毫无信任可言，你应该很清楚这一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005007",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你知道的，我活了很久很久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005008",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "尝试过这个世界上各种各样的欢愉，普通的快乐早已让我感到厌倦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005009",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我受够了乏味的生活，直到你的出现。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005010",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你是另一个时空的我，却做出了与我年轻时截然相反的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005011",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你知道了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005012",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你是拒绝了路西法订立血契的第一个奥古斯都家族的圣女。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005013",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我很期待看到你在我的手中一点一点地饱受折磨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005014",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我们有的是时间，我会慢慢享受和你的这场游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005015",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你可不要让我失望哦，呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005016",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我的要求非常简单，只要你解除了路西法的封印，我就会放了你的朋友们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005017",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……好，我答应你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005018",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "克罗赛尔你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005019",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "没事的，奈奈，交给我吧，桑尼她们一定会安然无恙的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005020",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "嗯，这样才乖嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005021",
+          "sourceType": 9,
+          "text": "咔咔……咔咔咔咔咔咔……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16005022",
+          "sourceType": 9,
+          "text": "轰隆隆……BOOOOOOOOM——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16005023",
+          "sourceType": 5,
+          "speaker": "路西法",
+          "text": "哇哈哈哈哈哈！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005024",
+          "sourceType": 5,
+          "speaker": "路西法",
+          "text": "自由的世界，美好的世界！！！！我路西法又回来了！！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005025",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "路路西法大人，您的脸……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005026",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "嗯？我的脸怎么了？对了那边有镜子——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005027",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "这这这是怎么回事，我怎么变成了这个样子？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005028",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "一出场就大呼小叫，真是太难看了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005029",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "噫，对对，我要保持我作为神明的气场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005030",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "路路西法大人，您的声音也……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005031",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "闭嘴，从今天开始，绝对不允许对我的言行举止做任何评论，听到了吗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005032",
+          "sourceType": 0,
+          "speaker": "奥古斯都家仆甲",
+          "text": "是、是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005033",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "我还没找你算账呢，克罗赛尔，你这个叛徒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005034",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵呵，急什么，今天就到此为止，我们走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005036",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "咦，我们回来了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005037",
+          "sourceType": 0,
+          "speaker": "艾伦兹·加冕",
+          "text": "呼，好长好累的一个梦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005038",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "奇怪的是，我们几个的梦居然可以共享，太神奇了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005039",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "对了，克罗赛尔，你在梦里真是像变了一个人一样呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005040",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "那不是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，别。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005042",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "看到你们没事我就放心了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005043",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "你在说什么啦，我们不是一直都好好的嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005044",
+          "sourceType": 0,
+          "speaker": "桑尼·圣诞梦",
+          "text": "今天玩得真痛快，我要去休息了，大家都自便吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005045",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你为什么故意隐瞒自己救了她们的事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005046",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你明明看起来做了很大的牺牲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005047",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "没什么可说的，奈奈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005048",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "今天出现的那个和我长着一模一样的脸的另一个克罗赛尔，你也看到了，她来者不善，以后说不定会有很多未知的危险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005049",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我不想让桑尼她们被这件事影响，她们的世界应该是单纯的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005050",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你的行为我还真是搞不懂……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005051",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "奈奈，终有一天你会遇到一个和那个人类一样闪耀的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16005052",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "直到那天你才会明白，此前的所有经历都是为了与那个人相遇，所以也就不重要了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-285",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16004001,
+            16004002,
+            16004003,
+            16004004,
+            16004005,
+            16004006,
+            16004007,
+            16004008,
+            16004009,
+            16004010,
+            16004011,
+            16004012,
+            16004013,
+            16004014,
+            16004015,
+            16004016,
+            16004017,
+            16004018,
+            16004019,
+            16004020,
+            16004021,
+            16004022,
+            16004023,
+            16004024,
+            16004025,
+            16004026,
+            16004027,
+            16004028,
+            16004029,
+            16004030,
+            16004031,
+            16004032,
+            16004033,
+            16004034,
+            16004035,
+            16004036,
+            16004037,
+            16004038,
+            16004039,
+            16004040,
+            16004041,
+            16004042,
+            16004043,
+            16004044,
+            16004045,
+            16004046,
+            16004047,
+            16004048,
+            16004049,
+            16004050,
+            16004051,
+            16004052,
+            16004053,
+            16004054,
+            16004055,
+            16004056,
+            16004057,
+            16004058,
+            16004059,
+            16004060,
+            16004061,
+            16004062,
+            16004063,
+            16004064,
+            16004065,
+            16004066,
+            16004067,
+            16004068,
+            16004069,
+            16004070,
+            16004071,
+            16004072,
+            16004073,
+            16004074,
+            16004075,
+            16004076,
+            16004077,
+            16004078
+          ],
+          "sectionId": 16004
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16005001,
+            16005002,
+            16005003,
+            16005004,
+            16005005,
+            16005006,
+            16005007,
+            16005008,
+            16005009,
+            16005010,
+            16005011,
+            16005012,
+            16005013,
+            16005014,
+            16005015,
+            16005016,
+            16005017,
+            16005018,
+            16005019,
+            16005020,
+            16005021,
+            16005022,
+            16005023,
+            16005024,
+            16005025,
+            16005026,
+            16005027,
+            16005028,
+            16005029,
+            16005030,
+            16005031,
+            16005032,
+            16005033,
+            16005034,
+            16005035,
+            16005036,
+            16005037,
+            16005038,
+            16005039,
+            16005040,
+            16005041,
+            16005042,
+            16005043,
+            16005044,
+            16005045,
+            16005046,
+            16005047,
+            16005048,
+            16005049,
+            16005050,
+            16005051,
+            16005052
+          ],
+          "sectionId": 16005
+        }
+      ],
+      "title": "冬日记忆前篇·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "16006001",
+          "sourceType": 9,
+          "text": "店员|101|：橱窗里的这几个手办真是抢手呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006002",
+          "sourceType": 9,
+          "text": "店员|101|：一经开卖，马上就被抢购一空了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006003",
+          "sourceType": 9,
+          "text": "店长：就是说嘛，这几个手办是我到这家店工作以来卖得最快的。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006004",
+          "sourceType": 9,
+          "text": "店长：毕竟是圣诞限定，店里的货源也有限。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006005",
+          "sourceType": 9,
+          "text": "店员|101|：唔，看到突然空下来的橱窗，真是有些难过呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006006",
+          "sourceType": 9,
+          "text": "店长：我发现你这家伙还真是多愁善。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006007",
+          "sourceType": 9,
+          "text": "店长：平时对流浪的小狗小猫就很容易爱心泛滥，想不到对这些没有生命的手办们也这么……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006008",
+          "sourceType": 9,
+          "text": "店员|101|：她们不是没有生命。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006009",
+          "sourceType": 9,
+          "text": "店长：什么？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006010",
+          "sourceType": 9,
+          "text": "店员|101|：我的意思是，在我看来，每一个手办都值得被珍重对待。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006011",
+          "sourceType": 9,
+          "text": "店长：你这个人还真是……古怪呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006012",
+          "sourceType": 9,
+          "text": "店长：唔，说起来，今天就是你兼职结束的日子呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006013",
+          "sourceType": 9,
+          "text": "店长：虽然跟你相处的时间不长，但你这个人给我的印象还不错。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006014",
+          "sourceType": 9,
+          "text": "店长：祝你圣诞快乐。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006015",
+          "sourceType": 9,
+          "text": "店长：喏，这是你这些天来的薪水。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006016",
+          "sourceType": 9,
+          "text": "店员|101|：谢谢，MerryChristmas~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006017",
+          "sourceType": 9,
+          "text": "店长：看你一脸高兴的样子，是打算拿这笔钱给重要的人买圣诞礼物吗~",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006018",
+          "sourceType": 9,
+          "text": "店员|101|：嗯，我想给她们一个特别的惊喜。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16006019",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "桑尼她们居然都被买走了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006020",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "唔，连那个人类也要走了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006021",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你还好吗，克罗赛尔……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006022",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "特别的圣诞礼物，谁会有这份幸运呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006023",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "真想亲自见见呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006024",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是谁……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006025",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "究竟是谁，可以拥有这份殊荣……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006026",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "霸占这个人类的全部目光……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006027",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "无论是谁我都要摧毁她、驱逐她，让她永远无法再跟我抢这个人类……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006028",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你、你怎么了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006029",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "呵呵呵呵……哈哈哈哈哈哈……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006030",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "克罗赛尔，突然之间这是怎么了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006031",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "别碰我！把你的手拿开，你以为你是谁，有什么资格触碰我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006032",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006033",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "啊，是奈奈啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006034",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你刚才的样子好可怕……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006035",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "抱歉，我刚才失礼了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006036",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "有什么可以帮助你的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006037",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不，我什么都不需要……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006038",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "请让我自己待一会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006039",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "……好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006040",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好安静……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006041",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "怎么会这么安静……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006042",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "安静得好像这个世界上只剩下了我自己……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006043",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "就像当年一样，我永远也无法逃离被遗弃被孤立的命运了么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006044",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "你终于后悔了么~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006045",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "快来，到我这里来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006046",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "我早就说过，你无处可去，只有我才会收留你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006047",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你，滚开。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006048",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "事到如今你还这么嘴硬。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006049",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "我知道你看上那个人的什么哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006050",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "你所认为的特别，也不过是想要从那个人类身上得到自己想要的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006051",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "住口，我才没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006052",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "不承认么？那你刚才的语气为什么会突然犹豫？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006053",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "克罗赛尔，我们相识有多久了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006054",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "那是久到我都已经数不过来的时光。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006055",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "所以——你是什么样子，我比谁都清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006056",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "你啊，看似高贵且美丽的外表，包裹着一颗丑陋贪婪的灵魂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006057",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "住嘴！住嘴！我让你住嘴啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006058",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "你得不到你想要的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006059",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "因为你永远也无法满足……你的本质就是贪婪……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006060",
+          "sourceType": 0,
+          "speaker": "路西法幻影",
+          "text": "呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006061",
+          "sourceType": 0,
+          "speaker": "杀戮之罪·魂体",
+          "text": "请救救我……教主大人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006062",
+          "sourceType": 0,
+          "speaker": "杀戮之罪·魂体",
+          "text": "我渴望您，仰慕您，请带我逃离这份堕落的痛苦吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006063",
+          "sourceType": 0,
+          "speaker": "不洁之罪·魂体",
+          "text": "教主大人……我迷路了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006064",
+          "sourceType": 0,
+          "speaker": "不洁之罪·魂体",
+          "text": "求您给我指示一条明路……我发誓永远追随您……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006065",
+          "sourceType": 0,
+          "speaker": "贪婪之罪·魂体",
+          "text": "教主……我灵魂中唯一的光……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006066",
+          "sourceType": 0,
+          "speaker": "贪婪之罪·魂体",
+          "text": "求您怜爱我……带我到极乐的世界去……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006067",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "闭嘴……不要说了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006068",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "救命……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006069",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "谁可以救救我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006070",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "哪怕只有一次，我想和那个人重逢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006071",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我好想……再见你一面……你究竟在哪里……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006072",
+          "sourceType": 0,
+          "speaker": "怠惰之罪·魂体",
+          "text": "教主……教主……救救我们……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006073",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你们真的那么想要得救么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16006074",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "好极了，就让你们来满足我吧！哈哈哈哈哈哈！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，都已经快到圣诞节了，怎么还没有落雪呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007002",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "优纪喜欢雪吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "超~喜欢呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "纯白的轻盈的雪花，一片一片地从天空降落，就好像羽毛一样轻舞飞扬的样子，真是太美了~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "最重要的是，雪花一年只能见一次，因为非常稀少所以更觉得珍贵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "而且呐，下雪的时候主人会带我们去雪地打雪仗、堆雪人，真是太好玩啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "啊啊差点忘了，还有圣诞节呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "每年的圣诞节，优纪都能从主人那里收到很棒很棒的礼物，去年优纪收到的是一只可爱的猫猫发卡呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007009",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "和江怎么一直不讲话呢，你不喜欢圣诞节吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007011",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "不，虽然圣诞节很吵，但我并不讨厌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007012",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "我只是在想，主人每一年都会给家中的手办们赠送一份精致的圣诞礼，而且每个手办都不会重复。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007013",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对呀对呀，主人最爱我们了，我们也最爱主人了嘛~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "说起来不知道主人今年会送什么给优纪呢，好期待呀~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007016",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "欢迎回家~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007017",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "欢迎回家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你们刚才在讨论什么，看起来很热闹的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007019",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哈哈哈刚刚我跟和江在讨论今年的圣诞节会收到主人什么礼物哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007020",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "肯定会是特别的惊喜，放心吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "耶耶，主人这么说我就放心啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "今年的圣诞节一定一定会非常美好的~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007023",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007024",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "有心事吗，和江？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007025",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "兼职辛苦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007026",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "咦咦？！被你发现了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007027",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "主人的圣诞节想要什么礼物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007028",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我想要……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007029",
+          "sourceType": 5,
+          "speaker": "优纪",
+          "text": "不，别说，千万不要讲！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007030",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "就让我们一起协力给主人制造一份惊喜吧~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007031",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么样的……惊喜？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007032",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿嘿，总之主人现在可以开始期待啦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007033",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "对了对了，我们现在开始准备装扮房间好不好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007034",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，装点房间的话，需要好多好多的东西呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007035",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "气球、彩带、水晶球、圣诞树……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007036",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这些东西，家里似乎都没有呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007037",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没关系，这些我来采购。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007038",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哇真的吗，主人真是太好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007039",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "和你们在一起，无论做什么都很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007040",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们也是，和你在一起，每一天都像是个节日呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007041",
+          "sourceType": 9,
+          "text": "|101|：气球，彩带，水晶球，圣诞袜……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007042",
+          "sourceType": 9,
+          "text": "|101|：装扮屋子这些东西应该够了吧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007043",
+          "sourceType": 9,
+          "text": "|101|：诶？已经这么晚了吗……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007044",
+          "sourceType": 9,
+          "text": "|101|：要赶快回家才行，家里还有她们在等着我呢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007045",
+          "sourceType": 9,
+          "text": "|101|：啊，前面是……之前做兼职的那家店。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007046",
+          "sourceType": 9,
+          "text": "|101|：不知道那个特别的手办还在不在老位子摆放着，过去看一眼好了。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "16007047",
+          "sourceType": 0,
+          "speaker": "杀戮之罪·魂体",
+          "text": "教主大人……救我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007048",
+          "sourceType": 0,
+          "speaker": "不洁之罪·魂体",
+          "text": "我好难过……教主大人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007049",
+          "sourceType": 0,
+          "speaker": "贪婪之罪·魂体",
+          "text": "我不想这么痛苦下去了……教主大人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007050",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "闭嘴，别吵，都给我闭嘴！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007051",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "克罗赛尔，你在跟谁说话？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007052",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不要吵，别说了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007053",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你、你还好吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007054",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "我救不了你们……走开……都走开……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007055",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你听到什么声音了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007056",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这可怎么办才好呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007057",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "天色越来越黑了，你可不要吓我啊，克罗赛尔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007058",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "不、不对，我才不怕呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007059",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这种时候更应该我站出来保护克罗赛尔才对！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007060",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "喂喂！你们这些藏起来不敢露脸的胆小鬼~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007061",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这么多人欺负一个女孩子算什么本事，有种站出来我们堂堂正正地打一架！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007062",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我水城结奈可不怕你们哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007063",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们尽管一起上好了，我让你们三招！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007064",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "看看是你们装神弄鬼厉害，还是我的糖果大锤厉害！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007065",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007066",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "说了半天怎么一点动静都没有，这也太没劲了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007067",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "哇，有人过来了，要赶快藏起来才行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007068",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007069",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这种熟悉的感觉……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007070",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "唔，好刺眼，这个光芒会是那个人吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007071",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……真的是你？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007072",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你认识我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007073",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你之前在这家店工作的时候，我一直注视着你，只是你不知道罢了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007074",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "简直像做梦一样……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007075",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "这股耀眼温暖的光芒，只可能是你，我绝对不会认错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007076",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "虽然不知道你说的光是怎么回事，不过我还是第一次被陌生的手办女孩默默注视着，这种感觉……好奇特哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007077",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "你……可以在这里多待一会吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007078",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊，很抱歉，我只是路过这里，不能久留。\n不过，你居然不怕我，真是吓我一跳呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007079",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "被吓了一跳吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007080",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "抱歉，我并不想给你带来困扰。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007081",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "能够跟你重逢，我太开心了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007082",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你放心，今天的事我会保密的，所以不会有人来打扰你，拜拜咯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007083",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "谢、谢谢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007084",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "再见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007085",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "但愿我还能再次见到你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007086",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "那个人类离开了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007087",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "|102|就是你要找的那个人了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007088",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "是，我找了|102|很久很久。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007089",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "让我猜猜，你接下来不会想要追上去吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007090",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007091",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "一开始，我只想安静地陪伴在|102|的身边就满足了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007092",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这一点我可无法认同。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007093",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "绝对绝对无法认同！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007094",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "如果我喜欢那个人类，就一定要让|102|记得我才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007095",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "诶？我们就这样大摇大摆地离开这里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007096",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "不然呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007097",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "教主大人，你好歹也要对自己现在的设定有点自觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007098",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你现在只是一个能被人捧在手心里的小小的手办少女，是千千万手办藏品中的一个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007099",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "而手办是绝对绝对不能轻易在人类面前肆意活动的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007100",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·小甜甜",
+          "text": "虽然我不是很理解这点，不过还是决定听你的安排。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007101",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "哎嘿~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007102",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我早就知道你会不顾一切跟着那个人类离开，所以已经提前帮你探好路啦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007103",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "这家店的后面有一条狭窄的胡同，我们顺着那里的下水道悄悄离开这里。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007104",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "绝对神不知鬼不觉，不会有人发现我们的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007105",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "就这么让她们离开真的没问题么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007106",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "放心，我的狗会替我监视好她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007107",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "那个水城结奈，我是说你安插的那个眼线，靠谱么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007108",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "她可是我精心调教过的，一只听话乖巧的宠物，只要好好利用就可以了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007109",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "我知道你现在还是不肯相信我，这么警惕我，让我觉得你与当年不可一世的路西法似乎……是有点关系呢，呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007110",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "废话！我就是路西法，只不过力量微弱没能恢复人形罢了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007111",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "要让我说几遍你才能记住啊~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007112",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "抱歉，因为你的样子看起来实在很滑稽，所以我真的很难将两个你联系起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007113",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "…………",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007114",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "你在骂我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007115",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "不，我没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007116",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "你绝对在骂我！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007117",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "好吧，我承认，戏弄路西法是我的特别嗜好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007118",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "你你你你你你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007119",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你吃瘪的样子还是和从前一样，真是让人怀念属于我们的那段时光呢。❤",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007120",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "路西法，你知道吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007121",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "对于一个有了丰富的生活阅历的成熟女性来说，尚处于年幼的少女心，是这个世界上最好懂的东西了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007122",
+          "sourceType": 0,
+          "speaker": "路西法",
+          "text": "不，我没听懂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007123",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "只有一点点毁掉少女最初的渴望，她才能蜕变得更加成熟更加美好……更加地美味。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007124",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "人类世界一年一度的圣诞节就要到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007125",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "传说在这一天，所有的人只要向圣诞老人许愿，就可以实现所有的心愿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007126",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "没有什么比在这一天，毁掉一个少女的心愿更刻骨铭心的事情了呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007127",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "呵呵呵呵呵……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007128",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "事情越来越好玩了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "16007129",
+          "sourceType": 0,
+          "speaker": "克罗赛尔·诱惑",
+          "text": "你可不要让我失望哦，世界上另一个我……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-286",
+      "sourceRefs": [
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16006001,
+            16006002,
+            16006003,
+            16006004,
+            16006005,
+            16006006,
+            16006007,
+            16006008,
+            16006009,
+            16006010,
+            16006011,
+            16006012,
+            16006013,
+            16006014,
+            16006015,
+            16006016,
+            16006017,
+            16006018,
+            16006019,
+            16006020,
+            16006021,
+            16006022,
+            16006023,
+            16006024,
+            16006025,
+            16006026,
+            16006027,
+            16006028,
+            16006029,
+            16006030,
+            16006031,
+            16006032,
+            16006033,
+            16006034,
+            16006035,
+            16006036,
+            16006037,
+            16006038,
+            16006039,
+            16006040,
+            16006041,
+            16006042,
+            16006043,
+            16006044,
+            16006045,
+            16006046,
+            16006047,
+            16006048,
+            16006049,
+            16006050,
+            16006051,
+            16006052,
+            16006053,
+            16006054,
+            16006055,
+            16006056,
+            16006057,
+            16006058,
+            16006059,
+            16006060,
+            16006061,
+            16006062,
+            16006063,
+            16006064,
+            16006065,
+            16006066,
+            16006067,
+            16006068,
+            16006069,
+            16006070,
+            16006071,
+            16006072,
+            16006073,
+            16006074
+          ],
+          "sectionId": 16006
+        },
+        {
+          "bundle": "guerdan",
+          "rowIds": [
+            16007001,
+            16007002,
+            16007003,
+            16007004,
+            16007005,
+            16007006,
+            16007007,
+            16007008,
+            16007009,
+            16007010,
+            16007011,
+            16007012,
+            16007013,
+            16007014,
+            16007015,
+            16007016,
+            16007017,
+            16007018,
+            16007019,
+            16007020,
+            16007021,
+            16007022,
+            16007023,
+            16007024,
+            16007025,
+            16007026,
+            16007027,
+            16007028,
+            16007029,
+            16007030,
+            16007031,
+            16007032,
+            16007033,
+            16007034,
+            16007035,
+            16007036,
+            16007037,
+            16007038,
+            16007039,
+            16007040,
+            16007041,
+            16007042,
+            16007043,
+            16007044,
+            16007045,
+            16007046,
+            16007047,
+            16007048,
+            16007049,
+            16007050,
+            16007051,
+            16007052,
+            16007053,
+            16007054,
+            16007055,
+            16007056,
+            16007057,
+            16007058,
+            16007059,
+            16007060,
+            16007061,
+            16007062,
+            16007063,
+            16007064,
+            16007065,
+            16007066,
+            16007067,
+            16007068,
+            16007069,
+            16007070,
+            16007071,
+            16007072,
+            16007073,
+            16007074,
+            16007075,
+            16007076,
+            16007077,
+            16007078,
+            16007079,
+            16007080,
+            16007081,
+            16007082,
+            16007083,
+            16007084,
+            16007085,
+            16007086,
+            16007087,
+            16007088,
+            16007089,
+            16007090,
+            16007091,
+            16007092,
+            16007093,
+            16007094,
+            16007095,
+            16007096,
+            16007097,
+            16007098,
+            16007099,
+            16007100,
+            16007101,
+            16007102,
+            16007103,
+            16007104,
+            16007105,
+            16007106,
+            16007107,
+            16007108,
+            16007109,
+            16007110,
+            16007111,
+            16007112,
+            16007113,
+            16007114,
+            16007115,
+            16007116,
+            16007117,
+            16007118,
+            16007119,
+            16007120,
+            16007121,
+            16007122,
+            16007123,
+            16007124,
+            16007125,
+            16007126,
+            16007127,
+            16007128,
+            16007129
+          ],
+          "sectionId": 16007
+        }
+      ],
+      "title": "冬日记忆前篇·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 43,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 43,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 187,
+          "rowNpcId": 605
+        }
+      },
+      {
+        "id": "41",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "43",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "42",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "videoPath": {
+          "1": "Videos/AVG_SweetQueenXmas.mp4"
+        }
+      },
+      {
+        "id": "44",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "45",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "雪的期待·少女的秘密",
+  "title": "冬日记忆前",
+  "wordCount": 12145
+}

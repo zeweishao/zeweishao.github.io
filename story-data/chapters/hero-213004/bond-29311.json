@@ -1,0 +1,115 @@
+{
+  "bookId": "hero-213004",
+  "id": "bond-29311",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29311001",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "这是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "送你的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311003",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "你想用这个东西圈养我，然后把我当作奴隶？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "就只是一份普通的礼物！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311005",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我不可能被你的礼物收买的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311006",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "因为只有不断地杀戮和复仇，我才能活下去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那你有没有想过换一种活法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311008",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "……换一种，活法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311009",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我做不到，在杀了你之前，其他任何事物我都不感兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29311010",
+          "sourceType": 0,
+          "speaker": "弗吉尼娅",
+          "text": "我会一直在你身边的，不要想逃跑哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29311",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29311001,
+            29311002,
+            29311003,
+            29311004,
+            29311005,
+            29311006,
+            29311007,
+            29311008,
+            29311009,
+            29311010
+          ],
+          "sectionId": 29311
+        }
+      ],
+      "title": "暴露"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "暴露",
+  "wordCount": 141
+}

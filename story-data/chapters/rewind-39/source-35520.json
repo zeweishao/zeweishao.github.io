@@ -1,0 +1,110 @@
+{
+  "bookId": "rewind-39",
+  "id": "source-35520",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35520001",
+          "sourceType": 0,
+          "speaker": "狐狸怪盗",
+          "text": "不必担心，在下没有恶意。东风已至，在下告辞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520002",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "能利用风力？披风里是滑翔翼一样的机关？梅根——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520003",
+          "sourceType": 0,
+          "speaker": "酒井唯",
+          "text": "你怎么从刚才就一副心不在焉的样子？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520004",
+          "sourceType": 0,
+          "speaker": "塞西尔",
+          "text": "玛尔斯之盾也有松懈的一天吗，刚才的战斗不像你的水平。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520005",
+          "sourceType": 0,
+          "speaker": "梅根",
+          "text": "我只是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520006",
+          "sourceType": 0,
+          "speaker": "简陋的预告函",
+          "text": "唰啦——唰啦——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520007",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "这里有张纸……他老师没教过他不要乱丢东西吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35520008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "上面还画了一只很丑的狐狸，怎么感觉这么像萝贝卡画的？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35520",
+      "sourceRefs": [
+        {
+          "bundle": "2023mifia",
+          "rowIds": [
+            35520001,
+            35520002,
+            35520003,
+            35520004,
+            35520005,
+            35520006,
+            35520007,
+            35520008
+          ],
+          "sectionId": 35520
+        }
+      ],
+      "title": "日光下的挑战·Ⅳ"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "9290024",
+              "after_result_avg"
+            ],
+            "table": "ResSpecialBattleAvg.lua"
+          }
+        ],
+        "path": [
+          "9290024",
+          "after_result_avg"
+        ],
+        "sectionId": 35520,
+        "table": "ResSpecialBattleAvg"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "关卡战斗配套片段",
+  "title": "日光下的挑战·Ⅳ",
+  "wordCount": 149
+}

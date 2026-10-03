@@ -1,0 +1,192 @@
+{
+  "bookId": "hero-212203",
+  "id": "bond-28534",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28534001",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你好久没来看我了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534003",
+              "text": "抱歉，的确有段时间……"
+            }
+          ],
+          "sourceId": "28534002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "是因为后宅那堆女人吗，真是个招蜂引蝶的家伙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28534004",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "她们想把你抢走，我要找机会把她们都处理掉，\n嗯……「S-VIII」除外。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534006",
+              "text": "「S-VIII」除外，为什么呢？"
+            }
+          ],
+          "sourceId": "28534005",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534006",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "她是个很有意思的家伙，跟后宅的其他女人不一样，\n而且，我打不过她。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534008",
+              "text": "后面才是重点吧？"
+            }
+          ],
+          "sourceId": "28534007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534008",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "如果是为了|101|，我会打到底的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534010",
+              "text": "听起来很危险。"
+            }
+          ],
+          "sourceId": "28534009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534010",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "只要是你，我什么都愿意做。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534012",
+              "text": "嗯……我是说……"
+            }
+          ],
+          "sourceId": "28534011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534012",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我知道，你在关心我，\n你可以直说的，想叫「老婆」也没关系。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28534014",
+              "text": "话也不是那么说……"
+            },
+            {
+              "targetId": "28534014",
+              "text": "……好吧。"
+            }
+          ],
+          "sourceId": "28534013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28534014",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "那就当你答应了，试试吧，那两个字。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28534",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28534001,
+            28534002,
+            28534003,
+            28534004,
+            28534005,
+            28534006,
+            28534007,
+            28534008,
+            28534009,
+            28534010,
+            28534011,
+            28534012,
+            28534013,
+            28534014
+          ],
+          "sectionId": 28534
+        }
+      ],
+      "title": "独占欲"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212203",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "独占欲",
+  "wordCount": 238
+}

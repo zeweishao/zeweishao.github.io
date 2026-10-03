@@ -1,0 +1,814 @@
+{
+  "bookId": "rewind-56",
+  "id": "chapter-229",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43200001",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "在人类的历史长河中，光辉从来转瞬即逝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200002",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "唯有真正的无畏者，方能踏破命运的迷雾，攫取最后的胜利。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200003",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "呵，很快，你将收到一份我为你精心准备的「礼物」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "它将开启属于过去的记忆之门，引你前往最终的应许之地。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200005",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "而你，|101|，你又会做出怎样的选择呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "再一次，让我欣赏你作为人类的「特别之处」吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200007",
+          "sourceType": 3,
+          "text": "次日，一阵敲门声打破了早晨的宁静——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43200008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你是……FULI公司的工作人员？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200009",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "恭喜！您被选中为我们公司的金牌收藏家，将得到一套限量版稀金卡牌。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "什么……我不是在做梦吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200011",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "这套卡牌藏有FULI全新精品系列手办的线索，您会是这套卡牌的唯一拥有者。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "全新精品系列手办……会是什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200013",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "卡牌礼盒很快便会送达，届时请务必仔细探索每一张卡牌，体验亲自揭开这一系列神秘手办的秘密的乐趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43200014",
+          "sourceType": 0,
+          "speaker": "FULI工作人员",
+          "text": "感谢您的支持，如果有任何问题，随时欢迎您联系我们。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1132",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43200001,
+            43200002,
+            43200003,
+            43200004,
+            43200005,
+            43200006,
+            43200007,
+            43200008,
+            43200009,
+            43200010,
+            43200011,
+            43200012,
+            43200013,
+            43200014
+          ],
+          "sectionId": 43200
+        }
+      ],
+      "title": "废墟之秘 · Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43201001",
+          "sourceType": 3,
+          "text": "高速行驶的快递运输车内——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43201002",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "这就是那位大人说的运输车了，我们最好赶快动手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201003",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "别急，我们不能引起注意。你去前面找找，我负责搜索车厢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201004",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "可恶，这个锁怎么这么紧，根本打不开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201005",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "喏，用这个。快点，时间不多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201006",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "搞定，快递仓仓门被我打开了！快，那个包裹在哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201007",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "别吵，那礼盒这么珍贵，肯定被藏在了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201008",
+          "sourceType": 3,
+          "text": "嘭——轰隆——哐当——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43201009",
+          "sourceType": 5,
+          "speaker": "紫衣蛙",
+          "text": "不好！外面好像出车祸了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201010",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "啊！我看到那个盒子了！快，我们得赶快去拿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201011",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "开什么玩笑，我身上的涂料都快被晃出来了……呃……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201012",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "我不管！拿不到这个盒子，回去怎么和那位大人交代？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201013",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "别吵，我就快拿到那个盒子了……只差一点点了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201014",
+          "sourceType": 3,
+          "text": "巨大的碰撞中，车厢被撞开了一道缝隙。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43201015",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "我抓住了！我真的抓住了……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43201016",
+          "sourceType": 3,
+          "text": "撕拉——包裹被撕开一个口子，随后滚出了车厢。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43201017",
+          "sourceType": 3,
+          "text": "爱猫社区，废墟角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43201018",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "唉，今天完全没有任何收获……等下，什么东西飞过来了？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1133",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43201001,
+            43201002,
+            43201003,
+            43201004,
+            43201005,
+            43201006,
+            43201007,
+            43201008,
+            43201009,
+            43201010,
+            43201011,
+            43201012,
+            43201013,
+            43201014,
+            43201015,
+            43201016,
+            43201017,
+            43201018
+          ],
+          "sectionId": 43201
+        }
+      ],
+      "title": "废墟之秘 · Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43202001",
+          "sourceType": 3,
+          "text": "那是一个……从而天降的包裹？",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43202002",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "哈，看来今天也不是完全没有收获嘛~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202003",
+          "sourceType": 7,
+          "text": "菈冬 · 寂墟猎手\n商品名称：菈冬·寂墟猎手 Ver.\n作品出处：《终焉地平线》\n制造商：TENMA 天马\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约236mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43202004",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "虽然不知道是谁乱扔的，敢小瞧我菈冬就大错特错了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "这个角度，我完全能接得住——来吧！我的猎物宝贝儿！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202006",
+          "sourceType": 3,
+          "text": "快递包裹精准地砸向菈冬，眼看就要避无可避——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43202007",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "诶诶，这个角度似乎有点……不妙啊？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202008",
+          "sourceType": 3,
+          "text": "爱猫社区，主人家中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43202009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "你怎么了，有心事？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43202011",
+              "text": "我的快递居然还没到。"
+            },
+            {
+              "targetId": "43202011",
+              "text": "FULI的快递向来很准时。"
+            }
+          ],
+          "sourceId": "43202010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43202011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "的确，按照快递发出的时间，早就应该到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这套稀金卡牌非常珍稀，万一途中遇到什么意外怎么办……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202013",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "如果你担心，我可以亲自到物流站了解一下情况。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的吗？太好了。我在家里等你的好消息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202015",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "启动自主巡航模式，前往【爱猫社区物流站】。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43202016",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>定位成功，预计耗时13分钟26秒。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1134",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43202001,
+            43202002,
+            43202003,
+            43202004,
+            43202005,
+            43202006,
+            43202007,
+            43202008,
+            43202009,
+            43202010,
+            43202011,
+            43202012,
+            43202013,
+            43202014,
+            43202015,
+            43202016
+          ],
+          "sectionId": 43202
+        }
+      ],
+      "title": "废墟之秘 · Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43203001",
+          "sourceType": 3,
+          "text": "爱猫社区，快递物流站。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43203002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，连接物流站的终端，查询延误包裹的信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "注意避开物流站中的工作人员，不要引起骚动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203004",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>隐匿模式已启动。正在访问物流数据库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203005",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>数据显示运输该包裹的物流车遭遇车祸，原因不明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "车祸……这下麻烦了。能查到损毁或丢失物资的具体信息吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203007",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>信息搜索中……发现有一个VIP快件的标记失去了信号。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203008",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>该包裹即是FULI公司寄送给主人的那件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "居然这么巧？看来得去事发现场一趟了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203010",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "有个不好的消息，包裹的确发生了一点意外。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203011",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "啊？不会真的被我说中了吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203012",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "运输车发生了车祸，FULI公司寄来的包裹因此失踪了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203013",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "怎么会这样……现在该怎么办才好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203014",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "不用担心，我会到车祸现场寻找线索，找回你的包裹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203015",
+          "sourceType": 13,
+          "speaker": "主人",
+          "text": "你一个人太危险了，千万小心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203016",
+          "sourceType": 13,
+          "speaker": "希塔",
+          "text": "我会的，等我回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，我们走吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43203018",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>雷达定位已更新，已为您规划出最近的路线。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1135",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43203001,
+            43203002,
+            43203003,
+            43203004,
+            43203005,
+            43203006,
+            43203007,
+            43203008,
+            43203009,
+            43203010,
+            43203011,
+            43203012,
+            43203013,
+            43203014,
+            43203015,
+            43203016,
+            43203017,
+            43203018
+          ],
+          "sectionId": 43203
+        }
+      ],
+      "title": "废墟之秘 · Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43204001",
+          "sourceType": 3,
+          "text": "希塔和帕拉斯抵达事故现场——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43204002",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "帕拉斯，扫描这辆物流车，查看是否有可疑的痕迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204003",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>明白。正在分析物流车的结构，请稍后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204004",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "里面似乎有声音传来，我们去看看。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204005",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "竟敢在我的地盘上撒野，该让你们长长记性了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204006",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "什么叫你的地盘，你不就是个捡垃圾的么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204007",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "别和她废话，赶快解决掉这个棘手的家伙，没时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204008",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "哼，想走？先把我们的账清算好，我可不做赔本的买卖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204009",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "（小声）待会真要打起来，我们恐怕不是对手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204010",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "（小声）别怂，我带了迷雾弹，等会瞧我眼色行事就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204011",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "喂，我都等得不耐烦了，两个一起上吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43204012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "注意，小心有诈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205001",
+          "sourceType": 3,
+          "text": "烟尘弥漫中，两个马仔合力将菈冬推到废墟深处——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43205002",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "完了！我不小心把那家伙和我们要找的包裹一起推下去了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205003",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "吵死了。谁说我们完了，你瞧，我还留了一手。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205004",
+          "sourceType": 0,
+          "speaker": "紫衣蛙",
+          "text": "好，不愧是你！咱们赶快带着这张卡牌回去交差吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205005",
+          "sourceType": 0,
+          "speaker": "绿帽蛙",
+          "text": "小心别被那个银发扑克脸发现，跟我走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205006",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "咳……帕拉斯，搜索这片区域，追踪目标信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205007",
+          "sourceType": 0,
+          "speaker": "帕拉斯",
+          "text": ">>>区域检索中……目标搜寻失败。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205008",
+          "sourceType": 3,
+          "text": "废墟深处的某个角落。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43205009",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "呃……我这是被砸晕了？\n今天也太衰了吧……咦，那是什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43205010",
+          "sourceType": 0,
+          "speaker": "菈冬",
+          "text": "一张金光闪闪的卡牌？！我要发财了！哈哈哈哈！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-1136",
+      "sourceRefs": [
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43204001,
+            43204002,
+            43204003,
+            43204004,
+            43204005,
+            43204006,
+            43204007,
+            43204008,
+            43204009,
+            43204010,
+            43204011,
+            43204012
+          ],
+          "sectionId": 43204
+        },
+        {
+          "bundle": "ladon",
+          "rowIds": [
+            43205001,
+            43205002,
+            43205003,
+            43205004,
+            43205005,
+            43205006,
+            43205007,
+            43205008,
+            43205009,
+            43205010
+          ],
+          "sectionId": 43205
+        }
+      ],
+      "title": "废墟之秘 · Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 229,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 229,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "129",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "尘埃之下的线索",
+  "title": "废墟之秘",
+  "wordCount": 1859
+}

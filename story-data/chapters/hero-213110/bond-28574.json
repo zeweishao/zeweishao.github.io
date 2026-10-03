@@ -1,0 +1,154 @@
+{
+  "bookId": "hero-213110",
+  "id": "bond-28574",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28574001",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "这是什么……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574002",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "光坂高中三年E班的教室，怎么会出现在这里？！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28574004",
+              "text": "是送给你的礼物哦。"
+            }
+          ],
+          "sourceId": "28574003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28574004",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "给我的……吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574005",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "确实是有很多回忆的地方……这间教室承载着许多人的青春呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574006",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "说吧，你想从我这里得到什么好处？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28574008",
+              "text": "完全没有这回事。"
+            }
+          ],
+          "sourceId": "28574007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28574008",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "好吧，我给你时间慢慢考虑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574009",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "等什么时候想到了，我会帮你实现的……大概吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574010",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "教室里我的位子上，堆满了的字典也是给我的吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28574012",
+              "text": "不然呢？"
+            }
+          ],
+          "sourceId": "28574011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28574012",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "挺能干的嘛……你还真是做了不少功课。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28574013",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "我是个笨蛋，你对我这么温柔的话，我……我会误会的哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28574",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28574001,
+            28574002,
+            28574003,
+            28574004,
+            28574005,
+            28574006,
+            28574007,
+            28574008,
+            28574009,
+            28574010,
+            28574011,
+            28574012,
+            28574013
+          ],
+          "sectionId": 28574
+        }
+      ],
+      "title": "「三年E班」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213110",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「三年E班」",
+  "wordCount": 201
+}

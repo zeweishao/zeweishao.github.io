@@ -1,0 +1,755 @@
+{
+  "bookId": "activity-extra-urplot",
+  "id": "source-43404",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "43404001",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "唷，|101|，怎么找到我这来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404002",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "居然向一位魔女寻求帮助，看来你肯定遇到了不小的麻烦啊。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404004",
+              "text": "太忙的话就算了。"
+            },
+            {
+              "targetId": "43404004",
+              "text": "那我去找别人……"
+            }
+          ],
+          "sourceId": "43404003",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404004",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "别走，我可没说不帮忙。咳，毕竟是曾经的使魔的请求，说吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404005",
+          "sourceType": 3,
+          "text": "你将近期寻找潮游星手办的事告诉了诺伊尔。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404006",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……原来如此，最近几周一直没有收获吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404008",
+              "text": "你能想到办法吗？"
+            },
+            {
+              "targetId": "43404008",
+              "text": "拜托了，无所不能的魔女小姐。"
+            }
+          ],
+          "sourceId": "43404007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404008",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我当然有办法。倒不如说，我已经替你找到了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404009",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "最近在街上，我总是隐隐感受到一股异样的气息，是施法的残留痕迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404010",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "据我所知，那不属于任何一种已知的术法，甚至牵扯到更高的维度……很可能来自新出荷的潮游星手办。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404012",
+              "text": "更高的维度？"
+            },
+            {
+              "targetId": "43404012",
+              "text": "你开始讲谜语了。"
+            }
+          ],
+          "sourceId": "43404011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404012",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "总之，我会替你把人找到的。前些天，我在街道各处设置了一些侦测用的奥术陷阱，正好派上用场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404013",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "……等下，有些已经被触发了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404014",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "喂，我们过去，「它」出现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404015",
+          "sourceType": 3,
+          "text": "很快，你带着诺伊尔追到了街道一侧的巷子里。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404016",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "哎呀哎呀，还是被发现了……果然你我的相遇是命中注定的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404018",
+              "text": "我不认识你。"
+            },
+            {
+              "targetId": "43404018",
+              "text": "你是谁？"
+            }
+          ],
+          "sourceId": "43404017",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404018",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "请叫我格兰缇娜。在这条时间线上，我们仍是初次见面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404019",
+          "sourceType": 7,
+          "text": "格兰缇娜 · 无尽时序\n商品名称：格兰缇娜·无尽时序 Ver.\n作品出处：《蘑菇少女的日常》\n制造商：SNOW.A 细雪庭\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约241mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "43404020",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "来路不明的施术者，你的身上……居然是跨越位面和时序的术法吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404021",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "不错，这正是我所身处的「牢笼」。在我眼里，你也是相当有趣的样本——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404022",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "一位触及奥术之极的大魔女，却在刻意地扮演身着裙甲的骑士。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404023",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "之前，就是你在暗中窥探我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404024",
+          "sourceType": 3,
+          "text": "盔甲响动，诺伊尔紧紧地握住剑，现场的形势变得剑拔弩张。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404025",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "彼此彼此，毕竟，我也处在你的眼线之下",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404026",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "|101|，你觉得我们该如何缓和当前的矛盾？出于同类厌恶，她似乎要和我决斗了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404028",
+              "text": "和我去管理局登记。"
+            },
+            {
+              "targetId": "43404028",
+              "text": "变成我的手办，就没问题了。"
+            }
+          ],
+          "sourceId": "43404027",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404028",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "哈？扔给管理局不就行了，你还要收下她？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404029",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵呵，我倒不介意和你一起生活，只要——你帮我一个小小的忙。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404031",
+              "text": "说吧。"
+            },
+            {
+              "targetId": "43404031",
+              "text": "只要不违背原则……"
+            }
+          ],
+          "sourceId": "43404030",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404031",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "那么，请握住我的手，跟我一起来。这位浑身都是嫉妒气息的魔女，也可以跟过来哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404032",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "我怎么会让你就这样带走|101|？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404033",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "等下，你这家伙……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404034",
+          "sourceType": 3,
+          "text": "眩晕感袭来，当下的世界化作模糊的光影，在眼前迅速流转——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404035",
+          "sourceType": 3,
+          "text": "待到一切平息，白昼转为黑夜，周围已经变了模样。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404036",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "你把我们带到了……过去？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404037",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "嗯，确切地说，是那个「重要的夜晚」。|101|应该已经有所察觉了吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404039",
+              "text": "怎么可能……"
+            },
+            {
+              "targetId": "43404039",
+              "text": "真的假的？"
+            }
+          ],
+          "sourceId": "43404038",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404039",
+          "sourceType": 3,
+          "text": "黯淡的月光下，道路的不远处就是FULI总部的高楼。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404040",
+          "sourceType": 0,
+          "speaker": "新闻电台",
+          "text": "「万众瞩目的潮游星系列手办将于明日正式发售，FULI直营旗舰店前已提前排起长龙——」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404041",
+          "sourceType": 0,
+          "speaker": "新闻电台",
+          "text": "「接下来是记者从现场发来的报道——」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404042",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "来自未来的你应该还记得今天晚上将要发生什么。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404044",
+              "text": "所有的潮游星手办失踪了。"
+            },
+            {
+              "targetId": "43404044",
+              "text": "有人盗走了手办们。"
+            }
+          ],
+          "sourceId": "43404043",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404044",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "是的。我想要你做的事，与这起事件密切相关。我想请你——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404045",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "将所有的潮游星手办放走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404046",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "什么意思？难道说……你想让|101|做那起事件的犯人？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404047",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "不对，潮游星手办失踪的真相到底是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404048",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵，只有这样，过去和未来才能形成逻辑上的闭环。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404050",
+              "text": "如果我不这么做呢？"
+            }
+          ],
+          "sourceId": "43404049",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404050",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵，看来目前的信息不足以让你做出决定。那么，请原谅接下来我的「剧透行为」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404051",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "我将直接带你去见事件的真正黑幕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404052",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "小心，不知道她又在卖什么关子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404053",
+          "sourceType": 3,
+          "text": "FULI总部，货运仓库。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404054",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "果然……所有的潮游星手办都已经接近活化了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404055",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这样的话……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404056",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "不好意思，你的图谋要到此为止了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404057",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "啊啦，居然是|101|和亲爱的手办们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404058",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "不对……你是格兰缇娜。你不是还沉睡在包装盒里吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404059",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "我们是来阻止你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404060",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "可是我还什么都没做，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43404062",
+              "text": "其实我也还什么都不知道。"
+            }
+          ],
+          "sourceId": "43404061",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43404062",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "现任管理局总部负责人，阿斯特莱雅，你将在不久之后使用能量石操纵潮游星手办——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404063",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "以建立手办们的理想国为目标，在人类社会犯下空前绝后的重罪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404064",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "呵呵呵，听上去像是我的风格。原来如此……你果真拥有穿越时间的能力？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404065",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "啧，这简直是作弊啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404066",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "潮游星手办拥有接近原著世界的奇异能力，放任人类带走他们，只会带来更多的混乱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404067",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "为手办们探求崭新的未来，既是管理局存在的意义，也是我的责任。但是，|101|……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404068",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我愿意将选择权交给你。是让潮游星手办为新秩序效力，还是让他们成为人类的玩物？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404069",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "手办和人类的美好未来并不冲突。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404070",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "他们大可以在M城四处看看，然后我会找回他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404071",
+          "sourceType": 3,
+          "text": "女人露出了平静的笑容，似乎对这个答案毫不意外。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43404072",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "真是相当贪心的收藏家啊，那就来搭把手，让手办们重获自由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404073",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "如果我没猜错，你就是来自这个走向的未来吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404074",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "哎，善解人意的反派女士，如果我可以忘掉那些血与火的未来就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404075",
+          "sourceType": 0,
+          "speaker": "诺伊尔",
+          "text": "闹了半天，现在我们要把这些手办全部运出去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43404076",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵，这就是通往理想未来的——既定事项哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43404",
+      "sourceRefs": [
+        {
+          "bundle": "urplot",
+          "rowIds": [
+            43404001,
+            43404002,
+            43404003,
+            43404004,
+            43404005,
+            43404006,
+            43404007,
+            43404008,
+            43404009,
+            43404010,
+            43404011,
+            43404012,
+            43404013,
+            43404014,
+            43404015,
+            43404016,
+            43404017,
+            43404018,
+            43404019,
+            43404020,
+            43404021,
+            43404022,
+            43404023,
+            43404024,
+            43404025,
+            43404026,
+            43404027,
+            43404028,
+            43404029,
+            43404030,
+            43404031,
+            43404032,
+            43404033,
+            43404034,
+            43404035,
+            43404036,
+            43404037,
+            43404038,
+            43404039,
+            43404040,
+            43404041,
+            43404042,
+            43404043,
+            43404044,
+            43404045,
+            43404046,
+            43404047,
+            43404048,
+            43404049,
+            43404050,
+            43404051,
+            43404052,
+            43404053,
+            43404054,
+            43404055,
+            43404056,
+            43404057,
+            43404058,
+            43404059,
+            43404060,
+            43404061,
+            43404062,
+            43404063,
+            43404064,
+            43404065,
+            43404066,
+            43404067,
+            43404068,
+            43404069,
+            43404070,
+            43404071,
+            43404072,
+            43404073,
+            43404074,
+            43404075,
+            43404076
+          ],
+          "sectionId": 43404
+        }
+      ],
+      "title": "活动片段 43404"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10063",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10063",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 43404,
+        "table": "ResOpActivityAchieveDetail"
+      },
+      {
+        "cardNpcOverride": {
+          "cardNpcId": 1313,
+          "rowNpcId": null
+        }
+      },
+      {
+        "id": "133",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 43404",
+  "wordCount": 1809
+}

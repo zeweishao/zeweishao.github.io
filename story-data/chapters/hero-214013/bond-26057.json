@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214013",
+  "id": "bond-26057",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26057001",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "主人，为什么一直盯着我看……我的脸上有颜料吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "颜料倒是没有，只是觉得奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "从不知道什么时候开始，拉斐尔好像就一直在偷偷观察我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057004",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还是说，这只是我的错觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057006",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "……这不是主人的错觉，我确实有在观察主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057007",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "这是为了取材。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "取材？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057009",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "因为……从来没有画过主人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以偷偷观察，是觉得不是好意思吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057011",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "不，不是……这是为了给主人一个惊喜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057012",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "但现在……应该不算惊喜了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不，当然算。我还没看到拉斐尔会画出怎样的我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "拉斐尔要送我礼物的话，那我得好好配合才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26057015",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "主，主人……你这是要做什么？！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26057",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26057001,
+            26057002,
+            26057003,
+            26057004,
+            26057005,
+            26057006,
+            26057007,
+            26057008,
+            26057009,
+            26057010,
+            26057011,
+            26057012,
+            26057013,
+            26057014,
+            26057015
+          ],
+          "sectionId": 26057
+        }
+      ],
+      "title": "惊喜"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214013",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "惊喜",
+  "wordCount": 228
+}

@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-213013",
+  "id": "bond-28507",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28507001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "谢谢你陪我重新游历M城。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不客气，不过你看起来兴致不高？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "该去的地方都去了，几乎可以说一个不漏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "可是，不对，完全不对。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "所有的地方就好像一幅空白的没有灵魂的风景画。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "除了看起来很美，它们没能激起我内心丝毫的波澜。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28507008",
+              "text": "回忆只是回忆而已。"
+            },
+            {
+              "targetId": "28507008",
+              "text": "你累了，这就是现实。"
+            }
+          ],
+          "sourceId": "28507007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28507008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "不，我很明确地感受到M城在内心召唤我，这里一定有我所珍视的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "它重要到我无法忽视，我不得不回来确认这件事，才能重新踏上无忧无虑的冒险之旅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "会不会跟这次没有遇到以前的那些人有关？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "……的确，这次故地重游，没能见到以前的老朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "优纪、和江、花迦，还有明智先生和其他的手办们……他们统统不在。也许，我感到失落正是因为这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我的老师大胡子艾瑞克森曾评价过我，说我是一个没有「旅行意义」的冒险家，而这样的冒险家注定是平庸的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "现在我懂了，「旅行意义」就是我所结识的同伴，以及与他们一起欣赏的独特风景。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28507015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "哈，我知道了，答案居然这么简单~\n我之所以渴望回到这里——是因为这里有你呀。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28507",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28507001,
+            28507002,
+            28507003,
+            28507004,
+            28507005,
+            28507006,
+            28507007,
+            28507008,
+            28507009,
+            28507010,
+            28507011,
+            28507012,
+            28507013,
+            28507014,
+            28507015
+          ],
+          "sectionId": 28507
+        }
+      ],
+      "title": "倾听真正的心声"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213013",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "倾听真正的心声",
+  "wordCount": 402
+}

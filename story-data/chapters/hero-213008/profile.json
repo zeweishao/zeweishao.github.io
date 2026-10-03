@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213008",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "《属于夏日的绮丽恋爱物语》中的「克里斯」以全新的运动造型登场！除了招牌的面具造型，身上的运动衫、手持篮球奔跑的姿态等，皆衬托出克里斯帅气的迷人模样。潮流感极强的运动鞋设计，展现出制作者不凡的时尚品味。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213008"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 100
+}

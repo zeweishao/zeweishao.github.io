@@ -1,0 +1,187 @@
+{
+  "bookId": "hero-214018",
+  "id": "bond-29331",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29331001",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "这次我们可以选择偏后期的阵容，担任核心的角色就选我的导师吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你的导师？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331003",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "在屏幕靠下的位置，「阿斯特莱雅」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "原来你指的就是这位最新的角色？胜负就指望她了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331005",
+          "sourceType": 3,
+          "text": "有惊无险的胜利之后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "29331006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "之前，你好像都没提起过导师呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331007",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "她是一个冷血到反而显得温情的人，我不太想提起她。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "29331009",
+              "text": "我懂我懂"
+            },
+            {
+              "targetId": "29331009",
+              "text": "毕竟是师生关系……"
+            }
+          ],
+          "sourceId": "29331008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "29331009",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "开始匹配下一局吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我发觉……虽然希塔帮我赢了很多局游戏，但我其实并不了解希塔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331011",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331012",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "我的个人情报在资料网站上都有记录，或者你可以查我给你写的角色上分攻略——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那是「希塔」，不是希塔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我想了解正站在我面前的你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331015",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "……这是什么意思?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也就是说，我们可以多交流一些个人话题？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331017",
+          "sourceType": 0,
+          "speaker": "希塔",
+          "text": "个人……话题？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29331018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "比如，你在这里过得还愉快吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29331",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29331001,
+            29331002,
+            29331003,
+            29331004,
+            29331005,
+            29331006,
+            29331007,
+            29331008,
+            29331009,
+            29331010,
+            29331011,
+            29331012,
+            29331013,
+            29331014,
+            29331015,
+            29331016,
+            29331017,
+            29331018
+          ],
+          "sectionId": 29331
+        }
+      ],
+      "title": "希塔与「希塔」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214018",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "希塔与「希塔」",
+  "wordCount": 288
+}

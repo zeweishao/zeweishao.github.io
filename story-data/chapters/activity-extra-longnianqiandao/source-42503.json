@@ -1,0 +1,165 @@
+{
+  "bookId": "activity-extra-longnianqiandao",
+  "id": "source-42503",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "42503001",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "今晚的星空如此美丽，可以的话，陪我赏星如何？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "42503003",
+              "text": "听起来很不错。"
+            },
+            {
+              "targetId": "42503003",
+              "text": "你很喜欢星星？"
+            }
+          ],
+          "sourceId": "42503002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "42503003",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "我们都应该偶尔放松一下，尤其是在今天这样美丽的夜晚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503004",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "看那里，猎户座闪耀于夜幕之上，多么壮观。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的很美，你一定对星空很了解吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503006",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "于星群之间流浪的人，自然会比其他人更了解这片星空。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503007",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "然而此时此刻，相较于夜空中的繁星，我却觉得你更有趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503009",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "在你的眼中，我看到了人类未来的一种美丽的新图景。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503010",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "这幅图景是如此美妙，就连群星的光芒也变得黯然失色。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔唔，你真会说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503012",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "今夜，漫天繁星将为你起舞，为你献上最甜蜜的祝福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "42503013",
+          "sourceType": 0,
+          "speaker": "阿斯特莱雅",
+          "text": "你眼中的图景所昭示的那个未来，我将和你共同见证，直至最后一刻。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "42503",
+      "sourceRefs": [
+        {
+          "bundle": "longnianqiandao",
+          "rowIds": [
+            42503001,
+            42503002,
+            42503003,
+            42503004,
+            42503005,
+            42503006,
+            42503007,
+            42503008,
+            42503009,
+            42503010,
+            42503011,
+            42503012,
+            42503013
+          ],
+          "sectionId": 42503
+        }
+      ],
+      "title": "活动片段 42503"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10048",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10048",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 42503,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 42503",
+  "wordCount": 269
+}

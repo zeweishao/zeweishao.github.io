@@ -1,0 +1,161 @@
+{
+  "bookId": "minigame-xiuxiangame",
+  "id": "source-37409",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "37409001",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "抓到你了，坏蛋！\n就是你在和江身上涂了猫薄荷，打开主人家的窗户，派出橘色野猫袭击我们吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409002",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "我的手下全都在这了，你自己看，哪有橘色的？\n什么程度的色盲才会连灰色都认不清，真可怜喵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "一、一定是藏起来了！而且，我闻到这里有猫薄荷的味道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409004",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "|101|可是亲口同意把花圃借给我，用作小弟的训练场。\n布置一些训练道具，难道不是理所当然的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409005",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "那么明显的“薄荷炸弹”都能踩中，本来以为你有色盲症，原来仅仅是眼瞎而已呀，吓我一跳。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "难道说，小区花圃里的“水洼”其实是......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来，一切只是巧合？我们明明辛苦调查了这么久......\n不过，和江没有被坏人盯上，真是太好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409008",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "巧合喵、陷阱喵，人总是喜欢找各种借口来掩饰自己的愚蠢。\n问完了就快点走吧，接下来是我们梳毛的时间了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409009",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "对了，最后给你一句善意的提醒：\n如果你的朋友没有踩中猫薄荷陷阱，说不定——被抓走的，就是你了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409010",
+          "sourceType": 0,
+          "speaker": "米菲亚",
+          "text": "喵呜，我可真是个大好人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409011",
+          "sourceType": 0,
+          "speaker": "野猫小黄",
+          "text": "喵呜~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409012",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "你做得很好。再去找更多的“优纪”回来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37409013",
+          "sourceType": 0,
+          "speaker": "阿撒兹勒",
+          "text": "我一定会找到你......我的“优纪”。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37409",
+      "sourceRefs": [
+        {
+          "bundle": "xiuxiangame",
+          "rowIds": [
+            37409001,
+            37409002,
+            37409003,
+            37409004,
+            37409005,
+            37409006,
+            37409007,
+            37409008,
+            37409009,
+            37409010,
+            37409011,
+            37409012,
+            37409013
+          ],
+          "sectionId": 37409
+        }
+      ],
+      "title": "爬塔关卡 30 · 结算"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "30",
+              "result_avg_id"
+            ],
+            "table": "ResClimbTower.lua"
+          }
+        ],
+        "path": [
+          "30",
+          "result_avg_id"
+        ],
+        "sectionId": 37409,
+        "table": "ResClimbTower"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "爬塔关卡 30 · 结算",
+  "wordCount": 421
+}

@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-213204",
+  "id": "bond-27518",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27518001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天见到结月，也是在看书呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518002",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "琐碎的时间需要被利用起来，日常也需要如此才能被填补的充实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518003",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "否则夹在一大堆空虚的碎片中，整个人也会变得懒散起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "总感觉好像被指桑骂槐了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那看来我应该离开了？再聊下去应该会打扰到你看书吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518006",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "没关系，不会打扰，毕竟闲聊也是人生意义的一环，因为可以从其他人那吸收到额外的信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518007",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "刚才也说了吧，我现在读书也只是为了填充一些琐碎时间，闲聊也可以发挥同样的作用。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "即便这种事情也能赋予正经的意义吗，结月还真是厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518009",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "这种厉害究竟是夸赞还是单纯的吐槽还真是不好令人判断呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "哈哈~这些细节就不要在意了，话说回来结月刚才看的是什么。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518011",
+          "sourceType": 0,
+          "speaker": "星野结月",
+          "text": "你要是感兴趣的话给你看看也没关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "《关于麦克斯韦和法拉第不得不说的故事》……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27518013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "？？？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27518",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27518001,
+            27518002,
+            27518003,
+            27518004,
+            27518005,
+            27518006,
+            27518007,
+            27518008,
+            27518009,
+            27518010,
+            27518011,
+            27518012,
+            27518013
+          ],
+          "sectionId": 27518
+        }
+      ],
+      "title": "读书"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "读书",
+  "wordCount": 307
+}

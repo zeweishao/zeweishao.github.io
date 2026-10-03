@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-211006",
+  "id": "bond-29321",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "29321001",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "自从成为手办后，我便与曾经侍奉的「武田家」失去了联络。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321002",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "尽管至今都没能接受这个现实，不过好在我早就适应了现在的生活。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321003",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "可以肯定的是，我的言行无愧于武士道的信仰，没有给「真田家」和「武田家」丢过脸。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你如何看待「武士道」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321005",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "所谓「武士道」的精髓，在于「忠义」和「克己」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321006",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "「忠义」不必多说，就是忠于自己的主子，也就是侍奉的对象。这点很多武士都可以做到，我没什么特别的啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321007",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "至于「克己」嘛，其实也没那么复杂啦，就是每日坚持武道修炼，做一件于己于人都有益的事情，纵然很微小也有它的意义~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么说你做了很多……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321009",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "没错~！扶老奶奶和小不点过马路这件事，我已经做了不下二百多次。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些所谓的老奶奶和小不点难道是？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321011",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "是的，你没有猜错，他们就是生活在人类身边的手办和玩具们哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321012",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "虽然没有战场杀敌来的爽快，可是看到老太太欣慰的表情还真是发自内心的愉悦呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不得不说，你真的很乐观。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "29321014",
+          "sourceType": 0,
+          "speaker": "真田幸村",
+          "text": "嘿嘿，我可是永远正直阳光，永远乐观且上进，如同暖洋洋的「小太阳」哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "29321",
+      "sourceRefs": [
+        {
+          "bundle": "p3_jiacheng",
+          "rowIds": [
+            29321001,
+            29321002,
+            29321003,
+            29321004,
+            29321005,
+            29321006,
+            29321007,
+            29321008,
+            29321009,
+            29321010,
+            29321011,
+            29321012,
+            29321013,
+            29321014
+          ],
+          "sectionId": 29321
+        }
+      ],
+      "title": "何为「武士道」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211006",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "何为「武士道」",
+  "wordCount": 403
+}

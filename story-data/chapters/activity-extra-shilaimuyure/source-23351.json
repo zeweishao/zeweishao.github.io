@@ -1,0 +1,116 @@
+{
+  "bookId": "activity-extra-shilaimuyure",
+  "id": "source-23351",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "23351001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今天依旧是我来替大家带来FULI公司新联动手办的说明。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "如果你愿意多花一点时间听完，你就会发现你多花了一点时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人今天竟然连伪装都不愿意多伪装一下了吗？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我们还是赶快进入正题吧——两位魔王手办的具体信息。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好吧。两位魔王手办，即将于本周发行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "所以……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以关于两位魔王手办的情报，你发行完那天就会知道了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "23351008",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "……我早该知道的，今天也是丝毫没有进展的一天。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "23351",
+      "sourceRefs": [
+        {
+          "bundle": "shilaimuyure",
+          "rowIds": [
+            23351001,
+            23351002,
+            23351003,
+            23351004,
+            23351005,
+            23351006,
+            23351007,
+            23351008
+          ],
+          "sectionId": 23351
+        }
+      ],
+      "title": "活动片段 23351"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "180",
+              "27",
+              "2",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "180",
+          "27",
+          "2",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 23351,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 23351",
+  "wordCount": 174
+}

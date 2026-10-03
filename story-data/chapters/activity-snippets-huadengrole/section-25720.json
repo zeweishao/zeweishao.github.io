@@ -1,0 +1,119 @@
+{
+  "bookId": "activity-snippets-huadengrole",
+  "id": "section-25720",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25720001",
+          "sourceType": 10,
+          "text": "温柔的坚持",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "25720002",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "呼，这就是花迦的花灯工作台吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25720003",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "它真漂亮，谢谢主人为我准备的这些，花迦会好好表现的。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25720005",
+              "text": "觉得紧张吗？"
+            }
+          ],
+          "sourceId": "25720004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25720005",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "有、有一点点，不过花迦会努力克服的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25720006",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦提前查阅了很多有关花灯制作这方面的书籍，也通过主人的平板电脑观看了不少教学视频。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25720007",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "所以花迦多少还是对花灯制作有一些认识的，不至于头脑一片空白。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25720009",
+              "text": "认真的花迦真可爱。"
+            }
+          ],
+          "sourceId": "25720008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25720009",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "被、被主人夸奖了呢，好开心，花迦会努力做出让主人满意的花灯的~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25720",
+      "sourceRefs": [
+        {
+          "bundle": "huadengrole",
+          "rowIds": [
+            25720001,
+            25720002,
+            25720003,
+            25720004,
+            25720005,
+            25720006,
+            25720007,
+            25720008,
+            25720009
+          ],
+          "sectionId": 25720
+        }
+      ],
+      "title": "温柔的坚持"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 25720,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "43",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "花迦的花灯工作台解锁了，这位认真温柔的南国少女一定会为主人带来不一样的惊喜。",
+  "title": "温柔的坚持",
+  "wordCount": 182
+}

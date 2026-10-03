@@ -1,0 +1,114 @@
+{
+  "bookId": "rewind-12",
+  "id": "source-17220",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "17220001",
+          "sourceType": 0,
+          "speaker": "玩具兔",
+          "text": "你堆的雪人无论看多少次都不会觉得厌倦！究竟怎么做到的，偶尔也教教我呗～",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220002",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "如果没有纯白晶莹的雪花，我是做不到这些的。\n我相信冰雪是上天的恩赐，预示着新的一年将会有一个美好的开始。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220003",
+          "sourceType": 0,
+          "speaker": "玩具兔",
+          "text": "难怪最近几天总能看到街市上人来人往，原来是为了迎接新春佳节。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220004",
+          "sourceType": 0,
+          "speaker": "玩具兔",
+          "text": "冰雪虽然很美，可是对塑料制成的身体还是会有损害，所以我没办法像你这样坦荡地喜欢冰雪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220005",
+          "sourceType": 0,
+          "speaker": "玩具兔",
+          "text": "今天的这个雪人，比优纪她们堆得要好看很多，真想看看优纪见到这个雪人时的表情啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220006",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "不知道优纪、和江她们在做些什么呢，恰逢新春佳节，优纪她们肯定准备了神秘的惊喜，一起去人类|101|的家里看看也好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17220007",
+          "sourceType": 0,
+          "speaker": "玩具兔",
+          "text": "诶？！快看快看，那边！开过来的那辆车上有什么东西掉落下来了——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17220",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17220001,
+            17220002,
+            17220003,
+            17220004,
+            17220005,
+            17220006,
+            17220007
+          ],
+          "sectionId": 17220
+        }
+      ],
+      "title": "视频配套对白 17220"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "5013",
+              "talk_id"
+            ],
+            "table": "ResVideoTalk.lua"
+          }
+        ],
+        "path": [
+          "5013",
+          "talk_id"
+        ],
+        "sectionId": 17220,
+        "table": "ResVideoTalk",
+        "videoPath": "Videos/AVG_kula_snow.mp4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "视频 5013 配套文字",
+  "title": "视频配套对白 17220",
+  "wordCount": 286
+}

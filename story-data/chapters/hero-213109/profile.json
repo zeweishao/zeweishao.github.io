@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213109",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「仲村百合」化身为1/7比例模型登场！战线的领导者从不畏惧前方的危局，坚定的姿态始终是引领众人的旗帜。本次的作战即将开始了。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213109"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 62
+}

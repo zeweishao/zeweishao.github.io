@@ -1,0 +1,160 @@
+{
+  "bookId": "hero-213019",
+  "id": "bond-28581",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28581001",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "啊，这个动力耦合器的设计真是让人头疼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581002",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "如果有谁在这个时候来打扰我，我的脑袋可就要短路了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581003",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "咳，所以你知道该怎么做，对吧？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28581005",
+              "text": "没问题，我会替你赶走打扰者们的。"
+            },
+            {
+              "targetId": "28581005",
+              "text": "照顾你，就像照顾我自己一样自然。"
+            }
+          ],
+          "sourceId": "28581004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28581005",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "哼哼，你还挺会讨人喜欢的嘛，勉强就选你做我的「专属助理」吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581006",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "不过，我可是「极端思维」机甲研发管线的负责人，怎么说也算个了不起的超级大设计师。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581007",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "既然要做我的「专属助理」，有些事就不得不提前跟你讲清楚。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581008",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "你要听好哦，我只讲一遍。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28581010",
+              "text": "洗耳恭听，你请说吧。"
+            }
+          ],
+          "sourceId": "28581009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28581010",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "第一，研发环境要一尘不染。房间的角角落落都要保证绝对干净，就连地砖的缝隙也不能放过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581011",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "第二，要有恰好的气温和适宜的湿度，还要备齐各种小零食，和随时可以让我休息的休眠仓。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581012",
+          "sourceType": 3,
+          "text": "半小时后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "28581013",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "第……说到哪里了？哎呀不管了。\n总之，你要让我开开心心、舒舒服服的，待在这里就像回到自己家一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28581014",
+          "sourceType": 0,
+          "speaker": "西蒂斯",
+          "text": "嗯嗯，你的工作内容已经很清楚了，快去干活吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28581",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28581001,
+            28581002,
+            28581003,
+            28581004,
+            28581005,
+            28581006,
+            28581007,
+            28581008,
+            28581009,
+            28581010,
+            28581011,
+            28581012,
+            28581013,
+            28581014
+          ],
+          "sectionId": 28581
+        }
+      ],
+      "title": "专属助理"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213019",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "专属助理",
+  "wordCount": 369
+}

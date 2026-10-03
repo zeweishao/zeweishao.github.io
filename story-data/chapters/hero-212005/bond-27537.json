@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-212005",
+  "id": "bond-27537",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27537001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "家里变得好干净！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些都是你打扫的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537003",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "真是惭愧，以前这些清洁工作，末将一炷香的功夫就够了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537004",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "塑料制成的身体，多少还是会给行动造成一些阻碍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你已经做得很好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537006",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "等一下，主公！\n快把身上的衣物褪下！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537008",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "您的白衣上沾了油渍！\n趁油渍未干，请速速脱下，由末将拿去清洗！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……不用了，我用洗衣机洗就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537010",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "主公千金之躯，这种小事哪用得着您亲自动手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537011",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "食君之禄，为君分忧。以后这些事，全部都交给末将来做吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的不用……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537013",
+          "sourceType": 0,
+          "speaker": "赵云",
+          "text": "这是现在这幅身躯的我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27537014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27537",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27537001,
+            27537002,
+            27537003,
+            27537004,
+            27537005,
+            27537006,
+            27537007,
+            27537008,
+            27537009,
+            27537010,
+            27537011,
+            27537012,
+            27537013,
+            27537014
+          ],
+          "sectionId": 27537
+        }
+      ],
+      "title": "家政全能"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212005",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "家政全能",
+  "wordCount": 211
+}

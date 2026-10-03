@@ -1,0 +1,253 @@
+{
+  "bookId": "hero-215204",
+  "id": "bond-43810",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43810001",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "呵，欢迎来到……魔女的茶会。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810003",
+              "text": "哦。"
+            },
+            {
+              "targetId": "43810003",
+              "text": "好的。"
+            }
+          ],
+          "sourceId": "43810002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810003",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "反应有点冷淡。能参加我的茶会的机会可不常有，而且你还是唯一的客人。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810005",
+              "text": "茶点还都是我准备的。"
+            }
+          ],
+          "sourceId": "43810004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810005",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "嗯……红茶涂料的味道真不错。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810007",
+              "text": "自顾自地岔开话题了啊……"
+            }
+          ],
+          "sourceId": "43810006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810007",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "知道吗？你和我在此共进下午茶，其实是世界的选择。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810008",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "倘若这次茶会没有如期举行，可是多元宇宙级别的危机事态。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810010",
+              "text": "啊？"
+            },
+            {
+              "targetId": "43810010",
+              "text": "这只是一场普通的茶会？"
+            }
+          ],
+          "sourceId": "43810009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810010",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "在你缺席茶会之后，82.5%的未来里M城的秩序陷入崩溃，手办们流离失所。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810011",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "8.5%的未来里天启组织操纵了管理局，余下的未来里神秘外星势力到来，毁灭了世界。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810013",
+              "text": "为什么？！"
+            },
+            {
+              "targetId": "43810013",
+              "text": "真的假的？"
+            }
+          ],
+          "sourceId": "43810012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810013",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "但现在你来参加了茶会，成功提升了某位魔女小姐的好感度，这些悲剧性的未来都不会上演了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810015",
+              "text": "所以问题的关键在于你？"
+            }
+          ],
+          "sourceId": "43810014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810015",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "不，问题的关键在于……你和我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810016",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "今后就让我们一起努力，避免世界走向毁灭吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810017",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "当然，真到了无计可施的时候，我就带着你跑路。找个时间缝隙待着避避风头好了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43810019",
+              "text": "你的话总是这么超现实。"
+            },
+            {
+              "targetId": "43810019",
+              "text": "听不懂你在说什么。"
+            }
+          ],
+          "sourceId": "43810018",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43810019",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "抱歉抱歉，上了年纪，多余的话就变多了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810020",
+          "sourceType": 0,
+          "speaker": "格兰缇娜",
+          "text": "但无论如何，我们一起喝下午茶，是绝对不会错的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43810021",
+          "sourceType": 3,
+          "text": "馥郁的茶香里，魔女的茶会就这样开始了。",
+          "type": "narration"
+        }
+      ],
+      "id": "43810",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43810001,
+            43810002,
+            43810003,
+            43810004,
+            43810005,
+            43810006,
+            43810007,
+            43810008,
+            43810009,
+            43810010,
+            43810011,
+            43810012,
+            43810013,
+            43810014,
+            43810015,
+            43810016,
+            43810017,
+            43810018,
+            43810019,
+            43810020,
+            43810021
+          ],
+          "sectionId": 43810
+        }
+      ],
+      "title": "世界系茶会"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "215204",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "世界系茶会",
+  "wordCount": 446
+}

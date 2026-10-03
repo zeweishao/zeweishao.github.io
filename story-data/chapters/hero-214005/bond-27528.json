@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-214005",
+  "id": "bond-27528",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27528001",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "那封信，主公拆开看过了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然没有，你不是说今日拆开吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528003",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "嗯，请。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……故意用来捉弄我的信，现在拆开有什么作用？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "只要我做出没看过的样子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯？？这个是？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528007",
+          "sourceType": 0,
+          "speaker": "装满钱的信封",
+          "text": "今日闲暇，可否请主公竹亭一游？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这，这怎么可能，我之前打开的时候……额，我的意思是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528009",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "主公无需再解释了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528010",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "这封信上有一行特殊的墨水，只有和光线接触过，才会渐渐浮现出来，覆盖原来的文字，反应的时间会很缓慢，大抵三天左右。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528011",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "算算时间，现在正好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……你算计我？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528013",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "并非算计，只是为了勾起主公好奇。到了这时候，主公便会愿意主动空出时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你正常邀请，我不也能空出时间吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27528015",
+          "sourceType": 0,
+          "speaker": "明智光秀",
+          "text": "正常的邀请，又怎能看见主公如此有趣的神情？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27528",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27528001,
+            27528002,
+            27528003,
+            27528004,
+            27528005,
+            27528006,
+            27528007,
+            27528008,
+            27528009,
+            27528010,
+            27528011,
+            27528012,
+            27528013,
+            27528014,
+            27528015
+          ],
+          "sectionId": 27528
+        }
+      ],
+      "title": "信"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214005",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "信",
+  "wordCount": 272
+}

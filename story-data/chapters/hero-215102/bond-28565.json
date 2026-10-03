@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-215102",
+  "id": "bond-28565",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28565001",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "青儿越发缠人得紧，好不容易才脱开了身。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565002",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "官人约我在此相见，所为何事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "想把这个送给你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565004",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "好一座建在莲花池上的戏台，官人果然是最懂我的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565005",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "有了这个戏台，我便能更加专心地练习唱曲儿了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565006",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "无论你想听些什么，我都可以唱给你听。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "果然还是想听《白蛇传》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565008",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "若要唱那《白蛇传》，我可还缺一位好搭档，官人来为我配戏如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "愿意勉力一试。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565010",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "「相逢犹恨相识晚，西湖同舟非偶然。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565011",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "「患难才把人心见，知心相遇实有缘。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565012",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "明明是听过和唱过许多遍的曲子，我却早已分不清什么是戏，什么是现实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28565013",
+          "sourceType": 0,
+          "speaker": "白素贞",
+          "text": "——官人就陪我一同将这支曲儿唱下去吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28565",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28565001,
+            28565002,
+            28565003,
+            28565004,
+            28565005,
+            28565006,
+            28565007,
+            28565008,
+            28565009,
+            28565010,
+            28565011,
+            28565012,
+            28565013
+          ],
+          "sectionId": 28565
+        }
+      ],
+      "title": "「戏痴」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215102",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「戏痴」",
+  "wordCount": 242
+}

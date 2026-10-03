@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-214004",
+  "id": "bond-26038",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26038001",
+          "sourceType": 0,
+          "speaker": "桑尼第二人格",
+          "text": "幻觉？障眼法？海市蜃楼？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038002",
+          "sourceType": 0,
+          "speaker": "桑尼第三人格",
+          "text": "不，是一栋客观存在的豪华别墅——换言之，手办屋。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "果然，梦是一种预言。这间房子和我经常梦到的一模一样——\n不过，还欠缺一些软装。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "桑尼亲手装扮过，房子才有灵魂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "不过......真的可以收下吗？我不知道用什么才能偿还。\n但是，要拒绝如此合心意的礼物也太困难了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "桑尼会努力把这间房子经营成M城名店，大赚一笔！\n然后送给你很多漂亮的羽毛，怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你可以每天为我占一卦，慢慢还清就好。\n桑尼是最出色的灵媒师，请你占卜的价格一定不低吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038008",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "话是这么说，但是......早就已经没有办法为你占卜了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "为什么呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038010",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "灵媒师看不清自己的命运。正因如此，如果对别人心动......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038011",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "两个人的灵魂紧紧联结在一起，就会像融化的巧克力一样，黏糊糊地......\n一起模糊掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所以......之前才会看不清我的未来吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038013",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "嗯......不过，我可以一直陪在你身边。\n当灵魂感到疲惫的时候，就来我这里休息一下吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26038014",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "我会一直等待着你，在这间房子里，还有......你希望我出现在梦里的时候。从现在开始，每一次。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26038",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26038001,
+            26038002,
+            26038003,
+            26038004,
+            26038005,
+            26038006,
+            26038007,
+            26038008,
+            26038009,
+            26038010,
+            26038011,
+            26038012,
+            26038013,
+            26038014
+          ],
+          "sectionId": 26038
+        }
+      ],
+      "title": "名店"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214004",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "名店",
+  "wordCount": 446
+}

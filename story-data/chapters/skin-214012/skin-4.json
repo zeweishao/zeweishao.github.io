@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-214012",
+  "id": "skin-4",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "礼堂中，蓝莎擦拭女孩额上的伤口。\n「我以为没有人会冒着生命危险来这里。」\n\n过去，人们总是参加仪式，向上天祈求恩惠。但随着灾难降临，许多人已将传统遗忘。\n\n「爸爸说，无论黑夜怎样漫长，白昼总会到来。」女孩看向天空，虔诚地祈祷希望降临。\n\n月光清明如水，照在两人的身上，像是泛起了一圈白雾。\n\n礼堂中响起了蓝莎圣洁的歌声。\n\n——该特别款仅可通过「圣诞派对」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "纯洁圣音Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "214012",
+        "skinId": "skin-4"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "蓝莎·纯洁圣音Ver.",
+  "title": "纯洁圣音Ver.",
+  "wordCount": 171
+}

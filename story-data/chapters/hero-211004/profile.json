@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211004",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气掌机游戏《半岛》中的「苍岚」化身为1/7比例模型登场！传统与现代感并存的骑士风着装，洒脱不羁的站姿，以及迷人帅气的紫色短发，被细腻地一一呈现出来。就连苍岚手中持有的大剑的各种细节，也被用心地塑造和制作了出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211004"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 107
+}

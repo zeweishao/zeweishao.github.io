@@ -1,0 +1,164 @@
+{
+  "bookId": "hero-213014",
+  "id": "bond-28555",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28555001",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "在我们头顶闪烁的，是遥远的星体所形成的构图。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "很漂亮。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555003",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "也非常浪漫。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555004",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "它们是人们所能看见的最古老的事物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555005",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "也是最为纯粹的恒久之物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我有点理解你的追求了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555007",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "是吗，说说看。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28555009",
+              "text": "你在追求永恒的美好。"
+            },
+            {
+              "targetId": "28555009",
+              "text": "你在追求纯粹的浪漫"
+            }
+          ],
+          "sourceId": "28555008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28555009",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "如果这样就让你猜透了，那我不是很无趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555010",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "淡淡的香气钻入了你的鼻腔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555011",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "稍微有些困了，让我在你身上靠一会儿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555012",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "想听我讲讲童话吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "当然了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555014",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "严格地说，这并不是童话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28555015",
+          "sourceType": 0,
+          "speaker": "尤兰达",
+          "text": "很久很久以前有一对恋人，他们之间隔着遥远的银河……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28555",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28555001,
+            28555002,
+            28555003,
+            28555004,
+            28555005,
+            28555006,
+            28555007,
+            28555008,
+            28555009,
+            28555010,
+            28555011,
+            28555012,
+            28555013,
+            28555014,
+            28555015
+          ],
+          "sectionId": 28555
+        }
+      ],
+      "title": "题为星空"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213014",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "题为星空",
+  "wordCount": 198
+}

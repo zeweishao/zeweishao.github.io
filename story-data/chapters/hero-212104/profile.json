@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212104",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "八星魔王之一「利姆鲁」化身为1/7比例模型登场！命运般的穿越之后，利姆鲁·特恩佩斯特踏上了成为魔王的征途。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212104"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 53
+}

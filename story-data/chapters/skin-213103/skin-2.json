@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213103",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "苍绿色双马尾的可爱少女手里提着购物袋，脚步轻盈地走在晴朗天空下。天气正好的今天，我们不妨一起出门逛街吧~\n\n      ——该特别款仅限特定联动活动专属应援活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "阳光假期Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213103",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "初音未来·阳光假期Ver.",
+  "title": "阳光假期Ver.",
+  "wordCount": 74
+}

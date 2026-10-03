@@ -1,0 +1,99 @@
+{
+  "bookId": "hero-214102",
+  "id": "bond-26061",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26061001",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "你回来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这些茶具是你布置的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061003",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "是的。看到这套茶具，想起一些之前的事。\n反应过来的时候，已经不自觉地摆好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是想起了......在8号灯塔发生的事吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061005",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "嗯。隐约记得，当时会和朋友一起，在草坪上办简单的茶会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061006",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "虽然手办不能喝茶，但通过茶会，可以和值得信赖的人缔结羁绊——这一点是没有变的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061007",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "所以，要一起泡杯茶，放松一下吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26061008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我明白了。\n那么，把握眼前的时光，多留下一些美好的回忆吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26061",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26061001,
+            26061002,
+            26061003,
+            26061004,
+            26061005,
+            26061006,
+            26061007,
+            26061008
+          ],
+          "sectionId": 26061
+        }
+      ],
+      "title": "茶会"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214102",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "茶会",
+  "wordCount": 184
+}

@@ -1,0 +1,40 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-3555",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "3555001",
+          "sourceType": 3,
+          "text": "击败了女王",
+          "type": "narration"
+        }
+      ],
+      "id": "3555",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            3555001
+          ],
+          "sectionId": 3555
+        }
+      ],
+      "title": "原文片段 3555"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 3555
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 3555",
+  "wordCount": 5
+}

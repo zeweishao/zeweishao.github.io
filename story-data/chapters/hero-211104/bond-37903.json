@@ -1,0 +1,155 @@
+{
+  "bookId": "hero-211104",
+  "id": "bond-37903",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "37903001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "好了，小奏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903002",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我到了……植物园。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "所有的设施和花草都是按照手办比例布置的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903004",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "就像回到了学校里一样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903005",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "为什么要送给我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这是奖励，这段时间手办们得到了你的很多帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903007",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "我并没有做得很好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "并不是哦，看这些。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903009",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "这是……?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "给「天使小姐」的感谢信，是手办们亲手写的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903011",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903013",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "……我只是很高兴，有大家在我身边。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "那是当然的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "37903015",
+          "sourceType": 0,
+          "speaker": "立华奏",
+          "text": "有些话……想要对你说。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "37903",
+      "sourceRefs": [
+        {
+          "bundle": "abjiban",
+          "rowIds": [
+            37903001,
+            37903002,
+            37903003,
+            37903004,
+            37903005,
+            37903006,
+            37903007,
+            37903008,
+            37903009,
+            37903010,
+            37903011,
+            37903012,
+            37903013,
+            37903014,
+            37903015
+          ],
+          "sectionId": 37903
+        }
+      ],
+      "title": "天使与感谢信"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "211104",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "天使与感谢信",
+  "wordCount": 160
+}

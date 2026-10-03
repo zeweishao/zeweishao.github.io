@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-215003",
+  "id": "skin-5",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「你也是第一次来拍卖会吗？」\n\n真恋小心翼翼地坐在豪华沙发上，有些紧张地握着号码牌，目光紧紧盯着聚光灯下的拍卖品。\n\n「没关系的，不要紧张。」\n\n真恋深吸一口气，认真地看着你：\n\n「你喜欢哪个，我拍下来给你。」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·刺金玫瑰Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215003",
+        "skinId": "skin-5"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "真恋·闪亮·刺金玫瑰Ver.",
+  "title": "闪亮·刺金玫瑰Ver.",
+  "wordCount": 97
+}

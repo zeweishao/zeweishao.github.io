@@ -1,0 +1,206 @@
+{
+  "bookId": "hero-213207",
+  "id": "bond-43815",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43815001",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "在找什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43815002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一个全新的手办屋，昨天晚上就放在这里。那是送给你的礼物……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43815003",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "哦，你说那个呀——不就在你眼前吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43815004",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "我看到上面写的自己的名字，就忍不住做了些小改装。你喜欢吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43815005",
+          "sourceType": 3,
+          "text": "工作台上摆着一个全然陌生的手办屋，看起来像是……彩虹被打翻在了上面。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "43815006",
+          "sourceType": 3,
+          "text": "的确，如果仔细查看的话——至少在建筑结构方面，依稀还能找到之前的影子。",
+          "type": "narration"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43815008",
+              "text": "挺不错的。"
+            },
+            {
+              "targetId": "43815008",
+              "text": "很有你的风格。"
+            }
+          ],
+          "sourceId": "43815007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43815008",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "哼，说得也太敷衍了，其实只是客套话吧。过来，看着我的眼睛告诉我——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43815009",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "如果让你和我一起住在这样的房子里，你愿意吗？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43815011",
+              "text": "这又不可能。"
+            },
+            {
+              "targetId": "43815011",
+              "text": "我住不进去的。"
+            }
+          ],
+          "sourceId": "43815010",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43815011",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "还记得我说过的吗？只要想做，总会有办法。我可以改变世界~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43815013",
+              "text": "你……打算做什么？"
+            }
+          ],
+          "sourceId": "43815012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43815013",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "别管那么多，先回答我的问题。是愿意呢，还是，愿意呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43815015",
+              "text": "愿意的吧。"
+            },
+            {
+              "targetId": "43815015",
+              "text": "这不是根本没得选吗。"
+            }
+          ],
+          "sourceId": "43815014",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43815015",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "好耶！那么恭喜你，心愿要成真了！",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43815017",
+              "text": "什么意思？"
+            }
+          ],
+          "sourceId": "43815016",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43815017",
+          "sourceType": 0,
+          "speaker": "可露莎",
+          "text": "一个晚上很长，我可不止改装了这一个地方哦~现在，打开你的卧室门，迎接惊喜吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43815",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43815001,
+            43815002,
+            43815003,
+            43815004,
+            43815005,
+            43815006,
+            43815007,
+            43815008,
+            43815009,
+            43815010,
+            43815011,
+            43815012,
+            43815013,
+            43815014,
+            43815015,
+            43815016,
+            43815017
+          ],
+          "sectionId": 43815
+        }
+      ],
+      "title": "创意改造挑战"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213207",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "创意改造挑战",
+  "wordCount": 366
+}

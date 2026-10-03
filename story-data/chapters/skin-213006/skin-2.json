@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213006",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "武道的修习没有止境，亦不应囿于传统。仓田武道本家的继承人踏出了未曾尝试的一步——以猫为师。\n\n灰发少年的目光中没有一丝阴霾，他放松的姿态也绝无一点破绽。\n\n向猫学习吧，掌握猫之狡黠、猫之机警、猫之敏捷、猫之轻盈……以及猫之本能。自由自在，以臻极意。\n\n修行从来就不是什么麻烦的事，吃饭喝水亦能是修行。\n\n",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "喵学派修行Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213006",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "仓田龙马·喵学派修行Ver.",
+  "title": "喵学派修行Ver.",
+  "wordCount": 144
+}

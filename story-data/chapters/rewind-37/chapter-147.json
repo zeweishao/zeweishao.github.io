@@ -1,0 +1,945 @@
+{
+  "bookId": "rewind-37",
+  "id": "chapter-147",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34000001",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我刚才听了一首歌，你猜是什么歌？\n是没有你，我心如刀割。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000002",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "这是我的手背。这是我的脚背。\n你知道，你是我的，小宝贝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "假如你到了一个地方，那里没有门，没有窗。\n别担心，那里，是我的心房。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000004",
+          "sourceType": 3,
+          "text": "一个平和的午后。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34000005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "嗯，这书里的内容，实在是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000006",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "实在是丧心病狂。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000007",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "哼，真是不识货的女人，这可是我费尽心血编撰的《搭讪秘籍》。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我疗愈蛙皇，能拥有无数粉丝，迷倒万千少女，靠的就是风趣幽默的口才，还有——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000009",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "我这英俊的容颜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000010",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "太吵了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000011",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "你干什么？我警告你，我这把手里剑可是见血封喉的！\n吸溜——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000012",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "你怎么不怕……别，别过来！\n我做错了什么！抓我也要有一个理由吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000013",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "通讯机，管理局专门为手办上网而研发。本是造福手办的工具，却被用来诈骗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我们盯上你也已经很久了。你是自己交代，还是需要我们……帮一点小忙？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000015",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "我说，我说……其实这很简单的。只要用上《搭讪秘籍》的人设和台词就行了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000016",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "谁会被这种东西骗到，一派胡言……\n算了，先在你身上开几个洞吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000017",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "别打别打，我说的都是实话呀！那些恋爱脑和文艺青年，根本就看不出我在扮演人设。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000018",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "她们还以为我是上天派来的知己的呢。但其实我都是照着台词念的，好骗得很。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000019",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "什么文学啊，艺术啊，不用人设我哪懂啊？不过，到最后，还是我的博爱之心赢了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000020",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "不以为耻，反以为荣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000021",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "不要给弩箭上膛啊！我还有很多书呢，全是精华中的精华，都给你们！放过我吧！救命啊！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000022",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "谁在那边，滚出来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000023",
+          "sourceType": 0,
+          "speaker": "天才战斗兔",
+          "text": "我是不会让你们伤害他的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000024",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "我的挚友，你怎么来了！她们太强了，你快逃吧……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34000025",
+          "sourceType": 0,
+          "speaker": "天才战斗兔",
+          "text": "我知道这很危险，可一旦接受了自己的软弱，我就是无敌的！\n接招——「战兔飞踢！」",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-767",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34000001,
+            34000002,
+            34000003,
+            34000004,
+            34000005,
+            34000006,
+            34000007,
+            34000008,
+            34000009,
+            34000010,
+            34000011,
+            34000012,
+            34000013,
+            34000014,
+            34000015,
+            34000016,
+            34000017,
+            34000018,
+            34000019,
+            34000020,
+            34000021,
+            34000022,
+            34000023,
+            34000024,
+            34000025
+          ],
+          "sectionId": 34000
+        }
+      ],
+      "title": "缘，妙不可言·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34001001",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "……不堪一击，浪费本大小姐的时间。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001002",
+          "sourceType": 3,
+          "text": "地上散落着花花绿绿的小册子。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34001003",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "《暖你一整天》、《霸总宝典》、《海王秘诀》……什么乱七八糟的……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001004",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "害人不浅的东西，该把它们全烧了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "慢着，这可是重要的犯罪证据，不能随意破坏。不如先由我们保管如何？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "网络上的头号骗子——神秘甜心，依然逍遥法外。靠这些书或许可以找出一些线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001007",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "荒谬！本大小姐家里可容不下这些东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "哦？听说神秘甜心身份多变，骗术狡诈。\n难道，嫉恶如仇的孙大小姐也害怕了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "开什么玩笑，本大小姐会怕一个藏头露尾的骗子吗？！这些书你我一人一半！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "这已经是本月抓捕的第八个骗子了。管理局再不想点办法，我们的加班费可不好算了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001011",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "两位不用多虑。管理局即将举办网友见面会，并借此机会为所有通讯机添加身份认证。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001012",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "而且我们也早就聘请了一位特殊的员工，一起分析骗子的手段。很快就可以消除隐患。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001013",
+          "sourceType": 0,
+          "speaker": "伊迪丝",
+          "text": "这段时间两位辛苦了，我们也有了一些神秘甜心的线索，但这件事就不再麻烦你们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001014",
+          "sourceType": 0,
+          "speaker": "牙白白",
+          "text": "……两位请跟我来。完成身份认证之后就可以领取管理局为两位准备的涂料和通讯机。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001015",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "加班结束，我该继续我的假期了。\n不过，要不要趁着这个机会，去见见那位才女？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "不知道她是否习惯|101|的家。\n以她的性格，又能否交到新朋友？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34001017",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "嗯，上次一别也有一段时日了。\n走吧，本大小姐也有点想念那胡笳的声音了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-768",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34001001,
+            34001002,
+            34001003,
+            34001004,
+            34001005,
+            34001006,
+            34001007,
+            34001008,
+            34001009,
+            34001010,
+            34001011,
+            34001012,
+            34001013,
+            34001014,
+            34001015,
+            34001016,
+            34001017
+          ],
+          "sectionId": 34001
+        }
+      ],
+      "title": "缘，妙不可言·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34002001",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "……这是我第一次登陆手办网络。我很高兴你能看到这行文字，也许我们就是网友了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002002",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "……呵呵，我也是这么想的。多亏了手办网络，我才能认识像你这样有趣的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002003",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "……沧海飞尘，人世因缘。我曾以为自己是一叶孤舟，却没想到我们如此投缘……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002004",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "……我一直在寻找一位知己。人生贵知心，经过这段时间，我相信，你就是我在找的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002005",
+          "sourceType": 0,
+          "speaker": "青州小琰",
+          "text": "闪烁的群星是在庆祝我们的相遇。谢谢你愿意与我见面。我很期待那一刻的到来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗨！哈！呀！旋转之星！……蔡文姬还是没反应耶，难道我们又变成隐形手办了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002007",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "你前天问过同样的问题。嗯，这个构图很好，这幅画就叫《陷于「网」中的少女》吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002008",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "今天的网络热门也十分有趣。啊！你们什么时候来的？抱歉……让你们久等了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002009",
+          "sourceType": 7,
+          "text": "蔡文姬 · 林籁泉韵\n商品名称：蔡文姬·林籁泉韵 Ver.\n作品出处：《赤炎·境界》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约239mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "34002010",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "没关系，你又做了一次我的模特。你今天还想和我一起去写生吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002011",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "既然是你的邀请，我当然愿意。可今天……虽然有些突然，但我有一个请求——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002012",
+          "sourceType": 3,
+          "text": "一段时间后——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34002013",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "原来你是要我帮你的朋友画一幅画，当然可以。你觉得现在这幅画怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002014",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "两天不见，你又进步了。真是妙手丹青，下笔如神。但是，这画和我想象中却稍有不同……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002015",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "要是夜空能透出五彩斑斓的黑，群星能显露流光溢彩的白就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002016",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "嗯，嗯，我明白了。现在这样呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002017",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "这朵云放大一点。再缩小一点。那边好像感觉也不太对。\n还有……还有……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002018",
+          "sourceType": 3,
+          "text": "不知过去了多久……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34002019",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "总感觉还是第一幅画好些。\n抱歉，拉斐尔，能不能请你……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002020",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "虽然我们是朋友，但身为一个画家，请不要和我说你选择第一版……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002021",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "话说，|102|有七种颜色的头发，眼泪能化作珍珠，精通六十八种语言。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002022",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "蔡文姬，你的朋友好厉害呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002023",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "呵呵，|102|确实是才华出众，与众不同。所以我们才成为了知己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002024",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "知己？你们的关系这么好呀。那位手办到底是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002025",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我们一直在网上联络，并不知道彼此的真实身份。但很快我们就会见面了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34002026",
+          "sourceType": 0,
+          "speaker": "拉斐尔",
+          "text": "等等……网络、交友、通讯机、知己……\n你是要约网友见面？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-769",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34002001,
+            34002002,
+            34002003,
+            34002004,
+            34002005,
+            34002006,
+            34002007,
+            34002008,
+            34002009,
+            34002010,
+            34002011,
+            34002012,
+            34002013,
+            34002014,
+            34002015,
+            34002016,
+            34002017,
+            34002018,
+            34002019,
+            34002020,
+            34002021,
+            34002022,
+            34002023,
+            34002024,
+            34002025,
+            34002026
+          ],
+          "sectionId": 34002
+        }
+      ],
+      "title": "缘，妙不可言·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34003001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "没想到一来就听到了这种消息。\n蔡文姬，这是怎么一回事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003002",
+          "sourceType": 3,
+          "text": "一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34003003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "原来如此。我看了你们的聊天记录，蔡文姬，这几句话你是怎么想的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003004",
+          "sourceType": 0,
+          "speaker": "「知己」",
+          "text": "「我感觉你十分熟悉，或许我们在哪见过？你是哪里的手办？」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003005",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "对素未谋面的人也能这样热情体贴。善良就是|102|最打动我的一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003006",
+          "sourceType": 0,
+          "speaker": "「知己」",
+          "text": "「管理局在研究茶叶味的涂料，但根本卖不出去。要是有谁能买一点就好了……」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003007",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "不论何时都想要帮助他人，真是令人感动。所以我也买了好几份呢，希望能帮到他。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003008",
+          "sourceType": 0,
+          "speaker": "「知己」",
+          "text": "「管理局现在有兼职，用通讯机上网就可以做。我可以教你，包教包会。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003009",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "雪中送炭三九暖，助人为乐是美德。我也一直和其他人介绍这个兼职呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "……蔡文姬，你不觉得这些话很可疑吗？\n这些都是骗子的圈套。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003011",
+          "sourceType": 3,
+          "text": "又一段时间后……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "34003012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "刚才所说就是行骗的手段了。据我分析，你的知己也许就是头号骗子——神秘甜心",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003013",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "或许这是一个误会？我相信|102|。而且我在网上看了许多书，它们也说|102|是真诚的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003014",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "书？什么书？\n嗯……《星座相处寄言》？？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003015",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "是呀。不仅如此，|102|的MBTI类型也是最单纯、最友善的那一类呢。你看——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你上网都在看些什么……网上的很多东西都是假的。那些人都是在扮演人设。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003017",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "虚实之间总有分别。但网络中的一切总不会都是假的呀。阿蝉，你再看这个。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003018",
+          "sourceType": 0,
+          "speaker": "运势占卜",
+          "text": "|102|就是一个品德高洁的人，也是你最好的朋友，虽然会有阻碍挡在你们之间……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003019",
+          "sourceType": 0,
+          "speaker": "运势占卜",
+          "text": "解决方法就是……\n以下内容需付费解锁。——占卜之星·桑尼",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34003020",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "这又是什么奇怪的东西……\n这些都是骗子的人设，让我们帮你清醒一下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34201001",
+          "sourceType": 0,
+          "speaker": "蔡文姬",
+          "text": "我……你们……这肯定是一场误会。\n不要再说了，让我静一静吧……",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-770",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34003001,
+            34003002,
+            34003003,
+            34003004,
+            34003005,
+            34003006,
+            34003007,
+            34003008,
+            34003009,
+            34003010,
+            34003011,
+            34003012,
+            34003013,
+            34003014,
+            34003015,
+            34003016,
+            34003017,
+            34003018,
+            34003019,
+            34003020
+          ],
+          "sectionId": 34003
+        },
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34201001
+          ],
+          "sectionId": 34201
+        }
+      ],
+      "title": "缘，妙不可言·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "34004001",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "可恨的骗子，居然对本大小姐的朋友下手，不可原谅。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004002",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "我们现在就去说服蔡文姬。硬着来也好过她上当受骗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004003",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这样好像不太好啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004004",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "优纪，你有什么想法吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嗯……不如你们也隐瞒身份，成为她的网友怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004006",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "如果你们成了网友，然后再告诉她真相。也许她就能明白人设和骗子是怎么回事了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "听起来似乎是一个好主意，却有一个问题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004008",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "万一被她发现了我们的真实身份，肯定是火上浇油，更难办了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004009",
+          "sourceType": 0,
+          "speaker": "孙尚香",
+          "text": "有没有什么避免暴露身份的方法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004010",
+          "sourceType": 2,
+          "speaker": "貂蝉",
+          "text": "嗯？暴露身份，《搭讪秘籍》……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004011",
+          "sourceType": 2,
+          "speaker": "孙尚香",
+          "text": "我记得犯人好像说过什么……",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004012",
+          "sourceType": 0,
+          "speaker": "疗愈蛙皇",
+          "text": "「只要按照人设和台词进行对话，就绝对不会暴露身份。」",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004013",
+          "sourceType": 2,
+          "speaker": "孙尚香",
+          "text": "我也要使用人设吗……嗯，这事就由我自己来吧，让貂蝉知道反而麻烦。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004014",
+          "sourceType": 2,
+          "speaker": "貂蝉",
+          "text": "扮演别的人设，我倒是经常这么做呢。\n不过为了保密，还是我一个人暗中行动吧。",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "34004015",
+          "sourceType": 2,
+          "speaker": "貂蝉",
+          "text": "哼哼，蔡文姬，我们很快就会再见的。",
+          "tone": "thought",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-771",
+      "sourceRefs": [
+        {
+          "bundle": "caiwenji",
+          "rowIds": [
+            34004001,
+            34004002,
+            34004003,
+            34004004,
+            34004005,
+            34004006,
+            34004007,
+            34004008,
+            34004009,
+            34004010,
+            34004011,
+            34004012,
+            34004013,
+            34004014,
+            34004015
+          ],
+          "sectionId": 34004
+        }
+      ],
+      "title": "缘，妙不可言·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 147,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 147,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "97",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "网络诈骗与神秘的知己",
+  "title": "缘，妙不可言",
+  "wordCount": 2953
+}

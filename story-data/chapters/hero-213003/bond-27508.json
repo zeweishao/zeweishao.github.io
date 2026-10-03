@@ -1,0 +1,139 @@
+{
+  "bookId": "hero-213003",
+  "id": "bond-27508",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "27508001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "好多玫瑰……这是你给我的惊喜吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "很美呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "没有，只是变成实验体之后，第一次有人送给妾身礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "突然觉得，这里的一切好不真实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一直以来，你都把自己隐藏在锋利坚硬的躯壳里。或许之后，你可以更多信任我一点~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "……主人为什么对我这么好？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508008",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是对妾身的机甲感兴趣？还是对别的什么地方感兴趣，嗯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我没有那个意思！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508010",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是吗，那真遗憾呢~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我还想说，如果主人真感兴趣的话，那妾身也不是不可以……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真的吗?",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "27508013",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "是真的~还是假的呢？主人不妨大胆一点试试看？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "27508",
+      "sourceRefs": [
+        {
+          "bundle": "avg-rf",
+          "rowIds": [
+            27508001,
+            27508002,
+            27508003,
+            27508004,
+            27508005,
+            27508006,
+            27508007,
+            27508008,
+            27508009,
+            27508010,
+            27508011,
+            27508012,
+            27508013
+          ],
+          "sectionId": 27508
+        }
+      ],
+      "title": "感兴趣"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "213003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "感兴趣",
+  "wordCount": 213
+}

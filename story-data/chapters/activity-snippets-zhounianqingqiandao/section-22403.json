@@ -1,0 +1,196 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22403",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22403001",
+          "sourceType": 10,
+          "text": "奖品很像「那位大人」",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22403002",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "嗑，找到了找到了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403003",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "快搬走，全都搬走藏起来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403004",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "可是……我们拿这么多徽章干什么呢……呜呜我好累！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403005",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "当……当然是！为了破坏手办与人类的羁绊！——我们是冷酷又迷人的反派角色，一定要阻止这种幸福圆满的大结局！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403006",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "嗑，可是……水城结奈大人交代的是「务必集齐」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403007",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "……如、如果要破坏的话……明明随便拿走几个就好了……为、为什么要集齐呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403008",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "……嗯……你说的很有道理！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403009",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "阿呸！——别偷懒了，快干活！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403010",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "最近怎么没见到……嗑，经常出现在水城结奈大人身边的「那位大人」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403011",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "对哦，她们向来形影不离。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403012",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "——嗑，喔哦哦哦！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403013",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "……突然叫那么大声做什么！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403014",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "你看集齐奖励上……那、那个……嗑，那个珍贵手办……是不是……有、有点像「那位大人」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403015",
+          "sourceType": 3,
+          "text": "「集齐全套潮玩兑换小太阳，赢取丰厚大礼，更有机会获得珍贵手办S-VIII……」",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22403016",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "好像确、确实……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403017",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403018",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "在看什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403019",
+          "sourceType": 0,
+          "speaker": "暴躁熊",
+          "text": "……嗑!",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22403020",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "水、水城结奈大人……没、没没没有的事！！！\n走、走走……我们、干干干活去了！……再、再见！！！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22403",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22403001,
+            22403002,
+            22403003,
+            22403004,
+            22403005,
+            22403006,
+            22403007,
+            22403008,
+            22403009,
+            22403010,
+            22403011,
+            22403012,
+            22403013,
+            22403014,
+            22403015,
+            22403016,
+            22403017,
+            22403018,
+            22403019,
+            22403020
+          ],
+          "sectionId": 22403
+        }
+      ],
+      "title": "奖品很像「那位大人」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22403,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "37",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "奖品很像「那位大人」",
+  "wordCount": 406
+}

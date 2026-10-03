@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213013",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「最近心情不好，我可能稍微多吃了一点.......嗯，一些？」薇薇安有些局促地用叉子搅拌沙拉，「现在的体重？这是绝对不能说的秘密！」\n\n「不过没关系，即使是最简单的食材，我也能找到激发它们美味的方法。」\n\n「喏，清新爽口的蔬菜沙拉，洛卡也来尝尝看吧？」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "蔬菜沙拉Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213013",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "薇薇安·蔬菜沙拉Ver.",
+  "title": "蔬菜沙拉Ver.",
+  "wordCount": 122
+}

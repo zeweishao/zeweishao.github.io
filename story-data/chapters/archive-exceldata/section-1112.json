@@ -1,0 +1,73 @@
+{
+  "bookId": "archive-exceldata",
+  "id": "section-1112",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "1112001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你来得正好，省得我再去通知。欢迎来到FULI玩具大厦天台。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1112002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这里人类活动频繁，你怎么来了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1112003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "因为这里也是管理局实习生的专属训练基地。虽然你是人类，但这里的训练也能提高你和手办配合的战斗技巧，奖励也不错，好好干。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1112004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "管理局会给你提供专属配置，你只需要完成关卡挑战。\n每个关卡设置有不同的关卡目标，挑战完成程度决定星级评分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "1112005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "那么，开始你的挑战吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "1112",
+      "sourceRefs": [
+        {
+          "bundle": "exceldata",
+          "rowIds": [
+            1112001,
+            1112002,
+            1112003,
+            1112004,
+            1112005
+          ],
+          "sectionId": 1112
+        }
+      ],
+      "title": "原文片段 1112"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "resourceBundle": "exceldata",
+        "sectionId": 1112
+      }
+    ]
+  },
+  "status": "unclassified",
+  "subtitle": "正式归属待核对",
+  "title": "原文片段 1112",
+  "wordCount": 166
+}

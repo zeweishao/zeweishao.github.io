@@ -1,0 +1,217 @@
+{
+  "bookId": "activity-extra-signin-springfestival",
+  "id": "source-25600",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "25600001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "今晚的夜色真美，忍不住想要跳一支舞呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600002",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我想请你做我的观众，仅有的唯一一位观众哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "告诉我，你从我的舞蹈里看到了什么？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25600005",
+              "text": "「舞如莲旋」"
+            },
+            {
+              "targetId": "25600005",
+              "text": "「转袖飞雪」"
+            }
+          ],
+          "sourceId": "25600004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25600005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "唔，这是所有见过我跳舞的人都会讲的话呢，听起来真是亲切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "让我想起了很小很小的时候，那时的我住在美丽的乡下，几乎没有什么朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "山野的生活非常美好，可是却太寂寞了——你能体会那种感觉吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "每逢满月夜，那种让人彻骨寒冷的感觉，现在想想还是让我发抖呢。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25600010",
+              "text": "现在的你还有这种感觉吗？"
+            }
+          ],
+          "sourceId": "25600009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25600010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "在遇到你之前，偶尔也会有的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600011",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "与你相遇之后，一种从未有过的温暖像一阵春风，吹散了所有的阴霾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "现在的我在今天这样的晚上，觉得非常幸福。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "25600014",
+              "text": "真是太好了。"
+            }
+          ],
+          "sourceId": "25600013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "25600014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "你不想知道这是为什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我在等你开口。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600016",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "呵呵，时机足够成熟的话，我会把心里话讲出来的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "25600017",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "在那之前，请好好地欣赏这一支月色下的独舞吧~❤",
+          "type": "dialogue"
+        }
+      ],
+      "id": "25600",
+      "sourceRefs": [
+        {
+          "bundle": "signin-springfestival",
+          "rowIds": [
+            25600001,
+            25600002,
+            25600003,
+            25600004,
+            25600005,
+            25600006,
+            25600007,
+            25600008,
+            25600009,
+            25600010,
+            25600011,
+            25600012,
+            25600013,
+            25600014,
+            25600015,
+            25600016,
+            25600017
+          ],
+          "sectionId": 25600
+        }
+      ],
+      "title": "活动片段 25600"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "194",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          },
+          {
+            "path": [
+              "1521",
+              "27",
+              "1",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "194",
+          "27",
+          "1",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 25600,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 25600",
+  "wordCount": 339
+}

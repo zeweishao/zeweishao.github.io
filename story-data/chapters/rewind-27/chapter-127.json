@@ -1,0 +1,1853 @@
+{
+  "bookId": "rewind-27",
+  "id": "chapter-127",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31512001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "她们是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "来自N市的朋友。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "会议事关管理局的机密，闲杂人等请回避。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "大叔，天启偷能量石这种老掉牙的情报算得上什么机密？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "......你们是什么身份？关于「能量石」知道多少？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我们是来自N城的「异乡人」。\n如果管理局要寻找能量石，我们可以提供帮助。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31512007",
+          "sourceType": 3,
+          "text": "......换个安全的地方说吧。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31513001",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "所以你们调查的结果是，天启的「水城结奈」和「花鸟原」偷走了能量石？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513002",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "不用怀疑，「异乡人」的情报是绝对精准的哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我们已经分享了情报，所以大叔，有什么调查进展要和我们共享一下的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513004",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "......近期失踪的手办，地点全部集中在潮酷街区附近。\n这或许是个突破点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513005",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "最新失踪的手办家里，遗留下来一颗红色的糖——不是模型，是真正的糖。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "人类的糖果对手办分文不值，除了一个例外——\n天启小妹妹「水城结奈」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "红色的糖是「战斗」，恐怕那名手办凶多吉少了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "他们在不断抓走手办，难道优纪她们也......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "这就是我请你来协助的原因之一。\n或许，这是找回她们的关键机会。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "明白了。无论任何线索都不能放弃，我们必须尽快找到「水城结奈」和「花鸟原」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513011",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我们要到哪里去找呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513012",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "根据近期失踪手办的最后出现地址，我已经推断出绑架频发的危险街区，不出意外的话，她们的据点就在这附近。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "又到了「阿尔贝尔」发挥专长的时候了，我们搜它个底朝天！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513014",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "一整个街区的搜索对手办而言是极大的工作量，而且非常容易打草惊蛇。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513015",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不进去搜查？那这位大叔有何高见啊？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31513016",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "我们现在只需要一个诱饵，引蛇出洞。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-272",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31512001,
+            31512002,
+            31512003,
+            31512004,
+            31512005,
+            31512006,
+            31512007
+          ],
+          "sectionId": 31512
+        },
+        {
+          "bundle": "37",
+          "rowIds": [
+            31513001,
+            31513002,
+            31513003,
+            31513004,
+            31513005,
+            31513006,
+            31513007,
+            31513008,
+            31513009,
+            31513010,
+            31513011,
+            31513012,
+            31513013,
+            31513014,
+            31513015,
+            31513016
+          ],
+          "sectionId": 31513
+        }
+      ],
+      "title": "#1 情报汇总"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31514001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你的意思是，故意让我们的手办在那附近活动，引出绑匪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "......还有没有其他办法？\n我不想再让任何我的手办冒险了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "这次还是由我出马吧，也算展示一下与你合作的诚意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你去？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我算不上是你的手办吧？\n可别说什么，已经把我当成自家人之类肉麻的话哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "谢谢。我会尽力保护你的安全。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "选她？你确定？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你该不会觉得，我像是会被轻易拐走？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514009",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "问题就在于此。\n选择美味且唾手可得的诱饵，蠢鱼才容易上钩！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514010",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "确实，泉看起来攻击性太强了，而且还有代步工具，正常人都不会选她做绑架对象。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514011",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "连中学里的小孩子都懂得挑软柿子捏，何况天启他们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "那你们想派出谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514013",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "拿着回旋镖的小姐，你愿意为了M市的和平冒险吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "身为探险家，我的勇敢不会输给任何人。\n但我的冒险是为了「异乡人」组织。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514015",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "很好，接下来，我会尽全力帮助你，成为一颗......\n看起来最软的柿子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31514016",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这是什么奇怪的描述......",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-273",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31514001,
+            31514002,
+            31514003,
+            31514004,
+            31514005,
+            31514006,
+            31514007,
+            31514008,
+            31514009,
+            31514010,
+            31514011,
+            31514012,
+            31514013,
+            31514014,
+            31514015,
+            31514016
+          ],
+          "sectionId": 31514
+        }
+      ],
+      "title": "#2 引蛇出洞"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31515001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "确定下手对象之前，天启一定会在暗处观察一段时间。\n所以，你要尽可能表现得自然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "露出任何破绽，就前功尽弃了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我明白的。\n嗯！准备完毕，出发！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515004",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "沉下心来，深呼吸，装作逛街的游客。\n保持警惕，注意观察四周......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515005",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "这......能行吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "放心吧，我已经叮嘱过她：装作独自逛街的游客，被有趣的东西吸引，逐渐走向偏僻无人的地方——完美的被绑架计划。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515007",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "我担心的是，薇薇安会不会演得有点......太投入了些？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515008",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "你看，她正蹲在地上......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "紫水晶？幽帘石？不......这是查罗石。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "色泽饱满，外形圆润，不像是天然地貌生成的。\n在城市内部还会出现这种矿物吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515011",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "虽然这样表现得很自然，但......她不会忘记正题吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "岩石地貌向这边延伸了！\n跟上去看看吧，说不定能发现更加稀有的矿石呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31515013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "看，这不就成了吗？\n走吧，跟上去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "好像逐渐走远了呢，这是哪里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "出现了！灌木丛里有人影在接近！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516003",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "找到你了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516004",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "目标出现，要上了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516005",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "收到！阿尔贝尔，把这些劣迹斑斑的法外之徒，一口气撞回老家吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31516006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "在身后！\n用尽！全力！——螺旋冲击！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-274",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31515001,
+            31515002,
+            31515003,
+            31515004,
+            31515005,
+            31515006,
+            31515007,
+            31515008,
+            31515009,
+            31515010,
+            31515011,
+            31515012,
+            31515013
+          ],
+          "sectionId": 31515
+        },
+        {
+          "bundle": "37",
+          "rowIds": [
+            31516001,
+            31516002,
+            31516003,
+            31516004,
+            31516005,
+            31516006
+          ],
+          "sectionId": 31516
+        }
+      ],
+      "title": "#3 目标锁定"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31517001",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "住手。我命令你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517002",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "那是什么——好亮的光！\n像是阳光一样灼热刺眼，但现在......明明是晚上？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517003",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不对劲，那道光是......\n别打了，是自己人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517004",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "搞什么！好不容易找到组织，一上来就被按住一顿打！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "阳子？......还有卡缪？各位，误会了，他们是「异乡人」！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "你们不是驻守在N城吗，怎么会来这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "「留在N城继续收集情报，尽可能保护剩余的手办们」——蒂娅大姐头是这么说的吧？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "现在情报收集得差不多了，手办也毁得差不多了，干嘛还在那里死守？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你是说......N城已经......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517010",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "那里已经完全堕落，不再有被拯救的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517011",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "什么N城？你们在说什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517012",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "闹成现在这样，这次的诱敌计划彻底完蛋了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "何止这次，要是管理局的大叔没弄错，这里真是天启绑架的高发区，敌人很可能已经盯上我们了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31517015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "这里不是适合讨论的场所，我们先回去重新制定计划吧。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-275",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31517001,
+            31517002,
+            31517003,
+            31517004,
+            31517005,
+            31517006,
+            31517007,
+            31517008,
+            31517009,
+            31517010,
+            31517011,
+            31517012,
+            31517013,
+            31517014,
+            31517015
+          ],
+          "sectionId": 31517
+        }
+      ],
+      "title": "#4 日轮光晕"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31518001",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "米娅莫拉苏娜丹妮......我想看到「优纪」的命运。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518002",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "怎么会呢，水面没有显示出任何结果......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518003",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "难道说......提问的对象不够明确？\n优纪就是优纪，我的伙伴优纪......不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518004",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "唔......究竟是哪里出现了问题呢？\n再来一次好了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518005",
+          "sourceType": 5,
+          "text": "咯吱——啪嚓！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31518006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "木棍断裂......这是对灵媒师的危险警示！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518007",
+          "sourceType": 3,
+          "text": "唰————！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31518008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "哦呀？居然勉强躲开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518009",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "你是谁？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "好问题。在被我带走之前，伟大的「通灵女巫」不如占上一卦，让神来给你答案？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518011",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "这种程度的问题，不需要占卜。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518012",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "「天启」收集能量石、绑架手办有两名执行者，「水城结奈」已经现身，而你就是另一位——「花鸟原」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518013",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "很好。我向来觉得，占卜师不过是高端点的骗子罢了——别用那种眼神看我，我敬佩能让人们信服的骗子们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31518014",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "不过现在，你让我有所改观了。\n让我想想，该怎么奖励你才好呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "奇怪，桑尼不是留下看家的吗，怎么不开门？\n又溜出去采那些奇怪的植物了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519002",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "门是虚掩着的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "别看我，我确认自己有锁门！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519004",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "不对劲。小心前进。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519005",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "唔......唔唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519006",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "抱歉，你们来迟了一步。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519007",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "站住！有本事来单挑！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519008",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "「单挑」？真是个愚蠢的词。\n很可惜，我对你没兴趣。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31519009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "她从窗户翻出去了，追！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-276",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31518001,
+            31518002,
+            31518003,
+            31518004,
+            31518005,
+            31518006,
+            31518007,
+            31518008,
+            31518009,
+            31518010,
+            31518011,
+            31518012,
+            31518013,
+            31518014
+          ],
+          "sectionId": 31518
+        },
+        {
+          "bundle": "37",
+          "rowIds": [
+            31519001,
+            31519002,
+            31519003,
+            31519004,
+            31519005,
+            31519006,
+            31519007,
+            31519008,
+            31519009
+          ],
+          "sectionId": 31519
+        }
+      ],
+      "title": "#5 木灵警示"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31521001",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "桑尼被扛在肩上......她好像失去意识了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31521002",
+          "sourceType": 5,
+          "speaker": "泉",
+          "text": "加大马力，阿尔贝尔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31521003",
+          "sourceType": 0,
+          "speaker": "水野梅",
+          "text": "不妙......我要赶快告诉主人才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522001",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "任务完成。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522002",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "你又带着「尾巴」回来。\n我可不想每天更换据点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522003",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "现在保证效率最要紧，不是计较那些细枝末节的时候。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522004",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "试仪式就要启动了。\n她们闯进来的话，怎么应对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522005",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "该好好想想怎么应对的——应该是她们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "右转弯！我看到了，就在前面的仓库。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "咳——就差一点，让她们进去了！\n不好办，这种地形非常容易设埋伏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "哪来那么多废话，救人要紧。\n卡缪，掩护我！找准时机进攻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522009",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "阳光，可以灼烧一切。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522010",
+          "sourceType": 5,
+          "speaker": "花鸟原",
+          "text": "嘶——我的右手......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "干得漂亮！她松手了，阳子，接住人质！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522012",
+          "sourceType": 5,
+          "text": "咣当——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31522013",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "阳子小心！有东西掉下来！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522014",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "压住了吗？压扁了吗？压成流心软糖了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522015",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "咳、咳咳！\n有本事用拳头说话，别耍阴招！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522016",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "接下来是第二弹哦。\n准备好了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522017",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "小鬼，别得意忘形了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522018",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "糖果从天上......滑过去了？\n不好，卡缪！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522019",
+          "sourceType": 5,
+          "speaker": "卡缪",
+          "text": "！！！！呃！\n你......竟敢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522020",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "桑尼已经救下来了，这里不宜久留！\n你们带着卡缪先撤，我来殿后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522021",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "事到如今还想走吗？\n留下来陪我，好好找点乐子吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31522022",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "今天就陪你玩个痛快！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-277",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31521001,
+            31521002,
+            31521003
+          ],
+          "sectionId": 31521
+        },
+        {
+          "bundle": "37",
+          "rowIds": [
+            31522001,
+            31522002,
+            31522003,
+            31522004,
+            31522005,
+            31522006,
+            31522007,
+            31522008,
+            31522009,
+            31522010,
+            31522011,
+            31522012,
+            31522013,
+            31522014,
+            31522015,
+            31522016,
+            31522017,
+            31522018,
+            31522019,
+            31522020,
+            31522021,
+            31522022
+          ],
+          "sectionId": 31522
+        }
+      ],
+      "title": "#6 秘密地点"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31524001",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "找不到我了？我在——\n你身后！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "咳！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524003",
+          "sourceType": 0,
+          "speaker": "水城结奈",
+          "text": "我们遇到了麻烦。「她」现在像是混进跳跳糖的巧克力，很不稳定。要重新包进糖纸才行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524004",
+          "sourceType": 0,
+          "speaker": "花鸟原",
+          "text": "......真羡慕你的好运。\n我们说不定很快会再见面哦，有趣的摩托小妹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524005",
+          "sourceType": 5,
+          "text": "嘭——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31524006",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "咳、咳咳咳咳！好呛的烟雾。\n眼睛，睁不开......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524007",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "呜......有......人类的气息......\n难道是|101|来接应我们了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "不，不对，|101|不会给人这种感觉。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524009",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "强烈的压迫感，让人身体僵直，四肢冰冷......\n那好像是......一个人类......女性？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31524010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "冷静，清醒！这是敌人的伎俩，我已经产生幻觉了！\n必须马上离开这里！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525001",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我们来迟了一步。这里已经没有任何手办存在的迹象了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525002",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "立即封锁这个据点，仔细排查。\n他们留下的任何线索都不要放过。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525003",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你还在这里愣着干什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525004",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我......有个疑问。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525005",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "根据统计，近期失踪的手办数量已经突破三位数，即使去掉外包装，也需要相当大的储存体积。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525006",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我们每次追到现场时，无论动作多快，看到的都是人去楼空。\n她们在这么短的时间内，真的能做到转移如此庞大的目标吗......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525007",
+          "sourceType": 0,
+          "speaker": "阿尔弗雷德",
+          "text": "你是想说，未必是她们绑走了全部的手办？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31525008",
+          "sourceType": 0,
+          "speaker": "海伦",
+          "text": "我更愿意相信是这样，而不是那些失踪的手办已经......\n永远地消失了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-278",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31524001,
+            31524002,
+            31524003,
+            31524004,
+            31524005,
+            31524006,
+            31524007,
+            31524008,
+            31524009,
+            31524010
+          ],
+          "sectionId": 31524
+        },
+        {
+          "bundle": "37",
+          "rowIds": [
+            31525001,
+            31525002,
+            31525003,
+            31525004,
+            31525005,
+            31525006,
+            31525007,
+            31525008
+          ],
+          "sectionId": 31525
+        }
+      ],
+      "title": "#7 爆裂糖果"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31526001",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "桑尼的情况还好吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "她已经醒过来了，身体上稍微有点磕碰。\n我帮她补了涂料，让小梅酱陪她去休息了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526003",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这次......是我没保护好她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我们折腾半天，不仅没抓到人，还差点被绑走一个。\n等老大回来，我都不知道怎么跟她交差了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "本来计划是诱敌深入、瓮中捉鳖，现在反而暴露了自己......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "别说了，这事主要怪我和卡缪！怎么就那么巧，我们找到组织的这一会功夫，刚好在家落单的桑尼就被抓了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526007",
+          "sourceType": 0,
+          "speaker": "卡缪",
+          "text": "巧？哼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "对呀，我们明明就在天启的据点附近活动，但是她们却跨越整整半个街区，去找桑尼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "如果不是提前有人通信，知道了我们这里有埋伏，她们怎么可能做出这种判断？难道......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "知道这个计划的除了我们，就只有管理局，对吧？\n所以是他们和天启是一伙的，他们告了密！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526011",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "|101|，你怎么看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "至少在我看来，管理局是真心为了手办的生活秩序在努力的，不会和天启同流合污。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "谁知道他有没有撒谎。\n我们必须重新考虑，还要不要和管理局继续合作下去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526014",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "还跟他们废什么话，管理局的地址在哪，我直接去问清楚！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31526015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嘘——\n阿尔弗雷德的电话来了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-279",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31526001,
+            31526002,
+            31526003,
+            31526004,
+            31526005,
+            31526006,
+            31526007,
+            31526008,
+            31526009,
+            31526010,
+            31526011,
+            31526012,
+            31526013,
+            31526014,
+            31526015
+          ],
+          "sectionId": 31526
+        }
+      ],
+      "title": "#8 士气低迷"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31527001",
+          "sourceType": 0,
+          "text": "滴滴滴——",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31527002",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "虽然你们搞砸了这次行动，但没关系，这次并不是一无所获。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527003",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": ".......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": ".......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527005",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "检查一下信号，我听不到你们的回答。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527006",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "什么叫「我们搞砸了行动」？天启吃饱了撑的跑到那么远的街区去抓桑尼，你觉得这合理吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527007",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "管理局又无法预判天启的行为逻辑......\n......等等。你，在怀疑我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527008",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "少说废话！这次的行动只有我们和管理局知道，而异乡人的成员从始至终一直在一起行动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "阳子，不用再说下去了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527010",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "听好了，我只问一遍：你小子是内鬼吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527011",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "......人类，这就是你的伙伴们的想法？\n你也认为管理局和天启私下勾结？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31527013",
+              "text": "沉默"
+            },
+            {
+              "targetId": "31527013",
+              "text": "我没有"
+            }
+          ],
+          "sourceId": "31527012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31527013",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "现在是关键时期，我相信你们清楚天启盗窃能量石这件事的严重程度。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527014",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "怀疑的种子，一旦发芽便很难根除。但管理局还是希望尽可能集中各方力量，早日侦破案件。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31527015",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "我也只说一遍：我和天启没有任何联系，也永远不会背弃管理局创办的初衷。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-280",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31527001,
+            31527002,
+            31527003,
+            31527004,
+            31527005,
+            31527006,
+            31527007,
+            31527008,
+            31527009,
+            31527010,
+            31527011,
+            31527012,
+            31527013,
+            31527014,
+            31527015
+          ],
+          "sectionId": 31527
+        }
+      ],
+      "title": "#9 当堂对质"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31528001",
+          "sourceType": 0,
+          "speaker": "夏澄阳子",
+          "text": "我们可以互相证明，你呢？\n你有什么证据可以自证清白？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528002",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "首先，一个月前，我的助手海伦小姐也险些遭遇绑架。\n多亏她及时拨通管理局的内部求救终端，才勉强脱险。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528003",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "其次......海伦的遭遇给了我一些启发。我这里有一份失踪手办的名单，看过之后，或许你们会对天启选择桑尼的原因有全新的理解。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528004",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "好长！已经失踪了如此多的手办吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "总觉得......失踪手办的名字，重复率异常的高？\n我来做个统计。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528006",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "格雷豪斯九名，海伦十三名，弗吉尼娅七名，桑尼......阿斯塔罗斯......艾伦兹......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "竟然还有阿尔弗雷德和......蒂娅？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "蒂娅手办多得是，但天启要是想绑走异乡人的「蒂娅」，她们的火候还差得远。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528009",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "现在发现了吗，其中有什么规律？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "什么规律？唔......除了蒂娅，这些人我都不熟啊。\n幻想类题材的游戏我本来就不是很感兴趣......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528011",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你说什么？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "哎？除了头儿，这些人我不熟......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "下一句。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528014",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "幻想类题材的游戏.......我没兴趣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528015",
+          "sourceType": 5,
+          "speaker": "玩家",
+          "text": "《永恒的异界幻想》。\n失踪手办都是《永恒的异界幻想》中的角色！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528016",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "很好，不愧为管理局的一员，你依然保持着清醒的认知。\n但这还不够，你还没触及问题的核心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528017",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "名单上的涉及了游戏里全部手办化的角色，连伊迪丝的管家都难逃毒手，却唯独「漏掉了」两个关键角色——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31528018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "克罗赛尔和......伊迪丝？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-281",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31528001,
+            31528002,
+            31528003,
+            31528004,
+            31528005,
+            31528006,
+            31528007,
+            31528008,
+            31528009,
+            31528010,
+            31528011,
+            31528012,
+            31528013,
+            31528014,
+            31528015,
+            31528016,
+            31528017,
+            31528018
+          ],
+          "sectionId": 31528
+        }
+      ],
+      "title": "#10 新的线索"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31529001",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "游戏封面上的这个人就是克罗赛尔......我想起来了，那个随身带着紫色圆球的短发女人！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529002",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "我昨天在离开仓库之前，看见过她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529003",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "在天启的据点？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529004",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "能量石失窃事件和手办失踪事件，似乎一直是「花鸟原」和「水城结奈」两人策划的，从没发现过和克罗赛尔有关的线索。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "异乡人的情报也是如此。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529006",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "哈欠——真是睡了个难得的好觉。\n你们在聊什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "嘘——泉正讲到关键的地方。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529008",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "当时烟雾缭绕，恍惚间，我好像看到了一个人类女性——和克罗赛尔特征很像的人类女性。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529009",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "你怎么判定那是人类？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529010",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "她的身高和体型完全是人类大小！\n据我所知——至少M城和N城还从没发售过1：1尺寸的手办。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529011",
+          "sourceType": 13,
+          "speaker": "阿尔弗雷德",
+          "text": "你确定那是人类的皮肤，而不是一坨巨大的树脂块？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529012",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "烟雾太浓，我哪能看得清。\n况且我当时以为是自己的幻觉，不敢多看，赶紧跑了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529013",
+          "sourceType": 0,
+          "speaker": "泉",
+          "text": "在我跑出来之前，那个巨大的女人好像在一瞬间......\n又消失不见。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529014",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "阿嚏！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529015",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "就是这个，就是这个！！！\n古老的咒术，生命力的流转......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529016",
+          "sourceType": 0,
+          "speaker": "桑尼",
+          "text": "如果这一切随着手办活化被带入现实世界，那么......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31529017",
+          "sourceType": 5,
+          "speaker": "桑尼",
+          "text": "你看到的可能真的不是幻像，而是名为克罗赛尔的——人类！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-282",
+      "sourceRefs": [
+        {
+          "bundle": "37",
+          "rowIds": [
+            31529001,
+            31529002,
+            31529003,
+            31529004,
+            31529005,
+            31529006,
+            31529007,
+            31529008,
+            31529009,
+            31529010,
+            31529011,
+            31529012,
+            31529013,
+            31529014,
+            31529015,
+            31529016,
+            31529017
+          ],
+          "sectionId": 31529
+        }
+      ],
+      "title": "#11 角色缺失"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 127,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 127,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "诱捕",
+  "title": "第37章",
+  "wordCount": 4904
+}

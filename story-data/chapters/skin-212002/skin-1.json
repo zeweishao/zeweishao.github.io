@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212002",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "神经大条的玲这次特别化身为炒饭达人，当厨房紧闭的玻璃门时不时传来剧烈的火光时，忍不住让人沉思里面究竟发生了什么。\n\n“这一次，百分百不是黑暗料理啦！”",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "炒饭达人Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212002",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "玲·炒饭达人Ver.",
+  "title": "炒饭达人Ver.",
+  "wordCount": 73
+}

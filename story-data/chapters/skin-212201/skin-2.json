@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212201",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "这是一场潜水活动的余暇。\n英姿飒爽的武斗家夏澄阳子刚刚结束了和海水的搏斗，那是一场体力对抗的盛宴。\n少女身着豪迈的潜水衣装，姿态优雅挽着长发，依靠在躺椅上小憩。\n不过这只是中场的休息，这个夏天还很长，夏澄阳子的修行也不会停止。\n“哈？你说度假？人生之旅，绚烂而短暂，可没有让你停下来度假的余地。”\n“打起精神来，下一场潜水很快就会开始了。” \n\n——本特别款仅可通过泳装派对活动获取   ",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "深潜余暇Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212201",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "夏澄阳子·深潜余暇Ver.",
+  "title": "深潜余暇Ver.",
+  "wordCount": 183
+}

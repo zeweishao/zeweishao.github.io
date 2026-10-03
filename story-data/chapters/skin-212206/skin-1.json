@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212206",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "对于北阿罗拉的水手们而言，半鱼人族美妙的歌声能在绝境中带来生机，意味着希望与救赎。\n\n而如今，面对族人迁徙的方向，贝歌的喉咙中仅能发出支离破碎的音节，如同哀怨的呓语，祭奠着已逝的光明。\n\n「燃尽的太阳坠入海底，在静谧的深水中召唤着我们。你听，它的悲鸣回响在海涛中，永不停息。」\n\n——该特别款仅限通过「枯泉中的歌者」活动获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "日蚀之海Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212206",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "贝歌·日蚀之海Ver.",
+  "title": "日蚀之海Ver.",
+  "wordCount": 156
+}

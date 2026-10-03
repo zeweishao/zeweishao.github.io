@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211006",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "超人气动作游戏《赤炎·境界》中的人气角色「真田幸村」化身为1/7比例模型闪亮登场！帅气的真田幸村悠闲依靠在一柄长戟上，脸上呈现出阳光般的笑颜。身上的配饰细节古典优雅，花纹繁复明丽搭配火焰一样的红色，将真田幸村的魅力展示得淋漓尽致。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211006"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 115
+}

@@ -1,0 +1,194 @@
+{
+  "bookId": "activity-extra-cl_yure",
+  "id": "source-39301",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "39301001",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "荒野行动，需要时刻保存体力，所以……吃很重要！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301002",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "看，我随身携带着各种口味的调料包，还有各种各样的锅具！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301003",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "嗯哼，我很聪明吧？星洛一直都很聪明哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301004",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗！噗噗！！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301005",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "不过，星洛还从来没有吃过像你这样圆润可爱的小猪猪。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301006",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "怎么做才能让你变得美味又可口呢，唔，有点伤脑筋呢……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301007",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "有了有了！是时候拿出星洛的「超级料理神器」了——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301008",
+          "sourceType": 3,
+          "text": "一台崭新的烤肉架摆在了「牡丹」的面前。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39301009",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗！？噗噗噗！——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301010",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "这个叫作烤肉架，用它制作烤乳猪，一定一定会非常美味~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301011",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "哇哦，星洛都要等不及了，现在就开始制作烤乳猪吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301012",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗噗噗噗噗——噗噗——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301013",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "小猪猪，乖乖过来这里，星洛会把你洗白白哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301014",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "不要不好意思地躲来躲去啦，星洛要生气咯？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301015",
+          "sourceType": 3,
+          "text": "一本厚厚的字典从空中飞来，砸在了烤肉架上。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "39301016",
+          "sourceType": 0,
+          "speaker": "星洛",
+          "text": "呜，我辛辛苦苦搭好的烤肉架……是谁？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301017",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "嗯，就是你把「牡丹」偷走的吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39301018",
+          "sourceType": 0,
+          "speaker": "牡丹",
+          "text": "噗！噗噗——",
+          "type": "dialogue"
+        }
+      ],
+      "id": "39301",
+      "sourceRefs": [
+        {
+          "bundle": "cl_yure",
+          "rowIds": [
+            39301001,
+            39301002,
+            39301003,
+            39301004,
+            39301005,
+            39301006,
+            39301007,
+            39301008,
+            39301009,
+            39301010,
+            39301011,
+            39301012,
+            39301013,
+            39301014,
+            39301015,
+            39301016,
+            39301017,
+            39301018
+          ],
+          "sectionId": 39301
+        }
+      ],
+      "title": "活动片段 39301"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "10022",
+              "27",
+              "3",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "10022",
+          "27",
+          "3",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 39301,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 39301",
+  "wordCount": 344
+}

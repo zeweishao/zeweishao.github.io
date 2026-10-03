@@ -1,0 +1,2929 @@
+{
+  "bookId": "chat-29004",
+  "id": "all-routes",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "以下按游戏配置节点顺序收录全部路线与结局。同一段文字可能出现在多条路线中；不同分支不代表一次连续发生的剧情。选项编号指向本章对应节点。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-100-1",
+          "speaker": "樱",
+          "text": "怎么办怎么办？尤娜姐姐跟莉可打起来了……里惠姐姐怎么拦都拦不住。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-2",
+          "speaker": "主人",
+          "text": "她们为什么会打架？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-3",
+          "speaker": "樱",
+          "text": "唔，因为中秋节快要到了，尤娜姐姐和莉可都要送月饼给樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-4",
+          "speaker": "樱",
+          "text": "她们却因为给樱吃的月饼应该是豆沙馅的还是蛋黄馅吵得不可开交……不知道怎么就动起手来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-5",
+          "speaker": "樱",
+          "text": "呜，都怪樱不好。如果不是为了樱，她们就不会打架了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-6",
+          "speaker": "主人",
+          "text": "这不是樱的错。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-7",
+          "speaker": "樱",
+          "text": "可是，樱不想看到大家难过……樱想让大家都能再次开心地笑起来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-8",
+          "speaker": "樱",
+          "text": "有没有一种月饼能让所有人都变得幸福呢……樱想要做出来送给大家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-9",
+          "speaker": "主人",
+          "text": "我来帮你吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-100-10",
+          "speaker": "樱",
+          "text": "哇，真的可以吗？好开心~！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 2。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-1",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "100",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 1"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-200-1",
+          "speaker": "樱",
+          "text": "听说做月饼需要用到很多「面粉」，虽然不知道那是什么东西，樱还是决定出门去买。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-2",
+          "speaker": "樱",
+          "text": "结果不小心迷路了……还好尤娜姐姐找到了我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-3",
+          "speaker": "主人",
+          "text": "真让人后怕。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-4",
+          "speaker": "樱",
+          "text": "对不起哦，让你担心了。可是樱虽然回来了，面粉还是没有买到。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-5",
+          "speaker": "樱",
+          "text": "这样下去就没办法做月饼了……怎么办才好呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-6",
+          "speaker": "主人",
+          "text": "放心，面粉的事交给我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-200-7",
+          "speaker": "樱",
+          "text": "哇啊，你真是一个又靠谱又帅气的大人~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 3。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-2",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 2"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-300-1",
+          "speaker": "樱",
+          "text": "那个，月亮上真的住着一位叫「嫦娥」的姐姐吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-2",
+          "speaker": "主人",
+          "text": "你从哪听说的「嫦娥」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-3",
+          "speaker": "樱",
+          "text": "昨天晚上的睡前故事，樱第一次听到这个姐姐的故事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-4",
+          "speaker": "樱",
+          "text": "月亮上那么冷那么冷，「嫦娥」姐姐一个人肯定很孤单。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-5",
+          "speaker": "主人",
+          "text": "那只是传说，根本没有「嫦娥」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-6",
+          "speaker": "樱",
+          "text": "才不是呢~「嫦娥」姐姐一定存在，樱就是知道。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-7",
+          "speaker": "樱",
+          "text": "「嫦娥」姐姐只是找不到回家的路了……她一定很想家。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-300-8",
+          "speaker": "樱",
+          "text": "嗯嗯，等樱做出了「嫦娥」姐姐喜欢的月饼，说不定她就能回家了呢！",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 4。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-3",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 3"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-400-1",
+          "speaker": "樱",
+          "text": "呐呐，大人的世界究竟是什么样子的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-2",
+          "speaker": "主人",
+          "text": "樱怎么会想到问这个？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-3",
+          "speaker": "樱",
+          "text": "像爸爸那样的大人，每天好像都很忙碌，连陪樱玩的时间都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-4",
+          "speaker": "樱",
+          "text": "尤娜姐姐和里惠姐姐虽然可以陪我，可是她们也有自己的工作，不能总跟樱一起玩儿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-5",
+          "speaker": "樱",
+          "text": "就连莉可每天也忙着做一个大魔王……只有樱是什么都不懂的小孩子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-6",
+          "speaker": "樱",
+          "text": "就好像忙碌起来，才是大人应该有的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-400-7",
+          "speaker": "樱",
+          "text": "所以，樱非常渴望了解大人的世界，想知道大人的世界和樱的世界有什么不同。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 5。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-4",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 4"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "6",
+              "targetKind": "chat-node",
+              "text": "成人的世界有很多无奈"
+            },
+            {
+              "targetId": "23",
+              "targetKind": "chat-node",
+              "text": "保持童心就没什么不同"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-5",
+      "sourceRefs": [],
+      "title": "节点 5"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-501-1",
+          "speaker": "樱",
+          "text": "唔，原来不是每一个人都喜欢在大人的世界里生活啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-501-2",
+          "speaker": "樱",
+          "text": "没关系的哦，你已经很棒啦~樱的粉色童话世界随时欢迎你~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-501-3",
+          "speaker": "樱",
+          "text": "如果感到疲惫的话，就到樱的世界做回天真快乐的小孩子吧。拉钩钩~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 7。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-6",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 6"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-600-1",
+          "speaker": "樱",
+          "text": "刚刚，樱给莉可吃了自己亲手做的第一块月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-2",
+          "speaker": "主人",
+          "text": "味道怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-3",
+          "speaker": "樱",
+          "text": "她……她被辣哭了，赌气不理樱了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-4",
+          "speaker": "主人",
+          "text": "啊？你放了什么馅料？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-5",
+          "speaker": "樱",
+          "text": "唔，我想想。里面有炸蝎子、辣椒、香菜、芥末……明明全都是莉可喜欢的食物呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-6",
+          "speaker": "樱",
+          "text": "为什么莉可吃到自己喜欢的食物，还要生樱的气呢？真是奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 8。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-7",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 7"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-700-1",
+          "speaker": "樱",
+          "text": "樱梦到自己捡到了一台时光机，坐着它回到了过去，发生了很多好玩的事情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-2",
+          "speaker": "主人",
+          "text": "你都梦见了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-3",
+          "speaker": "樱",
+          "text": "唔，尤娜姐姐是个小哭包……里惠姐姐很凶悍，一直在默默保护着姐姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-4",
+          "speaker": "樱",
+          "text": "小时候的莉可是一个人见人爱的小甜心，没有一丁点现在这个凶巴巴的魔王莉可的影子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-5",
+          "speaker": "樱",
+          "text": "嘿嘿，最重要的是，我还梦到了小时候的你哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-6",
+          "speaker": "樱",
+          "text": "个子和樱差不多高，迷路了会哭鼻子，糖吃多了也会蛀牙……简直和现在的樱完全没差嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-7",
+          "speaker": "主人",
+          "text": "每个人的成长都是从童年开始的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-8",
+          "speaker": "樱",
+          "text": "呼，如果樱真的有一台时光机就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-9",
+          "speaker": "樱",
+          "text": "这样樱就能回到过去，陪伴你一起长大了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 9。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-8",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 8"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-800-1",
+          "speaker": "樱",
+          "text": "在拒绝了189次以后，莉可终于答应陪樱去动物园了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-2",
+          "speaker": "樱",
+          "text": "因为莉可不喜欢被大家看到她逛动物园，所以我们特地选在人少的时候去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-3",
+          "speaker": "主人",
+          "text": "你们在动物园玩得怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-4",
+          "speaker": "樱",
+          "text": "超~级~开~心~哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-5",
+          "speaker": "樱",
+          "text": "樱有很多的动物朋友，陪它们聊天，和它们一起玩……樱觉得非常幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-6",
+          "speaker": "主人",
+          "text": "你是怎么和动物聊天的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-7",
+          "speaker": "樱",
+          "text": "嗯……这是樱的秘密哦，现在还不能告诉你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-8",
+          "speaker": "樱",
+          "text": "除了小动物，樱还可以和玩偶、茶壶先生聊天呢，是不是很厉害？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-9",
+          "speaker": "主人",
+          "text": "樱真的很厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-10",
+          "speaker": "樱",
+          "text": "嘿嘿，逛动物园这么幸福的事情，下次一定要和你一起去~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-11",
+          "speaker": "樱",
+          "text": "樱会给你表演和小动物讲话，唔，你要是想学的话，我也可以教你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "13",
+              "targetId": "chat-29004-800-13",
+              "targetKind": "chat-text",
+              "text": "我抽不出时间"
+            },
+            {
+              "rawTargetId": "13",
+              "targetId": "chat-29004-800-13",
+              "targetKind": "chat-text",
+              "text": "下次吧，下次一定"
+            }
+          ],
+          "sourceId": "chat-29004-800-12",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29004-800-13",
+          "speaker": "樱",
+          "text": "诶，你拒绝樱的理由，和爸爸一模一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-14",
+          "speaker": "樱",
+          "text": "原来成为大人以后，每个人的时间就不再是自己的了吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 10。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-9",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 9"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-900-1",
+          "speaker": "樱",
+          "text": "呜……为什么大家都不相信这个世界真的有「嫦娥」姐姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-2",
+          "speaker": "樱",
+          "text": "爸爸不信……尤娜姐姐和里惠姐姐也不信，就连莉可也在笑我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-3",
+          "speaker": "主人",
+          "text": "因为「嫦娥」是虚构的人物，本来就不存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-4",
+          "speaker": "樱",
+          "text": "不对不对不对，樱相信「嫦娥」姐姐是真实存在的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-5",
+          "speaker": "樱",
+          "text": "就像樱相信天空之上有神明，大海里住着美人鱼……森林的深处一定生活着许多美丽的小精灵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-6",
+          "speaker": "樱",
+          "text": "你曾经也是一个像樱这样的小孩子，那个时候也不相信这些吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-7",
+          "speaker": "主人",
+          "text": "那都是小时候不懂事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-8",
+          "speaker": "樱",
+          "text": "是从什么时候开始，所谓的大人，再也不像小时候那样做梦了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-9",
+          "speaker": "樱",
+          "text": "如果这就是长大的代价，那么，樱讨厌长大。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 11。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-10",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 10"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1000-1",
+          "speaker": "樱",
+          "text": "樱今天和莉可去参观了拉斐尔姐姐的画展，临走时她送了一幅小画给我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-2",
+          "speaker": "主人",
+          "text": "画的什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-3",
+          "speaker": "樱",
+          "text": "唔，是两个女孩子告别的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-4",
+          "speaker": "樱",
+          "text": "一个栗色头发的女孩，挥手告别另一个明黄色长发的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-5",
+          "speaker": "樱",
+          "text": "不知道为什么莉可看到以后很生气，她说自己不喜欢那个栗色头发的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-6",
+          "speaker": "樱",
+          "text": "听说拉斐尔姐姐的画作可以预示未来，那个栗色头发的女孩会不会就是长大以后的莉可？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-7",
+          "speaker": "樱",
+          "text": "诶，那不就是说明，莉可不喜欢长大以后的自己……樱不明白，这个世界上怎么会有人不喜欢自己呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-8",
+          "speaker": "樱",
+          "text": "你呢，你喜欢现在这个变成大人的自己吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 12。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-11",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 11"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "13",
+              "targetKind": "chat-node",
+              "text": "无法完全接受自己"
+            },
+            {
+              "targetId": "14",
+              "targetKind": "chat-node",
+              "text": "从没有否定过自己"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-12",
+      "sourceRefs": [],
+      "title": "节点 12"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1101-1",
+          "speaker": "樱",
+          "text": "如果你现在站在樱的面前，樱就可以摸摸你的头了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-2",
+          "speaker": "樱",
+          "text": "乖，乖，就算不喜欢现在这个作为大人的自己也没关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-3",
+          "speaker": "樱",
+          "text": "樱会一直陪着你，做你的好朋友的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-4",
+          "speaker": "樱",
+          "text": "一起去吃甜甜的糖果，把坏心情统统赶走吧~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-13",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 13"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1102-1",
+          "speaker": "樱",
+          "text": "嗯嗯，樱决定了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-2",
+          "speaker": "樱",
+          "text": "长大以后要成为你这样的大人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-3",
+          "speaker": "主人",
+          "text": "这个决定有些突然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-4",
+          "speaker": "樱",
+          "text": "可是，你是樱见到过的最快乐的大人呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-5",
+          "speaker": "樱",
+          "text": "眼神清澈，内心坚定，永远温柔耐心……就像天使一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-6",
+          "speaker": "樱",
+          "text": "如果樱能成为你这样的大人，爸爸和尤娜姐姐他们一定会很骄傲的~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 15。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-14",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 14"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1200-1",
+          "speaker": "樱",
+          "text": "你知道吗？莉可的「磨坊堡」其实是一个大型的游乐场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-2",
+          "speaker": "主人",
+          "text": "难怪每次被莉可绑架你都很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-3",
+          "speaker": "樱",
+          "text": "诶，被你发现了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-4",
+          "speaker": "樱",
+          "text": "小孩子的快乐很简单，不一定非要去游乐场啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-5",
+          "speaker": "樱",
+          "text": "一块甜甜的糖果，一个毛茸茸的玩偶，一身漂亮的衣服，都能让樱高兴一整天呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-6",
+          "speaker": "樱",
+          "text": "可是大人就不一样了……究竟怎么样才能让大人也快乐起来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-7",
+          "speaker": "主人",
+          "text": "大人快乐的标准不同而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-8",
+          "speaker": "樱",
+          "text": "唔……标准吗……樱好像有一些明白了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-9",
+          "speaker": "樱",
+          "text": "只要给大人足够多的糖果、玩偶和漂亮衣服，他们就会和樱一样开心了，对不对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-10",
+          "speaker": "主人",
+          "text": "没有这么简单，大人的快乐是很复杂的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-11",
+          "speaker": "樱",
+          "text": "唔，原来「复杂」才是大人们没办法快乐的原因。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 16。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-15",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 15"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1300-1",
+          "speaker": "樱",
+          "text": "「嫦娥」姐姐终于给樱回信啦，看来樱给她写的信收到了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-2",
+          "speaker": "主人",
+          "text": "真的有「嫦娥」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-3",
+          "speaker": "樱",
+          "text": "嗯嗯，她送了一只雪白的小兔灯给樱，还有一身漂亮的新衣服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-4",
+          "speaker": "樱",
+          "text": "看吧，樱没有骗你——「嫦娥」姐姐真的存在~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-5",
+          "speaker": "主人",
+          "text": "樱真的很喜欢「嫦娥」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-6",
+          "speaker": "樱",
+          "text": "很喜欢哦，非常喜欢，是做梦都想要去见的一位姐姐……爸爸说这个就是樱的「梦想」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-7",
+          "speaker": "樱",
+          "text": "原来有「梦想」的感觉这么幸福……你小时候有没有什么「梦想」呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-8",
+          "speaker": "主人",
+          "text": "我都不记得了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-9",
+          "speaker": "樱",
+          "text": "没关系哦，樱会陪你把它们一件一件全都想起来。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 17。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-16",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 16"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1400-1",
+          "speaker": "樱",
+          "text": "樱一开始把自己要做月饼送给大家的事讲给爸爸听，他笑着摸了摸我的头，说那不是小孩子应该做的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-2",
+          "speaker": "樱",
+          "text": "可是，等樱真的拿出自己做好的月饼，爸爸却看起来比谁都要开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-3",
+          "speaker": "樱",
+          "text": "这种感觉很奇妙……就好像樱真的一夜之间变成了大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-4",
+          "speaker": "樱",
+          "text": "一直以来都是樱在被身边的人疼爱着，这一次，换樱来保护你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-5",
+          "speaker": "樱",
+          "text": "吃下樱做的月饼，让大家都能幸福地笑起来……这就是樱的愿望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-6",
+          "speaker": "樱",
+          "text": "无论大人和小孩，樱想要每个人都能获得幸福。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 18。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-17",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 17"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "19",
+              "targetKind": "chat-node",
+              "text": "这不现实"
+            },
+            {
+              "targetId": "20",
+              "targetKind": "chat-node",
+              "text": "童心万岁"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-18",
+      "sourceRefs": [],
+      "title": "节点 18"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1501-1",
+          "speaker": "樱",
+          "text": "唔，只是吃樱做的月饼，果然还是不行吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-2",
+          "speaker": "樱",
+          "text": "哇，一不小心又在用小孩子的思路去理解你啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-3",
+          "speaker": "樱",
+          "text": "我这就去告诉莉可，她早就给你准备好一份「惊喜」啦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-19",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 19"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1502-1",
+          "speaker": "樱",
+          "text": "咦，你是在为樱骄傲吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-2",
+          "speaker": "主人",
+          "text": "樱是所有人的骄傲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-3",
+          "speaker": "樱",
+          "text": "哇啊，樱现在脸好红好红，胸口像是住进了一只不停乱跳的小兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-4",
+          "speaker": "樱",
+          "text": "待会儿樱要带你去一个地方，那里有很香很香的桂花树，你一定要来哦~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 21。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-20",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 20"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1600-1",
+          "speaker": "樱",
+          "text": "锵锵锵，樱换上了新的月兔主题的衣服，尤娜姐姐和里惠姐姐花了一整天的时间才把我打扮好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-2",
+          "speaker": "樱",
+          "text": "有毛茸茸的兔耳朵，漂亮的花裙子，缀满蝴蝶结的小兔伞……和一盏亮晶晶的雪兔灯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-3",
+          "speaker": "主人",
+          "text": "真想亲眼见见这样可爱的樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-4",
+          "speaker": "樱",
+          "text": "樱也好想早点见到你呢，所以特意早早地来到了桂花树下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-5",
+          "speaker": "樱",
+          "text": "对了，和樱一起等你的，还有「嫦娥」姐姐哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-6",
+          "speaker": "主人",
+          "text": "「嫦娥」竟然是真的！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-7",
+          "speaker": "樱",
+          "text": "嗯嗯，樱没有骗人，你这下总该相信我了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-8",
+          "speaker": "樱",
+          "text": "这个世界上真的有「嫦娥」姐姐，她现在已经是樱的好朋友了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-9",
+          "speaker": "主人",
+          "text": "真不可思议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-10",
+          "speaker": "樱",
+          "text": "樱把你的事讲给了「嫦娥」姐姐听，她也很想认识你哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-11",
+          "speaker": "樱",
+          "text": "你果然是一个非常有魅力的人，樱感到很骄傲呢。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 22。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-21",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 21"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1700-1",
+          "speaker": "樱",
+          "text": "小兔伞，变身！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-2",
+          "speaker": "主人",
+          "text": "……你对我做了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-3",
+          "speaker": "樱",
+          "text": "嘻嘻，你现在和樱一样，也是一个「小孩子」了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-4",
+          "speaker": "樱",
+          "text": "不用担心哦，中秋节过后你就会变回原来的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-5",
+          "speaker": "主人",
+          "text": "我们这是要去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-6",
+          "speaker": "樱",
+          "text": "樱答应过你，如果感到疲惫，随时欢迎你到樱的「粉色童话世界」来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-7",
+          "speaker": "樱",
+          "text": "这里的天空和大地都是粉色的哦，就连小花小草都是粉红色的呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-8",
+          "speaker": "主人",
+          "text": "空气里是什么味道？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-9",
+          "speaker": "樱",
+          "text": "哇啊，这么快就被你发现了……是糖果的味道哦，樱最爱的香甜甜的糖果。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-10",
+          "speaker": "樱",
+          "text": "唔，花朵是棒棒糖，云朵是棉花糖，小草是太妃糖……树干是巧克力哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-11",
+          "speaker": "樱",
+          "text": "嘿咻，樱从树上摘了一朵樱花……请你品尝看看，这是什么做的呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-12",
+          "speaker": "主人",
+          "text": "不像是普通的糖果，倒像是一种糕点？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-13",
+          "speaker": "樱",
+          "text": "是的呢~！是一种粉嫩嫩的樱花形状的月饼，樱把自己的名字送给了它。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1700-14",
+          "speaker": "樱",
+          "text": "接下来，忘记自己是一个不开心的大人，和樱一起开心地做回小孩子吧~",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·至纯小甜心",
+          "type": "heading"
+        }
+      ],
+      "id": "node-22",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 22 · 结局·至纯小甜心"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-502-1",
+          "speaker": "樱",
+          "text": "哇，樱好想一夜之间就变成大人的样子呢~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-502-2",
+          "speaker": "樱",
+          "text": "那样的话，樱就能和你一起生活在同一个世界里了哟。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 24。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-23",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 23"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-600-1",
+          "speaker": "樱",
+          "text": "刚刚，樱给莉可吃了自己亲手做的第一块月饼。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-2",
+          "speaker": "主人",
+          "text": "味道怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-3",
+          "speaker": "樱",
+          "text": "她……她被辣哭了，赌气不理樱了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-4",
+          "speaker": "主人",
+          "text": "啊？你放了什么馅料？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-5",
+          "speaker": "樱",
+          "text": "唔，我想想。里面有炸蝎子、辣椒、香菜、芥末……明明全都是莉可喜欢的食物呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-600-6",
+          "speaker": "樱",
+          "text": "为什么莉可吃到自己喜欢的食物，还要生樱的气呢？真是奇怪。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 25。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-24",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 24"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-700-1",
+          "speaker": "樱",
+          "text": "樱梦到自己捡到了一台时光机，坐着它回到了过去，发生了很多好玩的事情呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-2",
+          "speaker": "主人",
+          "text": "你都梦见了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-3",
+          "speaker": "樱",
+          "text": "唔，尤娜姐姐是个小哭包……里惠姐姐很凶悍，一直在默默保护着姐姐。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-4",
+          "speaker": "樱",
+          "text": "小时候的莉可是一个人见人爱的小甜心，没有一丁点现在这个凶巴巴的魔王莉可的影子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-5",
+          "speaker": "樱",
+          "text": "嘿嘿，最重要的是，我还梦到了小时候的你哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-6",
+          "speaker": "樱",
+          "text": "个子和樱差不多高，迷路了会哭鼻子，糖吃多了也会蛀牙……简直和现在的樱完全没差嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-7",
+          "speaker": "主人",
+          "text": "每个人的成长都是从童年开始的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-8",
+          "speaker": "樱",
+          "text": "呼，如果樱真的有一台时光机就好了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-700-9",
+          "speaker": "樱",
+          "text": "这样樱就能回到过去，陪伴你一起长大了。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 26。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-25",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "700",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 25"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-800-1",
+          "speaker": "樱",
+          "text": "在拒绝了189次以后，莉可终于答应陪樱去动物园了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-2",
+          "speaker": "樱",
+          "text": "因为莉可不喜欢被大家看到她逛动物园，所以我们特地选在人少的时候去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-3",
+          "speaker": "主人",
+          "text": "你们在动物园玩得怎么样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-4",
+          "speaker": "樱",
+          "text": "超~级~开~心~哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-5",
+          "speaker": "樱",
+          "text": "樱有很多的动物朋友，陪它们聊天，和它们一起玩……樱觉得非常幸福。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-6",
+          "speaker": "主人",
+          "text": "你是怎么和动物聊天的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-7",
+          "speaker": "樱",
+          "text": "嗯……这是樱的秘密哦，现在还不能告诉你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-8",
+          "speaker": "樱",
+          "text": "除了小动物，樱还可以和玩偶、茶壶先生聊天呢，是不是很厉害？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-9",
+          "speaker": "主人",
+          "text": "樱真的很厉害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-10",
+          "speaker": "樱",
+          "text": "嘿嘿，逛动物园这么幸福的事情，下次一定要和你一起去~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-11",
+          "speaker": "樱",
+          "text": "樱会给你表演和小动物讲话，唔，你要是想学的话，我也可以教你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "rawTargetId": "13",
+              "targetId": "chat-29004-800-13",
+              "targetKind": "chat-text",
+              "text": "我抽不出时间"
+            },
+            {
+              "rawTargetId": "13",
+              "targetId": "chat-29004-800-13",
+              "targetKind": "chat-text",
+              "text": "下次吧，下次一定"
+            }
+          ],
+          "sourceId": "chat-29004-800-12",
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "chat-29004-800-13",
+          "speaker": "樱",
+          "text": "诶，你拒绝樱的理由，和爸爸一模一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-800-14",
+          "speaker": "樱",
+          "text": "原来成为大人以后，每个人的时间就不再是自己的了吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 27。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-26",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 26"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-900-1",
+          "speaker": "樱",
+          "text": "呜……为什么大家都不相信这个世界真的有「嫦娥」姐姐……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-2",
+          "speaker": "樱",
+          "text": "爸爸不信……尤娜姐姐和里惠姐姐也不信，就连莉可也在笑我……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-3",
+          "speaker": "主人",
+          "text": "因为「嫦娥」是虚构的人物，本来就不存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-4",
+          "speaker": "樱",
+          "text": "不对不对不对，樱相信「嫦娥」姐姐是真实存在的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-5",
+          "speaker": "樱",
+          "text": "就像樱相信天空之上有神明，大海里住着美人鱼……森林的深处一定生活着许多美丽的小精灵。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-6",
+          "speaker": "樱",
+          "text": "你曾经也是一个像樱这样的小孩子，那个时候也不相信这些吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-7",
+          "speaker": "主人",
+          "text": "那都是小时候不懂事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-8",
+          "speaker": "樱",
+          "text": "是从什么时候开始，所谓的大人，再也不像小时候那样做梦了呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-900-9",
+          "speaker": "樱",
+          "text": "如果这就是长大的代价，那么，樱讨厌长大。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 28。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-27",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 27"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1000-1",
+          "speaker": "樱",
+          "text": "樱今天和莉可去参观了拉斐尔姐姐的画展，临走时她送了一幅小画给我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-2",
+          "speaker": "主人",
+          "text": "画的什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-3",
+          "speaker": "樱",
+          "text": "唔，是两个女孩子告别的画面。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-4",
+          "speaker": "樱",
+          "text": "一个栗色头发的女孩，挥手告别另一个明黄色长发的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-5",
+          "speaker": "樱",
+          "text": "不知道为什么莉可看到以后很生气，她说自己不喜欢那个栗色头发的女孩。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-6",
+          "speaker": "樱",
+          "text": "听说拉斐尔姐姐的画作可以预示未来，那个栗色头发的女孩会不会就是长大以后的莉可？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-7",
+          "speaker": "樱",
+          "text": "诶，那不就是说明，莉可不喜欢长大以后的自己……樱不明白，这个世界上怎么会有人不喜欢自己呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1000-8",
+          "speaker": "樱",
+          "text": "你呢，你喜欢现在这个变成大人的自己吗？",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 29。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-28",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 28"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "30",
+              "targetKind": "chat-node",
+              "text": "无法完全接受自己"
+            },
+            {
+              "targetId": "39",
+              "targetKind": "chat-node",
+              "text": "从没有否定过自己"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-29",
+      "sourceRefs": [],
+      "title": "节点 29"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1101-1",
+          "speaker": "樱",
+          "text": "如果你现在站在樱的面前，樱就可以摸摸你的头了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-2",
+          "speaker": "樱",
+          "text": "乖，乖，就算不喜欢现在这个作为大人的自己也没关系。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-3",
+          "speaker": "樱",
+          "text": "樱会一直陪着你，做你的好朋友的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1101-4",
+          "speaker": "樱",
+          "text": "一起去吃甜甜的糖果，把坏心情统统赶走吧~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 31。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-30",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1101",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 30"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1200-1",
+          "speaker": "樱",
+          "text": "你知道吗？莉可的「磨坊堡」其实是一个大型的游乐场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-2",
+          "speaker": "主人",
+          "text": "难怪每次被莉可绑架你都很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-3",
+          "speaker": "樱",
+          "text": "诶，被你发现了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-4",
+          "speaker": "樱",
+          "text": "小孩子的快乐很简单，不一定非要去游乐场啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-5",
+          "speaker": "樱",
+          "text": "一块甜甜的糖果，一个毛茸茸的玩偶，一身漂亮的衣服，都能让樱高兴一整天呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-6",
+          "speaker": "樱",
+          "text": "可是大人就不一样了……究竟怎么样才能让大人也快乐起来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-7",
+          "speaker": "主人",
+          "text": "大人快乐的标准不同而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-8",
+          "speaker": "樱",
+          "text": "唔……标准吗……樱好像有一些明白了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-9",
+          "speaker": "樱",
+          "text": "只要给大人足够多的糖果、玩偶和漂亮衣服，他们就会和樱一样开心了，对不对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-10",
+          "speaker": "主人",
+          "text": "没有这么简单，大人的快乐是很复杂的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-11",
+          "speaker": "樱",
+          "text": "唔，原来「复杂」才是大人们没办法快乐的原因。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 32。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-31",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 31"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1300-1",
+          "speaker": "樱",
+          "text": "「嫦娥」姐姐终于给樱回信啦，看来樱给她写的信收到了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-2",
+          "speaker": "主人",
+          "text": "真的有「嫦娥」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-3",
+          "speaker": "樱",
+          "text": "嗯嗯，她送了一只雪白的小兔灯给樱，还有一身漂亮的新衣服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-4",
+          "speaker": "樱",
+          "text": "看吧，樱没有骗你——「嫦娥」姐姐真的存在~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-5",
+          "speaker": "主人",
+          "text": "樱真的很喜欢「嫦娥」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-6",
+          "speaker": "樱",
+          "text": "很喜欢哦，非常喜欢，是做梦都想要去见的一位姐姐……爸爸说这个就是樱的「梦想」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-7",
+          "speaker": "樱",
+          "text": "原来有「梦想」的感觉这么幸福……你小时候有没有什么「梦想」呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-8",
+          "speaker": "主人",
+          "text": "我都不记得了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-9",
+          "speaker": "樱",
+          "text": "没关系哦，樱会陪你把它们一件一件全都想起来。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 33。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-32",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 32"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1400-1",
+          "speaker": "樱",
+          "text": "樱一开始把自己要做月饼送给大家的事讲给爸爸听，他笑着摸了摸我的头，说那不是小孩子应该做的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-2",
+          "speaker": "樱",
+          "text": "可是，等樱真的拿出自己做好的月饼，爸爸却看起来比谁都要开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-3",
+          "speaker": "樱",
+          "text": "这种感觉很奇妙……就好像樱真的一夜之间变成了大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-4",
+          "speaker": "樱",
+          "text": "一直以来都是樱在被身边的人疼爱着，这一次，换樱来保护你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-5",
+          "speaker": "樱",
+          "text": "吃下樱做的月饼，让大家都能幸福地笑起来……这就是樱的愿望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-6",
+          "speaker": "樱",
+          "text": "无论大人和小孩，樱想要每个人都能获得幸福。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 34。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-33",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 33"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "35",
+              "targetKind": "chat-node",
+              "text": "这不现实"
+            },
+            {
+              "targetId": "36",
+              "targetKind": "chat-node",
+              "text": "童心万岁"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-34",
+      "sourceRefs": [],
+      "title": "节点 34"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1501-1",
+          "speaker": "樱",
+          "text": "唔，只是吃樱做的月饼，果然还是不行吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-2",
+          "speaker": "樱",
+          "text": "哇，一不小心又在用小孩子的思路去理解你啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-3",
+          "speaker": "樱",
+          "text": "我这就去告诉莉可，她早就给你准备好一份「惊喜」啦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-35",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 35"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1502-1",
+          "speaker": "樱",
+          "text": "咦，你是在为樱骄傲吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-2",
+          "speaker": "主人",
+          "text": "樱是所有人的骄傲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-3",
+          "speaker": "樱",
+          "text": "哇啊，樱现在脸好红好红，胸口像是住进了一只不停乱跳的小兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-4",
+          "speaker": "樱",
+          "text": "待会儿樱要带你去一个地方，那里有很香很香的桂花树，你一定要来哦~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 37。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-36",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 36"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1600-1",
+          "speaker": "樱",
+          "text": "锵锵锵，樱换上了新的月兔主题的衣服，尤娜姐姐和里惠姐姐花了一整天的时间才把我打扮好呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-2",
+          "speaker": "樱",
+          "text": "有毛茸茸的兔耳朵，漂亮的花裙子，缀满蝴蝶结的小兔伞……和一盏亮晶晶的雪兔灯~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-3",
+          "speaker": "主人",
+          "text": "真想亲眼见见这样可爱的樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-4",
+          "speaker": "樱",
+          "text": "樱也好想早点见到你呢，所以特意早早地来到了桂花树下。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-5",
+          "speaker": "樱",
+          "text": "对了，和樱一起等你的，还有「嫦娥」姐姐哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-6",
+          "speaker": "主人",
+          "text": "「嫦娥」竟然是真的！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-7",
+          "speaker": "樱",
+          "text": "嗯嗯，樱没有骗人，你这下总该相信我了吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-8",
+          "speaker": "樱",
+          "text": "这个世界上真的有「嫦娥」姐姐，她现在已经是樱的好朋友了~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-9",
+          "speaker": "主人",
+          "text": "真不可思议。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-10",
+          "speaker": "樱",
+          "text": "樱把你的事讲给了「嫦娥」姐姐听，她也很想认识你哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1600-11",
+          "speaker": "樱",
+          "text": "你果然是一个非常有魅力的人，樱感到很骄傲呢。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 38。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-37",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1600",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 37"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1800-1",
+          "speaker": "樱",
+          "text": "尤娜姐姐和里惠姐姐送给樱很多蘑菇，它们有好多好多颜色，看起来非常可爱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-2",
+          "speaker": "樱",
+          "text": "所以，樱把它们全都做成了馅料，刚好够做四个月饼哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-3",
+          "speaker": "主人",
+          "text": "我刚才吃的那个难道就是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-4",
+          "speaker": "樱",
+          "text": "嗯嗯，樱把两个蘑菇馅的月饼分给了尤娜姐姐和里惠姐姐，自己吃了一个，最后一个就寄给你啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-5",
+          "speaker": "主人",
+          "text": "我感到有些不舒服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-6",
+          "speaker": "樱",
+          "text": "喔喔，看来你也和我们一样，吃下蘑菇月饼也变成了小兔子呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-7",
+          "speaker": "樱",
+          "text": "尤娜姐姐变成了红色的小兔子，里惠姐姐变成了绿色的小兔子……樱变成了粉红色的小兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-8",
+          "speaker": "主人",
+          "text": "怎么才能变回去！？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-9",
+          "speaker": "樱",
+          "text": "变回大人一点也不好玩，还是现在这个样子更方便一点。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-10",
+          "speaker": "主人",
+          "text": "等等，「方便」是什么意思？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-11",
+          "speaker": "樱",
+          "text": "看到了吗？前面那个「彩虹兔乐园」就是我们要去的地方哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-12",
+          "speaker": "樱",
+          "text": "嗯嗯，这是樱用画笔画出的「彩虹兔梦游仙境」中的一部分。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-13",
+          "speaker": "主人",
+          "text": "原来是一个梦……怎么才能醒过来？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-14",
+          "speaker": "樱",
+          "text": "在梦境里体验你想要的一切，重新喜欢上作为大人的自己。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-15",
+          "speaker": "樱",
+          "text": "到了那时，你就能够醒过来了喔。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-16",
+          "speaker": "主人",
+          "text": "如果我没办法喜欢作为大人的自己呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-17",
+          "speaker": "樱",
+          "text": "中秋节结束后，彩虹蘑菇的效果就会消失，大家都会变成原来的样子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1800-18",
+          "speaker": "樱",
+          "text": "如果你还是不能喜欢自己，那就……让樱和樱的好朋友们一起来喜欢你吧~",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·彩虹兔乐园",
+          "type": "heading"
+        }
+      ],
+      "id": "node-38",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1800",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 38 · 结局·彩虹兔乐园"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1102-1",
+          "speaker": "樱",
+          "text": "嗯嗯，樱决定了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-2",
+          "speaker": "樱",
+          "text": "长大以后要成为你这样的大人~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-3",
+          "speaker": "主人",
+          "text": "这个决定有些突然。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-4",
+          "speaker": "樱",
+          "text": "可是，你是樱见到过的最快乐的大人呀。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-5",
+          "speaker": "樱",
+          "text": "眼神清澈，内心坚定，永远温柔耐心……就像天使一样呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1102-6",
+          "speaker": "樱",
+          "text": "如果樱能成为你这样的大人，爸爸和尤娜姐姐他们一定会很骄傲的~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 40。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-39",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1102",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 39"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1200-1",
+          "speaker": "樱",
+          "text": "你知道吗？莉可的「磨坊堡」其实是一个大型的游乐场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-2",
+          "speaker": "主人",
+          "text": "难怪每次被莉可绑架你都很开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-3",
+          "speaker": "樱",
+          "text": "诶，被你发现了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-4",
+          "speaker": "樱",
+          "text": "小孩子的快乐很简单，不一定非要去游乐场啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-5",
+          "speaker": "樱",
+          "text": "一块甜甜的糖果，一个毛茸茸的玩偶，一身漂亮的衣服，都能让樱高兴一整天呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-6",
+          "speaker": "樱",
+          "text": "可是大人就不一样了……究竟怎么样才能让大人也快乐起来呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-7",
+          "speaker": "主人",
+          "text": "大人快乐的标准不同而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-8",
+          "speaker": "樱",
+          "text": "唔……标准吗……樱好像有一些明白了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-9",
+          "speaker": "樱",
+          "text": "只要给大人足够多的糖果、玩偶和漂亮衣服，他们就会和樱一样开心了，对不对？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-10",
+          "speaker": "主人",
+          "text": "没有这么简单，大人的快乐是很复杂的东西。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1200-11",
+          "speaker": "樱",
+          "text": "唔，原来「复杂」才是大人们没办法快乐的原因。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 41。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-40",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1200",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 40"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1300-1",
+          "speaker": "樱",
+          "text": "「嫦娥」姐姐终于给樱回信啦，看来樱给她写的信收到了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-2",
+          "speaker": "主人",
+          "text": "真的有「嫦娥」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-3",
+          "speaker": "樱",
+          "text": "嗯嗯，她送了一只雪白的小兔灯给樱，还有一身漂亮的新衣服。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-4",
+          "speaker": "樱",
+          "text": "看吧，樱没有骗你——「嫦娥」姐姐真的存在~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-5",
+          "speaker": "主人",
+          "text": "樱真的很喜欢「嫦娥」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-6",
+          "speaker": "樱",
+          "text": "很喜欢哦，非常喜欢，是做梦都想要去见的一位姐姐……爸爸说这个就是樱的「梦想」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-7",
+          "speaker": "樱",
+          "text": "原来有「梦想」的感觉这么幸福……你小时候有没有什么「梦想」呀？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-8",
+          "speaker": "主人",
+          "text": "我都不记得了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1300-9",
+          "speaker": "樱",
+          "text": "没关系哦，樱会陪你把它们一件一件全都想起来。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 42。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-41",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1300",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 41"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1400-1",
+          "speaker": "樱",
+          "text": "樱一开始把自己要做月饼送给大家的事讲给爸爸听，他笑着摸了摸我的头，说那不是小孩子应该做的事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-2",
+          "speaker": "樱",
+          "text": "可是，等樱真的拿出自己做好的月饼，爸爸却看起来比谁都要开心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-3",
+          "speaker": "樱",
+          "text": "这种感觉很奇妙……就好像樱真的一夜之间变成了大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-4",
+          "speaker": "樱",
+          "text": "一直以来都是樱在被身边的人疼爱着，这一次，换樱来保护你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-5",
+          "speaker": "樱",
+          "text": "吃下樱做的月饼，让大家都能幸福地笑起来……这就是樱的愿望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1400-6",
+          "speaker": "樱",
+          "text": "无论大人和小孩，樱想要每个人都能获得幸福。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 43。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-42",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1400",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 42"
+    },
+    {
+      "blocks": [
+        {
+          "options": [
+            {
+              "targetId": "44",
+              "targetKind": "chat-node",
+              "text": "这不现实"
+            },
+            {
+              "targetId": "45",
+              "targetKind": "chat-node",
+              "text": "童心万岁"
+            }
+          ],
+          "text": "",
+          "type": "choice"
+        }
+      ],
+      "id": "node-43",
+      "sourceRefs": [],
+      "title": "节点 43"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1501-1",
+          "speaker": "樱",
+          "text": "唔，只是吃樱做的月饼，果然还是不行吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-2",
+          "speaker": "樱",
+          "text": "哇，一不小心又在用小孩子的思路去理解你啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1501-3",
+          "speaker": "樱",
+          "text": "我这就去告诉莉可，她早就给你准备好一份「惊喜」啦。",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 46。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-44",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1501",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 44"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1502-1",
+          "speaker": "樱",
+          "text": "咦，你是在为樱骄傲吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-2",
+          "speaker": "主人",
+          "text": "樱是所有人的骄傲。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-3",
+          "speaker": "樱",
+          "text": "哇啊，樱现在脸好红好红，胸口像是住进了一只不停乱跳的小兔子。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1502-4",
+          "speaker": "樱",
+          "text": "待会儿樱要带你去一个地方，那里有很香很香的桂花树，你一定要来哦~",
+          "type": "dialogue"
+        },
+        {
+          "noticeKind": "flow",
+          "text": "继续至节点 47。",
+          "type": "notice"
+        }
+      ],
+      "id": "node-45",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1502",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 45"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-1900-1",
+          "speaker": "樱",
+          "text": "今天会有人去接你……你一定要乖乖配合哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-2",
+          "speaker": "主人",
+          "text": "￥%*#&……这哪是接，简直就是绑架！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-3",
+          "speaker": "樱",
+          "text": "唔，果然被樱猜中了呢……莉可手下的人，作风都和他们的大魔王很像。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-4",
+          "speaker": "樱",
+          "text": "你不要害怕哦，他们只是粗鲁了一些，但是不会伤害你的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-5",
+          "speaker": "樱",
+          "text": "莉可对樱发过誓，一定会把你安全送到「磨坊堡」，不然樱就再也不和她说话了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-6",
+          "speaker": "主人",
+          "text": "把我绑去「磨坊堡」做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-7",
+          "speaker": "樱",
+          "text": "诶，莉可还没有告诉你吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-8",
+          "speaker": "樱",
+          "text": "她和樱一样，也认为你是一个靠谱、帅气又有能力的大人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-9",
+          "speaker": "樱",
+          "text": "所以，莉可想要邀请你在中秋节这一天到「磨坊堡」做客，教教她怎么做一个真正的「大魔王」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-10",
+          "speaker": "主人",
+          "text": "我要是拒绝呢？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-11",
+          "speaker": "樱",
+          "text": "唔，樱依稀记得，在「磨坊堡」流传着一个古老的传说——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-1900-12",
+          "speaker": "樱",
+          "text": "凡是拒绝过大魔王的人，在第二天的早晨会收到一个豪华炸弹大礼包哦。",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·奇幻磨坊堡",
+          "type": "heading"
+        }
+      ],
+      "id": "node-46",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "1900",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 46 · 结局·奇幻磨坊堡"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "chat-29004-2000-1",
+          "speaker": "樱",
+          "text": "香香甜甜的桂花的味道，你闻到了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-2",
+          "speaker": "主人",
+          "text": "好独特的香味，不像是普通的桂花。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-3",
+          "speaker": "樱",
+          "text": "你的嗅觉真敏锐，这是「嫦娥」姐姐送给樱的桂花哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-4",
+          "speaker": "樱",
+          "text": "现在闭上眼睛，和樱一起跟着桂花的香味，一起去找「嫦娥」姐姐吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-5",
+          "speaker": "主人",
+          "text": "我们这是……飞起来了？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-6",
+          "speaker": "樱",
+          "text": "嗯嗯，香味的源头是从月亮上的桂花树传来的，所以我们自然就被带到天上啦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-7",
+          "speaker": "主人",
+          "text": "让我掐自己一下……好疼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-8",
+          "speaker": "樱",
+          "text": "嘿嘿，很疼对吧？这次真的不是梦啦，樱从不骗人的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-9",
+          "speaker": "樱",
+          "text": "现在把眼睛睁开，我们已经站在月亮上面啦，「嫦娥」姐姐就在前面的桂花树下等我们哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-10",
+          "speaker": "主人",
+          "text": "我不明白，为什么是我来到这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-11",
+          "speaker": "樱",
+          "text": "只有心思单纯的人，才能得到「嫦娥」姐姐的认可，一定是这样。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-12",
+          "speaker": "樱",
+          "text": "「嫦娥」姐姐肯定是觉得你和樱很像，所以才邀请我们到月亮上做客的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-13",
+          "speaker": "主人",
+          "text": "只要和樱在一起，就会有奇迹发生。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-14",
+          "speaker": "樱",
+          "text": "樱不这么想哦，是因为尤娜姐姐、里惠姐姐、莉可……还有你在，樱才可以一次又一次遇到奇迹。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-15",
+          "speaker": "樱",
+          "text": "樱是一个幸运的孩子，一直被许多许多的爱包围着。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-16",
+          "speaker": "樱",
+          "text": "所以，在今天这个特别的节日里，也让樱来好好爱自己身边的人吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-17",
+          "speaker": "樱",
+          "text": "请你一定要忘掉所有烦恼，愉快地享受这个节日。你能做到的，对吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-18",
+          "speaker": "主人",
+          "text": "好，我答应樱。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "chat-29004-2000-19",
+          "speaker": "樱",
+          "text": "走吧走吧，「嫦娥」姐姐的舞蹈表演马上就要开始啦~",
+          "type": "dialogue"
+        },
+        {
+          "text": "结局·月影桂子香",
+          "type": "heading"
+        }
+      ],
+      "id": "node-47",
+      "sourceRefs": [
+        {
+          "detailId": "29004",
+          "sectionId": "2000",
+          "table": "ResOpActivityChatGameSection"
+        }
+      ],
+      "title": "节点 47 · 结局·月影桂子香"
+    }
+  ],
+  "source": {
+    "kind": "chat-story",
+    "refs": [
+      {
+        "detailId": "29004",
+        "table": "ResOpActivityChatGamePlot"
+      },
+      {
+        "detailId": "29004",
+        "table": "ResOpActivityChatGameSection"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "聊天剧情与全部结局",
+  "wordCount": 7792
+}

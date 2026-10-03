@@ -1,0 +1,149 @@
+{
+  "bookId": "activity-snippets-zhounianqingqiandao",
+  "id": "section-22402",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "22402001",
+          "sourceType": 10,
+          "text": "乐队成员集齐了！",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "22402002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "我找到了兔子！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "哈莉搜到了狗~！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402004",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "我这里有——喔我看看……这是个「熊」吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402005",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "猴子……绿子，那个是猴子啦……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402006",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "加上猫和羊，刚好集齐一套。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402007",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "「潮玩全明星」，唔——弹琴的兔子和敲键盘的狗，还有扛音响的长得像熊一样的猴子……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402008",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "喔喔——我知道了！猴子是广播操领舞，狗是广播站的打字员，剩下几个是文艺委员，对吧？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402009",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "呃……哈哈……哈哈……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402010",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "这一组是「金属音乐节」的摇滚乐队纪念形象，最受欢迎的角色是主唱David和键盘手Dark。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402011",
+          "sourceType": 0,
+          "speaker": "绿子",
+          "text": "花迦好懂！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402012",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "啊哈！破案了！难怪主人最近总抱怨手机电量——\n是花迦偷偷用主人的手机看直播了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "……我……那个……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "22402014",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "哎呀~好啦好啦~快去看看能兑换什么奖品啦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "22402",
+      "sourceRefs": [
+        {
+          "bundle": "zhounianqingqiandao",
+          "rowIds": [
+            22402001,
+            22402002,
+            22402003,
+            22402004,
+            22402005,
+            22402006,
+            22402007,
+            22402008,
+            22402009,
+            22402010,
+            22402011,
+            22402012,
+            22402013,
+            22402014
+          ],
+          "sectionId": 22402
+        }
+      ],
+      "title": "乐队成员集齐了！"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 22402,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "36",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "乐队成员集齐了！",
+  "wordCount": 282
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212013",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "「……这就是你一直好奇的地方？」\n\n酒井唯一把扯下金库大门，在你震惊的目光中面无表情地走进了金色的海洋中。\n\n只见她摘下墨镜，冷酷的目光扫视着周围堆积的金币。她若有所思地看向你，笑道：\n\n「过来吧，想要多少，随你拿。」     ——该特别款仅限活动期间通过特殊礼包获得",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "黑夜保镖Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212013",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "酒井唯·黑夜保镖Ver.",
+  "title": "黑夜保镖Ver.",
+  "wordCount": 123
+}

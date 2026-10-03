@@ -1,0 +1,184 @@
+{
+  "bookId": "hero-215003",
+  "id": "bond-28529",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "28529001",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "叮叮当当当——！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真恋不是一直想要一个可以安静编曲的小房间吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529003",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "可、可是……太贵重了，我……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28529005",
+              "text": "进去看看吧？"
+            }
+          ],
+          "sourceId": "28529004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28529005",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "好多商品条形码……！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529006",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "21354……嗯……这个是「燕麦狂想曲」，67990……「沐浴露夜曲」……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "还有「茄子之歌」「葫芦之歌」「圆珠笔之歌」……未来生活的每一组条形码，我都会跟真恋分享。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529008",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "未来生活的……每一组吗……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这么说……是不是太油腻了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529010",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这种礼物……是不是太简陋了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529011",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "没有的事！数字是最棒的音乐灵感库了……而、而且我也很喜欢、喜欢……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28529013",
+              "text": "喜欢什么？"
+            }
+          ],
+          "sourceId": "28529012",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28529013",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "……阿，好漂亮的计算器！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529014",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "是能弹奏音乐的款式！好怀念的感觉……|101|怎么会知道这个？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "真恋果然对按键类产品有着出乎意料的兴趣阿。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28529016",
+          "sourceType": 0,
+          "speaker": "真恋",
+          "text": "谢谢~新专辑的第一首主打，就用编曲屋的条形码和计算器，来进行谱写吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28529",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28529001,
+            28529002,
+            28529003,
+            28529004,
+            28529005,
+            28529006,
+            28529007,
+            28529008,
+            28529009,
+            28529010,
+            28529011,
+            28529012,
+            28529013,
+            28529014,
+            28529015,
+            28529016
+          ],
+          "sectionId": 28529
+        }
+      ],
+      "title": "条形码与计算器"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "215003",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "条形码与计算器",
+  "wordCount": 319
+}

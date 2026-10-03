@@ -1,0 +1,179 @@
+{
+  "bookId": "activity-extra-sweethome_yure",
+  "id": "source-31503",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "31503001",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "等了那么久也没等到「车贤秀」手办，主人果然是骗我们的，哼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "主人解释过的啦，是我们没有仔细听……等等，哈莉，你这是要带我去哪？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503003",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "这还不明显吗，当然是去「FULI手办专卖店」抢夺「车贤秀」手办啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "这份决心虽然很令人欣赏，但是……做法却大大的有问题！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503005",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "你在说什么，我怎么完全听不懂啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503006",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "算了，理解不了的东西通常都会被我丢到一边。\n前面就是「FULI手办专卖店」，你真的不打算和我一起吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503007",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "唔，抢劫商店什么的……真的不是一件好事，所以坚决不能做啦。\n不过，我倒是可以跟你一起溜进商店里，偷偷看一眼「车贤秀」手办~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503008",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "切，没志气的家伙~小心跟在我后面，别让人类发现了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503009",
+          "sourceType": 9,
+          "text": "面对人山人海的FULI公司「车贤秀」手办发售现场，哈莉的「抢夺计划」无疾而终……",
+          "type": "narration"
+        },
+        {
+          "sourceId": "31503010",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "预订也不行，抢夺也不行，我都要怀疑我跟「车贤秀」手办彻底无缘了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "31503012",
+              "text": "你们两个怎么在这里？"
+            }
+          ],
+          "sourceId": "31503011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "31503012",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "诶，主人|101|满头大汗的样子，难道在这里排队等了很久？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503013",
+          "sourceType": 0,
+          "speaker": "哈莉",
+          "text": "不会又是什么都没抢到吧，不对，主人|101|这个表情看起来很微妙啊，难道是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "31503014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "呵呵，尽管猜猜看，猜对了我有独家奖励哦~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "31503",
+      "sourceRefs": [
+        {
+          "bundle": "sweethome_yure",
+          "rowIds": [
+            31503001,
+            31503002,
+            31503003,
+            31503004,
+            31503005,
+            31503006,
+            31503007,
+            31503008,
+            31503009,
+            31503010,
+            31503011,
+            31503012,
+            31503013,
+            31503014
+          ],
+          "sectionId": 31503
+        }
+      ],
+      "title": "活动片段 31503"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "allReferences": [
+          {
+            "path": [
+              "1046",
+              "27",
+              "4",
+              "avgIds",
+              "1"
+            ],
+            "table": "ResOpActivityAchieveDetail.lua"
+          }
+        ],
+        "path": [
+          "1046",
+          "27",
+          "4",
+          "avgIds",
+          "1"
+        ],
+        "sectionId": 31503,
+        "table": "ResOpActivityAchieveDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "源表明确引用的补充片段",
+  "title": "活动片段 31503",
+  "wordCount": 441
+}

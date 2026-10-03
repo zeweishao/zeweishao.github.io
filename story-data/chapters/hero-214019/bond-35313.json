@@ -1,0 +1,148 @@
+{
+  "bookId": "hero-214019",
+  "id": "bond-35313",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "35313001",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "一闪一闪亮晶晶~嘻嘻！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "咦？克拉拉在做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313003",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "嗨，我的大摄影师，你觉得今天我要用这瓶蓝色的香水，还是红色的那瓶呢？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "35313005",
+              "text": "蓝色的那瓶吧，比较清爽。"
+            },
+            {
+              "targetId": "35313005",
+              "text": "红色的那瓶吧，更有个性。"
+            }
+          ],
+          "sourceId": "35313004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "35313005",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "啧，土死了！正确答案是——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313006",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "统统丢掉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "等一下，门口那些崭新的衣服和包难道也是……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313008",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "都是要扔掉的垃圾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "诶，为什么呢，刚买回来就不喜欢了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313010",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "逛街的时候还很喜欢，可是买回来就不喜欢了，咯咯咯。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313011",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "放心，它们会得到一个华丽又闪耀到爆的处理的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "也包括我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "35313013",
+          "sourceType": 0,
+          "speaker": "克拉拉",
+          "text": "哈哈哈哈，真是可爱的问题！\n那么你想听到什么答案呢，大摄影师？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "35313",
+      "sourceRefs": [
+        {
+          "bundle": "p3_yaoye",
+          "rowIds": [
+            35313001,
+            35313002,
+            35313003,
+            35313004,
+            35313005,
+            35313006,
+            35313007,
+            35313008,
+            35313009,
+            35313010,
+            35313011,
+            35313012,
+            35313013
+          ],
+          "sectionId": 35313
+        }
+      ],
+      "title": "喜新？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214019",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "喜新？",
+  "wordCount": 228
+}

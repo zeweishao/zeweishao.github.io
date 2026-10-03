@@ -1,0 +1,929 @@
+{
+  "bookId": "rewind-34",
+  "id": "chapter-133",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32015001",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "快递的发件地址就是这里了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015002",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "找到了，未封装的快递都放在这里，还没有贴上快递单。\n看来只能跳进箱子里去找了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015003",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "呀！一起......挤进这么狭小的空间......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015004",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "就是这个吧，赠品的游戏卡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015005",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "我这边也找到了一模一样的。\n看来，每个包裹都有附送。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015006",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "......不，这和|101|拿到不一样。我感受不到里面有金属的存在。除了表层模拟磁条的镀铜，这只是一块实心塑料卡而已。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015007",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "而且这些卡都有包装和塑封，上面写着——手办X上架预热赠品。难道，只有|101|的卡是特别的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015008",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "还不能就这样断言。\n至少把全部包裹里的游戏卡都检查一遍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015009",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "叽......叽叽。发现可疑人员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015010",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "目标锁定，发动攻击！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015011",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "机械兔？为什么会攻击我们？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015012",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "叽叽叽，两个笨蛋，偷东西被我们抓了现行！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015013",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "乖乖认错，狩猎者大人不会为难你们！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015014",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "「狩猎者」？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015015",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "啧，两个小小的机械兔而已，打飞就是。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015016",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "等等......有动静。在头顶......不，在快速移动。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32015017",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "在你身后哦。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-707",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32015001,
+            32015002,
+            32015003,
+            32015004,
+            32015005,
+            32015006,
+            32015007,
+            32015008,
+            32015009,
+            32015010,
+            32015011,
+            32015012,
+            32015013,
+            32015014,
+            32015015,
+            32015016,
+            32015017
+          ],
+          "sectionId": 32015
+        }
+      ],
+      "title": "兄妹的定义·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32016001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这时才发现妾身，已经太迟了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32016002",
+          "sourceType": 5,
+          "text": "轰隆！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32016003",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "地面在裂开......快向后跳！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32016004",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "叽叽叽，功率拉满！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32016005",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "叽叽叽，电流冲击！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030001",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "难缠的家伙......呃唔！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030002",
+          "sourceType": 5,
+          "text": "滋滋——噼啪！！！",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32030003",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "你还好吗？清醒一点！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030004",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "哦呀，看来你的同伙已经被电流击穿了哦。\n如果现在乖乖投降，也是来得及的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030005",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我绝对会，战斗到底。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "很好，那么......\n尔等为己身之灭亡，悲叹吧！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030007",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "无处可躲......只能硬抗了吗。\n只好如此了，超频......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030008",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "超超超级——烟雾弹冲击！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呜！我的眼睛......\n哪里来的入侵者，抓住她！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "快点跟我走，那两只兔子追不上我们的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030011",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我不能丢下我的同伴不管，她被电昏过去了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我背上她。趁现在，从窗户跳出去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030013",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "嘶——头痛得快要裂开。\n这是，什么地方？皇后怎么样了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030014",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我劝你尽快接受事实——\n既然落到我的手中，那就乖乖交代那张游戏卡的下落。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030015",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "「那张」游戏卡？你知道些什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030016",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "还在装傻？\n唯一被「能量石」活化的、真正可以读取的游戏卡。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030017",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "告诉我皇后在哪，否则我一个字都不会说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030018",
+          "sourceType": 0,
+          "speaker": "红兔子",
+          "text": "那个可恶的家伙已经逃——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030019",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "——已经逃不出我的手掌心，被关在隔壁房间了。\n所以，如果你不肯说，我就拿你的朋友开刀了哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030020",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "......那张卡带掉进了人类|101|的包裹，插入游戏机后，是一个AI对话软件，我们就是为了调查此事而来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32030021",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "我已经告诉你了，现在放了皇后，马上！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-708",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32016001,
+            32016002,
+            32016003,
+            32016004,
+            32016005
+          ],
+          "sectionId": 32016
+        },
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32030001,
+            32030002,
+            32030003,
+            32030004,
+            32030005,
+            32030006,
+            32030007,
+            32030008,
+            32030009,
+            32030010,
+            32030011,
+            32030012,
+            32030013,
+            32030014,
+            32030015,
+            32030016,
+            32030017,
+            32030018,
+            32030019,
+            32030020,
+            32030021
+          ],
+          "sectionId": 32030
+        }
+      ],
+      "title": "兄妹的定义·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32017001",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "呵呵，感谢你的配合。那只是一个无伤大雅的玩笑，请不要介意。至于你的朋友，已经逃掉了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017002",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "你......在捉弄我？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "不过，如果你说的都是真话，说明我们是同一边的。\n不要对我抱有那么大的敌意哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "你究竟为什么在这里埋伏我们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017005",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "好吧，既然你自称是|101|的手办，我可以暂时相信你。我埋伏的并不是你们，而是......游戏卡包装上提到的「X」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017006",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "三天前，他从这间仓库偷走了一张游戏卡。当我看到他手中的能量石时，我嗅到了危险的气息......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017007",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "在我的眼皮底下偷了东西，还想跑？等等......你手上莫非是「能量石」？！把游戏卡和能量石都留下，我可以饶你不死。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017008",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "不，这两件东西......只有在我手中，才能发挥真正的价值。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017009",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "我倒是不介意听一听，你想用它做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017010",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我引以为傲的「Eros」，我最亲爱的女儿，在这个世界竟然失去了生命。我必须救她。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017011",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "别把你编写的游戏卡变成塑料片说得跟生离死别一样。那种精度的道具本就不能在这里活化，这并非你的特例。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017012",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "好了，现在赶紧把能量石拿来。\n你该不会觉得，自己是我的对手？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017013",
+          "sourceType": 0,
+          "speaker": "？？？",
+          "text": "我对「Eros」的爱意，你是不会懂的。为了她的新生，我愿意做任何事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017014",
+          "sourceType": 3,
+          "text": "注入能量石力量的游戏卡掉进快递箱中。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32017015",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "给我上，抓住他！\n不行，现在先把游戏卡拿到手更要紧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017016",
+          "sourceType": 3,
+          "text": "吱呀——门被两名物流员工推开。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32017017",
+          "sourceType": 0,
+          "speaker": "搬运工",
+          "text": "这些是今天的最后一批包裹，加油干吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32017018",
+          "sourceType": 0,
+          "speaker": "搬运工",
+          "text": "轻拿轻放，这些手办可金贵着呢。\n全部搬上来，发车。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-709",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32017001,
+            32017002,
+            32017003,
+            32017004,
+            32017005,
+            32017006,
+            32017007,
+            32017008,
+            32017009,
+            32017010,
+            32017011,
+            32017012,
+            32017013,
+            32017014,
+            32017015,
+            32017016,
+            32017017,
+            32017018
+          ],
+          "sectionId": 32017
+        }
+      ],
+      "title": "兄妹的定义·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32018001",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "既然你没有恶意，赶快放了我去见皇后。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这么冷漠真是令妾身伤心，我本还想邀请你们一同调查「X」的去向呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018003",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "放你也可以，但我必须先确认你说了真话。带路吧，去|101|家找到你说的那张游戏卡，我要亲自拿回能量石。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018004",
+          "sourceType": 0,
+          "speaker": "死亡主宰",
+          "text": "真是的，麻烦的女人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018005",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "总算逃出来了。嘿咻，先把你的朋友弄醒......哎？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018006",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "叽叽，叽叽！没想到吧，为了给狩猎者大人留下人质，我主动在烟雾中趴到你脚边！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018007",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "背，背错人了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018008",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "谢谢你救了我。你是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018009",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "我是大地与风的使者，薇薇安。你可真够大胆，这间仓库一直是狩猎者的地盘，没有人敢靠近的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018010",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "难道说，你也是一位探险家？\n快告诉我，你在里面发现了什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018011",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "我追查一张奇怪的游戏卡而来，但是遇到了狩猎者的袭击。\n谢谢你，但是现在，我必须回去救出我的同伴。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018012",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "你确定吗？那里是《终焉地平线》手办的专属仓库，狩猎者的手下少说有数十个。被你逃掉后，他们说不定会加强防范守株待兔哦。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018013",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "即便如此，我也非去不可。\n你，可以帮助我吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018014",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "也不是不行。如果我们能将狩猎者引出仓库，就不会腹背受敌，获胜的希望会大很多呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018015",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "而且，我也有想要知道的秘密——最新发售的终焉手办，究竟是何方神圣？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018016",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "那么说好啦，我先用回力标制造声音，你再边打边跑将她们引出去，我趁机进去救——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018017",
+          "sourceType": 0,
+          "speaker": "皇后[黑岩射手]",
+          "text": "怎么了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018018",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "怎么回事，狩猎者居然主动离开了，肩上还背着你的朋友！\n她们去的方向是——爱猫社区！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018019",
+          "sourceType": 0,
+          "speaker": "薇薇安",
+          "text": "没时间思考理由了，我们快追！\n——对了，把黄兔子也带上。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32018020",
+          "sourceType": 0,
+          "speaker": "黄兔子",
+          "text": "叽叽叽！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-710",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32018001,
+            32018002,
+            32018003,
+            32018004,
+            32018005,
+            32018006,
+            32018007,
+            32018008,
+            32018009,
+            32018010,
+            32018011,
+            32018012,
+            32018013,
+            32018014,
+            32018015,
+            32018016,
+            32018017,
+            32018018,
+            32018019,
+            32018020
+          ],
+          "sectionId": 32018
+        }
+      ],
+      "title": "兄妹的定义·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "32019001",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "莉莉奈......我最最亲爱的妹妹莉莉奈......\n我会让你成为世界上最幸福的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019002",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "你放心，这一次，我一定会保护好你的！现在的我已经比以前强壮一万倍，无论是怎样的敌人都砸碎给你看！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019003",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "吵死了......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019004",
+          "sourceType": 0,
+          "speaker": "AI莉莉奈",
+          "text": "我相信哥哥，不过仅仅是和哥哥在一起，就已经是最幸福了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019005",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "吵死了，给我闭嘴！\n启动，脉冲输出！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019006",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "住手！你要做什么？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019007",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "我要消灭这个恶心的笨蛋AI。\n不要妨碍我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019008",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我不会允许任何人，伤害莉莉奈！\n即便是你也不行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019009",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "真是没救了，把笨蛋哥哥混乱的脑子也一起击穿算了。\n我问你，如果她是莉莉奈，那我是谁？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019010",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "......你说得对。我的妹妹莉莉奈只能有一个。\n是时候做出选择了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019011",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "曾经，我没有保护好妹妹，败给了极端思维的坏蛋。但现在，10岁的莉莉奈又重新回来了，这是上天赐予我的机会！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019012",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "所以，你选择了一款软件作为自己的妹妹？太可笑了。\n不过没关系，我会让你重新选择一次！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019013",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我，绝对不会放弃这次机会，不会再次失去妹妹！\n喝呀！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019014",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "呃呜——！！！杰......斯！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯！你在做什么？不可以打妹妹！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019016",
+          "sourceType": 0,
+          "speaker": "莉莉奈",
+          "text": "不可......原谅。笨蛋哥哥，竟然被电子游戏弄得坏掉......我一定要，杀掉这个冒牌货！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019017",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "威胁到妹妹的阻碍，必须清除！\n坏掉吧坏掉吧——坏掉吧！！！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019018",
+          "sourceType": 5,
+          "text": "受到剧烈的冲击，莉莉奈从敞开的窗口径直飞了出去。",
+          "type": "narration"
+        },
+        {
+          "sourceId": "32019019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "住手，杰斯！把游戏机给我。\n在你反思清楚之前，游戏机先由我来保管。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019020",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "......即便是你，也不能把我和妹妹分开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019021",
+          "sourceType": 0,
+          "speaker": "杰斯",
+          "text": "我不做你的手办了，从现在开始，不要再管我！\n我，只要有妹妹就好。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "32019022",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "杰斯，站住！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-711",
+      "sourceRefs": [
+        {
+          "bundle": "blackrock",
+          "rowIds": [
+            32019001,
+            32019002,
+            32019003,
+            32019004,
+            32019005,
+            32019006,
+            32019007,
+            32019008,
+            32019009,
+            32019010,
+            32019011,
+            32019012,
+            32019013,
+            32019014,
+            32019015,
+            32019016,
+            32019017,
+            32019018,
+            32019019,
+            32019020,
+            32019021,
+            32019022
+          ],
+          "sectionId": 32019
+        }
+      ],
+      "title": "兄妹的定义·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 133,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 133,
+        "table": "ResPlotRewindDetail"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "可爱黏人的莉莉奈",
+  "title": "兄妹的定义",
+  "wordCount": 2667
+}

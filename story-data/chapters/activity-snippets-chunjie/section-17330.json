@@ -1,0 +1,93 @@
+{
+  "bookId": "activity-snippets-chunjie",
+  "id": "section-17330",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "17330001",
+          "sourceType": 10,
+          "text": "福、禄、寿、喜，这是送给主人的祝福。",
+          "title": "小节引文",
+          "type": "narration"
+        },
+        {
+          "sourceId": "17330002",
+          "sourceType": 0,
+          "speaker": "狩猎者",
+          "text": "这是四喜丸子，代表人生福、禄、寿、喜四大喜事。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17330003",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "主人要好好吃完，这一年也能变得十分圆满的！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17330004",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "嘿嘿，我们可是失败了很多次才弄出这样的丸子，色泽金黄，香酥可口，主人要好好品尝哦~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17330005",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "外皮酥脆，可是里面的肉质却是异常柔软，这种奇妙的口感，只是吃一口就停不下来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17330006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "而且芡汁的味道也异常清甜，衬托了肉香的同时，还化解了油腻感的存在。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "17330007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "这就是你们所谓的只会一点点厨艺吗？简直超神了好吧！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "17330",
+      "sourceRefs": [
+        {
+          "bundle": "chunjie",
+          "rowIds": [
+            17330001,
+            17330002,
+            17330003,
+            17330004,
+            17330005,
+            17330006,
+            17330007
+          ],
+          "sectionId": 17330
+        }
+      ],
+      "title": "四喜丸子"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "id": 17330,
+        "table": "ResTalkTitle"
+      },
+      {
+        "id": "17",
+        "table": "ResTalkSectionIntro"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "福、禄、寿、喜，这是送给主人的祝福。",
+  "title": "四喜丸子",
+  "wordCount": 200
+}

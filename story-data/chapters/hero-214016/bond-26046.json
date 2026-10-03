@@ -1,0 +1,147 @@
+{
+  "bookId": "hero-214016",
+  "id": "bond-26046",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "26046001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "你还好吗，脸色很差。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046002",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "完全卡住了......女主角告白的台词，我写不出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046003",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "可恶，根本没有能参考的恋爱经历！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我还以为，玉夏写过那么多同人文，对这种桥段信手拈来呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "话是这么说，但这次不一样......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不一样？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046007",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "唯独这次，是代入自己......作为女主角的小说。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "完全从实际出发，反而不知道该怎么落笔了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我能帮上什么忙吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "刚才也说了，是女主角向心仪的人告白，对吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "呐，让我对你告白试试看？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "难道心仪的人代入的是我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "笨、笨蛋！居然直接问出口......",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "26046014",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "可是这样不就......没有必要再告白了吗？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "26046",
+      "sourceRefs": [
+        {
+          "bundle": "p3_ruolin",
+          "rowIds": [
+            26046001,
+            26046002,
+            26046003,
+            26046004,
+            26046005,
+            26046006,
+            26046007,
+            26046008,
+            26046009,
+            26046010,
+            26046011,
+            26046012,
+            26046013,
+            26046014
+          ],
+          "sectionId": 26046
+        }
+      ],
+      "title": "台词"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "214016",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "台词",
+  "wordCount": 240
+}

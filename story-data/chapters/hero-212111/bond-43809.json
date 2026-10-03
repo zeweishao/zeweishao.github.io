@@ -1,0 +1,211 @@
+{
+  "bookId": "hero-212111",
+  "id": "bond-43809",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "43809001",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "这是……前些日子见过的灯市。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43809003",
+              "text": "没错，是等比例缩小的布景。"
+            }
+          ],
+          "sourceId": "43809002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43809003",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "为什么特意送我这个？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43809005",
+              "text": "你似乎很喜欢看花灯"
+            },
+            {
+              "targetId": "43809005",
+              "text": "逛街时你看上去心情很好"
+            }
+          ],
+          "sourceId": "43809004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43809005",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "果然瞒不住你。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809006",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "我确不厌烦节庆时的人间街市，看到万家的灯火，如织的人流，心底便不觉泛起暖意。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809007",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "某种意义上……花灯与曾经的赤龙相同，它们身上都寄寓了人们的美好愿望。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43809009",
+              "text": "那么，你的愿望是什么？"
+            }
+          ],
+          "sourceId": "43809008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43809009",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "我？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809010",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……我没有愿望。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "43809012",
+              "text": "我并不是在询问传说中的赤龙"
+            }
+          ],
+          "sourceId": "43809011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "43809012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我在问与我朝夕相处的少女，龙缨。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809013",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "……我很难回答。自从来了人间，我便时常感到心绪激荡，不像过去一般平静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809014",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "许多本该有答案的问题，也失掉了回答的底气。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809015",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "但若你仅是询问「龙缨」的想法……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809016",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "少女定定地凝视着你，仍由沉默弥漫。她的气息并不平稳，仿佛在水下燃烧的火。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809017",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "她……许愿，与你相伴的时光，能够直抵永恒。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809018",
+          "sourceType": 0,
+          "speaker": "龙缨",
+          "text": "你会答应她吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "43809019",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "于是你开口，向她说出了深藏心底的答案。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "43809",
+      "sourceRefs": [
+        {
+          "bundle": "urlovestory",
+          "rowIds": [
+            43809001,
+            43809002,
+            43809003,
+            43809004,
+            43809005,
+            43809006,
+            43809007,
+            43809008,
+            43809009,
+            43809010,
+            43809011,
+            43809012,
+            43809013,
+            43809014,
+            43809015,
+            43809016,
+            43809017,
+            43809018,
+            43809019
+          ],
+          "sectionId": 43809
+        }
+      ],
+      "title": "万家灯火"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "212111",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "万家灯火",
+  "wordCount": 341
+}

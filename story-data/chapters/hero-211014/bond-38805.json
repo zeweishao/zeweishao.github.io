@@ -1,0 +1,216 @@
+{
+  "bookId": "hero-211014",
+  "id": "bond-38805",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "38805001",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唔，怎么回事，四肢不酸痛了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "而且睁眼就是一片花田，这里究竟是……完全想不起来……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805003",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "是天国。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "欸欸——！我已经死了吗？！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805005",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "开玩笑的。|101|似乎是因为周六熬夜导致的疲惫，在草地上睡着了。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38805007",
+              "text": "菲伊的表情完全看不出来是在开玩笑呢……"
+            },
+            {
+              "targetId": "38805007",
+              "text": "要是表情能更像开玩笑就好了。"
+            }
+          ],
+          "sourceId": "38805006",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38805007",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "我会将此事提上学习日程。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805008",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "话说回来，我记得我睡着的时候周围都还是花苞，现在居然都已经盛开了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "是菲伊做了什么吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805010",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "我什么也没做，是自然规律，一整天已经足够让花朵们全部绽放。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805011",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "我反而没想到，|101|的睡眠质量这么好，24小时都没有醒来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805012",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "真是值得研究的样本。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "38805014",
+              "text": "哈哈，菲伊的这个玩笑很有意思哦。"
+            },
+            {
+              "targetId": "38805014",
+              "text": "菲伊这不是很会开玩笑嘛？"
+            }
+          ],
+          "sourceId": "38805013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "38805014",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "……？这不是玩笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "今，今天周几……？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805017",
+          "sourceType": 0,
+          "speaker": "菲伊",
+          "text": "周一。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805018",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我的周末啊——！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "38805019",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "周日消失了——！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "38805",
+      "sourceRefs": [
+        {
+          "bundle": "p3_simei",
+          "rowIds": [
+            38805001,
+            38805002,
+            38805003,
+            38805004,
+            38805005,
+            38805006,
+            38805007,
+            38805008,
+            38805009,
+            38805010,
+            38805011,
+            38805012,
+            38805013,
+            38805014,
+            38805015,
+            38805016,
+            38805017,
+            38805018,
+            38805019
+          ],
+          "sectionId": 38805
+        }
+      ],
+      "title": "特调玩笑"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "211014",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "特调玩笑",
+  "wordCount": 314
+}

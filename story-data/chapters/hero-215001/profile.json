@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-215001",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "人气游戏《蘑菇少女的日常》中的「樱」手办化登场。除了可爱的神情，充满装饰感的粉红色公主裙和洋伞，精致地衬托出樱可爱的造型。她一只手撑着洋伞，另一只手指向前方，口中仿佛还振振有辞。就连樱头顶的王冠也一并被还原了出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "215001"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 107
+}

@@ -1,0 +1,187 @@
+{
+  "bookId": "hero-212012",
+  "id": "bond-28542",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28542001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "开始吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我先来，我总是一个人……打游戏。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "一个人晨跑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯……我总是一个人，做手办涂装。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "一个人执行任务。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542006",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "凛的反应太快了，完全不给我留反应时间嘛！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542007",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我要再想想，我总是一个人……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "让你感到为难了吗？中止也可以。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542009",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不！我想到了，我总是一个人……跟凛在一起！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这不好笑。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "因为看到凛总是一个人啊，不论做什么都是一个人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542013",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "一个人的滋味……很不好受吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542014",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "没有负担、变故、麻烦、拖累。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542015",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "没有埋怨、分歧、争吵、伤害。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "很干净。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542017",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "可是一个人的话，也不会有倾诉、陪伴、信任和爱呀！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542018",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "陪伴，爱？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28542019",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "它们都是……太过奢侈的东西。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28542",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28542001,
+            28542002,
+            28542003,
+            28542004,
+            28542005,
+            28542006,
+            28542007,
+            28542008,
+            28542009,
+            28542010,
+            28542011,
+            28542012,
+            28542013,
+            28542014,
+            28542015,
+            28542016,
+            28542017,
+            28542018,
+            28542019
+          ],
+          "sectionId": 28542
+        }
+      ],
+      "title": "总是一个人？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212012",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "总是一个人？",
+  "wordCount": 239
+}

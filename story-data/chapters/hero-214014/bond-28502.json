@@ -1,0 +1,170 @@
+{
+  "bookId": "hero-214014",
+  "id": "bond-28502",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28502001",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "我们的关系，已经到了送房子这种地步了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502002",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "尽管我对M城的人们还不是很了解，不过还是知道你们只会在向女孩子求婚的时候送这么珍贵的礼物。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502003",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "当然有时候并不是求婚也会送房子，所以，难道你对我……？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28502005",
+              "text": "请暂停一下你的表演。"
+            }
+          ],
+          "sourceId": "28502004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28502005",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "哈哈，逗你的啦，没想到你这么容易上当，真是有趣~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502006",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "话说回来，收礼物什么的，对我来说可是家常便饭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502007",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "华丽的房子，璀璨的珠宝，还有各种奇珍异兽，等等诸如此类，我早就见怪不怪了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502008",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "所以呢，不够特别的东西，我可是不会多看一眼的哦~",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28502010",
+              "text": "绝对是只属于你的礼物。"
+            }
+          ],
+          "sourceId": "28502009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28502010",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "这里面居然是……一间迷你的舞蹈室。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502011",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "舞台似乎是水晶制作的，还雕刻了繁复的花纹，上面是象征着我的云和月的图案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502012",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "而且整个房间，无论从摆设到装潢再到各种细微的角落，都使用了我最爱的紫色作为主色调。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28502014",
+              "text": "你喜欢吗？"
+            }
+          ],
+          "sourceId": "28502013",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28502014",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "喜欢，非常喜欢，我从未收到过如此真诚的礼物。它从构思到制作的每一个环节，都倾注了主人的良苦用心。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28502015",
+          "sourceType": 0,
+          "speaker": "貂蝉",
+          "text": "如果这不是对我的爱，又会是什么呢？\n谢谢你为我做的一切，我将永远只为你跳舞。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28502",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28502001,
+            28502002,
+            28502003,
+            28502004,
+            28502005,
+            28502006,
+            28502007,
+            28502008,
+            28502009,
+            28502010,
+            28502011,
+            28502012,
+            28502013,
+            28502014,
+            28502015
+          ],
+          "sectionId": 28502
+        }
+      ],
+      "title": "旋转吧"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 7,
+        "heroId": "214014",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "旋转吧",
+  "wordCount": 405
+}

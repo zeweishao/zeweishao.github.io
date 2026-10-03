@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-211005",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "本次由人气游戏《永恒的异界幻想》中，一族之长的「格雷豪斯」被制成1/7比例模型登场！强壮的肌肉细节，背在肩上的巨斧等能为角色增添魅力的部分被完美呈现出来。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211005"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 77
+}

@@ -1,0 +1,134 @@
+{
+  "bookId": "hero-213112",
+  "id": "bond-28593",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28593001",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "抱歉，我不知道你在这里。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28593003",
+              "text": "你在找什么东西吗？"
+            }
+          ],
+          "sourceId": "28593002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28593003",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "不，只是初到新的环境不太习惯，到这里散散心而已。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28593005",
+              "text": "那么，是时候把这只鞋还给你了。"
+            }
+          ],
+          "sourceId": "28593004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28593005",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "这……这正是我失落的那只水晶鞋！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28593006",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "它对我来说非常重要，我找了很久，始终毫无进展。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28593007",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "果然，正如预言中所说，只有「命定之人」才能找到。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28593009",
+              "text": "我很荣幸能帮到你。"
+            },
+            {
+              "targetId": "28593009",
+              "text": "记住，你并不孤单。"
+            }
+          ],
+          "sourceId": "28593008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28593009",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28593010",
+          "sourceType": 0,
+          "speaker": "辛德瑞拉",
+          "text": "原本我早已习惯独自应对所有的事，或许该做出一些改变了。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28593",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28593001,
+            28593002,
+            28593003,
+            28593004,
+            28593005,
+            28593006,
+            28593007,
+            28593008,
+            28593009,
+            28593010
+          ],
+          "sectionId": 28593
+        }
+      ],
+      "title": "预言之人"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "213112",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "预言之人",
+  "wordCount": 170
+}

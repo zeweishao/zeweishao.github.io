@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-211203",
+  "id": "skin-5",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "月亮潭。\n\n独眼乔伊很喜欢钓鱼。\n但是从前天早上起，他可亲可爱的绝佳藏身地就被一个笨蛋菜鸟占领了。\n\n这个蓝头发的小妞显然一丁点儿常识都没有，一次又一次的脱钩失手看得他技痒又暴躁。\n\n第三天，已经整整三天没有摸过鱼竿的乔伊终于无法忍受——钓鱼瘾冲昏了他的头脑，使他贸然迈出藏身的树丛。\n\n「钓到你了，独眼乔伊，」泉吹起口哨，「多谢，这可是你自愿的~」",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "闪亮·愿者上钩Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "211203",
+        "skinId": "skin-5"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "泉·闪亮·愿者上钩Ver.",
+  "title": "闪亮·愿者上钩Ver.",
+  "wordCount": 166
+}

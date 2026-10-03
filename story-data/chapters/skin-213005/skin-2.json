@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-213005",
+  "id": "skin-2",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "三天前，吕布再次因为打赌失败输给了貂蝉。代价就是，他要无偿为「七星客栈」服务整整一周。\n\n这是前所未有的挑战，所要求做的事工作和吕布擅长的干架完全无关。\n\n「要本大爷写对联，开什么玩笑？」\n\n在毁掉无数上好的宣纸和笔墨之后，吕布拿出了他最为得意的一篇作品。\n\n苍劲有力，张狂奔放，自成一体。\n\n只是，他究竟写了个啥？",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "少年狂Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213005",
+        "skinId": "skin-2"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "吕布·少年狂Ver.",
+  "title": "少年狂Ver.",
+  "wordCount": 148
+}

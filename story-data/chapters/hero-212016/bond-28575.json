@@ -1,0 +1,170 @@
+{
+  "bookId": "hero-212016",
+  "id": "bond-28575",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28575001",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "尊贵的大人，我看了您最近的体检报告，情况有些不容乐观。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28575003",
+              "text": "你看了？"
+            },
+            {
+              "targetId": "28575003",
+              "text": "别吓我！"
+            }
+          ],
+          "sourceId": "28575002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28575003",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "很抱歉没有提前给您报备，但请您务必理解和配合我的工作。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575004",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "作为您的私人管家，我有责任对您的个人情报进行全方位地收集，以便我为您量身定制生活管理方案。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575005",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "由于您长期熬夜、缺乏锻炼，且偏爱重油重盐、过度烹饪的饮食，加重了您的身体负担。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575006",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "综合来看，您的BMI指数达到了28.3，BFP处于危险的临界值20%，而腰臀比则是……",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28575008",
+              "text": "不要说了……"
+            },
+            {
+              "targetId": "28575008",
+              "text": "真的假的……"
+            }
+          ],
+          "sourceId": "28575007",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28575008",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "以上是根据您的个人数据报告做出的预测，还请您严肃对待。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28575010",
+              "text": "呼，被你吓出冷汗。"
+            }
+          ],
+          "sourceId": "28575009",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28575010",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "看来您已经意识到问题的严重性，不过别担心，我为您连夜准备好了一整套均衡健康的饮食计划。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575011",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "只要您按照我的计划改变饮食结构，假以时日必定会恢复健康匀称的体态。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "听起来不错，就从今天的早餐开始吧。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575013",
+          "sourceType": 0,
+          "speaker": "罗威·伯恩斯",
+          "text": "是，考虑到您的情况，特别准备了减脂早餐：一杯牛奶，搭配白水煮蛋和半片全麦吐司，以及五枚坚果。祝您用餐愉快。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28575014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "嗯……这个计划不如明天再开始施行吧？",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28575",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28575001,
+            28575002,
+            28575003,
+            28575004,
+            28575005,
+            28575006,
+            28575007,
+            28575008,
+            28575009,
+            28575010,
+            28575011,
+            28575012,
+            28575013,
+            28575014
+          ],
+          "sectionId": 28575
+        }
+      ],
+      "title": "「均衡饮食」"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212016",
+        "index": "1",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "「均衡饮食」",
+  "wordCount": 401
+}

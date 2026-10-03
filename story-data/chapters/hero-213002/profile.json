@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-213002",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "FULI模型设计师将《少女X机关枪》中的知名角色奥菲利亚制成模型，完整展现其纤细的身形及身穿绿色军服的优美形象。蓬松卷曲的金黄色双马尾、存在感极强的大炮皆用心制作呈现，包含各种色泽的服饰细节也用心涂装并一一展现。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "213002"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 106
+}

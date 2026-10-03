@@ -1,0 +1,179 @@
+{
+  "bookId": "hero-212011",
+  "id": "bond-28540",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28540001",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "唉，so boring。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28540003",
+              "text": "这话你说了好几遍。"
+            }
+          ],
+          "sourceId": "28540002",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28540003",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "你就没有一些更有品味的hobby？",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28540005",
+              "text": "宅在家是我唯一的爱好。"
+            }
+          ],
+          "sourceId": "28540004",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28540005",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Hey man，你真该出去走走。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540006",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "在大洋彼岸，法兰西会教会你什么是「Romantic」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540007",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "那里有世界上最华贵的宫廷服饰，和最精彩的「Drama」。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28540009",
+              "text": "现在不流行这个了。"
+            }
+          ],
+          "sourceId": "28540008",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28540009",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Shame，我以所谓的现代审美为耻。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540010",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "不过没关系，我可以教你。",
+          "type": "dialogue"
+        },
+        {
+          "options": [
+            {
+              "targetId": "28540012",
+              "text": "我可以拒绝吗？"
+            },
+            {
+              "targetId": "28540012",
+              "text": "我还有其他事。"
+            }
+          ],
+          "sourceId": "28540011",
+          "sourceType": 4,
+          "text": "",
+          "type": "choice"
+        },
+        {
+          "sourceId": "28540012",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "No way，今天你哪也别想去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540013",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "把这套「伊达审美图鉴」全部给我看完，right now。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "唉，家督大人，时代变了啊……",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28540015",
+          "sourceType": 0,
+          "speaker": "伊达政宗",
+          "text": "Shut up，我是家督，你必须听我的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28540",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28540001,
+            28540002,
+            28540003,
+            28540004,
+            28540005,
+            28540006,
+            28540007,
+            28540008,
+            28540009,
+            28540010,
+            28540011,
+            28540012,
+            28540013,
+            28540014,
+            28540015
+          ],
+          "sectionId": 28540
+        }
+      ],
+      "title": "家督的审美"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212011",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "家督的审美",
+  "wordCount": 246
+}

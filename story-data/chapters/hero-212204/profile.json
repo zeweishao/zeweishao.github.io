@@ -1,0 +1,30 @@
+{
+  "bookId": "hero-212204",
+  "id": "profile",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "知名设计师品牌『第九夜』的经典之作，细腻还原了黑市商人「S-VIII」狡黠而大胆的做派。这位颇具争议的魅力角色似乎格外受设计师本人的偏爱，第九将夜坦言，自己对这种「随心所欲、无乐不作」的人生信条十分迷恋。",
+          "type": "profile"
+        }
+      ],
+      "id": "profile",
+      "title": "人物简介"
+    }
+  ],
+  "source": {
+    "kind": "hero-profile",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212204"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "",
+  "title": "人物简介",
+  "wordCount": 102
+}

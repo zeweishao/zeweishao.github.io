@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212204",
+  "id": "skin-3",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "祥和的雪夜，恶魔展开翅膀，身影几乎融入夜色。落地时，她的鞋底在新雪上没有发出丝毫声响。\n\n她斜倚在烟囱上，咬了一口手中的果实，嘴里发出嘎吱嘎吱的咀嚼声。烟花正从远方的楼顶升起，绽放出绚烂的火光。\n\n距离她将所有「苹果」倒进军工厂的烟囱，还有一分钟；距离巨大的声响惊动全城，还有半小时；距离那个人找到自己……还有多久呢？\n\n「足够刺激的游戏，平安夜限定。」\n\n——该特别款仅可通过「圣诞派对」活动获取",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "心跳苹安夜Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212204",
+        "skinId": "skin-3"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "S-VIII·心跳苹安夜Ver.",
+  "title": "心跳苹安夜Ver.",
+  "wordCount": 191
+}

@@ -1,0 +1,31 @@
+{
+  "bookId": "skin-212004",
+  "id": "skin-1",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "日常高冷的总裁阿尔弗雷德在万圣节之夜打开抽屉，独自一人在办公室带上南瓜头，对着空白的墙壁像孩子一样孤独重复着，不给糖就捣蛋。\n\n“不给糖就捣蛋！”\n\n      ——该特别款为万圣节限定",
+          "type": "narration"
+        }
+      ],
+      "id": "story",
+      "title": "南瓜头总裁Ver."
+    }
+  ],
+  "source": {
+    "kind": "skin-story",
+    "refs": [
+      {
+        "field": "story",
+        "file": "图鉴数据_catalog.json",
+        "heroId": "212004",
+        "skinId": "skin-1"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "阿尔弗雷德·南瓜头总裁Ver.",
+  "title": "南瓜头总裁Ver.",
+  "wordCount": 83
+}

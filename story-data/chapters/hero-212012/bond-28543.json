@@ -1,0 +1,171 @@
+{
+  "bookId": "hero-212012",
+  "id": "bond-28543",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "sourceId": "28543001",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "特工？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543002",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "没错！\n想请凛教教我，怎样才能成为一位优秀……合格的特工。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543003",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "理由。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "现在还不能告诉你！但我保证，这绝不是一时兴起。\n我有一件想做的事，非以「特工」的身份完成不可。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543005",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "我左臂的军用携扣中缠有一圈钢丝。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543006",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "除了攀爬、测量、制造陷阱、连接肢体，必要时，它是割开对方喉咙的好武器。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543007",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "找到适合你的防身道具。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543008",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "接着，学会隐蔽。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543009",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "伪装身份，证件与ID，留意一切暴露情报的科技——摄像头、窃听器，及时发现，毁掉它们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543010",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "第三，冷静。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543011",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "目标是唯一导向，为此，自尊、同伴、信任，全都可以舍去。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543012",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "非做到这种程度不可吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543013",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "描述了符合你认知的「特工」形象，这不是你提问的目的？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543014",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "不是的！我在想，如果能成为「特工」，即便只是一个生疏的新手，这样也能跟凛时常搭档一起了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543015",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "我知道这个想法很蠢，甚至有点幼稚……\n因为凛跟其他手办不同，一直以来，你都是这样难以接近啊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543016",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "这样吗。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "28543017",
+          "sourceType": 0,
+          "speaker": "凛",
+          "text": "下一次直接告诉我，我会理解的。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "28543",
+      "sourceRefs": [
+        {
+          "bundle": "p3_luning",
+          "rowIds": [
+            28543001,
+            28543002,
+            28543003,
+            28543004,
+            28543005,
+            28543006,
+            28543007,
+            28543008,
+            28543009,
+            28543010,
+            28543011,
+            28543012,
+            28543013,
+            28543014,
+            28543015,
+            28543016,
+            28543017
+          ],
+          "sectionId": 28543
+        }
+      ],
+      "title": "特工的修养？"
+    }
+  ],
+  "source": {
+    "kind": "AVG",
+    "refs": [
+      {
+        "developId": 6,
+        "heroId": "212012",
+        "index": "2",
+        "table": "ResDevelopPlot"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "羁绊故事",
+  "title": "特工的修养？",
+  "wordCount": 370
+}

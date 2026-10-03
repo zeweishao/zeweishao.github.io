@@ -1,0 +1,953 @@
+{
+  "bookId": "rewind-48",
+  "id": "chapter-194",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "noticeKind": "placeholder",
+          "text": "原文中的动态称谓保留为占位符：|101|＝玩家昵称；|102|＝按玩家性别变化的称谓。",
+          "type": "notice"
+        }
+      ],
+      "id": "reading-note",
+      "title": "阅读说明"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39901001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "叮咚——叮咚——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901002",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "原来是龙王大人，好久不见~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901003",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "|101|呢，吾有事要和|102|谈。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901004",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "艾伦兹看起来不太开心，发生什么事了？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901005",
+          "sourceType": 0,
+          "speaker": "阿斯塔罗斯",
+          "text": "放着好好的家主不做，非要在「柯斯顿」办什么戏剧节，真是吃饱了撑的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901006",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "是「戏剧嘉年华」，注意你的言辞。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901007",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "「柯斯顿」每年都会举办一次戏剧节，那些剧目吾不知道看了多少遍，早就感到厌烦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901008",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "因此，吾今年要办一场与众不同的戏剧节，并正式更名为「戏剧嘉年华」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901009",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "现正式向你们征集戏剧方案，优秀方案一经启用，将会得到一份丰厚的回报，吾允诺。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901010",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "好像很好玩的样子，优纪也来试试看吧~",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901011",
+          "sourceType": 0,
+          "speaker": "优纪",
+          "text": "有了，不如优纪站在舞台上表演打棒球，红龙大人一定没见过这样的演出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901012",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "花迦……花迦可以表演一边念成语绕口令，一边超远距离扔苦无，百分百命中目标。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901013",
+          "sourceType": 0,
+          "speaker": "花迦",
+          "text": "如果还觉得不够的话，可以把花迦的眼睛蒙起来，这样……可以吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901014",
+          "sourceType": 0,
+          "speaker": "岩田和江",
+          "text": "这些充其量只能算作杂技，还谈不上戏剧剧目。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "想要体验欣赏戏剧的快乐，当然不如亲自参与来得过瘾。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901016",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "台下观众每一丝情绪的起伏，全都来自于隐匿于幕后的你——这才是戏剧真正的魅力。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901017",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "很好，你的方案通过了。\n说下去，吾想听更多。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "很遗憾，你还是别做梦了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901019",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "剧本，演员，舞台……一样都没有，筹备戏剧演出无异于天方夜谭。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901020",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "就算你是「柯斯顿」的家主大人，也有做不到的事，不是吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901021",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "我写过一个剧本，名叫《仲夏奇妙夜》，可惜两个女主角一直没有合适的演员人选。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901022",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "这个剧本吾买了。吾的骑士稍后会和你联系，你可以开任意自己喜欢的价格。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39901023",
+          "sourceType": 0,
+          "speaker": "艾伦兹·珀尔",
+          "text": "接下来，吾将会砸重金在M城举办一场演员海选，为这个剧本选出最佳的人选。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-967",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39901001,
+            39901002,
+            39901003,
+            39901004,
+            39901005,
+            39901006,
+            39901007,
+            39901008,
+            39901009,
+            39901010,
+            39901011,
+            39901012,
+            39901013,
+            39901014,
+            39901015,
+            39901016,
+            39901017,
+            39901018,
+            39901019,
+            39901020,
+            39901021,
+            39901022,
+            39901023
+          ],
+          "sectionId": 39901
+        }
+      ],
+      "title": "迈出第一步·Ⅰ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39902001",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "有咲，你别老往我这边挤呀……我都喘不上气了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902002",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "我的两只脚已经麻了，它们现在根本不听我的话，我能有什么办法？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902003",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "玉夏学姐突然把我们两个叫来举着这张海报，真是莫名其妙。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902004",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "唔，我的肩膀好酸。你帮我盯一下，玉夏学姐来了叫我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902005",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不用叫，我已经来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902006",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "哼，就知道你们会偷懒，我让你们停下了吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902007",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "哎嘿，玉夏学姐别生气，我这不是一步都没走开嘛。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902008",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "我可喜欢举着这个海报了，特别喜欢，有咲可以作证！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902009",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "嗯？有人来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902010",
+          "sourceType": 0,
+          "speaker": "应聘的路人甲",
+          "text": "请问，这里是《仲夏奇妙夜》的演员海选现场吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902011",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "没错，就是这里，请跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902012",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "第一批演员海选结束后——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902013",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "真没想到参与海选的手办这么多，居然连一个合适的都没有。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902014",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "我承认，我不应该以自己的标准要求那些不懂艺术的人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902015",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "只是能不能别再让我看到今天的那些拙劣的作秀？它们与戏剧毫无关联。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902016",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "《仲夏奇妙夜》不是普通的本子，对两位主演的要求非常高。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902017",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "不能就这么放弃，今天的这批海选的演员不行，只说明我们的招募范围还不够大。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902018",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "你还挺有精神的嘛，但愿下次的结果不会让我感到无聊。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902019",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "抱歉，耽误了你们的休息时间……又有新的工作要交给你们。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902020",
+          "sourceType": 0,
+          "speaker": "冈田彩音",
+          "text": "嘻，小case！玉夏学姐直说就行。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39902021",
+          "sourceType": 0,
+          "speaker": "神宫有咲",
+          "text": "还有我还有我，有什么需要我做的，尽管放马过来吧~",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-968",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39902001,
+            39902002,
+            39902003,
+            39902004,
+            39902005,
+            39902006,
+            39902007,
+            39902008,
+            39902009,
+            39902010,
+            39902011,
+            39902012,
+            39902013,
+            39902014,
+            39902015,
+            39902016,
+            39902017,
+            39902018,
+            39902019,
+            39902020,
+            39902021
+          ],
+          "sectionId": 39902
+        }
+      ],
+      "title": "迈出第一步·Ⅱ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39903001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "潮酷街区，手办商店内。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903002",
+          "sourceType": 0,
+          "speaker": "待售的手办甲",
+          "text": "不对劲啊，店里静得有些不正常。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903003",
+          "sourceType": 0,
+          "speaker": "待售的手办乙",
+          "text": "他他他们都去围观海海海选了，当当当然没人。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903004",
+          "sourceType": 0,
+          "speaker": "待售的手办甲",
+          "text": "海什么玩意？你给我把舌头捋直了说话。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903005",
+          "sourceType": 0,
+          "speaker": "待售的手办乙",
+          "text": "歪歪歪……咳咳，窝窝窝说不出来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903006",
+          "sourceType": 0,
+          "speaker": "待售的手办丙",
+          "text": "他的意思是说，外面在举行演员海选活动，店里的手办都跑去围观了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903007",
+          "sourceType": 0,
+          "speaker": "待售的手办甲",
+          "text": "有这种好事怎么能少了我，我也要去！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903008",
+          "sourceType": 0,
+          "speaker": "待售的手办乙",
+          "text": "还还还有我，早早早就想去看看了，你你你们等等我。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "推搡追逐间，两个手办盒从货架上掉了下来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903010",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "这里是什么地方，我为什么会在这里？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903011",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "啊，我的身体怎么变小了……发生了什么事？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903012",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "那个，请问，有人在吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903013",
+          "sourceType": 7,
+          "text": "古河渚 · 最初的邂逅\n商品名称：古河渚·最初的邂逅 Ver.\n作品出处：《CLANNAD》\n制造商：GALATEA 伽拉\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约224mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "39903014",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "渚，你终于醒了，我等你半天了呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903015",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "如你所见，我们现在变成了「手办」。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903016",
+          "sourceType": 7,
+          "text": "藤林杏 · 晴空恋语\n商品名称：藤林杏·晴空恋语 Ver.\n作品出处：《CLANNAD》\n制造商：NIGHT-9 第九夜\n手办材质：ABS&PVC 涂装完成\n手办规格：1/7比例模型·附专用底座・全高约229mm",
+          "title": "角色介绍卡",
+          "type": "profile"
+        },
+        {
+          "sourceId": "39903017",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "一开始我也感到困惑，还好渚也在，不然真的有些孤单呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903018",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "所谓「手办」，看起来小小的，和团子有些像呢。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903019",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "渚很坚强呢，这么快就接受了自己作为手办的事实。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903020",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "对了，我刚才听到附近在举行演员海选，似乎是手办可以参加的活动，要一起去看看吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903021",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "戏剧是我的梦想，即使变成了「手办」，我也不会放弃的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39903022",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "小杏，谢谢你，有你在身边真好。",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-969",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39903001,
+            39903002,
+            39903003,
+            39903004,
+            39903005,
+            39903006,
+            39903007,
+            39903008,
+            39903009,
+            39903010,
+            39903011,
+            39903012,
+            39903013,
+            39903014,
+            39903015,
+            39903016,
+            39903017,
+            39903018,
+            39903019,
+            39903020,
+            39903021,
+            39903022
+          ],
+          "sectionId": 39903
+        }
+      ],
+      "title": "迈出第一步·Ⅲ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39904001",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "《仲夏奇妙夜》第二批演员海选现场——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904002",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "第253号参选者，请你做一下自我介绍。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904003",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "有请我的搭档登场！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904004",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "还不快献上你们的掌声！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904005",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "怎么是男人？你走错片场了，这里只招募女演员。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904006",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "什么？你在怀疑布鲁特先生的演技吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904007",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "对巨星徕卡和布鲁特来说，扮演女性根本不是什么难题。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904008",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "槽点太多，已经无从谈起了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904009",
+          "sourceType": 0,
+          "speaker": "旁白",
+          "text": "此时，一辆机车风一样地冲了过来——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904010",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "前面的同学，快闪开！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904011",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "呀！！！小心——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904012",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "嗯？有什么奇怪的东西飞过来了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904013",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "嘿，老伙计，我敢打赌这肯定是你的冷笑话，我不会上当的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904014",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "笨蛋，这个时候就别演了！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904015",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "疼疼疼疼……布鲁特好疼！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904016",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "竟然有人胆敢当着我的面伤害布鲁特，徕卡绝不允许！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904017",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "喂，你撞伤了布鲁特，还不赶快道歉！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904018",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "奇怪，我为什么要对一个布偶道歉？而且你又没受伤。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904019",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "以后不要站在马路中央，很危险的，还好我及时踩住了刹车。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39904020",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "真是不可理喻，看来徕卡和布鲁特不得不出手教训教训你了！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-970",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39904001,
+            39904002,
+            39904003,
+            39904004,
+            39904005,
+            39904006,
+            39904007,
+            39904008,
+            39904009,
+            39904010,
+            39904011,
+            39904012,
+            39904013,
+            39904014,
+            39904015,
+            39904016,
+            39904017,
+            39904018,
+            39904019,
+            39904020
+          ],
+          "sectionId": 39904
+        }
+      ],
+      "title": "迈出第一步·Ⅳ"
+    },
+    {
+      "blocks": [
+        {
+          "sourceId": "39905001",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "大家快停下，暴力是不好的。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905002",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "那个，我是古河渚，请问你也喜欢演戏吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905003",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "布鲁特是大明星，布鲁特有很多粉丝，大家都很喜欢布鲁特。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905004",
+          "sourceType": 0,
+          "speaker": "布鲁特",
+          "text": "想看什么表演尽管说，布鲁特无所不能！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905005",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "完美的开场白，掌声在哪里？\n接下来，敬请欣赏徕卡和布鲁特的完美演——",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905006",
+          "sourceType": 0,
+          "speaker": "徕卡",
+          "text": "READY？ACTION！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905007",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "真好呢，没想到这么快就找到同类了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905008",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "听说这里在举办演员海选，我和小杏特地来看看，果然没有让我失望。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905009",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "差点把这个给忘了……所以，你们现在还招演员吗？",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905010",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "当然，今天是我们举办的第二次演员海选，请跟我来。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905011",
+          "sourceType": 2,
+          "speaker": "玉夏",
+          "text": "有戏有戏，这次绝对有戏！",
+          "tone": "thought",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905012",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "哦？看来真正有趣的事情就要发生了。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905013",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "事情的经过就是这样……总之，我们找到了两位完美符合条件的演员人选。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905014",
+          "sourceType": 0,
+          "speaker": "古河渚",
+          "text": "你好……！那个，我叫古河渚，很高兴能参与《仲夏奇妙夜》的演出。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905015",
+          "sourceType": 0,
+          "speaker": "藤林杏",
+          "text": "我是杏，藤林杏。爱好是……才不会告诉你呢！",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905016",
+          "sourceType": 0,
+          "speaker": "玩家",
+          "text": "喔，两个女孩简直完美符合演出的要求。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905017",
+          "sourceType": 0,
+          "speaker": "绯野原爱",
+          "text": "宛如华丽的幕布悄然被拉开，一场精彩的演出即将重磅登场。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905018",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "呼，这段时间的努力总算没有白费。",
+          "type": "dialogue"
+        },
+        {
+          "sourceId": "39905019",
+          "sourceType": 0,
+          "speaker": "玉夏",
+          "text": "接下来就是紧张的排练环节了，一定一定不能有任何懈怠。加油！",
+          "type": "dialogue"
+        }
+      ],
+      "id": "detail-971",
+      "sourceRefs": [
+        {
+          "bundle": "clannad",
+          "rowIds": [
+            39905001,
+            39905002,
+            39905003,
+            39905004,
+            39905005,
+            39905006,
+            39905007,
+            39905008,
+            39905009,
+            39905010,
+            39905011,
+            39905012,
+            39905013,
+            39905014,
+            39905015,
+            39905016,
+            39905017,
+            39905018,
+            39905019
+          ],
+          "sectionId": 39905
+        }
+      ],
+      "title": "迈出第一步·Ⅴ"
+    }
+  ],
+  "source": {
+    "kind": "rewind",
+    "refs": [
+      {
+        "id": 194,
+        "table": "ResPlotRewindChapter"
+      },
+      {
+        "chapterId": 194,
+        "table": "ResPlotRewindDetail"
+      },
+      {
+        "id": "117",
+        "table": "ResTalkIntroduction"
+      },
+      {
+        "id": "118",
+        "table": "ResTalkIntroduction"
+      }
+    ]
+  },
+  "status": "complete",
+  "subtitle": "特别的戏剧企划",
+  "title": "迈出第一步",
+  "wordCount": 2465
+}
