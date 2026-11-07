@@ -219,7 +219,46 @@
     .mail-item img { width: 34px; flex: none; }
     .mail-item b { display: block; font-family: var(--hand); font-weight: 400; font-size: 20px; }
     .mail-item small { color: var(--ink-soft); font-size: 12px; }
-    .mail-item.locked { opacity: .6; cursor: default; }
+    .mail-item.locked { opacity: .7; cursor: default; }
+    .mail-item .body { min-width: 0; flex: 1; }
+    .mail-item b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .author {
+      display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 999px;
+      font-size: 11px; font-style: normal; color: #fff8ee; vertical-align: 1px;
+    }
+    .author.ze { background: var(--navy); }
+    .author.xue { background: var(--coral); }
+    .mail-row { display: flex; align-items: center; gap: 6px; }
+    .mail-row .mail-item { flex: 1; min-width: 0; }
+    .recall { flex: none; border: 0; background: none; color: var(--ink-soft); font-size: 12px; text-decoration: underline; padding: 6px 4px; }
+    .mail-status { min-height: 1em; margin: 10px 0 0; font-size: 12px; color: var(--ink-soft); }
+    .mail-empty { padding: 18px 8px; text-align: center; color: var(--ink-soft); font-size: 14px; }
+    .whoami { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 13px; color: var(--ink-soft); }
+    .whoami button {
+      min-width: 44px; padding: 5px 12px; border: 1px solid rgba(42, 39, 51, .3); border-radius: 999px;
+      background: rgba(255, 255, 255, .45); font-family: var(--hand); font-size: 18px; line-height: 1.1;
+    }
+    .whoami button[aria-pressed="true"][data-me="泽"] { background: var(--navy); border-color: var(--navy); color: #f5eee3; }
+    .whoami button[aria-pressed="true"][data-me="雪"] { background: var(--coral); border-color: var(--coral); color: #fff8ee; }
+    .write-go { display: block; margin: 14px auto 0; padding: 9px 30px; font-size: 20px; }
+    .writer { touch-action: auto; }
+    .writer .whoami { display: flex; justify-content: center; margin: 0 0 6px; }
+    .field { display: block; margin-top: 12px; font-size: 13px; color: var(--ink-soft); }
+    .field > span { display: block; margin-bottom: 4px; }
+    .field[hidden] { display: none; }
+    .field.inline { display: flex; align-items: center; gap: 10px; }
+    .field.inline > span { margin: 0; }
+    .field input, .field textarea {
+      width: 100%; padding: 9px 11px; border: 1px solid rgba(42, 39, 51, .25); border-radius: 4px;
+      background: rgba(255, 255, 255, .6); color: var(--ink); font: inherit; font-size: 16px;
+      user-select: text; -webkit-user-select: text;
+    }
+    .field.inline input { width: auto; flex: 1; }
+    .field textarea { resize: vertical; min-height: 180px; font-family: var(--hand); font-size: 20px; line-height: 1.6; }
+    .field input:focus, .field textarea:focus { outline: 2px solid rgba(184, 71, 63, .35); outline-offset: 1px; }
+    .field-note { margin: 4px 0 0; font-size: 12px; color: var(--ink-soft); }
+    .form-error { min-height: 1em; margin: 10px 0 0; color: var(--coral); font-size: 13px; text-align: center; }
+    .this-week .author { font-family: var(--serif); }
     .mail-item .badge { margin-left: auto; font-size: 11px; color: var(--coral); white-space: nowrap; }
 
     @media (max-width: 420px) {
@@ -244,9 +283,9 @@
   <div class="hud" id="hud" hidden>
     <div class="ticket">
       <div class="ticket-row">
-        <span class="ticket-city">杭州</span>
+        <span class="ticket-city" id="cityFrom">杭州</span>
         <div class="track"><i class="track-dot" id="trackDot"></i></div>
-        <span class="ticket-city">纽约</span>
+        <span class="ticket-city" id="cityTo">纽约</span>
       </div>
       <div class="ticket-note" id="ticketNote">杭州 · 正午 12:00 出发</div>
     </div>
@@ -276,7 +315,7 @@
       <button class="envelope" id="envelopeBtn" type="button" aria-label="拆开信">
         <img class="seal" src="assets/journal/logo-seal.webp" alt="">
         <img class="postmark" src="assets/journal/stamp-postmark.webp" alt="">
-        <span class="to">寄给 纽约的宝宝<br><small id="envFrom">来自 杭州</small></span>
+        <span class="to"><span id="envTo">寄给 纽约的宝宝</span><br><small id="envFrom">来自 杭州</small></span>
       </button>
       <p class="tap-tip">团子到啦，点开看看</p>
     </div>
@@ -303,13 +342,44 @@
       <i class="tape"></i>
       <p class="eyebrow">MAILBOX</p>
       <h1 style="font-size:38px">信箱</h1>
-      <p class="sub">每周一封，从杭州寄出</p>
+      <p class="sub">杭州和纽约之间，来来回回的信</p>
+      <div class="whoami" role="group" aria-label="我是谁">
+        <span>我是</span>
+        <button type="button" data-me="泽">泽</button>
+        <button type="button" data-me="雪">雪</button>
+      </div>
+      <button class="go write-go" id="writeBtn" type="button">写一封信</button>
+      <p class="mail-status" id="mailStatus"></p>
       <ul class="mail-list" id="mailList"></ul>
       <div class="row"><button class="ghost" id="mailBackBtn" type="button">回到封面</button></div>
     </div>
   </section>
 
-  <script src="star-post-letters.js?v=20261107"></script>
-  <script src="star-post.js?v=20261107b"></script>
+  <section class="screen" id="writer" hidden>
+    <form class="card letter writer" id="writeForm" novalidate>
+      <i class="tape"></i>
+      <h2>写一封信</h2>
+      <p class="date" id="writeRoute">杭州 → 纽约</p>
+      <div class="whoami" role="group" aria-label="是谁写的">
+        <span>署名</span>
+        <button type="button" data-me="泽">泽</button>
+        <button type="button" data-me="雪">雪</button>
+      </div>
+      <label class="field"><span>标题</span><input id="wTitle" maxlength="30" placeholder="比如：十三个小时" autocomplete="off"></label>
+      <label class="field"><span>正文</span><textarea id="wText" rows="9" maxlength="2000" placeholder="想对你说的话……&#10;每个逗号、句号会把话切成一颗星星，团子会一颗颗送过去。"></textarea></label>
+      <p class="field-note" id="wCount">0 字 · 0 颗星星</p>
+      <label class="field inline"><span>寄到日期</span><input id="wDate" type="date"></label>
+      <p class="field-note">到这一天（收信人那边的日期）才能拆开，之前只显示"还在路上"。</p>
+      <label class="field" id="wPassRow" hidden><span>口令</span><input id="wPass" type="password" autocomplete="off"></label>
+      <p class="form-error" id="wError" role="alert"></p>
+      <div class="row">
+        <button class="ghost primary" id="sendBtn" type="submit">寄出</button>
+        <button class="ghost" id="writeCancel" type="button">先不寄了</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="star-post-letters.js?v=20261107c"></script>
+  <script src="star-post.js?v=20261107c"></script>
 </body>
 </html>

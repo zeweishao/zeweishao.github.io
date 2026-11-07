@@ -27,9 +27,45 @@
   const prettyDate = (s) => { const [, m, d] = s.split("-"); return `${+m} 月 ${+d} 日`; };
   const daysUntil = (s) => Math.ceil((new Date(s + "T00:00:00") - new Date(todayStr + "T00:00:00")) / 864e5);
 
-  const LETTERS = (window.STAR_LETTERS || []).slice().sort((a, b) => a.date.localeCompare(b.date));
-  const opened = () => LETTERS.filter((l) => l.date <= todayStr);
-  let letter = opened().slice(-1)[0] || LETTERS[0] || { date: todayStr, title: "一封信", text: "想你。" };
+  // 信件：内置（star-post-letters.js）+ 云端（/api/star-letters）。author 为 "泽"（杭州→纽约）或 "雪"（纽约→杭州）。
+  const PEOPLE = {
+    "泽": { cls: "ze", from: "杭州", to: "纽约", toName: "纽约的宝宝", tz: "America/New_York" },
+    "雪": { cls: "xue", from: "纽约", to: "杭州", toName: "杭州的泽", tz: "Asia/Shanghai" }
+  };
+  const dayIn = (tz) => { try { return new Intl.DateTimeFormat("en-CA", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()); } catch { return todayStr; } };
+  const STATIC_LETTERS = (window.STAR_LETTERS || []).map((l, i) => {
+    const author = PEOPLE[l.author] ? l.author : "泽";
+    const locked = l.date > dayIn(PEOPLE[author].tz);
+    return { id: `static-${i}`, author, date: l.date, title: locked ? undefined : l.title, text: locked ? undefined : l.text, locked, isStatic: true };
+  });
+  let LETTERS = STATIC_LETTERS.slice();
+  let needsPassword = false;
+  let cloudState = "loading"; // loading | ok | offline
+  let me = store.get("me", null);
+  if (!PEOPLE[me]) me = null;
+  let letter = null;
+  const sortLetters = () => LETTERS.sort((a, b) => a.date.localeCompare(b.date) || String(a.createdAt || "").localeCompare(String(b.createdAt || "")));
+  const readable = () => LETTERS.filter((l) => !l.locked && l.text);
+  function pickCurrent() {
+    const pool = readable();
+    const forMe = me ? pool.filter((l) => l.author !== me) : pool;
+    return (forMe.length ? forMe : pool).slice(-1)[0] || null;
+  }
+  async function loadLetters() {
+    try {
+      const r = await fetch("/api/star-letters", { cache: "no-store" });
+      if (!r.ok) throw new Error(String(r.status));
+      const data = await r.json();
+      needsPassword = Boolean(data.needsPassword);
+      LETTERS = STATIC_LETTERS.concat((data.letters || []).filter((l) => PEOPLE[l.author]));
+      cloudState = "ok";
+    } catch {
+      cloudState = "offline";
+    }
+    sortLetters();
+  }
+  sortLetters();
+  let rev = false; // true：纽约 → 杭州
 
   function splitLetter(text) {
     const parts = text.replace(/\n/g, "").split(/(?<=[，。！？；：、…,.!?])/).map((s) => s.trim()).filter(Boolean);
@@ -102,6 +138,11 @@
   const progress = () => clamp(cam / totalDist, 0, 1);
 
   function startFlight() {
+    if (!letter) return;
+    rev = letter.author === "雪";
+    document.getElementById("cityFrom").textContent = PEOPLE[letter.author].from;
+    document.getElementById("cityTo").textContent = PEOPLE[letter.author].to;
+    lastNote = "";
     frags = splitLetter(letter.text);
     nextFrag = 0; caught = 0; misses = 0;
     stars = []; clouds = []; sparks = []; shownWhispers.clear();
@@ -154,13 +195,21 @@
   })();
 
   // ---------- 文案提示 ----------
-  const WHISPERS = [
+  const WHISPERS_FWD = [
     [0.02, "杭州现在是中午，太阳正好"],
     [0.2, "飞过西湖啦，往东边去"],
     [0.42, "海上的天，慢慢变成橘子色"],
     [0.66, "天黑了，离你越来越近"],
     [0.8, "听说纽约下雪了"],
     [0.93, "看见大桥上的灯了！"]
+  ];
+  const WHISPERS_REV = [
+    [0.02, "纽约现在是深夜，大桥上的灯还亮着"],
+    [0.18, "从雪里起飞，往西边去"],
+    [0.4, "海上的天，一点点亮起来了"],
+    [0.62, "太阳出来了，离你越来越近"],
+    [0.8, "杭州正是中午"],
+    [0.93, "看见西湖和塔了！"]
   ];
   const whisperEl = document.getElementById("whisper");
   let whisperTimer = 0;
@@ -191,7 +240,7 @@
     let note;
     if (mode === "land") note = "到啦";
     else if (p >= 1 && nextFrag < frags.length) note = `还差 ${frags.length - caught} 颗星`;
-    else { const left = Math.ceil(13 * (1 - p)); note = p < 0.02 ? "杭州 · 正午 12:00 出发" : `离你还有 ${left} 个小时`; }
+    else { const left = Math.ceil(13 * (1 - p)); note = p < 0.02 ? (rev ? "纽约 · 深夜 23:00 出发" : "杭州 · 正午 12:00 出发") : `离你还有 ${left} 个小时`; }
     if (note !== lastNote) { ticketNote.textContent = note; lastNote = note; }
   }
 
@@ -206,7 +255,7 @@
     if (mode === "fly") {
       cam += speed * dt;
       // 提示语
-      for (const [at, text] of WHISPERS) if (p >= at && !shownWhispers.has(at)) { shownWhispers.add(at); whisper(text); }
+      for (const [at, text] of (rev ? WHISPERS_REV : WHISPERS_FWD)) if (p >= at && !shownWhispers.has(at)) { shownWhispers.add(at); whisper(text); }
 
       if (AUTO) { const s = stars[0]; holding = s ? s.y < player.y - 6 * u : player.y > H / 2; }
       // 物理：按住上升，松开缓降
@@ -318,6 +367,7 @@
     }
   }
 
+  const anchorX = (x0, f) => (rev ? x0 + (totalDist - cam) * f : x0 - cam * f);
   function drawHangzhou(p, horizon) {
     const a = 1 - smooth(0.07, 0.2, p);
     if (a <= 0) return;
@@ -328,7 +378,7 @@
     for (let x = 0; x <= W + 20; x += 20) { const wx = x + cam * 0.15; ctx.lineTo(x, horizon - 40 * u - Math.sin(wx / 140) * 22 * u - Math.sin(wx / 53) * 8 * u); }
     ctx.lineTo(W, horizon); ctx.fill();
     // 塔
-    const px = W * 0.62 - cam * 0.3, py = horizon - 54 * u;
+    const px = anchorX(W * 0.62, 0.3), py = horizon - 54 * u;
     ctx.fillStyle = "rgba(70,84,92,.75)";
     for (let i = 0; i < 5; i++) {
       const w = (24 - i * 3.2) * u, y = py - i * 13 * u;
@@ -337,7 +387,7 @@
     }
     ctx.fillRect(px - 1 * u, py - 82 * u, 2 * u, 14 * u);
     // 柳枝
-    const lx = -cam * 0.7;
+    const lx = anchorX(rev ? W - 240 * u : 0, 0.7);
     ctx.strokeStyle = "rgba(108,138,88,.75)"; ctx.lineWidth = 1.4 * u;
     for (let i = 0; i < 16; i++) {
       const x0 = lx + i * 14 * u, len = (120 + (i * 37) % 90) * u;
@@ -347,14 +397,14 @@
       for (let k = 1; k < 6; k++) { const yy = (len * k) / 6; ctx.beginPath(); ctx.ellipse(x0 + 6 * u + Math.sin(t * 0.8 + i) * 8 * u * (k / 6), yy, 2.2 * u, 5 * u, 0.4, 0, 7); ctx.fill(); }
     }
     // 小船
-    const bx = W * 0.35 - cam * 0.45, by = horizon + 16 * u;
+    const bx = anchorX(W * 0.35, 0.45), by = horizon + 16 * u;
     ctx.fillStyle = "rgba(60,58,70,.6)";
     ctx.beginPath(); ctx.moveTo(bx - 22 * u, by); ctx.quadraticCurveTo(bx, by + 9 * u, bx + 22 * u, by); ctx.fill();
     ctx.fillRect(bx - 9 * u, by - 9 * u, 18 * u, 7 * u);
     ctx.globalAlpha = 1;
   }
 
-  function drawOcean(p, horizon) {
+  function drawOcean(p, horizon, tp) {
     const c1 = mix("#bcd2cf", "#1f2a4a", smooth(0.3, 0.85, p));
     const c2 = mix("#93b2b4", "#151d36", smooth(0.3, 0.85, p));
     const g = ctx.createLinearGradient(0, horizon, 0, H); g.addColorStop(0, c1); g.addColorStop(1, c2);
@@ -368,16 +418,16 @@
       }
     }
     // 海上远船，傍晚出现一次
-    const sa = smooth(0.28, 0.34, p) * (1 - smooth(0.5, 0.56, p));
+    const sa = smooth(0.28, 0.34, tp) * (1 - smooth(0.5, 0.56, tp));
     if (sa > 0) {
       ctx.globalAlpha = sa; ctx.fillStyle = "rgba(50,44,62,.7)";
-      const sx = W * 0.9 - (p - 0.28) * 4 * W, sy = horizon - 2 * u;
+      const sx = W * 0.9 - (tp - 0.28) * 4 * W, sy = horizon - 2 * u;
       ctx.fillRect(sx - 30 * u, sy - 6 * u, 60 * u, 6 * u); ctx.fillRect(sx - 10 * u, sy - 16 * u, 22 * u, 10 * u); ctx.fillRect(sx + 4 * u, sy - 26 * u, 4 * u, 10 * u);
       ctx.globalAlpha = 1;
     }
   }
 
-  function drawNewYork(p, horizon) {
+  function drawNewYork(p, horizon, tp) {
     const a = smooth(0.72, 0.9, p);
     if (a <= 0) return;
     ctx.globalAlpha = a;
@@ -397,7 +447,7 @@
       }
     }
     // 大桥
-    const bx = W * 0.95 - (p - 0.86) * 5.5 * W;
+    const bx = rev ? W * 0.25 - tp * 5.5 * W : W * 0.95 - (tp - 0.86) * 5.5 * W;
     if (bx > -W && bx < W * 2) {
       const deck = horizon + 6 * u, tw = 26 * u, th = 120 * u;
       ctx.fillStyle = "#1a2038"; ctx.strokeStyle = "#1a2038";
@@ -488,12 +538,13 @@
   }
 
   function draw() {
-    const p = mode === "idle" ? 0 : progress();
+    const tp = mode === "idle" ? 0 : progress();
+    const p = rev ? 1 - tp : tp; // 场景进度：0 杭州正午 → 1 纽约深夜
     ctx.clearRect(0, 0, W, H);
     drawSky(p);
     const horizon = H * 0.8;
-    drawOcean(p, horizon);
-    drawNewYork(p, horizon);
+    drawOcean(p, horizon, tp);
+    drawNewYork(p, horizon, tp);
     drawHangzhou(p, horizon);
     if (mode === "fly" || mode === "land") {
       for (const c of clouds) drawCloud(c);
@@ -515,20 +566,33 @@
   requestAnimationFrame(loop);
 
   // ---------- 页面切换 ----------
-  const screens = ["cover", "envelope", "letterScreen", "mailbox"].map((id) => document.getElementById(id));
-  const hud = document.getElementById("hud");
+  const $ = (id) => document.getElementById(id);
+  const screens = ["cover", "envelope", "letterScreen", "mailbox", "writer"].map($);
+  const hud = $("hud");
+  let current = "cover";
   function show(id) {
+    current = id;
     screens.forEach((s) => (s.hidden = s.id !== id));
     hud.hidden = id !== "hud";
     if (id !== "hud") whisperEl.classList.remove("show");
   }
+  const authorTag = (a) => `<i class="author ${PEOPLE[a].cls}">${a} 写的</i>`;
+  const readSet = () => new Set(store.get("readIds", []));
 
   function renderCover() {
-    const next = LETTERS.find((l) => l.date > todayStr);
-    document.getElementById("thisWeek").innerHTML =
-      `这周的信 · ${prettyDate(letter.date)}<br><b>《${escapeHTML(letter.title)}》</b>` +
-      (next ? `<br><small style="color:var(--ink-soft)">下一封 ${prettyDate(next.date)} 寄到</small>` : "");
-    const picker = document.getElementById("picker");
+    rev = false;
+    if (!letter || !readable().includes(letter)) letter = pickCurrent();
+    const box = $("thisWeek"), go = $("goBtn");
+    const nextFor = LETTERS.find((l) => l.locked && (!me || l.author !== me));
+    const nextLine = nextFor ? `<br><small style="color:var(--ink-soft)">下一封 ${prettyDate(nextFor.date)} 寄到</small>` : "";
+    if (letter) {
+      box.innerHTML = `${authorTag(letter.author)}${prettyDate(letter.date)} 的信<br><b>《${escapeHTML(letter.title)}》</b>${nextLine}`;
+      go.textContent = "出发"; go.dataset.action = "fly";
+    } else {
+      box.innerHTML = (cloudState === "loading" ? "正在打开信箱……" : "信箱还空着，写下第一封信吧") + nextLine;
+      go.textContent = "去写信"; go.dataset.action = "write";
+    }
+    const picker = $("picker");
     picker.innerHTML = "";
     for (const m of MESSENGERS) {
       const b = document.createElement("button");
@@ -544,54 +608,156 @@
   }
 
   function showEnvelope() {
-    document.getElementById("envFrom").textContent = `来自 杭州 · ${prettyDate(letter.date)}`;
+    const P = PEOPLE[letter.author];
+    $("envTo").textContent = `寄给 ${P.toName}`;
+    $("envFrom").textContent = `来自 ${P.from} · ${letter.author} · ${prettyDate(letter.date)}`;
     show("envelope");
   }
 
   function showLetter() {
-    document.getElementById("letterTitle").textContent = letter.title;
-    document.getElementById("letterDate").textContent = `${letter.date.replace(/-/g, ".")} · 杭州 → 纽约`;
-    const body = document.getElementById("letterBody");
+    const P = PEOPLE[letter.author];
+    $("letterTitle").textContent = letter.title;
+    $("letterDate").textContent = `${letter.date.replace(/-/g, ".")} · ${P.from} → ${P.to}`;
+    const body = $("letterBody");
     body.innerHTML = "";
     letter.text.split("\n").forEach((line, i) => {
-      const p = document.createElement("p"); p.textContent = line; body.appendChild(p);
+      const p = document.createElement("p"); p.textContent = line || " "; body.appendChild(p);
       setTimeout(() => p.classList.add("on"), 300 + i * 900);
     });
-    document.getElementById("letterSign").textContent = `—— ${letter.from || "泽"}`;
-    document.getElementById("letterStats").textContent = `${MESSENGERS.find((m) => m.key === messenger).name}替我飞了 13 个小时，你接住了 ${frags.length} 颗星星`;
-    const read = store.get("read", []); if (!read.includes(letter.date)) { read.push(letter.date); store.set("read", read); }
+    $("letterSign").textContent = `—— ${letter.author}`;
+    $("letterStats").textContent = `${MESSENGERS.find((m) => m.key === messenger).name}从${P.from}飞了 13 个小时，接住了 ${frags.length} 颗星星`;
+    const read = readSet(); read.add(letter.id); store.set("readIds", [...read]);
     show("letterScreen");
   }
 
-  function renderMailbox() {
-    const list = document.getElementById("mailList");
-    const read = store.get("read", []);
+  function syncWho() {
+    document.querySelectorAll("[data-me]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.me === me)));
+    if (me) {
+      $("writeRoute").textContent = `${PEOPLE[me].from} → ${PEOPLE[me].to} · 寄给${me === "泽" ? "雪" : "泽"}`;
+      const d = $("wDate"), min = dayIn(PEOPLE[me].tz);
+      d.min = min;
+      if (!d.value || d.value < min) d.value = min;
+    } else {
+      $("writeRoute").textContent = "先选一下署名";
+    }
+  }
+
+  function renderMailbox(statusText) {
+    syncWho();
+    const status = $("mailStatus");
+    status.textContent = statusText || (cloudState === "loading" ? "正在取信……" : cloudState === "offline" ? "云端信箱暂时连不上，只能看到内置的信。" : "");
+    const list = $("mailList");
+    const read = readSet();
     list.innerHTML = "";
+    if (!LETTERS.length) {
+      list.innerHTML = `<li class="mail-empty">${cloudState === "loading" ? "" : "还没有信。点上面的「写一封信」，寄出第一封吧。"}</li>`;
+    }
     LETTERS.slice().reverse().forEach((l) => {
-      const li = document.createElement("li");
-      const open = l.date <= todayStr;
+      const li = document.createElement("li"); li.className = "mail-row";
       const b = document.createElement("button");
-      b.type = "button"; b.className = "mail-item" + (open ? "" : " locked");
-      b.innerHTML = open
-        ? `<img src="assets/journal/sticker-letter.webp" alt=""><span><b>《${escapeHTML(l.title)}》</b><small>${prettyDate(l.date)} 寄到</small></span>${read.includes(l.date) ? "" : '<span class="badge">新</span>'}`
-        : `<img src="assets/journal/stamp-postmark.webp" alt=""><span><b>还在路上</b><small>${prettyDate(l.date)} 寄到</small></span><span class="badge">还有 ${daysUntil(l.date)} 天</span>`;
-      if (open) b.addEventListener("click", () => { letter = l; renderCover(); });
-      else b.disabled = true;
-      li.appendChild(b); list.appendChild(li);
+      b.type = "button"; b.className = "mail-item" + (l.locked ? " locked" : "");
+      const mine = me && l.author === me;
+      if (l.locked) {
+        b.innerHTML = `<img src="assets/journal/stamp-postmark.webp" alt=""><span class="body"><b>${authorTag(l.author)}还在路上</b><small>${prettyDate(l.date)} 寄到${mine ? " · 你寄出的" : ""}</small></span><span class="badge">还有 ${Math.max(1, daysUntil(l.date))} 天</span>`;
+        b.disabled = true;
+      } else {
+        const fresh = !read.has(l.id) && !mine;
+        b.innerHTML = `<img src="assets/journal/sticker-letter.webp" alt=""><span class="body"><b>${authorTag(l.author)}《${escapeHTML(l.title)}》</b><small>${prettyDate(l.date)} 寄到</small></span>${fresh ? '<span class="badge">新</span>' : ""}`;
+        b.addEventListener("click", () => { letter = l; renderCover(); });
+      }
+      li.appendChild(b);
+      if (mine && !l.isStatic && cloudState === "ok") {
+        const r = document.createElement("button");
+        r.type = "button"; r.className = "recall"; r.textContent = "撤回";
+        r.addEventListener("click", () => recall(l));
+        li.appendChild(r);
+      }
+      list.appendChild(li);
     });
     show("mailbox");
   }
 
+  async function postLetters(payload) {
+    const r = await fetch("/api/star-letters", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...payload, password: store.get("pass", "") || $("wPass").value })
+    });
+    let data = {};
+    try { data = await r.json(); } catch { /* 非 JSON */ }
+    if (!r.ok) throw new Error(data.error || "寄信失败了，过一会儿再试。");
+    return data;
+  }
+
+  async function recall(l) {
+    if (!window.confirm(`撤回《${l.title || "这封信"}》？撤回后对方就看不到了。`)) return;
+    try {
+      await postLetters({ action: "delete", id: l.id, author: me });
+      await loadLetters();
+      if (letter === l) letter = null;
+      renderMailbox("已经撤回了。");
+    } catch (e) {
+      renderMailbox(e.message);
+    }
+  }
+
+  function openWriter() {
+    $("wError").textContent = "";
+    $("wPassRow").hidden = !needsPassword || Boolean(store.get("pass", ""));
+    const draft = store.get("draft", null);
+    if (draft && !$("wTitle").value && !$("wText").value) { $("wTitle").value = draft.title || ""; $("wText").value = draft.text || ""; }
+    syncWho(); updateCount();
+    show("writer");
+  }
+  function updateCount() {
+    const t = $("wText").value;
+    $("wCount").textContent = `${t.length} 字 · ${t.trim() ? splitLetter(t).length : 0} 颗星星`;
+    store.set("draft", { title: $("wTitle").value, text: t });
+  }
+
+  $("wText").addEventListener("input", updateCount);
+  $("wTitle").addEventListener("input", updateCount);
+  $("writeForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const err = $("wError"), btn = $("sendBtn");
+    if (!me) { err.textContent = "先选一下署名：泽，还是雪？"; return; }
+    if (!$("wTitle").value.trim()) { err.textContent = "给这封信起个标题吧。"; return; }
+    if (!$("wText").value.trim()) { err.textContent = "信还是空的。"; return; }
+    if (needsPassword && !store.get("pass", "") && !$("wPass").value) { err.textContent = "需要输入口令。"; $("wPassRow").hidden = false; return; }
+    err.textContent = ""; btn.disabled = true; btn.textContent = "寄出中……";
+    try {
+      await postLetters({ action: "create", author: me, title: $("wTitle").value, text: $("wText").value, date: $("wDate").value });
+      if ($("wPass").value) store.set("pass", $("wPass").value);
+      $("wTitle").value = ""; $("wText").value = ""; $("wPass").value = ""; store.set("draft", null);
+      await loadLetters();
+      const d = $("wDate").value;
+      renderMailbox(d > dayIn(PEOPLE[me].tz) ? `寄出啦，${prettyDate(d)} 送到。` : "寄出啦，对方现在就能拆开。");
+    } catch (ex) {
+      if (/口令/.test(ex.message)) { store.set("pass", ""); $("wPassRow").hidden = false; }
+      err.textContent = ex.message;
+    } finally {
+      btn.disabled = false; btn.textContent = "寄出";
+    }
+  });
+  document.querySelectorAll("[data-me]").forEach((b) => b.addEventListener("click", () => {
+    me = b.dataset.me; store.set("me", me);
+    if (current === "mailbox") renderMailbox(); else syncWho();
+  }));
+
   function escapeHTML(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]); }
 
-  document.getElementById("goBtn").addEventListener("click", () => { audio.wake(); startFlight(); });
-  document.getElementById("mailboxBtn").addEventListener("click", renderMailbox);
-  document.getElementById("mailBackBtn").addEventListener("click", renderCover);
-  document.getElementById("envelopeBtn").addEventListener("click", showLetter);
-  document.getElementById("againBtn").addEventListener("click", () => { mode = "idle"; renderCover(); });
-  document.getElementById("toMailBtn").addEventListener("click", () => { mode = "idle"; renderMailbox(); });
-  document.getElementById("backBtn").addEventListener("click", () => { mode = "idle"; holding = false; renderCover(); });
-  const muteBtn = document.getElementById("muteBtn");
+  $("goBtn").addEventListener("click", () => {
+    if ($("goBtn").dataset.action === "write") { openWriter(); return; }
+    audio.wake(); startFlight();
+  });
+  $("mailboxBtn").addEventListener("click", () => renderMailbox());
+  $("mailBackBtn").addEventListener("click", renderCover);
+  $("writeBtn").addEventListener("click", openWriter);
+  $("writeCancel").addEventListener("click", () => renderMailbox());
+  $("envelopeBtn").addEventListener("click", showLetter);
+  $("againBtn").addEventListener("click", () => { mode = "idle"; renderCover(); });
+  $("toMailBtn").addEventListener("click", () => { mode = "idle"; renderMailbox(); });
+  $("backBtn").addEventListener("click", () => { mode = "idle"; holding = false; renderCover(); });
+  const muteBtn = $("muteBtn");
   const syncMute = () => { muteBtn.style.opacity = audio.muted ? 0.45 : 1; muteBtn.setAttribute("aria-pressed", String(!audio.muted)); };
   muteBtn.addEventListener("click", () => { audio.toggle(); syncMute(); });
   syncMute();
@@ -603,4 +769,8 @@
   }
 
   renderCover();
+  loadLetters().then(() => {
+    if (current === "cover") renderCover();
+    else if (current === "mailbox") renderMailbox();
+  });
 })();
