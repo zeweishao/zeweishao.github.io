@@ -539,7 +539,6 @@
         picker.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
       });
       picker.appendChild(b);
-      if (m.key === messenger) requestAnimationFrame(() => { picker.scrollLeft = b.offsetLeft - (picker.clientWidth - b.offsetWidth) / 2; });
     }
     show("cover");
   }

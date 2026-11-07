@@ -141,16 +141,15 @@
     .this-week b { font-family: var(--hand); font-weight: 400; font-size: 21px; color: var(--coral); }
     .pick-label { margin: 20px 0 8px; font-size: 13px; color: var(--ink-soft); }
     .picker {
-      display: flex; gap: 8px; overflow-x: auto; padding: 4px 4px 10px; margin: 0 -10px;
-      scroll-snap-type: x mandatory; touch-action: pan-x; scrollbar-width: none;
+      display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px;
+      padding: 4px 0 2px; touch-action: manipulation;
     }
-    .picker::-webkit-scrollbar { display: none; }
     .picker button {
-      flex: 0 0 74px; scroll-snap-align: center;
+      min-width: 0;
       border: 2px solid transparent; border-radius: 10px; background: rgba(255, 255, 255, .35);
       padding: 4px 2px 3px; transition: border-color .2s, transform .2s;
     }
-    .picker button img { width: 100%; height: 82px; object-fit: contain; display: block; pointer-events: none; }
+    .picker button img { width: 100%; aspect-ratio: 388 / 520; height: auto; object-fit: contain; display: block; pointer-events: none; }
     .picker button span { display: block; font-size: 11px; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .picker button[aria-pressed="true"] { border-color: var(--coral); background: rgba(255, 255, 255, .7); transform: translateY(-2px); }
     .go {
@@ -228,6 +227,9 @@
       .card { padding: 30px 18px 20px; }
       .letter .body p { font-size: 19px; }
       .strip { font-size: 17px; }
+      .picker { gap: 5px; }
+      .picker button { padding: 3px 1px 2px; border-radius: 8px; }
+      .picker button span { font-size: 10px; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation: none !important; transition: none !important; }
@@ -308,6 +310,6 @@
   </section>
 
   <script src="star-post-letters.js?v=20261107"></script>
-  <script src="star-post.js?v=20261107"></script>
+  <script src="star-post.js?v=20261107b"></script>
 </body>
 </html>
