@@ -12,6 +12,7 @@ const rootFiles = [
   'figure-lock.css', 'figure-lock.js', 'figure-stories.css', 'figure-story.js', 'figures.html', 'home.css', 'index.html',
   'journal.css', 'journal.js', 'messages.html', 'milk-tea.css', 'milk-tea.html',
   'milk-tea.js', 'motion-system.css', 'motion-system.js', 'orbit-refresh.css',
+  'star-post.html', 'star-post.js', 'star-post-letters.js',
   'star-rail-comic.css', 'star-rail-comic.js', 'stories.css', 'stories.html',
   'stories.js', 'style.css', 'videos.html',
 ];

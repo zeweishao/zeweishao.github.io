@@ -295,7 +295,7 @@
   const initDock = () => {
     const tabs = document.querySelectorAll(".j-tabs a");
     if (!tabs.length || document.querySelector(".j-dock")) return;
-    const short = { "团子之家": "团子", "宝宝的能量补给站": "补给" };
+    const short = { "团子之家": "团子", "宝宝的能量补给站": "补给", "星星邮差": "邮差" };
     const dock = document.createElement("nav");
     dock.className = "j-dock";
     dock.setAttribute("aria-label", "快捷导航");
