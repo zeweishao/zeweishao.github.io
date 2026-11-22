@@ -6067,3 +6067,6 @@ body.journal:not(.comic-page) .j-tabs a,
   .j-xb-call b { font-size: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { .j-xb-call { animation: none; } }
+
+/* 手机底栏里的「小世界」：粉色，一眼能找到回 3D 小世界的入口 */
+@media (max-width: 760px) { .j-dock a.is-world { color: var(--rose) !important; font-weight: 600; } .j-dock a.is-world::before { background: #f3b7c4; } }

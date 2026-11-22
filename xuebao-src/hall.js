@@ -293,15 +293,17 @@ function start() {
     const set = (e) => { const r = pad.getBoundingClientRect(), R0 = r.width / 2; let dx = e.clientX - r.left - R0, dy = e.clientY - r.top - R0; const L = Math.hypot(dx, dy), m = R0 * 0.62; if (L > m) { dx *= m / L; dy *= m / L; } joy.x = dx / m; joy.y = dy / m; knob.style.transform = `translate(${dx}px, ${dy}px)`; };
     pad.addEventListener("pointerdown", (e) => { if (!canMove()) return; e.stopPropagation(); e.preventDefault(); joy.id = e.pointerId; pad.setPointerCapture(e.pointerId); pad.classList.add("on"); set(e); });
     pad.addEventListener("pointermove", (e) => { if (e.pointerId === joy.id) set(e); });
-    const end = (e) => { if (e.pointerId !== joy.id) return; joy.id = null; joy.x = joy.y = 0; knob.style.transform = ""; pad.classList.remove("on"); };
+    const end = (e) => { if (e.pointerId !== joy.id) return; joy.id = null; joy.x = joy.y = 0; knob.style.transform = ""; pad.classList.remove("on", "run"); };
     pad.addEventListener("pointerup", end); pad.addEventListener("pointercancel", end);
     pad.hidden = true;
   }
   function drive() {
-    const enabled = canMove();
+    // 开着面板、天气菜单、选身份弹窗时，摇杆和右下按钮都收起来，画面干净也不会误点
+    const overlay = document.getElementById("sheetWrap")?.hidden === false || document.getElementById("wxPanel")?.hidden === false;
+    const enabled = canMove() && !overlay;
     if (joyPad && joyPad.hidden === enabled) joyPad.hidden = !enabled;
     if (ctlAct.hidden === enabled) ctlAct.hidden = !enabled;
-    ctl.hidden = !live || entering;
+    ctl.hidden = !live || entering || overlay;
     if (!enabled) {
       keys.clear();
       if (joy.id != null) {

@@ -8,7 +8,9 @@
   css.textContent = "#worldReturn{position:fixed;left:max(14px,env(safe-area-inset-left));bottom:calc(16px + env(safe-area-inset-bottom));z-index:2147483000;display:inline-flex;align-items:center;gap:7px;padding:9px 15px 9px 12px;border-radius:999px;background:rgba(255,250,246,.9);border:1.5px solid #f3b7c4;box-shadow:0 6px 18px rgba(138,75,90,.18);color:#8a4b5a;font:600 14px/1 'PingFang SC','Noto Sans SC',sans-serif;text-decoration:none;letter-spacing:.04em;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform .2s,box-shadow .2s}"
     + "#worldReturn span{color:#e8789a;font-size:16px}#worldReturn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(138,75,90,.24)}"
     + "#worldReturn.hello{animation:wrHello 1.4s ease 2}@keyframes wrHello{30%{transform:translateY(-6px) scale(1.04)}60%{transform:none}}"
-    + "@media print{#worldReturn{display:none}}";
+    + "@media print{#worldReturn{display:none}}"
+    // 手机上底部已有导航栏（里面有「小世界」一格），就不再叠一个按钮挡住标签
+    + "@media (max-width:760px){body:has(.j-dock) #worldReturn{display:none}}";
   document.head.appendChild(css);
   var put = function () { document.body.appendChild(a); if (/xuebao\.html/.test(document.referrer)) a.classList.add("hello"); };
   if (document.body) put(); else document.addEventListener("DOMContentLoaded", put);

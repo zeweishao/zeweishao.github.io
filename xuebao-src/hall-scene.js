@@ -763,7 +763,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     renderer.setSize(w, h); composer.setSize(w, h); bloom.resolution.set(w, h);
     const aspect = w / h, k = THREE.MathUtils.smoothstep(aspect, 0.55, 1.35);
     // 竖屏手机：视角不再那么广，镜头退远一点、抬高一点，人物小一些，操作空间大
-    view.fovT = lerp(56, 44, k); view.home = lerp(4.1, 2.7, k); view.pitchHome = lerp(0.36, 0.26, k); view.inMax = lerp(5.0, 3.6, k);
+    view.fovT = lerp(56, mobile ? 50 : 44, k); view.home = lerp(4.1, mobile ? 3.7 : 2.7, k); view.pitchHome = lerp(0.36, mobile ? 0.3 : 0.26, k); view.inMax = lerp(5.0, mobile ? 4.6 : 3.6, k); // 手机横屏也退远一点
     if (!view.touched) { view.pitch = view.pitchT = view.pitchHome; }
     if (!view.touched) { view.dist = view.distT = view.eff = view.home; }
     camera.aspect = aspect; camera.fov = view.fovT; camera.updateProjectionMatrix(); grade.uniforms.uAspect.value = aspect;

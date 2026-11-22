@@ -313,7 +313,7 @@
   const initDock = () => {
     const tabs = document.querySelectorAll(".j-tabs a");
     if (!tabs.length || document.querySelector(".j-dock")) return;
-    const short = { "一页情书": "情书", "团子之家": "团子", "宝宝的能量补给站": "补给", "星星邮差": "邮差", "雪宝游记": "雪宝" };
+    const short = { "一页情书": "情书", "团子之家": "团子", "宝宝的能量补给站": "补给", "星星邮差": "邮差", "雪宝游记": "小世界" };
     const dock = document.createElement("nav");
     dock.className = "j-dock";
     dock.setAttribute("aria-label", "快捷导航");
@@ -323,6 +323,7 @@
       const label = tab.textContent.trim();
       link.textContent = short[label] || label;
       link.setAttribute("aria-label", label);
+      if (/xuebao\.html/.test(link.href)) link.classList.add("is-world");
       if (tab.classList.contains("is-active")) {
         link.classList.add("is-active");
         link.setAttribute("aria-current", "page");
