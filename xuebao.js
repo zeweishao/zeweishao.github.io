@@ -885,9 +885,9 @@
   refresh(false).then(() => {
     layout();
     centerOn(S.phase === "back" || S.phase === "waiting" ? 82 : pos.x, false);
+    // 只有 2D 平面小屋（没有 3D）才需要“左右滑一滑”的提示
     if (stage.offsetWidth > viewport.clientWidth + 40 && !store.get("swipeHint", false)) {
-      store.set("swipeHint", true);
-      setTimeout(() => say("← 左右滑一滑，小屋里还有好多东西可以点 →", me, 4200), 600);
+      setTimeout(() => { if (stage.classList.contains("hall") || document.querySelector(".hall-canvas")) return; store.set("swipeHint", true); say("← 左右滑一滑，小屋里还有好多东西可以点 →", me, 4200); }, 600);
     }
     if (!S.offline && !who()) setTimeout(() => askWho(), 900);
     else if (S.phase === "back" || S.phase === "waiting") setTimeout(() => say(pick(D.LINES.back), me, 3200), 900);

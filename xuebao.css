@@ -668,3 +668,10 @@ body.hall .xb-stage, body.hall .xb-ctl, body.hall .xb-joy, body.hall .xb-gift, b
   .xb-ctl-act .b-wave, .xb-ctl-act .b-run { width: 42px; height: 42px; font-size: 17px; }
   .xb-ctl small { display: none; }
 }
+
+/* 底部“打开背包”按钮在手机上不折行 */
+.xb-cta { white-space: nowrap; }
+@media (max-width: 600px) { .xb-cta { font-size: 15px; padding: 8px 18px 8px 10px; gap: 6px; } .xb-cta img { width: 28px; height: 28px; } }
+
+/* 手机竖屏：摇杆和右侧按钮再抬高一点，给底部“打开背包”按钮留位置 */
+@media (max-width: 600px) { .xb-joy { bottom: calc(92px + env(safe-area-inset-bottom)); } .xb-ctl { bottom: calc(90px + env(safe-area-inset-bottom)); } }
