@@ -502,7 +502,7 @@
 
   // ---------- 唱片机 / 音乐播放器：《我的小怪兽 · 给雪子》 ----------
   // 只听歌用单独的音频（小），看 MV 用视频；两个不同时出声。正在放歌时页面顶上有个小唱片条，点它能暂停或打开唱片机。
-  const SONG = { title: "我的小怪兽", sub: "给雪子", audio: "xuebao-media/wode-xiaoguaishou.m4a", video: "xuebao-media/wode-xiaoguaishou.mp4", cover: A + "mv-xiaoguaishou-cover.jpg" };
+  const SONG = { title: "我的小怪兽", sub: "给雪子", audio: "xuebao-media/wode-xiaoguaishou.m4a?v=20261123", video: "xuebao-media/wode-xiaoguaishou.mp4?v=20261123", cover: A + "mv-xiaoguaishou-cover.jpg" };
   const Music = (() => {
     let au = null; const subs = new Set();
     const pill = document.createElement("button"); pill.type = "button"; pill.className = "xb-np"; pill.hidden = true;
