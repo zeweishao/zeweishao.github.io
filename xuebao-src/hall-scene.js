@@ -383,13 +383,14 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   }
   const sprites = {};
   function addSprite(id, url, h, at) {
-    if (id !== "radio" && id !== "cardbox") {
+    if (!props[id] || id === "table") {
       sprites[id] = sprite(url, h, at);
       return sprites[id];
     }
     const prop = props[id](), shadow = makePropShadow(at);
-    prop.position.set(...at); prop.rotation.y = id === "radio" ? -0.16 : 0.52;
-    shadow.scale.set(id === "radio" ? 0.27 : 0.22, 1, id === "radio" ? 0.14 : 0.13);
+    const ROT = { radio: -0.16, cardbox: 0.52, mailbox: -0.35 }, SH = { radio: [0.27, 0.14], cardbox: [0.22, 0.13], mailbox: [0.34, 0.24] };
+    prop.position.set(...at); prop.rotation.y = ROT[id] ?? 0;
+    shadow.scale.set(SH[id][0], 1, SH[id][1]);
     shadow.rotation.y = prop.rotation.y;
     prop.userData = { base: new THREE.Vector3(...at), lift: 0, liftV: 0, shadow };
     scene.add(prop);
@@ -697,7 +698,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.12, 0.4, 0.93); composer.addPass(bloom);
   composer.addPass(new OutputPass());
   const grade = new ShaderPass({
-    uniforms: { tDiffuse: { value: null }, uVig: { value: 0.16 }, uSat: { value: 1.07 }, uAspect: { value: 1 } },
+    uniforms: { tDiffuse: { value: null }, uVig: { value: 0.16 }, uSat: { value: 1.14 }, uAspect: { value: 1 } },
     vertexShader: "varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }",
     fragmentShader: `uniform sampler2D tDiffuse; uniform float uVig; uniform float uSat; uniform float uAspect; varying vec2 vUv;
       void main(){
@@ -705,7 +706,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
         float l = dot(c.rgb, vec3(0.299, 0.587, 0.114));
         c.rgb = mix(vec3(l), c.rgb, uSat);
         c.rgb += vec3(0.014, 0.004, 0.0) * (1.0 - l);
-        c.rgb = mix(c.rgb, c.rgb * c.rgb * (3.0 - 2.0 * c.rgb), 0.35);
+        c.rgb = mix(c.rgb, c.rgb * c.rgb * (3.0 - 2.0 * c.rgb), 0.42);
+        c.rgb *= 1.0 - 0.16 * smoothstep(0.7, 1.0, l); // 亮处压一点，白墙和门外不发白刺眼
         vec2 q = (vUv - 0.5) * vec2(min(uAspect, 1.0) * 1.15, 1.0);
         c.rgb *= 1.0 - uVig * smoothstep(0.25, 0.85, length(q) * 1.25);
         gl_FragColor = c;
@@ -726,12 +728,12 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (snowy) return { sky: "rain", sunI: 0.9, sunC: C("#f2f6ff"), env: 0.62, bgI: 0.78, hemi: 0.62, fill: 1.6, fb: 0.4, exp: 1.12, chI: lampOn ? 1.8 : 0, candI: lampOn ? 0.7 : 0, rain: 0, petals: 0, shaft: 0.02, elev: 0.5, xbE: 0.12 };
     return {
       sky: night ? "night" : rain ? "rain" : warm > 0.55 ? "dusk" : "day",
-      sunI: night ? 0.5 : rain ? 0 : 1.1 + day * 2.6, sunC: night ? C("#9fb6ff") : C("#fff4e0").lerp(C("#ffa864"), warm * 0.85),
-      env: night ? 0.08 : rain ? 0.5 : 0.32 + day * 0.2, bgI: night ? 0.22 : rain ? 0.5 : warm > 0.55 ? 0.45 : 0.52,
-      hemi: night ? 0.12 : rain ? 0.5 : 0.45 + day * 0.35, fill: night ? 0.2 : rain ? 1.4 : 1.1 + day * 0.9, fb: night ? 0 : rain ? 0 : 0.3 + day * 0.45, // 门口的窗光、地上反光压低，进门不刺眼
-      exp: night ? 1.35 : rain ? 1.15 : 1.0,
+      sunI: night ? 0.5 : rain ? 0 : 0.8 + day * 1.1, /* 白天太阳收着点，正午不刺眼 */ sunC: night ? C("#9fb6ff") : C("#fff4e0").lerp(C("#ffa864"), warm * 0.85),
+      env: night ? 0.08 : rain ? 0.5 : 0.28 + day * 0.1, bgI: night ? 0.22 : rain ? 0.5 : warm > 0.55 ? 0.42 : 0.4,
+      hemi: night ? 0.12 : rain ? 0.5 : 0.4 + day * 0.12, fill: night ? 0.2 : rain ? 1.4 : 0.85 + day * 0.3, fb: night ? 0 : rain ? 0 : 0.22 + day * 0.2, // 门口的窗光、地上反光压低，进门不刺眼
+      exp: night ? 1.35 : rain ? 1.15 : 0.9 - day * 0.1,
       chI: lampOn ? (night ? 3.4 : 1.8) : 0, candI: lampOn ? 0.7 : 0,
-      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.02 + day * 0.035, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12
+      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.015 + day * 0.02, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12
     };
   }
   const _up = new THREE.Vector3(0, 1, 0), _m = new THREE.Matrix4();

@@ -12,8 +12,12 @@
  *        op=unqueue {id}              撤回定向投递
  *        op=check                     只验证口令
  *
- * 规则：每 5 小时完成一趟旅行，最多攒 3 份；攒满后雪宝在家等，不会丢。
- * 钱：按纽约时间每周一 0 点起算，上限 520，尽量凑满。碎片：按天积累额度，约 35–60 天集齐 99 个。
+ * 规则：从第一次进门领礼物那一刻才开始计时（之前门口只放一份见面礼）。
+ *       之后每 5 小时完成一趟旅行，最多攒 3 份；攒满后雪宝在家等，不会丢。
+ * “一周”都按满 7 天算，不按自然周：
+ *   钱：每满一周上限 520，尽量凑满；上一周到期后，下一次领礼物那一刻开始新的一周。
+ *   奶茶券：每满一周一张；周三领到，下一张就在下周三之后的第一份礼物里。
+ * 碎片：按天积累额度，约 35–60 天集齐 99 个。
  * 存储：线上 Vercel Blob（xuebao/state.json），本地 server.js 设置 XUEBAO_FILE 时存 JSON 文件。
  * 口令：环境变量 XUEBAO_PASSWORD；未设置时记账功能关闭。
  */
@@ -27,7 +31,6 @@ const MAX = DATA.MAX_READY;
 const CAP = DATA.WEEK_CAP;
 const TARGET = DATA.FRAG_TARGET;
 const REST = 90 * 60 * 1000; // 领完后在家待一会儿再出门
-const TZ = "America/New_York";
 const PATHNAME = "xuebao/state.json";
 
 const sendJson = (res, status, payload) => {
@@ -46,20 +49,11 @@ const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
 const round2 = (n) => Math.round(n * 100) / 100;
 
-// ---------- 纽约时间的“周” ----------
-const nyParts = (t) => {
-  const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
-    timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit", weekday: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23"
-  }).formatToParts(new Date(t)).map((x) => [x.type, x.value]));
-  return p;
-};
-const weekInfo = (t) => {
-  const p = nyParts(t);
-  const dow = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].indexOf(p.weekday);
-  const sinceMonday = (dow * 24 + Number(p.hour)) * HOUR + Number(p.minute) * 60000;
-  const d = new Date(Date.UTC(+p.year, +p.month - 1, +p.day - dow));
-  return { key: d.toISOString().slice(0, 10), hoursLeft: (7 * DAY - sinceMonday) / HOUR };
-};
+// ---------- “一周”= 满 7 天 ----------
+const WEEK = 7 * DAY;
+const started = (s) => Boolean(s.startedAt && (s.lastClaimAt || s.history.length));
+// 当前这一周：没开始或已过期时返回 null（下一次领礼物时才开新的一周）
+const curWeek = (s, now) => (s.week && s.week.start && now < s.week.start + WEEK ? s.week : null);
 
 // ---------- 存储 ----------
 const fileStore = (file) => {
@@ -89,15 +83,15 @@ const blobStore = () => ({
 const getStore = () => (process.env.XUEBAO_FILE ? fileStore(process.env.XUEBAO_FILE) : blobStore());
 
 const freshState = (now) => ({
-  v: 1,
-  startedAt: now,
-  anchor: now - TRIP, // 第一次打开就有一份礼物
+  v: 2,
+  startedAt: 0, // 第一次领礼物时才写入，之前不计时
+  anchor: now - TRIP,
   lastClaimAt: 0,
-  week: { key: weekInfo(now).key, paid: 0 },
+  week: null,
   wallet: { balance: 0, earned: 0, ledger: [] },
   frag: { cycleStart: now, rate: round2(rand(1.7, 2.8)), given: 0, total: 0, pendingSkins: 0, redeemed: 0 },
   coupons: [],
-  lastTeaAt: now - 5 * DAY,
+  lastTeaAt: 0,
   seen: [],
   collection: {},
   meets: {},
@@ -106,11 +100,12 @@ const freshState = (now) => ({
 });
 
 // ---------- 计算 ----------
-const readyCount = (s, now) => Math.max(0, Math.min(MAX, Math.floor((now - s.anchor) / TRIP)));
+// 没开始时门口固定一份见面礼，不攒、不计时
+const readyCount = (s, now) => (started(s) ? Math.max(0, Math.min(MAX, Math.floor((now - s.anchor) / TRIP))) : 1);
 
+// 领礼物那一刻：上一周到期（或还没有）就从现在开始新的一周
 const rollWeek = (s, now) => {
-  const wk = weekInfo(now).key;
-  if (s.week.key !== wk) s.week = { key: wk, paid: 0 };
+  if (!curWeek(s, now)) s.week = { start: now, paid: 0 };
 };
 
 const SPECIAL = [5.2, 13.14, 20, 52, 66, 88, 99];
@@ -118,7 +113,7 @@ const moneyFor = (s, now, giftsLeftInClaim) => {
   rollWeek(s, now);
   const remaining = round2(CAP - s.week.paid);
   if (remaining <= 0) return 0;
-  const { hoursLeft } = weekInfo(now);
+  const hoursLeft = (s.week.start + WEEK - now) / HOUR;
   if (hoursLeft < 10 && giftsLeftInClaim <= 1) return remaining; // 本周最后一次：凑满 520
   const expected = giftsLeftInClaim + Math.floor(hoursLeft / DATA.TRIP_HOURS) * 0.6;
   let amt = (remaining / Math.max(1, expected)) * rand(0.7, 1.35);
@@ -138,12 +133,8 @@ const fragFor = (s, now) => {
   return Math.min(n, budget, TARGET - f.given);
 };
 
-const teaFor = (s, now) => {
-  const since = now - (s.lastTeaAt || 0);
-  if (since < 3 * DAY) return false;
-  if (since > 9 * DAY) return true;
-  return Math.random() < 0.08;
-};
+// 奶茶券：上一张（或开始计时）满 7 天后的第一份礼物里一定有，一份礼物只带一张
+const teaFor = (s, now) => Boolean(s.lastTeaAt) && now - s.lastTeaAt >= WEEK;
 
 const destFor = (s, first) => {
   if (first) return DATA.DESTS.find((d) => d.id === "hz-snow");
@@ -168,6 +159,7 @@ const meetFor = (dest) => {
 const makeGift = (s, now, first, giftsLeft) => {
   const dest = destFor(s, first);
   const meet = first ? null : meetFor(dest);
+  if (first) rollWeek(s, now);
   const money = first ? Math.min(52, CAP - s.week.paid) : moneyFor(s, now, giftsLeft);
   let frag = first ? 3 : fragFor(s, now);
   const tea = first ? false : teaFor(s, now);
@@ -202,16 +194,16 @@ const makeGift = (s, now, first, giftsLeft) => {
 };
 
 const view = (s, now, extra = {}) => {
-  rollWeek(s, now);
-  const ready = readyCount(s, now);
+  const ready = readyCount(s, now), on = started(s), wk = curWeek(s, now);
   const sinceClaim = now - (s.lastClaimAt || 0);
   const phase = ready > 0 ? (ready >= MAX ? "waiting" : "back") : sinceClaim < REST ? "home" : "away";
-  const nextAt = ready >= MAX ? null : s.anchor + (ready + 1) * TRIP;
+  const nextAt = !on || ready >= MAX ? null : s.anchor + (ready + 1) * TRIP;
   const leaveAt = phase === "home" ? s.lastClaimAt + REST : null;
-  const { hoursLeft } = weekInfo(now);
   return {
-    now, phase, ready, max: MAX, nextAt, leaveAt, tripHours: DATA.TRIP_HOURS,
-    wallet: { balance: s.wallet.balance, earned: s.wallet.earned, weekPaid: s.week.paid, weekCap: CAP, weekResetIn: Math.round(hoursLeft * HOUR), ledger: s.wallet.ledger.slice(0, 40) },
+    now, phase, ready, max: MAX, nextAt, leaveAt, tripHours: DATA.TRIP_HOURS, started: on, startedAt: on ? s.startedAt : null,
+    // weekEndsAt 为 null：这一周已满 7 天，下一次领礼物时开始新的一周
+    wallet: { balance: s.wallet.balance, earned: s.wallet.earned, weekPaid: wk ? wk.paid : 0, weekCap: CAP, weekEndsAt: wk ? wk.start + WEEK : null, ledger: s.wallet.ledger.slice(0, 40) },
+    teaDueAt: on && s.lastTeaAt ? s.lastTeaAt + WEEK : null,
     frag: { given: s.frag.given, target: TARGET, pendingSkins: s.frag.pendingSkins, redeemed: s.frag.redeemed, total: s.frag.total },
     coupons: s.coupons.slice(0, 40),
     collection: s.collection, meets: s.meets,
@@ -243,6 +235,8 @@ module.exports = async function xuebao(req, res) {
       const n = readyCount(s, now);
       if (!n) { sendJson(res, 409, { error: "雪宝还在路上呢。", ...view(s, now) }); return; }
       const first = !s.history.length;
+      // 第一次进门领礼物：从这一刻开始计时（旅行、每周的钱、奶茶券都从这里算起）
+      if (!started(s)) { s.startedAt = now; s.anchor = now - TRIP; s.lastTeaAt = now; s.week = null; s.v = 2; }
       const gifts = [];
       for (let i = 0; i < n; i++) gifts.push(makeGift(s, now, first && i === 0, n - i));
       s.history = [...gifts.slice().reverse(), ...s.history].slice(0, 300);

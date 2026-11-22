@@ -20,6 +20,10 @@
   const CHAR = Object.fromEntries(D.CHARS.map((c) => [c.id, c]));
   const money = (n) => "¥" + (Math.round(n * 100) / 100).toString();
   const hm = (t) => new Date(t).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", hour12: false });
+  const whenAt = (t) => { const d = new Date(t); return `${d.getMonth() + 1}月${d.getDate()}日 周${"日一二三四五六"[d.getDay()]} ${hm(t)}`; };
+  // “一周”按满 7 天算：显示这一周到哪天几点结束
+  const weekLine = (w) => !S.started ? "第一次领礼物后开始计时" : w.weekEndsAt ? `这一周到 ${whenAt(w.weekEndsAt)}` : "下次领礼物时开始新的一周";
+  const teaLine = () => !S.started ? "第一次领礼物后满一周，带回第一张" : S.teaDueAt ? (S.teaDueAt <= now() ? "这周的奶茶券已经满一周，下一份礼物里就有" : `每满一周一张，${whenAt(S.teaDueAt)} 之后的那份礼物里`) : "每满一周带回一张";
   const md = (t) => { const d = new Date(t); return `${d.getMonth() + 1}月${d.getDate()}日`; };
   const dur = (ms) => {
     ms = Math.max(0, ms); const h = Math.floor(ms / 3600000), m = Math.floor((ms % 3600000) / 60000), s = Math.floor((ms % 60000) / 1000);
@@ -273,7 +277,7 @@
   let walkT = 0;
   addEventListener("xb:floor", (e) => {
     if (!S || dragging) return;
-    if (S.phase !== "home") { if (S.phase === "back" || S.phase === "waiting") say("我先在门口等你开背包～"); return; }
+    if (S.phase !== "home") { if (S.phase === "back" || S.phase === "waiting") say("我带了礼物回来，点左上角的礼物盒拆开吧～"); return; }
     if (pose === "nap") { clearTimeout(routineT); clearInterval(zzzT); setPose("wow"); say("唔……醒啦，这就过来！"); Sound.boop(); setTimeout(() => walkTo(e.detail), 900); return; }
     walkTo(e.detail);
   });
@@ -351,16 +355,12 @@
     const hz = new Date().toLocaleTimeString("zh-CN", { timeZone: "Asia/Shanghai", hour: "2-digit", minute: "2-digit", hour12: false });
     Sound.pop(); say(`纽约现在 ${ny}，${weather.name}。杭州 ${hz}。${weather.line}`, e.currentTarget, 3600);
   });
-  $("packProp").addEventListener("click", () => openPack());
   $("cta").addEventListener("click", () => openPack());
   $("giftBtn").addEventListener("click", () => {
     if (!S || S.offline) { say("小屋暂时连不上，过一会儿再来看看。"); return; }
     if ((S.phase === "back" || S.phase === "waiting") && S.ready > 0) { openPack(); return; }
     Sound.boop(); say(S.phase === "away" ? `我还在路上，${dur(S.nextAt - now())}后带礼物回来～` : `下一份礼物大约 ${hm(S.nextAt)} 准备好，等我出门带回来！`);
   });
-  // 礼物按钮贴着时间卡片的左边
-  const placeGift = () => { const h = $("hud").getBoundingClientRect(), g = $("giftBtn"); g.style.top = h.top + "px"; g.style.right = Math.max(8, innerWidth - h.left + 8) + "px"; g.style.height = h.height + "px"; };
-  addEventListener("resize", placeGift); setInterval(placeGift, 500); requestAnimationFrame(placeGift);
   $("moneyChip").addEventListener("click", () => openWallet());
   $("shardChip").addEventListener("click", () => openShards());
   $("tripPill").addEventListener("click", () => openCalendar());
@@ -423,18 +423,18 @@
     if (S.offline) st.textContent = "小屋暂时连不上，过一会儿再来看看。";
     else if (ph === "home") st.textContent = `雪宝在家休息，大约 ${hm(S.leaveAt)} 出门旅行`;
     else if (ph === "away") st.textContent = `雪宝出门旅行了，${hm(S.nextAt)} 左右带礼物回来`;
+    else if (ph === "back" && !S.started) st.textContent = "雪宝在门口给你准备了一份见面礼，领了就开始旅行";
     else if (ph === "back") st.textContent = `雪宝回来啦！带回 ${S.ready} 份礼物${S.nextAt ? `，下一份 ${hm(S.nextAt)}` : ""}`;
     else st.textContent = "雪宝带回了 3 份礼物，在门口等你";
     // CTA
     const cta = $("cta"), pill = $("tripPill");
     const isZe = who() === "泽";
     cta.hidden = !(ph === "back" || ph === "waiting");
-    $("ctaText").textContent = isZe ? `雪雪有 ${S.ready} 份礼物待领` : `打开背包 · ${S.ready} 份礼物`;
+    $("ctaText").textContent = isZe ? `雪雪有 ${S.ready} 份礼物待拆` : `拆礼物 · ${S.ready} 份`;
     pill.hidden = !cta.hidden || S.offline;
-    $("packBadge").textContent = S.ready || "";
-    // 右上角礼物入口
+    // 左上角礼物入口（不显示数字角标，发光跳动就表示有礼物）
     { const g = $("giftBtn"), has = (ph === "back" || ph === "waiting") && S.ready > 0;
-      g.classList.toggle("has", has); $("giftN").hidden = !has; $("giftN").textContent = S.ready || "";
+      g.classList.toggle("has", has);
       $("giftTxt").textContent = has ? "领礼物" : S.offline ? "礼物" : S.nextAt ? `${hm(S.nextAt)} 到` : "礼物";
       g.setAttribute("aria-label", has ? `领取 ${S.ready} 份礼物` : "礼物还在路上"); }
     // 顶部数字
@@ -484,7 +484,7 @@
     return w;
   }
   function askWho(then) {
-    sheet(`<h2>你是谁呀？</h2><p class="sub">雪宝的背包只给雪雪打开，选一次就会记住。</p>
+    sheet(`<h2>你是谁呀？</h2><p class="sub">雪宝带回的礼物只给雪雪拆，选一次就会记住。</p>
       <div class="xb-row"><button class="xb-btn" data-w="雪">我是雪雪</button><button class="xb-btn ghost" data-w="泽">我是泽（只看看）</button></div>`, (el) => {
       el.querySelectorAll("[data-w]").forEach((b) => b.addEventListener("click", () => { store.set("who", b.dataset.w); closeSheet(); render(); then?.(); }));
     });
@@ -565,13 +565,12 @@
 
   function openWallet() {
     const w = S.wallet, unused = S.coupons.filter((c) => !c.used), used = S.coupons.filter((c) => c.used);
-    const resetH = Math.round((w.weekResetIn || 0) / 3600000);
     sheet(`<h2>雪宝的存钱罐</h2><p class="sub">雪宝每次旅行都会带一点钱回来，攒着找泽兑换。</p>
       <div class="xb-big"><img src="${A}prop-piggy.webp?v=2" alt=""><div><small>现在存着</small><b>${money(w.balance)}</b><small>一共带回 ${money(w.earned || 0)}</small></div></div>
-      <div class="xb-meta"><span>本周带回 ${money(w.weekPaid)} / ${money(w.weekCap)}</span><span>${resetH} 小时后开始新的一周</span></div>
+      <div class="xb-meta"><span>本周带回 ${money(w.weekPaid)} / ${money(w.weekCap)}</span><span>${weekLine(w)}</span></div>
       ${bar(w.weekPaid, w.weekCap)}
-      <div class="xb-sec"><h3>奶茶券 · ${unused.length} 张能用</h3>
-        ${S.coupons.length ? `<div class="xb-coupons">${[...unused, ...used].slice(0, 12).map((c) => `<div class="xb-coupon ${c.used ? "used" : ""}"><img src="${A}ic-tea.webp" alt="">${esc(c.title)}<br><small>${md(c.at)}</small></div>`).join("")}</div>` : `<p class="sub">还没有，雪宝大概一周会带回一张。</p>`}
+      <div class="xb-sec"><h3>奶茶券 · ${unused.length} 张能用</h3><p class="sub" style="margin:0 0 8px">${teaLine()}</p>
+        ${S.coupons.length ? `<div class="xb-coupons">${[...unused, ...used].slice(0, 12).map((c) => `<div class="xb-coupon ${c.used ? "used" : ""}"><img src="${A}ic-tea.webp" alt="">${esc(c.title)}<br><small>${md(c.at)}</small></div>`).join("")}</div>` : `<p class="sub">还没有。</p>`}
       </div>
       <div class="xb-sec"><h3>账本</h3><ul class="xb-list">${w.ledger.length ? w.ledger.slice(0, 15).map((l) => `<li><span>${md(l.at)} ${esc(l.note)}</span><span class="${l.delta >= 0 ? "plus" : "minus"}">${l.delta ? (l.delta > 0 ? "+" : "−") + money(Math.abs(l.delta)).slice(1) : "✓"}</span></li>`).join("") : "<li><span>还没有记录</span></li>"}</ul></div>
       <p class="xb-row" style="justify-content:space-between;margin-top:16px"><button class="xb-link" id="adminLink">记账（泽用）</button><button class="xb-link" id="whoLink">我是${who() === "雪" ? "雪雪" : esc(who() || "？")} · 切换</button></p>`, (el) => {
@@ -603,6 +602,8 @@
         <li><span>每趟旅行</span><span>${S.tripHours} 小时</span></li>
         <li><span>门口最多攒</span><span>${S.max} 份（睡多久都不会丢）</span></li>
         <li><span>本周的钱</span><span>${money(S.wallet.weekPaid)} / ${money(S.wallet.weekCap)}</span></li>
+        <li><span>每周</span><span>${weekLine(S.wallet)}</span></li>
+        <li><span>奶茶券</span><span>${teaLine()}</span></li>
         <li><span>去过的地方</span><span>${Object.keys(S.collection).length} / ${D.DESTS.length}</span></li>
         <li><span>遇见的旅伴</span><span>${Object.keys(S.meets).length} / ${D.CHARS.length}</span></li>
       </ul>`);
@@ -622,7 +623,6 @@
     } catch { letters = []; }
     const seen = store.get("lettersSeen", "");
     const fresh = letters.filter((l) => !l.locked && l.date > seen).length;
-    const b = $("mailBadge"); b.hidden = !fresh; b.textContent = fresh;
   }
   function openMailbox() {
     const open = (letters || []).filter((l) => !l.locked), locked = (letters || []).filter((l) => l.locked);
@@ -792,15 +792,15 @@
     if (!S || opening || !(S.phase === "back" || S.phase === "waiting")) return;
     const w = who();
     if (!w) { askWho(openPack); return; }
-    if (w === "泽") { say("这是雪雪的背包，要等她来打开哦。", me, 2800); return; }
+    if (w === "泽") { say("这是给雪雪的礼物，要等她来拆哦。", me, 2800); return; }
     opening = true;
     layer.hidden = false;
-    layer.innerHTML = `<div class="xb-rays"></div><div class="xb-openpack" id="op"><img src="${A}prop-pack.webp?v=2" alt="背包"></div>
-      <h2>雪宝带回了 ${S.ready} 份礼物</h2><p class="tip">点一下背包，打开看看</p>`;
+    layer.innerHTML = `<div class="xb-rays"></div><div class="xb-openpack" id="op"><img src="${A}ic-gift.webp" alt="礼物"></div>
+      <h2>雪宝带回了 ${S.ready} 份礼物</h2><p class="tip">点一下礼物，拆开看看</p>`;
     Sound.boop();
     layer.querySelector("#op").addEventListener("click", async () => {
       const opImg = layer.querySelector("#op img");
-      opImg.src = A + "prop-pack-open.webp?v=2"; Sound.open();
+      layer.querySelector("#op").classList.add("pop"); Sound.open();
       layer.querySelector(".tip").textContent = "正在拿出来……";
       let res;
       try { res = await api({ action: "claim" }); }

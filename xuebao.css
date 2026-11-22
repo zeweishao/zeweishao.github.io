@@ -330,7 +330,9 @@ textarea.xb-input { width: 100%; min-height: 80px; resize: vertical; }
   background: repeating-conic-gradient(rgba(255, 226, 160, .9) 0 5deg, transparent 5deg 20deg); animation: spin 26s linear infinite;
   -webkit-mask: radial-gradient(circle, #000, transparent 60%); mask: radial-gradient(circle, #000, transparent 60%); }
 .xb-openpack { position: relative; width: 150px; animation: packShake 1s ease-in-out; }
-.xb-openpack img { width: 100%; display: block; }
+.xb-openpack img { width: 100%; display: block; cursor: pointer; }
+.xb-openpack.pop img { animation: giftOpen .55s cubic-bezier(.3, 1.4, .5, 1) forwards; }
+@keyframes giftOpen { 0% { transform: scale(1) rotate(0); } 35% { transform: scale(1.18) rotate(-8deg); } 60% { transform: scale(.92) rotate(6deg); opacity: 1; } 100% { transform: scale(1.5); opacity: 0; } }
 .xb-open h2 { position: relative; margin: 0; font: 400 26px var(--hand); color: #ffe7b0; text-align: center; }
 .xb-open .tip { position: relative; margin: 0; font-size: 13px; color: rgba(255, 255, 255, .7); }
 .xb-rewards { position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 560px; }
@@ -589,8 +591,8 @@ body.hall .xb-stage { touch-action: none; }
 .xb-model-error[hidden] { display: none; }
 .xb-model-error button { margin-left: .4rem; border: 0; border-radius: 999px; padding: .25rem .7rem; background: #e8789a; color: #fff; font: 600 .78rem/1.2 "PingFang SC", sans-serif; cursor: pointer; }
 
-/* 右上角礼物入口（时间卡片左边） */
-.xb-gift { position: fixed; z-index: 41; top: 70px; right: 200px; min-width: 64px; display: grid; justify-items: center; align-content: center; gap: 2px; padding: 6px 10px; border: 1.5px solid rgba(255, 255, 255, .55); border-radius: 16px;
+/* 左上角礼物入口：一个礼物盒，有礼物时发光跳动（不放数字角标） */
+.xb-gift { position: fixed; z-index: 41; top: calc(var(--top) + 14px); left: max(12px, env(safe-area-inset-left)); min-width: 64px; display: grid; justify-items: center; align-content: center; gap: 2px; padding: 6px 10px; border: 1.5px solid rgba(255, 255, 255, .55); border-radius: 16px;
   background: rgba(40, 30, 45, .38); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); color: #fff; font: 600 11px/1.2 "PingFang SC", sans-serif; cursor: pointer; box-shadow: 0 6px 18px rgba(40, 20, 30, .18); transition: transform .2s; }
 .xb-gift img { width: 38px; height: 38px; object-fit: contain; filter: saturate(.6) brightness(.95); opacity: .75; }
 .xb-gift small { font-size: 11px; opacity: .85; white-space: nowrap; }
@@ -599,7 +601,9 @@ body.hall .xb-stage { touch-action: none; }
 .xb-gift.has small { opacity: 1; }
 .xb-gift:hover { transform: translateY(-2px); }
 .xb-gift-n { position: absolute; top: -8px; right: -8px; min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; background: #e23d5f; color: #fff; font: 700 12px/22px var(--serif, serif); box-shadow: 0 0 0 2px #fffaf2; }
-.xb-gift-n[hidden] { display: none; }
+.xb-gift-n, .xb-gift-n[hidden] { display: none; }
+/* 3D 小屋里领礼物统一走左上角，底部不再放“打开背包”大按钮 */
+body.hall .xb-cta { display: none !important; }
 @keyframes giftHop { 0%, 100% { transform: translateY(0) rotate(0); } 30% { transform: translateY(-5px) rotate(-6deg); } 60% { transform: translateY(0) rotate(5deg); } }
 @keyframes giftGlow { 50% { box-shadow: 0 0 0 6px rgba(255, 211, 107, .18), 0 8px 26px rgba(232, 120, 154, .6); } }
 @media (max-width: 560px) { .xb-gift { min-width: 54px; padding: 4px 7px; border-radius: 13px; } .xb-gift img { width: 30px; height: 30px; } }

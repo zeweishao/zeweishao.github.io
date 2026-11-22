@@ -73,5 +73,57 @@ export function buildRoomProps(THREE) {
     box(postcard, 0.022, 0.0015, 0.019, 0.0005, rose, 0.023, 0.0023, -0.013);
     for (let i = 0; i < 3; i++) box(postcard, 0.034, 0.0015, 0.0017, 0.0004, ink, -0.014, 0.0023, -0.01 + i * 0.008);
   }
-  return { radio, cardbox, table };
+  // 门口的小信箱：真的立体模型（以前是一张会转向镜头的图，拉视角会变扁）
+  function mailbox() {
+    const g = new THREE.Group(); g.name = "mailboxModel";
+    const red = material("#c95a52", 0.5), redDeep = material("#a9443f", 0.55), leaf = material("#6f9a4e", 0.7), leafDark = material("#557f3d", 0.75);
+    const post = material("#8a5a3c", 0.85), petal = material("#fff2ee", 0.6), heartM = material("#f2c14e", 0.4, 0.3);
+    // 木柱 + 底座
+    piece(g, new THREE.CylinderGeometry(0.03, 0.034, 0.27, 12), post, 0, 0.135, 0);
+    piece(g, new THREE.CylinderGeometry(0.07, 0.078, 0.022, 20), post, 0, 0.011, 0);
+    box(g, 0.1, 0.02, 0.1, 0.006, post, 0, 0.262, 0);
+    // 箱体：下面方、上面拱顶
+    const W = 0.27, Dp = 0.2, y0 = 0.27, bodyH = 0.13, R = W / 2;
+    box(g, W, bodyH, Dp, 0.014, red, 0, y0 + bodyH / 2, 0);
+    const arch = piece(g, new THREE.CylinderGeometry(R, R, Dp, 32, 1, false, Math.PI / 2, Math.PI).rotateX(Math.PI / 2), red, 0, y0 + bodyH, 0);
+    arch.scale.set(1, 0.82, 1);
+    // 拱顶前后的金边
+    for (const z of [Dp / 2 + 0.002, -Dp / 2 - 0.002]) {
+      const rim = piece(g, new THREE.TorusGeometry(R - 0.004, 0.0065, 6, 32, Math.PI), gold, 0, y0 + bodyH, z); rim.scale.set(1, 0.82, 1);
+    }
+    box(g, W + 0.012, 0.016, Dp + 0.012, 0.006, redDeep, 0, y0 + 0.008, 0);
+    // 前面的小门、投信口、信封、门环、合页
+    box(g, 0.2, 0.105, 0.012, 0.01, redDeep, 0, y0 + 0.062, Dp / 2 + 0.004);
+    box(g, 0.15, 0.024, 0.014, 0.008, dark, 0, y0 + bodyH + 0.038, Dp / 2 + 0.002);
+    const env = box(g, 0.11, 0.07, 0.004, 0.002, paper, 0.008, y0 + bodyH + 0.055, Dp / 2 - 0.004); env.rotation.set(-0.35, 0, 0.12);
+    piece(g, new THREE.TorusGeometry(0.022, 0.005, 8, 24), gold, 0, y0 + 0.045, Dp / 2 + 0.014);
+    piece(g, new THREE.SphereGeometry(0.01, 12, 8), gold, 0, y0 + 0.07, Dp / 2 + 0.013);
+    for (const y of [y0 + 0.03, y0 + 0.095]) box(g, 0.028, 0.016, 0.008, 0.003, gold, -0.105, y, Dp / 2 + 0.008);
+    // 侧面小爱心
+    const hs = new THREE.Shape(); hs.moveTo(0, -0.02); hs.bezierCurveTo(0.03, 0.002, 0.016, 0.026, 0, 0.012); hs.bezierCurveTo(-0.016, 0.026, -0.03, 0.002, 0, -0.02);
+    const heart = piece(g, new THREE.ExtrudeGeometry(hs, { depth: 0.004, bevelEnabled: false }), heartM, -W / 2 - 0.002, y0 + 0.075, 0); heart.rotation.y = -Math.PI / 2;
+    // 顶上的金星星
+    const ss = new THREE.Shape(); for (let i = 0; i < 10; i++) { const a = Math.PI / 2 + (i * Math.PI) / 5, r = i % 2 ? 0.017 : 0.04; i ? ss.lineTo(Math.cos(a) * r, Math.sin(a) * r) : ss.moveTo(Math.cos(a) * r, Math.sin(a) * r); }
+    const star = piece(g, new THREE.ExtrudeGeometry(ss, { depth: 0.014, bevelEnabled: true, bevelSize: 0.004, bevelThickness: 0.004, bevelSegments: 2 }), gold, 0, y0 + bodyH + R * 0.82 + 0.034, -0.007);
+    star.userData.spin = true;
+    // 右边的小旗子（旗杆 + 金球 + 旗面）
+    piece(g, new THREE.CylinderGeometry(0.005, 0.005, 0.22, 8), gold, W / 2 + 0.012, y0 + 0.17, 0.03);
+    piece(g, new THREE.SphereGeometry(0.011, 12, 8), gold, W / 2 + 0.012, y0 + 0.285, 0.03);
+    piece(g, new THREE.CylinderGeometry(0.008, 0.008, 0.02, 10).rotateZ(Math.PI / 2), gold, W / 2 + 0.003, y0 + 0.07, 0.03);
+    const fs = new THREE.Shape(); fs.moveTo(0, 0); fs.lineTo(0.085, 0.004); fs.lineTo(0.066, -0.024); fs.lineTo(0.085, -0.05); fs.lineTo(0, -0.046);
+    const flag = piece(g, new THREE.ExtrudeGeometry(fs, { depth: 0.004, bevelEnabled: false }), heartM, W / 2 + 0.016, y0 + 0.275, 0.028); flag.rotation.y = -0.5;
+    // 柱子上的常春藤和一朵小花
+    const lg = new THREE.SphereGeometry(1, 10, 6); lg.scale(0.022, 0.006, 0.014);
+    for (let i = 0; i < 11; i++) {
+      const t = i / 10, a = i * 2.2, y = 0.03 + t * 0.22, r = 0.04;
+      const l = piece(g, lg, i % 3 ? leaf : leafDark, Math.cos(a) * r, y, Math.sin(a) * r);
+      l.rotation.set(0.6 * Math.sin(i), -a, 0.5 + 0.3 * Math.cos(i * 1.7));
+    }
+    const fl = new THREE.Group(); fl.position.set(0.042, 0.09, 0.03); fl.rotation.set(0.3, 0.4, -0.2); g.add(fl);
+    const pg = new THREE.SphereGeometry(1, 10, 6); pg.scale(0.013, 0.004, 0.008); pg.translate(0.012, 0, 0);
+    for (let k = 0; k < 5; k++) { const m = piece(fl, pg, petal, 0, 0, 0); m.rotation.y = (k / 5) * Math.PI * 2; }
+    piece(fl, new THREE.SphereGeometry(0.006, 10, 8), heartM, 0, 0.003, 0);
+    return g;
+  }
+  return { radio, cardbox, table, mailbox };
 }

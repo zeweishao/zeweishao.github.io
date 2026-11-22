@@ -42,8 +42,7 @@ function start() {
     radio: ["prop-radio.webp?v=2", 0.16, [0.16, 0.305, -2.013]],
     cardbox: ["prop-cardbox.webp?v=2", 0.2, [-1.4, 0.43, -2.4]],
     mailbox: ["prop-mailbox.webp?v=2", 0.58, [1.3, 0, -3.85]],
-    note: ["ic-note.webp", 0.12, [-0.19, 0.305, -1.978]],
-    pack: ["prop-pack.webp?v=2", 0.4, [0.42, 0, -3.55]]
+    note: ["ic-note.webp", 0.12, [-0.19, 0.305, -1.978]]
   };
   Object.entries(SPR).forEach(([id, [f, h, at]]) => hall.addSprite(id, A + f, h, at));
   // 页面按钮 → 3D 物件
@@ -53,7 +52,7 @@ function start() {
     ["[data-prop=door]", "anchor", "door"], ["#windowHot", "anchor", "window"],
     ["[data-prop=piggy]", "sprite", "piggy"], ["[data-prop=jar]", "sprite", "jar"], ["[data-prop=globe]", "sprite", "globe"],
     ["[data-prop=radio]", "sprite", "radio"], ["[data-prop=cardbox]", "sprite", "cardbox"], ["#mailboxProp", "sprite", "mailbox"],
-    ["#noteProp", "sprite", "note"], ["#packProp", "sprite", "pack"]
+    ["#noteProp", "sprite", "note"]
   ].map(([sel, kind, id]) => ({ el: stage.querySelector(sel), kind, id })).filter((l) => l.el);
   const linked = new Set(LINK.map((l) => l.el));
   stage.querySelectorAll(".xb-prop, .xb-hot").forEach((el) => { if (!linked.has(el)) el.dataset.hallOff = ""; });
@@ -328,6 +327,7 @@ function start() {
   }
 
   // ---------- 循环 ----------
+  const QH = Number(new URLSearchParams(location.search).get("hour") ?? -1); // 调试：?hour=13 看正午光照
   const nyHour = () => { const p = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "numeric", hourCycle: "h23" }).formatToParts(new Date()); return Number(p.find((x) => x.type === "hour").value) + Number(p.find((x) => x.type === "minute").value) / 60; };
   function resize() { SR = stage.getBoundingClientRect(); hall.resize(stage.clientWidth, stage.clientHeight); lastKey = ""; }
   new ResizeObserver(resize).observe(stage); resize();
@@ -338,7 +338,7 @@ function start() {
     const dt = Math.min(0.05, (now - last) / 1000); last = now; const t = now / 1000;
     SR = stage.getBoundingClientRect();
     const weather = stage.dataset.weather || "sunny";
-    let hour = nyHour(); if (weather !== "night" && (hour < 6.4 || hour > 19.2)) hour = 15.5;
+    let hour = QH >= 0 ? QH : nyHour(); if (weather !== "night" && (hour < 6.4 || hour > 19.2)) hour = 15.5;
     drive(); syncChar();
     // 只有在家（或旅行探索）、没开面板时，她才会自己溜达
     char.allowWander = canMove() && !["back", "waiting"].includes(G()?.phase) && document.getElementById("sheetWrap")?.hidden !== false && !entering;

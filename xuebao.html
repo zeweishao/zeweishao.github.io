@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.loli.net">
   <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
   <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;display=swap" media="print" onload="this.media='all'">
-  <link rel="modulepreload" href="xuebao-hall.js?v=20261123d">
-  <link rel="stylesheet" href="xuebao.css?v=20261123f">
+  <link rel="modulepreload" href="xuebao-hall.js?v=20261123e">
+  <link rel="stylesheet" href="xuebao.css?v=20261123g">
 </head>
 <body>
   <!-- 进小世界的加载页：拱门里的雪宝 + 真实加载进度；3D 准备好后淡出（WebGL 不可用时直接撤掉） -->
@@ -47,9 +47,9 @@
     </div>
   </header>
 
-  <!-- 礼物入口：贴在时间卡片左边；有礼物时跳动发光，点开直接领 -->
+  <!-- 礼物入口：左上角一个礼物盒；有礼物时跳动发光，点开直接拆 -->
   <button class="xb-gift" id="giftBtn" type="button" aria-label="礼物">
-    <img src="xuebao-assets/prop-pack.webp?v=2" alt="" width="40" height="40"><span class="xb-gift-n" id="giftN" hidden></span><small id="giftTxt">礼物</small>
+    <img src="xuebao-assets/ic-gift.webp" alt="" width="40" height="40"><small id="giftTxt">礼物</small>
   </button>
   <div class="xb-hud" id="hud" role="button" tabindex="0" aria-label="天气和时间，点一下切换天气">
     <div class="hud-main"><span class="hud-ico" id="hudIco" aria-hidden="true"></span><span class="hud-time" id="hudTime">--:--</span></div>
@@ -102,11 +102,10 @@
       <!-- 地上 -->
       <button class="xb-prop" data-prop="plant" style="left:26.6%;top:57.5%;width:6.4%" aria-label="小绿植"><img src="xuebao-assets/prop-plant.webp?v=2" alt=""></button>
       <button class="xb-prop" data-prop="mailbox" id="mailboxProp" style="left:73.2%;top:47.5%;width:6.6%" aria-label="信箱：看信和写信">
-        <img src="xuebao-assets/prop-mailbox.webp?v=2" alt=""><span class="xb-badge" id="mailBadge" hidden></span>
+        <img src="xuebao-assets/prop-mailbox.webp?v=2" alt="">
       </button>
       <button class="xb-hot" data-prop="door" style="left:82%;top:18%;width:15%;height:45%" aria-label="门"></button>
       <div class="xb-doorlight" aria-hidden="true"></div>
-      <button class="xb-prop xb-pack" id="packProp" style="left:77.2%;top:60%;width:6.8%" aria-label="打开背包，领取礼物"><img src="xuebao-assets/prop-pack.webp?v=2" alt=""><span class="xb-badge" id="packBadge"></span></button>
 
       <!-- 雪宝 -->
       <div class="xb-shadow" id="xbShadow" aria-hidden="true"></div>
@@ -122,7 +121,7 @@
 
   <div class="xb-dock">
     <button class="xb-cta" id="cta" type="button" hidden>
-      <img src="xuebao-assets/prop-pack-open.webp?v=2" alt="" width="34" height="34"><span id="ctaText">雪宝回来啦</span>
+      <img src="xuebao-assets/ic-gift.webp" alt="" width="34" height="34"><span id="ctaText">雪宝回来啦</span>
     </button>
     <div class="xb-trip" id="tripPill" hidden>
       <span class="ring" id="tripRing"></span><span id="tripText"></span>
@@ -138,7 +137,7 @@
   <script src="xuebao-data.js?v=20261122v7"></script>
   <script src="xuebao-art.js?v=20261121a"></script>
   <script src="xuebao-places.js?v=20261122a"></script>
-  <script src="xuebao.js?v=20261123c"></script>
-  <script type="module" src="xuebao-hall.js?v=20261123d"></script>
+  <script src="xuebao.js?v=20261123d"></script>
+  <script type="module" src="xuebao-hall.js?v=20261123e"></script>
 </body>
 </html>
