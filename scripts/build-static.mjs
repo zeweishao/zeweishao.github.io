@@ -13,6 +13,7 @@ const rootFiles = [
   'journal.css', 'journal.js', 'messages.html', 'milk-tea.css', 'milk-tea.html',
   'milk-tea.js', 'motion-system.css', 'motion-system.js', 'orbit-refresh.css',
   'star-post.html', 'star-post.js', 'star-post-letters.js',
+  'xuebao.html', 'xuebao.css', 'xuebao.js', 'xuebao-data.js', 'xuebao-art.js', 'xuebao-places.js', 'xuebao-hall.js', 'world-return.js',
   'star-rail-comic.css', 'star-rail-comic.js', 'stories.css', 'stories.html',
   'stories.js', 'style.css', 'videos.html',
 ];
@@ -27,6 +28,9 @@ const directories = {
   videos: new Set(mediaTypes),
   vendor: new Set(['.js']),
   'story-data': new Set(['.json']),
+  'xuebao-assets': new Set(imageTypes),
+  'xuebao-3d': new Set(['.glb', '.gltf', '.bin', '.jpg', '.png', '.hdr', '.json']),
+  'xuebao-media': new Set(['.mp4', '.m4a']),
 };
 // Vercel redirects preserve these public paths while R2 serves the large media.
 const cloudMediaDirectories = new Set(['assets', 'photos', 'videos']);

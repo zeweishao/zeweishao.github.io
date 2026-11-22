@@ -768,7 +768,11 @@
     startFlight = function () { orig(); totalDist = speed * 8; }; // eslint-disable-line no-func-assign
   }
 
-  renderCover();
+  // 直达：star-post.html#mailbox 打开信箱，#write 打开写信（雪宝游记的小信箱用）
+  const entry = location.hash.slice(1);
+  if (entry === "mailbox") renderMailbox();
+  else if (entry === "write") openWriter();
+  else renderCover();
   loadLetters().then(() => {
     if (current === "cover") renderCover();
     else if (current === "mailbox") renderMailbox();

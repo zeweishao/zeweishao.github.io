@@ -265,6 +265,24 @@
       }
     });
     audio.addEventListener("ended", idle);
+    initXuebaoCall();
+  };
+
+  // 雪宝游记：雪宝带礼物回来时，在弗洛洛旁边挂一个醒目的入口
+  const initXuebaoCall = async () => {
+    if (/xuebao\.html$/.test(location.pathname)) return;
+    let s;
+    try {
+      const r = await fetch("/api/xuebao", { cache: "no-store" });
+      if (!r.ok) return;
+      s = await r.json();
+    } catch { return; }
+    if (!s || !(s.ready > 0)) return;
+    const link = document.createElement("a");
+    link.className = "j-xb-call";
+    link.href = "xuebao.html";
+    link.innerHTML = `<img src="xuebao-assets/prop-pack-open.webp" alt="" width="44" height="44"><span><b>雪宝回来啦</b>带回 ${s.ready} 份礼物</span>`;
+    document.body.append(link);
   };
 
 
@@ -295,7 +313,7 @@
   const initDock = () => {
     const tabs = document.querySelectorAll(".j-tabs a");
     if (!tabs.length || document.querySelector(".j-dock")) return;
-    const short = { "团子之家": "团子", "宝宝的能量补给站": "补给", "星星邮差": "邮差" };
+    const short = { "一页情书": "情书", "团子之家": "团子", "宝宝的能量补给站": "补给", "星星邮差": "邮差", "雪宝游记": "雪宝" };
     const dock = document.createElement("nav");
     dock.className = "j-dock";
     dock.setAttribute("aria-label", "快捷导航");

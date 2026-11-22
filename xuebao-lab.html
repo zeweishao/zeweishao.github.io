@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>雪宝的花园大厅</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0d111c; color: #f3ecdf; font-family: "Noto Serif SC", "Songti SC", serif; overflow: hidden; }
+  #lab { position: fixed; inset: 0; }
+  #lab canvas { display: block; cursor: pointer; }
+  .bar { position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center;
+    padding: 10px 14px; border-radius: 14px; background: rgba(14, 20, 40, .62); backdrop-filter: blur(10px); border: 1px solid rgba(255, 207, 138, .25); max-width: calc(100vw - 24px); }
+  .bar button { font: inherit; font-size: 13px; color: inherit; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .12); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+  .bar button[aria-pressed="true"] { background: rgba(255, 207, 138, .25); border-color: #ffcf8a; }
+  .bar label { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+  .bar input { width: 160px; accent-color: #ffcf8a; }
+  #loading { position: fixed; inset: 0; display: grid; place-items: center; background: #0d111c; color: #ffdca8; letter-spacing: .15em; transition: opacity .8s; z-index: 5; }
+  #loading.done { opacity: 0; pointer-events: none; }
+  .tip { position: fixed; left: 16px; top: max(14px, env(safe-area-inset-top)); font-size: 13px; opacity: .8; text-shadow: 0 1px 3px #000; transition: opacity 1s; }
+  .tip.gone { opacity: 0; }
+  @media (max-width: 600px) {
+    .tip { font-size: 12px; right: 16px; }
+    .bar { gap: 6px; padding: 8px 10px; border-radius: 16px; bottom: max(12px, env(safe-area-inset-bottom)); width: calc(100vw - 32px); box-sizing: border-box; }
+    .bar button { font-size: 12px; padding: 5px 9px; }
+    .bar label { order: 9; width: 100%; font-size: 12px; gap: 8px; }
+    .bar label input { flex: 1; width: auto; }
+    #autoBtn { font-size: 0; padding: 5px 9px; } #autoBtn::after { content: "自动"; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+  <div id="lab"></div>
+  <div id="loading">小屋布置中……</div>
+  <div class="tip">点地板让雪宝走过去，点她会跳</div>
+  <div class="bar">
+    <button id="autoBtn" type="button">跟着纽约时间</button>
+    <label>时间 <input id="hour" type="range" min="6" max="19.4" step="0.05" value="10"><b id="hourText">10:00</b></label>
+    <button type="button" data-w="sunny">晴</button><button type="button" data-w="rainy">阴雨</button><button type="button" data-w="night">夜晚</button>
+    <button id="lampBtn" type="button">台灯</button>
+  </div>
+  <script>setTimeout(() => document.querySelector(".tip")?.classList.add("gone"), 6000);</script>
+  <script type="module" src="xuebao-lab.js?v=15"></script>
+</body>
+</html>

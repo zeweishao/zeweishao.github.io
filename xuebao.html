@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5eee3">
+  <meta name="description" content="雪宝游记：你睡着的时候，雪宝替你去看看世界。">
+  <title>雪宝游记｜记录爱雪雪的每一天</title>
+  <link rel="icon" href="assets/journal/logo-seal.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.loli.net">
+  <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;display=swap" media="print" onload="this.media='all'">
+  <link rel="modulepreload" href="xuebao-hall.js?v=20261122v7">
+  <link rel="stylesheet" href="xuebao.css?v=20261122v7">
+</head>
+<body>
+  <!-- 进小世界的加载页：拱门里的雪宝 + 真实加载进度；3D 准备好后淡出（WebGL 不可用时直接撤掉） -->
+  <div class="wl" id="worldLoad" role="status" aria-live="polite">
+    <div class="wl-petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wl-stage">
+      <div class="wl-arch" aria-hidden="true"><span class="wl-glow"></span><span class="wl-sparks"><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+      <img class="wl-xb" src="xuebao-assets/xb-loading.webp?v=1" alt="雪宝在拱门里挥手" width="640" height="960" decoding="async" fetchpriority="high">
+    </div>
+    <div class="wl-text">
+      <h1 class="wl-title">雪宝游记</h1>
+      <p class="wl-tip" id="worldLoadTip">雪宝在给你开门…</p>
+      <div class="wl-bar" aria-hidden="true"><span id="worldLoadBar"></span></div>
+    </div>
+  </div>
+  <script>(function(){try{var c=document.createElement("canvas");if(!c.getContext("webgl2"))document.getElementById("worldLoad").remove();}catch(e){var w=document.getElementById("worldLoad");w&&w.remove();}})();</script>
+  <header class="xb-top">
+    <a class="xb-home" href="index.html" aria-label="回到小世界首页">
+      <img src="assets/journal/logo-seal.webp" alt="" width="34" height="34">
+    </a>
+    <div class="xb-title">
+      <h1>雪宝游记</h1>
+      <p id="statusLine">正在推开小屋的门……</p>
+    </div>
+    <div class="xb-chips">
+      <button class="xb-chip" id="moneyChip" type="button" aria-label="打开存钱罐">
+        <img src="xuebao-assets/ic-coin.webp" alt="" width="22" height="22"><span id="moneyText">¥0</span>
+      </button>
+      <button class="xb-chip" id="shardChip" type="button" aria-label="打开碎片罐">
+        <img src="xuebao-assets/ic-shard.webp" alt="" width="18" height="22"><span id="shardText">0/99</span>
+      </button>
+      <button class="xb-chip xb-icon" id="muteBtn" type="button" aria-label="声音开关">♪</button>
+    </div>
+  </header>
+
+  <!-- 礼物入口：贴在时间卡片左边；有礼物时跳动发光，点开直接领 -->
+  <button class="xb-gift" id="giftBtn" type="button" aria-label="礼物">
+    <img src="xuebao-assets/prop-pack.webp?v=2" alt="" width="40" height="40"><span class="xb-gift-n" id="giftN" hidden></span><small id="giftTxt">礼物</small>
+  </button>
+  <div class="xb-hud" id="hud" role="button" tabindex="0" aria-label="天气和时间，点一下切换天气">
+    <div class="hud-main"><span class="hud-ico" id="hudIco" aria-hidden="true"></span><span class="hud-time" id="hudTime">--:--</span></div>
+    <div class="hud-line"><span id="hudWeather">纽约</span><i></i><span id="hudDate"></span></div>
+    <div class="hud-line dim"><span id="hudHz"></span><i></i><span id="hudNext"></span></div>
+    <div class="hud-trip" id="hudTrip"></div>
+  </div>
+  <div class="xb-wx" id="wxPanel" hidden>
+    <p class="wx-title">切换天气</p>
+    <button type="button" data-wx="auto"><span class="wx-ico" data-ico="auto"></span><b>自动</b><small>跟着纽约时间变</small></button>
+    <button type="button" data-wx="sunny"><span class="wx-ico" data-ico="sunny"></span><b>晴</b><small>阳光和浮尘</small></button>
+    <button type="button" data-wx="blossom"><span class="wx-ico" data-ico="blossom"></span><b>花开</b><small>花瓣飘进来</small></button>
+    <button type="button" data-wx="rainy"><span class="wx-ico" data-ico="rainy"></span><b>下雨</b><small>花园里下雨，雪宝会打伞</small></button>
+    <button type="button" data-wx="snowy"><span class="wx-ico" data-ico="snowy"></span><b>下雪</b><small>雪花飘，花园慢慢变白</small></button>
+    <button type="button" data-wx="night"><span class="wx-ico" data-ico="night"></span><b>星夜</b><small>星星和萤火虫</small></button>
+  </div>
+
+  <main class="xb-viewport" id="viewport">
+    <div class="xb-stage" id="stage" data-phase="loading">
+      <img class="xb-room" id="roomImg" src="xuebao-assets/room-sunny.webp" alt="雪宝的小屋" draggable="false">
+
+      <!-- 窗外天色（按纽约时间） -->
+      <div class="xb-window" id="windowSky" aria-hidden="true"><i class="sun"></i><i class="moon"></i><span class="stars"></span></div>
+      <button class="xb-hot" id="windowHot" style="left:1%;top:5%;width:24%;height:42%" aria-label="看看窗外"></button>
+
+      <!-- 墙上 -->
+      <button class="xb-prop" data-prop="map" style="left:33.5%;top:9%;width:11.5%" aria-label="旅行图鉴：地图"><img src="xuebao-assets/prop-map.webp?v=2" alt=""></button>
+      <button class="xb-prop" data-prop="frame" style="left:47.5%;top:9.5%;width:7.6%" aria-label="最近的一张明信片">
+        <img src="xuebao-assets/prop-frame.webp?v=2" alt=""><span class="xb-frame-pic" id="framePic"></span>
+      </button>
+      <button class="xb-prop" data-prop="calendar" style="left:59.5%;top:8%;width:7.4%" aria-label="日历：雪宝什么时候回来">
+        <img src="xuebao-assets/prop-calendar.webp?v=2" alt=""><span class="xb-cal" id="calText"></span>
+      </button>
+      <button class="xb-prop xb-swing" data-prop="chime" style="left:25.2%;top:-1%;width:4.4%" aria-label="风铃"><img src="xuebao-assets/prop-chime.webp?v=2" alt=""></button>
+      <button class="xb-prop" data-prop="hat" id="hatProp" style="left:77%;top:21%;width:4.6%" aria-label="草帽"><img src="xuebao-assets/prop-hat.webp?v=2" alt=""></button>
+
+      <!-- 书架上 -->
+      <button class="xb-prop" data-prop="piggy" style="left:35.5%;top:38%;width:6.2%" aria-label="存钱罐：钱包"><img src="xuebao-assets/prop-piggy.webp?v=2" alt=""></button>
+      <button class="xb-prop" data-prop="jar" style="left:43.6%;top:37%;width:4.7%" aria-label="碎片罐"><img src="xuebao-assets/prop-jar.webp?v=2" alt=""><span class="xb-jar-fill" id="jarFill"></span></button>
+      <button class="xb-prop" data-prop="globe" style="left:51.6%;top:35.8%;width:5%" aria-label="地球仪"><img src="xuebao-assets/prop-globe.webp?v=2" alt=""></button>
+      <button class="xb-prop" data-prop="radio" style="left:61%;top:36.8%;width:7%" aria-label="收音机：放音乐"><img src="xuebao-assets/prop-radio.webp?v=2" alt=""></button>
+
+      <!-- 书桌上 -->
+      <button class="xb-hot" data-prop="lamp" style="left:1%;top:37%;width:8%;height:17%" aria-label="台灯开关"></button>
+      <div class="xb-lampglow" aria-hidden="true"></div>
+      <button class="xb-prop" data-prop="mug" style="left:15.4%;top:46.2%;width:3.9%" aria-label="马克杯"><img src="xuebao-assets/prop-mug.webp?v=2" alt=""><i class="xb-steam"></i><i class="xb-steam s2"></i></button>
+      <button class="xb-prop" data-prop="cardbox" style="left:19.6%;top:43.8%;width:6.2%" aria-label="明信片盒：旅行图鉴"><img src="xuebao-assets/prop-cardbox.webp?v=2" alt=""></button>
+      <button class="xb-prop xb-note" data-prop="note" id="noteProp" style="left:8.5%;top:47.5%;width:5.4%" aria-label="雪宝留下的纸条"><img src="xuebao-assets/ic-note.webp" alt=""></button>
+
+      <!-- 地上 -->
+      <button class="xb-prop" data-prop="plant" style="left:26.6%;top:57.5%;width:6.4%" aria-label="小绿植"><img src="xuebao-assets/prop-plant.webp?v=2" alt=""></button>
+      <button class="xb-prop" data-prop="mailbox" id="mailboxProp" style="left:73.2%;top:47.5%;width:6.6%" aria-label="信箱：看信和写信">
+        <img src="xuebao-assets/prop-mailbox.webp?v=2" alt=""><span class="xb-badge" id="mailBadge" hidden></span>
+      </button>
+      <button class="xb-hot" data-prop="door" style="left:82%;top:18%;width:15%;height:45%" aria-label="门"></button>
+      <div class="xb-doorlight" aria-hidden="true"></div>
+      <button class="xb-prop xb-pack" id="packProp" style="left:77.2%;top:60%;width:6.8%" aria-label="打开背包，领取礼物"><img src="xuebao-assets/prop-pack.webp?v=2" alt=""><span class="xb-badge" id="packBadge"></span></button>
+
+      <!-- 雪宝 -->
+      <div class="xb-shadow" id="xbShadow" aria-hidden="true"></div>
+      <button class="xb-me" id="xuebao" type="button" aria-label="雪宝（可以点、摸、拖动、长按）">
+        <img id="xbImg" src="xuebao-assets/xb-idle.webp?v=2" alt="" draggable="false">
+      </button>
+
+      <div class="xb-motes" aria-hidden="true"></div>
+      <div class="xb-tint" aria-hidden="true"></div>
+      <div class="xb-fx" id="fx" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <div class="xb-dock">
+    <button class="xb-cta" id="cta" type="button" hidden>
+      <img src="xuebao-assets/prop-pack-open.webp?v=2" alt="" width="34" height="34"><span id="ctaText">雪宝回来啦</span>
+    </button>
+    <div class="xb-trip" id="tripPill" hidden>
+      <span class="ring" id="tripRing"></span><span id="tripText"></span>
+    </div>
+  </div>
+
+  <div class="xb-bubble" id="bubble" role="status" aria-live="polite"></div>
+  <div class="xb-sheet-wrap" id="sheetWrap" hidden>
+    <div class="xb-sheet" id="sheet" role="dialog" aria-modal="true"></div>
+  </div>
+  <div class="xb-open" id="openLayer" hidden></div>
+
+  <script src="xuebao-data.js?v=20261122v7"></script>
+  <script src="xuebao-art.js?v=20261121a"></script>
+  <script src="xuebao-places.js?v=20261122a"></script>
+  <script src="xuebao.js?v=20261122v7"></script>
+  <script type="module" src="xuebao-hall.js?v=20261122v7"></script>
+</body>
+</html>

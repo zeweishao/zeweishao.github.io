@@ -6047,3 +6047,23 @@ body.journal:not(.comic-page) .j-tabs a,
 @media (max-width: 360px) {
   .j-dock a { font-size: 11px; white-space: nowrap; letter-spacing: -0.02em; }
 }
+
+
+/* ---------- 雪宝游记入口 ---------- */
+.j-xb-call {
+  position: fixed; right: 122px; bottom: 34px; z-index: 61;
+  display: flex; align-items: center; gap: 8px; padding: 6px 16px 6px 6px;
+  border-radius: 30px; background: #b8473f; color: #fff; text-decoration: none;
+  font-size: 13px; line-height: 1.25; box-shadow: 0 8px 22px rgba(184, 71, 63, .4), 0 0 0 3px #fffaf2;
+  animation: xbCall 1.8s ease-in-out infinite;
+}
+.j-xb-call img { width: 44px; height: 44px; border-radius: 50%; background: #fffaf2; padding: 3px; }
+.j-xb-call b { display: block; font-size: 15px; letter-spacing: .04em; color: #fff; }
+.j-xb-call, .j-xb-call span { color: #fff !important; font-family: "Noto Serif SC", "Songti SC", serif; }
+@keyframes xbCall { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@media (max-width: 760px) {
+  .j-xb-call { right: 74px; bottom: calc(86px + env(safe-area-inset-bottom)); padding: 4px 12px 4px 4px; }
+  .j-xb-call img { width: 36px; height: 36px; }
+  .j-xb-call b { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .j-xb-call { animation: none; } }
