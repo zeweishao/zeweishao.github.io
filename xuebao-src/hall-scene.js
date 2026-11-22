@@ -530,7 +530,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     squash() { this.sqV -= 3.2; },
     hug() { this.sqV -= 2.6; this.happyT = 1.8; this.hugT = 1.8; },
     swap() { this.pop = 0.94; this.popV = 0; },
-    bounds(b) { const s = this.height * this.pop; b.min.set(xb.position.x - 0.24 * s, xb.position.y, xb.position.z - 0.24 * s); b.max.set(xb.position.x + 0.24 * s, xb.position.y + s * (1 - this.sit * 0.17), xb.position.z + 0.24 * s); return b; }
+    // 手机上只取身体中间一段当“抓她”的区域，免得点地板、点道具时误碰到她
+    bounds(b) { const s = this.height * this.pop, w = (mobile ? 0.14 : 0.24) * s, y0 = mobile ? 0.18 * s : 0; b.min.set(xb.position.x - w, xb.position.y + y0, xb.position.z - w); b.max.set(xb.position.x + w, xb.position.y + s * (mobile ? 0.82 : 1) * (1 - this.sit * 0.17), xb.position.z + w); return b; }
   };
   const lerp3 = (a, b, k) => a + (b - a) * k;
   const damp = (a, b, k, dt) => a + (b - a) * (1 - Math.exp(-k * dt));
@@ -726,11 +727,11 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     return {
       sky: night ? "night" : rain ? "rain" : warm > 0.55 ? "dusk" : "day",
       sunI: night ? 0.5 : rain ? 0 : 1.1 + day * 2.6, sunC: night ? C("#9fb6ff") : C("#fff4e0").lerp(C("#ffa864"), warm * 0.85),
-      env: night ? 0.08 : rain ? 0.5 : 0.32 + day * 0.22, bgI: night ? 0.22 : rain ? 0.55 : warm > 0.55 ? 0.5 : 0.62,
-      hemi: night ? 0.12 : rain ? 0.5 : 0.45 + day * 0.35, fill: night ? 0.2 : rain ? 1.6 : 1.3 + day * 1.4, fb: night ? 0 : rain ? 0 : 0.5 + day * 0.9,
+      env: night ? 0.08 : rain ? 0.5 : 0.32 + day * 0.2, bgI: night ? 0.22 : rain ? 0.5 : warm > 0.55 ? 0.45 : 0.52,
+      hemi: night ? 0.12 : rain ? 0.5 : 0.45 + day * 0.35, fill: night ? 0.2 : rain ? 1.4 : 1.1 + day * 0.9, fb: night ? 0 : rain ? 0 : 0.3 + day * 0.45, // 门口的窗光、地上反光压低，进门不刺眼
       exp: night ? 1.35 : rain ? 1.15 : 1.0,
       chI: lampOn ? (night ? 3.4 : 1.8) : 0, candI: lampOn ? 0.7 : 0,
-      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.03 + day * 0.07, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12
+      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.02 + day * 0.035, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12
     };
   }
   const _up = new THREE.Vector3(0, 1, 0), _m = new THREE.Matrix4();
@@ -752,7 +753,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     focus: new THREE.Vector3(0, 0.5, -1.05),
     orbit(dx, dy) { this.yawT -= dx * 0.0075; this.pitchT = THREE.MathUtils.clamp(this.pitchT + dy * 0.005, this.minPitch, this.maxPitch); this.vYaw = -dx * 0.0075; this.vPitch = dy * 0.005; },
     zoom(f) { this.distT = THREE.MathUtils.clamp(this.distT * f, this.minDist, this.maxDist); },
-    reset() { this.yawT = Math.round(this.yaw / (Math.PI * 2)) * Math.PI * 2; this.pitchT = 0.26; this.distT = this.home; },
+    reset() { this.yawT = Math.round(this.yaw / (Math.PI * 2)) * Math.PI * 2; this.pitchT = this.pitchHome ?? 0.26; this.distT = this.home; },
     home: 2.7
   };
   const BOUND_IN = { x0: -W / 2 + 0.2, x1: W / 2 - 0.2, y0: 0.18, y1: H - 0.2, z0: -D + 0.25, z1: FRONT - 0.2 };
@@ -761,7 +762,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function resize(w, h) {
     renderer.setSize(w, h); composer.setSize(w, h); bloom.resolution.set(w, h);
     const aspect = w / h, k = THREE.MathUtils.smoothstep(aspect, 0.55, 1.35);
-    view.fovT = lerp(62, 44, k); view.home = lerp(2.9, 2.7, k);
+    // 竖屏手机：视角不再那么广，镜头退远一点、抬高一点，人物小一些，操作空间大
+    view.fovT = lerp(56, 44, k); view.home = lerp(4.1, 2.7, k); view.pitchHome = lerp(0.36, 0.26, k); view.inMax = lerp(5.0, 3.6, k);
+    if (!view.touched) { view.pitch = view.pitchT = view.pitchHome; }
     if (!view.touched) { view.dist = view.distT = view.eff = view.home; }
     camera.aspect = aspect; camera.fov = view.fovT; camera.updateProjectionMatrix(); grade.uniforms.uAspect.value = aspect;
   }
@@ -777,7 +780,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (view.peek) _tgt.copy(view.peek); else _tgt.set(xb.position.x, 0.5 + xb.position.y * 0.5 - char.sit * 0.12, xb.position.z);
     const fk = view.peek ? 3 : 4; view.focus.x = damp(view.focus.x, _tgt.x, fk, dt); view.focus.y = damp(view.focus.y, _tgt.y, fk, dt); view.focus.z = damp(view.focus.z, _tgt.z, fk, dt);
     _dir.set(Math.sin(view.yaw) * Math.cos(view.pitch), Math.sin(view.pitch), Math.cos(view.yaw) * Math.cos(view.pitch));
-    BOUND = view.focus.z < garden.Z0 - 0.2 ? BOUND_OUT : BOUND_IN; view.maxDist = BOUND === BOUND_OUT ? 6.2 : 3.6; if (view.distT > view.maxDist) view.distT = view.maxDist; // 花园里可以拉得更远，看全景 // 雪宝出了门，镜头就在花园里转
+    BOUND = view.focus.z < garden.Z0 - 0.2 ? BOUND_OUT : BOUND_IN; view.maxDist = BOUND === BOUND_OUT ? 6.2 : (view.inMax || 3.6); if (view.distT > view.maxDist) view.distT = view.maxDist; // 花园里可以拉得更远，看全景 // 雪宝出了门，镜头就在花园里转
     // 撞墙：沿视线往回收，收得快、放得慢
     let tmax = view.dist; const f = view.focus;
     [["x", BOUND.x0, BOUND.x1], ["y", BOUND.y0, BOUND.y1], ["z", BOUND.z0, BOUND.z1]].forEach(([ax, lo, hi]) => { const d = _dir[ax]; if (Math.abs(d) < 1e-4) return; const tt = ((d > 0 ? hi : lo) - f[ax]) / d; if (tt > 0) tmax = Math.min(tmax, tt); });

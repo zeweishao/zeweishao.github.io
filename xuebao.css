@@ -625,3 +625,23 @@ body.hall .xb-stage { touch-action: none; }
 .xb-ctl-act .b-run.on { background: linear-gradient(160deg, #fff6d6, #ffd36b); border-color: #f0b84a; box-shadow: 0 0 0 4px rgba(255,211,107,.35), 0 6px 16px rgba(120,60,80,.2); }
 @media (hover: hover) { .xb-ctl button:hover { box-shadow: 0 8px 20px rgba(120,60,80,.28); } }
 @media (max-width: 560px) { .xb-ctl { bottom: calc(86px + env(safe-area-inset-bottom)); gap: 10px; } .xb-ctl-act .b-jump { width: 78px; height: 78px; } .xb-ctl-act .b-wave, .xb-ctl-act .b-run { width: 48px; height: 48px; } .xb-ctl-cam button { width: 32px; height: 32px; } }
+
+/* 手机竖屏：顶部时间卡片收成两行小卡，礼物按钮横排贴在左边；镜头按钮改成一横排放在跳跃按钮上方 */
+@media (max-width: 600px) {
+  .xb-hud { padding: 6px 10px 7px 12px; border-radius: 14px; }
+  .xb-hud .hud-line.dim, .xb-hud .hud-trip { display: none; }
+  .hud-main { gap: 6px; } .hud-time { font-size: 21px; } .hud-ico, .hud-ico svg { width: 19px; height: 19px; }
+  .hud-line { font-size: 10.5px; gap: 5px; letter-spacing: .03em; }
+  .xb-gift { display: flex; align-items: center; gap: 4px; min-width: 0; padding: 4px 9px 4px 5px; border-radius: 13px; }
+  .xb-gift img { width: 26px; height: 26px; }
+  .xb-gift small { font-size: 11px; }
+  .xb-joy { width: 100px; height: 100px; left: max(14px, env(safe-area-inset-left)); bottom: calc(78px + env(safe-area-inset-bottom)); }
+  .xb-joy i { width: 42px; height: 42px; }
+  .xb-ctl { right: max(12px, env(safe-area-inset-right)); bottom: calc(76px + env(safe-area-inset-bottom)); gap: 10px; }
+  .xb-ctl-cam { flex-direction: row; gap: 6px; }
+  .xb-ctl-cam button { width: 32px; height: 32px; border-radius: 11px; font-size: 16px; }
+  .xb-ctl-act { gap: 8px; }
+  .xb-ctl-act .b-jump { width: 74px; height: 74px; font-size: 30px; }
+  .xb-ctl-act .b-wave, .xb-ctl-act .b-run { width: 46px; height: 46px; font-size: 18px; }
+  .xb-ctl small { font-size: 9.5px; }
+}

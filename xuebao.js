@@ -174,7 +174,7 @@
     sound(k) { Sound[k]?.(); },
     // 花园里的互动（喷泉、秋千……）：雪宝说一句，暂停日常动作一会儿
     react(line) {
-      if (S?.phase === "away" && stage.classList.contains("hall") && stage.dataset.phase === "away") {
+      if (["away", "back", "waiting"].includes(S?.phase) && stage.classList.contains("hall") && stage.dataset.phase === S.phase) {
         if (line) say(line);
         return;
       }

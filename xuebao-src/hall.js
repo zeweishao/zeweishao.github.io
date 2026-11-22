@@ -85,7 +85,8 @@ function start() {
   // xuebao.js 的 pos 是舞台百分比；大厅里另外记一份地板坐标 wx/wz（跟着 pos 一起存），镜头转了也不会跑位
   const G = () => window.XBGame;
   // 出发动画结束后，3D 角色可以独立探索，旅行状态和在家时的位置仍由 XBGame 管理。
-  const exploringTrip = () => live && G()?.phase === "away" && stage.dataset.phase === "away";
+  // 旅行中、回来在门口等开背包时，也能自己走来走去看看（不经过游戏那边记位置）
+  const exploringTrip = () => live && ["away", "back", "waiting"].includes(G()?.phase) && stage.dataset.phase === G()?.phase;
   const canMove = () => live && stage.dataset.xbModel === "ready" && (G()?.phase === "home" || exploringTrip());
   let lastKey = "", lastCls = "", wasDrag = false, exploredTrip = false;
   let tripDrag = null;
@@ -338,7 +339,7 @@ function start() {
     let hour = nyHour(); if (weather !== "night" && (hour < 6.4 || hour > 19.2)) hour = 15.5;
     drive(); syncChar();
     // 只有在家（或旅行探索）、没开面板时，她才会自己溜达
-    char.allowWander = canMove() && document.getElementById("sheetWrap")?.hidden !== false && !entering;
+    char.allowWander = canMove() && !["back", "waiting"].includes(G()?.phase) && document.getElementById("sheetWrap")?.hidden !== false && !entering;
     hall.update(dt, t, { hour, weather, lamp: stage.classList.contains("lamp-on") });
     if (!live) return;
     // 道具按钮跟着 3D 物件走
