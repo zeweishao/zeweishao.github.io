@@ -674,13 +674,33 @@
   // 足迹地图 + 按大区分的地点卡；每个地点一页：明信片、地点小记、雪宝的旅记、纪念品、旅伴、去过几次
   const PL = () => window.XUEBAO_PLACES || { REGIONS: [], PLACES: {} };
   const visitsOf = (id) => (S.history || []).filter((h) => h.dest === id);
-  function mapXY(p) { const x = (p.lon - 73) / (135 - 73), y = (54 - p.lat) / (54 - 17); return [Math.max(3, Math.min(97, x * 100)), Math.max(4, Math.min(96, y * 100))]; }
+  // 真实中国地图（xuebao-china.js，Albers 投影）：经纬度 → 地图上的百分比位置
+  function mapXY(p) {
+    const M = window.XUEBAO_CHINA, q = M.proj, r = Math.PI / 180, n = (Math.sin(q.p1 * r) + Math.sin(q.p2 * r)) / 2, C = Math.cos(q.p1 * r) ** 2 + 2 * n * Math.sin(q.p1 * r);
+    const rho0 = Math.sqrt(C - 2 * n * Math.sin(q.lat0 * r)) / n, th = n * (p.lon - q.lon0) * r, rho = Math.sqrt(C - 2 * n * Math.sin(p.lat * r)) / n;
+    const x = (rho * Math.sin(th) - q.minx) * q.s + q.pad, y = (q.maxy - (rho0 - rho * Math.cos(th))) * q.s + q.pad;
+    return [(x / M.W) * 100, (y / M.H) * 100];
+  }
+  let chinaLoading = null;
+  const loadChina = () => window.XUEBAO_CHINA ? Promise.resolve() : (chinaLoading ||= new Promise((ok, no) => { const sc = document.createElement("script"); sc.src = "xuebao-china.js?v=20261123a"; sc.onload = ok; sc.onerror = no; document.head.append(sc); }));
   function openAtlas(region = "") {
-    const { REGIONS, PLACES } = PL(), got = S.collection || {}, tiers = { 1: "普通", 2: "少见", 3: "稀有" };
+    if (!window.XUEBAO_CHINA) { loadChina().then(() => openAtlas(region), () => say("地图没加载出来，过一会儿再试试。")); return; }
+    const { REGIONS, PLACES } = PL(), got = S.collection || {}, tiers = { 1: "普通", 2: "少见", 3: "稀有" }, M = window.XUEBAO_CHINA;
     const nGot = D.DESTS.filter((d) => got[d.id]).length;
-    const pins = D.DESTS.filter((d) => PLACES[d.id]).map((d) => { const [x, y] = mapXY(PLACES[d.id]); return `<button class="pin ${got[d.id] ? "on" : ""} t${d.tier}" style="left:${x}%;top:${y}%" data-place="${d.id}" aria-label="${esc(d.place)}"><i></i>${got[d.id] ? `<span>${esc(d.place.split("·")[0])}</span>` : ""}</button>`; }).join("");
-    const RC = { 华东: [83, 52], 华北: [70, 22], 东北: [86, 12], 华中: [66, 50], 华南: [64, 76], 西南: [42, 58], 西北: [28, 30] };
-    const labels = REGIONS.map((r) => `<em style="left:${RC[r]?.[0] ?? 50}%;top:${RC[r]?.[1] ?? 50}%">${r}</em>`).join("");
+    const shown = D.DESTS.filter((d) => PLACES[d.id] && (!region || PLACES[d.id].region === region));
+    // 去过的省份点亮
+    const litProv = new Set(D.DESTS.filter((d) => got[d.id]).map((d) => M.where[d.id]));
+    const svg = `<svg viewBox="0 0 ${M.W} ${M.H}" aria-hidden="true">${M.prov.map((p) => `<path class="${litProv.has(p.n) ? "lit" : ""}" d="${p.d}"/>`).join("")}
+      <g class="inset"><rect x="${M.inset.x}" y="${M.inset.y}" width="${M.inset.w}" height="${M.inset.h}" rx="4"/><path d="${M.inset.land}"/><path class="jd" d="${M.inset.jd}"/><text x="${M.inset.x + M.inset.w - 6}" y="${M.inset.y + M.inset.h - 6}" text-anchor="end">南海诸岛</text></g></svg>`;
+    const pins = shown.map((d) => { const [x, y] = mapXY(PLACES[d.id]); return `<button class="pin ${got[d.id] ? "on" : ""} t${d.tier}" style="left:${x}%;top:${y}%" data-place="${d.id}" aria-label="${esc(d.place)}"><i></i>${got[d.id] ? `<span>${esc(d.place.split("·")[0])}</span>` : ""}</button>`; }).join("");
+    // 选了大区就把地图放大到那一片
+    let zoom = "";
+    if (region && shown.length) {
+      const xy = shown.map((d) => mapXY(PLACES[d.id])), xs = xy.map((p) => p[0]), ys = xy.map((p) => p[1]);
+      const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+      const k = Math.max(1, Math.min(3.2, 80 / Math.max(x1 - x0, 1), 80 / Math.max(y1 - y0, 1))), cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+      zoom = `--k:${k.toFixed(2)};transform:translate(${(50 - cx * k).toFixed(2)}%,${(50 - cy * k).toFixed(2)}%) scale(${k.toFixed(2)})`;
+    }
     const groups = REGIONS.filter((r) => !region || r === region).map((r) => {
       const ds = D.DESTS.filter((d) => PLACES[d.id]?.region === r); if (!ds.length) return "";
       const n = ds.filter((d) => got[d.id]).length;
@@ -689,7 +709,7 @@
         : `<button class="xb-cell locked" data-place="${d.id}"><span class="xb-tier t${d.tier}">${tiers[d.tier]}</span><div class="thumb"><span class="q">?</span></div><p>${esc(d.place.split("·")[0])}·？？<br><span class="xb-count">还没去过</span></p></button>`).join("")}</div>`;
     }).join("");
     sheet(`<h2>雪宝的足迹地图</h2><p class="sub">去过 ${nGot} / ${D.DESTS.length} 个地方 · 点亮的点都可以点开看</p>
-      <div class="xb-atlas"><div class="sea"></div>${labels}${pins}<span class="compass">N</span></div>
+      <div class="xb-atlas" style="aspect-ratio:${M.W} / ${M.H}"><div class="map${region ? " zoomed" : ""}" style="${zoom}">${svg}${pins}</div><span class="compass">N</span></div>
       <div class="xb-tabs xb-regions"><button data-r="" class="${region ? "" : "on"}">全部</button>${REGIONS.map((r) => `<button data-r="${r}" class="${r === region ? "on" : ""}">${r}</button>`).join("")}</div>
       ${groups}`, (el) => {
       el.querySelectorAll("[data-place]").forEach((b) => b.addEventListener("click", () => openPlace(b.dataset.place, () => openAtlas(region))));

@@ -13,7 +13,7 @@ const rootFiles = [
   'journal.css', 'journal.js', 'messages.html', 'milk-tea.css', 'milk-tea.html',
   'milk-tea.js', 'motion-system.css', 'motion-system.js', 'orbit-refresh.css',
   'star-post.html', 'star-post.js', 'star-post-letters.js',
-  'xuebao.html', 'xuebao.css', 'xuebao.js', 'xuebao-data.js', 'xuebao-art.js', 'xuebao-places.js', 'xuebao-hall.js', 'world-return.js',
+  'xuebao.html', 'xuebao.css', 'xuebao.js', 'xuebao-data.js', 'xuebao-art.js', 'xuebao-places.js', 'xuebao-china.js', 'xuebao-hall.js', 'world-return.js',
   'star-rail-comic.css', 'star-rail-comic.js', 'stories.css', 'stories.html',
   'stories.js', 'style.css', 'videos.html',
 ];

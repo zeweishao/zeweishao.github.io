@@ -10,6 +10,9 @@ const hall = createHall(host, {
 hall.char.setTexture("xuebao-assets/xb-a-idle.webp");
 
 const qs = new URLSearchParams(location.search);
+// ?props：把屋里的立体道具摆成一排看细节（只在实验页）
+if (qs.has("props")) ["mailbox", "globe", "piggy", "jar", "note", "radio", "cardbox"].forEach((id, i) => hall.addSprite(id, "", 0, [-0.96 + i * 0.32, 0, -1.55]));
+window.LabHall = hall;
 const state = { hour: 10, weather: "sunny", lamp: false, auto: true };
 if (qs.has("h")) { state.auto = false; state.hour = Number(qs.get("h")); }
 if (qs.has("w")) { state.auto = false; state.weather = qs.get("w"); if (state.weather === "night" && !qs.has("h")) state.hour = 22; }

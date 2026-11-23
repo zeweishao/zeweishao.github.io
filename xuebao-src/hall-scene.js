@@ -388,11 +388,15 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       return sprites[id];
     }
     const prop = props[id](), shadow = makePropShadow(at);
-    const ROT = { radio: -0.16, cardbox: 0.52, mailbox: -0.35 }, SH = { radio: [0.27, 0.14], cardbox: [0.22, 0.13], mailbox: [0.34, 0.24] };
+    // 立体道具：朝向、阴影大小、放大倍数（手机上好点、看得清）
+    const ROT = { radio: -0.16, cardbox: 0.52, mailbox: -0.35, piggy: 0.5, jar: 0.3, globe: 0.6, note: -0.25 };
+    const SH = { radio: [0.27, 0.14], cardbox: [0.22, 0.13], mailbox: [0.34, 0.24], piggy: [0.32, 0.26], jar: [0.17, 0.17], globe: [0.27, 0.27], note: [0.17, 0.11] };
+    const K = { radio: 1.2, cardbox: 1.2, mailbox: 1.18, piggy: 1.15, jar: 1.15, globe: 1.25, note: 1.2 }, k = K[id] || 1;
+    prop.scale.setScalar(k); SH[id] = SH[id].map((v) => v * k);
     prop.position.set(...at); prop.rotation.y = ROT[id] ?? 0;
     shadow.scale.set(SH[id][0], 1, SH[id][1]);
     shadow.rotation.y = prop.rotation.y;
-    prop.userData = { base: new THREE.Vector3(...at), lift: 0, liftV: 0, shadow };
+    prop.userData = { base: new THREE.Vector3(...at), lift: 0, liftV: 0, shadow, spin: prop.userData.spin };
     scene.add(prop);
     sprites[id] = prop;
     return prop;
@@ -856,7 +860,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     petalMat.opacity = cur.petals; petals.visible = cur.petals > 0.01;
     if (petals.visible) { for (let i = 0; i < PN; i++) { const [a, b, c] = pSeed[i]; const f = (t * (0.03 + a * 0.03) + b) % 1; pp[i * 3] = (c - 0.5) * 3.2 + Math.sin(t * 0.7 + a * 9) * 0.3; pp[i * 3 + 1] = 2.6 - f * 2.7 + Math.sin(t * 1.1 + b * 5) * 0.05; pp[i * 3 + 2] = -D - 2.2 + f * (2.4 + a * 1.4); } petalGeo.attributes.position.needsUpdate = true; }
     // 小道具：点一下弹一下
-    Object.values(sprites).forEach((s) => { const u = s.userData; u.liftV += ((0 - u.lift) * 220 - u.liftV * 14) * dt; u.lift += u.liftV * dt * 0.06; s.position.y = u.base.y + u.lift; if (s.isMesh) s.rotation.y = Math.atan2(camera.position.x - s.position.x, camera.position.z - s.position.z); s.userData.shadow.visible = s.visible; });
+    Object.values(sprites).forEach((s) => { const u = s.userData; u.liftV += ((0 - u.lift) * 220 - u.liftV * 14) * dt; u.lift += u.liftV * dt * 0.06; s.position.y = u.base.y + u.lift; if (u.spin) u.spin.rotation.y += dt * 0.25; if (s.isMesh) s.rotation.y = Math.atan2(camera.position.x - s.position.x, camera.position.z - s.position.z); s.userData.shadow.visible = s.visible; });
     stepChar(dt, t);
     stepCamera(dt);
     composer.render();

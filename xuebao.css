@@ -463,17 +463,21 @@ body.hall .xb-stage { border-radius: 0; box-shadow: none; margin: 0; }
 body.hall .xb-stage { touch-action: none; }
 
 /* ---------- 地点图鉴：足迹地图 ---------- */
-.xb-atlas { position: relative; aspect-ratio: 1.45; margin: 4px 0 12px; border-radius: 14px; overflow: hidden;
-  background: radial-gradient(ellipse at 62% 48%, #f8eedb 0 48%, #efe1c6 78%), #efe1c6; box-shadow: inset 0 0 0 1px rgba(150, 110, 70, .2), inset 0 0 40px rgba(170, 120, 70, .18); }
-.xb-atlas::before { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(0deg, transparent 0 calc(20% - 1px), rgba(160, 120, 80, .14) calc(20% - 1px) 20%), repeating-linear-gradient(90deg, transparent 0 calc(12.5% - 1px), rgba(160, 120, 80, .14) calc(12.5% - 1px) 12.5%); }
-.xb-atlas .sea { position: absolute; right: -8%; bottom: -10%; width: 34%; height: 62%; border-radius: 50%; background: radial-gradient(closest-side, rgba(150, 190, 210, .35), transparent); }
-.xb-atlas em { position: absolute; transform: translate(-50%, -50%); font: 400 18px/1 var(--hand); color: rgba(150, 110, 75, .42); font-style: normal; pointer-events: none; }
-.xb-atlas .compass { position: absolute; left: 10px; bottom: 8px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 700 11px/1 serif; color: #a5734c; border: 1px solid rgba(165, 115, 76, .5); }
-.xb-atlas .pin { position: absolute; transform: translate(-50%, -50%); width: 26px; height: 26px; display: grid; place-items: center; padding: 0; }
-.xb-atlas .pin i { width: 8px; height: 8px; border-radius: 50%; background: rgba(120, 100, 90, .35); box-shadow: 0 0 0 2px rgba(255, 255, 255, .6); }
+.xb-atlas { position: relative; margin: 4px 0 12px; border-radius: 14px; overflow: hidden; background: linear-gradient(170deg, #eaf3f6, #f6efe2); box-shadow: inset 0 0 0 1px rgba(165, 115, 76, .22); }
+.xb-atlas .map { position: absolute; inset: 0; transform-origin: 0 0; --k: 1; transition: transform .45s cubic-bezier(.3, .8, .3, 1); }
+.xb-atlas svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.xb-atlas svg path { fill: #fbf3e4; stroke: #c9a882; stroke-width: calc(1.1px / var(--k)); stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.xb-atlas svg path.lit { fill: #ffd9df; stroke: #d98c9c; }
+.xb-atlas .inset rect { fill: rgba(234, 243, 246, .9); stroke: #c9a882; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.xb-atlas .inset path.jd { fill: none; stroke: #b98d6a; stroke-width: 1; stroke-dasharray: 3 2; }
+.xb-atlas .inset text { font: 11px "PingFang SC", sans-serif; fill: #a5734c; }
+.xb-atlas .compass { position: absolute; left: 10px; top: 8px; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 700 11px/1 serif; color: #a5734c; border: 1px solid rgba(165, 115, 76, .5); background: rgba(255, 250, 242, .7); }
+.xb-atlas .pin { position: absolute; transform: translate(-50%, -50%) scale(calc(1 / var(--k))); width: 28px; height: 28px; display: grid; place-items: center; padding: 0; }
+.xb-atlas .pin i { width: 7px; height: 7px; border-radius: 50%; background: rgba(140, 110, 95, .45); box-shadow: 0 0 0 1.5px rgba(255, 255, 255, .8); }
+.xb-atlas .pin.on { z-index: 1; }
 .xb-atlas .pin.on i { width: 12px; height: 12px; background: var(--coral); box-shadow: 0 0 0 2px #fff, 0 2px 6px rgba(160, 60, 50, .45); animation: pinPulse 2.4s ease-in-out infinite; }
 .xb-atlas .pin.on.t2 i { background: #6f8fe0; } .xb-atlas .pin.on.t3 i { background: #b07ae0; }
-.xb-atlas .pin span { position: absolute; left: 50%; top: 100%; transform: translateX(-50%); white-space: nowrap; font-size: 10px; color: var(--ink); background: rgba(255, 250, 240, .9); padding: 1px 5px; border-radius: 6px; pointer-events: none; }
+.xb-atlas .pin span { position: absolute; left: 50%; top: 82%; transform: translateX(-50%); white-space: nowrap; font-size: 10px; color: var(--ink); background: rgba(255, 250, 240, .92); padding: 1px 5px; border-radius: 6px; pointer-events: none; box-shadow: 0 1px 3px rgba(80, 50, 30, .15); }
 .xb-atlas .pin:hover i { transform: scale(1.3); }
 @keyframes pinPulse { 50% { box-shadow: 0 0 0 2px #fff, 0 0 0 7px rgba(232, 112, 96, .18); } }
 .xb-regions { flex-wrap: wrap; }
@@ -679,3 +683,4 @@ body.hall .xb-stage, body.hall .xb-ctl, body.hall .xb-joy, body.hall .xb-gift, b
 
 /* 手机竖屏：摇杆和右侧按钮再抬高一点，给底部“打开背包”按钮留位置 */
 @media (max-width: 600px) { .xb-joy { bottom: calc(92px + env(safe-area-inset-bottom)); } .xb-ctl { bottom: calc(90px + env(safe-area-inset-bottom)); } }
+.xb-atlas .map.zoomed .inset { display: none; }
