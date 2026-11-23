@@ -108,20 +108,27 @@ const rollWeek = (s, now) => {
   if (!curWeek(s, now)) s.week = { start: now, paid: 0 };
 };
 
-const SPECIAL = [5.2, 13.14, 20, 52, 66, 88, 99];
+// 每次带回的钱都是有意义的数字（520 是内置的每周上限，界面上不显示）
+const LUCKY = [5.2, 6.6, 8.8, 9.9, 13.14, 16.8, 18.8, 20, 25.2, 33.3, 52, 52.1, 66, 66.6, 77.7, 88, 88.8, 99, 99.9, 100, 128, 131.4, 166, 168, 188, 199, 233, 250, 288];
+const luckyNear = (amt, remaining) => {
+  const ok = LUCKY.filter((v) => v <= remaining + 1e-9);
+  if (!ok.length) return 0;
+  // 在目标附近挑几个，随机取一个，避免每次都一样
+  const near = ok.filter((v) => v >= amt * 0.6 && v <= amt * 1.6);
+  if (near.length) return pick(near);
+  return ok.reduce((b, v) => (Math.abs(v - amt) < Math.abs(b - amt) ? v : b), ok[0]);
+};
 const moneyFor = (s, now, giftsLeftInClaim) => {
   rollWeek(s, now);
   const remaining = round2(CAP - s.week.paid);
-  if (remaining <= 0) return 0;
+  if (remaining < LUCKY[0]) return 0;
   const hoursLeft = (s.week.start + WEEK - now) / HOUR;
-  if (hoursLeft < 10 && giftsLeftInClaim <= 1) return remaining; // 本周最后一次：凑满 520
+  // 本周最后一次：挑不超过剩余额度的最大吉利数，尽量凑满
+  if (hoursLeft < 10 && giftsLeftInClaim <= 1) return Math.max(...LUCKY.filter((v) => v <= remaining));
   const expected = giftsLeftInClaim + Math.floor(hoursLeft / DATA.TRIP_HOURS) * 0.6;
   let amt = (remaining / Math.max(1, expected)) * rand(0.7, 1.35);
   if (hoursLeft < 30) amt = Math.max(amt, remaining * 0.45);
-  const near = SPECIAL.filter((v) => v <= remaining && v >= amt * 0.6 && v <= amt * 1.6);
-  amt = near.length && Math.random() < 0.35 ? pick(near) : Math.max(1, Math.round(amt));
-  if (remaining - amt < 3) amt = remaining; // 不留零头
-  return round2(Math.min(amt, remaining));
+  return luckyNear(amt, remaining);
 };
 
 const fragFor = (s, now) => {
@@ -172,7 +179,6 @@ const makeGift = (s, now, first, giftsLeft) => {
     s.wallet.balance = round2(s.wallet.balance + money);
     s.wallet.earned = round2(s.wallet.earned + money);
     s.wallet.ledger.unshift({ at: now, delta: money, note: `雪宝从${dest.place}带回`, kind: "trip" });
-    if (s.week.paid >= CAP) gift.full520 = true;
   }
   if (frag > 0) {
     s.frag.given += frag; s.frag.total += frag;
@@ -201,8 +207,7 @@ const view = (s, now, extra = {}) => {
   const leaveAt = phase === "home" ? s.lastClaimAt + REST : null;
   return {
     now, phase, ready, max: MAX, nextAt, leaveAt, tripHours: DATA.TRIP_HOURS, started: on, startedAt: on ? s.startedAt : null,
-    // weekEndsAt 为 null：这一周已满 7 天，下一次领礼物时开始新的一周
-    wallet: { balance: s.wallet.balance, earned: s.wallet.earned, weekPaid: wk ? wk.paid : 0, weekCap: CAP, weekEndsAt: wk ? wk.start + WEEK : null, ledger: s.wallet.ledger.slice(0, 40) },
+    wallet: { balance: s.wallet.balance, earned: s.wallet.earned,  ledger: s.wallet.ledger.slice(0, 40) },
     teaDueAt: on && s.lastTeaAt ? s.lastTeaAt + WEEK : null,
     frag: { given: s.frag.given, target: TARGET, pendingSkins: s.frag.pendingSkins, redeemed: s.frag.redeemed, total: s.frag.total },
     coupons: s.coupons.slice(0, 40),

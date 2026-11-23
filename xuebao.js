@@ -22,7 +22,6 @@
   const hm = (t) => new Date(t).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", hour12: false });
   const whenAt = (t) => { const d = new Date(t); return `${d.getMonth() + 1}月${d.getDate()}日 周${"日一二三四五六"[d.getDay()]} ${hm(t)}`; };
   // “一周”按满 7 天算：显示这一周到哪天几点结束
-  const weekLine = (w) => !S.started ? "第一次领礼物后开始计时" : w.weekEndsAt ? `这一周到 ${whenAt(w.weekEndsAt)}` : "下次领礼物时开始新的一周";
   const teaLine = () => !S.started ? "第一次领礼物后满一周，带回第一张" : S.teaDueAt ? (S.teaDueAt <= now() ? "这周的奶茶券已经满一周，下一份礼物里就有" : `每满一周一张，${whenAt(S.teaDueAt)} 之后的那份礼物里`) : "每满一周带回一张";
   const md = (t) => { const d = new Date(t); return `${d.getMonth() + 1}月${d.getDate()}日`; };
   const dur = (ms) => {
@@ -567,8 +566,6 @@
     const w = S.wallet, unused = S.coupons.filter((c) => !c.used), used = S.coupons.filter((c) => c.used);
     sheet(`<h2>雪宝的存钱罐</h2><p class="sub">雪宝每次旅行都会带一点钱回来，攒着找泽兑换。</p>
       <div class="xb-big"><img src="${A}prop-piggy.webp?v=2" alt=""><div><small>现在存着</small><b>${money(w.balance)}</b><small>一共带回 ${money(w.earned || 0)}</small></div></div>
-      <div class="xb-meta"><span>本周带回 ${money(w.weekPaid)} / ${money(w.weekCap)}</span><span>${weekLine(w)}</span></div>
-      ${bar(w.weekPaid, w.weekCap)}
       <div class="xb-sec"><h3>奶茶券 · ${unused.length} 张能用</h3><p class="sub" style="margin:0 0 8px">${teaLine()}</p>
         ${S.coupons.length ? `<div class="xb-coupons">${[...unused, ...used].slice(0, 12).map((c) => `<div class="xb-coupon ${c.used ? "used" : ""}"><img src="${A}ic-tea.webp" alt="">${esc(c.title)}<br><small>${md(c.at)}</small></div>`).join("")}</div>` : `<p class="sub">还没有。</p>`}
       </div>
@@ -601,8 +598,6 @@
         ${S.nextAt ? `<li><span>下一份礼物</span><span>纽约 ${ny(S.nextAt)} · 杭州 ${hz(S.nextAt)}</span></li>` : `<li><span>下一份礼物</span><span>先把门口的领了，雪宝才会再出门</span></li>`}
         <li><span>每趟旅行</span><span>${S.tripHours} 小时</span></li>
         <li><span>门口最多攒</span><span>${S.max} 份（睡多久都不会丢）</span></li>
-        <li><span>本周的钱</span><span>${money(S.wallet.weekPaid)} / ${money(S.wallet.weekCap)}</span></li>
-        <li><span>每周</span><span>${weekLine(S.wallet)}</span></li>
         <li><span>奶茶券</span><span>${teaLine()}</span></li>
         <li><span>去过的地方</span><span>${Object.keys(S.collection).length} / ${D.DESTS.length}</span></li>
         <li><span>遇见的旅伴</span><span>${Object.keys(S.meets).length} / ${D.CHARS.length}</span></li>
@@ -861,9 +856,9 @@
   }
   function summary(gifts) {
     const total = gifts.reduce((a, g) => a + g.money, 0), frag = gifts.reduce((a, g) => a + g.frag, 0);
-    const full = gifts.some((g) => g.full520), skin = gifts.some((g) => g.skinDone), tea = gifts.filter((g) => g.coupon).length;
+    skin = gifts.some((g) => g.skinDone), tea = gifts.filter((g) => g.coupon).length;
     layer.innerHTML = `<div class="xb-rays"></div>
-      ${full ? `<div class="xb-520"><img src="${A}ic-heart.webp" alt=""><b>520</b></div><h2>这周的 520 全部带回来啦！</h2>` : `<h2>都收好啦</h2>`}
+      <h2>都收好啦</h2>
       <div class="xb-summary">
         <h3>这次带回</h3>
         <ul class="xb-list">
@@ -872,13 +867,13 @@
           ${tea ? `<li><span>奶茶券</span><span class="plus">+${tea}</span></li>` : ""}
           <li><span>明信片</span><span>${gifts.length} 张</span></li>
         </ul>
-        <div class="xb-meta" style="margin-top:10px"><span>本周 ${money(S.wallet.weekPaid)} / ${money(S.wallet.weekCap)}</span><span>存钱罐 ${money(S.wallet.balance)}</span></div>${bar(S.wallet.weekPaid, S.wallet.weekCap)}
+        <div class="xb-meta" style="margin-top:10px"><span>存钱罐里现在有</span><span>${money(S.wallet.balance)}</span></div>
         <div class="xb-meta" style="margin-top:8px"><span>碎片 ${S.frag.given} / ${S.frag.target}</span><span>${skin ? "集齐一个皮肤！" : `还差 ${S.frag.target - S.frag.given} 个`}</span></div>${bar(S.frag.given, S.frag.target, "shard")}
         ${skin ? `<p class="xb-reward special" style="margin-top:10px">集齐 99 个碎片！可以找泽兑换皮肤啦</p>` : ""}
       </div>
       <div class="xb-open-actions"><button class="xb-btn" id="done">回到小屋</button></div>`;
     growBars(layer);
-    if (full || skin) { Sound.fanfare(); confetti(full ? 90 : 60); } else Sound.sparkle();
+    if (skin) { Sound.fanfare(); confetti(60); } else Sound.sparkle();
     layer.querySelector("#done").addEventListener("click", () => {
       closeLayer(); Sound.boop();
       stage.dataset.phase = "home"; pos = store.get("spot", SPOT.rug); setPose("jump"); placeMe(false); centerOn(pos.x, true);
