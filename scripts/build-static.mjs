@@ -29,7 +29,7 @@ const directories = {
   vendor: new Set(['.js']),
   'story-data': new Set(['.json']),
   'xuebao-assets': new Set(imageTypes),
-  'xuebao-3d': new Set(['.glb', '.gltf', '.bin', '.jpg', '.png', '.hdr', '.json']),
+  'xuebao-3d': new Set(['.glb', '.gltf', '.bin', '.jpg', '.png', '.hdr', '.json', '.mp3']),
   'xuebao-media': new Set(['.mp4', '.m4a']),
 };
 // Vercel redirects preserve these public paths while R2 serves the large media.

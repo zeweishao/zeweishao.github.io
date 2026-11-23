@@ -5,6 +5,7 @@
  * 天气读 stage.dataset.weather，开灯读 .lamp-on，时间按纽约。WebGL 不可用时什么都不做，页面保持平面版。
  */
 import { createHall } from "./hall-scene.js";
+import { openGiftBox, preloadGiftBox } from "./gift-open.js";
 
 const stage = document.getElementById("stage");
 const me = document.getElementById("xuebao"), meImg = document.getElementById("xbImg");
@@ -23,6 +24,8 @@ function start() {
   const canvas = hall.renderer.domElement; canvas.className = "xb-canvas hall-canvas"; canvas.setAttribute("aria-hidden", "true");
   let live = false;
   window.XBHall = { view, char, hall }; // 调试用：控制台里能直接转镜头、看场景
+  // 拆礼物演出（移植的盲盒）：拆的时候小屋暂停渲染，手机不发烫
+  window.XBGiftBox = { open: openGiftBox, preload: preloadGiftBox, busy: false };
   function ready() {
     if (live) return; live = true;
     setProg(1); clearInterval(tipTimer);
@@ -334,7 +337,7 @@ function start() {
   let last = performance.now(), cardT = 0;
   function frame(now) {
     requestAnimationFrame(frame);
-    if (document.hidden) { last = now; return; }
+    if (document.hidden || window.XBGiftBox?.busy) { last = now; return; }
     const dt = Math.min(0.05, (now - last) / 1000); last = now; const t = now / 1000;
     SR = stage.getBoundingClientRect();
     const weather = stage.dataset.weather || "sunny";

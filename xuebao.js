@@ -434,6 +434,7 @@
     // 左上角礼物入口（不显示数字角标，发光跳动就表示有礼物）
     { const g = $("giftBtn"), has = (ph === "back" || ph === "waiting") && S.ready > 0;
       g.classList.toggle("has", has);
+      if (has && window.XBGiftBox && !render.pre) { render.pre = true; setTimeout(() => (window.requestIdleCallback || setTimeout)(() => window.XBGiftBox.preload()), 1500); } // 有礼物时提前把盲盒加载好
       $("giftTxt").textContent = has ? "领礼物" : S.offline ? "礼物" : S.nextAt ? `${hm(S.nextAt)} 到` : "礼物";
       g.setAttribute("aria-label", has ? `领取 ${S.ready} 份礼物` : "礼物还在路上"); }
     // 顶部数字
@@ -485,8 +486,24 @@
   function askWho(then) {
     sheet(`<h2>你是谁呀？</h2><p class="sub">雪宝带回的礼物只给雪雪拆，选一次就会记住。</p>
       <div class="xb-row"><button class="xb-btn" data-w="雪">我是雪雪</button><button class="xb-btn ghost" data-w="泽">我是泽（只看看）</button></div>`, (el) => {
-      el.querySelectorAll("[data-w]").forEach((b) => b.addEventListener("click", () => { store.set("who", b.dataset.w); closeSheet(); render(); then?.(); }));
+      el.querySelectorAll("[data-w]").forEach((b) => b.addEventListener("click", () => {
+        store.set("who", b.dataset.w); closeSheet(); render();
+        if (then) then(); else if (b.dataset.w === "雪") setTimeout(welcome, 450);
+      }));
     });
+  }
+  // 雪雪第一次进来：还没开始旅行时，先送上见面礼
+  function welcome() {
+    if (!S || S.offline || S.started || who() !== "雪" || !(S.phase === "back" || S.phase === "waiting") || !S.ready) return;
+    welcome.shown = true;
+    sheet(`<div class="xb-welcome"><img class="wg" src="${A}ic-gift.webp" alt="">
+      <h2>欢迎雪雪来到小屋！</h2>
+      <p class="sub">雪宝早就在门口等你了，还偷偷准备了一份见面礼。拆开它，雪宝就会出发去旅行，以后每次回来都会给你带礼物。</p>
+      <div class="xb-row"><button class="xb-btn" id="wgOpen">拆开见面礼</button><button class="xb-btn ghost" id="wgLater">等会儿再拆</button></div></div>`, (el) => {
+      el.querySelector("#wgOpen").addEventListener("click", () => { closeSheet(); openPack(); });
+      el.querySelector("#wgLater").addEventListener("click", () => { closeSheet(); say("见面礼就放在左上角，想拆的时候点一下就好。", me, 3200); });
+    });
+    Sound.boop?.();
   }
 
   // ---------- 面板 ----------
@@ -809,6 +826,17 @@
     if (!w) { askWho(openPack); return; }
     if (w === "泽") { say("这是给雪雪的礼物，要等她来拆哦。", me, 2800); return; }
     opening = true;
+    // 3D 小屋里：用拆盲盒的演出（按住封条往右撕）
+    if (window.XBGiftBox && document.body.classList.contains("hall")) {
+      const GB = window.XBGiftBox; GB.busy = true; window.XBMuted = () => Sound.muted;
+      GB.open({
+        layer, claim: () => api({ action: "claim" }),
+        tierOf: (r) => Math.max(...(r.gifts || []).map((g) => DEST[g.dest]?.tier || 1)),
+        onDone: (r) => { GB.busy = false; S = r; layer.className = "xb-open"; layer.innerHTML = ""; showGift(r.gifts, 0); },
+        onError: (e) => { GB.busy = false; layer.className = "xb-open"; layer.innerHTML = ""; layer.hidden = true; opening = false; S = e.data?.phase ? e.data : S; render(); say(e.message || "礼物没拆开，过一会儿再试试。"); }
+      });
+      return;
+    }
     layer.hidden = false;
     layer.innerHTML = `<div class="xb-rays"></div><div class="xb-openpack" id="op"><img src="${A}ic-gift.webp" alt="礼物"></div>
       <h2>雪宝带回了 ${S.ready} 份礼物</h2><p class="tip">点一下礼物，拆开看看</p>`;
@@ -905,6 +933,7 @@
       setTimeout(() => { if (stage.classList.contains("hall") || document.querySelector(".hall-canvas")) return; store.set("swipeHint", true); say("← 左右滑一滑，小屋里还有好多东西可以点 →", me, 4200); }, 600);
     }
     if (!S.offline && !who()) setTimeout(() => askWho(), 900);
+    else if (!S.offline && !S.started && who() === "雪") setTimeout(welcome, 900);
     else if (S.phase === "back" || S.phase === "waiting") setTimeout(() => say(pick(D.LINES.back), me, 3200), 900);
   });
   loadLetters();

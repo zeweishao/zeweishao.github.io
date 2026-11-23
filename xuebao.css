@@ -684,3 +684,26 @@ body.hall .xb-stage, body.hall .xb-ctl, body.hall .xb-joy, body.hall .xb-gift, b
 /* 手机竖屏：摇杆和右侧按钮再抬高一点，给底部“打开背包”按钮留位置 */
 @media (max-width: 600px) { .xb-joy { bottom: calc(92px + env(safe-area-inset-bottom)); } .xb-ctl { bottom: calc(90px + env(safe-area-inset-bottom)); } }
 .xb-atlas .map.zoomed .inset { display: none; }
+
+/* 拆礼物演出（移植的盲盒）：全屏舞台，按住封条往右撕 */
+.xb-open.gb-on { display: block; padding: 0; background: #3a2440; overflow: hidden; animation: fadeIn .35s; }
+.gb-stage, .gb-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+.gb-flash { position: absolute; inset: 0; opacity: 0; pointer-events: none; mix-blend-mode: screen; }
+.gb-peel { position: absolute; z-index: 3; touch-action: none; -webkit-user-select: none; user-select: none; cursor: grab; }
+.gb-peel.on { cursor: grabbing; }
+.gb-peel[hidden] { display: none; }
+.gb-hint { position: absolute; z-index: 4; width: 34px; height: 34px; margin: -17px 0 0 -40px; pointer-events: none; font-style: normal;
+  background: radial-gradient(circle, rgba(255, 255, 255, .95) 0 30%, rgba(255, 255, 255, .35) 31% 55%, transparent 56%); border-radius: 50%; animation: gbHint 1.6s ease-in-out infinite; }
+.gb-hint[hidden] { display: none; }
+@keyframes gbHint { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 75% { transform: translateX(80px); opacity: 1; } 100% { transform: translateX(90px); opacity: 0; } }
+.gb-cap { position: absolute; z-index: 2; left: 0; right: 0; bottom: calc(52px + env(safe-area-inset-bottom)); text-align: center; color: #fff; pointer-events: none; padding: 0 20px; }
+.gb-cap small { display: block; font: 700 11px/1 "PingFang SC", sans-serif; letter-spacing: .22em; color: rgba(255, 226, 214, .8); margin-bottom: 8px; }
+.gb-cap p { margin: 0; font: 400 24px/1.3 var(--hand); text-shadow: 0 2px 10px rgba(60, 20, 40, .6); }
+.gb-skip { position: absolute; z-index: 5; top: calc(14px + env(safe-area-inset-top)); right: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .5); background: rgba(40, 20, 35, .35); color: #fff; font: 600 12px/1 "PingFang SC", sans-serif; }
+.gb-skip[hidden] { display: none; }
+/* 雪雪第一次进来的见面礼卡片 */
+.xb-welcome { text-align: center; }
+.xb-welcome .wg { width: 96px; height: 96px; display: block; margin: 4px auto 6px; animation: wgBob 1.6s ease-in-out infinite; filter: drop-shadow(0 6px 14px rgba(255, 140, 120, .45)); }
+.xb-welcome .xb-row { justify-content: center; }
+@keyframes wgBob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-8px) rotate(4deg); } }
+@media (prefers-reduced-motion: reduce) { .xb-welcome .wg { animation: none; } }
