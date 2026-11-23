@@ -856,7 +856,7 @@
   }
   function summary(gifts) {
     const total = gifts.reduce((a, g) => a + g.money, 0), frag = gifts.reduce((a, g) => a + g.frag, 0);
-    skin = gifts.some((g) => g.skinDone), tea = gifts.filter((g) => g.coupon).length;
+    const skin = gifts.some((g) => g.skinDone), tea = gifts.filter((g) => g.coupon).length;
     layer.innerHTML = `<div class="xb-rays"></div>
       <h2>都收好啦</h2>
       <div class="xb-summary">
