@@ -38,6 +38,8 @@ const sendJson = (res, status, payload) => {
   res.setHeader("Content-Type", "application/json; charset=utf-8");
   res.status(status).json(payload);
 };
+// 旧版许愿记录只有 gift（每次必出礼物）：补成“中吉 + 一张愿望签”
+const wishOut = (w) => ({ card: w.card || "peace", luck: w.luck || "chukichi", gift: w.gift || null, at: w.at });
 const readJsonBody = (req) => {
   if (req.body && typeof req.body === "object") return req.body;
   if (typeof req.body === "string") return JSON.parse(req.body || "{}");
@@ -59,28 +61,50 @@ const curWeek = (s, now) => (s.week && s.week.start && now < s.week.start + WEEK
 const fileStore = (file) => {
   const fsp = require("fs/promises");
   return {
-    async load() { try { return JSON.parse(await fsp.readFile(file, "utf8")); } catch { return null; } },
-    async save(s) { await fsp.writeFile(file, JSON.stringify(s, null, 2)); }
+    async load() {
+      try { return JSON.parse(await fsp.readFile(file, "utf8")); }
+      catch (e) { if (e.code === "ENOENT") return null; throw e; }
+    },
+    async save(s) {
+      const tmp = `${file}.${require("node:crypto").randomUUID()}.tmp`;
+      try {
+        await fsp.writeFile(tmp, JSON.stringify(s, null, 2));
+        await fsp.rename(tmp, file);
+      } finally { await fsp.rm(tmp, { force: true }); }
+    }
   };
 };
-const blobStore = () => ({
-  async load() {
-    const { list } = await import("@vercel/blob");
-    const { blobs } = await list({ prefix: PATHNAME, limit: 5 });
-    const b = blobs.find((x) => x.pathname === PATHNAME);
-    if (!b) return null;
-    const r = await fetch(`${b.url}?v=${Date.now()}`, { cache: "no-store" });
-    return r.ok ? r.json() : null;
-  },
-  async save(s) {
-    const { put } = await import("@vercel/blob");
-    await put(PATHNAME, JSON.stringify(s), {
-      access: "public", addRandomSuffix: false, allowOverwrite: true,
-      contentType: "application/json; charset=utf-8", cacheControlMaxAge: 60
-    });
-  }
-});
+const blobStore = () => {
+  let etag;
+  return {
+    async load() {
+      const { get } = await import("@vercel/blob");
+      const found = await get(PATHNAME, { access: "public", useCache: false });
+      if (!found) return null;
+      if (!found.stream || !found.blob.etag) throw new Error("Missing Blob state or ETag");
+      etag = found.blob.etag;
+      return new Response(found.stream).json();
+    },
+    async save(s) {
+      const { put, BlobPreconditionFailedError } = await import("@vercel/blob");
+      try {
+        await put(PATHNAME, JSON.stringify(s), {
+          access: "public", addRandomSuffix: false, allowOverwrite: Boolean(etag),
+          ...(etag ? { ifMatch: etag } : {}),
+          contentType: "application/json; charset=utf-8", cacheControlMaxAge: 60
+        });
+      } catch (e) {
+        if (e instanceof BlobPreconditionFailedError || (!etag && /already exists/i.test(e.message))) {
+          throw new StateConflict();
+        }
+        throw e;
+      }
+    }
+  };
+};
+class StateConflict extends Error {}
 const getStore = () => (process.env.XUEBAO_FILE ? fileStore(process.env.XUEBAO_FILE) : blobStore());
+let fileQueue = Promise.resolve();
 
 const freshState = (now) => ({
   v: 2,
@@ -96,7 +120,8 @@ const freshState = (now) => ({
   collection: {},
   meets: {},
   history: [],
-  queue: []
+  queue: [],
+  wishes: []
 });
 
 // ---------- 计算 ----------
@@ -156,11 +181,16 @@ const destFor = (s, first) => {
   return pick(ok.length ? ok : pool);
 };
 
+let meetsSeen = new Set();
 const meetFor = (dest) => {
   const pref = dest.meet && DATA.CHARS.find((c) => c.id === dest.meet);
   if (pref && Math.random() < 0.45) return pref;
-  if (Math.random() < 0.14) return pick(DATA.CHARS);
-  return null;
+  // 旅伴一共 170 多位：每份礼物 25% 的机会遇到一位；鸣潮和手办团六四开，还没遇见过的优先
+  if (Math.random() >= 0.25) return null;
+  const from = Math.random() < 0.6 ? "ww" : "fig";
+  const pool = DATA.CHARS.filter((c) => (c.from || "ww") === from);
+  const fresh = pool.filter((c) => !meetsSeen.has(c.id));
+  return pick(fresh.length && Math.random() < 0.7 ? fresh : pool);
 };
 
 const makeGift = (s, now, first, giftsLeft) => {
@@ -213,91 +243,142 @@ const view = (s, now, extra = {}) => {
     coupons: s.coupons.slice(0, 40),
     collection: s.collection, meets: s.meets,
     history: s.history.slice(0, 60),
+    wishes: (s.wishes || []).map(wishOut),
     queued: s.queue.length,
     adminEnabled: Boolean(process.env.XUEBAO_PASSWORD),
     ...extra
   };
 };
 
-module.exports = async function xuebao(req, res) {
-  try {
-    const store = getStore();
-    const now = Date.now();
-    let s = await store.load();
-    let dirty = false;
-    if (!s) { s = freshState(now); dirty = true; }
+async function handle(req, res) {
+  const store = getStore();
+  const now = Date.now();
+  let s = await store.load();
+  let dirty = false;
+  if (!s) { s = freshState(now); dirty = true; }
 
-    if (req.method === "GET") {
-      if (dirty) await store.save(s);
-      sendJson(res, 200, view(s, now));
-      return;
+  if (req.method === "GET") {
+    if (dirty) await store.save(s);
+    sendJson(res, 200, view(s, now));
+    return;
+  }
+  if (req.method !== "POST") { res.setHeader("Allow", "GET, POST"); sendJson(res, 405, { error: "Method not allowed" }); return; }
+
+  const body = readJsonBody(req);
+
+  if (body.action === "wish") {
+    // 许愿要花雪雪存钱罐里的钱，所以只有雪雪能投硬币；泽泽可以看许愿树
+    if (body.role !== "雪") { sendJson(res, 403, { error: "许愿要用雪雪存钱罐里的钱，让雪雪来投硬币吧。" }); return; }
+    if (typeof body.requestId !== "string" || !/^[a-z\d-]{16,64}$/i.test(body.requestId)) {
+      sendJson(res, 400, { error: "许愿请求无效。" }); return;
     }
-    if (req.method !== "POST") { res.setHeader("Allow", "GET, POST"); sendJson(res, 405, { error: "Method not allowed" }); return; }
-
-    const body = readJsonBody(req);
-
-    if (body.action === "claim") {
-      const n = readyCount(s, now);
-      if (!n) { sendJson(res, 409, { error: "雪宝还在路上呢。", ...view(s, now) }); return; }
-      const first = !s.history.length;
-      // 第一次进门领礼物：从这一刻开始计时（旅行、每周的钱、奶茶券都从这里算起）
-      if (!started(s)) { s.startedAt = now; s.anchor = now - TRIP; s.lastTeaAt = now; s.week = null; s.v = 2; }
-      const gifts = [];
-      for (let i = 0; i < n; i++) gifts.push(makeGift(s, now, first && i === 0, n - i));
-      s.history = [...gifts.slice().reverse(), ...s.history].slice(0, 300);
-      s.anchor = n >= MAX ? now : s.anchor + n * TRIP;
-      s.lastClaimAt = now;
-      s.wallet.ledger = s.wallet.ledger.slice(0, 300);
-      await store.save(s);
-      sendJson(res, 200, view(s, now, { gifts }));
-      return;
+    s.wishes ||= [];
+    const previous = s.wishes.find((w) => w.requestId === body.requestId);
+    if (previous) { sendJson(res, 200, view(s, now, { wish: wishOut(previous) })); return; }
+    if (s.wallet.balance < DATA.WISH_COST - 0.001) {
+      sendJson(res, 409, { ...view(s, now), error: `存钱罐里还差一点点，要 ¥${DATA.WISH_COST} 才能许愿。` }); return;
     }
+    // 先抽签运，再抽愿望；按签运决定这一签带不带礼物（礼物不重复，抽完就只给签）
+    let r = Math.random(), luck = DATA.WISH_LUCK[DATA.WISH_LUCK.length - 1];
+    for (const L of DATA.WISH_LUCK) { if (r < L.p) { luck = L; break; } r -= L.p; }
+    const recent = new Set(s.wishes.slice(0, 6).map((w) => w.card));
+    const cards = DATA.WISH_CARDS.filter((c) => !recent.has(c.id));
+    const card = pick(cards.length ? cards : DATA.WISH_CARDS).id;
+    const owned = new Set(s.wishes.map((w) => w.gift).filter(Boolean));
+    const pool = DATA.WISH_GIFTS.filter((g) => !owned.has(g.id));
+    const gift = pool.length && Math.random() < luck.gift ? pick(pool).id : null;
+    const entry = { card, luck: luck.id, gift, at: now, requestId: body.requestId };
+    s.wishes.unshift(entry); s.wishes = s.wishes.slice(0, 200);
+    s.wallet.balance = round2(s.wallet.balance - DATA.WISH_COST);
+    s.wallet.ledger.unshift({ at: now, delta: -DATA.WISH_COST, note: `许愿池 · ${luck.name}`, kind: "wish" });
+    s.wallet.ledger = s.wallet.ledger.slice(0, 300);
+    await store.save(s);
+    sendJson(res, 200, view(s, now, { wish: wishOut(entry) }));
+    return;
+  }
 
-    if (body.action === "admin") {
-      const password = String(process.env.XUEBAO_PASSWORD || "");
-      if (!password) { sendJson(res, 403, { error: "记账功能还没有开启。" }); return; }
-      if (String(body.password || "") !== password) { sendJson(res, 401, { error: "口令不对。" }); return; }
-      const note = String(body.note || "").trim().slice(0, 40);
-      switch (body.op) {
-        case "check": break;
-        case "deduct": {
-          const amount = round2(Number(body.amount));
-          if (!(amount > 0) || amount > s.wallet.balance + 0.001) { sendJson(res, 400, { error: `金额不对，余额是 ${s.wallet.balance}。` }); return; }
-          s.wallet.balance = round2(s.wallet.balance - amount);
-          s.wallet.ledger.unshift({ at: now, delta: -amount, note: note || "兑换", kind: "deduct" });
-          break;
-        }
-        case "useCoupon": {
-          const c = s.coupons.find((x) => x.id === body.id && !x.used);
-          if (!c) { sendJson(res, 404, { error: "这张券不存在或已经用过了。" }); return; }
-          Object.assign(c, { used: true, usedAt: now, note: note || "已兑现" });
-          break;
-        }
-        case "redeemSkin": {
-          if (s.frag.pendingSkins < 1) { sendJson(res, 400, { error: "还没有集齐的皮肤。" }); return; }
-          s.frag.pendingSkins -= 1; s.frag.redeemed += 1;
-          s.wallet.ledger.unshift({ at: now, delta: 0, note: `皮肤已兑现${note ? "：" + note : ""}`, kind: "skin" });
-          break;
-        }
-        case "queue": {
-          const title = String(body.title || "").trim().slice(0, 30);
-          const text = String(body.text || "").trim().slice(0, 600);
-          if (!title || !text) { sendJson(res, 400, { error: "标题和内容都要写。" }); return; }
-          s.queue.push({ id: uid(), title, text, at: now });
-          break;
-        }
-        case "unqueue": s.queue = s.queue.filter((q) => q.id !== body.id); break;
-        default: sendJson(res, 400, { error: "未知操作。" }); return;
+  if (body.action === "claim") {
+    if (body.role !== "雪") { sendJson(res, 403, { error: "这份礼物留给雪雪拆。" }); return; }
+    const n = readyCount(s, now);
+    if (!n) { sendJson(res, 409, { error: "雪宝还在路上呢。", ...view(s, now) }); return; }
+    const first = !s.history.length;
+    // 第一次进门领礼物：从这一刻开始计时（旅行、每周的钱、奶茶券都从这里算起）
+    if (!started(s)) { s.startedAt = now; s.anchor = now - TRIP; s.lastTeaAt = now; s.week = null; s.v = 2; }
+    const gifts = [];
+    meetsSeen = new Set(Object.keys(s.meets || {}));
+    for (let i = 0; i < n; i++) gifts.push(makeGift(s, now, first && i === 0, n - i));
+    s.history = [...gifts.slice().reverse(), ...s.history].slice(0, 300);
+    s.anchor = n >= MAX ? now : s.anchor + n * TRIP;
+    s.lastClaimAt = now;
+    s.wallet.ledger = s.wallet.ledger.slice(0, 300);
+    await store.save(s);
+    sendJson(res, 200, view(s, now, { gifts }));
+    return;
+  }
+
+  if (body.action === "admin") {
+    const password = String(process.env.XUEBAO_PASSWORD || "");
+    if (!password) { sendJson(res, 403, { error: "记账功能还没有开启。" }); return; }
+    if (String(body.password || "") !== password) { sendJson(res, 401, { error: "口令不对。" }); return; }
+    const note = String(body.note || "").trim().slice(0, 40);
+    switch (body.op) {
+      case "check": break;
+      case "deduct": {
+        const amount = round2(Number(body.amount));
+        if (!(amount > 0) || amount > s.wallet.balance + 0.001) { sendJson(res, 400, { error: `金额不对，余额是 ${s.wallet.balance}。` }); return; }
+        s.wallet.balance = round2(s.wallet.balance - amount);
+        s.wallet.ledger.unshift({ at: now, delta: -amount, note: note || "兑换", kind: "deduct" });
+        break;
       }
-      await store.save(s);
-      sendJson(res, 200, view(s, now, { queue: s.queue }));
-      return;
+      case "useCoupon": {
+        const c = s.coupons.find((x) => x.id === body.id && !x.used);
+        if (!c) { sendJson(res, 404, { error: "这张券不存在或已经用过了。" }); return; }
+        Object.assign(c, { used: true, usedAt: now, note: note || "已兑现" });
+        break;
+      }
+      case "redeemSkin": {
+        if (s.frag.pendingSkins < 1) { sendJson(res, 400, { error: "还没有集齐的皮肤。" }); return; }
+        s.frag.pendingSkins -= 1; s.frag.redeemed += 1;
+        s.wallet.ledger.unshift({ at: now, delta: 0, note: `皮肤已兑现${note ? "：" + note : ""}`, kind: "skin" });
+        break;
+      }
+      case "queue": {
+        const title = String(body.title || "").trim().slice(0, 30);
+        const text = String(body.text || "").trim().slice(0, 600);
+        if (!title || !text) { sendJson(res, 400, { error: "标题和内容都要写。" }); return; }
+        s.queue.push({ id: uid(), title, text, at: now });
+        break;
+      }
+      case "unqueue": s.queue = s.queue.filter((q) => q.id !== body.id); break;
+      default: sendJson(res, 400, { error: "未知操作。" }); return;
     }
+    await store.save(s);
+    sendJson(res, 200, view(s, now, { queue: s.queue }));
+    return;
+  }
 
-    sendJson(res, 400, { error: "未知操作。" });
+  sendJson(res, 400, { error: "未知操作。" });
+}
+
+async function serve(req, res) {
+  try {
+    for (let attempt = 0; attempt < 5; attempt += 1) {
+      try { await handle(req, res); return; }
+      catch (error) {
+        if (!(error instanceof StateConflict)) throw error;
+      }
+    }
+    sendJson(res, 409, { error: "小屋正在保存上一项操作，请再试一次。" });
   } catch (error) {
     if (error?.message?.includes("BLOB_READ_WRITE_TOKEN")) { sendJson(res, 503, { error: "存储还没有配置。" }); return; }
     console.error("xuebao", error);
     sendJson(res, 500, { error: "雪宝的小屋暂时打不开，过一会儿再试。" });
   }
+}
+
+module.exports = function xuebao(req, res) {
+  if (!process.env.XUEBAO_FILE) return serve(req, res);
+  const work = fileQueue.then(() => serve(req, res));
+  fileQueue = work.catch(() => {});
+  return work;
 };

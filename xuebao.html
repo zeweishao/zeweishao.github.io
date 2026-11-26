@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.loli.net">
   <link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
   <link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700&amp;family=Ma+Shan+Zheng&amp;display=swap" media="print" onload="this.media='all'">
-  <link rel="modulepreload" href="xuebao-hall.js?v=20261123h">
-  <link rel="stylesheet" href="xuebao.css?v=20261123j">
+  <link rel="modulepreload" href="xuebao-hall.js?v=20261126h">
+  <link rel="stylesheet" href="xuebao.css?v=20261126h">
 </head>
 <body>
   <!-- 进小世界的加载页：拱门里的雪宝 + 真实加载进度；3D 准备好后淡出（WebGL 不可用时直接撤掉） -->
@@ -37,13 +37,14 @@
       <p id="statusLine">正在推开小屋的门……</p>
     </div>
     <div class="xb-chips">
+      <button class="xb-chip xb-small-chip" id="collectionChip" type="button">收藏</button>
       <button class="xb-chip" id="moneyChip" type="button" aria-label="打开存钱罐">
         <img src="xuebao-assets/ic-coin.webp" alt="" width="22" height="22"><span id="moneyText">¥0</span>
       </button>
       <button class="xb-chip" id="shardChip" type="button" aria-label="打开碎片罐">
         <img src="xuebao-assets/ic-shard.webp" alt="" width="18" height="22"><span id="shardText">0/99</span>
       </button>
-      <button class="xb-chip xb-icon" id="muteBtn" type="button" aria-label="声音开关">♪</button>
+      <button class="xb-chip xb-icon" id="setBtn" type="button" aria-label="设置：声音、视角、身份"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.5 7.5 0 0 0-1.7-1L15 3.5h-4l-.4 2.5a7.5 7.5 0 0 0-1.7 1l-2.4-1-2 3.4L6.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.4 2.4-1a7.5 7.5 0 0 0 1.7 1l.4 2.5h4l.4-2.5a7.5 7.5 0 0 0 1.7-1l2.4 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg></button>
     </div>
   </header>
 
@@ -134,10 +135,11 @@
   </div>
   <div class="xb-open" id="openLayer" hidden></div>
 
-  <script src="xuebao-data.js?v=20261122v7"></script>
+  <script src="xuebao-chars.js?v=20261126a"></script>
+  <script src="xuebao-data.js?v=20261126b"></script>
   <script src="xuebao-art.js?v=20261121a"></script>
   <script src="xuebao-places.js?v=20261122a"></script>
-  <script src="xuebao.js?v=20261123i"></script>
-  <script type="module" src="xuebao-hall.js?v=20261123h"></script>
+  <script src="xuebao.js?v=20261126h"></script>
+  <script type="module" src="xuebao-hall.js?v=20261126h"></script>
 </body>
 </html>

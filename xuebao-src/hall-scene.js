@@ -13,6 +13,9 @@ import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
 import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
 import { buildXuebao } from "./xuebao-model.js";
 import { createWalkMap } from "./walkmap.js";
+import { buildZe } from "./ze-model.js";
+import { buildWishTree } from "./wishtree.js";
+import { buildFireplace } from "./fireplace.js";
 import { buildGarden } from "./garden.js";
 import { buildEntrances } from "./entrances.js";
 import { buildFigureHouse } from "./figurehouse.js";
@@ -239,7 +242,6 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   anchorBox("plant", [-1.3, 0, -D + 0.05], [-0.6, 1.2, -D + 0.65]);
   model("potted_plant_02", { scale: 1.25, at: [-W / 2 + 0.45, 0, -D + 0.45] });
   model("potted_plant_02", { scale: 1.25, ry: 2, at: [W / 2 - 0.45, 0, -D + 0.45] });
-  model("potted_plant_02", { scale: 0.8, at: [-W / 2 + 0.45, 0, -0.4] });
   // 左墙：梳妆台 + 金框镜子 + 烛台 + 花瓶 + 明信片画框
   const VAN = { z: -2.2 };
   model("ClassicConsole_01", { lacquer: "#fdf5ee", ry: Math.PI / 2, at: [-W / 2 + 0.31, 0, VAN.z] });
@@ -284,6 +286,11 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
 
   // ---------- 门外：童话森林花园（garden.js） ----------
   const garden = buildGarden(THREE, scene, { D, W, FRONT, mobile });
+  // 左墙：梳妆台和写信桌之间的壁炉，上面挂一幅明信片画
+  const FP = { z: -0.95 };
+  const fireplace = buildFireplace(THREE, scene, { at: [-W / 2 + 0.004, 0, FP.z], ry: Math.PI / 2, mobile, photo: A + "pc-hz-snow.webp", texLoader });
+  framed("fancy_picture_frame_02", "pc-ly-lamp", { scale: 0.78, ry: Math.PI / 2, at: [-W / 2 + 0.03, 1.78, FP.z], anchor: "frameFP" });
+  const wishTree = buildWishTree(THREE, scene, { heightAt: garden.heightAt, mobile });
   // 瀑布小溪、宠物、灯串、彩旗、野餐毯、远山城堡热气球（garden-extras.js）
   const extras = buildGardenExtras(THREE, scene, { heightAt: garden.heightAt, mobile, Z0: garden.Z0 });
   // ---------- 9 个分页面的入口（entrances.js）：大厅 4 个、花园 5 个 ----------
@@ -405,14 +412,31 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   // ---------- 雪宝（3D 小人，模型在 xuebao-model.js） ----------
   const XB = buildXuebao(THREE), xb = XB.root;
   xb.position.set(0, 0, -1.05); scene.add(xb);
+  // ---------- 泽泽（ze-model.js）：雪雪玩的时候他是屋里的 NPC，站在壁炉旁边；选“我是泽泽”时他就是玩家 ----------
+  const ze = buildZe(THREE); ze.loadGlb(GLTFLoader, R + "ze.glb?v=20261126b");
+  const zeHome = { x: -1.3, z: 0.25 }, zeApproach = { x: -0.85, z: 0.55 };
+  const snowStand = new THREE.Group(); snowStand.scale.setScalar(.9); scene.add(snowStand);
+  ze.root.position.set(zeHome.x, 0, zeHome.z);
+  ze.root.rotation.y = 1.0;
+  ze.root.scale.setScalar(0.9);
+  scene.add(ze.root);
+  let playerZe = false, playerPhase = "";
+  let zeCue = "", zeCueUntil = 0, zeCueT0 = 0;
+  // 两个人的动作：duo = { id, t, dur }；牵手时 zeFollow = true（泽泽跟在雪宝身边走）
+  let duo = null, zeFollow = false, zeYaw = 1.0, zeWalk = false, zeSpeed = 1;
+  const zeSpot = {
+    id: "ze-npc", name: "泽泽", icon: "💞", verb: "找泽泽", at: [zeHome.x, 1.15, zeHome.z],
+    spot: zeApproach, pick: [ze.root], face: -Math.PI / 2, clip: "idle", dur: 1, near: 1.7,
+    action: "ze-npc", available: () => !playerZe
+  };
   const contact = new THREE.Mesh(new THREE.PlaneGeometry(1, 1).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ map: radialTex, color: "#000", transparent: true, opacity: 0.42, depthWrite: false }));
   contact.material.blending = THREE.CustomBlending; contact.material.blendSrc = THREE.ZeroFactor; contact.material.blendDst = THREE.OneMinusSrcAlphaFactor;
   contact.renderOrder = 2; scene.add(contact);
   // 能走的地方：一张地面网格（walkmap.js）。大厅前半 + 两张沙发中间的过道 + 门洞 + 花园，家具和树挖掉
   const WM = createWalkMap({ x0: -8, x1: 8, z0: -19, z1: FRONT });
   WM.rect(-1.8, 2.0, -1.05, FRONT - 0.75).rect(-0.85, 0.85, -D + 0.75, -1.05).circle(0, SAL.z, 0.62);
-  garden.walk(WM); ent.walk(WM); fh.walk(WM); extras.walk(WM); WM.circle(wx.snowman.x, wx.snowman.z, 0.3);
-  wx.snowifyTree(scene, (o) => o === xb); // 先给屋外材质都装上积雪着色器（平时为 0，不影响画面），下雪时不再卡一下
+  garden.walk(WM); wishTree.walk(WM); WM.rect(-.68,1.08,FRONT-.72,FRONT,0); ent.walk(WM); fh.walk(WM); extras.walk(WM); WM.circle(wx.snowman.x, wx.snowman.z, 0.3);
+  wx.snowifyTree(scene, (o) => o === xb || o === ze.root || o === snowStand || o === fireplace.root); // 先给屋外材质都装上积雪着色器（平时为 0，不影响画面），下雪时不再卡一下
   const walkClamp = (x, z) => WM.clamp(x, z);
   // 只展示已加载的精模。新版失败时尝试上一版，加载期间保持人物隐藏。
   const GLB = { ready: false, mixer: null, acts: {}, cur: null, hands: [], seatFolds: [] };
@@ -451,7 +475,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
         GLB.hands = [bone("hand.L"), bone("hand.R")];
         GLB.mixer = new THREE.AnimationMixer(model);
         animations.forEach((clip) => { GLB.acts[clip.name.replace(/^xb_/, "")] = GLB.mixer.clipAction(clip); });
-        xb.add(model);
+        GLB.model = model;
+        (playerZe ? snowStand : xb).add(model);
         GLB.ready = true;
         host.dataset.xbModelVersion = "v6";
         host.dataset.xbModel = "ready";
@@ -476,7 +501,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     for (const [weights, index] of GLB.seatFolds) {
       weights[index] += (seated - weights[index]) * (1 - Math.exp(-dt * 14));
     }
-    const want = P.dragging ? "drag" : walking ? (speed > 1.8 ? "run" : "walk") : P.air != null ? "wow" : P.act ? P.act.s.clip : P.hugT > 0 ? "hug" : CLIP[P.pose] || "idle";
+    const want = playerZe ? (duo ? duo.D.clip : "idle") : P.dragging ? "drag" : walking ? (speed > 1.8 ? "run" : "walk") : P.air != null ? "wow" : P.act ? actClip(P.act) : P.hugT > 0 ? "hug" : CLIP[P.pose] || "idle";
     const next = GLB.acts[want] || GLB.acts.idle;
     if (next !== GLB.cur) {
       next.reset().setEffectiveWeight(1).play();
@@ -491,9 +516,204 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (hr && XB.cup.visible) { hr.getWorldPosition(_hw); xb.worldToLocal(_hw); XB.cup.position.set(_hw.x, _hw.y + 0.03, _hw.z + 0.02); XB.cup.rotation.set(0, 0, 0); }
     if (hl && hr && XB.book.visible) { hl.getWorldPosition(_hw); hr.getWorldPosition(_hw2); _hw.add(_hw2).multiplyScalar(0.5); xb.worldToLocal(_hw); XB.book.position.set(_hw.x, _hw.y + 0.02, _hw.z + 0.03); }
   }
+  const NOCHAR = /[?&]nochar\b/.test(location.search);
   const SIT = { tea: 1, book: 1, nap: 1 };
+  // 动作轮盘里的动作：seq 是按时间换的动画片段（跳舞），spin 是原地转几圈，bounce 是一颠一颠
+  const actClip = (a) => { const sq = a.s.seq; if (!sq) return a.s.clip; let c = sq[0][1]; for (const [t0, k] of sq) if (a.t >= t0) c = k; return c; };
+  // 头顶飘出来的小图标：爱心、音符、星星、zzz
+  const EMO = {};
+  function emoTex(ch, color) {
+    if (EMO[ch]) return EMO[ch];
+    const c = document.createElement("canvas"); c.width = c.height = 96; const g = c.getContext("2d");
+    g.font = "64px 'Apple Color Emoji','Segoe UI Emoji',sans-serif"; g.textAlign = "center"; g.textBaseline = "middle";
+    if (color) { g.fillStyle = color; g.font = "bold 62px 'PingFang SC',sans-serif"; g.shadowColor = "rgba(255,255,255,.9)"; g.shadowBlur = 8; }
+    g.fillText(ch, 48, 52); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return (EMO[ch] = t);
+  }
+  const emos = [];
+  for (let i = 0; i < 14; i++) { const sp = new THREE.Sprite(new THREE.SpriteMaterial({ transparent: true, depthWrite: false })); sp.visible = false; sp.renderOrder = 6; sp.userData.noHit = true; scene.add(sp); emos.push(sp); }
+  let emoK = 0;
+  const EMOSET = { heart: [["💗"], ["💕"], ["❤️"]], note: [["♪", "#e0708e"], ["♫", "#8a6bd0"], ["♪", "#e89b4c"]], spark: [["✨"], ["⭐"]], zzz: [["z", "#7c8bd6"], ["Z", "#7c8bd6"]], kiss: [["💋"], ["💗"], ["💕"]], star: [["✨"], ["🌟"]], warm: [["🔥"], ["✨"], ["💗"]], fish: [["🐟"], ["✨"], ["💦"]] };
+  function emote(kind, n = 5, from) {
+    const set = EMOSET[kind]; if (!set) return; const p = from || xb.position;
+    for (let i = 0; i < n; i++) {
+      const sp = emos[emoK++ % emos.length], [ch, col] = set[i % set.length];
+      sp.material.map = emoTex(ch, col); sp.material.needsUpdate = true; sp.visible = true;
+      sp.userData = { noHit: true, t: -i * 0.16, x: p.x + (Math.random() - 0.5) * 0.3, y: p.y + char.height * 0.95, z: p.z + (Math.random() - 0.5) * 0.2, w: (Math.random() - 0.5) * 0.4, kind };
+      sp.position.set(sp.userData.x, sp.userData.y, sp.userData.z); sp.scale.setScalar(0.001);
+    }
+  }
+  function stepEmotes(dt) {
+    emos.forEach((sp) => {
+      if (!sp.visible) return; const u = sp.userData; u.t += dt; if (u.t < 0) return;
+      const k = u.t / (u.kind === "zzz" ? 2.2 : 1.5); if (k >= 1) { sp.visible = false; return; }
+      sp.position.set(u.x + Math.sin(u.t * 3) * 0.05 + u.w * k, u.y + k * 0.55, u.z);
+      const s0 = 0.16 * Math.min(1, u.t * 6) * (u.kind === "zzz" ? 0.6 + k * 0.6 : 1); sp.scale.setScalar(s0); sp.material.opacity = k > 0.7 ? (1 - k) / 0.3 : 1;
+    });
+  }
+  // ---------- 能站上去的地方：玫瑰许愿泉两层（外沿 0.4 米、上层小碗 1 米），池里能蹚水 ----------
+  // 平面上用 walkmap 找路；喷泉附近改用“高度”判断：比脚高出一个台阶的地方就是墙，跳得够高才能上去。
+  const FCX = 0, FCZ = -11.0, FZONE = 1.5, STEP = 0.14, GRAV = 13.5, JUMP_V = 5.0;
+  const terrainY = (x, z) => (z < garden.Z0 ? garden.heightAt(x, z) : 0);
+  // 其它能跳上去的东西（长椅、秋千、奶茶推车、小茶座、蘑菇、树桩、沙发、茶几……）：
+  // 每件是一块“盒子”或“圆柱”，有顶面高度 top 和底面 bottom（秋千座板悬空，底下 bottom>0）
+  const PLATS = [];
+  // 头顶上的东西（阳伞伞面、秋千横梁……）：跳起来头会撞到，跳不穿过去；也不会横着走进去
+  const CEILS = [], HEAD = 0.78;
+  const ceilHit = (x, z, y0, y1) => { for (const c of CEILS) if (x > c.x0 && x < c.x1 && z > c.z0 && z < c.z1 && c.bottom > y0 && c.bottom < y1) return c; return null; };
+  let onBonk = null;
+  const inPlat = (p, x, z, pad = 0) => {
+    const dx = x - p.x, dz = z - p.z;
+    if (p.r != null) return Math.hypot(dx, dz) < p.r + pad;
+    const c = Math.cos(p.yaw || 0), sn = Math.sin(p.yaw || 0), u = dx * c - dz * sn, v = dx * sn + dz * c;
+    return Math.abs(u) < p.hx + pad && Math.abs(v) < p.hz + pad;
+  };
+  // 没单独登记的矮东西（花盆、邮筒、篱笆、石头……）：挡路的地方往下打一条射线量顶面，够矮就能跳上去站着
+  // 按 8 厘米一格缓存；太高（树、灯柱、墙）照样是墙；射线什么都没打到或只打到贴地的水面，就交回 walkmap 挡住
+  let propHit = null; const topCache = new Map(), _ro = new THREE.Vector3(), _rd = new THREE.Vector3(0, -1, 0), topRay = new THREE.Raycaster();
+  function propTop(x, z) {
+    const k = Math.round(x / 0.08) + "," + Math.round(z / 0.08);
+    let v = topCache.get(k); if (v !== undefined) return v;
+    v = null;
+    if (propHit) {
+      topRay.set(_ro.set(x, 3.2, z), _rd); topRay.far = 3.4; topRay.camera = camera;
+      const h = topRay.intersectObjects(propHit, true).find((i) => i.object.visible !== false && !i.object.userData.noHit && !i.object.isPoints && !i.object.isSprite);
+      if (h) { const g = terrainY(x, z); if (h.point.y - g > 0.12) v = h.point.y; }
+    }
+    topCache.set(k, v); return v;
+  }
+  // walkmap 给物件留的那一圈余量（射线只打到地面）：旁边就有能站的物件时，这一圈也让她走/落，好跳上去
+  const ringCache = new Map();
+  const nearWall = (x, z) => z > -D - 0.45 && z < FRONT + 0.45 && (Math.abs(Math.abs(x) - W / 2) < 0.4 || (Math.abs(x) < W / 2 + 0.4 && (Math.abs(z - FRONT) < 0.4 || Math.abs(z + D) < 0.4)));
+  function nearProp(x, z) {
+    const k = Math.round(x / 0.08) + "," + Math.round(z / 0.08);
+    let v = ringCache.get(k); if (v !== undefined) return v;
+    v = false;
+    if (nearWall(x, z)) { ringCache.set(k, v); return v; } // 屋子的四面墙附近不算（墙不在射线检测里，免得借着墙边的物件穿墙出去）
+    for (const r of [0.15, 0.3, 0.45]) { for (let i = 0; i < 8 && !v; i++) { const a = i * Math.PI / 4, t = propTop(x + Math.cos(a) * r, z + Math.sin(a) * r); if (t != null && t < 1.75) v = true; } if (v) break; }
+    ringCache.set(k, v); return v;
+  }
+  function surfaceAt(x, z, y) {
+    const f = fountainAt(x, z, y);
+    for (const p of PLATS) {
+      if (!inPlat(p, x, z)) { if (inPlat(p, x, z, 0.3) && !(nearWall(x, z) && !WM.walkable(x, z))) f.zone = true; continue; } // 家具旁边一圈：可以走到跟前起跳
+      if (p.top <= y + STEP + 0.001) { if (!f.wall && p.top > f.top) { f.top = p.top; f.zone = true; f.water = 0; f.plat = p; } }
+      else if ((p.bottom || 0) < y + 0.8) return { top: p.top, zone: true, wall: true };
+    }
+    if (!f.zone && !f.plat && !WM.walkable(x, z)) {
+      const t = propTop(x, z);
+      if (t != null && t < 1.75) { if (t <= y + STEP + 0.001) { f.top = t; f.zone = true; f.water = 0; f.prop = true; } else return { top: t, zone: true, wall: true }; }
+      else if (t == null && nearProp(x, z)) f.zone = true;
+    }
+    return f;
+  }
+  function fountainAt(x, z, y) {
+    const dx = x - FCX, dz = z - FCZ, r0 = Math.hypot(dx, dz), base = terrainY(x, z);
+    if (r0 > FZONE) return { top: base, zone: false };
+    const a = Math.atan2(dx, dz), r = r0 / (1 + 0.1 * Math.cos(8 * a)), r2 = r0 / (1 + 0.065 * Math.cos(12 * a));
+    if (r > 1.05) return { top: base, zone: true };
+    if (r > 0.875) return { top: 0.405, zone: true, rim: 1 };
+    // 最顶上那朵石头花（中间的喷水口）也能站：二段跳够得着
+    if (r0 < 0.17 && y > 1.2) return { top: 1.5, zone: true, rim: 3 };
+    if (r0 < 0.2 && y > 0.6) return { top: 1.5, zone: true, wall: true };
+    if (r2 < 0.535 && y > 0.6) return r2 > 0.45 ? { top: 1.03, zone: true, rim: 2 } : { top: 0.875, water: 0.987, zone: true, bowl: true };
+    if (r0 < 0.6) return { top: 9, zone: true, wall: true }; // 上层碗底下和中间的柱子
+    return { top: 0.15, water: 0.292, zone: true };
+  }
+  // 平移一步：喷泉区按高度挡，其它地方交给 walkmap 顺边滑
+  function moveH(x, z, ddx, ddz, y) {
+    const nx = x + ddx, nz = z + ddz;
+    const inZ = Math.hypot(nx - FCX, nz - FCZ) < FZONE || Math.hypot(x - FCX, z - FCZ) < FZONE || PLATS.some((p) => inPlat(p, nx, nz, 0.3) || inPlat(p, x, z, 0.3)) || (y > 0.2 && !!ceilHit(nx, nz, y + 0.25, y + HEAD)) || (!WM.walkable(nx, nz) && ((propTop(nx, nz) ?? 9) < 1.75 || nearProp(nx, nz))) || (y > 0.05 && !WM.walkable(x, z));
+    if (!inZ) { const n = WM.slide(x, z, ddx, ddz); return { x: n.x, z: n.z, blocked: Math.hypot(n.x - nx, n.z - nz) > 1e-4 }; }
+    // 身体有半个身宽：往前探 0.13 米也看一眼，免得半个身子插进石沿里
+    const L = Math.hypot(ddx, ddz) || 1, fx = ddx / L * 0.13, fz = ddz / L * 0.13;
+    const ok = (px, pz) => { const s0 = surfaceAt(px, pz, y), s1 = surfaceAt(px + fx, pz + fz, y); return Math.max(s0.top, s1.top) <= y + STEP && (s0.zone || WM.walkable(px, pz)) && !ceilHit(px + fx, pz + fz, y + 0.25, y + HEAD); };
+    if (ok(nx, nz)) return { x: nx, z: nz, blocked: false };
+    if (ok(nx, z)) return { x: nx, z, blocked: true };
+    if (ok(x, nz)) return { x, z: nz, blocked: true };
+    return { x, z, blocked: true };
+  }
+  // 水花：一小团水珠 + 水面一圈涟漪
+  const splashN = mobile ? 90 : 160, splashP = new Float32Array(splashN * 3), splashV = new Float32Array(splashN * 3), splashL = new Float32Array(splashN);
+  const splashGeo = new THREE.BufferGeometry(); splashGeo.setAttribute("position", new THREE.BufferAttribute(splashP, 3));
+  const splashPts = new THREE.Points(splashGeo, new THREE.PointsMaterial({ map: radialTex, color: "#eef8ff", size: 0.045, transparent: true, opacity: 0.85, depthWrite: false }));
+  splashPts.frustumCulled = false; splashPts.userData.noHit = true; scene.add(splashPts);
+  let splashK = 0;
+  function splash(x, y, z, n = 24, power = 1) {
+    for (let i = 0; i < n; i++) {
+      const k = splashK++ % splashN, a = Math.random() * Math.PI * 2, sp = (0.4 + Math.random() * 0.9) * power;
+      splashP.set([x + Math.cos(a) * 0.08, y, z + Math.sin(a) * 0.08], k * 3);
+      splashV.set([Math.cos(a) * sp, (1.4 + Math.random() * 1.6) * power, Math.sin(a) * sp], k * 3); splashL[k] = 0.5 + Math.random() * 0.4;
+    }
+    ringPuff(x, z, 0.5 + power * 0.25, y);
+  }
+  function stepSplash(dt) {
+    for (let k = 0; k < splashN; k++) {
+      if (splashL[k] <= 0) { splashP[k * 3 + 1] = -99; continue; }
+      splashL[k] -= dt; splashV[k * 3 + 1] -= 9.8 * dt;
+      splashP[k * 3] += splashV[k * 3] * dt; splashP[k * 3 + 1] += splashV[k * 3 + 1] * dt; splashP[k * 3 + 2] += splashV[k * 3 + 2] * dt;
+    }
+    splashGeo.attributes.position.needsUpdate = true;
+  }
+  let onSplash = null;
+  // 二段跳时的一圈小星光（复用水珠的粒子，颜色换成暖金）
+  const twN = 40, twP = new Float32Array(twN * 3), twV = new Float32Array(twN * 3), twL = new Float32Array(twN);
+  const twGeo = new THREE.BufferGeometry(); twGeo.setAttribute("position", new THREE.BufferAttribute(twP, 3));
+  const twPts = new THREE.Points(twGeo, new THREE.PointsMaterial({ map: radialTex, color: "#ffe2a8", size: 0.06, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending }));
+  twPts.frustumCulled = false; twPts.userData.noHit = true; scene.add(twPts);
+  function twinkle(x, y, z) { for (let i = 0; i < twN; i++) { const a = (i / twN) * Math.PI * 2; twP.set([x, y, z], i * 3); twV.set([Math.cos(a) * 1.1, (Math.random() - 0.3) * 0.6, Math.sin(a) * 1.1], i * 3); twL[i] = 0.45 + Math.random() * 0.2; } }
+  function stepTwinkle(dt) { for (let i = 0; i < twN; i++) { if (twL[i] <= 0) { twP[i * 3 + 1] = -99; continue; } twL[i] -= dt; for (let c = 0; c < 3; c++) { twP[i * 3 + c] += twV[i * 3 + c] * dt; twV[i * 3 + c] *= 1 - dt * 3; } } twGeo.attributes.position.needsUpdate = true; }
+  // 钓鱼：一根小竹竿、一根线、一个红白浮漂；甩出去 → 等 → 浮漂往下一沉 → 起竿、水花、小鱼跳一下
+  const rod = new THREE.Group(); rod.visible = false; scene.add(rod);
+  const rodPole = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.012, 1, 6).translate(0, 0.5, 0), new THREE.MeshStandardMaterial({ color: "#c9a46a", roughness: 0.6 }));
+  rod.add(rodPole);
+  const bob = new THREE.Group(); scene.add(bob); bob.visible = false;
+  [["#ffffff", 0.018], ["#ef5a6f", -0.004]].forEach(([c, y]) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.03, 12, 8, 0, Math.PI * 2, y > 0 ? 0 : Math.PI / 2, Math.PI / 2), new THREE.MeshStandardMaterial({ color: c, roughness: 0.4 })); bob.add(m); });
+  const lineGeo = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]);
+  const fishLine = new THREE.Line(lineGeo, new THREE.LineBasicMaterial({ color: "#f4f1ea", transparent: true, opacity: 0.8 })); fishLine.frustumCulled = false; fishLine.visible = false; scene.add(fishLine);
+  [rod, bob, fishLine].forEach((o) => o.traverse((c) => { c.userData.noHit = true; }));
+  const _hand = new THREE.Vector3(), _tip = new THREE.Vector3();
+  function stepFishing(a) {
+    const t = a.t, yaw = char.yaw, fx = Math.sin(yaw), fz = Math.cos(yaw);
+    if (GLB.hands?.[1]) GLB.hands[1].getWorldPosition(_hand); else _hand.set(xb.position.x, xb.position.y + 0.5, xb.position.z);
+    // 竿子：先举起来往前甩，等的时候微微晃，咬钩时猛地往上提
+    const cast = Math.min(1, t / 0.5), lift = t > 2.6 ? Math.min(1, (t - 2.6) / 0.25) : 0;
+    const pitch = THREE.MathUtils.lerp(-0.2, 0.75, cast) - lift * 0.55 + Math.sin(t * 2.2) * 0.03;
+    rod.visible = true; rod.position.copy(_hand); rod.rotation.set(0, 0, 0); rod.rotateY(yaw); rod.rotateX(pitch); rod.scale.setScalar(0.85);
+    rodPole.updateMatrixWorld(true); _tip.set(0, 1, 0); rodPole.localToWorld(_tip);
+    const far = 0.55 + cast * 0.7, bx = xb.position.x + fx * far, bz = xb.position.z + fz * far;
+    const dip = t > 2.25 && t < 2.6 ? Math.sin((t - 2.25) / 0.35 * Math.PI) * 0.05 : 0;
+    const by = (t > 2.6 ? -0.02 + lift * 0.4 : -0.02) - dip + Math.sin(t * 3) * 0.004;
+    bob.visible = cast >= 1; bob.position.set(bx, by, bz);
+    fishLine.visible = true; lineGeo.attributes.position.setXYZ(0, _tip.x, _tip.y, _tip.z); lineGeo.attributes.position.setXYZ(1, bx, cast >= 1 ? by + 0.02 : _tip.y - 0.3, bz); lineGeo.attributes.position.needsUpdate = true;
+    if (cast >= 1 && !a.plop) { a.plop = true; splash(bx, -0.02, bz, 8, 0.4); }
+    if (t > 2.6 && !a.caught) { a.caught = true; splash(bx, -0.02, bz, 26, 0.9); emote("fish", 3, { x: bx, y: -0.5, z: bz }); char.happyT = 1.5; onSplash?.(0.6); }
+  }
+  // 许愿：雪宝朝喷泉一扔，硬币转着飞进池子，“叮”一下溅起水花，池边亮一圈光
+  const coin = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.006, 20), new THREE.MeshStandardMaterial({ color: "#f2c86a", metalness: 1, roughness: 0.25, emissive: "#6a4a10", emissiveIntensity: 0.4 }));
+  coin.visible = false; coin.userData.noHit = true; scene.add(coin);
+  let coinFly = null;
+  function tossCoin(done) {
+    const p = xb.position, d = Math.hypot(p.x - FCX, p.z - FCZ), near = d < 3.2 && P0().y < 0.5;
+    const from = new THREE.Vector3();
+    if (near) {
+      char.endAct(); char.path = [];
+      char.act = { s: { id: "_toss", clip: "wave", dur: 1.6, face: Math.atan2(FCX - p.x, FCZ - p.z) }, t: 0, from: p.clone() };
+      if (GLB.hands?.[1]) GLB.hands[1].getWorldPosition(from); else from.set(p.x, p.y + 0.6, p.z);
+    } else from.set(FCX + 0.4, 2.6, FCZ + 0.6);
+    const a = Math.atan2(from.x - FCX, from.z - FCZ), to = new THREE.Vector3(FCX + Math.sin(a) * 0.62, 0.292, FCZ + Math.cos(a) * 0.62);
+    coinFly = { from, to, t: near ? -0.45 : 0, T: near ? 0.85 : 0.7, done }; coin.visible = false;
+  }
+  const P0 = () => char;
+  function stepCoin(dt) {
+    if (!coinFly) return; const c = coinFly; c.t += dt; if (c.t < 0) return;
+    const k = Math.min(1, c.t / c.T); coin.visible = true;
+    coin.position.lerpVectors(c.from, c.to, k); coin.position.y += Math.sin(k * Math.PI) * 0.7;
+    coin.rotation.set(c.t * 14, c.t * 5, 0);
+    if (k >= 1) { coin.visible = false; splash(c.to.x, 0.292, c.to.z, 22, 0.55); SPOTS.fountain?.start?.(); onSplash?.(0.4); const f = c.done; coinFly = null; setTimeout(() => f?.(), 450); }
+  }
+  function endFishing() { rod.visible = bob.visible = fishLine.visible = false; }
   const char = {
-    mesh: xb, model: XB, height: 0.9, path: [], to: xb.position.clone(), lean: 0, leanV: 0, sq: 0, sqV: 0, jump: -1, step: 0, yaw: 0, pop: 1, popV: 0, lift: 0, liftV: 0,
+    mesh: xb, model: XB, height: 0.9, path: [], to: xb.position.clone(), lean: 0, leanV: 0, sq: 0, sqV: 0, jump: -1, step: 0, yaw: 0, y: 0, vy: 0, sup: 0, inWater: 0, pop: 1, popV: 0, lift: 0, liftV: 0,
     dragging: false, opacity: 1, walking: false, pose: "idle", sit: 0, idleT: 0, blinkT: 2, happyT: 0, tail: [[0, 0, 0, 0], [0, 0, 0, 0]], vel: new THREE.Vector3(), drive: null,
     setPose(p) { if (p === this.pose) return; this.pose = p; if (p === "wave" || p === "wow" || p === "jump") this.happyT = 1.6; },
     setTexture(url) { const m = /xb-(?:a-)?([a-z]+)/.exec(url || ""); if (m) this.setPose(m[1]); }, // 兼容：从 2D 姿势图的文件名读姿势
@@ -522,15 +742,25 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       if (!this.act) return;
       const exit = this.act.s.exit;
       if (exit) this.seatExit = { from: xb.position.clone(), end: new THREE.Vector3(exit.x, 0, exit.z), t: 0 };
+      if (this.act.s.fish) endFishing();
       this.act = null;
       xb.rotation.x = 0;
     },
     hop() { this.jump = 0; this.sqV -= 2.2; this.happyT = 1; },
     // 真的跳起来：先蹲一下蓄力，腾空约 0.6 秒，落地压扁一下再弹回；走着跑着也能跳
     jumpUp() {
-      if (this.dragging || this.air != null) return false;
+      if (this.dragging) return false;
       if (this.act) { this.endAct(); return true; } // 坐着的时候先站起来
-      this.air = 0; this.airRun = this.walking; this.sqV -= 2.4; this.happyT = 1; return true;
+      // 空中再按一次：二段跳（再往上蹿一截，翻个跟头）
+      if (this.air != null || this.y > this.sup + 0.03 || this.charge != null) {
+        if (this.dbl) return false;
+        // 连按两下太快（还在蹲下蓄力、刚离地）：先记下来，离地后马上接二段跳
+        if (this.charge != null || this.vy > JUMP_V * 0.7) { this.dblQueued = true; return true; }
+        this.dbl = true; this.vy = JUMP_V * 1.08; this.flip = 0; this.happyT = 1.4; this.sqV += 3; // 不管在上升还是在往下掉，都重新蹿起一大截
+        ringPuff(xb.position.x, xb.position.z, 0.75, this.y); twinkle(xb.position.x, this.y + 0.3, xb.position.z);
+        return true;
+      }
+      this.air = 0; this.dbl = false; this.airRun = this.walking; this.sqV -= 2.4; this.happyT = 1; this.charge = 0.07; return true;
     },
     squash() { this.sqV -= 3.2; },
     hug() { this.sqV -= 2.6; this.happyT = 1.8; this.hugT = 1.8; },
@@ -598,19 +828,26 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     else if (P.dragging) { P.endAct(); P.pending = null; const d = P.to.clone().sub(xb.position); d.y = 0; xb.position.addScaledVector(d, Math.min(1, dt * 14)); dirX = d.x; P.path = []; }
     else if (P.drive && (P.drive.x || P.drive.z)) { // 键盘控制
       P.path = []; P.pending = null; P.endAct(); const v = new THREE.Vector3(P.drive.x, 0, P.drive.z); const vl = Math.min(1, v.length()); v.normalize();
-      const sp = P.drive.run ? 2.6 : 1.3 * Math.max(0.35, vl), n = WM.slide(xb.position.x, xb.position.z, v.x * dt * sp, v.z * dt * sp);
+      const sp = (P.drive.run ? 2.6 : 1.3 * Math.max(0.35, vl)) * (P.inWater ? 0.62 : 1), n = moveH(xb.position.x, xb.position.z, v.x * dt * sp, v.z * dt * sp, P.y);
       walking = true; dirX = v.x; dirZ = v.z; speed = sp; xb.position.x = n.x; xb.position.z = n.z; P.to.copy(xb.position);
     }
     else if (next) {
       const d = next.clone().sub(xb.position); d.y = 0; const dist = d.length();
       if (dist < 0.02) { P.path.shift(); if (!P.path.length && !P.followT) P.run = false; }
-      else { walking = true; dirX = d.x; dirZ = d.z; speed = P.run ? 2.6 : 1.1; xb.position.addScaledVector(d.normalize(), Math.min(dist, dt * speed)); }
+      else {
+        walking = true; dirX = d.x; dirZ = d.z; speed = (P.run ? 2.6 : 1.1) * (P.inWater ? 0.62 : 1);
+        const st = Math.min(dist, dt * speed), n = moveH(xb.position.x, xb.position.z, d.x / dist * st, d.z / dist * st, P.y);
+        xb.position.x = n.x; xb.position.z = n.z;
+        // 被台阶挡住（比如从池子里往外走）：够得着就自己跳上去，够不着就停下
+        if (n.blocked && P.air == null) { const ah = surfaceAt(xb.position.x + d.x / dist * 0.12, xb.position.z + d.z / dist * 0.12, P.y + 0.7); if (ah.top - P.y < 0.68) P.jumpUp(); else P.path = []; }
+      }
     }
     if (walking) { P.step += dt * 10.5; P.idleT = 0; } else P.idleT += dt;
     P.walking = walking;
     // 走到互动点：开始做那件事（坐秋千、看喷泉……）
     if (P.pending && !walking && !P.path.length && Math.hypot(xb.position.x - P.pending.spot.x, xb.position.z - P.pending.spot.z) < 0.3) {
       const s0 = P.pending; P.pending = null; P.act = { s: s0, t: 0, from: xb.position.clone() }; s0.start?.(); P.onAct?.(s0);
+      if (s0.fx === "warm") emote("warm", 4);
     }
     // 门：雪宝走近（或要穿过门）就自动打开
     {
@@ -622,22 +859,52 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     else if (P.act) P.yaw = angDamp(P.yaw, P.act.s.face, 6, dt);
     else if (P.idleT > 1.2 && !SIT[P.pose]) P.yaw = angDamp(P.yaw, Math.atan2(camera.position.x - xb.position.x, camera.position.z - xb.position.z), 2.5, dt);
     xb.rotation.y = P.yaw;
+    if (P.act?.s.spin) { const s0 = P.act.s, k = Math.min(1, P.act.t / (s0.spinDur || s0.dur)); xb.rotation.y = P.yaw + (s0.spin * Math.PI * 2) * (k < 1 ? (1 - Math.cos(k * Math.PI)) / 2 : 1); }
+    // 二段跳翻跟头：绕身体中间转一圈（模型脚底是原点，所以要边转边把它挪回来）
+    if (GLB.model) {
+      const f = P.flip == null ? 0 : P.flip, e = f < 1 ? 1 - Math.pow(1 - f, 2.2) : 1, ang = f ? e * Math.PI * 2 : 0, c = 0.5;
+      GLB.model.rotation.x = ang; GLB.model.position.y = c - c * Math.cos(ang); GLB.model.position.z = -c * Math.sin(ang);
+    }
     P.sit = damp(P.sit, SIT[P.pose] && !walking && !P.dragging ? 1 : 0, 6, dt);
     P.leanV += (((walking ? 0.12 : 0) - P.lean) * 90 - P.leanV * 9) * dt; P.lean += P.leanV * dt;
     P.sqV += (-P.sq * 260 - P.sqV * 13) * dt; P.sq += P.sqV * dt;
     P.popV += ((1 - P.pop) * 300 - P.popV * 16) * dt; P.pop += P.popV * dt;
     P.liftV += (((P.dragging ? 0.22 : 0) - P.lift) * 120 - P.liftV * 12) * dt; P.lift += P.liftV * dt;
     let hop = 0; if (P.jump >= 0) { P.jump += dt; if (P.jump < 0.5) hop = Math.sin(Math.PI * P.jump / 0.5) * 0.25; else { P.jump = -1; P.sqV -= 2.8; } }
-    if (P.air != null) {
-      P.air += dt; const T0 = 0.08, T = 0.62; // 0.08 秒蹲下蓄力
-      if (P.air > T0) { const k = Math.min(1, (P.air - T0) / T); hop = Math.max(hop, 4 * 0.46 * k * (1 - k)); if (k < 0.35) P.sqV += dt * 30; }
-      if (P.air >= T0 + T) { P.air = null; P.sqV -= 3.6; ringPuff(xb.position.x, xb.position.z, 0.55); }
+    // 竖直方向：重力、起跳、落地、走出边缘掉下去
+    {
+      const sf = surfaceAt(xb.position.x, xb.position.z, P.y); P.sup = sf.top;
+      if (P.charge != null) { P.charge -= dt; if (P.charge <= 0) { P.charge = null; P.vy = JUMP_V; P.y += 0.01; if (sf.water && P.y < sf.water) splash(xb.position.x, sf.water, xb.position.z, 14, 0.7); } }
+      if (P.dblQueued && P.charge == null && P.vy <= JUMP_V * 0.7) { P.dblQueued = false; P.jumpUp(); } // 排队的二段跳：上升到一小段后接上
+      const grounded = P.y <= sf.top + 0.002 && P.vy <= 0;
+      if (grounded) {
+        if (sf.top - P.y < STEP + 0.01) P.y = sf.top; // 上下小台阶直接贴地
+        P.vy = 0;
+      } else {
+        const y0 = P.y; P.vy -= GRAV * dt; P.y += P.vy * dt;
+        if (P.vy > 0) { const c = ceilHit(xb.position.x, xb.position.z, y0 + HEAD - 0.02, P.y + HEAD); if (c) { P.y = c.bottom - HEAD; P.vy = -0.6; P.sqV += 2.6; P.dblQueued = false; ringPuff(xb.position.x, xb.position.z, 0.35, c.bottom); onBonk?.(); } }
+        if (P.air == null && P.y > sf.top + 0.08) P.air = 0; // 走出边缘：开始掉
+        if (P.y <= sf.top && P.vy < 0) { // 落地
+          const impact = Math.min(1.6, -P.vy / 4);
+          P.y = sf.top; P.vy = 0; P.air = null; P.dbl = false; P.dblQueued = false; P.flip = null; P.sqV -= 2.2 + impact * 2;
+          if (sf.water) { splash(xb.position.x, sf.water, xb.position.z, Math.round(18 + impact * 18), 0.6 + impact * 0.5); onSplash?.(impact); }
+          else ringPuff(xb.position.x, xb.position.z, 0.45 + impact * 0.2, sf.top);
+          if (impact > 0.9 && !sf.water) P.happyT = 1;
+        }
+      }
+      if (P.air != null) P.air += dt;
+      if (P.flip != null) { P.flip = Math.min(1, P.flip + dt / 0.42); if (P.flip >= 1) P.flip = null; }
+      P.inWater = sf.water && P.y < sf.water ? 1 : 0;
+      if (P.inWater && walking && Math.random() < dt * 5) splash(xb.position.x, sf.water, xb.position.z, 3, 0.35);
+      stepSplash(dt); stepTwinkle(dt); stepEmotes(dt); stepCoin(dt);
     }
     const s = P.step, sw = walking ? 1 : 0, sit = P.sit, pose = P.pose;
-    const up = hop + P.lift;
-    if (!seatExit) xb.position.y = up;
+    const up = hop + P.lift + Math.max(0, P.y - P.sup);
+    if (P.act?.s.bounce) hop += Math.abs(Math.sin(P.act.t * Math.PI * P.act.s.bounce)) * 0.07;
+    if (!seatExit) xb.position.y = P.y + hop + P.lift;
     if (P.act) {
       P.act.t += dt; const s0 = P.act.s;
+      if (s0.fish) stepFishing(P.act);
       if (s0.dur !== Infinity && P.act.t > s0.dur) P.endAct();
       else if (s0.hold) { const o = s0.hold(), k = Math.min(1, P.act.t / 0.45); xb.position.set(lerp3(P.act.from.x, o.x, k), lerp3(0, o.y, k), lerp3(P.act.from.z, o.z, k)); P.yaw = o.yaw; xb.rotation.y = o.yaw; xb.rotation.x = (o.tilt || 0) * k; P.to.copy(xb.position).setY(0); }
     }
@@ -666,7 +933,19 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       if (P.dragging) { rx = -0.3; rz = k * (2.2 + Math.sin(t * 7) * 0.2); }
       arm.rotation.x = damp(arm.rotation.x, rx, 14, dt); arm.rotation.z = damp(arm.rotation.z, rz, 14, dt);
     });
-    R.cup.visible = pose === "tea" && !walking; R.book.visible = pose === "book" && !walking;
+    R.cup.visible = !playerZe && pose === "tea" && !walking;
+    R.book.visible = !playerZe && pose === "book" && !walking;
+    if (playerZe) { stepDuo(dt); if (!duo) snowStand.position.y = 0; }
+    if (playerZe) {
+      // 泽泽当玩家时：停下来 7 秒没人操作，也会自己做点小动作
+      const idleMe = !walking && !duo && !P.act && clock - (P.userT || 0) > 7;
+      if (!idleMe) pzCue = null;
+      else if (!pzCue || clock > pzCue.until + 2 + Math.random() * 3) { const g = ZE_GESTURES[Math.floor(Math.random() * ZE_GESTURES.length)]; pzCue = { id: g[0], t0: clock, until: clock + g[1] }; if (g[2]) emote(g[2], 3, xb.position.clone().setY(0.15)); }
+      const pc = pzCue && clock < pzCue.until ? pzCue : null;
+      ze.animate(t, walking, duo ? duo.id : P.act?.s.clip === "wave" ? "wave" : pc ? pc.id : "", Boolean(P.act?.s.hold), duo ? duo.t / duo.dur : pc ? (clock - pc.t0) / (pc.until - pc.t0) : 0.5, speed);
+    }
+    else if (window.XBZePose != null) ze.animate(t, false, window.XBZePose, false, 0.5, 1); // 调试：定住一个姿势看
+    else { stepZeNpc(dt, t); ze.animate(t, zeWalk, duo ? duo.id : zeFollow ? "hand" : t < zeCueUntil ? zeCue : "", false, duo ? duo.t / duo.dur : zeFollow ? 0.5 : Math.min(1, (t - zeCueT0) / Math.max(0.5, zeCueUntil - zeCueT0)), zeSpeed); }
     P.hugT = (P.hugT || 0) - dt;
     if (GLB.ready) stepGlb(dt, walking, speed);
     else R.book.position.set(0, 0.42 - sit * 0.2, 0.14);
@@ -689,9 +968,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (P.happyT > 0 || P.dragging) face = "happy"; if (nap) face = "closed";
     const fm = R.faces[face]; if (R.faceMat.map !== fm) { R.faceMat.map = fm; R.faceMat.needsUpdate = true; }
     // 出门时淡出
-    xb.visible = GLB.ready && P.opacity > 0.02;
+    xb.visible = (playerZe || GLB.ready) && P.opacity > 0.02 && !NOCHAR; // ?nochar：截图检查场景时把人藏起来
     if (P.opacity !== lastFadeOp) { lastFadeOp = P.opacity; const tr = P.opacity < 0.999; R.mats.forEach((m) => { if (m === R.faceMat) { m.opacity = P.opacity; return; } if (m.transparent !== tr) { m.transparent = tr; m.needsUpdate = true; } m.opacity = P.opacity; }); }
-    contact.visible = xb.visible; contact.position.set(xb.position.x, 0.014, xb.position.z);
+    contact.visible = xb.visible; contact.position.set(xb.position.x, P.sup + 0.014, xb.position.z);
     const cs = P.height * 0.42 * (1 + up * 1.2); contact.scale.set(cs, 1, cs * 0.8); contact.material.opacity = 0.42 * P.opacity * (1 - Math.min(0.7, up * 2.5));
   }
 
@@ -702,15 +981,18 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.12, 0.4, 0.93); composer.addPass(bloom);
   composer.addPass(new OutputPass());
   const grade = new ShaderPass({
-    uniforms: { tDiffuse: { value: null }, uVig: { value: 0.16 }, uSat: { value: 1.14 }, uAspect: { value: 1 } },
+    uniforms: { tDiffuse: { value: null }, uVig: { value: 0.16 }, uSat: { value: 1.14 }, uAspect: { value: 1 }, uBlack: { value: 0.025 }, uCon: { value: 0.42 }, uWB: { value: new THREE.Vector3(0.985, 1, 1.015) } },
     vertexShader: "varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }",
-    fragmentShader: `uniform sampler2D tDiffuse; uniform float uVig; uniform float uSat; uniform float uAspect; varying vec2 vUv;
+    fragmentShader: `uniform sampler2D tDiffuse; uniform float uVig; uniform float uSat; uniform float uAspect; uniform float uBlack; uniform float uCon; uniform vec3 uWB; varying vec2 vUv;
       void main(){
         vec4 c = texture2D(tDiffuse, vUv);
+        // 黑场：把整体发灰、像蒙了一层白纱的底子压下去
+        c.rgb = max(c.rgb - uBlack, 0.0) / (1.0 - uBlack);
+        // 白平衡：中间调稍微往中性/冷一点拉（原来暗部加了一层暖色，整体偏黄偏暖）
+        c.rgb *= mix(vec3(1.0), uWB, smoothstep(0.05, 0.6, dot(c.rgb, vec3(0.333))));
         float l = dot(c.rgb, vec3(0.299, 0.587, 0.114));
         c.rgb = mix(vec3(l), c.rgb, uSat);
-        c.rgb += vec3(0.014, 0.004, 0.0) * (1.0 - l);
-        c.rgb = mix(c.rgb, c.rgb * c.rgb * (3.0 - 2.0 * c.rgb), 0.42);
+        c.rgb = mix(c.rgb, c.rgb * c.rgb * (3.0 - 2.0 * c.rgb), uCon);
         c.rgb *= 1.0 - 0.16 * smoothstep(0.7, 1.0, l); // 亮处压一点，白墙和门外不发白刺眼
         vec2 q = (vUv - 0.5) * vec2(min(uAspect, 1.0) * 1.15, 1.0);
         c.rgb *= 1.0 - uVig * smoothstep(0.25, 0.85, length(q) * 1.25);
@@ -722,14 +1004,15 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   // ---------- 时间与天气 ----------
   const lerp = (a, b, t) => a + (b - a) * t;
   const C = (c) => new THREE.Color(c);
-  const cur = {};
+  const cur = {}, _wb = new THREE.Vector3();
   // env: { hour, weather: sunny|blossom|rainy|night, lamp }
   function look(env) {
     const h = env.hour, night = env.weather === "night", rain = env.weather === "rainy", snowy = env.weather === "snowy";
     const day = Math.max(0, Math.sin(((h - 6) / 13.6) * Math.PI)), warm = 1 - Math.min(1, day * 1.7);
     const lampOn = env.lamp;
     // 下雪：阴天的天空但雪地反光，整体亮一些、偏冷白
-    if (snowy) return { sky: "rain", sunI: 0.9, sunC: C("#f2f6ff"), env: 0.62, bgI: 0.78, hemi: 0.62, fill: 1.6, fb: 0.4, exp: 1.12, chI: lampOn ? 1.8 : 0, candI: lampOn ? 0.7 : 0, rain: 0, petals: 0, shaft: 0.02, elev: 0.5, xbE: 0.12 };
+    // 下雪：原来环境光、窗光、曝光一起拉高，画面发白发平。改成：太阳稍亮出影子、环境光和曝光收回来，靠黑场和对比把层次找回来
+    if (snowy) return { sky: "rain", sunI: 1.05, sunC: C("#eef3ff"), env: 0.4, bgI: 0.6, hemi: 0.42, fill: 1.0, fb: 0.22, exp: 0.94, black: 0.06, con: 0.52, wb: [0.965, 1.0, 1.035], sat: 1.08, chI: lampOn ? 1.8 : 0, candI: lampOn ? 0.7 : 0, rain: 0, petals: 0, shaft: 0.02, elev: 0.5, xbE: 0.12 };
     return {
       sky: night ? "night" : rain ? "rain" : warm > 0.55 ? "dusk" : "day",
       sunI: night ? 0.5 : rain ? 0 : 0.8 + day * 1.1, /* 白天太阳收着点，正午不刺眼 */ sunC: night ? C("#9fb6ff") : C("#fff4e0").lerp(C("#ffa864"), warm * 0.85),
@@ -737,7 +1020,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       hemi: night ? 0.12 : rain ? 0.5 : 0.4 + day * 0.12, fill: night ? 0.2 : rain ? 1.4 : 0.85 + day * 0.3, fb: night ? 0 : rain ? 0 : 0.22 + day * 0.2, // 门口的窗光、地上反光压低，进门不刺眼
       exp: night ? 1.35 : rain ? 1.15 : 0.9 - day * 0.1,
       chI: lampOn ? (night ? 3.4 : 1.8) : 0, candI: lampOn ? 0.7 : 0,
-      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.015 + day * 0.02, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12
+      rain: 0, petals: env.weather === "blossom" ? 1 : 0, shaft: night ? 0.0 : rain ? 0 : 0.015 + day * 0.02, elev: night ? 0.55 : 0.2 + day * 0.62, xbE: night ? 0.05 : 0.12,
+      black: night ? 0.018 : rain ? 0.045 : 0.04, con: night ? 0.38 : rain ? 0.48 : 0.46, wb: night ? [1, 1, 1.01] : warm > 0.55 ? [1, 0.995, 0.99] : [0.98, 1, 1.02], sat: night ? 1.1 : 1.12
     };
   }
   const _up = new THREE.Vector3(0, 1, 0), _m = new THREE.Matrix4();
@@ -776,7 +1060,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   }
   const _dir = new THREE.Vector3(), _tgt = new THREE.Vector3();
   const camRay = new THREE.Raycaster(); camRay.camera = camera; let camT = 0, camHit = Infinity; // 带上 camera，射线碰到 Sprite 不报错
-  const camBlock = [ent.root, ...fh.blockers, ...extras.solid, ...garden.root.children.filter((o) => o.name !== "ground" && !o.userData.noHit && !o.isPoints && !o.isSprite)];
+  const camBlock = [fireplace.root, ent.root, ...fh.blockers, ...extras.solid, ...garden.root.children.filter((o) => o.name !== "ground" && !o.userData.noHit && !o.isPoints && !o.isSprite)];
+  propHit = camBlock.filter((o) => o && o.matrixWorld); topCache.clear(); ringCache.clear();
   function stepCamera(dt) {
     // 松手后的惯性
     if (!view.held) { view.yawT += view.vYaw * 0.6; view.pitchT = THREE.MathUtils.clamp(view.pitchT + view.vPitch * 0.6, view.minPitch, view.maxPitch); view.vYaw *= Math.exp(-dt * 5); view.vPitch *= Math.exp(-dt * 5); }
@@ -811,7 +1096,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   const puffs = Array.from({ length: 4 }, () => { const m = new THREE.Mesh(ringGeo, ringMat()); m.renderOrder = 4; m.userData = { t: 9, s: 1, noHit: true }; scene.add(m); return m; });
   let puffK = 0, tgt = null;
   const groundY = (x, z) => (z < garden.Z0 ? garden.heightAt(x, z) : 0) + 0.012;
-  function ringPuff(x, z, s = 0.7) { const m = puffs[puffK++ % puffs.length]; m.position.set(x, groundY(x, z) + 0.002, z); m.userData.t = 0; m.userData.s = s; }
+  function ringPuff(x, z, s = 0.7, y) { const m = puffs[puffK++ % puffs.length]; m.position.set(x, (y ?? groundY(x, z)) + 0.002, z); m.userData.t = 0; m.userData.s = s; }
   function mark(x, z) { const c = walkClamp(x, z); tgt = { x: c.x, z: c.z, t: 0, done: false }; ringPuff(c.x, c.z, 0.5); }
   function stepRing(dt, t) {
     if (tgt) {
@@ -834,6 +1119,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     bounce.intensity = cur.hemi; windowFill.intensity = cur.fill; floorBounce.intensity = cur.fb;
     for (const k of ["chI", "candI"]) cur[k] = lerp(cur[k] ?? L[k], L[k], Math.min(1, e * 2));
     cur.sunC = (cur.sunC || L.sunC.clone()).lerp(L.sunC, e);
+    cur.black = lerp(cur.black ?? L.black, L.black, e); cur.con = lerp(cur.con ?? L.con, L.con, e); cur.sat = lerp(cur.sat ?? L.sat, L.sat, e);
+    cur.wb = (cur.wb || new THREE.Vector3(...L.wb)).lerp(_wb.set(...L.wb), e);
+    grade.uniforms.uBlack.value = cur.black; grade.uniforms.uCon.value = cur.con; grade.uniforms.uSat.value = cur.sat; grade.uniforms.uWB.value.copy(cur.wb);
     sun.intensity = cur.sunI; sun.color.copy(cur.sunC); scene.environmentIntensity = cur.env; scene.backgroundIntensity = cur.bgI; renderer.toneMappingExposure = cur.exp;
     const flick = 1 + Math.sin(t * 7.3) * 0.015 + Math.sin(t * 3.1) * 0.02;
     chand.intensity = cur.chI * flick; chGlow.material.opacity = Math.min(1, cur.chI / 4) * 0.06;
@@ -849,11 +1137,12 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (view.focus.z < garden.Z0) sun.target.position.set(Math.round(view.focus.x * 2) / 2, 0, Math.round(view.focus.z * 2) / 2); else sun.target.position.set(0, 0, -2.4);
     setSunDir(cur.elev, env.hour);
     const genv = { night: env.weather === "night", dusk: L.sky === "dusk", rain: env.weather === "rainy", snow: env.weather === "snowy" };
+    fireplace.update(dt, t, genv.night, camera); wishTree.update(dt, t);
     garden.update(dt, t, genv); ent.update(dt, t, genv); fh.update(dt, t, genv, xb.position); extras.update(dt, t, genv, xb.position);
     rain.position.set(view.focus.z < garden.Z0 ? view.focus.x : 0, 0, view.focus.z < garden.Z0 ? view.focus.z + D + 1.9 : 0);
-    stepMarkers(dt, t);
-    if (genv.snow && !snowReady) { snowReady = true; wx.snowifyTree(scene, (o) => o === xb); } // 后加载的东西补一次
-    wx.update(dt, t, { rain: genv.rain, snow: genv.snow, focus: view.focus, camera, height: renderer.domElement.clientHeight || 600, hand: GLB.hands?.[1], xb, xbOut: xb.position.z < garden.Z0 - 0.3, ripple: garden.rainRipple });
+    stepMarkers(dt, t); stepFocus(dt, t);
+    if (genv.snow && !snowReady) { snowReady = true; wx.snowifyTree(scene, (o) => o === xb || o === ze.root || o === snowStand || o === fireplace.root); } // 后加载的东西补一次
+    wx.update(dt, t, { rain: genv.rain, snow: genv.snow, focus: view.focus, camera, height: renderer.domElement.clientHeight || 600, hand: playerZe ? null : GLB.hands?.[1], xb, xbOut: xb.position.z < garden.Z0 - 0.3, ripple: garden.rainRipple });
     stepRing(dt, t);
     rainMat.opacity = cur.rain; rain.visible = cur.rain > 0.01;
     if (rain.visible) { const a = rainGeo.attributes.position.array; for (let i = 0; i < RN; i++) { const o = i * 6; let y = a[o + 1] - dt * 7.5; if (y < -0.3) y += 4.1; a[o + 1] = y; a[o + 4] = y - 0.16; } rainGeo.attributes.position.needsUpdate = true; }
@@ -863,6 +1152,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     Object.values(sprites).forEach((s) => { const u = s.userData; u.liftV += ((0 - u.lift) * 220 - u.liftV * 14) * dt; u.lift += u.liftV * dt * 0.06; s.position.y = u.base.y + u.lift; if (u.spin) u.spin.rotation.y += dt * 0.25; if (s.isMesh) s.rotation.y = Math.atan2(camera.position.x - s.position.x, camera.position.z - s.position.z); s.userData.shadow.visible = s.visible; });
     stepChar(dt, t);
     stepCamera(dt);
+    if (window.XBCam) { const c = window.XBCam; camera.position.set(c[0], c[1], c[2]); camera.lookAt(c[3], c[4], c[5]); } // 调试截图用：固定镜头
     composer.render();
   }
 
@@ -871,7 +1161,73 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function floorAt(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); const hit = new THREE.Vector3(); return ray.ray.intersectPlane(floor, hit) ? hit : null; }
   function hitChar(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return xb.visible && ray.intersectObject(xb, true).length > 0; }
   // ---------- 能点的东西：头顶一个会上下浮的小牌子（手机上更大），点牌子或点物件都算 ----------
-  const ALL = [...extras.spots, ...fh.spots, ...garden.spots, ...ent.spots], SPOTS = {}; ALL.forEach((s) => { SPOTS[s.id] = s; });
+  // 屋里能做的事：壁炉烤火、两张沙发坐下（坐垫高 0.43，比长椅低一点）
+  const FPX = -W / 2 + 0.95;
+  const houseSpots = [
+    { id: "fireplace", name: "壁炉", icon: "🔥", verb: "烤火", at: [-W / 2 + 0.3, 1.45, FP.z], spot: { x: FPX, z: FP.z }, face: -Math.PI / 2, pick: [fireplace.root], clip: "wait", dur: 4.2, fx: "warm",
+      lines: ["好暖和～", "手都暖起来了。", "火苗在跳舞。", "冬天就该这样待着。"] },
+    ...[-1, 1].map((k) => ({ id: k < 0 ? "sofaL" : "sofaR", name: "沙发", icon: "🛋", verb: "坐下", noMarker: true, at: [k * 1.42, 0.9, -2.15], spot: { x: k * 0.92, z: -2.15 }, exit: { x: k * 0.92, z: -2.15 },
+      face: k < 0 ? Math.PI / 2 : -Math.PI / 2, pick: [], clip: "sit", dur: Infinity, lines: ["沙发好软～", "坐一会儿。", "陷进去啦。"],
+      hold: () => ({ x: k * 1.4, y: 0.135, z: -2.15, yaw: k < 0 ? Math.PI / 2 : -Math.PI / 2 }) }))
+  ];
+  const ALL = [zeSpot, ...houseSpots, ...wishTree.spots, ...extras.spots, ...fh.spots, ...garden.spots, ...ent.spots], SPOTS = {}; ALL.forEach((s) => { SPOTS[s.id] = s; });
+  // 情景键上显示的动词（走到旁边时右下角那颗按钮变成这个）
+  const VERB = { fountain: "许愿", pond: "钓鱼", swing: "荡秋千", mushroom: "蹦蘑菇", bench: "坐下", arch: "闻闻玫瑰", letter: "读情书", albums: "看照片", videos: "看回忆",
+    comic: "看漫画", stories: "听故事", "milk-tea": "买奶茶", messages: "说悄悄话", "star-post": "寄星星信", gramophone: "放音乐", figures: "进手办屋", "ze-npc": "找泽泽", "wish-tree": "读愿望", "pet-cat": "摸摸猫", "pet-bunny": "摸摸兔", "pet-husky": "摸摸狗" };
+  ALL.forEach((s0) => { s0.verb ||= VERB[s0.id] || s0.cta || s0.name; });
+  if (SPOTS.pond) Object.assign(SPOTS.pond, { clip: "wait", dur: 4.6, fish: true, lines: ["钓到一条小锦鲤！看一眼就放回去～", "咬钩啦！是一片睡莲叶……", "钓到了！小鱼说它想回家，放它走啦。", "嘘——鱼要来了。"] });
+  // 离雪宝最近、够得着的那件（互动点在 1.5 米内；进页面的入口按物件位置算）
+  const _sp = new THREE.Vector3();
+  function nearestSpot() {
+    const p = xb.position, inside = p.z > -D - 0.1; let best = null, bd = 1e9;
+    for (const s0 of ALL) {
+      if (s0.available?.() === false || !s0.verb || s0.id.startsWith("wish-") && s0.id !== "wish-tree") continue;
+      const tx = s0.spot ? s0.spot.x : s0.at[0], tz = s0.spot ? s0.spot.z : s0.at[2];
+      if ((tz > -D - 0.1) !== inside) continue;
+      const lim = s0.near || (s0.spot ? 1.3 : 1.7), d = Math.hypot(tx - p.x, tz - p.z);
+      if (d < lim && d < bd) { bd = d; best = s0; }
+    }
+    return best;
+  }
+  // ---------- 登记能跳上去的东西（尺寸按模型实测） ----------
+  {
+    const _p = new THREE.Vector3();
+    // 局部坐标 (lx,lz) 的一块：跟着物件的位置和朝向换到世界坐标
+    const local = (obj, lx, lz, def) => {
+      obj.updateMatrixWorld(true); _p.set(lx, 0, lz); obj.localToWorld(_p);
+      const base = obj.getWorldPosition(new THREE.Vector3()).y;
+      const yaw = new THREE.Euler().setFromQuaternion(obj.getWorldQuaternion(new THREE.Quaternion()), "YXZ").y;
+      PLATS.push({ ...def, x: _p.x, z: _p.z, yaw: -yaw, top: base + def.top, bottom: base + (def.bottom || 0) });
+    };
+    const pick0 = (id) => SPOTS[id]?.pick?.[0];
+    // 屋里：两张沙发（坐垫 0.43，靠背一侧 0.8）、茶几 0.3、梳妆台 0.95
+    [-1, 1].forEach((k) => {
+      PLATS.push({ x: k * 1.42, z: -2.15, hx: 0.25, hz: 0.79, top: 0.43 });
+      PLATS.push({ x: k * 1.74, z: -2.15, hx: 0.09, hz: 0.79, top: 0.8 });
+    });
+    PLATS.push({ x: 0, z: -2.15, r: 0.4, top: 0.3 });
+    PLATS.push({ x: -2.39, z: -2.2, hx: 0.29, hz: 0.77, top: 0.95 });
+    // 花园：长椅、秋千座板（悬空）、奶茶推车台面、小茶座的桌椅和伞杆、蘑菇、树桩故事书
+    if (pick0("bench")) local(pick0("bench"), 0, -0.04, { hx: 0.55, hz: 0.2, top: 0.47 });
+    PLATS.push({ x: -2.7, z: -15.6, hx: 0.31, hz: 0.11, top: 0.5, bottom: 0.4 });
+    const cart = pick0("milk-tea");
+    if (cart) {
+      local(cart, 0, 0.01, { hx: 0.53, hz: 0.31, top: 0.77 });
+      local(cart, 1.05, 0.55, { r: 0.28, top: 0.645 });
+      local(cart, 1.05, 0.55, { r: 0.05, top: 2.2, bottom: 0.66 }); // 阳伞杆：站在桌上也会挡一下
+      [0.9, 0.9 + Math.PI].forEach((a) => local(cart, 1.05 + Math.cos(a) * 0.45, 0.55 + Math.sin(a) * 0.45, { r: 0.15, top: 0.475 }));
+    }
+    // 头顶：推车和阳伞上离地 1.2 米以上、够大的部件（伞面、车篷）各算一块“天花板”
+    const ceilFrom = (obj, above = 1.2) => {
+      if (!obj) return; obj.updateMatrixWorld(true); const base = obj.getWorldPosition(new THREE.Vector3()).y, b = new THREE.Box3();
+      obj.traverse((m) => { if (!m.isMesh) return; b.setFromObject(m); const w = b.max.x - b.min.x, d = b.max.z - b.min.z;
+        if (b.min.y > base + above && w > 0.3 && d > 0.3) CEILS.push({ x0: b.min.x, x1: b.max.x, z0: b.min.z, z1: b.max.z, bottom: b.min.y }); });
+    };
+    ceilFrom(cart);
+    (SPOTS.swing?.pick || []).forEach((g) => ceilFrom(g, 1.3));
+    (SPOTS.mushroom?.pick || []).forEach((g, i) => { const b = new THREE.Box3().setFromObject(g), c = b.getCenter(new THREE.Vector3()); PLATS.push({ x: c.x, z: c.z, r: (b.max.x - b.min.x) / 2 * 0.92, top: b.max.y - 0.03 }); });
+    PLATS.push({ x: -3, z: -8.4, r: 0.5, top: 0.44 });
+  }
   const markers = [];
   function badge(icon, name, enter) {
     const c = document.createElement("canvas"); c.width = 256; c.height = enter ? 240 : 200; const g = c.getContext("2d");
@@ -898,28 +1254,62 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function stepMarkers(dt, t) {
     const big = mobile ? 1.35 : 1, xp = xb.position, inside = xp.z > -D - 0.1;
     _near.length = 0;
-    markers.forEach((m) => { const u = m.userData, dx = m.position.x - xp.x, dz = m.position.z - xp.z, dd = Math.hypot(dx, dz); u.dd = dd; if ((m.position.z > -D) === inside && dd < (u.far > 11 ? 8 : 6)) _near.push(m); });
+    markers.forEach((m) => { const u = m.userData; if (SPOTS[u.id].available?.() === false) return; const dx = m.position.x - xp.x, dz = m.position.z - xp.z, dd = Math.hypot(dx, dz); u.dd = dd; if ((m.position.z > -D) === inside && dd < (u.far > 11 ? 8 : 6)) _near.push(m); });
     _near.sort((a, b) => a.userData.dd - b.userData.dd); const show = new Set(_near.slice(0, 5));
     markers.forEach((m, i) => {
       const u = m.userData, d = camera.position.distanceTo(m.position), busy = char.act?.s.id === u.id || char.pending?.id === u.id;
-      const want = !busy && !view.peek && show.has(m) && char.opacity > 0.5 ? 1 : 0; u.k = damp(u.k, want, 5, dt);
+      // 情景键指着某一件时，别的牌子淡一点，主次分明
+      const want = !busy && !view.peek && show.has(m) && char.opacity > 0.5 ? (focusS && focusS.id !== u.id ? 0.45 : 1) : 0; u.k = damp(u.k, want, 5, dt);
       m.visible = u.k > 0.02; m.material.opacity = u.k;
       const s = THREE.MathUtils.clamp(d * 0.09, 0.24, 0.85) * big * (0.9 + 0.1 * u.k); m.scale.set(s * 1.28, s * u.tall, 1); // 屏幕上大小差不多一致
       m.position.y = u.base + Math.sin(t * 2.2 + i) * 0.05;
       const r = u.ring; if (!r) return; r.visible = char.pending?.id === u.id; if (r.visible) { const f = (t * 1.4) % 1; r.scale.setScalar(0.7 + f * 0.9); r.material.opacity = (1 - f) * 0.9; }
     });
   }
+  // ---------- 情景键指着谁：目标头上一个上下跳的小箭头（和右下角情景键同一个图标），走近了一眼就知道按下去会跟谁互动 ----------
+  const focusTex = {};
+  function arrowTex(icon) {
+    if (focusTex[icon]) return focusTex[icon];
+    const c = document.createElement("canvas"); c.width = 128; c.height = 160; const g = c.getContext("2d");
+    g.fillStyle = "#f38aa5"; g.beginPath(); g.moveTo(44, 108); g.lineTo(84, 108); g.lineTo(64, 152); g.closePath(); g.fill();
+    g.fillStyle = "#fff"; g.beginPath(); g.arc(64, 62, 54, 0, 7); g.fill(); g.lineWidth = 8; g.strokeStyle = "#f38aa5"; g.stroke();
+    g.font = "60px 'Apple Color Emoji','Segoe UI Emoji',sans-serif"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(icon, 64, 66);
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return (focusTex[icon] = t);
+  }
+  const focusSp = new THREE.Sprite(new THREE.SpriteMaterial({ transparent: true, depthTest: false, depthWrite: false })); focusSp.center.set(0.5, 0); focusSp.renderOrder = 20; focusSp.visible = false; scene.add(focusSp);
+  let focusS = null, focusK = 0; const _fb = new THREE.Box3(), _fc = new THREE.Vector3();
+  function setFocus(s) { if (s === focusS) return; focusS = s; if (s) { focusSp.material.map = arrowTex(s.icon || "✨"); focusSp.material.needsUpdate = true; focusK = 0; } }
+  function stepFocus(dt, t) {
+    const s = focusS, busy = s && (char.act?.s.id === s.id || char.pending?.id === s.id);
+    if (!s || busy || view.peek) { focusSp.visible = false; return; }
+    const m = markers.find((q) => q.userData.id === s.id && q.visible);
+    if (m) _fc.set(m.position.x, m.position.y + m.scale.y + 0.03, m.position.z);
+    else if (s.pet) { _fb.setFromObject(s.pet.g); _fb.getCenter(_fc); _fc.y = _fb.max.y + 0.1; } // 小动物会跑，按模型实际位置；泽泽是蒙皮模型，算包围盒太贵，用互动点
+    else _fc.set(s.at[0], s.at[1] + 0.45, s.at[2]);
+    focusK = Math.min(1, focusK + dt * 4);
+    const d = camera.position.distanceTo(_fc), k = THREE.MathUtils.clamp(d * 0.055, 0.16, 0.5) * (mobile ? 1.25 : 1) * (0.6 + 0.4 * Math.min(1, focusK * 1.6));
+    focusSp.scale.set(k * 0.8, k, 1); focusSp.position.copy(_fc); focusSp.position.y += Math.abs(Math.sin(t * 4)) * 0.07;
+    focusSp.material.opacity = focusK; focusSp.visible = true;
+  }
   // 屏幕点 → 能点的东西（先看牌子，再看物件本身）
   function pick(nx, ny) {
     ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera);
     const mh = ray.intersectObjects(markers.filter((m) => m.visible), false)[0]; if (mh) return mh.object.userData.id;
-    const objs = ALL.flatMap((s) => s.pick.map((o) => ({ o, id: s.id })));
-    let best = null; objs.forEach(({ o, id }) => { const h = ray.intersectObject(o, true)[0]; if (h && (!best || h.distance < best.d)) best = { d: h.distance, id }; });
-    if (!best) return null;
+    const objs = ALL.filter((s) => s.available?.() !== false).flatMap((s) => s.pick.map((o) => ({ o, id: s.id })));
+    const hits = []; objs.forEach(({ o, id }) => { const h = ray.intersectObject(o, true)[0]; if (h) hits.push({ d: h.distance, id }); });
+    if (!hits.length) return null;
+    hits.sort((a, b) => a.d - b.d);
+    // 几件东西前后挨得很近（比如秋千和后面的树洞）：选标记点离手指最近的那件，而不是光看谁的模型先被射线碰到
+    let best = hits[0];
+    const close = hits.filter((h, i, arr) => h.d < hits[0].d + 0.6 && arr.findIndex((q) => q.id === h.id) === i);
+    if (close.length > 1) {
+      let bs = 1e9;
+      close.forEach((h) => { const a = SPOTS[h.id].at; _sp.set(a[0], a[1] * 0.6, a[2]).project(camera); const ds = Math.hypot((_sp.x + 1) / 2 - nx, (1 - _sp.y) / 2 - ny); if (ds < bs) { bs = ds; best = h; } });
+    }
     // 中间要是隔着墙／别的东西就不算
     const first = groundHit(true); return first && first.distance + 0.05 < best.d ? null : best.id;
   }
-  function interact(id) { const s = SPOTS[id]; if (!s) return null; if (!s.href && !s.action) char.pending = s; return s; }
+  function interact(id) { const s = SPOTS[id]; if (!s || s.available?.() === false) return null; if (!s.href && !s.action) char.pending = s; return s; }
   // 进入分页面前：镜头凑近那件东西
   function peek(s) { view.peek = new THREE.Vector3(...s.at).add(new THREE.Vector3(0, -0.35, 0)); view.distT = 1.5; view.held = false; }
   // 屏幕点 → 地面（打到墙、家具上就不算）
@@ -937,5 +1327,138 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function groundAt(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); const h = groundHit(); return h ? h.point : null; }
   function setCanvasCard(id, url) { const m = canvases[id]; if (!m || m.userData.url === url) return; m.userData.url = url; m.map = cardTex(url); m.needsUpdate = true; }
 
-  return { THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx };
+  function setPlayer(role, phase) {
+    const isZe = role === "泽";
+    if (isZe !== playerZe) {
+      playerZe = isZe;
+      const parent = isZe ? xb : scene;
+      parent.add(ze.root);
+      ze.root.scale.setScalar(isZe ? 1 : .92);
+      ze.root.position.set(isZe ? 0 : zeHome.x, 0, isZe ? 0 : zeHome.z);
+      ze.root.rotation.y = isZe ? 0 : Math.PI / 2;
+      if (GLB.model) (isZe ? snowStand : xb).add(GLB.model);
+      char.pending = null; char.stopFollow(); char.endAct();
+      if (isZe) char.goTo(zeApproach, true);
+    }
+    if (phase !== playerPhase || !snowStand.visible) {
+      const atDoor = phase === "back" || phase === "waiting";
+      snowStand.position.set(atDoor ? 0 : .73, 0, atDoor ? -D+.85 : -1.39);
+      snowStand.rotation.y = 0;
+      playerPhase = phase;
+    }
+    snowStand.visible = isZe && ["home", "back", "waiting"].includes(phase);
+    const player = isZe ? "ze" : "snow";
+    if (host.dataset.player !== player) host.dataset.player = player;
+  }
+  function zeAction(action) {
+    if (playerZe) return;
+    if (["hug", "kiss", "lift", "five", "hand"].includes(action)) { duoAct(action); return; }
+    zeCue = action; zeCueUntil = clock + 2; zeCueT0 = clock;
+    if (action === "talk") return;
+    char.endAct();
+    const p = xb.position;
+    char.act = { s: { id: "ze-reply", clip: action === "wave" ? "wave" : "wow", dur: 1.8,
+      face: Math.atan2(ze.root.position.x - p.x, ze.root.position.z - p.z) }, t: 0, from: p.clone() };
+  }
+  // 雪宝在不在泽泽身边（屋里、1.6 米内）
+  function duoReady() {
+    if (playerZe) return snowStand.visible && Math.hypot(xb.position.x - snowStand.position.x, xb.position.z - snowStand.position.z) < 1.8;
+    const zp = ze.root.position; return ze.root.visible && xb.visible && Math.hypot(xb.position.x - zp.x, xb.position.z - zp.z) < 1.6 && char.opacity > 0.5;
+  }
+  // 两个人一起的动作：雪宝挪到泽泽面前合适的距离，两个人面对面；举高高时雪宝被抱起来
+  const DUO = {
+    hug: { dist: 0.3, dur: 2.8, clip: "hug", fx: ["heart", 0.6] },
+    kiss: { dist: 0.33, dur: 2.6, clip: "wow", fx: ["kiss", 1.0] },
+    lift: { dist: 0.27, dur: 3.2, clip: "wow", fx: ["star", 1.2] },
+    five: { dist: 0.5, dur: 1.7, clip: "wave", fx: ["spark", 0.55] },
+    hand: { dist: 0.42, dur: 1.2, clip: "wave" }
+  };
+  let duoPending = null;
+  function duoAct(id) {
+    if (duo) return false;
+    // 离得有点远：先跑到泽泽面前再做
+    if (!duoReady()) {
+      if (playerZe || !ze.root.visible || char.opacity < 0.5 || Math.hypot(xb.position.x - ze.root.position.x, xb.position.z - ze.root.position.z) > 9) return false;
+      duoPending = id; char.endAct(); char.goTo({ ...zeSpot.spot, run: true }); return true;
+    }
+    if (id === "hand") { zeFollow = !zeFollow; if (!zeFollow) return true; }
+    const D0 = DUO[id], zp = playerZe ? snowStand.position : ze.root.position, p = xb.position;
+    let dx = p.x - zp.x, dz = p.z - zp.z; const L0 = Math.hypot(dx, dz) || 1; dx /= L0; dz /= L0;
+    const yawToSnow = Math.atan2(dx, dz);
+    duo = { id, t: 0, dur: D0.dur, fxDone: false, D: D0, zp: zp.clone(), dir: { x: dx, z: dz } };
+    if (!playerZe) zeYaw = yawToSnow;
+    char.endAct(); char.path = [];
+    // 雪宝这边：hold() 每帧给出位置和朝向（举高高会离地）
+    const meX = zp.x + dx * D0.dist, meZ = zp.z + dz * D0.dist;
+    char.act = { s: { id: "_duo-" + id, clip: D0.clip, dur: D0.dur, face: yawToSnow + Math.PI,
+      hold: () => { const k = duo ? duo.t / duo.dur : 1, up = id === "lift" ? Math.sin(Math.min(1, k * 1.15) * Math.PI) * 0.32 + Math.max(0, Math.sin(k * Math.PI * 6)) * 0.04 * Math.sin(Math.min(1, k * 1.15) * Math.PI) : id === "kiss" ? Math.sin(Math.min(1, k * 1.4) * Math.PI) * 0.06 : 0;
+        if (playerZe) { snowStand.position.y = up; snowStand.rotation.y = yawToSnow; } // 泽泽当玩家时，被举起来的是站着的雪宝
+        return { x: meX, y: playerZe ? 0 : up, z: meZ, yaw: yawToSnow + Math.PI + (id === "lift" ? Math.sin(k * Math.PI * 2) * 0.35 : 0), tilt: id === "lift" ? -0.15 * Math.sin(k * Math.PI) : 0 }; } }, t: 0, from: p.clone() };
+    return true;
+  }
+  function stepDuo(dt) {
+    if (!duo) return; duo.t += dt;
+    const f = duo.D.fx;
+    if (f && !duo.fxDone && duo.t > f[1]) { duo.fxDone = true; const mid = new THREE.Vector3((xb.position.x + duo.zp.x) / 2, 0.75, (xb.position.z + duo.zp.z) / 2);
+      if (f[0] === "spark") twinkle(mid.x, 0.95, mid.z); emote(f[0], f[0] === "spark" ? 3 : 5, mid); onDuo?.(duo.id); }
+    if (duo.t >= duo.dur) duo = null;
+  }
+  let onDuo = null;
+  // NPC 泽泽：平时站在壁炉边；雪宝在附近就转过去看她；牵着手时跟在她身边走
+  const _zt = new THREE.Vector3();
+  let zeIdleT = 0, zeIdleNext = 5, zeWander = null, pzCue = null, zePath = null;
+  const ZE_GESTURES = [["stretch", 2.6, null], ["think", 3.2, null], ["yawn", 2.4, "zzz"], ["look", 3.4, null], ["scratch", 2.2, null], ["watch", 2.4, null], ["talk", 2.6, "note"]];
+  // 他会去的地方：壁炉前（烤火）、窗边（看外面）、沙发边（想事情）、茶几旁（东张西望）
+  const ZE_PLACES = [
+    { x: -W / 2 + 0.8, z: FP.z, yaw: -Math.PI / 2, cue: "warm", dur: 5, fx: "warm" },
+    { x: 0.55, z: -D + 0.95, yaw: Math.PI, cue: "look", dur: 4.5, fx: null },
+    { x: -0.95, z: -1.35, yaw: -2.2, cue: "think", dur: 3.6, fx: null },
+    { x: 0.9, z: -1.2, yaw: 2.4, cue: "stretch", dur: 2.6, fx: null }
+  ];
+  function zeIdleCue(cue, dur, fx) {
+    zeCue = cue; zeCueT0 = clock; zeCueUntil = clock + dur;
+    if (fx && ze.root.visible) emote(fx, fx === "zzz" ? 3 : 4, ze.root.position.clone().setY(0.15));
+  }
+  function stepZeNpc(dt, t) {
+    stepDuo(dt);
+    if (duoPending && !char.walking && !char.path.length) { const id = duoPending; duoPending = null; if (duoReady()) duoAct(id); }
+    if (duoPending && char.drive) duoPending = null; // 半路自己操作了就算了
+    const zp = ze.root.position, p = xb.position, inside = p.z > -D - 0.1;
+    ze.root.visible = !NOCHAR;
+    // 没人管他：隔一会儿自己找点事做——原地伸懒腰/托腮/打哈欠/东张西望/挠头/看表，雪宝在附近就挥挥手；
+    // 或者溜达到壁炉前烤火、窗边看外面、沙发边发呆，过一阵再回原位
+    const zeBusy = zeWalk || duo || zeFollow || clock < zeCueUntil;
+    if (zeBusy) zeIdleT = clock; // 按时钟算“闲了多久”，不受掉帧影响
+    if (clock - zeIdleT > zeIdleNext) {
+      zeIdleT = clock; zeIdleNext = 4 + Math.random() * 6;
+      const dSnow = Math.hypot(p.x - zp.x, p.z - zp.z), r = Math.random();
+      if (dSnow < 3.5 && inside && r < 0.22) zeIdleCue("wave", 2.2, "heart");
+      else if (r < 0.55 && !zeWander) {
+        const opts = ZE_PLACES.filter((q) => Math.hypot(q.x - zp.x, q.z - zp.z) > 0.6 && WM.walkable(q.x, q.z));
+        zeWander = opts.length ? opts[Math.floor(Math.random() * opts.length)] : null;
+      } else {
+        const g = ZE_GESTURES[Math.floor(Math.random() * ZE_GESTURES.length)]; zeIdleCue(g[0], g[1], g[2]);
+      }
+    }
+    let tx = zeWander ? zeWander.x : zeHome.x, tz = zeWander ? zeWander.z : zeHome.z;
+    if (zeWander && Math.hypot(tx - zp.x, tz - zp.z) < 0.07 && !zeWander.arrived) { zeWander.arrived = clock; zeYaw = zeWander.yaw; zeIdleCue(zeWander.cue, zeWander.dur, zeWander.fx); }
+    if (zeWander?.arrived && clock - zeWander.arrived > zeWander.dur + 2.5) zeWander = null; // 待够了回原位
+    if (zeFollow || duo) zeWander = null;
+    if (zeFollow) { if (char.opacity < 0.5) zeFollow = false; else { tx = p.x - Math.cos(char.yaw) * 0.42; tz = p.z + Math.sin(char.yaw) * 0.42; } } // 牵着手：走在雪宝左边
+    if (duo) { tx = zp.x; tz = zp.z; }
+    // 去远一点的地方（溜达、回原位）走 walkmap 找的路，绕开茶几沙发；牵手跟随时目标一直在动，直接走
+    if (!zeFollow && !duo && Math.hypot(tx - zp.x, tz - zp.z) > 0.12) {
+      if (!zePath || Math.hypot(zePath.tx - tx, zePath.tz - tz) > 0.1) zePath = { tx, tz, pts: WM.path(zp.x, zp.z, tx, tz) || [] };
+      while (zePath.pts.length > 1 && Math.hypot(zePath.pts[0].x - zp.x, zePath.pts[0].z - zp.z) < 0.1) zePath.pts.shift();
+      if (zePath.pts.length) { tx = zePath.pts[0].x; tz = zePath.pts[0].z; }
+    } else zePath = null;
+    const dx = tx - zp.x, dz = tz - zp.z, d = Math.hypot(dx, dz);
+    zeWalk = d > 0.06 && !duo; zeSpeed = d > 1.2 ? 2.4 : 1.2;
+    if (zeWalk) { const st = Math.min(d, dt * zeSpeed), n = WM.slide(zp.x, zp.z, dx / d * st, dz / d * st); zp.x = n.x; zp.z = n.z; zeYaw = Math.atan2(dx, dz); }
+    else if (!duo && !zeWander?.arrived) { const dd = Math.hypot(p.x - zp.x, p.z - zp.z); zeYaw = zeFollow ? char.yaw : dd < 3.2 && inside && clock >= zeCueUntil ? Math.atan2(p.x - zp.x, p.z - zp.z) : clock < zeCueUntil ? zeYaw : 1.0; }
+    ze.root.rotation.y = angDamp(ze.root.rotation.y, zeYaw, 6, dt);
+    zeSpot.at[0] = zp.x; zeSpot.at[2] = zp.z; zeSpot.spot = { x: zp.x + Math.sin(ze.root.rotation.y) * 0.55, z: zp.z + Math.cos(ze.root.rotation.y) * 0.55 };
+  }
+
+  return { setFocus, THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx, wishTree, fireplace, setPlayer, zeAction, nearestSpot, tossCoin, duoReady, duoAct, onDuo(f) { onDuo = f; }, get zeFollow() { return zeFollow; }, pickEma(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return ray.intersectObjects(wishTree.emaPick, false)[0]?.object.userData.wish || null; }, onSplash(f) { onSplash = f; }, onBonk(f) { onBonk = f; }, CEILS, PLATS, propTop, moveH, get focusDebug() { const v = focusSp.position.clone().project(camera); return { id: focusS?.id, vis: focusSp.visible, op: focusSp.material.opacity, sx: (v.x + 1) / 2, sy: (1 - v.y) / 2, scale: focusSp.scale.y }; }, get zeDebug() { return { cue: clock < zeCueUntil ? zeCue : "", wander: zeWander && { x: zeWander.x, cue: zeWander.cue, arrived: !!zeWander.arrived }, pz: pzCue?.id || "", clock: +clock.toFixed(1), idle: +(clock - zeIdleT).toFixed(1), walk: zeWalk, follow: zeFollow, duo: !!duo }; }, emote, SPOTS, surfaceAt };
 }

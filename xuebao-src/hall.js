@@ -41,7 +41,7 @@ function start() {
   const SPR = {
     piggy: ["prop-piggy.webp?v=2", 0.2, [CONSOLE_X + 0.02, 0.95, -2.66]],
     jar: ["prop-jar.webp?v=2", 0.17, [-0.206, 0.305, -2.30]],
-    globe: ["prop-globe.webp?v=2", 0.42, [-W / 2 + 0.5, 0, -0.95]],
+    globe: ["prop-globe.webp?v=2", 0.42, [-W / 2 + 0.78, 0, -3.62]], // 原来的位置让给壁炉，挪到左后角绿植旁
     radio: ["prop-radio.webp?v=2", 0.16, [0.16, 0.305, -2.013]],
     cardbox: ["prop-cardbox.webp?v=2", 0.2, [-1.4, 0.43, -2.4]],
     mailbox: ["prop-mailbox.webp?v=2", 0.58, [1.3, 0, -3.85]],
@@ -88,8 +88,9 @@ function start() {
   const G = () => window.XBGame;
   // 出发动画结束后，3D 角色可以独立探索，旅行状态和在家时的位置仍由 XBGame 管理。
   // 旅行中、回来在门口等开背包时，也能自己走来走去看看（不经过游戏那边记位置）
-  const exploringTrip = () => live && ["away", "back", "waiting"].includes(G()?.phase) && stage.dataset.phase === G()?.phase;
-  const canMove = () => live && stage.dataset.xbModel === "ready" && (G()?.phase === "home" || exploringTrip());
+  const exploringTrip = () => live && (G()?.role === "泽" ||
+    (["away", "back", "waiting"].includes(G()?.phase) && stage.dataset.phase === G()?.phase));
+  const canMove = () => live && (G()?.role === "泽" || stage.dataset.xbModel === "ready") && (G()?.phase === "home" || exploringTrip());
   let lastKey = "", lastCls = "", wasDrag = false, exploredTrip = false;
   let tripDrag = null;
 
@@ -126,7 +127,8 @@ function start() {
   }
   function syncChar() {
     const g = G(); if (!g) return;
-    if (stage.dataset.xbModel !== "ready") { me.style.visibility = "hidden"; return; }
+    hall.setPlayer(g.role, g.phase);
+    if (g.role !== "泽" && stage.dataset.xbModel !== "ready") { me.style.visibility = "hidden"; return; }
     const explore = exploringTrip();
     if (explore) {
       if (!exploredTrip && wasDrag) {
@@ -207,9 +209,17 @@ function start() {
     const id = hall.pick(nx, ny);
     if (id) {
       const s = hall.interact(id);
+      if (!s) return;
+      if (s.action === "wish-fountain") { s.start?.(); G()?.openWish?.(); return; }
+      if (s.action === "wish-tree") { const w = hall.pickEma(nx, ny); G()?.openWishTree?.(w || undefined); return; }
+      if (s.action === "ze-npc") {
+        if (Math.hypot(char.mesh.position.x-s.spot.x,char.mesh.position.z-s.spot.z)<1.2) G()?.talkToZe?.();
+        else { char.goTo(s.spot); char.pending=s; hall.mark(s.spot.x,s.spot.z); }
+        return;
+      }
       if (s.action === "pet") { char.touch?.(); hall.extras.poke(s.pet); G()?.react?.(s.lines[Math.floor(Math.random() * s.lines.length)]); return; }
       if (s.action === "player") { char.touch?.(); G()?.music?.open("video"); G()?.react?.(s.lines[Math.floor(Math.random() * s.lines.length)]); return; }
-      if (s.href) enterPage(s); else { hall.mark(s.spot.x, s.spot.z); walkTo(s.spot.x, s.spot.z); } return;
+      if (s.href) askEnter(s); else { hall.mark(s.spot.x, s.spot.z); walkTo(s.spot.x, s.spot.z); } return;
     }
     const f = hall.groundAt(nx, ny); if (!f) return;
     const w = char.walkClamp(f.x, f.z), now = performance.now();
@@ -223,7 +233,7 @@ function start() {
   let lastTapT = 0, lastTapW = { x: 0, z: 0 };
   // 让雪宝走到地面上某点（交给 xuebao.js 记位置；它会再通过 syncChar 叫 char.goTo）
   function walkTo(wx, wz, nx, ny) {
-    if (stage.dataset.xbModel !== "ready") return;
+    if (G()?.role !== "泽" && stage.dataset.xbModel !== "ready") return;
     if (exploringTrip()) {
       char.goTo({ x: wx, z: wz });
       return;
@@ -241,6 +251,49 @@ function start() {
   const veil = document.createElement("div"); veil.className = "wl veil"; veil.setAttribute("aria-hidden", "true");
   veil.innerHTML = '<div class="wl-stage"><div class="wl-arch"><span class="wl-glow"></span></div><img class="wl-xb" src="xuebao-assets/xb-loading.webp?v=1" alt=""></div><div class="wl-text"><h1 class="wl-title"></h1><p class="wl-tip"></p><div class="wl-bar"><span style="width:100%"></span></div></div>';
   document.body.append(veil);
+  // 进页面之前先问一句（避免点错了直接跳走）
+  const ENTRY_ART = ["letter", "albums", "videos", "comic", "stories", "milk-tea", "messages", "star-post", "figures"];
+  async function askEnter(s) {
+    if (entering) return;
+    const line = s.lines?.[Math.floor(Math.random() * s.lines.length)] || "";
+    const art = ENTRY_ART.includes(s.id) ? s.id : s.id.startsWith("fig-") ? "figures" : "";
+    const ok = G()?.confirm ? await G().confirm({ icon: s.icon, img: art ? `${A}entry-${art}.webp?v=1` : "", title: s.name, text: line, ok: s.verb && s.verb !== s.name ? s.verb : "进去看看" }) : true;
+    if (ok) enterPage(s);
+  }
+  // ---------- 情景键：走到东西旁边，挥手键变成“荡秋千 / 坐下 / 烤火 / 钓鱼……” ----------
+  let ctxSpot = null, ctxClock = 0;
+  const ctxBtn = () => ctl.querySelector(".b-ctx");
+  let ctxKeep = 0;
+  function stepCtx(dt) {
+    ctxClock -= dt; ctxKeep -= dt; if (ctxClock > 0) return; ctxClock = 0.2;
+    let s = canMove() && !char.act ? hall.nearestSpot() : (char.act ? ctxSpot : null);
+    // 不要一走开一点就变：刚出现的东西至少留 1.2 秒，走在去那儿的路上也一直留着
+    if (!s && ctxSpot && (ctxKeep > 0 || char.pending === ctxSpot)) s = ctxSpot;
+    if (s && s !== ctxSpot) ctxKeep = 1.2;
+    if (s === ctxSpot && ctxBtn().dataset.ready) return;
+    ctxSpot = s; const b = ctxBtn(); b.dataset.ready = "1";
+    const sitting = char.act && char.act.s.dur === Infinity;
+    // 换了一个目标也重新弹一下，头顶箭头跟着指过去
+    b.classList.remove("live"); if (s) { void b.offsetWidth; b.classList.add("live"); }
+    hall.setFocus?.(sitting ? null : s);
+    b.querySelector(".ic").textContent = sitting ? "🙋" : s ? s.icon : "👋";
+    b.querySelector("small").textContent = sitting ? "起来" : s ? s.verb : "挥手";
+    b.setAttribute("aria-label", sitting ? "起来" : s ? s.verb : "挥手");
+  }
+  function doCtx() {
+    if (!canMove()) return; char.touch();
+    if (char.act && char.act.s.dur === Infinity) { char.endAct(); ctxBtn().dataset.ready = ""; return; } // 坐着时：起来
+    const s = ctxSpot;
+    if (!s) { doAct(SOLO[0]); return; }
+    if (s.href) { askEnter(s); return; }
+    if (s.action === "wish-fountain") { s.start?.(); G()?.openWish?.(); return; }
+    if (s.action === "wish-tree") { G()?.openWishTree?.(); return; }
+    if (s.action === "ze-npc") { G()?.talkToZe?.(); return; }
+    if (s.action === "pet") { hall.extras.poke(s.pet); G()?.talkPet?.(s.id.replace("pet-", "")); return; }
+    if (s.action === "player") { G()?.music?.open("video"); return; }
+    hall.interact(s.id); hall.mark(s.spot.x, s.spot.z); walkTo(s.spot.x, s.spot.z);
+    ctxBtn().dataset.ready = "";
+  }
   function enterPage(s) {
     if (entering) return; entering = true;
     const p = char.mesh.position, far = Math.hypot(p.x - s.at[0], p.z - s.at[2]) > 6;
@@ -254,7 +307,15 @@ function start() {
   }
   // 从分页面按“返回”回来（页面被浏览器缓存）时恢复
   addEventListener("pageshow", () => { if (!entering) return; entering = false; veil.classList.remove("on"); view.peek = null; view.distT = view.home; });
-  char.onAct = (s) => G()?.react?.(s.lines[Math.floor(Math.random() * s.lines.length)]);
+  char.onAct = (s) => {
+    if (s.action === "ze-npc") G()?.talkToZe?.();
+    else if (s.lines?.length) G()?.react?.(s.lines[Math.floor(Math.random() * s.lines.length)]);
+  };
+  addEventListener("xb:ze-action", (e) => hall.zeAction(e.detail));
+  addEventListener("xb:wish-toss", (e) => hall.tossCoin(e.detail?.done));
+  // 两个人的动作做到一半时：音效 + 一句话
+  const DUO_LINES = { hug: ["抱紧一点～", "好暖和。", "不想松开。"], kiss: ["啾～", "脸红了啦！", "再来一下嘛。"], lift: ["哇——好高！", "我飞起来啦！", "别松手哦！"], five: ["耶！", "啪！", "默契满分！"], hand: ["牵好啦，一起走。", "手好暖。"] };
+  hall.onDuo((id) => { G()?.sound?.(id === "five" ? "pop" : id === "lift" ? "fanfare" : "chime"); const L0 = DUO_LINES[id]; if (L0) G()?.react?.(L0[Math.floor(Math.random() * L0.length)]); });
   addEventListener("pointerup", up, true); addEventListener("pointercancel", up, true);
   stage.addEventListener("click", (e) => { if (swallow) { e.stopPropagation(); e.preventDefault(); swallow = false; } }, true);
   stage.addEventListener("wheel", (e) => { if (!live || e.target.closest?.(".xb-sheet")) return; e.preventDefault(); view.touched = true; view.zoom(Math.exp(e.deltaY * 0.0012)); }, { passive: false });
@@ -266,19 +327,88 @@ function start() {
   addEventListener("keydown", (e) => { if (!KEY[e.code] || e.target.closest?.("input, textarea, .xb-sheet") || !document.getElementById("sheetWrap")?.hidden) return; if (!canMove()) return; keys.add(e.code); e.preventDefault(); });
   let shift = false, runLock = false;
   // 空格：跳
-  addEventListener("keydown", (e) => { if (e.code !== "Space" || e.repeat || e.target.closest?.("input, textarea, button, .xb-sheet") || !document.getElementById("sheetWrap")?.hidden || !canMove()) return; e.preventDefault(); doJump(); });
-  function doJump() { if (!canMove()) return; char.touch(); if (char.jumpUp()) { G()?.sound?.("pop"); if (Math.random() < 0.18) G()?.react?.(["嘿咻！", "跳高高～", "看我跳！"][Math.floor(Math.random() * 3)]); } }
+  // 空格跳：按钮刚被点过时焦点还在按钮上，以前会把空格吞掉（二段跳按不出来），现在只在输入框和面板里不响应
+  addEventListener("keydown", (e) => { if (e.code !== "Space" || e.repeat || e.target.closest?.("input, textarea, .xb-sheet, .xb-dlg") || !document.getElementById("sheetWrap")?.hidden || !canMove()) return; e.preventDefault(); e.target.blur?.(); doJump(); }, true);
+  function doJump() {
+    if (!canMove()) return; char.touch();
+    const second = (char.air != null || char.charge != null) && !char.dbl;
+    if (!char.jumpUp()) return;
+    G()?.sound?.(second ? "whoosh" : "pop");
+    if (second && Math.random() < 0.3) G()?.react?.(["再高一点！", "二段跳～", "飞起来啦！"][Math.floor(Math.random() * 3)]);
+    else if (!second && Math.random() < 0.15) G()?.react?.(["嘿咻！", "跳高高～", "看我跳！"][Math.floor(Math.random() * 3)]);
+  }
+  hall.onBonk?.(() => { G()?.sound?.("boop"); if (Math.random() < 0.5) G()?.react?.(["哎哟，撞到头了！", "咚！好痛～", "上面有东西！"][Math.floor(Math.random() * 3)]); });
+  hall.onSplash((k) => { G()?.sound?.("splash", k); if (k > 0.8 && Math.random() < 0.4) G()?.react?.(["哇，水好凉！", "扑通！", "溅了一身水～"][Math.floor(Math.random() * 3)]); });
   // ---------- 右下角：跳、跑步开关、挥手；上面一列：拉近、拉远、回正 ----------
   const ctl = document.createElement("div"); ctl.className = "xb-ctl";
-  ctl.innerHTML = `<div class="xb-ctl-cam"><button type="button" data-c="in" aria-label="拉近">＋</button><button type="button" data-c="out" aria-label="拉远">－</button><button type="button" data-c="reset" aria-label="镜头回正">⟲</button></div>
-    <div class="xb-ctl-act"><button type="button" class="b-wave" data-c="wave" aria-label="挥手">👋<small>挥手</small></button><button type="button" class="b-run" data-c="run" aria-pressed="false" aria-label="跑步开关">🏃<small>跑步</small></button><button type="button" class="b-jump" data-c="jump" aria-label="跳">⤒<small>跳${hall.mobile ? "" : " · 空格"}</small></button></div>`;
+  ctl.innerHTML = `<div class="xb-ctl-act"><div class="xb-wheel" hidden></div><button type="button" class="b-ctx" data-c="ctx" aria-label="挥手"><span class="ic">👋</span><small>挥手</small></button><button type="button" class="b-act" data-c="wheel" aria-expanded="false" aria-label="换动作"><i class="ava"></i><small>动作</small><b class="run-dot" hidden>跑</b></button><button type="button" class="b-jump" data-c="jump" aria-label="跳，空中再按一次二段跳">⤒<small>跳${hall.mobile ? "" : " · 空格"}</small></button></div>`;
   stage.append(ctl);
-  const ctlAct = ctl.querySelector(".xb-ctl-act"), runBtn = ctl.querySelector(".b-run");
-  ctl.addEventListener("pointerdown", (e) => { const b = e.target.closest("button"); if (!b) return; e.stopPropagation(); e.preventDefault(); b.classList.add("press");
+  const ctlAct = ctl.querySelector(".xb-ctl-act"), actBtn = ctl.querySelector(".b-act"), wheel = ctl.querySelector(".xb-wheel");
+  // ---------- 动作轮盘：点“动作”，一圈头像沿着跳跃键展开（外圈自己的动作，泽泽在旁边时多一圈两个人的动作） ----------
+  const SOLO = [
+    { id: "wave", name: "挥手", img: "xb-wave", clip: "wave", dur: 1.8, lines: ["嗨～雪雪！", "我在这儿！", "想你啦～"] },
+    { id: "heart", name: "比心", img: "xb-wave", badge: "💗", clip: "wave", dur: 2.0, fx: "heart", lines: ["送你一颗心～", "比心！", "全部的喜欢都给你。"] },
+    { id: "spin", name: "转圈", img: "xb-jump", badge: "🌀", clip: "wow", dur: 1.3, spin: 1, lines: ["转呀转～", "看我的裙子！"] },
+    { id: "dance", name: "跳舞", img: "xb-jump", badge: "♪", dur: 3.6, bounce: 2.4, spin: 1, spinDur: 3.6, fx: "note",
+      seq: [[0, "wave"], [0.9, "wow"], [1.8, "wave"], [2.7, "wow"]], lines: ["啦啦啦～", "一起跳嘛！", "♪ 小怪兽 ♪"] },
+    { id: "run", name: "跑步", img: "xb-idle", badge: "🏃", toggle: true }
+  ];
+  // 两个人的动作：泽泽走到身边才出现（hall.duoReady 由 3D 场景判断距离）
+  const DUO = [
+    { id: "hug", name: "抱抱", img: "xb-wow", badge: "🤗", duo: true },
+    { id: "kiss", name: "亲亲", img: "xb-wave", badge: "💋", duo: true },
+    { id: "lift", name: "举高高", img: "xb-jump", badge: "⬆", duo: true },
+    { id: "five", name: "击掌", img: "xb-wave", badge: "✋", duo: true },
+    { id: "hand", name: "牵手", img: "xb-idle", badge: "🤝", duo: true }
+  ];
+  let lastAct = SOLO[0];
+  // 泽泽当玩家时：自己的动作用泽泽的头像
+  const ava = (a) => `background-image:url(${A}${G()?.role === "泽" && !a.duo ? "ze-portrait" : a.img}.webp)${G()?.role === "泽" && !a.duo ? ";background-size:cover;background-position:50% 30%" : ""}`;
+  let lastRole = null;
+  setInterval(() => { const r = G()?.role; if (r !== lastRole) { lastRole = r; setActBtn(); } }, 1000);
+  function setActBtn() { actBtn.querySelector(".ava").setAttribute("style", ava(lastAct)); actBtn.querySelector(".run-dot").hidden = !runLock; }
+  setActBtn();
+  function ring(list, R, a0, a1, cls) {
+    const n = list.length, jr = ctl.querySelector(".b-jump").getBoundingClientRect(), cr = ctlAct.getBoundingClientRect();
+    const cx = jr.left + jr.width / 2 - cr.left, cy = jr.top + jr.height / 2 - cr.top;
+    return list.map((a, i) => {
+      const t = n === 1 ? (a0 + a1) / 2 : a0 + (a1 - a0) * (i / (n - 1)), x = cx + Math.cos(t) * R, y = cy - Math.sin(t) * R;
+      return `<button type="button" class="wh ${cls}${a.toggle && runLock ? " on" : ""}" data-act="${a.id}" style="left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;--dx:${(cx - x).toFixed(1)}px;--dy:${(cy - y).toFixed(1)}px;--d:${i * 28}ms" aria-label="${a.name}">
+        <i class="ava" style="${ava(a)}"></i>${a.badge ? `<b class="bd">${a.badge}</b>` : ""}<small>${a.name}</small></button>`;
+    }).join("");
+  }
+  function openWheel(open) {
+    const want = open ?? wheel.hidden;
+    actBtn.setAttribute("aria-expanded", String(want)); actBtn.classList.toggle("open", want); ctl.classList.toggle("wheel-open", want);
+    if (!want) { wheel.classList.remove("on"); setTimeout(() => { if (!wheel.classList.contains("on")) wheel.hidden = true; }, 220); return; }
+    const small = innerWidth < 600, duo = hall.duoReady?.() ? DUO : [];
+    // 外圈：从正左（180°）到正上（90°）的四分之一圈；内圈放两个人的动作
+    wheel.innerHTML = ring(SOLO, small ? 150 : 172, Math.PI * 1.02, Math.PI * 0.48, "solo") + (duo.length ? ring(duo, small ? 92 : 104, Math.PI * 1.0, Math.PI * 0.5, "duo") : "");
+    wheel.hidden = false; requestAnimationFrame(() => wheel.classList.add("on"));
+    G()?.sound?.("boop");
+  }
+  function doAct(a) {
+    if (a.toggle) { runLock = !runLock; if (char.path.length) char.run = runLock || char.run; G()?.react?.(runLock ? "冲呀～现在开始都跑着去！" : "慢慢走，看看风景。"); setActBtn(); return; }
+    if (a.duo) { if (!hall.duoAct?.(a.id)) G()?.react?.("走到泽泽身边才能做哦～"); else if (a.id === "hand") G()?.react?.(hall.zeFollow ? DUO_LINES.hand[0] : "先松开一下～"); lastAct = a; setActBtn(); return; }
+    if (!canMove()) return; char.touch(); const p = char.mesh.position; char.path = []; char.endAct?.();
+    char.act = { s: { id: "_" + a.id, clip: a.clip, seq: a.seq, dur: a.dur, spin: a.spin, spinDur: a.spinDur, bounce: a.bounce, face: Math.atan2(hall.camera.position.x - p.x, hall.camera.position.z - p.z) }, t: 0, from: p.clone() };
+    if (a.fx) hall.emote(a.fx, a.fx === "zzz" ? 3 : 5);
+    G()?.sound?.(a.fx === "heart" ? "chime" : a.id === "dance" ? "sparkle" : "pop");
+    if (a.lines) G()?.react?.(a.lines[Math.floor(Math.random() * a.lines.length)]);
+    lastAct = a; setActBtn();
+  }
+  // 轮盘里点一个 = 马上做这个动作，键上换成它的头像；跑步是开关
+  wheel.addEventListener("pointerdown", (e) => { const b = e.target.closest("[data-act]"); if (!b) return; e.stopPropagation(); e.preventDefault();
+    const a = [...SOLO, ...DUO].find((x) => x.id === b.dataset.act); b.classList.add("press"); setTimeout(() => openWheel(false), 140);
+    doAct(a); });
+  // 点轮盘外面就收起来
+  addEventListener("pointerdown", (e) => { if (!wheel.hidden && !e.target.closest?.(".xb-ctl-act")) openWheel(false); }, true);
+  const buzz = (ms) => { try { navigator.vibrate?.(ms); } catch {} }; // 安卓上按键轻轻震一下（iPhone 浏览器不支持，自动忽略）
+  ctl.addEventListener("pointerdown", (e) => { const b = e.target.closest("button"); if (!b) return; e.stopPropagation(); e.preventDefault(); b.classList.add("press"); buzz(b.dataset.c === "jump" ? 12 : 8);
     const c = b.dataset.c;
     if (c === "jump") doJump();
-    else if (c === "run") { runLock = !runLock; runBtn.setAttribute("aria-pressed", String(runLock)); runBtn.classList.toggle("on", runLock); if (char.path.length) char.run = runLock || char.run; G()?.react?.(runLock ? "冲呀～现在开始都跑着去！" : "慢慢走，看看风景。"); }
-    else if (c === "wave") { if (!canMove()) return; char.touch(); const p = char.mesh.position; char.path = []; char.endAct?.(); char.act = { s: { id: "_wave", clip: "wave", dur: 1.8, face: Math.atan2(hall.camera.position.x - p.x, hall.camera.position.z - p.z) }, t: 0, from: p.clone() }; G()?.react?.(["嗨～雪雪！", "我在这儿！", "想你啦～"][Math.floor(Math.random() * 3)]); }
+    else if (c === "wheel") openWheel(wheel.hidden);
+    else if (c === "ctx") doCtx();
     else if (c === "in" || c === "out") { view.touched = true; view.zoom(c === "in" ? 0.8 : 1.25); }
     else if (c === "reset") { view.reset(); view.touched = false; }
   });
@@ -295,7 +425,10 @@ function start() {
     const set = (e) => { const r = pad.getBoundingClientRect(), R0 = r.width / 2; let dx = e.clientX - r.left - R0, dy = e.clientY - r.top - R0; const L = Math.hypot(dx, dy), m = R0 * 0.62; if (L > m) { dx *= m / L; dy *= m / L; } joy.x = dx / m; joy.y = dy / m; knob.style.transform = `translate(${dx}px, ${dy}px)`; };
     pad.addEventListener("pointerdown", (e) => { if (!canMove()) return; e.stopPropagation(); e.preventDefault(); joy.id = e.pointerId; pad.setPointerCapture(e.pointerId); pad.classList.add("on"); set(e); });
     pad.addEventListener("pointermove", (e) => { if (e.pointerId === joy.id) set(e); });
-    const end = (e) => { if (e.pointerId !== joy.id) return; joy.id = null; joy.x = joy.y = 0; knob.style.transform = ""; pad.classList.remove("on", "run"); };
+    // “推到底就跑”只是新手提示：真推到底跑过一次就收起来，以后不再显示
+    let knew = false; try { knew = localStorage.getItem("xb-joy-knew") === "1"; } catch {}
+    if (knew) pad.classList.add("knew");
+    const end = (e) => { if (e.pointerId !== joy.id) return; if (!knew && pad.classList.contains("run")) { knew = true; pad.classList.add("knew"); try { localStorage.setItem("xb-joy-knew", "1"); } catch {} } joy.id = null; joy.x = joy.y = 0; knob.style.transform = ""; pad.classList.remove("on", "run"); };
     pad.addEventListener("pointerup", end); pad.addEventListener("pointercancel", end);
     pad.hidden = true;
   }
@@ -342,9 +475,9 @@ function start() {
     SR = stage.getBoundingClientRect();
     const weather = stage.dataset.weather || "sunny";
     let hour = QH >= 0 ? QH : nyHour(); if (weather !== "night" && (hour < 6.4 || hour > 19.2)) hour = 15.5;
-    drive(); syncChar();
+    drive(); syncChar(); stepCtx(dt);
     // 只有在家（或旅行探索）、没开面板时，她才会自己溜达
-    char.allowWander = canMove() && !["back", "waiting"].includes(G()?.phase) && document.getElementById("sheetWrap")?.hidden !== false && !entering;
+    char.allowWander = G()?.role !== "泽" && canMove() && !["back", "waiting"].includes(G()?.phase) && document.getElementById("sheetWrap")?.hidden !== false && !entering;
     hall.update(dt, t, { hour, weather, lamp: stage.classList.contains("lamp-on") });
     if (!live) return;
     // 道具按钮跟着 3D 物件走

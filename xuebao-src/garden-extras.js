@@ -2,6 +2,7 @@
  * 野餐毯，以及远山、山丘上的小城堡、热气球、云和小鸟。全部程序生成。
  * 宠物在能走的地面上自己逛；雪宝在花园里时小猫会跟着她，没人管时去野餐毯上打盹。点它们会有反应。
  */
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 export function buildGardenExtras(THREE, scene, { heightAt, mobile, FC = { x: 0, z: -11 }, Z0 }) {
   const root = new THREE.Group(); root.name = "gardenExtras"; scene.add(root);
   let seed = 23; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
@@ -170,10 +171,30 @@ export function buildGardenExtras(THREE, scene, { heightAt, mobile, FC = { x: 0,
     });
     return { g, body, head, legs: [], tail, ears, nose, kind: "bunny" };
   }
-  const pets = [makeCat(), makeBunny()];
-  pets[0].home = { x: PIC.x - 0.2, z: PIC.z + 0.1 }; pets[1].home = { x: -2.4, z: -10.2 };
+  // 哈士奇：先放一个看不见的占位（模型加载好才出现）
+  function makeHusky() { const g = new THREE.Group(), body = new THREE.Group(); g.add(body); const tail = new THREE.Group(), head = new THREE.Group(); body.add(tail, head); return { g, body, head, legs: [], tail, kind: "husky", wait: true }; }
+  const pets = [makeCat(), makeBunny(), makeHusky()];
+  pets[0].home = { x: PIC.x - 0.2, z: PIC.z + 0.1 }; pets[1].home = { x: -2.4, z: -10.2 }; pets[2].home = { x: 2.6, z: -8.2 };
+  const PET_INFO = {
+    cat: { name: "布偶猫", lines: ["喵～它在蹭我！", "布偶猫好软呀。", "它要跟我回家吗？"] },
+    bunny: { name: "小兔子", lines: ["小兔子蹦蹦跳跳！", "耳朵好长～", "给它带根胡萝卜吧。"] },
+    husky: { name: "哈士奇", lines: ["汪！它冲过来了！", "哈士奇在对我傻笑～", "它的眼睛好蓝呀。"] }
+  };
   pets.forEach((p, i) => { p.pos = new THREE.Vector3(p.home.x + i * 0.3, 0, p.home.z); p.target = null; p.next = 2 + i * 1.5; p.yaw = 0; p.hop = 0; p.joy = 0; p.g.position.copy(p.pos); p.g.scale.setScalar(1.15); root.add(p.g);
-    spots.push({ id: "pet-" + p.kind, name: p.kind === "cat" ? "小白猫" : "小兔子", icon: "🐾", action: "pet", noMarker: true, pick: [p.g], at: [0, 0, 0], lines: p.kind === "cat" ? ["喵～它在蹭我！", "小白猫好软呀。", "它要跟我回家吗？"] : ["小兔子蹦蹦跳跳！", "耳朵好长～", "给它带根胡萝卜吧。"], pet: p }); });
+    p.spot = { id: "pet-" + p.kind, name: PET_INFO[p.kind].name, icon: "🐾", action: "pet", noMarker: true, pick: [p.g], at: [p.pos.x, 0, p.pos.z], lines: PET_INFO[p.kind].lines, pet: p }; spots.push(p.spot); });
+  // 混元生成的精模（布偶猫、小兔子、哈士奇）：加载好就替换掉代码拼的小动物；加载失败就留着原来的
+  const PET_GLB = { cat: { url: "xuebao-3d/pet-cat.glb?v=1", h: 0.36 }, bunny: { url: "xuebao-3d/pet-bunny.glb?v=1", h: 0.36 }, husky: { url: "xuebao-3d/pet-husky.glb?v=1", h: 0.46 } };
+  const petLoader = new GLTFLoader();
+  pets.forEach((p) => {
+    const d = PET_GLB[p.kind]; if (!d) return;
+    if (p.wait) p.g.visible = false;
+    petLoader.loadAsync(d.url).then(({ scene: m }) => {
+      const box = new THREE.Box3().setFromObject(m), size = box.getSize(new THREE.Vector3()), k = d.h / size.y;
+      m.scale.setScalar(k); m.position.set(-(box.min.x + box.max.x) / 2 * k, -box.min.y * k, -(box.min.z + box.max.z) / 2 * k);
+      m.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; if (o.material) { o.material.roughness = 0.85; o.material.metalness = 0; } } });
+      const wrap = new THREE.Group(); wrap.add(m); p.g.add(wrap); p.body.visible = false; p.glb = wrap; p.g.scale.setScalar(1); p.g.visible = true;
+    }).catch(() => { if (p.wait) p.g.visible = false; });
+  });
   let walkable = () => true;
 
   // ========== 远景：远山、小城堡、热气球、云、小鸟 ==========
@@ -225,10 +246,10 @@ export function buildGardenExtras(THREE, scene, { heightAt, mobile, FC = { x: 0,
   // ---------- 每帧 ----------
   const _d = new THREE.Vector3();
   function petStep(p, dt, t, xb) {
-    const near = xb && xb.z < Z0 - 0.3 && p.kind === "cat";
+    const near = xb && xb.z < Z0 - 0.3 && (p.kind === "cat" || p.kind === "husky");
     p.joy = Math.max(0, p.joy - dt);
     if (near && xb.distanceTo(p.pos) < 9) { // 小猫跟着雪宝，停在她身边一点
-      const want = new THREE.Vector3(xb.x + 0.55 * Math.sin(t * 0.2), 0, xb.z + 0.45);
+      const side = p.kind === "husky" ? -1 : 1, want = new THREE.Vector3(xb.x + side * 0.55 * Math.sin(t * 0.2 + (side < 0 ? 2 : 0)), 0, xb.z + side * 0.45);
       if (p.pos.distanceTo(want) > 0.7) p.target = want;
     } else if (t > p.next) {
       p.next = t + R(4, 9);
@@ -240,12 +261,27 @@ export function buildGardenExtras(THREE, scene, { heightAt, mobile, FC = { x: 0,
     if (p.target) {
       _d.copy(p.target).sub(p.pos); _d.y = 0; const dist = _d.length();
       if (dist < 0.05) p.target = null;
-      else { const sp = p.kind === "bunny" ? 0.9 : (near ? 1.2 : 0.55); _d.normalize(); const nx = p.pos.x + _d.x * Math.min(dist, sp * dt), nz = p.pos.z + _d.z * Math.min(dist, sp * dt); if (walkable(nx, nz)) { p.pos.x = nx; p.pos.z = nz; moving = true; } else p.target = null; p.yaw += (((Math.atan2(_d.x, _d.z) - p.yaw + Math.PI) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2) - Math.PI) * Math.min(1, dt * 8); }
+      else { const sp = p.kind === "bunny" ? 0.9 : (near ? (p.kind === "husky" ? 1.6 : 1.2) : 0.55); _d.normalize(); const nx = p.pos.x + _d.x * Math.min(dist, sp * dt), nz = p.pos.z + _d.z * Math.min(dist, sp * dt); if (walkable(nx, nz)) { p.pos.x = nx; p.pos.z = nz; moving = true; } else p.target = null; p.yaw += (((Math.atan2(_d.x, _d.z) - p.yaw + Math.PI) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2) - Math.PI) * Math.min(1, dt * 8); }
     }
     const y = heightAt(p.pos.x, p.pos.z);
     let hop = 0;
     if (p.kind === "bunny" && moving) hop = Math.abs(Math.sin(t * 9)) * 0.12;
     if (p.joy > 0) hop = Math.abs(Math.sin(p.joy * 10)) * 0.15;
+    if (p.glb) { // 精模：整只一起动——走路一颠一颠、左右轻轻晃，停下来呼吸、偶尔歪头
+      const g = p.glb, walkPh = t * (p.kind === "bunny" ? 9 : 11);
+      if (p.kind === "bunny" && moving) hop = Math.abs(Math.sin(walkPh)) * 0.12;
+      else if (moving) hop = Math.abs(Math.sin(walkPh)) * 0.025;
+      if (p.joy > 0) hop = Math.abs(Math.sin(p.joy * 10)) * (p.kind === "husky" ? 0.2 : 0.15);
+      p.g.position.set(p.pos.x, y + hop, p.pos.z); p.g.rotation.y = p.yaw;
+      const breath = 1 + Math.sin(t * 2.4 + p.home.x) * 0.012;
+      g.rotation.z = moving && p.kind !== "bunny" ? Math.sin(walkPh) * 0.06 : 0;
+      g.rotation.x = moving ? (p.kind === "bunny" ? -Math.cos(walkPh) * 0.12 : 0.04) : Math.sin(t * 0.5 + p.home.z) * 0.03;
+      g.rotation.y = moving ? 0 : Math.sin(t * 0.45 + p.home.x) * 0.3;
+      const sq = p.kind === "bunny" && moving ? (Math.abs(Math.sin(walkPh)) - 0.5) * 0.12 : 0;
+      g.scale.set(1 - sq * 0.4, breath + sq, 1 - sq * 0.4);
+      if (p.kind === "husky" && p.joy > 0) g.rotation.y = Math.sin(p.joy * 18) * 0.25; // 开心得原地扭
+      return;
+    }
     p.g.position.set(p.pos.x, y + hop, p.pos.z); p.g.rotation.y = p.yaw;
     if (p.kind === "cat") {
       p.legs.forEach((l, i) => { l.rotation.x = moving ? Math.sin(t * 12 + (i % 2 ? Math.PI : 0) + (i > 1 ? Math.PI : 0)) * 0.5 : 0; });
@@ -264,7 +300,8 @@ export function buildGardenExtras(THREE, scene, { heightAt, mobile, FC = { x: 0,
     anim.forEach((f) => f(t, dt));
     const dark = env.night ? 1 : env.dusk ? 0.6 : 0;
     bulbMat.emissiveIntensity = 0.4 + dark * 2.6; root.userData.lightsGlow.material.opacity = dark * 0.85;
-    pets.forEach((p) => petStep(p, dt, t, xbPos));
+    // 互动点跟着小动物走（以前一直停在原点，屋子中间也会亮“摸摸猫”）
+    pets.forEach((p) => { petStep(p, dt, t, xbPos); p.spot.at[0] = p.g.position.x; p.spot.at[2] = p.g.position.z; });
   }
   function poke(p) { p.joy = 0.8; p.target = null; }
   return { root, walk, update, spots, solid, poke };

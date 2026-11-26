@@ -86,20 +86,8 @@
   ];
 
   // 偶遇的鸣潮角色。line 用 {place} 代入地点。
-  const CHARS = [
-    { id: "jinhsi", name: "今汐", line: "在{place}遇到了今汐，她帮我挑了一盏最亮的灯，说要照着回家的路。" },
-    { id: "changli", name: "长离", line: "在{place}遇到了长离，她和我下了一盘棋，我输了，可是她夸我下得很认真。" },
-    { id: "youhu", name: "釉瑚", line: "在{place}遇到了釉瑚，她教我怎么给杯子上釉，说颜色要等烧出来才知道。" },
-    { id: "feixue", name: "绯雪", line: "在{place}遇到了绯雪，我们一起堆了一个小雪人，它长得有点像你。" },
-    { id: "shorekeeper", name: "守岸人", line: "在{place}遇到了守岸人，我们坐在岸边看了很久的星星，她说想念的人会在同一片天空下。" },
-    { id: "cantarella", name: "坎特蕾拉", line: "在{place}遇到了坎特蕾拉，她给我讲了海底的故事，还送了我一颗亮晶晶的小珠子。" },
-    { id: "lupa", name: "露帕", line: "在{place}遇到了露帕，她骑马比我快好多，还回头等我。" },
-    { id: "lockelock", name: "洛可可", line: "在{place}遇到了洛可可，她给我讲了一个童话故事，结局是两个人终于见面了。" },
-    { id: "suisui", name: "穗穗", line: "在{place}遇到了穗穗，她分给我一大把刚晒好的稻谷，说这是秋天的味道。" },
-    { id: "camellya", name: "椿", line: "在{place}遇到了椿，她送我一朵花，说要带给最重要的人。" },
-    { id: "phoebe", name: "菲比", line: "在{place}遇到了菲比，她为我们俩祈了福，说你醒来的时候会是好天气。" },
-    { id: "cartethyia", name: "卡提希娅", line: "在{place}遇到了卡提希娅，她陪我走了一段路，还帮我拎了背包。" }
-  ];
+  // 旅伴名单在 xuebao-chars.js（鸣潮 + 高能手办团，脚本生成）
+  const CHARS = (typeof module === "object" && module.exports) ? require("./xuebao-chars.js") : (root.XUEBAO_CHARS || []);
 
   const LINES = {
     tap: ["今天也很想你哦。", "戳我干嘛呀～", "雪雪醒啦？", "我在这里，一直都在。", "嘿嘿。", "要不要听我讲路上的事？", "今天有没有好好吃饭？", "我刚刚在想你。"],
@@ -134,7 +122,56 @@
     return { id, slot, ...WEATHERS[id] };
   }
 
-  const api = { DESTS, CHARS, LINES, WEATHERS, weatherAt, TRIP_HOURS: 5, MAX_READY: 3, WEEK_CAP: 520, FRAG_TARGET: 99 };
+  // ---------- 樱花许愿：每次往许愿池投一枚硬币（¥5），抽一张愿望签，签挂到许愿树上；签运好时还带一件樱花礼物 ----------
+  // luck：签运。p 是抽到的概率，gift 是这一签带礼物的概率（礼物抽完以后就只给签）
+  const WISH_LUCK = [
+    { id: "daikichi", name: "大吉", p: 0.14, gift: 1, color: "#d2394f" },
+    { id: "chukichi", name: "中吉", p: 0.3, gift: 0.5, color: "#e0704d" },
+    { id: "shokichi", name: "小吉", p: 0.38, gift: 0.25, color: "#c98a2e" },
+    { id: "kichi", name: "吉", p: 0.18, gift: 0.12, color: "#8b7a5a" }
+  ];
+  const WISH_CARDS = [
+    { id: "peace", title: "平安", line: "愿每次出发都顺利，愿每一条回家的路上都亮着灯。" },
+    { id: "meet", title: "重逢", line: "樱花开的时候，想和你在同一棵树下见面。" },
+    { id: "dream", title: "好梦", line: "今晚把烦恼交给风，留一瓣花给梦里的你。" },
+    { id: "spring", title: "来年", line: "愿明年春天，我们也记得给彼此留一个愿望。" },
+    { id: "courage", title: "勇气", line: "愿你喜欢的事，都有勇气再试一次。" },
+    { id: "home", title: "归途", line: "不论去了多远，记得小屋永远有你的位置。" },
+    { id: "health", title: "安康", line: "愿你按时吃饭，好好睡觉，不舒服的时候有人在身边。" },
+    { id: "sunny", title: "晴天", line: "愿你想出门的每一天，都刚好是晴天。" },
+    { id: "slow", title: "慢慢来", line: "不着急，好的东西都在路上，慢慢走就好。" },
+    { id: "loved", title: "偏爱", line: "愿你永远是被偏爱的那一个，不用懂事，也会被好好喜欢。" },
+    { id: "sweet", title: "甜甜", line: "愿今天的奶茶刚好三分糖，愿今天的你刚好开心。" },
+    { id: "star", title: "星光", line: "愿你抬头的时候，总有一颗星星在替我看着你。" },
+    { id: "wish", title: "如愿", line: "你偷偷许过的那些愿望，愿它们一个一个都实现。" },
+    { id: "together", title: "团圆", line: "愿想见的人都能见到，愿每个节日都不用隔着屏幕。" },
+    { id: "free", title: "自在", line: "愿你做自己喜欢的样子，不用讨好谁。" },
+    { id: "luck", title: "好运", line: "今天的好运已经装进口袋，记得摸一摸。" },
+    { id: "miss", title: "想你", line: "风吹过来的时候，就当是我在想你。" },
+    { id: "brave", title: "不怕", line: "愿你走夜路不怕黑，因为我在电话那头。" },
+    { id: "bloom", title: "花开", line: "愿你像这棵树一样，每年春天都开得好好的。" },
+    { id: "promise", title: "约定", line: "说好了要一起去看的地方，一个都不能少。" }
+  ];
+  // 泽泽一开始替雪雪挂好的几块绘马（不花钱，第一次走到树下就能读）
+  const WISH_SEED = [
+    { card: "peace", luck: "daikichi", by: "泽" }, { card: "meet", luck: "chukichi", by: "泽" },
+    { card: "loved", luck: "daikichi", by: "泽" }, { card: "promise", luck: "shokichi", by: "泽" }
+  ];
+  const WISH_GIFTS = [
+    { id: "blossom", icon: "🌸", name: "压花书签", note: "两枚花瓣压在透明纸里，一枚给你，一枚留给我。" },
+    { id: "bell", icon: "🎐", name: "樱雨风铃", note: "风一吹，就像花瓣落在檐下。" },
+    { id: "ticket", icon: "🎟️", name: "春日车票", note: "终点写着「下次一起去的地方」。" },
+    { id: "charm", icon: "🧧", name: "平安御守", note: "红绳折了三回，刚好系在背包上。" },
+    { id: "lantern", icon: "🏮", name: "微光纸灯", note: "灯罩上印着一枝才开的樱花。" },
+    { id: "note", icon: "💌", name: "樱树下的信", note: "等下次见面，我们再一起拆开。" },
+    { id: "dango", icon: "🍡", name: "三色团子", note: "粉、白、绿，像樱花季的三种颜色。" },
+    { id: "hairpin", icon: "🌺", name: "樱花发夹", note: "别在灰绿色的头发上，一定很好看。" },
+    { id: "umbrella", icon: "🌂", name: "樱花纸伞", note: "下雨的时候撑开，伞面上会落一场小小的花雨。" },
+    { id: "snowglobe", icon: "🔮", name: "樱花水晶球", note: "摇一摇，里面就下起粉色的雪。" },
+    { id: "kite", icon: "🪁", name: "春风纸鸢", note: "线的另一头，一直在我手里。" },
+    { id: "ring", icon: "💍", name: "草编戒指", note: "先用这个占个位置，以后换真的。" }
+  ];
+  const api = { DESTS, CHARS, WISH_CARDS, WISH_GIFTS, WISH_LUCK, WISH_SEED, WISH_COST: 5, LINES, WEATHERS, weatherAt, TRIP_HOURS: 5, MAX_READY: 3, WEEK_CAP: 520, FRAG_TARGET: 99 };
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.XUEBAO_DATA = api;
 })(typeof window !== "undefined" ? window : globalThis);

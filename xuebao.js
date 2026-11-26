@@ -57,6 +57,17 @@
       open() { [523, 659, 784, 1046].forEach((f, i) => tone(f, 0.6, "triangle", 0.08, i * 0.09)); },
       fanfare() { [523, 659, 784, 1046, 784, 1046, 1318].forEach((f, i) => tone(f, 0.45, "triangle", 0.08, i * 0.12)); },
       paper() { tone(rand(180, 260), 0.08, "sawtooth", 0.02); },
+      // 一段滤过的白噪声：水花（低一点、短一点）和二段跳的风声（高一点、上扬）
+      noise(dur = 0.35, f0 = 900, f1 = 2600, v = 0.12) {
+        if (muted) return; const c = ac(); if (!c) return;
+        const n = Math.ceil(c.sampleRate * dur), buf = c.createBuffer(1, n, c.sampleRate), d = buf.getChannelData(0);
+        for (let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 1.6);
+        const src = c.createBufferSource(), bp = c.createBiquadFilter(), g = c.createGain(), t = c.currentTime;
+        bp.type = "bandpass"; bp.Q.value = 1.1; bp.frequency.setValueAtTime(f0, t); bp.frequency.exponentialRampToValueAtTime(f1, t + dur);
+        g.gain.setValueAtTime(v, t); src.buffer = buf; src.connect(bp).connect(g).connect(c.destination); src.start(t);
+      },
+      splash(k = 1) { this.noise(0.28 + k * 0.18, 1400, 520, 0.1 + k * 0.06); tone(rand(300, 380), 0.12, "sine", 0.04, 0.04); },
+      whoosh() { this.noise(0.32, 500, 2400, 0.07); },
       get playing() { return !!music; },
       startMusic() {
         if (muted || music) return; const c = ac(); if (!c) return;
@@ -66,9 +77,27 @@
       stopMusic() { clearInterval(music); music = null; }
     };
   })();
-  const muteBtn = $("muteBtn");
-  const syncMute = () => muteBtn.classList.toggle("is-off", Sound.muted);
-  muteBtn.addEventListener("click", () => { Sound.toggle(); syncMute(); if (!Sound.muted) Sound.pop(); });
+  // 右上角齿轮：设置（声音、视角拉近拉远回正、身份切换）。右下角只留跳、情景键、动作
+  const syncMute = () => {};
+  $("setBtn").addEventListener("click", () => openSettings());
+  function openSettings() {
+    const r = who(), H = window.XBHall;
+    sheet(`<h2>设置</h2>
+      <div class="xb-set">
+        <div class="set-row"><span>声音</span><button class="set-tog ${Sound.muted ? "" : "on"}" id="setSound" role="switch" aria-checked="${!Sound.muted}"><i></i></button></div>
+        ${H ? `<div class="set-row"><span>视角</span><div class="set-cam"><button data-cam="in">＋ 拉近</button><button data-cam="out">－ 拉远</button><button data-cam="reset">⟲ 回正</button></div></div>
+        <p class="sub set-tip">在画面上双指捏合、滚轮也能缩放，拖动可以转视角。</p>` : ""}
+        <div class="set-row"><span>身份</span><span class="set-who">${r === "泽" ? "泽泽" : r === "雪" ? "雪雪" : "还没选"}<button class="xb-link" id="setWho">切换</button></span></div>
+      </div>`, (el) => {
+      el.querySelector("#setSound").onclick = (e) => { Sound.toggle(); if (!Sound.muted) Sound.pop(); const b = e.currentTarget; b.classList.toggle("on", !Sound.muted); b.setAttribute("aria-checked", String(!Sound.muted)); };
+      el.querySelectorAll("[data-cam]").forEach((b) => b.onclick = () => {
+        const v = window.XBHall?.view; if (!v) return; const c = b.dataset.cam;
+        if (c === "reset") { v.reset(); v.touched = false; } else { v.touched = true; v.zoom(c === "in" ? 0.8 : 1.25); }
+        Sound.pop();
+      });
+      el.querySelector("#setWho").onclick = () => askWho();
+    });
+  }
   syncMute();
 
   // ---------- 布局：舞台按 3:2，窄屏左右滑动 ----------
@@ -173,8 +202,23 @@
   let pose = "idle", pos = { x: 52, y: 93 }, sitting = false;
   const SPOT = { rug: { x: 52, y: 93 }, door: { x: 89.5, y: 77.5 } };
   // 给 3D 花园大厅（xuebao-hall.js）读：雪宝站在哪、什么姿势
-  window.XBGame = { get pos() { return pos; }, get pose() { return pose; }, get phase() { return S?.phase; }, SPOT,
-    sound(k) { Sound[k]?.(); },
+  window.XBGame = { get pos() { return pos; }, get pose() { return pose; }, get phase() { return S?.phase; }, get role() { return who(); }, SPOT,
+    openWish, openWishTree, talkToZe, talkPet,
+    // 进入分页面前的确认卡：带一句话，“进去看看”或“先不去”
+    confirm({ icon = "", img = "", title, text = "", ok = "进去看看", cancel = "先不去" }) {
+      return new Promise((resolve) => {
+        let done = false; const fin = (v) => { if (done) return; done = true; closeSheet(); resolve(v); };
+        // 有插图时：上面一张绘本插画（Seedream 5.5 画的），图上压一枚小图标，下面标题、一句话、两个按钮
+        const art = img ? `<div class="cf-art"><img src="${esc(img)}" alt="" onload="this.parentNode.classList.add('ok')">${icon ? `<span class="cf-badge">${esc(icon)}</span>` : ""}</div>` : icon ? `<div class="cf-ico">${esc(icon)}</div>` : "";
+        sheet(`<div class="xb-confirm${img ? " has-art" : ""}">${art}<h2>${esc(title)}</h2>${text ? `<p class="sub">${esc(text)}</p>` : ""}
+          <div class="xb-row"><button class="xb-btn" data-cf="1">${esc(ok)}</button><button class="xb-btn ghost" data-cf="0">${esc(cancel)}</button></div></div>`, (el) => {
+          el.querySelectorAll("[data-cf]").forEach((b) => b.addEventListener("click", () => fin(b.dataset.cf === "1")));
+          el.querySelector(".xb-close")?.addEventListener("click", () => { if (!done) { done = true; resolve(false); } });
+        });
+      });
+    },
+    openCollection: () => openAlbum("sv"),
+    sound(k, ...a) { Sound[k]?.(...a); },
     // 花园里的互动（喷泉、秋千……）：雪宝说一句，暂停日常动作一会儿
     react(line) {
       if (["away", "back", "waiting"].includes(S?.phase) && stage.classList.contains("hall") && stage.dataset.phase === S.phase) {
@@ -186,7 +230,7 @@
     },
     // 大厅里用键盘走路：开始时停下日常动作，停下时记住新位置（w 为地板坐标）
     moved(w) {
-      if (!S || S.phase !== "home") return;
+      if (who() === "泽" || !S || S.phase !== "home") return;
       clearTimeout(routineT); clearInterval(zzzT); clearTimeout(walkT);
       if (!w) { if (pose !== "idle") setPose("idle"); return; }
       const k = pos.x.toFixed(2) + "," + pos.y.toFixed(2); pos = { ...pos, wx: w.wx, wz: w.wz, wk: k }; store.set("spot", pos);
@@ -225,6 +269,7 @@
   // 互动：点、双击/摸摸、长按抱抱、拖动
   let downAt = 0, downX = 0, downY = 0, pressT = 0, longDone = false, dragging = false, lastTap = 0, tapT = 0, rub = 0, rubLast = null;
   me.addEventListener("pointerdown", (e) => {
+    if (who() === "泽" && stage.classList.contains("hall")) return;
     if (!S || S.phase === "away") return;
     me.setPointerCapture(e.pointerId);
     downAt = Date.now(); downX = e.clientX; downY = e.clientY; longDone = false; dragging = false;
@@ -357,9 +402,10 @@
   $("cta").addEventListener("click", () => openPack());
   $("giftBtn").addEventListener("click", () => {
     if (!S || S.offline) { say("小屋暂时连不上，过一会儿再来看看。"); return; }
-    if ((S.phase === "back" || S.phase === "waiting") && S.ready > 0) { openPack(); return; }
+    if (who() === "泽" || ((S.phase === "back" || S.phase === "waiting") && S.ready > 0)) { openPack(); return; }
     Sound.boop(); say(S.phase === "away" ? `我还在路上，${dur(S.nextAt - now())}后带礼物回来～` : `下一份礼物大约 ${hm(S.nextAt)} 准备好，等我出门带回来！`);
   });
+  $("collectionChip").addEventListener("click", () => { if (S) openAlbum("sv"); });
   $("moneyChip").addEventListener("click", () => openWallet());
   $("shardChip").addEventListener("click", () => openShards());
   $("tripPill").addEventListener("click", () => openCalendar());
@@ -394,7 +440,7 @@
     const r = await fetch("/api/xuebao", body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) } : { cache: "no-store" });
     const j = await r.json().catch(() => ({}));
     if (j.now) offset = j.now - Date.now();
-    if (!r.ok) { const e = new Error(j.error || "小屋暂时连不上"); e.data = j; throw e; }
+    if (!r.ok) { const e = new Error(j.error || "小屋暂时连不上"); e.data = j; e.status = r.status; throw e; }
     return j;
   }
   let lastPhase = null;
@@ -427,7 +473,8 @@
     else st.textContent = "雪宝带回了 3 份礼物，在门口等你";
     // CTA
     const cta = $("cta"), pill = $("tripPill");
-    const isZe = who() === "泽";
+    const role = who(), isZe = role === "泽";
+    me.setAttribute("aria-label", isZe ? "泽泽角色" : "雪宝角色");
     cta.hidden = !(ph === "back" || ph === "waiting");
     $("ctaText").textContent = isZe ? `雪雪有 ${S.ready} 份礼物待拆` : `拆礼物 · ${S.ready} 份`;
     pill.hidden = !cta.hidden || S.offline;
@@ -435,8 +482,8 @@
     { const g = $("giftBtn"), has = (ph === "back" || ph === "waiting") && S.ready > 0;
       g.classList.toggle("has", has);
       if (has && window.XBGiftBox && !render.pre) { render.pre = true; setTimeout(() => (window.requestIdleCallback || setTimeout)(() => window.XBGiftBox.preload()), 1500); } // 有礼物时提前把盲盒加载好
-      $("giftTxt").textContent = has ? "领礼物" : S.offline ? "礼物" : S.nextAt ? `${hm(S.nextAt)} 到` : "礼物";
-      g.setAttribute("aria-label", has ? `领取 ${S.ready} 份礼物` : "礼物还在路上"); }
+      $("giftTxt").textContent = isZe ? "看礼物" : has ? "领礼物" : S.offline ? "礼物" : S.nextAt ? `${hm(S.nextAt)} 到` : "礼物";
+      g.setAttribute("aria-label", isZe ? "查看礼物" : has ? `领取 ${S.ready} 份礼物` : "礼物还在路上"); }
     // 顶部数字
     $("moneyText").textContent = money(S.wallet.balance);
     $("shardText").textContent = `${S.frag.given}/${S.frag.target}`;
@@ -478,16 +525,19 @@
   }
 
   // ---------- 身份 ----------
+  let selectedRole;
   function who() {
+    if (selectedRole !== undefined) return selectedRole;
     let w = store.get("who", null);
     if (!w) { try { const sp = JSON.parse(localStorage.getItem("starpost:me")); if (sp === "雪" || sp === "泽") { w = sp; store.set("who", w); } } catch { /* 无 */ } }
-    return w;
+    selectedRole = w === "雪" || w === "泽" ? w : null;
+    return selectedRole;
   }
   function askWho(then) {
-    sheet(`<h2>你是谁呀？</h2><p class="sub">雪宝带回的礼物只给雪雪拆，选一次就会记住。</p>
-      <div class="xb-row"><button class="xb-btn" data-w="雪">我是雪雪</button><button class="xb-btn ghost" data-w="泽">我是泽（只看看）</button></div>`, (el) => {
+    sheet(`<h2>你是谁呀？</h2><p class="sub">选择在小屋里扮演谁。雪雪可以拆旅途中带回的礼物，泽泽可以预览。</p>
+      <div class="xb-row"><button class="xb-btn" data-w="雪">我是雪雪</button><button class="xb-btn ghost" data-w="泽">我是泽泽</button></div>`, (el) => {
       el.querySelectorAll("[data-w]").forEach((b) => b.addEventListener("click", () => {
-        store.set("who", b.dataset.w); closeSheet(); render();
+        selectedRole = b.dataset.w; store.set("who", selectedRole); closeSheet(); if (S) render();
         if (then) then(); else if (b.dataset.w === "雪") setTimeout(welcome, 450);
       }));
     });
@@ -654,7 +704,8 @@
   function fallbackBg(id) { const p = palFor(id); return `radial-gradient(circle at 30% 30%, ${p[0]}, transparent 60%), linear-gradient(160deg, ${p[2]}, ${p[1]})`; }
   const pcSrc = (id) => (ART.pc[id] ? `${A}pc-${id}.webp` : "");
   const svSrc = (id) => (ART.sv[id] ? `${A}sv-${id}.webp` : `${A}ic-gift.webp`);
-  const chSrc = (id) => (ART.ch[id] ? `${A}ch-${id}.webp` : "");
+  // 旅伴头像：手办团用手办屋同一份缩略图；鸣潮用 xuebao-assets/ch-<id>.webp
+  const chSrc = (id) => { const c = CHAR[id]; return !c ? "" : c.img || (c.from !== "fig" ? `${A}ch-${id}.webp` : ""); };
 
   function openAlbum(tab = "pc") {
     const got = S.collection || {}, met = S.meets || {};
@@ -666,22 +717,44 @@
     const svs = D.DESTS.map((d) => got[d.id]
       ? `<button class="xb-cell" data-pc="${d.id}"><div class="thumb sq" style="background-image:url(${svSrc(d.id)})"></div><p>${esc(d.gift)}</p></button>`
       : `<div class="xb-cell locked"><div class="thumb sq"><span class="q">?</span></div><p>？？？</p></div>`).join("");
-    const chs = D.CHARS.map((c) => met[c.id]
-      ? `<div class="xb-cell"><div class="thumb sq" style="background-image:${chSrc(c.id) ? `url(${chSrc(c.id)})` : "none"}">${chSrc(c.id) ? "" : `<span class="q" style="color:var(--navy)">${esc(c.name[0])}</span>`}</div><p>${esc(c.name)}<br><span class="xb-count">遇见 ${met[c.id]} 次</span></p></div>`
-      : `<div class="xb-cell locked"><div class="thumb sq"><span class="q">?</span></div><p>还没遇见</p></div>`).join("");
-    sheet(`<h2>旅行图鉴</h2><p class="sub">去过 ${nPc} / ${D.DESTS.length} 个地方 · 遇见 ${nCh} / ${D.CHARS.length} 位旅伴</p>
-      <div class="xb-tabs"><button data-t="pc">明信片</button><button data-t="sv">纪念品</button><button data-t="ch">旅伴</button></div>
-      <div class="xb-grid" data-g="pc">${pcs}</div><div class="xb-grid" data-g="sv">${svs}</div><div class="xb-grid" data-g="ch">${chs}</div>`, (el) => {
-      const show = (t) => { el.querySelectorAll("[data-t]").forEach((b) => b.classList.toggle("on", b.dataset.t === t)); el.querySelectorAll("[data-g]").forEach((g) => (g.hidden = g.dataset.g !== t)); };
+    // 旅伴分两组：鸣潮、高能手办团；还没遇见的是剪影，名字先藏起来
+    const chCell = (c) => met[c.id]
+      ? `<button class="xb-cell ch" data-companion="${c.id}"><div class="thumb sq ch-img" style="background-image:url(${chSrc(c.id)})"></div><p>${esc(c.name)}<br><span class="xb-count">遇见 ${met[c.id]} 次</span></p></button>`
+      : `<div class="xb-cell ch locked"><div class="thumb sq ch-img shadow" style="background-image:url(${chSrc(c.id)})"></div><p>？？？</p></div>`;
+    const grp = (from, title) => { const L = D.CHARS.filter((c) => (c.from || "ww") === from), n = L.filter((c) => met[c.id]).length;
+      return `<h3 class="xb-grp">${title}<small>${n} / ${L.length}</small></h3><div class="xb-grid">${L.sort((a, b) => (met[b.id] ? 1 : 0) - (met[a.id] ? 1 : 0)).map(chCell).join("")}</div>`; };
+    const chs = grp("ww", "鸣潮") + grp("fig", "高能手办团");
+    const wishes = (S.wishes || []).map(w => wishById[w.gift]).filter(Boolean);
+    const wishList = wishes.length ? wishes.map(g => `<div class="xb-cell"><div class="thumb sq xb-wish-icon">${g.icon}</div><p><strong>${esc(g.name)}</strong><br>${esc(g.note)}</p></div>`).join("")
+      : '<p class="sub">许愿树抽到的礼物会收在这里。</p>';
+    sheet(`<h2>小屋收藏</h2><p class="sub">去过 ${nPc} / ${D.DESTS.length} 个地方 · 遇见 ${nCh} / ${D.CHARS.length} 位旅伴</p>
+      <div class="xb-tabs"><button data-t="pc">明信片</button><button data-t="sv">纪念品</button><button data-t="ch">旅伴</button><button data-t="wish">许愿礼物</button></div>
+      <div class="xb-grid" data-g="pc">${pcs}</div><div class="xb-grid" data-g="sv">${svs}</div><div data-g="ch">${chs}</div><div class="xb-grid" data-g="wish">${wishList}</div>`, (el) => {
+      const show = (t) => { tab = t; el.querySelectorAll("[data-t]").forEach((b) => b.classList.toggle("on", b.dataset.t === t)); el.querySelectorAll("[data-g]").forEach((g) => (g.hidden = g.dataset.g !== t)); };
       el.querySelectorAll("[data-t]").forEach((b) => b.addEventListener("click", () => show(b.dataset.t)));
       el.querySelectorAll("[data-pc]").forEach((b) => b.addEventListener("click", () => {
         const g = S.history.find((h) => h.dest === b.dataset.pc) || { dest: b.dataset.pc, at: got[b.dataset.pc] };
         openPostcard(g, () => openAlbum(tab));
       }));
+      el.querySelectorAll("[data-companion]").forEach(b => b.onclick = () => openCompanion(b.dataset.companion));
       show(tab);
     });
   }
 
+  function openCompanion(id) {
+    const c = CHAR[id];
+    if (!c || !S.meets?.[id]) return;
+    const visits = S.history.filter(g => g.meet === id && DEST[g.dest]);
+    const related = D.DESTS.find(d => d.meet === id);
+    const intro = visits.length ? c.line.replace("{place}", DEST[visits[0].dest].place) : c.line.replace("在{place}", "旅途中");
+    sheet(`<h2>${esc(c.name)}</h2><p class="sub">遇见 ${S.meets[id]} 次${related ? ` · 常在${esc(related.place)}遇见` : ""}</p>
+      <p class="xb-wish-card">${esc(intro)}</p>
+      ${visits.length ? `<ul class="xb-list">${visits.map((g,i)=>`<li><button class="xb-link" data-companion-visit="${i}">${esc(DEST[g.dest].place)}</button><span>${md(g.at)}</span></li>`).join("")}</ul>` : ""}
+      <div class="xb-row"><button id="companionBack" class="xb-btn ghost">返回旅伴</button></div>`, el => {
+      el.querySelector("#companionBack").onclick=()=>openAlbum("ch");
+      el.querySelectorAll("[data-companion-visit]").forEach(b=>b.onclick=()=>openPostcard(visits[Number(b.dataset.companionVisit)],()=>openCompanion(id)));
+    });
+  }
   // ---------- 地点图鉴（地球仪） ----------
   // 足迹地图 + 按大区分的地点卡；每个地点一页：明信片、地点小记、雪宝的旅记、纪念品、旅伴、去过几次
   const PL = () => window.XUEBAO_PLACES || { REGIONS: [], PLACES: {} };
@@ -817,20 +890,213 @@
     });
   }
 
+  // ---------- 樱花许愿：许愿池投硬币 → 抽一张愿望签 → 挂到许愿树上 ----------
+  const wishById = Object.fromEntries(D.WISH_GIFTS.map(g => [g.id, g]));
+  const cardById = Object.fromEntries(D.WISH_CARDS.map(c => [c.id, c]));
+  const luckById = Object.fromEntries(D.WISH_LUCK.map(l => [l.id, l]));
+  // 树上挂的：雪雪抽到的签（新的在前）+ 泽泽一开始挂好的几块
+  const treeWishes = () => [...(S?.wishes || []).map(w => ({ ...w, by: "雪" })), ...D.WISH_SEED.map((w, i) => ({ ...w, at: i + 1 }))];
+  let wishSending = false, wishRequest = null;
+  function openWish() {
+    if (!S) return;
+    if (!who()) { askWho(() => openWish()); return; }
+    const isZe = who() === "泽", n = (S.wishes || []).length, got = new Set((S.wishes || []).map(w => w.gift).filter(Boolean)).size;
+    const enough = S.wallet.balance >= D.WISH_COST - 0.001;
+    sheet(`<div class="xb-wishpool"><div class="wp-coin"><img src="${A}ic-coin.webp" alt=""></div>
+      <h2>玫瑰许愿池</h2>
+      <p class="sub">往池子里投一枚硬币，闭上眼睛许个愿。雪宝会替你抽一张愿望签，挂到后面那棵樱花树上。签运好的时候，还会捞到一件樱花礼物。</p>
+      <div class="wp-stats"><span>存钱罐 <b>${money(S.wallet.balance)}</b></span><span>许过 <b>${n}</b> 次</span><span>樱花礼物 <b>${got}/${D.WISH_GIFTS.length}</b></span></div>
+      <p class="sub" role="status" id="wishStatus">${isZe ? "许愿要用雪雪存钱罐里的钱，等雪雪来投硬币吧。" : enough ? "" : `还差一点点，要 ¥${D.WISH_COST} 才能许愿。`}</p>
+      <div class="xb-row"><button class="xb-btn" id="wishDraw" ${!isZe && enough && !S.offline && !wishSending ? "" : "disabled"}>投一枚硬币 · ¥${D.WISH_COST}</button><button class="xb-btn ghost" id="wishTreeBtn">看许愿树</button></div></div>`, (el) => {
+      el.querySelector("#wishTreeBtn").onclick = () => openWishTree();
+      el.querySelector("#wishDraw").onclick = () => drawWish(el);
+    });
+  }
+  async function drawWish(el) {
+    if (wishSending) return;
+    wishSending = true; const btn = el.querySelector("#wishDraw"); btn.disabled = true;
+    wishRequest ||= globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(36).slice(2)}-wish`;
+    el.querySelector("#wishStatus").textContent = "闭上眼睛，许个愿……";
+    // 先让小屋里的雪宝把硬币扔进池子（演出和请求同时进行）
+    closeSheet(); Sound.coin();
+    const toss = new Promise((r) => { window.dispatchEvent(new CustomEvent("xb:wish-toss", { detail: { done: r } })); setTimeout(r, 2200); });
+    try {
+      const [data] = await Promise.all([api({ action: "wish", role: who(), requestId: wishRequest }), toss]);
+      wishRequest = null; wishSending = false; S = data; render(); syncTree(true);
+      showWishSlip(data.wish);
+    } catch (e) {
+      wishSending = false;
+      if (e.status === 400 || e.status === 403 || e.data?.wallet) wishRequest = null;
+      if (e.data?.wallet) { S = e.data; render(); }
+      say(e.message || "硬币好像没投进去，再试一次吧。");
+    }
+  }
+  // 抽到的签：一张纸从卷着的样子展开，盖上签运的红印；带礼物的话下面再亮出礼物
+  function showWishSlip(w) {
+    const c = cardById[w.card] || { title: "如愿", line: "" }, L = luckById[w.luck] || D.WISH_LUCK[1], g = w.gift && wishById[w.gift];
+    layer.hidden = false; layer.className = "xb-open xb-slip-on";
+    layer.innerHTML = `<div class="xb-rays"></div><div class="xb-slip ${w.luck}">
+        <div class="sl-paper"><span class="sl-stamp" style="--lc:${L.color}">${esc(L.name)}</span>
+          <small>樱花许愿签</small><h2>${esc(c.title)}</h2><p>${esc(c.line)}</p></div>
+        ${g ? `<div class="sl-gift"><span class="ic">${g.icon}</span><div><b>还捞到了一件礼物：${esc(g.name)}</b><br>${esc(g.note)}</div></div>` : ""}
+      </div>
+      <div class="xb-row sl-actions"><button class="xb-btn" id="slipHang">挂到许愿树上</button><button class="xb-btn ghost" id="slipAgain" ${S.wallet.balance >= D.WISH_COST ? "" : "disabled"}>再许一次 · ¥${D.WISH_COST}</button></div>`;
+    Sound[w.luck === "daikichi" ? "fanfare" : "chime"]?.();
+    if (g) setTimeout(() => Sound.sparkle(), 900);
+    const close = () => { layer.hidden = true; layer.innerHTML = ""; layer.className = "xb-open"; };
+    layer.querySelector("#slipHang").onclick = () => { close(); window.dispatchEvent(new CustomEvent("xb:wish-hung")); say(w.luck === "daikichi" ? "大吉！挂在最显眼的地方～" : "挂好啦，风一吹它就会轻轻晃。", me, 3000); };
+    layer.querySelector("#slipAgain").onclick = () => { close(); openWish(); };
+  }
+  // 许愿树：所有挂着的绘马；点一块看那一块
+  function openWishTree(one) {
+    if (!S) return;
+    const list = treeWishes();
+    if (one) {
+      const c = cardById[one.card] || { title: "如愿", line: "" }, L = luckById[one.luck] || D.WISH_LUCK[1], g = one.gift && wishById[one.gift];
+      sheet(`<div class="xb-ema-view"><div class="ema-board"><span class="sl-stamp" style="--lc:${L.color}">${esc(L.name)}</span><h2>${esc(c.title)}</h2><p>${esc(c.line)}</p>
+        <small>${one.by === "泽" ? "泽泽替你挂的" : "雪雪许的愿"}${one.at > 1e9 ? ` · ${md(one.at)}` : ""}</small></div>
+        ${g ? `<p class="sub">这一签带回了：${g.icon} ${esc(g.name)}</p>` : ""}
+        <div class="xb-row"><button class="xb-btn ghost" id="emaAll">看看其它愿望</button></div></div>`, (el) => { el.querySelector("#emaAll").onclick = () => openWishTree(); });
+      return;
+    }
+    sheet(`<h2>樱花许愿树</h2><p class="sub">树上挂着 ${list.length} 块绘马。风一吹，它们就轻轻晃。</p>
+      <div class="xb-ema-list">${list.map((w, i) => { const c = cardById[w.card] || { title: "如愿" }, L = luckById[w.luck] || D.WISH_LUCK[1]; return `<button class="ema-mini" data-ema="${i}"><i style="--lc:${L.color}">${esc(L.name)}</i><b>${esc(c.title)}</b><small>${w.by === "泽" ? "泽泽" : "雪雪"}</small></button>`; }).join("")}</div>
+      <div class="xb-row"><button class="xb-btn" id="emaPool">去许愿池许个愿</button></div>`, (el) => {
+      el.querySelectorAll("[data-ema]").forEach((b) => b.onclick = () => openWishTree(list[Number(b.dataset.ema)]));
+      el.querySelector("#emaPool").onclick = () => openWish();
+    });
+  }
+  // 把树上的绘马同步给 3D 场景
+  let treeKey = "";
+  function syncTree(force) {
+    const t = window.XBHall?.hall?.wishTree; if (!t || !S) return;
+    const list = treeWishes(), k = list.map((w) => w.at + w.card).join("|");
+    if (!force && k === treeKey) return; treeKey = k; t.setWishes(list, D.WISH_CARDS);
+  }
+  setInterval(() => syncTree(false), 1500);
+
+  // ---------- 剧情对话（Galgame 那样：立绘 + 名字牌 + 一个字一个字打出来的台词 + 选项） ----------
+  // node：{ who, text（可以是函数）, next | choices: [{ t, go | act | end }] }；act 会关掉对话再做动作
+  const CAST = {
+    ze: { name: "泽泽", img: `${A}ze-stand.webp`, color: "#3a3946" },
+    cat: { name: "布偶猫", img: `${A}pet-cat.webp`, pet: true, color: "#c9a26a" },
+    bunny: { name: "小兔子", img: `${A}pet-bunny.webp`, pet: true, color: "#d98aa0" },
+    husky: { name: "哈士奇", img: `${A}pet-husky.webp`, pet: true, color: "#6f7f96" },
+    me: { name: "雪雪", color: "#c0506f" }
+  };
+  let dlg = null;
+  function vn(script, start = "start") {
+    dlgClose(true);
+    const el = document.createElement("div"); el.className = "xb-dlg"; el.innerHTML = `<div class="dl-dim"></div><div class="dl-stand"></div>
+      <div class="dl-box"><div class="dl-name"></div><p class="dl-text" aria-live="polite"></p><i class="dl-more">▼</i><div class="dl-choices"></div><button class="dl-x" aria-label="结束对话">×</button></div>`;
+    document.body.append(el); requestAnimationFrame(() => el.classList.add("on"));
+    // 立绘的高度跟着对话框走：选项多、框变高时，小动物立绘也跟着往上坐，不被挡住
+    const ro = typeof ResizeObserver === "function" ? new ResizeObserver(() => el.style.setProperty("--boxh", el.querySelector(".dl-box").offsetHeight + "px")) : null; ro?.observe(el.querySelector(".dl-box"));
+    dlg = { el, script, timer: null, full: "", typing: false, ro };
+    el.querySelector(".dl-x").onclick = () => dlgClose();
+    el.querySelector(".dl-dim").onclick = () => dlgClose();
+    el.querySelector(".dl-box").addEventListener("click", (e) => { if (e.target.closest(".dl-choices, .dl-x")) return; if (dlg.typing) dlgFinish(); else if (dlg.node?.next) dlgGo(dlg.node.next); else if (!dlg.node?.choices) dlgClose(); });
+    dlgGo(start);
+  }
+  function dlgGo(id) {
+    const n = dlg?.script[id]; if (!n) { dlgClose(); return; }
+    dlg.node = n; const c = CAST[n.who] || CAST.ze, el = dlg.el;
+    const stand = el.querySelector(".dl-stand");
+    if (stand.dataset.who !== n.who) { stand.dataset.who = n.who; stand.classList.toggle("pet", !!c.pet); stand.innerHTML = c.img ? `<img src="${c.img}" alt="">` : c.emoji ? `<span class="emo">${c.emoji}</span>` : ""; stand.classList.remove("pop"); void stand.offsetWidth; stand.classList.add("pop"); }
+    stand.classList.toggle("speaking", n.who !== "me");
+    el.querySelector(".dl-name").textContent = c.name; el.querySelector(".dl-name").style.background = c.color;
+    el.querySelector(".dl-choices").innerHTML = ""; el.querySelector(".dl-more").hidden = true;
+    dlg.full = typeof n.text === "function" ? n.text() : Array.isArray(n.text) ? pick(n.text) : n.text;
+    const p = el.querySelector(".dl-text"); p.textContent = ""; let k = 0; dlg.typing = true; clearInterval(dlg.timer);
+    dlg.timer = setInterval(() => { k++; p.textContent = dlg.full.slice(0, k); if (k % 3 === 0 && !Sound.muted) Sound.paper(); if (k >= dlg.full.length) dlgFinish(); }, 38);
+    n.enter?.();
+  }
+  function dlgFinish() {
+    if (!dlg) return; clearInterval(dlg.timer); dlg.typing = false; const el = dlg.el, n = dlg.node;
+    el.querySelector(".dl-text").textContent = dlg.full;
+    if (n.choices) {
+      const cs = typeof n.choices === "function" ? n.choices() : n.choices;
+      el.querySelector(".dl-choices").innerHTML = cs.map((c, i) => `<button data-i="${i}" style="--d:${i * 60}ms">${esc(c.t)}</button>`).join("");
+      el.querySelectorAll(".dl-choices button").forEach((b) => b.onclick = (e) => { e.stopPropagation(); const c = cs[Number(b.dataset.i)]; Sound.pop();
+        if (c.act) { dlgClose(); setTimeout(() => c.act(), 200); } else if (c.end) dlgClose(); else dlgGo(c.go); });
+    } else el.querySelector(".dl-more").hidden = false;
+  }
+  function dlgClose(now) {
+    if (!dlg) return; const el = dlg.el; clearInterval(dlg.timer); dlg.ro?.disconnect(); dlg = null;
+    if (now) { el.remove(); return; } el.classList.remove("on"); setTimeout(() => el.remove(), 260);
+  }
+  addEventListener("keydown", (e) => { if (!dlg) return; if (e.key === "Escape") dlgClose(); else if ((e.code === "Space" || e.key === "Enter") && !dlg.node?.choices) { e.preventDefault(); e.stopPropagation(); dlg.el.querySelector(".dl-box").click(); } }, true);
+
+  const zeDo = (id) => () => window.dispatchEvent(new CustomEvent("xb:ze-action", { detail: id }));
+  const ZE_TALK = [
+    "你来啦。我在壁炉边等你好久了。", "今天累不累？过来烤烤火。", "花园里的樱花开了，晚点一起去许个愿？",
+    "你笑起来的时候，壁炉都没你暖。", "饿不饿？想喝三分糖的那杯吗？", "我刚刚在想，下次见面先去哪儿。"
+  ];
+  function talkToZe() {
+    if (!S || who() !== "雪") return;
+    const holding = () => !!window.XBHall?.hall?.zeFollow;
+    vn({
+      start: { who: "ze", text: ZE_TALK, choices: () => [
+        { t: "今天过得怎么样？", go: "day" },
+        { t: "想和你一起做点什么", go: "do" },
+        { t: "雪宝去哪儿了？", go: "xb" },
+        { t: "没事，就想看看你", go: "look" }
+      ] },
+      day: { who: "ze", text: ["我今天一直在想你：醒了没有、吃饭了没有、有没有被谁欺负。", "今天还好，就是有点想你，想得有点多。"], next: "day2" },
+      day2: { who: "ze", text: "那你呢？今天开心吗？", choices: [
+        { t: "开心！", go: "happy" }, { t: "有点累……", go: "tired" }, { t: "想你了", go: "miss" }
+      ] },
+      happy: { who: "ze", text: "那我也开心。来，奖励一个抱抱。", choices: [{ t: "抱抱！", act: zeDo("hug") }, { t: "嘿嘿，先不要", go: "shy" }] },
+      tired: { who: "ze", text: "那过来，我给你捏捏肩。累了就靠着我，什么都不用想。", choices: [{ t: "要抱抱", act: zeDo("hug") }, { t: "想要举高高", act: zeDo("lift") }, { t: "陪我烤烤火吧", go: "fire" }] },
+      miss: { who: "ze", text: "我也是。每天都比昨天更想一点。", choices: [{ t: "亲一下", act: zeDo("kiss") }, { t: "牵着手走走", act: zeDo("hand") }] },
+      shy: { who: "ze", text: "好吧好吧，那我先欠着，你想要的时候随时来领。", choices: [{ t: "嗯！", end: true }] },
+      fire: { who: "ze", text: "好。火刚添了柴，噼里啪啦的，听着就暖和。", choices: [{ t: "靠过去", act: zeDo("hug") }, { t: "就这样待一会儿", end: true }] },
+      do: { who: "ze", text: "好呀，你想做什么，我都陪你。", choices: () => [
+        { t: "🤗 抱抱", act: zeDo("hug") }, { t: "💋 亲亲", act: zeDo("kiss") }, { t: "⬆️ 举高高", act: zeDo("lift") },
+        { t: "✋ 击个掌", act: zeDo("five") }, { t: holding() ? "🤝 先松开手" : "🤝 牵手走走", act: zeDo("hand") }
+      ] },
+      xb: { who: "ze", text: () => S.phase === "away" ? "雪宝出门旅行啦，说要给你带好东西回来，还偷偷问我你喜欢什么颜色。"
+        : S.phase === "home" ? "她在家呢，刚刚还在偷吃奶茶里的珍珠，被我发现了。" : "她回来啦！背着一大包礼物在门口等你拆呢。", next: "xb2" },
+      xb2: { who: "ze", text: "有它陪着你，我就放心多了。", choices: [{ t: "嗯，我们都在", end: true }] },
+      look: { who: "ze", text: "那就多看一会儿，我又不跑。", choices: [{ t: "那我也不走", end: true }] }
+    });
+  }
+  // 小动物：猫、兔子
+  const PET_TALK = {
+    cat: { start: { who: "cat", text: ["喵～", "喵呜？（它歪着头看你）", "咕噜咕噜……"], choices: [{ t: "摸摸头", go: "pat" }, { t: "给它一条小鱼干", go: "fish" }, { t: "拜拜", end: true }] },
+      pat: { who: "cat", text: "咕噜咕噜……（它眯起眼睛，往你手心里蹭）", choices: [{ t: "再摸一下", go: "pat2" }, { t: "好啦，去玩吧", end: true }] },
+      pat2: { who: "cat", text: "喵！（它翻了个身，把肚皮露给你）", choices: [{ t: "揉揉肚子", go: "belly" }, { t: "拜拜", end: true }] },
+      belly: { who: "cat", text: "嗷呜！（它轻轻咬了你一口，又假装什么都没发生）", choices: [{ t: "哈哈，坏猫", end: true }] },
+      fish: { who: "cat", text: "（它叼着小鱼干，一溜烟跑到沙发底下，只露出一截尾巴）", choices: [{ t: "吃慢点哦", end: true }] } },
+    bunny: { start: { who: "bunny", text: ["（它动了动鼻子，盯着你看）", "（耳朵一抖一抖的）", "（它蹦到你脚边，又蹦开了）"], choices: [{ t: "摸摸耳朵", go: "ear" }, { t: "给它一根胡萝卜", go: "carrot" }, { t: "拜拜", end: true }] },
+      ear: { who: "bunny", text: "（耳朵软软的、暖暖的，它乖乖地不动了）", choices: [{ t: "好乖", end: true }] },
+      carrot: { who: "bunny", text: "（咔嚓咔嚓咔嚓——一根胡萝卜三口就没了，它又看着你）", choices: [{ t: "没有啦！", go: "none" }, { t: "再给一根", go: "carrot" }] },
+      none: { who: "bunny", text: "（它跺了跺后脚，扭头蹦走了，尾巴一颠一颠的）", choices: [{ t: "哈哈", end: true }] } },
+    husky: { start: { who: "husky", text: ["汪！汪汪！（尾巴摇成了螺旋桨）", "嗷呜～（它歪着头，一脸傻笑）", "（它扑过来，差点把你撞倒）"], choices: [{ t: "摸摸头", go: "pat" }, { t: "扔个球给它", go: "ball" }, { t: "拜拜", end: true }] },
+      pat: { who: "husky", text: "（它闭上眼睛，把整个脑袋往你手里拱，喉咙里发出呜呜的声音）", choices: [{ t: "好乖好乖", go: "howl" }, { t: "去玩吧", end: true }] },
+      howl: { who: "husky", text: "嗷——呜——！（它突然仰头唱起歌来，自己还挺得意）", choices: [{ t: "一起嗷呜！", go: "duet" }, { t: "哈哈哈", end: true }] },
+      duet: { who: "husky", text: "（你们俩对着天空一起嗷呜，远处的小猫翻了个白眼）", choices: [{ t: "合唱成功", end: true }] },
+      ball: { who: "husky", text: "（球飞出去——它往反方向跑了。过了一会儿叼回来一根树枝，骄傲地放在你脚边）", choices: [{ t: "……谢谢你哦", go: "stick" }, { t: "球呢？！", go: "lost" }] },
+      stick: { who: "husky", text: "汪！（它觉得自己立了大功，原地转了三圈）", choices: [{ t: "真棒", end: true }] },
+      lost: { who: "husky", text: "（它想了想，躺下来露出肚皮。意思是：球的事就算了吧）", choices: [{ t: "好吧，揉揉肚子", end: true }] } }
+  };
+  function talkPet(kind) { vn(PET_TALK[PET_TALK[kind] ? kind : "cat"]); }
+
   // ---------- 打开背包 ----------
   const layer = $("openLayer");
   let opening = false;
   async function openPack() {
-    if (!S || opening || !(S.phase === "back" || S.phase === "waiting")) return;
+    if (!S || opening) return;
     const w = who();
     if (!w) { askWho(openPack); return; }
-    if (w === "泽") { say("这是给雪雪的礼物，要等她来拆哦。", me, 2800); return; }
+    if (w === "泽") { viewGifts(); return; }
+    if (!(S.phase === "back" || S.phase === "waiting")) return;
     opening = true;
     // 3D 小屋里：用拆盲盒的演出（按住封条往右撕）
     if (window.XBGiftBox && document.body.classList.contains("hall")) {
       const GB = window.XBGiftBox; GB.busy = true; window.XBMuted = () => Sound.muted;
       GB.open({
-        layer, claim: () => api({ action: "claim" }),
+        layer, claim: () => api({ action: "claim", role: "雪" }),
         tierOf: (r) => Math.max(...(r.gifts || []).map((g) => DEST[g.dest]?.tier || 1)),
         onDone: (r) => { GB.busy = false; S = r; layer.className = "xb-open"; layer.innerHTML = ""; showGift(r.gifts, 0); },
         onError: (e) => { GB.busy = false; layer.className = "xb-open"; layer.innerHTML = ""; layer.hidden = true; opening = false; S = e.data?.phase ? e.data : S; render(); say(e.message || "礼物没拆开，过一会儿再试试。"); }
@@ -846,11 +1112,36 @@
       layer.querySelector("#op").classList.add("pop"); Sound.open();
       layer.querySelector(".tip").textContent = "正在拿出来……";
       let res;
-      try { res = await api({ action: "claim" }); }
+      try { res = await api({ action: "claim", role: "雪" }); }
       catch (e) { layer.querySelector(".tip").textContent = e.message; S = e.data?.phase ? e.data : S; setTimeout(closeLayer, 1800); return; }
       await sleep(500);
       S = res; showGift(res.gifts, 0);
     }, { once: true });
+  }
+  function viewGifts() {
+    const recent = (S.history || []).slice(0, 8);
+    sheet(`<h2>泽泽的礼物预览</h2><p class="sub">${S.ready ? `有 ${S.ready} 份封存礼物等雪雪回来拆。` : "目前没有待拆礼物。"} 已拆的礼物可以回看。</p>
+      <div class="xb-row"><button class="xb-btn" id="giftDemo">试玩拆盒动画</button><button class="xb-btn ghost" id="giftCollection">打开收藏</button></div>
+      ${recent.length ? `<ul class="xb-list">${recent.map((g,i) => `<li><button class="xb-link" data-past-gift="${i}">${esc(DEST[g.dest]?.gift || "旅行礼物")}</button><span>${esc(DEST[g.dest]?.place || "")}</span></li>`).join("")}</ul>` : ""}`, (el) => {
+      el.querySelector("#giftCollection").onclick = () => openAlbum("sv");
+      el.querySelector("#giftDemo").onclick = previewGiftAnimation;
+      el.querySelectorAll("[data-past-gift]").forEach(b => b.onclick = () => openPostcard(recent[Number(b.dataset.pastGift)], viewGifts));
+    });
+  }
+
+  function previewGiftAnimation() {
+    const GB = window.XBGiftBox;
+    if (opening) return;
+    if (!GB || !document.body.classList.contains("hall")) {
+      sheet(`<h2>礼物预览</h2><div class="xb-openpack pop"><img src="${A}ic-gift.webp" alt="礼物盒"></div><p class="sub">拆盒演示。旅行礼物仍等雪雪领取。</p><button class="xb-btn ghost" id="backPreview">返回礼物</button>`,
+        el => { el.querySelector("#backPreview").onclick = viewGifts; });
+      return;
+    }
+    closeSheet(); opening = true; GB.busy = true; window.XBMuted = () => Sound.muted;
+    const finish = () => { GB.busy = false; layer.className = "xb-open"; closeLayer(); viewGifts(); };
+    try {
+      GB.open({ layer, demo: true, claim: async () => ({}), tierOf: () => 1, onDone: finish, onError: finish });
+    } catch { finish(); }
   }
   function closeLayer() { layer.hidden = true; layer.innerHTML = ""; opening = false; render(); }
 

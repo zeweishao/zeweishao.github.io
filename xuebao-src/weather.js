@@ -62,7 +62,7 @@ export function buildWeather(THREE, scene, { Z0, mobile, heightAt }) {
       prev?.call(mat, sh, r);
       sh.uniforms.uSnow = snowU; sh.uniforms.uSnowZ = z0U;
       sh.vertexShader = "varying vec3 vSnowW;\n" + sh.vertexShader.replace("#include <project_vertex>", "#include <project_vertex>\n{ vec4 sp = vec4(transformed, 1.0);\n#ifdef USE_INSTANCING\n sp = instanceMatrix * sp;\n#endif\n vSnowW = (modelMatrix * sp).xyz; }");
-      sh.fragmentShader = "uniform float uSnow; uniform float uSnowZ; varying vec3 vSnowW;\n" + sh.fragmentShader.replace("#include <emissivemap_fragment>", "#include <emissivemap_fragment>\n{ vec3 wn = normalize((vec4(normal, 0.0) * viewMatrix).xyz); float sk = uSnow * smoothstep(0.3, 0.75, wn.y) * step(vSnowW.z, uSnowZ - 0.2) * (0.78 + 0.22 * fract(sin(dot(floor(vSnowW.xz * 18.0), vec2(12.9898, 78.233))) * 43758.5453)); diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.94, 0.96, 1.0), sk * 0.9); roughnessFactor = mix(roughnessFactor, 0.95, sk); }");
+      sh.fragmentShader = "uniform float uSnow; uniform float uSnowZ; varying vec3 vSnowW;\n" + sh.fragmentShader.replace("#include <emissivemap_fragment>", "#include <emissivemap_fragment>\n{ vec3 wn = normalize((vec4(normal, 0.0) * viewMatrix).xyz); float sk = uSnow * smoothstep(0.3, 0.75, wn.y) * step(vSnowW.z, uSnowZ - 0.2) * (0.78 + 0.22 * fract(sin(dot(floor(vSnowW.xz * 18.0), vec2(12.9898, 78.233))) * 43758.5453)); diffuseColor.rgb = mix(diffuseColor.rgb, vec3(0.88, 0.91, 0.97), sk * 0.82); roughnessFactor = mix(roughnessFactor, 0.95, sk); }");
     };
     mat.customProgramCacheKey = () => (prevKey ? prevKey.call(mat) : "") + "|snow";
     mat.needsUpdate = true;

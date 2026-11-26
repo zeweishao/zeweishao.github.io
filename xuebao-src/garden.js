@@ -528,7 +528,7 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
   const SEAT = (o) => ({ x: o.x, y: o.y, z: o.z });
   const _v = new THREE.Vector3();
   const spots = [
-    { id: "fountain", name: "许愿喷泉", icon: "⛲", at: [FC.x, 1.85, FC.z], spot: { x: 0, z: -9.25 }, face: Math.PI, pick: [fountain], clip: "wow", dur: 3.2,
+    { id: "fountain", action: "wish-fountain", name: "许愿池", cta: "许个愿", icon: "⛲", at: [FC.x, 1.85, FC.z], spot: { x: 0, z: -9.25 }, face: Math.PI, pick: [fountain], clip: "wow", dur: 3.2,
       lines: ["许个愿吧～", "哇，水花溅到我啦！", "希望明天也是晴天。"], start() { burst = 1; wishAge = 0; } },
     { id: "pond", name: "睡莲池", icon: "🪷", at: [POND.x, 0.9, POND.z], spot: POND_VIEW, face: face(POND_VIEW.x, POND_VIEW.z, POND.x, POND.z), pick: [pond], clip: "wave", dur: 3.4,
       lines: ["小鱼小鱼，出来玩～", "睡莲开得好好看。", "嘘，锦鲤在睡觉。"], start() { ripple(-0.9, 0.5); setTimeout(() => ripple(-0.2, 0.1), 250); koi[0].jump = 0; } },

@@ -95,12 +95,13 @@ function play(k, vol = 0.6, loop = false) {
  * 打开拆礼物演出。layer：全屏层；claim()：真正领取（返回服务器结果）；tierOf(res)：1–3；
  * 结束时 onDone(res)；领取失败 onError(e)。
  */
-export function openGiftBox({ layer, claim, tierOf, onDone, onError }) {
+export function openGiftBox({ layer, claim, tierOf, onDone, onError, demo = false }) {
   layer.hidden = false; layer.classList.add("gb-on");
   layer.innerHTML = `<div class="gb-stage"></div><div class="gb-flash"></div><div class="gb-peel" role="slider" tabindex="0" aria-label="封条，向右拖动撕开" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden></div>
     <div class="gb-cap"><small class="gb-step">GIFT FROM XUEBAO</small><p class="gb-msg">雪宝在给你拿礼物……</p><i class="gb-hint" hidden></i></div><button class="gb-skip" type="button" hidden>跳过</button>`;
   const $ = (s) => layer.querySelector(s), host = $(".gb-stage"), peelEl = $(".gb-peel");
   const say = (step, msg) => { $(".gb-step").textContent = step; $(".gb-msg").textContent = msg; };
+  if (demo) layer.insertAdjacentHTML("beforeend", '<span class="gb-demo">动画预览</span>');
   unlockAudio();
 
   const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
