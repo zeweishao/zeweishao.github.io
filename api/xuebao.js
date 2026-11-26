@@ -77,13 +77,23 @@ const fileStore = (file) => {
 const blobStore = () => {
   let etag;
   return {
+    // 公开 Blob 的 get() 走 CDN，最多缓存 60 秒：刚保存过再读会拿到旧内容和旧 ETag，ifMatch 永远冲突。
+    // 所以先用 head()（走存储接口，总是最新）拿 ETag，再带上 ETag 当查询参数读内容，并核对读到的就是这一版。
     async load() {
-      const { get } = await import("@vercel/blob");
-      const found = await get(PATHNAME, { access: "public", useCache: false });
-      if (!found) return null;
-      if (!found.stream || !found.blob.etag) throw new Error("Missing Blob state or ETag");
-      etag = found.blob.etag;
-      return new Response(found.stream).json();
+      const { head, BlobNotFoundError } = await import("@vercel/blob");
+      let meta;
+      try { meta = await head(PATHNAME); }
+      catch (e) { if (e instanceof BlobNotFoundError) { etag = undefined; return null; } throw e; }
+      if (!meta.etag) throw new Error("Missing Blob ETag");
+      const url = new URL(meta.url);
+      url.searchParams.set("v", meta.etag.replace(/\W/g, ""));
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) throw new Error(`Blob read failed: ${r.status}`);
+      const got = r.headers.get("etag");
+      const norm = (t) => String(t || "").replace(/^W\//, "").replace(/"/g, "");
+      if (got && norm(got) !== norm(meta.etag)) throw new StateConflict(); // CDN 还没刷新，稍等重读
+      etag = meta.etag;
+      return r.json();
     },
     async save(s) {
       const { put, BlobPreconditionFailedError } = await import("@vercel/blob");
@@ -366,6 +376,7 @@ async function serve(req, res) {
       try { await handle(req, res); return; }
       catch (error) {
         if (!(error instanceof StateConflict)) throw error;
+        await new Promise((r) => setTimeout(r, 150 * (attempt + 1)));
       }
     }
     sendJson(res, 409, { error: "小屋正在保存上一项操作，请再试一次。" });

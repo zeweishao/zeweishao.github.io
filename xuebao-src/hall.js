@@ -408,10 +408,13 @@ function start() {
     const c = b.dataset.c;
     if (c === "jump") doJump();
     else if (c === "wheel") openWheel(wheel.hidden);
-    else if (c === "ctx") doCtx();
+    else if (c === "ctx") ctxDown = e.pointerId; // 情景键松手才触发：按下就弹出的确认卡／许愿面板会被这次松手点到遮罩上关掉
     else if (c === "in" || c === "out") { view.touched = true; view.zoom(c === "in" ? 0.8 : 1.25); }
     else if (c === "reset") { view.reset(); view.touched = false; }
   });
+  let ctxDown = null;
+  ctl.addEventListener("pointerup", (e) => { if (ctxDown !== e.pointerId) return; ctxDown = null; if (e.target.closest?.(".b-ctx")) { e.stopPropagation(); e.preventDefault(); setTimeout(doCtx, 0); } });
+  ctl.addEventListener("pointercancel", () => { ctxDown = null; });
   addEventListener("pointerup", () => ctl.querySelectorAll(".press").forEach((b) => b.classList.remove("press")));
   ctl.addEventListener("click", (e) => e.stopPropagation());
   addEventListener("keydown", (e) => { if (e.key === "Shift") shift = true; });

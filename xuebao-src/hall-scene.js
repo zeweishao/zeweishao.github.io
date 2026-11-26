@@ -250,7 +250,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   model("antique_ceramic_vase_01", { scale: 0.55, at: [-W / 2 + 0.3, 0.95, VAN.z + 0.55] });
   framed("fancy_picture_frame_01", "pc-wh-sakura", { ry: Math.PI / 2, at: [-W / 2 + 0.02, 1.62, -3.4], anchor: "frameL" });
   // 前墙：一幅大画 + 两盆绿植 + 白瓷绿篱
-  framed("fancy_picture_frame_02", "pc-xj-kanas", { scale: 1.05, ry: Math.PI, at: [0, 1.35, FRONT - 0.05], anchor: "frameF" });
+  // 壁炉挪到了前墙正中（门的正对面），这幅大画搬到左墙原来壁炉的位置
+  framed("fancy_picture_frame_02", "pc-xj-kanas", { scale: 1.05, ry: Math.PI / 2, at: [-W / 2 + 0.03, 1.5, -0.95], anchor: "frameF" });
   [-1.3, 1.3].forEach((x) => topiary(x, FRONT - 0.32, 0.9));
   // 右墙：白漆落地钟 + 明信片画框
   model("vintage_grandfather_clock_01", { lacquer: "#fdf5ee", ry: -Math.PI / 2, at: [W / 2 - 0.25, 0, -3.15], anchor: "clock" });
@@ -286,10 +287,10 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
 
   // ---------- 门外：童话森林花园（garden.js） ----------
   const garden = buildGarden(THREE, scene, { D, W, FRONT, mobile });
-  // 左墙：梳妆台和写信桌之间的壁炉，上面挂一幅明信片画
-  const FP = { z: -0.95 };
-  const fireplace = buildFireplace(THREE, scene, { at: [-W / 2 + 0.004, 0, FP.z], ry: Math.PI / 2, mobile, photo: A + "pc-hz-snow.webp", texLoader });
-  framed("fancy_picture_frame_02", "pc-ly-lamp", { scale: 0.78, ry: Math.PI / 2, at: [-W / 2 + 0.03, 1.78, FP.z], anchor: "frameFP" });
+  // 前墙正中（一进门就正对着）：壁炉，上面挂一幅明信片画；局部正面 +z，转 180° 朝向屋里
+  const FP = { x: 0, z: FRONT };
+  const fireplace = buildFireplace(THREE, scene, { at: [FP.x, 0, FRONT - 0.004], ry: Math.PI, mobile, photo: A + "pc-hz-snow.webp", texLoader });
+  framed("fancy_picture_frame_02", "pc-ly-lamp", { scale: 0.78, ry: Math.PI, at: [FP.x, 1.78, FRONT - 0.03], anchor: "frameFP" });
   const wishTree = buildWishTree(THREE, scene, { heightAt: garden.heightAt, mobile });
   // 瀑布小溪、宠物、灯串、彩旗、野餐毯、远山城堡热气球（garden-extras.js）
   const extras = buildGardenExtras(THREE, scene, { heightAt: garden.heightAt, mobile, Z0: garden.Z0 });
@@ -414,7 +415,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   xb.position.set(0, 0, -1.05); scene.add(xb);
   // ---------- 泽泽（ze-model.js）：雪雪玩的时候他是屋里的 NPC，站在壁炉旁边；选“我是泽泽”时他就是玩家 ----------
   const ze = buildZe(THREE); ze.loadGlb(GLTFLoader, R + "ze.glb?v=20261126b");
-  const zeHome = { x: -1.3, z: 0.25 }, zeApproach = { x: -0.85, z: 0.55 };
+  const zeHome = { x: -1.05, z: 0.85 }, zeApproach = { x: -0.6, z: 0.6 }; // 壁炉左前方
   const snowStand = new THREE.Group(); snowStand.scale.setScalar(.9); scene.add(snowStand);
   ze.root.position.set(zeHome.x, 0, zeHome.z);
   ze.root.rotation.y = 1.0;
@@ -1162,9 +1163,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function hitChar(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return xb.visible && ray.intersectObject(xb, true).length > 0; }
   // ---------- 能点的东西：头顶一个会上下浮的小牌子（手机上更大），点牌子或点物件都算 ----------
   // 屋里能做的事：壁炉烤火、两张沙发坐下（坐垫高 0.43，比长椅低一点）
-  const FPX = -W / 2 + 0.95;
+  const FPZ = FRONT - 0.95; // 烤火时站的位置：壁炉正前方
   const houseSpots = [
-    { id: "fireplace", name: "壁炉", icon: "🔥", verb: "烤火", at: [-W / 2 + 0.3, 1.45, FP.z], spot: { x: FPX, z: FP.z }, face: -Math.PI / 2, pick: [fireplace.root], clip: "wait", dur: 4.2, fx: "warm",
+    { id: "fireplace", name: "壁炉", icon: "🔥", verb: "烤火", at: [FP.x, 1.45, FRONT - 0.3], spot: { x: FP.x, z: FPZ }, face: 0, pick: [fireplace.root], clip: "wait", dur: 4.2, fx: "warm",
       lines: ["好暖和～", "手都暖起来了。", "火苗在跳舞。", "冬天就该这样待着。"] },
     ...[-1, 1].map((k) => ({ id: k < 0 ? "sofaL" : "sofaR", name: "沙发", icon: "🛋", verb: "坐下", noMarker: true, at: [k * 1.42, 0.9, -2.15], spot: { x: k * 0.92, z: -2.15 }, exit: { x: k * 0.92, z: -2.15 },
       face: k < 0 ? Math.PI / 2 : -Math.PI / 2, pick: [], clip: "sit", dur: Infinity, lines: ["沙发好软～", "坐一会儿。", "陷进去啦。"],
@@ -1410,7 +1411,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   const ZE_GESTURES = [["stretch", 2.6, null], ["think", 3.2, null], ["yawn", 2.4, "zzz"], ["look", 3.4, null], ["scratch", 2.2, null], ["watch", 2.4, null], ["talk", 2.6, "note"]];
   // 他会去的地方：壁炉前（烤火）、窗边（看外面）、沙发边（想事情）、茶几旁（东张西望）
   const ZE_PLACES = [
-    { x: -W / 2 + 0.8, z: FP.z, yaw: -Math.PI / 2, cue: "warm", dur: 5, fx: "warm" },
+    { x: FP.x + 0.4, z: FRONT - 0.85, yaw: 0, cue: "warm", dur: 5, fx: "warm" },
     { x: 0.55, z: -D + 0.95, yaw: Math.PI, cue: "look", dur: 4.5, fx: null },
     { x: -0.95, z: -1.35, yaw: -2.2, cue: "think", dur: 3.6, fx: null },
     { x: 0.9, z: -1.2, yaw: 2.4, cue: "stretch", dur: 2.6, fx: null }
