@@ -257,7 +257,7 @@ function start() {
     if (entering) return;
     const line = s.lines?.[Math.floor(Math.random() * s.lines.length)] || "";
     const art = ENTRY_ART.includes(s.id) ? s.id : s.id.startsWith("fig-") ? "figures" : "";
-    const ok = G()?.confirm ? await G().confirm({ icon: s.icon, img: art ? `${A}entry-${art}.webp?v=1` : "", title: s.name, text: line, ok: s.verb && s.verb !== s.name ? s.verb : "进去看看" }) : true;
+    const ok = G()?.confirm ? await G().confirm({ icon: s.icon, img: art ? `${A}entry-${art}.webp?v=2` : "", title: s.name, text: line, ok: s.verb && s.verb !== s.name ? s.verb : "进去看看" }) : true;
     if (ok) enterPage(s);
   }
   // ---------- 情景键：走到东西旁边，挥手键变成“荡秋千 / 坐下 / 烤火 / 钓鱼……” ----------
