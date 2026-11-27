@@ -302,7 +302,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   // ---------- 主角形象：小绘梨衣（eri-model.js，精模 xuebao-3d/eri.glb，换装接口见 eri-model.js 顶部）----------
   // 动作还是弗洛洛那一套（xuebao.glb 的 14 段动画在后台照常播），每帧把骨骼姿势转到绘梨衣身上（wearEri / driveEri）
   const eri = buildEri(THREE);
-  const eriReady = eri.loadGlb(GLTFLoader, R + "eri.glb?v=20261127a");
+  const eriReady = eri.loadGlb(GLTFLoader, R + "eri.glb?v=20261127b");
   // ---------- 弗洛洛：原来的主角，现在是好朋友 NPC，在花园里到处逛（stepFuro）----------
   const FURO_PLACES = [[0.95, -8.9], [-2.3, -10.4], [2.5, -12.3], [-1.5, -14.3], [1.9, -14.7], [4.7, -10.3], [-5.9, -10.9], [-3.4, -12.6], [shrine.spots[0].spot.x + 0.4, shrine.spots[0].spot.z - 0.3], [3.4, -8.6]];
   const furo = { root: new THREE.Group(), model: null, mixer: null, acts: {}, cur: null, x: -2.3, z: -10.4, yaw: 0.6, path: [], wait: 3, cue: "idle", talkT: 0 };
@@ -535,7 +535,8 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     const s0 = restX.hips.p.y / hipE.getWorldPosition(_va).y; // 髋一样高
     model.traverse((o) => { if (o.isMesh) { o.visible = false; o.castShadow = false; } }); // 弗洛洛的身体藏起来，只留骨骼和动画
     eri.root.scale.setScalar(s0); model.add(eri.root); eri.sockets.headTop.scale.setScalar(1.15); model.updateMatrixWorld(true);
-    eri.root.traverse((o) => { if (o.isMesh) { o.userData.xb = true; if (o.material && !XB.mats.includes(o.material)) XB.mats.push(o.material); } });
+    GLB.seatFolds.length = 0; // 弗洛洛的裙子形态键不用了，换成绘梨衣袴的“坐下折叠”
+    eri.root.traverse((o) => { if (o.isMesh) { o.userData.xb = true; if (o.material && !XB.mats.includes(o.material)) XB.mats.push(o.material); const k = o.morphTargetDictionary?.SeatedSkirt; if (k != null) GLB.seatFolds.push([o.morphTargetInfluences, k]); } });
     const list = [], byE = {};
     for (const n of EB) {
       const e = rig.bone(n), x = restX[n]; if (!e || !x) continue;
@@ -605,7 +606,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function stepGlb(dt, walking, speed) {
     const P = char;
     // 坐下（长椅、秋千、地上喝茶看书打盹）时裙子顺着大腿搭下来，不插进地板
-    const seated = P.act && /^(bench|swing)$/.test(P.act.s.id) || (SIT[P.pose] && !walking) ? 1 : 0;
+    const seated = P.act && /^(bench|swing|sofaL|sofaR)$/.test(P.act.s.id) || (SIT[P.pose] && !walking) ? 1 : 0;
     for (const [weights, index] of GLB.seatFolds) {
       weights[index] += (seated - weights[index]) * (1 - Math.exp(-dt * 14));
     }
@@ -706,7 +707,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     for (const p of PLATS) {
       if (!inPlat(p, x, z)) { if (inPlat(p, x, z, 0.3) && !(nearWall(x, z) && !WM.walkable(x, z))) f.zone = true; continue; } // 家具旁边一圈：可以走到跟前起跳
       if (p.top <= y + STEP + 0.001) { if (!f.wall && p.top > f.top) { f.top = p.top; f.zone = true; f.water = 0; f.plat = p; } }
-      else if ((p.bottom || 0) < y + 0.8) return { top: p.top, zone: true, wall: true };
+      else if (!p.oneWay && (p.bottom || 0) < y + 0.8) return { top: p.top, zone: true, wall: true }; // oneWay：车篷、伞面这种，从下面能跳穿上去站在顶上
     }
     if (!f.zone && !f.plat && !WM.walkable(x, z)) {
       const t = propTop(x, z);
@@ -740,6 +741,18 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (ok(nx, z)) return { x: nx, z, blocked: true };
     if (ok(x, nz)) return { x, z: nz, blocked: true };
     return { x, z, blocked: true };
+  }
+  // 设置里的“脱离卡顿”：停下手上的动作，挪到附近一块平地上（找不到就回屋里地毯）；home=true 直接回屋里
+  function rescue(home = false) {
+    const P = char, p = xb.position;
+    P.act = null; P.pending = null; P.path = []; P.dragging = false; P.drive = null; P.air = null; P.vy = 0;
+    let tx = 0, tz = -1.05;
+    if (!home) {
+      const clear = (x, z) => WM.walkable(x, z) && !PLATS.some((q) => inPlat(q, x, z, 0.2)) && !ceilHit(x, z, -0.1, 1.2) && Math.hypot(x - FCX, z - FCZ) > FZONE;
+      search: for (let r = 0.3; r <= 5; r += 0.15) { const n = Math.max(8, Math.round(r * 30)); for (let i = 0; i < n; i++) { const a = (i / n) * Math.PI * 2, x = p.x + Math.cos(a) * r, z = p.z + Math.sin(a) * r; if (clear(x, z)) { tx = x; tz = z; break search; } } }
+    }
+    const g = terrainY(tx, tz); p.set(tx, g, tz); P.y = g; P.sup = g;
+    return { x: tx, z: tz };
   }
   // 水花：一小团水珠 + 水面一圈涟漪
   const splashN = mobile ? 90 : 160, splashP = new Float32Array(splashN * 3), splashV = new Float32Array(splashN * 3), splashL = new Float32Array(splashN);
@@ -1326,6 +1339,10 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       local(cart, 1.05, 0.55, { r: 0.28, top: 0.645 });
       local(cart, 1.05, 0.55, { r: 0.05, top: 2.2, bottom: 0.66 }); // 阳伞杆：站在桌上也会挡一下
       [0.9, 0.9 + Math.PI].forEach((a) => local(cart, 1.05 + Math.cos(a) * 0.45, 0.55 + Math.sin(a) * 0.45, { r: 0.15, top: 0.475 }));
+      // 往上还能一层层跳：车篷顶（1.62）→ 车篷上的大奶茶杯（2.08）；小桌阳伞的伞面（2.1）。车篷和伞面是单向的，从底下能跳穿上去
+      local(cart, 0, 0, { hx: 0.45, hz: 0.77, top: 1.62, bottom: 1.5, oneWay: true });
+      local(cart, 0, 0, { r: 0.2, top: 2.08, bottom: 1.62 });
+      local(cart, 1.05, 0.55, { r: 0.7, top: 2.1, bottom: 1.84, oneWay: true });
     }
     // 头顶：推车和阳伞上离地 1.2 米以上、够大的部件（伞面、车篷）各算一块“天花板”
     const ceilFrom = (obj, above = 1.2) => {
@@ -1333,7 +1350,6 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       obj.traverse((m) => { if (!m.isMesh) return; b.setFromObject(m); const w = b.max.x - b.min.x, d = b.max.z - b.min.z;
         if (b.min.y > base + above && w > 0.3 && d > 0.3) CEILS.push({ x0: b.min.x, x1: b.max.x, z0: b.min.z, z1: b.max.z, bottom: b.min.y }); });
     };
-    ceilFrom(cart);
     (SPOTS.swing?.pick || []).forEach((g) => ceilFrom(g, 1.3));
     (SPOTS.mushroom?.pick || []).forEach((g, i) => { const b = new THREE.Box3().setFromObject(g), c = b.getCenter(new THREE.Vector3()); PLATS.push({ x: c.x, z: c.z, r: (b.max.x - b.min.x) / 2 * 0.92, top: b.max.y - 0.03 }); });
     PLATS.push({ x: -3, z: -8.4, r: 0.5, top: 0.44 });
@@ -1570,5 +1586,5 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     zeSpot.at[0] = zp.x; zeSpot.at[2] = zp.z; zeSpot.spot = { x: zp.x + Math.sin(ze.root.rotation.y) * 0.55, z: zp.z + Math.cos(ze.root.rotation.y) * 0.55 };
   }
 
-  return { eri, furo, shrine, WM, setFocus, THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx, wishTree, fireplace, setPlayer, zeAction, nearestSpot, tossCoin, duoReady, duoAct, onDuo(f) { onDuo = f; }, get zeFollow() { return zeFollow; }, pickEma(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return ray.intersectObjects(wishTree.emaPick, false)[0]?.object.userData.wish || null; }, onSplash(f) { onSplash = f; }, onBonk(f) { onBonk = f; }, CEILS, PLATS, propTop, moveH, get focusDebug() { const v = focusSp.position.clone().project(camera); return { id: focusS?.id, vis: focusSp.visible, op: focusSp.material.opacity, sx: (v.x + 1) / 2, sy: (1 - v.y) / 2, scale: focusSp.scale.y }; }, get zeDebug() { return { cue: clock < zeCueUntil ? zeCue : "", wander: zeWander && { x: zeWander.x, cue: zeWander.cue, arrived: !!zeWander.arrived }, pz: pzCue?.id || "", clock: +clock.toFixed(1), idle: +(clock - zeIdleT).toFixed(1), walk: zeWalk, follow: zeFollow, duo: !!duo }; }, emote, SPOTS, surfaceAt };
+  return { rescue, eri, furo, shrine, WM, setFocus, THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx, wishTree, fireplace, setPlayer, zeAction, nearestSpot, tossCoin, duoReady, duoAct, onDuo(f) { onDuo = f; }, get zeFollow() { return zeFollow; }, pickEma(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return ray.intersectObjects(wishTree.emaPick, false)[0]?.object.userData.wish || null; }, onSplash(f) { onSplash = f; }, onBonk(f) { onBonk = f; }, CEILS, PLATS, propTop, moveH, get focusDebug() { const v = focusSp.position.clone().project(camera); return { id: focusS?.id, vis: focusSp.visible, op: focusSp.material.opacity, sx: (v.x + 1) / 2, sy: (1 - v.y) / 2, scale: focusSp.scale.y }; }, get zeDebug() { return { cue: clock < zeCueUntil ? zeCue : "", wander: zeWander && { x: zeWander.x, cue: zeWander.cue, arrived: !!zeWander.arrived }, pz: pzCue?.id || "", clock: +clock.toFixed(1), idle: +(clock - zeIdleT).toFixed(1), walk: zeWalk, follow: zeFollow, duo: !!duo }; }, emote, SPOTS, surfaceAt };
 }

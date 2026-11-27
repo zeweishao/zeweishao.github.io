@@ -321,7 +321,7 @@ export function buildEri(THREE) {
       const top = new THREE.Box3().setFromObject(m).max.y, inv = new THREE.Matrix4().copy(root.matrixWorld).invert();
       const put = (s, b, x, y, z) => { if (!b) return; s.removeFromParent(); s.position.set(x, y, z); root.add(s); root.updateMatrixWorld(true); b.attach(s); };
       const hb = (n) => { const b = bone(n); if (!b) return [0, 0, 0]; const v = b.getWorldPosition(new THREE.Vector3()).applyMatrix4(inv); return [v.x, v.y, v.z]; };
-      put(sockets.headTop, bone("head"), 0, top - 0.035, -0.03); sockets.headTop.scale.setScalar(1.45); // 精模头发更蓬，小鸭放大一点坐在头顶
+      put(sockets.headTop, bone("head"), 0, top - 0.03, 0.11); // 头顶最高点在脸这一侧（z≈+0.11），不是后脑勺 sockets.headTop.scale.setScalar(1.45); // 精模头发更蓬，小鸭放大一点坐在头顶
       const hL = hb("hand.L"), hR = hb("hand.R");
       put(sockets.handL, bone("hand.L"), hL[0] + 0.03, hL[1] - 0.04, hL[2] + 0.02);
       put(sockets.handR, bone("hand.R"), hR[0] - 0.03, hR[1] - 0.04, hR[2] + 0.02);

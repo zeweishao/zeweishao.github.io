@@ -87,6 +87,8 @@
         <div class="set-row"><span>声音</span><button class="set-tog ${Sound.muted ? "" : "on"}" id="setSound" role="switch" aria-checked="${!Sound.muted}"><i></i></button></div>
         ${H ? `<div class="set-row"><span>视角</span><div class="set-cam"><button data-cam="in">＋ 拉近</button><button data-cam="out">－ 拉远</button><button data-cam="reset">⟲ 回正</button></div></div>
         <p class="sub set-tip">在画面上双指捏合、滚轮也能缩放，拖动可以转视角。</p>` : ""}
+        ${H ? `<div class="set-row"><span>卡住了</span><div class="set-cam"><button data-rescue="near">脱离卡顿</button><button data-rescue="home">回到屋里</button></div></div>
+        <p class="sub set-tip">卡在东西里、跳不下来时点一下，会挪到旁边的空地上。</p>` : ""}
         <div class="set-row"><span>身份</span><span class="set-who">${r === "泽" ? "泽泽" : r === "雪" ? "雪雪" : "还没选"}<button class="xb-link" id="setWho">切换</button></span></div>
       </div>`, (el) => {
       el.querySelector("#setSound").onclick = (e) => { Sound.toggle(); if (!Sound.muted) Sound.pop(); const b = e.currentTarget; b.classList.toggle("on", !Sound.muted); b.setAttribute("aria-checked", String(!Sound.muted)); };
@@ -94,6 +96,10 @@
         const v = window.XBHall?.view; if (!v) return; const c = b.dataset.cam;
         if (c === "reset") { v.reset(); v.touched = false; } else { v.touched = true; v.zoom(c === "in" ? 0.8 : 1.25); }
         Sound.pop();
+      });
+      el.querySelectorAll("[data-rescue]").forEach((b) => b.onclick = () => {
+        const h = window.XBHall?.hall; if (!h?.rescue) return;
+        h.rescue(b.dataset.rescue === "home"); Sound.pop(); closeSheet(); window.XBGame?.react?.(b.dataset.rescue === "home" ? "回到屋里啦～" : "好啦，脱身了～");
       });
       el.querySelector("#setWho").onclick = () => askWho();
     });
