@@ -249,7 +249,7 @@ function start() {
   let entering = false;
   // 和加载页同一套画面：拱门里的雪宝挥手，下面写要去哪儿
   const veil = document.createElement("div"); veil.className = "wl veil"; veil.setAttribute("aria-hidden", "true");
-  veil.innerHTML = '<div class="wl-stage"><div class="wl-arch"><span class="wl-glow"></span></div><img class="wl-xb" src="xuebao-assets/xb-loading.webp?v=1" alt=""></div><div class="wl-text"><h1 class="wl-title"></h1><p class="wl-tip"></p><div class="wl-bar"><span style="width:100%"></span></div></div>';
+  veil.innerHTML = '<div class="wl-stage"><div class="wl-arch"><span class="wl-glow"></span></div><img class="wl-xb" src="xuebao-assets/xb-loading.webp?v=3" alt=""></div><div class="wl-text"><h1 class="wl-title"></h1><p class="wl-tip"></p><div class="wl-bar"><span style="width:100%"></span></div></div>';
   document.body.append(veil);
   // 进页面之前先问一句（避免点错了直接跳走）
   const ENTRY_ART = ["letter", "albums", "videos", "comic", "stories", "milk-tea", "messages", "star-post", "figures"];
@@ -363,7 +363,7 @@ function start() {
   ];
   let lastAct = SOLO[0];
   // 泽泽当玩家时：自己的动作用泽泽的头像
-  const ava = (a) => `background-image:url(${A}${G()?.role === "泽" && !a.duo ? "ze-portrait" : a.img}.webp)${G()?.role === "泽" && !a.duo ? ";background-size:cover;background-position:50% 30%" : ""}`;
+  const ava = (a) => `background-image:url(${A}${G()?.role === "泽" && !a.duo ? "ze-portrait" : a.img}.webp?v=3)${G()?.role === "泽" && !a.duo ? ";background-size:cover;background-position:50% 30%" : ""}`;
   let lastRole = null;
   setInterval(() => { const r = G()?.role; if (r !== lastRole) { lastRole = r; setActBtn(); } }, 1000);
   function setActBtn() { actBtn.querySelector(".ava").setAttribute("style", ava(lastAct)); actBtn.querySelector(".run-dot").hidden = !runLock; }

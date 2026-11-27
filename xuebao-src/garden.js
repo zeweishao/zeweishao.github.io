@@ -26,6 +26,9 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
   const BENCH = { x: 0.46, z: -15.54, yaw: 1.71, front: 0.105 };
   const BENCH_EXIT = { x: BENCH.x + 0.5 * Math.sin(BENCH.yaw), z: BENCH.z + 0.5 * Math.cos(BENCH.yaw) };
   const POND_PATH = 8, HOUSE_PATH = 5;
+  // 樱花神社（shrine.js）：草坪左边外面的小坡上平出一块地
+  const SHRINE = { x: -9.3, z: -11.1, rx: 3.3, rz: 3.0, h: 0.06 };
+  const shrineE = (x, z) => Math.sqrt(((x - SHRINE.x) / SHRINE.rx) ** 2 + ((z - SHRINE.z) / SHRINE.rz) ** 2);
   const pondE = (x, z) => Math.sqrt(((x - POND.x) / POND.rx) ** 2 + ((z - POND.z) / POND.rz) ** 2);
   const noise = (x, z) => Math.sin(x * 0.7 + 1.3) * Math.cos(z * 0.55 - 0.4) * 0.5 + Math.sin(x * 1.9 + z * 1.3) * 0.18;
   function heightAt(x, z) {
@@ -37,6 +40,7 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
     const blend = roomEdge + (1 - roomEdge) * sideEdge;
     let h = (Math.max(0, e - 1.08) * (1.5 + noise(x, z) * 0.9) + slope) * blend;
     const pe = pondE(x, z); if (pe < 1.12) h -= 0.14 * (1 - THREE.MathUtils.smoothstep(pe, 0.75, 1.12));
+    const se = shrineE(x, z); if (se < 1.45) { const w = 1 - THREE.MathUtils.smoothstep(se, 0.95, 1.45); h = h * (1 - w) + SHRINE.h * w; }
     return h;
   }
 
@@ -294,6 +298,7 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
     const a = rnd() * Math.PI * 2, e = R(1.18, 2.7), x = LAWN.x + Math.cos(a) * LAWN.rx * e, z = LAWN.z + Math.sin(a) * LAWN.rz * e;
     if (z > -5.4 || (Math.abs(x) < 3.2 && z > -7) || (x > 3 && x < 8.2 && z < -9.8 && z > -15)) continue;
     if (TREES.some((t) => (t.x - x) ** 2 + (t.z - z) ** 2 < 1.1)) continue;
+    if (shrineE(x, z) < 1.35) continue;
     const r = rnd(); tree(x, z, R(0.72, 1.49) * (e > 2 ? 1.15 : 1), r < 0.2 ? "pine" : r < 0.42 ? "blossom" : r < 0.5 ? "lav" : "round"); i++;
   }
   const swing = new THREE.Group(); swing.position.set(-2.7, 2.6, -15.6); root.add(swing);
@@ -322,7 +327,7 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
     const N = mobile ? 40 : 64, bm = new THREE.InstancedMesh(blobGeo, std({ roughness: 0.95, vertexColors: true }), N), m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), c = new THREE.Color(); let n = 0;
     for (let i = 0; i < N * 3 && n < N; i++) {
       const a = rnd() * 6.28, e = R(1.0, 1.14), x = LAWN.x + Math.cos(a) * LAWN.rx * e, z = LAWN.z + Math.sin(a) * LAWN.rz * e;
-      if (z > -6.7) continue;
+      if (z > -6.7 || shrineE(x, z) < 1.2) continue;
       const r = R(0.22, 0.42); m4.compose(new THREE.Vector3(x, heightAt(x, z) + r * 0.5, z), q, new THREE.Vector3(r * 1.2, r * 0.85, r)); bm.setMatrixAt(n, m4); bm.setColorAt(n++, c.set(GREENS[n % GREENS.length]).offsetHSL(0, 0, -0.04));
     }
     bm.count = n; bm.castShadow = bm.receiveShadow = true; root.add(bm);
@@ -330,7 +335,7 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
 
   // ---------- 小花：路两边、草坪上一簇一簇 ----------
   const onPath = (x, z, w = 0.42) => PATH_POLY.some((pl) => pl.some(([px, pz]) => (px - x) ** 2 + (pz - z) ** 2 < w * w));
-  const blocked = (x, z) => Math.hypot(x - FC.x, z - FC.z) < 1.25 || pondE(x, z) < 1.2 || Math.hypot(x - SW.x, z - SW.z) < 0.5 || Math.hypot(x - 5.3, z + 12.4) < 2.25 || Math.hypot(x + 4.6, z + 12.6) < 0.8 || Math.hypot(x + 3.0, z + 8.4) < 0.5;
+  const blocked = (x, z) => shrineE(x, z) < 1.1 || Math.hypot(x - FC.x, z - FC.z) < 1.25 || pondE(x, z) < 1.2 || Math.hypot(x - SW.x, z - SW.z) < 0.5 || Math.hypot(x - 5.3, z + 12.4) < 2.25 || Math.hypot(x + 4.6, z + 12.6) < 0.8 || Math.hypot(x + 3.0, z + 8.4) < 0.5;
   {
     const N = mobile ? 420 : 760, FL = ["#f7b4c4", "#ffffff", "#f9d86b", "#c7a6e6", "#ff9db0", "#bfe0ff"];
     // 花头：五六片圆头花瓣微微上翘围成小碗，中间单独一颗花心；茎上两片小叶子
@@ -605,5 +610,5 @@ export function buildGarden(THREE, scene, { D, W, FRONT, mobile }) {
     butterflies.forEach((b) => { b.g.visible = !env.night && !env.rain && !env.snow; if (!b.g.visible) return; b.ph += dt * 0.5; const x = b.cx + Math.cos(b.ph) * b.r, z = b.cz + Math.sin(b.ph * 1.3) * b.r * 0.7; b.g.position.set(x, 0.45 + Math.sin(b.ph * 3) * 0.15, z); b.g.rotation.y = b.ph; const f = Math.sin(t * 18 + b.ph) * 1.1; b.L.rotation.z = f; b.Rr.rotation.z = -f; });
   }
 
-  return { root, walk, spots, update, heightAt, rainRipple: () => ripple(R(-0.7, 0.7) * POND.rx, R(-0.6, 0.6) * POND.rz), SEAT, ground: root.getObjectByName("ground"), Z0, LAWN, setExtraWalk(f) { extraWalk = f; } };
+  return { root, walk, spots, update, heightAt, rainRipple: () => ripple(R(-0.7, 0.7) * POND.rx, R(-0.6, 0.6) * POND.rz), SEAT, ground: root.getObjectByName("ground"), Z0, LAWN, SHRINE, setExtraWalk(f) { extraWalk = f; } };
 }

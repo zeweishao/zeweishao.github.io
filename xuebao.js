@@ -198,7 +198,7 @@
   // ---------- 雪宝本人 ----------
   const POSE = { idle: "xb-idle", tea: "xb-tea", book: "xb-book", nap: "xb-nap", wave: "xb-wave", jump: "xb-jump", wow: "xb-wow", back: "xb-back", wait: "xb-wait", pack: "xb-pack" };
   const ratio = {}; // 宽/高
-  Object.entries(POSE).forEach(([k, f]) => { const im = new Image(); im.onload = () => { ratio[k] = im.naturalWidth / im.naturalHeight; if (k === pose) placeMe(true); }; im.src = A + f + ".webp?v=2"; });
+  Object.entries(POSE).forEach(([k, f]) => { const im = new Image(); im.onload = () => { ratio[k] = im.naturalWidth / im.naturalHeight; if (k === pose) placeMe(true); }; im.src = A + f + ".webp?v=3"; });
   let pose = "idle", pos = { x: 52, y: 93 }, sitting = false;
   const SPOT = { rug: { x: 52, y: 93 }, door: { x: 89.5, y: 77.5 } };
   // 给 3D 花园大厅（xuebao-hall.js）读：雪宝站在哪、什么姿势
@@ -248,7 +248,7 @@
   function setPose(p) {
     if (p === pose && meImg.src.includes(POSE[p])) return;
     pose = p; sitting = ["tea", "book", "nap", "wait", "pack"].includes(p);
-    meImg.src = A + POSE[p] + ".webp?v=2";
+    meImg.src = A + POSE[p] + ".webp?v=3";
     me.classList.remove("swap"); void me.offsetWidth; me.classList.add("swap");
     placeMe(false);
   }
@@ -833,7 +833,7 @@
   function cardHTML(g) {
     const d = DEST[g.dest], c = g.meet && CHAR[g.meet];
     const front = pcSrc(d.id) ? `<img src="${pcSrc(d.id)}" alt="${esc(d.place)}的明信片">`
-      : `<div class="xb-pc-fallback"><div class="art" style="--c1:${palFor(d.id)[0]};--c2:${palFor(d.id)[1]};--c3:${palFor(d.id)[2]}"><span class="name">${esc(d.place)}</span><span class="hint">手绘明信片还在路上，先寄一张速写</span><span class="stampbox"></span><img class="me" src="${A}xb-wave.webp" alt=""></div></div>`;
+      : `<div class="xb-pc-fallback"><div class="art" style="--c1:${palFor(d.id)[0]};--c2:${palFor(d.id)[1]};--c3:${palFor(d.id)[2]}"><span class="name">${esc(d.place)}</span><span class="hint">手绘明信片还在路上，先寄一张速写</span><span class="stampbox"></span><img class="me" src="${A}xb-wave.webp?v=3" alt=""></div></div>`;
     return `<div class="xb-card-wrap"><div class="xb-card" tabindex="0"><div class="xb-card-in">
       <div class="xb-face front">${front}</div>
       <div class="xb-face back"><div class="story">${esc(d.story)}${c ? `<span class="meet">${esc(c.line.replace("{place}", d.place.split("·").pop()))}</span>` : ""}${g.special ? `<span class="meet">附：${esc(g.special.title)}——${esc(g.special.text)}</span>` : ""}<span class="sign">—— 雪宝 · ${md(g.at || Date.now())}</span></div>

@@ -5,6 +5,7 @@
  */
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { clone as skClone } from "three/addons/utils/SkeletonUtils.js";
 import { HDRLoader } from "three/addons/loaders/HDRLoader.js";
 import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
 import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
@@ -14,6 +15,8 @@ import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
 import { buildXuebao } from "./xuebao-model.js";
 import { createWalkMap } from "./walkmap.js";
 import { buildZe } from "./ze-model.js";
+import { buildEri } from "./eri-model.js";
+import { buildShrine } from "./shrine.js";
 import { buildWishTree } from "./wishtree.js";
 import { buildFireplace } from "./fireplace.js";
 import { buildGarden } from "./garden.js";
@@ -294,6 +297,20 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   const wishTree = buildWishTree(THREE, scene, { heightAt: garden.heightAt, mobile });
   // 瀑布小溪、宠物、灯串、彩旗、野餐毯、远山城堡热气球（garden-extras.js）
   const extras = buildGardenExtras(THREE, scene, { heightAt: garden.heightAt, mobile, Z0: garden.Z0 });
+  // ---------- 樱花神社（shrine.js）：草坪左边外的小坡上，鸟居朝着喷泉 ----------
+  const shrine = buildShrine(THREE, scene, { heightAt: garden.heightAt, mobile, x: garden.SHRINE.x, z: garden.SHRINE.z });
+  // ---------- 主角形象：小绘梨衣（eri-model.js，精模 xuebao-3d/eri.glb，换装接口见 eri-model.js 顶部）----------
+  // 动作还是弗洛洛那一套（xuebao.glb 的 14 段动画在后台照常播），每帧把骨骼姿势转到绘梨衣身上（wearEri / driveEri）
+  const eri = buildEri(THREE);
+  const eriReady = eri.loadGlb(GLTFLoader, R + "eri.glb?v=20261127a");
+  // ---------- 弗洛洛：原来的主角，现在是好朋友 NPC，在花园里到处逛（stepFuro）----------
+  const FURO_PLACES = [[0.95, -8.9], [-2.3, -10.4], [2.5, -12.3], [-1.5, -14.3], [1.9, -14.7], [4.7, -10.3], [-5.9, -10.9], [-3.4, -12.6], [shrine.spots[0].spot.x + 0.4, shrine.spots[0].spot.z - 0.3], [3.4, -8.6]];
+  const furo = { root: new THREE.Group(), model: null, mixer: null, acts: {}, cur: null, x: -2.3, z: -10.4, yaw: 0.6, path: [], wait: 3, cue: "idle", talkT: 0 };
+  furo.root.visible = false; scene.add(furo.root);
+  const furoSpot = { id: "furo-npc", name: "弗洛洛", icon: "🎀", verb: "找弗洛洛", noMarker: true, at: [furo.x, 1.2, furo.z], spot: { x: furo.x, z: furo.z + 0.6 }, face: Math.PI, pick: [furo.root], clip: "wave", dur: 2.4, near: 1.5,
+    available: () => !!furo.model,
+    lines: ["绘梨衣，你头上的小鸭今天也好可爱！", "玫瑰开了，我刚去闻过～", "要不要一起去神社摇铃铛？", "嘘——我在找泽泽藏起来的小星星。", "花园好大，我每天都逛不完。"],
+    start() { furo.talkT = 3.2; furo.path = []; } };
   // ---------- 9 个分页面的入口（entrances.js）：大厅 4 个、花园 5 个 ----------
   // 雨、雪、积雪、雪人、小伞（weather.js）
   const wx = buildWeather(THREE, scene, { Z0: garden.Z0, mobile, heightAt: garden.heightAt });
@@ -434,9 +451,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   contact.material.blending = THREE.CustomBlending; contact.material.blendSrc = THREE.ZeroFactor; contact.material.blendDst = THREE.OneMinusSrcAlphaFactor;
   contact.renderOrder = 2; scene.add(contact);
   // 能走的地方：一张地面网格（walkmap.js）。大厅前半 + 两张沙发中间的过道 + 门洞 + 花园，家具和树挖掉
-  const WM = createWalkMap({ x0: -8, x1: 8, z0: -19, z1: FRONT });
+  const WM = createWalkMap({ x0: -12.6, x1: 8, z0: -19, z1: FRONT });
   WM.rect(-1.8, 2.0, -1.05, FRONT - 0.75).rect(-0.85, 0.85, -D + 0.75, -1.05).circle(0, SAL.z, 0.62);
-  garden.walk(WM); wishTree.walk(WM); WM.rect(-.68,1.08,FRONT-.72,FRONT,0); ent.walk(WM); fh.walk(WM); extras.walk(WM); WM.circle(wx.snowman.x, wx.snowman.z, 0.3);
+  garden.walk(WM); wishTree.walk(WM); WM.rect(-.68,1.08,FRONT-.72,FRONT,0); ent.walk(WM); fh.walk(WM); extras.walk(WM); WM.circle(wx.snowman.x, wx.snowman.z, 0.3); shrine.walk(WM);
   wx.snowifyTree(scene, (o) => o === xb || o === ze.root || o === snowStand || o === fireplace.root); // 先给屋外材质都装上积雪着色器（平时为 0，不影响画面），下雪时不再卡一下
   const walkClamp = (x, z) => WM.clamp(x, z);
   // 只展示已加载的精模。新版失败时尝试上一版，加载期间保持人物隐藏。
@@ -477,7 +494,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
         GLB.mixer = new THREE.AnimationMixer(model);
         animations.forEach((clip) => { GLB.acts[clip.name.replace(/^xb_/, "")] = GLB.mixer.clipAction(clip); });
         GLB.model = model;
+        captureRest(model); furoInit(model, animations);
         (playerZe ? snowStand : xb).add(model);
+        eriReady.then((ok) => { if (ok) wearEri(model); });
         GLB.ready = true;
         host.dataset.xbModelVersion = "v6";
         host.dataset.xbModel = "ready";
@@ -493,6 +512,94 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     setStatus("网络有点慢，雪宝还没到。", true);
   }
   loadCharacter().finally(() => manager.itemEnd(characterLoad));
+  // ---------- 弗洛洛的动作 → 绘梨衣的骨骼 ----------
+  // 两边都在“模型空间”里算：D = 弗洛洛骨骼现在的朝向 × 静止朝向⁻¹；绘梨衣骨骼 = D × C × 她自己的静止朝向
+  // （C 把绘梨衣静止时的骨骼方向对齐到弗洛洛的，比如她的 A 字手臂）。从髋往下按父子顺序算，再换回局部旋转。
+  const EB = ["hips", "spine", "head", "upperarm.L", "forearm.L", "hand.L", "upperarm.R", "forearm.R", "hand.R", "thigh.L", "shin.L", "foot.L", "thigh.R", "shin.R", "foot.R"];
+  const EB_PARENT = { spine: "hips", head: "spine", "upperarm.L": "spine", "forearm.L": "upperarm.L", "hand.L": "forearm.L", "upperarm.R": "spine", "forearm.R": "upperarm.R", "hand.R": "forearm.R", "thigh.L": "hips", "shin.L": "thigh.L", "foot.L": "shin.L", "thigh.R": "hips", "shin.R": "thigh.R", "foot.R": "shin.R" };
+  const EB_CHILD = { hips: "spine", spine: null, "upperarm.L": "forearm.L", "forearm.L": "hand.L", "upperarm.R": "forearm.R", "forearm.R": "hand.R", "thigh.L": "shin.L", "shin.L": "foot.L", "thigh.R": "shin.R", "shin.R": "foot.R" };
+  const EB_GAIN = { "upperarm.L": 0.7, "upperarm.R": 0.7, "forearm.L": 0.8, "forearm.R": 0.8 }; // 宽袖子：手臂少跟一点，不扯坏
+  const restX = {}; let EDRV = null;
+  const _qa = new THREE.Quaternion(), _qb = new THREE.Quaternion(), _qc = new THREE.Quaternion(), _va = new THREE.Vector3(), _vb = new THREE.Vector3();
+  const byName = (root, n) => root.getObjectByName(n) || root.getObjectByName(n.replace(".", "")) || root.getObjectByName(n.replace(".", "_"));
+  const modelQ = (model, o, out = new THREE.Quaternion()) => out.copy(model.getWorldQuaternion(_qc).invert()).multiply(o.getWorldQuaternion(_qa));
+  const modelP = (model, o, out = new THREE.Vector3()) => model.worldToLocal(o.getWorldPosition(out));
+  function captureRest(model) { // 刚加载、还没播动画时记下弗洛洛骨骼的静止姿势
+    model.updateMatrixWorld(true);
+    for (const n of [...EB, "chest"]) { const b = byName(model, n); if (b) restX[n] = { b, q: modelQ(model, b), p: modelP(model, b) }; }
+  }
+  function wearEri(model) {
+    const rig = eri.rig; if (!rig || !restX.hips) return;
+    eri.root.updateMatrixWorld(true);
+    const hipE = rig.bone("hips"); if (!hipE) return;
+    const s0 = restX.hips.p.y / hipE.getWorldPosition(_va).y; // 髋一样高
+    model.traverse((o) => { if (o.isMesh) { o.visible = false; o.castShadow = false; } }); // 弗洛洛的身体藏起来，只留骨骼和动画
+    eri.root.scale.setScalar(s0); model.add(eri.root); eri.sockets.headTop.scale.setScalar(1.15); model.updateMatrixWorld(true);
+    eri.root.traverse((o) => { if (o.isMesh) { o.userData.xb = true; if (o.material && !XB.mats.includes(o.material)) XB.mats.push(o.material); } });
+    const list = [], byE = {};
+    for (const n of EB) {
+      const e = rig.bone(n), x = restX[n]; if (!e || !x) continue;
+      const it = { n, e, x: x.b, xRestInv: x.q.clone().invert(), eRest: modelQ(model, e), C: new THREE.Quaternion(), g: EB_GAIN[n] || 1, model: new THREE.Quaternion(), parent: null };
+      const cn = n === "spine" ? null : EB_CHILD[n];
+      if (cn && rig.bone(cn) && restX[cn]) {
+        const dE = modelP(model, rig.bone(cn)).sub(modelP(model, e)).normalize(), dX = restX[cn].p.clone().sub(x.p).normalize();
+        it.C.setFromUnitVectors(dE, dX);
+      } else if (EB_PARENT[n] && byE[EB_PARENT[n]] && /hand|foot/.test(n)) it.C.copy(byE[EB_PARENT[n]].C);
+      it.parent = byE[EB_PARENT[n]] || null; byE[n] = it; list.push(it);
+    }
+    EDRV = { model, list, hipsParentQ: modelQ(model, rig.bone("hips").parent), hipX: restX.hips };
+    GLB.hands = [rig.bone("hand.L"), rig.bone("hand.R")];
+    host.dataset.xbAvatar = "eri";
+  }
+  function driveEri() {
+    if (!EDRV) return;
+    const { model, list } = EDRV; model.updateMatrixWorld(true);
+    for (const b of list) {
+      modelQ(model, b.x, _qb).multiply(b.xRestInv).multiply(b.C).multiply(b.eRest);
+      if (b.g < 1) _qb.copy(_qc.copy(b.eRest).slerp(_qb, b.g));
+      b.model.copy(_qb);
+      b.e.quaternion.copy(b.parent ? b.parent.model : EDRV.hipsParentQ).invert().multiply(_qb);
+    }
+    modelP(model, EDRV.hipX.b, _vb).sub(EDRV.hipX.p); eri.root.position.copy(_vb); // 弗洛洛蹲下、坐下、跳起来时髋的高度变化
+  }
+  // ---------- 弗洛洛 NPC ----------
+  function furoInit(model, animations) {
+    const fm = skClone(model);
+    fm.traverse((o) => { if (o.isMesh) { o.material = o.material.clone(); o.userData.xb = false; o.castShadow = o.name !== "FaceDecal"; o.receiveShadow = true; o.frustumCulled = false; } });
+    furo.mixer = new THREE.AnimationMixer(fm);
+    animations.forEach((c) => { furo.acts[c.name.replace(/^xb_/, "")] = furo.mixer.clipAction(c); });
+    furo.root.add(fm); furo.model = fm; furo.root.visible = true;
+  }
+  function furoPlay(name, ts = 1) {
+    const next = furo.acts[name] || furo.acts.idle; if (!next) return;
+    if (next !== furo.cur) { next.reset().setEffectiveWeight(1).play(); if (furo.cur) next.crossFadeFrom(furo.cur, 0.3, true); furo.cur = next; }
+    next.timeScale = ts;
+  }
+  function stepFuro(dt, t) {
+    if (!furo.model) return;
+    const px = xb.position.x, pz = xb.position.z, dpx = px - furo.x, dpz = pz - furo.z, dp = Math.hypot(dpx, dpz);
+    let face = null;
+    if (furo.talkT > 0) { furo.talkT -= dt; face = Math.atan2(dpx, dpz); furoPlay(furo.talkT > 1.0 ? "wave" : "idle"); }
+    else if (furo.path.length) {
+      const q = furo.path[0], dx = q.x - furo.x, dz = q.z - furo.z, d = Math.hypot(dx, dz), st = Math.min(d, dt * 0.85);
+      if (d < 0.05) furo.path.shift(); else { furo.x += dx / d * st; furo.z += dz / d * st; face = Math.atan2(dx, dz); }
+      furoPlay("walk", 1.25);
+    } else {
+      furo.wait -= dt;
+      if (dp < 2.4) { face = Math.atan2(dpx, dpz); if (furo.cue !== "wave" && dp < 1.8 && furo.wait > 1) { furo.cue = "wave"; } }
+      furoPlay(furo.cue);
+      if (furo.wait <= 0) {
+        const opts = FURO_PLACES.filter(([x, z]) => Math.hypot(x - furo.x, z - furo.z) > 1.5 && WM.walkable(x, z));
+        const [tx, tz] = opts[Math.floor(Math.random() * opts.length)] || [furo.x, furo.z];
+        furo.path = (WM.path(furo.x, furo.z, tx, tz) || []).map((q) => ({ x: q.x, z: q.z }));
+        furo.wait = 4 + Math.random() * 6; furo.cue = ["idle", "idle", "wait", "wow", "wave"][Math.floor(Math.random() * 5)];
+      }
+    }
+    if (face != null) { let d = face - furo.yaw; d = Math.atan2(Math.sin(d), Math.cos(d)); furo.yaw += d * Math.min(1, dt * 6); }
+    furo.root.position.set(furo.x, garden.heightAt(furo.x, furo.z), furo.z); furo.root.rotation.y = furo.yaw; furo.root.scale.copy(xb.scale);
+    furo.mixer.update(dt);
+    furoSpot.at[0] = furo.x; furoSpot.at[2] = furo.z; furoSpot.spot.x = furo.x + Math.sin(furo.yaw) * 0.6; furoSpot.spot.z = furo.z + Math.cos(furo.yaw) * 0.6; furoSpot.face = furo.yaw + Math.PI;
+  }
   const CLIP = { idle: "idle", wait: "wait", tea: "tea", book: "book", nap: "nap", wave: "wave", wow: "wow", jump: "wow", back: "wow", pack: "pack" };
   const _hw = new THREE.Vector3(), _hw2 = new THREE.Vector3();
   function stepGlb(dt, walking, speed) {
@@ -512,6 +619,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (want === "walk") next.timeScale = Math.max(0.6, speed * 1.5);
     if (want === "run") next.timeScale = speed * 0.62;
     GLB.mixer.update(dt);
+    driveEri();
     // 奶茶杯跟着右手、书捧在两手中间，杯子始终竖着
     const [hl, hr] = GLB.hands;
     if (hr && XB.cup.visible) { hr.getWorldPosition(_hw); xb.worldToLocal(_hw); XB.cup.position.set(_hw.x, _hw.y + 0.03, _hw.z + 0.02); XB.cup.rotation.set(0, 0, 0); }
@@ -1138,8 +1246,9 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     if (view.focus.z < garden.Z0) sun.target.position.set(Math.round(view.focus.x * 2) / 2, 0, Math.round(view.focus.z * 2) / 2); else sun.target.position.set(0, 0, -2.4);
     setSunDir(cur.elev, env.hour);
     const genv = { night: env.weather === "night", dusk: L.sky === "dusk", rain: env.weather === "rainy", snow: env.weather === "snowy" };
-    fireplace.update(dt, t, genv.night, camera); wishTree.update(dt, t);
+    fireplace.update(dt, t, genv.night, camera); wishTree.update(dt, t); shrine.update(dt, t, genv);
     garden.update(dt, t, genv); ent.update(dt, t, genv); fh.update(dt, t, genv, xb.position); extras.update(dt, t, genv, xb.position);
+    stepFuro(dt, t);
     rain.position.set(view.focus.z < garden.Z0 ? view.focus.x : 0, 0, view.focus.z < garden.Z0 ? view.focus.z + D + 1.9 : 0);
     stepMarkers(dt, t); stepFocus(dt, t);
     if (genv.snow && !snowReady) { snowReady = true; wx.snowifyTree(scene, (o) => o === xb || o === ze.root || o === snowStand || o === fireplace.root); } // 后加载的东西补一次
@@ -1171,7 +1280,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
       face: k < 0 ? Math.PI / 2 : -Math.PI / 2, pick: [], clip: "sit", dur: Infinity, lines: ["沙发好软～", "坐一会儿。", "陷进去啦。"],
       hold: () => ({ x: k * 1.4, y: 0.135, z: -2.15, yaw: k < 0 ? Math.PI / 2 : -Math.PI / 2 }) }))
   ];
-  const ALL = [zeSpot, ...houseSpots, ...wishTree.spots, ...extras.spots, ...fh.spots, ...garden.spots, ...ent.spots], SPOTS = {}; ALL.forEach((s) => { SPOTS[s.id] = s; });
+  const ALL = [zeSpot, furoSpot, ...shrine.spots, ...houseSpots, ...wishTree.spots, ...extras.spots, ...fh.spots, ...garden.spots, ...ent.spots], SPOTS = {}; ALL.forEach((s) => { SPOTS[s.id] = s; });
   // 情景键上显示的动词（走到旁边时右下角那颗按钮变成这个）
   const VERB = { fountain: "许愿", pond: "钓鱼", swing: "荡秋千", mushroom: "蹦蘑菇", bench: "坐下", arch: "闻闻玫瑰", letter: "读情书", albums: "看照片", videos: "看回忆",
     comic: "看漫画", stories: "听故事", "milk-tea": "买奶茶", messages: "说悄悄话", "star-post": "寄星星信", gramophone: "放音乐", figures: "进手办屋", "ze-npc": "找泽泽", "wish-tree": "读愿望", "pet-cat": "摸摸猫", "pet-bunny": "摸摸兔", "pet-husky": "摸摸狗" };
@@ -1182,7 +1291,7 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
   function nearestSpot() {
     const p = xb.position, inside = p.z > -D - 0.1; let best = null, bd = 1e9;
     for (const s0 of ALL) {
-      if (s0.available?.() === false || !s0.verb || s0.id.startsWith("wish-") && s0.id !== "wish-tree") continue;
+      if (s0.available?.() === false || !s0.verb || s0.id.startsWith("fig-") || s0.id.startsWith("wish-") && s0.id !== "wish-tree") continue; // fig-*：手办屋玻璃罩里的手办只能直接点，坐标是占位的 (0,0,0)
       const tx = s0.spot ? s0.spot.x : s0.at[0], tz = s0.spot ? s0.spot.z : s0.at[2];
       if ((tz > -D - 0.1) !== inside) continue;
       const lim = s0.near || (s0.spot ? 1.3 : 1.7), d = Math.hypot(tx - p.x, tz - p.z);
@@ -1461,5 +1570,5 @@ export function createHall(host, { mobile = matchMedia("(pointer: coarse)").matc
     zeSpot.at[0] = zp.x; zeSpot.at[2] = zp.z; zeSpot.spot = { x: zp.x + Math.sin(ze.root.rotation.y) * 0.55, z: zp.z + Math.cos(ze.root.rotation.y) * 0.55 };
   }
 
-  return { setFocus, THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx, wishTree, fireplace, setPlayer, zeAction, nearestSpot, tossCoin, duoReady, duoAct, onDuo(f) { onDuo = f; }, get zeFollow() { return zeFollow; }, pickEma(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return ray.intersectObjects(wishTree.emaPick, false)[0]?.object.userData.wish || null; }, onSplash(f) { onSplash = f; }, onBonk(f) { onBonk = f; }, CEILS, PLATS, propTop, moveH, get focusDebug() { const v = focusSp.position.clone().project(camera); return { id: focusS?.id, vis: focusSp.visible, op: focusSp.material.opacity, sx: (v.x + 1) / 2, sy: (1 - v.y) / 2, scale: focusSp.scale.y }; }, get zeDebug() { return { cue: clock < zeCueUntil ? zeCue : "", wander: zeWander && { x: zeWander.x, cue: zeWander.cue, arrived: !!zeWander.arrived }, pz: pzCue?.id || "", clock: +clock.toFixed(1), idle: +(clock - zeIdleT).toFixed(1), walk: zeWalk, follow: zeFollow, duo: !!duo }; }, emote, SPOTS, surfaceAt };
+  return { eri, furo, shrine, WM, setFocus, THREE, renderer, scene, camera, update, resize, view, anchors, sprites, addSprite, char, floorAt, groundAt, pick, interact, peek, hitChar, setCanvasCard, mobile, SAL, ROOM, garden, extras, mark, wx, wishTree, fireplace, setPlayer, zeAction, nearestSpot, tossCoin, duoReady, duoAct, onDuo(f) { onDuo = f; }, get zeFollow() { return zeFollow; }, pickEma(nx, ny) { ndc.set(nx * 2 - 1, -(ny * 2 - 1)); ray.setFromCamera(ndc, camera); return ray.intersectObjects(wishTree.emaPick, false)[0]?.object.userData.wish || null; }, onSplash(f) { onSplash = f; }, onBonk(f) { onBonk = f; }, CEILS, PLATS, propTop, moveH, get focusDebug() { const v = focusSp.position.clone().project(camera); return { id: focusS?.id, vis: focusSp.visible, op: focusSp.material.opacity, sx: (v.x + 1) / 2, sy: (1 - v.y) / 2, scale: focusSp.scale.y }; }, get zeDebug() { return { cue: clock < zeCueUntil ? zeCue : "", wander: zeWander && { x: zeWander.x, cue: zeWander.cue, arrived: !!zeWander.arrived }, pz: pzCue?.id || "", clock: +clock.toFixed(1), idle: +(clock - zeIdleT).toFixed(1), walk: zeWalk, follow: zeFollow, duo: !!duo }; }, emote, SPOTS, surfaceAt };
 }
